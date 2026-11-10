@@ -1,0 +1,266 @@
+/* Banderín · English version.
+   Language: the visitor's choice (saved as banderin.lang, a user-interface
+   setting that needs no consent) or, by default, the browser language. */
+(function(){
+var l=null;
+try{l=JSON.parse(localStorage.getItem('banderin.lang'))}catch(e){}
+if(l!=='es'&&l!=='en'){var n=(navigator.languages&&navigator.languages[0])||navigator.language||'es';l=/^(es|ca|gl|eu)\b/i.test(n)?'es':'en'}
+window.LANG=l;document.documentElement.lang=l;
+})();
+
+window.EN={
+/* navegación y portada */
+"Un proyecto de Esclusa":"A project by Esclusa","Inicio":"Home","Torneos":"Tournaments","Calendario":"Calendar","Resultados":"Results","Fuentes":"Sources",
+"Cambiar entre modo claro y oscuro":"Switch between light and dark mode","Cambiar tema":"Change theme",
+"Torneos de golf en España":"Golf tournaments in Spain","¿Dónde juegas este":"Where are you playing","fin de semana":"this weekend",
+"Tu ciudad":"Your city","Distancia máxima":"Maximum distance","Cualquier distancia":"Any distance","Hasta 25 km":"Up to 25 km","Hasta 50 km":"Up to 50 km","Hasta 100 km":"Up to 100 km","Hasta 200 km":"Up to 200 km",
+"Ver torneos del finde":"See this weekend's tournaments","O explora los":"Or browse all","torneos":"tournaments","torneo":"tournament",
+"Este fin de semana":"This weekend","Ver todos":"See all","Mapa de torneos":"Tournament map","El golf de España, campo a campo.":"Spanish golf, course by course.",
+"30 días":"30 days","3 meses":"3 months","Todo":"All","Mapa de España con los campos que tienen torneos":"Map of Spain showing courses with tournaments",
+"Campo con torneos":"Course with tournaments","Más torneos en la provincia":"More tournaments in the province",
+"Cierra pronto":"Closing soon","Explora por tipo":"Browse by type","Encuentra tu tipo de torneo.":"Find your kind of tournament.",
+"Grandes citas":"Big events","Campeonatos que no conviene perderse.":"Championships worth planning for.","Próximos 14 días":"Next 14 days",
+"De dónde salen los datos":"Where the data comes from","Ver las fuentes":"See the sources",
+"Encuentra tu próximo torneo.":"Find your next tournament.","Abiertos":"Open","Comunidades":"Regions",
+"Torneo, campo o ciudad":"Tournament, course or town","Buscar torneo, campo o ciudad":"Search tournament, course or town","Tu ciudad, para calcular distancias":"Your city, to work out distances",
+"Filtros":"Filters","Quitar todos los filtros":"Clear all filters","Limpiar":"Clear",
+"Comunidad":"Region","Provincia":"Province","Categoría":"Category","Inscripción":"Entry","Género":"Gender","Modalidad":"Format of play","Formato":"Format","Tipo de campo":"Course type","Organizador":"Organiser","Precio":"Price",
+"Cualquiera":"Any","Todas":"All","Gratis":"Free","Hasta 30 €":"Up to €30","Hasta 60 €":"Up to €60","Con precio publicado":"Price published","Desde":"From","Hasta":"To","Fuente":"Source","Ocultar finalizados":"Hide finished",
+"Atajos":"Shortcuts","Ordenar":"Sort","Por fecha":"By date","Por distancia":"By distance","Cierre de inscripción":"Entry deadline","Ficha del torneo":"Tournament details",
+"Anterior":"Previous","Siguiente":"Next","torneos ese día con tus filtros":"tournaments that day with your filters","Toca un día para ver su lista":"Tap a day to see its list",
+"Lo que debes saber":"Good to know",
+"Los datos se revisan una vez al día en las webs enlazadas. Fechas, plazas y precios pueden cambiar entre una revisión y la siguiente: confirma siempre en la web del organizador antes de inscribirte. Las distancias son aproximadas, en línea recta desde el municipio del campo (o desde la capital de provincia si no consta el municipio).":"Data is checked once a day on the linked websites. Dates, places and prices can change between checks, so always confirm on the organiser's website before you enter. Distances are approximate, as the crow flies from the course's town (or from the provincial capital when the town is not listed).",
+"Textos legales":"Legal","Aviso legal":"Legal notice","Privacidad":"Privacy","Cookies":"Cookies","Términos de uso":"Terms of use",
+"Todos los torneos de golf de España en un solo sitio, revisados cada mañana. Un proyecto de Esclusa.":"Every golf tournament in Spain in one place, checked every morning. A project by Esclusa.",
+"Explorar":"Explore","Fuentes de datos":"Data sources","Información":"About","Cómo funciona":"How it works","Quién está detrás":"Who is behind it","Corregir un torneo":"Correct a tournament","Legal":"Legal",
+"Política de privacidad":"Privacy policy","Política de cookies":"Cookie policy","Configurar cookies":"Cookie settings",
+"Esclusa. Banderín no organiza estos torneos ni gestiona inscripciones.":"Esclusa. Banderín does not organise these tournaments or handle entries.",
+"Aviso de cookies":"Cookie notice","Tu privacidad, primero":"Your privacy comes first",
+"Banderín no usa cookies de publicidad ni de analítica. Solo nos gustaría recordar en este navegador tus preferencias: tema, ciudad, torneos guardados y torneos jugados. ¿Nos dejas? Más detalles en la":"Banderín uses no advertising or analytics cookies. We would only like to remember your preferences in this browser: theme, city, saved and played tournaments. Is that OK? More in the",
+"política de cookies":"cookie policy","Rechazar":"Reject","Configurar":"Settings","Aceptar":"Accept",
+"Elige qué puede guardar Banderín en este navegador. Puedes cambiarlo cuando quieras desde el pie de página.":"Choose what Banderín may store in this browser. You can change it any time from the footer.",
+"Necesarias":"Necessary","Siempre activas":"Always on","Recuerdan tu elección sobre cookies y tu idioma durante 12 meses. Sin ellas te preguntaríamos en cada visita.":"Remember your cookie choice and language for 12 months. Without them we would ask on every visit.",
+"Preferencias":"Preferences","Permitir cookies de preferencias":"Allow preference cookies",
+"Recuerdan el modo claro u oscuro, tu ciudad y distancia, los torneos que guardas con la estrella y los que marcas como jugados.":"Remember light or dark mode, your city and distance, the tournaments you star and the ones you mark as played.",
+"Analítica y publicidad":"Analytics and advertising","No usamos":"Not used","Banderín no mide tu actividad ni muestra anuncios.":"Banderín does not track your activity or show ads.",
+"Rechazar todo":"Reject all","Guardar selección":"Save choice","Aceptar todo":"Accept all",
+"Después del torneo":"After the round","Con resultados":"With results","Todos":"All","Mis torneos":"My tournaments","Qué torneos ver":"Which tournaments to show",
+"Cambios":"Changes","Cobertura":"Coverage","Qué cubrimos en cada comunidad.":"What we cover in each region.","Las fuentes, una a una.":"The sources, one by one.",
+/* textos generados */
+"Abierta":"Open","Abierta hasta el {d}":"Open until {d}","Abre el {d}":"Opens {d}","Abre {d}":"Opens {d}","Abre inscripción":"Entry opens","Abre pronto":"Opening soon","Abrir":"Open",
+"Antes {a}, ahora {b}":"Was {a}, now {b}",
+"Aquí verás cada torneo que cambie de fecha, se cancele, desaparezca de su fuente o abra inscripción. El registro empieza con la revisión de mañana y guarda los últimos 14 días.":"Here you will see every tournament that changes date, is cancelled, disappears from its source or opens entries. The log starts with tomorrow's check and keeps the last 14 days.",
+"Aviso":"Notice","Aplazado por el organizador":"Postponed by the organiser","Añadir a Google Calendar":"Add to Google Calendar",
+"Aún no has marcado ningún torneo.":"You haven't marked any tournaments yet.",
+"Banderín enlaza a la clasificación oficial de cada torneo en cuanto el organizador la publica. Marca los que has jugado y tendrás tu historial aquí.":"Banderín links to each tournament's official leaderboard as soon as the organiser publishes it. Mark the ones you played and your history lives here.",
+"Benjamín a sub-18":"Under-10s to under-18s","Cada enlace se comprueba antes de publicarse.":"Every link is tested before it goes live.",
+"Cada mañana se revisan {n} fuentes: las plataformas de inscripción NextCaddy y Golf Directo, la Federación Valenciana, la RFEG y otros organizadores.":"Every morning we read {n} sources: the NextCaddy and Golf Directo entry platforms, the Valencian Federation, the Spanish Golf Federation (RFEG) and other organisers.",
+"Cada mañana un proceso automático lee las fuentes, compara con el día anterior y abre cada enlace antes de publicarlo. Si un enlace no responde, el torneo no se publica.":"Every morning an automated process reads the sources, compares them with the day before and opens every link before publishing. If a link does not respond, the tournament is not published.",
+"Calendario federativo":"Federation calendar","Cambia de fecha":"Date changed","Cambia el plazo":"Deadline changed","Cambio de fecha":"Date change","Cambio de plazo":"Deadline change",
+"Campeonatos y circuitos oficiales":"Official championships and tours","Campos":"Courses","Cancelado":"Cancelled","Cargando resultados…":"Loading results…",
+"Cerrada":"Closed","Cerrar ficha":"Close details","Cierra en 3 días":"Closes within 3 days","Cierra inscripción":"Entry closes","Cierran esta semana":"Closing this week",
+"Cierre: antes {a}, ahora {b}":"Deadline: was {a}, now {b}","Completo":"Complete","Parcial":"Partial","Pendiente":"Pending",
+"Comprobado {w} · {n} enlaces verificados":"Checked {w} · {n} links verified","Comprobado {w}.":"Checked {w}.",
+"Con finalizados":"Including finished","Confirma fechas y precio en la web del organizador antes de inscribirte.":"Confirm dates and price on the organiser's website before you enter.",
+"Consultar":"Ask","Consultar inscripción":"Ask about entry","Corrección de un torneo en Banderín":"Correction to a tournament on Banderín",
+"Damas y ligas femeninas":"Ladies' events and leagues","Datos de {s}.":"Data from {s}.","Datos registrales":"Registry details","Distancia":"Distance",
+"El organizador lo ha cancelado":"Cancelled by the organiser","Elige un torneo.":"Pick a tournament.","En juego":"In play","En la web":"See website",
+"Enlace comprobado el {d}.":"Link checked on {d}.","Enlace comprobado {w}.":"Link checked {w}.",
+"Este fin de semana se juegan {n} torneos.":"{n} tournaments are being played this weekend.","Este finde":"This weekend",
+"Este organizador no publica una ficha por torneo: el enlace lleva a su página de torneos.":"This organiser has no page per tournament: the link goes to their tournaments page.",
+"Faltan {n} días":"In {n} days","Fecha":"Date","Federativos":"Federation events","Femenino":"Women","Ficha":"Details","Finalizado":"Finished",
+"Fourball, greensome, scramble":"Fourball, greensome, scramble","Golf adaptado":"Adaptive golf","Guardados":"Saved","Guardar":"Save",
+"Hasta {d}":"Until {d}","Hoy":"Today","Inscribirme":"Enter","Inscripción abierta":"Entries open","Inscripción abierta desde hoy":"Entries opened today","Inscripción cerrada":"Entries closed",
+"Inscripción y detalles: ":"Entry and details: ","Jugado":"Played","Juvenil":"Junior","Lo jugué":"I played it","Lo que ha cambiado en 14 días.":"What changed in the last 14 days.",
+"Mayores de 50 años":"Over 50s","Mañana":"Tomorrow","Menos de 5 km":"Under 5 km","Más en este campo":"More at this course",
+"Más cerca primero":"Nearest first","Cierra antes primero":"Closing soonest first",
+"Nada este finde cerca de {c}. Amplía la distancia.":"Nothing near {c} this weekend. Try a wider distance.",
+"{n} este finde a menos de {r} km de {c}.":"{n} this weekend within {r} km of {c}.","{n} este finde cerca de {c}.":"{n} near {c} this weekend.",
+"Ninguna inscripción cierra esta semana.":"No entries close this week.","Ningún torneo con estos filtros.":"No tournaments match these filters.",
+"No se han podido cargar los resultados.":"Results could not be loaded.","Nuevos":"New","Organiza":"Organiser",
+"Para que se guarden al cerrar la página, acepta las cookies de preferencias.":"To keep them after you close the page, accept preference cookies.",
+"Parejas":"Pairs","Pendiente de volcar":"Not yet imported","Pitch & Putt":"Pitch & Putt","Plazas":"Places",
+"Profesional":"Professional","Prueba a quitar alguno o a ampliar la distancia.":"Try removing a filter or widening the distance.","Prueba con otra comunidad o quita la búsqueda.":"Try another region or clear the search.",
+"Pruebas de profesionales":"Professional events","Pruebas inclusivas":"Inclusive events","Próximo finde":"Next weekend",
+"Pulsa «Lo jugué» en cualquier torneo de la pestaña «Con resultados» o «Todos».":"Tap “I played it” on any tournament under “With results” or “All”.",
+"Quitar de guardados":"Remove from saved","Recorrido":"Course","Recorridos cortos":"Short courses","Resultados de los últimos 45 días.":"Results from the last 45 days.",
+"Retirado":"Removed","Senior":"Senior","Sin cambios en los últimos 14 días.":"No changes in the last 14 days.","Sin coste de inscripción":"No entry fee",
+"Sin fuente volcada":"No source imported","Sin torneos en este periodo.":"No tournaments in this period.","Sobre el precio":"About the price",
+"Toca cualquier fila para ver su ficha y el enlace de inscripción.":"Tap any row to see its details and entry link.",
+"Toca un punto para ver los torneos de ese campo, o una provincia para ver todos los suyos.":"Tap a dot to see that course's tournaments, or a province to see all of its own.",
+"Toda España":"All of Spain","Todas las comunidades":"All regions","Ver en la lista":"See in the list","Ver los {n} en la lista":"See all {n} in the list",
+"Ver todos los de este finde":"See all this weekend","Ver torneo":"View tournament","Ver {n} más":"Show {n} more","Volcada":"Imported","Se paga en el club":"Pay at the club","Inscripción online; se paga en el club":"Online entry; pay at the club","Sin torneos este mes con tus filtros.":"No tournaments this month with your filters.","Ningún torneo este día con tus filtros.":"No tournaments that day with your filters.","Toca un día para ver sus torneos":"Tap a day to see its tournaments","Secciones":"Sections","sin torneos próximos":"no upcoming events",
+"Vuelve a intentarlo en un momento.":"Please try again in a moment.","Vuelve en unos días: la lista se actualiza cada mañana.":"Check back in a few days: the list updates every morning.",
+"Web del organizador":"Organiser's website","Ya no aparece en su fuente. Confirma con el organizador.":"No longer listed by its source. Check with the organiser.",
+"antes {a}, ahora {b}. Detectado el {d}.":"was {a}, now {b}. Spotted on {d}.","ayer a las {t}":"yesterday at {t}","hoy a las {t}":"today at {t}","el {d} a las {t}":"on {d} at {t}",
+"comunidades con torneos":"regions with tournaments","enlaces verificados":"links verified","fuentes leídas":"sources read","desde":"from","día":"day","días":"days",
+"en los próximos 3 meses":"in the next 3 months","en los próximos 30 días":"in the next 30 days","en total":"in total",
+"la inscripción cerraba el {a}; ahora cierra el {b}.":"entries were closing on {a}; now they close on {b}.",
+"nuestro correo de contacto":"our contact email","{a} fuentes al día. {b} pendientes.":"{a} sources up to date. {b} still to come.",
+"{n} inscripciones cierran en 7 días.":"{n} entry deadlines in the next 7 days.","{n} máx.":"{n} max.",
+"{n} torneos de federaciones y clubes de toda España, con su enlace de inscripción y actualizados cada mañana.":"{n} federation and club tournaments across Spain, each with its entry link and updated every morning.",
+"{n} torneos nuevos publicados":"{n} new tournaments published","¿Desde dónde sales?":"Where are you travelling from?","Última actualización":"Last updated",
+/* fuentes y cobertura */
+"Plataforma de las federaciones de Andalucía, Madrid, Castilla y León y Canarias, y de 244 clubes. Fichas con precio, plazas y plazo.":"Entry platform of the Andalusian, Madrid, Castile and León and Canary Islands federations and 244 clubs. Pages with price, places and deadline.",
+"Plataforma de inscripciones de clubes y federaciones de las 17 comunidades (Cataluña, País Vasco, Galicia, Aragón, Baleares y más).":"Entry platform for clubs and federations in all 17 regions (Catalonia, Basque Country, Galicia, Aragon, Balearics and more).",
+"Calendario oficial con precio, plazas y plazo de inscripción.":"Official calendar with price, places and entry deadline.",
+"Campeonatos de España y pruebas nacionales.":"Spanish championships and national events.","Competiciones federativas de Asturias.":"Federation events in Asturias.",
+"Convocatorias propias fuera de NextCaddy.":"Own events outside NextCaddy.","Circuito propio en Madrid.":"Own tour in Madrid.","Circuito comercial nacional.":"National commercial tour.",
+"Pruebas que no publica en Golf Directo, como el CatProTour.":"Events not published on Golf Directo, such as the CatProTour.","Ligas que se inscriben por email o en el club.":"Leagues entered by email or at the club.",
+"Calendarios propios con pocas pruebas en invierno.":"Own calendars with few winter events.","Golfmanager, iMaster o TeeOne, y clubes que solo publican en su web.":"Golfmanager, iMaster or TeeOne, and clubs that only publish on their own website.",
+"AESGOLF, Circuito Albatros y otros circuitos amateur.":"AESGOLF, Circuito Albatros and other amateur tours.",
+"Real Federación Andaluza de Golf, en NextCaddy":"Royal Andalusian Golf Federation, on NextCaddy","Federación de Golf de Madrid, en NextCaddy":"Madrid Golf Federation, on NextCaddy",
+"Federación de Castilla y León, en NextCaddy y su web":"Castile and León Federation, on NextCaddy and its website","Federación Canaria, en NextCaddy":"Canary Islands Federation, on NextCaddy",
+"Federación de la Comunitat Valenciana, calendario oficial":"Valencian Federation, official calendar",
+"Federación de Asturias: su web propia se revisa a mano; no todo está volcado":"Asturias Federation: its website is checked by hand; not everything is imported",
+"Lo que la Federación Gallega publica en Golf Directo; su calendario aún no se contrasta":"What the Galician Federation publishes on Golf Directo; its calendar is not yet cross-checked",
+"Lo que la Federación Aragonesa publica en Golf Directo; su calendario aún no se contrasta":"What the Aragon Federation publishes on Golf Directo; its calendar is not yet cross-checked",
+"Lo que la Federación Balear publica en Golf Directo; su calendario aún no se contrasta":"What the Balearic Federation publishes on Golf Directo; its calendar is not yet cross-checked",
+"Lo que la Federación de Murcia publica en Golf Directo; su calendario aún no se contrasta":"What the Murcia Federation publishes on Golf Directo; its calendar is not yet cross-checked",
+"Lo que la Federación Extremeña publica en Golf Directo; su calendario aún no se contrasta":"What the Extremadura Federation publishes on Golf Directo; its calendar is not yet cross-checked",
+"Lo que la Federación de Castilla-La Mancha publica en Golf Directo; su calendario aún no se contrasta":"What the Castile-La Mancha Federation publishes on Golf Directo; its calendar is not yet cross-checked",
+"Federació Catalana: pruebas en Golf Directo; su calendario propio aún no":"Catalan Federation: events on Golf Directo; its own calendar not yet",
+"Federación Vasca: pruebas en Golf Directo; las ligas por email aún no":"Basque Federation: events on Golf Directo; email-entry leagues not yet",
+"Calendario de la federación aún no volcado; solo clubes en Golf Directo":"Federation calendar not imported yet; only clubs on Golf Directo",
+"Clubes en Golf Directo":"Clubs on Golf Directo","Sin fuente volcada":"No source imported",
+"Calendario oficial de la federación y de los clubes catalanes, incluido el CatProTour.":"Official calendar of the federation and Catalan clubs, including the CatProTour.",
+"Calendarios de la federación vasca y de las territoriales de Álava, Bizkaia y Gipuzkoa.":"Calendars of the Basque federation and the Álava, Bizkaia and Gipuzkoa federations.",
+"Calendario e inscripciones de la federación navarra.":"Calendar and entries of the Navarre federation.",
+"Calendario anual oficial (circular en PDF).":"Official yearly calendar (PDF circular).",
+"Calendario de competiciones de la federación cántabra.":"Competition calendar of the Cantabria federation.",
+"Calendario oficial; la inscripción se hace en su app.":"Official calendar; entries are made in its app.",
+"Calendario oficial de la federación murciana.":"Official calendar of the Murcia federation.",
+"Calendario completo de la federación, con plazo de inscripción.":"Full federation calendar, with entry deadlines.",
+"Circuitos de asociaciones con inscripción solo para socios, como AESGOLF.":"Association tours open to members only, such as AESGOLF.",
+"Federació Catalana: su calendario oficial, con las pruebas de clubes":"Catalan Federation: its official calendar, including club events",
+"Federación Vasca y territoriales: sus calendarios oficiales":"Basque and provincial federations: their official calendars",
+"Federación Navarra: su calendario de inscripciones":"Navarre Federation: its entries calendar",
+"Federación Riojana: su calendario anual oficial":"La Rioja Federation: its official yearly calendar",
+"Federación Cántabra: su calendario oficial":"Cantabria Federation: its official calendar",
+"Federación de Castilla-La Mancha: su calendario oficial":"Castile-La Mancha Federation: its official calendar",
+"Federación de Asturias: su calendario de competiciones":"Asturias Federation: its competition calendar",
+"Federación Gallega: su listado de torneos, contrastado con Golf Directo":"Galician Federation: its tournament list, cross-checked with Golf Directo",
+"Federación Aragonesa: sus fichas de torneo, contrastadas con Golf Directo":"Aragon Federation: its tournament pages, cross-checked with Golf Directo",
+"Federación Balear: publica su calendario en Golf Directo; contrastado con su web":"Balearic Federation: publishes its calendar on Golf Directo; cross-checked with its website",
+"Federación Extremeña: publica su calendario en Golf Directo":"Extremadura Federation: publishes its calendar on Golf Directo",
+"Federación de la Región de Murcia: su calendario oficial":"Murcia Federation: its official calendar",
+"Clubes en Golf Directo; la web de la federación no permite la lectura automática":"Clubs on Golf Directo; the federation's website blocks automated reading",
+"Pago en el club":"Pay at the club",
+"Inscripción en la app FGCLM Torneos":"Entry via the FGCLM Torneos app",
+/* legal (fragmentos) */
+"Pendiente":"Pending"
+};
+
+/* Valores de los datos */
+window.VOC={
+"Social de club":"Club social","Juvenil":"Junior","Circuito comercial":"Commercial tour","Senior":"Senior","Absoluto":"Open (all ages)","Profesional":"Professional","Clubes y equipos":"Clubs and teams","Benéfico":"Charity","Mid-Amateur":"Mid-Amateur","Adaptado":"Adaptive","Universitario":"University",
+"Mixto":"Mixed","Femenino":"Women","Masculino":"Men","Sin indicar":"Not stated","Individual":"Individual","Parejas":"Pairs","Equipos":"Teams","Campo largo":"Full course","Pitch & Putt":"Pitch & Putt",
+"Club":"Club","Federación":"Federation","Circuito privado":"Private tour","Inscripción a través del club":"Entry through the club","Inscripción por email":"Entry by email","Por confirmar":"To be confirmed",
+"Andalucía":"Andalusia","Cataluña":"Catalonia","Comunidad de Madrid":"Madrid Region","Comunitat Valenciana":"Valencian Community","Illes Balears":"Balearic Islands","Canarias":"Canary Islands","País Vasco":"Basque Country","Región de Murcia":"Region of Murcia","Principado de Asturias":"Asturias","Castilla y León":"Castile and León","Castilla-La Mancha":"Castile-La Mancha","Comunidad Foral de Navarra":"Navarre","Aragón":"Aragon","Galicia":"Galicia","Extremadura":"Extremadura","La Rioja":"La Rioja","Cantabria":"Cantabria","Melilla":"Melilla","Ceuta":"Ceuta",
+"Federación de Golf de la Comunitat Valenciana":"Valencian Golf Federation","Federación de Golf del Principado de Asturias":"Asturias Golf Federation","Federación de Golf de Castilla y León":"Castile and León Golf Federation",
+"Federació Catalana de Golf (calendario propio)":"Catalan Golf Federation (own calendar)","Federación Vasca de Golf (calendario propio)":"Basque Golf Federation (own calendar)","Federaciones de Navarra, La Rioja y Cantabria":"Navarre, La Rioja and Cantabria federations","Clubes con otras plataformas":"Clubs on other platforms","Circuitos privados":"Private tours","Federació Catalana de Golf":"Catalan Golf Federation","Federación Vasca de Golf":"Basque Golf Federation","Federación Navarra de Golf":"Navarre Golf Federation","Federación Riojana de Golf":"La Rioja Golf Federation","Federación Cántabra de Golf":"Cantabria Golf Federation","Federación de Golf de Castilla-La Mancha":"Castile-La Mancha Golf Federation","Federación de Golf de la Región de Murcia":"Murcia Golf Federation","Federación de Golf del Principado de Asturias":"Asturias Golf Federation"
+};
+
+/* Textos legales en inglés. Prevalece la versión española. */
+window.LEGALDOCS_EN={
+"aviso-legal":{titulo:"Legal notice",intro:"Who is behind Banderín and on what terms you can use it. This English translation is provided for convenience; the Spanish version prevails.",html:`
+<h3>1. Website owner</h3>
+<p>Under article 10 of Spanish Law 34/2002 on information society services and e-commerce (LSSI-CE), this website, Banderín, is a project by {{marca}} owned by:</p>
+<ul class="datos"><li><span>Owner</span><b>{{nombre}}</b></li><li><span>Tax ID (NIF)</span><b>{{nif}}</b></li><li><span>Address</span><b>{{domicilio}}</b></li><li><span>Email</span><b>{{email}}</b></li>{{registro_li}}</ul>
+<h3>2. What Banderín is</h3>
+<p>Banderín is a free search tool for amateur and professional golf tournaments held in Spain. It brings together the information that federations, clubs and entry platforms publish openly, and links to each tournament's official page so that you can enter there.</p>
+<p><b>Banderín does not organise tournaments, handle entries or take payments.</b> Entry, price, places, requirements and any change or cancellation are solely the responsibility of each organiser.</p>
+<h3>3. Independence</h3>
+<p>Banderín is an independent project. It is not affiliated with or sponsored by the Royal Spanish Golf Federation, the regional federations, the clubs or the entry platforms whose tournaments it shows, such as NextCaddy or Golf Directo. Their names and trademarks belong to their owners and are cited only to identify where the information comes from.</p>
+<h3>4. Terms</h3>
+<p>Use of Banderín is governed by this legal notice, the <a href="#terminos">terms of use</a>, the <a href="#privacidad">privacy policy</a> and the <a href="#cookies">cookie policy</a>. By using the site you accept them. If you do not agree, please do not use it.</p>
+<h3>5. Intellectual property</h3>
+<p>The design, code, original text, illustrations and the Banderín brand belong to the owner or are used under licence. The Instrument Sans and Instrument Serif typefaces are used under the SIL Open Font License 1.1, and the province map comes from open geographic data. Tournament data (name, date, course, price, etc.) is factual information published by the organisers; Banderín claims no rights over it.</p>
+<h3>6. Links to other sites</h3>
+<p>Banderín links to third-party pages, such as organisers' entry pages. We do not control those sites and are not responsible for their content, availability or privacy policies; please read them before giving them your data.</p>
+<h3>7. Liability</h3>
+<p>We review and update the information every day and check that links work, but we cannot guarantee that all data is accurate, complete or up to date at all times. Always confirm the information on the organiser's website before entering or travelling. To the extent permitted by law, the owner is not liable for damage arising from errors or omissions in third-party information.</p>
+<h3>8. Corrections and removal</h3>
+<p>If you organise a tournament and spot an error, or would rather your tournament did not appear on Banderín, write to {{email}} and we will correct or remove it within 72 working hours.</p>
+<h3>9. Governing law</h3>
+<p>These terms are governed by Spanish law. If you act as a consumer, the courts of your place of residence have jurisdiction; otherwise, those of the owner's address.</p>`},
+"privacidad":{titulo:"Privacy policy",intro:"What personal data we process, why, and your rights. In short: Banderín does not ask you for any data to work. The Spanish version prevails.",html:`
+<div class="resumen"><b>In a nutshell</b><ul><li>You do not need to register or give us any data to search for tournaments.</li><li>Your preferences (theme, city, saved and played tournaments) stay in your browser; they never reach us.</li><li>We use no analytics, advertising or profiling.</li><li>We only process personal data if you email us.</li></ul></div>
+<h3>1. Data controller</h3>
+<ul class="datos"><li><span>Controller</span><b>{{nombre}}</b></li><li><span>Tax ID (NIF)</span><b>{{nif}}</b></li><li><span>Address</span><b>{{domicilio}}</b></li><li><span>Privacy contact</span><b>{{email}}</b></li></ul>
+<p>This policy complies with the EU General Data Protection Regulation (GDPR, Regulation 2016/679) and Spanish Organic Law 3/2018 on data protection (LOPDGDD).</p>
+<h3>2. What data we process and why</h3>
+<table class="tabla"><thead><tr><th>Situation</th><th>Data</th><th>Purpose</th><th>Legal basis</th><th>Retention</th></tr></thead><tbody>
+<tr><td>You browse Banderín</td><td>None. We use no analytics or tracking cookies.</td><td>—</td><td>—</td><td>—</td></tr>
+<tr><td>You save preferences</td><td>Theme, reference city, distance, saved and played tournaments, only in your browser.</td><td>Remember your settings next time.</td><td>Your consent (art. 6.1.a GDPR), which you can withdraw in <a href="#" data-cookies>Cookie settings</a>.</td><td>Until you delete them or withdraw consent.</td></tr>
+<tr><td>You choose a language</td><td>The language, only in your browser.</td><td>Show the site in the language you chose.</td><td>Service you request (user-interface setting, exempt from consent).</td><td>12 months.</td></tr>
+<tr><td>You email us</td><td>Name, email address and what you tell us.</td><td>Reply to you and, where relevant, correct or remove a tournament.</td><td>Your consent when writing (art. 6.1.a) and our legitimate interest in handling requests (art. 6.1.f).</td><td>As long as needed to resolve it, then up to one year.</td></tr>
+</tbody></table>
+<p>Tournament data refers to competitions and organisations, not people. Banderín links to official results but does not copy players' names. If a tournament name includes a person's name (a memorial, for example) it is because the organiser publishes it that way; you can ask us to correct or remove it.</p>
+<h3>3. Hosting and providers</h3>
+<p>The site is hosted on Cloudflare Pages (Cloudflare, Inc.), acting as data processor. To serve the page and protect it from attacks, Cloudflare processes technical connection data such as IP address and browser, under its <a href="https://www.cloudflare.com/privacypolicy/" target="_blank" rel="noopener noreferrer">privacy policy</a> and data processing agreement. Banderín keeps no visit logs. Fonts are served from the site itself, with no connection to Google.</p>
+<p>If you tap “Add to Google Calendar”, “Enter” or “Results”, you leave Banderín for Google or the organiser's website, who will process your data under their own policies. We do not sell or share personal data with third parties unless required by law.</p>
+<h3>4. International transfers</h3>
+<p>Cloudflare may process technical connection data outside the European Economic Area, under the EU-US Data Privacy Framework, for which it is certified, and the European Commission's standard contractual clauses.</p>
+<h3>5. Your rights</h3>
+<p>You can exercise your rights of access, rectification, erasure, objection, restriction and portability, and withdraw your consent, at any time by writing to {{email}} stating which right you are exercising. We will reply within one month. If you believe we have not handled your request properly, you can complain to the <a href="https://www.aepd.es" target="_blank" rel="noopener noreferrer">Spanish Data Protection Agency (AEPD)</a>.</p>
+<h3>6. Children</h3>
+<p>Banderín lists junior events but collects no data from any user, including minors. If you are under 14, do not send us personal data without your parents' or guardians' consent.</p>
+<h3>7. Automated decisions</h3>
+<p>We make no automated decisions or profiles about you. The order of tournaments (by date, distance or deadline) is chosen by you and calculated in your own browser.</p>
+<h3>8. Security</h3>
+<p>The site is served encrypted (HTTPS), stores no passwords or payment details and has no access to what you keep in your browser. We apply data minimisation: if we do not need a piece of data, we do not ask for it.</p>
+<h3>9. Changes</h3>
+<p>When Banderín adds new features, such as user accounts, email alerts or usage statistics, we will update this policy before switching them on and tell you clearly.</p>`},
+"cookies":{titulo:"Cookie policy",intro:"What Banderín stores in your browser, why, and how to change it. The Spanish version prevails.",html:`
+<h3>1. What cookies and similar technologies are</h3>
+<p>Cookies and similar technologies, such as the browser's local storage (<i>localStorage</i>), are small files or data that a website stores on your device to remember information between visits. This policy complies with article 22.2 of the LSSI-CE and the Spanish Data Protection Agency's cookie guide.</p>
+<h3>2. What Banderín uses</h3>
+<p>Banderín sets no analytics, advertising or social media cookies. It only uses its own browser local storage, with no tracking, for these purposes:</p>
+<table class="tabla"><thead><tr><th>Name</th><th>Type</th><th>Purpose</th><th>Duration</th><th>Consent needed?</th></tr></thead><tbody>
+<tr><td><code>banderin.consent</code></td><td>Technical, first-party</td><td>Remember your cookie choice so we do not ask again.</td><td>12 months</td><td>No (necessary)</td></tr>
+<tr><td><code>banderin.lang</code></td><td>User interface, first-party</td><td>Remember the language you chose.</td><td>12 months</td><td>No (requested by you)</td></tr>
+<tr><td><code>banderin.tema</code></td><td>Preferences, first-party</td><td>Remember whether you prefer light or dark mode.</td><td>Until you delete it</td><td>Yes</td></tr>
+<tr><td><code>banderin.city</code> and <code>banderin.radius</code></td><td>Preferences, first-party</td><td>Remember your reference city and maximum distance to sort tournaments by proximity.</td><td>Until you delete it</td><td>Yes</td></tr>
+<tr><td><code>banderin.saved</code></td><td>Preferences, first-party</td><td>Keep the list of tournaments you star.</td><td>Until you delete it</td><td>Yes</td></tr>
+<tr><td><code>banderin.played</code></td><td>Preferences, first-party</td><td>Keep the list of tournaments you mark as played (your history).</td><td>Until you delete it</td><td>Yes</td></tr>
+</tbody></table>
+<p>This data stays on your device. Banderín neither receives nor shares it.</p>
+<h3>3. Third-party cookies</h3>
+<p>Banderín sets no third-party cookies. Cloudflare, the hosting provider, may use strictly necessary security cookies (for example, to tell legitimate visits from automated traffic), exempt from consent, under its <a href="https://www.cloudflare.com/cookie-policy/" target="_blank" rel="noopener noreferrer">cookie policy</a>. Banderín loads no other third-party service when the page opens.</p>
+<h3>4. How to accept, reject or change your choice</h3>
+<p>On your first visit we ask with a notice where <b>Accept</b>, <b>Reject</b> and <b>Settings</b> carry the same weight. If you reject, the site works the same, but will not remember your preferences once you close the page.</p>
+<p>You can change your choice at any time from <a href="#" data-cookies>Cookie settings</a> in the footer of every page. You can also delete the data in your browser settings: <a href="https://support.google.com/chrome/answer/95647" target="_blank" rel="noopener noreferrer">Chrome</a>, <a href="https://support.apple.com/guide/safari/sfri11471/mac" target="_blank" rel="noopener noreferrer">Safari</a>, <a href="https://support.mozilla.org/kb/clear-cookies-and-site-data-firefox" target="_blank" rel="noopener noreferrer">Firefox</a>, <a href="https://support.microsoft.com/microsoft-edge" target="_blank" rel="noopener noreferrer">Edge</a>.</p>
+<h3>5. Updates</h3>
+<p>If we add usage statistics or other services in future, we will add them to this table and they will not run until you consent.</p>`},
+"terminos":{titulo:"Terms of use",intro:"The rules of the service, in plain words. The Spanish version prevails.",html:`
+<h3>1. The service</h3>
+<p>Banderín is a free search tool for golf tournaments in Spain. You can search, filter, save, mark as played and open the official page of each tournament. You do not need an account.</p>
+<h3>2. Where the information comes from</h3>
+<p>Tournaments come from public sources: entry platforms, federations and organisers. You can see the full list under <a href="#fuentes">Sources</a>. We review the data every morning and check that each link responds before publishing it.</p>
+<p>Even so, organisers can change dates, prices, places or conditions at any time. <b>The organiser's own information always prevails.</b> Distances are approximate and as the crow flies.</p>
+<h3>3. Entries and results</h3>
+<p>When you tap “Enter” or “Results” you leave Banderín for the organiser's or platform's website. Entry, payment, refunds, admission and official results are governed by that organiser. Banderín plays no part in that relationship and is not responsible for it.</p>
+<h3>4. Proper use</h3>
+<p>You agree to use Banderín lawfully and not to try to disrupt it, access non-public areas or impersonate other people or organisations.</p>
+<h3>5. Organisers</h3>
+<p>If you organise a tournament, you can ask us to correct, complete or remove its information by writing to {{email}}. We handle these requests within 72 working hours.</p>
+<h3>6. Availability and changes</h3>
+<p>Banderín is provided as is and may be temporarily unavailable for maintenance or because a source fails. We may change, extend or withdraw features and update these terms; the date of the latest version appears at the end of this page.</p>
+<h3>7. Liability</h3>
+<p>To the extent permitted by law, the owner is not liable for losses arising from inaccurate or outdated information supplied by third parties, cancellations or changes decided by organisers, or the content of linked sites. Nothing in these terms limits your rights under consumer law.</p>
+<h3>8. Law and jurisdiction</h3>
+<p>These terms are governed by Spanish law. If you are a consumer, you may go to the courts of your place of residence.</p>`}
+};
+window.EN["Datos registrales"]="Registry details";
+
+/* Traducción de los textos fijos de la página */
+(function(){
+if(window.LANG!=='en')return;
+var E=window.EN;
+var W=document.createTreeWalker(document.body,NodeFilter.SHOW_TEXT,{acceptNode:function(n){var p=n.parentNode;while(p&&p!==document.body){if(/^(SCRIPT|STYLE|svg)$/i.test(p.nodeName))return NodeFilter.FILTER_REJECT;p=p.parentNode}return n.nodeValue.trim()?NodeFilter.FILTER_ACCEPT:NodeFilter.FILTER_REJECT}});
+var n,list=[];while(n=W.nextNode())list.push(n);
+list.forEach(function(t){var k=t.nodeValue.trim();if(E[k]!=null)t.nodeValue=t.nodeValue.replace(k,E[k])});
+['title','aria-label','placeholder'].forEach(function(a){document.querySelectorAll('['+a+']').forEach(function(el){var v=el.getAttribute(a);if(E[v]!=null)el.setAttribute(a,E[v])})});
+document.title='Banderín · Golf tournaments in Spain';
+})();

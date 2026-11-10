@@ -1,0 +1,60 @@
+name: Actualizar torneos
+
+on:
+  schedule:
+    - cron: '45 5 * * *'   # 6:45 en invierno y 7:45 en verano (hora de Madrid)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: actualizar
+  cancel-in-progress: false
+
+jobs:
+  actualizar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 50
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Herramientas
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq poppler-utils
+
+      - name: Rutas de trabajo
+        run: |
+          sudo mkdir -p /home/claude/raw
+          sudo chown -R "$USER" /home/claude
+          ln -sfn "$GITHUB_WORKSPACE/pipeline" /home/claude/scr
+          mkdir -p /tmp/banderin/nuevo /tmp/banderin/anterior
+          cp site/data.js /tmp/banderin/anterior/data.js
+
+      - name: Leer las fuentes y generar los datos
+        env:
+          TZ: Europe/Madrid
+        run: |
+          cd pipeline
+          bash update.sh /tmp/banderin/nuevo/data.js /tmp/banderin/anterior/data.js
+          python3 -c "import json;print(json.dumps(json.load(open('/home/claude/raw/fed2/extra.json'))['status'],ensure_ascii=False))" || true
+
+      - name: Validar
+        run: node pipeline/validate.mjs /tmp/banderin/nuevo/data.js /tmp/banderin/nuevo/pasados.js /tmp/banderin/anterior/data.js
+
+      - name: Publicar
+        run: |
+          cp /tmp/banderin/nuevo/data.js /tmp/banderin/nuevo/pasados.js site/
+          git config user.name "Banderín (actualización diaria)"
+          git config user.email "actions@users.noreply.github.com"
+          git add site/data.js site/pasados.js pipeline/geo_cache.json
+          if git diff --cached --quiet; then echo "Sin cambios"; exit 0; fi
+          git commit -m "Torneos actualizados $(TZ=Europe/Madrid date '+%Y-%m-%d %H:%M')"
+          git push

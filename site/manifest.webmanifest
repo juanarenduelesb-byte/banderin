@@ -1,0 +1,2 @@
+{"name":"Banderín · Torneos de golf en España","short_name":"Banderín","start_url":"./index.html#inicio","scope":"./","display":"standalone","background_color":"#163D2B","theme_color":"#163D2B","lang":"es",
+"icons":[{"src":"icons/icon-192.png","sizes":"192x192","type":"image/png"},{"src":"icons/icon-512.png","sizes":"512x512","type":"image/png"},{"src":"icons/icon-512-maskable.png","sizes":"512x512","type":"image/png","purpose":"maskable"},{"src":"icons/icon.svg","sizes":"any","type":"image/svg+xml"}]}
