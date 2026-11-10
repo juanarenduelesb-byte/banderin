@@ -187,13 +187,13 @@ window.LEGALDOCS_EN={
 <h3>9. Governing law</h3>
 <p>These terms are governed by Spanish law. If you act as a consumer, the courts of your place of residence have jurisdiction; otherwise, those of the owner's address.</p>`},
 "privacidad":{titulo:"Privacy policy",intro:"What personal data we process, why, and your rights. In short: Banderín does not ask you for any data to work. The Spanish version prevails.",html:`
-<div class="resumen"><b>In a nutshell</b><ul><li>You do not need to register or give us any data to search for tournaments.</li><li>Your preferences, your golfer profile and what you follow stay in your browser; they never reach us.</li><li>We use no analytics, advertising or profiling.</li><li>We only process personal data if you email us.</li></ul></div>
+<div class="resumen"><b>In a nutshell</b><ul><li>You do not need to register or give us any data to search for tournaments.</li><li>Your preferences, your golfer profile and what you follow stay in your browser; they never reach us.</li><li>We use no advertising or profiling. We count visits in aggregate, without cookies.</li><li>We only process personal data if you email us.</li></ul></div>
 <h3>1. Data controller</h3>
 <ul class="datos"><li><span>Controller</span><b>{{nombre}}</b></li><li><span>Tax ID (NIF)</span><b>{{nif}}</b></li><li><span>Address</span><b>{{domicilio}}</b></li><li><span>Privacy contact</span><b>{{email}}</b></li></ul>
 <p>This policy complies with the EU General Data Protection Regulation (GDPR, Regulation 2016/679) and Spanish Organic Law 3/2018 on data protection (LOPDGDD).</p>
 <h3>2. What data we process and why</h3>
 <table class="tabla"><thead><tr><th>Situation</th><th>Data</th><th>Purpose</th><th>Legal basis</th><th>Retention</th></tr></thead><tbody>
-<tr><td>You browse Banderín</td><td>None. We use no analytics or tracking cookies.</td><td>—</td><td>—</td><td>—</td></tr>
+<tr><td>You browse Banderín</td><td>Technical visit data (page viewed, browser, approximate country), without cookies or identifiers, through Cloudflare Web Analytics.</td><td>Count visits in aggregate to learn what is used and improve the site.</td><td>Legitimate interest in understanding use of the site without identifying you (art. 6.1.f GDPR).</td><td>Only aggregate figures are kept.</td></tr>
 <tr><td>You save preferences</td><td>Theme, reference city, distance, saved and played tournaments, only in your browser.</td><td>Remember your settings next time.</td><td>Your consent (art. 6.1.a GDPR), which you can withdraw in <a href="#" data-cookies>Cookie settings</a>.</td><td>Until you delete them or withdraw consent.</td></tr>
 <tr><td>You fill in your profile or follow clubs and provinces</td><td>Handicap, year of birth, competition category, federation, clubs you belong to and what you follow, only in your browser.</td><td>Flag which tournaments fit you and show those from what you follow.</td><td>Service you request when saving it (exempt from consent).</td><td>Until you delete it from “My profile”.</td></tr>
 <tr><td>You choose a language</td><td>The language, only in your browser.</td><td>Show the site in the language you chose.</td><td>Service you request (user-interface setting, exempt from consent).</td><td>12 months.</td></tr>
@@ -215,12 +215,12 @@ window.LEGALDOCS_EN={
 <h3>8. Security</h3>
 <p>The site is served encrypted (HTTPS), stores no passwords or payment details and has no access to what you keep in your browser. We apply data minimisation: if we do not need a piece of data, we do not ask for it.</p>
 <h3>9. Changes</h3>
-<p>When Banderín adds new features, such as user accounts, email alerts or usage statistics, we will update this policy before switching them on and tell you clearly.</p>`},
+<p>When Banderín adds new features, such as user accounts or email alerts, we will update this policy before switching them on and tell you clearly.</p>`},
 "cookies":{titulo:"Cookie policy",intro:"What Banderín stores in your browser, why, and how to change it. The Spanish version prevails.",html:`
 <h3>1. What cookies and similar technologies are</h3>
 <p>Cookies and similar technologies, such as the browser's local storage (<i>localStorage</i>), are small files or data that a website stores on your device to remember information between visits. This policy complies with article 22.2 of the LSSI-CE and the Spanish Data Protection Agency's cookie guide.</p>
 <h3>2. What Banderín uses</h3>
-<p>Banderín sets no analytics, advertising or social media cookies. It only uses its own browser local storage, with no tracking, for these purposes:</p>
+<p>Banderín sets no analytics, advertising or social media cookies. Visits are counted with Cloudflare Web Analytics, which uses no cookies or local storage. It only uses its own browser local storage, with no tracking, for these purposes:</p>
 <table class="tabla"><thead><tr><th>Name</th><th>Type</th><th>Purpose</th><th>Duration</th><th>Consent needed?</th></tr></thead><tbody>
 <tr><td><code>banderin.consent</code></td><td>Technical, first-party</td><td>Remember your cookie choice so we do not ask again.</td><td>12 months</td><td>No (necessary)</td></tr>
 <tr><td><code>banderin.lang</code></td><td>User interface, first-party</td><td>Remember the language you chose.</td><td>12 months</td><td>No (requested by you)</td></tr>

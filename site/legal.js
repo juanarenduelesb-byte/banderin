@@ -62,7 +62,7 @@ window.LEGALDOCS = {
 <ul>
 <li>Para buscar torneos no tienes que registrarte ni darnos ningún dato.</li>
 <li>Tus preferencias, tu perfil de golfista y lo que sigues se quedan en tu navegador; no nos llegan.</li>
-<li>No usamos analítica, publicidad ni perfiles.</li>
+<li>No usamos publicidad ni perfiles. Contamos las visitas de forma agregada y sin cookies.</li>
 <li>Solo tratamos datos personales si nos escribes por correo.</li>
 </ul></div>
 
@@ -79,7 +79,7 @@ window.LEGALDOCS = {
 <table class="tabla">
 <thead><tr><th>Situación</th><th>Datos</th><th>Finalidad</th><th>Base legal</th><th>Conservación</th></tr></thead>
 <tbody>
-<tr><td>Navegas por Banderín</td><td>Ninguno. No usamos analítica ni cookies de seguimiento.</td><td>—</td><td>—</td><td>—</td></tr>
+<tr><td>Navegas por Banderín</td><td>Datos técnicos de la visita (página vista, navegador, país aproximado), sin cookies ni identificadores, mediante Cloudflare Web Analytics.</td><td>Contar las visitas de forma agregada para saber qué se usa y mejorar la web.</td><td>Interés legítimo en conocer el uso de la web sin identificarte (art. 6.1.f RGPD).</td><td>Solo se conservan cifras agregadas.</td></tr>
 <tr><td>Guardas preferencias</td><td>Tema, ciudad de referencia, distancia, torneos guardados y jugados, solo en tu navegador.</td><td>Recordar tus ajustes en tu siguiente visita.</td><td>Tu consentimiento (art. 6.1.a RGPD), que puedes retirar en <a href="#" data-cookies>Configurar cookies</a>.</td><td>Hasta que los borres o retires el consentimiento.</td></tr>
 <tr><td>Rellenas tu perfil o sigues clubes y provincias</td><td>Hándicap, año de nacimiento, sexo de competición, federación, clubes de los que eres socio y lo que sigues, solo en tu navegador.</td><td>Marcar qué torneos encajan contigo y mostrarte los de lo que sigues.</td><td>Servicio que solicitas al guardarlo (exento de consentimiento).</td><td>Hasta que lo borres desde «Mi perfil».</td></tr>
 <tr><td>Eliges un idioma</td><td>El idioma, solo en tu navegador.</td><td>Mostrarte la web en el idioma que has elegido.</td><td>Servicio que solicitas (personalización de la interfaz, exenta de consentimiento).</td><td>12 meses.</td></tr>
@@ -110,7 +110,7 @@ window.LEGALDOCS = {
 <p>La web se sirve cifrada (HTTPS), no almacena contraseñas ni datos de pago y no tiene acceso a la información que guardas en tu navegador. Aplicamos el principio de minimización: si no necesitamos un dato, no lo pedimos.</p>
 
 <h3 id="pr-9">9. Cambios en esta política</h3>
-<p>Cuando Banderín incorpore funciones nuevas, como cuentas de usuario, alertas por correo o estadísticas de uso, actualizaremos esta política antes de activarlas y te lo indicaremos de forma visible.</p>
+<p>Cuando Banderín incorpore funciones nuevas, como cuentas de usuario o alertas por correo, actualizaremos esta política antes de activarlas y te lo indicaremos de forma visible.</p>
 `},
 
 "cookies": {
@@ -121,7 +121,7 @@ window.LEGALDOCS = {
 <p>Las cookies y tecnologías similares, como el almacenamiento local del navegador (<i>localStorage</i>), son pequeños archivos o datos que una web guarda en tu dispositivo para recordar información entre visitas. Esta política cumple el artículo 22.2 de la LSSI-CE y la Guía sobre el uso de las cookies de la AEPD.</p>
 
 <h3 id="co-2">2. Qué usa Banderín</h3>
-<p>Banderín no instala cookies de analítica, de publicidad ni de redes sociales. Solo usa almacenamiento local del navegador, propio y sin seguimiento, con estos fines:</p>
+<p>Banderín no instala cookies de analítica, de publicidad ni de redes sociales. Las visitas se cuentan con Cloudflare Web Analytics, que no usa cookies ni almacenamiento local. Solo usa almacenamiento local del navegador, propio y sin seguimiento, con estos fines:</p>
 <table class="tabla">
 <thead><tr><th>Nombre</th><th>Tipo</th><th>Finalidad</th><th>Duración</th><th>¿Requiere consentimiento?</th></tr></thead>
 <tbody>
