@@ -1,0 +1,154 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Banderin//Torneos de golf//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Banderín · Club de Golf Capdepera
+X-WR-CALDESC:Torneos de golf: Club de Golf Capdepera. Se actualiza cada ma
+ ñana. https://banderin.pages.dev
+X-WR-TIMEZONE:Europe/Madrid
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:cea6d476cb52f51c4343@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261112
+DTEND;VALUE=DATE:20261113
+SUMMARY:Members & Friends
+LOCATION:Club de Golf Capdepera\, Arta\, Illes Balears
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 20 de agosto\, cierra el 10 de noviembre.\nPrecio: 100 €.\nFicha ofic
+ ial: https://www.golfdirecto.com/micro/game/6a871c3b96dc2a94e1625954/summa
+ ry\nConfirma fechas y condiciones en la web del organizador. Vía Banderí
+ n.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6a871c3b96dc2a94e1625954/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:4191f1379b8aa8b0ca75@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:Sunday Funday
+LOCATION:Club de Golf Capdepera\, Arta\, Illes Balears
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 20 de agosto\, cierra el 14 de noviembre.\nPrecio: 100 €.\nFicha ofic
+ ial: https://www.golfdirecto.com/micro/game/6a871e4896dc2a94e1084be1/summa
+ ry\nConfirma fechas y condiciones en la web del organizador. Vía Banderí
+ n.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6a871e4896dc2a94e1084be1/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:c8751b93cf1dc3768b67@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:Sunday Funday
+LOCATION:Club de Golf Capdepera\, Arta\, Illes Balears
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 20 de agosto\, cierra el 21 de noviembre.\nPrecio: 80 €.\nFicha ofici
+ al: https://www.golfdirecto.com/micro/game/6a8726f596dc2a94e15675cb/summar
+ y\nConfirma fechas y condiciones en la web del organizador. Vía Banderín
+ .
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6a8726f596dc2a94e15675cb/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:71ca0bbbc5187d22cdd6@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+SUMMARY:Members & Friends
+LOCATION:Club de Golf Capdepera\, Arta\, Illes Balears
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 20 de agosto\, cierra el 24 de noviembre.\nPrecio: 80 €.\nFicha ofici
+ al: https://www.golfdirecto.com/micro/game/6a87276b96dc2a94e17dda15/summar
+ y\nConfirma fechas y condiciones en la web del organizador. Vía Banderín
+ .
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6a87276b96dc2a94e17dda15/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:6890f782437ddbdad6b0@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:Sunday Funday
+LOCATION:Club de Golf Capdepera\, Arta\, Illes Balears
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 20 de agosto\, cierra el 28 de noviembre.\nPrecio: 80 €.\nFicha ofici
+ al: https://www.golfdirecto.com/micro/game/6a87271f96dc2a94e15ec500/summar
+ y\nConfirma fechas y condiciones en la web del organizador. Vía Banderín
+ .
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6a87271f96dc2a94e15ec500/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:aadc2b40eae617797031@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261217
+DTEND;VALUE=DATE:20261218
+SUMMARY:4º Prueba Gem Winter Slam
+LOCATION:Club de Golf Capdepera\, Arta\, Illes Balears
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 13 de octubre\, cierra el 15 de diciembre.\nPrecio: 70 €.\nFicha ofic
+ ial: https://www.golfdirecto.com/micro/game/6ace09be3889028eef7573e0/summa
+ ry\nConfirma fechas y condiciones en la web del organizador. Vía Banderí
+ n.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6ace09be3889028eef7573e0/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:f992083c21d1927f61f5@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261229
+DTEND;VALUE=DATE:20261230
+SUMMARY:Sylvester Tournament
+LOCATION:Club de Golf Capdepera\, Arta\, Illes Balears
+DESCRIPTION:Circuito comercial · Stableford · Individual\nInscripción: a
+ bre el 25 de octubre\, cierra el 27 de diciembre.\nPrecio: 119 €.\nFicha
+  oficial: https://www.golfdirecto.com/micro/game/6ade2a5edfba30f2b8c2f693/
+ summary\nConfirma fechas y condiciones en la web del organizador. Vía Ban
+ derín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6ade2a5edfba30f2b8c2f693/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:ab946c47e5b49e574c3b@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20270121
+DTEND;VALUE=DATE:20270122
+SUMMARY:7º Prueba Gem Winter Slam
+LOCATION:Club de Golf Capdepera\, Arta\, Illes Balears
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 13 de octubre\, cierra el 20 de enero.\nPrecio: 70 €.\nFicha oficial:
+  https://www.golfdirecto.com/micro/game/6ace09fc3889028eef8c8424/summary\n
+ Confirma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6ace09fc3889028eef8c8424/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:fe5080c0dfdc782574b6@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20270211
+DTEND;VALUE=DATE:20270212
+SUMMARY:Final Gem Winter Slam 2026/2027
+LOCATION:Club de Golf Capdepera\, Arta\, Illes Balears
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 13 de octubre\, cierra el 9 de febrero.\nPrecio: 70 €.\nFicha oficial
+ : https://www.golfdirecto.com/micro/game/6ace0a2e3889028eef99ad3d/summary\
+ nConfirma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6ace0a2e3889028eef99ad3d/summary
+END:VEVENT
+END:VCALENDAR

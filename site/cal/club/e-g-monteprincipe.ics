@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Banderin//Torneos de golf//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Banderín · E. G. Montepríncipe
+X-WR-CALDESC:Torneos de golf: E. G. Montepríncipe. Se actualiza cada maña
+ na. https://banderin.pages.dev
+X-WR-TIMEZONE:Europe/Madrid
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:bc99ccd3b6dfe3ec4029@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261116
+SUMMARY:Cto Absoluto de P&P Fgrm
+LOCATION:E. G. Montepríncipe\, Boadilla del Monte\, Madrid
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 26 de octubre\, cierra el 12 de noviembre.\nPrecio: 40 €.\nFicha ofic
+ ial: https://www.golfdirecto.com/micro/game/6a8c31b1d26738cf72a8dab9/summa
+ ry\nConfirma fechas y condiciones en la web del organizador. Vía Banderí
+ n.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6a8c31b1d26738cf72a8dab9/summary
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Banderin//Torneos de golf//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Banderín · Las Ramblas Golf
+X-WR-CALDESC:Torneos de golf: Las Ramblas Golf. Se actualiza cada mañana. 
+ https://banderin.pages.dev
+X-WR-TIMEZONE:Europe/Madrid
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:3ba89b74c4e4e3f696bc@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20270123
+DTEND;VALUE=DATE:20270124
+SUMMARY:Torneo Solo Ellas
+LOCATION:Las Ramblas Golf\, Orihuela-costa\, Alicante
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 4 de noviembre\, cierra el 20 de enero.\nPrecio: 50 €.\nFicha oficial
+ : https://www.golfdirecto.com/micro/game/6aeb4e193539d98a46d8a4c6/summary\
+ nConfirma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6aeb4e193539d98a46d8a4c6/summary
+END:VEVENT
+END:VCALENDAR

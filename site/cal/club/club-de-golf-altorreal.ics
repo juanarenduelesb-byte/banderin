@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Banderin//Torneos de golf//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Banderín · Club de Golf Altorreal
+X-WR-CALDESC:Torneos de golf: Club de Golf Altorreal. Se actualiza cada ma
+ ñana. https://banderin.pages.dev
+X-WR-TIMEZONE:Europe/Madrid
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:8019cb5e6f17547577e8@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261219
+DTEND;VALUE=DATE:20261221
+SUMMARY:Campeonato Absoluto Juvenil - Golf Altorreal
+LOCATION:Club de Golf Altorreal\, Molina de Segura\, Murcia
+DESCRIPTION:Juvenil · Medal Play · Individual\nFicha oficial: https://www
+ .golfdirecto.com/micro/game/6aabd386ac3438945f4d5ec3/summary\nConfirma fec
+ has y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6aabd386ac3438945f4d5ec3/summary
+END:VEVENT
+END:VCALENDAR

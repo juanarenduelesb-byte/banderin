@@ -1,0 +1,56 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Banderin//Torneos de golf//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Banderín · Club de Golf Entrepinos
+X-WR-CALDESC:Torneos de golf: Club de Golf Entrepinos. Se actualiza cada ma
+ ñana. https://banderin.pages.dev
+X-WR-TIMEZONE:Europe/Madrid
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:5652a384a8fdf1d29aa1@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:XIV Torneo Solidario de Golf
+LOCATION:Club de Golf Entrepinos\, Simancas\, Valladolid
+DESCRIPTION:Benéfico · Greensome · Parejas\nInscripción: abre el 10 de 
+ noviembre\, cierra el 19 de noviembre.\nFicha oficial: https://www.golfdir
+ ecto.com/micro/game/6af2d15534e221597439becd/summary\nConfirma fechas y co
+ ndiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6af2d15534e221597439becd/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:a6b72a4d7ded2afe0d7f@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:Golf Getafe Series_4° Prueba
+LOCATION:Club de Golf Entrepinos\, Simancas\, Valladolid
+DESCRIPTION:Circuito comercial · Medal Play · Individual\nInscripción: a
+ bre el 9 de noviembre\, cierra el 27 de noviembre.\nFicha oficial: https:/
+ /www.golfdirecto.com/micro/game/6af1d3b93f87d1a99fddc326/summary\nConfirma
+  fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6af1d3b93f87d1a99fddc326/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:c1ceb82af4a4519da876@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+SUMMARY:Torneo Navigolf
+LOCATION:Club de Golf Entrepinos\, Simancas\, Valladolid
+DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
+ s://www.golfdirecto.com/micro/game/69652a90cb999c8d22c87777/summary\nConfi
+ rma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/69652a90cb999c8d22c87777/summary
+END:VEVENT
+END:VCALENDAR

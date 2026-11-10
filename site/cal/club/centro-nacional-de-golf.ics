@@ -1,0 +1,57 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Banderin//Torneos de golf//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Banderín · Centro Nacional de Golf
+X-WR-CALDESC:Torneos de golf: Centro Nacional de Golf. Se actualiza cada ma
+ ñana. https://banderin.pages.dev
+X-WR-TIMEZONE:Europe/Madrid
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:51577a3784be431c06c7@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:Ryder / Solheim Amateur
+LOCATION:Centro Nacional de Golf\, Madrid\, Madrid
+DESCRIPTION:Absoluto · Match Play · Equipos\nInscripción: abre el 28 de 
+ agosto\, cierra el 28 de agosto.\nPrecio: Gratis.\nFicha oficial: https://
+ www.nextcaddy.com/tour/73320\nConfirma fechas y condiciones en la web del 
+ organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nextcaddy.com/tour/73320
+END:VEVENT
+BEGIN:VEVENT
+UID:1a22417a687ce5c63aca@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:Campeonato de Madrid Dobles Masculino
+LOCATION:Centro Nacional de Golf\, Madrid\, Madrid
+DESCRIPTION:Absoluto · Medal Play · Parejas\nInscripción: abre el 16 de 
+ noviembre\, cierra el 23 de noviembre.\nFicha oficial: https://www.nextcad
+ dy.com/tour/68355\nConfirma fechas y condiciones en la web del organizador
+ . Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nextcaddy.com/tour/68355
+END:VEVENT
+BEGIN:VEVENT
+UID:0c8a4704afda9f45956d@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+SUMMARY:Final Liga Juvenil
+LOCATION:Centro Nacional de Golf\, Madrid\, Madrid
+DESCRIPTION:Juvenil · Medal Play · Individual\nInscripción: abre el 13 d
+ e diciembre\, cierra el 13 de diciembre.\nPrecio: Gratis.\nFicha oficial: 
+ https://www.nextcaddy.com/tour/68338\nConfirma fechas y condiciones en la 
+ web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nextcaddy.com/tour/68338
+END:VEVENT
+END:VCALENDAR

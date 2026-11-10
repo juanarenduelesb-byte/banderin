@@ -1,0 +1,96 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Banderin//Torneos de golf//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Banderín · Real Club Sevilla Golf
+X-WR-CALDESC:Torneos de golf: Real Club Sevilla Golf. Se actualiza cada ma
+ ñana. https://banderin.pages.dev
+X-WR-TIMEZONE:Europe/Madrid
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:e4214ff7dbd67ed7a7f3@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:The Cup Sevilla - Betis (Viernes)
+LOCATION:Real Club Sevilla Golf\, Alcala de Guadaira\, Sevilla
+DESCRIPTION:Social de club · Medal Play · Individual\nFicha oficial: http
+ s://www.nextcaddy.com/tour/75209\nConfirma fechas y condiciones en la web 
+ del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nextcaddy.com/tour/75209
+END:VEVENT
+BEGIN:VEVENT
+UID:b74bfacb35d6c96cb001@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:The Cup Sevilla - Betis (Sabad0)
+LOCATION:Real Club Sevilla Golf\, Alcala de Guadaira\, Sevilla
+DESCRIPTION:Social de club · Medal Play · Individual\nFicha oficial: http
+ s://www.nextcaddy.com/tour/75210\nConfirma fechas y condiciones en la web 
+ del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nextcaddy.com/tour/75210
+END:VEVENT
+BEGIN:VEVENT
+UID:f97db89c3972b5e8240f@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:8ª Prueba Liga de Damas (Domingo)
+LOCATION:Real Club Sevilla Golf\, Alcala de Guadaira\, Sevilla
+DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
+ s://www.nextcaddy.com/tour/75258\nConfirma fechas y condiciones en la web 
+ del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nextcaddy.com/tour/75258
+END:VEVENT
+BEGIN:VEVENT
+UID:1fd71a9b474d8ba7b3e5@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:9ª Prueba Liga Infantil 5 Hoyos
+LOCATION:Real Club Sevilla Golf\, Alcala de Guadaira\, Sevilla
+DESCRIPTION:Juvenil · Stableford · Individual\nFicha oficial: https://www
+ .nextcaddy.com/tour/75260\nConfirma fechas y condiciones en la web del org
+ anizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nextcaddy.com/tour/75260
+END:VEVENT
+BEGIN:VEVENT
+UID:cc5f815c3756048f084f@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:9ª Prueba Liga de Caballeros
+LOCATION:Real Club Sevilla Golf\, Alcala de Guadaira\, Sevilla
+DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
+ s://www.nextcaddy.com/tour/75257\nConfirma fechas y condiciones en la web 
+ del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nextcaddy.com/tour/75257
+END:VEVENT
+BEGIN:VEVENT
+UID:a1a33b9dc86082ea6352@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261116
+DTEND;VALUE=DATE:20261117
+SUMMARY:8ª Prueba Liga de Damas (Lunes)
+LOCATION:Real Club Sevilla Golf\, Alcala de Guadaira\, Sevilla
+DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
+ s://www.nextcaddy.com/tour/75259\nConfirma fechas y condiciones en la web 
+ del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nextcaddy.com/tour/75259
+END:VEVENT
+END:VCALENDAR

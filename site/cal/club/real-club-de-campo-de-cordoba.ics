@@ -1,0 +1,40 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Banderin//Torneos de golf//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Banderín · Real Club de Campo de Cordoba
+X-WR-CALDESC:Torneos de golf: Real Club de Campo de Cordoba. Se actualiza c
+ ada mañana. https://banderin.pages.dev
+X-WR-TIMEZONE:Europe/Madrid
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:6905c389d6d215cb7c34@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:Torneo Heritage World Cup By Le Club 2026
+LOCATION:Real Club de Campo de Cordoba\, Cordoba\, Córdoba
+DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
+ s://www.nextcaddy.com/tour/75172\nConfirma fechas y condiciones en la web 
+ del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nextcaddy.com/tour/75172
+END:VEVENT
+BEGIN:VEVENT
+UID:04c74bd3ab9556f77c4d@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261118
+DTEND;VALUE=DATE:20261119
+SUMMARY:5ª Prueba Liga Senior Mixta 26/27 Iveco-Veimancha
+LOCATION:Real Club de Campo de Cordoba\, Cordoba\, Córdoba
+DESCRIPTION:Senior · Stableford · Individual\nFicha oficial: https://www.
+ nextcaddy.com/tour/75170\nConfirma fechas y condiciones en la web del orga
+ nizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nextcaddy.com/tour/75170
+END:VEVENT
+END:VCALENDAR

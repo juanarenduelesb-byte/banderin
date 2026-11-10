@@ -53,6 +53,7 @@ jobs:
         run: |
           cp /tmp/banderin/nuevo/data.js /tmp/banderin/nuevo/pasados.js site/
           python3 pipeline/seo.py
+          python3 pipeline/calendarios.py
           git config user.name "Banderín (actualización diaria)"
           git config user.email "actions@users.noreply.github.com"
           git add -A site/ pipeline/geo_cache.json

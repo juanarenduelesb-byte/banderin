@@ -59,13 +59,45 @@ const dow=now.getDay();const sat=dow===0?add(TODAY,-1):add(TODAY,6-dow);
 const WE=[sat,add(sat,1)],NWE=[add(sat,7),add(sat,8)];
 const inRange=(t,a,b)=>t.s<=b&&t.e>=a;
 let qOn=new Set(),saved=new Set(store.get('saved',[])),sel=null,calM=null,dayFilter=null;
+
+/* ===== Perfil del golfista y lo que sigue (fase 1: se guarda solo en este navegador) =====
+   Mismo formato que tendrán las cuentas: al entrar, estos datos se subirán tal cual.
+   Se guardan al pulsar «Guardar» o «Seguir»: es una función que pide el usuario. */
+let PERF=raw.get('perfil'),SIGO=raw.get('sigo')||{v:1,clubs:[],prov:[]};
+const hasPerf=()=>!!(PERF&&(PERF.hcp!=null||PERF.nac||PERF.sexo||PERF.fed||(PERF.clubs||[]).length));
+const fmtH=h=>(h<0?'+':'')+Math.abs(h).toLocaleString(LOC,{minimumFractionDigits:1,maximumFractionDigits:1});
+const slugify=x=>String(x).normalize('NFD').replace(/[̀-ͯ]/g,'').replace(/[^\x00-\x7f]/g,'').toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-+|-+$/g,'');
+const follows=t=>SIGO.clubs.includes(t.club)||SIGO.prov.includes(t.prov);
+function fit(t){
+  if(!hasPerf())return null;
+  const c=t.cond||{},why=[];
+  if(PERF.sexo==='F'&&t.sex==='Masculino')why.push(L('torneo masculino'));
+  if(PERF.sexo==='M'&&t.sex==='Femenino')why.push(L('torneo femenino'));
+  const age=PERF.nac?(+t.s.slice(0,4))-PERF.nac:null;
+  if(age!=null){
+    if(c.edadMax!=null){if(age>c.edadMax)why.push(L('hasta {n} años',{n:c.edadMax}))}
+    else if(t.cat==='Juvenil'&&age>21)why.push(L('torneo juvenil'));
+    if(c.edadMin!=null){if(age<c.edadMin)why.push(L('desde {n} años',{n:c.edadMin}))}
+    else if(t.cat==='Senior'&&age<50)why.push(L('torneo senior'));
+  }
+  if(c.hcp!=null&&PERF.hcp!=null&&PERF.hcp>c.hcp)why.push(L('hándicap máximo {h}',{h:fmtH(c.hcp)}));
+  if(c.priv&&!(PERF.clubs||[]).includes(t.club))why.push(L('solo socios o grupo privado'));
+  if(c.fed&&PERF.fed&&PERF.fed!==c.fed)why.push(L('solo federados de {f}',{f:V(c.fed)}));
+  return {ok:!why.length,why};
+}
+const nofit=t=>{const f=fit(t);return !!(f&&!f.ok)};
+function saveSigo(){SIGO.ts=Date.now();raw.set('sigo',SIGO);markMe()}
+function toggleFollow(kind,name){const a=SIGO[kind],i=a.indexOf(name);if(i<0)a.push(name);else a.splice(i,1);saveSigo()}
+function markMe(){const m=$('me');if(m)m.classList.toggle('has',hasPerf()||SIGO.clubs.length+SIGO.prov.length>0)}
 const QUICK=[
  ['we','Este finde',t=>inRange(t,WE[0]<TODAY?TODAY:WE[0],WE[1])],
  ['nwe','Próximo finde',t=>inRange(t,NWE[0],NWE[1])],
  ['open','Inscripción abierta',t=>t.sk==='open'],
  ['closing','Cierra en 3 días',t=>t.sk==='open'&&!!t.cl&&t.cl<=add(TODAY,3)],
  ['free','Gratis',t=>t.price===0],
- ['saved','Guardados',t=>saved.has(t.url)]
+ ['saved','Guardados',t=>saved.has(t.url)],
+ ['fit','Encajan conmigo',t=>!nofit(t)],
+ ['sigo','Lo que sigo',t=>follows(t)]
 ];
 
 const F={ccaa:['fccaa','Comunidad'],prov:['fprov','Provincia'],cat:['fcat','Categoría'],sex:['fsex','Género'],mod:['fmod','Modalidad'],form:['fform','Formato'],campo:['fcampo','Tipo de campo'],org:['forg','Organizador'],src:['fsrc','Fuente']};
@@ -110,7 +142,7 @@ const cnt=n=>n+' '+(n===1?L('torneo'):L('torneos'));
 const label=t=>L(t.sk==='done'||t.sk==='closed'?'Ver torneo':t.direct===false?'Web del organizador':'Inscribirme');
 function row(t){
   const k=km(t);
-  return '<button class="row" role="option" data-i="'+t.i+'" aria-selected="'+(sel===t.i)+'">'+I.flag(t.sk)+'<span class="t"><b>'+esc(t.n)+'</b><span>'+esc(place(t))+(t.e!==t.s?' · '+fShort(t.s)+'–'+fShort(t.e):'')+'</span></span><span class="cat">'+esc(V(t.cat))+'</span><span class="km num">'+(k!=null?(k<5?'&lt; 5 km':k+' km'):'')+'</span><span class="st '+t.sk+'">'+esc(t.ss)+'</span>'+(saved.has(t.url)?I.starS:'<span></span>')+'</button>';
+  return '<button class="row" role="option" data-i="'+t.i+'" aria-selected="'+(sel===t.i)+'">'+I.flag(t.sk)+'<span class="t"><b>'+esc(t.n)+'</b><span>'+(nofit(t)?'<i class="nofit">'+L('No encaja')+'</i>':'')+esc(place(t))+(t.e!==t.s?' · '+fShort(t.s)+'–'+fShort(t.e):'')+'</span></span><span class="cat">'+esc(V(t.cat))+'</span><span class="km num">'+(k!=null?(k<5?'&lt; 5 km':k+' km'):'')+'</span><span class="st '+t.sk+'">'+esc(t.ss)+'</span>'+(saved.has(t.url)?I.starS:'<span></span>')+'</button>';
 }
 function weekTag(d){if(d===TODAY)return L('Hoy');if(d===add(TODAY,1))return L('Mañana');if(d>=WE[0]&&d<=WE[1])return L('Este finde');if(d>=NWE[0]&&d<=NWE[1])return L('Próximo finde');return''}
 function renderList(list){
@@ -129,16 +161,18 @@ function fillDetail(d,t,modal){
   if(t.insNote)facts.push(['Inscripción',V(t.insNote),1]);
   if(t.op)facts.push(['Abre inscripción',fShort(t.op)]);if(t.cl)facts.push(['Cierra inscripción',fShort(t.cl)]);
   if(t.priceNote)facts.push(['Sobre el precio',LANG==='en'?t.priceNote.replace(/^Desde (.*?) €; hay (\d+) tarifas$/,'From €$1; $2 rates').replace('Precio de la inscripción online','Online entry price').replace('Según las condiciones publicadas','According to the published conditions').replace(/desde ([\d.,]+) € hasta ([\d.,]+) €/,'from €$1 to €$2'):t.priceNote,1]);
+  const fv=fit(t);if(fv)facts.push(['Tu perfil',fv.ok?L('Encaja con lo publicado'):L('No encaja')+': '+fv.why.join(', '),1,fv.ok?'fit':'nofitf']);
   if(k!=null)facts.push(['Distancia',(k<5?L('Menos de 5 km'):'≈ '+k+' km')+' '+L('desde')+' '+PROV[$('city').value][0],1]);
   const chg=chgFor(t.url);
   const same=T.filter(x=>x.club===t.club&&x.i!==t.i&&x.sk!=='done').slice(0,4);
   d.innerHTML='<div class="dmap">'+greenSvg(hash(t.club||t.n))+'<span class="where">'+esc(t.prov!=='Por confirmar'?t.prov:V(t.ccaa))+'</span><button class="icon-btn dclose" data-act="close" aria-label="'+L('Cerrar ficha')+'">'+I.x+'</button></div>'+
-   '<div class="dbody"><span class="dst st '+t.sk+'">'+I.flag(t.sk)+esc(t.sl)+'</span><h2>'+esc(t.n)+'</h2><p class="sub">'+esc(place(t))+'</p>'+(t.aviso?'<p class="dnote"><b>'+L('Aviso')+':</b> '+esc(L(t.aviso))+'</p>':'')+(chg?'<p class="dnote">'+chg+'</p>':'')+
-   '<div class="facts">'+facts.filter(f=>f[1]&&f[1]!=='Sin indicar'&&f[1]!=='Not stated').map(f=>'<div class="fact'+(f[2]?' wide':'')+'"><span>'+L(f[0])+'</span><b title="'+esc(f[1])+'">'+esc(f[1])+'</b></div>').join('')+'</div>'+
+   '<div class="dbody"><span class="dst st '+t.sk+'">'+I.flag(t.sk)+esc(t.sl)+'</span><h2>'+esc(t.n)+'</h2><p class="sub">'+esc(place(t))+'</p>'+(t.club?'<button class="follow" data-act="follow" aria-pressed="'+SIGO.clubs.includes(t.club)+'">'+(SIGO.clubs.includes(t.club)?'✓ '+L('Sigues este club'):'+ '+L('Seguir este club'))+'</button>':'')+(t.aviso?'<p class="dnote"><b>'+L('Aviso')+':</b> '+esc(L(t.aviso))+'</p>':'')+(chg?'<p class="dnote">'+chg+'</p>':'')+
+   '<div class="facts">'+facts.filter(f=>f[1]&&f[1]!=='Sin indicar'&&f[1]!=='Not stated').map(f=>'<div class="fact'+(f[2]?' wide':'')+(f[3]?' '+f[3]:'')+'"><span>'+L(f[0])+'</span><b title="'+esc(f[1])+'">'+esc(f[1])+'</b></div>').join('')+'</div>'+
    '<div class="acts"><a class="btn primary" href="'+esc(safeUrl(t.url))+'" target="_blank" rel="noopener noreferrer">'+label(t)+I.out+'</a><button class="btn ghost" data-act="save" aria-pressed="'+isS+'" title="'+L(isS?'Quitar de guardados':'Guardar')+'" aria-label="'+L(isS?'Quitar de guardados':'Guardar')+'">'+I.star+'</button><a class="btn ghost" href="'+gcal(t)+'" target="_blank" rel="noopener noreferrer" title="'+L('Añadir a Google Calendar')+'" aria-label="'+L('Añadir a Google Calendar')+'">'+I.cal+'</a></div>'+
    '<p class="note">'+L('Datos de {s}.',{s:esc(t.src)})+' '+(t.ok?esc(checkedText(t.ok))+' ':'')+L('Confirma fechas y precio en la web del organizador antes de inscribirte.')+(t.direct===false?' '+L('Este organizador no publica una ficha por torneo: el enlace lleva a su página de torneos.'):'')+'</p>'+
    (same.length?'<div class="same"><h3>'+L('Más en este campo')+'</h3>'+same.map(x=>'<button data-i="'+x.i+'"><span>'+esc(x.n)+'</span><span>'+fShort(x.s)+'</span></button>').join('')+'</div>':'')+'</div>';
   d.querySelector('[data-act=save]').onclick=()=>{isS?saved.delete(t.url):saved.add(t.url);store.set('saved',[...saved]);render();if(modal){fillDetail(d,t,true);renderHome()}};
+  const fb=d.querySelector('[data-act=follow]');if(fb)fb.onclick=()=>{toggleFollow('clubs',t.club);fillDetail(d,t,modal);renderQuick();if(location.hash==='#perfil')renderPerfil()};
   d.querySelector('[data-act=close]').onclick=modal?closeModal:closeSheet;
   d.querySelectorAll('.same button').forEach(b=>b.onclick=()=>modal?fillDetail(d,T[+b.dataset.i],true):select(+b.dataset.i,true));
 }
@@ -148,7 +182,7 @@ function closeSheet(){$('detail').classList.remove('open');$('scrim').classList.
 function select(i,open){sel=i;document.querySelectorAll('.row').forEach(r=>r.setAttribute('aria-selected',String(+r.dataset.i===i)));renderDetail();$('detail').scrollTop=0;if(open)openSheet()}
 function renderQuick(){
   const base=filtered(true);
-  $('quick').innerHTML=QUICK.map(q=>{if(q[0]==='saved'&&!saved.size&&!qOn.has('saved'))return'';const n=base.filter(q[2]).length;return '<button class="qchip" data-q="'+q[0]+'" aria-pressed="'+qOn.has(q[0])+'">'+(q[0]==='saved'?I.star:q[0]==='closing'?I.clock:'')+L(q[1])+' <span class="n num">'+n+'</span></button>'}).join('');
+  $('quick').innerHTML=QUICK.map(q=>{if(!qOn.has(q[0])&&((q[0]==='saved'&&!saved.size)||(q[0]==='fit'&&!hasPerf())||(q[0]==='sigo'&&!SIGO.clubs.length&&!SIGO.prov.length)))return'';const n=base.filter(q[2]).length;return '<button class="qchip" data-q="'+q[0]+'" aria-pressed="'+qOn.has(q[0])+'">'+(q[0]==='saved'?I.star:q[0]==='closing'?I.clock:'')+L(q[1])+' <span class="n num">'+n+'</span></button>'}).join('');
 }
 function chips(){
   const out=[];
@@ -206,10 +240,12 @@ function renderAgenda(list){
 }
 function route(){
   const h=location.hash.slice(1),LD=window.LEGALDOCS||{};
-  const v=['inicio','lista','calendario','resultados','fuentes'].includes(h)?h:LD[h]?'legal':'inicio';
-  ['inicio','lista','calendario','resultados','fuentes','legal'].forEach(x=>{$('v-'+x).hidden=x!==v});
+  const v=['inicio','lista','calendario','resultados','fuentes','perfil'].includes(h)?h:LD[h]?'legal':'inicio';
+  ['inicio','lista','calendario','resultados','fuentes','perfil','legal'].forEach(x=>{$('v-'+x).hidden=x!==v});
   $('controls').hidden=v!=='lista'&&v!=='calendario';$('pagehead').hidden=v!=='lista'&&v!=='calendario';document.body.dataset.view=v;
   if(v==='resultados')openResults();
+  if(v==='perfil')renderPerfil();
+  {const m=$('me');if(v==='perfil')m.setAttribute('aria-current','page');else m.removeAttribute('aria-current')}
   if(v==='legal'){renderLegal(h);scrollTo({top:0})}
   if(v!=='inicio'&&v!=='calendario')closeModal();
   document.querySelectorAll('.tabs a').forEach(a=>{const on=a.getAttribute('href')==='#'+v;a.classList.toggle('on',on);if(on)a.setAttribute('aria-current','page');else a.removeAttribute('aria-current')});
@@ -435,8 +471,76 @@ $('modal').addEventListener('click',e=>{if(e.target.classList.contains('mscrim')
 (function(){$('hGreen').setAttribute('d',blob(452,192,92,1.1,.07,1.45));$('hRings').innerHTML=topo(452,192,16,13,77,1.45);
  if(matchMedia('(prefers-reduced-motion:reduce)').matches){try{$('heroArt').pauseAnimations()}catch(e){}}})();
 
-addEventListener('hashchange',route);route();render();
 
+
+
+/* ===== Vista «Mi perfil» ===== */
+const CCAA_ALL=['Andalucía','Aragón','Canarias','Cantabria','Castilla y León','Castilla-La Mancha','Cataluña','Comunidad de Madrid','Comunidad Foral de Navarra','Comunitat Valenciana','Extremadura','Galicia','Illes Balears','La Rioja','País Vasco','Principado de Asturias','Región de Murcia','Ceuta','Melilla'];
+const CLUBS=[...new Set(T.map(t=>t.club).filter(Boolean))].sort((a,b)=>a.localeCompare(b,'es'));
+const PROVS=[...new Set(T.map(t=>t.prov).filter(p=>p&&p!=='Por confirmar'))].sort((a,b)=>a.localeCompare(b,'es'));
+let pClubs=[];
+{const y=new Date().getFullYear();$('pnac').innerHTML='<option value="">'+L('Sin indicar')+'</option>'+Array.from({length:y-1925-4},(_,i)=>y-5-i).map(v=>'<option>'+v+'</option>').join('')}
+$('pfed').innerHTML='<option value="">'+L('Sin indicar')+'</option>'+CCAA_ALL.map(c=>'<option value="'+esc(c)+'">'+esc(V(c))+'</option>').join('');
+$('pclubList').innerHTML=CLUBS.map(c=>'<option value="'+esc(c)+'">').join('');
+$('pprovAdd').innerHTML='<option value="">'+L('Seguir una provincia')+'</option>'+PROVS.map(p=>'<option value="'+esc(p)+'">'+esc(p)+'</option>').join('');
+$('psigo').dataset.empty=L('Aún no sigues ningún club ni provincia.');
+$('prows').dataset.empty=L('Cuando sigas un club o una provincia, sus próximos torneos aparecerán aquí.');
+function parseH(v){v=String(v||'').trim().replace(',','.');if(!v)return null;const plus=v.startsWith('+');const n=Number(v.replace('+',''));if(!isFinite(n))return NaN;const h=plus?-n:n;return h<-10||h>54?NaN:Math.round(h*10)/10}
+function drawClubs(){$('pclubs').innerHTML=pClubs.map((c,i)=>'<span class="ptag">'+esc(c)+'<button type="button" data-i="'+i+'" aria-label="'+esc(L('Quitar {c}',{c}))+'">×</button></span>').join('')}
+function calLinks(kind,name){const path='/cal/'+kind+'/'+slugify(name)+'.ics',web='webcal://'+location.host+path;
+  return '<a href="'+esc(web)+'">'+L('Calendario')+'</a><a href="'+esc('https://calendar.google.com/calendar/r?cid='+encodeURIComponent(web))+'" target="_blank" rel="noopener noreferrer">Google</a>'}
+function renderPerfil(){
+  const P=PERF||{};
+  $('phcp').value=P.hcp!=null?fmtH(P.hcp):'';$('phcp').removeAttribute('aria-invalid');$('phcpErr').hidden=true;
+  $('pnac').value=P.nac||'';$('pfed').value=P.fed||'';
+  document.querySelectorAll('input[name=psexo]').forEach(r=>r.checked=r.value===(P.sexo||''));
+  pClubs=(P.clubs||[]).slice();drawClubs();
+  $('pcity').innerHTML=$('city').innerHTML.replace(L('¿Desde dónde sales?'),L('Sin indicar'));$('pcity').value=$('city').value;$('pradius').value=$('radius').value;
+  const up0=T.filter(t=>t.sk!=='done');
+  const items=[...SIGO.prov.map(n=>['prov',n,up0.filter(t=>t.prov===n).length]),...SIGO.clubs.map(n=>['club',n,up0.filter(t=>t.club===n).length])];
+  $('psigo').innerHTML=items.map(([k,n,c])=>'<li><span><b>'+esc(n)+'</b><small>'+L(k==='prov'?'Provincia':'Club')+' · '+cnt(c)+'</small></span><span class="pcal">'+(c?calLinks(k,n):'')+'<button type="button" data-k="'+k+'" data-n="'+esc(n)+'" aria-label="'+esc(L('Dejar de seguir {c}',{c:n}))+'">×</button></span></li>').join('');
+  const fl=up0.filter(follows).sort((a,b)=>a.s.localeCompare(b.s)).slice(0,8);
+  {let last='';$('prows').innerHTML=fl.map(t=>{const h=t.s!==last?'<div class="dhead"><b>'+fDay(t.s)+'</b>'+(weekTag(t.s)?'<span class="wk">'+weekTag(t.s)+'</span>':'')+'</div>':'';last=t.s;return h+row(t)}).join('')}
+  const nf=hasPerf()?up0.filter(nofit).length:0;
+  $('pmine').innerHTML='<a href="#lista" data-go="saved"><b>'+saved.size+'</b><span>'+L('Guardados')+'</span></a><a href="#resultados" data-go="played"><b>'+played.size+'</b><span>'+L('Jugados')+'</span></a>'+
+    (hasPerf()?'<a href="#lista" data-go="fit"><b>'+(up0.length-nf)+'</b><span>'+L('Encajan contigo')+'</span></a>':'')+
+    ((SIGO.clubs.length+SIGO.prov.length)?'<a href="#lista" data-go="sigo"><b>'+up0.filter(follows).length+'</b><span>'+L('De lo que sigues')+'</span></a>':'');
+  $('pwipe').classList.remove('confirm');$('pwipe').textContent=L('Borrar mis datos de este dispositivo');
+  markMe();
+}
+function addClub(inp,list){const v=inp.value.trim();if(!v)return false;const m=CLUBS.find(c=>norm(c)===norm(v))||v;if(!list.includes(m))list.push(m);inp.value='';return true}
+$('pclubAdd').onclick=()=>{if(addClub($('pclubIn'),pClubs))drawClubs()};
+$('pclubIn').onkeydown=e=>{if(e.key==='Enter'){e.preventDefault();$('pclubAdd').click()}};
+$('pclubs').onclick=e=>{const b=e.target.closest('button[data-i]');if(!b)return;pClubs.splice(+b.dataset.i,1);drawClubs()};
+$('phcp').oninput=()=>{const h=parseH($('phcp').value);const bad=Number.isNaN(h);$('phcp').setAttribute('aria-invalid',String(bad));$('phcpErr').hidden=!bad};
+$('pform').onsubmit=e=>{
+  e.preventDefault();
+  if($('pclubIn').value.trim())addClub($('pclubIn'),pClubs);
+  const h=parseH($('phcp').value);
+  if(Number.isNaN(h)){$('phcp').setAttribute('aria-invalid','true');$('phcpErr').hidden=false;$('phcp').focus();return}
+  const sx=(document.querySelector('input[name=psexo]:checked')||{}).value||null;
+  PERF={v:1,hcp:h,nac:+$('pnac').value||null,sexo:sx,fed:$('pfed').value||null,clubs:pClubs.slice(),ts:Date.now()};
+  raw.set('perfil',PERF);
+  $('city').value=$('pcity').value;store.set('city',$('city').value);$('radius').value=$('pradius').value;store.set('radius',$('radius').value);
+  if($('hcity'))$('hcity').value=$('city').value;
+  render();renderPerfil();
+  $('pstat').textContent=L('Perfil guardado.');setTimeout(()=>{$('pstat').textContent=''},3500);
+};
+$('pprovAdd').onchange=()=>{const v=$('pprovAdd').value;if(v&&!SIGO.prov.includes(v)){SIGO.prov.push(v);saveSigo()}$('pprovAdd').value='';renderPerfil();renderQuick()};
+$('psclubAdd').onclick=()=>{if(addClub($('psclubIn'),SIGO.clubs)){saveSigo();renderPerfil();renderQuick()}};
+$('psclubIn').onkeydown=e=>{if(e.key==='Enter'){e.preventDefault();$('psclubAdd').click()}};
+$('psigo').onclick=e=>{const b=e.target.closest('button[data-k]');if(!b)return;toggleFollow(b.dataset.k==='prov'?'prov':'clubs',b.dataset.n);renderPerfil();renderQuick()};
+$('prows').onclick=e=>{const r=e.target.closest('.row');if(r)openModal(+r.dataset.i)};
+$('pmine').onclick=e=>{const a=e.target.closest('a[data-go]');if(!a)return;const g=a.dataset.go;
+  if(g==='played'){rMode='mine';document.querySelectorAll('#rmode a').forEach(x=>x.classList.toggle('on',x.dataset.m==='mine'));return}
+  e.preventDefault();goList(()=>{qOn.add(g)});location.hash='lista'};
+$('pwipe').onclick=()=>{const b=$('pwipe');
+  if(!b.classList.contains('confirm')){b.classList.add('confirm');b.textContent=L('Pulsa otra vez para borrarlo todo');return}
+  ['perfil','sigo','saved','played','city','radius'].forEach(k=>{raw.del(k);delete MEM[k]});
+  PERF=null;SIGO={v:1,clubs:[],prov:[]};saved.clear();played.clear();$('city').value='';$('radius').value='';
+  render();renderPerfil();$('pstat').textContent='';b.textContent=L('Datos borrados de este dispositivo.');
+};
+markMe();
 
 /* ===== Textos legales ===== */
 function renderLegal(k){
@@ -478,3 +582,6 @@ document.addEventListener('click',e=>{
 });
 document.addEventListener('keydown',e=>{if(e.key==='Escape'&&!$('cpanel').hidden){e.stopPropagation();closeCookies()}},true);
 if(!consent.get())$('cbanner').hidden=false;
+
+// Arranque: al final, cuando todo está definido
+addEventListener('hashchange',route);route();render();

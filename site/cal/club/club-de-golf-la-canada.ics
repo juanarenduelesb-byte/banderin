@@ -1,0 +1,87 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Banderin//Torneos de golf//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Banderín · Club de Golf la Cañada
+X-WR-CALDESC:Torneos de golf: Club de Golf la Cañada. Se actualiza cada ma
+ ñana. https://banderin.pages.dev
+X-WR-TIMEZONE:Europe/Madrid
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:eeb6f0e088e34252ad5c@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:Torneo Benefico Piratas del Golf
+LOCATION:Club de Golf la Cañada\, Guadiaro\, Cádiz
+DESCRIPTION:Benéfico · Stableford · Individual\nInscripción: abre el 5 
+ de octubre\, cierra el 11 de noviembre.\nPrecio: 100 €.\nFicha oficial: 
+ https://www.nextcaddy.com/tour/74226\nConfirma fechas y condiciones en la 
+ web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nextcaddy.com/tour/74226
+END:VEVENT
+BEGIN:VEVENT
+UID:6c4b1cb09e391d785a11@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:Torneo Ranking (Absoluto)
+LOCATION:Club de Golf la Cañada\, Guadiaro\, Cádiz
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 28 de octubre\, cierra el 21 de noviembre.\nFicha oficial: https://www.
+ nextcaddy.com/tour/71988\nConfirma fechas y condiciones en la web del orga
+ nizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nextcaddy.com/tour/71988
+END:VEVENT
+BEGIN:VEVENT
+UID:504afcd772f3554f5288@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
+SUMMARY:FINAL Ranking Damas 2026
+LOCATION:Club de Golf la Cañada\, Guadiaro\, Cádiz
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 1 de noviembre\, cierra el 24 de noviembre.\nPrecio: 10 €.\nFicha ofi
+ cial: https://www.nextcaddy.com/tour/75097\nConfirma fechas y condiciones 
+ en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nextcaddy.com/tour/75097
+END:VEVENT
+BEGIN:VEVENT
+UID:1bfdd38d1820ee87163c@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261206
+SUMMARY:Benefico Santa Barbara - Hermandad Amargura
+LOCATION:Club de Golf la Cañada\, Guadiaro\, Cádiz
+DESCRIPTION:Benéfico · Stableford · Individual\nInscripción: abre el 10
+  de noviembre\, cierra el 2 de diciembre.\nPrecio: 75 €.\nFicha oficial:
+  https://www.nextcaddy.com/tour/75253\nConfirma fechas y condiciones en la
+  web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nextcaddy.com/tour/75253
+END:VEVENT
+BEGIN:VEVENT
+UID:4f4a5bb7eef8a9162a74@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261207
+DTEND;VALUE=DATE:20261208
+SUMMARY:9ª Prueba Ranking Escuela Cat. Especial 2026
+LOCATION:Club de Golf la Cañada\, Guadiaro\, Cádiz
+DESCRIPTION:Juvenil · Medal Play · Individual\nInscripción: abre el 23 d
+ e octubre\, cierra el 4 de diciembre.\nPrecio: 15 €.\nFicha oficial: htt
+ ps://www.nextcaddy.com/tour/74216\nConfirma fechas y condiciones en la web
+  del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nextcaddy.com/tour/74216
+END:VEVENT
+END:VCALENDAR

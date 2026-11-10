@@ -1,0 +1,43 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Banderin//Torneos de golf//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Banderín · Golf Park Entertainment
+X-WR-CALDESC:Torneos de golf: Golf Park Entertainment. Se actualiza cada ma
+ ñana. https://banderin.pages.dev
+X-WR-TIMEZONE:Europe/Madrid
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:d8d842fd6468e0c9c39d@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:Torneo de 1ª Categoría Pitch & Putt Masculino y Femenino "Golf Pa
+ rk"
+LOCATION:Golf Park Entertainment\, Alcobendas\, Madrid
+DESCRIPTION:Absoluto · Medal Play · Individual\nInscripción: abre el 3 d
+ e noviembre\, cierra el 10 de noviembre.\nPrecio: 21 €.\nFicha oficial: 
+ https://www.nextcaddy.com/tour/74256\nConfirma fechas y condiciones en la 
+ web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nextcaddy.com/tour/74256
+END:VEVENT
+BEGIN:VEVENT
+UID:f4293b69a1b6c0a81f31@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:Liga Femenina (hcp igual o menor de 42.0)
+LOCATION:Golf Park Entertainment\, Alcobendas\, Madrid
+DESCRIPTION:Absoluto · Stableford · Individual\nInscripción: abre el 9 d
+ e noviembre\, cierra el 16 de noviembre.\nPrecio: 16 €.\nFicha oficial: 
+ https://www.nextcaddy.com/tour/68197\nConfirma fechas y condiciones en la 
+ web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nextcaddy.com/tour/68197
+END:VEVENT
+END:VCALENDAR

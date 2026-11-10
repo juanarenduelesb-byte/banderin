@@ -1,0 +1,55 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Banderin//Torneos de golf//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Banderín · Villa Padierna Golf Club
+X-WR-CALDESC:Torneos de golf: Villa Padierna Golf Club. Se actualiza cada m
+ añana. https://banderin.pages.dev
+X-WR-TIMEZONE:Europe/Madrid
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:abb31c71a4d68cfb8a26@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261130
+SUMMARY:Final Matchplay Parejas 2026
+LOCATION:Villa Padierna Golf Club\, Benahavis\, Málaga
+DESCRIPTION:Social de club · Fourball · Parejas\nFicha oficial: https://w
+ ww.golfdirecto.com/micro/game/69a4caf0a5c98bfc698183f6/summary\nConfirma f
+ echas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/69a4caf0a5c98bfc698183f6/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:99697ad583908e1ffc16@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261204
+DTEND;VALUE=DATE:20261205
+SUMMARY:Marbella Final Summum Business 2026
+LOCATION:Villa Padierna Golf Club\, Benahavis\, Málaga
+DESCRIPTION:Social de club · Fourball · Parejas\nInscripción: abre el 25
+  de octubre\, cierra el 2 de diciembre.\nFicha oficial: https://www.golfdi
+ recto.com/micro/game/69a4cdd1a5c98bfc69e4f0b6/summary\nConfirma fechas y c
+ ondiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/69a4cdd1a5c98bfc69e4f0b6/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:f6497865e784c903f4cd@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261208
+SUMMARY:Final Nacional Summum 2026
+LOCATION:Villa Padierna Golf Club\, Benahavis\, Málaga
+DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
+ s://www.golfdirecto.com/micro/game/69a4cbe2a5c98bfc69ab6465/summary\nConfi
+ rma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/69a4cbe2a5c98bfc69ab6465/summary
+END:VEVENT
+END:VCALENDAR

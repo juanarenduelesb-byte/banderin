@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Banderin//Torneos de golf//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Banderín · Club de Golf Son Parc
+X-WR-CALDESC:Torneos de golf: Club de Golf Son Parc. Se actualiza cada mañ
+ ana. https://banderin.pages.dev
+X-WR-TIMEZONE:Europe/Madrid
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:6f2d699ff0f0620ab2da@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261213
+SUMMARY:Trofeo Navideño
+LOCATION:Club de Golf Son Parc\, Es Mercadal\, Illes Balears
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 2 de octubre\, cierra el 10 de diciembre.\nFicha oficial: https://www.g
+ olfdirecto.com/micro/game/6abf9036860d5cb9e548d160/summary\nConfirma fecha
+ s y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6abf9036860d5cb9e548d160/summary
+END:VEVENT
+END:VCALENDAR

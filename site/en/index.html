@@ -713,6 +713,76 @@ h2.ltitle{font-family:"Instrument Serif",Georgia,"Times New Roman",serif;font-we
 .fregions nav{display:flex;flex-wrap:wrap;gap:8px 18px}
 .fregions a{font-size:13.5px;color:var(--hero-ink);opacity:.8;text-decoration:none}
 .fregions a:hover{opacity:1;text-decoration:underline;text-underline-offset:3px}
+
+/* ===== Mi perfil ===== */
+.mebtn{display:inline-flex;align-items:center;gap:7px;position:relative;height:36px;padding:0 14px 0 10px;border-radius:999px;text-decoration:none;font-size:14px;font-weight:600;color:var(--ink);background:var(--tint);margin-left:8px;flex:none;transition:background .2s}
+.mebtn svg{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:1.9;stroke-linecap:round}
+.mebtn:hover{background:color-mix(in srgb,var(--accent) 14%,var(--tint))}
+.mebtn[aria-current]{background:var(--accent);color:var(--on-accent)}
+.medot{position:absolute;top:5px;left:24px;width:8px;height:8px;border-radius:50%;background:var(--gold-l,#C9A86A);box-shadow:0 0 0 2px var(--card);display:none}
+.mebtn.has .medot{display:block}
+nav .bar .seg.tabs{margin-left:auto}
+@media (max-width:700px){.mebtn{display:none}.tabin{grid-template-columns:repeat(5,1fr)!important}.tb span{font-size:10px}}
+.pgrid{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);gap:18px;align-items:start;margin-bottom:28px}
+.pcol{display:grid;gap:18px;min-width:0}
+.pcard{border-radius:26px;padding:22px 24px;position:relative;color:var(--ink)}
+.pcard h3{font-family:"Instrument Serif",Georgia,serif;font-weight:400;font-size:26px;letter-spacing:-.01em;line-height:1.1;margin:0 0 6px}
+.phint,.pnote{color:var(--muted);font-size:14px;line-height:1.5;margin:0 0 14px}
+.pnote{margin:16px 0 0;font-size:13px}
+.pfields{display:grid;grid-template-columns:1fr 1fr;gap:14px 16px}
+.pf{display:flex;flex-direction:column;gap:6px;min-width:0;margin:0;padding:0;border:0}
+.pf.wide{grid-column:1/-1}
+.pl{font-size:12px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);padding:0}
+#v-perfil input:not([type=radio]),#v-perfil select{height:44px;width:100%;border:1px solid var(--hair);border-radius:12px;background:var(--card);color:var(--ink);padding:0 12px;font:inherit;font-size:15px;min-width:0}
+#v-perfil input:focus-visible,#v-perfil select:focus-visible,.pseg input:focus-visible+span{outline:2px solid var(--accent);outline-offset:2px}
+#v-perfil input[aria-invalid=true]{border-color:var(--crit)}
+.perr{color:var(--crit);font-size:13px}
+.pseg{display:flex;gap:4px;background:var(--tint);border-radius:999px;padding:4px;flex-wrap:wrap}
+.pseg label{flex:1 1 auto;position:relative;cursor:pointer}
+.pseg input{position:absolute;opacity:0;pointer-events:none}
+.pseg span{display:block;text-align:center;padding:9px 14px;border-radius:999px;font-size:14px;font-weight:600;color:var(--muted);transition:background .2s,color .2s}
+.pseg input:checked+span{background:var(--card);color:var(--ink);box-shadow:0 1px 4px rgba(0,0,0,.12)}
+.padd{display:flex;gap:8px}
+.padd.two{display:grid;grid-template-columns:1fr 1fr auto;gap:8px}
+.padd .btn{flex:none;height:44px}
+.ptags{display:flex;flex-wrap:wrap;gap:8px;margin-top:8px}
+.ptags:empty{display:none}
+.ptag{display:inline-flex;align-items:center;gap:6px;background:var(--tint);border-radius:999px;padding:6px 6px 6px 12px;font-size:14px;font-weight:600}
+.ptag button{border:0;background:transparent;color:var(--muted);width:24px;height:24px;border-radius:50%;cursor:pointer;font-size:16px;line-height:1}
+.ptag button:hover{background:color-mix(in srgb,var(--ink) 10%,transparent);color:var(--ink)}
+.pacts{display:flex;align-items:center;gap:14px;margin-top:20px;flex-wrap:wrap}
+.pstat{font-size:14px;font-weight:600;color:var(--accent)}
+.pacc{border-style:dashed}
+.pacc p{margin:0;color:var(--muted);font-size:14.5px;line-height:1.55}
+.psoon{position:absolute;top:20px;right:20px;font-size:11px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--gold,#B08B47);background:color-mix(in srgb,var(--gold-l,#C9A86A) 18%,transparent);border-radius:999px;padding:5px 10px}
+.psigo{list-style:none;margin:14px 0 0;padding:0;display:grid;gap:8px}
+.psigo:empty::after{content:attr(data-empty);display:block;color:var(--muted);font-size:14px}
+.psigo li{display:grid;grid-template-columns:1fr auto;gap:4px 10px;align-items:center;padding:10px 12px;border-radius:16px;background:var(--tint)}
+.psigo b{font-size:15px}
+.psigo small{display:block;color:var(--muted);font-size:13px;font-weight:400}
+.psigo .pcal{display:flex;gap:6px;align-items:center}
+.psigo .pcal a{font-size:13px;font-weight:600;color:var(--accent);text-decoration:none;padding:6px 10px;border-radius:999px;background:var(--card)}
+.psigo .pcal a:hover{text-decoration:underline}
+.psigo .pcal button{border:0;background:transparent;color:var(--muted);width:30px;height:30px;border-radius:50%;cursor:pointer;font-size:18px}
+.psigo .pcal button:hover{background:color-mix(in srgb,var(--ink) 10%,transparent);color:var(--ink)}
+.prows{border-radius:18px;overflow:hidden;box-shadow:none;border:1px solid var(--hair)}
+.prows:empty::after{content:attr(data-empty);display:block;padding:16px;color:var(--muted);font-size:14px}
+#v-perfil .prows .row{grid-template-columns:16px minmax(0,1fr) auto;gap:10px;padding:11px 14px}
+#v-perfil .prows .row .cat,#v-perfil .prows .row .km,#v-perfil .prows .row>span:last-child:empty{display:none}
+#v-perfil .prows .row .t b{white-space:normal}
+.pmine{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.pmine a{display:block;padding:14px 16px;border-radius:18px;background:var(--tint);text-decoration:none;color:var(--ink)}
+.pmine b{display:block;font-family:"Instrument Serif",Georgia,serif;font-weight:400;font-size:34px;line-height:1}
+.pmine span{font-size:13.5px;color:var(--muted);font-weight:600}
+.pmine a:hover{background:color-mix(in srgb,var(--accent) 12%,var(--tint))}
+#pwipe.confirm{border-color:var(--crit);color:var(--crit)}
+.nofit{font-style:normal;font-size:11px;font-weight:700;letter-spacing:.02em;color:var(--crit);background:color-mix(in srgb,var(--crit) 12%,transparent);border-radius:999px;padding:2px 7px;margin-right:6px;white-space:nowrap}
+.follow{display:inline-flex;align-items:center;gap:6px;margin:-2px 0 12px;border:1px solid var(--hair);background:transparent;color:var(--ink);border-radius:999px;padding:6px 12px;font:inherit;font-size:13px;font-weight:600;cursor:pointer}
+.follow[aria-pressed=true]{background:var(--tint);border-color:transparent;color:var(--accent)}
+.follow:hover{border-color:var(--accent)}
+.fact.fit b{color:var(--accent)}.fact.nofitf b{color:var(--crit)}
+@media (max-width:900px){.pgrid{grid-template-columns:1fr}}
+@media (max-width:520px){.pfields{grid-template-columns:1fr}.pcard{padding:20px 18px;border-radius:22px}.padd.two{grid-template-columns:1fr}.pmine b{font-size:28px}}
 </style>
 </head>
 <body>
@@ -721,10 +791,11 @@ h2.ltitle{font-family:"Instrument Serif",Georgia,"Times New Roman",serif;font-we
 <nav><div class="bar glass">
   <a class="brand flagmark" href="#inicio"><svg viewBox="0 0 24 24" aria-hidden="true"><path class="pole" d="M8 3v16.5" fill="none" stroke-width="2.2" stroke-linecap="round"/><path class="cloth" d="M9.4 3.4 19.2 7a.7.7 0 0 1 0 1.3L9.4 11.9z"/><ellipse class="cup" cx="8" cy="20.4" rx="4.6" ry="1.5"/></svg><span>banderín</span></a>
   <div class="seg tabs"><a href="#inicio">Inicio</a><a href="#lista">Torneos</a><a href="#calendario">Calendario</a><a href="#resultados">Resultados</a></div>
+  <a class="mebtn" id="me" href="#perfil" title="Mi perfil"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8.2" r="3.9"/><path d="M4.6 20.2c.9-3.9 3.9-6 7.4-6s6.5 2.1 7.4 6"/></svg><span>Mi perfil</span><i class="medot" aria-hidden="true"></i></a>
   <button class="icon-btn langbtn" id="lang" type="button">EN</button>
   <button class="icon-btn" id="theme" title="Cambiar entre modo claro y oscuro" aria-label="Cambiar tema"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="8"/><path d="M12 4a8 8 0 0 0 0 16z" fill="currentColor"/></svg></button>
 </div></nav>
-<nav class="tabbar" aria-label="Secciones"><div class="tabs tabin"><a href="#inicio" class="tb"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3.5 10.6 12 3.8l8.5 6.8V19a1.6 1.6 0 0 1-1.6 1.6h-4.2v-5.4a.9.9 0 0 0-.9-.9h-3.6a.9.9 0 0 0-.9.9v5.4H5.1A1.6 1.6 0 0 1 3.5 19z"/></svg><span>Inicio</span></a><a href="#lista" class="tb"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="4" width="17" height="16.5" rx="3.2"/><path d="M7.5 9.2h9M7.5 13h9M7.5 16.8h5.5"/></svg><span>Torneos</span></a><a href="#calendario" class="tb"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="5" width="17" height="15.5" rx="3.2"/><path d="M3.5 9.6h17M8 3v4M16 3v4"/><circle cx="8.3" cy="14" r=".9" class="f"/><circle cx="12" cy="14" r=".9" class="f"/><circle cx="15.7" cy="14" r=".9" class="f"/></svg><span>Calendario</span></a><a href="#resultados" class="tb"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 4h8v5.2a4 4 0 0 1-8 0z"/><path d="M8 5.6H5.2v1.2A3.2 3.2 0 0 0 8.4 10M16 5.6h2.8v1.2A3.2 3.2 0 0 1 15.6 10M12 13.2v3.6M8.6 20h6.8M9.6 20l.6-3.2h3.6l.6 3.2"/></svg><span>Resultados</span></a></div></nav>
+<nav class="tabbar" aria-label="Secciones"><div class="tabs tabin"><a href="#inicio" class="tb"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3.5 10.6 12 3.8l8.5 6.8V19a1.6 1.6 0 0 1-1.6 1.6h-4.2v-5.4a.9.9 0 0 0-.9-.9h-3.6a.9.9 0 0 0-.9.9v5.4H5.1A1.6 1.6 0 0 1 3.5 19z"/></svg><span>Inicio</span></a><a href="#lista" class="tb"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="4" width="17" height="16.5" rx="3.2"/><path d="M7.5 9.2h9M7.5 13h9M7.5 16.8h5.5"/></svg><span>Torneos</span></a><a href="#calendario" class="tb"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="5" width="17" height="15.5" rx="3.2"/><path d="M3.5 9.6h17M8 3v4M16 3v4"/><circle cx="8.3" cy="14" r=".9" class="f"/><circle cx="12" cy="14" r=".9" class="f"/><circle cx="15.7" cy="14" r=".9" class="f"/></svg><span>Calendario</span></a><a href="#resultados" class="tb"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 4h8v5.2a4 4 0 0 1-8 0z"/><path d="M8 5.6H5.2v1.2A3.2 3.2 0 0 0 8.4 10M16 5.6h2.8v1.2A3.2 3.2 0 0 1 15.6 10M12 13.2v3.6M8.6 20h6.8M9.6 20l.6-3.2h3.6l.6 3.2"/></svg><span>Resultados</span></a><a href="#perfil" class="tb"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8.2" r="3.9"/><path d="M4.6 20.2c.9-3.9 3.9-6 7.4-6s6.5 2.1 7.4 6"/></svg><span>Perfil</span></a></div></nav>
 
 <div class="wrap">
 <section id="v-inicio" hidden>
@@ -872,6 +943,44 @@ h2.ltitle{font-family:"Instrument Serif",Georgia,"Times New Roman",serif;font-we
   <div class="srcs" id="srcs"></div>
 </section>
 
+<section id="v-perfil" hidden>
+  <div class="rhead"><p class="eyebrow">Tu espacio</p><h2 class="title">Mi perfil</h2><p class="rlede">Guarda tus datos de golfista y Banderín marcará los torneos que no encajan contigo. Por ahora todo se guarda solo en este dispositivo.</p></div>
+  <div class="pgrid">
+    <div class="pcol">
+      <form class="pcard glass" id="pform" novalidate>
+        <h3>Datos de golfista</h3>
+        <p class="phint">Todos son opcionales. Cuanto más completes, mejor funciona «Encajan conmigo».</p>
+        <div class="pfields">
+          <label class="pf"><span class="pl">Hándicap exacto</span><input id="phcp" inputmode="decimal" autocomplete="off" placeholder="Ej. 18,4" aria-describedby="phcpErr"><small class="perr" id="phcpErr" hidden>Escribe un número entre -10 y 54.</small></label>
+          <label class="pf"><span class="pl">Año de nacimiento</span><select id="pnac"></select></label>
+          <fieldset class="pf wide"><legend class="pl">Sexo de competición</legend><div class="pseg"><label><input type="radio" name="psexo" value="M"><span>Masculino</span></label><label><input type="radio" name="psexo" value="F"><span>Femenino</span></label><label><input type="radio" name="psexo" value=""><span>Sin indicar</span></label></div></fieldset>
+          <label class="pf wide"><span class="pl">Federación autonómica</span><select id="pfed"></select></label>
+          <div class="pf wide"><label class="pl" for="pclubIn">Clubes de los que eres socio</label><div class="padd"><input id="pclubIn" list="pclubList" placeholder="Escribe el nombre del club" autocomplete="off"><button type="button" class="btn soft" id="pclubAdd">Añadir</button></div><datalist id="pclubList"></datalist><div class="ptags" id="pclubs"></div></div>
+          <label class="pf"><span class="pl">Tu ciudad</span><select id="pcity"></select></label>
+          <label class="pf"><span class="pl">Distancia máxima</span><select id="pradius"><option value="">Cualquier distancia</option><option value="25">Hasta 25 km</option><option value="50">Hasta 50 km</option><option value="100">Hasta 100 km</option><option value="200">Hasta 200 km</option></select></label>
+        </div>
+        <div class="pacts"><button class="btn primary" type="submit">Guardar perfil</button><span class="pstat" id="pstat" role="status" aria-live="polite"></span></div>
+        <p class="pnote">Pocas fichas publican el hándicap máximo o la edad exacta. Cuando lo hacen, lo tenemos en cuenta; si no, usamos el sexo y la categoría del torneo. Confirma siempre las condiciones en la ficha oficial.</p>
+      </form>
+      <div class="pcard glass pacc">
+        <span class="psoon">Próximamente</span>
+        <h3>Cuenta</h3>
+        <p>Podrás entrar con tu correo, sin contraseña, y tener tu perfil, tus guardados y lo que sigues en el ordenador y en el móvil. Lo que guardes hoy se pasará a tu cuenta.</p>
+      </div>
+    </div>
+    <div class="pcol">
+      <div class="pcard glass">
+        <h3>Lo que sigo</h3>
+        <p class="phint">Sigue clubes y provincias para ver aquí sus torneos y llevarlos a tu calendario.</p>
+        <div class="padd two"><select id="pprovAdd" aria-label="Seguir una provincia"></select><input id="psclubIn" list="pclubList" placeholder="O un club" autocomplete="off" aria-label="Seguir un club"><button type="button" class="btn soft" id="psclubAdd">Seguir</button></div>
+        <ul class="psigo" id="psigo"></ul>
+      </div>
+      <div class="pcard glass"><h3>Próximos de lo que sigues</h3><div class="list prows" id="prows"></div></div>
+      <div class="pcard glass"><h3>Mis torneos</h3><div class="pmine" id="pmine"></div></div>
+      <div class="pcard glass"><h3>Tus datos</h3><p class="phint">Todo lo de esta página está guardado solo en este navegador: Banderín no lo recibe.</p><button class="btn ghost" id="pwipe" type="button">Borrar mis datos de este dispositivo</button></div>
+    </div>
+  </div>
+</section>
 <section id="v-legal" hidden>
   <div class="lgrid">
     <nav class="lnav glass" aria-label="Textos legales"><a href="#aviso-legal">Aviso legal</a><a href="#privacidad">Privacidad</a><a href="#cookies">Cookies</a><a href="#terminos">Términos de uso</a></nav>

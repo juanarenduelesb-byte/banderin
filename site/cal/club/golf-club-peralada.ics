@@ -1,0 +1,55 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Banderin//Torneos de golf//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Banderín · Golf Club Peralada
+X-WR-CALDESC:Torneos de golf: Golf Club Peralada. Se actualiza cada mañana
+ . https://banderin.pages.dev
+X-WR-TIMEZONE:Europe/Madrid
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:25437cd62f97b30c1e69@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261112
+DTEND;VALUE=DATE:20261113
+SUMMARY:Golf Friends 12/11
+LOCATION:Golf Club Peralada\, Peralada\, Girona
+DESCRIPTION:Social de club · Scramble · Parejas\nFicha oficial: https://w
+ ww.golfdirecto.com/micro/game/6af2faf92852ee1ced72c299/summary\nConfirma f
+ echas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6af2faf92852ee1ced72c299/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:18120dbab8d1201179a9@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:Torneig Ginebreda
+LOCATION:Golf Club Peralada\, Peralada\, Girona
+DESCRIPTION:Social de club · Scramble · Parejas\nFicha oficial: https://w
+ ww.golfdirecto.com/micro/game/6ae886ce47d5a6672991ec33/summary\nConfirma f
+ echas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6ae886ce47d5a6672991ec33/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:818eb54282e16df5c0b2@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:Campionat de Catalunya Interclubs Absolut 2026
+LOCATION:Golf Club Peralada\, Peralada\, Girona
+DESCRIPTION:Clubes y equipos · Foursome · Parejas\nInscripción: abre el 
+ 3 de noviembre\, cierra el 24 de noviembre.\nFicha oficial: https://www.go
+ lfdirecto.com/micro/game/6ae08298e85d85ec8f63b8a6/summary\nConfirma fechas
+  y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6ae08298e85d85ec8f63b8a6/summary
+END:VEVENT
+END:VCALENDAR

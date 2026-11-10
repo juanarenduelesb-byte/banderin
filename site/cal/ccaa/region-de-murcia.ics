@@ -1,0 +1,1601 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Banderin//Torneos de golf//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Banderín · Región de Murcia
+X-WR-CALDESC:Torneos de golf: Región de Murcia. Se actualiza cada mañana.
+  https://banderin.pages.dev
+X-WR-TIMEZONE:Europe/Madrid
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:831545a9dff19e133bbf@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261109
+DTEND;VALUE=DATE:20261112
+SUMMARY:Owners Championship - Ladies & Men's Div 3
+LOCATION:Real la Manga Club\, Los Belones\, Murcia
+DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
+ s://www.golfdirecto.com/micro/game/6af300692852ee1cedbf89d9/summary\nConfi
+ rma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6af300692852ee1cedbf89d9/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:76acf7e0919e50a42538@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20261112
+SUMMARY:Emerald Bar HDA OoM Rd 5
+LOCATION:Santa Elena Golf Club\, Fuente Alamo\, Murcia
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 4 de septiembre\, cierra el 10 de noviembre.\nFicha oficial: https://ww
+ w.golfdirecto.com/micro/game/6a9a4bc55898bfbfbfae292e/summary\nConfirma fe
+ chas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6a9a4bc55898bfbfbfae292e/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:f01f63a874c4e9f61c15@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20261112
+SUMMARY:Perra Galga 11-11-26
+LOCATION:Real la Manga Club\, Los Belones\, Murcia
+DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
+ s://www.golfdirecto.com/micro/game/6af37dc16aacb155d84fe3df/summary\nConfi
+ rma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6af37dc16aacb155d84fe3df/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:de4b80a90903c90a0030@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20261112
+SUMMARY:Sjgs Wednesday
+LOCATION:Serena Golf\, Los Alcazares\, Murcia
+DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
+ s://www.golfdirecto.com/micro/game/6aeb5cf9317b13aa700e4075/summary\nConfi
+ rma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6aeb5cf9317b13aa700e4075/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:8b3cc8428581f80252bf@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261112
+DTEND;VALUE=DATE:20261113
+SUMMARY:Santa Elena Members' Individual Stableford. Sponsored By Homespace 
+ Sales.
+LOCATION:Santa Elena Golf Club\, Fuente Alamo\, Murcia
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 11 de septiembre\, cierra el 10 de noviembre.\nFicha oficial: https://w
+ ww.golfdirecto.com/micro/game/6aa40338ddad1d4988a87ffb/summary\nConfirma f
+ echas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6aa40338ddad1d4988a87ffb/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:7bc57bb79e087669819d@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261112
+DTEND;VALUE=DATE:20261113
+SUMMARY:Society Federation
+LOCATION:Roda Golf\, San Javier\, Murcia
+DESCRIPTION:Absoluto · Stableford · Individual\nFicha oficial: https://ww
+ w.golfdirecto.com/micro/game/6ae1e2c147e356105a770c60/summary\nConfirma fe
+ chas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6ae1e2c147e356105a770c60/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:b67e7b92c7abc55839f6@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:Sjgs Friday Counting
+LOCATION:Serena Golf\, Los Alcazares\, Murcia
+DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
+ s://www.golfdirecto.com/micro/game/6af1d3e63f87d1a99fe65a01/summary\nConfi
+ rma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6af1d3e63f87d1a99fe65a01/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:735197b73ce09086ac84@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:Torneo Escuela Parejas Mejor Bola
+LOCATION:Serena Golf\, Los Alcazares\, Murcia
+DESCRIPTION:Juvenil · Fourball · Parejas\nInscripción: abre el 21 de oct
+ ubre\, cierra el 12 de noviembre.\nFicha oficial: https://www.golfdirecto.
+ com/micro/game/6ad8a3f3ad3db58f4cf331e2/summary\nConfirma fechas y condici
+ ones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6ad8a3f3ad3db58f4cf331e2/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:871e5022bd4861efb3b9@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:Campeonato Absoluto de P&P – E.g. Monteprincipe
+LOCATION:Eg Monteprincipe\, Altorreal\, Murcia
+DESCRIPTION:Absoluto · Individual\nFicha oficial: https://fgolfmurcia.com/
+ evento/campeonato-absoluto-de-pp-e-g-monteprincipe/\nConfirma fechas y con
+ diciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://fgolfmurcia.com/evento/campeonato-absoluto-de-pp-e-g-monteprinc
+ ipe/
+END:VEVENT
+BEGIN:VEVENT
+UID:eda52ccbfaf760d60241@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:Santa Elena Individual Stroke Play/Eclectic
+LOCATION:Santa Elena Golf Club\, Fuente Alamo\, Murcia
+DESCRIPTION:Social de club · Medal Play · Individual\nInscripción: abre 
+ el 11 de septiembre\, cierra el 13 de noviembre.\nFicha oficial: https://w
+ ww.golfdirecto.com/micro/game/6aa40393ddad1d4988afffa8/summary\nConfirma f
+ echas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6aa40393ddad1d4988afffa8/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:ea6b74420ebb319f0b51@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:Santa Elena Members' Individual Stableford. Sponsored By Homespace 
+ Sales.
+LOCATION:Santa Elena Golf Club\, Fuente Alamo\, Murcia
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 11 de septiembre\, cierra el 12 de noviembre.\nFicha oficial: https://w
+ ww.golfdirecto.com/micro/game/6aa403fdddad1d4988b6b7f9/summary\nConfirma f
+ echas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6aa403fdddad1d4988b6b7f9/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:2857ac1410f83b20b331@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:Stableford
+LOCATION:La Torre Golf\, Roldan\, Murcia
+DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
+ s://www.golfdirecto.com/micro/game/6aa27ae14b93f4dd081e820f/summary\nConfi
+ rma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6aa27ae14b93f4dd081e820f/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:4a66200eb50075dcd95e@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:Alamo Golf Society Pairs Round 4
+LOCATION:Santa Elena Golf Club\, Fuente Alamo\, Murcia
+DESCRIPTION:Social de club · Fourball · Parejas\nInscripción: abre el 22
+  de octubre\, cierra el 13 de noviembre.\nFicha oficial: https://www.golfd
+ irecto.com/micro/game/6ad9853c2ab1ab88b165215e/summary\nConfirma fechas y 
+ condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6ad9853c2ab1ab88b165215e/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:f93b37d031e2da064656@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:Campeonato Absoluto de P&P – Torrepacheco
+LOCATION:Club de Golf Torre Pacheco\, A Coruña\, A Coruña
+DESCRIPTION:Absoluto · Individual\nFicha oficial: https://fgolfmurcia.com/
+ evento/campeonato-absoluto-de-pp-torrepacheco/\nConfirma fechas y condicio
+ nes en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://fgolfmurcia.com/evento/campeonato-absoluto-de-pp-torrepacheco/
+END:VEVENT
+BEGIN:VEVENT
+UID:d7d5397870ee80e29aed@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261117
+DTEND;VALUE=DATE:20261118
+SUMMARY:Santa Elena Members' Individual Stableford. Sponsored By Homespace 
+ Sales.
+LOCATION:Santa Elena Golf Club\, Fuente Alamo\, Murcia
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 11 de septiembre\, cierra el 15 de noviembre.\nFicha oficial: https://w
+ ww.golfdirecto.com/micro/game/6aa40482ddad1d4988bebebe/summary\nConfirma f
+ echas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6aa40482ddad1d4988bebebe/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:b997349a6cc419db4bc8@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261117
+DTEND;VALUE=DATE:20261118
+SUMMARY:Society Fun day
+LOCATION:Roda Golf\, San Javier\, Murcia
+DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
+ s://www.golfdirecto.com/micro/game/6ae1ddb847e356105ab4c5c9/summary\nConfi
+ rma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6ae1ddb847e356105ab4c5c9/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:9d9da91846cbc650f931@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261118
+DTEND;VALUE=DATE:20261119
+SUMMARY:Emerald Bar HDA OoM Rd 6 (Free GF Prize)
+LOCATION:Santa Elena Golf Club\, Fuente Alamo\, Murcia
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 4 de septiembre\, cierra el 17 de noviembre.\nFicha oficial: https://ww
+ w.golfdirecto.com/micro/game/6a9a4c335898bfbfbfb1b28e/summary\nConfirma fe
+ chas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6a9a4c335898bfbfbfb1b28e/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:fbc5f6f5d93d4ce24018@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+SUMMARY:Santa Elena Golf - Freyr Ketilsson’s Birthday Greensomes Pairs Co
+ mpetition
+LOCATION:Santa Elena Golf Club\, Fuente Alamo\, Murcia
+DESCRIPTION:Social de club · Greensome · Parejas\nInscripción: abre el 5
+  de septiembre\, cierra el 17 de noviembre.\nPrecio: 3 €.\nFicha oficial
+ : https://www.golfdirecto.com/micro/game/6a774020cd2b1a9a6f887e0a/summary\
+ nConfirma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6a774020cd2b1a9a6f887e0a/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:0905e7574fb487ebb7cd@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+SUMMARY:Society Federation
+LOCATION:Roda Golf\, San Javier\, Murcia
+DESCRIPTION:Absoluto · Stableford · Individual\nFicha oficial: https://ww
+ w.golfdirecto.com/micro/game/6ae1e3af47e356105ae5f455/summary\nConfirma fe
+ chas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6ae1e3af47e356105ae5f455/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:6bf9bb2f139e52fd43d9@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:Ryder "Fuera de Limites"
+LOCATION:Club de Golf la Peraleja\, Sucina\, Murcia
+DESCRIPTION:Social de club · Fourball · Parejas\nInscripción: abre el 23
+  de septiembre\, cierra el 30 de septiembre.\nFicha oficial: https://www.g
+ olfdirecto.com/micro/game/6ab41332e6821b500a3de004/summary\nConfirma fecha
+ s y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6ab41332e6821b500a3de004/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:95bac14688b94734244e@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:Santa Elena Golf Members’ Saint Andrews Day Competition - 4BBB
+LOCATION:Santa Elena Golf Club\, Fuente Alamo\, Murcia
+DESCRIPTION:Social de club · Fourball · Parejas\nInscripción: abre el 14
+  de septiembre\, cierra el 19 de noviembre.\nPrecio: 10 €.\nFicha oficia
+ l: https://www.golfdirecto.com/micro/game/69738de9d8ad1b97c8f14ea1/summary
+ \nConfirma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/69738de9d8ad1b97c8f14ea1/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:0f35a2af5da5a0613014@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:Stableford
+LOCATION:El Valle Golf\, Baños y Mendigo\, Murcia
+DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
+ s://www.golfdirecto.com/micro/game/6aa27b114b93f4dd082233af/summary\nConfi
+ rma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6aa27b114b93f4dd082233af/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:c847abd8f820b7094df6@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:Alamo Golf Society Sully Scramble
+LOCATION:Santa Elena Golf Club\, Fuente Alamo\, Murcia
+DESCRIPTION:Social de club · Scramble · Parejas\nInscripción: abre el 4 
+ de septiembre\, cierra el 15 de noviembre.\nFicha oficial: https://www.gol
+ fdirecto.com/micro/game/6a9a4a3c5898bfbfbf9dd382/summary\nConfirma fechas 
+ y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6a9a4a3c5898bfbfbf9dd382/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:9a2f9e00bc87a5e4d259@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:Mensual Juvenil - Altaona Golf
+LOCATION:Altaona Golf\, Baños y Mendigo\, Murcia
+DESCRIPTION:Juvenil · Medal Play · Individual\nInscripción: abre el 21 d
+ e septiembre\, cierra el 19 de noviembre.\nPrecio: 10 €.\nFicha oficial:
+  https://www.golfdirecto.com/micro/game/6a969fccb62fd6c8c65723b3/summary\n
+ Confirma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6a969fccb62fd6c8c65723b3/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:d6c4793fd894752bb09d@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:Strokers GS 2026 Round 8
+LOCATION:Santa Elena Golf Club\, Fuente Alamo\, Murcia
+DESCRIPTION:Social de club · Medal Play · Individual\nInscripción: abre 
+ el 24 de enero\, cierra el 13 de noviembre.\nFicha oficial: https://www.go
+ lfdirecto.com/micro/game/697486a66d38601a31479e03/summary\nConfirma fechas
+  y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/697486a66d38601a31479e03/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:c8ce2f80f33ba3af892f@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261124
+DTEND;VALUE=DATE:20261127
+SUMMARY:Match Internacional Cuadrangular de Golf Adaptado 2026
+LOCATION:Real Golf La Manga Club\, Cartagena\, Murcia
+DESCRIPTION:Adaptado · Match Play · Equipos\nFicha oficial: https://rfego
+ lf.es/competicion/match-internacional-de-golf-adaptado\nConfirma fechas y 
+ condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://rfegolf.es/competicion/match-internacional-de-golf-adaptado
+END:VEVENT
+BEGIN:VEVENT
+UID:40269d6dfce2605fe9b1@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261124
+DTEND;VALUE=DATE:20261125
+SUMMARY:Santa Elena Members' Individual Stableford. Sponsored By Homespace 
+ Sales.
+LOCATION:Santa Elena Golf Club\, Fuente Alamo\, Murcia
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 11 de septiembre\, cierra el 22 de noviembre.\nFicha oficial: https://w
+ ww.golfdirecto.com/micro/game/6aa40505ddad1d4988d17eea/summary\nConfirma f
+ echas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6aa40505ddad1d4988d17eea/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:ff7a48435618b768e4c8@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261124
+DTEND;VALUE=DATE:20261125
+SUMMARY:Society Federation
+LOCATION:Roda Golf\, San Javier\, Murcia
+DESCRIPTION:Absoluto · Stableford · Individual\nFicha oficial: https://ww
+ w.golfdirecto.com/micro/game/6ae1e43647e356105a1f82ae/summary\nConfirma fe
+ chas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6ae1e43647e356105a1f82ae/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:74daf9a5fa23611670b0@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+SUMMARY:PROAM Gran Final Santa Elena Golf PGA España
+LOCATION:Santa Elena Golf Club\, Fuente Alamo\, Murcia
+DESCRIPTION:Profesional · Scramble · Parejas\nFicha oficial: https://www.
+ golfdirecto.com/micro/game/6ad9c5c9fdacc85de1e61673/summary\nConfirma fech
+ as y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6ad9c5c9fdacc85de1e61673/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:38b5663f19e028e3948f@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+SUMMARY:Santa Elena - PGA tournament
+LOCATION:Santa Elena Golf Club\, Fuente Alamo\, Murcia
+DESCRIPTION:Profesional · Stableford · Individual\nInscripción: abre el 
+ 11 de septiembre\, cierra el 25 de noviembre.\nFicha oficial: https://www.
+ golfdirecto.com/micro/game/6aa40672ddad1d4988f498c6/summary\nConfirma fech
+ as y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6aa40672ddad1d4988f498c6/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:02e37e689b65c88df02d@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+SUMMARY:Society Federation
+LOCATION:Roda Golf\, San Javier\, Murcia
+DESCRIPTION:Absoluto · Stableford · Individual\nFicha oficial: https://ww
+ w.golfdirecto.com/micro/game/6ae1e4a847e356105a4d05e6/summary\nConfirma fe
+ chas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6ae1e4a847e356105a4d05e6/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:c051f902529ed6d49525@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:Gran Final Santa Elena Golf PGA de España
+LOCATION:Santa Elena Golf Club\, Fuente Alamo\, Murcia
+DESCRIPTION:Profesional · Medal Play · Individual\nInscripción: abre el 
+ 11 de noviembre\, cierra el 22 de noviembre.\nPrecio: 320 €.\nFicha ofic
+ ial: https://www.golfdirecto.com/micro/game/6ad9bbcafdacc85de1f5c567/summa
+ ry\nConfirma fechas y condiciones en la web del organizador. Vía Banderí
+ n.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6ad9bbcafdacc85de1f5c567/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:872b786f760b639feffc@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:Santa Elena - PGA tournament
+LOCATION:Santa Elena Golf Club\, Fuente Alamo\, Murcia
+DESCRIPTION:Profesional · Stableford · Individual\nInscripción: abre el 
+ 11 de septiembre\, cierra el 26 de septiembre.\nFicha oficial: https://www
+ .golfdirecto.com/micro/game/6aa406a6ddad1d4988fcb580/summary\nConfirma fec
+ has y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6aa406a6ddad1d4988fcb580/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:481c83e2d6a08aa8644b@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:Santa Elena - PGA tournament
+LOCATION:Santa Elena Golf Club\, Fuente Alamo\, Murcia
+DESCRIPTION:Profesional · Stableford · Individual\nInscripción: abre el 
+ 11 de septiembre\, cierra el 27 de noviembre.\nFicha oficial: https://www.
+ golfdirecto.com/micro/game/6aa406f2ddad1d498804cc98/summary\nConfirma fech
+ as y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6aa406f2ddad1d498804cc98/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:4cfc49a68f99fad1b192@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:Stableford
+LOCATION:El Valle Golf\, Baños y Mendigo\, Murcia
+DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
+ s://www.golfdirecto.com/micro/game/6aa27b3f4b93f4dd0825d7e4/summary\nConfi
+ rma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6aa27b3f4b93f4dd0825d7e4/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:9138a6246b584c1e2060@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:Torneo Aniversario Escuela Torné
+LOCATION:Serena Golf\, Los Alcazares\, Murcia
+DESCRIPTION:Juvenil · Stableford · Individual\nInscripción: abre el 3 de
+  noviembre\, cierra el 25 de noviembre.\nFicha oficial: https://www.golfdi
+ recto.com/micro/game/6ae9d3872267c6230f916de9/summary\nConfirma fechas y c
+ ondiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6ae9d3872267c6230f916de9/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:2a56e43300f046055cf6@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:Torneo Navidad Alhama Signature
+LOCATION:Alhama Signature\, Alhama de Murcia\, Murcia
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 3 de noviembre\, cierra el 27 de noviembre.\nPrecio: 55 €.\nFicha ofi
+ cial: https://www.golfdirecto.com/micro/game/6ae8a16f00f5e2ea7522ac28/summ
+ ary\nConfirma fechas y condiciones en la web del organizador. Vía Bander
+ ín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6ae8a16f00f5e2ea7522ac28/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:137c88f527eb1867bf36@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:Mensual Juvenil - New Sierra Golf
+LOCATION:New Sierra Golf\, Balsicas\, Murcia
+DESCRIPTION:Juvenil · Medal Play · Individual\nInscripción: abre el 2 de
+  noviembre\, cierra el 26 de noviembre.\nPrecio: 10 €.\nFicha oficial: h
+ ttps://www.golfdirecto.com/micro/game/6a994f877be6f1e13e401d53/summary\nCo
+ nfirma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6a994f877be6f1e13e401d53/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:e49c25cd05203146b3fb@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:Santa Elena - PGA tournament
+LOCATION:Santa Elena Golf Club\, Fuente Alamo\, Murcia
+DESCRIPTION:Profesional · Stableford · Individual\nInscripción: abre el 
+ 11 de septiembre\, cierra el 28 de noviembre.\nFicha oficial: https://www.
+ golfdirecto.com/micro/game/6aa4071fddad1d49881431e7/summary\nConfirma fech
+ as y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6aa4071fddad1d49881431e7/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:35f138d70f54d80d9996@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
+SUMMARY:Rencontre AGFCB 29- Roda Golf - Mardi 01 décembre - 60€ / 70€ 
+ + PAF 5€ - 24 places disponibles - 7 buggies -PROCESABLE
+LOCATION:Roda Golf\, San Javier\, Murcia
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 7 de septiembre\, cierra el 29 de noviembre.\nFicha oficial: https://ww
+ w.golfdirecto.com/micro/game/6a9ef631b9cdc384ebc94563/summary\nConfirma fe
+ chas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6a9ef631b9cdc384ebc94563/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:7390eb5cf2d3a5fc7406@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
+SUMMARY:Santa Elena Members' Individual Stableford
+LOCATION:Santa Elena Golf Club\, Fuente Alamo\, Murcia
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 11 de octubre\, cierra el 29 de noviembre.\nFicha oficial: https://www.
+ golfdirecto.com/micro/game/6acb96bf4f7b2f5d52143446/summary\nConfirma fech
+ as y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6acb96bf4f7b2f5d52143446/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:2bfeb55557455f859c59@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261202
+DTEND;VALUE=DATE:20261203
+SUMMARY:Emerald Bar HDA
+LOCATION:Santa Elena Golf Club\, Fuente Alamo\, Murcia
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 4 de septiembre\, cierra el 1 de diciembre.\nFicha oficial: https://www
+ .golfdirecto.com/micro/game/6a9a4cb55898bfbfbfb7472f/summary\nConfirma fec
+ has y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6a9a4cb55898bfbfbfb7472f/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:07a40790307d7b806184@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261204
+DTEND;VALUE=DATE:20261209
+SUMMARY:22º Open La Manga
+LOCATION:Real Golf La Manga Club\, Cartagena\, Murcia
+DESCRIPTION:Circuito comercial · Individual\nFicha oficial: https://www.co
+ rporategolf.es/openlamanga\nConfirma fechas y condiciones en la web del or
+ ganizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.corporategolf.es/openlamanga
+END:VEVENT
+BEGIN:VEVENT
+UID:551d29083b1af9cd8e09@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261204
+DTEND;VALUE=DATE:20261205
+SUMMARY:Santa Elena Founders - Day One of Two Day competition
+LOCATION:Santa Elena Golf Club\, Fuente Alamo\, Murcia
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 1 de mayo\, cierra el 1 de diciembre.\nFicha oficial: https://www.golfd
+ irecto.com/micro/game/69738d22d8ad1b97c8dd0f28/summary\nConfirma fechas y 
+ condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/69738d22d8ad1b97c8dd0f28/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:e6d4064a16573d6cf4ec@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261206
+SUMMARY:Medal
+LOCATION:El Valle Golf\, Baños y Mendigo\, Murcia
+DESCRIPTION:Social de club · Medal Play · Individual\nFicha oficial: http
+ s://www.golfdirecto.com/micro/game/6ab4f390f62a4555d08982f5/summary\nConfi
+ rma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6ab4f390f62a4555d08982f5/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:ea22ee63afc49534be0d@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+SUMMARY:Alamo Golf Society
+LOCATION:Santa Elena Golf Club\, Fuente Alamo\, Murcia
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 5 de octubre\, cierra el 4 de diciembre.\nPrecio: 4\,5 €.\nFicha ofic
+ ial: https://www.golfdirecto.com/micro/game/6ac3ae7cd1e39244773e8b6f/summa
+ ry\nConfirma fechas y condiciones en la web del organizador. Vía Banderí
+ n.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6ac3ae7cd1e39244773e8b6f/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:800356ec04e865a3221e@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261208
+DTEND;VALUE=DATE:20261209
+SUMMARY:Santa Elena Members' Individual Stableford. Sponsored By Homespace 
+ Sales.
+LOCATION:Santa Elena Golf Club\, Fuente Alamo\, Murcia
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 11 de octubre\, cierra el 13 de diciembre.\nFicha oficial: https://www.
+ golfdirecto.com/micro/game/6acb97bc4f7b2f5d524b0ae2/summary\nConfirma fech
+ as y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6acb97bc4f7b2f5d524b0ae2/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:b5880f6735422b2610ef@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261209
+DTEND;VALUE=DATE:20261210
+SUMMARY:Emerald Bar HDA
+LOCATION:Santa Elena Golf Club\, Fuente Alamo\, Murcia
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 11 de octubre\, cierra el 8 de diciembre.\nFicha oficial: https://www.g
+ olfdirecto.com/micro/game/6acb12a54f7b2f5d52e27326/summary\nConfirma fecha
+ s y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6acb12a54f7b2f5d52e27326/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:296429f026120a87ef1e@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261210
+DTEND;VALUE=DATE:20261211
+SUMMARY:Santa Elena Members' 4 Clubs and a Putter
+LOCATION:Santa Elena Golf Club\, Fuente Alamo\, Murcia
+DESCRIPTION:Social de club · Fourball · Parejas\nInscripción: abre el 25
+  de septiembre\, cierra el 8 de diciembre.\nFicha oficial: https://www.gol
+ fdirecto.com/micro/game/6ab6907a337e24b1e8f93010/summary\nConfirma fechas 
+ y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6ab6907a337e24b1e8f93010/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:261f05dd30c2ec44939d@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261210
+DTEND;VALUE=DATE:20261211
+SUMMARY:Thursday Stars Christmas Golf Day
+LOCATION:Santa Elena Golf Club\, Fuente Alamo\, Murcia
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 1 de octubre\, cierra el 8 de diciembre.\nFicha oficial: https://www.go
+ lfdirecto.com/micro/game/6abe5b0f16f4f5dfcf7668d2/summary\nConfirma fechas
+  y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6abe5b0f16f4f5dfcf7668d2/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:b48c3377bb6423f9d718@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261211
+DTEND;VALUE=DATE:20261212
+SUMMARY:Alamo Golf Society
+LOCATION:New Sierra Golf\, Balsicas\, Murcia
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 15 de enero\, cierra el 9 de diciembre.\nFicha oficial: https://www.gol
+ fdirecto.com/micro/game/69691a6f7205a3564dd36948/summary\nConfirma fechas 
+ y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/69691a6f7205a3564dd36948/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:4da03c5e2f955aa824e7@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261211
+DTEND;VALUE=DATE:20261214
+SUMMARY:Cuadrangular Senior
+LOCATION:Murcia
+DESCRIPTION:Senior · Equipos\nFicha oficial: https://fgolfmurcia.com/event
+ o/cuadrangular-senior-fgcv-fgrm-fgclm-rfga/\nConfirma fechas y condiciones
+  en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://fgolfmurcia.com/evento/cuadrangular-senior-fgcv-fgrm-fgclm-rfga
+ /
+END:VEVENT
+BEGIN:VEVENT
+UID:776525ffa2a7ef8b0f19@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261214
+SUMMARY:I Match Cuadrangular - Fgcv/Rfag/Fgclm/Fgrm
+LOCATION:Real la Manga Club\, Los Belones\, Murcia
+DESCRIPTION:Clubes y equipos · Fourball · Parejas\nFicha oficial: https:/
+ /www.golfdirecto.com/micro/game/6ae88192020a09e5bde8f4c2/summary\nConfirma
+  fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6ae88192020a09e5bde8f4c2/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:b4d0edc18434beaaaaa0@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261213
+SUMMARY:Santa Elena Individual Stroke Play/Eclectic
+LOCATION:Santa Elena Golf Club\, Fuente Alamo\, Murcia
+DESCRIPTION:Social de club · Medal Play · Individual\nInscripción: abre 
+ el 11 de octubre\, cierra el 10 de diciembre.\nFicha oficial: https://www.
+ golfdirecto.com/micro/game/6acb99ef4f7b2f5d52c84426/summary\nConfirma fech
+ as y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6acb99ef4f7b2f5d52c84426/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:5aafd52c89bd8097e9bc@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261213
+SUMMARY:Santa Elena Members' Individual Stableford. Sponsored By Homespace 
+ Sales.
+LOCATION:Santa Elena Golf Club\, Fuente Alamo\, Murcia
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 11 de octubre\, cierra el 11 de diciembre.\nFicha oficial: https://www.
+ golfdirecto.com/micro/game/6acb994b4f7b2f5d52ad227a/summary\nConfirma fech
+ as y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6acb994b4f7b2f5d52ad227a/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:d3e8ac2afe20b55ba9f9@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261213
+SUMMARY:Stableford
+LOCATION:El Valle Golf\, Baños y Mendigo\, Murcia
+DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
+ s://www.golfdirecto.com/micro/game/6ab4f3c2f62a4555d0a595ad/summary\nConfi
+ rma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6ab4f3c2f62a4555d0a595ad/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:e70f909513559642c1af@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261213
+SUMMARY:V Prueba (Final) Liga Challenge Alhama Signature
+LOCATION:Alhama Signature\, Alhama de Murcia\, Murcia
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 12 de noviembre\, cierra el 10 de diciembre.\nFicha oficial: https://ww
+ w.golfdirecto.com/micro/game/6ac0c44c710147c35d47bd6b/summary\nConfirma fe
+ chas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6ac0c44c710147c35d47bd6b/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:5068bdc9954ef9c025e4@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261213
+SUMMARY:X Torneo Navideño "El Décimo" - Roda Golf
+LOCATION:Roda Golf\, San Javier\, Murcia
+DESCRIPTION:Social de club · Fourball · Parejas\nInscripción: abre el 20
+  de octubre\, cierra el 9 de diciembre.\nPrecio: 65 €.\nFicha oficial: h
+ ttps://www.golfdirecto.com/micro/game/6ac37f39f8fce057b32463e4/summary\nCo
+ nfirma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6ac37f39f8fce057b32463e4/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:fa9b32c82d3e0c727a99@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+SUMMARY:Alamo Golf Society Pairs Championship Final Round
+LOCATION:Santa Elena Golf Club\, Fuente Alamo\, Murcia
+DESCRIPTION:Social de club · Fourball · Parejas\nInscripción: abre el 4 
+ de septiembre\, cierra el 13 de diciembre.\nFicha oficial: https://www.gol
+ fdirecto.com/micro/game/6a9a49b35898bfbfbf91a561/summary\nConfirma fechas 
+ y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6a9a49b35898bfbfbf91a561/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:4a0ed3af113afd47538c@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+SUMMARY:RGA December Team Competition
+LOCATION:Real la Manga Club\, Los Belones\, Murcia
+DESCRIPTION:Social de club · Fourball · Parejas\nFicha oficial: https://w
+ ww.golfdirecto.com/micro/game/6af1a3738527252f607a1cdd/summary\nConfirma f
+ echas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6af1a3738527252f607a1cdd/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:10ea04ba9ac01bc4e10e@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+SUMMARY:Sunshine Golf Society v Condado Golf Society Return Match
+LOCATION:Camposol Club de Golf\, Murcia
+DESCRIPTION:Social de club · Fourball · Parejas\nFicha oficial: https://w
+ ww.golfdirecto.com/micro/game/6af07f1078d30dd0fcc5bb6d/summary\nConfirma f
+ echas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6af07f1078d30dd0fcc5bb6d/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:e057552280e5a35cd802@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261215
+DTEND;VALUE=DATE:20261216
+SUMMARY:Santa Elena Members' Individual Stableford. Sponsored By Homespace 
+ Sales.
+LOCATION:Santa Elena Golf Club\, Fuente Alamo\, Murcia
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 11 de octubre\, cierra el 13 de diciembre.\nFicha oficial: https://www.
+ golfdirecto.com/micro/game/6acb98b54f7b2f5d527e8bac/summary\nConfirma fech
+ as y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6acb98b54f7b2f5d527e8bac/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:222f9a7c41acb7fd7da1@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261216
+DTEND;VALUE=DATE:20261217
+SUMMARY:Emerald Bar HDA
+LOCATION:Santa Elena Golf Club\, Fuente Alamo\, Murcia
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 11 de octubre\, cierra el 15 de diciembre.\nFicha oficial: https://www.
+ golfdirecto.com/micro/game/6acb130d4f7b2f5d52e6abac/summary\nConfirma fech
+ as y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6acb130d4f7b2f5d52e6abac/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:d936dc218da5c1827206@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261217
+DTEND;VALUE=DATE:20261218
+SUMMARY:Santa Elena Members' Step A Side Scramble
+LOCATION:Santa Elena Golf Club\, Fuente Alamo\, Murcia
+DESCRIPTION:Social de club · Scramble · Parejas\nInscripción: abre el 4 
+ de septiembre\, cierra el 15 de diciembre.\nFicha oficial: https://www.gol
+ fdirecto.com/micro/game/6a9a86dc3262af26c6d8af77/summary\nConfirma fechas 
+ y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6a9a86dc3262af26c6d8af77/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:8019cb5e6f17547577e8@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261219
+DTEND;VALUE=DATE:20261221
+SUMMARY:Campeonato Absoluto Juvenil - Golf Altorreal
+LOCATION:Club de Golf Altorreal\, Molina de Segura\, Murcia
+DESCRIPTION:Juvenil · Medal Play · Individual\nFicha oficial: https://www
+ .golfdirecto.com/micro/game/6aabd386ac3438945f4d5ec3/summary\nConfirma fec
+ has y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6aabd386ac3438945f4d5ec3/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:e982b6c6ca0881c3822b@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261219
+DTEND;VALUE=DATE:20261220
+SUMMARY:Santa Elena Members' Individual Stableford. Sponsored By Homespace 
+ Sales.
+LOCATION:Santa Elena Golf Club\, Fuente Alamo\, Murcia
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 11 de octubre\, cierra el 17 de diciembre.\nFicha oficial: https://www.
+ golfdirecto.com/micro/game/6acb9be04f7b2f5d522a286a/summary\nConfirma fech
+ as y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6acb9be04f7b2f5d522a286a/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:24b86c0ed80352036f2d@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261219
+DTEND;VALUE=DATE:20261220
+SUMMARY:Stableford
+LOCATION:El Valle Golf\, Baños y Mendigo\, Murcia
+DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
+ s://www.golfdirecto.com/micro/game/6ab4f3f9f62a4555d0bd2b4e/summary\nConfi
+ rma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6ab4f3f9f62a4555d0bd2b4e/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:9a78fdd59bae85d378e8@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261220
+DTEND;VALUE=DATE:20261221
+SUMMARY:Alamo Golf Society
+LOCATION:Santa Elena Golf Club\, Fuente Alamo\, Murcia
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 5 de octubre\, cierra el 18 de diciembre.\nPrecio: 10 €.\nFicha ofici
+ al: https://www.golfdirecto.com/micro/game/6ac3b08bd1e392447775ef28/summar
+ y\nConfirma fechas y condiciones en la web del organizador. Vía Banderín
+ .
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6ac3b08bd1e392447775ef28/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:89a63df9adc2b5c2465b@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261220
+DTEND;VALUE=DATE:20261221
+SUMMARY:Torneo Navidad Memorial Armando Castro Suarez
+LOCATION:Club de Golf Torrepacheco\, Torre Pacheco\, Murcia
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 1 de diciembre\, cierra el 16 de diciembre.\nFicha oficial: https://www
+ .golfdirecto.com/micro/game/6aeb93cf50fe8a6f26cd3ca1/summary\nConfirma fec
+ has y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6aeb93cf50fe8a6f26cd3ca1/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:d727d0383edb07bcb598@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261222
+DTEND;VALUE=DATE:20261223
+SUMMARY:BogeyPar
+LOCATION:El Valle Golf\, Baños y Mendigo\, Murcia
+DESCRIPTION:Social de club · Individual\nFicha oficial: https://www.golfdi
+ recto.com/micro/game/6ab4f437f62a4555d0c7fedc/summary\nConfirma fechas y c
+ ondiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6ab4f437f62a4555d0c7fedc/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:c9392cc39ab8efd376e5@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261222
+DTEND;VALUE=DATE:20261223
+SUMMARY:Santa Elena Members' Individual Stableford. Sponsored By Homespace 
+ Sales.
+LOCATION:Santa Elena Golf Club\, Fuente Alamo\, Murcia
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 11 de octubre\, cierra el 21 de diciembre.\nFicha oficial: https://www.
+ golfdirecto.com/micro/game/6acb9c534f7b2f5d523e5dd6/summary\nConfirma fech
+ as y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6acb9c534f7b2f5d523e5dd6/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:78538f05a6bd1deb46c2@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261223
+DTEND;VALUE=DATE:20261224
+SUMMARY:Emerald Bar HDA
+LOCATION:Santa Elena Golf Club\, Fuente Alamo\, Murcia
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 20 de octubre\, cierra el 22 de diciembre.\nFicha oficial: https://www.
+ golfdirecto.com/micro/game/6ad71c27c5c6c019c36a6afc/summary\nConfirma fech
+ as y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6ad71c27c5c6c019c36a6afc/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:ba03ea585703bda4b512@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261224
+DTEND;VALUE=DATE:20261225
+SUMMARY:Santa Elena Members' New Dusty Waltz
+LOCATION:Santa Elena Golf Club\, Fuente Alamo\, Murcia
+DESCRIPTION:Social de club · Fourball · Parejas\nInscripción: abre el 28
+  de octubre\, cierra el 22 de diciembre.\nPrecio: 3 €.\nFicha oficial: h
+ ttps://www.golfdirecto.com/micro/game/6ae1f58747e356105a3abc98/summary\nCo
+ nfirma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6ae1f58747e356105a3abc98/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:9801b3c08af9baae8e8b@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261226
+DTEND;VALUE=DATE:20261227
+SUMMARY:Santa Elena Members' Individual Stableford. Sponsored By Homespace 
+ Sales.
+LOCATION:Santa Elena Golf Club\, Fuente Alamo\, Murcia
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 11 de octubre\, cierra el 25 de diciembre.\nFicha oficial: https://www.
+ golfdirecto.com/micro/game/6acb9c914f7b2f5d524a8400/summary\nConfirma fech
+ as y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6acb9c914f7b2f5d524a8400/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:be59260cbb74c94b039b@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261226
+DTEND;VALUE=DATE:20261227
+SUMMARY:Stableford
+LOCATION:El Valle Golf\, Baños y Mendigo\, Murcia
+DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
+ s://www.golfdirecto.com/micro/game/6ab4f466f62a4555d0d1e4ca/summary\nConfi
+ rma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6ab4f466f62a4555d0d1e4ca/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:8eab2a14db2cece8e58f@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261227
+DTEND;VALUE=DATE:20261228
+SUMMARY:Alamo Golf Society
+LOCATION:Santa Elena Golf Club\, Fuente Alamo\, Murcia
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 5 de octubre\, cierra el 25 de diciembre.\nPrecio: 10 €.\nFicha ofici
+ al: https://www.golfdirecto.com/micro/game/6ac3b10ad1e39244778970e2/summar
+ y\nConfirma fechas y condiciones en la web del organizador. Vía Banderín
+ .
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6ac3b10ad1e39244778970e2/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:2bf470bd483cf8334fd2@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261227
+DTEND;VALUE=DATE:20261228
+SUMMARY:Xmas Card
+LOCATION:El Valle Golf\, Baños y Mendigo\, Murcia
+DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
+ s://www.golfdirecto.com/micro/game/6ab4f4b650d64616ca06dfa1/summary\nConfi
+ rma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6ab4f4b650d64616ca06dfa1/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:30a1922a78a18cccf49c@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261229
+DTEND;VALUE=DATE:20261230
+SUMMARY:Red Block
+LOCATION:El Valle Golf\, Baños y Mendigo\, Murcia
+DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
+ s://www.golfdirecto.com/micro/game/6ab4f503f62a4555d0ecf105/summary\nConfi
+ rma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6ab4f503f62a4555d0ecf105/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:1ac4538f501781496b85@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261229
+DTEND;VALUE=DATE:20261230
+SUMMARY:Santa Elena Members' Individual Stableford. Sponsored By Homespace 
+ Sales.
+LOCATION:Santa Elena Golf Club\, Fuente Alamo\, Murcia
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 11 de octubre\, cierra el 28 de diciembre.\nFicha oficial: https://www.
+ golfdirecto.com/micro/game/6acb9cd14f7b2f5d5256733d/summary\nConfirma fech
+ as y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6acb9cd14f7b2f5d5256733d/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:865c4702bda60cb2f5fe@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261230
+DTEND;VALUE=DATE:20261231
+SUMMARY:Emerald Bar HDA
+LOCATION:Santa Elena Golf Club\, Fuente Alamo\, Murcia
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 20 de octubre\, cierra el 29 de diciembre.\nFicha oficial: https://www.
+ golfdirecto.com/micro/game/6ad71cc8c5c6c019c37e1e76/summary\nConfirma fech
+ as y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6ad71cc8c5c6c019c37e1e76/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:98dbf38caa995ccd2519@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261231
+DTEND;VALUE=DATE:20270101
+SUMMARY:Santa Elena Members' Canada Cup Pairs
+LOCATION:Santa Elena Golf Club\, Fuente Alamo\, Murcia
+DESCRIPTION:Social de club · Fourball · Parejas\nInscripción: abre el 28
+  de octubre\, cierra el 28 de diciembre.\nPrecio: 3 €.\nFicha oficial: h
+ ttps://www.golfdirecto.com/micro/game/6ae1f74647e356105a050b18/summary\nCo
+ nfirma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6ae1f74647e356105a050b18/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:7b4cd804ecd39eda3d18@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20270102
+DTEND;VALUE=DATE:20270103
+SUMMARY:Santa Elena Members' Individual Stableford. Sponsored By Homespace 
+ Sales.
+LOCATION:Santa Elena Golf Club\, Fuente Alamo\, Murcia
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 31 de octubre\, cierra el 31 de diciembre.\nFicha oficial: https://www.
+ golfdirecto.com/micro/game/6ae58a946bd49ed7e63f15bd/summary\nConfirma fech
+ as y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6ae58a946bd49ed7e63f15bd/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:678110556fc8851a732c@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20270103
+DTEND;VALUE=DATE:20270104
+SUMMARY:Alamo Golf Society (Prize Alhama Signature GF).
+LOCATION:Santa Elena Golf Club\, Fuente Alamo\, Murcia
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 3 de noviembre\, cierra el 1 de enero.\nPrecio: 10 €.\nFicha oficial:
+  https://www.golfdirecto.com/micro/game/6ace332dbfe6bad581a2ffea/summary\n
+ Confirma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6ace332dbfe6bad581a2ffea/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:dd64cbd2d61c844b5ef5@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20270105
+DTEND;VALUE=DATE:20270106
+SUMMARY:Santa Elena Members' Individual Stableford. Sponsored By Homespace 
+ Sales.
+LOCATION:Santa Elena Golf Club\, Fuente Alamo\, Murcia
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 31 de octubre\, cierra el 4 de enero.\nFicha oficial: https://www.golfd
+ irecto.com/micro/game/6ae58bba6bd49ed7e652b862/summary\nConfirma fechas y 
+ condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6ae58bba6bd49ed7e652b862/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:5a7903ec7f508c78533e@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20270106
+DTEND;VALUE=DATE:20270107
+SUMMARY:Emerald Bar HDA
+LOCATION:Santa Elena Golf Club\, Fuente Alamo\, Murcia
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 3 de noviembre\, cierra el 4 de enero.\nFicha oficial: https://www.golf
+ directo.com/micro/game/6ae960ed2267c6230fd11d7c/summary\nConfirma fechas y
+  condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6ae960ed2267c6230fd11d7c/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:8c92ce2ba8f44bee26d9@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20270107
+DTEND;VALUE=DATE:20270108
+SUMMARY:Santa Elena Members' Drive and Play Team Competition
+LOCATION:Santa Elena Golf Club\, Fuente Alamo\, Murcia
+DESCRIPTION:Social de club · Fourball · Parejas\nInscripción: abre el 31
+  de octubre\, cierra el 5 de enero.\nFicha oficial: https://www.golfdirect
+ o.com/micro/game/6ae5e88411b235ffeddbee5d/summary\nConfirma fechas y condi
+ ciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6ae5e88411b235ffeddbee5d/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:757535c3f504a35d2ad4@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20270108
+DTEND;VALUE=DATE:20270109
+SUMMARY:Alamo Golf Society OoM Rd 1
+LOCATION:Alhama Signature\, Alhama de Murcia\, Murcia
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 19 de octubre\, cierra el 7 de enero.\nFicha oficial: https://www.golfd
+ irecto.com/micro/game/6ad606f66a3a1de0ec9f2460/summary\nConfirma fechas y 
+ condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6ad606f66a3a1de0ec9f2460/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:eb453a1224cad497f6aa@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20270109
+DTEND;VALUE=DATE:20270110
+SUMMARY:Santa Elena Members' Individual Stableford. Sponsored By Homespace 
+ Sales.
+LOCATION:Santa Elena Golf Club\, Fuente Alamo\, Murcia
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 31 de octubre\, cierra el 7 de enero.\nFicha oficial: https://www.golfd
+ irecto.com/micro/game/6ae58c2911b235ffed4aba96/summary\nConfirma fechas y 
+ condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6ae58c2911b235ffed4aba96/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:750fd81019c7605a955b@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20270110
+DTEND;VALUE=DATE:20270111
+SUMMARY:Alamo Golf Society Team Championship Rd 1 Sponsored by Home Space.
+LOCATION:Santa Elena Golf Club\, Fuente Alamo\, Murcia
+DESCRIPTION:Social de club · Fourball · Parejas\nInscripción: abre el 4 
+ de noviembre\, cierra el 8 de enero.\nFicha oficial: https://www.golfdirec
+ to.com/micro/game/6ace3d153889028eefea8050/summary\nConfirma fechas y cond
+ iciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6ace3d153889028eefea8050/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:76410871cd167eda1511@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20270112
+DTEND;VALUE=DATE:20270113
+SUMMARY:Santa Elena Members' Individual Stableford. Sponsored By Homespace 
+ Sales.
+LOCATION:Santa Elena Golf Club\, Fuente Alamo\, Murcia
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 31 de octubre\, cierra el 10 de enero.\nFicha oficial: https://www.golf
+ directo.com/micro/game/6ae58cb26bd49ed7e66ab6b6/summary\nConfirma fechas y
+  condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6ae58cb26bd49ed7e66ab6b6/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:f4981c048a600e8983cb@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20270113
+DTEND;VALUE=DATE:20270114
+SUMMARY:Emerald Bar HDA
+LOCATION:Santa Elena Golf Club\, Fuente Alamo\, Murcia
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 3 de noviembre\, cierra el 12 de enero.\nFicha oficial: https://www.gol
+ fdirecto.com/micro/game/6ae9618240e3bef011cd7bbb/summary\nConfirma fechas 
+ y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6ae9618240e3bef011cd7bbb/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:52232c6a5020ee016a7d@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20270114
+DTEND;VALUE=DATE:20270115
+SUMMARY:Round 2 Santa Elena Golf Members´ Double Jeopardy Round 2
+LOCATION:Santa Elena Golf Club\, Fuente Alamo\, Murcia
+DESCRIPTION:Social de club · Greensome · Parejas\nInscripción: abre el 3
+ 1 de octubre\, cierra el 12 de enero.\nFicha oficial: https://www.golfdire
+ cto.com/micro/game/6ae5f4a06bd49ed7e6d7b6fa/summary\nConfirma fechas y con
+ diciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6ae5f4a06bd49ed7e6d7b6fa/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:961a6bcfbcfbb3f4304f@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20270116
+DTEND;VALUE=DATE:20270117
+SUMMARY:Santa Elena Individual Stroke Play/Eclectic
+LOCATION:Santa Elena Golf Club\, Fuente Alamo\, Murcia
+DESCRIPTION:Social de club · Medal Play · Individual\nInscripción: abre 
+ el 31 de octubre\, cierra el 14 de enero.\nFicha oficial: https://www.golf
+ directo.com/micro/game/6ae58d6c6bd49ed7e685205e/summary\nConfirma fechas y
+  condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6ae58d6c6bd49ed7e685205e/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:289f2af58ac6c668f8e9@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20270116
+DTEND;VALUE=DATE:20270117
+SUMMARY:Santa Elena Members' Individual Stableford. Sponsored By Homespace 
+ Sales.
+LOCATION:Santa Elena Golf Club\, Fuente Alamo\, Murcia
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 31 de octubre\, cierra el 14 de enero.\nFicha oficial: https://www.golf
+ directo.com/micro/game/6ae58dd911b235ffed813ef3/summary\nConfirma fechas y
+  condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6ae58dd911b235ffed813ef3/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:27cff68f7c5b2858099f@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20270117
+DTEND;VALUE=DATE:20270118
+SUMMARY:Alamo Golf Society
+LOCATION:Saurines Golf\, Roldan\, Murcia
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 13 de octubre\, cierra el 15 de enero.\nPrecio: 10 €.\nFicha oficial:
+  https://www.golfdirecto.com/micro/game/6ace4c3f3889028eef61621a/summary\n
+ Confirma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6ace4c3f3889028eef61621a/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:7928aba132d823b41ae9@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20270119
+DTEND;VALUE=DATE:20270120
+SUMMARY:Santa Elena Members' Individual Stableford. Sponsored By Homespace 
+ Sales.
+LOCATION:Santa Elena Golf Club\, Fuente Alamo\, Murcia
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 31 de octubre\, cierra el 17 de enero.\nFicha oficial: https://www.golf
+ directo.com/micro/game/6ae58ea811b235ffed92119c/summary\nConfirma fechas y
+  condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6ae58ea811b235ffed92119c/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:566ec6ba2ef09b09436f@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20270120
+DTEND;VALUE=DATE:20270121
+SUMMARY:Emerald Bar HDA
+LOCATION:Santa Elena Golf Club\, Fuente Alamo\, Murcia
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 3 de noviembre\, cierra el 19 de enero.\nFicha oficial: https://www.gol
+ fdirecto.com/micro/game/6ae962062267c6230fd51a97/summary\nConfirma fechas 
+ y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6ae962062267c6230fd51a97/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:3f11cff76f4f08d0807a@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20270121
+DTEND;VALUE=DATE:20270122
+SUMMARY:Santa Elena Members' Triple 6 Team Competition
+LOCATION:Santa Elena Golf Club\, Fuente Alamo\, Murcia
+DESCRIPTION:Social de club · Fourball · Parejas\nInscripción: abre el 31
+  de octubre\, cierra el 19 de enero.\nPrecio: 3 €.\nFicha oficial: https
+ ://www.golfdirecto.com/micro/game/6ae5e6996bd49ed7e69a6c91/summary\nConfir
+ ma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6ae5e6996bd49ed7e69a6c91/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:df7f2b20613ab3b996e4@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20270123
+DTEND;VALUE=DATE:20270124
+SUMMARY:Santa Elena - ROBBIE BURNS - 4BBB
+LOCATION:Santa Elena Golf Club\, Fuente Alamo\, Murcia
+DESCRIPTION:Social de club · Fourball · Parejas\nInscripción: abre el 31
+  de octubre\, cierra el 21 de enero.\nFicha oficial: https://www.golfdirec
+ to.com/micro/game/6ae592e411b235ffed116af7/summary\nConfirma fechas y cond
+ iciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6ae592e411b235ffed116af7/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:16b1cd50414fde208645@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20270124
+DTEND;VALUE=DATE:20270125
+SUMMARY:Alamo Golf Society Pairs Championship Rd 1
+LOCATION:Santa Elena Golf Club\, Fuente Alamo\, Murcia
+DESCRIPTION:Social de club · Stableford · Parejas\nInscripción: abre el 
+ 3 de noviembre\, cierra el 22 de enero.\nPrecio: 5 €.\nFicha oficial: ht
+ tps://www.golfdirecto.com/micro/game/6ae975cf2267c6230f45803d/summary\nCon
+ firma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6ae975cf2267c6230f45803d/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:9b693b2f664143d47abe@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20270125
+DTEND;VALUE=DATE:20270126
+SUMMARY:Inscripcion Congreso PGA 2027
+LOCATION:Santa Elena Golf Club\, Fuente Alamo\, Murcia
+DESCRIPTION:Profesional · Foursome · Parejas\nInscripción: abre el 25 de
+  octubre\, cierra el 15 de enero.\nPrecio: 150 €.\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/6ae0e392e85d85ec8f950c90/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6ae0e392e85d85ec8f950c90/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:8cc464994bb7c4c53292@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20270126
+DTEND;VALUE=DATE:20270127
+SUMMARY:Santa Elena Members' Individual Stableford. Sponsored By Homespace 
+ Sales.
+LOCATION:Santa Elena Golf Club\, Fuente Alamo\, Murcia
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 31 de octubre\, cierra el 24 de enero.\nFicha oficial: https://www.golf
+ directo.com/micro/game/6ae58f2d6bd49ed7e6b23276/summary\nConfirma fechas y
+  condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6ae58f2d6bd49ed7e6b23276/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:3f77dcc6dd7b9738e515@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20270127
+DTEND;VALUE=DATE:20270128
+SUMMARY:Emerald Bar HDA
+LOCATION:Santa Elena Golf Club\, Fuente Alamo\, Murcia
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 6 de noviembre\, cierra el 26 de enero.\nFicha oficial: https://www.gol
+ fdirecto.com/micro/game/6aede0a0ec94b7c14e9dd77e/summary\nConfirma fechas 
+ y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6aede0a0ec94b7c14e9dd77e/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:437a6910815e71c2fbe4@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20270128
+DTEND;VALUE=DATE:20270129
+SUMMARY:Santa Elena Members' Odds & Evens Pairs Game
+LOCATION:Santa Elena Golf Club\, Fuente Alamo\, Murcia
+DESCRIPTION:Social de club · Fourball · Parejas\nInscripción: abre el 31
+  de octubre\, cierra el 26 de enero.\nFicha oficial: https://www.golfdirec
+ to.com/micro/game/6ae5ecbc6bd49ed7e68e4c88/summary\nConfirma fechas y cond
+ iciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6ae5ecbc6bd49ed7e68e4c88/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:11de3b70232025d6a7f2@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20270130
+DTEND;VALUE=DATE:20270131
+SUMMARY:Santa Elena Members' Individual Stableford. Sponsored By Homespace 
+ Sales.
+LOCATION:Santa Elena Golf Club\, Fuente Alamo\, Murcia
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 31 de octubre\, cierra el 28 de enero.\nFicha oficial: https://www.golf
+ directo.com/micro/game/6ae590296bd49ed7e6d29d13/summary\nConfirma fechas y
+  condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6ae590296bd49ed7e6d29d13/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:24e9a06b9605fef9bd13@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20270131
+DTEND;VALUE=DATE:20270201
+SUMMARY:Alamo Golf Society (Prize Las Colinas GF).
+LOCATION:Santa Elena Golf Club\, Fuente Alamo\, Murcia
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 3 de noviembre\, cierra el 29 de enero.\nPrecio: 10 €.\nFicha oficial
+ : https://www.golfdirecto.com/micro/game/6ae983432267c6230f040755/summary\
+ nConfirma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6ae983432267c6230f040755/summary
+END:VEVENT
+END:VCALENDAR

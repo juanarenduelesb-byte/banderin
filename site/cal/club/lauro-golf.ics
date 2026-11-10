@@ -1,0 +1,119 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Banderin//Torneos de golf//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Banderín · Lauro Golf
+X-WR-CALDESC:Torneos de golf: Lauro Golf. Se actualiza cada mañana. https:
+ //banderin.pages.dev
+X-WR-TIMEZONE:Europe/Madrid
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:c78cbb201a73d0f1fa7e@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:VIII Torneo Volvo Vypsa - Día del Club
+LOCATION:Lauro Golf\, Alhaurin de la Torre\, Málaga
+DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
+ s://www.nextcaddy.com/tour/74713\nConfirma fechas y condiciones en la web 
+ del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nextcaddy.com/tour/74713
+END:VEVENT
+BEGIN:VEVENT
+UID:f422c28cea87fc15c9c3@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261117
+DTEND;VALUE=DATE:20261118
+SUMMARY:Skandinavisk Match 17/11
+LOCATION:Lauro Golf\, Alhaurin de la Torre\, Málaga
+DESCRIPTION:Clubes y equipos · Stableford · Equipos\nInscripción: abre e
+ l 10 de noviembre\, cierra el 14 de noviembre.\nPrecio: 55 €.\nFicha ofi
+ cial: https://www.golfdirecto.com/micro/game/6adf567405d0e598f36e9603/summ
+ ary\nConfirma fechas y condiciones en la web del organizador. Vía Bander
+ ín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6adf567405d0e598f36e9603/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:3292ffe3f5a2cfe836a6@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261124
+DTEND;VALUE=DATE:20261125
+SUMMARY:Skandinavisk Match 24/11
+LOCATION:Lauro Golf\, Alhaurin de la Torre\, Málaga
+DESCRIPTION:Clubes y equipos · Stableford · Equipos\nInscripción: abre e
+ l 17 de noviembre\, cierra el 21 de noviembre.\nPrecio: 55 €.\nFicha ofi
+ cial: https://www.golfdirecto.com/micro/game/6adf571605d0e598f392664b/summ
+ ary\nConfirma fechas y condiciones en la web del organizador. Vía Bander
+ ín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6adf571605d0e598f392664b/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:09edfe8756bf522e9914@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:Campeonato Andalucía Interclubs Infantil y Cadete
+LOCATION:Lauro Golf\, Alhaurin de la Torre\, Málaga
+DESCRIPTION:Juvenil · Medal Play · Equipos\nFicha oficial: https://www.ne
+ xtcaddy.com/tour/61215\nConfirma fechas y condiciones en la web del organi
+ zador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nextcaddy.com/tour/61215
+END:VEVENT
+BEGIN:VEVENT
+UID:0d9725552dad218a6144@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
+SUMMARY:Skandinavisk Match 01/12
+LOCATION:Lauro Golf\, Alhaurin de la Torre\, Málaga
+DESCRIPTION:Clubes y equipos · Stableford · Equipos\nInscripción: abre e
+ l 24 de noviembre\, cierra el 28 de noviembre.\nPrecio: 55 €.\nFicha ofi
+ cial: https://www.golfdirecto.com/micro/game/6adf575505d0e598f3a02fcf/summ
+ ary\nConfirma fechas y condiciones en la web del organizador. Vía Bander
+ ín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6adf575505d0e598f3a02fcf/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:2329316c1f9822692adc@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261208
+DTEND;VALUE=DATE:20261209
+SUMMARY:Skandinavisk Match 08/12
+LOCATION:Lauro Golf\, Alhaurin de la Torre\, Málaga
+DESCRIPTION:Clubes y equipos · Stableford · Equipos\nInscripción: abre e
+ l 1 de diciembre\, cierra el 5 de diciembre.\nPrecio: 55 €.\nFicha ofici
+ al: https://www.golfdirecto.com/micro/game/6adf578f05d0e598f3afc378/summar
+ y\nConfirma fechas y condiciones en la web del organizador. Vía Banderín
+ .
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6adf578f05d0e598f3afc378/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:4a57ab55476d067d2be4@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261215
+DTEND;VALUE=DATE:20261216
+SUMMARY:Skandinavisk Match 15/12
+LOCATION:Lauro Golf\, Alhaurin de la Torre\, Málaga
+DESCRIPTION:Clubes y equipos · Stableford · Equipos\nInscripción: cierra
+  el 26 de octubre.\nPrecio: 55 €.\nFicha oficial: https://www.golfdirect
+ o.com/micro/game/6adf583305d0e598f3de5fd6/summary\nConfirma fechas y condi
+ ciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6adf583305d0e598f3de5fd6/summary
+END:VEVENT
+END:VCALENDAR

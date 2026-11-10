@@ -1,0 +1,42 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Banderin//Torneos de golf//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Banderín · Ciudad Deportiva Juan Antonio Samaranch
+X-WR-CALDESC:Torneos de golf: Ciudad Deportiva Juan Antonio Samaranch. Se a
+ ctualiza cada mañana. https://banderin.pages.dev
+X-WR-TIMEZONE:Europe/Madrid
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:c7f4794fe7a3998a543a@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261112
+DTEND;VALUE=DATE:20261113
+SUMMARY:Match P&P RFGM - AESGOLF
+LOCATION:Ciudad Deportiva Juan Antonio Samaranch\, Colmenar Viejo\, Madrid
+DESCRIPTION:Senior · Match Play · Equipos\nInscripción: abre el 12 de no
+ viembre\, cierra el 12 de noviembre.\nPrecio: Gratis.\nFicha oficial: http
+ s://www.nextcaddy.com/tour/68336\nConfirma fechas y condiciones en la web 
+ del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nextcaddy.com/tour/68336
+END:VEVENT
+BEGIN:VEVENT
+UID:fd8365c860f33099fe21@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:Torneo Mixto de Golf Adaptado
+LOCATION:Ciudad Deportiva Juan Antonio Samaranch\, Colmenar Viejo\, Madrid
+DESCRIPTION:Adaptado · Stableford · Individual\nInscripción: abre el 16 
+ de noviembre\, cierra el 23 de noviembre.\nPrecio: 19\,5 €.\nFicha ofici
+ al: https://www.nextcaddy.com/tour/74636\nConfirma fechas y condiciones en
+  la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nextcaddy.com/tour/74636
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,117 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Banderin//Torneos de golf//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Banderín · Granada
+X-WR-CALDESC:Torneos de golf: Granada. Se actualiza cada mañana. https://b
+ anderin.pages.dev
+X-WR-TIMEZONE:Europe/Madrid
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:76d7e993aaece05aec69@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:Circuito Benjamín Zona E
+LOCATION:Granada Club de Golf\, Las Gabias\, Granada
+DESCRIPTION:Juvenil · Medal Play · Individual\nInscripción: abre el 9 de
+  octubre\, cierra el 9 de noviembre.\nFicha oficial: https://www.nextcaddy
+ .com/tour/61241\nConfirma fechas y condiciones en la web del organizador. 
+ Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nextcaddy.com/tour/61241
+END:VEVENT
+BEGIN:VEVENT
+UID:0bea8f76f98a0aa4a4a6@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:Circuito Juvenil Zona E
+LOCATION:Granada Club de Golf\, Las Gabias\, Granada
+DESCRIPTION:Juvenil · Medal Play · Individual\nInscripción: abre el 9 de
+  octubre\, cierra el 9 de noviembre.\nFicha oficial: https://www.nextcaddy
+ .com/tour/61240\nConfirma fechas y condiciones en la web del organizador. 
+ Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nextcaddy.com/tour/61240
+END:VEVENT
+BEGIN:VEVENT
+UID:645e2e1e121d3f8b15e7@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:Torneo Memorial Jose Zaldibar
+LOCATION:Granada Club de Golf\, Las Gabias\, Granada
+DESCRIPTION:Social de club · Fourball · Parejas\nFicha oficial: https://w
+ ww.golfdirecto.com/micro/game/6af32e672852ee1cedfa71d2/summary\nConfirma f
+ echas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6af32e672852ee1cedfa71d2/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:34cf8442fb6848638a85@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:Liga Infantil 9 Hoyos Rojas
+LOCATION:Granada Club de Golf\, Las Gabias\, Granada
+DESCRIPTION:Juvenil · Stableford · Individual\nInscripción: abre el 9 de
+  noviembre\, cierra el 13 de noviembre.\nPrecio: 10 €.\nFicha oficial: h
+ ttps://www.golfdirecto.com/micro/game/6af1757c48b95e9e1abb51bd/summary\nCo
+ nfirma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6af1757c48b95e9e1abb51bd/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:a58dad8d30e28bfd53db@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:Liga Infantil Pequecircuito Campo Practicas
+LOCATION:Granada Club de Golf\, Las Gabias\, Granada
+DESCRIPTION:Juvenil · Stableford · Individual\nInscripción: abre el 9 de
+  noviembre\, cierra el 14 de noviembre.\nPrecio: 10 €.\nFicha oficial: h
+ ttps://www.golfdirecto.com/micro/game/6af1763b8527252f60827696/summary\nCo
+ nfirma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6af1763b8527252f60827696/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:1bb4be115e9e6976e97d@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261118
+DTEND;VALUE=DATE:20261119
+SUMMARY:Liga Senior Noviembre 26
+LOCATION:Granada Club de Golf\, Las Gabias\, Granada
+DESCRIPTION:Senior · Stableford · Individual\nInscripción: abre el 6 de 
+ noviembre\, cierra el 16 de noviembre.\nPrecio: 35 €.\nFicha oficial: ht
+ tps://www.golfdirecto.com/micro/game/6aec39995ca5a43533c02ef6/summary\nCon
+ firma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6aec39995ca5a43533c02ef6/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:122418ef5993b2414f52@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:Liga Damas Noviembre26
+LOCATION:Granada Club de Golf\, Las Gabias\, Granada
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 9 de noviembre\, cierra el 19 de noviembre.\nPrecio: 15 €.\nFicha ofi
+ cial: https://www.golfdirecto.com/micro/game/6af187268527252f607cf775/summ
+ ary\nConfirma fechas y condiciones en la web del organizador. Vía Bander
+ ín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6af187268527252f607cf775/summary
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,43 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Banderin//Torneos de golf//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Banderín · Golf Son Termens S.a
+X-WR-CALDESC:Torneos de golf: Golf Son Termens S.a. Se actualiza cada maña
+ na. https://banderin.pages.dev
+X-WR-TIMEZONE:Europe/Madrid
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:e46ee11b2020f8e4838f@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:Torneo Social
+LOCATION:Golf Son Termens S.a\, Son Termes\, Illes Balears
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 1 de noviembre\, cierra el 19 de noviembre.\nPrecio: 70 €.\nFicha ofi
+ cial: https://www.golfdirecto.com/micro/game/6ae7514804e5219251179f2a/summ
+ ary\nConfirma fechas y condiciones en la web del organizador. Vía Bander
+ ín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6ae7514804e5219251179f2a/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:81325d52333fcb8a5599@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+SUMMARY:Anual Puntuable 2026
+LOCATION:Golf Son Termens S.a\, Son Termes\, Illes Balears
+DESCRIPTION:Absoluto · Stableford · Individual\nInscripción: abre el 16 
+ de marzo\, cierra el 20 de noviembre.\nFicha oficial: https://www.golfdire
+ cto.com/micro/game/69b547a6c6a4b93893950b58/summary\nConfirma fechas y con
+ diciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/69b547a6c6a4b93893950b58/summary
+END:VEVENT
+END:VCALENDAR

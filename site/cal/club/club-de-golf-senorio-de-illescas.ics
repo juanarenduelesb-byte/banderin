@@ -1,0 +1,42 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Banderin//Torneos de golf//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Banderín · Club de Golf Señorio de Illescas
+X-WR-CALDESC:Torneos de golf: Club de Golf Señorio de Illescas. Se actuali
+ za cada mañana. https://banderin.pages.dev
+X-WR-TIMEZONE:Europe/Madrid
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:781602e893bbc8f27d3e@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:Torneo Alevín Masculino "Illescas"
+LOCATION:Club de Golf Señorio de Illescas\, Illescas\, Toledo
+DESCRIPTION:Juvenil · Medal Play · Individual\nInscripción: abre el 3 de
+  noviembre\, cierra el 10 de noviembre.\nPrecio: 21 €.\nFicha oficial: h
+ ttps://www.nextcaddy.com/tour/68357\nConfirma fechas y condiciones en la w
+ eb del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nextcaddy.com/tour/68357
+END:VEVENT
+BEGIN:VEVENT
+UID:8ca78efaf15da5892d0a@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:Torneo Alevín Femenino "Illescas"
+LOCATION:Club de Golf Señorio de Illescas\, Illescas\, Toledo
+DESCRIPTION:Juvenil · Medal Play · Individual\nInscripción: abre el 9 de
+  noviembre\, cierra el 16 de noviembre.\nPrecio: 16 €.\nFicha oficial: h
+ ttps://www.nextcaddy.com/tour/68359\nConfirma fechas y condiciones en la w
+ eb del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nextcaddy.com/tour/68359
+END:VEVENT
+END:VCALENDAR

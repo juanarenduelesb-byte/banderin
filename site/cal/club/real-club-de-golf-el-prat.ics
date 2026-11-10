@@ -1,0 +1,44 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Banderin//Torneos de golf//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Banderín · Real Club de Golf El Prat
+X-WR-CALDESC:Torneos de golf: Real Club de Golf El Prat. Se actualiza cada 
+ mañana. https://banderin.pages.dev
+X-WR-TIMEZONE:Europe/Madrid
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:66cdbdc8de5044a68b95@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20270222
+DTEND;VALUE=DATE:20270224
+SUMMARY:Campionat de Catalunya de Professionals (Catprotour)
+LOCATION:Real Club de Golf El Prat\, Terrassa\, Barcelona
+DESCRIPTION:Profesional · Individual\nFicha oficial: https://www.catgolf.c
+ om/es/campeonatos/campionat-de-catalunya-de-professionals-catprotour-2027-
+ 02-22\nConfirma fechas y condiciones en la web del organizador. Vía Bande
+ rín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.catgolf.com/es/campeonatos/campionat-de-catalunya-de-profes
+ sionals-catprotour-2027-02-22
+END:VEVENT
+BEGIN:VEVENT
+UID:1f86e822e56f7b8470a6@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20270323
+DTEND;VALUE=DATE:20270325
+SUMMARY:I Puntuable Zonal Juvenil RFEG Femenino y Masculino
+LOCATION:Real Club de Golf El Prat\, Terrassa\, Barcelona
+DESCRIPTION:Juvenil · Individual\nFicha oficial: https://www.catgolf.com/e
+ s/campeonatos/i-puntuable-zonal-juvenil-rfeg-femenino-y-masculino-2027-03-
+ 23\nConfirma fechas y condiciones en la web del organizador. Vía Banderí
+ n.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.catgolf.com/es/campeonatos/i-puntuable-zonal-juvenil-rfeg-f
+ emenino-y-masculino-2027-03-23
+END:VEVENT
+END:VCALENDAR

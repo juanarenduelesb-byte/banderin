@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Banderin//Torneos de golf//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Banderín · Mediterraneo Golf
+X-WR-CALDESC:Torneos de golf: Mediterraneo Golf. Se actualiza cada mañana.
+  https://banderin.pages.dev
+X-WR-TIMEZONE:Europe/Madrid
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:410a23f45c1d768ee5c4@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261117
+DTEND;VALUE=DATE:20261118
+SUMMARY:IV Liguilla Interclubs Femenina 9/9
+LOCATION:Mediterraneo Golf\, Borriol\, Castellón
+DESCRIPTION:Clubes y equipos · Equipos\nInscripción: abre el 6 de octubre
+ \, cierra el 12 de noviembre.\nPrecio: 40 €.\nFicha oficial: https://gol
+ fcv.com/torneo_seek/ver-torneo/?torneoid=2717\nConfirma fechas y condicion
+ es en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://golfcv.com/torneo_seek/ver-torneo/?torneoid=2717
+END:VEVENT
+END:VCALENDAR

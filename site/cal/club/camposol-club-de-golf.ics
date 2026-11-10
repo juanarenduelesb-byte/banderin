@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Banderin//Torneos de golf//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Banderín · Camposol Club de Golf
+X-WR-CALDESC:Torneos de golf: Camposol Club de Golf. Se actualiza cada mañ
+ ana. https://banderin.pages.dev
+X-WR-TIMEZONE:Europe/Madrid
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:10ea04ba9ac01bc4e10e@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+SUMMARY:Sunshine Golf Society v Condado Golf Society Return Match
+LOCATION:Camposol Club de Golf\, Murcia
+DESCRIPTION:Social de club · Fourball · Parejas\nFicha oficial: https://w
+ ww.golfdirecto.com/micro/game/6af07f1078d30dd0fcc5bb6d/summary\nConfirma f
+ echas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6af07f1078d30dd0fcc5bb6d/summary
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Banderin//Torneos de golf//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Banderín · Club Campo de Golf Ciudad de Melilla
+X-WR-CALDESC:Torneos de golf: Club Campo de Golf Ciudad de Melilla. Se actu
+ aliza cada mañana. https://banderin.pages.dev
+X-WR-TIMEZONE:Europe/Madrid
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:91c654deec11ada439f0@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:Club Amigos del Golf & Rotay\, II Torneo por la Infancia
+LOCATION:Club Campo de Golf Ciudad de Melilla\, Melilla\, Melilla
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 11 de noviembre\, cierra el 19 de noviembre.\nFicha oficial: https://ww
+ w.golfdirecto.com/micro/game/6ad62aa36a3a1de0ec7862a8/summary\nConfirma fe
+ chas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6ad62aa36a3a1de0ec7862a8/summary
+END:VEVENT
+END:VCALENDAR

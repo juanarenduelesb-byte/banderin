@@ -1,0 +1,42 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Banderin//Torneos de golf//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Banderín · Valle del Este Hotel Golf Spa
+X-WR-CALDESC:Torneos de golf: Valle del Este Hotel Golf Spa. Se actualiza c
+ ada mañana. https://banderin.pages.dev
+X-WR-TIMEZONE:Europe/Madrid
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:bdac0dc4d26573de17d1@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:Pequecircuito Zona E
+LOCATION:Valle del Este Hotel Golf Spa\, Vera\, Almería
+DESCRIPTION:Juvenil · Medal Play · Individual\nInscripción: abre el 6 de
+  octubre\, cierra el 9 de noviembre.\nFicha oficial: https://www.nextcaddy
+ .com/tour/61231\nConfirma fechas y condiciones en la web del organizador. 
+ Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nextcaddy.com/tour/61231
+END:VEVENT
+BEGIN:VEVENT
+UID:efe337f0c64840c8b043@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261201
+SUMMARY:Alamo Golf Society Sponsored by Julie & Steve Crook
+LOCATION:Valle del Este Hotel Golf Spa\, Vera\, Almería
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 14 de septiembre\, cierra el 29 de noviembre.\nFicha oficial: https://w
+ ww.golfdirecto.com/micro/game/6aa763add8e43faad755fec8/summary\nConfirma f
+ echas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6aa763add8e43faad755fec8/summary
+END:VEVENT
+END:VCALENDAR

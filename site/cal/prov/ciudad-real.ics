@@ -1,0 +1,42 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Banderin//Torneos de golf//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Banderín · Ciudad Real
+X-WR-CALDESC:Torneos de golf: Ciudad Real. Se actualiza cada mañana. https
+ ://banderin.pages.dev
+X-WR-TIMEZONE:Europe/Madrid
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:8f0bc6700912a91b3593@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261116
+SUMMARY:Campeonato de España Interclubes de Pitch & Putt 2026
+LOCATION:Escuela Municipal de Golf de Alcázar de San Juan\, Alcázar de Sa
+ n Juan\, Ciudad Real
+DESCRIPTION:Clubes y equipos · Medal Play · Equipos\nFicha oficial: https
+ ://rfegolf.es/competicion/campeonato-de-espana-interclubes\nConfirma fecha
+ s y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://rfegolf.es/competicion/campeonato-de-espana-interclubes
+END:VEVENT
+BEGIN:VEVENT
+UID:ffdb395d065004326485@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261123
+SUMMARY:Campeonato de España de Profesionales Masculino 2026
+LOCATION:Club de Golf Castilla-La Mancha\, Ciudad Real\, Ciudad Real
+DESCRIPTION:Profesional · Medal Play · Individual\nFicha oficial: https:/
+ /rfegolf.es/competicion/campeonato-de-espana-de-profesionales-masculino\nC
+ onfirma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://rfegolf.es/competicion/campeonato-de-espana-de-profesionales-ma
+ sculino
+END:VEVENT
+END:VCALENDAR

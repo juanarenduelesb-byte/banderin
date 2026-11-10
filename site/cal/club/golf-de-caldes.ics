@@ -1,0 +1,56 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Banderin//Torneos de golf//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Banderín · Golf de Caldes
+X-WR-CALDESC:Torneos de golf: Golf de Caldes. Se actualiza cada mañana. ht
+ tps://banderin.pages.dev
+X-WR-TIMEZONE:Europe/Madrid
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:2b92d7d0e50dc6ff3374@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261116
+SUMMARY:Obert de Caldes 9 Forats
+LOCATION:Golf de Caldes\, Caldes de Montbui\, Barcelona
+DESCRIPTION:Social de club · Individual\nFicha oficial: https://www.catgol
+ f.com/es/campeonatos/obert-de-caldes-9-forats-2026-11-13\nConfirma fechas 
+ y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.catgolf.com/es/campeonatos/obert-de-caldes-9-forats-2026-11
+ -13
+END:VEVENT
+BEGIN:VEVENT
+UID:79de1c81edd8e3d35837@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261218
+DTEND;VALUE=DATE:20261221
+SUMMARY:Torneig de NADAL - 9 Forats
+LOCATION:Golf de Caldes\, Caldes de Montbui\, Barcelona
+DESCRIPTION:Social de club · Individual\nFicha oficial: https://www.catgol
+ f.com/es/campeonatos/torneig-de-nadal-9-forats-2026-12-18\nConfirma fechas
+  y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.catgolf.com/es/campeonatos/torneig-de-nadal-9-forats-2026-1
+ 2-18
+END:VEVENT
+BEGIN:VEVENT
+UID:18bc04ad15838ef332dc@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20270904
+DTEND;VALUE=DATE:20270906
+SUMMARY:15a Lliga Juvenil
+LOCATION:Golf de Caldes\, Caldes de Montbui\, Barcelona
+DESCRIPTION:Juvenil · Individual\nFicha oficial: https://www.catgolf.com/e
+ s/campeonatos/15a-lliga-juvenil-2027-09-04\nConfirma fechas y condiciones 
+ en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.catgolf.com/es/campeonatos/15a-lliga-juvenil-2027-09-04
+END:VEVENT
+END:VCALENDAR

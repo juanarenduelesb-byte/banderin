@@ -1,0 +1,337 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Banderin//Torneos de golf//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Banderín · Castilla-La Mancha
+X-WR-CALDESC:Torneos de golf: Castilla-La Mancha. Se actualiza cada mañana
+ . https://banderin.pages.dev
+X-WR-TIMEZONE:Europe/Madrid
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:89727f4b60195a3caec8@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20261112
+SUMMARY:Torneo del Cocido
+LOCATION:Cabanillas Casa de Campo Golf\, Guadalajara
+DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
+ s://www.golfdirecto.com/micro/game/6ae88f0b00f5e2ea75db0a6b/summary\nConfi
+ rma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6ae88f0b00f5e2ea75db0a6b/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:14a20012c093da13b599@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261112
+DTEND;VALUE=DATE:20261113
+SUMMARY:Ingenieros de Caminos
+LOCATION:Campo de Golf Layos\, Layos\, Toledo
+DESCRIPTION:Social de club · Fourball · Parejas\nFicha oficial: https://w
+ ww.golfdirecto.com/micro/game/6af0931989677877bfc24146/summary\nConfirma f
+ echas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6af0931989677877bfc24146/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:1e766d1e656f220710d1@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261112
+DTEND;VALUE=DATE:20261113
+SUMMARY:Torneo Mcm26 Layos Individual
+LOCATION:Campo de Golf Layos\, Layos\, Toledo
+DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
+ s://www.golfdirecto.com/micro/game/6af2e14434e2215974be3d1f/summary\nConfi
+ rma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6af2e14434e2215974be3d1f/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:8f0bc6700912a91b3593@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261116
+SUMMARY:Campeonato de España Interclubes de Pitch & Putt 2026
+LOCATION:Escuela Municipal de Golf de Alcázar de San Juan\, Alcázar de Sa
+ n Juan\, Ciudad Real
+DESCRIPTION:Clubes y equipos · Medal Play · Equipos\nFicha oficial: https
+ ://rfegolf.es/competicion/campeonato-de-espana-interclubes\nConfirma fecha
+ s y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://rfegolf.es/competicion/campeonato-de-espana-interclubes
+END:VEVENT
+BEGIN:VEVENT
+UID:067d75a4cdc869f1e1d6@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:III Prueba Puntuable Gt Tour
+LOCATION:Club Deportivo Torrijos Golf\, Noves\, Toledo
+DESCRIPTION:Absoluto · Medal Play · Individual\nInscripción: abre el 4 d
+ e noviembre\, cierra el 12 de noviembre.\nFicha oficial: https://www.golfd
+ irecto.com/micro/game/6ae31d0fcfb34e6207068446/summary\nConfirma fechas y 
+ condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6ae31d0fcfb34e6207068446/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:781602e893bbc8f27d3e@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:Torneo Alevín Masculino "Illescas"
+LOCATION:Club de Golf Señorio de Illescas\, Illescas\, Toledo
+DESCRIPTION:Juvenil · Medal Play · Individual\nInscripción: abre el 3 de
+  noviembre\, cierra el 10 de noviembre.\nPrecio: 21 €.\nFicha oficial: h
+ ttps://www.nextcaddy.com/tour/68357\nConfirma fechas y condiciones en la w
+ eb del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nextcaddy.com/tour/68357
+END:VEVENT
+BEGIN:VEVENT
+UID:e503d4c2a602c0f3b499@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:Torneo Infantil "Montealvar"
+LOCATION:Montealvar Golf Club\, Yebes\, Guadalajara
+DESCRIPTION:Juvenil · Medal Play · Individual\nInscripción: abre el 3 de
+  noviembre\, cierra el 10 de noviembre.\nPrecio: 21 €.\nFicha oficial: h
+ ttps://www.nextcaddy.com/tour/69248\nConfirma fechas y condiciones en la w
+ eb del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nextcaddy.com/tour/69248
+END:VEVENT
+BEGIN:VEVENT
+UID:88a5c571fff5b81f4099@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261118
+DTEND;VALUE=DATE:20261119
+SUMMARY:Foro 2000 - Legends Tour -Torneo Final-
+LOCATION:Campo de Golf Layos\, Layos\, Toledo
+DESCRIPTION:Circuito comercial · Medal Play · Individual\nFicha oficial: 
+ https://www.golfdirecto.com/micro/game/6ae8c82647d5a6672955e7e2/summary\nC
+ onfirma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6ae8c82647d5a6672955e7e2/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:782c7e54f5a14c797d89@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261118
+DTEND;VALUE=DATE:20261119
+SUMMARY:Torneo del Cocido
+LOCATION:Cabanillas Casa de Campo Golf\, Guadalajara
+DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
+ s://www.golfdirecto.com/micro/game/6ae88f1f00f5e2ea75dd8a61/summary\nConfi
+ rma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6ae88f1f00f5e2ea75dd8a61/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:ffdb395d065004326485@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261123
+SUMMARY:Campeonato de España de Profesionales Masculino 2026
+LOCATION:Club de Golf Castilla-La Mancha\, Ciudad Real\, Ciudad Real
+DESCRIPTION:Profesional · Medal Play · Individual\nFicha oficial: https:/
+ /rfegolf.es/competicion/campeonato-de-espana-de-profesionales-masculino\nC
+ onfirma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://rfegolf.es/competicion/campeonato-de-espana-de-profesionales-ma
+ sculino
+END:VEVENT
+BEGIN:VEVENT
+UID:8ca78efaf15da5892d0a@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:Torneo Alevín Femenino "Illescas"
+LOCATION:Club de Golf Señorio de Illescas\, Illescas\, Toledo
+DESCRIPTION:Juvenil · Medal Play · Individual\nInscripción: abre el 9 de
+  noviembre\, cierra el 16 de noviembre.\nPrecio: 16 €.\nFicha oficial: h
+ ttps://www.nextcaddy.com/tour/68359\nConfirma fechas y condiciones en la w
+ eb del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nextcaddy.com/tour/68359
+END:VEVENT
+BEGIN:VEVENT
+UID:00e516fee943822e02cb@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261125
+DTEND;VALUE=DATE:20261126
+SUMMARY:Torneo del Cocido (Copia)
+LOCATION:Cabanillas Casa de Campo Golf\, Guadalajara
+DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
+ s://www.golfdirecto.com/micro/game/6ae88f3900f5e2ea75e3290b/summary\nConfi
+ rma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6ae88f3900f5e2ea75e3290b/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:261277b4efe35d3691f1@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:Liga 9 Hoyos Cccgolf 8810. Jornada II
+LOCATION:Cabanillas Casa de Campo Golf\, Guadalajara
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 10 de noviembre\, cierra el 28 de noviembre.\nPrecio: 50 €.\nFicha of
+ icial: https://www.golfdirecto.com/micro/game/6af2d24f34e2215974578109/sum
+ mary\nConfirma fechas y condiciones en la web del organizador. Vía Bander
+ ín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6af2d24f34e2215974578109/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:9284aabdcba7c9bc8b4a@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261211
+DTEND;VALUE=DATE:20261212
+SUMMARY:Torneo Navidad Tajogolf 2026
+LOCATION:Campo de Golf Layos\, Layos\, Toledo
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 9 de noviembre\, cierra el 9 de diciembre.\nFicha oficial: https://www.
+ golfdirecto.com/micro/game/6af1e9c62f0e9df18bc4659e/summary\nConfirma fech
+ as y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6af1e9c62f0e9df18bc4659e/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:6ce0ba4f9ce6d6da620d@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261220
+DTEND;VALUE=DATE:20261221
+SUMMARY:Liga 9 Hoyos Cccgolf 8810. Jornada III
+LOCATION:Cabanillas Casa de Campo Golf\, Guadalajara
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 16 de octubre\, cierra el 19 de diciembre.\nPrecio: 50 €.\nFicha ofic
+ ial: https://www.golfdirecto.com/micro/game/6ad2000558859e3c43c11bba/summa
+ ry\nConfirma fechas y condiciones en la web del organizador. Vía Banderí
+ n.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6ad2000558859e3c43c11bba/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:1874671d8de585f1efb9@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20270124
+DTEND;VALUE=DATE:20270125
+SUMMARY:Liga 9 Hoyos Cccgolf 8810. Jornada IV
+LOCATION:Cabanillas Casa de Campo Golf\, Guadalajara
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 16 de octubre\, cierra el 23 de enero.\nPrecio: 50 €.\nFicha oficial:
+  https://www.golfdirecto.com/micro/game/6ad200fd58859e3c4302e687/summary\n
+ Confirma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6ad200fd58859e3c4302e687/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:a5c986895e5ab12f3660@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20270130
+DTEND;VALUE=DATE:20270131
+SUMMARY:Torneo no valido
+LOCATION:Campo de Golf Layos\, Layos\, Toledo
+DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
+ s://www.golfdirecto.com/micro/game/6a994dec9430f16c660869b1/summary\nConfi
+ rma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6a994dec9430f16c660869b1/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:092692f65ce95819f7b6@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20270207
+DTEND;VALUE=DATE:20270208
+SUMMARY:Liga 9 Hoyos Cccgolf 8810. Jornada V
+LOCATION:Cabanillas Casa de Campo Golf\, Guadalajara
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 16 de octubre\, cierra el 6 de febrero.\nPrecio: 50 €.\nFicha oficial
+ : https://www.golfdirecto.com/micro/game/6ad2003658859e3c43d07230/summary\
+ nConfirma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6ad2003658859e3c43d07230/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:8053edfaa68714c90886@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20270307
+DTEND;VALUE=DATE:20270308
+SUMMARY:Liga 9 Hoyos Cccgolf 8810. Jornada VI
+LOCATION:Cabanillas Casa de Campo Golf\, Guadalajara
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 16 de octubre\, cierra el 6 de marzo.\nPrecio: 50 €.\nFicha oficial: 
+ https://www.golfdirecto.com/micro/game/6ad2012658859e3c430bd506/summary\nC
+ onfirma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6ad2012658859e3c430bd506/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:ce67ea9de4e5da39c794@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20270411
+DTEND;VALUE=DATE:20270412
+SUMMARY:Liga 9 Hoyos Cccgolf 8810. Jornada VII
+LOCATION:Cabanillas Casa de Campo Golf\, Guadalajara
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 16 de octubre\, cierra el 10 de abril.\nPrecio: 50 €.\nFicha oficial:
+  https://www.golfdirecto.com/micro/game/6ad2015658859e3c4319fda7/summary\n
+ Confirma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6ad2015658859e3c4319fda7/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:ad42f2cf4fae9520b86b@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20270509
+DTEND;VALUE=DATE:20270510
+SUMMARY:Liga 9 Hoyos Cccgolf 8810. Jornada VIII
+LOCATION:Cabanillas Casa de Campo Golf\, Guadalajara
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 16 de octubre\, cierra el 8 de mayo.\nPrecio: 50 €.\nFicha oficial: h
+ ttps://www.golfdirecto.com/micro/game/6ad2016f58859e3c431f6905/summary\nCo
+ nfirma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6ad2016f58859e3c431f6905/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:98e321bbc9073bca899c@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20270620
+DTEND;VALUE=DATE:20270621
+SUMMARY:Liga 9 Hoyos Cccgolf 8810. Jornada IX
+LOCATION:Cabanillas Casa de Campo Golf\, Guadalajara
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 16 de octubre\, cierra el 19 de junio.\nPrecio: 50 €.\nFicha oficial:
+  https://www.golfdirecto.com/micro/game/6ad2018e58859e3c43275b88/summary\n
+ Confirma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6ad2018e58859e3c43275b88/summary
+END:VEVENT
+END:VCALENDAR

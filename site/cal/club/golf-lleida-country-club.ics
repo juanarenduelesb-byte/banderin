@@ -1,0 +1,101 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Banderin//Torneos de golf//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Banderín · Golf Lleida & Country Club
+X-WR-CALDESC:Torneos de golf: Golf Lleida & Country Club. Se actualiza cada
+  mañana. https://banderin.pages.dev
+X-WR-TIMEZONE:Europe/Madrid
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:1c25f28469ad4ff47896@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261112
+DTEND;VALUE=DATE:20261113
+SUMMARY:4ª V Senior League 2627
+LOCATION:Golf Lleida & Country Club\, Raimat\, Lleida
+DESCRIPTION:Senior · Stableford · Individual\nInscripción: abre el 3 de 
+ noviembre\, cierra el 8 de noviembre.\nFicha oficial: https://www.golfdire
+ cto.com/micro/game/6ae9a0f630e44f764bfb65ac/summary\nConfirma fechas y con
+ diciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6ae9a0f630e44f764bfb65ac/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:97dcd89899ccdcb7190d@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261117
+DTEND;VALUE=DATE:20261118
+SUMMARY:Cpt. Hivern Femeni
+LOCATION:Golf Lleida & Country Club\, Raimat\, Lleida
+DESCRIPTION:Social de club · Scramble · Parejas\nFicha oficial: https://w
+ ww.golfdirecto.com/micro/game/6aec38697badba02eaeb1fef/summary\nConfirma f
+ echas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6aec38697badba02eaeb1fef/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:cda5f6b44b25e05fac8f@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:9a Catalunya Family Cup 2026 (9 Forats)
+LOCATION:Golf Lleida & Country Club\, Raimat\, Lleida
+DESCRIPTION:Social de club · Greensome · Parejas\nInscripción: abre el 2
+ 7 de octubre\, cierra el 17 de noviembre.\nPrecio: 25 €.\nFicha oficial:
+  https://www.golfdirecto.com/micro/game/6acf61a77fca7abedc01dd98/summary\n
+ Confirma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6acf61a77fca7abedc01dd98/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:e6e48044cd1e53347289@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
+SUMMARY:Tr. Mama Noel Femení
+LOCATION:Golf Lleida & Country Club\, Raimat\, Lleida
+DESCRIPTION:Social de club · Individual\nFicha oficial: https://www.catgol
+ f.com/es/campeonatos/tr-mama-noel-femeni-2026-12-01\nConfirma fechas y con
+ diciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.catgolf.com/es/campeonatos/tr-mama-noel-femeni-2026-12-01
+END:VEVENT
+BEGIN:VEVENT
+UID:92c4b687a0ce29c6a193@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261213
+SUMMARY:Christmas Party
+LOCATION:Golf Lleida & Country Club\, Raimat\, Lleida
+DESCRIPTION:Social de club · Individual\nFicha oficial: https://www.catgol
+ f.com/es/campeonatos/christmas-party-2026-12-12\nConfirma fechas y condici
+ ones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.catgolf.com/es/campeonatos/christmas-party-2026-12-12
+END:VEVENT
+BEGIN:VEVENT
+UID:92373ce217134cca195d@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20270514
+DTEND;VALUE=DATE:20270517
+SUMMARY:COPA CATALUNYA FEMENINA (Punt. Nac. Sub-18 Fem y Punt. Nac. Cad. Fe
+ m.)
+LOCATION:Golf Lleida & Country Club\, Raimat\, Lleida
+DESCRIPTION:Juvenil · Individual\nFicha oficial: https://www.catgolf.com/e
+ s/campeonatos/copa-catalunya-femenina-punt-nac-sub-18-fem-y-punt-nac-cad-f
+ em-2027-05-14\nConfirma fechas y condiciones en la web del organizador. V
+ ía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.catgolf.com/es/campeonatos/copa-catalunya-femenina-punt-nac
+ -sub-18-fem-y-punt-nac-cad-fem-2027-05-14
+END:VEVENT
+END:VCALENDAR

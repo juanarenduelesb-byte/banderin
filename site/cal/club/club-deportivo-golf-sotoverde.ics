@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Banderin//Torneos de golf//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Banderín · Club Deportivo Golf Sotoverde
+X-WR-CALDESC:Torneos de golf: Club Deportivo Golf Sotoverde. Se actualiza c
+ ada mañana. https://banderin.pages.dev
+X-WR-TIMEZONE:Europe/Madrid
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:4a8bf5b5c62bd6f50e2f@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:4ª Prueba IX Liguilla Benjamín y Alevín de Castilla y León
+LOCATION:Club Deportivo Golf Sotoverde\, Arroyo de la Encomienda\, Valladol
+ id
+DESCRIPTION:Juvenil · Medal Play · Individual\nInscripción: abre el 2 de
+  octubre\, cierra el 26 de noviembre.\nPrecio: 10 €.\nFicha oficial: htt
+ ps://www.nextcaddy.com/tour/74235\nConfirma fechas y condiciones en la web
+  del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nextcaddy.com/tour/74235
+END:VEVENT
+END:VCALENDAR

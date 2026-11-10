@@ -1,0 +1,55 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Banderin//Torneos de golf//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Banderín · Club de Golf Castellterçol
+X-WR-CALDESC:Torneos de golf: Club de Golf Castellterçol. Se actualiza cad
+ a mañana. https://banderin.pages.dev
+X-WR-TIMEZONE:Europe/Madrid
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:6c8ae9e9997a6d882fec@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261116
+SUMMARY:Torneig de la Castanya
+LOCATION:Club de Golf Castellterçol\, Castellterçol\, Barcelona
+DESCRIPTION:Social de club · Individual\nFicha oficial: https://www.catgol
+ f.com/es/campeonatos/torneig-de-la-castanya-2026-11-14\nConfirma fechas y 
+ condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.catgolf.com/es/campeonatos/torneig-de-la-castanya-2026-11-1
+ 4
+END:VEVENT
+BEGIN:VEVENT
+UID:9e9dc0bbcb616f4d0d38@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261130
+SUMMARY:Torneig Brot d'Or
+LOCATION:Club de Golf Castellterçol\, Castellterçol\, Barcelona
+DESCRIPTION:Social de club · Individual\nFicha oficial: https://www.catgol
+ f.com/es/campeonatos/torneig-brot-dor-2026-11-28\nConfirma fechas y condic
+ iones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.catgolf.com/es/campeonatos/torneig-brot-dor-2026-11-28
+END:VEVENT
+BEGIN:VEVENT
+UID:bfff6be0c7023417957a@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261214
+SUMMARY:Torneig del Fred
+LOCATION:Club de Golf Castellterçol\, Castellterçol\, Barcelona
+DESCRIPTION:Social de club · Individual\nFicha oficial: https://www.catgol
+ f.com/es/campeonatos/torneig-del-fred-2026-12-12\nConfirma fechas y condic
+ iones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.catgolf.com/es/campeonatos/torneig-del-fred-2026-12-12
+END:VEVENT
+END:VCALENDAR

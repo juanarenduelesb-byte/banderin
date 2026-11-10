@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Banderin//Torneos de golf//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Banderín · Álava
+X-WR-CALDESC:Torneos de golf: Álava. Se actualiza cada mañana. https://ba
+ nderin.pages.dev
+X-WR-TIMEZONE:Europe/Madrid
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:23337dcbd3bb1d2ef77a@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261219
+DTEND;VALUE=DATE:20261220
+SUMMARY:Final Ranking FVG
+LOCATION:Club de Golf Larrabea\, Legutiano\, Álava
+DESCRIPTION:Absoluto · Individual\nFicha oficial: https://www.fvgolf.com/e
+ s/competiciones/calendario/\nConfirma fechas y condiciones en la web del o
+ rganizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.fvgolf.com/es/competiciones/calendario/
+END:VEVENT
+END:VCALENDAR

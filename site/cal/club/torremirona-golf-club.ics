@@ -1,0 +1,198 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Banderin//Torneos de golf//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Banderín · Torremirona Golf Club
+X-WR-CALDESC:Torneos de golf: Torremirona Golf Club. Se actualiza cada mañ
+ ana. https://banderin.pages.dev
+X-WR-TIMEZONE:Europe/Madrid
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:01b2b75f3e6ae685e7f7@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:2N Torneig Otriskel
+LOCATION:Torremirona Golf Club\, Navata\, Girona
+DESCRIPTION:Social de club · Individual\nFicha oficial: https://www.catgol
+ f.com/es/campeonatos/2n-torneig-otriskel-2026-11-14\nConfirma fechas y con
+ diciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.catgolf.com/es/campeonatos/2n-torneig-otriskel-2026-11-14
+END:VEVENT
+BEGIN:VEVENT
+UID:8e26953b9bbe41bce416@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+SUMMARY:Torneig Torremirona Real Estate
+LOCATION:Torremirona Golf Club\, Navata\, Girona
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 18 de agosto\, cierra el 18 de noviembre.\nPrecio: 60 €.\nFicha ofici
+ al: https://www.golfdirecto.com/micro/game/6a8456960d6379a1ffae40e1/summar
+ y\nConfirma fechas y condiciones en la web del organizador. Vía Banderín
+ .
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6a8456960d6379a1ffae40e1/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:a84e95ff1e02ff39da69@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:MAJOR Prueba Circuito Camino a Huelva
+LOCATION:Torremirona Golf Club\, Navata\, Girona
+DESCRIPTION:Circuito comercial · Stableford · Individual\nInscripción: a
+ bre el 10 de abril\, cierra el 20 de noviembre.\nPrecio: 70 €.\nFicha of
+ icial: https://www.golfdirecto.com/micro/game/69d8c8d933ad0e81be6119ea/sum
+ mary\nConfirma fechas y condiciones en la web del organizador. Vía Bander
+ ín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/69d8c8d933ad0e81be6119ea/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:a21edd91de4a07789bd3@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+SUMMARY:Torneig Torremirona Real Estate
+LOCATION:Torremirona Golf Club\, Navata\, Girona
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 18 de agosto\, cierra el 25 de noviembre.\nPrecio: 60 €.\nFicha ofici
+ al: https://www.golfdirecto.com/micro/game/6a8456b70d6379a1ffbae656/summar
+ y\nConfirma fechas y condiciones en la web del organizador. Vía Banderín
+ .
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6a8456b70d6379a1ffbae656/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:0f99af8d33d010504199@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:2N Torneig Black Friday
+LOCATION:Torremirona Golf Club\, Navata\, Girona
+DESCRIPTION:Social de club · Individual\nFicha oficial: https://www.catgol
+ f.com/es/campeonatos/2n-torneig-black-friday-2026-11-28\nConfirma fechas y
+  condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.catgolf.com/es/campeonatos/2n-torneig-black-friday-2026-11-
+ 28
+END:VEVENT
+BEGIN:VEVENT
+UID:f0b800af472a763745c7@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261203
+DTEND;VALUE=DATE:20261204
+SUMMARY:Torneig Torremirona Real Estate
+LOCATION:Torremirona Golf Club\, Navata\, Girona
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 18 de agosto\, cierra el 2 de diciembre.\nPrecio: 60 €.\nFicha oficia
+ l: https://www.golfdirecto.com/micro/game/6a8457100d6379a1ffd1d120/summary
+ \nConfirma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6a8457100d6379a1ffd1d120/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:5587c5686b9ec8c948e0@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261210
+DTEND;VALUE=DATE:20261211
+SUMMARY:Torneig Torremirona Real Estate
+LOCATION:Torremirona Golf Club\, Navata\, Girona
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 18 de agosto\, cierra el 9 de diciembre.\nPrecio: 60 €.\nFicha oficia
+ l: https://www.golfdirecto.com/micro/game/6a8457f80d6379a1ff3c3195/summary
+ \nConfirma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6a8457f80d6379a1ff3c3195/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:2989cd4cdd1886f11d51@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261217
+DTEND;VALUE=DATE:20261218
+SUMMARY:Torneig Torremirona Real Estate
+LOCATION:Torremirona Golf Club\, Navata\, Girona
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 18 de agosto\, cierra el 16 de diciembre.\nPrecio: 60 €.\nFicha ofici
+ al: https://www.golfdirecto.com/micro/game/6a8458090d6379a1ff3fcf36/summar
+ y\nConfirma fechas y condiciones en la web del organizador. Vía Banderín
+ .
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6a8458090d6379a1ff3fcf36/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:200505fa799607529630@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261219
+DTEND;VALUE=DATE:20261220
+SUMMARY:Torneig Social Nadalenc
+LOCATION:Torremirona Golf Club\, Navata\, Girona
+DESCRIPTION:Social de club · Scramble · Parejas\nInscripción: abre el 28
+  de junio\, cierra el 18 de diciembre.\nPrecio: 200 €.\nFicha oficial: h
+ ttps://www.golfdirecto.com/micro/game/6a40e1f2a44d938a9300f4ad/summary\nCo
+ nfirma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6a40e1f2a44d938a9300f4ad/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:8269b240f892e9320594@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261224
+DTEND;VALUE=DATE:20261225
+SUMMARY:Torneig Torremirona Real Estate
+LOCATION:Torremirona Golf Club\, Navata\, Girona
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 18 de agosto\, cierra el 23 de diciembre.\nPrecio: 60 €.\nFicha ofici
+ al: https://www.golfdirecto.com/micro/game/6a8458240d6379a1ff4d2ee1/summar
+ y\nConfirma fechas y condiciones en la web del organizador. Vía Banderín
+ .
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6a8458240d6379a1ff4d2ee1/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:851c36a4f74270837e75@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261226
+DTEND;VALUE=DATE:20261227
+SUMMARY:Torneig de Cap D'Any
+LOCATION:Torremirona Golf Club\, Navata\, Girona
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 18 de agosto\, cierra el 24 de diciembre.\nPrecio: 75 €.\nFicha ofici
+ al: https://www.golfdirecto.com/micro/game/6a8458be4ec26de90b887833/summar
+ y\nConfirma fechas y condiciones en la web del organizador. Vía Banderín
+ .
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6a8458be4ec26de90b887833/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:c309b76131959ec48157@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261231
+DTEND;VALUE=DATE:20270101
+SUMMARY:Torneig Torremirona Real Estate
+LOCATION:Torremirona Golf Club\, Navata\, Girona
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 18 de agosto\, cierra el 30 de diciembre.\nPrecio: 60 €.\nFicha ofici
+ al: https://www.golfdirecto.com/micro/game/6a8458490d6379a1ff5d8a32/summar
+ y\nConfirma fechas y condiciones en la web del organizador. Vía Banderín
+ .
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6a8458490d6379a1ff5d8a32/summary
+END:VEVENT
+END:VCALENDAR

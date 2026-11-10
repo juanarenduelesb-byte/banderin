@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Banderin//Torneos de golf//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Banderín · Segovia
+X-WR-CALDESC:Torneos de golf: Segovia. Se actualiza cada mañana. https://b
+ anderin.pages.dev
+X-WR-TIMEZONE:Europe/Madrid
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:1c72abebba8c2b5f7925@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:Campeonato Juvenil de la Faisanera (Liguilla Sub21)
+LOCATION:C D la Faisanera Golf Segovia\, Palazuelos de Eresma\, Segovia
+DESCRIPTION:Juvenil · Medal Play · Individual\nInscripción: abre el 21 d
+ e septiembre\, cierra el 19 de noviembre.\nPrecio: 15 €.\nFicha oficial:
+  https://www.nextcaddy.com/tour/73672\nConfirma fechas y condiciones en la
+  web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nextcaddy.com/tour/73672
+END:VEVENT
+END:VCALENDAR

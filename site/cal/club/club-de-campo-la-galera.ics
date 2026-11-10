@@ -1,0 +1,100 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Banderin//Torneos de golf//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Banderín · Club de Campo la Galera
+X-WR-CALDESC:Torneos de golf: Club de Campo la Galera. Se actualiza cada ma
+ ñana. https://banderin.pages.dev
+X-WR-TIMEZONE:Europe/Madrid
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:6afa74df8650c0fb7324@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:I Liga de 9 hoyos. I Prueba
+LOCATION:Club de Campo la Galera\, Valladolid\, Valladolid
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 9 de noviembre\, cierra el 13 de noviembre.\nFicha oficial: https://www
+ .golfdirecto.com/micro/game/6ac14fec2d64803a05391fec/summary\nConfirma fec
+ has y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6ac14fec2d64803a05391fec/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:820047a26b9d098fc1fb@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:Infantil Noviembre Cclg
+LOCATION:Club de Campo la Galera\, Valladolid\, Valladolid
+DESCRIPTION:Juvenil · Stableford · Individual\nInscripción: abre el 2 de
+  noviembre\, cierra el 14 de noviembre.\nPrecio: 10 €.\nFicha oficial: h
+ ttps://www.golfdirecto.com/micro/game/6af366c32852ee1ced35487e/summary\nCo
+ nfirma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6af366c32852ee1ced35487e/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:c08fbcf69dd88882b00a@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:II Ryder Club de Campo la Galera
+LOCATION:Club de Campo la Galera\, Valladolid\, Valladolid
+DESCRIPTION:Social de club · Fourball · Parejas\nFicha oficial: https://w
+ ww.golfdirecto.com/micro/game/695f8df626f3d60223835d84/summary\nConfirma f
+ echas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/695f8df626f3d60223835d84/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:003a613b52ec68e86d1e@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+SUMMARY:Infantil Diciembre Cclg
+LOCATION:Club de Campo la Galera\, Valladolid\, Valladolid
+DESCRIPTION:Juvenil · Stableford · Individual\nInscripción: abre el 30 d
+ e noviembre\, cierra el 11 de diciembre.\nPrecio: 10 €.\nFicha oficial: 
+ https://www.golfdirecto.com/micro/game/695f8fc226f3d60223abb422/summary\nC
+ onfirma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/695f8fc226f3d60223abb422/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:08506df9db3f693ec471@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+SUMMARY:Torneo Empleados 2026
+LOCATION:Club de Campo la Galera\, Valladolid\, Valladolid
+DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
+ s://www.golfdirecto.com/micro/game/695f902526f3d60223b1adad/summary\nConfi
+ rma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/695f902526f3d60223b1adad/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:795991844a7175049d94@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261219
+DTEND;VALUE=DATE:20261220
+SUMMARY:Torneo Aniversario 2026
+LOCATION:Club de Campo la Galera\, Valladolid\, Valladolid
+DESCRIPTION:Social de club · Scramble · Parejas\nInscripción: abre el 7 
+ de diciembre\, cierra el 16 de diciembre.\nFicha oficial: https://www.golf
+ directo.com/micro/game/695f90a726f3d60223bca43f/summary\nConfirma fechas y
+  condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/695f90a726f3d60223bca43f/summary
+END:VEVENT
+END:VCALENDAR

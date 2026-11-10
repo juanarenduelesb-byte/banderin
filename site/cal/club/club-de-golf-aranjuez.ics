@@ -1,0 +1,147 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Banderin//Torneos de golf//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Banderín · Club de Golf Aranjuez
+X-WR-CALDESC:Torneos de golf: Club de Golf Aranjuez. Se actualiza cada mañ
+ ana. https://banderin.pages.dev
+X-WR-TIMEZONE:Europe/Madrid
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:669c13dbd9c9c00f86cc@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20261112
+SUMMARY:V Torneo Parejas Senior 2026/27
+LOCATION:Club de Golf Aranjuez\, Aranjuez\, Madrid
+DESCRIPTION:Senior · Fourball · Parejas\nInscripción: abre el 3 de novie
+ mbre\, cierra el 9 de noviembre.\nFicha oficial: https://www.golfdirecto.c
+ om/micro/game/6ae9a2e640e3bef011ec4c3f/summary\nConfirma fechas y condicio
+ nes en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6ae9a2e640e3bef011ec4c3f/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:aa15a7fd2465ff7e4b24@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:Torneo Social Parejas Greensome Chapman
+LOCATION:Club de Golf Aranjuez\, Aranjuez\, Madrid
+DESCRIPTION:Social de club · Greensome · Parejas\nInscripción: abre el 7
+  de noviembre\, cierra el 13 de noviembre.\nFicha oficial: https://www.gol
+ fdirecto.com/micro/game/6aeb1d603539d98a46891a2f/summary\nConfirma fechas 
+ y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6aeb1d603539d98a46891a2f/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:2be87a97c9b981c1bb2c@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261118
+DTEND;VALUE=DATE:20261119
+SUMMARY:VI Torneo Liga Senior 2026/27
+LOCATION:Club de Golf Aranjuez\, Aranjuez\, Madrid
+DESCRIPTION:Senior · Stableford · Individual\nInscripción: abre el 10 de
+  noviembre\, cierra el 16 de noviembre.\nFicha oficial: https://www.golfdi
+ recto.com/micro/game/6aeb113f3539d98a4625eeee/summary\nConfirma fechas y c
+ ondiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6aeb113f3539d98a4625eeee/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:59dc54dc418a9dd2e9fb@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:Torneo Social Individual
+LOCATION:Club de Golf Aranjuez\, Aranjuez\, Madrid
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 14 de noviembre\, cierra el 20 de noviembre.\nFicha oficial: https://ww
+ w.golfdirecto.com/micro/game/6aeb1ed63539d98a46cf67f5/summary\nConfirma fe
+ chas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6aeb1ed63539d98a46cf67f5/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:d6cedc0878d3c3b07b7d@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261125
+DTEND;VALUE=DATE:20261126
+SUMMARY:VI Torneo Parejas Senior 2026/27
+LOCATION:Club de Golf Aranjuez\, Aranjuez\, Madrid
+DESCRIPTION:Senior · Scramble · Parejas\nInscripción: abre el 17 de novi
+ embre\, cierra el 23 de noviembre.\nFicha oficial: https://www.golfdirecto
+ .com/micro/game/6aeb1f59e86c4f3aae8bbab9/summary\nConfirma fechas y condic
+ iones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6aeb1f59e86c4f3aae8bbab9/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:9a3f750f66d9ca9707d7@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:Torneo Social Individual
+LOCATION:Club de Golf Aranjuez\, Aranjuez\, Madrid
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 21 de noviembre\, cierra el 28 de noviembre.\nFicha oficial: https://ww
+ w.golfdirecto.com/micro/game/6aeb1f01e86c4f3aae7927fd/summary\nConfirma fe
+ chas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6aeb1f01e86c4f3aae7927fd/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:b9785781357f9d65c12d@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+SUMMARY:Torneo Gt Tour
+LOCATION:Club de Golf Aranjuez\, Aranjuez\, Madrid
+DESCRIPTION:Circuito comercial · Stableford · Individual\nInscripción: a
+ bre el 4 de diciembre\, cierra el 11 de diciembre.\nFicha oficial: https:/
+ /www.golfdirecto.com/micro/game/6aeb2473e86c4f3aaeae3df2/summary\nConfirma
+  fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6aeb2473e86c4f3aaeae3df2/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:a968d7fbc628b9ab2011@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261220
+DTEND;VALUE=DATE:20261221
+SUMMARY:Torneo Social Parejas Navidad Scramble
+LOCATION:Club de Golf Aranjuez\, Aranjuez\, Madrid
+DESCRIPTION:Social de club · Scramble · Parejas\nInscripción: abre el 11
+  de diciembre\, cierra el 19 de diciembre.\nFicha oficial: https://www.gol
+ fdirecto.com/micro/game/6aedb1f702e839445a68f3a6/summary\nConfirma fechas 
+ y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6aedb1f702e839445a68f3a6/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:df39394b3726a7088858@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261223
+DTEND;VALUE=DATE:20261224
+SUMMARY:VIII Torneo Parejas Senior 2026/27 NAVIDAD
+LOCATION:Club de Golf Aranjuez\, Aranjuez\, Madrid
+DESCRIPTION:Senior · Scramble · Parejas\nInscripción: abre el 15 de dici
+ embre\, cierra el 22 de diciembre.\nFicha oficial: https://www.golfdirecto
+ .com/micro/game/6aeb2394e86c4f3aae838a37/summary\nConfirma fechas y condic
+ iones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6aeb2394e86c4f3aae838a37/summary
+END:VEVENT
+END:VCALENDAR

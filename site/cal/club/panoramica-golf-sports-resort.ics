@@ -1,0 +1,71 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Banderin//Torneos de golf//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Banderín · Panoramica Golf\, Sports & Resort
+X-WR-CALDESC:Torneos de golf: Panoramica Golf\, Sports & Resort. Se actuali
+ za cada mañana. https://banderin.pages.dev
+X-WR-TIMEZONE:Europe/Madrid
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:05ab34483eaa1e30f8f8@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:Final Legacy
+LOCATION:Panoramica Golf\, Sports & Resort\, San Jorge\, Castellón
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 30 de octubre\, cierra el 13 de noviembre.\nPrecio: 80 €.\nFicha ofic
+ ial: https://www.golfdirecto.com/micro/game/6aa9782dd2cbd360ca7fa8e6/summa
+ ry\nConfirma fechas y condiciones en la web del organizador. Vía Banderí
+ n.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6aa9782dd2cbd360ca7fa8e6/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:007cf1741a6fe3962d46@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:Orden Mérito Parejas
+LOCATION:Panoramica Golf\, Sports & Resort\, San Jorge\, Castellón
+DESCRIPTION:Social de club · Fourball · Parejas\nInscripción: abre el 15
+  de septiembre\, cierra el 20 de noviembre.\nPrecio: 50 €.\nFicha oficia
+ l: https://www.golfdirecto.com/micro/game/6aa974a8d2cbd360cacb1cbf/summary
+ \nConfirma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6aa974a8d2cbd360cacb1cbf/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:1e3c3ff8931186db0608@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261206
+SUMMARY:Torneo Om Individual
+LOCATION:Panoramica Golf\, Sports & Resort\, San Jorge\, Castellón
+DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
+ s://www.golfdirecto.com/micro/game/6aa978c8d2cbd360ca912b01/summary\nConfi
+ rma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6aa978c8d2cbd360ca912b01/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:e1c069da42d01d61f7d7@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261219
+DTEND;VALUE=DATE:20261220
+SUMMARY:Torneo Om Parejas
+LOCATION:Panoramica Golf\, Sports & Resort\, San Jorge\, Castellón
+DESCRIPTION:Social de club · Fourball · Parejas\nFicha oficial: https://w
+ ww.golfdirecto.com/micro/game/6aa97914d2cbd360caa9d6a0/summary\nConfirma f
+ echas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6aa97914d2cbd360caa9d6a0/summary
+END:VEVENT
+END:VCALENDAR

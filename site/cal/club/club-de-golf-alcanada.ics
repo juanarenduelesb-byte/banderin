@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Banderin//Torneos de golf//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Banderín · Club de Golf Alcanada
+X-WR-CALDESC:Torneos de golf: Club de Golf Alcanada. Se actualiza cada mañ
+ ana. https://banderin.pages.dev
+X-WR-TIMEZONE:Europe/Madrid
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:c2aa9f0743bc1282cd0b@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+SUMMARY:Gem Winter Slam
+LOCATION:Club de Golf Alcanada\, Alcudia\, Illes Balears
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 21 de octubre\, cierra el 25 de noviembre.\nPrecio: 85 €.\nFicha ofic
+ ial: https://www.golfdirecto.com/micro/game/6ad8ba74ad3db58f4cf1da7d/summa
+ ry\nConfirma fechas y condiciones en la web del organizador. Vía Banderí
+ n.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6ad8ba74ad3db58f4cf1da7d/summary
+END:VEVENT
+END:VCALENDAR

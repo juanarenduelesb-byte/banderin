@@ -35,3 +35,13 @@ enlaces por comunidad del pie y la descripción de la portada.
 
 Si cambias `site/index.html` a mano, ejecuta `python3 pipeline/seo.py` antes
 de subir el cambio para que `/en/` quede igual.
+
+## Perfil y calendarios (fase 1)
+
+- El perfil de golfista y lo que sigue cada usuario se guardan solo en su
+  navegador (`banderin.perfil`, `banderin.sigo`), con el mismo formato que
+  tendrán las cuentas.
+- `pipeline/cond.py` lee las condiciones de inscripción que publican las fuentes
+  (hándicap máximo, edad, solo socios, solo federados). Ante la duda no extrae nada.
+- `pipeline/calendarios.py` genera cada día `site/cal/{prov,ccaa,club}/*.ics`
+  para suscribirse desde Apple, Google u Outlook.

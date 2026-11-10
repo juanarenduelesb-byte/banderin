@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Banderin//Torneos de golf//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Banderín · T Golf Palma Puntiro
+X-WR-CALDESC:Torneos de golf: T Golf Palma Puntiro. Se actualiza cada maña
+ na. https://banderin.pages.dev
+X-WR-TIMEZONE:Europe/Madrid
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:f30581105220522ad6ba@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:V Prueba Circuito Femenino - Juaneda (Final)
+LOCATION:T Golf Palma Puntiro\, Palma de Mallorca\, Illes Balears
+DESCRIPTION:Circuito comercial · Stableford · Individual\nInscripción: a
+ bre el 26 de octubre\, cierra el 18 de noviembre.\nPrecio: 65 €.\nFicha 
+ oficial: https://www.golfdirecto.com/micro/game/69945f6399611b1cda513f5f/s
+ ummary\nConfirma fechas y condiciones en la web del organizador. Vía Band
+ erín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/69945f6399611b1cda513f5f/summary
+END:VEVENT
+END:VCALENDAR

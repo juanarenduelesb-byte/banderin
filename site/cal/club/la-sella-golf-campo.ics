@@ -1,0 +1,44 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Banderin//Torneos de golf//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Banderín · La Sella Golf (Campo)
+X-WR-CALDESC:Torneos de golf: La Sella Golf (Campo). Se actualiza cada mañ
+ ana. https://banderin.pages.dev
+X-WR-TIMEZONE:Europe/Madrid
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:e79764b654ae7896a3b1@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:VI Torneo "Ka International"
+LOCATION:La Sella Golf (Campo)\, Jesus Pobre\, Alicante
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 3 de noviembre\, cierra el 11 de noviembre.\nPrecio: 55 €.\nFicha ofi
+ cial: https://www.golfdirecto.com/micro/game/6ae9c62230e44f764bcbe926/summ
+ ary\nConfirma fechas y condiciones en la web del organizador. Vía Bander
+ ín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6ae9c62230e44f764bcbe926/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:55c72d76ef70c8f1e07b@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:SAS La Sella
+LOCATION:La Sella Golf (Campo)\, Jesus Pobre\, Alicante
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 5 de noviembre\, cierra el 18 de noviembre.\nPrecio: 65 €.\nFicha ofi
+ cial: https://www.golfdirecto.com/micro/game/6aef06e3e0349cc290bd6730/summ
+ ary\nConfirma fechas y condiciones en la web del organizador. Vía Bander
+ ín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6aef06e3e0349cc290bd6730/summary
+END:VEVENT
+END:VCALENDAR

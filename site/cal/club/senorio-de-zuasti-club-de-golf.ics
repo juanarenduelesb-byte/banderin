@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Banderin//Torneos de golf//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Banderín · Señorío de Zuasti Club de Golf
+X-WR-CALDESC:Torneos de golf: Señorío de Zuasti Club de Golf. Se actualiz
+ a cada mañana. https://banderin.pages.dev
+X-WR-TIMEZONE:Europe/Madrid
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:3ddae5bbf0b4a6b70c23@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261116
+SUMMARY:Campeonato Navarro Interclubes 2026
+LOCATION:Señorío de Zuasti Club de Golf\, Zuasti (iza)\, Navarra
+DESCRIPTION:Clubes y equipos · Equipos\nFicha oficial: https://fnavarragol
+ f.com/calendar/campeonato-navarro-interclubes-2026-2/\nConfirma fechas y c
+ ondiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://fnavarragolf.com/calendar/campeonato-navarro-interclubes-2026-2
+ /
+END:VEVENT
+END:VCALENDAR

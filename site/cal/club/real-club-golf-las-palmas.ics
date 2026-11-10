@@ -1,0 +1,43 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Banderin//Torneos de golf//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Banderín · Real Club Golf las Palmas
+X-WR-CALDESC:Torneos de golf: Real Club Golf las Palmas. Se actualiza cada 
+ mañana. https://banderin.pages.dev
+X-WR-TIMEZONE:Europe/Madrid
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:f4a6af696cd7231e2bf7@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:XVII Torneo Astican - XI Mrial. Enrique Perez
+LOCATION:Real Club Golf las Palmas\, Santa Brigida (capital Municipal)\, La
+ s Palmas
+DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
+ s://www.golfdirecto.com/micro/game/6aeb037d50fe8a6f263b24a3/summary\nConfi
+ rma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6aeb037d50fe8a6f263b24a3/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:ab614d05c6dafcdf10ed@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20270204
+DTEND;VALUE=DATE:20270205
+SUMMARY:⚠️ Pruebas para la Web
+LOCATION:Real Club Golf las Palmas\, Santa Brigida (capital Municipal)\, La
+ s Palmas
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 28 de mayo\, cierra el 3 de febrero.\nFicha oficial: https://www.golfdi
+ recto.com/micro/game/6a17900e9b0ee26a1385620a/summary\nConfirma fechas y c
+ ondiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6a17900e9b0ee26a1385620a/summary
+END:VEVENT
+END:VCALENDAR

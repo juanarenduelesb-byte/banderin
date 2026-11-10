@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Banderin//Torneos de golf//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Banderín · Club de Golf Montbrú-Moià
+X-WR-CALDESC:Torneos de golf: Club de Golf Montbrú-Moià. Se actualiza cad
+ a mañana. https://banderin.pages.dev
+X-WR-TIMEZONE:Europe/Madrid
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:b8959557af466f945559@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:Xxvi Torneig Gastronomic
+LOCATION:Club de Golf Montbrú-Moià\, Moia\, Barcelona
+DESCRIPTION:Social de club · Individual\nFicha oficial: https://www.catgol
+ f.com/es/campeonatos/xxvi-torneig-gastronomic-2026-11-21\nConfirma fechas 
+ y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.catgolf.com/es/campeonatos/xxvi-torneig-gastronomic-2026-11
+ -21
+END:VEVENT
+END:VCALENDAR

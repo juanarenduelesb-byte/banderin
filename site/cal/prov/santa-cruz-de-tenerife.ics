@@ -1,0 +1,41 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Banderin//Torneos de golf//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Banderín · Santa Cruz de Tenerife
+X-WR-CALDESC:Torneos de golf: Santa Cruz de Tenerife. Se actualiza cada ma
+ ñana. https://banderin.pages.dev
+X-WR-TIMEZONE:Europe/Madrid
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:09be78d2db0feeaa622c@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:7ª Prueba (Nueva Fecha) Circuito Familiar Canarias
+LOCATION:Real Club de Golf Tenerife\, Tacoronte\, Santa Cruz de Tenerife
+DESCRIPTION:Circuito comercial · Greensome · Parejas\nFicha oficial: http
+ s://www.golfdirecto.com/micro/game/6af0986d5282bdc0c8fc9df9/summary\nConfi
+ rma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6af0986d5282bdc0c8fc9df9/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:04e82d37f1b4aa7bdf91@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261226
+DTEND;VALUE=DATE:20261227
+SUMMARY:Torneo de Navidad
+LOCATION:Buenavista Golf\, Buenavista del Norte\, Santa Cruz de Tenerife
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 7 de noviembre\, cierra el 25 de diciembre.\nFicha oficial: https://www
+ .golfdirecto.com/micro/game/6aef3cf1e0349cc290cb21e5/summary\nConfirma fec
+ has y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6aef3cf1e0349cc290cb21e5/summary
+END:VEVENT
+END:VCALENDAR

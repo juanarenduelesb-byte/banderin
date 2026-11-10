@@ -1,0 +1,57 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Banderin//Torneos de golf//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Banderín · Gipuzkoa
+X-WR-CALDESC:Torneos de golf: Gipuzkoa. Se actualiza cada mañana. https://
+ banderin.pages.dev
+X-WR-TIMEZONE:Europe/Madrid
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:aa7b85a2a9c8c73fcecf@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:Premio Infantil Escuela 9 Hoyos
+LOCATION:Real Nuevo Club S.sebastian Basozabal\, Donostia-san Sebastian\, G
+ ipuzkoa
+DESCRIPTION:Juvenil · Medal Play · Individual\nFicha oficial: https://www
+ .golfdirecto.com/micro/game/6ae1ba37edb548bf360e8ab9/summary\nConfirma fec
+ has y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6ae1ba37edb548bf360e8ab9/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:b341ba3a890b58897297@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:Torneo Social Basozabal
+LOCATION:Real Nuevo Club S.sebastian Basozabal\, Donostia-san Sebastian\, G
+ ipuzkoa
+DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
+ s://www.golfdirecto.com/micro/game/6aec4e3a313a6a0df1fc9c23/summary\nConfi
+ rma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6aec4e3a313a6a0df1fc9c23/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:f6423a8aa02edc7aa1c8@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:Premio Infantil Escuela 9 Hoyos
+LOCATION:Real Nuevo Club S.sebastian Basozabal\, Donostia-san Sebastian\, G
+ ipuzkoa
+DESCRIPTION:Juvenil · Medal Play · Individual\nFicha oficial: https://www
+ .golfdirecto.com/micro/game/6ae1baf7edb548bf3645763d/summary\nConfirma fec
+ has y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6ae1baf7edb548bf3645763d/summary
+END:VEVENT
+END:VCALENDAR

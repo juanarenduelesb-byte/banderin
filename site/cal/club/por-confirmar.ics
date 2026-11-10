@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Banderin//Torneos de golf//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Banderín · Por confirmar
+X-WR-CALDESC:Torneos de golf: Por confirmar. Se actualiza cada mañana. htt
+ ps://banderin.pages.dev
+X-WR-TIMEZONE:Europe/Madrid
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:4da03c5e2f955aa824e7@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261211
+DTEND;VALUE=DATE:20261214
+SUMMARY:Cuadrangular Senior
+LOCATION:Murcia
+DESCRIPTION:Senior · Equipos\nFicha oficial: https://fgolfmurcia.com/event
+ o/cuadrangular-senior-fgcv-fgrm-fgclm-rfga/\nConfirma fechas y condiciones
+  en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://fgolfmurcia.com/evento/cuadrangular-senior-fgcv-fgrm-fgclm-rfga
+ /
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Banderin//Torneos de golf//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Banderín · Alhaurín Golf Hotel & Resort
+X-WR-CALDESC:Torneos de golf: Alhaurín Golf Hotel & Resort. Se actualiza c
+ ada mañana. https://banderin.pages.dev
+X-WR-TIMEZONE:Europe/Madrid
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:7be7bd8be2412f068ea2@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:Competición Final de Temporada P&P 2026
+LOCATION:Alhaurín Golf Hotel & Resort\, Alhaurin el Grande\, Málaga
+DESCRIPTION:Absoluto · Medal Play · Individual\nInscripción: abre el 30 
+ de octubre\, cierra el 17 de noviembre.\nFicha oficial: https://www.nextca
+ ddy.com/tour/61248\nConfirma fechas y condiciones en la web del organizado
+ r. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nextcaddy.com/tour/61248
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,395 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Banderin//Torneos de golf//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Banderín · Castilla y León
+X-WR-CALDESC:Torneos de golf: Castilla y León. Se actualiza cada mañana. 
+ https://banderin.pages.dev
+X-WR-TIMEZONE:Europe/Madrid
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:6a7e43e72a55e88bb7dd@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261112
+DTEND;VALUE=DATE:20261113
+SUMMARY:Liga 15 & 4 - jornada 12 -stableford 4 tarjetas
+LOCATION:Air Golf Club
+DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
+ s://www.golfdirecto.com/micro/game/6aeb5f5750fe8a6f2646a3c8/summary\nConfi
+ rma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6aeb5f5750fe8a6f2646a3c8/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:d9a662f876b1b1039928@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261112
+DTEND;VALUE=DATE:20261113
+SUMMARY:Ranking 9 Hoyos
+LOCATION:Club de Golf Zamora Valderrey\, Zamora\, Zamora
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 9 de noviembre\, cierra el 11 de noviembre.\nPrecio: 4\,4 €.\nFicha o
+ ficial: https://www.golfdirecto.com/micro/game/6af1f3443f87d1a99fec6030/su
+ mmary\nConfirma fechas y condiciones en la web del organizador. Vía Bande
+ rín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6af1f3443f87d1a99fec6030/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:01584591d709f26e8058@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:Desafio de Otoño
+LOCATION:Escuela de Golf de Castilla y Leon\, Valladolid\, Valladolid
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 25 de octubre\, cierra el 12 de noviembre.\nPrecio: 25 €.\nFicha ofic
+ ial: https://www.golfdirecto.com/micro/game/6addcf94033df0c5d8f08058/summa
+ ry\nConfirma fechas y condiciones en la web del organizador. Vía Banderí
+ n.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6addcf94033df0c5d8f08058/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:2382f33ecd9b7e044810@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:Final Four 15&4 - 1ª Jornada
+LOCATION:Salamanca Forum Golf\, Villamayor\, Salamanca
+DESCRIPTION:Social de club · Match Play · Individual\nFicha oficial: http
+ s://www.golfdirecto.com/micro/game/6af39a9a6aacb155d815c193/summary\nConfi
+ rma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6af39a9a6aacb155d815c193/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:6bc99039ceaf4a7dcda8@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:Peña Eagles
+LOCATION:Aldeamayor Club de Golf\, Aldeamayor de San Martin\, Valladolid
+DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
+ s://www.golfdirecto.com/micro/game/6aeee2e66e03a54f52b40d63/summary\nConfi
+ rma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6aeee2e66e03a54f52b40d63/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:0c04cda20854d1a314f5@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:Torneo Social de Noviembre
+LOCATION:Club de Golf Villarias\, Villarias\, Burgos
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 1 de noviembre\, cierra el 13 de noviembre.\nFicha oficial: https://www
+ .golfdirecto.com/micro/game/6ae7287710ba0ad4755d9088/summary\nConfirma fec
+ has y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6ae7287710ba0ad4755d9088/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:8007d5629ff2314b6eb4@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:V Torneo Copa Presidente
+LOCATION:La Valmuza Golf\, Doñinos de Salamanca\, Salamanca
+DESCRIPTION:Social de club · Medal Play · Individual\nInscripción: abre 
+ el 7 de noviembre\, cierra el 13 de noviembre.\nFicha oficial: https://www
+ .golfdirecto.com/micro/game/6aede6b51ab4f21da63295c2/summary\nConfirma fec
+ has y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6aede6b51ab4f21da63295c2/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:6afa74df8650c0fb7324@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:I Liga de 9 hoyos. I Prueba
+LOCATION:Club de Campo la Galera\, Valladolid\, Valladolid
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 9 de noviembre\, cierra el 13 de noviembre.\nFicha oficial: https://www
+ .golfdirecto.com/micro/game/6ac14fec2d64803a05391fec/summary\nConfirma fec
+ has y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6ac14fec2d64803a05391fec/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:820047a26b9d098fc1fb@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:Infantil Noviembre Cclg
+LOCATION:Club de Campo la Galera\, Valladolid\, Valladolid
+DESCRIPTION:Juvenil · Stableford · Individual\nInscripción: abre el 2 de
+  noviembre\, cierra el 14 de noviembre.\nPrecio: 10 €.\nFicha oficial: h
+ ttps://www.golfdirecto.com/micro/game/6af366c32852ee1ced35487e/summary\nCo
+ nfirma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6af366c32852ee1ced35487e/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:8ec4175e3bd494f5141e@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:Lcsc Cuartos de Final
+LOCATION:Air Golf Club
+DESCRIPTION:Social de club · Match Play · Individual\nInscripción: abre 
+ el 9 de noviembre\, cierra el 14 de noviembre.\nPrecio: 35 €.\nFicha ofi
+ cial: https://www.golfdirecto.com/micro/game/697b07219bb6a2abedcffd31/summ
+ ary\nConfirma fechas y condiciones en la web del organizador. Vía Bander
+ ín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/697b07219bb6a2abedcffd31/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:fd8fc9ddf578d28fdcfa@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:Match Garbanzo Vs Calimeros/Putt_osos
+LOCATION:Aldeamayor Club de Golf\, Aldeamayor de San Martin\, Valladolid
+DESCRIPTION:Clubes y equipos · Stableford · Equipos\nFicha oficial: https
+ ://www.golfdirecto.com/micro/game/6af2d36434e22159747d32f7/summary\nConfir
+ ma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6af2d36434e22159747d32f7/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:bc053b6f5917140eb769@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:1ª jornada fase final TEAM CUP 2026 parejas
+LOCATION:Aldeamayor Club de Golf\, Aldeamayor de San Martin\, Valladolid
+DESCRIPTION:Social de club · Greensome · Parejas\nFicha oficial: https://
+ www.golfdirecto.com/micro/game/6ab3ab7e67086a8c6d5c1a0a/summary\nConfirma 
+ fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6ab3ab7e67086a8c6d5c1a0a/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:5652a384a8fdf1d29aa1@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:XIV Torneo Solidario de Golf
+LOCATION:Club de Golf Entrepinos\, Simancas\, Valladolid
+DESCRIPTION:Benéfico · Greensome · Parejas\nInscripción: abre el 10 de 
+ noviembre\, cierra el 19 de noviembre.\nFicha oficial: https://www.golfdir
+ ecto.com/micro/game/6af2d15534e221597439becd/summary\nConfirma fechas y co
+ ndiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6af2d15534e221597439becd/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:58bab70a4518e51e2dc8@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:2ª jornada fase final TEAM CUP2026
+LOCATION:Aldeamayor Club de Golf\, Aldeamayor de San Martin\, Valladolid
+DESCRIPTION:Social de club · Match Play · Equipos\nFicha oficial: https:/
+ /www.golfdirecto.com/micro/game/6ab3abeb67086a8c6d8f021b/summary\nConfirma
+  fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6ab3abeb67086a8c6d8f021b/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:1c72abebba8c2b5f7925@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:Campeonato Juvenil de la Faisanera (Liguilla Sub21)
+LOCATION:C D la Faisanera Golf Segovia\, Palazuelos de Eresma\, Segovia
+DESCRIPTION:Juvenil · Medal Play · Individual\nInscripción: abre el 21 d
+ e septiembre\, cierra el 19 de noviembre.\nPrecio: 15 €.\nFicha oficial:
+  https://www.nextcaddy.com/tour/73672\nConfirma fechas y condiciones en la
+  web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nextcaddy.com/tour/73672
+END:VEVENT
+BEGIN:VEVENT
+UID:4a8bf5b5c62bd6f50e2f@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:4ª Prueba IX Liguilla Benjamín y Alevín de Castilla y León
+LOCATION:Club Deportivo Golf Sotoverde\, Arroyo de la Encomienda\, Valladol
+ id
+DESCRIPTION:Juvenil · Medal Play · Individual\nInscripción: abre el 2 de
+  octubre\, cierra el 26 de noviembre.\nPrecio: 10 €.\nFicha oficial: htt
+ ps://www.nextcaddy.com/tour/74235\nConfirma fechas y condiciones en la web
+  del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nextcaddy.com/tour/74235
+END:VEVENT
+BEGIN:VEVENT
+UID:a6b72a4d7ded2afe0d7f@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:Golf Getafe Series_4° Prueba
+LOCATION:Club de Golf Entrepinos\, Simancas\, Valladolid
+DESCRIPTION:Circuito comercial · Medal Play · Individual\nInscripción: a
+ bre el 9 de noviembre\, cierra el 27 de noviembre.\nFicha oficial: https:/
+ /www.golfdirecto.com/micro/game/6af1d3b93f87d1a99fddc326/summary\nConfirma
+  fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6af1d3b93f87d1a99fddc326/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:c08fbcf69dd88882b00a@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:II Ryder Club de Campo la Galera
+LOCATION:Club de Campo la Galera\, Valladolid\, Valladolid
+DESCRIPTION:Social de club · Fourball · Parejas\nFicha oficial: https://w
+ ww.golfdirecto.com/micro/game/695f8df626f3d60223835d84/summary\nConfirma f
+ echas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/695f8df626f3d60223835d84/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:39012e05fb3bcddde42e@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:Ryder Aldeamayor 2026
+LOCATION:Aldeamayor Club de Golf\, Aldeamayor de San Martin\, Valladolid
+DESCRIPTION:Social de club · Greensome · Parejas\nFicha oficial: https://
+ www.golfdirecto.com/micro/game/6ab3ac3267086a8c6da90a67/summary\nConfirma 
+ fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6ab3ac3267086a8c6da90a67/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:eae6f75e29a3f4e3f4f1@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261213
+SUMMARY:VII Campeonato de Navidad Padres e Hijos de Castilla y León (18 Ho
+ yos)
+LOCATION:Club la Valmuza Golf Salamanca\, Doñinos de Salamanca\, Salamanca
+DESCRIPTION:Juvenil · Stableford · Individual\nInscripción: abre el 23 d
+ e noviembre\, cierra el 8 de diciembre.\nPrecio: 23 €.\nFicha oficial: h
+ ttps://www.nextcaddy.com/tour/68071\nConfirma fechas y condiciones en la w
+ eb del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nextcaddy.com/tour/68071
+END:VEVENT
+BEGIN:VEVENT
+UID:003a613b52ec68e86d1e@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+SUMMARY:Infantil Diciembre Cclg
+LOCATION:Club de Campo la Galera\, Valladolid\, Valladolid
+DESCRIPTION:Juvenil · Stableford · Individual\nInscripción: abre el 30 d
+ e noviembre\, cierra el 11 de diciembre.\nPrecio: 10 €.\nFicha oficial: 
+ https://www.golfdirecto.com/micro/game/695f8fc226f3d60223abb422/summary\nC
+ onfirma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/695f8fc226f3d60223abb422/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:08506df9db3f693ec471@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+SUMMARY:Torneo Empleados 2026
+LOCATION:Club de Campo la Galera\, Valladolid\, Valladolid
+DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
+ s://www.golfdirecto.com/micro/game/695f902526f3d60223b1adad/summary\nConfi
+ rma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/695f902526f3d60223b1adad/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:c1ceb82af4a4519da876@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+SUMMARY:Torneo Navigolf
+LOCATION:Club de Golf Entrepinos\, Simancas\, Valladolid
+DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
+ s://www.golfdirecto.com/micro/game/69652a90cb999c8d22c87777/summary\nConfi
+ rma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/69652a90cb999c8d22c87777/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:795991844a7175049d94@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261219
+DTEND;VALUE=DATE:20261220
+SUMMARY:Torneo Aniversario 2026
+LOCATION:Club de Campo la Galera\, Valladolid\, Valladolid
+DESCRIPTION:Social de club · Scramble · Parejas\nInscripción: abre el 7 
+ de diciembre\, cierra el 16 de diciembre.\nFicha oficial: https://www.golf
+ directo.com/micro/game/695f90a726f3d60223bca43f/summary\nConfirma fechas y
+  condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/695f90a726f3d60223bca43f/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:7fa356b277b704c6acae@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261219
+DTEND;VALUE=DATE:20261220
+SUMMARY:Torneo de Navidad
+LOCATION:Air Golf Club\, Boadilla del Monte\, Madrid
+DESCRIPTION:Social de club · Fourball · Parejas\nFicha oficial: https://w
+ ww.golfdirecto.com/micro/game/6ac5f4c64865b8bb77afc948/summary\nConfirma f
+ echas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6ac5f4c64865b8bb77afc948/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:19f6e7e75a74a6e9b2aa@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261219
+DTEND;VALUE=DATE:20261220
+SUMMARY:Trofeo Benéfico Memorial Javier Sanchidrian 2026_
+LOCATION:Aldeamayor Club de Golf\, Aldeamayor de San Martin\, Valladolid
+DESCRIPTION:Benéfico · Stableford · Individual\nFicha oficial: https://w
+ ww.golfdirecto.com/micro/game/6ad0bf2f7fca7abedcdc41f3/summary\nConfirma f
+ echas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6ad0bf2f7fca7abedcdc41f3/summary
+END:VEVENT
+END:VCALENDAR

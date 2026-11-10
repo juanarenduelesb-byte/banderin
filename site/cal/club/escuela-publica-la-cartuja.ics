@@ -1,0 +1,40 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Banderin//Torneos de golf//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Banderín · Escuela Pública la Cartuja
+X-WR-CALDESC:Torneos de golf: Escuela Pública la Cartuja. Se actualiza cad
+ a mañana. https://banderin.pages.dev
+X-WR-TIMEZONE:Europe/Madrid
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:66227508595844386299@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:VI Edición Copa HCP 36
+LOCATION:Escuela Pública la Cartuja\, Sevilla\, Sevilla
+DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
+ s://www.nextcaddy.com/tour/75124\nConfirma fechas y condiciones en la web 
+ del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nextcaddy.com/tour/75124
+END:VEVENT
+BEGIN:VEVENT
+UID:b7f182de3c476d16d965@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:IV Encuentro de Escuelas Públicas de Golf 2026
+LOCATION:Escuela Pública la Cartuja\, Sevilla\, Sevilla
+DESCRIPTION:Juvenil · Stableford · Individual\nFicha oficial: https://www
+ .nextcaddy.com/tour/74809\nConfirma fechas y condiciones en la web del org
+ anizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nextcaddy.com/tour/74809
+END:VEVENT
+END:VCALENDAR

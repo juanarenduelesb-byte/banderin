@@ -1,4 +1,6 @@
 import json,datetime as dt,collections,sys,re,os
+sys.path.insert(0,os.path.dirname(os.path.abspath(__file__)))
+from cond import conditions,plain,nextcaddy_text
 from zoneinfo import ZoneInfo
 MAD=ZoneInfo('Europe/Madrid')
 NOW=dt.datetime.now(MAD)
@@ -51,6 +53,11 @@ for t in T:
         if t.get('price') is None: o['price']=None
         gx=(L.get(t['url'])+[None]*4)[3] if t['url'] in L else None
         if isinstance(gx,dict): gd_price(o,gx)
+        txt=''
+        if 'nextcaddy.com/tour/' in t['url']: txt=nextcaddy_text('/home/claude/raw/nct/'+t['url'].rsplit('/',1)[1]+'.html')
+        if isinstance(gx,dict): txt+=' '+plain(gx.get('info'))
+        co=conditions(txt,t.get('n',''),t.get('cat',''))
+        if co: o['cond']=co
         o['ok']=TODAY if ok else None
         if s=='postponed': o['aviso']='Aplazado por el organizador'
     out.append(o)

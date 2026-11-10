@@ -1,0 +1,118 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Banderin//Torneos de golf//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Banderín · Las Colinas Golf & Country Club
+X-WR-CALDESC:Torneos de golf: Las Colinas Golf & Country Club. Se actualiza
+  cada mañana. https://banderin.pages.dev
+X-WR-TIMEZONE:Europe/Madrid
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:68f7b7334ce6fb6276f1@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20261112
+SUMMARY:Wednesday afternoon 11th november
+LOCATION:Las Colinas Golf & Country Club\, San Miguel de Salinas\, Alicante
+DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
+ s://www.golfdirecto.com/micro/game/6aee1589ec94b7c14e88c989/summary\nConfi
+ rma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6aee1589ec94b7c14e88c989/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:0778073763abc44bc03f@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261117
+DTEND;VALUE=DATE:20261118
+SUMMARY:9&tapas Pairs Scramble
+LOCATION:Las Colinas Golf & Country Club\, San Miguel de Salinas\, Alicante
+DESCRIPTION:Social de club · Scramble · Parejas\nInscripción: abre el 29
+  de octubre\, cierra el 16 de noviembre.\nPrecio: 39 €.\nFicha oficial: 
+ https://www.golfdirecto.com/micro/game/6ae35a94e9762da1ae309612/summary\nC
+ onfirma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6ae35a94e9762da1ae309612/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:d64993ea7b23dcb866f7@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
+SUMMARY:Ladies Golf League 2026 - 8
+LOCATION:Las Colinas Golf & Country Club\, San Miguel de Salinas\, Alicante
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 5 de enero\, cierra el 30 de noviembre.\nPrecio: 90 €.\nFicha oficial
+ : https://www.golfdirecto.com/micro/game/695b7a02154abbf47a77fe4f/summary\
+ nConfirma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/695b7a02154abbf47a77fe4f/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:b834e32ddcd7613ad0e6@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261206
+SUMMARY:The 12 - Round 12 - Las Colinas - 106397
+LOCATION:Las Colinas Golf & Country Club\, San Miguel de Salinas\, Alicante
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 1 de noviembre\, cierra el 4 de diciembre.\nPrecio: 85 €.\nFicha ofic
+ ial: https://www.golfdirecto.com/micro/game/69b03ee6d9295ef7aada5bf9/summa
+ ry\nConfirma fechas y condiciones en la web del organizador. Vía Banderí
+ n.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/69b03ee6d9295ef7aada5bf9/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:e511c540329d3a1c1f9b@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+SUMMARY:Las Colinas Trophy - V Edición
+LOCATION:Las Colinas Golf & Country Club\, San Miguel de Salinas\, Alicante
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 1 de junio\, cierra el 30 de noviembre.\nPrecio: 318 €.\nFicha oficia
+ l: https://www.golfdirecto.com/micro/game/6a07272bbefa498256213862/summary
+ \nConfirma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6a07272bbefa498256213862/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:48bb6ae3344ae3eb9cb7@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261231
+DTEND;VALUE=DATE:20270101
+SUMMARY:New Year Tournament
+LOCATION:Las Colinas Golf & Country Club\, San Miguel de Salinas\, Alicante
+DESCRIPTION:Circuito comercial · Fourball · Parejas\nInscripción: abre e
+ l 10 de febrero\, cierra el 28 de diciembre.\nPrecio: 90 €.\nFicha ofici
+ al: https://www.golfdirecto.com/micro/game/698ae2fc74e61b4173e03799/summar
+ y\nConfirma fechas y condiciones en la web del organizador. Vía Banderín
+ .
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/698ae2fc74e61b4173e03799/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:88ec8756a5b7d6ca4907@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20270211
+DTEND;VALUE=DATE:20270212
+SUMMARY:Alamo Golf Society
+LOCATION:Las Colinas Golf & Country Club\, San Miguel de Salinas\, Alicante
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 19 de octubre\, cierra el 10 de febrero.\nFicha oficial: https://www.go
+ lfdirecto.com/micro/game/6ad605bd6a3a1de0ec7b7f32/summary\nConfirma fechas
+  y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6ad605bd6a3a1de0ec7b7f32/summary
+END:VEVENT
+END:VCALENDAR

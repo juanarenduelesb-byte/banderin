@@ -1,0 +1,40 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Banderin//Torneos de golf//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Banderín · Golf Santa Ponsa
+X-WR-CALDESC:Torneos de golf: Golf Santa Ponsa. Se actualiza cada mañana. 
+ https://banderin.pages.dev
+X-WR-TIMEZONE:Europe/Madrid
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:cc6dddd6583e03aef67a@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20270116
+DTEND;VALUE=DATE:20270117
+SUMMARY:The New Corporate Balearhouse 2026-2027
+LOCATION:Golf Santa Ponsa\, Santa Ponça\, Illes Balears
+DESCRIPTION:Social de club · Greensome · Parejas\nFicha oficial: https://
+ www.golfdirecto.com/micro/game/6adf75f7b0e08ac015a0f245/summary\nConfirma 
+ fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6adf75f7b0e08ac015a0f245/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:485927fe1c9d18d06ebb@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20270130
+DTEND;VALUE=DATE:20270131
+SUMMARY:The New Corporate Balearhouse 2026-2027
+LOCATION:Golf Santa Ponsa\, Santa Ponça\, Illes Balears
+DESCRIPTION:Social de club · Fourball · Parejas\nFicha oficial: https://w
+ ww.golfdirecto.com/micro/game/6adf78f6b0e08ac01544359b/summary\nConfirma f
+ echas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6adf78f6b0e08ac01544359b/summary
+END:VEVENT
+END:VCALENDAR

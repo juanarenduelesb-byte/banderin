@@ -1,0 +1,1015 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Banderin//Torneos de golf//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Banderín · Málaga
+X-WR-CALDESC:Torneos de golf: Málaga. Se actualiza cada mañana. https://b
+ anderin.pages.dev
+X-WR-TIMEZONE:Europe/Madrid
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:d9f6c9423240c7d61bfc@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20261112
+SUMMARY:Ladies Individual Stableford Qualifier
+LOCATION:Miraflores Golf\, Mijas Costa\, Málaga
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 4 de noviembre\, cierra el 8 de noviembre.\nFicha oficial: https://www.
+ golfdirecto.com/micro/game/6aeb42a93539d98a4665b3c3/summary\nConfirma fech
+ as y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6aeb42a93539d98a4665b3c3/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:cb5db9cae577de4d79de@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20261112
+SUMMARY:Nordicos Miercoles
+LOCATION:Real Club de Golf Guadalmina\, Guadalmina\, Málaga
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 8 de noviembre\, cierra el 8 de noviembre.\nPrecio: Gratis.\nFicha ofic
+ ial: https://www.nextcaddy.com/tour/75241\nConfirma fechas y condiciones e
+ n la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nextcaddy.com/tour/75241
+END:VEVENT
+BEGIN:VEVENT
+UID:c0bd0aa09b54019c2ba7@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20261112
+SUMMARY:ladies day
+LOCATION:Miraflores Golf\, Mijas Costa\, Málaga
+DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
+ s://www.nextcaddy.com/tour/75297\nConfirma fechas y condiciones en la web 
+ del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nextcaddy.com/tour/75297
+END:VEVENT
+BEGIN:VEVENT
+UID:f1c18f9f47ac055af9d0@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261112
+DTEND;VALUE=DATE:20261113
+SUMMARY:Jueves Int. Gsome Scottish Norte 12.11
+LOCATION:Real Club de Golf Guadalmina\, Guadalmina\, Málaga
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 10 de noviembre\, cierra el 10 de noviembre.\nPrecio: Gratis.\nFicha of
+ icial: https://www.nextcaddy.com/tour/75287\nConfirma fechas y condiciones
+  en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nextcaddy.com/tour/75287
+END:VEVENT
+BEGIN:VEVENT
+UID:5250ab72f50a54668679@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261112
+DTEND;VALUE=DATE:20261113
+SUMMARY:Liga Social Damas Volvo Vypsa Heineken - Malaga Costa & Bebidas
+LOCATION:Real Guadalhorce Club de Golf\, Campanillas\, Málaga
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 5 de noviembre\, cierra el 11 de noviembre.\nFicha oficial: https://www
+ .golfdirecto.com/micro/game/6aaec299ea1573c17ab22064/summary\nConfirma fec
+ has y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6aaec299ea1573c17ab22064/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:222587c316cf9cdaee8f@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261112
+DTEND;VALUE=DATE:20261113
+SUMMARY:Torneo Alejandro 12/11/2026
+LOCATION:Golf Río Real\, Marbella\, Málaga
+DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
+ s://www.nextcaddy.com/tour/75290\nConfirma fechas y condiciones en la web 
+ del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nextcaddy.com/tour/75290
+END:VEVENT
+BEGIN:VEVENT
+UID:b01a9624cc6cf9d3fbfb@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:Club Desayuno Viernes Suecos
+LOCATION:Real Club de Golf Guadalmina\, Guadalmina\, Málaga
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 10 de noviembre\, cierra el 10 de noviembre.\nPrecio: Gratis.\nFicha of
+ icial: https://www.nextcaddy.com/tour/75288\nConfirma fechas y condiciones
+  en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nextcaddy.com/tour/75288
+END:VEVENT
+BEGIN:VEVENT
+UID:33280761c73375e65b8d@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:Final Circuito 4ª\, 5ª y 6ª categoría campo corto
+LOCATION:Arenal Golf\, Benalmádena\, Málaga
+DESCRIPTION:Absoluto · Stableford · Individual\nInscripción: abre el 21 
+ de octubre\, cierra el 12 de noviembre.\nFicha oficial: https://www.nextca
+ ddy.com/tour/61246\nConfirma fechas y condiciones en la web del organizado
+ r. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nextcaddy.com/tour/61246
+END:VEVENT
+BEGIN:VEVENT
+UID:c260dd565878d73c9abc@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:LIGAS MAJ - 18 Hoyos - Noviembre
+LOCATION:Escuela de Golf Miguel ángel Jiménez\, Torremolinos\, Málaga
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 14 de octubre\, cierra el 12 de noviembre.\nPrecio: 10 €.\nFicha ofic
+ ial: https://www.nextcaddy.com/tour/74886\nConfirma fechas y condiciones e
+ n la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nextcaddy.com/tour/74886
+END:VEVENT
+BEGIN:VEVENT
+UID:eb7915e516e8e488b94e@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:Torneo Social Femenino Absoluto
+LOCATION:Real Guadalhorce Club de Golf\, Campanillas\, Málaga
+DESCRIPTION:Social de club · Medal Play · Individual\nInscripción: abre 
+ el 30 de octubre\, cierra el 12 de noviembre.\nPrecio: 20 €.\nFicha ofic
+ ial: https://www.golfdirecto.com/micro/game/6ae38dd4e9762da1ae4a91cb/summa
+ ry\nConfirma fechas y condiciones en la web del organizador. Vía Banderí
+ n.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6ae38dd4e9762da1ae4a91cb/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:d67f181ab3b23429c11b@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:Torneo Social Infantil Femenino
+LOCATION:Real Guadalhorce Club de Golf\, Campanillas\, Málaga
+DESCRIPTION:Juvenil · Medal Play · Individual\nInscripción: abre el 31 d
+ e octubre\, cierra el 12 de noviembre.\nPrecio: 10 €.\nFicha oficial: ht
+ tps://www.golfdirecto.com/micro/game/6ae5d6e6a4d4357771478ac4/summary\nCon
+ firma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6ae5d6e6a4d4357771478ac4/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:4889577a4de0d73b97a2@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:XXXIII Trofeo Ervega
+LOCATION:Real Club de Campo de Malaga\, Malaga\, Málaga
+DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
+ s://www.nextcaddy.com/tour/74635\nConfirma fechas y condiciones en la web 
+ del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nextcaddy.com/tour/74635
+END:VEVENT
+BEGIN:VEVENT
+UID:d63539440ad2206c24f6@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:Ranking 2026
+LOCATION:Higuerón Marbella Golf Resort\, Fuengirola\, Málaga
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 25 de octubre\, cierra el 12 de noviembre.\nPrecio: 85 €.\nFicha ofic
+ ial: https://www.golfdirecto.com/micro/game/6add0e2dc98c390277f2fdaf/summa
+ ry\nConfirma fechas y condiciones en la web del organizador. Vía Banderí
+ n.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6add0e2dc98c390277f2fdaf/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:c78cbb201a73d0f1fa7e@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:VIII Torneo Volvo Vypsa - Día del Club
+LOCATION:Lauro Golf\, Alhaurin de la Torre\, Málaga
+DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
+ s://www.nextcaddy.com/tour/74713\nConfirma fechas y condiciones en la web 
+ del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nextcaddy.com/tour/74713
+END:VEVENT
+BEGIN:VEVENT
+UID:aaa54c72a94d7a20e69b@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261117
+DTEND;VALUE=DATE:20261118
+SUMMARY:Liga Social Cab. Volvo Vypsa Heineken - Malaga Costa & Bebidas
+LOCATION:Real Guadalhorce Club de Golf\, Campanillas\, Málaga
+DESCRIPTION:Social de club · Stableford · Parejas\nInscripción: abre el 
+ 10 de noviembre\, cierra el 15 de noviembre.\nFicha oficial: https://www.g
+ olfdirecto.com/micro/game/6aaec3dfea1573c17a35c393/summary\nConfirma fecha
+ s y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6aaec3dfea1573c17a35c393/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:f422c28cea87fc15c9c3@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261117
+DTEND;VALUE=DATE:20261118
+SUMMARY:Skandinavisk Match 17/11
+LOCATION:Lauro Golf\, Alhaurin de la Torre\, Málaga
+DESCRIPTION:Clubes y equipos · Stableford · Equipos\nInscripción: abre e
+ l 10 de noviembre\, cierra el 14 de noviembre.\nPrecio: 55 €.\nFicha ofi
+ cial: https://www.golfdirecto.com/micro/game/6adf567405d0e598f36e9603/summ
+ ary\nConfirma fechas y condiciones en la web del organizador. Vía Bander
+ ín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6adf567405d0e598f36e9603/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:acfa7ac0fde4377481a6@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261118
+DTEND;VALUE=DATE:20261119
+SUMMARY:Miraflores Members Ladies Day - Pairs Scramble
+LOCATION:Miraflores Golf\, Mijas Costa\, Málaga
+DESCRIPTION:Social de club · Scramble · Parejas\nInscripción: abre el 6 
+ de noviembre\, cierra el 15 de noviembre.\nFicha oficial: https://www.golf
+ directo.com/micro/game/6aedc22e1ab4f21da63a83b4/summary\nConfirma fechas y
+  condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6aedc22e1ab4f21da63a83b4/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:4c5b9bca4a76ef6d28e0@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+SUMMARY:Liga Social Damas Volvo Vypsa Heineken Malaga&costa Bebidas
+LOCATION:Real Guadalhorce Club de Golf\, Campanillas\, Málaga
+DESCRIPTION:Social de club · Stableford · Parejas\nInscripción: abre el 
+ 12 de noviembre\, cierra el 17 de noviembre.\nFicha oficial: https://www.g
+ olfdirecto.com/micro/game/6aaec4e8ea1573c17aba1805/summary\nConfirma fecha
+ s y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6aaec4e8ea1573c17aba1805/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:7be7bd8be2412f068ea2@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:Competición Final de Temporada P&P 2026
+LOCATION:Alhaurín Golf Hotel & Resort\, Alhaurin el Grande\, Málaga
+DESCRIPTION:Absoluto · Medal Play · Individual\nInscripción: abre el 30 
+ de octubre\, cierra el 17 de noviembre.\nFicha oficial: https://www.nextca
+ ddy.com/tour/61248\nConfirma fechas y condiciones en la web del organizado
+ r. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nextcaddy.com/tour/61248
+END:VEVENT
+BEGIN:VEVENT
+UID:94c7f6c81dfec2cf340a@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:Cuadrangular Mid Amateur Masculino
+LOCATION:Real Guadalhorce Club de Golf\, Campanillas\, Málaga
+DESCRIPTION:Mid-Amateur · Medal Play · Equipos\nFicha oficial: https://ww
+ w.nextcaddy.com/tour/61227\nConfirma fechas y condiciones en la web del or
+ ganizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nextcaddy.com/tour/61227
+END:VEVENT
+BEGIN:VEVENT
+UID:cb87de01cfb1889395de@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:Pequecircuito Zona C
+LOCATION:Escuela de Golf Miguel ángel Jiménez\, Torremolinos\, Málaga
+DESCRIPTION:Juvenil · Medal Play · Individual\nInscripción: abre el 6 de
+  octubre\, cierra el 16 de noviembre.\nFicha oficial: https://www.nextcadd
+ y.com/tour/61236\nConfirma fechas y condiciones en la web del organizador.
+  Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nextcaddy.com/tour/61236
+END:VEVENT
+BEGIN:VEVENT
+UID:47a21108e636d8d20a6d@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:Presidents Putter Board Competition (Medal)
+LOCATION:Miraflores Golf\, Mijas Costa\, Málaga
+DESCRIPTION:Social de club · Medal Play · Individual\nInscripción: abre 
+ el 6 de noviembre\, cierra el 18 de noviembre.\nFicha oficial: https://www
+ .golfdirecto.com/micro/game/6aedf32f1ab4f21da641a12a/summary\nConfirma fec
+ has y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6aedf32f1ab4f21da641a12a/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:bb96d574952c2c09dcb2@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:Circuito Benjamín Zona C
+LOCATION:Real Club de Golf Guadalmina\, Guadalmina\, Málaga
+DESCRIPTION:Juvenil · Medal Play · Individual\nInscripción: abre el 9 de
+  octubre\, cierra el 16 de noviembre.\nFicha oficial: https://www.nextcadd
+ y.com/tour/61232\nConfirma fechas y condiciones en la web del organizador.
+  Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nextcaddy.com/tour/61232
+END:VEVENT
+BEGIN:VEVENT
+UID:bf049ff00b8173562f94@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:Circuito Caser Hipoteca Inversa 2026
+LOCATION:Antequera Golf\, Antequera\, Málaga
+DESCRIPTION:Circuito comercial · Stableford · Individual\nInscripción: a
+ bre el 30 de octubre\, cierra el 20 de noviembre.\nPrecio: 27 €.\nFicha 
+ oficial: https://www.nextcaddy.com/tour/74404\nConfirma fechas y condicion
+ es en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nextcaddy.com/tour/74404
+END:VEVENT
+BEGIN:VEVENT
+UID:1bd9f3f36ec88adfc228@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:Circuito Juvenil Zona C
+LOCATION:Real Club de Golf Guadalmina\, Guadalmina\, Málaga
+DESCRIPTION:Juvenil · Medal Play · Individual\nInscripción: abre el 9 de
+  octubre\, cierra el 16 de noviembre.\nFicha oficial: https://www.nextcadd
+ y.com/tour/61233\nConfirma fechas y condiciones en la web del organizador.
+  Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nextcaddy.com/tour/61233
+END:VEVENT
+BEGIN:VEVENT
+UID:507587703c60bdea15bc@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:Pg Junior Golf Circuit - Nov.
+LOCATION:Magna Marbella Golf\, Nueva Andalucia\, Málaga
+DESCRIPTION:Juvenil · Stableford · Individual\nFicha oficial: https://www
+ .nextcaddy.com/tour/68964\nConfirma fechas y condiciones en la web del org
+ anizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nextcaddy.com/tour/68964
+END:VEVENT
+BEGIN:VEVENT
+UID:723185b2bb79d551cb24@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:T2 La Cala Junior Golf League 26-27
+LOCATION:La Cala Resort\, La Cala de Mijas\, Málaga
+DESCRIPTION:Juvenil · Stableford · Individual\nInscripción: abre el 6 de
+  octubre\, cierra el 21 de noviembre.\nPrecio: 10 €.\nFicha oficial: htt
+ ps://www.golfdirecto.com/micro/game/6ac50d4f6dee272525916b20/summary\nConf
+ irma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6ac50d4f6dee272525916b20/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:9b8e39c16e46f7ec7061@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261124
+DTEND;VALUE=DATE:20261125
+SUMMARY:Liga Social Cab. Volvo Vypsa Heineken - Malaga Costa & Bebidas
+LOCATION:Real Guadalhorce Club de Golf\, Campanillas\, Málaga
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 17 de noviembre\, cierra el 22 de noviembre.\nFicha oficial: https://ww
+ w.golfdirecto.com/micro/game/6aaec65fea1573c17a88951b/summary\nConfirma fe
+ chas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6aaec65fea1573c17a88951b/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:3292ffe3f5a2cfe836a6@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261124
+DTEND;VALUE=DATE:20261125
+SUMMARY:Skandinavisk Match 24/11
+LOCATION:Lauro Golf\, Alhaurin de la Torre\, Málaga
+DESCRIPTION:Clubes y equipos · Stableford · Equipos\nInscripción: abre e
+ l 17 de noviembre\, cierra el 21 de noviembre.\nPrecio: 55 €.\nFicha ofi
+ cial: https://www.golfdirecto.com/micro/game/6adf571605d0e598f392664b/summ
+ ary\nConfirma fechas y condiciones en la web del organizador. Vía Bander
+ ín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6adf571605d0e598f392664b/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:e94c8e46f4a5c87deeab@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261125
+DTEND;VALUE=DATE:20261126
+SUMMARY:Ladies Individual Stableford Qualifier
+LOCATION:Miraflores Golf\, Mijas Costa\, Málaga
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 6 de noviembre\, cierra el 6 de noviembre.\nFicha oficial: https://www.
+ golfdirecto.com/micro/game/6aedc0f602e839445a7f26ef/summary\nConfirma fech
+ as y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6aedc0f602e839445a7f26ef/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:ef0818aa96daa548e0df@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261130
+SUMMARY:Andalucía Costa del Sol Open de España 2026
+LOCATION:La Cala Resort\, Mijas\, Málaga
+DESCRIPTION:Profesional · Medal Play · Individual\nFicha oficial: https:/
+ /rfegolf.es/competicion/andalucia-costa-del-sol-open-de-espana-presented-b
+ y-oysho-2026\nConfirma fechas y condiciones en la web del organizador. Ví
+ a Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://rfegolf.es/competicion/andalucia-costa-del-sol-open-de-espana-p
+ resented-by-oysho-2026
+END:VEVENT
+BEGIN:VEVENT
+UID:69e183fdfcacd52f2939@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+SUMMARY:Liga Social Damas Volvo Vypsa Heineken - Malaga Costa & Bebidas
+LOCATION:Real Guadalhorce Club de Golf\, Campanillas\, Málaga
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 19 de noviembre\, cierra el 24 de noviembre.\nFicha oficial: https://ww
+ w.golfdirecto.com/micro/game/6aaec6cbea1573c17aa03131/summary\nConfirma fe
+ chas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6aaec6cbea1573c17aa03131/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:09edfe8756bf522e9914@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:Campeonato Andalucía Interclubs Infantil y Cadete
+LOCATION:Lauro Golf\, Alhaurin de la Torre\, Málaga
+DESCRIPTION:Juvenil · Medal Play · Equipos\nFicha oficial: https://www.ne
+ xtcaddy.com/tour/61215\nConfirma fechas y condiciones en la web del organi
+ zador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nextcaddy.com/tour/61215
+END:VEVENT
+BEGIN:VEVENT
+UID:abb31c71a4d68cfb8a26@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261130
+SUMMARY:Final Matchplay Parejas 2026
+LOCATION:Villa Padierna Golf Club\, Benahavis\, Málaga
+DESCRIPTION:Social de club · Fourball · Parejas\nFicha oficial: https://w
+ ww.golfdirecto.com/micro/game/69a4caf0a5c98bfc698183f6/summary\nConfirma f
+ echas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/69a4caf0a5c98bfc698183f6/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:ca92ddc66e8df6ba9312@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:III Torneo Academia Infantil 2026-2027 - 1ª Categoría
+LOCATION:Escuela de Golf Miguel ángel Jiménez\, Torremolinos\, Málaga
+DESCRIPTION:Juvenil · Stableford · Individual\nInscripción: abre el 1 de
+  noviembre\, cierra el 25 de noviembre.\nPrecio: 18 €.\nFicha oficial: h
+ ttps://www.nextcaddy.com/tour/74915\nConfirma fechas y condiciones en la w
+ eb del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nextcaddy.com/tour/74915
+END:VEVENT
+BEGIN:VEVENT
+UID:56573bd9fe76788aed67@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:IV Torneo Jésica Reyes
+LOCATION:Golf Torrequebrada\, Benalmadena Costa\, Málaga
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 4 de noviembre\, cierra el 26 de noviembre.\nPrecio: 85 €.\nFicha ofi
+ cial: https://www.nextcaddy.com/tour/71874\nConfirma fechas y condiciones 
+ en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nextcaddy.com/tour/71874
+END:VEVENT
+BEGIN:VEVENT
+UID:a19c4462848814a5a2e9@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:Torneo Senior Otoño Costa del Sol
+LOCATION:Santa María Golf & Country Club\, Marbella\, Málaga
+DESCRIPTION:Senior · Stableford · Individual\nInscripción: abre el 27 de
+  octubre\, cierra el 23 de noviembre.\nPrecio: 75 €.\nFicha oficial: htt
+ ps://www.nextcaddy.com/tour/61235\nConfirma fechas y condiciones en la web
+  del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nextcaddy.com/tour/61235
+END:VEVENT
+BEGIN:VEVENT
+UID:7ae898a0905dc856c755@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:XVII Torneo Open Fuengirola la Bandera
+LOCATION:El Chaparral Golf Club\, Mijas Costa\, Málaga
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 30 de septiembre\, cierra el 27 de noviembre.\nPrecio: 95 €.\nFicha o
+ ficial: https://www.golfdirecto.com/micro/game/6abcb75fa2d0ff021a0d72d7/su
+ mmary\nConfirma fechas y condiciones en la web del organizador. Vía Bande
+ rín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6abcb75fa2d0ff021a0d72d7/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:c26279dce738fdc4e0e4@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
+SUMMARY:Liga Social Cab. Volvo Vypsa Heineken - Malaga Costa & Bebidas
+LOCATION:Real Guadalhorce Club de Golf\, Campanillas\, Málaga
+DESCRIPTION:Social de club · Medal Play · Individual\nInscripción: abre 
+ el 24 de noviembre\, cierra el 29 de noviembre.\nFicha oficial: https://ww
+ w.golfdirecto.com/micro/game/6aaec74bea1573c17acf36ad/summary\nConfirma fe
+ chas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6aaec74bea1573c17acf36ad/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:0d9725552dad218a6144@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
+SUMMARY:Skandinavisk Match 01/12
+LOCATION:Lauro Golf\, Alhaurin de la Torre\, Málaga
+DESCRIPTION:Clubes y equipos · Stableford · Equipos\nInscripción: abre e
+ l 24 de noviembre\, cierra el 28 de noviembre.\nPrecio: 55 €.\nFicha ofi
+ cial: https://www.golfdirecto.com/micro/game/6adf575505d0e598f3a02fcf/summ
+ ary\nConfirma fechas y condiciones en la web del organizador. Vía Bander
+ ín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6adf575505d0e598f3a02fcf/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:eb87112cb5174b77ecd6@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261203
+DTEND;VALUE=DATE:20261204
+SUMMARY:Liga Social Damas Volvo Vypsa Heineken - Malaga Costa & Bebidas
+LOCATION:Real Guadalhorce Club de Golf\, Campanillas\, Málaga
+DESCRIPTION:Social de club · Medal Play · Individual\nInscripción: abre 
+ el 26 de noviembre\, cierra el 1 de diciembre.\nFicha oficial: https://www
+ .golfdirecto.com/micro/game/6aaec7e6ea1573c17af7336d/summary\nConfirma fec
+ has y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6aaec7e6ea1573c17af7336d/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:99697ad583908e1ffc16@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261204
+DTEND;VALUE=DATE:20261205
+SUMMARY:Marbella Final Summum Business 2026
+LOCATION:Villa Padierna Golf Club\, Benahavis\, Málaga
+DESCRIPTION:Social de club · Fourball · Parejas\nInscripción: abre el 25
+  de octubre\, cierra el 2 de diciembre.\nFicha oficial: https://www.golfdi
+ recto.com/micro/game/69a4cdd1a5c98bfc69e4f0b6/summary\nConfirma fechas y c
+ ondiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/69a4cdd1a5c98bfc69e4f0b6/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:4bf0117708702983e985@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261206
+SUMMARY:Copa Guadalhorce Final
+LOCATION:Real Guadalhorce Club de Golf\, Campanillas\, Málaga
+DESCRIPTION:Social de club · Medal Play · Individual\nInscripción: abre 
+ el 26 de octubre\, cierra el 26 de noviembre.\nPrecio: 25 €.\nFicha ofic
+ ial: https://www.golfdirecto.com/micro/game/6ad60ada46735c80a07fb5da/summa
+ ry\nConfirma fechas y condiciones en la web del organizador. Vía Banderí
+ n.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6ad60ada46735c80a07fb5da/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:809d7a1a70264abc490f@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261206
+SUMMARY:Torneo Benefico Anoreta Golf
+LOCATION:Club Deportivo Añoreta Golf\, Rincon de la Victoria\, Málaga
+DESCRIPTION:Benéfico · Stableford · Individual\nInscripción: abre el 13
+  de marzo\, cierra el 3 de diciembre.\nPrecio: 45 €.\nFicha oficial: htt
+ ps://www.nextcaddy.com/tour/69149\nConfirma fechas y condiciones en la web
+  del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nextcaddy.com/tour/69149
+END:VEVENT
+BEGIN:VEVENT
+UID:45328a135e2fc1044202@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261206
+SUMMARY:Torneo Colegio Abogados Málaga
+LOCATION:Club Deportivo Añoreta Golf\, Rincon de la Victoria\, Málaga
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 6 de noviembre\, cierra el 5 de diciembre.\nPrecio: 75 €.\nFicha ofic
+ ial: https://www.nextcaddy.com/tour/75205\nConfirma fechas y condiciones e
+ n la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nextcaddy.com/tour/75205
+END:VEVENT
+BEGIN:VEVENT
+UID:f6497865e784c903f4cd@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261208
+SUMMARY:Final Nacional Summum 2026
+LOCATION:Villa Padierna Golf Club\, Benahavis\, Málaga
+DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
+ s://www.golfdirecto.com/micro/game/69a4cbe2a5c98bfc69ab6465/summary\nConfi
+ rma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/69a4cbe2a5c98bfc69ab6465/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:36a3dcc05902114421e2@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+SUMMARY:Final Pequecircuito
+LOCATION:Real Guadalhorce Club de Golf\, Campanillas\, Málaga
+DESCRIPTION:Juvenil · Medal Play · Individual\nFicha oficial: https://www
+ .nextcaddy.com/tour/61252\nConfirma fechas y condiciones en la web del org
+ anizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nextcaddy.com/tour/61252
+END:VEVENT
+BEGIN:VEVENT
+UID:2329316c1f9822692adc@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261208
+DTEND;VALUE=DATE:20261209
+SUMMARY:Skandinavisk Match 08/12
+LOCATION:Lauro Golf\, Alhaurin de la Torre\, Málaga
+DESCRIPTION:Clubes y equipos · Stableford · Equipos\nInscripción: abre e
+ l 1 de diciembre\, cierra el 5 de diciembre.\nPrecio: 55 €.\nFicha ofici
+ al: https://www.golfdirecto.com/micro/game/6adf578f05d0e598f3afc378/summar
+ y\nConfirma fechas y condiciones en la web del organizador. Vía Banderín
+ .
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6adf578f05d0e598f3afc378/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:0b29a1c2193398f2bb64@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261209
+DTEND;VALUE=DATE:20261210
+SUMMARY:Liga Social Cab. Volvo Vypsa Heineken - Malaga Costa & Bebidas
+LOCATION:Real Guadalhorce Club de Golf\, Campanillas\, Málaga
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 1 de diciembre\, cierra el 7 de diciembre.\nFicha oficial: https://www.
+ golfdirecto.com/micro/game/6aaec8b2ea1573c17a593dde/summary\nConfirma fech
+ as y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6aaec8b2ea1573c17a593dde/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:4e25d408efcdbca7a1e9@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261210
+DTEND;VALUE=DATE:20261211
+SUMMARY:Liga Social Damas Volvo Vypsa Heineken - Malaga Costa & Bebidas
+LOCATION:Real Guadalhorce Club de Golf\, Campanillas\, Málaga
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 3 de diciembre\, cierra el 8 de diciembre.\nFicha oficial: https://www.
+ golfdirecto.com/micro/game/6aaec96cea1573c17a97db13/summary\nConfirma fech
+ as y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6aaec96cea1573c17a97db13/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:9a581f42d8194f4f9429@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261213
+SUMMARY:Campeonato Andalucía Femenino Categoría Mid Amateur
+LOCATION:Golf Río Real\, Marbella\, Málaga
+DESCRIPTION:Mid-Amateur · Medal Play · Individual\nFicha oficial: https:/
+ /www.nextcaddy.com/tour/61249\nConfirma fechas y condiciones en la web del
+  organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nextcaddy.com/tour/61249
+END:VEVENT
+BEGIN:VEVENT
+UID:46c9fa81a23a5fb3ecd3@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261213
+SUMMARY:Torneo de Navidad IDEAterrazas
+LOCATION:El Chaparral Golf Club\, Mijas Costa\, Málaga
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 9 de noviembre\, cierra el 11 de diciembre.\nPrecio: 95 €.\nFicha ofi
+ cial: https://www.golfdirecto.com/micro/game/6af1924b48b95e9e1a76ee4a/summ
+ ary\nConfirma fechas y condiciones en la web del organizador. Vía Bander
+ ín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6af1924b48b95e9e1a76ee4a/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:20d43a2e771e7c4dfa7b@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+SUMMARY:Pg Junior Golf Circuit - Dec.
+LOCATION:Magna Marbella Golf\, Nueva Andalucia\, Málaga
+DESCRIPTION:Juvenil · Stableford · Individual\nFicha oficial: https://www
+ .nextcaddy.com/tour/68965\nConfirma fechas y condiciones en la web del org
+ anizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nextcaddy.com/tour/68965
+END:VEVENT
+BEGIN:VEVENT
+UID:8221c05ae5dcb472231c@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+SUMMARY:XXXII Torneo de Golf Miramar
+LOCATION:Parador Málaga del Golf\, Malaga\, Málaga
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 1 de octubre\, cierra el 9 de diciembre.\nPrecio: 50 €.\nFicha oficia
+ l: https://www.nextcaddy.com/tour/74188\nConfirma fechas y condiciones en 
+ la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nextcaddy.com/tour/74188
+END:VEVENT
+BEGIN:VEVENT
+UID:e25c81701e6a098d82f2@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261214
+DTEND;VALUE=DATE:20261215
+SUMMARY:Winter Amateur Series (3 rounds)
+LOCATION:Golf Torrequebrada\, Benalmadena Costa\, Málaga
+DESCRIPTION:Circuito comercial · Medal Play · Individual\nInscripción: a
+ bre el 22 de junio\, cierra el 22 de junio.\nPrecio: Gratis.\nFicha oficia
+ l: https://www.nextcaddy.com/tour/71876\nConfirma fechas y condiciones en 
+ la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nextcaddy.com/tour/71876
+END:VEVENT
+BEGIN:VEVENT
+UID:2dbe807336734b2ee243@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261215
+DTEND;VALUE=DATE:20261216
+SUMMARY:Liga Social Cab. Volvo Vypsa Heineken - Malaga Costa & Bebidas
+LOCATION:Real Guadalhorce Club de Golf\, Campanillas\, Málaga
+DESCRIPTION:Social de club · Scramble · Parejas\nInscripción: abre el 9 
+ de diciembre\, cierra el 13 de diciembre.\nFicha oficial: https://www.golf
+ directo.com/micro/game/6aaeca84ea1573c17aebc386/summary\nConfirma fechas y
+  condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6aaeca84ea1573c17aebc386/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:4a57ab55476d067d2be4@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261215
+DTEND;VALUE=DATE:20261216
+SUMMARY:Skandinavisk Match 15/12
+LOCATION:Lauro Golf\, Alhaurin de la Torre\, Málaga
+DESCRIPTION:Clubes y equipos · Stableford · Equipos\nInscripción: cierra
+  el 26 de octubre.\nPrecio: 55 €.\nFicha oficial: https://www.golfdirect
+ o.com/micro/game/6adf583305d0e598f3de5fd6/summary\nConfirma fechas y condi
+ ciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6adf583305d0e598f3de5fd6/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:9397617da60dfc837d8b@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261217
+DTEND;VALUE=DATE:20261218
+SUMMARY:Liga Social Damas Volvo Vypsa Heineken - Malaga Costa & Bebidas
+LOCATION:Real Guadalhorce Club de Golf\, Campanillas\, Málaga
+DESCRIPTION:Social de club · Scramble · Parejas\nInscripción: abre el 10
+  de diciembre\, cierra el 15 de diciembre.\nFicha oficial: https://www.gol
+ fdirecto.com/micro/game/6aaecb58ea1573c17a4709d8/summary\nConfirma fechas 
+ y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6aaecb58ea1573c17a4709d8/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:51cad761b7eda80c700d@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261219
+DTEND;VALUE=DATE:20261220
+SUMMARY:Campeonato Internacional de Andalucía Dobles Senior
+LOCATION:Golf Torrequebrada\, Benalmadena Costa\, Málaga
+DESCRIPTION:Senior · Medal Play · Parejas\nFicha oficial: https://www.nex
+ tcaddy.com/tour/61171\nConfirma fechas y condiciones en la web del organiz
+ ador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nextcaddy.com/tour/61171
+END:VEVENT
+BEGIN:VEVENT
+UID:f1fbe1518b25918ff316@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261227
+DTEND;VALUE=DATE:20261228
+SUMMARY:Final Nacional - Parador de Malaga Golf - 1ª y 2ª Categoría
+LOCATION:Parador Málaga del Golf\, Malaga\, Málaga
+DESCRIPTION:Social de club · Medal Play · Individual\nInscripción: abre 
+ el 1 de septiembre\, cierra el 1 de diciembre.\nPrecio: Gratis.\nFicha ofi
+ cial: https://www.nextcaddy.com/tour/72626\nConfirma fechas y condiciones 
+ en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nextcaddy.com/tour/72626
+END:VEVENT
+BEGIN:VEVENT
+UID:83821345680db06e3eeb@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261227
+DTEND;VALUE=DATE:20261228
+SUMMARY:V Torneo Padres e Hijos TEM2026 GROSS DENTISTAS Costa del Sol
+LOCATION:el Chaparral Golf Club\, Mijas Costa\, Málaga
+DESCRIPTION:Juvenil · Stableford · Individual\nInscripción: abre el 19 d
+ e junio\, cierra el 23 de diciembre.\nPrecio: Gratis.\nFicha oficial: http
+ s://www.nextcaddy.com/tour/71808\nConfirma fechas y condiciones en la web 
+ del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nextcaddy.com/tour/71808
+END:VEVENT
+BEGIN:VEVENT
+UID:baa718a19edfc4e25e5d@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261229
+DTEND;VALUE=DATE:20261230
+SUMMARY:Empleados & Abonados
+LOCATION:Club Deportivo Añoreta Golf\, Rincon de la Victoria\, Málaga
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 13 de marzo\, cierra el 13 de marzo.\nPrecio: Gratis.\nFicha oficial: h
+ ttps://www.nextcaddy.com/tour/69151\nConfirma fechas y condiciones en la w
+ eb del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nextcaddy.com/tour/69151
+END:VEVENT
+BEGIN:VEVENT
+UID:7881a3b05362e62e643f@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261231
+DTEND;VALUE=DATE:20270101
+SUMMARY:La Cala Resort - End of Year Tournament
+LOCATION:La Cala Resort\, La Cala de Mijas\, Málaga
+DESCRIPTION:Circuito comercial · Fourball · Parejas\nInscripción: abre e
+ l 1 de septiembre\, cierra el 29 de diciembre.\nPrecio: 85 €.\nFicha ofi
+ cial: https://www.golfdirecto.com/micro/game/6a8817db96dc2a94e1eec253/summ
+ ary\nConfirma fechas y condiciones en la web del organizador. Vía Bander
+ ín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6a8817db96dc2a94e1eec253/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:ba864d429521bd6c79b7@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261231
+DTEND;VALUE=DATE:20270101
+SUMMARY:Ranking Escuela 2026
+LOCATION:Real Club de Golf Guadalmina\, Guadalmina\, Málaga
+DESCRIPTION:Juvenil · Stableford · Individual\nInscripción: abre el 31 d
+ e diciembre\, cierra el 30 de diciembre.\nPrecio: Gratis.\nFicha oficial: 
+ https://www.nextcaddy.com/tour/68574\nConfirma fechas y condiciones en la 
+ web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nextcaddy.com/tour/68574
+END:VEVENT
+BEGIN:VEVENT
+UID:57ecf94b789631fa5a4b@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20270129
+DTEND;VALUE=DATE:20270130
+SUMMARY:Away - Santa Maria - Ladies Western League
+LOCATION:La Cala Resort\, La Cala de Mijas\, Málaga
+DESCRIPTION:Social de club · Fourball · Parejas\nInscripción: cierra el 
+ 24 de septiembre.\nFicha oficial: https://www.golfdirecto.com/micro/game/6
+ ab6f97a8cfbb19c03fca11e/summary\nConfirma fechas y condiciones en la web d
+ el organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6ab6f97a8cfbb19c03fca11e/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:cdef426c5210979b581f@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20270131
+DTEND;VALUE=DATE:20270201
+SUMMARY:T3 La Cala Junior Golf League 26-27
+LOCATION:La Cala Resort\, La Cala de Mijas\, Málaga
+DESCRIPTION:Juvenil · Stableford · Individual\nInscripción: abre el 26 d
+ e octubre\, cierra el 30 de enero.\nPrecio: 10 €.\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/6adf7657b0e08ac015af1696/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6adf7657b0e08ac015af1696/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:065ded78153bf9906208@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20270221
+DTEND;VALUE=DATE:20270222
+SUMMARY:T4 La Cala Junior Golf League 26-27
+LOCATION:La Cala Resort\, La Cala de Mijas\, Málaga
+DESCRIPTION:Juvenil · Stableford · Individual\nInscripción: abre el 26 d
+ e octubre\, cierra el 20 de febrero.\nPrecio: 10 €.\nFicha oficial: http
+ s://www.golfdirecto.com/micro/game/6adf76e3b0e08ac015d6817e/summary\nConfi
+ rma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6adf76e3b0e08ac015d6817e/summary
+END:VEVENT
+END:VCALENDAR

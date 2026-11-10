@@ -1,0 +1,41 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Banderin//Torneos de golf//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Banderín · Club de Golf Vallromanes
+X-WR-CALDESC:Torneos de golf: Club de Golf Vallromanes. Se actualiza cada m
+ añana. https://banderin.pages.dev
+X-WR-TIMEZONE:Europe/Madrid
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:f14cee7ced673658fc99@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:Torneo Padres e Hijos
+LOCATION:Club de Golf Vallromanes\, Vallromanes\, Barcelona
+DESCRIPTION:Juvenil · Individual\nFicha oficial: https://www.catgolf.com/e
+ s/campeonatos/torneo-padres-e-hijos-2026-11-22\nConfirma fechas y condicio
+ nes en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.catgolf.com/es/campeonatos/torneo-padres-e-hijos-2026-11-22
+END:VEVENT
+BEGIN:VEVENT
+UID:19bba16304f1e5baa18e@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261215
+DTEND;VALUE=DATE:20261216
+SUMMARY:Open Vallromanes Golf & brunch
+LOCATION:Club de Golf Vallromanes\, Vallromanes\, Barcelona
+DESCRIPTION:Social de club · Individual\nFicha oficial: https://www.catgol
+ f.com/es/campeonatos/open-vallromanes-golf-brunch-2026-12-15\nConfirma fec
+ has y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.catgolf.com/es/campeonatos/open-vallromanes-golf-brunch-202
+ 6-12-15
+END:VEVENT
+END:VCALENDAR

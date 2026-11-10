@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Banderin//Torneos de golf//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Banderín · Real Club la Moraleja
+X-WR-CALDESC:Torneos de golf: Real Club la Moraleja. Se actualiza cada mañ
+ ana. https://banderin.pages.dev
+X-WR-TIMEZONE:Europe/Madrid
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:96c0114a3618d3acfd17@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261222
+DTEND;VALUE=DATE:20261223
+SUMMARY:Final Ranking Juvenil “D. Luis Zornoza”
+LOCATION:Real Club la Moraleja\, Alcobendas\, Madrid
+DESCRIPTION:Juvenil · Medal Play · Individual\nInscripción: abre el 22 d
+ e diciembre\, cierra el 22 de diciembre.\nPrecio: Gratis.\nFicha oficial: 
+ https://www.nextcaddy.com/tour/74006\nConfirma fechas y condiciones en la 
+ web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nextcaddy.com/tour/74006
+END:VEVENT
+END:VCALENDAR

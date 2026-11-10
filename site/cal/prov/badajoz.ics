@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Banderin//Torneos de golf//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Banderín · Badajoz
+X-WR-CALDESC:Torneos de golf: Badajoz. Se actualiza cada mañana. https://b
+ anderin.pages.dev
+X-WR-TIMEZONE:Europe/Madrid
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:8c53c368008766bccce7@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261213
+SUMMARY:II Torneo de Navidad
+LOCATION:Don Tello Club de Golf\, Merida\, Badajoz
+DESCRIPTION:Social de club · Stableford · Parejas\nFicha oficial: https:/
+ /www.golfdirecto.com/micro/game/698f8d90c3938be59d062d8d/summary\nConfirma
+  fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/698f8d90c3938be59d062d8d/summary
+END:VEVENT
+END:VCALENDAR

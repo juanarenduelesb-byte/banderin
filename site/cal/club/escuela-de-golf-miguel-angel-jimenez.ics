@@ -1,0 +1,57 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Banderin//Torneos de golf//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Banderín · Escuela de Golf Miguel ángel Jiménez
+X-WR-CALDESC:Torneos de golf: Escuela de Golf Miguel ángel Jiménez. Se ac
+ tualiza cada mañana. https://banderin.pages.dev
+X-WR-TIMEZONE:Europe/Madrid
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:c260dd565878d73c9abc@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:LIGAS MAJ - 18 Hoyos - Noviembre
+LOCATION:Escuela de Golf Miguel ángel Jiménez\, Torremolinos\, Málaga
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 14 de octubre\, cierra el 12 de noviembre.\nPrecio: 10 €.\nFicha ofic
+ ial: https://www.nextcaddy.com/tour/74886\nConfirma fechas y condiciones e
+ n la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nextcaddy.com/tour/74886
+END:VEVENT
+BEGIN:VEVENT
+UID:cb87de01cfb1889395de@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:Pequecircuito Zona C
+LOCATION:Escuela de Golf Miguel ángel Jiménez\, Torremolinos\, Málaga
+DESCRIPTION:Juvenil · Medal Play · Individual\nInscripción: abre el 6 de
+  octubre\, cierra el 16 de noviembre.\nFicha oficial: https://www.nextcadd
+ y.com/tour/61236\nConfirma fechas y condiciones en la web del organizador.
+  Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nextcaddy.com/tour/61236
+END:VEVENT
+BEGIN:VEVENT
+UID:ca92ddc66e8df6ba9312@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:III Torneo Academia Infantil 2026-2027 - 1ª Categoría
+LOCATION:Escuela de Golf Miguel ángel Jiménez\, Torremolinos\, Málaga
+DESCRIPTION:Juvenil · Stableford · Individual\nInscripción: abre el 1 de
+  noviembre\, cierra el 25 de noviembre.\nPrecio: 18 €.\nFicha oficial: h
+ ttps://www.nextcaddy.com/tour/74915\nConfirma fechas y condiciones en la w
+ eb del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nextcaddy.com/tour/74915
+END:VEVENT
+END:VCALENDAR

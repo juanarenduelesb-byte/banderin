@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Banderin//Torneos de golf//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Banderín · Norba Club de Golf
+X-WR-CALDESC:Torneos de golf: Norba Club de Golf. Se actualiza cada mañana
+ . https://banderin.pages.dev
+X-WR-TIMEZONE:Europe/Madrid
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:498f90de13b4586126b9@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:VIII Torneo Juvenil de Golf "Jorge Campillo"
+LOCATION:Norba Club de Golf\, Caceres\, Cáceres
+DESCRIPTION:Juvenil · Medal Play · Individual\nInscripción: abre el 5 de
+  noviembre\, cierra el 19 de noviembre.\nFicha oficial: https://www.golfdi
+ recto.com/micro/game/6aece3d99dfa5416307d6f26/summary\nConfirma fechas y c
+ ondiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6aece3d99dfa5416307d6f26/summary
+END:VEVENT
+END:VCALENDAR

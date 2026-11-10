@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Banderin//Torneos de golf//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Banderín · Saurines Golf
+X-WR-CALDESC:Torneos de golf: Saurines Golf. Se actualiza cada mañana. htt
+ ps://banderin.pages.dev
+X-WR-TIMEZONE:Europe/Madrid
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:27cff68f7c5b2858099f@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20270117
+DTEND;VALUE=DATE:20270118
+SUMMARY:Alamo Golf Society
+LOCATION:Saurines Golf\, Roldan\, Murcia
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 13 de octubre\, cierra el 15 de enero.\nPrecio: 10 €.\nFicha oficial:
+  https://www.golfdirecto.com/micro/game/6ace4c3f3889028eef61621a/summary\n
+ Confirma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6ace4c3f3889028eef61621a/summary
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Banderin//Torneos de golf//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Banderín · Golf Costa Daurada
+X-WR-CALDESC:Torneos de golf: Golf Costa Daurada. Se actualiza cada mañana
+ . https://banderin.pages.dev
+X-WR-TIMEZONE:Europe/Madrid
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:b5b7dd47c3328a584c38@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20270918
+DTEND;VALUE=DATE:20270920
+SUMMARY:Campionat de Catalunya Matchplay Sots-16/14/12/10
+LOCATION:Golf Costa Daurada\, El Catllar\, Tarragona
+DESCRIPTION:Absoluto · Match Play · Individual\nFicha oficial: https://ww
+ w.catgolf.com/es/campeonatos/campionat-de-catalunya-matchplay-sots-1614121
+ 0-2027-09-18\nConfirma fechas y condiciones en la web del organizador. Ví
+ a Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.catgolf.com/es/campeonatos/campionat-de-catalunya-matchplay
+ -sots-16141210-2027-09-18
+END:VEVENT
+END:VCALENDAR

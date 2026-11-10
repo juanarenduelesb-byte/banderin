@@ -1,0 +1,86 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Banderin//Torneos de golf//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Banderín · Club Campomar
+X-WR-CALDESC:Torneos de golf: Club Campomar. Se actualiza cada mañana. htt
+ ps://banderin.pages.dev
+X-WR-TIMEZONE:Europe/Madrid
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:2c6166e707c8a7967193@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:2ª Prueba XV Desafio Campomar - Armada
+LOCATION:Club Campomar\, Santa Margarita (naron)\, A Coruña
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 22 de octubre\, cierra el 13 de noviembre.\nFicha oficial: https://www.
+ golfdirecto.com/micro/game/6ad9da43a1531ddba4be8b5b/summary\nConfirma fech
+ as y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6ad9da43a1531ddba4be8b5b/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:2b41bb7241f2eac639b5@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:2ª Prueba Liga de Parejas Campomar 26/27
+LOCATION:Club Campomar\, Santa Margarita (naron)\, A Coruña
+DESCRIPTION:Social de club · Greensome · Parejas\nInscripción: abre el 2
+ 3 de octubre\, cierra el 20 de noviembre.\nFicha oficial: https://www.golf
+ directo.com/micro/game/6adb7245042bd6a99e0224c6/summary\nConfirma fechas y
+  condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6adb7245042bd6a99e0224c6/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:423f6d882c17af569bdd@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:3ª Prueba Liga de Parejas Campomar 26/27
+LOCATION:Club Campomar\, Santa Margarita (naron)\, A Coruña
+DESCRIPTION:Social de club · Fourball · Parejas\nInscripción: abre el 23
+  de octubre\, cierra el 27 de noviembre.\nFicha oficial: https://www.golfd
+ irecto.com/micro/game/6adb729e042bd6a99e102d30/summary\nConfirma fechas y 
+ condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6adb729e042bd6a99e102d30/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:9a621753a020b7454861@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261206
+SUMMARY:4ª Prueba Liga de Parejas Campomar 20/27
+LOCATION:Club Campomar\, Santa Margarita (naron)\, A Coruña
+DESCRIPTION:Social de club · Stableford · Parejas\nInscripción: abre el 
+ 23 de octubre\, cierra el 4 de diciembre.\nFicha oficial: https://www.golf
+ directo.com/micro/game/6adb7310042bd6a99e20dda1/summary\nConfirma fechas y
+  condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6adb7310042bd6a99e20dda1/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:fe078ba853674c4f4b96@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261219
+DTEND;VALUE=DATE:20261220
+SUMMARY:Cestas de Navidad 2026
+LOCATION:Club Campomar\, Santa Margarita (naron)\, A Coruña
+DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
+ s://www.golfdirecto.com/micro/game/6adb7342042bd6a99e2e3161/summary\nConfi
+ rma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6adb7342042bd6a99e2e3161/summary
+END:VEVENT
+END:VCALENDAR

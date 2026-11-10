@@ -1,0 +1,45 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Banderin//Torneos de golf//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Banderín · Son Vida Club de Golf
+X-WR-CALDESC:Torneos de golf: Son Vida Club de Golf. Se actualiza cada mañ
+ ana. https://banderin.pages.dev
+X-WR-TIMEZONE:Europe/Madrid
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:58947192c755b7c9f39d@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:5ª Prueba Liga Social 2026 "El Caire Espai Cuina" Golf Son Vida
+LOCATION:Son Vida Club de Golf\, Palma de Mallorca\, Illes Balears
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 2 de octubre\, cierra el 21 de noviembre.\nPrecio: 78 €.\nFicha ofici
+ al: https://www.golfdirecto.com/micro/game/6abfbd17ea19e81b2a2a8c8f/summar
+ y\nConfirma fechas y condiciones en la web del organizador. Vía Banderín
+ .
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6abfbd17ea19e81b2a2a8c8f/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:e186f6a7308668756eb1@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:VI Sheraton Mallorca Golf Tournament - 29th Nov. 2026 - Golf Son Vi
+ da
+LOCATION:Son Vida Club de Golf\, Palma de Mallorca\, Illes Balears
+DESCRIPTION:Circuito comercial · Stableford · Individual\nInscripción: a
+ bre el 10 de julio\, cierra el 19 de noviembre.\nPrecio: 120 €.\nFicha o
+ ficial: https://www.golfdirecto.com/micro/game/6a50b3fd6c5866fb900670f4/su
+ mmary\nConfirma fechas y condiciones en la web del organizador. Vía Bande
+ rín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6a50b3fd6c5866fb900670f4/summary
+END:VEVENT
+END:VCALENDAR

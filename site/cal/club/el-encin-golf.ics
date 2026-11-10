@@ -1,0 +1,56 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Banderin//Torneos de golf//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Banderín · El Encin Golf
+X-WR-CALDESC:Torneos de golf: El Encin Golf. Se actualiza cada mañana. htt
+ ps://banderin.pages.dev
+X-WR-TIMEZONE:Europe/Madrid
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:dea4fb05d4fae930fbd9@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:Cuartillos Liga 2026 - Torneo 9
+LOCATION:El Encin Golf\, Alcala de Henares\, Madrid
+DESCRIPTION:Social de club · Medal Play · Individual\nInscripción: abre 
+ el 22 de octubre\, cierra el 21 de noviembre.\nFicha oficial: https://www.
+ golfdirecto.com/micro/game/6ad99f022ab1ab88b1e94be5/summary\nConfirma fech
+ as y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6ad99f022ab1ab88b1e94be5/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:d8c888a55aa0b7b100ba@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:Copa 2 Escuelas
+LOCATION:El Encin Golf\, Alcala de Henares\, Madrid
+DESCRIPTION:Juvenil · Stableford · Individual\nInscripción: abre el 19 d
+ e noviembre\, cierra el 26 de noviembre.\nPrecio: 26 €.\nFicha oficial: 
+ https://www.golfdirecto.com/micro/game/6af06a89e0349cc290c26954/summary\nC
+ onfirma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6af06a89e0349cc290c26954/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:df8e4fd2eeb11542bc99@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261220
+DTEND;VALUE=DATE:20261221
+SUMMARY:Torneo de Navidad Encín Golf
+LOCATION:El Encin Golf\, Alcala de Henares\, Madrid
+DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
+ s://www.golfdirecto.com/micro/game/6967cc4babb5fe3c9ddaafbb/summary\nConfi
+ rma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6967cc4babb5fe3c9ddaafbb/summary
+END:VEVENT
+END:VCALENDAR

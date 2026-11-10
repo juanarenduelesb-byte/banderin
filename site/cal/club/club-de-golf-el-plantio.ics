@@ -1,0 +1,44 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Banderin//Torneos de golf//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Banderín · Club de Golf el Plantio
+X-WR-CALDESC:Torneos de golf: Club de Golf el Plantio. Se actualiza cada ma
+ ñana. https://banderin.pages.dev
+X-WR-TIMEZONE:Europe/Madrid
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:5e67d5b29b4e1093ecb1@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:6ª Prueba Liga Par 3 2º Turno
+LOCATION:Club de Golf el Plantio\, Bacarot\, Alicante
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 22 de octubre\, cierra el 19 de noviembre.\nPrecio: 15 €.\nFicha ofic
+ ial: https://www.golfdirecto.com/micro/game/6ada0d01a1531ddba48cf7b4/summa
+ ry\nConfirma fechas y condiciones en la web del organizador. Vía Banderí
+ n.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6ada0d01a1531ddba48cf7b4/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:371b0a9454dda6ab6c7d@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:SAS Stableford Eclectic
+LOCATION:Club de Golf el Plantio\, Bacarot\, Alicante
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 12 de noviembre\, cierra el 25 de noviembre.\nPrecio: 56 €.\nFicha of
+ icial: https://www.golfdirecto.com/micro/game/6aef08a6ec94b7c14e4d55ca/sum
+ mary\nConfirma fechas y condiciones en la web del organizador. Vía Bander
+ ín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6aef08a6ec94b7c14e4d55ca/summary
+END:VEVENT
+END:VCALENDAR

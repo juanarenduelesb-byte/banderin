@@ -1,0 +1,83 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Banderin//Torneos de golf//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Banderín · Real Aero Club de Vigo
+X-WR-CALDESC:Torneos de golf: Real Aero Club de Vigo. Se actualiza cada ma
+ ñana. https://banderin.pages.dev
+X-WR-TIMEZONE:Europe/Madrid
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:a6896bf43c307e869cac@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:III Torneo Lotus
+LOCATION:Real Aero Club de Vigo\, Vigo\, Pontevedra
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 6 de noviembre\, cierra el 13 de noviembre.\nFicha oficial: https://www
+ .golfdirecto.com/micro/game/6966c2d6cb999c8d2283c3f7/summary\nConfirma fec
+ has y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6966c2d6cb999c8d2283c3f7/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:9b716e89650312d3e06b@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:Otoño Padres & Hijos 5
+LOCATION:Real Aero Club de Vigo\, Vigo\, Pontevedra
+DESCRIPTION:Social de club · Foursome · Parejas\nFicha oficial: https://w
+ ww.golfdirecto.com/micro/game/6963de239c21a39f5820cf40/summary\nConfirma f
+ echas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6963de239c21a39f5820cf40/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:454026704cc01e16378b@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+SUMMARY:Cestas de Navidad
+LOCATION:Real Aero Club de Vigo\, Vigo\, Pontevedra
+DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
+ s://www.golfdirecto.com/micro/game/6966c696cb999c8d228a1c04/summary\nConfi
+ rma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6966c696cb999c8d228a1c04/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:abb026fdbeb7a0afdb7d@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+SUMMARY:Navidad Padres & Hijos 5
+LOCATION:Real Aero Club de Vigo\, Vigo\, Pontevedra
+DESCRIPTION:Social de club · Foursome · Parejas\nFicha oficial: https://w
+ ww.golfdirecto.com/micro/game/6963e0a89c21a39f5862cfc0/summary\nConfirma f
+ echas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6963e0a89c21a39f5862cfc0/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:4c05a930ff0c715e4cd2@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261229
+DTEND;VALUE=DATE:20261230
+SUMMARY:II Torneo Fin de Año
+LOCATION:Real Aero Club de Vigo\, Vigo\, Pontevedra
+DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
+ s://www.golfdirecto.com/micro/game/6966c820cb999c8d2292ffef/summary\nConfi
+ rma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6966c820cb999c8d2292ffef/summary
+END:VEVENT
+END:VCALENDAR

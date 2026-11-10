@@ -1,0 +1,104 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Banderin//Torneos de golf//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Banderín · La Cala Resort
+X-WR-CALDESC:Torneos de golf: La Cala Resort. Se actualiza cada mañana. ht
+ tps://banderin.pages.dev
+X-WR-TIMEZONE:Europe/Madrid
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:723185b2bb79d551cb24@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:T2 La Cala Junior Golf League 26-27
+LOCATION:La Cala Resort\, La Cala de Mijas\, Málaga
+DESCRIPTION:Juvenil · Stableford · Individual\nInscripción: abre el 6 de
+  octubre\, cierra el 21 de noviembre.\nPrecio: 10 €.\nFicha oficial: htt
+ ps://www.golfdirecto.com/micro/game/6ac50d4f6dee272525916b20/summary\nConf
+ irma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6ac50d4f6dee272525916b20/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:ef0818aa96daa548e0df@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261130
+SUMMARY:Andalucía Costa del Sol Open de España 2026
+LOCATION:La Cala Resort\, Mijas\, Málaga
+DESCRIPTION:Profesional · Medal Play · Individual\nFicha oficial: https:/
+ /rfegolf.es/competicion/andalucia-costa-del-sol-open-de-espana-presented-b
+ y-oysho-2026\nConfirma fechas y condiciones en la web del organizador. Ví
+ a Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://rfegolf.es/competicion/andalucia-costa-del-sol-open-de-espana-p
+ resented-by-oysho-2026
+END:VEVENT
+BEGIN:VEVENT
+UID:7881a3b05362e62e643f@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261231
+DTEND;VALUE=DATE:20270101
+SUMMARY:La Cala Resort - End of Year Tournament
+LOCATION:La Cala Resort\, La Cala de Mijas\, Málaga
+DESCRIPTION:Circuito comercial · Fourball · Parejas\nInscripción: abre e
+ l 1 de septiembre\, cierra el 29 de diciembre.\nPrecio: 85 €.\nFicha ofi
+ cial: https://www.golfdirecto.com/micro/game/6a8817db96dc2a94e1eec253/summ
+ ary\nConfirma fechas y condiciones en la web del organizador. Vía Bander
+ ín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6a8817db96dc2a94e1eec253/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:57ecf94b789631fa5a4b@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20270129
+DTEND;VALUE=DATE:20270130
+SUMMARY:Away - Santa Maria - Ladies Western League
+LOCATION:La Cala Resort\, La Cala de Mijas\, Málaga
+DESCRIPTION:Social de club · Fourball · Parejas\nInscripción: cierra el 
+ 24 de septiembre.\nFicha oficial: https://www.golfdirecto.com/micro/game/6
+ ab6f97a8cfbb19c03fca11e/summary\nConfirma fechas y condiciones en la web d
+ el organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6ab6f97a8cfbb19c03fca11e/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:cdef426c5210979b581f@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20270131
+DTEND;VALUE=DATE:20270201
+SUMMARY:T3 La Cala Junior Golf League 26-27
+LOCATION:La Cala Resort\, La Cala de Mijas\, Málaga
+DESCRIPTION:Juvenil · Stableford · Individual\nInscripción: abre el 26 d
+ e octubre\, cierra el 30 de enero.\nPrecio: 10 €.\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/6adf7657b0e08ac015af1696/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6adf7657b0e08ac015af1696/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:065ded78153bf9906208@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20270221
+DTEND;VALUE=DATE:20270222
+SUMMARY:T4 La Cala Junior Golf League 26-27
+LOCATION:La Cala Resort\, La Cala de Mijas\, Málaga
+DESCRIPTION:Juvenil · Stableford · Individual\nInscripción: abre el 26 d
+ e octubre\, cierra el 20 de febrero.\nPrecio: 10 €.\nFicha oficial: http
+ s://www.golfdirecto.com/micro/game/6adf76e3b0e08ac015d6817e/summary\nConfi
+ rma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6adf76e3b0e08ac015d6817e/summary
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,41 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Banderin//Torneos de golf//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Banderín · El Robledal Golf
+X-WR-CALDESC:Torneos de golf: El Robledal Golf. Se actualiza cada mañana. 
+ https://banderin.pages.dev
+X-WR-TIMEZONE:Europe/Madrid
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:81b511565fd6899692b3@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261220
+DTEND;VALUE=DATE:20261221
+SUMMARY:Torneo Navidad - Ggc
+LOCATION:El Robledal Golf\, Villalbilla\, Madrid
+DESCRIPTION:Social de club · Stableford · Parejas\nFicha oficial: https:/
+ /www.golfdirecto.com/micro/game/6aabbf6eac3438945f492c77/summary\nConfirma
+  fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6aabbf6eac3438945f492c77/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:1b713279cddce7c7cca2@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261220
+DTEND;VALUE=DATE:20261221
+SUMMARY:Torneo de Navidad Grow Golf Club - El Robledal Golf
+LOCATION:El Robledal Golf\, Villalbilla\, Madrid
+DESCRIPTION:Circuito comercial · Individual\nFicha oficial: https://growsp
+ ortsam.com/etn/torneo-de-navidad-grow-golf-club-el-robledal-golf/\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://growsportsam.com/etn/torneo-de-navidad-grow-golf-club-el-robled
+ al-golf/
+END:VEVENT
+END:VCALENDAR

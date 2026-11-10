@@ -1,0 +1,57 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Banderin//Torneos de golf//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Banderín · Club Deportivo Añoreta Golf
+X-WR-CALDESC:Torneos de golf: Club Deportivo Añoreta Golf. Se actualiza ca
+ da mañana. https://banderin.pages.dev
+X-WR-TIMEZONE:Europe/Madrid
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:809d7a1a70264abc490f@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261206
+SUMMARY:Torneo Benefico Anoreta Golf
+LOCATION:Club Deportivo Añoreta Golf\, Rincon de la Victoria\, Málaga
+DESCRIPTION:Benéfico · Stableford · Individual\nInscripción: abre el 13
+  de marzo\, cierra el 3 de diciembre.\nPrecio: 45 €.\nFicha oficial: htt
+ ps://www.nextcaddy.com/tour/69149\nConfirma fechas y condiciones en la web
+  del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nextcaddy.com/tour/69149
+END:VEVENT
+BEGIN:VEVENT
+UID:45328a135e2fc1044202@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261206
+SUMMARY:Torneo Colegio Abogados Málaga
+LOCATION:Club Deportivo Añoreta Golf\, Rincon de la Victoria\, Málaga
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 6 de noviembre\, cierra el 5 de diciembre.\nPrecio: 75 €.\nFicha ofic
+ ial: https://www.nextcaddy.com/tour/75205\nConfirma fechas y condiciones e
+ n la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nextcaddy.com/tour/75205
+END:VEVENT
+BEGIN:VEVENT
+UID:baa718a19edfc4e25e5d@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261229
+DTEND;VALUE=DATE:20261230
+SUMMARY:Empleados & Abonados
+LOCATION:Club Deportivo Añoreta Golf\, Rincon de la Victoria\, Málaga
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 13 de marzo\, cierra el 13 de marzo.\nPrecio: Gratis.\nFicha oficial: h
+ ttps://www.nextcaddy.com/tour/69151\nConfirma fechas y condiciones en la w
+ eb del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nextcaddy.com/tour/69151
+END:VEVENT
+END:VCALENDAR

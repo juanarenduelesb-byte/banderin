@@ -1,0 +1,147 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Banderin//Torneos de golf//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Banderín · Golf Taradell
+X-WR-CALDESC:Torneos de golf: Golf Taradell. Se actualiza cada mañana. htt
+ ps://banderin.pages.dev
+X-WR-TIMEZONE:Europe/Madrid
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:5d63e860f532fa0f7626@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261116
+SUMMARY:1A Prova Lliga D'Hivern 9 Forats
+LOCATION:Golf Taradell\, Taradell\, Barcelona
+DESCRIPTION:Social de club · Individual\nFicha oficial: https://www.catgol
+ f.com/es/campeonatos/1a-prova-lliga-dhivern-9-forats-2026-11-14\nConfirma 
+ fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.catgolf.com/es/campeonatos/1a-prova-lliga-dhivern-9-forats-
+ 2026-11-14
+END:VEVENT
+BEGIN:VEVENT
+UID:e23fbc8ed1be707719a4@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261116
+DTEND;VALUE=DATE:20261117
+SUMMARY:Torneig Dels Dilluns 9 Forats
+LOCATION:Golf Taradell\, Taradell\, Barcelona
+DESCRIPTION:Social de club · Individual\nFicha oficial: https://www.catgol
+ f.com/es/campeonatos/torneig-dels-dilluns-9-forats-2026-11-16\nConfirma fe
+ chas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.catgolf.com/es/campeonatos/torneig-dels-dilluns-9-forats-20
+ 26-11-16
+END:VEVENT
+BEGIN:VEVENT
+UID:1bb10f394a86487e9819@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261123
+DTEND;VALUE=DATE:20261124
+SUMMARY:Torneig Dels Dilluns 9 Forats
+LOCATION:Golf Taradell\, Taradell\, Barcelona
+DESCRIPTION:Social de club · Individual\nFicha oficial: https://www.catgol
+ f.com/es/campeonatos/torneig-dels-dilluns-9-forats-2026-11-23\nConfirma fe
+ chas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.catgolf.com/es/campeonatos/torneig-dels-dilluns-9-forats-20
+ 26-11-23
+END:VEVENT
+BEGIN:VEVENT
+UID:3cf45c8ddc73eab5f047@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261130
+SUMMARY:2A Prova Lliga D'Hivern 9 Forats
+LOCATION:Golf Taradell\, Taradell\, Barcelona
+DESCRIPTION:Social de club · Individual\nFicha oficial: https://www.catgol
+ f.com/es/campeonatos/2a-prova-lliga-dhivern-9-forats-2026-11-28\nConfirma 
+ fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.catgolf.com/es/campeonatos/2a-prova-lliga-dhivern-9-forats-
+ 2026-11-28
+END:VEVENT
+BEGIN:VEVENT
+UID:1b6a108118d3cc6b62ae@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261201
+SUMMARY:Torneig Dels Dilluns 9 Forats
+LOCATION:Golf Taradell\, Taradell\, Barcelona
+DESCRIPTION:Social de club · Individual\nFicha oficial: https://www.catgol
+ f.com/es/campeonatos/torneig-dels-dilluns-9-forats-2026-11-30\nConfirma fe
+ chas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.catgolf.com/es/campeonatos/torneig-dels-dilluns-9-forats-20
+ 26-11-30
+END:VEVENT
+BEGIN:VEVENT
+UID:a0af81d71062a00a6020@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261214
+SUMMARY:3A Prova Lliga D'Hivern 9 Forats
+LOCATION:Golf Taradell\, Taradell\, Barcelona
+DESCRIPTION:Social de club · Individual\nFicha oficial: https://www.catgol
+ f.com/es/campeonatos/3a-prova-lliga-dhivern-9-forats-2026-12-12\nConfirma 
+ fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.catgolf.com/es/campeonatos/3a-prova-lliga-dhivern-9-forats-
+ 2026-12-12
+END:VEVENT
+BEGIN:VEVENT
+UID:3f50859cbdc88fa07728@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261214
+DTEND;VALUE=DATE:20261215
+SUMMARY:Torneig Dels Dilluns 9 Forats
+LOCATION:Golf Taradell\, Taradell\, Barcelona
+DESCRIPTION:Social de club · Individual\nFicha oficial: https://www.catgol
+ f.com/es/campeonatos/torneig-dels-dilluns-9-forats-2026-12-14\nConfirma fe
+ chas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.catgolf.com/es/campeonatos/torneig-dels-dilluns-9-forats-20
+ 26-12-14
+END:VEVENT
+BEGIN:VEVENT
+UID:e94d56334f92060ca42d@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261221
+DTEND;VALUE=DATE:20261222
+SUMMARY:Torneig Dels Dilluns 9 Forats
+LOCATION:Golf Taradell\, Taradell\, Barcelona
+DESCRIPTION:Social de club · Individual\nFicha oficial: https://www.catgol
+ f.com/es/campeonatos/torneig-dels-dilluns-9-forats-2026-12-21\nConfirma fe
+ chas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.catgolf.com/es/campeonatos/torneig-dels-dilluns-9-forats-20
+ 26-12-21
+END:VEVENT
+BEGIN:VEVENT
+UID:afaa7645bdf9477e1445@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261228
+DTEND;VALUE=DATE:20261229
+SUMMARY:Torneig Dels Dilluns 9 Forats
+LOCATION:Golf Taradell\, Taradell\, Barcelona
+DESCRIPTION:Social de club · Individual\nFicha oficial: https://www.catgol
+ f.com/es/campeonatos/torneig-dels-dilluns-9-forats-2026-12-28\nConfirma fe
+ chas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.catgolf.com/es/campeonatos/torneig-dels-dilluns-9-forats-20
+ 26-12-28
+END:VEVENT
+END:VCALENDAR

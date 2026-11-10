@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Banderin//Torneos de golf//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Banderín · Higuerón Marbella Golf Resort
+X-WR-CALDESC:Torneos de golf: Higuerón Marbella Golf Resort. Se actualiza 
+ cada mañana. https://banderin.pages.dev
+X-WR-TIMEZONE:Europe/Madrid
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:d63539440ad2206c24f6@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:Ranking 2026
+LOCATION:Higuerón Marbella Golf Resort\, Fuengirola\, Málaga
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 25 de octubre\, cierra el 12 de noviembre.\nPrecio: 85 €.\nFicha ofic
+ ial: https://www.golfdirecto.com/micro/game/6add0e2dc98c390277f2fdaf/summa
+ ry\nConfirma fechas y condiciones en la web del organizador. Vía Banderí
+ n.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6add0e2dc98c390277f2fdaf/summary
+END:VEVENT
+END:VCALENDAR

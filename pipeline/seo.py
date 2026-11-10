@@ -307,7 +307,7 @@ def cats(ts):
         '<li>%s <b>%d</b></li>' % (e(k), v) for k, v in sorted(c.items(), key=lambda x: -x[1]))
 
 
-def page(path, title, desc, h1, eyebrow, place, ts, crumb_items, extra_nav, counts, current_ccaa, alias=None):
+def page(path, title, desc, h1, eyebrow, place, ts, crumb_items, extra_nav, counts, current_ccaa, alias=None, cal=None):
     cr_html, cr_ld = crumbs(crumb_items)
     ld = [{'@context': 'https://schema.org', '@type': 'CollectionPage', 'name': title, 'description': desc,
            'url': BASE + path, 'inLanguage': 'es', 'isPartOf': {'@type': 'WebSite', 'name': 'Banderín', 'url': BASE + '/'},
@@ -322,14 +322,20 @@ def page(path, title, desc, h1, eyebrow, place, ts, crumb_items, extra_nav, coun
     body = [head(title, desc, path, robots, ld), '<body>', topbar(), '<main>', cr_html,
             '<section class="hero"><p class="eyebrow">%s</p><h1>%s</h1><p class="lede">%s</p>%s'
             '<p class="cta"><a class="btn primary" href="/#lista">Filtrar en el buscador</a>'
-            '<a class="btn ghost" href="/#calendario">Ver el calendario</a></p>'
-            '<p class="upd">Actualizado el %s.</p></section>' % (e(eyebrow), e(h1), e(intro), cats(ts), flong(ISO) + ' de %d' % TODAY.year),
+            '<a class="btn ghost" href="/#calendario">Ver el calendario</a>%s</p>'
+            '<p class="upd">Actualizado el %s.</p></section>' % (e(eyebrow), e(h1), e(intro), cats(ts), cal_link(cal) if ts and cal else '', flong(ISO) + ' de %d' % TODAY.year),
             extra_nav,
             month_groups(ts) if ts else '',
             top_clubs(ts), faq(place), regions_nav(counts, current_ccaa), '</main>', footer(''), '</body></html>']
     out = SITE / path.strip('/') / 'index.html'
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text('\n'.join(body), encoding='utf-8')
+
+
+def cal_link(cal):
+    kind, name = cal
+    web = 'webcal://%s/cal/%s/%s.ics' % (BASE.split('://', 1)[1], kind, slug(name))
+    return '<a class="btn ghost" href="%s" title="Se actualiza solo en tu calendario">Suscribirme al calendario</a>' % e(web)
 
 
 def subnav(title, links):
@@ -389,7 +395,7 @@ def main():
                 % (plural(n, 'torneo', 'torneos'), short)) if n else ('Torneos de golf en %s: calendario de federaciones y clubes, revisado cada mañana.' % short)
         page(path, title, desc, 'Torneos de golf en %s' % short, c, short, ts,
              [('Inicio', '/'), ('Por comunidad', '/%s/' % HUB), (c, path)],
-             subnav('Por provincia', plinks), counts, c, ALIAS.get(c))
+             subnav('Por provincia', plinks), counts, c, ALIAS.get(c), ('ccaa', c))
         pages.append((path, bool(n)))
         for p in provs:
             pts = by_p.get((c, p), [])
@@ -402,7 +408,7 @@ def main():
                     % (plural(pn, 'torneo', 'torneos'), p, c)) if pn else ('Torneos de golf en %s (%s): calendario de federaciones y clubes, revisado cada mañana.' % (p, c))
             page(ppath, title, desc, 'Torneos de golf en %s' % p, c, p, pts,
                  [('Inicio', '/'), ('Por comunidad', '/%s/' % HUB), (c, path), (p, ppath)],
-                 subnav('Otras provincias de %s' % c, sib), counts, c, ALIAS.get(p))
+                 subnav('Otras provincias de %s' % c, sib), counts, c, ALIAS.get(p), ('prov', p))
             pages.append((ppath, bool(pn)))
 
     # Portada: enlaces rastreables a cada comunidad y descripción con la cifra del día

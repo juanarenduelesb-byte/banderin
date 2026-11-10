@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Banderin//Torneos de golf//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Banderín · Jandía Golf Course
+X-WR-CALDESC:Torneos de golf: Jandía Golf Course. Se actualiza cada mañan
+ a. https://banderin.pages.dev
+X-WR-TIMEZONE:Europe/Madrid
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:65f9535ce62430eb8ae8@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:5ª Prueba 18 H. Circuito Juvenil Rafa Cabrera Bello
+LOCATION:Jandía Golf Course\, Morro Jable\, Las Palmas
+DESCRIPTION:Juvenil · Medal Play · Individual\nFicha oficial: https://www
+ .golfdirecto.com/micro/game/6aeb03d9317b13aa703902ce/summary\nConfirma fec
+ has y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6aeb03d9317b13aa703902ce/summary
+END:VEVENT
+END:VCALENDAR

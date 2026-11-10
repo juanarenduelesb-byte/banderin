@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Banderin//Torneos de golf//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Banderín · Burgos
+X-WR-CALDESC:Torneos de golf: Burgos. Se actualiza cada mañana. https://ba
+ nderin.pages.dev
+X-WR-TIMEZONE:Europe/Madrid
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:0c04cda20854d1a314f5@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:Torneo Social de Noviembre
+LOCATION:Club de Golf Villarias\, Villarias\, Burgos
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 1 de noviembre\, cierra el 13 de noviembre.\nFicha oficial: https://www
+ .golfdirecto.com/micro/game/6ae7287710ba0ad4755d9088/summary\nConfirma fec
+ has y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6ae7287710ba0ad4755d9088/summary
+END:VEVENT
+END:VCALENDAR

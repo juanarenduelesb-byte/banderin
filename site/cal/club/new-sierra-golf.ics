@@ -1,0 +1,42 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Banderin//Torneos de golf//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Banderín · New Sierra Golf
+X-WR-CALDESC:Torneos de golf: New Sierra Golf. Se actualiza cada mañana. h
+ ttps://banderin.pages.dev
+X-WR-TIMEZONE:Europe/Madrid
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:137c88f527eb1867bf36@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:Mensual Juvenil - New Sierra Golf
+LOCATION:New Sierra Golf\, Balsicas\, Murcia
+DESCRIPTION:Juvenil · Medal Play · Individual\nInscripción: abre el 2 de
+  noviembre\, cierra el 26 de noviembre.\nPrecio: 10 €.\nFicha oficial: h
+ ttps://www.golfdirecto.com/micro/game/6a994f877be6f1e13e401d53/summary\nCo
+ nfirma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6a994f877be6f1e13e401d53/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:b48c3377bb6423f9d718@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261211
+DTEND;VALUE=DATE:20261212
+SUMMARY:Alamo Golf Society
+LOCATION:New Sierra Golf\, Balsicas\, Murcia
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 15 de enero\, cierra el 9 de diciembre.\nFicha oficial: https://www.gol
+ fdirecto.com/micro/game/69691a6f7205a3564dd36948/summary\nConfirma fechas 
+ y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/69691a6f7205a3564dd36948/summary
+END:VEVENT
+END:VCALENDAR

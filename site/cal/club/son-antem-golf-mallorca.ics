@@ -1,0 +1,100 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Banderin//Torneos de golf//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Banderín · Son Antem Golf Mallorca
+X-WR-CALDESC:Torneos de golf: Son Antem Golf Mallorca. Se actualiza cada ma
+ ñana. https://banderin.pages.dev
+X-WR-TIMEZONE:Europe/Madrid
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:13b2b740888db7915678@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:Handisport Mallorca Open 2026
+LOCATION:Son Antem Golf Mallorca\, Llucmajor\, Illes Balears
+DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
+ s://www.golfdirecto.com/micro/game/6af1898f8527252f60cfe352/summary\nConfi
+ rma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6af1898f8527252f60cfe352/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:a4b4741c90111f27cc25@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:Handisport Open - Unified Sports Team
+LOCATION:Son Antem Golf Mallorca\, Llucmajor\, Illes Balears
+DESCRIPTION:Social de club · Greensome · Parejas\nFicha oficial: https://
+ www.golfdirecto.com/micro/game/6af1a62b8527252f60e74038/summary\nConfirma 
+ fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6af1a62b8527252f60e74038/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:859956b60d6aa6dd8090@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:I torneo Golf & Padel
+LOCATION:Son Antem Golf Mallorca\, Llucmajor\, Illes Balears
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 26 de octubre\, cierra el 13 de noviembre.\nPrecio: 40 €.\nFicha ofic
+ ial: https://www.golfdirecto.com/micro/game/6ad89f53ad3db58f4c2e859e/summa
+ ry\nConfirma fechas y condiciones en la web del organizador. Vía Banderí
+ n.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6ad89f53ad3db58f4c2e859e/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:f18a5a1d32d8c6f6d277@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:VIII Prueba Liga Social 2026
+LOCATION:Son Antem Golf Mallorca\, Llucmajor\, Illes Balears
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 15 de octubre\, cierra el 27 de noviembre.\nPrecio: 10 €.\nFicha ofic
+ ial: https://www.golfdirecto.com/micro/game/692eb14b07280dd3ed35b617/summa
+ ry\nConfirma fechas y condiciones en la web del organizador. Vía Banderí
+ n.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/692eb14b07280dd3ed35b617/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:a84fa35b22e95d5c23db@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261213
+SUMMARY:The New Corporate Balearhouse 2026 - 2027
+LOCATION:Son Antem Golf Mallorca\, Llucmajor\, Illes Balears
+DESCRIPTION:Social de club · Fourball · Parejas\nFicha oficial: https://w
+ ww.golfdirecto.com/micro/game/6adf1ce6b0e08ac015fb8a37/summary\nConfirma f
+ echas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6adf1ce6b0e08ac015fb8a37/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:1d32a440b78cecce4707@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20270123
+DTEND;VALUE=DATE:20270124
+SUMMARY:The New Corporate Balearhouse 2026 - 2027
+LOCATION:Son Antem Golf Mallorca\, Llucmajor\, Illes Balears
+DESCRIPTION:Social de club · Fourball · Parejas\nFicha oficial: https://w
+ ww.golfdirecto.com/micro/game/6adf789bb0e08ac0152fec12/summary\nConfirma f
+ echas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6adf789bb0e08ac0152fec12/summary
+END:VEVENT
+END:VCALENDAR

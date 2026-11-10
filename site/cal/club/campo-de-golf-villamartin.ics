@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Banderin//Torneos de golf//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Banderín · Campo de Golf Villamartin
+X-WR-CALDESC:Torneos de golf: Campo de Golf Villamartin. Se actualiza cada 
+ mañana. https://banderin.pages.dev
+X-WR-TIMEZONE:Europe/Madrid
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:4ab58a859125971cd0c6@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261213
+SUMMARY:PRO-AM - 125 Aniversario CAMARA ORIHUELA - XIII Memorial Benéfico 
+ ANTONIO PEDRERA SOLER
+LOCATION:Campo de Golf Villamartin\, Orihuela-costa\, Alicante
+DESCRIPTION:Profesional · Scramble · Parejas\nInscripción: abre el 24 de
+  septiembre\, cierra el 10 de diciembre.\nPrecio: 130 €.\nFicha oficial:
+  https://www.golfdirecto.com/micro/game/6ab515345978d28e5a1fa60a/summary\n
+ Confirma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6ab515345978d28e5a1fa60a/summary
+END:VEVENT
+END:VCALENDAR

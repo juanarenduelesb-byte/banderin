@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Banderin//Torneos de golf//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Banderín · Antequera Golf
+X-WR-CALDESC:Torneos de golf: Antequera Golf. Se actualiza cada mañana. ht
+ tps://banderin.pages.dev
+X-WR-TIMEZONE:Europe/Madrid
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:bf049ff00b8173562f94@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:Circuito Caser Hipoteca Inversa 2026
+LOCATION:Antequera Golf\, Antequera\, Málaga
+DESCRIPTION:Circuito comercial · Stableford · Individual\nInscripción: a
+ bre el 30 de octubre\, cierra el 20 de noviembre.\nPrecio: 27 €.\nFicha 
+ oficial: https://www.nextcaddy.com/tour/74404\nConfirma fechas y condicion
+ es en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nextcaddy.com/tour/74404
+END:VEVENT
+END:VCALENDAR

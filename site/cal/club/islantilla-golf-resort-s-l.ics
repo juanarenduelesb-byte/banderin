@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Banderin//Torneos de golf//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Banderín · Islantilla Golf Resort\, S.l
+X-WR-CALDESC:Torneos de golf: Islantilla Golf Resort\, S.l. Se actualiza ca
+ da mañana. https://banderin.pages.dev
+X-WR-TIMEZONE:Europe/Madrid
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:0db698db43434f1b9793@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:3ª Jornada Lpgh XXVI Edición (Islantilla . Bellavista)
+LOCATION:Islantilla Golf Resort\, S.l\, Lepe\, Huelva
+DESCRIPTION:Social de club · Fourball · Parejas\nInscripción: abre el 9 
+ de noviembre\, cierra el 13 de noviembre.\nFicha oficial: https://www.golf
+ directo.com/micro/game/6adf115605d0e598f31148f5/summary\nConfirma fechas y
+  condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6adf115605d0e598f31148f5/summary
+END:VEVENT
+END:VCALENDAR

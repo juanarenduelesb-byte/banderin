@@ -1,0 +1,324 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Banderin//Torneos de golf//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Banderín · La Roca Golf
+X-WR-CALDESC:Torneos de golf: La Roca Golf. Se actualiza cada mañana. http
+ s://banderin.pages.dev
+X-WR-TIMEZONE:Europe/Madrid
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:2f060b7bee3c52c2e568@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20261112
+SUMMARY:9 Forats
+LOCATION:La Roca Golf\, La Roca del Valles\, Barcelona
+DESCRIPTION:Social de club · Individual\nFicha oficial: https://www.catgol
+ f.com/es/campeonatos/9-forats-2026-11-11\nConfirma fechas y condiciones en
+  la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.catgolf.com/es/campeonatos/9-forats-2026-11-11
+END:VEVENT
+BEGIN:VEVENT
+UID:11dc1f0bf937dd35c7a4@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261115
+SUMMARY:La Roca Party
+LOCATION:La Roca Golf\, La Roca del Valles\, Barcelona
+DESCRIPTION:Social de club · Individual\nFicha oficial: https://www.catgol
+ f.com/es/campeonatos/la-roca-party-2026-11-13\nConfirma fechas y condicion
+ es en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.catgolf.com/es/campeonatos/la-roca-party-2026-11-13
+END:VEVENT
+BEGIN:VEVENT
+UID:d6e7f31aa4444e055101@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261116
+DTEND;VALUE=DATE:20261117
+SUMMARY:Barbacoa
+LOCATION:La Roca Golf\, La Roca del Valles\, Barcelona
+DESCRIPTION:Social de club · Individual\nFicha oficial: https://www.catgol
+ f.com/es/campeonatos/barbacoa-2026-11-16\nConfirma fechas y condiciones en
+  la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.catgolf.com/es/campeonatos/barbacoa-2026-11-16
+END:VEVENT
+BEGIN:VEVENT
+UID:e469c9008522c91a0f9f@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261118
+DTEND;VALUE=DATE:20261119
+SUMMARY:9 Forats
+LOCATION:La Roca Golf\, La Roca del Valles\, Barcelona
+DESCRIPTION:Social de club · Individual\nFicha oficial: https://www.catgol
+ f.com/es/campeonatos/9-forats-2026-11-18\nConfirma fechas y condiciones en
+  la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.catgolf.com/es/campeonatos/9-forats-2026-11-18
+END:VEVENT
+BEGIN:VEVENT
+UID:ea02e6b6e382dc66e050@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261118
+DTEND;VALUE=DATE:20261119
+SUMMARY:Swing & Dones
+LOCATION:La Roca Golf\, La Roca del Valles\, Barcelona
+DESCRIPTION:Social de club · Individual\nInscripción: abre el 20 de enero
+ \, cierra el 20 de enero.\nFicha oficial: https://www.catgolf.com/es/campe
+ onatos/swing-dones\nConfirma fechas y condiciones en la web del organizado
+ r. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.catgolf.com/es/campeonatos/swing-dones
+END:VEVENT
+BEGIN:VEVENT
+UID:840ef0d2e181fc470c2b@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261123
+SUMMARY:Gastronòmic Golf
+LOCATION:La Roca Golf\, La Roca del Valles\, Barcelona
+DESCRIPTION:Social de club · Individual\nInscripción: abre el 12 de enero
+ \, cierra el 12 de enero.\nFicha oficial: https://www.catgolf.com/es/campe
+ onatos/gastronomic-golf\nConfirma fechas y condiciones en la web del organ
+ izador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.catgolf.com/es/campeonatos/gastronomic-golf
+END:VEVENT
+BEGIN:VEVENT
+UID:8631842d0b812af0b7bf@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261123
+DTEND;VALUE=DATE:20261124
+SUMMARY:Barbacoa
+LOCATION:La Roca Golf\, La Roca del Valles\, Barcelona
+DESCRIPTION:Social de club · Individual\nFicha oficial: https://www.catgol
+ f.com/es/campeonatos/barbacoa-2026-11-23\nConfirma fechas y condiciones en
+  la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.catgolf.com/es/campeonatos/barbacoa-2026-11-23
+END:VEVENT
+BEGIN:VEVENT
+UID:a73823c417046045c723@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261125
+DTEND;VALUE=DATE:20261126
+SUMMARY:9 Forats
+LOCATION:La Roca Golf\, La Roca del Valles\, Barcelona
+DESCRIPTION:Social de club · Individual\nFicha oficial: https://www.catgol
+ f.com/es/campeonatos/9-forats-2026-11-25\nConfirma fechas y condiciones en
+  la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.catgolf.com/es/campeonatos/9-forats-2026-11-25
+END:VEVENT
+BEGIN:VEVENT
+UID:b3ca01e07e85480998c3@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261201
+SUMMARY:Barbacoa
+LOCATION:La Roca Golf\, La Roca del Valles\, Barcelona
+DESCRIPTION:Social de club · Individual\nFicha oficial: https://www.catgol
+ f.com/es/campeonatos/barbacoa-2026-11-30\nConfirma fechas y condiciones en
+  la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.catgolf.com/es/campeonatos/barbacoa-2026-11-30
+END:VEVENT
+BEGIN:VEVENT
+UID:2b5b476e8c244a9f8903@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261202
+DTEND;VALUE=DATE:20261203
+SUMMARY:9 Forats
+LOCATION:La Roca Golf\, La Roca del Valles\, Barcelona
+DESCRIPTION:Social de club · Individual\nFicha oficial: https://www.catgol
+ f.com/es/campeonatos/9-forats-2026-12-02\nConfirma fechas y condiciones en
+  la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.catgolf.com/es/campeonatos/9-forats-2026-12-02
+END:VEVENT
+BEGIN:VEVENT
+UID:ea02e6b6e382dc66e050@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261202
+DTEND;VALUE=DATE:20261203
+SUMMARY:Swing & Dones
+LOCATION:La Roca Golf\, La Roca del Valles\, Barcelona
+DESCRIPTION:Social de club · Individual\nInscripción: abre el 20 de enero
+ \, cierra el 20 de enero.\nFicha oficial: https://www.catgolf.com/es/campe
+ onatos/swing-dones\nConfirma fechas y condiciones en la web del organizado
+ r. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.catgolf.com/es/campeonatos/swing-dones
+END:VEVENT
+BEGIN:VEVENT
+UID:d67a989d5f85cca646cc@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261207
+DTEND;VALUE=DATE:20261208
+SUMMARY:Barbacoa
+LOCATION:La Roca Golf\, La Roca del Valles\, Barcelona
+DESCRIPTION:Social de club · Individual\nFicha oficial: https://www.catgol
+ f.com/es/campeonatos/barbacoa-2026-12-07\nConfirma fechas y condiciones en
+  la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.catgolf.com/es/campeonatos/barbacoa-2026-12-07
+END:VEVENT
+BEGIN:VEVENT
+UID:0dabbe750410571e9c57@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261209
+DTEND;VALUE=DATE:20261210
+SUMMARY:9 Forats
+LOCATION:La Roca Golf\, La Roca del Valles\, Barcelona
+DESCRIPTION:Social de club · Individual\nFicha oficial: https://www.catgol
+ f.com/es/campeonatos/9-forats-2026-12-09\nConfirma fechas y condiciones en
+  la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.catgolf.com/es/campeonatos/9-forats-2026-12-09
+END:VEVENT
+BEGIN:VEVENT
+UID:c144cc75427eb67163fb@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261209
+DTEND;VALUE=DATE:20261210
+SUMMARY:Aesgolf
+LOCATION:La Roca Golf\, La Roca del Valles\, Barcelona
+DESCRIPTION:Senior · Individual\nFicha oficial: https://www.catgolf.com/es
+ /campeonatos/aesgolf-2026-12-09\nConfirma fechas y condiciones en la web d
+ el organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.catgolf.com/es/campeonatos/aesgolf-2026-12-09
+END:VEVENT
+BEGIN:VEVENT
+UID:11ad008235b564f04c7e@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261214
+DTEND;VALUE=DATE:20261215
+SUMMARY:Barbacoa
+LOCATION:La Roca Golf\, La Roca del Valles\, Barcelona
+DESCRIPTION:Social de club · Individual\nFicha oficial: https://www.catgol
+ f.com/es/campeonatos/barbacoa-2026-12-14\nConfirma fechas y condiciones en
+  la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.catgolf.com/es/campeonatos/barbacoa-2026-12-14
+END:VEVENT
+BEGIN:VEVENT
+UID:780f14aa54cd3d554ce3@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261216
+DTEND;VALUE=DATE:20261217
+SUMMARY:9 Forats
+LOCATION:La Roca Golf\, La Roca del Valles\, Barcelona
+DESCRIPTION:Social de club · Individual\nFicha oficial: https://www.catgol
+ f.com/es/campeonatos/9-forats-2026-12-16\nConfirma fechas y condiciones en
+  la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.catgolf.com/es/campeonatos/9-forats-2026-12-16
+END:VEVENT
+BEGIN:VEVENT
+UID:6bd36a86b2a14c87e016@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261216
+DTEND;VALUE=DATE:20261217
+SUMMARY:Segolfcat
+LOCATION:La Roca Golf\, La Roca del Valles\, Barcelona
+DESCRIPTION:Social de club · Individual\nFicha oficial: https://www.catgol
+ f.com/es/campeonatos/segolfcat-2026-12-16\nConfirma fechas y condiciones e
+ n la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.catgolf.com/es/campeonatos/segolfcat-2026-12-16
+END:VEVENT
+BEGIN:VEVENT
+UID:1496438643b5d9b15d3c@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261221
+DTEND;VALUE=DATE:20261222
+SUMMARY:Barbacoa
+LOCATION:La Roca Golf\, La Roca del Valles\, Barcelona
+DESCRIPTION:Social de club · Individual\nFicha oficial: https://www.catgol
+ f.com/es/campeonatos/barbacoa-2026-12-21\nConfirma fechas y condiciones en
+  la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.catgolf.com/es/campeonatos/barbacoa-2026-12-21
+END:VEVENT
+BEGIN:VEVENT
+UID:4f7dcfed26f7ba42a762@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261223
+DTEND;VALUE=DATE:20261224
+SUMMARY:9 Forats
+LOCATION:La Roca Golf\, La Roca del Valles\, Barcelona
+DESCRIPTION:Social de club · Individual\nFicha oficial: https://www.catgol
+ f.com/es/campeonatos/9-forats-2026-12-23\nConfirma fechas y condiciones en
+  la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.catgolf.com/es/campeonatos/9-forats-2026-12-23
+END:VEVENT
+BEGIN:VEVENT
+UID:087203a97c57d6c5f5b5@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261228
+DTEND;VALUE=DATE:20261229
+SUMMARY:Barbacoa
+LOCATION:La Roca Golf\, La Roca del Valles\, Barcelona
+DESCRIPTION:Social de club · Individual\nFicha oficial: https://www.catgol
+ f.com/es/campeonatos/barbacoa-2026-12-28\nConfirma fechas y condiciones en
+  la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.catgolf.com/es/campeonatos/barbacoa-2026-12-28
+END:VEVENT
+BEGIN:VEVENT
+UID:d97b3321776138b6ce23@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261230
+DTEND;VALUE=DATE:20261231
+SUMMARY:9 Forats
+LOCATION:La Roca Golf\, La Roca del Valles\, Barcelona
+DESCRIPTION:Social de club · Individual\nFicha oficial: https://www.catgol
+ f.com/es/campeonatos/9-forats-2026-12-30\nConfirma fechas y condiciones en
+  la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.catgolf.com/es/campeonatos/9-forats-2026-12-30
+END:VEVENT
+BEGIN:VEVENT
+UID:e816c46200e2df1674e6@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20270522
+DTEND;VALUE=DATE:20270524
+SUMMARY:Campionat de Catalunya Infantil Aleví Benjamí
+LOCATION:La Roca Golf\, La Roca del Valles\, Barcelona
+DESCRIPTION:Juvenil · Individual\nFicha oficial: https://www.catgolf.com/e
+ s/campeonatos/campionat-de-catalunya-infantil-alevi-benjami-2027-05-22\nCo
+ nfirma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.catgolf.com/es/campeonatos/campionat-de-catalunya-infantil-
+ alevi-benjami-2027-05-22
+END:VEVENT
+END:VCALENDAR

@@ -10,7 +10,7 @@ window.TITULAR = {
   marca: "Esclusa",
   web: "Banderín"
 };
-window.LEGAL_ACTUALIZADO = "2026-11-10";
+window.LEGAL_ACTUALIZADO = "2026-11-11";
 
 window.LEGALDOCS = {
 "aviso-legal": {
@@ -61,7 +61,7 @@ window.LEGALDOCS = {
 <div class="resumen"><b>En pocas palabras</b>
 <ul>
 <li>Para buscar torneos no tienes que registrarte ni darnos ningún dato.</li>
-<li>Tus preferencias (tema, ciudad, torneos guardados y jugados) se quedan en tu navegador; no nos llegan.</li>
+<li>Tus preferencias, tu perfil de golfista y lo que sigues se quedan en tu navegador; no nos llegan.</li>
 <li>No usamos analítica, publicidad ni perfiles.</li>
 <li>Solo tratamos datos personales si nos escribes por correo.</li>
 </ul></div>
@@ -81,6 +81,7 @@ window.LEGALDOCS = {
 <tbody>
 <tr><td>Navegas por Banderín</td><td>Ninguno. No usamos analítica ni cookies de seguimiento.</td><td>—</td><td>—</td><td>—</td></tr>
 <tr><td>Guardas preferencias</td><td>Tema, ciudad de referencia, distancia, torneos guardados y jugados, solo en tu navegador.</td><td>Recordar tus ajustes en tu siguiente visita.</td><td>Tu consentimiento (art. 6.1.a RGPD), que puedes retirar en <a href="#" data-cookies>Configurar cookies</a>.</td><td>Hasta que los borres o retires el consentimiento.</td></tr>
+<tr><td>Rellenas tu perfil o sigues clubes y provincias</td><td>Hándicap, año de nacimiento, sexo de competición, federación, clubes de los que eres socio y lo que sigues, solo en tu navegador.</td><td>Marcar qué torneos encajan contigo y mostrarte los de lo que sigues.</td><td>Servicio que solicitas al guardarlo (exento de consentimiento).</td><td>Hasta que lo borres desde «Mi perfil».</td></tr>
 <tr><td>Eliges un idioma</td><td>El idioma, solo en tu navegador.</td><td>Mostrarte la web en el idioma que has elegido.</td><td>Servicio que solicitas (personalización de la interfaz, exenta de consentimiento).</td><td>12 meses.</td></tr>
 <tr><td>Nos escribes por correo</td><td>Nombre, dirección de correo y lo que nos cuentes.</td><td>Responderte y, si es el caso, corregir o retirar un torneo.</td><td>Tu consentimiento al escribirnos (art. 6.1.a) y nuestro interés legítimo en atender solicitudes (art. 6.1.f).</td><td>El tiempo necesario para resolverlo y, después, hasta un año.</td></tr>
 </tbody></table>
@@ -103,6 +104,7 @@ window.LEGALDOCS = {
 
 <h3 id="pr-7">7. Decisiones automatizadas</h3>
 <p>No tomamos decisiones automatizadas ni elaboramos perfiles sobre ti. El orden de los torneos (por fecha, distancia o cierre de inscripción) lo eliges tú y se calcula en tu propio navegador.</p>
+<p>La etiqueta «No encaja» también se calcula en tu navegador, comparando tu perfil con las condiciones que publica el organizador. Es orientativa: no te impide inscribirte y no se comunica a nadie.</p>
 
 <h3 id="pr-8">8. Seguridad</h3>
 <p>La web se sirve cifrada (HTTPS), no almacena contraseñas ni datos de pago y no tiene acceso a la información que guardas en tu navegador. Aplicamos el principio de minimización: si no necesitamos un dato, no lo pedimos.</p>
@@ -129,6 +131,8 @@ window.LEGALDOCS = {
 <tr><td><code>banderin.city</code> y <code>banderin.radius</code></td><td>Preferencias, propia</td><td>Recordar tu ciudad de referencia y la distancia máxima para ordenar los torneos por cercanía.</td><td>Hasta que la borres</td><td>Sí</td></tr>
 <tr><td><code>banderin.saved</code></td><td>Preferencias, propia</td><td>Guardar la lista de torneos que marcas con la estrella.</td><td>Hasta que la borres</td><td>Sí</td></tr>
 <tr><td><code>banderin.played</code></td><td>Preferencias, propia</td><td>Guardar los torneos que marcas como jugados (tu historial).</td><td>Hasta que la borres</td><td>Sí</td></tr>
+<tr><td><code>banderin.perfil</code></td><td>Personalización, propia</td><td>Guardar tu perfil de golfista para marcar los torneos que encajan contigo.</td><td>Hasta que lo borres</td><td>No (lo pides tú al guardarlo)</td></tr>
+<tr><td><code>banderin.sigo</code></td><td>Personalización, propia</td><td>Guardar los clubes y provincias que sigues.</td><td>Hasta que lo borres</td><td>No (lo pides tú al seguirlos)</td></tr>
 </tbody></table>
 <p>Estos datos se quedan en tu dispositivo. Banderín no los recibe ni los comparte.</p>
 

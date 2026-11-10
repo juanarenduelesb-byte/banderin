@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Banderin//Torneos de golf//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Banderín · Golf Los Retamares
+X-WR-CALDESC:Torneos de golf: Golf Los Retamares. Se actualiza cada mañana
+ . https://banderin.pages.dev
+X-WR-TIMEZONE:Europe/Madrid
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:2a2cb2bd1f90230cd83b@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+SUMMARY:Final Circuito Senior y Supersenior Masculino
+LOCATION:Golf Los Retamares\, Alalpardo\, Madrid
+DESCRIPTION:Senior · Stableford · Individual\nInscripción: abre el 11 de
+  noviembre\, cierra el 11 de noviembre.\nPrecio: Gratis.\nFicha oficial: h
+ ttps://www.nextcaddy.com/tour/68156\nConfirma fechas y condiciones en la w
+ eb del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nextcaddy.com/tour/68156
+END:VEVENT
+END:VCALENDAR

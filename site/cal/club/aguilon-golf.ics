@@ -1,0 +1,41 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Banderin//Torneos de golf//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Banderín · Aguilon Golf
+X-WR-CALDESC:Torneos de golf: Aguilon Golf. Se actualiza cada mañana. http
+ s://banderin.pages.dev
+X-WR-TIMEZONE:Europe/Madrid
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:8850521a81ccebdf22c8@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:Ryder Raufer Cup Aguilon By Reale Galpe Seguros
+LOCATION:Aguilon Golf\, Pilar de Jaravia\, Almería
+DESCRIPTION:Social de club · Fourball · Parejas\nFicha oficial: https://w
+ ww.golfdirecto.com/micro/game/6adcbc4cc98c39027759840e/summary\nConfirma f
+ echas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6adcbc4cc98c39027759840e/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:b31958d2a158f8c3ff3a@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20270314
+DTEND;VALUE=DATE:20270315
+SUMMARY:Alamo Golf Society
+LOCATION:Aguilon Golf\, Pilar de Jaravia\, Almería
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 19 de octubre\, cierra el 13 de marzo.\nFicha oficial: https://www.golf
+ directo.com/micro/game/6ad6075d6a3a1de0ecaa19d7/summary\nConfirma fechas y
+  condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6ad6075d6a3a1de0ecaa19d7/summary
+END:VEVENT
+END:VCALENDAR

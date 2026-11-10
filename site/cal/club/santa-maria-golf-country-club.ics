@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Banderin//Torneos de golf//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Banderín · Santa María Golf & Country Club
+X-WR-CALDESC:Torneos de golf: Santa María Golf & Country Club. Se actualiz
+ a cada mañana. https://banderin.pages.dev
+X-WR-TIMEZONE:Europe/Madrid
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:a19c4462848814a5a2e9@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:Torneo Senior Otoño Costa del Sol
+LOCATION:Santa María Golf & Country Club\, Marbella\, Málaga
+DESCRIPTION:Senior · Stableford · Individual\nInscripción: abre el 27 de
+  octubre\, cierra el 23 de noviembre.\nPrecio: 75 €.\nFicha oficial: htt
+ ps://www.nextcaddy.com/tour/61235\nConfirma fechas y condiciones en la web
+  del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nextcaddy.com/tour/61235
+END:VEVENT
+END:VCALENDAR

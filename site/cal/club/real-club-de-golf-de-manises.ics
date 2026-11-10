@@ -1,0 +1,71 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Banderin//Torneos de golf//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Banderín · Real Club de Golf de Manises
+X-WR-CALDESC:Torneos de golf: Real Club de Golf de Manises. Se actualiza ca
+ da mañana. https://banderin.pages.dev
+X-WR-TIMEZONE:Europe/Madrid
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:afbdc6e5b25c2bb64c7b@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:Torneo Juvenil Rcgm 9 Hoyos
+LOCATION:Real Club de Golf de Manises\, Manises\, Valencia
+DESCRIPTION:Juvenil · Stableford · Individual\nInscripción: abre el 2 de
+  noviembre\, cierra el 13 de noviembre.\nPrecio: 10 €.\nFicha oficial: h
+ ttps://www.golfdirecto.com/micro/game/6974ae66920bf1ea8dcc3215/summary\nCo
+ nfirma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6974ae66920bf1ea8dcc3215/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:11fa005e90e91293c16e@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:Torneo Golf y Viajes Msc Cruceros 20/11/2026-21/11/2026
+LOCATION:Real Club de Golf de Manises\, Manises\, Valencia
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 29 de octubre\, cierra el 18 de noviembre.\nPrecio: 50 €.\nFicha ofic
+ ial: https://www.golfdirecto.com/micro/game/6aaa6b58edb6caeda7e4a2c7/summa
+ ry\nConfirma fechas y condiciones en la web del organizador. Vía Banderí
+ n.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6aaa6b58edb6caeda7e4a2c7/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:7935b10fc2dffba9a1c3@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:Torneo Virgen del Loreto
+LOCATION:Real Club de Golf de Manises\, Manises\, Valencia
+DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
+ s://www.golfdirecto.com/micro/game/6974da92920bf1ea8d60a995/summary\nConfi
+ rma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6974da92920bf1ea8d60a995/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:a28cb372a71e606e2afc@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261220
+DTEND;VALUE=DATE:20261221
+SUMMARY:PRO-AM Felices Fiestas 2026
+LOCATION:Real Club de Golf de Manises\, Manises\, Valencia
+DESCRIPTION:Profesional · Scramble · Parejas\nFicha oficial: https://www.
+ golfdirecto.com/micro/game/6974dad4920bf1ea8d71ac10/summary\nConfirma fech
+ as y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6974dad4920bf1ea8d71ac10/summary
+END:VEVENT
+END:VCALENDAR

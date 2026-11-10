@@ -1,0 +1,87 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Banderin//Torneos de golf//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Banderín · Club Esportiu Pula Golf
+X-WR-CALDESC:Torneos de golf: Club Esportiu Pula Golf. Se actualiza cada ma
+ ñana. https://banderin.pages.dev
+X-WR-TIMEZONE:Europe/Madrid
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:34075731d22ffdb25055@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261112
+DTEND;VALUE=DATE:20261113
+SUMMARY:Pilotillos
+LOCATION:Club Esportiu Pula Golf\, Son Servera\, Illes Balears
+DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
+ s://www.golfdirecto.com/micro/game/6af1aebe48b95e9e1ac8acf9/summary\nConfi
+ rma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6af1aebe48b95e9e1ac8acf9/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:009c73fa1b8cc3acb7bc@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261123
+DTEND;VALUE=DATE:20261124
+SUMMARY:Campeonato de Baleares Dobles de Profesionales - Niehoff
+LOCATION:Club Esportiu Pula Golf\, Son Servera\, Illes Balears
+DESCRIPTION:Profesional · Fourball · Parejas\nInscripción: abre el 3 de 
+ noviembre\, cierra el 19 de noviembre.\nPrecio: 70 €.\nFicha oficial: ht
+ tps://www.golfdirecto.com/micro/game/6a4654eb64b13128843fba80/summary\nCon
+ firma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6a4654eb64b13128843fba80/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:751ea9d6ee7bc481fad2@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:Torneo 31 Aniversario
+LOCATION:Club Esportiu Pula Golf\, Son Servera\, Illes Balears
+DESCRIPTION:Social de club · Scramble · Parejas\nInscripción: abre el 29
+  de octubre\, cierra el 28 de noviembre.\nPrecio: 85 €.\nFicha oficial: 
+ https://www.golfdirecto.com/micro/game/6ae0afefe85d85ec8f1b0abb/summary\nC
+ onfirma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6ae0afefe85d85ec8f1b0abb/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:f593d35094b8120345de@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261210
+DTEND;VALUE=DATE:20261211
+SUMMARY:Gem Winter Slam 2026/2027
+LOCATION:Club Esportiu Pula Golf\, Son Servera\, Illes Balears
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 27 de octubre\, cierra el 9 de diciembre.\nPrecio: 70 €.\nFicha ofici
+ al: https://www.golfdirecto.com/micro/game/6ae06f2fe85d85ec8fe2d70d/summar
+ y\nConfirma fechas y condiciones en la web del organizador. Vía Banderín
+ .
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6ae06f2fe85d85ec8fe2d70d/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:bca1477ca7fd092f6208@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20270114
+DTEND;VALUE=DATE:20270115
+SUMMARY:Gem Winter Slam 2026/2027
+LOCATION:Club Esportiu Pula Golf\, Son Servera\, Illes Balears
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 27 de octubre\, cierra el 13 de enero.\nPrecio: 70 €.\nFicha oficial:
+  https://www.golfdirecto.com/micro/game/6ae09d07e85d85ec8ffd0fdc/summary\n
+ Confirma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6ae09d07e85d85ec8ffd0fdc/summary
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,56 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Banderin//Torneos de golf//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Banderín · C.D. Barbanza Pitch And Putt
+X-WR-CALDESC:Torneos de golf: C.D. Barbanza Pitch And Putt. Se actualiza ca
+ da mañana. https://banderin.pages.dev
+X-WR-TIMEZONE:Europe/Madrid
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:fea4b596b7d79fcafe68@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:XII Aniversario
+LOCATION:C.D. Barbanza Pitch And Putt\, Boiro (boiro)\, A Coruña
+DESCRIPTION:Social de club · Greensome · Parejas\nInscripción: abre el 9
+  de noviembre\, cierra el 19 de noviembre.\nFicha oficial: https://www.gol
+ fdirecto.com/micro/game/6af1ba4e8527252f6090873b/summary\nConfirma fechas 
+ y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6af1ba4e8527252f6090873b/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:f7e47912722e6d1e5dfd@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:Circuito Barbanza Arousa. 3ª prueba. Boiro
+LOCATION:C.D. Barbanza Pitch And Putt\, Boiro (boiro)\, A Coruña
+DESCRIPTION:Circuito comercial · Stableford · Individual\nInscripción: a
+ bre el 6 de noviembre\, cierra el 26 de noviembre.\nFicha oficial: https:/
+ /www.golfdirecto.com/micro/game/6ac4cc49457edc1ace625b5e/summary\nConfirma
+  fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6ac4cc49457edc1ace625b5e/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:ca8454fe4b1f9e22c56f@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261220
+DTEND;VALUE=DATE:20261221
+SUMMARY:Circuito Barbanza Arousa. Final A Pobra Do Caramiñal
+LOCATION:C.D. Barbanza Pitch And Putt\, Boiro (boiro)\, A Coruña
+DESCRIPTION:Circuito comercial · Stableford · Individual\nFicha oficial: 
+ https://www.golfdirecto.com/micro/game/6ac4cc8f457edc1ace68df14/summary\nC
+ onfirma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6ac4cc8f457edc1ace68df14/summary
+END:VEVENT
+END:VCALENDAR

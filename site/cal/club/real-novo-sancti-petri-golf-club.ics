@@ -1,0 +1,42 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Banderin//Torneos de golf//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Banderín · Real Novo Sancti Petri Golf Club
+X-WR-CALDESC:Torneos de golf: Real Novo Sancti Petri Golf Club. Se actualiz
+ a cada mañana. https://banderin.pages.dev
+X-WR-TIMEZONE:Europe/Madrid
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:55a20ca45f741f4e887e@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261203
+DTEND;VALUE=DATE:20261204
+SUMMARY:Campeonato Andalucía de Profesionales Femenino
+LOCATION:Real Novo Sancti Petri Golf Club\, Chiclana de la Frontera\, Cádi
+ z
+DESCRIPTION:Profesional · Medal Play · Individual\nFicha oficial: https:/
+ /www.nextcaddy.com/tour/75274\nConfirma fechas y condiciones en la web del
+  organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nextcaddy.com/tour/75274
+END:VEVENT
+BEGIN:VEVENT
+UID:7bbc6a135926e4dd3f37@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261216
+DTEND;VALUE=DATE:20261217
+SUMMARY:Campeonato Andalucía de Profesionales Masculino
+LOCATION:Real Novo Sancti Petri Golf Club\, Chiclana de la Frontera\, Cádi
+ z
+DESCRIPTION:Profesional · Medal Play · Individual\nFicha oficial: https:/
+ /www.nextcaddy.com/tour/66035\nConfirma fechas y condiciones en la web del
+  organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nextcaddy.com/tour/66035
+END:VEVENT
+END:VCALENDAR

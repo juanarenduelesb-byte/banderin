@@ -1,0 +1,68 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Banderin//Torneos de golf//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Banderín · Real la Manga Club
+X-WR-CALDESC:Torneos de golf: Real la Manga Club. Se actualiza cada mañana
+ . https://banderin.pages.dev
+X-WR-TIMEZONE:Europe/Madrid
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:831545a9dff19e133bbf@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261109
+DTEND;VALUE=DATE:20261112
+SUMMARY:Owners Championship - Ladies & Men's Div 3
+LOCATION:Real la Manga Club\, Los Belones\, Murcia
+DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
+ s://www.golfdirecto.com/micro/game/6af300692852ee1cedbf89d9/summary\nConfi
+ rma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6af300692852ee1cedbf89d9/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:f01f63a874c4e9f61c15@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20261112
+SUMMARY:Perra Galga 11-11-26
+LOCATION:Real la Manga Club\, Los Belones\, Murcia
+DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
+ s://www.golfdirecto.com/micro/game/6af37dc16aacb155d84fe3df/summary\nConfi
+ rma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6af37dc16aacb155d84fe3df/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:776525ffa2a7ef8b0f19@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261214
+SUMMARY:I Match Cuadrangular - Fgcv/Rfag/Fgclm/Fgrm
+LOCATION:Real la Manga Club\, Los Belones\, Murcia
+DESCRIPTION:Clubes y equipos · Fourball · Parejas\nFicha oficial: https:/
+ /www.golfdirecto.com/micro/game/6ae88192020a09e5bde8f4c2/summary\nConfirma
+  fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6ae88192020a09e5bde8f4c2/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:4a0ed3af113afd47538c@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+SUMMARY:RGA December Team Competition
+LOCATION:Real la Manga Club\, Los Belones\, Murcia
+DESCRIPTION:Social de club · Fourball · Parejas\nFicha oficial: https://w
+ ww.golfdirecto.com/micro/game/6af1a3738527252f607a1cdd/summary\nConfirma f
+ echas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6af1a3738527252f607a1cdd/summary
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Banderin//Torneos de golf//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Banderín · Club de Golf Sant Cugat
+X-WR-CALDESC:Torneos de golf: Club de Golf Sant Cugat. Se actualiza cada ma
+ ñana. https://banderin.pages.dev
+X-WR-TIMEZONE:Europe/Madrid
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:d3758882da8a81030f79@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20270410
+DTEND;VALUE=DATE:20270412
+SUMMARY:II Puntuable Zonal Juvenil RFEG Femenino y Masculino
+LOCATION:Club de Golf Sant Cugat\, Sant Cugat del Valles\, Barcelona
+DESCRIPTION:Juvenil · Individual\nFicha oficial: https://www.catgolf.com/e
+ s/campeonatos/ii-puntuable-zonal-juvenil-rfeg-femenino-y-masculino-2027-04
+ -10\nConfirma fechas y condiciones en la web del organizador. Vía Bander
+ ín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.catgolf.com/es/campeonatos/ii-puntuable-zonal-juvenil-rfeg-
+ femenino-y-masculino-2027-04-10
+END:VEVENT
+END:VCALENDAR

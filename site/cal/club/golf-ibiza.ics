@@ -1,0 +1,84 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Banderin//Torneos de golf//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Banderín · Golf Ibiza
+X-WR-CALDESC:Torneos de golf: Golf Ibiza. Se actualiza cada mañana. https:
+ //banderin.pages.dev
+X-WR-TIMEZONE:Europe/Madrid
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:893bc5212d87fe88b3ef@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:Liga Otoño 2026 - Jornada 4 - Roca Llisa
+LOCATION:Golf Ibiza\, Eivissa\, Illes Balears
+DESCRIPTION:Social de club · Medal Play · Individual\nInscripción: abre 
+ el 10 de noviembre\, cierra el 13 de noviembre.\nPrecio: 25 €.\nFicha of
+ icial: https://www.golfdirecto.com/micro/game/6a918b019ef968cc46e6991d/sum
+ mary\nConfirma fechas y condiciones en la web del organizador. Vía Bander
+ ín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6a918b019ef968cc46e6991d/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:30aaf555898677499f7c@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:Liga Otoño 2026 - Jornada 5
+LOCATION:Golf Ibiza\, Eivissa\, Illes Balears
+DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
+ s://www.golfdirecto.com/micro/game/6abcf137a2d0ff021a993515/summary\nConfi
+ rma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6abcf137a2d0ff021a993515/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:d9a361bee2386b1947a8@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:Liga Otoño 2026 - Jornada 6
+LOCATION:Golf Ibiza\, Eivissa\, Illes Balears
+DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
+ s://www.golfdirecto.com/micro/game/6a918b749ef968cc46ea2cbb/summary\nConfi
+ rma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6a918b749ef968cc46ea2cbb/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:6d3410faa04457cf73a3@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261213
+SUMMARY:Liga Otoño 2026 - Jornada 7
+LOCATION:Golf Ibiza\, Eivissa\, Illes Balears
+DESCRIPTION:Social de club · Medal Play · Individual\nFicha oficial: http
+ s://www.golfdirecto.com/micro/game/6a918bcf9ef968cc46eab895/summary\nConfi
+ rma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6a918bcf9ef968cc46eab895/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:d1b24f6acbfe0b168fcb@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261219
+DTEND;VALUE=DATE:20261220
+SUMMARY:Liga Otoño 2026 - Jornada 8
+LOCATION:Golf Ibiza\, Eivissa\, Illes Balears
+DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
+ s://www.golfdirecto.com/micro/game/6a918bf89ef968cc46eb1b6b/summary\nConfi
+ rma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6a918bf89ef968cc46eb1b6b/summary
+END:VEVENT
+END:VCALENDAR

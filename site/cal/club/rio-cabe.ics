@@ -1,0 +1,42 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Banderin//Torneos de golf//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Banderín · Rio Cabe
+X-WR-CALDESC:Torneos de golf: Rio Cabe. Se actualiza cada mañana. https://
+ banderin.pages.dev
+X-WR-TIMEZONE:Europe/Madrid
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:905e47af2c7534b98c5c@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:II Prueba Desafío Ribeira Sacra 2026
+LOCATION:Rio Cabe\, Monforte (casco Urbano)\, Lugo
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 9 de noviembre\, cierra el 13 de noviembre.\nFicha oficial: https://www
+ .golfdirecto.com/micro/game/6af1a59648b95e9e1a36828b/summary\nConfirma fec
+ has y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6af1a59648b95e9e1a36828b/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:a4b7b398c0d45394a59d@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261116
+DTEND;VALUE=DATE:20261117
+SUMMARY:Torneo Bazar Lago 2026
+LOCATION:Rio Cabe\, Monforte (casco Urbano)\, Lugo
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 9 de noviembre\, cierra el 15 de noviembre.\nFicha oficial: https://www
+ .golfdirecto.com/micro/game/6af1a3208527252f606d7139/summary\nConfirma fec
+ has y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6af1a3208527252f606d7139/summary
+END:VEVENT
+END:VCALENDAR

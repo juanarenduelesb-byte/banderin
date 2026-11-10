@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Banderin//Torneos de golf//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Banderín · Hercules Club de Golf
+X-WR-CALDESC:Torneos de golf: Hercules Club de Golf. Se actualiza cada mañ
+ ana. https://banderin.pages.dev
+X-WR-TIMEZONE:Europe/Madrid
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:72ad3eb14133086350c6@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261227
+DTEND;VALUE=DATE:20261228
+SUMMARY:Campeonato Crema de Navidad
+LOCATION:Hercules Club de Golf\, Larin (san Esteban)\, A Coruña
+DESCRIPTION:Social de club · Fourball · Parejas\nInscripción: abre el 27
+  de noviembre\, cierra el 22 de diciembre.\nFicha oficial: https://www.gol
+ fdirecto.com/micro/game/6943ecab4d9bda75305f7465/summary\nConfirma fechas 
+ y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6943ecab4d9bda75305f7465/summary
+END:VEVENT
+END:VCALENDAR

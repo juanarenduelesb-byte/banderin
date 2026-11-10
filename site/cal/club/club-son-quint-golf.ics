@@ -1,0 +1,43 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Banderin//Torneos de golf//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Banderín · Club Son Quint Golf
+X-WR-CALDESC:Torneos de golf: Club Son Quint Golf. Se actualiza cada mañan
+ a. https://banderin.pages.dev
+X-WR-TIMEZONE:Europe/Madrid
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:4d70db70d6a4ef97c9b7@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:Torneo Junior Academy P&P
+LOCATION:Club Son Quint Golf\, Palma de Mallorca\, Illes Balears
+DESCRIPTION:Juvenil · Medal Play · Individual\nInscripción: abre el 6 de
+  noviembre\, cierra el 11 de noviembre.\nFicha oficial: https://www.golfdi
+ recto.com/micro/game/6aed83b902e839445a64d07b/summary\nConfirma fechas y c
+ ondiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6aed83b902e839445a64d07b/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:7c0862dbda890bc41fd6@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:1ª Prueba Circuito Otoño - 9 Hoyos - Palma Pitch & Putt 2026
+LOCATION:Club Son Quint Golf\, Palma de Mallorca\, Illes Balears
+DESCRIPTION:Circuito comercial · Stableford · Individual\nInscripción: a
+ bre el 14 de octubre\, cierra el 19 de noviembre.\nPrecio: 18 €.\nFicha 
+ oficial: https://www.golfdirecto.com/micro/game/6acf2a6943b4ac0d0c374d1a/s
+ ummary\nConfirma fechas y condiciones en la web del organizador. Vía Band
+ erín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6acf2a6943b4ac0d0c374d1a/summary
+END:VEVENT
+END:VCALENDAR

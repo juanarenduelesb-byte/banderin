@@ -1,0 +1,44 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Banderin//Torneos de golf//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Banderín · Campo de Golf el Saler
+X-WR-CALDESC:Torneos de golf: Campo de Golf el Saler. Se actualiza cada ma
+ ñana. https://banderin.pages.dev
+X-WR-TIMEZONE:Europe/Madrid
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:fd6f76a0ffbf2f9ba710@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20261112
+SUMMARY:White Coast Individual Stableford
+LOCATION:Campo de Golf el Saler\, Valencia\, Valencia
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 30 de octubre\, cierra el 8 de noviembre.\nPrecio: 77 €.\nFicha ofici
+ al: https://www.golfdirecto.com/micro/game/6ad345f895a935144628c772/summar
+ y\nConfirma fechas y condiciones en la web del organizador. Vía Banderín
+ .
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6ad345f895a935144628c772/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:16ccc63528b606242c24@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+SUMMARY:The 12 - Round 11 - The Lamont Classic - El Saler - 106358
+LOCATION:Campo de Golf el Saler\, Valencia\, Valencia
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 12 de octubre\, cierra el 18 de noviembre.\nPrecio: 75 €.\nFicha ofic
+ ial: https://www.golfdirecto.com/micro/game/69b03db2d9295ef7aa995fca/summa
+ ry\nConfirma fechas y condiciones en la web del organizador. Vía Banderí
+ n.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/69b03db2d9295ef7aa995fca/summary
+END:VEVENT
+END:VCALENDAR

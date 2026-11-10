@@ -1,0 +1,71 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Banderin//Torneos de golf//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Banderín · Villa Nueva Golf Resort
+X-WR-CALDESC:Torneos de golf: Villa Nueva Golf Resort. Se actualiza cada ma
+ ñana. https://banderin.pages.dev
+X-WR-TIMEZONE:Europe/Madrid
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:e1aab9d846119a849143@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:Circuito Miguel Ángel Jiménez
+LOCATION:Villa Nueva Golf Resort\, Puerto Real\, Cádiz
+DESCRIPTION:Absoluto · Medal Play · Individual\nFicha oficial: https://ww
+ w.nextcaddy.com/tour/69847\nConfirma fechas y condiciones en la web del or
+ ganizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nextcaddy.com/tour/69847
+END:VEVENT
+BEGIN:VEVENT
+UID:196e9302b81c141fe161@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:Villanueva Golf & Croquet - 1ª y 2ª Categoría
+LOCATION:Villa Nueva Golf Resort\, Puerto Real\, Cádiz
+DESCRIPTION:Social de club · Medal Play · Individual\nInscripción: abre 
+ el 11 de octubre\, cierra el 8 de noviembre.\nPrecio: 20 €.\nFicha ofici
+ al: https://www.nextcaddy.com/tour/67877\nConfirma fechas y condiciones en
+  la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nextcaddy.com/tour/67877
+END:VEVENT
+BEGIN:VEVENT
+UID:73db28249a2fbc00144f@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:3 J. Circuito Vng 2026. Categoria Oro (0 - 14)
+LOCATION:Villa Nueva Golf Resort\, Puerto Real\, Cádiz
+DESCRIPTION:Circuito comercial · Medal Play · Individual\nInscripción: a
+ bre el 18 de septiembre\, cierra el 19 de noviembre.\nPrecio: Gratis.\nFic
+ ha oficial: https://www.nextcaddy.com/tour/74177\nConfirma fechas y condic
+ iones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nextcaddy.com/tour/74177
+END:VEVENT
+BEGIN:VEVENT
+UID:3127881976adc4e7a6c1@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+SUMMARY:XIII Pgsf Memorial Santiago Terry
+LOCATION:Villa Nueva Golf Resort\, Puerto Real\, Cádiz
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 5 de noviembre\, cierra el 20 de noviembre.\nPrecio: 58 €.\nFicha ofi
+ cial: https://www.nextcaddy.com/tour/75169\nConfirma fechas y condiciones 
+ en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nextcaddy.com/tour/75169
+END:VEVENT
+END:VCALENDAR

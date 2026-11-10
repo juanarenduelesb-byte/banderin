@@ -1,0 +1,130 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Banderin//Torneos de golf//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Banderín · Infinitum Golf
+X-WR-CALDESC:Torneos de golf: Infinitum Golf. Se actualiza cada mañana. ht
+ tps://banderin.pages.dev
+X-WR-TIMEZONE:Europe/Madrid
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:b1b6888117fa89019410@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:GolfStar Travel goes Costa Daurada final 2026
+LOCATION:Infinitum Golf\, Vila-seca\, Tarragona
+DESCRIPTION:Social de club · Fourball · Parejas\nFicha oficial: https://w
+ ww.golfdirecto.com/micro/game/6aedd5a11ab4f21da66a6634/summary\nConfirma f
+ echas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6aedd5a11ab4f21da66a6634/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:45ea179771bf9a28cb9a@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:11è Torneig Solidari PortAventura Fundación - Scramble Parelle
+LOCATION:Infinitum Golf\, Vila-seca\, Tarragona
+DESCRIPTION:Benéfico · Scramble · Parejas\nInscripción: abre el 1 de oc
+ tubre\, cierra el 12 de noviembre.\nPrecio: 115 €.\nFicha oficial: https
+ ://www.golfdirecto.com/micro/game/6abb79ab6a8a172aaffe4cc7/summary\nConfir
+ ma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6abb79ab6a8a172aaffe4cc7/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:f0e81df3fc50d2cbaef1@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:Infinitum Lakes Circle By Melia Top10 Summum 2026
+LOCATION:Infinitum Golf\, Vila-seca\, Tarragona
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 25 de octubre\, cierra el 18 de noviembre.\nFicha oficial: https://www.
+ golfdirecto.com/micro/game/69a4c9b7a5c98bfc69446ecf/summary\nConfirma fech
+ as y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/69a4c9b7a5c98bfc69446ecf/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:27d9d0b59697e0880d01@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:Infinitum Hills Circle By Melia Top10 Summum 2026
+LOCATION:Infinitum Golf\, Vila-seca\, Tarragona
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 25 de octubre\, cierra el 19 de noviembre.\nFicha oficial: https://www.
+ golfdirecto.com/micro/game/69a4c9dea5c98bfc694b2daf/summary\nConfirma fech
+ as y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/69a4c9dea5c98bfc694b2daf/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:3243b3c06b157e941dec@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:Torneo Galaxy Golf
+LOCATION:Infinitum Golf\, Vila-seca\, Tarragona
+DESCRIPTION:Social de club · Individual\nFicha oficial: https://www.catgol
+ f.com/es/campeonatos/torneo-galaxy-golf-2026-11-28\nConfirma fechas y cond
+ iciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.catgolf.com/es/campeonatos/torneo-galaxy-golf-2026-11-28
+END:VEVENT
+BEGIN:VEVENT
+UID:40cac08c495e99e55907@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:Torneo Galaxy Golf
+LOCATION:Infinitum Golf\, Vila-seca\, Tarragona
+DESCRIPTION:Social de club · Individual\nFicha oficial: https://www.catgol
+ f.com/es/campeonatos/torneo-galaxy-golf-2026-11-29\nConfirma fechas y cond
+ iciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.catgolf.com/es/campeonatos/torneo-galaxy-golf-2026-11-29
+END:VEVENT
+BEGIN:VEVENT
+UID:25e7125f2c90202029b8@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261201
+SUMMARY:CATPROTOUR 2026 (Infinitum - Lakes)
+LOCATION:Infinitum Golf\, Vila-seca\, Tarragona
+DESCRIPTION:Profesional · Medal Play · Individual\nInscripción: abre el 
+ 10 de noviembre\, cierra el 25 de noviembre.\nPrecio: 40 €.\nFicha ofici
+ al: https://www.golfdirecto.com/micro/game/6af1ed1b2f0e9df18b39c30d/summar
+ y\nConfirma fechas y condiciones en la web del organizador. Vía Banderín
+ .
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6af1ed1b2f0e9df18b39c30d/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:ca72765ad5e847675512@banderin.pages.dev
+DTSTAMP:20261110T235137Z
+DTSTART;VALUE=DATE:20270130
+DTEND;VALUE=DATE:20270201
+SUMMARY:Campionat de Catalunya Dobles Sènior
+LOCATION:Infinitum Golf\, Vila-seca\, Tarragona
+DESCRIPTION:Senior · Parejas\nFicha oficial: https://www.catgolf.com/es/ca
+ mpeonatos/campionat-de-catalunya-dobles-senior-2027-01-30\nConfirma fechas
+  y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.catgolf.com/es/campeonatos/campionat-de-catalunya-dobles-se
+ nior-2027-01-30
+END:VEVENT
+END:VCALENDAR
