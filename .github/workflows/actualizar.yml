@@ -52,9 +52,10 @@ jobs:
       - name: Publicar
         run: |
           cp /tmp/banderin/nuevo/data.js /tmp/banderin/nuevo/pasados.js site/
+          python3 pipeline/seo.py
           git config user.name "Banderín (actualización diaria)"
           git config user.email "actions@users.noreply.github.com"
-          git add site/data.js site/pasados.js pipeline/geo_cache.json
+          git add -A site/ pipeline/geo_cache.json
           if git diff --cached --quiet; then echo "Sin cambios"; exit 0; fi
           git commit -m "Torneos actualizados $(TZ=Europe/Madrid date '+%Y-%m-%d %H:%M')"
           git push

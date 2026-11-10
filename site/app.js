@@ -273,7 +273,7 @@ function openResults(){
   $('resLede').textContent=L('Banderín enlaza a la clasificación oficial de cada torneo en cuanto el organizador la publica. Marca los que has jugado y tendrás tu historial aquí.');
   if(rLoaded){renderResults();return}
   $('rlist').innerHTML='<div class="empty"><b>'+L('Cargando resultados…')+'</b></div>';
-  const sc=document.createElement('script');sc.src='pasados.js';sc.onload=()=>{rLoaded=true;
+  const sc=document.createElement('script');sc.src='/pasados.js';sc.onload=()=>{rLoaded=true;
     const P=window.PASADOS||[];fill($('rccaa'),[...new Set(P.map(t=>t.ccaa))].filter(v=>v&&v!=='Por confirmar').sort((a,b)=>V(a).localeCompare(V(b),LANG)),'Todas las comunidades');renderResults()};
   sc.onerror=()=>{$('rlist').innerHTML='<div class="empty"><b>'+L('No se han podido cargar los resultados.')+'</b>'+L('Vuelve a intentarlo en un momento.')+'</div>'};
   document.head.appendChild(sc);
@@ -303,7 +303,7 @@ $('rlist').addEventListener('click',e=>{
 /* ===== Idioma ===== */
 $('lang').textContent=LANG==='en'?'ES':'EN';
 $('lang').title=$('lang').ariaLabel=LANG==='en'?'Ver en español':'English version';
-$('lang').onclick=()=>{raw.set('lang',LANG==='en'?'es':'en');location.reload()};
+$('lang').onclick=()=>{const to=LANG==='en'?'es':'en';raw.set('lang',to);location.href=(to==='en'?'/en/':'/')+location.hash};
 
 const ok=SRC.filter(s=>s.volcada).length;
 $('srcTitle').textContent=L('{a} fuentes al día. {b} pendientes.',{a:ok,b:SRC.length-ok});

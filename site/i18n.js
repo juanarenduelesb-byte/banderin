@@ -1,10 +1,12 @@
 /* Banderín · English version.
-   Language: the visitor's choice (saved as banderin.lang, a user-interface
-   setting that needs no consent) or, by default, the browser language. */
+   Language comes from the address: / is Spanish, /en/ is English, so search
+   engines see each version at its own URL. A visitor who chose English
+   (banderin.lang, a user-interface setting that needs no consent) is sent
+   from the Spanish home page to /en/. */
 (function(){
-var l=null;
-try{l=JSON.parse(localStorage.getItem('banderin.lang'))}catch(e){}
-if(l!=='es'&&l!=='en'){var n=(navigator.languages&&navigator.languages[0])||navigator.language||'es';l=/^(es|ca|gl|eu)\b/i.test(n)?'es':'en'}
+var en=/^\/en(\/|$)/.test(location.pathname),l=en?'en':'es',pref=null;
+try{pref=JSON.parse(localStorage.getItem('banderin.lang'))}catch(e){}
+if(!en&&pref==='en'&&/^\/(index\.html)?$/.test(location.pathname)){location.replace('/en/'+location.hash);}
 window.LANG=l;document.documentElement.lang=l;
 })();
 
@@ -32,7 +34,7 @@ window.EN={
 "Los datos se revisan una vez al día en las webs enlazadas. Fechas, plazas y precios pueden cambiar entre una revisión y la siguiente: confirma siempre en la web del organizador antes de inscribirte. Las distancias son aproximadas, en línea recta desde el municipio del campo (o desde la capital de provincia si no consta el municipio).":"Data is checked once a day on the linked websites. Dates, places and prices can change between checks, so always confirm on the organiser's website before you enter. Distances are approximate, as the crow flies from the course's town (or from the provincial capital when the town is not listed).",
 "Textos legales":"Legal","Aviso legal":"Legal notice","Privacidad":"Privacy","Cookies":"Cookies","Términos de uso":"Terms of use",
 "Todos los torneos de golf de España en un solo sitio, revisados cada mañana. Un proyecto de Esclusa.":"Every golf tournament in Spain in one place, checked every morning. A project by Esclusa.",
-"Explorar":"Explore","Fuentes de datos":"Data sources","Información":"About","Cómo funciona":"How it works","Quién está detrás":"Who is behind it","Corregir un torneo":"Correct a tournament","Un proyecto de":"A project by","Un proyecto de Esclusa (abre esclusa.eu)":"A project by Esclusa (opens esclusa.eu)","Legal":"Legal",
+"Explorar":"Explore","Fuentes de datos":"Data sources","Información":"About","Cómo funciona":"How it works","Quién está detrás":"Who is behind it","Corregir un torneo":"Correct a tournament","Calendario de torneos de golf en España | Banderín":"Golf tournament calendar for Spain | Banderín","Torneos por comunidad":"Tournaments by region","Un proyecto de":"A project by","Un proyecto de Esclusa (abre esclusa.eu)":"A project by Esclusa (opens esclusa.eu)","Legal":"Legal",
 "Política de privacidad":"Privacy policy","Política de cookies":"Cookie policy","Configurar cookies":"Cookie settings",
 "Esclusa. Banderín no organiza estos torneos ni gestiona inscripciones.":"Esclusa. Banderín does not organise these tournaments or handle entries.",
 "Aviso de cookies":"Cookie notice","Tu privacidad, primero":"Your privacy comes first",
@@ -262,5 +264,5 @@ var W=document.createTreeWalker(document.body,NodeFilter.SHOW_TEXT,{acceptNode:f
 var n,list=[];while(n=W.nextNode())list.push(n);
 list.forEach(function(t){var k=t.nodeValue.trim();if(E[k]!=null)t.nodeValue=t.nodeValue.replace(k,E[k])});
 ['title','aria-label','placeholder'].forEach(function(a){document.querySelectorAll('['+a+']').forEach(function(el){var v=el.getAttribute(a);if(E[v]!=null)el.setAttribute(a,E[v])})});
-document.title='Banderín · Golf tournaments in Spain';
+document.title='Golf tournament calendar for Spain | Banderín';
 })();

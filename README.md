@@ -25,3 +25,13 @@ Para lanzarla a mano: pestaña **Actions** → **Actualizar torneos** → **Run 
 
 - Rellenar los datos del titular en `site/legal.js` (bloque `TITULAR`).
 - Conectar el dominio propio en Cloudflare Pages → Custom domains.
+
+## Páginas para buscadores
+
+`pipeline/seo.py` genera cada mañana, a partir de `site/data.js`, las páginas
+`/torneos-golf/` (una por comunidad y por provincia, en HTML sin JavaScript),
+la portada en inglés `/en/` (copia de `index.html`), el `sitemap.xml`, los
+enlaces por comunidad del pie y la descripción de la portada.
+
+Si cambias `site/index.html` a mano, ejecuta `python3 pipeline/seo.py` antes
+de subir el cambio para que `/en/` quede igual.

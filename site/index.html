@@ -3,13 +3,16 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="description" content="Todos los torneos de golf de España en un solo sitio: calendario, inscripción, precios y resultados de federaciones y clubes, revisados cada mañana.">
+<meta name="description" content="Calendario de los torneos de golf de España: más de 900 de federaciones y clubes, con fechas, precios e inscripción. Actualizado cada mañana.">
 <link rel="canonical" href="https://banderin.pages.dev/">
+<link rel="alternate" hreflang="es" href="https://banderin.pages.dev/">
+<link rel="alternate" hreflang="en" href="https://banderin.pages.dev/en/">
+<link rel="alternate" hreflang="x-default" href="https://banderin.pages.dev/">
 <meta name="robots" content="index,follow,max-image-preview:large">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Banderín">
 <meta property="og:title" content="Todos los torneos de golf de España, en un solo sitio">
-<meta property="og:description" content="Todos los torneos de golf de España en un solo sitio: calendario, inscripción, precios y resultados de federaciones y clubes, revisados cada mañana.">
+<meta property="og:description" content="Calendario de los torneos de golf de España: más de 900 de federaciones y clubes, con fechas, precios e inscripción. Actualizado cada mañana.">
 <meta property="og:url" content="https://banderin.pages.dev/">
 <meta property="og:image" content="https://banderin.pages.dev/og.png">
 <meta property="og:image:width" content="1200">
@@ -19,27 +22,27 @@
 <meta property="og:locale:alternate" content="en_GB">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Todos los torneos de golf de España, en un solo sitio">
-<meta name="twitter:description" content="Todos los torneos de golf de España en un solo sitio: calendario, inscripción, precios y resultados de federaciones y clubes, revisados cada mañana.">
+<meta name="twitter:description" content="Calendario de los torneos de golf de España: más de 900 de federaciones y clubes, con fechas, precios e inscripción. Actualizado cada mañana.">
 <meta name="twitter:image" content="https://banderin.pages.dev/og.png">
 <meta name="format-detection" content="telephone=no">
 <script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "WebSite", "@id": "https://banderin.pages.dev/#web", "url": "https://banderin.pages.dev/", "name": "Banderín", "description": "Todos los torneos de golf de España en un solo sitio: calendario, inscripción, precios y resultados de federaciones y clubes, revisados cada mañana.", "inLanguage": ["es", "en"], "publisher": {"@id": "https://esclusa.eu/#org"}}, {"@type": "Organization", "@id": "https://esclusa.eu/#org", "name": "Esclusa", "url": "https://esclusa.eu"}]}</script>
 <meta name="theme-color" content="#163D2B">
-<link rel="icon" href="icons/icon.svg" type="image/svg+xml">
-<link rel="icon" href="icons/favicon-32.png" sizes="32x32" type="image/png">
-<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
-<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="/icons/icon.svg" type="image/svg+xml">
+<link rel="icon" href="/icons/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="/icons/apple-touch-icon.png">
+<link rel="manifest" href="/manifest.webmanifest">
 <meta name="apple-mobile-web-app-title" content="Banderín">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-<title>Banderín · Torneos de golf en España</title>
+<title>Calendario de torneos de golf en España | Banderín</title>
 <style>
-@font-face{font-family:"Instrument Sans";font-style:normal;font-weight:400;font-display:swap;src:url(fonts/instrument-sans-latin-400-normal.woff2) format("woff2")}
-@font-face{font-family:"Instrument Sans";font-style:normal;font-weight:500;font-display:swap;src:url(fonts/instrument-sans-latin-500-normal.woff2) format("woff2")}
-@font-face{font-family:"Instrument Sans";font-style:normal;font-weight:600;font-display:swap;src:url(fonts/instrument-sans-latin-600-normal.woff2) format("woff2")}
-@font-face{font-family:"Instrument Sans";font-style:normal;font-weight:700;font-display:swap;src:url(fonts/instrument-sans-latin-700-normal.woff2) format("woff2")}
-@font-face{font-family:"Instrument Serif";font-style:normal;font-weight:400;font-display:swap;src:url(fonts/instrument-serif-latin-400-normal.woff2) format("woff2")}
-@font-face{font-family:"Instrument Serif";font-style:italic;font-weight:400;font-display:swap;src:url(fonts/instrument-serif-latin-400-italic.woff2) format("woff2")}
+@font-face{font-family:"Instrument Sans";font-style:normal;font-weight:400;font-display:swap;src:url(/fonts/instrument-sans-latin-400-normal.woff2) format("woff2")}
+@font-face{font-family:"Instrument Sans";font-style:normal;font-weight:500;font-display:swap;src:url(/fonts/instrument-sans-latin-500-normal.woff2) format("woff2")}
+@font-face{font-family:"Instrument Sans";font-style:normal;font-weight:600;font-display:swap;src:url(/fonts/instrument-sans-latin-600-normal.woff2) format("woff2")}
+@font-face{font-family:"Instrument Sans";font-style:normal;font-weight:700;font-display:swap;src:url(/fonts/instrument-sans-latin-700-normal.woff2) format("woff2")}
+@font-face{font-family:"Instrument Serif";font-style:normal;font-weight:400;font-display:swap;src:url(/fonts/instrument-serif-latin-400-normal.woff2) format("woff2")}
+@font-face{font-family:"Instrument Serif";font-style:italic;font-weight:400;font-display:swap;src:url(/fonts/instrument-serif-latin-400-italic.woff2) format("woff2")}
 
 :root{--surface:#F1F0E8;--ink:#0E1A14;--muted:#56645C;--accent:#17643F;--on-accent:#fff;--tint:#E2EDE4;--hair:#D9DED5;--w1:#9ED9B0;--w2:#C6E2EE;--w3:#EBD3A3;--sand:#E6D2A6;--warn:#7E520D;--crit:#B83232;--glass:rgba(255,255,255,.5);--glass2:rgba(255,255,255,.66);--solid:#FBFAF6;--edge:rgba(255,255,255,.75);--line:rgba(23,100,63,.13);--shadow:0 18px 50px -26px rgba(14,40,26,.4);--esc-a:#0A6B76;--esc-b:#0C1416;--scrim:rgba(8,20,14,.38)}
 @media (prefers-color-scheme:dark){:root:not([data-theme=light]){--surface:#07100C;--ink:#ECF2EE;--muted:#93A49A;--accent:#7FD6A0;--on-accent:#052014;--tint:#10281C;--hair:#22332A;--w1:#0F4A30;--w2:#14344A;--w3:#4A3A1E;--sand:#5A4826;--warn:#F2C35B;--crit:#F57A7A;--glass:rgba(18,30,24,.5);--glass2:rgba(24,38,31,.66);--solid:#111C17;--edge:rgba(255,255,255,.08);--line:rgba(127,214,160,.12);--shadow:0 18px 50px -24px rgba(0,0,0,.85);--esc-a:#5ED3C8;--esc-b:#EDF3F4;--scrim:rgba(0,0,0,.55)}}
@@ -701,6 +704,15 @@ nav.tabbar{display:none}
 .byesc:hover b{text-decoration:underline;text-underline-offset:3px}
 .byesc:focus-visible{outline:2px solid var(--gold-l);outline-offset:4px;border-radius:8px}
 noscript p{max-width:640px;margin:20px auto;padding:16px 20px;border-radius:18px;background:#FAF7EE;color:#13201A;font:15px/1.5 "Instrument Sans",system-ui,sans-serif}
+
+/* ===== SEO: encabezados y enlaces por comunidad ===== */
+h1.eyebrow{font-family:inherit;font-size:12px;line-height:1.4;font-weight:600;letter-spacing:.12em;margin:0 0 4px}
+h2.ltitle{font-family:"Instrument Serif",Georgia,"Times New Roman",serif;font-weight:400;letter-spacing:-.01em;font-size:clamp(30px,3.6vw,44px);line-height:1.02;margin:0;color:var(--on-page)}
+.fregions{margin-top:26px;padding-top:20px;border-top:1px solid rgba(201,168,106,.2)}
+.fregions h4{margin:0 0 12px;font-size:11px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--gold-l)}
+.fregions nav{display:flex;flex-wrap:wrap;gap:8px 18px}
+.fregions a{font-size:13.5px;color:var(--hero-ink);opacity:.8;text-decoration:none}
+.fregions a:hover{opacity:1;text-decoration:underline;text-underline-offset:3px}
 </style>
 </head>
 <body>
@@ -718,8 +730,8 @@ noscript p{max-width:640px;margin:20px auto;padding:16px 20px;border-radius:18px
 <section id="v-inicio" hidden>
   <div class="hero glass">
     <div class="hcopy">
-      <p class="eyebrow" id="hEyebrow">Torneos de golf en España</p>
-      <h1 class="htitle">¿Dónde juegas este <em>fin de semana</em>?</h1>
+      <h1 class="eyebrow" id="hEyebrow">Torneos de golf en España</h1>
+      <p class="htitle">¿Dónde juegas este <em>fin de semana</em>?</p>
       <p class="hlede" id="hLede"></p>
       <a class="seal" id="hSeal" href="#fuentes"></a>
       <form class="hsearch" id="hForm">
@@ -788,7 +800,7 @@ noscript p{max-width:640px;margin:20px auto;padding:16px 20px;border-radius:18px
 </section>
 
 <div class="head" id="pagehead">
-  <div><p class="eyebrow">Torneos de golf en España</p><h1>Encuentra tu próximo torneo.</h1><a class="seal" id="pSeal" href="#fuentes"></a></div>
+  <div><p class="eyebrow">Torneos de golf en España</p><h2 class="ltitle">Encuentra tu próximo torneo.</h2><a class="seal" id="pSeal" href="#fuentes"></a></div>
   <div class="kpis num"><div class="kpi glass"><b id="k1">0</b><span>Torneos</span></div><div class="kpi glass"><b id="k2">0</b><span>Abiertos</span></div><div class="kpi glass"><b id="k3">0</b><span>Comunidades</span></div></div>
 </div>
 
@@ -877,6 +889,7 @@ noscript p{max-width:640px;margin:20px auto;padding:16px 20px;border-radius:18px
     <div class="fcol"><h4>Información</h4><a href="#terminos">Cómo funciona</a><a href="#fuentes">De dónde salen los datos</a><a href="#aviso-legal">Quién está detrás</a><a href="#" id="fcontact">Corregir un torneo</a></div>
     <div class="fcol"><h4>Legal</h4><a href="#aviso-legal">Aviso legal</a><a href="#privacidad">Política de privacidad</a><a href="#cookies">Política de cookies</a><a href="#terminos">Términos de uso</a><button type="button" data-cookies>Configurar cookies</button></div>
   </div>
+  <!--seo:links--><div class="fregions"><h4>Torneos por comunidad</h4><nav aria-label="Torneos por comunidad"><a href="/torneos-golf/">Todas las comunidades</a><a href="/torneos-golf/andalucia/">Andalucía</a><a href="/torneos-golf/aragon/">Aragón</a><a href="/torneos-golf/canarias/">Canarias</a><a href="/torneos-golf/cantabria/">Cantabria</a><a href="/torneos-golf/castilla-la-mancha/">Castilla-La Mancha</a><a href="/torneos-golf/castilla-y-leon/">Castilla y León</a><a href="/torneos-golf/cataluna/">Cataluña</a><a href="/torneos-golf/madrid/">Comunidad de Madrid</a><a href="/torneos-golf/navarra/">Comunidad Foral de Navarra</a><a href="/torneos-golf/comunidad-valenciana/">Comunitat Valenciana</a><a href="/torneos-golf/extremadura/">Extremadura</a><a href="/torneos-golf/galicia/">Galicia</a><a href="/torneos-golf/baleares/">Illes Balears</a><a href="/torneos-golf/la-rioja/">La Rioja</a><a href="/torneos-golf/melilla/">Melilla</a><a href="/torneos-golf/pais-vasco/">País Vasco</a><a href="/torneos-golf/asturias/">Principado de Asturias</a><a href="/torneos-golf/murcia/">Región de Murcia</a></nav></div><!--/seo:links-->
   <div class="fbottom"><span>© <span id="fyear">2026</span> Esclusa. Banderín no organiza estos torneos ni gestiona inscripciones.</span><span id="upd"></span></div>
   <a class="byesc" href="https://esclusa.eu" target="_blank" rel="noopener noreferrer" aria-label="Un proyecto de Esclusa (abre esclusa.eu)"><span>Un proyecto de</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 7c3 0 3 3 6 3s3-3 6-3 3 3 6 3" fill="none" stroke="#5ED3C8" stroke-width="2.4" stroke-linecap="round"/><path d="M3 14c3 0 3 3 6 3s3-3 6-3 3 3 6 3" fill="none" stroke="#EDF3F4" stroke-opacity=".55" stroke-width="2.4" stroke-linecap="round"/></svg><b>esclusa</b></a>
 </div></footer>
@@ -898,10 +911,10 @@ noscript p{max-width:640px;margin:20px auto;padding:16px 20px;border-radius:18px
     <div class="cfoot"><button class="btn cb" data-c="reject">Rechazar todo</button><button class="btn ghost" data-c="save">Guardar selección</button><button class="btn cb" data-c="accept">Aceptar todo</button></div>
   </div>
 </div>
-<script src="i18n.js"></script>
-<script src="legal.js"></script>
-<script src="data.js"></script>
-<script src="mapa.js"></script>
-<script src="app.js"></script>
+<script src="/i18n.js"></script>
+<script src="/legal.js"></script>
+<script src="/data.js"></script>
+<script src="/mapa.js"></script>
+<script src="/app.js"></script>
 </body>
 </html>
