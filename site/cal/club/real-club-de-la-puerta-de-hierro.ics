@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Banderin//Torneos de golf//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Banderín · Real Club de la Puerta de Hierro
+X-WR-CALDESC:Torneos de golf: Real Club de la Puerta de Hierro. Se actualiz
+ a cada mañana. https://banderin.es
+X-WR-TIMEZONE:Europe/Madrid
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:3effc41aae010b508abb@banderin.es
+DTSTAMP:20261111T194134Z
+DTSTART;VALUE=DATE:20261112
+DTEND;VALUE=DATE:20261113
+SUMMARY:Premio Social Doble de Señoras y Señores (Indistinto)
+LOCATION:Real Club de la Puerta de Hierro\, Madrid\, Madrid
+DESCRIPTION:Social de club · Medal Play · Individual\nFicha oficial: http
+ s://www.nextcaddy.com/tour/67422\nConfirma fechas y condiciones en la web 
+ del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nextcaddy.com/tour/67422
+END:VEVENT
+END:VCALENDAR

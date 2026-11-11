@@ -11,7 +11,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:dde7d5fdf9528ef00f1c@banderin.es
-DTSTAMP:20261111T130701Z
+DTSTAMP:20261111T194134Z
 DTSTART;VALUE=DATE:20261111
 DTEND;VALUE=DATE:20261112
 SUMMARY:Bircie Club - New Course
@@ -27,7 +27,7 @@ URL:https://www.golfdirecto.com/micro/game/6aeb56f3e86c4f3aae8d2b6b/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:e4afd2f7cb90943f8f6d@banderin.es
-DTSTAMP:20261111T130701Z
+DTSTAMP:20261111T194134Z
 DTSTART;VALUE=DATE:20261111
 DTEND;VALUE=DATE:20261112
 SUMMARY:Segolfcat
@@ -41,7 +41,7 @@ URL:https://www.golfdirecto.com/micro/game/693bf7cfbe21058877289421/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:25437cd62f97b30c1e69@banderin.es
-DTSTAMP:20261111T130701Z
+DTSTAMP:20261111T194134Z
 DTSTART;VALUE=DATE:20261112
 DTEND;VALUE=DATE:20261113
 SUMMARY:Golf Friends 12/11
@@ -55,7 +55,7 @@ URL:https://www.golfdirecto.com/micro/game/6af2faf92852ee1ced72c299/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:01b2b75f3e6ae685e7f7@banderin.es
-DTSTAMP:20261111T130701Z
+DTSTAMP:20261111T194134Z
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261115
 SUMMARY:2N Torneig Otriskel
@@ -69,7 +69,7 @@ URL:https://www.catgolf.com/es/campeonatos/2n-torneig-otriskel-2026-11-14
 END:VEVENT
 BEGIN:VEVENT
 UID:484b0f797cbc3218806b@banderin.es
-DTSTAMP:20261111T130701Z
+DTSTAMP:20261111T194134Z
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261115
 SUMMARY:Final de Pals\, paradís del golf
@@ -82,8 +82,23 @@ STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6970b9809cb1dbf2056e105d/summary
 END:VEVENT
 BEGIN:VEVENT
+UID:1c95ce88922b91662a95@banderin.es
+DTSTAMP:20261111T194134Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:Porrex Cup 2026/27. Jornada 8
+LOCATION:Torremirona Golf Club\, Navata\, Girona
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 11 de noviembre\, cierra el 13 de noviembre.\nFicha oficial: https://ww
+ w.golfdirecto.com/micro/game/6af4973c9292980794105905/summary\nConfirma fe
+ chas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6af4973c9292980794105905/summary
+END:VEVENT
+BEGIN:VEVENT
 UID:18120dbab8d1201179a9@banderin.es
-DTSTAMP:20261111T130701Z
+DTSTAMP:20261111T194134Z
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261115
 SUMMARY:Torneig Ginebreda
@@ -97,7 +112,7 @@ URL:https://www.golfdirecto.com/micro/game/6ae886ce47d5a6672991ec33/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:5ca4271c90e500ad9a1e@banderin.es
-DTSTAMP:20261111T130701Z
+DTSTAMP:20261111T194134Z
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261115
 SUMMARY:Torneig Srixon
@@ -113,7 +128,7 @@ URL:https://www.golfdirecto.com/micro/game/6a071647fa3be64f9fc1a527/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:370b15f2cefc21f53e1e@banderin.es
-DTSTAMP:20261111T130701Z
+DTSTAMP:20261111T194134Z
 DTSTART;VALUE=DATE:20261118
 DTEND;VALUE=DATE:20261119
 SUMMARY:Birdie Club -Dunes
@@ -129,7 +144,7 @@ URL:https://www.golfdirecto.com/micro/game/6a9a5c465898bfbfbfeae15c/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:8e26953b9bbe41bce416@banderin.es
-DTSTAMP:20261111T130701Z
+DTSTAMP:20261111T194134Z
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261120
 SUMMARY:Torneig Torremirona Real Estate
@@ -145,7 +160,7 @@ URL:https://www.golfdirecto.com/micro/game/6a8456960d6379a1ffae40e1/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:29c602552a8ada0e4a3c@banderin.es
-DTSTAMP:20261111T130701Z
+DTSTAMP:20261111T194134Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:Club Championship - Octavos Final
@@ -161,7 +176,7 @@ URL:https://www.golfdirecto.com/micro/game/6ad9fcdbadd6f56c0337d042/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:6e0cc25a41bfdef0885b@banderin.es
-DTSTAMP:20261111T130701Z
+DTSTAMP:20261111T194134Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:Final Torneig 4 Estacions Pals
@@ -176,7 +191,7 @@ URL:https://www.catgolf.com/es/campeonatos/final-torneig-4-estacions-pals-2
 END:VEVENT
 BEGIN:VEVENT
 UID:9022305e335f7fdf46d0@banderin.es
-DTSTAMP:20261111T130701Z
+DTSTAMP:20261111T194134Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:Galaxy Golf (Copia)
@@ -192,7 +207,7 @@ URL:https://www.golfdirecto.com/micro/game/6ae08fcc7fd81c35f4b32a8f/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:a84e95ff1e02ff39da69@banderin.es
-DTSTAMP:20261111T130701Z
+DTSTAMP:20261111T194134Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:MAJOR Prueba Circuito Camino a Huelva
@@ -208,7 +223,7 @@ URL:https://www.golfdirecto.com/micro/game/69d8c8d933ad0e81be6119ea/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:5cd7907352f1678e875e@banderin.es
-DTSTAMP:20261111T130701Z
+DTSTAMP:20261111T194134Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:Torneig Vila de Begur - Dunes
@@ -224,7 +239,7 @@ URL:https://www.golfdirecto.com/micro/game/68a06ab44316349802901c50/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:e4177d4c86de57bf650e@banderin.es
-DTSTAMP:20261111T130701Z
+DTSTAMP:20261111T194134Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:Torneo GARDA
@@ -238,7 +253,7 @@ URL:https://www.catgolf.com/es/campeonatos/torneo-garda
 END:VEVENT
 BEGIN:VEVENT
 UID:15ba9be235ca5d2451a0@banderin.es
-DTSTAMP:20261111T130701Z
+DTSTAMP:20261111T194134Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:Club Championship - Cuartos Final
@@ -252,7 +267,7 @@ URL:https://www.golfdirecto.com/micro/game/6ad9fd2fadd6f56c033bf70b/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:9cfe6ba22fc7b3999e10@banderin.es
-DTSTAMP:20261111T130701Z
+DTSTAMP:20261111T194134Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:Galaxy Golf
@@ -268,7 +283,7 @@ URL:https://www.golfdirecto.com/micro/game/6ad89a75ad3db58f4c86671c/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:323a85f45df5a3d7e0ca@banderin.es
-DTSTAMP:20261111T130701Z
+DTSTAMP:20261111T194134Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:Birdie Club -Forest
@@ -284,7 +299,7 @@ URL:https://www.golfdirecto.com/micro/game/6a9a5cc45898bfbfbff5e982/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:a21edd91de4a07789bd3@banderin.es
-DTSTAMP:20261111T130701Z
+DTSTAMP:20261111T194134Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
 SUMMARY:Torneig Torremirona Real Estate
@@ -300,7 +315,7 @@ URL:https://www.golfdirecto.com/micro/game/6a8456b70d6379a1ffbae656/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:0f99af8d33d010504199@banderin.es
-DTSTAMP:20261111T130701Z
+DTSTAMP:20261111T194134Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:2N Torneig Black Friday
@@ -315,7 +330,7 @@ URL:https://www.catgolf.com/es/campeonatos/2n-torneig-black-friday-2026-11-
 END:VEVENT
 BEGIN:VEVENT
 UID:818eb54282e16df5c0b2@banderin.es
-DTSTAMP:20261111T130701Z
+DTSTAMP:20261111T194134Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Campionat de Catalunya Interclubs Absolut 2026
@@ -330,7 +345,7 @@ URL:https://www.golfdirecto.com/micro/game/6ae08298e85d85ec8f63b8a6/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:697bdeb965cc83e02723@banderin.es
-DTSTAMP:20261111T130701Z
+DTSTAMP:20261111T194134Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Campionat de Catalunya Interclubs Sènior 2026
@@ -345,7 +360,7 @@ URL:https://www.golfdirecto.com/micro/game/6ae08035e85d85ec8f93ecac/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:17c3b288122dc704676e@banderin.es
-DTSTAMP:20261111T130701Z
+DTSTAMP:20261111T194134Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Final Cica Golf
@@ -359,7 +374,7 @@ URL:https://www.catgolf.com/es/campeonatos/final-cica-golf-2026-11-28
 END:VEVENT
 BEGIN:VEVENT
 UID:5cb21f81185b6b6ab143@banderin.es
-DTSTAMP:20261111T130701Z
+DTSTAMP:20261111T194134Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261130
 SUMMARY:Final Junior & Baby Cup
@@ -373,7 +388,7 @@ URL:https://www.catgolf.com/es/campeonatos/final-junior-baby-cup-2026-11-28
 END:VEVENT
 BEGIN:VEVENT
 UID:dd361992d2fe83bf4a1c@banderin.es
-DTSTAMP:20261111T130701Z
+DTSTAMP:20261111T194134Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Torneo Golf Passion
@@ -387,7 +402,7 @@ URL:https://www.catgolf.com/es/campeonatos/torneo-golf-passion
 END:VEVENT
 BEGIN:VEVENT
 UID:f0b800af472a763745c7@banderin.es
-DTSTAMP:20261111T130701Z
+DTSTAMP:20261111T194134Z
 DTSTART;VALUE=DATE:20261203
 DTEND;VALUE=DATE:20261204
 SUMMARY:Torneig Torremirona Real Estate
@@ -401,8 +416,22 @@ STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6a8457100d6379a1ffd1d120/summary
 END:VEVENT
 BEGIN:VEVENT
+UID:ef6eb9679b279d8b0df6@banderin.es
+DTSTAMP:20261111T194134Z
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261206
+SUMMARY:Social Nadal 9h
+LOCATION:Emporda Golf Club\, Gualta\, Girona
+DESCRIPTION:Social de club · Greensome · Parejas\nFicha oficial: https://
+ www.golfdirecto.com/micro/game/6af4748ad161f2f1b8721615/summary\nConfirma 
+ fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6af4748ad161f2f1b8721615/summary
+END:VEVENT
+BEGIN:VEVENT
 UID:8190660ee88c9b47de98@banderin.es
-DTSTAMP:20261111T130701Z
+DTSTAMP:20261111T194134Z
 DTSTART;VALUE=DATE:20261209
 DTEND;VALUE=DATE:20261210
 SUMMARY:Birdie Club -Forest
@@ -418,7 +447,7 @@ URL:https://www.golfdirecto.com/micro/game/6a9a5d2b5898bfbfbf071cd0/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:5587c5686b9ec8c948e0@banderin.es
-DTSTAMP:20261111T130701Z
+DTSTAMP:20261111T194134Z
 DTSTART;VALUE=DATE:20261210
 DTEND;VALUE=DATE:20261211
 SUMMARY:Torneig Torremirona Real Estate
@@ -432,8 +461,22 @@ STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6a8457f80d6379a1ff3c3195/summary
 END:VEVENT
 BEGIN:VEVENT
+UID:414d6e7056968a7718ef@banderin.es
+DTSTAMP:20261111T194134Z
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261213
+SUMMARY:Birdie Especial Nadal
+LOCATION:Emporda Golf Club\, Gualta\, Girona
+DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
+ s://www.golfdirecto.com/micro/game/6af475529292980794d16b2e/summary\nConfi
+ rma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6af475529292980794d16b2e/summary
+END:VEVENT
+BEGIN:VEVENT
 UID:294fd66b9fef823b9e56@banderin.es
-DTSTAMP:20261111T130701Z
+DTSTAMP:20261111T194134Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:Torneig De Nadal Pals
@@ -447,7 +490,7 @@ URL:https://www.catgolf.com/es/campeonatos/torneig-de-nadal-pals-2026-12-12
 END:VEVENT
 BEGIN:VEVENT
 UID:2a8af5223c918f8405ef@banderin.es
-DTSTAMP:20261111T130701Z
+DTSTAMP:20261111T194134Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:Torneig Social De Nadal
@@ -462,7 +505,7 @@ URL:https://www.catgolf.com/es/campeonatos/torneig-social-de-nadal-2026-12-
 END:VEVENT
 BEGIN:VEVENT
 UID:971a452a3f48706ae856@banderin.es
-DTSTAMP:20261111T130701Z
+DTSTAMP:20261111T194134Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:Torneo Navideño
@@ -475,8 +518,22 @@ STATUS:CONFIRMED
 URL:https://www.catgolf.com/es/campeonatos/torneo-navideno
 END:VEVENT
 BEGIN:VEVENT
+UID:142992ae8a98165d8680@banderin.es
+DTSTAMP:20261111T194134Z
+DTSTART;VALUE=DATE:20261214
+DTEND;VALUE=DATE:20261215
+SUMMARY:Catprotour
+LOCATION:Emporda Golf Club\, Gualta\, Girona
+DESCRIPTION:Profesional · Medal Play · Individual\nFicha oficial: https:/
+ /www.golfdirecto.com/micro/game/6af475999292980794ded6b7/summary\nConfirma
+  fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6af475999292980794ded6b7/summary
+END:VEVENT
+BEGIN:VEVENT
 UID:567d0a6a52d35c892839@banderin.es
-DTSTAMP:20261111T130701Z
+DTSTAMP:20261111T194134Z
 DTSTART;VALUE=DATE:20261214
 DTEND;VALUE=DATE:20261216
 SUMMARY:FINAL CATPROTOUR 2026 (Empordà 14-15 dic.)
@@ -491,8 +548,22 @@ URL:https://www.catgolf.com/es/campeonatos/final-catprotour-2026-emporda-14
  -15-dic-2026-12-14
 END:VEVENT
 BEGIN:VEVENT
+UID:797b582de3762d41a950@banderin.es
+DTSTAMP:20261111T194134Z
+DTSTART;VALUE=DATE:20261215
+DTEND;VALUE=DATE:20261216
+SUMMARY:Catprotour
+LOCATION:Emporda Golf Club\, Gualta\, Girona
+DESCRIPTION:Profesional · Medal Play · Individual\nFicha oficial: https:/
+ /www.golfdirecto.com/micro/game/6af475bbd161f2f1b89a9caa/summary\nConfirma
+  fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6af475bbd161f2f1b89a9caa/summary
+END:VEVENT
+BEGIN:VEVENT
 UID:ff6efc28749f74278e7f@banderin.es
-DTSTAMP:20261111T130701Z
+DTSTAMP:20261111T194134Z
 DTSTART;VALUE=DATE:20261216
 DTEND;VALUE=DATE:20261217
 SUMMARY:Birdie Club -Dunes
@@ -508,7 +579,7 @@ URL:https://www.golfdirecto.com/micro/game/6a9a5dad5898bfbfbf1af378/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:2989cd4cdd1886f11d51@banderin.es
-DTSTAMP:20261111T130701Z
+DTSTAMP:20261111T194134Z
 DTSTART;VALUE=DATE:20261217
 DTEND;VALUE=DATE:20261218
 SUMMARY:Torneig Torremirona Real Estate
@@ -523,8 +594,22 @@ STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6a8458090d6379a1ff3fcf36/summary
 END:VEVENT
 BEGIN:VEVENT
+UID:698603a4d59185f8a237@banderin.es
+DTSTAMP:20261111T194134Z
+DTSTART;VALUE=DATE:20261218
+DTEND;VALUE=DATE:20261219
+SUMMARY:Bonasport
+LOCATION:Emporda Golf Club\, Gualta\, Girona
+DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
+ s://www.golfdirecto.com/micro/game/6af477489292980794293b1e/summary\nConfi
+ rma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6af477489292980794293b1e/summary
+END:VEVENT
+BEGIN:VEVENT
 UID:04aa33782762ce90b70d@banderin.es
-DTSTAMP:20261111T130701Z
+DTSTAMP:20261111T194134Z
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261220
 SUMMARY:Especial Birdie Club
@@ -538,7 +623,7 @@ URL:https://www.catgolf.com/es/campeonatos/especial-birdie-club-2026-12-19
 END:VEVENT
 BEGIN:VEVENT
 UID:011d3fcd17cac7a8467a@banderin.es
-DTSTAMP:20261111T130701Z
+DTSTAMP:20261111T194134Z
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261220
 SUMMARY:Final Catalunya Promesa
@@ -551,8 +636,22 @@ STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/693bf841be210588773d5b41/summary
 END:VEVENT
 BEGIN:VEVENT
+UID:9a868e8db3eb23b3cfe2@banderin.es
+DTSTAMP:20261111T194134Z
+DTSTART;VALUE=DATE:20261219
+DTEND;VALUE=DATE:20261220
+SUMMARY:Manresa Golf
+LOCATION:Emporda Golf Club\, Gualta\, Girona
+DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
+ s://www.golfdirecto.com/micro/game/6af475ecd161f2f1b8a3ee12/summary\nConfi
+ rma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6af475ecd161f2f1b8a3ee12/summary
+END:VEVENT
+BEGIN:VEVENT
 UID:200505fa799607529630@banderin.es
-DTSTAMP:20261111T130701Z
+DTSTAMP:20261111T194134Z
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261220
 SUMMARY:Torneig Social Nadalenc
@@ -567,7 +666,7 @@ URL:https://www.golfdirecto.com/micro/game/6a40e1f2a44d938a9300f4ad/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:69fc73d9ac636c058555@banderin.es
-DTSTAMP:20261111T130701Z
+DTSTAMP:20261111T194134Z
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261220
 SUMMARY:Torneig de Nadal
@@ -582,7 +681,7 @@ URL:https://www.golfdirecto.com/micro/game/69a9a145bba30eff7cd47620/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:0c9499b79b097168427b@banderin.es
-DTSTAMP:20261111T130701Z
+DTSTAMP:20261111T194134Z
 DTSTART;VALUE=DATE:20261223
 DTEND;VALUE=DATE:20261224
 SUMMARY:Birdie Club -Forest
@@ -598,7 +697,7 @@ URL:https://www.golfdirecto.com/micro/game/6a9a5e0f5898bfbfbf26fcb0/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:8269b240f892e9320594@banderin.es
-DTSTAMP:20261111T130701Z
+DTSTAMP:20261111T194134Z
 DTSTART;VALUE=DATE:20261224
 DTEND;VALUE=DATE:20261225
 SUMMARY:Torneig Torremirona Real Estate
@@ -614,7 +713,7 @@ URL:https://www.golfdirecto.com/micro/game/6a8458240d6379a1ff4d2ee1/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:851c36a4f74270837e75@banderin.es
-DTSTAMP:20261111T130701Z
+DTSTAMP:20261111T194134Z
 DTSTART;VALUE=DATE:20261226
 DTEND;VALUE=DATE:20261227
 SUMMARY:Torneig de Cap D'Any
@@ -630,7 +729,7 @@ URL:https://www.golfdirecto.com/micro/game/6a8458be4ec26de90b887833/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:0beccd50505b92558cf4@banderin.es
-DTSTAMP:20261111T130701Z
+DTSTAMP:20261111T194134Z
 DTSTART;VALUE=DATE:20261227
 DTEND;VALUE=DATE:20261228
 SUMMARY:End Of The Year - Members + Residents
@@ -644,7 +743,7 @@ URL:https://www.golfdirecto.com/micro/game/6ada06addf69af0f5695f0a1/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:a4031ddea794eae4b15b@banderin.es
-DTSTAMP:20261111T130701Z
+DTSTAMP:20261111T194134Z
 DTSTART;VALUE=DATE:20261228
 DTEND;VALUE=DATE:20261229
 SUMMARY:Camiral Cup - Sants Innocents
@@ -658,7 +757,7 @@ URL:https://www.golfdirecto.com/micro/game/6ada070edf69af0f569b03d8/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:677f9875eb8a10d85401@banderin.es
-DTSTAMP:20261111T130701Z
+DTSTAMP:20261111T194134Z
 DTSTART;VALUE=DATE:20261230
 DTEND;VALUE=DATE:20261231
 SUMMARY:Birdie Club -Dunes
@@ -674,7 +773,7 @@ URL:https://www.golfdirecto.com/micro/game/6a9a5e5801bb3f0088fd9410/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:c309b76131959ec48157@banderin.es
-DTSTAMP:20261111T130701Z
+DTSTAMP:20261111T194134Z
 DTSTART;VALUE=DATE:20261231
 DTEND;VALUE=DATE:20270101
 SUMMARY:Torneig Torremirona Real Estate
@@ -690,7 +789,7 @@ URL:https://www.golfdirecto.com/micro/game/6a8458490d6379a1ff5d8a32/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:cbe832c151b346e5bc9a@banderin.es
-DTSTAMP:20261111T130701Z
+DTSTAMP:20261111T194134Z
 DTSTART;VALUE=DATE:20270106
 DTEND;VALUE=DATE:20270107
 SUMMARY:Birdie Club
@@ -704,8 +803,36 @@ STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6af06d3667a73a9c34ffec74/summary
 END:VEVENT
 BEGIN:VEVENT
+UID:1096d5411266ba12e136@banderin.es
+DTSTAMP:20261111T194134Z
+DTSTART;VALUE=DATE:20270109
+DTEND;VALUE=DATE:20270110
+SUMMARY:Circuit Nacional de 5ª Categoria
+LOCATION:Emporda Golf Club\, Gualta\, Girona
+DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
+ s://www.golfdirecto.com/micro/game/6af473f2d161f2f1b85d4ddc/summary\nConfi
+ rma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6af473f2d161f2f1b85d4ddc/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:958a9e634e635e2156df@banderin.es
+DTSTAMP:20261111T194134Z
+DTSTART;VALUE=DATE:20270110
+DTEND;VALUE=DATE:20270111
+SUMMARY:Circuit Nacional de 5ª Categoria
+LOCATION:Emporda Golf Club\, Gualta\, Girona
+DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
+ s://www.golfdirecto.com/micro/game/6af4740cd161f2f1b861d8eb/summary\nConfi
+ rma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6af4740cd161f2f1b861d8eb/summary
+END:VEVENT
+BEGIN:VEVENT
 UID:4ce52782f4847d764310@banderin.es
-DTSTAMP:20261111T130701Z
+DTSTAMP:20261111T194134Z
 DTSTART;VALUE=DATE:20270113
 DTEND;VALUE=DATE:20270114
 SUMMARY:Birdie Club
@@ -720,7 +847,7 @@ URL:https://www.golfdirecto.com/micro/game/6af06d5567a73a9c341337d5/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:bf8dff1fa3fda9dae2c9@banderin.es
-DTSTAMP:20261111T130701Z
+DTSTAMP:20261111T194134Z
 DTSTART;VALUE=DATE:20270120
 DTEND;VALUE=DATE:20270121
 SUMMARY:Birdie Club
@@ -735,7 +862,7 @@ URL:https://www.golfdirecto.com/micro/game/6af06d8ce0349cc290450ce7/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:2ff147474357276be971@banderin.es
-DTSTAMP:20261111T130701Z
+DTSTAMP:20261111T194134Z
 DTSTART;VALUE=DATE:20270123
 DTEND;VALUE=DATE:20270125
 SUMMARY:Campionat de Catalunya Dobles Absolut
@@ -749,8 +876,92 @@ URL:https://www.catgolf.com/es/campeonatos/campionat-de-catalunya-dobles-ab
  solut-2027-01-23
 END:VEVENT
 BEGIN:VEVENT
+UID:b04f0ef6156f80d158da@banderin.es
+DTSTAMP:20261111T194134Z
+DTSTART;VALUE=DATE:20270129
+DTEND;VALUE=DATE:20270130
+SUMMARY:Cica Golf
+LOCATION:Emporda Golf Club\, Gualta\, Girona
+DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
+ s://www.golfdirecto.com/micro/game/6af471b092929807943b0d74/summary\nConfi
+ rma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6af471b092929807943b0d74/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:725029f6a75c319bc818@banderin.es
+DTSTAMP:20261111T194134Z
+DTSTART;VALUE=DATE:20270129
+DTEND;VALUE=DATE:20270130
+SUMMARY:Cica Golf (Fourball)
+LOCATION:Emporda Golf Club\, Gualta\, Girona
+DESCRIPTION:Social de club · Fourball · Parejas\nFicha oficial: https://w
+ ww.golfdirecto.com/micro/game/6af4715292929807942e3cd9/summary\nConfirma f
+ echas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6af4715292929807942e3cd9/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:d46447ae02ff17e7f41b@banderin.es
+DTSTAMP:20261111T194134Z
+DTSTART;VALUE=DATE:20270130
+DTEND;VALUE=DATE:20270131
+SUMMARY:Cica Golf
+LOCATION:Emporda Golf Club\, Gualta\, Girona
+DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
+ s://www.golfdirecto.com/micro/game/6af471cb929298079441fa31/summary\nConfi
+ rma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6af471cb929298079441fa31/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:95141cd70702347b0b05@banderin.es
+DTSTAMP:20261111T194134Z
+DTSTART;VALUE=DATE:20270130
+DTEND;VALUE=DATE:20270131
+SUMMARY:Cica Golf (Fourball)
+LOCATION:Emporda Golf Club\, Gualta\, Girona
+DESCRIPTION:Social de club · Fourball · Parejas\nFicha oficial: https://w
+ ww.golfdirecto.com/micro/game/6af471739292980794322eff/summary\nConfirma f
+ echas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6af471739292980794322eff/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:e70504452417dc151f50@banderin.es
+DTSTAMP:20261111T194134Z
+DTSTART;VALUE=DATE:20270131
+DTEND;VALUE=DATE:20270201
+SUMMARY:Cica Golf
+LOCATION:Emporda Golf Club\, Gualta\, Girona
+DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
+ s://www.golfdirecto.com/micro/game/6af471e9d161f2f1b805e020/summary\nConfi
+ rma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6af471e9d161f2f1b805e020/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:b62735819f7b77f948c2@banderin.es
+DTSTAMP:20261111T194134Z
+DTSTART;VALUE=DATE:20270131
+DTEND;VALUE=DATE:20270201
+SUMMARY:Cica Golf (Fourball)
+LOCATION:Emporda Golf Club\, Gualta\, Girona
+DESCRIPTION:Social de club · Fourball · Parejas\nFicha oficial: https://w
+ ww.golfdirecto.com/micro/game/6af471919292980794364fdd/summary\nConfirma f
+ echas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6af471919292980794364fdd/summary
+END:VEVENT
+BEGIN:VEVENT
 UID:4b763ea56c3aaab9cbda@banderin.es
-DTSTAMP:20261111T130701Z
+DTSTAMP:20261111T194134Z
 DTSTART;VALUE=DATE:20270201
 DTEND;VALUE=DATE:20270202
 SUMMARY:Cat ProTour 2027
@@ -764,7 +975,7 @@ URL:https://www.golfdirecto.com/micro/game/6ae3461de9762da1ae315088/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:157b72c44e725d792e36@banderin.es
-DTSTAMP:20261111T130701Z
+DTSTAMP:20261111T194134Z
 DTSTART;VALUE=DATE:20270203
 DTEND;VALUE=DATE:20270204
 SUMMARY:Birdie Club
@@ -778,7 +989,7 @@ URL:https://www.golfdirecto.com/micro/game/6af06e00e0349cc2908fd22a/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:5bbfc7ba778e7b8a4241@banderin.es
-DTSTAMP:20261111T130701Z
+DTSTAMP:20261111T194134Z
 DTSTART;VALUE=DATE:20270224
 DTEND;VALUE=DATE:20270225
 SUMMARY:Birdie Club
@@ -792,7 +1003,7 @@ URL:https://www.golfdirecto.com/micro/game/6af06e1f67a73a9c34813ffc/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:21a6b28971b5a684a924@banderin.es
-DTSTAMP:20261111T130701Z
+DTSTAMP:20261111T194134Z
 DTSTART;VALUE=DATE:20270303
 DTEND;VALUE=DATE:20270304
 SUMMARY:Birdie Club
@@ -806,7 +1017,7 @@ URL:https://www.golfdirecto.com/micro/game/6af06e3f67a73a9c349e4955/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:d7915c4e7a613de11f19@banderin.es
-DTSTAMP:20261111T130701Z
+DTSTAMP:20261111T194134Z
 DTSTART;VALUE=DATE:20270310
 DTEND;VALUE=DATE:20270311
 SUMMARY:Birdie Club
@@ -820,7 +1031,7 @@ URL:https://www.golfdirecto.com/micro/game/6af06e5be0349cc290c33645/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:d5eed2e9c37dfd266a18@banderin.es
-DTSTAMP:20261111T130701Z
+DTSTAMP:20261111T194134Z
 DTSTART;VALUE=DATE:20270317
 DTEND;VALUE=DATE:20270318
 SUMMARY:Birdie Club
@@ -834,7 +1045,7 @@ URL:https://www.golfdirecto.com/micro/game/6af06e74e0349cc290d4ea71/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:27fa3aef8cdf3abb2b62@banderin.es
-DTSTAMP:20261111T130701Z
+DTSTAMP:20261111T194134Z
 DTSTART;VALUE=DATE:20270324
 DTEND;VALUE=DATE:20270325
 SUMMARY:Birdie Club
@@ -848,7 +1059,7 @@ URL:https://www.golfdirecto.com/micro/game/6af06ecf67a73a9c3408cea4/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:a02ad16c49686acccbcd@banderin.es
-DTSTAMP:20261111T130701Z
+DTSTAMP:20261111T194134Z
 DTSTART;VALUE=DATE:20270331
 DTEND;VALUE=DATE:20270401
 SUMMARY:Birdie Club
@@ -862,7 +1073,7 @@ URL:https://www.golfdirecto.com/micro/game/6af06eec67a73a9c341d68cf/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:74657722f4a1602145b2@banderin.es
-DTSTAMP:20261111T130701Z
+DTSTAMP:20261111T194134Z
 DTSTART;VALUE=DATE:20270403
 DTEND;VALUE=DATE:20270405
 SUMMARY:Campionat de Catalunya Mid-Amateur
@@ -877,7 +1088,7 @@ URL:https://www.catgolf.com/es/campeonatos/campionat-de-catalunya-mid-amate
 END:VEVENT
 BEGIN:VEVENT
 UID:09d4267c995d9a335640@banderin.es
-DTSTAMP:20261111T130701Z
+DTSTAMP:20261111T194134Z
 DTSTART;VALUE=DATE:20270704
 DTEND;VALUE=DATE:20270705
 SUMMARY:Birdie Summer
