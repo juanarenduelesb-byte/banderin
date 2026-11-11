@@ -621,6 +621,7 @@ async function initAvisos(){
     }else if(y&&y.status===401){AV=null;raw.del('avisos')}
   }
   drawAvisos();if(location.hash==='#perfil')renderPerfil();
+  avPopSchedule();
 }
 $('pavForm').onsubmit=async e=>{
   e.preventDefault();const em=$('pavEmail').value.trim(),btn=$('pavForm').querySelector('button');
@@ -629,14 +630,54 @@ $('pavForm').onsubmit=async e=>{
   btn.disabled=true;
   const r=await api('/api/avisos/alta',{method:'POST',body:{email:em,idioma:LANG,sigo:avSigo(),web:$('pavWeb').value}}).catch(()=>null);
   btn.disabled=false;
-  if(r&&r.ok){AV={pend:em};raw.set('avisos',AV);drawAvisos()}
+  if(r&&r.ok){AV={pend:em};raw.set('avisos',AV);drawAvisos();avFabSync()}
   else{$('pavErr').textContent=L(r&&r.status===400?'Revisa el correo: no parece válido.':'No hemos podido activarlos ahora. Inténtalo en unos minutos.');$('pavErr').hidden=false}
 };
-$('pavRetry').onclick=()=>{AV=null;raw.del('avisos');drawAvisos();$('pavEmail').focus()};
+$('pavRetry').onclick=()=>{AV=null;raw.del('avisos');drawAvisos();avFabSync();$('pavEmail').focus()};
 $('pavStop').onclick=async()=>{const b=$('pavStop');
   if(!b.classList.contains('confirm')){b.classList.add('confirm');b.textContent=L('Pulsa otra vez para borrar tu correo');return}
   const r=await api('/api/avisos/baja',{method:'POST',tok:AV&&AV.tok}).catch(()=>null);
-  if(r&&(r.ok||r.status===401)){AV=null;raw.del('avisos');b.classList.remove('confirm');b.textContent=L('Desactivar avisos');drawAvisos()}
+  if(r&&(r.ok||r.status===401)){AV=null;raw.del('avisos');b.classList.remove('confirm');b.textContent=L('Desactivar avisos');drawAvisos();avFabSync()}
+};
+
+/* ===== Avisos: bolita en la esquina y ventana a los 5 segundos ===== */
+// Se enseña una vez; si se cierra no vuelve en 30 días (banderin.avpop, preferencia de interfaz).
+function avPopProvs(){const cur=(SIGO.prov[0])||(PERF&&PERF.prov)||cityProv()||'';
+  $('avPopProv').innerHTML='<option value="">'+L('¿De qué provincia quieres avisos?')+'</option>'+PROVS.map(p=>'<option value="'+esc(p)+'"'+(p===cur?' selected':'')+'>'+esc(p)+'</option>').join('')}
+function cityProv(){const c=$('city')&&$('city').value;if(!c)return'';const o=$('city').selectedOptions[0];const tx=o?o.textContent:'';return PROVS.find(p=>tx.indexOf(p)>=0)||''}
+function avFabSync(){const show=avOn&&!(AV&&(AV.tok||AV.pend))&&$('avPop').hidden;$('avFab').hidden=!show}
+function avPopOpen(auto){
+  if(!avOn||(AV&&(AV.tok||AV.pend)))return;
+  avPopProvs();$('avPopBody').hidden=false;$('avPopOk').hidden=true;$('avPopErr').hidden=true;
+  $('avPop').hidden=false;avFabSync();
+  if(!auto)setTimeout(()=>$('avPopEmail').focus(),50);
+}
+function avPopClose(remember){$('avPop').hidden=true;if(remember)raw.set('avpop',Date.now());avFabSync()}
+function avPopSchedule(){
+  avFabSync();
+  if(!avOn||(AV&&(AV.tok||AV.pend)))return;
+  const last=+raw.get('avpop')||0;if(Date.now()-last<30*864e5)return;
+  let waited=0;const tick=()=>{
+    const busy=!$('cbanner').hidden||document.body.classList.contains('lock')||/^#(aviso-legal|privacidad|cookies|terminos|perfil)/.test(location.hash);
+    if(busy){waited=0;setTimeout(tick,1000);return}
+    waited+=1;if(waited<5){setTimeout(tick,1000);return}
+    if($('avPop').hidden)avPopOpen(true);
+  };setTimeout(tick,1000);
+}
+$('avFab').onclick=()=>avPopOpen(false);
+$('avPopX').onclick=()=>avPopClose(true);
+document.addEventListener('keydown',e=>{if(e.key==='Escape'&&!$('avPop').hidden)avPopClose(true)});
+$('avPopForm').onsubmit=async e=>{
+  e.preventDefault();const em=$('avPopEmail').value.trim(),pv=$('avPopProv').value,btn=$('avPopForm').querySelector('button');
+  $('avPopErr').hidden=true;
+  if(!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(em)){$('avPopErr').textContent=L('Revisa el correo: no parece válido.');$('avPopErr').hidden=false;$('avPopEmail').focus();return}
+  if(!pv){$('avPopErr').textContent=L('Elige una provincia para saber de qué avisarte.');$('avPopErr').hidden=false;$('avPopProv').focus();return}
+  if(!SIGO.prov.includes(pv)){SIGO.prov.push(pv);SIGO.ts=Date.now();raw.set('sigo',SIGO);markMe()}
+  btn.disabled=true;
+  const r=await api('/api/avisos/alta',{method:'POST',body:{email:em,idioma:LANG,sigo:avSigo(),web:$('avPopWeb').value}}).catch(()=>null);
+  btn.disabled=false;
+  if(r&&r.ok){AV={pend:em};raw.set('avisos',AV);drawAvisos();renderQuick();$('avPopBody').hidden=true;$('avPopOk').hidden=false;raw.set('avpop',Date.now());setTimeout(()=>avPopClose(false),9000)}
+  else{$('avPopErr').textContent=L(r&&r.status===400?'Revisa el correo: no parece válido.':'No hemos podido activarlos ahora. Inténtalo en unos minutos.');$('avPopErr').hidden=false}
 };
 initAvisos();
 

@@ -789,6 +789,44 @@ nav .bar .seg.tabs{margin-left:auto}
 .fact.fit b{color:var(--accent)}.fact.nofitf b{color:var(--crit)}
 @media (max-width:900px){.pgrid{grid-template-columns:1fr}}
 @media (max-width:520px){.pfields{grid-template-columns:1fr}.pcard{padding:20px 18px;border-radius:22px}.padd.two{grid-template-columns:1fr}.pmine b{font-size:28px}}
+
+/* ===== Avisos: bolita fija y ventana de alta ===== */
+.avfab{position:fixed;right:20px;bottom:20px;z-index:70;width:56px;height:56px;padding:0;border:0;border-radius:50%;background:transparent;cursor:pointer;box-shadow:0 10px 26px -8px rgba(0,0,0,.55),0 2px 6px rgba(0,0,0,.18);transition:transform .25s cubic-bezier(.3,1.3,.5,1)}
+.avfab svg{width:56px;height:56px;display:block;border-radius:50%}
+.avfab:hover{transform:translateY(-2px) scale(1.05)}
+.avfab:focus-visible{outline:3px solid var(--gold-l,#C9A86A);outline-offset:3px}
+.avdot{position:absolute;top:3px;right:3px;width:12px;height:12px;border-radius:50%;background:var(--gold-l,#C9A86A);box-shadow:0 0 0 2px #FAF7EE;animation:avpulse 2.4s ease-out 3}
+@keyframes avpulse{0%{box-shadow:0 0 0 2px #FAF7EE,0 0 0 2px rgba(201,168,106,.6)}100%{box-shadow:0 0 0 2px #FAF7EE,0 0 0 14px rgba(201,168,106,0)}}
+.avpop{position:fixed;right:20px;bottom:20px;z-index:85;width:min(380px,calc(100vw - 40px));border-radius:26px;padding:22px 22px 18px;background:var(--card);color:var(--ink);border:1px solid var(--edge,rgba(0,0,0,.06));box-shadow:0 1px 2px rgba(0,0,0,.08),0 30px 70px -20px rgba(0,0,0,.6);animation:avin .45s cubic-bezier(.3,1.3,.5,1)}
+@keyframes avin{from{opacity:0;transform:translateY(16px) scale(.98)}to{opacity:1;transform:none}}
+.avpop-head{display:flex;align-items:center;gap:10px;margin-bottom:8px}
+.avpop-ball svg{width:34px;height:34px;display:block;border-radius:50%;box-shadow:0 2px 6px rgba(0,0,0,.15)}
+.avpop .eyebrow{margin:0;font-size:11.5px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--gold,#B08B47)}
+.avpop h3{font-family:"Instrument Serif",Georgia,serif;font-weight:400;font-size:27px;line-height:1.08;letter-spacing:-.01em;margin:0 0 8px;padding-right:24px}
+.avpop-p{margin:0 0 14px;font-size:14.5px;line-height:1.5;color:var(--muted)}
+.avpop-p b{color:var(--ink)}
+.avpop form{display:grid;gap:8px}
+.avpop input:not(.pavtrap),.avpop select{height:44px;width:100%;border:1px solid var(--hair);border-radius:12px;background:var(--card);color:var(--ink);padding:0 12px;font:inherit;font-size:15px}
+.avpop input:focus-visible,.avpop select:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.avpop .btn{height:46px;width:100%;justify-content:center}
+.avpop-note{margin:10px 0 0;font-size:12px;line-height:1.45;color:var(--muted)}
+.avpop-note a{color:var(--accent)}
+.avx{position:absolute;top:12px;right:12px;width:32px;height:32px;border:0;border-radius:50%;background:transparent;color:var(--muted);font-size:22px;line-height:1;cursor:pointer}
+.avx:hover{background:color-mix(in srgb,var(--ink) 8%,transparent);color:var(--ink)}
+.avx:focus-visible{outline:2px solid var(--accent)}
+body.lock .avfab{display:none}
+@media (max-width:700px){
+ .avfab{right:14px;bottom:calc(92px + env(safe-area-inset-bottom));width:50px;height:50px}
+ .avfab svg{width:50px;height:50px}
+ .avpop{left:10px;right:10px;width:auto;bottom:calc(88px + env(safe-area-inset-bottom));padding:18px 18px 16px;border-radius:22px}
+ .avpop h3{font-size:22px;margin-bottom:6px}
+ .avlong{display:none}.avshort{display:block!important;font-size:13.5px;margin-bottom:10px}
+ .avpop form{gap:6px}.avpop input:not(.pavtrap),.avpop select{height:42px}.avpop .btn{height:44px}
+ .avpop-head{margin-bottom:4px}.avpop-ball svg{width:28px;height:28px}
+}
+.avshort{display:none}
+@media (prefers-reduced-motion:reduce){.avpop,.avdot{animation:none}.avfab{transition:none}}
+@media print{.avfab,.avpop{display:none!important}}
 </style>
 </head>
 <body>
@@ -1025,6 +1063,25 @@ nav .bar .seg.tabs{margin-left:auto}
 </div>
 
 
+<button class="avfab" id="avFab" type="button" hidden aria-label="Recibir avisos de torneos por correo" title="Avisos por correo"><svg viewBox="0 0 56 56" aria-hidden="true"><defs><radialGradient id="avb" cx="38%" cy="32%" r="70%"><stop offset="0" stop-color="#fff"/><stop offset=".7" stop-color="#F3F1EA"/><stop offset="1" stop-color="#DCD8CB"/></radialGradient></defs><circle cx="28" cy="28" r="27" fill="url(#avb)"/><g fill="#13201A" opacity=".12"><circle cx="15" cy="16" r="2.4"/><circle cx="24" cy="10" r="2.4"/><circle cx="34" cy="11" r="2.4"/><circle cx="42" cy="18" r="2.4"/><circle cx="10" cy="26" r="2.4"/><circle cx="46" cy="28" r="2.4"/><circle cx="11" cy="37" r="2.4"/><circle cx="45" cy="38" r="2.4"/><circle cx="18" cy="45" r="2.4"/><circle cx="28" cy="48" r="2.4"/><circle cx="38" cy="45" r="2.4"/></g><rect x="17" y="20" width="22" height="16" rx="3" fill="none" stroke="#1C4734" stroke-width="2.2"/><path d="M18.5 22l9.5 7 9.5-7" fill="none" stroke="#1C4734" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg><i class="avdot" aria-hidden="true"></i></button>
+<div class="avpop" id="avPop" role="dialog" aria-labelledby="avPopT" hidden>
+  <button class="avx" id="avPopX" type="button" aria-label="Cerrar">×</button>
+  <div class="avpop-head"><span class="avpop-ball"><svg viewBox="0 0 56 56" aria-hidden="true"><defs><radialGradient id="avb" cx="38%" cy="32%" r="70%"><stop offset="0" stop-color="#fff"/><stop offset=".7" stop-color="#F3F1EA"/><stop offset="1" stop-color="#DCD8CB"/></radialGradient></defs><circle cx="28" cy="28" r="27" fill="url(#avb)"/><g fill="#13201A" opacity=".12"><circle cx="15" cy="16" r="2.4"/><circle cx="24" cy="10" r="2.4"/><circle cx="34" cy="11" r="2.4"/><circle cx="42" cy="18" r="2.4"/><circle cx="10" cy="26" r="2.4"/><circle cx="46" cy="28" r="2.4"/><circle cx="11" cy="37" r="2.4"/><circle cx="45" cy="38" r="2.4"/><circle cx="18" cy="45" r="2.4"/><circle cx="28" cy="48" r="2.4"/><circle cx="38" cy="45" r="2.4"/></g><rect x="17" y="20" width="22" height="16" rx="3" fill="none" stroke="#1C4734" stroke-width="2.2"/><path d="M18.5 22l9.5 7 9.5-7" fill="none" stroke="#1C4734" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></span><p class="eyebrow">Avisos por correo</p></div>
+  <h3 id="avPopT">Que no se te escape ningún torneo</h3>
+  <div id="avPopBody">
+    <p class="avpop-p avlong">Te avisamos cuando abra la inscripción en tu provincia, cuando salga un torneo nuevo o cambie una fecha. Gratis y, como mucho, un correo al día.</p>
+    <p class="avpop-p avshort">Inscripciones, torneos nuevos y cambios en tu provincia. Gratis, máximo un correo al día.</p>
+    <form id="avPopForm" novalidate>
+      <input type="email" id="avPopEmail" placeholder="tu@correo.es" aria-label="Tu correo" autocomplete="email">
+      <select id="avPopProv" aria-label="Tu provincia"></select>
+      <input class="pavtrap" id="avPopWeb" tabindex="-1" autocomplete="off" aria-hidden="true">
+      <button class="btn primary" type="submit">Quiero los avisos</button>
+      <p class="perr" id="avPopErr" role="alert" hidden></p>
+    </form>
+    <p class="avpop-note">Te enviaremos un enlace para confirmar. Te das de baja con un clic. <a href="#privacidad">Privacidad</a></p>
+  </div>
+  <div id="avPopOk" hidden><p class="avpop-p"><b>¡Listo! Revisa tu correo.</b> Te hemos enviado un enlace para confirmar los avisos. Si no lo ves, mira en spam o en promociones.</p></div>
+</div>
 <div class="cbanner" id="cbanner" role="region" aria-label="Aviso de cookies" hidden>
   <h4>Tu privacidad, primero</h4>
   <p>Banderín no usa cookies de publicidad ni de analítica. Solo nos gustaría recordar en este navegador tus preferencias: tema, ciudad, torneos guardados y torneos jugados. ¿Nos dejas? Más detalles en la <a href="#cookies">política de cookies</a>.</p>

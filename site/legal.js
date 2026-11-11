@@ -134,6 +134,7 @@ window.LEGALDOCS = {
 <tr><td><code>banderin.saved</code></td><td>Preferencias, propia</td><td>Guardar la lista de torneos que marcas con la estrella.</td><td>Hasta que la borres</td><td>Sí</td></tr>
 <tr><td><code>banderin.played</code></td><td>Preferencias, propia</td><td>Guardar los torneos que marcas como jugados (tu historial).</td><td>Hasta que la borres</td><td>Sí</td></tr>
 <tr><td><code>banderin.perfil</code></td><td>Personalización, propia</td><td>Guardar tu perfil de golfista para marcar los torneos que encajan contigo.</td><td>Hasta que lo borres</td><td>No (lo pides tú al guardarlo)</td></tr>
+<tr><td><code>banderin.avpop</code></td><td>Interfaz, propia</td><td>Recordar que cerraste la ventana de avisos para no volver a mostrarla en 30 días.</td><td>30 días</td><td>No (necesaria para respetar tu elección)</td></tr>
 <tr><td><code>banderin.sigo</code></td><td>Personalización, propia</td><td>Guardar los clubes y provincias que sigues.</td><td>Hasta que lo borres</td><td>No (lo pides tú al seguirlos)</td></tr>
 </tbody></table>
 <p>Estos datos se quedan en tu dispositivo. Banderín no los recibe ni los comparte.</p>
