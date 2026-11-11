@@ -16,6 +16,7 @@ SANS = "-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif"
 SERIF = "'Instrument Serif',Georgia,'Times New Roman',serif"
 GREEN, GREEN_DK, CREAM, CREAM2, INK, MUTED, HAIR, GOLD, GOLD_DK = (
     '#1C4734', '#0E2A1E', '#FAF7EE', '#F2EDDF', '#13201A', '#55645B', '#E4DDCB', '#C9A86A', '#8A6A2E')
+PAGE = '#ECE8DA'  # fondo claro: aguanta el modo oscuro de Gmail sin que se pierdan textos
 # Color de la etiqueta de cada tipo de aviso: (texto, fondo)
 TAG = {'finde': (GREEN, '#E1ECE5'), 'pronto': ('#8A5A00', '#F7EBCF'), 'abre': ('#1E6B43', '#E3F0E7'), 'cierra': ('#8A5A00', '#F7EBCF'), 'nuevo': (GOLD_DK, '#F3E9D2'),
        'fecha': ('#3B4A41', '#ECE6D6'), 'plazo': ('#3B4A41', '#ECE6D6'), 'cancelado': ('#B83232', '#F6E1DE')}
@@ -40,15 +41,15 @@ def shell(lang, title, preheader, eyebrow, inner, footer, site=SITE):
         '<tr><td style="padding:0 8px 18px"><table role="presentation" width="100%%" cellpadding="0" cellspacing="0"><tr>'
         '<td width="34" valign="middle"><img src="%s/icons/icon-192.png" width="30" height="30" alt="" '
         'style="display:block;border:0;border-radius:8px"></td>'
-        '<td valign="middle" style="padding-left:10px;font:700 20px/1 %s;letter-spacing:-.02em;color:#F4F1E8">banderín</td>'
+        '<td valign="middle" style="padding-left:10px;font:700 20px/1 %s;letter-spacing:-.02em;color:#1C4734">banderín</td>'
         '<td align="right" valign="middle" style="font:600 11px/1 %s;letter-spacing:.14em;text-transform:uppercase;color:%s">%s</td>'
         '</tr></table></td></tr>'
         # Tarjeta crema
         '<tr><td class="px" style="background:%s;border-radius:24px;padding:34px 34px 30px">%s</td></tr>'
         # Pie
-        '<tr><td style="padding:22px 18px 0;text-align:center;font:12.5px/1.65 %s;color:#9FB2A6">%s</td></tr>'
+        '<tr><td style="padding:22px 18px 0;text-align:center;font:12.5px/1.65 %s;color:#55645B">%s</td></tr>'
         '</table></td></tr></table></body></html>') % (
-        lang, e(title), GREEN_DK, e(preheader), '&nbsp;&zwnj;' * 40, GREEN_DK, site, SANS, SANS, GOLD, e(eyebrow),
+        lang, e(title), PAGE, e(preheader), '&nbsp;&zwnj;' * 40, PAGE, site, SANS, SANS, GOLD_DK, e(eyebrow),
         CREAM, inner, SANS, footer)
 
 
@@ -63,7 +64,7 @@ def para(text, size=15.5, color=MUTED, margin='0 0 22px'):
 
 def button(url, label, big=True, solid=True):
     pad, size = ('15px 26px', 15.5) if big else ('10px 16px', 14)
-    style = ('background:%s;color:#F4F1E8;border:1px solid %s' % (GREEN, GREEN)) if solid else \
+    style = ('background:#DDEBE1;color:#17643F;border:1.5px solid #17643F' ) if solid else \
         ('background:transparent;color:%s;border:1px solid %s' % (GREEN, GREEN))
     return ('<a href="%s" style="display:inline-block;%s;font:600 %spx/1 %s;text-decoration:none;'
             'padding:%s;border-radius:999px">%s</a>') % (e(url), style, size, SANS, pad, e(label))
@@ -81,10 +82,10 @@ def footer(lang, manage=None, unsub=None, why=None):
     links = []
     if manage:
         links.append('<a href="%s" style="color:%s;text-decoration:underline">%s</a>' % (
-            e(manage), GOLD, 'Manage alerts' if lang == 'en' else 'Gestionar avisos'))
+            e(manage), GREEN, 'Manage alerts' if lang == 'en' else 'Gestionar avisos'))
     if unsub:
         links.append('<a href="%s" style="color:%s;text-decoration:underline">%s</a>' % (
-            e(unsub), GOLD, 'Unsubscribe' if lang == 'en' else 'Darme de baja'))
+            e(unsub), GREEN, 'Unsubscribe' if lang == 'en' else 'Darme de baja'))
     parts = []
     if why:
         parts.append(e(why))
