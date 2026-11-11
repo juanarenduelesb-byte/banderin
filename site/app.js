@@ -510,7 +510,7 @@ function renderPerfil(){
 }
 /* Mi perfil: puerta de entrada (cuenta primero) y secciones con menú */
 let PSEC='resumen';
-function pSec(k,focus){PSEC=k;document.querySelectorAll('.pnav [data-ps]').forEach(b=>{const on=b.dataset.ps===k;b.setAttribute('aria-selected',on);b.tabIndex=on?0:-1;if(on&&focus)b.focus()});
+function pSec(k,focus){PSEC=k;document.querySelectorAll('.pnav [data-ps]').forEach(b=>{const on=b.dataset.ps===k;b.setAttribute('aria-selected',on);b.tabIndex=on?0:-1;if(on&&focus)b.focus();if(on){const n=b.parentElement;if(n&&n.scrollWidth>n.clientWidth)n.scrollTo({left:Math.max(0,b.offsetLeft-n.clientWidth/2+b.offsetWidth/2),behavior:'smooth'})}});
   document.querySelectorAll('.ppane').forEach(p=>p.hidden=p.id!=='pp-'+k)}
 function pHasLocal(){return !!(PERF||SIGO.clubs.length||SIGO.prov.length||saved.size||played.size||(AV&&AV.tok))}
 function pSess(){try{return Object.keys(localStorage).some(k=>/^sb-.+-auth-token$/.test(k))}catch(e){return false}}

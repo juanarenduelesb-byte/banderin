@@ -65,7 +65,7 @@ button{font:inherit;color:inherit}
 .wrap{max-width:1240px;margin:0 auto;padding:0 20px}
 .glass{background:var(--glass);-webkit-backdrop-filter:blur(30px) saturate(175%);backdrop-filter:blur(30px) saturate(175%);border:1px solid var(--edge);box-shadow:inset 0 1px 0 var(--edge),var(--shadow)}
 
-nav{position:sticky;top:10px;z-index:40;margin:10px auto 0;max-width:1240px;padding:0 20px}
+nav.top{position:sticky;top:10px;z-index:40;margin:10px auto 0;max-width:1240px;padding:0 20px}
 nav .bar{display:flex;align-items:center;gap:12px;border-radius:999px;padding:6px 8px 6px 18px}
 .brand{display:flex;align-items:center;gap:7px;font-weight:700;letter-spacing:-.03em;font-size:19px;color:var(--ink);text-decoration:none;white-space:nowrap}
 .brand svg{width:22px;height:22px;flex:none}
@@ -671,8 +671,8 @@ nav.tabbar{display:none}
   .sitefoot{padding-bottom:calc(100px + env(safe-area-inset-bottom))}
   .cbanner{bottom:calc(88px + env(safe-area-inset-bottom))}
   /* Barra superior: la píldora queda debajo de la hora y la batería; una franja del color de la página tapa lo que pasa por detrás */
-  nav:not(.tabbar){top:0;margin-top:0;padding:calc(8px + env(safe-area-inset-top)) 14px 8px}
-  nav:not(.tabbar)::before{content:"";position:absolute;left:0;right:0;top:0;height:calc(100% + 14px);z-index:-1;pointer-events:none;
+  nav.top{top:0;margin-top:0;padding:calc(8px + env(safe-area-inset-top)) 14px 8px}
+  nav.top::before{content:"";position:absolute;left:0;right:0;top:0;height:calc(100% + 14px);z-index:-1;pointer-events:none;
     background:linear-gradient(to bottom,var(--page) 0,var(--page) calc(env(safe-area-inset-top) + 8px),color-mix(in srgb,var(--page) 0%,transparent) 100%)}
   nav .bar{min-height:54px;padding:6px 8px 6px 18px}
 }
@@ -749,7 +749,7 @@ nav .bar .seg.tabs{margin-left:auto}
 .pnav button[aria-selected=true]{background:var(--tint);color:var(--accent)}
 .pnav button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
 .ppane{display:grid;gap:18px}.prows:has(> p.phint:only-child){border:0;background:none;box-shadow:none;padding:0}.prows > p.phint{margin:4px 0 0}.ppane[hidden]{display:none}
-@media (max-width:900px){.playout{grid-template-columns:1fr;gap:14px}.pnav{position:static;flex-direction:row;overflow-x:auto;border-radius:999px;padding:5px;scrollbar-width:none}.pnav::-webkit-scrollbar{display:none}.pnav button{width:auto;white-space:nowrap;border-radius:999px;padding:9px 14px}.pnav button svg{display:none}}
+@media (max-width:900px){.playout{grid-template-columns:minmax(0,1fr);gap:14px}.playout>*{min-width:0}.pnav{position:static;flex-direction:row;overflow-x:auto;max-width:100%;-webkit-overflow-scrolling:touch;scroll-snap-type:x proximity;border-radius:999px;padding:5px;scrollbar-width:none}.pnav::-webkit-scrollbar{display:none}.pnav button{width:auto;white-space:nowrap;border-radius:999px;padding:9px 14px}.pnav button svg{display:none}}
 @media (max-width:620px){.pgate{margin:10px 0 30px;padding:30px 22px 22px;border-radius:26px}.pg-t{font-size:36px}.pg-b .btn{flex:1}.pban{flex-direction:column;align-items:stretch}}
 .pgrid{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);gap:18px;align-items:start;margin-bottom:28px}
 .pcol{display:grid;gap:18px;min-width:0}
@@ -890,12 +890,36 @@ body.lock .avfab{display:none}
 .mebtn.logged{background:var(--accent);color:var(--on-accent)}
 .mebtn.logged .medot{display:none}
 @media (max-width:520px){.cubox{padding:22px 18px 18px;border-radius:24px}.cu-h{font-size:26px}}
+
+/* ===== Adaptación a cualquier móvil (iOS/Android) ===== */
+html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
+body{overflow-x:hidden}
+select{-webkit-appearance:none;appearance:none;line-height:1.25;padding-top:0!important;padding-bottom:0!important;padding-right:34px!important;text-overflow:ellipsis;white-space:nowrap;overflow:hidden;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 8'%3E%3Cpath d='M1 1.5l5 5 5-5' fill='none' stroke='%237E8A82' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E")!important;
+  background-repeat:no-repeat!important;background-position:right 13px center!important;background-size:12px 8px!important}
+select::-ms-expand{display:none}
+.cal{grid-template-columns:repeat(7,minmax(0,1fr))}
+.cal .dow{overflow:hidden;text-overflow:clip;white-space:nowrap}
+@media (max-width:700px){
+  /* iOS amplía la página al tocar un campo con letra menor de 16 px */
+  input,select,textarea{font-size:16px!important}
+  .cal .dow{padding:7px 2px;text-align:center;letter-spacing:.02em;font-size:10.5px}
+}
+@media (max-width:900px){.pnav{-webkit-mask-image:linear-gradient(to right,#000 calc(100% - 28px),transparent);mask-image:linear-gradient(to right,#000 calc(100% - 28px),transparent);padding-right:24px}}
+@media (max-width:380px){
+  nav.tabbar{padding-left:8px;padding-right:8px}
+  .tabin{padding:4px;gap:0}
+  .tb{min-height:50px}
+  .tb span{font-size:9.5px;letter-spacing:-.01em}
+  .tb svg{width:23px;height:23px}
+  .pnav button{padding:8px 11px;font-size:13.5px}
+}
 </style>
 </head>
 <body>
 <noscript><p>Banderín necesita JavaScript para mostrar el calendario de torneos. Actívalo en tu navegador y vuelve a cargar la página.</p></noscript>
 <div class="water"><i></i><i></i><i></i><svg id="bgTopo" viewBox="0 0 1600 1000" preserveAspectRatio="xMidYMid slice" aria-hidden="true"></svg></div>
-<nav><div class="bar glass">
+<nav class="top"><div class="bar glass">
   <a class="brand flagmark" href="#inicio"><svg viewBox="0 0 24 24" aria-hidden="true"><path class="pole" d="M8 3v16.5" fill="none" stroke-width="2.2" stroke-linecap="round"/><path class="cloth" d="M9.4 3.4 19.2 7a.7.7 0 0 1 0 1.3L9.4 11.9z"/><ellipse class="cup" cx="8" cy="20.4" rx="4.6" ry="1.5"/></svg><span>banderín</span></a>
   <div class="seg tabs"><a href="#inicio">Inicio</a><a href="#lista">Torneos</a><a href="#calendario">Calendario</a><a href="#resultados">Resultados</a></div>
   <a class="mebtn" id="me" href="#perfil" title="Mi perfil"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8.2" r="3.9"/><path d="M4.6 20.2c.9-3.9 3.9-6 7.4-6s6.5 2.1 7.4 6"/></svg><span>Mi perfil</span><i class="medot" aria-hidden="true"></i></a>
