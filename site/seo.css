@@ -1,12 +1,16 @@
 /* Banderín · páginas por comunidad y provincia (generadas por pipeline/seo.py) */
-@font-face{font-family:"Instrument Sans";font-style:normal;font-weight:400;font-display:swap;src:url(/fonts/instrument-sans-latin-400-normal.woff2) format("woff2")}
-@font-face{font-family:"Instrument Sans";font-style:normal;font-weight:600;font-display:swap;src:url(/fonts/instrument-sans-latin-600-normal.woff2) format("woff2")}
+@font-face{font-family:"Public Sans";font-style:normal;font-weight:400;font-display:swap;src:url(/fonts/public-sans-latin-400-normal.woff2) format("woff2")}
+@font-face{font-family:"Public Sans";font-style:italic;font-weight:400;font-display:swap;src:url(/fonts/public-sans-latin-400-italic.woff2) format("woff2")}
+@font-face{font-family:"Public Sans";font-style:normal;font-weight:500;font-display:swap;src:url(/fonts/public-sans-latin-500-normal.woff2) format("woff2")}
+@font-face{font-family:"Public Sans";font-style:normal;font-weight:600;font-display:swap;src:url(/fonts/public-sans-latin-600-normal.woff2) format("woff2")}
+@font-face{font-family:"Public Sans";font-style:normal;font-weight:700;font-display:swap;src:url(/fonts/public-sans-latin-700-normal.woff2) format("woff2")}
+@font-face{font-family:"Libre Caslon Display";font-style:normal;font-weight:400;font-display:swap;src:url(/fonts/libre-caslon-display-latin-400-normal.woff2) format("woff2")}
+@font-face{font-family:"Libre Caslon Display";font-style:italic;font-weight:400;font-display:swap;src:url(/fonts/libre-caslon-display-latin-400-normal.woff2) format("woff2")}
 @font-face{font-family:"Instrument Sans";font-style:normal;font-weight:700;font-display:swap;src:url(/fonts/instrument-sans-latin-700-normal.woff2) format("woff2")}
-@font-face{font-family:"Instrument Serif";font-style:normal;font-weight:400;font-display:swap;src:url(/fonts/instrument-serif-latin-400-normal.woff2) format("woff2")}
 :root{--page:#163D2B;--page2:#0E2A1E;--card:#FAF7EE;--card2:#F2EDDF;--ink:#13201A;--muted:#55645B;--line:#E4DDCB;--gold:#B08B47;--gold-l:#C9A86A;--hero-ink:#F4F1E8;--hero-muted:#BFCDC4;--green:#1C4734;--ok:#1E6B43}
 *{box-sizing:border-box}
 html{-webkit-text-size-adjust:100%}
-body{margin:0;background:radial-gradient(120% 60% at 80% 0%,#21533B 0%,var(--page) 40%,var(--page2) 100%) fixed;color:var(--hero-ink);font:16px/1.55 "Instrument Sans",-apple-system,BlinkMacSystemFont,"Helvetica Neue",Arial,sans-serif;-webkit-font-smoothing:antialiased}
+body{margin:0;background:radial-gradient(120% 60% at 80% 0%,#21533B 0%,var(--page) 40%,var(--page2) 100%) fixed;color:var(--hero-ink);font:16px/1.55 "Public Sans",-apple-system,BlinkMacSystemFont,"Helvetica Neue",Arial,sans-serif;-webkit-font-smoothing:antialiased}
 a{color:inherit}
 a:focus-visible,summary:focus-visible{outline:2px solid var(--gold-l);outline-offset:3px;border-radius:8px}
 main{max-width:1040px;margin:0 auto;padding:0 20px 40px}
@@ -23,8 +27,8 @@ main{max-width:1040px;margin:0 auto;padding:0 20px 40px}
 .crumbs a{text-decoration:none}.crumbs a:hover{text-decoration:underline}
 .hero{padding:22px 0 10px}
 .eyebrow{margin:0 0 6px;font-size:12px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--gold-l)}
-h1{font:400 clamp(40px,6vw,68px)/1 "Instrument Serif",Georgia,serif;letter-spacing:-.01em;margin:0 0 16px;max-width:16ch}
-h2{font:400 clamp(26px,3.4vw,34px)/1.1 "Instrument Serif",Georgia,serif;margin:0 0 14px}
+h1{font:400 clamp(40px,6vw,68px)/1 "Libre Caslon Display",Georgia,serif;letter-spacing:-.01em;margin:0 0 16px;max-width:16ch}
+h2{font:400 clamp(26px,3.4vw,34px)/1.1 "Libre Caslon Display",Georgia,serif;margin:0 0 14px}
 .lede{max-width:64ch;font-size:18px;color:#DCE5DF;margin:0 0 16px}
 .upd{font-size:13px;color:var(--hero-muted);margin:12px 0 0}
 .chips{list-style:none;display:flex;flex-wrap:wrap;gap:8px;margin:0 0 18px;padding:0}
@@ -37,7 +41,7 @@ h2{font:400 clamp(26px,3.4vw,34px)/1.1 "Instrument Serif",Georgia,serif;margin:0
 .btn.ghost{background:transparent;color:var(--hero-ink);box-shadow:inset 0 0 0 1px rgba(244,241,232,.35)}
 .btn.ghost:hover{background:rgba(244,241,232,.08)}
 .subnav{margin:26px 0 0}
-.subnav h2{font:600 12px/1.4 "Instrument Sans",sans-serif;letter-spacing:.14em;text-transform:uppercase;color:var(--gold-l);margin:0 0 10px}
+.subnav h2{font:600 12px/1.4 "Public Sans",sans-serif;letter-spacing:.14em;text-transform:uppercase;color:var(--gold-l);margin:0 0 10px}
 .subnav div,.regions nav{display:flex;flex-wrap:wrap;gap:8px}
 .subnav a,.regions a{background:var(--card);color:var(--ink);border-radius:999px;padding:8px 14px;font-size:14px;font-weight:600;text-decoration:none}
 .subnav a span,.regions a span{color:var(--gold);margin-left:4px}
@@ -63,7 +67,7 @@ h2{font:400 clamp(26px,3.4vw,34px)/1.1 "Instrument Serif",Georgia,serif;margin:0
 .cgrid{list-style:none;display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:12px;margin:30px 0 0;padding:0}
 .cgrid li{background:var(--card);color:var(--ink);border-radius:22px;padding:16px 18px}
 .cgrid li>a{display:flex;justify-content:space-between;align-items:baseline;gap:10px;text-decoration:none}
-.cgrid li>a b{font:400 24px/1.1 "Instrument Serif",Georgia,serif}
+.cgrid li>a b{font:400 24px/1.1 "Libre Caslon Display",Georgia,serif}
 .cgrid li>a span{color:var(--gold);font-weight:600;font-size:14px;white-space:nowrap}
 .cgrid li>a:hover b{text-decoration:underline;text-underline-offset:3px}
 .cgrid p{margin:8px 0 0;font-size:13.5px;color:var(--muted)}
@@ -86,3 +90,5 @@ h2{font:400 clamp(26px,3.4vw,34px)/1.1 "Instrument Serif",Georgia,serif;margin:0
  .lede{font-size:16.5px}
 }
 @media (prefers-reduced-motion:reduce){*{scroll-behavior:auto!important}}
+
+.top .brand{font-family:"Instrument Sans",-apple-system,BlinkMacSystemFont,"Helvetica Neue",Arial,sans-serif}

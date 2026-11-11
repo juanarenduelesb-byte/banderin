@@ -177,7 +177,7 @@ window.LEGALDOCS_EN={
 <h3>4. Terms</h3>
 <p>Use of Banderín is governed by this legal notice, the <a href="#terminos">terms of use</a>, the <a href="#privacidad">privacy policy</a> and the <a href="#cookies">cookie policy</a>. By using the site you accept them. If you do not agree, please do not use it.</p>
 <h3>5. Intellectual property</h3>
-<p>The design, code, original text, illustrations and the Banderín brand belong to the owner or are used under licence. The Instrument Sans and Instrument Serif typefaces are used under the SIL Open Font License 1.1, and the province map comes from open geographic data. Tournament data (name, date, course, price, etc.) is factual information published by the organisers; Banderín claims no rights over it.</p>
+<p>The design, code, original text, illustrations and the Banderín brand belong to the owner or are used under licence. The Libre Caslon Display, Public Sans and Instrument Sans (logo) typefaces are used under the SIL Open Font License 1.1, and the province map comes from open geographic data. Tournament data (name, date, course, price, etc.) is factual information published by the organisers; Banderín claims no rights over it.</p>
 <h3>6. Links to other sites</h3>
 <p>Banderín links to third-party pages, such as organisers' entry pages. We do not control those sites and are not responsible for their content, availability or privacy policies; please read them before giving them your data.</p>
 <h3>7. Liability</h3>

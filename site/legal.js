@@ -38,7 +38,7 @@ window.LEGALDOCS = {
 <p>El uso de Banderín está regulado por estos textos legales: este aviso legal, los <a href="#terminos">términos de uso</a>, la <a href="#privacidad">política de privacidad</a> y la <a href="#cookies">política de cookies</a>. Al usar el sitio aceptas estas condiciones. Si no estás de acuerdo, te pedimos que no lo utilices.</p>
 
 <h3 id="al-5">5. Propiedad intelectual e industrial</h3>
-<p>El diseño, el código, los textos propios, las ilustraciones y la marca Banderín pertenecen a su titular o se usan con licencia. Las tipografías Instrument Sans e Instrument Serif se usan bajo licencia SIL Open Font License 1.1, y el mapa de provincias procede de datos geográficos abiertos.</p>
+<p>El diseño, el código, los textos propios, las ilustraciones y la marca Banderín pertenecen a su titular o se usan con licencia. Las tipografías Libre Caslon Display, Public Sans e Instrument Sans (logotipo) se usan bajo licencia SIL Open Font License 1.1, y el mapa de provincias procede de datos geográficos abiertos.</p>
 <p>Los datos de los torneos (nombre, fecha, campo, precio, etc.) son información de hecho publicada por sus organizadores; Banderín no reclama derechos sobre ella.</p>
 
 <h3 id="al-6">6. Enlaces a otros sitios</h3>

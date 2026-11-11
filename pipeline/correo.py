@@ -5,7 +5,7 @@ El resumen diario de avisos se construye aquí. Los correos de la web
 lib/avisos.js: si cambias el diseño, cámbialo en los dos sitios.
 
 Pensado para clientes de correo: tablas, estilos en línea, sin JavaScript ni
-fuentes externas (Georgia hace de Instrument Serif), y legible con las imágenes
+fuentes externas (Georgia hace de Libre Caslon), y legible con las imágenes
 bloqueadas.
 """
 import datetime as dt
@@ -13,7 +13,7 @@ import html
 
 SITE = 'https://banderin.es'
 SANS = "-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif"
-SERIF = "'Instrument Serif',Georgia,'Times New Roman',serif"
+SERIF = "'Libre Caslon Display',Georgia,'Times New Roman',serif"
 GREEN, GREEN_DK, CREAM, CREAM2, INK, MUTED, HAIR, GOLD, GOLD_DK = (
     '#1C4734', '#0E2A1E', '#FAF7EE', '#F2EDDF', '#13201A', '#55645B', '#E4DDCB', '#C9A86A', '#8A6A2E')
 PAGE = '#ECE8DA'  # fondo claro: aguanta el modo oscuro de Gmail sin que se pierdan textos
