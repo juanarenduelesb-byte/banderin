@@ -827,6 +827,41 @@ body.lock .avfab{display:none}
 .avshort{display:none}
 @media (prefers-reduced-motion:reduce){.avpop,.avdot{animation:none}.avfab{transition:none}}
 @media print{.avfab,.avpop{display:none!important}}
+
+/* ===== Cuentas ===== */
+.cumodal{position:fixed;inset:0;z-index:95;display:grid;place-items:center;padding:16px;background:rgba(6,18,12,.55);-webkit-backdrop-filter:blur(6px);backdrop-filter:blur(6px)}
+.cumodal[hidden]{display:none}
+.cubox{position:relative;width:min(420px,100%);max-height:calc(100vh - 32px);overflow:auto;border-radius:28px;padding:26px 24px 22px;background:var(--card);color:var(--ink);box-shadow:0 40px 90px -30px rgba(0,0,0,.7);animation:avin .4s cubic-bezier(.3,1.3,.5,1)}
+.cu-eb{margin:0 0 6px;font-size:11.5px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--gold,#B08B47)}
+.cu-h{font-family:"Instrument Serif",Georgia,serif;font-weight:400;font-size:29px;line-height:1.06;margin:0 0 16px;padding-right:26px}
+.cutabs{display:flex;gap:4px;background:var(--tint);border-radius:999px;padding:4px;margin-bottom:16px}
+.cutabs button{flex:1;border:0;background:transparent;border-radius:999px;padding:9px 12px;font:inherit;font-size:14px;font-weight:600;color:var(--muted);cursor:pointer}
+.cutabs button[aria-selected=true]{background:var(--card);color:var(--ink);box-shadow:0 1px 4px rgba(0,0,0,.12)}
+.cubox form{display:grid;gap:9px}
+.cubox input[type=email],.cubox input[type=password]{height:46px;width:100%;border:1px solid var(--hair);border-radius:12px;background:var(--card);color:var(--ink);padding:0 13px;font:inherit;font-size:15.5px}
+.cubox input:focus-visible,.cutabs button:focus-visible,.cu-google:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.cubox .btn{height:48px;width:100%;justify-content:center;font-size:15px}
+.cu-google{display:flex;align-items:center;justify-content:center;gap:10px;width:100%;height:48px;border:1px solid var(--hair);border-radius:999px;background:#fff;color:#1f1f1f;font:inherit;font-size:15px;font-weight:600;cursor:pointer}
+.cu-google svg{width:18px;height:18px}
+.cu-google:hover{background:#f6f6f6}
+.cu-or{display:flex;align-items:center;gap:10px;margin:14px 0;color:var(--muted);font-size:13px}
+.cu-or::before,.cu-or::after{content:"";flex:1;height:1px;background:var(--hair)}
+.cu-check{display:flex;gap:9px;align-items:flex-start;font-size:13.5px;line-height:1.45;color:var(--muted);margin:2px 0 4px;cursor:pointer}
+.cu-check input{margin-top:2px;width:17px;height:17px;accent-color:var(--accent);flex:none}
+.cu-check a,.cu-foot a{color:var(--accent)}
+.cu-foot{margin:14px 0 0;font-size:13px;color:var(--muted);text-align:center}
+.cu-done-t{font-family:"Instrument Serif",Georgia,serif;font-size:24px;margin:0 0 8px}
+.pcu-btns{display:flex;gap:8px;flex-wrap:wrap;margin-top:4px}
+.pcu-who{display:flex;align-items:center;gap:12px;margin:4px 0 12px}
+.pcu-who b{display:block;font-size:15.5px;word-break:break-all}
+.pcu-who small{display:block;color:var(--muted);font-size:13px}
+.pcu-av{width:42px;height:42px;border-radius:50%;background:var(--accent);flex:none;display:grid;place-items:center}
+.pcu-av::after{content:"";width:18px;height:18px;background:var(--on-accent,#fff);-webkit-mask:radial-gradient(circle at 50% 32%,#000 4.2px,transparent 4.7px),radial-gradient(ellipse 9px 6px at 50% 100%,#000 98%,transparent 100%);mask:radial-gradient(circle at 50% 32%,#000 4.2px,transparent 4.7px),radial-gradient(ellipse 9px 6px at 50% 100%,#000 98%,transparent 100%)}
+.pcu-del{display:block;margin-top:14px;font-size:13px;color:var(--crit)!important}
+.pcu-del.confirm{font-weight:700}
+.mebtn.logged{background:var(--accent);color:var(--on-accent)}
+.mebtn.logged .medot{display:none}
+@media (max-width:520px){.cubox{padding:22px 18px 18px;border-radius:24px}.cu-h{font-size:26px}}
 </style>
 </head>
 <body>
@@ -1006,10 +1041,20 @@ body.lock .avfab{display:none}
         <div class="pacts"><button class="btn primary" type="submit">Guardar perfil</button><span class="pstat" id="pstat" role="status" aria-live="polite"></span></div>
         <p class="pnote">Pocas fichas publican el hándicap máximo o la edad exacta. Cuando lo hacen, lo tenemos en cuenta; si no, usamos el sexo y la categoría del torneo. Confirma siempre las condiciones en la ficha oficial.</p>
       </form>
-      <div class="pcard glass pacc">
-        <span class="psoon">Próximamente</span>
+      <div class="pcard glass" id="pcuenta">
+        <span class="psoon" id="pcuSoon">Próximamente</span>
         <h3>Cuenta</h3>
-        <p>Podrás entrar con tu correo, sin contraseña, y tener tu perfil, tus guardados y lo que sigues en el ordenador y en el móvil. Lo que guardes hoy se pasará a tu cuenta.</p>
+        <p class="phint" id="pcuLegacy">Podrás crear una cuenta para tener tu perfil, tus guardados y lo que sigues en el ordenador y en el móvil.</p>
+        <div id="pcuOff" hidden>
+          <p class="phint">Crea tu cuenta y tendrás tu perfil, lo que sigues, tus guardados y tus jugados en el ordenador y en el móvil. Lo que ya tienes guardado aquí se pasa a la cuenta.</p>
+          <div class="pcu-btns"><button type="button" class="btn primary" data-cu="crear">Crear cuenta</button><button type="button" class="btn ghost" data-cu="entrar">Entrar</button></div>
+        </div>
+        <div id="pcuOn" hidden>
+          <p class="pcu-who"><span class="pcu-av" aria-hidden="true"></span><span><b id="pcuEmail"></b><small id="pcuVia"></small></span></p>
+          <p class="phint">Tu perfil, lo que sigues, tus guardados y tus jugados se guardan en tu cuenta y se sincronizan solos.</p>
+          <div class="pcu-btns"><button type="button" class="btn ghost" id="pcuPw">Cambiar contraseña</button><button type="button" class="btn ghost" id="pcuSalir">Cerrar sesión</button></div>
+          <button type="button" class="linkbtn pcu-del" id="pcuBorrar">Eliminar mi cuenta</button>
+        </div>
       </div>
     </div>
     <div class="pcol">
@@ -1082,6 +1127,60 @@ body.lock .avfab{display:none}
   </div>
   <div id="avPopOk" hidden><p class="avpop-p"><b>¡Listo! Revisa tu correo.</b> Te hemos enviado un enlace para confirmar los avisos. Si no lo ves, mira en spam o en promociones.</p></div>
 </div>
+<div class="cumodal" id="cuModal" hidden>
+  <div class="cubox" role="dialog" aria-modal="true" aria-labelledby="cuTitle">
+    <button class="avx" id="cuX" type="button" aria-label="Cerrar">×</button>
+    <p class="eyebrow cu-eb">Tu cuenta de Banderín</p>
+    <h3 id="cuTitle" class="cu-h">Tu golf, en todos tus dispositivos</h3>
+    <div class="cutabs" id="cuTabs" role="tablist"><button type="button" role="tab" data-m="entrar">Entrar</button><button type="button" role="tab" data-m="crear">Crear cuenta</button></div>
+    <div id="cu-entrar">
+      <button type="button" class="cu-google"><svg viewBox="0 0 18 18" aria-hidden="true"><path fill="#4285F4" d="M17.6 9.2c0-.6-.1-1.2-.2-1.7H9v3.3h4.8a4.1 4.1 0 0 1-1.8 2.7v2.2h2.9c1.7-1.6 2.7-3.9 2.7-6.5z"/><path fill="#34A853" d="M9 18c2.4 0 4.5-.8 6-2.2l-2.9-2.2c-.8.5-1.8.9-3.1.9-2.4 0-4.4-1.6-5.1-3.8H.9v2.3A9 9 0 0 0 9 18z"/><path fill="#FBBC05" d="M3.9 10.7a5.4 5.4 0 0 1 0-3.4V5H.9a9 9 0 0 0 0 8z"/><path fill="#EA4335" d="M9 3.6c1.3 0 2.5.5 3.5 1.4l2.6-2.6A9 9 0 0 0 .9 5l3 2.3C4.6 5.2 6.6 3.6 9 3.6z"/></svg><span>Continuar con Google</span></button>
+      <p class="cu-or"><span>o con tu correo</span></p>
+      <form id="cuEntrarF" novalidate>
+        <input type="email" id="cuEntrarEmail" autocomplete="email" placeholder="tu@correo.es" aria-label="Correo">
+        <input type="password" id="cuEntrarPw" autocomplete="current-password" placeholder="Contraseña" aria-label="Contraseña">
+        <button class="btn primary" type="submit">Entrar</button>
+        <p class="perr" id="cuEntrarErr" role="alert" hidden></p>
+      </form>
+      <p class="cu-foot"><button type="button" class="linkbtn" data-cu="olvido">¿Has olvidado la contraseña?</button></p>
+    </div>
+    <div id="cu-crear" hidden>
+      <button type="button" class="cu-google"><svg viewBox="0 0 18 18" aria-hidden="true"><path fill="#4285F4" d="M17.6 9.2c0-.6-.1-1.2-.2-1.7H9v3.3h4.8a4.1 4.1 0 0 1-1.8 2.7v2.2h2.9c1.7-1.6 2.7-3.9 2.7-6.5z"/><path fill="#34A853" d="M9 18c2.4 0 4.5-.8 6-2.2l-2.9-2.2c-.8.5-1.8.9-3.1.9-2.4 0-4.4-1.6-5.1-3.8H.9v2.3A9 9 0 0 0 9 18z"/><path fill="#FBBC05" d="M3.9 10.7a5.4 5.4 0 0 1 0-3.4V5H.9a9 9 0 0 0 0 8z"/><path fill="#EA4335" d="M9 3.6c1.3 0 2.5.5 3.5 1.4l2.6-2.6A9 9 0 0 0 .9 5l3 2.3C4.6 5.2 6.6 3.6 9 3.6z"/></svg><span>Continuar con Google</span></button>
+      <p class="cu-or"><span>o con tu correo</span></p>
+      <form id="cuCrearF" novalidate>
+        <input type="email" id="cuCrearEmail" autocomplete="email" placeholder="tu@correo.es" aria-label="Correo">
+        <input type="password" id="cuCrearPw" autocomplete="new-password" placeholder="Contraseña (mínimo 10 caracteres)" aria-label="Contraseña">
+        <label class="cu-check"><input type="checkbox" id="cuCrearOk"><span>Tengo 14 años o más y he leído la <a href="#privacidad">política de privacidad</a>.</span></label>
+        <button class="btn primary" type="submit">Crear cuenta</button>
+        <p class="perr" id="cuCrearErr" role="alert" hidden></p>
+      </form>
+      <p class="cu-foot">Te enviaremos un correo para verificar que es tuyo.</p>
+    </div>
+    <div id="cu-olvido" hidden>
+      <p class="phint">Escribe tu correo y te enviaremos un enlace para elegir una contraseña nueva.</p>
+      <form id="cuOlvidoF" novalidate>
+        <input type="email" id="cuOlvidoEmail" autocomplete="email" placeholder="tu@correo.es" aria-label="Correo">
+        <button class="btn primary" type="submit">Enviar enlace</button>
+        <p class="perr" id="cuOlvidoErr" role="alert" hidden></p>
+      </form>
+      <p class="cu-foot"><button type="button" class="linkbtn" data-cu="entrar">Volver a entrar</button></p>
+    </div>
+    <div id="cu-nueva" hidden>
+      <p class="phint">Elige tu nueva contraseña. Mínimo 10 caracteres; mejor una frase que una palabra.</p>
+      <form id="cuNuevaF" novalidate>
+        <input type="password" id="cuNuevaPw" autocomplete="new-password" placeholder="Nueva contraseña" aria-label="Nueva contraseña">
+        <input type="password" id="cuNuevaPw2" autocomplete="new-password" placeholder="Repite la contraseña" aria-label="Repite la contraseña">
+        <button class="btn primary" type="submit">Guardar contraseña</button>
+        <p class="perr" id="cuNuevaErr" role="alert" hidden></p>
+      </form>
+    </div>
+    <div id="cu-hecho" hidden>
+      <p class="cu-done-t" id="cuDoneT"></p>
+      <p class="phint" id="cuDoneP"></p>
+      <button type="button" class="btn primary" id="cuDoneOk">Entendido</button>
+    </div>
+  </div>
+</div>
 <div class="cbanner" id="cbanner" role="region" aria-label="Aviso de cookies" hidden>
   <h4>Tu privacidad, primero</h4>
   <p>Banderín no usa cookies de publicidad ni de analítica. Solo nos gustaría recordar en este navegador tus preferencias: tema, ciudad, torneos guardados y torneos jugados. ¿Nos dejas? Más detalles en la <a href="#cookies">política de cookies</a>.</p>
@@ -1102,5 +1201,7 @@ body.lock .avfab{display:none}
 <script src="/data.js"></script>
 <script src="/mapa.js"></script>
 <script src="/app.js"></script>
+<script src="/cuenta-config.js"></script>
+<script src="/cuenta.js"></script>
 </body>
 </html>

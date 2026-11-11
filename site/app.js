@@ -520,7 +520,7 @@ $('pform').onsubmit=e=>{
   if(Number.isNaN(h)){$('phcp').setAttribute('aria-invalid','true');$('phcpErr').hidden=false;$('phcp').focus();return}
   const sx=(document.querySelector('input[name=psexo]:checked')||{}).value||null;
   PERF={v:1,hcp:h,nac:+$('pnac').value||null,sexo:sx,fed:$('pfed').value||null,clubs:pClubs.slice(),ts:Date.now()};
-  raw.set('perfil',PERF);
+  raw.set('perfil',PERF);if(typeof syncAvisos==='function')syncAvisos();
   $('city').value=$('pcity').value;store.set('city',$('city').value);$('radius').value=$('pradius').value;store.set('radius',$('radius').value);
   if($('hcity'))$('hcity').value=$('city').value;
   render();renderPerfil();
@@ -587,6 +587,7 @@ if(!consent.get())$('cbanner').hidden=false;
 /* ===== Avisos por correo (fase 2). Apagados hasta que /api/estado diga lo contrario. ===== */
 let AV=raw.get('avisos')||null,avOn=false,avTimer=null;
 const avSigo=()=>({clubs:SIGO.clubs,prov:SIGO.prov,torneos:[...saved]});
+const avPerfil=()=>PERF?{sexo:PERF.sexo,nac:PERF.nac,hcp:PERF.hcp,fed:PERF.fed,clubs:PERF.clubs}:null;
 async function api(path,opt={}){
   const h={'Accept':'application/json'};if(opt.body)h['Content-Type']='application/json';if(opt.tok)h['Authorization']='Bearer '+opt.tok;
   const r=await fetch(path,{method:opt.method||'GET',headers:h,body:opt.body?JSON.stringify(opt.body):undefined,credentials:'same-origin'});
@@ -600,7 +601,7 @@ function drawAvisos(){
   if(st==='on')$('pavOnMail').textContent=AV.email||'';
 }
 function syncAvisos(){if(!avOn||!AV||!AV.tok)return;clearTimeout(avTimer);avTimer=setTimeout(async()=>{
-  const r=await api('/api/avisos/seguimientos',{method:'PUT',tok:AV.tok,body:{sigo:avSigo()}}).catch(()=>null);
+  const r=await api('/api/avisos/seguimientos',{method:'PUT',tok:AV.tok,body:{sigo:avSigo(),perfil:avPerfil()}}).catch(()=>null);
   if(r&&r.status===401){AV=null;raw.del('avisos');drawAvisos()}},800)}
 async function initAvisos(){
   // Vuelta desde el correo de confirmación o de gestión: #perfil?avisos=<llave>
@@ -628,7 +629,7 @@ $('pavForm').onsubmit=async e=>{
   $('pavErr').hidden=true;
   if(!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(em)){$('pavErr').textContent=L('Revisa el correo: no parece válido.');$('pavErr').hidden=false;$('pavEmail').focus();return}
   btn.disabled=true;
-  const r=await api('/api/avisos/alta',{method:'POST',body:{email:em,idioma:LANG,sigo:avSigo(),web:$('pavWeb').value}}).catch(()=>null);
+  const r=await api('/api/avisos/alta',{method:'POST',body:{email:em,idioma:LANG,sigo:avSigo(),perfil:avPerfil(),web:$('pavWeb').value}}).catch(()=>null);
   btn.disabled=false;
   if(r&&r.ok){AV={pend:em};raw.set('avisos',AV);drawAvisos();avFabSync()}
   else{$('pavErr').textContent=L(r&&r.status===400?'Revisa el correo: no parece válido.':'No hemos podido activarlos ahora. Inténtalo en unos minutos.');$('pavErr').hidden=false}
@@ -674,7 +675,7 @@ $('avPopForm').onsubmit=async e=>{
   if(!pv){$('avPopErr').textContent=L('Elige una provincia para saber de qué avisarte.');$('avPopErr').hidden=false;$('avPopProv').focus();return}
   if(!SIGO.prov.includes(pv)){SIGO.prov.push(pv);SIGO.ts=Date.now();raw.set('sigo',SIGO);markMe()}
   btn.disabled=true;
-  const r=await api('/api/avisos/alta',{method:'POST',body:{email:em,idioma:LANG,sigo:avSigo(),web:$('avPopWeb').value}}).catch(()=>null);
+  const r=await api('/api/avisos/alta',{method:'POST',body:{email:em,idioma:LANG,sigo:avSigo(),perfil:avPerfil(),web:$('avPopWeb').value}}).catch(()=>null);
   btn.disabled=false;
   if(r&&r.ok){AV={pend:em};raw.set('avisos',AV);drawAvisos();renderQuick();$('avPopBody').hidden=true;$('avPopOk').hidden=false;raw.set('avpop',Date.now());setTimeout(()=>avPopClose(false),9000)}
   else{$('avPopErr').textContent=L(r&&r.status===400?'Revisa el correo: no parece válido.':'No hemos podido activarlos ahora. Inténtalo en unos minutos.');$('avPopErr').hidden=false}
