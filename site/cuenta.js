@@ -212,6 +212,7 @@ function cuDraw() {
     $('pcuVia').textContent = g.includes('google') ? L('Con Google') : L('Con correo y contraseña');
     $('pcuPw').hidden = !g.includes('email');
   }
+  if (typeof pLayout === 'function') pLayout();
   const me = $('me');
   if (me) {
     me.classList.toggle('logged', !!USER);

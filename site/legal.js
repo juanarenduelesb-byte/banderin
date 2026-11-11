@@ -138,6 +138,7 @@ window.LEGALDOCS = {
 <tr><td><code>banderin.perfil</code></td><td>Personalización, propia</td><td>Guardar tu perfil de golfista para marcar los torneos que encajan contigo.</td><td>Hasta que lo borres</td><td>No (lo pides tú al guardarlo)</td></tr>
 <tr><td><code>banderin.avpop</code></td><td>Interfaz, propia</td><td>Recordar que cerraste la ventana de avisos para no volver a mostrarla en 30 días.</td><td>30 días</td><td>No (necesaria para respetar tu elección)</td></tr>
 <tr><td><code>banderin.sigo</code></td><td>Personalización, propia</td><td>Guardar los clubes y provincias que sigues.</td><td>Hasta que lo borres</td><td>No (lo pides tú al seguirlos)</td></tr>
+<tr><td><code>banderin.sincuenta</code></td><td>Interfaz, propia</td><td>Recordar que elegiste usar el perfil sin cuenta.</td><td>Hasta que lo borres</td><td>No (necesaria para respetar tu elección)</td></tr>
 <tr><td><code>sb-…-auth-token</code></td><td>Sesión, propia (Supabase)</td><td>Mantener abierta tu sesión si has entrado en tu cuenta.</td><td>Hasta que cierres sesión</td><td>No (estrictamente necesaria para el servicio que pides)</td></tr>
 </tbody></table>
 <p>Estos datos se quedan en tu dispositivo. Banderín no los recibe ni los comparte.</p>

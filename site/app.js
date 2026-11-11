@@ -500,14 +500,36 @@ function renderPerfil(){
   const items=[...SIGO.prov.map(n=>['prov',n,up0.filter(t=>t.prov===n).length]),...SIGO.clubs.map(n=>['club',n,up0.filter(t=>t.club===n).length])];
   $('psigo').innerHTML=items.map(([k,n,c])=>'<li><span><b>'+esc(n)+'</b><small>'+L(k==='prov'?'Provincia':'Club')+' · '+cnt(c)+'</small></span><span class="pcal">'+(c?calLinks(k,n):'')+'<button type="button" data-k="'+k+'" data-n="'+esc(n)+'" aria-label="'+esc(L('Dejar de seguir {c}',{c:n}))+'">×</button></span></li>').join('');
   const fl=up0.filter(follows).sort((a,b)=>a.s.localeCompare(b.s)).slice(0,8);
-  {let last='';$('prows').innerHTML=fl.map(t=>{const h=t.s!==last?'<div class="dhead"><b>'+fDay(t.s)+'</b>'+(weekTag(t.s)?'<span class="wk">'+weekTag(t.s)+'</span>':'')+'</div>':'';last=t.s;return h+row(t)}).join('')}
+  {let last='';$('prows').innerHTML=fl.length?'':'<p class="phint">'+L('Aún no sigues nada.')+' <button type="button" class="linkbtn" data-pgo="sigo">'+L('Sigue un club o una provincia')+'</button></p>';$('prows').innerHTML+=fl.map(t=>{const h=t.s!==last?'<div class="dhead"><b>'+fDay(t.s)+'</b>'+(weekTag(t.s)?'<span class="wk">'+weekTag(t.s)+'</span>':'')+'</div>':'';last=t.s;return h+row(t)}).join('')}
   const nf=hasPerf()?up0.filter(nofit).length:0;
   $('pmine').innerHTML='<a href="#lista" data-go="saved"><b>'+saved.size+'</b><span>'+L('Guardados')+'</span></a><a href="#resultados" data-go="played"><b>'+played.size+'</b><span>'+L('Jugados')+'</span></a>'+
     (hasPerf()?'<a href="#lista" data-go="fit"><b>'+(up0.length-nf)+'</b><span>'+L('Encajan contigo')+'</span></a>':'')+
     ((SIGO.clubs.length+SIGO.prov.length)?'<a href="#lista" data-go="sigo"><b>'+up0.filter(follows).length+'</b><span>'+L('De lo que sigues')+'</span></a>':'');
   $('pwipe').classList.remove('confirm');$('pwipe').textContent=L('Borrar mis datos de este dispositivo');
-  markMe();
+  markMe();pLayout();
 }
+/* Mi perfil: puerta de entrada (cuenta primero) y secciones con menú */
+let PSEC='resumen';
+function pSec(k,focus){PSEC=k;document.querySelectorAll('.pnav [data-ps]').forEach(b=>{const on=b.dataset.ps===k;b.setAttribute('aria-selected',on);b.tabIndex=on?0:-1;if(on&&focus)b.focus()});
+  document.querySelectorAll('.ppane').forEach(p=>p.hidden=p.id!=='pp-'+k)}
+function pHasLocal(){return !!(PERF||SIGO.clubs.length||SIGO.prov.length||saved.size||played.size||(AV&&AV.tok))}
+function pSess(){try{return Object.keys(localStorage).some(k=>/^sb-.+-auth-token$/.test(k))}catch(e){return false}}
+function pLayout(){
+  const u=typeof USER!=='undefined'?USER:null,on=!!(window.CUENTA&&CUENTA.url&&CUENTA.key);
+  const logged=!!u||pSess();
+  const gate=on&&!logged&&!pHasLocal()&&!raw.get('sincuenta');
+  $('pgate').hidden=!gate;$('pmain').hidden=gate;
+  $('pban').hidden=!on||logged||gate;
+  $('pdatos').hidden=!!u;
+  $('plede').textContent=u?L('Todo se guarda en tu cuenta ({e}) y lo tienes en cualquier dispositivo.',{e:u.email||''}):L('Lo que sigues, tus avisos y tus torneos, en un solo sitio. Sin cuenta, se guarda solo en este dispositivo.');
+  if(u&&$('pavEmail')&&!$('pavEmail').value)$('pavEmail').value=u.email||'';
+}
+$('pgSkip').onclick=()=>{raw.set('sincuenta',1);pLayout();window.scrollTo({top:0})};
+document.querySelectorAll('.pnav [data-ps]').forEach(b=>b.onclick=()=>pSec(b.dataset.ps));
+document.querySelector('.pnav').addEventListener('keydown',e=>{const k=[...document.querySelectorAll('.pnav [data-ps]')].map(b=>b.dataset.ps);let i=k.indexOf(PSEC);
+  if(e.key==='ArrowRight'||e.key==='ArrowDown')i=(i+1)%k.length;else if(e.key==='ArrowLeft'||e.key==='ArrowUp')i=(i-1+k.length)%k.length;else return;e.preventDefault();pSec(k[i],true)});
+$('v-perfil').addEventListener('click',e=>{const b=e.target.closest('[data-pgo]');if(b){pSec(b.dataset.pgo);window.scrollTo({top:0,behavior:'smooth'})}});
+pSec('resumen');
 function addClub(inp,list){const v=inp.value.trim();if(!v)return false;const m=CLUBS.find(c=>norm(c)===norm(v))||v;if(!list.includes(m))list.push(m);inp.value='';return true}
 $('pclubAdd').onclick=()=>{if(addClub($('pclubIn'),pClubs))drawClubs()};
 $('pclubIn').onkeydown=e=>{if(e.key==='Enter'){e.preventDefault();$('pclubAdd').click()}};

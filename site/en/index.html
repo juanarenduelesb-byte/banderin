@@ -723,6 +723,26 @@ h2.ltitle{font-family:"Instrument Serif",Georgia,"Times New Roman",serif;font-we
 .mebtn.has .medot{display:block}
 nav .bar .seg.tabs{margin-left:auto}
 @media (max-width:700px){.mebtn{display:none}.tabin{grid-template-columns:repeat(5,1fr)!important}.tb span{font-size:10px}}
+.pgate{max-width:620px;margin:26px auto 44px;border-radius:30px;padding:40px 38px 30px;color:var(--ink)}
+.pg-t{font-family:"Instrument Serif",Georgia,serif;font-weight:400;font-size:44px;line-height:1.02;letter-spacing:-.015em;margin:6px 0 20px}
+.pg-l{list-style:none;padding:0;margin:0 0 26px;display:grid;gap:12px}
+.pg-l li{position:relative;padding-left:26px;color:var(--muted);font-size:15.5px;line-height:1.5}
+.pg-l li::before{content:"";position:absolute;left:4px;top:8px;width:8px;height:8px;border-radius:50%;background:var(--accent)}
+.pg-l b{color:var(--ink);font-weight:600}
+.pg-b{display:flex;flex-wrap:wrap;gap:10px}
+.pg-skip{display:block;margin:18px auto 0;color:var(--muted);font-size:14px}
+.pban{display:flex;align-items:center;justify-content:space-between;gap:16px;border-radius:22px;padding:16px 18px 16px 22px;margin-bottom:18px;color:var(--ink)}
+.pban p{margin:0;font-size:15px;line-height:1.45}.pban span{color:var(--muted)}
+.playout{display:grid;grid-template-columns:220px minmax(0,1fr);gap:22px;align-items:start;margin-bottom:28px}
+.pnav{position:sticky;top:96px;border-radius:22px;padding:8px;display:flex;flex-direction:column;gap:2px}
+.pnav button{display:flex;align-items:center;gap:10px;width:100%;text-align:left;border:0;background:transparent;font:inherit;font-size:14.5px;font-weight:600;color:var(--muted);padding:11px 14px;border-radius:14px;cursor:pointer}
+.pnav button svg{width:18px;height:18px;flex:none;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
+.pnav button:hover{background:var(--tint);color:var(--ink)}
+.pnav button[aria-selected=true]{background:var(--tint);color:var(--accent)}
+.pnav button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.ppane{display:grid;gap:18px}.prows:has(> p.phint:only-child){border:0;background:none;box-shadow:none;padding:0}.prows > p.phint{margin:4px 0 0}.ppane[hidden]{display:none}
+@media (max-width:900px){.playout{grid-template-columns:1fr;gap:14px}.pnav{position:static;flex-direction:row;overflow-x:auto;border-radius:999px;padding:5px;scrollbar-width:none}.pnav::-webkit-scrollbar{display:none}.pnav button{width:auto;white-space:nowrap;border-radius:999px;padding:9px 14px}.pnav button svg{display:none}}
+@media (max-width:620px){.pgate{margin:10px 0 30px;padding:30px 22px 22px;border-radius:26px}.pg-t{font-size:36px}.pg-b .btn{flex:1}.pban{flex-direction:column;align-items:stretch}}
 .pgrid{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);gap:18px;align-items:start;margin-bottom:28px}
 .pcol{display:grid;gap:18px;min-width:0}
 .pcard{border-radius:26px;padding:22px 24px;position:relative;color:var(--ink)}
@@ -827,6 +847,41 @@ body.lock .avfab{display:none}
 .avshort{display:none}
 @media (prefers-reduced-motion:reduce){.avpop,.avdot{animation:none}.avfab{transition:none}}
 @media print{.avfab,.avpop{display:none!important}}
+
+/* ===== Cuentas ===== */
+.cumodal{position:fixed;inset:0;z-index:95;display:grid;place-items:center;padding:16px;background:rgba(6,18,12,.55);-webkit-backdrop-filter:blur(6px);backdrop-filter:blur(6px)}
+.cumodal[hidden]{display:none}
+.cubox{position:relative;width:min(420px,100%);max-height:calc(100vh - 32px);overflow:auto;border-radius:28px;padding:26px 24px 22px;background:var(--card);color:var(--ink);box-shadow:0 40px 90px -30px rgba(0,0,0,.7);animation:avin .4s cubic-bezier(.3,1.3,.5,1)}
+.cu-eb{margin:0 0 6px;font-size:11.5px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--gold,#B08B47)}
+.cu-h{font-family:"Instrument Serif",Georgia,serif;font-weight:400;font-size:29px;line-height:1.06;margin:0 0 16px;padding-right:26px}
+.cutabs{display:flex;gap:4px;background:var(--tint);border-radius:999px;padding:4px;margin-bottom:16px}
+.cutabs button{flex:1;border:0;background:transparent;border-radius:999px;padding:9px 12px;font:inherit;font-size:14px;font-weight:600;color:var(--muted);cursor:pointer}
+.cutabs button[aria-selected=true]{background:var(--card);color:var(--ink);box-shadow:0 1px 4px rgba(0,0,0,.12)}
+.cubox form{display:grid;gap:9px}
+.cubox input[type=email],.cubox input[type=password]{height:46px;width:100%;border:1px solid var(--hair);border-radius:12px;background:var(--card);color:var(--ink);padding:0 13px;font:inherit;font-size:15.5px}
+.cubox input:focus-visible,.cutabs button:focus-visible,.cu-google:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.cubox .btn{height:48px;width:100%;justify-content:center;font-size:15px}
+.cu-google{display:flex;align-items:center;justify-content:center;gap:10px;width:100%;height:48px;border:1px solid var(--hair);border-radius:999px;background:#fff;color:#1f1f1f;font:inherit;font-size:15px;font-weight:600;cursor:pointer}
+.cu-google svg{width:18px;height:18px}
+.cu-google:hover{background:#f6f6f6}
+.cu-or{display:flex;align-items:center;gap:10px;margin:14px 0;color:var(--muted);font-size:13px}
+.cu-or::before,.cu-or::after{content:"";flex:1;height:1px;background:var(--hair)}
+.cu-check{display:flex;gap:9px;align-items:flex-start;font-size:13.5px;line-height:1.45;color:var(--muted);margin:2px 0 4px;cursor:pointer}
+.cu-check input{margin-top:2px;width:17px;height:17px;accent-color:var(--accent);flex:none}
+.cu-check a,.cu-foot a{color:var(--accent)}
+.cu-foot{margin:14px 0 0;font-size:13px;color:var(--muted);text-align:center}
+.cu-done-t{font-family:"Instrument Serif",Georgia,serif;font-size:24px;margin:0 0 8px}
+.pcu-btns{display:flex;gap:8px;flex-wrap:wrap;margin-top:4px}
+.pcu-who{display:flex;align-items:center;gap:12px;margin:4px 0 12px}
+.pcu-who b{display:block;font-size:15.5px;word-break:break-all}
+.pcu-who small{display:block;color:var(--muted);font-size:13px}
+.pcu-av{width:42px;height:42px;border-radius:50%;background:var(--accent);flex:none;display:grid;place-items:center}
+.pcu-av::after{content:"";width:18px;height:18px;background:var(--on-accent,#fff);-webkit-mask:radial-gradient(circle at 50% 32%,#000 4.2px,transparent 4.7px),radial-gradient(ellipse 9px 6px at 50% 100%,#000 98%,transparent 100%);mask:radial-gradient(circle at 50% 32%,#000 4.2px,transparent 4.7px),radial-gradient(ellipse 9px 6px at 50% 100%,#000 98%,transparent 100%)}
+.pcu-del{display:block;margin-top:14px;font-size:13px;color:var(--crit)!important}
+.pcu-del.confirm{font-weight:700}
+.mebtn.logged{background:var(--accent);color:var(--on-accent)}
+.mebtn.logged .medot{display:none}
+@media (max-width:520px){.cubox{padding:22px 18px 18px;border-radius:24px}.cu-h{font-size:26px}}
 </style>
 </head>
 <body>
@@ -988,10 +1043,46 @@ body.lock .avfab{display:none}
 </section>
 
 <section id="v-perfil" hidden>
-  <div class="rhead"><p class="eyebrow">Tu espacio</p><h2 class="title">Mi perfil</h2><p class="rlede">Guarda tus datos de golfista y Banderín marcará los torneos que no encajan contigo. Por ahora todo se guarda solo en este dispositivo.</p></div>
-  <div class="pgrid">
-    <div class="pcol">
-      <form class="pcard glass" id="pform" novalidate>
+  <div class="pgate glass" id="pgate" hidden>
+    <p class="eyebrow">Tu espacio en Banderín</p>
+    <h2 class="pg-t">Tu golf, en todos tus dispositivos.</h2>
+    <ul class="pg-l">
+      <li><b>Sigue tus clubes y provincias</b> y te avisamos cuando abra la inscripción.</li>
+      <li><b>Marca los torneos que encajan contigo</b> por hándicap, edad y club.</li>
+      <li><b>Tus guardados y tu historial</b>, en el móvil y en el ordenador.</li>
+    </ul>
+    <div class="pg-b"><button type="button" class="btn primary" data-cu="crear">Crear cuenta gratis</button><button type="button" class="btn ghost" data-cu="entrar">Ya tengo cuenta</button></div>
+    <button type="button" class="linkbtn pg-skip" id="pgSkip">Seguir sin cuenta</button>
+  </div>
+  <div id="pmain">
+    <div class="rhead"><p class="eyebrow">Tu espacio</p><h2 class="title">Mi perfil</h2><p class="rlede" id="plede">Lo que sigues, tus avisos y tus torneos, en un solo sitio.</p></div>
+    <div class="pban glass" id="pban" hidden><p><b>Guarda todo esto en una cuenta.</b> <span>Así no lo pierdes y lo tienes también en el móvil.</span></p><div class="pg-b"><button type="button" class="btn primary" data-cu="crear">Crear cuenta</button><button type="button" class="btn ghost" data-cu="entrar">Entrar</button></div></div>
+    <div class="playout">
+      <nav class="pnav glass" role="tablist" aria-label="Secciones del perfil"><button type="button" role="tab" id="pt-resumen" aria-controls="pp-resumen" aria-selected="false" data-ps="resumen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3.5 10.6 12 3.8l8.5 6.8V19a1.6 1.6 0 0 1-1.6 1.6H5.1A1.6 1.6 0 0 1 3.5 19z"/></svg><span>Resumen</span></button><button type="button" role="tab" id="pt-sigo" aria-controls="pp-sigo" aria-selected="false" data-ps="sigo"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 21V4M6 4h11l-2.5 4L17 12H6"/></svg><span>Lo que sigo</span></button><button type="button" role="tab" id="pt-avisos" aria-controls="pp-avisos" aria-selected="false" data-ps="avisos"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="5.5" width="17" height="13" rx="2.6"/><path d="m4.5 7 7.5 6 7.5-6"/></svg><span>Avisos</span></button><button type="button" role="tab" id="pt-golfista" aria-controls="pp-golfista" aria-selected="false" data-ps="golfista"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8.2" r="3.9"/><path d="M4.6 20.2c.9-3.9 3.9-6 7.4-6s6.5 2.1 7.4 6"/></svg><span>Datos de golfista</span></button><button type="button" role="tab" id="pt-cuenta" aria-controls="pp-cuenta" aria-selected="false" data-ps="cuenta"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="10.5" width="14" height="10" rx="2.4"/><path d="M8.2 10.5V8a3.8 3.8 0 0 1 7.6 0v2.5"/></svg><span>Cuenta</span></button></nav>
+      <div class="ppanes">
+        <div class="ppane" id="pp-resumen" role="tabpanel" aria-labelledby="pt-resumen"><div class="pcard glass"><h3>Próximos de lo que sigues</h3><div class="list prows" id="prows"></div></div>
+      <div class="pcard glass"><h3>Mis torneos</h3><div class="pmine" id="pmine"></div></div></div>
+        <div class="ppane" id="pp-sigo" role="tabpanel" aria-labelledby="pt-sigo" hidden><div class="pcard glass">
+        <h3>Lo que sigo</h3>
+        <p class="phint">Sigue todos los clubes y provincias que quieras: cada uno se añade a la lista, verás sus torneos aquí y podrás llevarlos a tu calendario.</p>
+        <div class="padd two"><select id="pprovAdd" aria-label="Seguir una provincia"></select><input id="psclubIn" list="pclubList" placeholder="O un club" autocomplete="off" aria-label="Seguir un club"><button type="button" class="btn soft" id="psclubAdd">Seguir</button></div>
+        <ul class="psigo" id="psigo"></ul>
+      </div></div>
+        <div class="ppane" id="pp-avisos" role="tabpanel" aria-labelledby="pt-avisos" hidden><div class="pcard glass" id="pavisos">
+        <span class="psoon" id="pavSoon">Próximamente</span>
+        <h3>Avisos por correo</h3>
+        <p class="phint">Te escribimos cuando abra o cierre la inscripción de lo que sigues, cuando aparezca un torneo nuevo o cambie una fecha, y los jueves te contamos qué se juega el fin de semana en tu comunidad. Como mucho, un correo al día.</p>
+        <div id="pavOff"><p class="pavnote">Estamos terminando de prepararlos. Mientras tanto, sigue clubes y provincias: cuando se activen, podrás recibir sus avisos con un clic.</p></div>
+        <form id="pavForm" hidden novalidate>
+          <div class="padd"><input id="pavEmail" type="email" autocomplete="email" placeholder="tu@correo.es" aria-label="Tu correo"><button class="btn primary" type="submit">Activar avisos</button></div>
+          <input id="pavWeb" name="web" tabindex="-1" autocomplete="off" aria-hidden="true" class="pavtrap">
+          <p class="pavnote">Te enviaremos un enlace para confirmar. Guardamos solo tu correo y lo que sigues; puedes darte de baja cuando quieras. <a href="#privacidad">Privacidad</a></p>
+          <p class="perr" id="pavErr" role="alert" hidden></p>
+        </form>
+        <div id="pavPend" hidden><p class="pavok">Te hemos enviado un correo a <b id="pavPendMail"></b>. Pulsa el enlace para confirmar los avisos.</p><p class="pavnote">¿No te llega? Revisa la carpeta de spam o <button type="button" class="linkbtn" id="pavRetry">vuelve a intentarlo</button>.</p></div>
+        <div id="pavOn" hidden><p class="pavok">Avisos activos en <b id="pavOnMail"></b>. Lo que sigues y tus guardados se mantienen al día solos.</p><button type="button" class="btn ghost" id="pavStop">Desactivar avisos</button></div>
+      </div></div>
+        <div class="ppane" id="pp-golfista" role="tabpanel" aria-labelledby="pt-golfista" hidden><form class="pcard glass" id="pform" novalidate>
         <h3>Datos de golfista</h3>
         <p class="phint">Todos son opcionales. Cuanto más completes, mejor funciona «Encajan conmigo».</p>
         <div class="pfields">
@@ -1005,37 +1096,24 @@ body.lock .avfab{display:none}
         </div>
         <div class="pacts"><button class="btn primary" type="submit">Guardar perfil</button><span class="pstat" id="pstat" role="status" aria-live="polite"></span></div>
         <p class="pnote">Pocas fichas publican el hándicap máximo o la edad exacta. Cuando lo hacen, lo tenemos en cuenta; si no, usamos el sexo y la categoría del torneo. Confirma siempre las condiciones en la ficha oficial.</p>
-      </form>
-      <div class="pcard glass pacc">
-        <span class="psoon">Próximamente</span>
-        <h3>Cuenta</h3>
-        <p>Podrás entrar con tu correo, sin contraseña, y tener tu perfil, tus guardados y lo que sigues en el ordenador y en el móvil. Lo que guardes hoy se pasará a tu cuenta.</p>
+      </form></div>
+        <div class="ppane" id="pp-cuenta" role="tabpanel" aria-labelledby="pt-cuenta" hidden><div class="pcard glass" id="pcuenta">
+        <span class="psoon" id="pcuSoon">Próximamente</span>
+        <h3>Tu cuenta</h3>
+        <p class="phint" id="pcuLegacy">Podrás crear una cuenta para tener tu perfil, tus guardados y lo que sigues en el ordenador y en el móvil.</p>
+        <div id="pcuOff" hidden>
+          <p class="phint">Crea tu cuenta y tendrás tu perfil, lo que sigues, tus guardados y tus jugados en el ordenador y en el móvil. Lo que ya tienes guardado aquí se pasa a la cuenta.</p>
+          <div class="pcu-btns"><button type="button" class="btn primary" data-cu="crear">Crear cuenta</button><button type="button" class="btn ghost" data-cu="entrar">Entrar</button></div>
+        </div>
+        <div id="pcuOn" hidden>
+          <p class="pcu-who"><span class="pcu-av" aria-hidden="true"></span><span><b id="pcuEmail"></b><small id="pcuVia"></small></span></p>
+          <p class="phint">Tu perfil, lo que sigues, tus guardados y tus jugados se guardan en tu cuenta y se sincronizan solos.</p>
+          <div class="pcu-btns"><button type="button" class="btn ghost" id="pcuPw">Cambiar contraseña</button><button type="button" class="btn ghost" id="pcuSalir">Cerrar sesión</button></div>
+          <button type="button" class="linkbtn pcu-del" id="pcuBorrar">Eliminar mi cuenta</button>
+        </div>
       </div>
-    </div>
-    <div class="pcol">
-      <div class="pcard glass">
-        <h3>Lo que sigo</h3>
-        <p class="phint">Sigue todos los clubes y provincias que quieras: cada uno se añade a la lista, verás sus torneos aquí y podrás llevarlos a tu calendario.</p>
-        <div class="padd two"><select id="pprovAdd" aria-label="Seguir una provincia"></select><input id="psclubIn" list="pclubList" placeholder="O un club" autocomplete="off" aria-label="Seguir un club"><button type="button" class="btn soft" id="psclubAdd">Seguir</button></div>
-        <ul class="psigo" id="psigo"></ul>
+      <div class="pcard glass" id="pdatos"><h3>Datos de este dispositivo</h3><p class="phint">Borra el perfil, lo que sigues, tus guardados y tus jugados de este navegador, y desactiva los avisos.</p><button class="btn ghost" id="pwipe" type="button">Borrar mis datos de este dispositivo</button></div></div>
       </div>
-      <div class="pcard glass" id="pavisos">
-        <span class="psoon" id="pavSoon">Próximamente</span>
-        <h3>Avisos por correo</h3>
-        <p class="phint">Te escribimos cuando abra o cierre la inscripción de lo que sigues, cuando aparezca un torneo nuevo o cambie una fecha, y los jueves te contamos qué se juega el fin de semana en tu comunidad. Como mucho, un correo al día.</p>
-        <div id="pavOff"><p class="pavnote">Estamos terminando de prepararlos. Mientras tanto, sigue clubes y provincias: cuando se activen, podrás recibir sus avisos con un clic.</p></div>
-        <form id="pavForm" hidden novalidate>
-          <div class="padd"><input id="pavEmail" type="email" autocomplete="email" placeholder="tu@correo.es" aria-label="Tu correo"><button class="btn primary" type="submit">Activar avisos</button></div>
-          <input id="pavWeb" name="web" tabindex="-1" autocomplete="off" aria-hidden="true" class="pavtrap">
-          <p class="pavnote">Te enviaremos un enlace para confirmar. Guardamos solo tu correo y lo que sigues; puedes darte de baja cuando quieras. <a href="#privacidad">Privacidad</a></p>
-          <p class="perr" id="pavErr" role="alert" hidden></p>
-        </form>
-        <div id="pavPend" hidden><p class="pavok">Te hemos enviado un correo a <b id="pavPendMail"></b>. Pulsa el enlace para confirmar los avisos.</p><p class="pavnote">¿No te llega? Revisa la carpeta de spam o <button type="button" class="linkbtn" id="pavRetry">vuelve a intentarlo</button>.</p></div>
-        <div id="pavOn" hidden><p class="pavok">Avisos activos en <b id="pavOnMail"></b>. Lo que sigues y tus guardados se mantienen al día solos.</p><button type="button" class="btn ghost" id="pavStop">Desactivar avisos</button></div>
-      </div>
-      <div class="pcard glass"><h3>Próximos de lo que sigues</h3><div class="list prows" id="prows"></div></div>
-      <div class="pcard glass"><h3>Mis torneos</h3><div class="pmine" id="pmine"></div></div>
-      <div class="pcard glass"><h3>Tus datos</h3><p class="phint">Tu perfil y tus guardados están solo en este navegador. Si activas los avisos, guardamos tu correo y lo que sigues para poder enviártelos. Este botón lo borra todo, también tu suscripción.</p><button class="btn ghost" id="pwipe" type="button">Borrar mis datos de este dispositivo</button></div>
     </div>
   </div>
 </section>
@@ -1082,6 +1160,60 @@ body.lock .avfab{display:none}
   </div>
   <div id="avPopOk" hidden><p class="avpop-p"><b>¡Listo! Revisa tu correo.</b> Te hemos enviado un enlace para confirmar los avisos. Si no lo ves, mira en spam o en promociones.</p></div>
 </div>
+<div class="cumodal" id="cuModal" hidden>
+  <div class="cubox" role="dialog" aria-modal="true" aria-labelledby="cuTitle">
+    <button class="avx" id="cuX" type="button" aria-label="Cerrar">×</button>
+    <p class="eyebrow cu-eb">Tu cuenta de Banderín</p>
+    <h3 id="cuTitle" class="cu-h">Tu golf, en todos tus dispositivos</h3>
+    <div class="cutabs" id="cuTabs" role="tablist"><button type="button" role="tab" data-m="entrar">Entrar</button><button type="button" role="tab" data-m="crear">Crear cuenta</button></div>
+    <div id="cu-entrar">
+      <button type="button" class="cu-google"><svg viewBox="0 0 18 18" aria-hidden="true"><path fill="#4285F4" d="M17.6 9.2c0-.6-.1-1.2-.2-1.7H9v3.3h4.8a4.1 4.1 0 0 1-1.8 2.7v2.2h2.9c1.7-1.6 2.7-3.9 2.7-6.5z"/><path fill="#34A853" d="M9 18c2.4 0 4.5-.8 6-2.2l-2.9-2.2c-.8.5-1.8.9-3.1.9-2.4 0-4.4-1.6-5.1-3.8H.9v2.3A9 9 0 0 0 9 18z"/><path fill="#FBBC05" d="M3.9 10.7a5.4 5.4 0 0 1 0-3.4V5H.9a9 9 0 0 0 0 8z"/><path fill="#EA4335" d="M9 3.6c1.3 0 2.5.5 3.5 1.4l2.6-2.6A9 9 0 0 0 .9 5l3 2.3C4.6 5.2 6.6 3.6 9 3.6z"/></svg><span>Continuar con Google</span></button>
+      <p class="cu-or"><span>o con tu correo</span></p>
+      <form id="cuEntrarF" novalidate>
+        <input type="email" id="cuEntrarEmail" autocomplete="email" placeholder="tu@correo.es" aria-label="Correo">
+        <input type="password" id="cuEntrarPw" autocomplete="current-password" placeholder="Contraseña" aria-label="Contraseña">
+        <button class="btn primary" type="submit">Entrar</button>
+        <p class="perr" id="cuEntrarErr" role="alert" hidden></p>
+      </form>
+      <p class="cu-foot"><button type="button" class="linkbtn" data-cu="olvido">¿Has olvidado la contraseña?</button></p>
+    </div>
+    <div id="cu-crear" hidden>
+      <button type="button" class="cu-google"><svg viewBox="0 0 18 18" aria-hidden="true"><path fill="#4285F4" d="M17.6 9.2c0-.6-.1-1.2-.2-1.7H9v3.3h4.8a4.1 4.1 0 0 1-1.8 2.7v2.2h2.9c1.7-1.6 2.7-3.9 2.7-6.5z"/><path fill="#34A853" d="M9 18c2.4 0 4.5-.8 6-2.2l-2.9-2.2c-.8.5-1.8.9-3.1.9-2.4 0-4.4-1.6-5.1-3.8H.9v2.3A9 9 0 0 0 9 18z"/><path fill="#FBBC05" d="M3.9 10.7a5.4 5.4 0 0 1 0-3.4V5H.9a9 9 0 0 0 0 8z"/><path fill="#EA4335" d="M9 3.6c1.3 0 2.5.5 3.5 1.4l2.6-2.6A9 9 0 0 0 .9 5l3 2.3C4.6 5.2 6.6 3.6 9 3.6z"/></svg><span>Continuar con Google</span></button>
+      <p class="cu-or"><span>o con tu correo</span></p>
+      <form id="cuCrearF" novalidate>
+        <input type="email" id="cuCrearEmail" autocomplete="email" placeholder="tu@correo.es" aria-label="Correo">
+        <input type="password" id="cuCrearPw" autocomplete="new-password" placeholder="Contraseña (mínimo 10 caracteres)" aria-label="Contraseña">
+        <label class="cu-check"><input type="checkbox" id="cuCrearOk"><span>Tengo 14 años o más y he leído la <a href="#privacidad">política de privacidad</a>.</span></label>
+        <button class="btn primary" type="submit">Crear cuenta</button>
+        <p class="perr" id="cuCrearErr" role="alert" hidden></p>
+      </form>
+      <p class="cu-foot">Te enviaremos un correo para verificar que es tuyo.</p>
+    </div>
+    <div id="cu-olvido" hidden>
+      <p class="phint">Escribe tu correo y te enviaremos un enlace para elegir una contraseña nueva.</p>
+      <form id="cuOlvidoF" novalidate>
+        <input type="email" id="cuOlvidoEmail" autocomplete="email" placeholder="tu@correo.es" aria-label="Correo">
+        <button class="btn primary" type="submit">Enviar enlace</button>
+        <p class="perr" id="cuOlvidoErr" role="alert" hidden></p>
+      </form>
+      <p class="cu-foot"><button type="button" class="linkbtn" data-cu="entrar">Volver a entrar</button></p>
+    </div>
+    <div id="cu-nueva" hidden>
+      <p class="phint">Elige tu nueva contraseña. Mínimo 10 caracteres; mejor una frase que una palabra.</p>
+      <form id="cuNuevaF" novalidate>
+        <input type="password" id="cuNuevaPw" autocomplete="new-password" placeholder="Nueva contraseña" aria-label="Nueva contraseña">
+        <input type="password" id="cuNuevaPw2" autocomplete="new-password" placeholder="Repite la contraseña" aria-label="Repite la contraseña">
+        <button class="btn primary" type="submit">Guardar contraseña</button>
+        <p class="perr" id="cuNuevaErr" role="alert" hidden></p>
+      </form>
+    </div>
+    <div id="cu-hecho" hidden>
+      <p class="cu-done-t" id="cuDoneT"></p>
+      <p class="phint" id="cuDoneP"></p>
+      <button type="button" class="btn primary" id="cuDoneOk">Entendido</button>
+    </div>
+  </div>
+</div>
 <div class="cbanner" id="cbanner" role="region" aria-label="Aviso de cookies" hidden>
   <h4>Tu privacidad, primero</h4>
   <p>Banderín no usa cookies de publicidad ni de analítica. Solo nos gustaría recordar en este navegador tus preferencias: tema, ciudad, torneos guardados y torneos jugados. ¿Nos dejas? Más detalles en la <a href="#cookies">política de cookies</a>.</p>
@@ -1102,5 +1234,7 @@ body.lock .avfab{display:none}
 <script src="/data.js"></script>
 <script src="/mapa.js"></script>
 <script src="/app.js"></script>
+<script src="/cuenta-config.js"></script>
+<script src="/cuenta.js"></script>
 </body>
 </html>
