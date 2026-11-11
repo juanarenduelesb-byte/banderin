@@ -174,7 +174,8 @@ def footer(regions_html):
             'y los revisa cada mañana. No organiza torneos ni gestiona inscripciones: confirma siempre fechas y precio '
             'en la web del organizador.</p>'
             '<p class="legal"><a href="/#aviso-legal">Aviso legal</a><a href="/#privacidad">Privacidad</a>'
-            '<a href="/#cookies">Cookies</a><a href="/#terminos">Términos de uso</a></p>'
+            '<a href="/#cookies">Cookies</a><a href="/#terminos">Términos de uso</a>'
+            '<a href="https://www.instagram.com/banderin.es/" target="_blank" rel="noopener noreferrer">Instagram</a></p>'
             '<a class="byesc" href="https://esclusa.eu" target="_blank" rel="noopener noreferrer">Un proyecto de <b>esclusa</b></a>'
             '</div></footer>' % regions_html)
 

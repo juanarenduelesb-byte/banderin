@@ -25,7 +25,7 @@
 <meta name="twitter:description" content="Calendario de los torneos de golf de España: más de 900 de federaciones y clubes, con fechas, precios e inscripción. Actualizado cada mañana.">
 <meta name="twitter:image" content="https://banderin.es/og.png?v=2">
 <meta name="format-detection" content="telephone=no">
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "WebSite", "@id": "https://banderin.es/#web", "url": "https://banderin.es/", "name": "Banderín", "description": "Todos los torneos de golf de España en un solo sitio: calendario, inscripción, precios y resultados de federaciones y clubes, revisados cada mañana.", "inLanguage": ["es", "en"], "publisher": {"@id": "https://esclusa.eu/#org"}}, {"@type": "Organization", "@id": "https://esclusa.eu/#org", "name": "Esclusa", "url": "https://esclusa.eu"}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "WebSite", "@id": "https://banderin.es/#web", "url": "https://banderin.es/", "name": "Banderín", "sameAs": ["https://www.instagram.com/banderin.es/"], "description": "Todos los torneos de golf de España en un solo sitio: calendario, inscripción, precios y resultados de federaciones y clubes, revisados cada mañana.", "inLanguage": ["es", "en"], "publisher": {"@id": "https://esclusa.eu/#org"}}, {"@type": "Organization", "@id": "https://esclusa.eu/#org", "name": "Esclusa", "url": "https://esclusa.eu"}]}</script>
 <meta name="theme-color" content="#163D2B">
 <link rel="icon" href="/icons/icon.svg" type="image/svg+xml">
 <link rel="icon" href="/icons/favicon-32.png" sizes="32x32" type="image/png">
@@ -546,6 +546,10 @@ h1,.stitle,h2.title,.calhead h2{color:var(--on-page)}
 .fgrid{display:grid;grid-template-columns:1.5fr 1fr 1fr 1fr;gap:28px}
 .fbrand .brand{color:var(--hero-ink)}
 .fbrand p{font-size:14px;line-height:1.6;color:var(--hero-muted);margin:12px 0 0;max-width:34ch}
+.fsocial{display:inline-flex;align-items:center;gap:8px;margin-top:16px;padding:8px 14px 8px 10px;border-radius:999px;border:1px solid color-mix(in srgb,var(--hero-ink) 22%,transparent);color:var(--hero-ink);text-decoration:none;font-size:14px;font-weight:600}
+.fsocial svg{width:20px;height:20px}
+.fsocial:hover{background:color-mix(in srgb,var(--hero-ink) 10%,transparent)}
+.fsocial:focus-visible{outline:2px solid var(--gold-l);outline-offset:2px}
 .fcol h4{margin:4px 0 12px;font-size:11px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--gold-l)}
 .fcol a,.fcol button{display:block;background:none;border:0;padding:0;margin:0 0 9px;font:inherit;font-size:14px;color:var(--hero-ink);opacity:.86;text-decoration:none;cursor:pointer;text-align:left}
 .fcol a:hover,.fcol button:hover{opacity:1;text-decoration:underline;text-underline-offset:3px}
@@ -1133,6 +1137,7 @@ body.lock .avfab{display:none}
     <div class="fbrand">
       <a class="brand" href="#inicio"><svg class="flagmark" width="22" height="22" viewBox="0 0 24 24" aria-hidden="true"><path class="pole" d="M7 3v17" stroke="currentColor" stroke-width="2" stroke-linecap="round" style="stroke:var(--hero-ink)"/><path d="M8 3.5l10 3.6L8 10.6z" style="fill:var(--gold-l)"/><ellipse cx="7" cy="20.5" rx="4" ry="1.3" style="fill:var(--hero-ink);opacity:.5"/></svg>banderín</a>
       <p>Todos los torneos de golf de España en un solo sitio, revisados cada mañana. Un proyecto de Esclusa.</p>
+      <a class="fsocial" href="https://www.instagram.com/banderin.es/" target="_blank" rel="noopener noreferrer" aria-label="Banderín en Instagram (se abre en otra pestaña)"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="12" r="4.2" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="17.3" cy="6.7" r="1.2" fill="currentColor"/></svg><span>@banderin.es</span></a>
     </div>
     <div class="fcol"><h4>Explorar</h4><a href="#inicio">Inicio</a><a href="#lista">Torneos</a><a href="#calendario">Calendario</a><a href="#resultados">Resultados</a></div>
     <div class="fcol"><h4>Información</h4><a href="#terminos">Cómo funciona</a><a href="#fuentes">De dónde salen los datos</a><a href="#aviso-legal">Quién está detrás</a><a href="#" id="fcontact">Corregir un torneo</a></div>
