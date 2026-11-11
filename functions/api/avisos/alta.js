@@ -1,6 +1,6 @@
 // Alta en los avisos: guarda el correo como pendiente y envía el enlace de confirmación.
 // La respuesta es siempre la misma, exista o no el correo, para no revelar quién está suscrito.
-import { json, normEmail, randomId, now, readJson, cleanSigo, replaceSigo, sendConfirm, sendAlready } from '../../../lib/avisos.js';
+import { json, normEmail, randomId, now, readJson, cleanSigo, cleanPerfil, replaceSigo, sendConfirm, sendAlready } from '../../../lib/avisos.js';
 
 const OK = { ok: true };
 
@@ -25,9 +25,9 @@ export async function onRequestPost({ request, env }) {
     ? { ...prev, idioma, creado: t }
     : { id: randomId(), email, idioma, creado: t };
   await env.DB.prepare(
-    'INSERT INTO suscriptores (id, email, estado, idioma, creado, ultimo_correo, ultima_actividad) VALUES (?, ?, \'pendiente\', ?, ?, ?, ?) ' +
-    'ON CONFLICT(email) DO UPDATE SET idioma = excluded.idioma, creado = excluded.creado, ultimo_correo = excluded.ultimo_correo, ultima_actividad = excluded.ultima_actividad'
-  ).bind(sub.id, email, idioma, t, t, t).run();
+    'INSERT INTO suscriptores (id, email, estado, idioma, creado, ultimo_correo, ultima_actividad, perfil) VALUES (?, ?, \'pendiente\', ?, ?, ?, ?, ?) ' +
+    'ON CONFLICT(email) DO UPDATE SET idioma = excluded.idioma, creado = excluded.creado, ultimo_correo = excluded.ultimo_correo, ultima_actividad = excluded.ultima_actividad, perfil = excluded.perfil'
+  ).bind(sub.id, email, idioma, t, t, t, cleanPerfil(b.perfil)).run();
   await replaceSigo(env, sub.id, cleanSigo(b.sigo));
   await sendConfirm(env, origin, sub);
   return json(OK);

@@ -97,14 +97,44 @@ def zone_of(follows, T):
     return z
 
 
-def extras(sid, follows, T, prev_urls, taken, sent, lang):
+def encaja(t, p):
+    """Misma lógica que «No encaja» en la web (app.js, fit): solo excluye lo que no cumple con claridad."""
+    if not p:
+        return True
+    c = t.get('cond') or {}
+    if p.get('sexo') == 'F' and t.get('sex') == 'Masculino':
+        return False
+    if p.get('sexo') == 'M' and t.get('sex') == 'Femenino':
+        return False
+    if p.get('nac'):
+        age = int(t['s'][:4]) - int(p['nac'])
+        if c.get('edadMax') is not None:
+            if age > c['edadMax']:
+                return False
+        elif t.get('cat') == 'Juvenil' and age > 21:
+            return False
+        if c.get('edadMin') is not None:
+            if age < c['edadMin']:
+                return False
+        elif t.get('cat') == 'Senior' and age < 50:
+            return False
+    if c.get('hcp') is not None and p.get('hcp') is not None and p['hcp'] > c['hcp']:
+        return False
+    if c.get('priv') and t.get('club') not in (p.get('clubs') or []):
+        return False
+    if c.get('fed') and p.get('fed') and p['fed'] != c['fed']:
+        return False
+    return True
+
+
+def extras(sid, follows, T, prev_urls, taken, sent, lang, perfil=None):
     """Bloques secundarios: fin de semana, cierres próximos y nuevos en su comunidad."""
     zone = zone_of(follows, T)
     if not zone:
         return [], zone
     fprov = {k for tipo, k in follows if tipo == 'prov'}
     fclub = {k for tipo, k in follows if tipo == 'club'}
-    pool = [t for t in T if t.get('ccaa') in zone and t['url'] not in taken]
+    pool = [t for t in T if t.get('ccaa') in zone and t['url'] not in taken and encaja(t, perfil)]
     is_open = lambda t: (not t.get('op') or t['op'] <= ISO) and (not t.get('cl') or t['cl'] >= ISO)
     used, out = set(), []
     def pick(cands, n, key):
@@ -280,7 +310,7 @@ def main():
     if not ev and not JUEVES:
         print('avisos: ninguna novedad hoy')
         return
-    subs = db.q("SELECT id, email, idioma, ultimo_aviso FROM suscriptores WHERE estado = 'activo'")
+    subs = db.q("SELECT id, email, idioma, ultimo_aviso, perfil FROM suscriptores WHERE estado = 'activo'")
     sigo = {}
     for r in db.q('SELECT suscriptor, tipo, clave FROM seguimientos'):
         sigo.setdefault(r['suscriptor'], set()).add((r['tipo'], r['clave']))
@@ -306,7 +336,11 @@ def main():
         weekly = JUEVES and (s['id'], weekly_key) not in sent
         if not items and not weekly:
             continue
-        extra, zone = extras(s['id'], f, T, prev_urls, {x['t']['url'] for x in items}, sent, lang)
+        try:
+            perfil = json.loads(s.get('perfil') or 'null')
+        except ValueError:
+            perfil = None
+        extra, zone = extras(s['id'], f, T, prev_urls, {x['t']['url'] for x in items}, sent, lang, perfil)
         if not items and not extra:
             continue
         try:

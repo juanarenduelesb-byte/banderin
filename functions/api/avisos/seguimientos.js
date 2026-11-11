@@ -1,5 +1,5 @@
 // La web envía aquí lo que sigue la persona cada vez que cambia, para que los avisos estén al día.
-import { json, bearer, readManageToken, readJson, cleanSigo, replaceSigo, now } from '../../../lib/avisos.js';
+import { json, bearer, readManageToken, readJson, cleanSigo, cleanPerfil, replaceSigo, now } from '../../../lib/avisos.js';
 
 export async function onRequestPut({ request, env }) {
   const id = await readManageToken(env, bearer(request));
@@ -9,6 +9,6 @@ export async function onRequestPut({ request, env }) {
   const b = await readJson(request);
   if (!b) return json({ error: 'datos' }, 400);
   await replaceSigo(env, id, cleanSigo(b.sigo));
-  await env.DB.prepare('UPDATE suscriptores SET ultima_actividad = ? WHERE id = ?').bind(now(), id).run();
+  await env.DB.prepare('UPDATE suscriptores SET ultima_actividad = ?, perfil = ? WHERE id = ?').bind(now(), cleanPerfil(b.perfil), id).run();
   return json({ ok: true });
 }

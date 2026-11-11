@@ -13,7 +13,8 @@ CREATE TABLE IF NOT EXISTS suscriptores (
   confirmado       TEXT,                             -- cuándo pulsó el enlace de confirmación
   ultimo_correo    TEXT,                             -- último correo de alta o gestión (máx. 1 cada 5 min)
   ultimo_aviso     TEXT,                             -- último resumen de avisos (máx. 1 al día)
-  ultima_actividad TEXT                              -- para borrar cuentas inactivas a los 24 meses
+  ultima_actividad TEXT,                             -- para borrar cuentas inactivas a los 24 meses
+  perfil           TEXT                              -- JSON opcional: sexo, año de nacimiento, hándicap, federación y clubes (para no sugerir torneos que no encajan)
 );
 
 CREATE TABLE IF NOT EXISTS seguimientos (
