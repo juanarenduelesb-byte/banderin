@@ -28,6 +28,9 @@ import sys
 import urllib.request
 from zoneinfo import ZoneInfo
 
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import correo  # noqa: E402  plantilla de los correos
+
 TZ = ZoneInfo('Europe/Madrid')
 TODAY = dt.datetime.now(TZ).date()
 ISO, TOMORROW = TODAY.isoformat(), (TODAY + dt.timedelta(days=1)).isoformat()
@@ -127,50 +130,38 @@ def label(x, lang):
 
 def compose(sub, items, site):
     lang = sub['idioma'] if sub['idioma'] in ('es', 'en') else 'es'
-    e = html.escape
     tok = manage_token(sub['id'])
     manage = site + ('/en/' if lang == 'en' else '/') + '#perfil?avisos=' + tok
     unsub = site + '/api/avisos/baja?t=' + tok
     n = len(items)
     if n == 1:
         subject = label(items[0], lang) + ' · ' + items[0]['t']['n']
+        title = label(items[0], lang)
     else:
         subject = ('%d updates on what you follow' if lang == 'en' else '%d novedades de lo que sigues') % n
-    rows, text = [], []
+        title = 'News on what you follow' if lang == 'en' else 'Novedades de lo que sigues'
+    lede = (('Today there %s %d %s on the tournaments, clubs and provinces you follow.' % (
+                'is' if n == 1 else 'are', n, 'update' if n == 1 else 'updates')) if lang == 'en' else
+            ('Hoy hay %d %s en los torneos, clubes y provincias que sigues.' % (n, 'novedad' if n == 1 else 'novedades')))
+    cards, text = [], []
     for x in items[:MAX_ITEMS]:
         t = x['t']
+        enter = x['tipo'] in ('abre', 'cierra')
+        btn = ('Enter' if enter else 'View page') if lang == 'en' else ('Inscribirme' if enter else 'Ver ficha')
+        cards.append(correo.item(lang, x['tipo'], label(x, lang), t, t['url'], btn))
         where = ' · '.join(v for v in [t.get('club'), t.get('city')] if v)
-        cancelled = x['tipo'] == 'cancelado'
-        rows.append(
-            '<tr><td style="padding:14px 0;border-top:1px solid #E4DDCB">'
-            '<p style="margin:0 0 4px;font-size:12px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;color:%s">%s</p>'
-            '<p style="margin:0 0 3px;font-size:16px;font-weight:600;color:#13201A">%s</p>'
-            '<p style="margin:0 0 10px;font-size:14px;color:#55645B">%s%s</p>'
-            '<a href="%s" style="font-size:14px;font-weight:600;color:#1C4734">%s</a></td></tr>' % (
-                '#B83232' if cancelled else '#1E6B43', e(label(x, lang)), e(t['n']), e(fdate(t['s'], lang)),
-                (' · ' + e(where)) if where else '', e(t['url']), 'Open the official page' if lang == 'en' else 'Ver la ficha oficial'))
         text.append('- %s: %s (%s%s)\n  %s' % (label(x, lang), t['n'], fdate(t['s'], lang), (' · ' + where) if where else '', t['url']))
     more = n - MAX_ITEMS
-    title = 'News on what you follow' if lang == 'en' else 'Novedades de lo que sigues'
-    foot = ('You get this because you follow these tournaments, clubs or provinces on Banderín. At most one email a day.'
-            if lang == 'en' else 'Recibes esto porque sigues estos torneos, clubes o provincias en Banderín. Como mucho, un correo al día.')
-    links = ('<a href="%s" style="color:#1C4734">%s</a> · <a href="%s" style="color:#1C4734">%s</a>' % (
-        e(manage), 'Manage alerts' if lang == 'en' else 'Gestionar avisos', e(unsub), 'Unsubscribe' if lang == 'en' else 'Darme de baja'))
-    body = ('<!DOCTYPE html><html><body style="margin:0;background:#0E2A1E;padding:24px 12px;font-family:-apple-system,Segoe UI,Helvetica,Arial,sans-serif">'
-            '<table role="presentation" width="100%%" cellpadding="0" cellspacing="0"><tr><td align="center">'
-            '<table role="presentation" width="100%%" style="max-width:560px;background:#FAF7EE;border-radius:20px" cellpadding="0" cellspacing="0"><tr><td style="padding:28px">'
-            '<p style="margin:0 0 18px;font-weight:700;font-size:18px;color:#13201A">⛳ banderín</p>'
-            '<h1 style="margin:0 0 6px;font-family:Georgia,serif;font-weight:400;font-size:28px;color:#13201A">%s</h1>'
-            '<table role="presentation" width="100%%" cellpadding="0" cellspacing="0">%s</table>%s'
-            '<p style="margin:18px 0 0;font-size:13px;line-height:1.5;color:#6B776F">%s<br>%s</p>'
-            '<p style="margin:10px 0 0;font-size:12px;color:#6B776F">%s</p>'
-            '</td></tr></table></td></tr></table></body></html>') % (
-        e(title), ''.join(rows),
-        ('<p style="margin:12px 0 0;font-size:14px"><a href="%s" style="color:#1C4734">%s</a></p>' % (
-            e(manage), ('And %d more' if lang == 'en' else 'Y %d más') % more)) if more > 0 else '',
-        e(foot), links,
-        'Confirm dates and conditions on the organiser\'s page.' if lang == 'en' else 'Confirma fechas y condiciones en la web del organizador.')
-    txt = title + '\n\n' + '\n'.join(text) + '\n\n' + foot + '\n' + manage + '\n' + unsub
+    if more > 0:
+        cards.append(correo.para('<a href="%s" style="color:%s">%s</a>' % (
+            correo.e(manage), correo.GREEN, ('And %d more' if lang == 'en' else 'Y %d más') % more), 14.5, margin='14px 0 0'))
+    why = ('You get this email because you turned on Banderín alerts. At most one a day.' if lang == 'en'
+           else 'Recibes este correo porque activaste los avisos de Banderín. Como mucho, uno al día.')
+    preheader = ' · '.join(x['t']['n'] for x in items[:3])
+    body = correo.shell(lang, subject, preheader, 'Alerts' if lang == 'en' else 'Avisos',
+                        correo.h1(title) + correo.para(correo.e(lede), margin='0 0 10px') + ''.join(cards),
+                        correo.footer(lang, manage, unsub, why), site)
+    txt = title + '\n\n' + lede + '\n\n' + '\n'.join(text) + '\n\n' + why + '\n' + manage + '\n' + unsub
     return subject, body, txt, unsub
 
 
