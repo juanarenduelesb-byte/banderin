@@ -51,12 +51,26 @@ jobs:
 
       - name: Publicar
         run: |
-          cp /tmp/banderin/nuevo/data.js /tmp/banderin/nuevo/pasados.js site/
-          python3 pipeline/seo.py
-          python3 pipeline/calendarios.py
           git config user.name "Banderín (actualización diaria)"
           git config user.email "actions@users.noreply.github.com"
-          git add -A site/ pipeline/geo_cache.json
-          if git diff --cached --quiet; then echo "Sin cambios"; exit 0; fi
-          git commit -m "Torneos actualizados $(TZ=Europe/Madrid date '+%Y-%m-%d %H:%M')"
-          git push
+          cp pipeline/geo_cache.json /tmp/banderin/geo_cache.json
+          publicar() {
+            cp /tmp/banderin/nuevo/data.js /tmp/banderin/nuevo/pasados.js site/
+            cp /tmp/banderin/geo_cache.json pipeline/geo_cache.json
+            python3 pipeline/seo.py
+            python3 pipeline/calendarios.py
+            git add -A site/ pipeline/geo_cache.json
+            if git diff --cached --quiet; then echo "Sin cambios"; return 0; fi
+            git commit -q -m "Torneos actualizados $(TZ=Europe/Madrid date '+%Y-%m-%d %H:%M')"
+          }
+          publicar
+          # Si alguien ha subido cambios mientras tanto, se rehace sobre la versión nueva
+          for intento in 1 2 3; do
+            if git push; then exit 0; fi
+            echo "La rama ha cambiado; se rehace la publicación (intento $intento)"
+            sleep $((intento * 5))
+            git fetch -q origin main
+            git reset -q --hard origin/main
+            publicar
+          done
+          exit 1
