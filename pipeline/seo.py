@@ -25,7 +25,7 @@ import unicodedata
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
-BASE = 'https://banderin.pages.dev'
+BASE = 'https://banderin.es'
 SITE = Path(__file__).resolve().parent.parent / 'site'
 HUB = 'torneos-golf'
 TODAY = dt.datetime.now(ZoneInfo('Europe/Madrid')).date()

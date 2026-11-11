@@ -5,13 +5,13 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:Banderín · Higuerón Marbella Golf Resort
 X-WR-CALDESC:Torneos de golf: Higuerón Marbella Golf Resort. Se actualiza 
- cada mañana. https://banderin.pages.dev
+ cada mañana. https://banderin.es
 X-WR-TIMEZONE:Europe/Madrid
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:d63539440ad2206c24f6@banderin.pages.dev
-DTSTAMP:20261111T001612Z
+UID:d63539440ad2206c24f6@banderin.es
+DTSTAMP:20261111T113347Z
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
 SUMMARY:Ranking 2026

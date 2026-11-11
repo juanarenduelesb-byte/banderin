@@ -5,13 +5,13 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:Banderín · Golf Los Retamares
 X-WR-CALDESC:Torneos de golf: Golf Los Retamares. Se actualiza cada mañana
- . https://banderin.pages.dev
+ . https://banderin.es
 X-WR-TIMEZONE:Europe/Madrid
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:2a2cb2bd1f90230cd83b@banderin.pages.dev
-DTSTAMP:20261111T001612Z
+UID:2a2cb2bd1f90230cd83b@banderin.es
+DTSTAMP:20261111T113347Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
 SUMMARY:Final Circuito Senior y Supersenior Masculino

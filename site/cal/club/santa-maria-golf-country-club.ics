@@ -5,13 +5,13 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:Banderín · Santa María Golf & Country Club
 X-WR-CALDESC:Torneos de golf: Santa María Golf & Country Club. Se actualiz
- a cada mañana. https://banderin.pages.dev
+ a cada mañana. https://banderin.es
 X-WR-TIMEZONE:Europe/Madrid
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:a19c4462848814a5a2e9@banderin.pages.dev
-DTSTAMP:20261111T001612Z
+UID:a19c4462848814a5a2e9@banderin.es
+DTSTAMP:20261111T113347Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Torneo Senior Otoño Costa del Sol

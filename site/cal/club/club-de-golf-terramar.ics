@@ -5,13 +5,13 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:Banderín · Club de Golf Terramar
 X-WR-CALDESC:Torneos de golf: Club de Golf Terramar. Se actualiza cada mañ
- ana. https://banderin.pages.dev
+ ana. https://banderin.es
 X-WR-TIMEZONE:Europe/Madrid
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:39616826056396decb22@banderin.pages.dev
-DTSTAMP:20261111T001612Z
+UID:39616826056396decb22@banderin.es
+DTSTAMP:20261111T113347Z
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261115
 SUMMARY:3ª Jornada Regularidad Infantil Otoño-Invierno 2026
@@ -26,8 +26,8 @@ URL:https://www.catgolf.com/es/campeonatos/3-jornada-regularidad-infantil-o
  tono-invierno-2026-2026-11-14
 END:VEVENT
 BEGIN:VEVENT
-UID:7fdbdc624a420746f49f@banderin.pages.dev
-DTSTAMP:20261111T001612Z
+UID:7fdbdc624a420746f49f@banderin.es
+DTSTAMP:20261111T113347Z
 DTSTART;VALUE=DATE:20261118
 DTEND;VALUE=DATE:20261119
 SUMMARY:8è Interclubs Masculí de Catalunya 2026 (Terramar)
@@ -42,8 +42,8 @@ URL:https://www.catgolf.com/es/campeonatos/8e-interclubs-masculi-de-catalun
  ya-2026-terramar-2026-11-18
 END:VEVENT
 BEGIN:VEVENT
-UID:0eb0e6dbba5dca2c7e29@banderin.pages.dev
-DTSTAMP:20261111T001612Z
+UID:0eb0e6dbba5dca2c7e29@banderin.es
+DTSTAMP:20261111T113347Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:Trofeo Infantil Navideño
@@ -57,8 +57,8 @@ URL:https://www.catgolf.com/es/campeonatos/trofeo-infantil-navideno-2026-12
  -12
 END:VEVENT
 BEGIN:VEVENT
-UID:d5129e05ae62d41fac1a@banderin.pages.dev
-DTSTAMP:20261111T001612Z
+UID:d5129e05ae62d41fac1a@banderin.es
+DTSTAMP:20261111T113347Z
 DTSTART;VALUE=DATE:20270709
 DTEND;VALUE=DATE:20270712
 SUMMARY:Campionat de Catalunya Absolut\, 2ª Cat\, Boy\, Girl i Cadet (WAGR

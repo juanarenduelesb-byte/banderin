@@ -5,13 +5,13 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:Banderín · Club de Golf la Reserva de Sotogrande
 X-WR-CALDESC:Torneos de golf: Club de Golf la Reserva de Sotogrande. Se act
- ualiza cada mañana. https://banderin.pages.dev
+ ualiza cada mañana. https://banderin.es
 X-WR-TIMEZONE:Europe/Madrid
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:c086d70adb8865193658@banderin.pages.dev
-DTSTAMP:20261111T001612Z
+UID:c086d70adb8865193658@banderin.es
+DTSTAMP:20261111T113347Z
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261115
 SUMMARY:Elevated Tournament
@@ -25,8 +25,8 @@ STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6953b12a1a52f0e9fdc5cbed/summary
 END:VEVENT
 BEGIN:VEVENT
-UID:7dc6bad6c4faeffbca7b@banderin.pages.dev
-DTSTAMP:20261111T001612Z
+UID:7dc6bad6c4faeffbca7b@banderin.es
+DTSTAMP:20261111T113347Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 SUMMARY:Regular Tournament (Annual League)
@@ -40,8 +40,8 @@ STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6953b04c1a52f0e9fda4da0e/summary
 END:VEVENT
 BEGIN:VEVENT
-UID:c64cb4e658fddf7a6d7f@banderin.pages.dev
-DTSTAMP:20261111T001612Z
+UID:c64cb4e658fddf7a6d7f@banderin.es
+DTSTAMP:20261111T113347Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Signature Tournament - Otoño / Autumn
@@ -55,8 +55,8 @@ STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6953caad1a52f0e9fd92bb7d/summary
 END:VEVENT
 BEGIN:VEVENT
-UID:7c7ad065be0393c7719c@banderin.pages.dev
-DTSTAMP:20261111T001612Z
+UID:7c7ad065be0393c7719c@banderin.es
+DTSTAMP:20261111T113347Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
 SUMMARY:Regular Tournament (Annual League)
@@ -70,8 +70,8 @@ STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6953b19d1a52f0e9fdd15016/summary
 END:VEVENT
 BEGIN:VEVENT
-UID:672847191d0332af0e64@banderin.pages.dev
-DTSTAMP:20261111T001612Z
+UID:672847191d0332af0e64@banderin.es
+DTSTAMP:20261111T113347Z
 DTSTART;VALUE=DATE:20261211
 DTEND;VALUE=DATE:20261212
 SUMMARY:Regular Tournament (Annual League)
@@ -85,8 +85,8 @@ STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/695b9fae3c4e361f97baf000/summary
 END:VEVENT
 BEGIN:VEVENT
-UID:ce33fb6deaf6842c07b1@banderin.pages.dev
-DTSTAMP:20261111T001612Z
+UID:ce33fb6deaf6842c07b1@banderin.es
+DTSTAMP:20261111T113347Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:League Final / Final de la Liga
@@ -100,8 +100,8 @@ STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6953cbbf1a52f0e9fdbfb336/summary
 END:VEVENT
 BEGIN:VEVENT
-UID:e430054cede06c01d39c@banderin.pages.dev
-DTSTAMP:20261111T001612Z
+UID:e430054cede06c01d39c@banderin.es
+DTSTAMP:20261111T113347Z
 DTSTART;VALUE=DATE:20261216
 DTEND;VALUE=DATE:20261217
 SUMMARY:Torneo Staff vs. Members
@@ -115,8 +115,8 @@ STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6964e53c42551aa3719ec91f/summary
 END:VEVENT
 BEGIN:VEVENT
-UID:f501efe9f7a8f74b8a47@banderin.pages.dev
-DTSTAMP:20261111T001612Z
+UID:f501efe9f7a8f74b8a47@banderin.es
+DTSTAMP:20261111T113347Z
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261220
 SUMMARY:Torneo de Navidad | Christmas Tournament
@@ -130,8 +130,8 @@ STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6964d8e042551aa371d973c7/summary
 END:VEVENT
 BEGIN:VEVENT
-UID:d26cba8e2c443d33071b@banderin.pages.dev
-DTSTAMP:20261111T001612Z
+UID:d26cba8e2c443d33071b@banderin.es
+DTSTAMP:20261111T113347Z
 DTSTART;VALUE=DATE:20270101
 DTEND;VALUE=DATE:20270102
 SUMMARY:Torneo de Año Nuevo | New Year's Tournament

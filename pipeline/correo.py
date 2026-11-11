@@ -11,7 +11,7 @@ bloqueadas.
 import datetime as dt
 import html
 
-SITE = 'https://banderin.pages.dev'
+SITE = 'https://banderin.es'
 SANS = "-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif"
 SERIF = "'Instrument Serif',Georgia,'Times New Roman',serif"
 GREEN, GREEN_DK, CREAM, CREAM2, INK, MUTED, HAIR, GOLD, GOLD_DK = (

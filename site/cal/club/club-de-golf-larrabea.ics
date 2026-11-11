@@ -5,13 +5,13 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:Banderín · Club de Golf Larrabea
 X-WR-CALDESC:Torneos de golf: Club de Golf Larrabea. Se actualiza cada mañ
- ana. https://banderin.pages.dev
+ ana. https://banderin.es
 X-WR-TIMEZONE:Europe/Madrid
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:23337dcbd3bb1d2ef77a@banderin.pages.dev
-DTSTAMP:20261111T001612Z
+UID:23337dcbd3bb1d2ef77a@banderin.es
+DTSTAMP:20261111T113347Z
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261220
 SUMMARY:Final Ranking FVG

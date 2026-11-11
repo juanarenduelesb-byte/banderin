@@ -294,7 +294,7 @@ def main():
         return
     if len(sys.argv) < 3:
         sys.exit('uso: avisos.py <data.js nuevo> <data.js anterior>')
-    site = os.environ.get('SITE_URL', 'https://banderin.pages.dev').rstrip('/')
+    site = os.environ.get('SITE_URL', 'https://banderin.es').rstrip('/')
     ev, T, prev_urls = events(sys.argv[1], sys.argv[2])
     db = D1()
     now = dt.datetime.now(dt.timezone.utc)

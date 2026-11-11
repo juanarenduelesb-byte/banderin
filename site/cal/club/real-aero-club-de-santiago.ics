@@ -5,13 +5,13 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:Banderín · Real Aero Club de Santiago
 X-WR-CALDESC:Torneos de golf: Real Aero Club de Santiago. Se actualiza cada
-  mañana. https://banderin.pages.dev
+  mañana. https://banderin.es
 X-WR-TIMEZONE:Europe/Madrid
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:21259b377a37a38499d6@banderin.pages.dev
-DTSTAMP:20261111T001612Z
+UID:21259b377a37a38499d6@banderin.es
+DTSTAMP:20261111T113347Z
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261115
 SUMMARY:1ª Prueba Ranking Gallego Absoluto 2027
@@ -25,8 +25,8 @@ STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6943ea5a4d9bda7530d69487/summary
 END:VEVENT
 BEGIN:VEVENT
-UID:cbc0b6e222aa76c2fba6@banderin.pages.dev
-DTSTAMP:20261111T001612Z
+UID:cbc0b6e222aa76c2fba6@banderin.es
+DTSTAMP:20261111T113347Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:Campeonato de Galicia Match Play Juvenil

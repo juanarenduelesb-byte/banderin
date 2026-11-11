@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://banderin.pages.dev/sitemap.xml
+Sitemap: https://banderin.es/sitemap.xml
