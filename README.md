@@ -45,3 +45,28 @@ de subir el cambio para que `/en/` quede igual.
   (hándicap máximo, edad, solo socios, solo federados). Ante la duda no extrae nada.
 - `pipeline/calendarios.py` genera cada día `site/cal/{prov,ccaa,club}/*.ics`
   para suscribirse desde Apple, Google u Outlook.
+
+## Avisos por correo (fase 2) — apagados hasta activarlos
+
+Piezas:
+- `functions/api/*` y `lib/avisos.js`: API en Cloudflare Pages Functions (alta con doble
+  confirmación, confirmar, consultar, sincronizar lo que se sigue y baja). Mientras falte
+  la configuración, `/api/estado` responde `{"avisos":false}`, el resto 503, y la web
+  muestra «Próximamente».
+- `db/schema.sql`: base de datos D1 (correo, idioma y lo que sigue cada persona).
+- `pipeline/avisos.py`: lo ejecuta la actualización diaria; manda como mucho un correo
+  al día por persona, sin repetir avisos, y limpia altas sin confirmar e inactivas.
+
+Activar los avisos (requisitos: dominio propio, datos del titular en el aviso legal y
+cuenta de Brevo con el dominio verificado):
+1. Cloudflare → D1 → crear la base `banderin` (ubicación: Europa) y ejecutar `db/schema.sql`.
+2. Pages → banderin → Settings → Bindings: D1 `DB` → `banderin`.
+3. Pages → Settings → Variables: `AVISOS=on`, `AVISOS_FROM=avisos@<dominio>`; secretos
+   `BREVO_API_KEY` y `LINK_SECRET` (cadena aleatoria larga).
+4. GitHub → Settings → Secrets and variables → Actions: variables `AVISOS=on`,
+   `SITE_URL`, `AVISOS_FROM`, `CF_ACCOUNT_ID`, `D1_DATABASE_ID`; secretos `BREVO_API_KEY`,
+   `LINK_SECRET` (el mismo) y `CF_API_TOKEN` (permiso D1: Edit).
+5. Volver a desplegar y probar el alta con un correo propio.
+
+Pruebas en local: `wrangler pages dev site --d1 DB=local ...` con un Brevo simulado
+(`BREVO_API_URL`); `D1_SQLITE=<ruta>` para `pipeline/avisos.py`.

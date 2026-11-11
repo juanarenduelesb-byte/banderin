@@ -775,6 +775,11 @@ nav .bar .seg.tabs{margin-left:auto}
 .pmine b{display:block;font-family:"Instrument Serif",Georgia,serif;font-weight:400;font-size:34px;line-height:1}
 .pmine span{font-size:13.5px;color:var(--muted);font-weight:600}
 .pmine a:hover{background:color-mix(in srgb,var(--accent) 12%,var(--tint))}
+.pavnote{color:var(--muted);font-size:13px;line-height:1.5;margin:10px 0 0}
+.pavnote a{color:var(--accent)}
+.pavok{margin:0 0 12px;font-size:15px;line-height:1.5}
+.pavtrap{position:absolute!important;left:-9999px;width:1px;height:1px;opacity:0}
+.linkbtn{border:0;background:none;padding:0;font:inherit;color:var(--accent);text-decoration:underline;cursor:pointer}
 #pwipe.confirm{border-color:var(--crit);color:var(--crit)}
 .nofit{font-style:normal;font-size:11px;font-weight:700;letter-spacing:.02em;color:var(--crit);background:color-mix(in srgb,var(--crit) 12%,transparent);border-radius:999px;padding:2px 7px;margin-right:6px;white-space:nowrap}
 .follow{display:inline-flex;align-items:center;gap:6px;margin:-2px 0 12px;border:1px solid var(--hair);background:transparent;color:var(--ink);border-radius:999px;padding:6px 12px;font:inherit;font-size:13px;font-weight:600;cursor:pointer}
@@ -975,9 +980,23 @@ nav .bar .seg.tabs{margin-left:auto}
         <div class="padd two"><select id="pprovAdd" aria-label="Seguir una provincia"></select><input id="psclubIn" list="pclubList" placeholder="O un club" autocomplete="off" aria-label="Seguir un club"><button type="button" class="btn soft" id="psclubAdd">Seguir</button></div>
         <ul class="psigo" id="psigo"></ul>
       </div>
+      <div class="pcard glass" id="pavisos">
+        <span class="psoon" id="pavSoon">Próximamente</span>
+        <h3>Avisos por correo</h3>
+        <p class="phint">Te escribimos cuando abra o cierre la inscripción de lo que sigues, cuando aparezca un torneo nuevo o cambie una fecha. Como mucho, un correo al día.</p>
+        <div id="pavOff"><p class="pavnote">Estamos terminando de prepararlos. Mientras tanto, sigue clubes y provincias: cuando se activen, podrás recibir sus avisos con un clic.</p></div>
+        <form id="pavForm" hidden novalidate>
+          <div class="padd"><input id="pavEmail" type="email" autocomplete="email" placeholder="tu@correo.es" aria-label="Tu correo"><button class="btn primary" type="submit">Activar avisos</button></div>
+          <input id="pavWeb" name="web" tabindex="-1" autocomplete="off" aria-hidden="true" class="pavtrap">
+          <p class="pavnote">Te enviaremos un enlace para confirmar. Guardamos solo tu correo y lo que sigues; puedes darte de baja cuando quieras. <a href="#privacidad">Privacidad</a></p>
+          <p class="perr" id="pavErr" role="alert" hidden></p>
+        </form>
+        <div id="pavPend" hidden><p class="pavok">Te hemos enviado un correo a <b id="pavPendMail"></b>. Pulsa el enlace para confirmar los avisos.</p><p class="pavnote">¿No te llega? Revisa la carpeta de spam o <button type="button" class="linkbtn" id="pavRetry">vuelve a intentarlo</button>.</p></div>
+        <div id="pavOn" hidden><p class="pavok">Avisos activos en <b id="pavOnMail"></b>. Lo que sigues y tus guardados se mantienen al día solos.</p><button type="button" class="btn ghost" id="pavStop">Desactivar avisos</button></div>
+      </div>
       <div class="pcard glass"><h3>Próximos de lo que sigues</h3><div class="list prows" id="prows"></div></div>
       <div class="pcard glass"><h3>Mis torneos</h3><div class="pmine" id="pmine"></div></div>
-      <div class="pcard glass"><h3>Tus datos</h3><p class="phint">Todo lo de esta página está guardado solo en este navegador: Banderín no lo recibe.</p><button class="btn ghost" id="pwipe" type="button">Borrar mis datos de este dispositivo</button></div>
+      <div class="pcard glass"><h3>Tus datos</h3><p class="phint">Tu perfil y tus guardados están solo en este navegador. Si activas los avisos, guardamos tu correo y lo que sigues para poder enviártelos. Este botón lo borra todo, también tu suscripción.</p><button class="btn ghost" id="pwipe" type="button">Borrar mis datos de este dispositivo</button></div>
     </div>
   </div>
 </section>

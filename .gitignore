@@ -3,3 +3,7 @@ pipeline/*.json
 !pipeline/geo_cache.json
 pipeline/__pycache__/
 .DS_Store
+
+# Estado local de wrangler (pruebas)
+.wrangler/
+node_modules/

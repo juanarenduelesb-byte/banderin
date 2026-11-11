@@ -86,7 +86,7 @@ function fit(t){
   return {ok:!why.length,why};
 }
 const nofit=t=>{const f=fit(t);return !!(f&&!f.ok)};
-function saveSigo(){SIGO.ts=Date.now();raw.set('sigo',SIGO);markMe()}
+function saveSigo(){SIGO.ts=Date.now();raw.set('sigo',SIGO);markMe();if(typeof syncAvisos==='function')syncAvisos()}
 function toggleFollow(kind,name){const a=SIGO[kind],i=a.indexOf(name);if(i<0)a.push(name);else a.splice(i,1);saveSigo()}
 function markMe(){const m=$('me');if(m)m.classList.toggle('has',hasPerf()||SIGO.clubs.length+SIGO.prov.length>0)}
 const QUICK=[
@@ -171,7 +171,7 @@ function fillDetail(d,t,modal){
    '<div class="acts"><a class="btn primary" href="'+esc(safeUrl(t.url))+'" target="_blank" rel="noopener noreferrer">'+label(t)+I.out+'</a><button class="btn ghost" data-act="save" aria-pressed="'+isS+'" title="'+L(isS?'Quitar de guardados':'Guardar')+'" aria-label="'+L(isS?'Quitar de guardados':'Guardar')+'">'+I.star+'</button><a class="btn ghost" href="'+gcal(t)+'" target="_blank" rel="noopener noreferrer" title="'+L('Añadir a Google Calendar')+'" aria-label="'+L('Añadir a Google Calendar')+'">'+I.cal+'</a></div>'+
    '<p class="note">'+L('Datos de {s}.',{s:esc(t.src)})+' '+(t.ok?esc(checkedText(t.ok))+' ':'')+L('Confirma fechas y precio en la web del organizador antes de inscribirte.')+(t.direct===false?' '+L('Este organizador no publica una ficha por torneo: el enlace lleva a su página de torneos.'):'')+'</p>'+
    (same.length?'<div class="same"><h3>'+L('Más en este campo')+'</h3>'+same.map(x=>'<button data-i="'+x.i+'"><span>'+esc(x.n)+'</span><span>'+fShort(x.s)+'</span></button>').join('')+'</div>':'')+'</div>';
-  d.querySelector('[data-act=save]').onclick=()=>{isS?saved.delete(t.url):saved.add(t.url);store.set('saved',[...saved]);render();if(modal){fillDetail(d,t,true);renderHome()}};
+  d.querySelector('[data-act=save]').onclick=()=>{isS?saved.delete(t.url):saved.add(t.url);store.set('saved',[...saved]);syncAvisos();render();if(modal){fillDetail(d,t,true);renderHome()}};
   const fb=d.querySelector('[data-act=follow]');if(fb)fb.onclick=()=>{toggleFollow('clubs',t.club);fillDetail(d,t,modal);renderQuick();if(location.hash==='#perfil')renderPerfil()};
   d.querySelector('[data-act=close]').onclick=modal?closeModal:closeSheet;
   d.querySelectorAll('.same button').forEach(b=>b.onclick=()=>modal?fillDetail(d,T[+b.dataset.i],true):select(+b.dataset.i,true));
@@ -536,7 +536,8 @@ $('pmine').onclick=e=>{const a=e.target.closest('a[data-go]');if(!a)return;const
   e.preventDefault();goList(()=>{qOn.add(g)});location.hash='lista'};
 $('pwipe').onclick=()=>{const b=$('pwipe');
   if(!b.classList.contains('confirm')){b.classList.add('confirm');b.textContent=L('Pulsa otra vez para borrarlo todo');return}
-  ['perfil','sigo','saved','played','city','radius'].forEach(k=>{raw.del(k);delete MEM[k]});
+  if(AV&&AV.tok&&avOn)api('/api/avisos/baja',{method:'POST',tok:AV.tok}).catch(()=>{});AV=null;
+  ['perfil','sigo','saved','played','city','radius','avisos'].forEach(k=>{raw.del(k);delete MEM[k]});drawAvisos();
   PERF=null;SIGO={v:1,clubs:[],prov:[]};saved.clear();played.clear();$('city').value='';$('radius').value='';
   render();renderPerfil();$('pstat').textContent='';b.textContent=L('Datos borrados de este dispositivo.');
 };
@@ -582,6 +583,62 @@ document.addEventListener('click',e=>{
 });
 document.addEventListener('keydown',e=>{if(e.key==='Escape'&&!$('cpanel').hidden){e.stopPropagation();closeCookies()}},true);
 if(!consent.get())$('cbanner').hidden=false;
+
+/* ===== Avisos por correo (fase 2). Apagados hasta que /api/estado diga lo contrario. ===== */
+let AV=raw.get('avisos')||null,avOn=false,avTimer=null;
+const avSigo=()=>({clubs:SIGO.clubs,prov:SIGO.prov,torneos:[...saved]});
+async function api(path,opt={}){
+  const h={'Accept':'application/json'};if(opt.body)h['Content-Type']='application/json';if(opt.tok)h['Authorization']='Bearer '+opt.tok;
+  const r=await fetch(path,{method:opt.method||'GET',headers:h,body:opt.body?JSON.stringify(opt.body):undefined,credentials:'same-origin'});
+  let d=null;try{d=await r.json()}catch(e){}
+  return {ok:r.ok,status:r.status,data:d};
+}
+function drawAvisos(){
+  const st=!avOn?'off':AV&&AV.tok?'on':AV&&AV.pend?'pend':'form';
+  $('pavSoon').hidden=st!=='off';$('pavOff').hidden=st!=='off';$('pavForm').hidden=st!=='form';$('pavPend').hidden=st!=='pend';$('pavOn').hidden=st!=='on';
+  if(st==='pend')$('pavPendMail').textContent=AV.pend;
+  if(st==='on')$('pavOnMail').textContent=AV.email||'';
+}
+function syncAvisos(){if(!avOn||!AV||!AV.tok)return;clearTimeout(avTimer);avTimer=setTimeout(async()=>{
+  const r=await api('/api/avisos/seguimientos',{method:'PUT',tok:AV.tok,body:{sigo:avSigo()}}).catch(()=>null);
+  if(r&&r.status===401){AV=null;raw.del('avisos');drawAvisos()}},800)}
+async function initAvisos(){
+  // Vuelta desde el correo de confirmación o de gestión: #perfil?avisos=<llave>
+  const m=/^#perfil\?avisos=([^&]+)/.exec(location.hash);
+  if(m){AV={tok:decodeURIComponent(m[1])};raw.set('avisos',AV);history.replaceState(null,'',location.pathname+'#perfil')}
+  const r=await api('/api/estado').catch(()=>null);
+  avOn=!!(r&&r.ok&&r.data&&r.data.avisos);
+  if(avOn&&AV&&AV.tok){
+    const y=await api('/api/avisos/yo',{tok:AV.tok}).catch(()=>null);
+    if(y&&y.ok){AV.email=y.data.email;raw.set('avisos',AV);
+      // Lo que sigue en el servidor se suma a lo de este navegador (útil en un segundo dispositivo)
+      const s=y.data.sigo||{};let ch=false;
+      (s.clubs||[]).forEach(c=>{if(!SIGO.clubs.includes(c)){SIGO.clubs.push(c);ch=true}});
+      (s.prov||[]).forEach(c=>{if(!SIGO.prov.includes(c)){SIGO.prov.push(c);ch=true}});
+      (s.torneos||[]).forEach(u=>{if(!saved.has(u)){saved.add(u);ch=true}});
+      if(ch){raw.set('sigo',SIGO);store.set('saved',[...saved]);render()}
+      syncAvisos();
+    }else if(y&&y.status===401){AV=null;raw.del('avisos')}
+  }
+  drawAvisos();if(location.hash==='#perfil')renderPerfil();
+}
+$('pavForm').onsubmit=async e=>{
+  e.preventDefault();const em=$('pavEmail').value.trim(),btn=$('pavForm').querySelector('button');
+  $('pavErr').hidden=true;
+  if(!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(em)){$('pavErr').textContent=L('Revisa el correo: no parece válido.');$('pavErr').hidden=false;$('pavEmail').focus();return}
+  btn.disabled=true;
+  const r=await api('/api/avisos/alta',{method:'POST',body:{email:em,idioma:LANG,sigo:avSigo(),web:$('pavWeb').value}}).catch(()=>null);
+  btn.disabled=false;
+  if(r&&r.ok){AV={pend:em};raw.set('avisos',AV);drawAvisos()}
+  else{$('pavErr').textContent=L(r&&r.status===400?'Revisa el correo: no parece válido.':'No hemos podido activarlos ahora. Inténtalo en unos minutos.');$('pavErr').hidden=false}
+};
+$('pavRetry').onclick=()=>{AV=null;raw.del('avisos');drawAvisos();$('pavEmail').focus()};
+$('pavStop').onclick=async()=>{const b=$('pavStop');
+  if(!b.classList.contains('confirm')){b.classList.add('confirm');b.textContent=L('Pulsa otra vez para borrar tu correo');return}
+  const r=await api('/api/avisos/baja',{method:'POST',tok:AV&&AV.tok}).catch(()=>null);
+  if(r&&(r.ok||r.status===401)){AV=null;raw.del('avisos');b.classList.remove('confirm');b.textContent=L('Desactivar avisos');drawAvisos()}
+};
+initAvisos();
 
 // Arranque: al final, cuando todo está definido
 addEventListener('hashchange',route);route();render();
