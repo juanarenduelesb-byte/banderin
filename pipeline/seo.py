@@ -135,7 +135,7 @@ def head(title, desc, path, robots='index,follow,max-image-preview:large', ld=()
            '<meta name="robots" content="%s">' % robots,
            '<meta property="og:type" content="website">', '<meta property="og:site_name" content="Banderín">',
            '<meta property="og:title" content="%s">' % e(title), '<meta property="og:description" content="%s">' % e(desc),
-           '<meta property="og:url" content="%s">' % url, '<meta property="og:image" content="%s/og.png">' % BASE,
+           '<meta property="og:url" content="%s">' % url, '<meta property="og:image" content="%s/og.png?v=2">' % BASE,
            '<meta property="og:image:width" content="1200">', '<meta property="og:image:height" content="630">',
            '<meta property="og:locale" content="es_ES">', '<meta name="twitter:card" content="summary_large_image">',
            '<meta name="theme-color" content="#163D2B">',
@@ -200,7 +200,7 @@ def event_ld(t):
     ev = {'@type': 'SportsEvent', 'name': t['n'], 'startDate': t['s'], 'endDate': t.get('e') or t['s'],
           'eventStatus': 'https://schema.org/EventScheduled',
           'eventAttendanceMode': 'https://schema.org/OfflineEventAttendanceMode',
-          'sport': 'Golf', 'location': loc, 'image': [BASE + '/og.png'],
+          'sport': 'Golf', 'location': loc, 'image': [BASE + '/og.png?v=2'],
           'description': ' · '.join(x for x in [t.get('cat'), t.get('mod'), t.get('form'), t.get('club')] if x)}
     u = safe_url(t.get('url'))
     if u:
