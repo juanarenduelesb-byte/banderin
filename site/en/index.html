@@ -666,7 +666,11 @@ nav.tabbar{display:none}
   main,.wrap{padding-bottom:calc(96px + env(safe-area-inset-bottom))}
   .sitefoot{padding-bottom:calc(100px + env(safe-area-inset-bottom))}
   .cbanner{bottom:calc(88px + env(safe-area-inset-bottom))}
-  nav .bar{padding-top:max(6px,env(safe-area-inset-top))}
+  /* Barra superior: la píldora queda debajo de la hora y la batería; una franja del color de la página tapa lo que pasa por detrás */
+  nav:not(.tabbar){top:0;margin-top:0;padding:calc(8px + env(safe-area-inset-top)) 14px 8px}
+  nav:not(.tabbar)::before{content:"";position:absolute;left:0;right:0;top:0;height:calc(100% + 14px);z-index:-1;pointer-events:none;
+    background:linear-gradient(to bottom,var(--page) 0,var(--page) calc(env(safe-area-inset-top) + 8px),color-mix(in srgb,var(--page) 0%,transparent) 100%)}
+  nav .bar{min-height:54px;padding:6px 8px 6px 18px}
 }
 @media (max-width:700px) and (prefers-reduced-motion:reduce){.tb{transition:none}}
 .agenda{margin:18px 0 0}
