@@ -2,10 +2,10 @@
    DATOS DEL TITULAR: rellena este bloque. Mientras un campo esté vacío,
    la web muestra «pendiente» en su lugar. */
 window.TITULAR = {
-  nombre: "",        // Nombre y apellidos (autónomo) o razón social (sociedad)
-  nif: "",           // NIF / CIF
-  domicilio: "",     // Dirección postal completa
-  email: "",         // Correo de contacto y de privacidad
+  nombre: "Juan Álvarez-Rendueles Basagoiti",        // Nombre y apellidos (autónomo) o razón social (sociedad)
+  nif: "53730185T",           // NIF / CIF
+  domicilio: "Avenida de los Pirineos, 33, 28703 San Sebastián de los Reyes (Madrid)",     // Dirección postal completa
+  email: "juanarenduelesb@gmail.com",         // Correo de contacto y de privacidad
   registro: "",      // Solo si es sociedad: Registro Mercantil, tomo, folio, hoja
   marca: "Esclusa",
   web: "Banderín"
@@ -112,7 +112,7 @@ window.LEGALDOCS = {
 <p>La web se sirve cifrada (HTTPS), no almacena contraseñas ni datos de pago y no tiene acceso a la información que guardas en tu navegador. Aplicamos el principio de minimización: si no necesitamos un dato, no lo pedimos.</p>
 
 <h3 id="pr-9">9. Cambios en esta política</h3>
-<p>Cuando Banderín incorpore funciones nuevas, como cuentas de usuario o alertas por correo, actualizaremos esta política antes de activarlas y te lo indicaremos de forma visible.</p>
+<p>Cuando Banderín incorpore funciones nuevas, como cuentas de usuario, actualizaremos esta política antes de activarlas y te lo indicaremos de forma visible.</p>
 `},
 
 "cookies": {

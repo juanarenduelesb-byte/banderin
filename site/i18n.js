@@ -217,7 +217,7 @@ window.LEGALDOCS_EN={
 <h3>8. Security</h3>
 <p>The site is served encrypted (HTTPS), stores no passwords or payment details and has no access to what you keep in your browser. We apply data minimisation: if we do not need a piece of data, we do not ask for it.</p>
 <h3>9. Changes</h3>
-<p>When Banderín adds new features, such as user accounts or email alerts, we will update this policy before switching them on and tell you clearly.</p>`},
+<p>When Banderín adds new features, such as user accounts, we will update this policy before switching them on and tell you clearly.</p>`},
 "cookies":{titulo:"Cookie policy",intro:"What Banderín stores in your browser, why, and how to change it. The Spanish version prevails.",html:`
 <h3>1. What cookies and similar technologies are</h3>
 <p>Cookies and similar technologies, such as the browser's local storage (<i>localStorage</i>), are small files or data that a website stores on your device to remember information between visits. This policy complies with article 22.2 of the LSSI-CE and the Spanish Data Protection Agency's cookie guide.</p>
