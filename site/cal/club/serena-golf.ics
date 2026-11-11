@@ -11,7 +11,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:de4b80a90903c90a0030@banderin.es
-DTSTAMP:20261111T113347Z
+DTSTAMP:20261111T130701Z
 DTSTART;VALUE=DATE:20261111
 DTEND;VALUE=DATE:20261112
 SUMMARY:Sjgs Wednesday
@@ -25,7 +25,7 @@ URL:https://www.golfdirecto.com/micro/game/6aeb5cf9317b13aa700e4075/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:b67e7b92c7abc55839f6@banderin.es
-DTSTAMP:20261111T113347Z
+DTSTAMP:20261111T130701Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
 SUMMARY:Sjgs Friday Counting
@@ -38,23 +38,23 @@ STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6af1d3e63f87d1a99fe65a01/summary
 END:VEVENT
 BEGIN:VEVENT
-UID:735197b73ce09086ac84@banderin.es
-DTSTAMP:20261111T113347Z
+UID:5d76b8cd9b5b2398a28e@banderin.es
+DTSTAMP:20261111T130701Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
-SUMMARY:Torneo Escuela Parejas Mejor Bola
+SUMMARY:Torneo Escuela Mejor Bola
 LOCATION:Serena Golf\, Los Alcazares\, Murcia
-DESCRIPTION:Juvenil · Fourball · Parejas\nInscripción: abre el 21 de oct
- ubre\, cierra el 12 de noviembre.\nFicha oficial: https://www.golfdirecto.
- com/micro/game/6ad8a3f3ad3db58f4cf331e2/summary\nConfirma fechas y condici
- ones en la web del organizador. Vía Banderín.
+DESCRIPTION:Juvenil · Fourball · Parejas\nInscripción: abre el 11 de nov
+ iembre\, cierra el 11 de noviembre.\nFicha oficial: https://www.golfdirect
+ o.com/micro/game/6af433c040d1c05a504c1e27/summary\nConfirma fechas y condi
+ ciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-URL:https://www.golfdirecto.com/micro/game/6ad8a3f3ad3db58f4cf331e2/summary
+URL:https://www.golfdirecto.com/micro/game/6af433c040d1c05a504c1e27/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:9138a6246b584c1e2060@banderin.es
-DTSTAMP:20261111T113347Z
+DTSTAMP:20261111T130701Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Torneo Aniversario Escuela Torné

@@ -11,7 +11,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:39616826056396decb22@banderin.es
-DTSTAMP:20261111T113347Z
+DTSTAMP:20261111T130701Z
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261115
 SUMMARY:3ª Jornada Regularidad Infantil Otoño-Invierno 2026
@@ -27,7 +27,7 @@ URL:https://www.catgolf.com/es/campeonatos/3-jornada-regularidad-infantil-o
 END:VEVENT
 BEGIN:VEVENT
 UID:7fdbdc624a420746f49f@banderin.es
-DTSTAMP:20261111T113347Z
+DTSTAMP:20261111T130701Z
 DTSTART;VALUE=DATE:20261118
 DTEND;VALUE=DATE:20261119
 SUMMARY:8è Interclubs Masculí de Catalunya 2026 (Terramar)
@@ -43,7 +43,7 @@ URL:https://www.catgolf.com/es/campeonatos/8e-interclubs-masculi-de-catalun
 END:VEVENT
 BEGIN:VEVENT
 UID:0eb0e6dbba5dca2c7e29@banderin.es
-DTSTAMP:20261111T113347Z
+DTSTAMP:20261111T130701Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:Trofeo Infantil Navideño
@@ -57,20 +57,19 @@ URL:https://www.catgolf.com/es/campeonatos/trofeo-infantil-navideno-2026-12
  -12
 END:VEVENT
 BEGIN:VEVENT
-UID:d5129e05ae62d41fac1a@banderin.es
-DTSTAMP:20261111T113347Z
+UID:c16dca21535c2a42515e@banderin.es
+DTSTAMP:20261111T130701Z
 DTSTART;VALUE=DATE:20270709
 DTEND;VALUE=DATE:20270712
-SUMMARY:Campionat de Catalunya Absolut\, 2ª Cat\, Boy\, Girl i Cadet (WAGR
- )
+SUMMARY:Campionat de Catalunya Absolut\, 2a Cat\, Boy\, Girl i Cadet (WAGR)
 LOCATION:Club de Golf Terramar\, Sitges\, Barcelona
 DESCRIPTION:Absoluto · Individual\nFicha oficial: https://www.catgolf.com/
- es/campeonatos/campionat-de-catalunya-absolut-2-cat-boy-girl-i-cadet-wagr-
- 2027-07-09\nConfirma fechas y condiciones en la web del organizador. Vía 
- Banderín.
+ es/campeonatos/campionat-de-catalunya-absolut-2a-cat-boy-girl-i-cadet-wagr
+ -2027-07-09\nConfirma fechas y condiciones en la web del organizador. Vía
+  Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.catgolf.com/es/campeonatos/campionat-de-catalunya-absolut-2
- -cat-boy-girl-i-cadet-wagr-2027-07-09
+ a-cat-boy-girl-i-cadet-wagr-2027-07-09
 END:VEVENT
 END:VCALENDAR
