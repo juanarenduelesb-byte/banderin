@@ -32,7 +32,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import correo  # noqa: E402  plantilla de los correos
 
 TZ = ZoneInfo('Europe/Madrid')
-TODAY = dt.datetime.now(TZ).date()
+TODAY = dt.date.fromisoformat(os.environ['AVISOS_HOY']) if os.environ.get('AVISOS_HOY') else dt.datetime.now(TZ).date()  # AVISOS_HOY: solo para pruebas
 ISO, TOMORROW = TODAY.isoformat(), (TODAY + dt.timedelta(days=1)).isoformat()
 MAX_ITEMS = 30
 # Qué avisos recibe quien sigue un club o una provincia (quien sigue un torneo concreto los recibe todos).
@@ -70,7 +70,67 @@ def events(new_path, prev_path):
             ev.append({'t': t, 'tipo': c['k'], 'nuevo_valor': c.get('b')})
     for x in ev:
         x['clave'] = x['t']['url'] + '|' + x['tipo'] + ('|' + x['nuevo_valor'] if x.get('nuevo_valor') else '')
-    return ev
+    return ev, T, prev_urls
+
+
+
+WD = TODAY.weekday()
+SAT = TODAY + dt.timedelta(days=(5 - WD) if WD <= 5 else 0)
+SUN = SAT + dt.timedelta(days=1) if WD <= 5 else TODAY
+WEEK = '%d-%02d' % TODAY.isocalendar()[:2]
+JUEVES = WD == 3
+
+
+def zone_of(follows, T):
+    """Comunidades de lo que sigue la persona."""
+    prov_cc, club_cc, url_cc = {}, {}, {}
+    for t in T:
+        if t.get('ccaa'):
+            prov_cc.setdefault(t.get('prov'), t['ccaa'])
+            club_cc.setdefault(t.get('club'), t['ccaa'])
+            url_cc[t['url']] = t['ccaa']
+    z = set()
+    for tipo, k in follows:
+        c = {'prov': prov_cc, 'club': club_cc, 'torneo': url_cc}[tipo].get(k)
+        if c:
+            z.add(c)
+    return z
+
+
+def extras(sid, follows, T, prev_urls, taken, sent, lang):
+    """Bloques secundarios: fin de semana, cierres próximos y nuevos en su comunidad."""
+    zone = zone_of(follows, T)
+    if not zone:
+        return [], zone
+    fprov = {k for tipo, k in follows if tipo == 'prov'}
+    fclub = {k for tipo, k in follows if tipo == 'club'}
+    pool = [t for t in T if t.get('ccaa') in zone and t['url'] not in taken]
+    is_open = lambda t: (not t.get('op') or t['op'] <= ISO) and (not t.get('cl') or t['cl'] >= ISO)
+    used, out = set(), []
+    def pick(cands, n, key):
+        res = []
+        for t in cands:
+            k = t['url'] + '|' + key + '|' + WEEK
+            if t['url'] in used or (sid, k) in sent:
+                continue
+            res.append((t, k))
+            used.add(t['url'])
+            if len(res) >= n:
+                break
+        return res
+    pref = lambda t: (t.get('prov') not in fprov and t.get('club') not in fclub, not is_open(t), t['s'])
+    finde = sorted([t for t in pool if t['s'] <= SUN.isoformat() and (t.get('e') or t['s']) >= SAT.isoformat()], key=pref)
+    pronto = sorted([t for t in pool if t.get('cl') and (TODAY + dt.timedelta(days=2)).isoformat() <= t['cl'] <= (TODAY + dt.timedelta(days=7)).isoformat()
+                     and is_open(t)], key=lambda t: (t['cl'], pref(t)))
+    nuevos = sorted([t for t in pool if prev_urls is not None and t['url'] not in prev_urls], key=pref)
+    en = lang == 'en'
+    for tipo, cands, n, lab in (
+            ('finde', finde, 5, lambda t: 'This weekend' if en else 'Este fin de semana'),
+            ('pronto', pronto, 3, lambda t: ('Entries close ' if en else 'Cierra la inscripción el ') + fdate(t['cl'], lang)),
+            ('nuevo', nuevos, 3, lambda t: 'New tournament' if en else 'Torneo nuevo')):
+        for t, k in pick(cands, n, tipo):
+            out.append({'t': t, 'tipo': tipo, 'label': lab(t), 'clave': k})
+    return out, zone
 
 
 # ------------------------------------------------------------------ base de datos
@@ -128,21 +188,31 @@ def label(x, lang):
             'plazo': 'Nuevo plazo de inscripción: hasta el ' + fdate(x.get('nuevo_valor') or ISO, lang)}[t]
 
 
-def compose(sub, items, site):
+def compose(sub, items, site, extra=(), zone=()):
     lang = sub['idioma'] if sub['idioma'] in ('es', 'en') else 'es'
     tok = manage_token(sub['id'])
     manage = site + ('/en/' if lang == 'en' else '/') + '#perfil?avisos=' + tok
     unsub = site + '/api/avisos/baja?t=' + tok
     n = len(items)
-    if n == 1:
+    if n == 0:
+        zname = next(iter(zone)) if len(zone) == 1 else ('your area' if lang == 'en' else 'tu zona')
+        subject = ('Your golf weekend in %s' if lang == 'en' else 'Tu fin de semana de golf en %s') % zname
+        title = 'Your golf weekend' if lang == 'en' else 'Tu fin de semana de golf'
+    elif n == 1:
         subject = label(items[0], lang) + ' · ' + items[0]['t']['n']
         title = label(items[0], lang)
     else:
         subject = ('%d updates on what you follow' if lang == 'en' else '%d novedades de lo que sigues') % n
         title = 'News on what you follow' if lang == 'en' else 'Novedades de lo que sigues'
-    lede = (('Today there %s %d %s on the tournaments, clubs and provinces you follow.' % (
-                'is' if n == 1 else 'are', n, 'update' if n == 1 else 'updates')) if lang == 'en' else
-            ('Hoy hay %d %s en los torneos, clubes y provincias que sigues.' % (n, 'novedad' if n == 1 else 'novedades')))
+    zl = ', '.join(sorted(zone))
+    if n == 0:
+        lede = ('What is on in %s this weekend, and what is worth not missing.' if lang == 'en'
+                else 'Lo que se juega en %s este fin de semana y lo que no conviene perderse.') % zl
+    elif lang == 'en':
+        lede = 'Today there %s %d %s on the tournaments, clubs and provinces you follow.' % (
+            'is' if n == 1 else 'are', n, 'update' if n == 1 else 'updates')
+    else:
+        lede = 'Hoy hay %d %s en los torneos, clubes y provincias que sigues.' % (n, 'novedad' if n == 1 else 'novedades')
     cards, text = [], []
     for x in items[:MAX_ITEMS]:
         t = x['t']
@@ -155,9 +225,18 @@ def compose(sub, items, site):
     if more > 0:
         cards.append(correo.para('<a href="%s" style="color:%s">%s</a>' % (
             correo.e(manage), correo.GREEN, ('And %d more' if lang == 'en' else 'Y %d más') % more), 14.5, margin='14px 0 0'))
+    if extra:
+        zname = (next(iter(zone)) if len(zone) == 1 else ('your regions' if lang == 'en' else 'tus comunidades'))
+        if n:  # en el resumen del jueves todo es «tu zona»: sin cabecera extra
+            cards.append(correo.section('Also near you' if lang == 'en' else 'También en tu zona',
+                                        ('More golf in %s' if lang == 'en' else 'Más golf en %s') % zname))
+        for x in extra:
+            t = x['t']
+            cards.append(correo.item(lang, x['tipo'], x['label'], t, t['url'], 'View page' if lang == 'en' else 'Ver ficha'))
+            text.append('- %s: %s (%s) %s' % (x['label'], t['n'], fdate(t['s'], lang), t['url']))
     why = ('You get this email because you turned on Banderín alerts. At most one a day.' if lang == 'en'
            else 'Recibes este correo porque activaste los avisos de Banderín. Como mucho, uno al día.')
-    preheader = ' · '.join(x['t']['n'] for x in items[:3])
+    preheader = ' · '.join(x['t']['n'] for x in (list(items) + list(extra))[:3])
     body = correo.shell(lang, subject, preheader, 'Alerts' if lang == 'en' else 'Avisos',
                         correo.h1(title) + correo.para(correo.e(lede), margin='0 0 10px') + ''.join(cards),
                         correo.footer(lang, manage, unsub, why), site)
@@ -186,7 +265,7 @@ def main():
     if len(sys.argv) < 3:
         sys.exit('uso: avisos.py <data.js nuevo> <data.js anterior>')
     site = os.environ.get('SITE_URL', 'https://banderin.pages.dev').rstrip('/')
-    ev = events(sys.argv[1], sys.argv[2])
+    ev, T, prev_urls = events(sys.argv[1], sys.argv[2])
     db = D1()
     now = dt.datetime.now(dt.timezone.utc)
     # Limpieza: altas sin confirmar (7 días), cuentas inactivas (24 meses) y registro de enviados (120 días).
@@ -198,7 +277,7 @@ def main():
     db.q("DELETE FROM enviados WHERE suscriptor IN (SELECT id FROM suscriptores WHERE ultima_actividad < ?)", (old,))
     db.q("DELETE FROM suscriptores WHERE ultima_actividad < ?", (old,))
     db.q("DELETE FROM enviados WHERE fecha < ?", ((TODAY - dt.timedelta(days=120)).isoformat(),))
-    if not ev:
+    if not ev and not JUEVES:
         print('avisos: ninguna novedad hoy')
         return
     subs = db.q("SELECT id, email, idioma, ultimo_aviso FROM suscriptores WHERE estado = 'activo'")
@@ -221,19 +300,27 @@ def main():
             if match and (s['id'], x['clave']) not in sent and x['clave'] not in seen:
                 items.append(x)
                 seen.add(x['clave'])
-        if not items:
-            continue
         items.sort(key=lambda x: (x['tipo'] != 'cancelado', x['t'].get('s', '')))
+        lang = s['idioma'] if s['idioma'] in ('es', 'en') else 'es'
+        weekly_key = 'semanal|' + WEEK
+        weekly = JUEVES and (s['id'], weekly_key) not in sent
+        if not items and not weekly:
+            continue
+        extra, zone = extras(s['id'], f, T, prev_urls, {x['t']['url'] for x in items}, sent, lang)
+        if not items and not extra:
+            continue
         try:
-            send(s, *compose(s, items, site))
+            send(s, *compose(s, items, site, extra, zone))
         except Exception as ex:  # un fallo con una persona no para el resto
             errores += 1
             print('avisos: error enviando a un suscriptor:', ex)
             continue
         stamp = now.isoformat().replace('+00:00', 'Z')
         db.q('UPDATE suscriptores SET ultimo_aviso = ? WHERE id = ?', (stamp, s['id']))
-        for x in items:
+        for x in list(items) + list(extra):
             db.q('INSERT OR IGNORE INTO enviados (suscriptor, clave, fecha) VALUES (?, ?, ?)', (s['id'], x['clave'], ISO))
+        if weekly:
+            db.q('INSERT OR IGNORE INTO enviados (suscriptor, clave, fecha) VALUES (?, ?, ?)', (s['id'], weekly_key, ISO))
         enviados += 1
     print('avisos: %d novedades, %d suscriptores activos, %d correos enviados, %d errores' % (len(ev), len(subs), enviados, errores))
     if errores and not enviados:

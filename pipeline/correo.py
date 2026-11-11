@@ -17,7 +17,7 @@ SERIF = "'Instrument Serif',Georgia,'Times New Roman',serif"
 GREEN, GREEN_DK, CREAM, CREAM2, INK, MUTED, HAIR, GOLD, GOLD_DK = (
     '#1C4734', '#0E2A1E', '#FAF7EE', '#F2EDDF', '#13201A', '#55645B', '#E4DDCB', '#C9A86A', '#8A6A2E')
 # Color de la etiqueta de cada tipo de aviso: (texto, fondo)
-TAG = {'abre': ('#1E6B43', '#E3F0E7'), 'cierra': ('#8A5A00', '#F7EBCF'), 'nuevo': (GOLD_DK, '#F3E9D2'),
+TAG = {'finde': (GREEN, '#E1ECE5'), 'pronto': ('#8A5A00', '#F7EBCF'), 'abre': ('#1E6B43', '#E3F0E7'), 'cierra': ('#8A5A00', '#F7EBCF'), 'nuevo': (GOLD_DK, '#F3E9D2'),
        'fecha': ('#3B4A41', '#ECE6D6'), 'plazo': ('#3B4A41', '#ECE6D6'), 'cancelado': ('#B83232', '#F6E1DE')}
 MES = {'es': ['ENE', 'FEB', 'MAR', 'ABR', 'MAY', 'JUN', 'JUL', 'AGO', 'SEP', 'OCT', 'NOV', 'DIC'],
        'en': ['JAN', 'FEB', 'MAR', 'APR', 'MAY', 'JUN', 'JUL', 'AUG', 'SEP', 'OCT', 'NOV', 'DEC']}
@@ -114,3 +114,11 @@ def item(lang, tipo, tag_label, t, url, btn_label):
         HAIR, CREAM2, SANS, GOLD_DK, MES[lang][d.month - 1], SERIF, INK, d.day,
         bg, col, SANS, e(tag_label), SANS, INK, e(t['n']), SANS, MUTED, e(where),
         button(url, btn_label + ' →', big=False, solid=solid))
+
+
+def section(eyebrow, title):
+    """Cabecera de un bloque secundario del correo (p. ej. «También en tu comunidad»)."""
+    return ('<div style="margin:30px 0 4px;padding-top:22px;border-top:2px solid %s">'
+            '<p style="margin:0 0 6px;font:600 11px/1 %s;letter-spacing:.14em;text-transform:uppercase;color:%s">%s</p>'
+            '<h2 style="margin:0 0 4px;font-family:%s;font-weight:400;font-size:24px;line-height:1.1;color:%s">%s</h2></div>') % (
+        HAIR, SANS, GOLD_DK, e(eyebrow), SERIF, INK, e(title))
