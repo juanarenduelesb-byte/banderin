@@ -10,8 +10,24 @@ X-WR-TIMEZONE:Europe/Madrid
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
+UID:10d608debec1d2303d13@banderin.es
+DTSTAMP:20261112T125339Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:Golf Holanda 18 Hoyos
+LOCATION:Vistabella Golf Club\, Jacarilla\, Alicante
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 12 de agosto\, cierra el 15 de noviembre.\nPrecio: 60 €.\nFicha ofici
+ al: https://www.golfdirecto.com/micro/game/6a7c408ff0874b6037f64d41/summar
+ y\nConfirma fechas y condiciones en la web del organizador. Vía Banderín
+ .
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6a7c408ff0874b6037f64d41/summary
+END:VEVENT
+BEGIN:VEVENT
 UID:76f01bb427b85e1673fd@banderin.es
-DTSTAMP:20261112T122659Z
+DTSTAMP:20261112T125339Z
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
 SUMMARY:Golf Holanda 9 Hoyos
@@ -26,8 +42,24 @@ STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6a7c4944312fe0d5255fc97e/summary
 END:VEVENT
 BEGIN:VEVENT
+UID:9df666011c8e2e0ef59f@banderin.es
+DTSTAMP:20261112T125339Z
+DTSTART;VALUE=DATE:20261118
+DTEND;VALUE=DATE:20261119
+SUMMARY:Golf Holanda 18 Hoyos
+LOCATION:Vistabella Golf Club\, Jacarilla\, Alicante
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 12 de agosto\, cierra el 18 de noviembre.\nPrecio: 60 €.\nFicha ofici
+ al: https://www.golfdirecto.com/micro/game/6a7c3b5af0874b6037fab899/summar
+ y\nConfirma fechas y condiciones en la web del organizador. Vía Banderín
+ .
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6a7c3b5af0874b6037fab899/summary
+END:VEVENT
+BEGIN:VEVENT
 UID:5dd0ce3dd9035967a09b@banderin.es
-DTSTAMP:20261112T122659Z
+DTSTAMP:20261112T125339Z
 DTSTART;VALUE=DATE:20261118
 DTEND;VALUE=DATE:20261119
 SUMMARY:Golf Holanda 9 Hoyos
@@ -42,8 +74,24 @@ STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6a7c4967312fe0d5256d20ec/summary
 END:VEVENT
 BEGIN:VEVENT
+UID:8396d5b9df08718a13da@banderin.es
+DTSTAMP:20261112T125339Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:Golf Holanda 18 Hoyos
+LOCATION:Vistabella Golf Club\, Jacarilla\, Alicante
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 12 de agosto\, cierra el 22 de noviembre.\nPrecio: 60 €.\nFicha ofici
+ al: https://www.golfdirecto.com/micro/game/6a7c4035f0874b6037b6ab42/summar
+ y\nConfirma fechas y condiciones en la web del organizador. Vía Banderín
+ .
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6a7c4035f0874b6037b6ab42/summary
+END:VEVENT
+BEGIN:VEVENT
 UID:b95900fc39622498b5ab@banderin.es
-DTSTAMP:20261112T122659Z
+DTSTAMP:20261112T125339Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:Golf Holanda 9 Hoyos
@@ -58,8 +106,24 @@ STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6a7c4983312fe0d5258cabf7/summary
 END:VEVENT
 BEGIN:VEVENT
+UID:8d361589d49c621a2a87@banderin.es
+DTSTAMP:20261112T125339Z
+DTSTART;VALUE=DATE:20261125
+DTEND;VALUE=DATE:20261126
+SUMMARY:Golf Holanda 18 Hoyos
+LOCATION:Vistabella Golf Club\, Jacarilla\, Alicante
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 12 de agosto\, cierra el 25 de noviembre.\nPrecio: 60 €.\nFicha ofici
+ al: https://www.golfdirecto.com/micro/game/6a7c3b82f0874b6037008b5f/summar
+ y\nConfirma fechas y condiciones en la web del organizador. Vía Banderín
+ .
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6a7c3b82f0874b6037008b5f/summary
+END:VEVENT
+BEGIN:VEVENT
 UID:f4000baf0190482a0d82@banderin.es
-DTSTAMP:20261112T122659Z
+DTSTAMP:20261112T125339Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:Golf Holanda 9 Hoyos
@@ -74,8 +138,24 @@ STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6a7c499e312fe0d52593a192/summary
 END:VEVENT
 BEGIN:VEVENT
+UID:4a060eacbfa1af351523@banderin.es
+DTSTAMP:20261112T125339Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:Golf Holanda 18 Hoyos
+LOCATION:Vistabella Golf Club\, Jacarilla\, Alicante
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 12 de agosto\, cierra el 29 de noviembre.\nPrecio: 60 €.\nFicha ofici
+ al: https://www.golfdirecto.com/micro/game/6a7c40aef0874b6037034c21/summar
+ y\nConfirma fechas y condiciones en la web del organizador. Vía Banderín
+ .
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6a7c40aef0874b6037034c21/summary
+END:VEVENT
+BEGIN:VEVENT
 UID:34ff5342924f2f00d419@banderin.es
-DTSTAMP:20261112T122659Z
+DTSTAMP:20261112T125339Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Golf Holanda 9 Hoyos
@@ -90,8 +170,23 @@ STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6a7c4a0c312fe0d525bb5dab/summary
 END:VEVENT
 BEGIN:VEVENT
+UID:984d1ae63732bb310087@banderin.es
+DTSTAMP:20261112T125339Z
+DTSTART;VALUE=DATE:20261202
+DTEND;VALUE=DATE:20261203
+SUMMARY:Golf Holanda 18 Hoyos
+LOCATION:Vistabella Golf Club\, Jacarilla\, Alicante
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 12 de agosto\, cierra el 2 de diciembre.\nPrecio: 60 €.\nFicha oficia
+ l: https://www.golfdirecto.com/micro/game/6a7c3bc5f0874b60372ab181/summary
+ \nConfirma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6a7c3bc5f0874b60372ab181/summary
+END:VEVENT
+BEGIN:VEVENT
 UID:87c3809b12521cc6c337@banderin.es
-DTSTAMP:20261112T122659Z
+DTSTAMP:20261112T125339Z
 DTSTART;VALUE=DATE:20261202
 DTEND;VALUE=DATE:20261203
 SUMMARY:Golf Holanda 9 Hoyos
@@ -106,7 +201,7 @@ URL:https://www.golfdirecto.com/micro/game/6a7c4a27312fe0d525c1cbc4/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:7723b0c65cba1473d3da@banderin.es
-DTSTAMP:20261112T122659Z
+DTSTAMP:20261112T125339Z
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
 SUMMARY:Golf Holanda 9 Hoyos
@@ -121,7 +216,7 @@ URL:https://www.golfdirecto.com/micro/game/6a7c4a4b312fe0d525dae2b9/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:06e224c5ab9c81790439@banderin.es
-DTSTAMP:20261112T122659Z
+DTSTAMP:20261112T125339Z
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
 SUMMARY:Torneo Navidad Vistabella Golf
@@ -135,8 +230,23 @@ STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6aeb59b03539d98a46ec6c0a/summary
 END:VEVENT
 BEGIN:VEVENT
+UID:410b4aad5da806fbc0e6@banderin.es
+DTSTAMP:20261112T125339Z
+DTSTART;VALUE=DATE:20261209
+DTEND;VALUE=DATE:20261210
+SUMMARY:Golf Holanda 18 Hoyos
+LOCATION:Vistabella Golf Club\, Jacarilla\, Alicante
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 12 de agosto\, cierra el 9 de diciembre.\nPrecio: 60 €.\nFicha oficia
+ l: https://www.golfdirecto.com/micro/game/6a7c3bedf0874b60373b3324/summary
+ \nConfirma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6a7c3bedf0874b60373b3324/summary
+END:VEVENT
+BEGIN:VEVENT
 UID:e15e9b332b4e1b98ff4a@banderin.es
-DTSTAMP:20261112T122659Z
+DTSTAMP:20261112T125339Z
 DTSTART;VALUE=DATE:20261209
 DTEND;VALUE=DATE:20261210
 SUMMARY:Golf Holanda 9 Hoyos
@@ -150,8 +260,24 @@ STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6a7c4a73312fe0d525ee117e/summary
 END:VEVENT
 BEGIN:VEVENT
+UID:b8d5c33f9964e68016bd@banderin.es
+DTSTAMP:20261112T125339Z
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+SUMMARY:Golf Holanda 18 Hoyos
+LOCATION:Vistabella Golf Club\, Jacarilla\, Alicante
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 12 de agosto\, cierra el 13 de diciembre.\nPrecio: 60 €.\nFicha ofici
+ al: https://www.golfdirecto.com/micro/game/6a7c40e9f0874b6037208ef7/summar
+ y\nConfirma fechas y condiciones en la web del organizador. Vía Banderín
+ .
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6a7c40e9f0874b6037208ef7/summary
+END:VEVENT
+BEGIN:VEVENT
 UID:b611a23d379aecec8392@banderin.es
-DTSTAMP:20261112T122659Z
+DTSTAMP:20261112T125339Z
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
 SUMMARY:Golf Holanda 9 Hoyos
@@ -166,8 +292,24 @@ STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6a7c4a98312fe0d525f3d524/summary
 END:VEVENT
 BEGIN:VEVENT
+UID:2b9c3c77b6fda0435f17@banderin.es
+DTSTAMP:20261112T125339Z
+DTSTART;VALUE=DATE:20261216
+DTEND;VALUE=DATE:20261217
+SUMMARY:Golf Holanda 18 Hoyos
+LOCATION:Vistabella Golf Club\, Jacarilla\, Alicante
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 12 de agosto\, cierra el 16 de diciembre.\nPrecio: 60 €.\nFicha ofici
+ al: https://www.golfdirecto.com/micro/game/6a7c3c19f0874b60374d0958/summar
+ y\nConfirma fechas y condiciones en la web del organizador. Vía Banderín
+ .
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6a7c3c19f0874b60374d0958/summary
+END:VEVENT
+BEGIN:VEVENT
 UID:625c899e95df6872503d@banderin.es
-DTSTAMP:20261112T122659Z
+DTSTAMP:20261112T125339Z
 DTSTART;VALUE=DATE:20261216
 DTEND;VALUE=DATE:20261217
 SUMMARY:Golf Holanda 9 Hoyos
@@ -182,8 +324,24 @@ STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6a7c4ab8312fe0d525f9a1ce/summary
 END:VEVENT
 BEGIN:VEVENT
+UID:5f830097c9a12e5f3b0e@banderin.es
+DTSTAMP:20261112T125339Z
+DTSTART;VALUE=DATE:20261220
+DTEND;VALUE=DATE:20261221
+SUMMARY:Golf Holanda 18 Hoyos
+LOCATION:Vistabella Golf Club\, Jacarilla\, Alicante
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 12 de agosto\, cierra el 20 de diciembre.\nPrecio: 60 €.\nFicha ofici
+ al: https://www.golfdirecto.com/micro/game/6a7c411f312fe0d525f9f721/summar
+ y\nConfirma fechas y condiciones en la web del organizador. Vía Banderín
+ .
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6a7c411f312fe0d525f9f721/summary
+END:VEVENT
+BEGIN:VEVENT
 UID:615bb20b3818227ba555@banderin.es
-DTSTAMP:20261112T122659Z
+DTSTAMP:20261112T125339Z
 DTSTART;VALUE=DATE:20261220
 DTEND;VALUE=DATE:20261221
 SUMMARY:Golf Holanda 9 Hoyos
@@ -198,8 +356,24 @@ STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6a7c4ae2312fe0d525062a17/summary
 END:VEVENT
 BEGIN:VEVENT
+UID:8f91a1b05b57169c313d@banderin.es
+DTSTAMP:20261112T125339Z
+DTSTART;VALUE=DATE:20261223
+DTEND;VALUE=DATE:20261224
+SUMMARY:Golf Holanda 18 Hoyos
+LOCATION:Vistabella Golf Club\, Jacarilla\, Alicante
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 12 de agosto\, cierra el 23 de diciembre.\nPrecio: 60 €.\nFicha ofici
+ al: https://www.golfdirecto.com/micro/game/6a7c3c3bf0874b60375ba458/summar
+ y\nConfirma fechas y condiciones en la web del organizador. Vía Banderín
+ .
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6a7c3c3bf0874b60375ba458/summary
+END:VEVENT
+BEGIN:VEVENT
 UID:72afc368e3d2eba44a4b@banderin.es
-DTSTAMP:20261112T122659Z
+DTSTAMP:20261112T125339Z
 DTSTART;VALUE=DATE:20261223
 DTEND;VALUE=DATE:20261224
 SUMMARY:Golf Holanda 9 Hoyos
@@ -214,8 +388,24 @@ STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6a7c4b1b312fe0d52526f22a/summary
 END:VEVENT
 BEGIN:VEVENT
+UID:01ed1d2bb94dbea0304d@banderin.es
+DTSTAMP:20261112T125339Z
+DTSTART;VALUE=DATE:20261227
+DTEND;VALUE=DATE:20261228
+SUMMARY:Golf Holanda 18 Hoyos
+LOCATION:Vistabella Golf Club\, Jacarilla\, Alicante
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 12 de agosto\, cierra el 27 de diciembre.\nPrecio: 60 €.\nFicha ofici
+ al: https://www.golfdirecto.com/micro/game/6a7c4141f0874b6037553bf7/summar
+ y\nConfirma fechas y condiciones en la web del organizador. Vía Banderín
+ .
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6a7c4141f0874b6037553bf7/summary
+END:VEVENT
+BEGIN:VEVENT
 UID:b43ce9fb876aba2e5dc9@banderin.es
-DTSTAMP:20261112T122659Z
+DTSTAMP:20261112T125339Z
 DTSTART;VALUE=DATE:20261227
 DTEND;VALUE=DATE:20261228
 SUMMARY:Golf Holanda 9 Hoyos
@@ -230,8 +420,24 @@ STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6a7c4b76312fe0d5254f3355/summary
 END:VEVENT
 BEGIN:VEVENT
+UID:157e63ad3fb43fa806c5@banderin.es
+DTSTAMP:20261112T125339Z
+DTSTART;VALUE=DATE:20261230
+DTEND;VALUE=DATE:20261231
+SUMMARY:Golf Holanda 18 Hoyos
+LOCATION:Vistabella Golf Club\, Jacarilla\, Alicante
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 12 de agosto\, cierra el 30 de diciembre.\nPrecio: 60 €.\nFicha ofici
+ al: https://www.golfdirecto.com/micro/game/6a7c3c57f0874b60376368fc/summar
+ y\nConfirma fechas y condiciones en la web del organizador. Vía Banderín
+ .
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6a7c3c57f0874b60376368fc/summary
+END:VEVENT
+BEGIN:VEVENT
 UID:97f76c6ed21bc010900e@banderin.es
-DTSTAMP:20261112T122659Z
+DTSTAMP:20261112T125339Z
 DTSTART;VALUE=DATE:20261230
 DTEND;VALUE=DATE:20261231
 SUMMARY:Golf Holanda 9 Hoyos

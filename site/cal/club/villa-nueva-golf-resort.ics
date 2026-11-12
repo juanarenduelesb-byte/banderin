@@ -11,7 +11,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:416feb47ac01b74afada@banderin.es
-DTSTAMP:20261112T122659Z
+DTSTAMP:20261112T125339Z
 DTSTART;VALUE=DATE:20261112
 DTEND;VALUE=DATE:20261113
 SUMMARY:Vobs Cometition
@@ -26,7 +26,7 @@ URL:https://www.nextcaddy.com/tour/75311
 END:VEVENT
 BEGIN:VEVENT
 UID:e1aab9d846119a849143@banderin.es
-DTSTAMP:20261112T122659Z
+DTSTAMP:20261112T125339Z
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
 SUMMARY:Circuito Miguel Ángel Jiménez
@@ -40,7 +40,7 @@ URL:https://www.nextcaddy.com/tour/69847
 END:VEVENT
 BEGIN:VEVENT
 UID:196e9302b81c141fe161@banderin.es
-DTSTAMP:20261112T122659Z
+DTSTAMP:20261112T125339Z
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
 SUMMARY:Villanueva Golf & Croquet - 1ª y 2ª Categoría
@@ -54,8 +54,53 @@ STATUS:CONFIRMED
 URL:https://www.nextcaddy.com/tour/67877
 END:VEVENT
 BEGIN:VEVENT
+UID:a13c0077dc92c360370d@banderin.es
+DTSTAMP:20261112T125339Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:Villanueva Golf & Croquet - 3ª Categoría
+LOCATION:Villa Nueva Golf Resort\, Puerto Real\, Cádiz
+DESCRIPTION:Social de club · Medal Play · Individual\nInscripción: abre 
+ el 11 de octubre\, cierra el 8 de noviembre.\nPrecio: 20 €.\nFicha ofici
+ al: https://www.nextcaddy.com/tour/67878\nConfirma fechas y condiciones en
+  la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nextcaddy.com/tour/67878
+END:VEVENT
+BEGIN:VEVENT
+UID:9505021ee593db5e34de@banderin.es
+DTSTAMP:20261112T125339Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:Villanueva Golf & Croquet - Categoría Especial
+LOCATION:Villa Nueva Golf Resort\, Puerto Real\, Cádiz
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 11 de octubre\, cierra el 8 de noviembre.\nPrecio: 20 €.\nFicha ofici
+ al: https://www.nextcaddy.com/tour/67879\nConfirma fechas y condiciones en
+  la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nextcaddy.com/tour/67879
+END:VEVENT
+BEGIN:VEVENT
+UID:714f9285ca794b44f1af@banderin.es
+DTSTAMP:20261112T125339Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:3 J. Circuito Vng 2026. Categoria Bronce (26\,1 - 36)
+LOCATION:Villa Nueva Golf Resort\, Puerto Real\, Cádiz
+DESCRIPTION:Circuito comercial · Stableford · Individual\nInscripción: a
+ bre el 18 de septiembre\, cierra el 19 de noviembre.\nPrecio: Gratis.\nFic
+ ha oficial: https://www.nextcaddy.com/tour/74179\nConfirma fechas y condic
+ iones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nextcaddy.com/tour/74179
+END:VEVENT
+BEGIN:VEVENT
 UID:73db28249a2fbc00144f@banderin.es
-DTSTAMP:20261112T122659Z
+DTSTAMP:20261112T125339Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:3 J. Circuito Vng 2026. Categoria Oro (0 - 14)
@@ -69,8 +114,23 @@ STATUS:CONFIRMED
 URL:https://www.nextcaddy.com/tour/74177
 END:VEVENT
 BEGIN:VEVENT
+UID:9239fe16d089ce1fb2cf@banderin.es
+DTSTAMP:20261112T125339Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:3 J. Circuito Vng 2026. Categoria Plata (14\,1 - 26)
+LOCATION:Villa Nueva Golf Resort\, Puerto Real\, Cádiz
+DESCRIPTION:Circuito comercial · Stableford · Individual\nInscripción: a
+ bre el 18 de septiembre\, cierra el 19 de noviembre.\nPrecio: Gratis.\nFic
+ ha oficial: https://www.nextcaddy.com/tour/74178\nConfirma fechas y condic
+ iones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nextcaddy.com/tour/74178
+END:VEVENT
+BEGIN:VEVENT
 UID:3127881976adc4e7a6c1@banderin.es
-DTSTAMP:20261112T122659Z
+DTSTAMP:20261112T125339Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
 SUMMARY:XIII Pgsf Memorial Santiago Terry
@@ -82,5 +142,20 @@ DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.nextcaddy.com/tour/75169
+END:VEVENT
+BEGIN:VEVENT
+UID:85c5b55a7dabdd488a18@banderin.es
+DTSTAMP:20261112T125339Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:Torneo Benéfico Contra el Cancer Aecc
+LOCATION:Villa Nueva Golf Resort\, Puerto Real\, Cádiz
+DESCRIPTION:Benéfico · Stableford · Individual\nInscripción: abre el 12
+  de noviembre\, cierra el 27 de noviembre.\nPrecio: 25 €.\nFicha oficial
+ : https://www.nextcaddy.com/tour/75319\nConfirma fechas y condiciones en l
+ a web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nextcaddy.com/tour/75319
 END:VEVENT
 END:VCALENDAR

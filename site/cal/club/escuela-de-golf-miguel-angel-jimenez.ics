@@ -11,7 +11,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:c260dd565878d73c9abc@banderin.es
-DTSTAMP:20261112T122659Z
+DTSTAMP:20261112T125339Z
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261115
 SUMMARY:LIGAS MAJ - 18 Hoyos - Noviembre
@@ -25,8 +25,23 @@ STATUS:CONFIRMED
 URL:https://www.nextcaddy.com/tour/74886
 END:VEVENT
 BEGIN:VEVENT
+UID:57751abaa37333eb9306@banderin.es
+DTSTAMP:20261112T125339Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:LIGAS MAJ - 9 Hoyos - Noviembre
+LOCATION:Escuela de Golf Miguel ángel Jiménez\, Torremolinos\, Málaga
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 14 de octubre\, cierra el 12 de noviembre.\nPrecio: 5 €.\nFicha ofici
+ al: https://www.nextcaddy.com/tour/74887\nConfirma fechas y condiciones en
+  la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nextcaddy.com/tour/74887
+END:VEVENT
+BEGIN:VEVENT
 UID:cb87de01cfb1889395de@banderin.es
-DTSTAMP:20261112T122659Z
+DTSTAMP:20261112T125339Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:Pequecircuito Zona C
@@ -41,7 +56,7 @@ URL:https://www.nextcaddy.com/tour/61236
 END:VEVENT
 BEGIN:VEVENT
 UID:ca92ddc66e8df6ba9312@banderin.es
-DTSTAMP:20261112T122659Z
+DTSTAMP:20261112T125339Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:III Torneo Academia Infantil 2026-2027 - 1ª Categoría
@@ -53,5 +68,35 @@ DESCRIPTION:Juvenil · Stableford · Individual\nInscripción: abre el 1 de
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.nextcaddy.com/tour/74915
+END:VEVENT
+BEGIN:VEVENT
+UID:d228e939bbb1cb1fe924@banderin.es
+DTSTAMP:20261112T125339Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:III Torneo Academia Infantil 2026-2027 - 2ª y 3ª Categoría
+LOCATION:Escuela de Golf Miguel ángel Jiménez\, Torremolinos\, Málaga
+DESCRIPTION:Juvenil · Stableford · Individual\nInscripción: abre el 1 de
+  noviembre\, cierra el 25 de noviembre.\nPrecio: 13 €.\nFicha oficial: h
+ ttps://www.nextcaddy.com/tour/74916\nConfirma fechas y condiciones en la w
+ eb del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nextcaddy.com/tour/74916
+END:VEVENT
+BEGIN:VEVENT
+UID:46ccadafd788abc55785@banderin.es
+DTSTAMP:20261112T125339Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:III Torneo Academia Infantil 2026-2027 - 4ª Categoría
+LOCATION:Escuela de Golf Miguel ángel Jiménez\, Torremolinos\, Málaga
+DESCRIPTION:Juvenil · Stableford · Individual\nInscripción: abre el 1 de
+  noviembre\, cierra el 25 de noviembre.\nPrecio: 8 €.\nFicha oficial: ht
+ tps://www.nextcaddy.com/tour/74917\nConfirma fechas y condiciones en la we
+ b del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nextcaddy.com/tour/74917
 END:VEVENT
 END:VCALENDAR

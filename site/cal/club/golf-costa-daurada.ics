@@ -10,8 +10,23 @@ X-WR-TIMEZONE:Europe/Madrid
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
+UID:46fc682e3d8ed07a6390@banderin.es
+DTSTAMP:20261112T125339Z
+DTSTART;VALUE=DATE:20270718
+DTEND;VALUE=DATE:20270719
+SUMMARY:Circuit Nacional 5a Categoria 2027 (Costa Daurada)
+LOCATION:Golf Costa Daurada\, El Catllar\, Tarragona
+DESCRIPTION:Absoluto · Individual\nFicha oficial: https://www.catgolf.com/
+ es/campeonatos/circuit-nacional-5a-categoria-2027-costa-daurada-2027-07-18
+ \nConfirma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.catgolf.com/es/campeonatos/circuit-nacional-5a-categoria-20
+ 27-costa-daurada-2027-07-18
+END:VEVENT
+BEGIN:VEVENT
 UID:78a985be570a186d0917@banderin.es
-DTSTAMP:20261112T122659Z
+DTSTAMP:20261112T125339Z
 DTSTART;VALUE=DATE:20270918
 DTEND;VALUE=DATE:20270920
 SUMMARY:Campionat de Catalunya Matchplay Juvenil 2027

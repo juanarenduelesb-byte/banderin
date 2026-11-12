@@ -10,8 +10,23 @@ X-WR-TIMEZONE:Europe/Madrid
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
+UID:11d739ad37c3821f3afd@banderin.es
+DTSTAMP:20261112T125339Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:Torneo Junior Academy 9 Hoyos
+LOCATION:Club Son Quint Golf\, Palma de Mallorca\, Illes Balears
+DESCRIPTION:Juvenil · Medal Play · Individual\nInscripción: abre el 6 de
+  noviembre\, cierra el 11 de noviembre.\nFicha oficial: https://www.golfdi
+ recto.com/micro/game/6aed83551ab4f21da6323406/summary\nConfirma fechas y c
+ ondiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6aed83551ab4f21da6323406/summary
+END:VEVENT
+BEGIN:VEVENT
 UID:4d70db70d6a4ef97c9b7@banderin.es
-DTSTAMP:20261112T122659Z
+DTSTAMP:20261112T125339Z
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
 SUMMARY:Torneo Junior Academy P&P
@@ -25,8 +40,23 @@ STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6aed83b902e839445a64d07b/summary
 END:VEVENT
 BEGIN:VEVENT
+UID:155dba902cc9e0ebeedf@banderin.es
+DTSTAMP:20261112T125339Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:Torneo Junnior Academy 18 Hoyos
+LOCATION:Club Son Quint Golf\, Palma de Mallorca\, Illes Balears
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 6 de noviembre\, cierra el 11 de noviembre.\nFicha oficial: https://www
+ .golfdirecto.com/micro/game/6aed82ec1ab4f21da623c082/summary\nConfirma fec
+ has y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6aed82ec1ab4f21da623c082/summary
+END:VEVENT
+BEGIN:VEVENT
 UID:7c0862dbda890bc41fd6@banderin.es
-DTSTAMP:20261112T122659Z
+DTSTAMP:20261112T125339Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 SUMMARY:1ª Prueba Circuito Otoño - 9 Hoyos - Palma Pitch & Putt 2026

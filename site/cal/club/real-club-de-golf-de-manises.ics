@@ -10,8 +10,23 @@ X-WR-TIMEZONE:Europe/Madrid
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
+UID:9109b265a3d8c83a8dc5@banderin.es
+DTSTAMP:20261112T125339Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:Torneo Juvenil Rcgm 18 Hoyos
+LOCATION:Real Club de Golf de Manises\, Manises\, Valencia
+DESCRIPTION:Juvenil · Stableford · Individual\nInscripción: abre el 2 de
+  noviembre\, cierra el 13 de noviembre.\nPrecio: 15 €.\nFicha oficial: h
+ ttps://www.golfdirecto.com/micro/game/6974a4b4920bf1ea8deab4aa/summary\nCo
+ nfirma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6974a4b4920bf1ea8deab4aa/summary
+END:VEVENT
+BEGIN:VEVENT
 UID:afbdc6e5b25c2bb64c7b@banderin.es
-DTSTAMP:20261112T122659Z
+DTSTAMP:20261112T125339Z
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
 SUMMARY:Torneo Juvenil Rcgm 9 Hoyos
@@ -26,7 +41,7 @@ URL:https://www.golfdirecto.com/micro/game/6974ae66920bf1ea8dcc3215/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:11fa005e90e91293c16e@banderin.es
-DTSTAMP:20261112T122659Z
+DTSTAMP:20261112T125339Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:Torneo Golf y Viajes Msc Cruceros 20/11/2026-21/11/2026
@@ -42,7 +57,7 @@ URL:https://www.golfdirecto.com/micro/game/6aaa6b58edb6caeda7e4a2c7/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:7935b10fc2dffba9a1c3@banderin.es
-DTSTAMP:20261112T122659Z
+DTSTAMP:20261112T125339Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Torneo Virgen del Loreto
@@ -58,7 +73,7 @@ URL:https://www.golfdirecto.com/micro/game/6974da92920bf1ea8d60a995/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:45b1158081e9fb15c1d0@banderin.es
-DTSTAMP:20261112T122659Z
+DTSTAMP:20261112T125339Z
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
 SUMMARY:VIII Torneo Padres e Hijos
@@ -73,7 +88,7 @@ URL:https://www.golfdirecto.com/micro/game/6974b1c2920bf1ea8daa2a55/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:a28cb372a71e606e2afc@banderin.es
-DTSTAMP:20261112T122659Z
+DTSTAMP:20261112T125339Z
 DTSTART;VALUE=DATE:20261220
 DTEND;VALUE=DATE:20261221
 SUMMARY:PRO-AM Felices Fiestas 2026

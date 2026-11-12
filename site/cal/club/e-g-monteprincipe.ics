@@ -11,7 +11,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:bc99ccd3b6dfe3ec4029@banderin.es
-DTSTAMP:20261112T122659Z
+DTSTAMP:20261112T125339Z
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261116
 SUMMARY:Cto Absoluto de P&P Fgrm
@@ -24,5 +24,19 @@ DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6a8c31b1d26738cf72a8dab9/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:c3628f20a8fe4e3b560b@banderin.es
+DTSTAMP:20261112T125339Z
+DTSTART;VALUE=DATE:20261219
+DTEND;VALUE=DATE:20261220
+SUMMARY:Torneo de Navidad
+LOCATION:E. G. Montepríncipe\, Boadilla del Monte\, Madrid
+DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
+ s://www.golfdirecto.com/micro/game/69677ab742551aa371d8282e/summary\nConfi
+ rma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/69677ab742551aa371d8282e/summary
 END:VEVENT
 END:VCALENDAR
