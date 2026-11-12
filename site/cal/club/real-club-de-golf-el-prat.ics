@@ -10,35 +10,34 @@ X-WR-TIMEZONE:Europe/Madrid
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:66cdbdc8de5044a68b95@banderin.es
-DTSTAMP:20261112T072214Z
+UID:5bd8e41709d6e12683a5@banderin.es
+DTSTAMP:20261112T122659Z
 DTSTART;VALUE=DATE:20270222
 DTEND;VALUE=DATE:20270224
-SUMMARY:Campionat de Catalunya de Professionals (Catprotour)
+SUMMARY:Campionat de Catalunya de Professionals 2027 (Catprotour)
 LOCATION:Real Club de Golf El Prat\, Terrassa\, Barcelona
 DESCRIPTION:Profesional · Individual\nFicha oficial: https://www.catgolf.c
- om/es/campeonatos/campionat-de-catalunya-de-professionals-catprotour-2027-
- 02-22\nConfirma fechas y condiciones en la web del organizador. Vía Bande
- rín.
+ om/es/campeonatos/campionat-de-catalunya-de-professionals-2027-catprotour-
+ 2027-02-22\nConfirma fechas y condiciones en la web del organizador. Vía 
+ Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.catgolf.com/es/campeonatos/campionat-de-catalunya-de-profes
- sionals-catprotour-2027-02-22
+ sionals-2027-catprotour-2027-02-22
 END:VEVENT
 BEGIN:VEVENT
-UID:1f86e822e56f7b8470a6@banderin.es
-DTSTAMP:20261112T072214Z
+UID:d9fcfe25213198372c51@banderin.es
+DTSTAMP:20261112T122659Z
 DTSTART;VALUE=DATE:20270323
 DTEND;VALUE=DATE:20270325
-SUMMARY:I Puntuable Zonal Juvenil RFEG Femenino y Masculino
+SUMMARY:I Puntuable Zonal Juvenil RFEG 2027
 LOCATION:Real Club de Golf El Prat\, Terrassa\, Barcelona
 DESCRIPTION:Juvenil · Individual\nFicha oficial: https://www.catgolf.com/e
- s/campeonatos/i-puntuable-zonal-juvenil-rfeg-femenino-y-masculino-2027-03-
- 23\nConfirma fechas y condiciones en la web del organizador. Vía Banderí
- n.
+ s/campeonatos/i-puntuable-zonal-juvenil-rfeg-2027-2027-03-23\nConfirma fec
+ has y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-URL:https://www.catgolf.com/es/campeonatos/i-puntuable-zonal-juvenil-rfeg-f
- emenino-y-masculino-2027-03-23
+URL:https://www.catgolf.com/es/campeonatos/i-puntuable-zonal-juvenil-rfeg-2
+ 027-2027-03-23
 END:VEVENT
 END:VCALENDAR

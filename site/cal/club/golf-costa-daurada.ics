@@ -10,19 +10,19 @@ X-WR-TIMEZONE:Europe/Madrid
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:eeb5ff4d7a63e5cd6996@banderin.es
-DTSTAMP:20261112T072214Z
+UID:78a985be570a186d0917@banderin.es
+DTSTAMP:20261112T122659Z
 DTSTART;VALUE=DATE:20270918
 DTEND;VALUE=DATE:20270920
-SUMMARY:Campionat de Catalunya Matchplay Juvenil
+SUMMARY:Campionat de Catalunya Matchplay Juvenil 2027
 LOCATION:Golf Costa Daurada\, El Catllar\, Tarragona
 DESCRIPTION:Juvenil · Match Play · Individual\nFicha oficial: https://www
  .catgolf.com/es/campeonatos/campionat-de-catalunya-matchplay-juvenil-2027-
- 09-18\nConfirma fechas y condiciones en la web del organizador. Vía Bande
- rín.
+ 2027-09-18\nConfirma fechas y condiciones en la web del organizador. Vía 
+ Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.catgolf.com/es/campeonatos/campionat-de-catalunya-matchplay
- -juvenil-2027-09-18
+ -juvenil-2027-2027-09-18
 END:VEVENT
 END:VCALENDAR

@@ -11,7 +11,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:905e47af2c7534b98c5c@banderin.es
-DTSTAMP:20261112T072214Z
+DTSTAMP:20261112T122659Z
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261115
 SUMMARY:II Prueba Desafío Ribeira Sacra 2026
@@ -25,23 +25,8 @@ STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6af1a59648b95e9e1a36828b/summary
 END:VEVENT
 BEGIN:VEVENT
-UID:ffe1f3a858d749df8f25@banderin.es
-DTSTAMP:20261112T072214Z
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
-SUMMARY:2p XI Liga de Dobles
-LOCATION:Club de Golf Lugo S.a.\, Ribas de Miño (san Mamede) (lugo)\, Lugo
-DESCRIPTION:Social de club · Scramble · Parejas\nInscripción: abre el 6 
- de noviembre\, cierra el 14 de noviembre.\nFicha oficial: https://www.golf
- directo.com/micro/game/6aeb1f97317b13aa704806b6/summary\nConfirma fechas y
-  condiciones en la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.golfdirecto.com/micro/game/6aeb1f97317b13aa704806b6/summary
-END:VEVENT
-BEGIN:VEVENT
 UID:a4b7b398c0d45394a59d@banderin.es
-DTSTAMP:20261112T072214Z
+DTSTAMP:20261112T122659Z
 DTSTART;VALUE=DATE:20261116
 DTEND;VALUE=DATE:20261117
 SUMMARY:Torneo Bazar Lago 2026
@@ -53,5 +38,20 @@ DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6af1a3208527252f606d7139/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:9722c74c80fa817ff61d@banderin.es
+DTSTAMP:20261112T122659Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:2p XI Liga de Dobles
+LOCATION:Club de Golf Lugo S.a.\, Ribas de Miño (san Mamede) (lugo)\, Lugo
+DESCRIPTION:Social de club · Scramble · Parejas\nInscripción: abre el 13
+  de noviembre\, cierra el 21 de noviembre.\nFicha oficial: https://www.gol
+ fdirecto.com/micro/game/6af590e306089eb2d9be793b/summary\nConfirma fechas 
+ y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6af590e306089eb2d9be793b/summary
 END:VEVENT
 END:VCALENDAR

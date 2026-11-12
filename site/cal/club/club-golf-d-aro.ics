@@ -11,7 +11,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:958fa08a397cb795c797@banderin.es
-DTSTAMP:20261112T072214Z
+DTSTAMP:20261112T122659Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:Torneig Srixon
@@ -24,34 +24,48 @@ STATUS:CONFIRMED
 URL:https://www.catgolf.com/es/campeonatos/torneig-srixon-2026-08-22
 END:VEVENT
 BEGIN:VEVENT
-UID:e99b3e46437ae94ec570@banderin.es
-DTSTAMP:20261112T072214Z
-DTSTART;VALUE=DATE:20270710
-DTEND;VALUE=DATE:20270712
-SUMMARY:Campionat de Catalunya 3a i 4a Cat Masculí i Femení
+UID:225511745e8fb0b56bae@banderin.es
+DTSTAMP:20261112T122659Z
+DTSTART;VALUE=DATE:20270123
+DTEND;VALUE=DATE:20270125
+SUMMARY:Circuit Nacional 5a Categoria 2027 (Aro)
 LOCATION:Club Golf d'Aro
 DESCRIPTION:Absoluto · Individual\nFicha oficial: https://www.catgolf.com/
- es/campeonatos/campionat-de-catalunya-3a-i-4a-cat-masculi-i-femeni-2027-07
- -10\nConfirma fechas y condiciones en la web del organizador. Vía Bander
- ín.
+ es/campeonatos/circuit-nacional-5a-categoria-2027-aro-2027-01-23\nConfirma
+  fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.catgolf.com/es/campeonatos/circuit-nacional-5a-categoria-20
+ 27-aro-2027-01-23
+END:VEVENT
+BEGIN:VEVENT
+UID:47c8505ec70f9eb279c0@banderin.es
+DTSTAMP:20261112T122659Z
+DTSTART;VALUE=DATE:20270710
+DTEND;VALUE=DATE:20270712
+SUMMARY:Campionat de Catalunya 3a i 4a Categoria 2027
+LOCATION:Club Golf d'Aro
+DESCRIPTION:Absoluto · Individual\nFicha oficial: https://www.catgolf.com/
+ es/campeonatos/campionat-de-catalunya-3a-i-4a-categoria-2027-2027-07-10\nC
+ onfirma fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.catgolf.com/es/campeonatos/campionat-de-catalunya-3a-i-4a-c
- at-masculi-i-femeni-2027-07-10
+ ategoria-2027-2027-07-10
 END:VEVENT
 BEGIN:VEVENT
-UID:8561fafaa1350afd01ae@banderin.es
-DTSTAMP:20261112T072214Z
+UID:09a26b017ab062fc62b1@banderin.es
+DTSTAMP:20261112T122659Z
 DTSTART;VALUE=DATE:20270919
 DTEND;VALUE=DATE:20270920
-SUMMARY:Copa Catalunya 5a Categoria
+SUMMARY:Copa Catalunya 5ª Categoria 2027
 LOCATION:Club Golf d'Aro
 DESCRIPTION:Absoluto · Individual\nFicha oficial: https://www.catgolf.com/
- es/campeonatos/copa-catalunya-5a-categoria-2027-09-19\nConfirma fechas y c
- ondiciones en la web del organizador. Vía Banderín.
+ es/campeonatos/copa-catalunya-5-categoria-2027-2027-09-19\nConfirma fechas
+  y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-URL:https://www.catgolf.com/es/campeonatos/copa-catalunya-5a-categoria-2027
- -09-19
+URL:https://www.catgolf.com/es/campeonatos/copa-catalunya-5-categoria-2027-
+ 2027-09-19
 END:VEVENT
 END:VCALENDAR

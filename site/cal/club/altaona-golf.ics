@@ -11,13 +11,13 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:9a2f9e00bc87a5e4d259@banderin.es
-DTSTAMP:20261112T072214Z
+DTSTAMP:20261112T122659Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:Mensual Juvenil - Altaona Golf
 LOCATION:Altaona Golf\, Baños y Mendigo\, Murcia
 DESCRIPTION:Juvenil · Medal Play · Individual\nInscripción: abre el 21 d
- e septiembre\, cierra el 19 de noviembre.\nPrecio: 10 €.\nFicha oficial:
+ e septiembre\, cierra el 19 de noviembre.\nPrecio: 20 €.\nFicha oficial:
   https://www.golfdirecto.com/micro/game/6a969fccb62fd6c8c65723b3/summary\n
  Confirma fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT

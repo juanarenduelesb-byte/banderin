@@ -11,7 +11,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:b8959557af466f945559@banderin.es
-DTSTAMP:20261112T072214Z
+DTSTAMP:20261112T122659Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:Xxvi Torneig Gastronomic
@@ -23,5 +23,20 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.catgolf.com/es/campeonatos/xxvi-torneig-gastronomic-2026-11
  -21
+END:VEVENT
+BEGIN:VEVENT
+UID:b98da3c9aa17ababcbfb@banderin.es
+DTSTAMP:20261112T122659Z
+DTSTART;VALUE=DATE:20270515
+DTEND;VALUE=DATE:20270517
+SUMMARY:Circuit Nacional 5a Categoria 2027 (Montbrú-Moià)
+LOCATION:Club de Golf Montbrú-Moià\, Moia\, Barcelona
+DESCRIPTION:Absoluto · Individual\nFicha oficial: https://www.catgolf.com/
+ es/campeonatos/circuit-nacional-5a-categoria-2027-montbru-moia-2027-05-15\
+ nConfirma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.catgolf.com/es/campeonatos/circuit-nacional-5a-categoria-20
+ 27-montbru-moia-2027-05-15
 END:VEVENT
 END:VCALENDAR

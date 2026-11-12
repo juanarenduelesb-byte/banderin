@@ -1,0 +1,42 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Banderin//Torneos de golf//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Banderín · El Paraíso Golf Club
+X-WR-CALDESC:Torneos de golf: El Paraíso Golf Club. Se actualiza cada mañ
+ ana. https://banderin.es
+X-WR-TIMEZONE:Europe/Madrid
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:37c6fb5afcd4bb8cef33@banderin.es
+DTSTAMP:20261112T122659Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:Mejor Final ranking 2026
+LOCATION:El Paraíso Golf Club\, Estepona\, Málaga
+DESCRIPTION:Social de club · Medal Play · Individual\nInscripción: abre 
+ el 23 de noviembre\, cierra el 26 de noviembre.\nPrecio: 89 €.\nFicha of
+ icial: https://www.golfdirecto.com/micro/game/6af56cafcb197af66b8e5366/sum
+ mary\nConfirma fechas y condiciones en la web del organizador. Vía Bander
+ ín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6af56cafcb197af66b8e5366/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:097d77d14ed707a61c5b@banderin.es
+DTSTAMP:20261112T122659Z
+DTSTART;VALUE=DATE:20261227
+DTEND;VALUE=DATE:20261228
+SUMMARY:Fin de año Club de Golf Marbella
+LOCATION:El Paraíso Golf Club\, Estepona\, Málaga
+DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
+ s://www.golfdirecto.com/micro/game/6af56fefcb197af66bf87ff7/summary\nConfi
+ rma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6af56fefcb197af66bf87ff7/summary
+END:VEVENT
+END:VCALENDAR

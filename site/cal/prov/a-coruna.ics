@@ -10,8 +10,38 @@ X-WR-TIMEZONE:Europe/Madrid
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
+UID:05e6a1e2595b32a57596@banderin.es
+DTSTAMP:20261112T122659Z
+DTSTART;VALUE=DATE:20261112
+DTEND;VALUE=DATE:20261113
+SUMMARY:8ª Jornada Race To Barbanza
+LOCATION:C.D. Barbanza Pitch And Putt\, Boiro (boiro)\, A Coruña
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 12 de noviembre\, cierra el 12 de noviembre.\nFicha oficial: https://ww
+ w.golfdirecto.com/micro/game/6af5831f06089eb2d9061ee7/summary\nConfirma fe
+ chas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6af5831f06089eb2d9061ee7/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:ab21a076f9ff218d3026@banderin.es
+DTSTAMP:20261112T122659Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:8ª Jornada Race To Barbanza viernes
+LOCATION:C.D. Barbanza Pitch And Putt\, Boiro (boiro)\, A Coruña
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 12 de noviembre\, cierra el 13 de noviembre.\nFicha oficial: https://ww
+ w.golfdirecto.com/micro/game/6af5836506089eb2d90e3559/summary\nConfirma fe
+ chas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6af5836506089eb2d90e3559/summary
+END:VEVENT
+BEGIN:VEVENT
 UID:21259b377a37a38499d6@banderin.es
-DTSTAMP:20261112T072214Z
+DTSTAMP:20261112T122659Z
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261115
 SUMMARY:1ª Prueba Ranking Gallego Absoluto 2027
@@ -26,7 +56,7 @@ URL:https://www.golfdirecto.com/micro/game/6943ea5a4d9bda7530d69487/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:2c6166e707c8a7967193@banderin.es
-DTSTAMP:20261112T072214Z
+DTSTAMP:20261112T122659Z
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261115
 SUMMARY:2ª Prueba XV Desafio Campomar - Armada
@@ -40,23 +70,23 @@ STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6ad9da43a1531ddba4be8b5b/summary
 END:VEVENT
 BEGIN:VEVENT
-UID:24ba9cdb23cc1b8f7490@banderin.es
-DTSTAMP:20261112T072214Z
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
-SUMMARY:Benjamines-Final Liga Gallega Juvenil Sub-18
-LOCATION:Club Compostela Pitch & Putt\, A Sionlla\, A Coruña
-DESCRIPTION:Juvenil · Medal Play · Individual\nInscripción: abre el 3 de
-  noviembre\, cierra el 10 de noviembre.\nFicha oficial: https://www.golfdi
- recto.com/micro/game/6a55dbcf0a8b1b9e07dbe5cb/summary\nConfirma fechas y c
- ondiciones en la web del organizador. Vía Banderín.
+UID:f5a6f50f5b12fbb88d72@banderin.es
+DTSTAMP:20261112T122659Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:8ª Jornada Race To Barbanza (2ª Vuelta)
+LOCATION:C.D. Barbanza Pitch And Putt\, Boiro (boiro)\, A Coruña
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 12 de noviembre\, cierra el 14 de noviembre.\nFicha oficial: https://ww
+ w.golfdirecto.com/micro/game/6af583a706089eb2d9187643/summary\nConfirma fe
+ chas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-URL:https://www.golfdirecto.com/micro/game/6a55dbcf0a8b1b9e07dbe5cb/summary
+URL:https://www.golfdirecto.com/micro/game/6af583a706089eb2d9187643/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:f93b37d031e2da064656@banderin.es
-DTSTAMP:20261112T072214Z
+DTSTAMP:20261112T122659Z
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
 SUMMARY:Campeonato Absoluto de P&P – Torrepacheco
@@ -70,7 +100,7 @@ URL:https://fgolfmurcia.com/evento/campeonato-absoluto-de-pp-torrepacheco/
 END:VEVENT
 BEGIN:VEVENT
 UID:65f13dbb421d78c003a0@banderin.es
-DTSTAMP:20261112T072214Z
+DTSTAMP:20261112T122659Z
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261120
 SUMMARY:3ª Prueba LIGA SENIOR 2026-27
@@ -85,7 +115,7 @@ URL:https://www.golfdirecto.com/micro/game/6a6c46ea09f4121c486c61d6/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:2b41bb7241f2eac639b5@banderin.es
-DTSTAMP:20261112T072214Z
+DTSTAMP:20261112T122659Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:2ª Prueba Liga de Parejas Campomar 26/27
@@ -100,7 +130,7 @@ URL:https://www.golfdirecto.com/micro/game/6adb7245042bd6a99e0224c6/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:fea4b596b7d79fcafe68@banderin.es
-DTSTAMP:20261112T072214Z
+DTSTAMP:20261112T122659Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:XII Aniversario
@@ -115,7 +145,7 @@ URL:https://www.golfdirecto.com/micro/game/6af1ba4e8527252f6090873b/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:cbc0b6e222aa76c2fba6@banderin.es
-DTSTAMP:20261112T072214Z
+DTSTAMP:20261112T122659Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:Campeonato de Galicia Match Play Juvenil
@@ -130,7 +160,7 @@ URL:https://www.golfdirecto.com/micro/game/69e77fd48510e14eee693022/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:423f6d882c17af569bdd@banderin.es
-DTSTAMP:20261112T072214Z
+DTSTAMP:20261112T122659Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:3ª Prueba Liga de Parejas Campomar 26/27
@@ -144,8 +174,22 @@ STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6adb729e042bd6a99e102d30/summary
 END:VEVENT
 BEGIN:VEVENT
+UID:24ba9cdb23cc1b8f7490@banderin.es
+DTSTAMP:20261112T122659Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:Benjamines-Final Liga Gallega Juvenil Sub-18
+LOCATION:Club Compostela Pitch & Putt\, A Sionlla\, A Coruña
+DESCRIPTION:Juvenil · Medal Play · Individual\nFicha oficial: https://www
+ .golfdirecto.com/micro/game/6a55dbcf0a8b1b9e07dbe5cb/summary\nConfirma fec
+ has y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6a55dbcf0a8b1b9e07dbe5cb/summary
+END:VEVENT
+BEGIN:VEVENT
 UID:f7e47912722e6d1e5dfd@banderin.es
-DTSTAMP:20261112T072214Z
+DTSTAMP:20261112T122659Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Circuito Barbanza Arousa. 3ª prueba. Boiro
@@ -160,7 +204,7 @@ URL:https://www.golfdirecto.com/micro/game/6ac4cc49457edc1ace625b5e/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:fd449713c26265cf5671@banderin.es
-DTSTAMP:20261112T072214Z
+DTSTAMP:20261112T122659Z
 DTSTART;VALUE=DATE:20261203
 DTEND;VALUE=DATE:20261204
 SUMMARY:4ª Prueba LIGA SENIOR 2026-27
@@ -174,7 +218,7 @@ URL:https://www.golfdirecto.com/micro/game/6a6c473f0ac413c45d5fd29b/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:9a621753a020b7454861@banderin.es
-DTSTAMP:20261112T072214Z
+DTSTAMP:20261112T122659Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
 SUMMARY:4ª Prueba Liga de Parejas Campomar 20/27
@@ -189,7 +233,7 @@ URL:https://www.golfdirecto.com/micro/game/6adb7310042bd6a99e20dda1/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:ed49e2d4ece4205502b2@banderin.es
-DTSTAMP:20261112T072214Z
+DTSTAMP:20261112T122659Z
 DTSTART;VALUE=DATE:20261217
 DTEND;VALUE=DATE:20261218
 SUMMARY:5ª Prueba LIGA SENIOR 2026-27
@@ -203,7 +247,7 @@ URL:https://www.golfdirecto.com/micro/game/6a6c476e0ac413c45d6cb490/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:fe078ba853674c4f4b96@banderin.es
-DTSTAMP:20261112T072214Z
+DTSTAMP:20261112T122659Z
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261220
 SUMMARY:Cestas de Navidad 2026
@@ -217,7 +261,7 @@ URL:https://www.golfdirecto.com/micro/game/6adb7342042bd6a99e2e3161/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:ca8454fe4b1f9e22c56f@banderin.es
-DTSTAMP:20261112T072214Z
+DTSTAMP:20261112T122659Z
 DTSTART;VALUE=DATE:20261220
 DTEND;VALUE=DATE:20261221
 SUMMARY:Circuito Barbanza Arousa. Final A Pobra Do Caramiñal
@@ -231,7 +275,7 @@ URL:https://www.golfdirecto.com/micro/game/6ac4cc8f457edc1ace68df14/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:72ad3eb14133086350c6@banderin.es
-DTSTAMP:20261112T072214Z
+DTSTAMP:20261112T122659Z
 DTSTART;VALUE=DATE:20261227
 DTEND;VALUE=DATE:20261228
 SUMMARY:Campeonato Crema de Navidad
@@ -246,7 +290,7 @@ URL:https://www.golfdirecto.com/micro/game/6943ecab4d9bda75305f7465/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:c1189602ff217e88c07e@banderin.es
-DTSTAMP:20261112T072214Z
+DTSTAMP:20261112T122659Z
 DTSTART;VALUE=DATE:20261231
 DTEND;VALUE=DATE:20270101
 SUMMARY:Torneo Fin de Año
@@ -260,7 +304,7 @@ URL:https://www.golfdirecto.com/micro/game/6949740fd6b8a9e4131109ad/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:f7a778faf61609ecf4b8@banderin.es
-DTSTAMP:20261112T072214Z
+DTSTAMP:20261112T122659Z
 DTSTART;VALUE=DATE:20270114
 DTEND;VALUE=DATE:20270115
 SUMMARY:6ª Prueba LIGA SENIOR 2026-27
@@ -274,7 +318,7 @@ URL:https://www.golfdirecto.com/micro/game/6a6c49dc09f4121c48721035/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:acc34298a02ff9912bb7@banderin.es
-DTSTAMP:20261112T072214Z
+DTSTAMP:20261112T122659Z
 DTSTART;VALUE=DATE:20270128
 DTEND;VALUE=DATE:20270129
 SUMMARY:7ª Prueba Final LIGA SENIOR 2026-27
@@ -288,7 +332,7 @@ URL:https://www.golfdirecto.com/micro/game/6a6c4a1809f4121c487b22fb/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:eee5005462ffbfb6fbd3@banderin.es
-DTSTAMP:20261112T072214Z
+DTSTAMP:20261112T122659Z
 DTSTART;VALUE=DATE:20270512
 DTEND;VALUE=DATE:20270513
 SUMMARY:Ruta do Viño - Prueba 8 Miño
