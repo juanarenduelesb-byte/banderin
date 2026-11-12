@@ -11,7 +11,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:ffc8167006b1a593bb1b@banderin.es
-DTSTAMP:20261112T204614Z
+DTSTAMP:20261112T211026Z
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261115
 SUMMARY:II Copa Iniciación - BMW San Rafael Motor
@@ -27,7 +27,7 @@ URL:https://www.golfdirecto.com/micro/game/6ace11d13189133e5a976bd2/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:6905c389d6d215cb7c34@banderin.es
-DTSTAMP:20261112T204614Z
+DTSTAMP:20261112T211026Z
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261115
 SUMMARY:Torneo Heritage World Cup By Le Club 2026
@@ -41,7 +41,7 @@ URL:https://www.nextcaddy.com/tour/75172
 END:VEVENT
 BEGIN:VEVENT
 UID:3e3052bd1180b6b5b4a9@banderin.es
-DTSTAMP:20261112T204614Z
+DTSTAMP:20261112T211026Z
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
 SUMMARY:I Torneo Oficial Femenino Aproa Changan Día 08/11/2026
@@ -55,7 +55,7 @@ URL:https://www.nextcaddy.com/tour/75164
 END:VEVENT
 BEGIN:VEVENT
 UID:db69a0eec59ff6c669d7@banderin.es
-DTSTAMP:20261112T204614Z
+DTSTAMP:20261112T211026Z
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
 SUMMARY:Trofeo Noviembre Infantil
@@ -70,7 +70,7 @@ URL:https://www.nextcaddy.com/tour/75323
 END:VEVENT
 BEGIN:VEVENT
 UID:683b72523fb0ad24eba7@banderin.es
-DTSTAMP:20261112T204614Z
+DTSTAMP:20261112T211026Z
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
 SUMMARY:Trofeo Social de Otoño
@@ -85,7 +85,7 @@ URL:https://www.nextcaddy.com/tour/75176
 END:VEVENT
 BEGIN:VEVENT
 UID:04c74bd3ab9556f77c4d@banderin.es
-DTSTAMP:20261112T204614Z
+DTSTAMP:20261112T211026Z
 DTSTART;VALUE=DATE:20261118
 DTEND;VALUE=DATE:20261119
 SUMMARY:5ª Prueba Liga Senior Mixta 26/27 Iveco-Veimancha
@@ -99,7 +99,7 @@ URL:https://www.nextcaddy.com/tour/75170
 END:VEVENT
 BEGIN:VEVENT
 UID:535489e15fa54994beb9@banderin.es
-DTSTAMP:20261112T204614Z
+DTSTAMP:20261112T211026Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:IV Torneo de Golf Solidario Cruz Roja 2026
@@ -110,187 +110,5 @@ DESCRIPTION:Benéfico · Stableford · Individual\nFicha oficial: https://w
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.nextcaddy.com/tour/75303
-END:VEVENT
-BEGIN:VEVENT
-UID:9f4238d887cd1a0914d1@banderin.es
-DTSTAMP:20261112T204614Z
-DTSTART;VALUE=DATE:20261212
-DTEND;VALUE=DATE:20261213
-SUMMARY:I Prueba Liga de Principiantes Clínica Isquión Fisioterapia
-LOCATION:La Loma Golf\, Cordoba\, Córdoba
-DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
- s://www.golfdirecto.com/micro/game/6af4de499292980794ab1bfb/summary\nConfi
- rma fechas y condiciones en la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.golfdirecto.com/micro/game/6af4de499292980794ab1bfb/summary
-END:VEVENT
-BEGIN:VEVENT
-UID:b7a4ad0f555b45aa9b4d@banderin.es
-DTSTAMP:20261112T204614Z
-DTSTART;VALUE=DATE:20261213
-DTEND;VALUE=DATE:20261214
-SUMMARY:I Prueba Liga de Novatos BMW San Rafael Motor
-LOCATION:La Loma Golf\, Cordoba\, Córdoba
-DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
- s://www.golfdirecto.com/micro/game/6af4d1b69292980794bbd900/summary\nConfi
- rma fechas y condiciones en la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.golfdirecto.com/micro/game/6af4d1b69292980794bbd900/summary
-END:VEVENT
-BEGIN:VEVENT
-UID:c22121f8219d2bee8071@banderin.es
-DTSTAMP:20261112T204614Z
-DTSTART;VALUE=DATE:20261220
-DTEND;VALUE=DATE:20261221
-SUMMARY:Friends Cup
-LOCATION:La Loma Golf\, Cordoba\, Córdoba
-DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
- s://www.golfdirecto.com/micro/game/6af5a94c4de854d4a918f0d6/summary\nConfi
- rma fechas y condiciones en la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.golfdirecto.com/micro/game/6af5a94c4de854d4a918f0d6/summary
-END:VEVENT
-BEGIN:VEVENT
-UID:2d8457824397486061fd@banderin.es
-DTSTAMP:20261112T204614Z
-DTSTART;VALUE=DATE:20261226
-DTEND;VALUE=DATE:20261227
-SUMMARY:II Prueba Liga de Principiantes Clínica Isquión Fisioterapia
-LOCATION:La Loma Golf\, Cordoba\, Córdoba
-DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
- s://www.golfdirecto.com/micro/game/6af5751506089eb2d9c1630a/summary\nConfi
- rma fechas y condiciones en la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.golfdirecto.com/micro/game/6af5751506089eb2d9c1630a/summary
-END:VEVENT
-BEGIN:VEVENT
-UID:77361d4c8beffdf1cb78@banderin.es
-DTSTAMP:20261112T204614Z
-DTSTART;VALUE=DATE:20261227
-DTEND;VALUE=DATE:20261228
-SUMMARY:II Prueba Liga de Novatos BMW San Rafael Motor
-LOCATION:La Loma Golf\, Cordoba\, Córdoba
-DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
- s://www.golfdirecto.com/micro/game/6af4d263d161f2f1b87f3e19/summary\nConfi
- rma fechas y condiciones en la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.golfdirecto.com/micro/game/6af4d263d161f2f1b87f3e19/summary
-END:VEVENT
-BEGIN:VEVENT
-UID:8df9184cb9bcca8665ae@banderin.es
-DTSTAMP:20261112T204614Z
-DTSTART;VALUE=DATE:20270109
-DTEND;VALUE=DATE:20270110
-SUMMARY:III Prueba Liga Principiantes Clínica Isquión Fisioterapia
-LOCATION:La Loma Golf\, Cordoba\, Córdoba
-DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
- s://www.golfdirecto.com/micro/game/6af58ba306089eb2d9d807dd/summary\nConfi
- rma fechas y condiciones en la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.golfdirecto.com/micro/game/6af58ba306089eb2d9d807dd/summary
-END:VEVENT
-BEGIN:VEVENT
-UID:1b44b5c6a6608259a128@banderin.es
-DTSTAMP:20261112T204614Z
-DTSTART;VALUE=DATE:20270110
-DTEND;VALUE=DATE:20270111
-SUMMARY:III Prueba Liga de Novatos BMW San Rafael Motor
-LOCATION:La Loma Golf\, Cordoba\, Córdoba
-DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
- s://www.golfdirecto.com/micro/game/6af4d32e9292980794e59427/summary\nConfi
- rma fechas y condiciones en la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.golfdirecto.com/micro/game/6af4d32e9292980794e59427/summary
-END:VEVENT
-BEGIN:VEVENT
-UID:e9d44d377b74cb1473b5@banderin.es
-DTSTAMP:20261112T204614Z
-DTSTART;VALUE=DATE:20270123
-DTEND;VALUE=DATE:20270124
-SUMMARY:IV Prueba Liga Principiantes Clínica Isquión Fisioterapia
-LOCATION:La Loma Golf\, Cordoba\, Córdoba
-DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
- s://www.golfdirecto.com/micro/game/6af58c9dcb197af66bd59b2a/summary\nConfi
- rma fechas y condiciones en la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.golfdirecto.com/micro/game/6af58c9dcb197af66bd59b2a/summary
-END:VEVENT
-BEGIN:VEVENT
-UID:e7a1d117329e53f3cab0@banderin.es
-DTSTAMP:20261112T204614Z
-DTSTART;VALUE=DATE:20270124
-DTEND;VALUE=DATE:20270125
-SUMMARY:IV Prueba Liga de Novatos BMW San Rafael Motor
-LOCATION:La Loma Golf\, Cordoba\, Córdoba
-DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
- s://www.golfdirecto.com/micro/game/6af4d3ba9292980794f07925/summary\nConfi
- rma fechas y condiciones en la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.golfdirecto.com/micro/game/6af4d3ba9292980794f07925/summary
-END:VEVENT
-BEGIN:VEVENT
-UID:0b43da03c297fb74c5a9@banderin.es
-DTSTAMP:20261112T204614Z
-DTSTART;VALUE=DATE:20270207
-DTEND;VALUE=DATE:20270208
-SUMMARY:V Prueba Liga Novatos San Rafael Motor
-LOCATION:La Loma Golf\, Cordoba\, Córdoba
-DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
- s://www.golfdirecto.com/micro/game/6af4d4a29292980794006c5e/summary\nConfi
- rma fechas y condiciones en la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.golfdirecto.com/micro/game/6af4d4a29292980794006c5e/summary
-END:VEVENT
-BEGIN:VEVENT
-UID:97a0eb107933cbeb9b85@banderin.es
-DTSTAMP:20261112T204614Z
-DTSTART;VALUE=DATE:20270213
-DTEND;VALUE=DATE:20270214
-SUMMARY:V Prueba Liga de Principiantes Clínica Isquión Fisioterapia
-LOCATION:La Loma Golf\, Cordoba\, Córdoba
-DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
- s://www.golfdirecto.com/micro/game/6af58d9206089eb2d935bbe7/summary\nConfi
- rma fechas y condiciones en la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.golfdirecto.com/micro/game/6af58d9206089eb2d935bbe7/summary
-END:VEVENT
-BEGIN:VEVENT
-UID:197da206f0285a355e96@banderin.es
-DTSTAMP:20261112T204614Z
-DTSTART;VALUE=DATE:20270221
-DTEND;VALUE=DATE:20270222
-SUMMARY:Final Liga de Novatos BMW San Rafael Motor
-LOCATION:La Loma Golf\, Cordoba\, Córdoba
-DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
- s://www.golfdirecto.com/micro/game/6af57bb9cb197af66b99ff2d/summary\nConfi
- rma fechas y condiciones en la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.golfdirecto.com/micro/game/6af57bb9cb197af66b99ff2d/summary
-END:VEVENT
-BEGIN:VEVENT
-UID:50ceec60d035cc7a7b68@banderin.es
-DTSTAMP:20261112T204614Z
-DTSTART;VALUE=DATE:20270227
-DTEND;VALUE=DATE:20270228
-SUMMARY:Final Liga Principiantes Clínica Isquión Fisioterapia
-LOCATION:La Loma Golf\, Cordoba\, Córdoba
-DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
- s://www.golfdirecto.com/micro/game/6af59eb74de854d4a919c0a1/summary\nConfi
- rma fechas y condiciones en la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.golfdirecto.com/micro/game/6af59eb74de854d4a919c0a1/summary
 END:VEVENT
 END:VCALENDAR
