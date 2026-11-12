@@ -1,0 +1,40 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Banderin//Torneos de golf//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Banderín · La Morgal Sports
+X-WR-CALDESC:Torneos de golf: La Morgal Sports. Se actualiza cada mañana. 
+ https://banderin.es
+X-WR-TIMEZONE:Europe/Madrid
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:1324af833afdb28cd814@banderin.es
+DTSTAMP:20261112T072214Z
+DTSTART;VALUE=DATE:20261112
+DTEND;VALUE=DATE:20261113
+SUMMARY:Prueba
+LOCATION:La Morgal Sports
+DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
+ s://www.golfdirecto.com/micro/game/6af4ccecd161f2f1b80009d0/summary\nConfi
+ rma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6af4ccecd161f2f1b80009d0/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:9c76fe62da896e78954c@banderin.es
+DTSTAMP:20261112T072214Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:Prueba 2
+LOCATION:La Morgal Sports
+DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
+ s://www.golfdirecto.com/micro/game/6af4d2579292980794d1bfcd/summary\nConfi
+ rma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6af4d2579292980794d1bfcd/summary
+END:VEVENT
+END:VCALENDAR

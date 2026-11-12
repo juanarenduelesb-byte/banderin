@@ -10,24 +10,8 @@ X-WR-TIMEZONE:Europe/Madrid
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:fd6f76a0ffbf2f9ba710@banderin.es
-DTSTAMP:20261111T194134Z
-DTSTART;VALUE=DATE:20261111
-DTEND;VALUE=DATE:20261112
-SUMMARY:White Coast Individual Stableford
-LOCATION:Campo de Golf el Saler\, Valencia\, Valencia
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 30 de octubre\, cierra el 8 de noviembre.\nPrecio: 77 €.\nFicha ofici
- al: https://www.golfdirecto.com/micro/game/6ad345f895a935144628c772/summar
- y\nConfirma fechas y condiciones en la web del organizador. Vía Banderín
- .
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.golfdirecto.com/micro/game/6ad345f895a935144628c772/summary
-END:VEVENT
-BEGIN:VEVENT
 UID:16ccc63528b606242c24@banderin.es
-DTSTAMP:20261111T194134Z
+DTSTAMP:20261112T072214Z
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261120
 SUMMARY:The 12 - Round 11 - The Lamont Classic - El Saler - 106358

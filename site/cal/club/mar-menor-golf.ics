@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Banderin//Torneos de golf//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Banderín · Mar Menor Golf
+X-WR-CALDESC:Torneos de golf: Mar Menor Golf. Se actualiza cada mañana. ht
+ tps://banderin.es
+X-WR-TIMEZONE:Europe/Madrid
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:872bc17e817353ac978f@banderin.es
+DTSTAMP:20261112T072214Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:Final 13 Gt 2026
+LOCATION:Mar Menor Golf\, Torre Pacheco\, Murcia
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 8 de noviembre\, cierra el 25 de noviembre.\nPrecio: 58 €.\nFicha ofi
+ cial: https://www.golfdirecto.com/micro/game/6af0c3fb18fc8072fbdc6c1a/summ
+ ary\nConfirma fechas y condiciones en la web del organizador. Vía Bander
+ ín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6af0c3fb18fc8072fbdc6c1a/summary
+END:VEVENT
+END:VCALENDAR

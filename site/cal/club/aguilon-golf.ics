@@ -10,22 +10,8 @@ X-WR-TIMEZONE:Europe/Madrid
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:3721b9c0fab89804e5ea@banderin.es
-DTSTAMP:20261111T194134Z
-DTSTART;VALUE=DATE:20261111
-DTEND;VALUE=DATE:20261112
-SUMMARY:Members11/11/26
-LOCATION:Aguilon Golf\, Pilar de Jaravia\, Almería
-DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
- s://www.golfdirecto.com/micro/game/6af44a7697842d5df4eaa986/summary\nConfi
- rma fechas y condiciones en la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.golfdirecto.com/micro/game/6af44a7697842d5df4eaa986/summary
-END:VEVENT
-BEGIN:VEVENT
 UID:8850521a81ccebdf22c8@banderin.es
-DTSTAMP:20261111T194134Z
+DTSTAMP:20261112T072214Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Ryder Raufer Cup Aguilon By Reale Galpe Seguros
@@ -39,7 +25,7 @@ URL:https://www.golfdirecto.com/micro/game/6adcbc4cc98c39027759840e/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:b31958d2a158f8c3ff3a@banderin.es
-DTSTAMP:20261111T194134Z
+DTSTAMP:20261112T072214Z
 DTSTART;VALUE=DATE:20270314
 DTEND;VALUE=DATE:20270315
 SUMMARY:Alamo Golf Society
