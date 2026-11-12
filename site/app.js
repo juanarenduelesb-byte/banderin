@@ -114,6 +114,7 @@ $('city').value=store.get('city','');$('radius').value=store.get('radius','');
 // Ubicación exacta: solo con el permiso del navegador; se usa en este dispositivo para calcular distancias
 // y no se guarda ni se envía a ningún sitio (solo se recuerda que elegiste «Usar mi ubicación»).
 let GEO=null,geoPrev='';
+const LOCI='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 11 21 3l-8 18-2-8z"/></svg>';
 const here=()=>{const v=$('city').value;if(v==='gps')return GEO?[GEO[0],GEO[1]]:null;return v===''||!PROV[v]?null:[PROV[v][2],PROV[v][3]]};
 const cityName=()=>{const v=$('city').value;return v==='gps'?L('tu ubicación'):(PROV[v]?PROV[v][0]:'')};
 function geoMsg(t){let m=$('geomsg');if(!m){m=document.createElement('div');m.id='geomsg';m.className='geomsg';m.setAttribute('role','status');document.body.appendChild(m)}
@@ -121,16 +122,20 @@ function geoMsg(t){let m=$('geomsg');if(!m){m=document.createElement('div');m.id
 function setCity(v){$('city').value=v;store.set('city',v);['hcity','pcity'].forEach(id=>{if($(id))$(id).value=v})}
 function locate(quiet){
   if(!navigator.geolocation){if(!quiet)geoMsg(L('Tu navegador no permite compartir la ubicación.'));setCity(geoPrev);return}
-  ['city','hcity','pcity'].forEach(id=>{const o=$(id)&&$(id).querySelector('option[value="gps"]');if(o)o.textContent=L('Buscando tu ubicación…')});
+  geoLabel(true);['city','hcity','pcity'].forEach(id=>{const o=$(id)&&$(id).querySelector('option[value="gps"]');if(o)o.textContent=L('Buscando tu ubicación…')});
   navigator.geolocation.getCurrentPosition(pos=>{
-    GEO=[pos.coords.latitude,pos.coords.longitude];geoLabel();setCity('gps');
+    GEO=[pos.coords.latitude,pos.coords.longitude];setCity('gps');geoLabel();
     if(!$('radius').value){$('radius').value=$('hrad')?$('hrad').value||'100':'100';store.set('radius',$('radius').value)}
     if($('radius').value)$('sort').value='dist';render();renderHome();
   },err=>{GEO=null;geoLabel();setCity(geoPrev==='gps'?'':geoPrev);render();renderHome();
     if(!quiet)geoMsg(err.code===1?L('No has dado permiso para usar tu ubicación. Puedes activarlo en los ajustes del navegador o elegir tu ciudad.'):L('No hemos podido saber dónde estás. Elige tu ciudad en la lista.'))
   },{enableHighAccuracy:false,timeout:12000,maximumAge:600000})}
-function geoLabel(){['city','hcity','pcity'].forEach(id=>{const o=$(id)&&$(id).querySelector('option[value="gps"]');if(o)o.textContent=GEO?L('Mi ubicación'):L('Usar mi ubicación actual')})}
-function cityPick(el){const v=el.value;if(v==='gps'&&!GEO){locate(false);return true}geoPrev=v;return false}
+function geoLabel(busy){const hb=$('hLoc');if(hb){const on=!!GEO&&$('city').value==='gps';hb.classList.toggle('on',on);hb.classList.toggle('busy',!!busy);hb.lastChild.textContent=busy?L('Buscando tu ubicación…'):on?L('Usando tu ubicación'):L('Usar mi ubicación')}['city','hcity','pcity'].forEach(id=>{const o=$(id)&&$(id).querySelector('option[value="gps"]');if(o)o.textContent=GEO?L('Mi ubicación'):L('Usar mi ubicación actual')})}
+function cityPick(el){const v=el.value;if(v==='gps'&&!GEO){locate(false);return true}geoPrev=v;setTimeout(()=>geoLabel(),0);return false}
+document.addEventListener('click',e=>{const b=e.target.closest('[data-locate]');if(!b)return;e.preventDefault();e.stopPropagation();
+  if($('city').value==='gps'&&GEO&&b.classList.contains('locchip')){setCity(geoPrev==='gps'?'':geoPrev);geoLabel();render();renderHome();return}
+  if($('city').value==='gps'&&GEO){if(b.id==='hLoc')goList(null,true);return}
+  geoPrev=$('city').value;locate(false)},true);
 if($('city').value==='gps'){ // al volver: solo se pide sin preguntar si el permiso ya estaba concedido
   const ask=()=>locate(true);
   if(navigator.permissions&&navigator.permissions.query)navigator.permissions.query({name:'geolocation'}).then(r=>{if(r.state==='granted')ask();else setCity('')}).catch(()=>setCity(''));else setCity('')}
@@ -205,7 +210,7 @@ function closeSheet(){$('detail').classList.remove('open');$('scrim').classList.
 function select(i,open){sel=i;document.querySelectorAll('.row').forEach(r=>r.setAttribute('aria-selected',String(+r.dataset.i===i)));renderDetail();$('detail').scrollTop=0;if(open)openSheet()}
 function renderQuick(){
   const base=filtered(true);
-  $('quick').innerHTML=QUICK.map(q=>{if(!qOn.has(q[0])&&((q[0]==='saved'&&!saved.size)||(q[0]==='fit'&&!hasPerf())||(q[0]==='sigo'&&!SIGO.clubs.length&&!SIGO.prov.length)))return'';const n=base.filter(q[2]).length;return '<button class="qchip" data-q="'+q[0]+'" aria-pressed="'+qOn.has(q[0])+'">'+(q[0]==='saved'?I.star:q[0]==='closing'?I.clock:'')+L(q[1])+' <span class="n num">'+n+'</span></button>'}).join('');
+  $('quick').innerHTML=(navigator.geolocation?'<button class="qchip locchip" data-locate aria-pressed="'+($('city').value==='gps'&&!!GEO)+'">'+LOCI+L('Cerca de mí')+'</button>':'')+QUICK.map(q=>{if(!qOn.has(q[0])&&((q[0]==='saved'&&!saved.size)||(q[0]==='fit'&&!hasPerf())||(q[0]==='sigo'&&!SIGO.clubs.length&&!SIGO.prov.length)))return'';const n=base.filter(q[2]).length;return '<button class="qchip" data-q="'+q[0]+'" aria-pressed="'+qOn.has(q[0])+'">'+(q[0]==='saved'?I.star:q[0]==='closing'?I.clock:'')+L(q[1])+' <span class="n num">'+n+'</span></button>'}).join('');
 }
 function chips(){
   const out=[];

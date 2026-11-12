@@ -390,7 +390,7 @@ footer{padding:0 0 36px;font-size:12px;color:var(--muted)}
 }
 @media (max-width:700px){
   .seg.mob a{padding:9px 12px;font-size:13px}
-  .hsearch{grid-template-columns:1fr 1fr;border-radius:24px}
+  .hsearch{grid-template-columns:minmax(0,1.25fr) minmax(0,1fr);border-radius:24px}
   .hsearch .btn{grid-column:1/-1}
   .hstats div b{font-size:24px}
   .events{grid-template-columns:1fr}
@@ -918,7 +918,16 @@ select::-ms-expand{display:none}
 }
 .geomsg{position:fixed;left:50%;bottom:calc(96px + env(safe-area-inset-bottom));transform:translate(-50%,20px);width:min(520px,calc(100vw - 32px));background:#FAF7EE;color:#13201A;border-radius:18px;padding:12px 16px;font-size:14.5px;line-height:1.4;box-shadow:0 18px 40px -12px rgba(0,0,0,.5);opacity:0;pointer-events:none;transition:opacity .25s,transform .25s;z-index:90}
 .geomsg.on{opacity:1;transform:translate(-50%,0)}
-@media (max-width:480px){.hsearch{grid-template-columns:minmax(0,1fr);border-radius:22px;gap:2px}.hsearch select{border-bottom:1px solid var(--edge)!important;border-radius:0}.hsearch #hrad{border-bottom:0!important}.hsearch .btn{grid-column:auto;margin-top:6px}}
+.hrow{display:flex;flex-wrap:wrap;align-items:center;gap:12px 20px}
+.locbtn{display:inline-flex;align-items:center;gap:8px;font:600 14.5px/1 "Public Sans",-apple-system,sans-serif;color:var(--gold-l);background:rgba(217,185,120,.10);border:1px solid rgba(217,185,120,.55);border-radius:999px;padding:11px 17px 11px 14px;cursor:pointer;transition:background .2s,transform .15s}
+.locbtn svg{width:17px;height:17px;flex:none}
+.locbtn:hover{background:rgba(217,185,120,.2)}.locbtn:active{transform:scale(.97)}
+.locbtn.on{background:var(--gold-l);color:#13201A;border-color:var(--gold-l)}
+.locbtn.busy svg{animation:locpulse 1s ease-in-out infinite}
+@keyframes locpulse{50%{opacity:.3}}
+.qchip.locchip svg{width:14px;height:14px}
+.qchip.locchip[aria-pressed=true] svg{fill:currentColor}
+@media (max-width:420px){.hsearch .field select{padding-left:32px!important}.hsearch .field svg{left:11px}}
 .brand{font-family:"Instrument Sans",-apple-system,BlinkMacSystemFont,"Helvetica Neue",Arial,sans-serif}
 </style>
 </head>
@@ -947,7 +956,8 @@ select::-ms-expand{display:none}
         <select id="hrad" aria-label="Distancia máxima"><option value="">Cualquier distancia</option><option value="25">Hasta 25 km</option><option value="50">Hasta 50 km</option><option value="100" selected>Hasta 100 km</option><option value="200">Hasta 200 km</option></select>
         <button class="btn primary" type="submit">Ver torneos del finde<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
       </form>
-      <a class="hlink" href="#lista">O explora los <span id="hAll"></span> torneos</a>
+      <div class="hrow"><button type="button" class="locbtn" id="hLoc" data-locate><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 11 21 3l-8 18-2-8z"/></svg><span>Usar mi ubicación</span></button>
+      <a class="hlink" href="#lista">O explora los <span id="hAll"></span> torneos</a></div>
       <div class="hstats num" id="hStats"></div>
     </div>
     <div class="hart" aria-hidden="true">
@@ -1268,11 +1278,11 @@ select::-ms-expand{display:none}
     <div class="cfoot"><button class="btn cb" data-c="reject">Rechazar todo</button><button class="btn ghost" data-c="save">Guardar selección</button><button class="btn cb" data-c="accept">Aceptar todo</button></div>
   </div>
 </div>
-<script src="/i18n.js?v=32b2f0d1a9"></script>
+<script src="/i18n.js?v=cd9c315e2a"></script>
 <script src="/legal.js?v=8534cf378e"></script>
 <script src="/data.js?v=647ba8ee47"></script>
 <script src="/mapa.js?v=5fb8ffc342"></script>
-<script src="/app.js?v=1636489a6a" data-pasados="61df77e1d0"></script>
+<script src="/app.js?v=2d787df071" data-pasados="61df77e1d0"></script>
 <script src="/cuenta-config.js?v=81aa4cc378"></script>
 <script src="/cuenta.js?v=bd34195780"></script>
 </body>
