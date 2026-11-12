@@ -679,10 +679,10 @@ $('pavForm').onsubmit=async e=>{
   $('pavErr').hidden=true;
   if(!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(em)){$('pavErr').textContent=L('Revisa el correo: no parece válido.');$('pavErr').hidden=false;$('pavEmail').focus();return}
   btn.disabled=true;
-  const r=await api('/api/avisos/alta',{method:'POST',body:{email:em,idioma:LANG,sigo:avSigo(),perfil:avPerfil(),web:$('pavWeb').value}}).catch(()=>null);
+  const r=await api('/api/avisos/alta',{method:'POST',body:{email:em,idioma:LANG,sigo:avSigo(),perfil:avPerfil(),web:$('pavWeb').value,ts:window.botToken?await botToken():''}}).catch(()=>null);
   btn.disabled=false;
   if(r&&r.ok){AV={pend:em};raw.set('avisos',AV);drawAvisos();avFabSync()}
-  else{$('pavErr').textContent=L(r&&r.status===400?'Revisa el correo: no parece válido.':'No hemos podido activarlos ahora. Inténtalo en unos minutos.');$('pavErr').hidden=false}
+  else{$('pavErr').textContent=L(r&&r.status===400?'Revisa el correo: no parece válido.':r&&r.status===429?'Demasiados intentos seguidos. Espera un rato y vuelve a probar.':'No hemos podido activarlos ahora. Inténtalo en unos minutos.');$('pavErr').hidden=false}
 };
 $('pavRetry').onclick=()=>{AV=null;raw.del('avisos');drawAvisos();avFabSync();$('pavEmail').focus()};
 $('pavStop').onclick=async()=>{const b=$('pavStop');
@@ -725,10 +725,10 @@ $('avPopForm').onsubmit=async e=>{
   if(!pv){$('avPopErr').textContent=L('Elige una provincia para saber de qué avisarte.');$('avPopErr').hidden=false;$('avPopProv').focus();return}
   if(!SIGO.prov.includes(pv)){SIGO.prov.push(pv);SIGO.ts=Date.now();raw.set('sigo',SIGO);markMe()}
   btn.disabled=true;
-  const r=await api('/api/avisos/alta',{method:'POST',body:{email:em,idioma:LANG,sigo:avSigo(),perfil:avPerfil(),web:$('avPopWeb').value}}).catch(()=>null);
+  const r=await api('/api/avisos/alta',{method:'POST',body:{email:em,idioma:LANG,sigo:avSigo(),perfil:avPerfil(),web:$('avPopWeb').value,ts:window.botToken?await botToken():''}}).catch(()=>null);
   btn.disabled=false;
   if(r&&r.ok){AV={pend:em};raw.set('avisos',AV);drawAvisos();renderQuick();$('avPopBody').hidden=true;$('avPopOk').hidden=false;raw.set('avpop',Date.now());setTimeout(()=>avPopClose(false),9000)}
-  else{$('avPopErr').textContent=L(r&&r.status===400?'Revisa el correo: no parece válido.':'No hemos podido activarlos ahora. Inténtalo en unos minutos.');$('avPopErr').hidden=false}
+  else{$('avPopErr').textContent=L(r&&r.status===400?'Revisa el correo: no parece válido.':r&&r.status===429?'Demasiados intentos seguidos. Espera un rato y vuelve a probar.':'No hemos podido activarlos ahora. Inténtalo en unos minutos.');$('avPopErr').hidden=false}
 };
 initAvisos();
 

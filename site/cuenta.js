@@ -39,6 +39,9 @@ function cuLoad() {
   });
 }
 
+// Token anti-robots para Supabase (solo si Turnstile está configurado; Supabase lo exige al activar su CAPTCHA).
+async function cuCaptcha() { const t = window.botToken ? await window.botToken() : ''; return t ? { captchaToken: t } : {}; }
+
 /* ---------- datos: local ⇄ cuenta ---------- */
 function cuLocal() {
   return { v: 1, perfil: PERF || null, sigo: SIGO, saved: [...saved], played: [...played.values()],
@@ -154,7 +157,7 @@ $('cuEntrarF').onsubmit = e => {
   if (!em || !pw) return cuErr('cuEntrarErr', L('Escribe tu correo y tu contraseña.'));
   cuBusy(e.submitter || $('cuEntrarF').querySelector('button[type=submit]'), async () => {
     await cuLoad();
-    const { error } = await SB.auth.signInWithPassword({ email: em, password: pw });
+    const { error } = await SB.auth.signInWithPassword({ email: em, password: pw, options: await cuCaptcha() });
     if (error) return cuErr('cuEntrarErr', error);
     $('cuEntrarPw').value = ''; cuClose(); location.hash = 'perfil';
   });
@@ -167,7 +170,7 @@ $('cuCrearF').onsubmit = e => {
   if (!$('cuCrearOk').checked) return cuErr('cuCrearErr', L('Para crear la cuenta tienes que tener 14 años o más y aceptar la política de privacidad.'));
   cuBusy(e.submitter || $('cuCrearF').querySelector('button[type=submit]'), async () => {
     await cuLoad();
-    const { data, error } = await SB.auth.signUp({ email: em, password: pw, options: { emailRedirectTo: cuBack() + '?cuenta=verificada' } });
+    const { data, error } = await SB.auth.signUp({ email: em, password: pw, options: { emailRedirectTo: cuBack() + '?cuenta=verificada', ...(await cuCaptcha()) } });
     if (error) return cuErr('cuCrearErr', error);
     $('cuCrearPw').value = '';
     if (data && data.session) { cuClose(); location.hash = 'perfil'; return; }
@@ -180,7 +183,7 @@ $('cuOlvidoF').onsubmit = e => {
   if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(em)) return cuErr('cuOlvidoErr', L('Revisa el correo: no parece válido.'));
   cuBusy(e.submitter || $('cuOlvidoF').querySelector('button[type=submit]'), async () => {
     await cuLoad();
-    const { error } = await SB.auth.resetPasswordForEmail(em, { redirectTo: cuBack() + '?cuenta=nueva' });
+    const { error } = await SB.auth.resetPasswordForEmail(em, { redirectTo: cuBack() + '?cuenta=nueva', ...(await cuCaptcha()) });
     if (error) return cuErr('cuOlvidoErr', error);
     cuDone(L('Revisa tu correo'), L('Si hay una cuenta con {e}, te llegará un enlace para elegir una contraseña nueva.', { e: em }));
   });

@@ -4,5 +4,7 @@
 window.CUENTA = {
   url: 'https://jdyawzbvxucamibbqdzg.supabase.co',
   key: 'sb_publishable_hepM5qxH6v3oaICMJLnPLw_Ynz7d7hw',
+  // Clave PÚBLICA (site key) de Cloudflare Turnstile; vacía = desactivado. La secreta va solo en Cloudflare Pages y en Supabase.
+  turnstile: '',
   google: false // pasar a true cuando Google esté activado en Supabase → Authentication → Providers
 };
