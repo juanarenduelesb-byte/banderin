@@ -186,7 +186,7 @@ def footer(regions_html):
     return ('<footer class="foot"><div class="fin">%s'
             '<p class="disc">Banderín reúne los torneos que publican federaciones, clubes y plataformas de inscripción, '
             'y los revisa cada mañana. No organiza torneos ni gestiona inscripciones: confirma siempre fechas y precio '
-            'en la web del organizador.</p>'
+            'en la web del organizador. Lo hace un jugador de golf con un objetivo: que encontrar torneo sea fácil y que el golf crezca entre todos.</p>'
             '<p class="legal"><a href="/#aviso-legal">Aviso legal</a><a href="/#privacidad">Privacidad</a>'
             '<a href="/#cookies">Cookies</a><a href="/#terminos">Términos de uso</a>'
             '<a href="https://www.instagram.com/banderin.es/" target="_blank" rel="noopener noreferrer">Instagram</a></p>'
