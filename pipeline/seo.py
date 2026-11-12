@@ -220,11 +220,23 @@ def event_ld(t):
     u = safe_url(t.get('url'))
     if u:
         ev['url'] = u
-    org = t.get('club') if t.get('org') == 'Club' and t.get('club') else None
+    # Organizador: el club, o la federación si la organiza ella. Su url es la ficha oficial del torneo,
+    # la única dirección del organizador que publicamos (no inventamos webs).
+    via = t.get('via') or ''
+    if t.get('org') == 'Federación' and 'ederaci' in via:
+        org = via
+    else:
+        org = t.get('club') or (via if via not in ('Golf Directo', 'Club') else None)
     if org:
         ev['organizer'] = {'@type': 'Organization', 'name': org}
-    if t.get('price') is not None and u:
-        off = {'@type': 'Offer', 'price': t['price'], 'priceCurrency': 'EUR', 'url': u}
+        if u:
+            ev['organizer']['url'] = u
+    # Oferta: el enlace de inscripción. Solo ponemos precio y fecha de apertura cuando el organizador los publica.
+    if u:
+        off = {'@type': 'Offer', 'url': u}
+        if t.get('price') is not None:
+            off['price'] = t['price']
+            off['priceCurrency'] = 'EUR'
         if t.get('op'):
             off['validFrom'] = t['op']
         off['availability'] = 'https://schema.org/InStock' if is_open(t) else 'https://schema.org/PreOrder' if t.get('op', '') > ISO else 'https://schema.org/SoldOut' if t.get('cl') and t['cl'] < ISO else 'https://schema.org/InStock'
