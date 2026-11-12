@@ -151,7 +151,7 @@ label.f select,label.f input{height:36px;padding:6px 12px}
 .empty{padding:50px 24px;text-align:center;color:var(--muted)}
 .empty b{display:block;color:var(--ink);font-size:17px;margin-bottom:4px}
 
-.detail{position:sticky;top:68px;max-height:calc(100vh - 80px);overflow:auto;border-radius:30px;scrollbar-width:thin}
+.detail{position:sticky;top:68px;max-height:calc(100vh - 80px);overflow:auto;border-radius:30px}
 .dmap{position:relative;height:118px;overflow:hidden;border-bottom:1px solid var(--hair)}
 .dmap svg{position:absolute;inset:0;width:100%;height:100%}
 .dmap .ring{fill:none;stroke:var(--accent);stroke-opacity:.22;stroke-width:1}
@@ -279,7 +279,7 @@ footer{padding:0 0 36px;font-size:12px;color:var(--muted)}
 .hsec{margin-top:40px}
 .shead{display:flex;align-items:flex-end;justify-content:space-between;gap:16px;margin-bottom:14px}
 .stitle{font-size:clamp(22px,2.6vw,32px);line-height:1.1;letter-spacing:-.03em;margin:0}
-.cards{display:flex;gap:12px;overflow-x:auto;scroll-snap-type:x mandatory;padding:4px 2px 14px;scrollbar-width:thin}
+.cards{display:flex;gap:12px;overflow-x:auto;scroll-snap-type:x mandatory;padding:4px 2px 14px}
 .hcard{flex:none;width:250px;scroll-snap-align:start;text-align:left;border:1px solid var(--edge);background:var(--glass2);border-radius:24px;padding:0;cursor:pointer;overflow:hidden;box-shadow:var(--shadow);display:flex;flex-direction:column;transition:transform .3s cubic-bezier(.3,1.3,.5,1)}
 .hcard:hover{transform:translateY(-3px)}
 .hcard .cmap{height:84px;position:relative;border-bottom:1px solid var(--hair)}
@@ -928,6 +928,18 @@ select::-ms-expand{display:none}
 .qchip.locchip svg{width:14px;height:14px}
 .qchip.locchip[aria-pressed=true] svg{fill:currentColor}
 @media (max-width:420px){.hsearch .field select{padding-left:32px!important}.hsearch .field svg{left:11px}}
+
+/* ===== Barras de desplazamiento estilo Apple: finas, redondeadas, sin carril ni flechas ===== */
+::-webkit-scrollbar{width:11px;height:11px;background:transparent}
+::-webkit-scrollbar-track,::-webkit-scrollbar-corner{background:transparent}
+::-webkit-scrollbar-button{display:none;width:0;height:0}
+::-webkit-scrollbar-thumb{background:rgba(142,142,147,.45);border-radius:999px;border:3px solid transparent;background-clip:padding-box;min-height:36px;min-width:36px}
+::-webkit-scrollbar-thumb:hover{background-color:rgba(142,142,147,.75)}
+::-webkit-scrollbar-thumb:active{background-color:rgba(142,142,147,.9)}
+/* en carruseles y paneles la barra casi desaparece hasta que pasas el ratón, como en macOS */
+.cards::-webkit-scrollbar-thumb,.detail::-webkit-scrollbar-thumb,.pnav::-webkit-scrollbar-thumb{background-color:rgba(142,142,147,.22)}
+.cards:hover::-webkit-scrollbar-thumb,.detail:hover::-webkit-scrollbar-thumb,.pnav:hover::-webkit-scrollbar-thumb{background-color:rgba(142,142,147,.6)}
+@supports (-moz-appearance:none){*{scrollbar-width:thin;scrollbar-color:rgba(142,142,147,.5) transparent}.quick{scrollbar-width:none}}
 .brand{font-family:"Instrument Sans",-apple-system,BlinkMacSystemFont,"Helvetica Neue",Arial,sans-serif}
 </style>
 </head>
