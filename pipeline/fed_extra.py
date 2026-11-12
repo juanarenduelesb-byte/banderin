@@ -1,5 +1,6 @@
 # Calendarios propios de federaciones que no están (o no del todo) en NextCaddy ni Golf Directo.
 # Escribe /home/claude/raw/fed2/extra.json con registros sin normalizar; build.py los localiza y clasifica.
+import sys as _s, os as _o; _s.path.insert(0, _o.path.dirname(_o.path.abspath(__file__))); import red  # BanderinBot: robots.txt, pausa e identificación
 import re, html, json, time, datetime as dt, urllib.request, urllib.parse, http.cookiejar, subprocess, os, sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import ics

@@ -9,8 +9,8 @@ python3 -I nc_clubs.py
 python3 -I nc_lists.py
 python3 -I nc_tours.py
 python3 -I gd_fetch.py
-curl -sf --max-time 60 -A "Mozilla/5.0 (Banderin)" https://www.golfdirecto.com/api/v2/public/club -o /home/claude/raw/gd/clubs.json
-curl -sf --max-time 60 -A "Mozilla/5.0 (Banderin)" "https://golfcv.com/wp-json/bt_ws/v1/torneos_lt/?criterio=PROXIMOS&conlimit=no&nomas=si&ordentipo=asc&limite=500&lang=0" -o /home/claude/raw/fed/cv.json
+python3 -I red.py get https://www.golfdirecto.com/api/v2/public/club /home/claude/raw/gd/clubs.json
+python3 -I red.py get "https://golfcv.com/wp-json/bt_ws/v1/torneos_lt/?criterio=PROXIMOS&conlimit=no&nomas=si&ordentipo=asc&limite=500&lang=0" /home/claude/raw/fed/cv.json
 python3 -I rfeg_clubs.py
 python3 -I fed_extra.py || echo "AVISO: calendarios federativos fallaron"
 python3 -I build.py

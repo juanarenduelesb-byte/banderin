@@ -1,3 +1,4 @@
+import sys as _s, os as _o; _s.path.insert(0, _o.path.dirname(_o.path.abspath(__file__))); import red  # BanderinBot: robots.txt, pausa e identificación
 import json,urllib.request,concurrent.futures as cf,os,time,collections
 T=json.load(open('/home/claude/scr/tournaments.json'))
 UA={'User-Agent':'Mozilla/5.0 (Banderin link check)'}

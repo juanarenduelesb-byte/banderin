@@ -1,0 +1,6 @@
+# Si has encontrado un fallo de seguridad en Banderín, avísanos por el contacto del aviso legal. Gracias.
+Contact: https://banderin.es/#aviso-legal
+Expires: 2027-11-12T00:00:00.000Z
+Preferred-Languages: es, en
+Canonical: https://banderin.es/.well-known/security.txt
+Policy: https://banderin.es/#aviso-legal

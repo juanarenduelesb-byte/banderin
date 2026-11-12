@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>BanderinBot · el robot de Banderín</title>
+<meta name="description" content="Qué es BanderinBot, el programa que lee cada día los calendarios públicos de torneos de golf para Banderín, cómo se comporta y cómo pedir que no visite tu web.">
+<link rel="canonical" href="https://banderin.es/robot/">
+<link rel="icon" href="/icons/icon.svg" type="image/svg+xml">
+<style>
+@font-face{font-family:"Public Sans";font-style:normal;font-weight:400;font-display:swap;src:url(/fonts/public-sans-latin-400-normal.woff2) format("woff2")}
+@font-face{font-family:"Public Sans";font-style:italic;font-weight:400;font-display:swap;src:url(/fonts/public-sans-latin-400-italic.woff2) format("woff2")}
+@font-face{font-family:"Public Sans";font-style:normal;font-weight:500;font-display:swap;src:url(/fonts/public-sans-latin-500-normal.woff2) format("woff2")}
+@font-face{font-family:"Public Sans";font-style:normal;font-weight:600;font-display:swap;src:url(/fonts/public-sans-latin-600-normal.woff2) format("woff2")}
+@font-face{font-family:"Public Sans";font-style:normal;font-weight:700;font-display:swap;src:url(/fonts/public-sans-latin-700-normal.woff2) format("woff2")}
+@font-face{font-family:"Libre Caslon Display";font-style:normal;font-weight:400;font-display:swap;src:url(/fonts/libre-caslon-display-latin-400-normal.woff2) format("woff2")}
+@font-face{font-family:"Libre Caslon Display";font-style:italic;font-weight:400;font-display:swap;src:url(/fonts/libre-caslon-display-latin-400-normal.woff2) format("woff2")}
+@font-face{font-family:"Instrument Sans";font-style:normal;font-weight:700;font-display:swap;src:url(/fonts/instrument-sans-latin-700-normal.woff2) format("woff2")}
+</style>
+<style>
+html,body{margin:0}
+body{background:radial-gradient(ellipse at top,#1C4734,#0E2A1E 70%);color:#F4F1E8;font:17px/1.6 "Public Sans",-apple-system,system-ui,sans-serif;padding:32px 18px 60px}
+main{max-width:720px;margin:0 auto;background:#FAF7EE;color:#13201A;border-radius:28px;padding:36px 30px;box-shadow:0 20px 60px rgba(0,0,0,.35)}
+.top{display:flex;align-items:center;gap:10px;font:700 20px "Instrument Sans",-apple-system,sans-serif;color:#13201A;text-decoration:none;margin-bottom:22px}
+.top svg{width:26px;height:26px}
+h1{font:400 42px/1.08 "Libre Caslon Display",Georgia,serif;margin:0 0 14px}
+h2{font:400 26px/1.2 "Libre Caslon Display",Georgia,serif;margin:30px 0 8px}
+p,li{color:#33423A}
+code,pre{font:14px/1.5 ui-monospace,SFMono-Regular,Menlo,monospace;background:#EFE9DA;border-radius:8px}
+code{padding:2px 6px}pre{padding:14px 16px;overflow:auto}
+a{color:#17643F}
+.eb{font:600 12px/1 "Public Sans",sans-serif;letter-spacing:.16em;text-transform:uppercase;color:#8A6A2E;margin:0 0 10px}
+</style>
+</head>
+<body>
+<main>
+<a class="top" href="/"><svg viewBox="0 0 64 64" aria-hidden="true"><line x1="22" y1="10" x2="22" y2="56" stroke="#13201A" stroke-width="4" stroke-linecap="round"/><path d="M23 11l24 8-24 8z" fill="#C9A86A"/></svg>banderín</a>
+<p class="eb">Para administradores de webs</p>
+<h1>BanderinBot, el robot de Banderín</h1>
+<p>Si ves <code>BanderinBot</code> en los registros de tu web, es el programa con el que <a href="/">Banderín</a> reúne en un solo sitio los torneos de golf que se juegan en España, para que los golfistas los encuentren y se inscriban en la página oficial de cada uno.</p>
+<h2>Qué hace</h2>
+<ul>
+<li>Lee calendarios de torneos que ya son públicos: fechas, nombre del torneo, campo, modalidad y enlace de inscripción.</li>
+<li>Pasa como mucho tres veces al día y hace una sola petición por segundo a cada web.</li>
+<li>Respeta el archivo <code>robots.txt</code>: si una ruta está prohibida, no la visita.</li>
+<li>No recoge datos personales ni nombres de jugadores, ni copia fotos, logotipos o textos.</li>
+<li>Cada torneo publicado en Banderín enlaza a su página oficial, donde se hace la inscripción.</li>
+</ul>
+<h2>Cómo reconocerlo</h2>
+<p>Se presenta con este agente de usuario:</p>
+<pre>Mozilla/5.0 (compatible; BanderinBot/1.0; +https://banderin.es/robot)</pre>
+<h2>Cómo pedir que no visite tu web</h2>
+<p>Añade estas líneas a tu <code>robots.txt</code> y dejará de visitarla en la siguiente pasada:</p>
+<pre>User-agent: BanderinBot
+Disallow: /</pre>
+<p>También puedes escribirnos al correo del <a href="/#aviso-legal">aviso legal</a> para que corrijamos un dato, retiremos tus torneos o hablemos de colaborar. Respondemos en un máximo de 72 horas hábiles.</p>
+<p><a href="/#aviso-legal">Aviso legal</a> · <a href="/#privacidad">Privacidad</a></p>
+</main>
+</body>
+</html>

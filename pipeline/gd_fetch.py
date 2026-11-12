@@ -1,3 +1,4 @@
+import sys as _s, os as _o; _s.path.insert(0, _o.path.dirname(_o.path.abspath(__file__))); import red  # BanderinBot: robots.txt, pausa e identificación
 import json,urllib.request,urllib.parse,datetime as dt,time,os,concurrent.futures as cf
 B='https://www.golfdirecto.com/api/v2/public/tournament/last'
 def get(url):

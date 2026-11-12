@@ -1,3 +1,4 @@
+import sys as _s, os as _o; _s.path.insert(0, _o.path.dirname(_o.path.abspath(__file__))); import red  # BanderinBot: robots.txt, pausa e identificación
 import json,re,os,html,time,urllib.request,concurrent.futures as cf
 L=json.load(open('/home/claude/scr/nc_lists.json'))
 rows={}
