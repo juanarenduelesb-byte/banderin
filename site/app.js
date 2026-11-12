@@ -448,7 +448,7 @@ function renderHome(){
   $('strip').innerHTML=days.map((d,i)=>{const x=D(d);const w=x.getDay();return '<button class="sd'+(w===0||w===6?' we':'')+(d===TODAY?' today':'')+'" data-d="'+d+'" aria-label="'+fDay(d)+': '+cnt(cnts[i])+'"><span class="n">'+cnts[i]+'</span><span class="bar" style="height:'+Math.max(6,Math.round(cnts[i]/mx*120))+'px"></span><span class="w">'+x.toLocaleDateString(LOC,{weekday:'short'}).replace('.','')+'</span><span class="d">'+x.getDate()+'</span></button>'}).join('');
   // Banda de fuentes
   const ok=SRC.filter(s=>s.volcada).length;
-  $('bandTxt').textContent=L('Cada mañana se revisan {n} fuentes: las plataformas de inscripción NextCaddy y Golf Directo, la Federación Valenciana, la RFEG y otros organizadores.',{n:ok})+' '+revText()+' '+L('Cada enlace se comprueba antes de publicarse.');
+  $('bandTxt').textContent=L('Cada mañana se revisan los calendarios públicos de plataformas de inscripción, federaciones y otros organizadores.')+' '+revText()+' '+L('Cada enlace se comprueba antes de publicarse. Banderín solo reúne esta información para que sea fácil de encontrar: los torneos son de sus organizadores y la inscripción se hace siempre en su web.');
   const sl=sealText();['hSeal','pSeal'].forEach(id=>{$(id).innerHTML='<i></i>'+esc(sl)});
   renderMap();
 }
