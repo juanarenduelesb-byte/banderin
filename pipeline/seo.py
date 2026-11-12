@@ -122,7 +122,21 @@ def plural(n, one, many):
 
 # ---------------------------------------------------------------- plantilla
 
-CSS_LINK = '<link rel="stylesheet" href="/seo.css">'
+def _ver(name):
+    import hashlib
+    f = SITE / name
+    return hashlib.sha1(f.read_bytes()).hexdigest()[:10] if f.exists() else '0'
+
+
+def versionar(html):
+    """Pone ?v=<huella> a los scripts y estilos propios. Cloudflare obliga a los navegadores a guardar
+    los .js 4 horas; con la huella en el enlace, en cuanto cambia el archivo el navegador pide el nuevo."""
+    html = re.sub(r'(<script src="/)([\w.-]+\.js)(?:\?v=\w+)?(")', lambda m: m.group(1) + m.group(2) + '?v=' + _ver(m.group(2)) + m.group(3), html)
+    html = re.sub(r'(<script src="/app\.js\?v=\w+")(?: data-pasados="\w+")?', lambda m: m.group(1) + ' data-pasados="%s"' % _ver('pasados.js'), html)
+    return html
+
+
+CSS_LINK = '<link rel="stylesheet" href="/seo.css?v=%s">' % _ver('seo.css')
 
 
 def head(title, desc, path, robots='index,follow,max-image-preview:large', ld=()):
@@ -424,6 +438,7 @@ def main():
             'e inscripción. Actualizado cada mañana.' % hund)
     s = re.sub(r'(<meta (?:name="description"|property="og:description"|name="twitter:description") content=")[^"]*(")',
                lambda m: m.group(1) + desc + m.group(2), s)
+    s = versionar(s)
     idx.write_text(s, encoding='utf-8')
 
     # Portada en inglés: misma aplicación, servida en /en/

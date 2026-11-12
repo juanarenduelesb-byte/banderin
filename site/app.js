@@ -1,4 +1,5 @@
 'use strict';
+const PASV=(document.currentScript&&document.currentScript.dataset.pasados)||'';
 const T=(window.TORNEOS||[]).map(t=>Object.assign({},t)),SRC=window.FUENTES||[];
 const LANG=window.LANG||'es',LOC=LANG==='en'?'en-GB':'es-ES';
 const L=(s,o)=>{let r=LANG==='en'&&window.EN&&window.EN[s]!=null?window.EN[s]:s;if(o)for(const k in o)r=r.split('{'+k+'}').join(o[k]);return r};
@@ -309,7 +310,7 @@ function openResults(){
   $('resLede').textContent=L('Banderín enlaza a la clasificación oficial de cada torneo en cuanto el organizador la publica. Marca los que has jugado y tendrás tu historial aquí.');
   if(rLoaded){renderResults();return}
   $('rlist').innerHTML='<div class="empty"><b>'+L('Cargando resultados…')+'</b></div>';
-  const sc=document.createElement('script');sc.src='/pasados.js';sc.onload=()=>{rLoaded=true;
+  const sc=document.createElement('script');sc.src='/pasados.js'+(PASV?'?v='+PASV:'');sc.onload=()=>{rLoaded=true;
     const P=window.PASADOS||[];fill($('rccaa'),[...new Set(P.map(t=>t.ccaa))].filter(v=>v&&v!=='Por confirmar').sort((a,b)=>V(a).localeCompare(V(b),LANG)),'Todas las comunidades');renderResults()};
   sc.onerror=()=>{$('rlist').innerHTML='<div class="empty"><b>'+L('No se han podido cargar los resultados.')+'</b>'+L('Vuelve a intentarlo en un momento.')+'</div>'};
   document.head.appendChild(sc);
