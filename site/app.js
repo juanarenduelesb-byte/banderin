@@ -109,9 +109,31 @@ fill($('fccaa'),uniq('ccaa'),'Todas');fill($('fcat'),uniq('cat'),'Todas');
 $('fst').innerHTML=[['','Cualquiera'],['open','Abierta'],['soon','Abre pronto'],['ask','Consultar'],['closed','Cerrada']].map(o=>'<option value="'+o[0]+'">'+L(o[1])+'</option>').join('');
 function provs(){const c=$('fccaa').value;fill($('fprov'),uniq('prov',c?T.filter(t=>t.ccaa===c):T),'Todas')}
 provs();
-$('city').innerHTML='<option value="">'+L('¿Desde dónde sales?')+'</option>'+PROV.map((p,i)=>'<option value="'+i+'">'+esc(p[0])+'</option>').join('');
+$('city').innerHTML='<option value="">'+L('¿Desde dónde sales?')+'</option>'+(navigator.geolocation?'<option value="gps">'+L('Usar mi ubicación actual')+'</option>':'')+PROV.map((p,i)=>'<option value="'+i+'">'+esc(p[0])+'</option>').join('');
 $('city').value=store.get('city','');$('radius').value=store.get('radius','');
-const here=()=>{const v=$('city').value;return v===''?null:[PROV[v][2],PROV[v][3]]};
+// Ubicación exacta: solo con el permiso del navegador; se usa en este dispositivo para calcular distancias
+// y no se guarda ni se envía a ningún sitio (solo se recuerda que elegiste «Usar mi ubicación»).
+let GEO=null,geoPrev='';
+const here=()=>{const v=$('city').value;if(v==='gps')return GEO?[GEO[0],GEO[1]]:null;return v===''||!PROV[v]?null:[PROV[v][2],PROV[v][3]]};
+const cityName=()=>{const v=$('city').value;return v==='gps'?L('tu ubicación'):(PROV[v]?PROV[v][0]:'')};
+function geoMsg(t){let m=$('geomsg');if(!m){m=document.createElement('div');m.id='geomsg';m.className='geomsg';m.setAttribute('role','status');document.body.appendChild(m)}
+  m.textContent=t;m.classList.add('on');clearTimeout(geoMsg.t);geoMsg.t=setTimeout(()=>m.classList.remove('on'),6000)}
+function setCity(v){$('city').value=v;store.set('city',v);['hcity','pcity'].forEach(id=>{if($(id))$(id).value=v})}
+function locate(quiet){
+  if(!navigator.geolocation){if(!quiet)geoMsg(L('Tu navegador no permite compartir la ubicación.'));setCity(geoPrev);return}
+  ['city','hcity','pcity'].forEach(id=>{const o=$(id)&&$(id).querySelector('option[value="gps"]');if(o)o.textContent=L('Buscando tu ubicación…')});
+  navigator.geolocation.getCurrentPosition(pos=>{
+    GEO=[pos.coords.latitude,pos.coords.longitude];geoLabel();setCity('gps');
+    if(!$('radius').value){$('radius').value=$('hrad')?$('hrad').value||'100':'100';store.set('radius',$('radius').value)}
+    if($('radius').value)$('sort').value='dist';render();renderHome();
+  },err=>{GEO=null;geoLabel();setCity(geoPrev==='gps'?'':geoPrev);render();renderHome();
+    if(!quiet)geoMsg(err.code===1?L('No has dado permiso para usar tu ubicación. Puedes activarlo en los ajustes del navegador o elegir tu ciudad.'):L('No hemos podido saber dónde estás. Elige tu ciudad en la lista.'))
+  },{enableHighAccuracy:false,timeout:12000,maximumAge:600000})}
+function geoLabel(){['city','hcity','pcity'].forEach(id=>{const o=$(id)&&$(id).querySelector('option[value="gps"]');if(o)o.textContent=GEO?L('Mi ubicación'):L('Usar mi ubicación actual')})}
+function cityPick(el){const v=el.value;if(v==='gps'&&!GEO){locate(false);return true}geoPrev=v;return false}
+if($('city').value==='gps'){ // al volver: solo se pide sin preguntar si el permiso ya estaba concedido
+  const ask=()=>locate(true);
+  if(navigator.permissions&&navigator.permissions.query)navigator.permissions.query({name:'geolocation'}).then(r=>{if(r.state==='granted')ask();else setCity('')}).catch(()=>setCity(''));else setCity('')}
 const km=t=>{const h=here();return h&&t.ll?Math.round(hav(h,t.ll)):null};
 
 const norm=s=>s.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g,'');
@@ -163,7 +185,7 @@ function fillDetail(d,t,modal){
   if(t.op)facts.push(['Abre inscripción',fShort(t.op)]);if(t.cl)facts.push(['Cierra inscripción',fShort(t.cl)]);
   if(t.priceNote)facts.push(['Sobre el precio',LANG==='en'?t.priceNote.replace(/^Desde (.*?) €; hay (\d+) tarifas$/,'From €$1; $2 rates').replace('Precio de la inscripción online','Online entry price').replace('Según las condiciones publicadas','According to the published conditions').replace(/desde ([\d.,]+) € hasta ([\d.,]+) €/,'from €$1 to €$2'):t.priceNote,1]);
   const fv=fit(t);if(fv)facts.push(['Tu perfil',fv.ok?L('Encaja con lo publicado'):L('No encaja')+': '+fv.why.join(', '),1,fv.ok?'fit':'nofitf']);
-  if(k!=null)facts.push(['Distancia',(k<5?L('Menos de 5 km'):'≈ '+k+' km')+' '+L('desde')+' '+PROV[$('city').value][0],1]);
+  if(k!=null)facts.push(['Distancia',(k<5?L('Menos de 5 km'):'≈ '+k+' km')+' '+L('desde')+' '+cityName(),1]);
   const chg=chgFor(t.url);
   const same=T.filter(x=>x.club===t.club&&x.i!==t.i&&x.sk!=='done').slice(0,4);
   d.innerHTML='<div class="dmap">'+greenSvg(hash(t.club||t.n))+'<span class="where">'+esc(t.prov!=='Por confirmar'?t.prov:V(t.ccaa))+'</span><button class="icon-btn dclose" data-act="close" aria-label="'+L('Cerrar ficha')+'">'+I.x+'</button></div>'+
@@ -255,7 +277,7 @@ function route(){
 const inputs=()=>document.querySelectorAll('#controls select,#controls input');
 inputs().forEach(el=>el.addEventListener('input',()=>{
   if(el.id==='fccaa')provs();
-  if(el.id==='city')store.set('city',el.value);
+  if(el.id==='city'){if(cityPick(el))return;store.set('city',el.value)}
   if(el.id==='radius'){store.set('radius',el.value);if(el.value&&here())$('sort').value='dist'}
   render()}));
 $('sort').addEventListener('input',render);
@@ -391,7 +413,7 @@ function renderHome(){
   let we=weAll.slice();
   if(h){we=we.filter(t=>km(t)!=null&&(!rad||km(t)<=rad)).sort((a,b)=>km(a)-km(b))}
   else we.sort((a,b)=>(a.sk==='open'?0:1)-(b.sk==='open'?0:1)||(a.org==='Federación'?0:1)-(b.org==='Federación'?0:1)||a.s.localeCompare(b.s));
-  const city=h?PROV[$('city').value][0]:null;
+  const city=h?cityName():null;
   $('weTitle').textContent=h?(we.length?L(rad?'{n} este finde a menos de {r} km de {c}.':'{n} este finde cerca de {c}.',{n:cnt(we.length),r:rad,c:city}):L('Nada este finde cerca de {c}. Amplía la distancia.',{c:city})):L('Este fin de semana se juegan {n} torneos.',{n:weAll.length});
   $('weCards').innerHTML=we.slice(0,12).map(hcard).join('')+(we.length>12||!h?'<button class="hcard more" data-go="we"><b class="num">'+(h?we.length:weAll.length)+'</b>'+L('Ver todos los de este finde')+'</button>':'')||'';
   // Cierra pronto
@@ -451,7 +473,7 @@ function renderSide(S,pc){
 // Eventos de portada
 $('hcity').innerHTML=$('city').innerHTML.replace(L('¿Desde dónde sales?'),L('Tu ciudad'));$('hcity').value=$('city').value;if($('radius').value)$('hrad').value=$('radius').value;
 $('hForm').addEventListener('submit',e=>{e.preventDefault();$('city').value=$('hcity').value;$('radius').value=$('hcity').value?$('hrad').value:'';store.set('city',$('city').value);store.set('radius',$('radius').value);goList(()=>{qOn.add('we')},true)});
-$('hcity').addEventListener('input',()=>{$('city').value=$('hcity').value;store.set('city',$('city').value);if($('hcity').value&&!$('radius').value){$('radius').value=$('hrad').value;store.set('radius',$('radius').value)}render()});
+$('hcity').addEventListener('input',()=>{if(cityPick($('hcity')))return;$('city').value=$('hcity').value;store.set('city',$('city').value);if($('hcity').value&&!$('radius').value){$('radius').value=$('hrad').value;store.set('radius',$('radius').value)}render()});
 $('hrad').addEventListener('input',()=>{if($('hcity').value){$('radius').value=$('hrad').value;store.set('radius',$('radius').value);render()}});
 $('v-inicio').addEventListener('click',e=>{
   const b=e.target.closest('[data-i]');if(b&&!b.closest('#map')){openModal(+b.dataset.i);return}
@@ -544,7 +566,7 @@ $('pform').onsubmit=e=>{
   const sx=(document.querySelector('input[name=psexo]:checked')||{}).value||null;
   PERF={v:1,hcp:h,nac:+$('pnac').value||null,sexo:sx,fed:$('pfed').value||null,clubs:pClubs.slice(),ts:Date.now()};
   raw.set('perfil',PERF);if(typeof syncAvisos==='function')syncAvisos();
-  $('city').value=$('pcity').value;store.set('city',$('city').value);$('radius').value=$('pradius').value;store.set('radius',$('radius').value);
+  if($('pcity').value==='gps'&&!GEO){geoPrev=$('city').value;locate(false)}else{$('city').value=$('pcity').value;store.set('city',$('city').value)}$('radius').value=$('pradius').value;store.set('radius',$('radius').value);
   if($('hcity'))$('hcity').value=$('city').value;
   render();renderPerfil();
   $('pstat').textContent=L('Perfil guardado.');setTimeout(()=>{$('pstat').textContent=''},3500);
@@ -668,7 +690,7 @@ $('pavStop').onclick=async()=>{const b=$('pavStop');
 // Se enseña una vez; si se cierra no vuelve en 30 días (banderin.avpop, preferencia de interfaz).
 function avPopProvs(){const cur=(SIGO.prov[0])||(PERF&&PERF.prov)||cityProv()||'';
   $('avPopProv').innerHTML='<option value="">'+L('¿De qué provincia quieres avisos?')+'</option>'+PROVS.map(p=>'<option value="'+esc(p)+'"'+(p===cur?' selected':'')+'>'+esc(p)+'</option>').join('')}
-function cityProv(){const c=$('city')&&$('city').value;if(!c)return'';const o=$('city').selectedOptions[0];const tx=o?o.textContent:'';return PROVS.find(p=>tx.indexOf(p)>=0)||''}
+function cityProv(){const c=$('city')&&$('city').value;if(!c)return'';if(c==='gps'){if(!GEO)return'';let b=null,bd=1e9;PROV.forEach(p=>{const d=hav(GEO,[p[2],p[3]]);if(d<bd){bd=d;b=p}});const tx=b?b[0]:'';return PROVS.find(p=>tx.indexOf(p)>=0)||''}const o=$('city').selectedOptions[0];const tx=o?o.textContent:'';return PROVS.find(p=>tx.indexOf(p)>=0)||''}
 function avFabSync(){const show=avOn&&!(AV&&(AV.tok||AV.pend))&&$('avPop').hidden;$('avFab').hidden=!show}
 function avPopOpen(auto){
   if(!avOn||(AV&&(AV.tok||AV.pend)))return;
