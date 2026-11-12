@@ -11,7 +11,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:d9a662f876b1b1039928@banderin.es
-DTSTAMP:20261112T125339Z
+DTSTAMP:20261112T204614Z
 DTSTART;VALUE=DATE:20261112
 DTEND;VALUE=DATE:20261113
 SUMMARY:Ranking 9 Hoyos
@@ -24,5 +24,21 @@ DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6af1f3443f87d1a99fec6030/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:390e4b2660dca5b519e0@banderin.es
+DTSTAMP:20261112T204614Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:Ranking 9 Hoyos
+LOCATION:Club de Golf Zamora Valderrey\, Zamora\, Zamora
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 12 de noviembre\, cierra el 14 de noviembre.\nPrecio: 7\,4 €.\nFicha 
+ oficial: https://www.golfdirecto.com/micro/game/6af5f78ba1e39bb384d90253/s
+ ummary\nConfirma fechas y condiciones en la web del organizador. Vía Band
+ erín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6af5f78ba1e39bb384d90253/summary
 END:VEVENT
 END:VCALENDAR

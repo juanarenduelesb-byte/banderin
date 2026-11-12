@@ -11,7 +11,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:33280761c73375e65b8d@banderin.es
-DTSTAMP:20261112T125339Z
+DTSTAMP:20261112T204614Z
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261115
 SUMMARY:Final Circuito 4ª\, 5ª y 6ª categoría campo corto
@@ -23,5 +23,20 @@ DESCRIPTION:Absoluto · Stableford · Individual\nInscripción: abre el 21
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.nextcaddy.com/tour/61246
+END:VEVENT
+BEGIN:VEVENT
+UID:3a79b22518cd5fb5fd9d@banderin.es
+DTSTAMP:20261112T204614Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
+SUMMARY:4ª Prueba Liga "Martes de P&P"
+LOCATION:Arenal Golf\, Benalmádena\, Málaga
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 12 de noviembre\, cierra el 12 de noviembre.\nPrecio: Gratis.\nFicha of
+ icial: https://www.nextcaddy.com/tour/75328\nConfirma fechas y condiciones
+  en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nextcaddy.com/tour/75328
 END:VEVENT
 END:VCALENDAR

@@ -10,8 +10,23 @@ X-WR-TIMEZONE:Europe/Madrid
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
+UID:db69a0eec59ff6c669d7@banderin.es
+DTSTAMP:20261112T204614Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:Trofeo Noviembre Infantil
+LOCATION:Club de Golf Pozoblanco\, Pozoblanco\, Córdoba
+DESCRIPTION:Juvenil · Stableford · Individual\nInscripción: abre el 12 d
+ e noviembre\, cierra el 13 de noviembre.\nPrecio: Gratis.\nFicha oficial: 
+ https://www.nextcaddy.com/tour/75323\nConfirma fechas y condiciones en la 
+ web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nextcaddy.com/tour/75323
+END:VEVENT
+BEGIN:VEVENT
 UID:683b72523fb0ad24eba7@banderin.es
-DTSTAMP:20261112T125339Z
+DTSTAMP:20261112T204614Z
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
 SUMMARY:Trofeo Social de Otoño
