@@ -14,5 +14,5 @@ python3 -I red.py get "https://golfcv.com/wp-json/bt_ws/v1/torneos_lt/?criterio=
 python3 -I rfeg_clubs.py
 python3 -I fed_extra.py || echo "AVISO: calendarios federativos fallaron"
 python3 -I build.py
-python3 -I check.py | head -20
+BANDERIN_PAUSA=0.25 python3 -I check.py | head -20
 python3 -I emit.py "$OUT" "${2:-}"
