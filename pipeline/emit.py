@@ -42,7 +42,9 @@ def gd_price(o,gx):
 out=[]
 for t in T:
     ok,st,s=(L.get(t['url'])+[None,None,None])[:3] if t['url'] in L else (None,None,None)
-    if ok is False or s=='cancelled': continue
+    # Solo se retira un torneo con una señal clara: cancelado, página borrada (404/410) o la web dice que no existe.
+    # Si la comprobación no obtiene respuesta (caída o lentitud de la web), el torneo se mantiene.
+    if s=='cancelled' or (ok is False and st in (200,404,410)): continue
     past=t['e']<TODAY
     if past:
         o={k:t[k] for k in KEEP_PAST if t.get(k) not in (None,'')}

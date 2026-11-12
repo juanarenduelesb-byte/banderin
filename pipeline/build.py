@@ -179,7 +179,7 @@ FEDNAME = {'AM00':'Real Federación Andaluza de Golf','CM00':'Real Federación d
 MES = {'ene':1,'feb':2,'mar':3,'abr':4,'may':5,'jun':6,'jul':7,'ago':8,'sep':9,'oct':10,'nov':11,'dic':12}
 for o in NC.values():
     core = o['core']
-    if re.search(r'\bFestivo\b', o['n']) or re.search(r'curso|examen|charla|reuni[oó]n|asamblea|clinic', strip(o['n'])): continue
+    if re.search(r'\bFestivo\b', o['n']) or re.search(r'\bcursos?\b|\bexamen\b|\bcharla\b|\breuni[oó]n\b|\basamblea\b|\bclinics?\b', strip(o['n'])): continue
     cm = re.search(r'\|\s*([A-Z0-9]{4})\s*\|', core)
     code = cm.group(1) if cm else None
     dates = re.findall(r'\|\s*(?:lun|mar|mi[eé]|jue|vie|s[aá]b|dom)\s*\|\s*(\d{1,2})\s*\|\s*(ene|feb|mar|abr|may|jun|jul|ago|sep|oct|nov|dic)\s*\|', core)
@@ -221,8 +221,8 @@ for x in GD.values():
     if not cl or cl['country'] != 'ESP': continue
     if x.get('__privacy') != 'public' or (g.get('privacy') or {}).get('privacy') not in (None, 'public'): continue
     name = x['name']
-    if re.search(r'test|prueba de diseño|modelo hdcp|^entreno|reserva|clase|clinic|curso', strip(name)): continue
-    if re.search(r'only members|members only|solo socios|\(members\)|socios exclusivamente|exclusivo socios', strip(name)): continue
+    if re.search(r'\btest\b|prueba de diseño|modelo hdcp|^entreno|\breservas?\b(?! del?\b)|\bclases?\b|\bclinics?\b|\bcursos?\b', strip(name)): continue
+    # Los torneos solo para socios se publican: interesan a los socios de ese club (la web los marca como «solo socios»).
     s = local(g.get('scheduleStartDate') if x.get('__isSingleGame') else (x.get('__calendarStartDateVisible') or g.get('scheduleStartDate')))
     e = local(x.get('__calendarEndDate')) if not x.get('__isSingleGame') else s
     e = e or s
@@ -299,6 +299,26 @@ for x in EXTRA:
 
 # ---------- Duplicados ----------
 def nkey(s): return ' '.join(sorted(toks(s)))
+# Rasgos que distinguen torneos distintos del mismo día y club: categoría, sexo, número de prueba, turno, formato.
+DISC = {
+    'cat': r'benjamin(?:es)?|alevin(?:es)?|infantil(?:es)?|cadetes?|junior|juvenil(?:es)?|sub\s?-?\d\d|u\d\d|seniors?|mid[- ]?amateur|absolut[oa]s?|boys|girls|escuela|pequecircuito|profesional(?:es)?|pro[- ]?am',
+    'sex': r'masculin[oa]s?|femenin[oa]s?|caballeros|damas|senoras|mixt[oa]s?|ladies|men|women',
+    'num': r'\d+(?:a|o|er)?',
+    'turno': r'manana|tarde',
+    'form': r'parejas|individual|fourball|foursome|greensome|scramble|stableford|medal|match ?play|pitch|p ?& ?p',
+}
+def disc(n):
+    t = strip(n)
+    return {k: frozenset((re.sub(r'\D', '', m.group(0)) if k == 'num' else m.group(0).replace(' ', '')) for m in re.finditer(r'\b(?:' + rx + r')\b', t)) for k, rx in DISC.items()}
+def distintos(a, b):
+    """True si los nombres dicen claramente que son torneos distintos (p. ej. Alevín y Benjamín el mismo día)."""
+    da, db = disc(a['n']), disc(b['n'])
+    for k in da:
+        if da[k] and db[k] and da[k] != db[k]:
+            return True
+    return False
+import collections as _c
+SEPARADOS = _c.Counter()
 PRI = {'NextCaddy': 3, 'Federación de Golf de la Comunitat Valenciana': 3, 'RFEG': 4, 'Golf Directo': 2}
 T.sort(key=lambda t: (t['s'], -PRI.get(t['src'], 1)))
 kept = []
@@ -310,7 +330,11 @@ for t in T:
         sim = difflib.SequenceMatcher(None, nkey(k['n']), nkey(t['n'])).ratio()
         tk, tt = toks(k['n']) - {'torneo','inscripciones','inscripcion'}, toks(t['n']) - {'torneo','inscripciones','inscripcion'}
         subset = tk and tt and (tk <= tt or tt <= tk) and min(len(tk), len(tt)) >= 2
-        if (same_place and (sim > 0.72 or subset)) or sim > 0.9:
+        if not ((same_place and (sim > 0.72 or subset)) or sim > 0.9): continue
+        # Misma plataforma y distinto enlace = la propia plataforma los publica como torneos distintos.
+        if k['src'] == t['src'] and k['url'] != t['url']: SEPARADOS['misma fuente'] += 1; continue
+        if distintos(k, t): SEPARADOS['categoría, sexo, prueba o turno distintos'] += 1; continue
+        if True:
             dup = True
             for f in ('price', 'op', 'cl', 'plazas', 'll', 'city', 'prov', 'res'):
                 if k.get(f) in (None, '') and t.get(f) not in (None, ''): k[f] = t[f]
@@ -322,7 +346,7 @@ for t in T:
 json.dump(GEO, open(GEO_P, 'w'), ensure_ascii=False)
 json.dump(kept, open(SCR + 'tournaments.json', 'w'), ensure_ascii=False)
 import collections
-print('total', len(T), 'tras duplicados', len(kept))
+print('total', len(T), 'tras duplicados', len(kept), '· no fusionados por ser distintos:', dict(SEPARADOS))
 print(collections.Counter(t['src'] for t in kept))
 print(collections.Counter(t['ccaa'] for t in kept).most_common())
 print('sin coordenadas', sum(1 for t in kept if not t.get('ll')), 'sin provincia', sum(1 for t in kept if not t.get('prov')))
