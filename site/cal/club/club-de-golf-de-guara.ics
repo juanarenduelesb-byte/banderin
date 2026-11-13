@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Banderin//Torneos de golf//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Banderín · Club de Golf de Guara
+X-WR-CALDESC:Torneos de golf: Club de Golf de Guara. Se actualiza cada mañ
+ ana. https://banderin.es
+X-WR-TIMEZONE:Europe/Madrid
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:3ebe87c74f03946d8304@banderin.es
+DTSTAMP:20261113T200650Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:Torneo Social Golf de Nueno Guara
+LOCATION:Club de Golf de Guara\, Arascues\, Huesca
+DESCRIPTION:Social de club · Medal Play · Individual\nFicha oficial: http
+ s://www.golfdirecto.com/micro/game/6af73189aef9248991dfb2f2/summary\nConfi
+ rma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6af73189aef9248991dfb2f2/summary
+END:VEVENT
+END:VCALENDAR

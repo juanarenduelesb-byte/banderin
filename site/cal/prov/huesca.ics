@@ -10,8 +10,22 @@ X-WR-TIMEZONE:Europe/Madrid
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
+UID:3ebe87c74f03946d8304@banderin.es
+DTSTAMP:20261113T200650Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:Torneo Social Golf de Nueno Guara
+LOCATION:Club de Golf de Guara\, Arascues\, Huesca
+DESCRIPTION:Social de club · Medal Play · Individual\nFicha oficial: http
+ s://www.golfdirecto.com/micro/game/6af73189aef9248991dfb2f2/summary\nConfi
+ rma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6af73189aef9248991dfb2f2/summary
+END:VEVENT
+BEGIN:VEVENT
 UID:c916930c1a35a1dfffa7@banderin.es
-DTSTAMP:20261113T145244Z
+DTSTAMP:20261113T200650Z
 DTSTART;VALUE=DATE:20270417
 DTEND;VALUE=DATE:20270418
 SUMMARY:Ranking Absoluto FAG 2027 - 4ª Prueba
@@ -25,7 +39,7 @@ URL:https://www.aragongolf.com/torneos-ficha/2012/
 END:VEVENT
 BEGIN:VEVENT
 UID:5c81ae4638efe624f225@banderin.es
-DTSTAMP:20261113T145244Z
+DTSTAMP:20261113T200650Z
 DTSTART;VALUE=DATE:20270904
 DTEND;VALUE=DATE:20270906
 SUMMARY:Campeonato de Aragón de Parejas 2027
