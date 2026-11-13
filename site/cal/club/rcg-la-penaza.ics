@@ -1,0 +1,54 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Banderin//Torneos de golf//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Banderín · RCG La Peñaza
+X-WR-CALDESC:Torneos de golf: RCG La Peñaza. Se actualiza cada mañana. ht
+ tps://banderin.es
+X-WR-TIMEZONE:Europe/Madrid
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:5fccfaebc6d1b2b22c72@banderin.es
+DTSTAMP:20261113T125055Z
+DTSTART;VALUE=DATE:20270220
+DTEND;VALUE=DATE:20270221
+SUMMARY:Ranking Absoluto FAG 2027 - 2ª Prueba
+LOCATION:RCG La Peñaza\, Zaragoza\, Zaragoza
+DESCRIPTION:Absoluto · Individual\nFicha oficial: https://www.aragongolf.c
+ om/torneos-ficha/2010/\nConfirma fechas y condiciones en la web del organi
+ zador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.aragongolf.com/torneos-ficha/2010/
+END:VEVENT
+BEGIN:VEVENT
+UID:988e91e4ff00e63827fb@banderin.es
+DTSTAMP:20261113T125055Z
+DTSTART;VALUE=DATE:20270703
+DTEND;VALUE=DATE:20270705
+SUMMARY:Campeonato de Aragón Absoluto Masculino 2027
+LOCATION:RCG La Peñaza\, Zaragoza\, Zaragoza
+DESCRIPTION:Absoluto · Individual\nFicha oficial: https://www.aragongolf.c
+ om/torneos-ficha/2016/\nConfirma fechas y condiciones en la web del organi
+ zador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.aragongolf.com/torneos-ficha/2016/
+END:VEVENT
+BEGIN:VEVENT
+UID:fb864a96d051c853b063@banderin.es
+DTSTAMP:20261113T125055Z
+DTSTART;VALUE=DATE:20271002
+DTEND;VALUE=DATE:20271004
+SUMMARY:Copa Federación 2027
+LOCATION:RCG La Peñaza\, Zaragoza\, Zaragoza
+DESCRIPTION:Absoluto · Individual\nFicha oficial: https://www.aragongolf.c
+ om/torneos-ficha/2018/\nConfirma fechas y condiciones en la web del organi
+ zador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.aragongolf.com/torneos-ficha/2018/
+END:VEVENT
+END:VCALENDAR

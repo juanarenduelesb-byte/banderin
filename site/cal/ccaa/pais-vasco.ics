@@ -11,7 +11,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:8c640e03f5f868b31fd9@banderin.es
-DTSTAMP:20261113T081149Z
+DTSTAMP:20261113T125055Z
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
 SUMMARY:Premio Infantil Escuela 18 Hoyos
@@ -26,7 +26,7 @@ URL:https://www.golfdirecto.com/micro/game/6ae1b9aeedb548bf36e3c40c/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:aa7b85a2a9c8c73fcecf@banderin.es
-DTSTAMP:20261113T081149Z
+DTSTAMP:20261113T125055Z
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
 SUMMARY:Premio Infantil Escuela 9 Hoyos
@@ -40,22 +40,23 @@ STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6ae1ba37edb548bf360e8ab9/summary
 END:VEVENT
 BEGIN:VEVENT
-UID:23337dcbd3bb1d2ef77a@banderin.es
-DTSTAMP:20261113T081149Z
+UID:6b0bd71b9d9538baf02a@banderin.es
+DTSTAMP:20261113T125055Z
 DTSTART;VALUE=DATE:20261116
-DTEND;VALUE=DATE:20261118
-SUMMARY:Cto. País Vasco Profesionales
-LOCATION:Real Sociedad de Golf de Neguri\, Algorta\, Bizkaia
-DESCRIPTION:Profesional · Individual\nFicha oficial: https://www.fvgolf.co
- m/es/competiciones/calendario/\nConfirma fechas y condiciones en la web de
- l organizador. Vía Banderín.
+DTEND;VALUE=DATE:20261117
+SUMMARY:Campeonato País Vasco Profesionales
+LOCATION:Real Sociedad Golf de Neguri\, Algorta\, Bizkaia
+DESCRIPTION:Profesional · Medal Play · Individual\nInscripción: abre el 
+ 2 de noviembre\, cierra el 13 de noviembre.\nFicha oficial: https://www.go
+ lfdirecto.com/micro/game/6ad8771b2ab1ab88b171d256/summary\nConfirma fechas
+  y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-URL:https://www.fvgolf.com/es/competiciones/calendario/
+URL:https://www.golfdirecto.com/micro/game/6ad8771b2ab1ab88b171d256/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:5eacc8940f7e0c795083@banderin.es
-DTSTAMP:20261113T081149Z
+DTSTAMP:20261113T125055Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:Ranking 2026 Prueba Final
@@ -70,7 +71,7 @@ URL:https://www.golfdirecto.com/micro/game/6aeb170b50fe8a6f269f2356/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:b341ba3a890b58897297@banderin.es
-DTSTAMP:20261113T081149Z
+DTSTAMP:20261113T125055Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:Torneo Social Basozabal
@@ -85,7 +86,7 @@ URL:https://www.golfdirecto.com/micro/game/6aec4e3a313a6a0df1fc9c23/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:df39f0f0885937b0f755@banderin.es
-DTSTAMP:20261113T081149Z
+DTSTAMP:20261113T125055Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Premio Infantil Escuela 18 Hoyos
@@ -100,7 +101,7 @@ URL:https://www.golfdirecto.com/micro/game/6ae1bac0edb548bf363a980b/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:f6423a8aa02edc7aa1c8@banderin.es
-DTSTAMP:20261113T081149Z
+DTSTAMP:20261113T125055Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Premio Infantil Escuela 9 Hoyos
@@ -115,7 +116,7 @@ URL:https://www.golfdirecto.com/micro/game/6ae1baf7edb548bf3645763d/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:23337dcbd3bb1d2ef77a@banderin.es
-DTSTAMP:20261113T081149Z
+DTSTAMP:20261113T125055Z
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261220
 SUMMARY:Final Ranking FVG

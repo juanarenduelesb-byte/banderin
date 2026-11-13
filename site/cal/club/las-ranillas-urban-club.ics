@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Banderin//Torneos de golf//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Banderín · Las Ranillas Urban Club
+X-WR-CALDESC:Torneos de golf: Las Ranillas Urban Club. Se actualiza cada ma
+ ñana. https://banderin.es
+X-WR-TIMEZONE:Europe/Madrid
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:a78d122d8cdaba212c9e@banderin.es
+DTSTAMP:20261113T125055Z
+DTSTART;VALUE=DATE:20270509
+DTEND;VALUE=DATE:20270510
+SUMMARY:Campeonato de Aragón de Pitch & Putt 2027
+LOCATION:Las Ranillas Urban Club\, Zaragoza\, Zaragoza
+DESCRIPTION:Absoluto · Individual\nFicha oficial: https://www.aragongolf.c
+ om/torneos-ficha/2019/\nConfirma fechas y condiciones en la web del organi
+ zador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.aragongolf.com/torneos-ficha/2019/
+END:VEVENT
+END:VCALENDAR

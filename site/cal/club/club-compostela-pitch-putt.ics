@@ -11,28 +11,30 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:24ba9cdb23cc1b8f7490@banderin.es
-DTSTAMP:20261113T081149Z
+DTSTAMP:20261113T125055Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Benjamines-Final Liga Gallega Juvenil Sub-18
 LOCATION:Club Compostela Pitch & Putt\, A Sionlla\, A Coruña
-DESCRIPTION:Juvenil · Medal Play · Individual\nFicha oficial: https://www
- .golfdirecto.com/micro/game/6a55dbcf0a8b1b9e07dbe5cb/summary\nConfirma fec
- has y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Juvenil · Medal Play · Individual\nInscripción: abre el 17 d
+ e noviembre\, cierra el 24 de noviembre.\nFicha oficial: https://www.golfd
+ irecto.com/micro/game/6a55dbcf0a8b1b9e07dbe5cb/summary\nConfirma fechas y 
+ condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6a55dbcf0a8b1b9e07dbe5cb/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:28d62a580c50b325a9c4@banderin.es
-DTSTAMP:20261113T081149Z
+DTSTAMP:20261113T125055Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Final Liga Gallega Juvenil Sub-18
 LOCATION:Club Compostela Pitch & Putt\, A Sionlla\, A Coruña
-DESCRIPTION:Juvenil · Medal Play · Individual\nFicha oficial: https://www
- .golfdirecto.com/micro/game/6943eb634d9bda753002bebf/summary\nConfirma fec
- has y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Juvenil · Medal Play · Individual\nInscripción: abre el 17 d
+ e noviembre\, cierra el 24 de noviembre.\nFicha oficial: https://www.golfd
+ irecto.com/micro/game/6943eb634d9bda753002bebf/summary\nConfirma fechas y 
+ condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6943eb634d9bda753002bebf/summary

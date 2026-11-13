@@ -11,13 +11,13 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:77dfa77b605e5a0e6dff@banderin.es
-DTSTAMP:20261113T081149Z
+DTSTAMP:20261113T125055Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Campeonato de Madrid Senior Pitch & Putt 2026
 LOCATION:Club de Golf Encinas de Boadilla\, Boadilla del Monte\, Madrid
-DESCRIPTION:Senior · Medal Play · Individual\nInscripción: abre el 14 de
-  noviembre\, cierra el 15 de noviembre.\nPrecio: Gratis.\nFicha oficial: h
+DESCRIPTION:Senior · Medal Play · Individual\nInscripción: abre el 16 de
+  noviembre\, cierra el 23 de noviembre.\nPrecio: 40 €.\nFicha oficial: h
  ttps://www.nextcaddy.com/tour/67787\nConfirma fechas y condiciones en la w
  eb del organizador. Vía Banderín.
 TRANSP:TRANSPARENT

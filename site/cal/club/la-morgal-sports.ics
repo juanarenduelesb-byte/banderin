@@ -10,17 +10,17 @@ X-WR-TIMEZONE:Europe/Madrid
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:9c76fe62da896e78954c@banderin.es
-DTSTAMP:20261113T081149Z
-DTSTART;VALUE=DATE:20261113
-DTEND;VALUE=DATE:20261114
-SUMMARY:Prueba 2
+UID:1d3a68dfdb37ee521a1f@banderin.es
+DTSTAMP:20261113T125055Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:prueba
 LOCATION:La Morgal Sports
 DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
- s://www.golfdirecto.com/micro/game/6af4d2579292980794d1bfcd/summary\nConfi
+ s://www.golfdirecto.com/micro/game/6af6ef30282f3c2d8292c90e/summary\nConfi
  rma fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-URL:https://www.golfdirecto.com/micro/game/6af4d2579292980794d1bfcd/summary
+URL:https://www.golfdirecto.com/micro/game/6af6ef30282f3c2d8292c90e/summary
 END:VEVENT
 END:VCALENDAR
