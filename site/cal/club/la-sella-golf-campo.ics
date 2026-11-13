@@ -10,8 +10,24 @@ X-WR-TIMEZONE:Europe/Madrid
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
+UID:e79764b654ae7896a3b1@banderin.es
+DTSTAMP:20261113T081149Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:VI Torneo "Ka International"
+LOCATION:La Sella Golf (Campo)\, Jesus Pobre\, Alicante
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 3 de noviembre\, cierra el 12 de noviembre.\nPrecio: 55 €.\nFicha ofi
+ cial: https://www.golfdirecto.com/micro/game/6ae9c62230e44f764bcbe926/summ
+ ary\nConfirma fechas y condiciones en la web del organizador. Vía Bander
+ ín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6ae9c62230e44f764bcbe926/summary
+END:VEVENT
+BEGIN:VEVENT
 UID:55c72d76ef70c8f1e07b@banderin.es
-DTSTAMP:20261112T211026Z
+DTSTAMP:20261113T081149Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 SUMMARY:SAS La Sella

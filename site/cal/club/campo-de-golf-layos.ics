@@ -10,36 +10,8 @@ X-WR-TIMEZONE:Europe/Madrid
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:14a20012c093da13b599@banderin.es
-DTSTAMP:20261112T211026Z
-DTSTART;VALUE=DATE:20261112
-DTEND;VALUE=DATE:20261113
-SUMMARY:Ingenieros de Caminos
-LOCATION:Campo de Golf Layos\, Layos\, Toledo
-DESCRIPTION:Social de club · Fourball · Parejas\nFicha oficial: https://w
- ww.golfdirecto.com/micro/game/6af0931989677877bfc24146/summary\nConfirma f
- echas y condiciones en la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.golfdirecto.com/micro/game/6af0931989677877bfc24146/summary
-END:VEVENT
-BEGIN:VEVENT
-UID:1e766d1e656f220710d1@banderin.es
-DTSTAMP:20261112T211026Z
-DTSTART;VALUE=DATE:20261112
-DTEND;VALUE=DATE:20261113
-SUMMARY:Torneo Mcm26 Layos Individual
-LOCATION:Campo de Golf Layos\, Layos\, Toledo
-DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
- s://www.golfdirecto.com/micro/game/6af2e14434e2215974be3d1f/summary\nConfi
- rma fechas y condiciones en la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.golfdirecto.com/micro/game/6af2e14434e2215974be3d1f/summary
-END:VEVENT
-BEGIN:VEVENT
 UID:88a5c571fff5b81f4099@banderin.es
-DTSTAMP:20261112T211026Z
+DTSTAMP:20261113T081149Z
 DTSTART;VALUE=DATE:20261118
 DTEND;VALUE=DATE:20261119
 SUMMARY:Foro 2000 - Legends Tour -Torneo Final-
@@ -53,7 +25,7 @@ URL:https://www.golfdirecto.com/micro/game/6ae8c82647d5a6672955e7e2/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:9284aabdcba7c9bc8b4a@banderin.es
-DTSTAMP:20261112T211026Z
+DTSTAMP:20261113T081149Z
 DTSTART;VALUE=DATE:20261211
 DTEND;VALUE=DATE:20261212
 SUMMARY:Torneo Navidad Tajogolf 2026
@@ -68,7 +40,7 @@ URL:https://www.golfdirecto.com/micro/game/6af1e9c62f0e9df18bc4659e/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:a5c986895e5ab12f3660@banderin.es
-DTSTAMP:20261112T211026Z
+DTSTAMP:20261113T081149Z
 DTSTART;VALUE=DATE:20270130
 DTEND;VALUE=DATE:20270131
 SUMMARY:Torneo no valido

@@ -10,22 +10,8 @@ X-WR-TIMEZONE:Europe/Madrid
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:25437cd62f97b30c1e69@banderin.es
-DTSTAMP:20261112T211026Z
-DTSTART;VALUE=DATE:20261112
-DTEND;VALUE=DATE:20261113
-SUMMARY:Golf Friends 12/11
-LOCATION:Golf Club Peralada\, Peralada\, Girona
-DESCRIPTION:Social de club · Scramble · Parejas\nFicha oficial: https://w
- ww.golfdirecto.com/micro/game/6af2faf92852ee1ced72c299/summary\nConfirma f
- echas y condiciones en la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.golfdirecto.com/micro/game/6af2faf92852ee1ced72c299/summary
-END:VEVENT
-BEGIN:VEVENT
 UID:18120dbab8d1201179a9@banderin.es
-DTSTAMP:20261112T211026Z
+DTSTAMP:20261113T081149Z
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261115
 SUMMARY:Torneig Ginebreda
@@ -39,7 +25,7 @@ URL:https://www.golfdirecto.com/micro/game/6ae886ce47d5a6672991ec33/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:818eb54282e16df5c0b2@banderin.es
-DTSTAMP:20261112T211026Z
+DTSTAMP:20261113T081149Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Campionat de Catalunya Interclubs Absolut 2026

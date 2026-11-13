@@ -10,23 +10,8 @@ X-WR-TIMEZONE:Europe/Madrid
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:05e6a1e2595b32a57596@banderin.es
-DTSTAMP:20261112T211026Z
-DTSTART;VALUE=DATE:20261112
-DTEND;VALUE=DATE:20261113
-SUMMARY:8ª Jornada Race To Barbanza
-LOCATION:C.D. Barbanza Pitch And Putt\, Boiro (boiro)\, A Coruña
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 12 de noviembre\, cierra el 12 de noviembre.\nFicha oficial: https://ww
- w.golfdirecto.com/micro/game/6af5831f06089eb2d9061ee7/summary\nConfirma fe
- chas y condiciones en la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.golfdirecto.com/micro/game/6af5831f06089eb2d9061ee7/summary
-END:VEVENT
-BEGIN:VEVENT
 UID:ab21a076f9ff218d3026@banderin.es
-DTSTAMP:20261112T211026Z
+DTSTAMP:20261113T081149Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
 SUMMARY:8ª Jornada Race To Barbanza viernes
@@ -41,7 +26,7 @@ URL:https://www.golfdirecto.com/micro/game/6af5836506089eb2d90e3559/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:f5a6f50f5b12fbb88d72@banderin.es
-DTSTAMP:20261112T211026Z
+DTSTAMP:20261113T081149Z
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261115
 SUMMARY:8ª Jornada Race To Barbanza (2ª Vuelta)
@@ -56,7 +41,7 @@ URL:https://www.golfdirecto.com/micro/game/6af583a706089eb2d9187643/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:fea4b596b7d79fcafe68@banderin.es
-DTSTAMP:20261112T211026Z
+DTSTAMP:20261113T081149Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:XII Aniversario
@@ -71,7 +56,7 @@ URL:https://www.golfdirecto.com/micro/game/6af1ba4e8527252f6090873b/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:f7e47912722e6d1e5dfd@banderin.es
-DTSTAMP:20261112T211026Z
+DTSTAMP:20261113T081149Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Circuito Barbanza Arousa. 3ª prueba. Boiro
@@ -86,7 +71,7 @@ URL:https://www.golfdirecto.com/micro/game/6ac4cc49457edc1ace625b5e/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:ca8454fe4b1f9e22c56f@banderin.es
-DTSTAMP:20261112T211026Z
+DTSTAMP:20261113T081149Z
 DTSTART;VALUE=DATE:20261220
 DTEND;VALUE=DATE:20261221
 SUMMARY:Circuito Barbanza Arousa. Final A Pobra Do Caramiñal

@@ -10,23 +10,8 @@ X-WR-TIMEZONE:Europe/Madrid
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:6c2cabbc3d38e44c3bd9@banderin.es
-DTSTAMP:20261112T211026Z
-DTSTART;VALUE=DATE:20261112
-DTEND;VALUE=DATE:20261113
-SUMMARY:III Match Amistoso AESGOLF vs RFGM Pitch & Putt
-LOCATION:Ciudad Deportiva Juan Antonio Samaranch\, Colmenar Viejo\, Madrid
-DESCRIPTION:Senior · Equipos\nInscripción: abre el 11 de noviembre\, cier
- ra el 11 de noviembre.\nPrecio: Gratis.\nFicha oficial: https://www.nextca
- ddy.com/tour/75302\nConfirma fechas y condiciones en la web del organizado
- r. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.nextcaddy.com/tour/75302
-END:VEVENT
-BEGIN:VEVENT
 UID:fd8365c860f33099fe21@banderin.es
-DTSTAMP:20261112T211026Z
+DTSTAMP:20261113T081149Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Torneo Mixto de Golf Adaptado
