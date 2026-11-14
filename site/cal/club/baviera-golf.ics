@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Banderin//Torneos de golf//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Banderín · Baviera Golf
+X-WR-CALDESC:Torneos de golf: Baviera Golf. Se actualiza cada mañana. http
+ s://banderin.es
+X-WR-TIMEZONE:Europe/Madrid
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:2101fb8e47e39225b136@banderin.es
+DTSTAMP:20261114T120325Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:Rrr
+LOCATION:Baviera Golf\, Caleta de Velez\, Málaga
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 14 de noviembre\, cierra el 14 de noviembre.\nPrecio: Gratis.\nFicha of
+ icial: https://www.nextcaddy.com/tour/75356\nConfirma fechas y condiciones
+  en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nextcaddy.com/tour/75356
+END:VEVENT
+END:VCALENDAR

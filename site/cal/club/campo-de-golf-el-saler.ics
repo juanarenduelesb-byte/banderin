@@ -11,13 +11,13 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:16ccc63528b606242c24@banderin.es
-DTSTAMP:20261113T203307Z
+DTSTAMP:20261114T120325Z
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261120
 SUMMARY:The 12 - Round 11 - The Lamont Classic - El Saler - 106358
 LOCATION:Campo de Golf el Saler\, Valencia\, Valencia
 DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 12 de octubre\, cierra el 18 de noviembre.\nPrecio: 75 €.\nFicha ofic
+ el 12 de octubre\, cierra el 16 de noviembre.\nPrecio: 75 €.\nFicha ofic
  ial: https://www.golfdirecto.com/micro/game/69b03db2d9295ef7aa995fca/summa
  ry\nConfirma fechas y condiciones en la web del organizador. Vía Banderí
  n.

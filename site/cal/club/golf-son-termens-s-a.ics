@@ -11,7 +11,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:e46ee11b2020f8e4838f@banderin.es
-DTSTAMP:20261113T203307Z
+DTSTAMP:20261114T120325Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:Torneo Social
@@ -24,20 +24,5 @@ DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6ae7514804e5219251179f2a/summary
-END:VEVENT
-BEGIN:VEVENT
-UID:81325d52333fcb8a5599@banderin.es
-DTSTAMP:20261113T203307Z
-DTSTART;VALUE=DATE:20261206
-DTEND;VALUE=DATE:20261207
-SUMMARY:Anual Puntuable 2026
-LOCATION:Golf Son Termens S.a\, Son Termes\, Illes Balears
-DESCRIPTION:Absoluto · Stableford · Individual\nInscripción: abre el 16 
- de marzo\, cierra el 20 de noviembre.\nFicha oficial: https://www.golfdire
- cto.com/micro/game/69b547a6c6a4b93893950b58/summary\nConfirma fechas y con
- diciones en la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.golfdirecto.com/micro/game/69b547a6c6a4b93893950b58/summary
 END:VEVENT
 END:VCALENDAR

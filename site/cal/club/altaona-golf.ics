@@ -10,8 +10,22 @@ X-WR-TIMEZONE:Europe/Madrid
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
+UID:143509cbe3b2ccf51966@banderin.es
+DTSTAMP:20261114T120325Z
+DTSTART;VALUE=DATE:20261117
+DTEND;VALUE=DATE:20261118
+SUMMARY:AltaonaGolf Society
+LOCATION:Altaona Golf\, Baños y Mendigo\, Murcia
+DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
+ s://www.golfdirecto.com/micro/game/6af845d3ac1d012c79676fb4/summary\nConfi
+ rma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6af845d3ac1d012c79676fb4/summary
+END:VEVENT
+BEGIN:VEVENT
 UID:9a2f9e00bc87a5e4d259@banderin.es
-DTSTAMP:20261113T203307Z
+DTSTAMP:20261114T120325Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:Mensual Juvenil - Altaona Golf

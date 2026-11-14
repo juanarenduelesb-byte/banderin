@@ -11,7 +11,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:cb9f38af6fb12194a378@banderin.es
-DTSTAMP:20261113T203307Z
+DTSTAMP:20261114T120325Z
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261115
 SUMMARY:V Trofeo Tecnoal
@@ -26,10 +26,10 @@ URL:https://www.golfdirecto.com/micro/game/6aea2d2040e3bef0119530c5/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:1ea62cd5429f8a9cf325@banderin.es
-DTSTAMP:20261113T203307Z
+DTSTAMP:20261114T120325Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
-SUMMARY:Triangular Deva&villaviciosa&berbes
+SUMMARY:Triangular Deva&villaviciosa&berbes (Om)
 LOCATION:Club de Golf la Rasa de Berbes\, Ribadesella\, Asturias
 DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
  el 11 de noviembre\, cierra el 19 de noviembre.\nFicha oficial: https://ww

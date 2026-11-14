@@ -10,37 +10,22 @@ X-WR-TIMEZONE:Europe/Madrid
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:b67e7b92c7abc55839f6@banderin.es
-DTSTAMP:20261113T203307Z
-DTSTART;VALUE=DATE:20261113
-DTEND;VALUE=DATE:20261114
-SUMMARY:Sjgs Friday Counting
+UID:c36a8e45a646a98f7171@banderin.es
+DTSTAMP:20261114T120325Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:Torneo Escuela Parejas Mejor Bola
 LOCATION:Serena Golf\, Los Alcazares\, Murcia
-DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
- s://www.golfdirecto.com/micro/game/6af1d3e63f87d1a99fe65a01/summary\nConfi
- rma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Juvenil · Fourball · Parejas\nFicha oficial: https://www.golf
+ directo.com/micro/game/6af81954535859a5fbd8d160/summary\nConfirma fechas y
+  condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-URL:https://www.golfdirecto.com/micro/game/6af1d3e63f87d1a99fe65a01/summary
-END:VEVENT
-BEGIN:VEVENT
-UID:5d76b8cd9b5b2398a28e@banderin.es
-DTSTAMP:20261113T203307Z
-DTSTART;VALUE=DATE:20261113
-DTEND;VALUE=DATE:20261114
-SUMMARY:Torneo Escuela Mejor Bola
-LOCATION:Serena Golf\, Los Alcazares\, Murcia
-DESCRIPTION:Juvenil · Fourball · Parejas\nInscripción: abre el 11 de nov
- iembre\, cierra el 11 de noviembre.\nFicha oficial: https://www.golfdirect
- o.com/micro/game/6af433c040d1c05a504c1e27/summary\nConfirma fechas y condi
- ciones en la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.golfdirecto.com/micro/game/6af433c040d1c05a504c1e27/summary
+URL:https://www.golfdirecto.com/micro/game/6af81954535859a5fbd8d160/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:88b8873bbdf5f1a3cb1a@banderin.es
-DTSTAMP:20261113T203307Z
+DTSTAMP:20261114T120325Z
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
 SUMMARY:Open The Celts 14+15/11
@@ -53,8 +38,22 @@ STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6af46c57d161f2f1b84bd9fe/summary
 END:VEVENT
 BEGIN:VEVENT
+UID:1c44c344fc6ab6fdf01c@banderin.es
+DTSTAMP:20261114T120325Z
+DTSTART;VALUE=DATE:20261116
+DTEND;VALUE=DATE:20261117
+SUMMARY:Sjgs Monday Counting
+LOCATION:Serena Golf\, Los Alcazares\, Murcia
+DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
+ s://www.golfdirecto.com/micro/game/6af7fddf535859a5fb3920ad/summary\nConfi
+ rma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6af7fddf535859a5fb3920ad/summary
+END:VEVENT
+BEGIN:VEVENT
 UID:9138a6246b584c1e2060@banderin.es
-DTSTAMP:20261113T203307Z
+DTSTAMP:20261114T120325Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Torneo Aniversario Escuela Torné
