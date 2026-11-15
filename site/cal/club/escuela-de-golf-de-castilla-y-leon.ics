@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Banderin//Torneos de golf//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Banderín · Escuela de Golf de Castilla y Leon
+X-WR-CALDESC:Torneos de golf: Escuela de Golf de Castilla y Leon. Se actual
+ iza cada mañana. https://banderin.es
+X-WR-TIMEZONE:Europe/Madrid
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:a4b08f473c19330fb415@banderin.es
+DTSTAMP:20261115T175328Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:II Jornada Liga Infantil 18 Hoyos
+LOCATION:Escuela de Golf de Castilla y Leon\, Valladolid\, Valladolid
+DESCRIPTION:Juvenil · Stableford · Individual\nInscripción: abre el 15 d
+ e noviembre\, cierra el 21 de noviembre.\nPrecio: 13 €.\nFicha oficial: 
+ https://www.golfdirecto.com/micro/game/6af98fca90f777ff0164bf8d/summary\nC
+ onfirma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6af98fca90f777ff0164bf8d/summary
+END:VEVENT
+END:VCALENDAR

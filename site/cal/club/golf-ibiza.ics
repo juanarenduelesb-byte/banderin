@@ -10,23 +10,8 @@ X-WR-TIMEZONE:Europe/Madrid
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:33988e13a6efadb4affe@banderin.es
-DTSTAMP:20261115T105742Z
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
-SUMMARY:Liga Otoño 2026 - Jornada 4 - Roca Llisa (COPIA)
-LOCATION:Golf Ibiza\, Eivissa\, Illes Balears
-DESCRIPTION:Social de club · Medal Play · Individual\nInscripción: cierr
- a el 14 de noviembre.\nPrecio: 25 €.\nFicha oficial: https://www.golfdir
- ecto.com/micro/game/6af95e1c440203a820c6d497/summary\nConfirma fechas y co
- ndiciones en la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.golfdirecto.com/micro/game/6af95e1c440203a820c6d497/summary
-END:VEVENT
-BEGIN:VEVENT
 UID:30aaf555898677499f7c@banderin.es
-DTSTAMP:20261115T105742Z
+DTSTAMP:20261115T175328Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:Liga Otoño 2026 - Jornada 5
@@ -40,7 +25,7 @@ URL:https://www.golfdirecto.com/micro/game/6abcf137a2d0ff021a993515/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:d9a361bee2386b1947a8@banderin.es
-DTSTAMP:20261115T105742Z
+DTSTAMP:20261115T175328Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Liga Otoño 2026 - Jornada 6
@@ -54,7 +39,7 @@ URL:https://www.golfdirecto.com/micro/game/6a918b749ef968cc46ea2cbb/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:6d3410faa04457cf73a3@banderin.es
-DTSTAMP:20261115T105742Z
+DTSTAMP:20261115T175328Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:Liga Otoño 2026 - Jornada 7
@@ -68,7 +53,7 @@ URL:https://www.golfdirecto.com/micro/game/6a918bcf9ef968cc46eab895/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:d1b24f6acbfe0b168fcb@banderin.es
-DTSTAMP:20261115T105742Z
+DTSTAMP:20261115T175328Z
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261220
 SUMMARY:Liga Otoño 2026 - Jornada 8
