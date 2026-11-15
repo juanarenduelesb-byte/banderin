@@ -2,25 +2,53 @@ name: Actualizar torneos
 
 on:
   schedule:
-    # GitHub retrasa o se salta a veces las tareas programadas (sobre todo en punto y a menos cuarto),
-    # así que hay tres pasadas en minutos poco usados. Repetir es seguro: si no hay cambios no publica
-    # y los avisos no se reenvían (tabla «enviados»).
-    - cron: '23 4 * * *'   # 5:23 en invierno / 6:23 en verano (hora de Madrid)
-    - cron: '7 6 * * *'    # 7:07 / 8:07: respaldo de la mañana
-    - cron: '37 12 * * *'  # 13:37 / 14:37: segunda pasada del día
+    # GitHub retrasa horas (o se salta) las tareas programadas: la de las 5:23 llegaba a las 12:37.
+    # Por eso se intenta cada hora en dos ventanas, y el trabajo «decidir» deja pasar solo la primera
+    # de cada ventana que llegue; las demás terminan en segundos. Hora UTC (Madrid = +1 en invierno).
+    - cron: '17 4-10 * * *'   # mañana: de 5:17 a 11:17
+    - cron: '47 12-16 * * *'  # tarde: de 13:47 a 17:47
   workflow_dispatch:
 
 permissions:
   contents: write
-
-concurrency:
-  group: actualizar
-  cancel-in-progress: false
+  actions: read
 
 jobs:
+  decidir:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    outputs:
+      go: ${{ steps.d.outputs.go }}
+    steps:
+      - id: d
+        env:
+          GH_TOKEN: ${{ github.token }}
+          EV: ${{ github.event_name }}
+          REPO: ${{ github.repository }}
+          RUN: ${{ github.run_id }}
+        run: |
+          if [ "$EV" != "schedule" ]; then echo "go=1" >> "$GITHUB_OUTPUT"; exit 0; fi
+          H=$(date -u +%H); D=$(date -u +%Y-%m-%d)
+          if [ "$H" -lt 12 ]; then A="${D}T04:00:00Z"; B="${D}T12:00:00Z"; else A="${D}T12:00:00Z"; B="${D}T23:59:59Z"; fi
+          # Solo cuentan las pasadas que actualizaron de verdad (o están en ello); las que se saltaron no.
+          OK=$(gh api "repos/$REPO/actions/workflows/actualizar.yml/runs?created=%3E%3D$A&per_page=50" \
+            --jq "[.workflow_runs[] | select(.id != $RUN and .created_at < \"$B\")] | map(.id) | join(\" \")")
+          HECHO=0
+          for R in $OK; do
+            J=$(gh api "repos/$REPO/actions/runs/$R/jobs" --jq '[.jobs[] | select(.name == "actualizar") | select(.conclusion == "success" or .status != "completed")] | length')
+            [ "$J" -gt 0 ] && HECHO=1 && break
+          done
+          echo "¿ya se actualizó en esta ventana? $HECHO"
+          if [ "$HECHO" = 1 ]; then echo "go=0" >> "$GITHUB_OUTPUT"; else echo "go=1" >> "$GITHUB_OUTPUT"; fi
+
   actualizar:
+    needs: decidir
+    if: needs.decidir.outputs.go == '1'
     runs-on: ubuntu-latest
     timeout-minutes: 50
+    concurrency:
+      group: actualizar
+      cancel-in-progress: false
     steps:
       - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
 

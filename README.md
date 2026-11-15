@@ -71,9 +71,9 @@ cuenta de Brevo con el dominio verificado):
 Pruebas en local: `wrangler pages dev site --d1 DB=local ...` con un Brevo simulado
 (`BREVO_API_URL`); `D1_SQLITE=<ruta>` para `pipeline/avisos.py`.
 
-## Despertador (que la actualización llegue a su hora)
+## Que la actualización llegue a su hora
 
-GitHub retrasa horas las tareas programadas (comprobado: la de las 5:23 llegaba a las 12:37 o no llegaba).
-`workers/despertador.js` es un Worker de Cloudflare con Cron Trigger que lanza «Actualizar torneos» a su hora.
-Necesita el secreto `GH_TOKEN` (token fine-grained solo para este repositorio, permiso «Actions: Read and write»)
-y los crons `20 4 * * *` y `30 12 * * *` (UTC). Los crons de GitHub se quedan como respaldo.
+GitHub retrasa horas las tareas programadas (la de las 5:23 llegaba a las 12:37 o no llegaba).
+El workflow lo intenta cada hora en dos ventanas (mañana y tarde, hora UTC) y el trabajo «decidir»
+deja pasar solo la primera pasada de cada ventana que llegue; las demás acaban en segundos.
+No hace falta ningún token extra: usa el GITHUB_TOKEN del propio workflow.
