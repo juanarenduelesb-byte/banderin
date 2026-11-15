@@ -10,17 +10,17 @@ X-WR-TIMEZONE:Europe/Madrid
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:3ccca645a878648f6d6a@banderin.es
-DTSTAMP:20261114T185037Z
-DTSTART;VALUE=DATE:20261114
-DTEND;VALUE=DATE:20261115
-SUMMARY:Gran Copa de Navidad Señores (Sábado)
+UID:835381542b471d192a84@banderin.es
+DTSTAMP:20261115T105742Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:Gran Copa de Navidad Señores (Domingo)
 LOCATION:Real Club de la Puerta de Hierro\, Madrid\, Madrid
 DESCRIPTION:Social de club · Medal Play · Individual\nFicha oficial: http
- s://www.nextcaddy.com/tour/67423\nConfirma fechas y condiciones en la web 
+ s://www.nextcaddy.com/tour/67424\nConfirma fechas y condiciones en la web 
  del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-URL:https://www.nextcaddy.com/tour/67423
+URL:https://www.nextcaddy.com/tour/67424
 END:VEVENT
 END:VCALENDAR

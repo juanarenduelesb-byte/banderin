@@ -10,22 +10,8 @@ X-WR-TIMEZONE:Europe/Madrid
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:484b0f797cbc3218806b@banderin.es
-DTSTAMP:20261114T185037Z
-DTSTART;VALUE=DATE:20261114
-DTEND;VALUE=DATE:20261115
-SUMMARY:Final de Pals\, paradís del golf
-LOCATION:Serres de Pals Golf & Sport Club\, Pals\, Girona
-DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
- s://www.golfdirecto.com/micro/game/6970b9809cb1dbf2056e105d/summary\nConfi
- rma fechas y condiciones en la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.golfdirecto.com/micro/game/6970b9809cb1dbf2056e105d/summary
-END:VEVENT
-BEGIN:VEVENT
 UID:e7b4347c76e3e84d7f4a@banderin.es
-DTSTAMP:20261114T185037Z
+DTSTAMP:20261115T105742Z
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
 SUMMARY:Serres: Torneig Oli 9

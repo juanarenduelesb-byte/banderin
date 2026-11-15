@@ -10,36 +10,8 @@ X-WR-TIMEZONE:Europe/Madrid
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:cc81ce39ec4c1296db09@banderin.es
-DTSTAMP:20261114T185037Z
-DTSTART;VALUE=DATE:20261114
-DTEND;VALUE=DATE:20261115
-SUMMARY:Training
-LOCATION:Air Golf Club
-DESCRIPTION:Social de club · Fourball · Parejas\nFicha oficial: https://w
- ww.golfdirecto.com/micro/game/6af7746c3f2ad705e499d847/summary\nConfirma f
- echas y condiciones en la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.golfdirecto.com/micro/game/6af7746c3f2ad705e499d847/summary
-END:VEVENT
-BEGIN:VEVENT
-UID:5446857c0daa9f5dc376@banderin.es
-DTSTAMP:20261114T185037Z
-DTSTART;VALUE=DATE:20261114
-DTEND;VALUE=DATE:20261115
-SUMMARY:X Torneo Caixabank
-LOCATION:Air Golf Club
-DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
- s://www.golfdirecto.com/micro/game/6af57685cb197af66bdb4ef9/summary\nConfi
- rma fechas y condiciones en la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.golfdirecto.com/micro/game/6af57685cb197af66bdb4ef9/summary
-END:VEVENT
-BEGIN:VEVENT
 UID:8ec4175e3bd494f5141e@banderin.es
-DTSTAMP:20261114T185037Z
+DTSTAMP:20261115T105742Z
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
 SUMMARY:Lcsc Cuartos de Final
@@ -55,7 +27,7 @@ URL:https://www.golfdirecto.com/micro/game/697b07219bb6a2abedcffd31/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:7fa356b277b704c6acae@banderin.es
-DTSTAMP:20261114T185037Z
+DTSTAMP:20261115T105742Z
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261220
 SUMMARY:Torneo de Navidad

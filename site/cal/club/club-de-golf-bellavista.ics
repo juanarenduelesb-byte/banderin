@@ -10,23 +10,8 @@ X-WR-TIMEZONE:Europe/Madrid
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:ad1db6fed4cf3c9e77b9@banderin.es
-DTSTAMP:20261114T185037Z
-DTSTART;VALUE=DATE:20261114
-DTEND;VALUE=DATE:20261115
-SUMMARY:Campeonato Huelva
-LOCATION:Club de Golf Bellavista\, Aljaraque\, Huelva
-DESCRIPTION:Absoluto · Medal Play · Individual\nInscripción: abre el 14 
- de octubre\, cierra el 11 de noviembre.\nPrecio: 35 €.\nFicha oficial: h
- ttps://www.nextcaddy.com/tour/61134\nConfirma fechas y condiciones en la w
- eb del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.nextcaddy.com/tour/61134
-END:VEVENT
-BEGIN:VEVENT
 UID:79ddf4771f5e858a1f70@banderin.es
-DTSTAMP:20261114T185037Z
+DTSTAMP:20261115T105742Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:4ª Jornada Lpgh XXVI Edición (Bellavista-Old Course)
@@ -40,7 +25,7 @@ URL:https://www.golfdirecto.com/micro/game/6af76c51aef92489910a3740/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:6cff6b2c0221ac68e875@banderin.es
-DTSTAMP:20261114T185037Z
+DTSTAMP:20261115T105742Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
 SUMMARY:Final Circuito Senior

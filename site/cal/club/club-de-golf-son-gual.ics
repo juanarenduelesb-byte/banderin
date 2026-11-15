@@ -10,24 +10,8 @@ X-WR-TIMEZONE:Europe/Madrid
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:81b17056db049250f6a4@banderin.es
-DTSTAMP:20261114T185037Z
-DTSTART;VALUE=DATE:20261114
-DTEND;VALUE=DATE:20261115
-SUMMARY:V Prueba Circuito Stroke Play - Bodegas José L. Ferrer
-LOCATION:Club de Golf Son Gual\, Palma de Mallorca\, Illes Balears
-DESCRIPTION:Circuito comercial · Medal Play · Individual\nInscripción: a
- bre el 21 de octubre\, cierra el 11 de noviembre.\nPrecio: 65 €.\nFicha 
- oficial: https://www.golfdirecto.com/micro/game/69e09312927043a8abba49f8/s
- ummary\nConfirma fechas y condiciones en la web del organizador. Vía Band
- erín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.golfdirecto.com/micro/game/69e09312927043a8abba49f8/summary
-END:VEVENT
-BEGIN:VEVENT
 UID:3722dc5986cd8d262d7c@banderin.es
-DTSTAMP:20261114T185037Z
+DTSTAMP:20261115T105742Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
 SUMMARY:Final Golfos 2026
@@ -42,7 +26,7 @@ URL:https://www.golfdirecto.com/micro/game/69764b7a37fd5d4ab555b440/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:6981784f1a5e0e162ab7@banderin.es
-DTSTAMP:20261114T185037Z
+DTSTAMP:20261115T105742Z
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261220
 SUMMARY:The New Corporate Balearhouse 2026 - 2027
@@ -56,7 +40,7 @@ URL:https://www.golfdirecto.com/micro/game/6adf7222b0e08ac015b830e4/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:d6729bdd6139fac94e74@banderin.es
-DTSTAMP:20261114T185037Z
+DTSTAMP:20261115T105742Z
 DTSTART;VALUE=DATE:20270221
 DTEND;VALUE=DATE:20270222
 SUMMARY:The New Corporate Balearhouse 2026-2027

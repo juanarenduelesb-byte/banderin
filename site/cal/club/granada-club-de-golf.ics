@@ -10,52 +10,8 @@ X-WR-TIMEZONE:Europe/Madrid
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:76d7e993aaece05aec69@banderin.es
-DTSTAMP:20261114T185037Z
-DTSTART;VALUE=DATE:20261114
-DTEND;VALUE=DATE:20261115
-SUMMARY:Circuito Benjamín Zona E
-LOCATION:Granada Club de Golf\, Las Gabias\, Granada
-DESCRIPTION:Juvenil · Medal Play · Individual\nInscripción: abre el 9 de
-  octubre\, cierra el 9 de noviembre.\nFicha oficial: https://www.nextcaddy
- .com/tour/61241\nConfirma fechas y condiciones en la web del organizador. 
- Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.nextcaddy.com/tour/61241
-END:VEVENT
-BEGIN:VEVENT
-UID:0bea8f76f98a0aa4a4a6@banderin.es
-DTSTAMP:20261114T185037Z
-DTSTART;VALUE=DATE:20261114
-DTEND;VALUE=DATE:20261115
-SUMMARY:Circuito Juvenil Zona E
-LOCATION:Granada Club de Golf\, Las Gabias\, Granada
-DESCRIPTION:Juvenil · Medal Play · Individual\nInscripción: abre el 9 de
-  octubre\, cierra el 9 de noviembre.\nFicha oficial: https://www.nextcaddy
- .com/tour/61240\nConfirma fechas y condiciones en la web del organizador. 
- Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.nextcaddy.com/tour/61240
-END:VEVENT
-BEGIN:VEVENT
-UID:645e2e1e121d3f8b15e7@banderin.es
-DTSTAMP:20261114T185037Z
-DTSTART;VALUE=DATE:20261114
-DTEND;VALUE=DATE:20261115
-SUMMARY:Torneo Memorial Jose Zaldivar
-LOCATION:Granada Club de Golf\, Las Gabias\, Granada
-DESCRIPTION:Social de club · Fourball · Parejas\nFicha oficial: https://w
- ww.golfdirecto.com/micro/game/6af32e672852ee1cedfa71d2/summary\nConfirma f
- echas y condiciones en la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.golfdirecto.com/micro/game/6af32e672852ee1cedfa71d2/summary
-END:VEVENT
-BEGIN:VEVENT
 UID:20ad88999661bd48c0b1@banderin.es
-DTSTAMP:20261114T185037Z
+DTSTAMP:20261115T105742Z
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
 SUMMARY:Liga Infantil 18 Hoyos Noviembre
@@ -70,7 +26,7 @@ URL:https://www.golfdirecto.com/micro/game/6af1750b48b95e9e1ab180cb/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:34cf8442fb6848638a85@banderin.es
-DTSTAMP:20261114T185037Z
+DTSTAMP:20261115T105742Z
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
 SUMMARY:Liga Infantil 9 Hoyos Rojas
@@ -85,7 +41,7 @@ URL:https://www.golfdirecto.com/micro/game/6af1757c48b95e9e1abb51bd/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:a58dad8d30e28bfd53db@banderin.es
-DTSTAMP:20261114T185037Z
+DTSTAMP:20261115T105742Z
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
 SUMMARY:Liga Infantil Pequecircuito Campo Practicas
@@ -100,7 +56,7 @@ URL:https://www.golfdirecto.com/micro/game/6af1763b8527252f60827696/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:acf9d09578ce13a0f4f9@banderin.es
-DTSTAMP:20261114T185037Z
+DTSTAMP:20261115T105742Z
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
 SUMMARY:Pool la Almazuela
@@ -114,7 +70,7 @@ URL:https://www.golfdirecto.com/micro/game/6af5b7a14de854d4a9f5a847/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:7b2c9475b8cc48f79340@banderin.es
-DTSTAMP:20261114T185037Z
+DTSTAMP:20261115T105742Z
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
 SUMMARY:Pool los Tempranillos Noviembre
@@ -128,10 +84,10 @@ URL:https://www.golfdirecto.com/micro/game/6af87475ef4584c21c795dd0/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:ab3b194dc13ba24dc844@banderin.es
-DTSTAMP:20261114T185037Z
+DTSTAMP:20261115T105742Z
 DTSTART;VALUE=DATE:20261116
 DTEND;VALUE=DATE:20261117
-SUMMARY:Pool 2000 Noviembre Orden Merito
+SUMMARY:Pool 2000 Noviembre
 LOCATION:Granada Club de Golf\, Las Gabias\, Granada
 DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
  s://www.golfdirecto.com/micro/game/6af81e96535859a5fbb4aae0/summary\nConfi
@@ -142,7 +98,7 @@ URL:https://www.golfdirecto.com/micro/game/6af81e96535859a5fbb4aae0/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:1bb4be115e9e6976e97d@banderin.es
-DTSTAMP:20261114T185037Z
+DTSTAMP:20261115T105742Z
 DTSTART;VALUE=DATE:20261118
 DTEND;VALUE=DATE:20261119
 SUMMARY:Liga Senior Noviembre 26
@@ -157,7 +113,7 @@ URL:https://www.golfdirecto.com/micro/game/6aec39995ca5a43533c02ef6/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:122418ef5993b2414f52@banderin.es
-DTSTAMP:20261114T185037Z
+DTSTAMP:20261115T105742Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:Liga Damas Noviembre26

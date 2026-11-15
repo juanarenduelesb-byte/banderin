@@ -10,38 +10,8 @@ X-WR-TIMEZONE:Europe/Madrid
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:032d6d423f0a2cf8989c@banderin.es
-DTSTAMP:20261114T185037Z
-DTSTART;VALUE=DATE:20261114
-DTEND;VALUE=DATE:20261115
-SUMMARY:Liga III "Al Cielo con Ella" (Grupo Privado). Jornada 7
-LOCATION:Sherry Golf Jerez\, Jerez de la Frontera\, Cádiz
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 29 de octubre\, cierra el 11 de noviembre.\nPrecio: 46 €.\nFicha ofic
- ial: https://www.nextcaddy.com/tour/74976\nConfirma fechas y condiciones e
- n la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.nextcaddy.com/tour/74976
-END:VEVENT
-BEGIN:VEVENT
-UID:59acfc5fa2517ecd08c8@banderin.es
-DTSTAMP:20261114T185037Z
-DTSTART;VALUE=DATE:20261114
-DTEND;VALUE=DATE:20261115
-SUMMARY:Torneo Pelote (Grupo Privado)
-LOCATION:Sherry Golf Jerez\, Jerez de la Frontera\, Cádiz
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 8 de octubre\, cierra el 10 de noviembre.\nPrecio: Gratis.\nFicha ofici
- al: https://www.nextcaddy.com/tour/74407\nConfirma fechas y condiciones en
-  la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.nextcaddy.com/tour/74407
-END:VEVENT
-BEGIN:VEVENT
 UID:af37ca3d38a140a55731@banderin.es
-DTSTAMP:20261114T185037Z
+DTSTAMP:20261115T105742Z
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
 SUMMARY:Grupo Los Conejos
@@ -55,8 +25,40 @@ STATUS:CONFIRMED
 URL:https://www.nextcaddy.com/tour/75331
 END:VEVENT
 BEGIN:VEVENT
+UID:2daa9b2ceeebbe6fe984@banderin.es
+DTSTAMP:20261115T105742Z
+DTSTART;VALUE=DATE:20261117
+DTEND;VALUE=DATE:20261118
+SUMMARY:Sherry International Golf Group (SIGG) - Martes 17 Noviembre 2026 (
+ Grupo privado)
+LOCATION:Sherry Golf Jerez\, Jerez de la Frontera\, Cádiz
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 15 de noviembre\, cierra el 16 de noviembre.\nPrecio: Gratis.\nFicha of
+ icial: https://www.nextcaddy.com/tour/75365\nConfirma fechas y condiciones
+  en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nextcaddy.com/tour/75365
+END:VEVENT
+BEGIN:VEVENT
+UID:4498049182c681e31f90@banderin.es
+DTSTAMP:20261115T105742Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+SUMMARY:Sherry International Golf Group (SIGG) - Jueves 19 Noviembre 2026 (
+ Grupo privado)
+LOCATION:Sherry Golf Jerez\, Jerez de la Frontera\, Cádiz
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 15 de noviembre\, cierra el 18 de noviembre.\nPrecio: Gratis.\nFicha of
+ icial: https://www.nextcaddy.com/tour/75366\nConfirma fechas y condiciones
+  en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nextcaddy.com/tour/75366
+END:VEVENT
+BEGIN:VEVENT
 UID:468940db1b8eb5ac94c4@banderin.es
-DTSTAMP:20261114T185037Z
+DTSTAMP:20261115T105742Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 SUMMARY:Ryder Boda L&I
@@ -71,7 +73,7 @@ URL:https://www.nextcaddy.com/tour/72658
 END:VEVENT
 BEGIN:VEVENT
 UID:5c85586da82f37ad9dd4@banderin.es
-DTSTAMP:20261114T185037Z
+DTSTAMP:20261115T105742Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:Torneo Golf Divino by LeClub
@@ -85,38 +87,8 @@ STATUS:CONFIRMED
 URL:https://www.nextcaddy.com/tour/74950
 END:VEVENT
 BEGIN:VEVENT
-UID:562d6c0278feb193a952@banderin.es
-DTSTAMP:20261114T185037Z
-DTSTART;VALUE=DATE:20261127
-DTEND;VALUE=DATE:20261128
-SUMMARY:Torneo de Navidad Jerez Club de Golf (viernes 27)
-LOCATION:Sherry Golf Jerez\, Jerez de la Frontera\, Cádiz
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 11 de noviembre\, cierra el 25 de noviembre.\nPrecio: 32 €.\nFicha of
- icial: https://www.nextcaddy.com/tour/74816\nConfirma fechas y condiciones
-  en la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.nextcaddy.com/tour/74816
-END:VEVENT
-BEGIN:VEVENT
-UID:f59d4cae289f4388aad8@banderin.es
-DTSTAMP:20261114T185037Z
-DTSTART;VALUE=DATE:20261128
-DTEND;VALUE=DATE:20261129
-SUMMARY:Torneo de Navidad Jerez Club de Golf
-LOCATION:Sherry Golf Jerez\, Jerez de la Frontera\, Cádiz
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 11 de noviembre\, cierra el 25 de noviembre.\nPrecio: 32 €.\nFicha of
- icial: https://www.nextcaddy.com/tour/74814\nConfirma fechas y condiciones
-  en la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.nextcaddy.com/tour/74814
-END:VEVENT
-BEGIN:VEVENT
 UID:c6aa3fd37faf2c28fb2e@banderin.es
-DTSTAMP:20261114T185037Z
+DTSTAMP:20261115T105742Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:II Torneo ZOF - Domingo 29 Noviembre 2026 (Grupo privado)
@@ -130,11 +102,26 @@ STATUS:CONFIRMED
 URL:https://www.nextcaddy.com/tour/74623
 END:VEVENT
 BEGIN:VEVENT
+UID:0d491011a76a9b17a000@banderin.es
+DTSTAMP:20261115T105742Z
+DTSTART;VALUE=DATE:20261211
+DTEND;VALUE=DATE:20261212
+SUMMARY:Torneo de Navidad Sherry Golf Jerez (Salidas Viernes)
+LOCATION:Sherry Golf Jerez\, Jerez de la Frontera\, Cádiz
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 15 de noviembre\, cierra el 10 de diciembre.\nPrecio: 48 €.\nFicha of
+ icial: https://www.nextcaddy.com/tour/75367\nConfirma fechas y condiciones
+  en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nextcaddy.com/tour/75367
+END:VEVENT
+BEGIN:VEVENT
 UID:6e61df1ef48afd9474b1@banderin.es
-DTSTAMP:20261114T185037Z
+DTSTAMP:20261115T105742Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
-SUMMARY:Torneo de Navidad Sherry Golf Jerez 2026
+SUMMARY:Torneo de Navidad Sherry Golf Jerez (Salidas Sábado)
 LOCATION:Sherry Golf Jerez\, Jerez de la Frontera\, Cádiz
 DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
  el 15 de noviembre\, cierra el 10 de diciembre.\nPrecio: 48 €.\nFicha of
@@ -146,7 +133,7 @@ URL:https://www.nextcaddy.com/tour/74970
 END:VEVENT
 BEGIN:VEVENT
 UID:d108b51fcb92475cfd42@banderin.es
-DTSTAMP:20261114T185037Z
+DTSTAMP:20261115T105742Z
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
 SUMMARY:Jóvenes Golfistas de Navidad: Torneo Juvenil Papá Noel
@@ -161,7 +148,7 @@ URL:https://www.nextcaddy.com/tour/75292
 END:VEVENT
 BEGIN:VEVENT
 UID:47ad4dbd541f6a738641@banderin.es
-DTSTAMP:20261114T185037Z
+DTSTAMP:20261115T105742Z
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
 SUMMARY:Pequeños Golfistas de Navidad: Torneo Infantil Papá Noel (P&P)
@@ -176,7 +163,7 @@ URL:https://www.nextcaddy.com/tour/75293
 END:VEVENT
 BEGIN:VEVENT
 UID:5cf4329c042d20c36231@banderin.es
-DTSTAMP:20261114T185037Z
+DTSTAMP:20261115T105742Z
 DTSTART;VALUE=DATE:20261220
 DTEND;VALUE=DATE:20261221
 SUMMARY:III Torneo ZOF - Domingo 20 Diciembre 2026 (Grupo privado)
@@ -191,7 +178,7 @@ URL:https://www.nextcaddy.com/tour/75175
 END:VEVENT
 BEGIN:VEVENT
 UID:977960babbca0a0b65fb@banderin.es
-DTSTAMP:20261114T185037Z
+DTSTAMP:20261115T105742Z
 DTSTART;VALUE=DATE:20261230
 DTEND;VALUE=DATE:20261231
 SUMMARY:Torneo Similar Memorial Aper (Grupo Privado)

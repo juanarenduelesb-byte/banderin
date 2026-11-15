@@ -10,24 +10,8 @@ X-WR-TIMEZONE:Europe/Madrid
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:5ca4271c90e500ad9a1e@banderin.es
-DTSTAMP:20261114T185037Z
-DTSTART;VALUE=DATE:20261114
-DTEND;VALUE=DATE:20261115
-SUMMARY:Torneig Srixon
-LOCATION:Club de Golf D'Aro\, Castell-Platja d'Aro\, Girona
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 1 de octubre\, cierra el 12 de noviembre.\nPrecio: 74 €.\nFicha ofici
- al: https://www.golfdirecto.com/micro/game/6a071647fa3be64f9fc1a527/summar
- y\nConfirma fechas y condiciones en la web del organizador. Vía Banderín
- .
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.golfdirecto.com/micro/game/6a071647fa3be64f9fc1a527/summary
-END:VEVENT
-BEGIN:VEVENT
 UID:69fc73d9ac636c058555@banderin.es
-DTSTAMP:20261114T185037Z
+DTSTAMP:20261115T105742Z
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261220
 SUMMARY:Torneig de Nadal
@@ -42,7 +26,7 @@ URL:https://www.golfdirecto.com/micro/game/69a9a145bba30eff7cd47620/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:4b763ea56c3aaab9cbda@banderin.es
-DTSTAMP:20261114T185037Z
+DTSTAMP:20261115T105742Z
 DTSTART;VALUE=DATE:20270201
 DTEND;VALUE=DATE:20270202
 SUMMARY:Cat ProTour 2027

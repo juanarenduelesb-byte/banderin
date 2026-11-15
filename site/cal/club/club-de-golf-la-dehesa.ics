@@ -10,22 +10,8 @@ X-WR-TIMEZONE:Europe/Madrid
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:a624b4bf936020e22bfb@banderin.es
-DTSTAMP:20261114T185037Z
-DTSTART;VALUE=DATE:20261114
-DTEND;VALUE=DATE:20261115
-SUMMARY:No Plomex Tour 2026
-LOCATION:Club de Golf la Dehesa\, Villanueva de la Cañada\, Madrid
-DESCRIPTION:Circuito comercial · Stableford · Individual\nFicha oficial: 
- https://www.golfdirecto.com/micro/game/6af76e82aef92489914c2ab1/summary\nC
- onfirma fechas y condiciones en la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.golfdirecto.com/micro/game/6af76e82aef92489914c2ab1/summary
-END:VEVENT
-BEGIN:VEVENT
 UID:8b39e7a1de1d3b450078@banderin.es
-DTSTAMP:20261114T185037Z
+DTSTAMP:20261115T105742Z
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
 SUMMARY:Campeonato de Madrid Interclubes Masculino
@@ -39,8 +25,22 @@ STATUS:CONFIRMED
 URL:https://www.nextcaddy.com/tour/75361
 END:VEVENT
 BEGIN:VEVENT
+UID:8d045cc9e29743a238ad@banderin.es
+DTSTAMP:20261115T105742Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:Final Match Play
+LOCATION:Club de Golf la Dehesa\, Villanueva de la Cañada\, Madrid
+DESCRIPTION:Clubes y equipos · Match Play · Equipos\nFicha oficial: https
+ ://www.golfdirecto.com/micro/game/6af8aaef90f777ff01dcff77/summary\nConfir
+ ma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6af8aaef90f777ff01dcff77/summary
+END:VEVENT
+BEGIN:VEVENT
 UID:b901a4c85e711554c8b4@banderin.es
-DTSTAMP:20261114T185037Z
+DTSTAMP:20261115T105742Z
 DTSTART;VALUE=DATE:20261124
 DTEND;VALUE=DATE:20261125
 SUMMARY:Match Senior Masculino RFGM - AESGOLF
@@ -55,7 +55,7 @@ URL:https://www.nextcaddy.com/tour/68337
 END:VEVENT
 BEGIN:VEVENT
 UID:ec73b911f15d613b86e7@banderin.es
-DTSTAMP:20261114T185037Z
+DTSTAMP:20261115T105742Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:The Masters 2026 - Torneo de Navidad
@@ -70,7 +70,7 @@ URL:https://www.golfdirecto.com/micro/game/6af2e6886aacb155d854d51c/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:9d4ebbfc8b5edb4afaee@banderin.es
-DTSTAMP:20261114T185037Z
+DTSTAMP:20261115T105742Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:Final Circuito Access Series "Golf Santander"
@@ -85,7 +85,7 @@ URL:https://www.nextcaddy.com/tour/70866
 END:VEVENT
 BEGIN:VEVENT
 UID:41641e987594e8f374ae@banderin.es
-DTSTAMP:20261114T185037Z
+DTSTAMP:20261115T105742Z
 DTSTART;VALUE=DATE:20270131
 DTEND;VALUE=DATE:20270201
 SUMMARY:No Plomex Tour 2026 (Copia)

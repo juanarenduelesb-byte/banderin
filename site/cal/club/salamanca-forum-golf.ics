@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Banderin//Torneos de golf//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Banderín · Salamanca Forum Golf
+X-WR-CALDESC:Torneos de golf: Salamanca Forum Golf. Se actualiza cada maña
+ na. https://banderin.es
+X-WR-TIMEZONE:Europe/Madrid
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:f5867149b485f5f5370d@banderin.es
+DTSTAMP:20261115T105742Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:Final Four 15&4 - 1ª Jornada (Copia)
+LOCATION:Salamanca Forum Golf\, Villamayor\, Salamanca
+DESCRIPTION:Social de club · Match Play · Individual\nFicha oficial: http
+ s://www.golfdirecto.com/micro/game/6af8fd3e90f777ff0172941d/summary\nConfi
+ rma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6af8fd3e90f777ff0172941d/summary
+END:VEVENT
+END:VCALENDAR

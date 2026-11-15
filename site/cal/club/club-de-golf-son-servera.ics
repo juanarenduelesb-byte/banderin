@@ -10,24 +10,8 @@ X-WR-TIMEZONE:Europe/Madrid
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:03cbdc3ebb6dec2562d6@banderin.es
-DTSTAMP:20261114T185037Z
-DTSTART;VALUE=DATE:20261114
-DTEND;VALUE=DATE:20261115
-SUMMARY:Tiger & Rabbit
-LOCATION:Club de Golf Son Servera\, Costa de los Pinos\, Illes Balears
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 7 de noviembre\, cierra el 13 de noviembre.\nPrecio: 59 €.\nFicha ofi
- cial: https://www.golfdirecto.com/micro/game/6aef1a91ec94b7c14e8e819e/summ
- ary\nConfirma fechas y condiciones en la web del organizador. Vía Bander
- ín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.golfdirecto.com/micro/game/6aef1a91ec94b7c14e8e819e/summary
-END:VEVENT
-BEGIN:VEVENT
 UID:cd7bc8d7ec45deeac778@banderin.es
-DTSTAMP:20261114T185037Z
+DTSTAMP:20261115T105742Z
 DTSTART;VALUE=DATE:20261118
 DTEND;VALUE=DATE:20261119
 SUMMARY:Back Nine Tour
@@ -43,7 +27,7 @@ URL:https://www.golfdirecto.com/micro/game/6ae3286ee9762da1aeed246a/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:482675306a92efb3a0c7@banderin.es
-DTSTAMP:20261114T185037Z
+DTSTAMP:20261115T105742Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:IX Prueba Circuito Junior 18 hoyos - Final
@@ -58,7 +42,7 @@ URL:https://www.golfdirecto.com/micro/game/6994457a99611b1cda0084ef/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:ba1cc70c041ac15f66c3@banderin.es
-DTSTAMP:20261114T185037Z
+DTSTAMP:20261115T105742Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:IX Prueba Circuito Junior 9 hoyos - Final
@@ -73,7 +57,7 @@ URL:https://www.golfdirecto.com/micro/game/699445d299611b1cda0c8a32/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:ba91cdde6e7e74f5a880@banderin.es
-DTSTAMP:20261114T185037Z
+DTSTAMP:20261115T105742Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:Back Nine Tour
@@ -88,7 +72,7 @@ URL:https://www.golfdirecto.com/micro/game/6aeef2e3ec94b7c14e3f1c9b/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:9fffb029e8c78d94b984@banderin.es
-DTSTAMP:20261114T185037Z
+DTSTAMP:20261115T105742Z
 DTSTART;VALUE=DATE:20261203
 DTEND;VALUE=DATE:20261204
 SUMMARY:Gem Winter Slam 2026
@@ -104,7 +88,7 @@ URL:https://www.golfdirecto.com/micro/game/6ad9efe4a1531ddba4571ddb/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:fa22a04b41a2d58eda38@banderin.es
-DTSTAMP:20261114T185037Z
+DTSTAMP:20261115T105742Z
 DTSTART;VALUE=DATE:20270128
 DTEND;VALUE=DATE:20270129
 SUMMARY:Gem Winter Slam 26/27
