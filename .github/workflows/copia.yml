@@ -1,0 +1,37 @@
+name: Copia de seguridad
+
+# Cada lunes a las 3:41 UTC. La copia queda como artefacto privado del repositorio 35 días
+# (solo lo ven quienes tienen acceso al repositorio) y después se borra sola.
+on:
+  schedule:
+    - cron: '41 3 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  copia:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      - name: Avisos (Cloudflare D1)
+        env:
+          CF_ACCOUNT_ID: ${{ vars.CF_ACCOUNT_ID }}
+          D1_DATABASE_ID: ${{ vars.D1_DATABASE_ID }}
+          CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
+        run: mkdir -p copia && python3 pipeline/copia.py copia/d1-avisos.json
+      - name: Cuentas (Supabase)
+        # Solo si existe el secreto SUPABASE_DB_URL (cadena de conexión de Supabase → Connect → Session pooler).
+        env:
+          SUPABASE_DB_URL: ${{ secrets.SUPABASE_DB_URL }}
+        run: |
+          if [ -z "$SUPABASE_DB_URL" ]; then echo "Sin SUPABASE_DB_URL: se omite la copia de Supabase"; exit 0; fi
+          docker run --rm -e U="$SUPABASE_DB_URL" postgres:17 sh -c 'pg_dump "$U" --schema=public --schema=auth --no-owner --no-privileges' > copia/supabase.sql
+          ls -la copia
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: copia-${{ github.run_number }}
+          path: copia/
+          retention-days: 35

@@ -40,10 +40,20 @@ jobs:
           done
           echo "¿ya se actualizó en esta ventana? $HECHO"
           if [ "$HECHO" = 1 ]; then echo "go=0" >> "$GITHUB_OUTPUT"; else echo "go=1" >> "$GITHUB_OUTPUT"; fi
+      - name: Vigilancia (si falla, GitHub te avisa por correo)
+        if: github.event_name == 'schedule'
+        run: |
+          C=$(curl -s -o /dev/null -w '%{http_code}' --max-time 20 https://banderin.es/)
+          [ "$C" = "200" ] || { echo "::error::banderin.es responde $C"; exit 1; }
+          R=$(curl -s --max-time 20 "https://banderin.es/data.js?nc=$(date +%s)" | head -c 400 | grep -o 'REVISION="[^"]*"' | cut -d'"' -f2)
+          [ -n "$R" ] || { echo "::error::No se puede leer la fecha de los datos"; exit 1; }
+          H=$(( ( $(date -u +%s) - $(TZ=Europe/Madrid date -d "$R" +%s) ) / 3600 ))
+          echo "Última revisión de los datos: $R (hace $H h)"
+          [ "$H" -lt 30 ] || { echo "::error::Los torneos llevan $H horas sin revisarse"; exit 1; }
 
   actualizar:
     needs: decidir
-    if: needs.decidir.outputs.go == '1'
+    if: ${{ always() && needs.decidir.outputs.go == '1' }}
     runs-on: ubuntu-latest
     timeout-minutes: 50
     concurrency:
