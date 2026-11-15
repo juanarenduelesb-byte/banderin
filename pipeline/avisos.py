@@ -36,7 +36,7 @@ TODAY = dt.date.fromisoformat(os.environ['AVISOS_HOY']) if os.environ.get('AVISO
 ISO, TOMORROW = TODAY.isoformat(), (TODAY + dt.timedelta(days=1)).isoformat()
 MAX_ITEMS = 30
 # Qué avisos recibe quien sigue un club o una provincia (quien sigue un torneo concreto los recibe todos).
-FOR_PLACES = {'nuevo', 'abre', 'cancelado', 'fecha'}
+FOR_PLACES = {'nuevo', 'abre', 'cierra', 'cancelado', 'fecha', 'plazo'}
 
 
 def load(path, name):
@@ -60,7 +60,7 @@ def events(new_path, prev_path):
             ev.append({'t': t, 'tipo': 'abre', 'cuando': 'hoy' if t['op'] == ISO else 'mañana'})
         if t.get('cl') in (ISO, TOMORROW) and (not t.get('op') or t['op'] <= ISO):
             ev.append({'t': t, 'tipo': 'cierra', 'cuando': 'hoy' if t['cl'] == ISO else 'mañana'})
-        if prev_urls is not None and t['url'] not in prev_urls:
+        if prev_urls is not None and t['url'] not in prev_urls and t['s'] > ISO:  # avisar de uno que ya empezó no sirve
             ev.append({'t': t, 'tipo': 'nuevo'})
     for c in load(new_path, 'CAMBIOS') or []:
         if c.get('d') != ISO or c.get('k') not in ('fecha', 'cancelado', 'plazo'):
@@ -107,7 +107,7 @@ def encaja(t, p):
     if p.get('sexo') == 'M' and t.get('sex') == 'Femenino':
         return False
     if p.get('nac'):
-        age = int(t['s'][:4]) - int(p['nac'])
+        age = int((t.get('s') or ISO)[:4]) - int(p['nac'])
         if c.get('edadMax') is not None:
             if age > c['edadMax']:
                 return False
@@ -152,7 +152,7 @@ def extras(sid, follows, T, prev_urls, taken, sent, lang, perfil=None):
     finde = sorted([t for t in pool if t['s'] <= SUN.isoformat() and (t.get('e') or t['s']) >= SAT.isoformat()], key=pref)
     pronto = sorted([t for t in pool if t.get('cl') and (TODAY + dt.timedelta(days=2)).isoformat() <= t['cl'] <= (TODAY + dt.timedelta(days=7)).isoformat()
                      and is_open(t)], key=lambda t: (t['cl'], pref(t)))
-    nuevos = sorted([t for t in pool if prev_urls is not None and t['url'] not in prev_urls], key=pref)
+    nuevos = sorted([t for t in pool if prev_urls is not None and t['url'] not in prev_urls and t['s'] > ISO], key=pref)
     en = lang == 'en'
     for tipo, cands, n, lab in (
             ('finde', finde, 5, lambda t: 'This weekend' if en else 'Este fin de semana'),
@@ -294,7 +294,9 @@ def main():
         return
     if len(sys.argv) < 3:
         sys.exit('uso: avisos.py <data.js nuevo> <data.js anterior>')
-    site = os.environ.get('SITE_URL', 'https://banderin.es').rstrip('/')
+    site = (os.environ.get('SITE_URL') or 'https://banderin.es').rstrip('/')
+    if 'pages.dev' in site:  # la dirección antigua redirige, y una redirección rompe la baja en un clic
+        site = 'https://banderin.es'
     ev, T, prev_urls = events(sys.argv[1], sys.argv[2])
     db = D1()
     now = dt.datetime.now(dt.timezone.utc)
@@ -323,10 +325,16 @@ def main():
         f = sigo.get(s['id'], set())
         if not f:
             continue
+        try:
+            perfil = json.loads(s.get('perfil') or 'null')
+        except ValueError:
+            perfil = None
         items, seen = [], set()
         for x in ev:
             t = x['t']
-            match = ('torneo', t['url']) in f or (x['tipo'] in FOR_PLACES and (('club', t.get('club')) in f or ('prov', t.get('prov')) in f))
+            own = ('torneo', t['url']) in f  # un torneo que sigue a mano: todos los avisos, encaje o no
+            place = x['tipo'] in FOR_PLACES and (('club', t.get('club')) in f or ('prov', t.get('prov')) in f)
+            match = own or (place and encaja(t, perfil))
             if match and (s['id'], x['clave']) not in sent and x['clave'] not in seen:
                 items.append(x)
                 seen.add(x['clave'])
@@ -336,10 +344,6 @@ def main():
         weekly = JUEVES and (s['id'], weekly_key) not in sent
         if not items and not weekly:
             continue
-        try:
-            perfil = json.loads(s.get('perfil') or 'null')
-        except ValueError:
-            perfil = None
         extra, zone = extras(s['id'], f, T, prev_urls, {x['t']['url'] for x in items}, sent, lang, perfil)
         if not items and not extra:
             continue

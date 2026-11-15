@@ -84,7 +84,7 @@ jobs:
         if: ${{ vars.AVISOS == 'on' }}
         env:
           AVISOS: ${{ vars.AVISOS }}
-          SITE_URL: ${{ vars.SITE_URL }}
+          SITE_URL: https://banderin.es
           AVISOS_FROM: ${{ vars.AVISOS_FROM }}
           CF_ACCOUNT_ID: ${{ vars.CF_ACCOUNT_ID }}
           D1_DATABASE_ID: ${{ vars.D1_DATABASE_ID }}
