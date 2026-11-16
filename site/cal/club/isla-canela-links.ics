@@ -11,14 +11,15 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:3ab97c254fc286dddedd@banderin.es
-DTSTAMP:20261115T175328Z
+DTSTAMP:20261116T072203Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:4ª Jornada Lpgh XXVI Edición (Links-Islantilla)
 LOCATION:Isla Canela Links\, Ayamonte\, Huelva
-DESCRIPTION:Social de club · Fourball · Parejas\nFicha oficial: https://w
- ww.golfdirecto.com/micro/game/6af76badaef9248991f367cd/summary\nConfirma f
- echas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club · Fourball · Parejas\nInscripción: abre el 15
+  de noviembre\, cierra el 20 de noviembre.\nFicha oficial: https://www.gol
+ fdirecto.com/micro/game/6af76badaef9248991f367cd/summary\nConfirma fechas 
+ y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6af76badaef9248991f367cd/summary

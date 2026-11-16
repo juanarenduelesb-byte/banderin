@@ -3,70 +3,24 @@ VERSION:2.0
 PRODID:-//Banderin//Torneos de golf//ES
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:Banderín · Golf Santander S A
-X-WR-CALDESC:Torneos de golf: Golf Santander S A. Se actualiza cada mañana
- . https://banderin.es
+X-WR-CALNAME:Banderín · Golf Santander S.a.
+X-WR-CALDESC:Torneos de golf: Golf Santander S.a.. Se actualiza cada mañan
+ a. https://banderin.es
 X-WR-TIMEZONE:Europe/Madrid
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:c53f048f9a7e7475d7cb@banderin.es
-DTSTAMP:20261115T175328Z
-DTSTART;VALUE=DATE:20261121
-DTEND;VALUE=DATE:20261122
-SUMMARY:Final Circuito Amateur
-LOCATION:Golf Santander S A\, Boadilla del Monte\, Madrid
-DESCRIPTION:Absoluto · Stableford · Individual\nInscripción: abre el 21 
- de noviembre\, cierra el 21 de noviembre.\nPrecio: Gratis.\nFicha oficial:
-  https://www.nextcaddy.com/tour/68027\nConfirma fechas y condiciones en la
-  web del organizador. Vía Banderín.
+UID:5f9cdacabdfdc1aa5f86@banderin.es
+DTSTAMP:20261116T072203Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:Tres Cantos Vs Golfdegolfos
+LOCATION:Golf Santander S.a.\, Boadilla del Monte\, Madrid
+DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
+ s://www.golfdirecto.com/micro/game/6af1fb152f0e9df18b7a1968/summary\nConfi
+ rma fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-URL:https://www.nextcaddy.com/tour/68027
-END:VEVENT
-BEGIN:VEVENT
-UID:ab2b608557c0c7845ffe@banderin.es
-DTSTAMP:20261115T175328Z
-DTSTART;VALUE=DATE:20261122
-DTEND;VALUE=DATE:20261123
-SUMMARY:Campeonato de Madrid de Clubes Sin Campo
-LOCATION:Golf Santander S A\, Boadilla del Monte\, Madrid
-DESCRIPTION:Clubes y equipos · Stableford · Equipos\nInscripción: abre e
- l 9 de noviembre\, cierra el 16 de noviembre.\nPrecio: Gratis.\nFicha ofic
- ial: https://www.nextcaddy.com/tour/68356\nConfirma fechas y condiciones e
- n la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.nextcaddy.com/tour/68356
-END:VEVENT
-BEGIN:VEVENT
-UID:9ee3804c2de86b1e9e9c@banderin.es
-DTSTAMP:20261115T175328Z
-DTSTART;VALUE=DATE:20261123
-DTEND;VALUE=DATE:20261124
-SUMMARY:Final Circuito de Madrid de Profesionales
-LOCATION:Golf Santander S A\, Boadilla del Monte\, Madrid
-DESCRIPTION:Profesional · Medal Play · Individual\nInscripción: abre el 
- 11 de noviembre\, cierra el 18 de noviembre.\nPrecio: 51\,5 €.\nFicha of
- icial: https://www.nextcaddy.com/tour/68017\nConfirma fechas y condiciones
-  en la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.nextcaddy.com/tour/68017
-END:VEVENT
-BEGIN:VEVENT
-UID:96f2f6af6b02543e11ad@banderin.es
-DTSTAMP:20261115T175328Z
-DTSTART;VALUE=DATE:20261128
-DTEND;VALUE=DATE:20261129
-SUMMARY:Final Liga Universitaria
-LOCATION:Golf Santander S A\, Boadilla del Monte\, Madrid
-DESCRIPTION:Universitario · Stableford · Individual\nInscripción: abre e
- l 16 de noviembre\, cierra el 23 de noviembre.\nPrecio: 21 €.\nFicha ofi
- cial: https://www.nextcaddy.com/tour/74596\nConfirma fechas y condiciones 
- en la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.nextcaddy.com/tour/74596
+URL:https://www.golfdirecto.com/micro/game/6af1fb152f0e9df18b7a1968/summary
 END:VEVENT
 END:VCALENDAR

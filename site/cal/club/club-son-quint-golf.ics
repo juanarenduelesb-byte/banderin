@@ -10,53 +10,8 @@ X-WR-TIMEZONE:Europe/Madrid
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:11d739ad37c3821f3afd@banderin.es
-DTSTAMP:20261115T175328Z
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
-SUMMARY:Torneo Junior Academy 9 Hoyos
-LOCATION:Club Son Quint Golf\, Palma de Mallorca\, Illes Balears
-DESCRIPTION:Juvenil · Medal Play · Individual\nInscripción: abre el 6 de
-  noviembre\, cierra el 11 de noviembre.\nFicha oficial: https://www.golfdi
- recto.com/micro/game/6aed83551ab4f21da6323406/summary\nConfirma fechas y c
- ondiciones en la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.golfdirecto.com/micro/game/6aed83551ab4f21da6323406/summary
-END:VEVENT
-BEGIN:VEVENT
-UID:4d70db70d6a4ef97c9b7@banderin.es
-DTSTAMP:20261115T175328Z
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
-SUMMARY:Torneo Junior Academy P&P
-LOCATION:Club Son Quint Golf\, Palma de Mallorca\, Illes Balears
-DESCRIPTION:Juvenil · Medal Play · Individual\nInscripción: abre el 6 de
-  noviembre\, cierra el 11 de noviembre.\nFicha oficial: https://www.golfdi
- recto.com/micro/game/6aed83b902e839445a64d07b/summary\nConfirma fechas y c
- ondiciones en la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.golfdirecto.com/micro/game/6aed83b902e839445a64d07b/summary
-END:VEVENT
-BEGIN:VEVENT
-UID:155dba902cc9e0ebeedf@banderin.es
-DTSTAMP:20261115T175328Z
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
-SUMMARY:Torneo Junnior Academy 18 Hoyos
-LOCATION:Club Son Quint Golf\, Palma de Mallorca\, Illes Balears
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 6 de noviembre\, cierra el 11 de noviembre.\nFicha oficial: https://www
- .golfdirecto.com/micro/game/6aed82ec1ab4f21da623c082/summary\nConfirma fec
- has y condiciones en la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.golfdirecto.com/micro/game/6aed82ec1ab4f21da623c082/summary
-END:VEVENT
-BEGIN:VEVENT
 UID:7c0862dbda890bc41fd6@banderin.es
-DTSTAMP:20261115T175328Z
+DTSTAMP:20261116T072203Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 SUMMARY:1ª Prueba Circuito Otoño - 9 Hoyos - Palma Pitch & Putt 2026
@@ -72,7 +27,7 @@ URL:https://www.golfdirecto.com/micro/game/6acf2a6943b4ac0d0c374d1a/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:722093ac052f90456831@banderin.es
-DTSTAMP:20261115T175328Z
+DTSTAMP:20261116T072203Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
 SUMMARY:2ª Prueba Circuito Otoño - 9 Hoyos - Palma Pitch & Putt 2026
@@ -88,7 +43,7 @@ URL:https://www.golfdirecto.com/micro/game/6af98e3e440203a820b6ee70/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:c33e814e246311f7d788@banderin.es
-DTSTAMP:20261115T175328Z
+DTSTAMP:20261116T072203Z
 DTSTART;VALUE=DATE:20261211
 DTEND;VALUE=DATE:20261212
 SUMMARY:3ª Prueba Circuito Otoño - 9 Hoyos - Palma Pitch & Putt 2026

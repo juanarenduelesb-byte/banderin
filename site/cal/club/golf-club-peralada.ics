@@ -10,36 +10,8 @@ X-WR-TIMEZONE:Europe/Madrid
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:3a266944f1e309a87c44@banderin.es
-DTSTAMP:20261115T175328Z
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
-SUMMARY:Manresa
-LOCATION:Golf Club Peralada\, Peralada\, Girona
-DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
- s://www.golfdirecto.com/micro/game/6af826f1d4037456f96ba707/summary\nConfi
- rma fechas y condiciones en la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.golfdirecto.com/micro/game/6af826f1d4037456f96ba707/summary
-END:VEVENT
-BEGIN:VEVENT
-UID:ef5780e9e33f71eb73dd@banderin.es
-DTSTAMP:20261115T175328Z
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
-SUMMARY:Manresa 2026
-LOCATION:Golf Club Peralada\, Peralada\, Girona
-DESCRIPTION:Social de club · Fourball · Parejas\nFicha oficial: https://w
- ww.golfdirecto.com/micro/game/6af847f9d4037456f9e2d5de/summary\nConfirma f
- echas y condiciones en la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.golfdirecto.com/micro/game/6af847f9d4037456f9e2d5de/summary
-END:VEVENT
-BEGIN:VEVENT
 UID:818eb54282e16df5c0b2@banderin.es
-DTSTAMP:20261115T175328Z
+DTSTAMP:20261116T072203Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Campionat de Catalunya Interclubs Absolut 2026

@@ -10,24 +10,8 @@ X-WR-TIMEZONE:Europe/Madrid
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:8ec4175e3bd494f5141e@banderin.es
-DTSTAMP:20261115T175328Z
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
-SUMMARY:Lcsc Cuartos de Final
-LOCATION:Air Golf Club
-DESCRIPTION:Social de club · Match Play · Individual\nInscripción: abre 
- el 9 de noviembre\, cierra el 14 de noviembre.\nPrecio: 35 €.\nFicha ofi
- cial: https://www.golfdirecto.com/micro/game/697b07219bb6a2abedcffd31/summ
- ary\nConfirma fechas y condiciones en la web del organizador. Vía Bander
- ín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.golfdirecto.com/micro/game/697b07219bb6a2abedcffd31/summary
-END:VEVENT
-BEGIN:VEVENT
 UID:7fa356b277b704c6acae@banderin.es
-DTSTAMP:20261115T175328Z
+DTSTAMP:20261116T072203Z
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261220
 SUMMARY:Torneo de Navidad

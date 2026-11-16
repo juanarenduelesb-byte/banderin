@@ -10,22 +10,8 @@ X-WR-TIMEZONE:Europe/Madrid
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:5e2f602c6b8f6d400ebb@banderin.es
-DTSTAMP:20261115T175328Z
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
-SUMMARY:Bajopar 1
-LOCATION:Buenavista Golf\, Buenavista del Norte\, Santa Cruz de Tenerife
-DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
- s://www.golfdirecto.com/micro/game/6af9595f440203a8201a82ad/summary\nConfi
- rma fechas y condiciones en la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.golfdirecto.com/micro/game/6af9595f440203a8201a82ad/summary
-END:VEVENT
-BEGIN:VEVENT
 UID:09be78d2db0feeaa622c@banderin.es
-DTSTAMP:20261115T175328Z
+DTSTAMP:20261116T072203Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:7ª Prueba (Nueva Fecha) Circuito Familiar Canarias
@@ -39,7 +25,7 @@ URL:https://www.golfdirecto.com/micro/game/6af0986d5282bdc0c8fc9df9/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:bb9ec9efcc21f2679bca@banderin.es
-DTSTAMP:20261115T175328Z
+DTSTAMP:20261116T072203Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:XXXII Torneo Aniversario Golf Los Palos
@@ -53,7 +39,7 @@ URL:https://www.golfdirecto.com/micro/game/6af48f259292980794dfde99/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:04e82d37f1b4aa7bdf91@banderin.es
-DTSTAMP:20261115T175328Z
+DTSTAMP:20261116T072203Z
 DTSTART;VALUE=DATE:20261226
 DTEND;VALUE=DATE:20261227
 SUMMARY:Torneo de Navidad

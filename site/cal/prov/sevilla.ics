@@ -10,107 +10,8 @@ X-WR-TIMEZONE:Europe/Madrid
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:f97db89c3972b5e8240f@banderin.es
-DTSTAMP:20261115T175328Z
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
-SUMMARY:8ª Prueba Liga de Damas (Domingo)
-LOCATION:Real Club Sevilla Golf\, Alcala de Guadaira\, Sevilla
-DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
- s://www.nextcaddy.com/tour/75258\nConfirma fechas y condiciones en la web 
- del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.nextcaddy.com/tour/75258
-END:VEVENT
-BEGIN:VEVENT
-UID:a65e65426b6e383daf16@banderin.es
-DTSTAMP:20261115T175328Z
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
-SUMMARY:9ª Prueba Liga Infantil 18 Hoyos
-LOCATION:Real Club Sevilla Golf\, Alcala de Guadaira\, Sevilla
-DESCRIPTION:Juvenil · Stableford · Individual\nFicha oficial: https://www
- .nextcaddy.com/tour/75262\nConfirma fechas y condiciones en la web del org
- anizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.nextcaddy.com/tour/75262
-END:VEVENT
-BEGIN:VEVENT
-UID:1fd71a9b474d8ba7b3e5@banderin.es
-DTSTAMP:20261115T175328Z
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
-SUMMARY:9ª Prueba Liga Infantil 5 Hoyos
-LOCATION:Real Club Sevilla Golf\, Alcala de Guadaira\, Sevilla
-DESCRIPTION:Juvenil · Stableford · Individual\nFicha oficial: https://www
- .nextcaddy.com/tour/75260\nConfirma fechas y condiciones en la web del org
- anizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.nextcaddy.com/tour/75260
-END:VEVENT
-BEGIN:VEVENT
-UID:1eab43828d14d672d160@banderin.es
-DTSTAMP:20261115T175328Z
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
-SUMMARY:9ª Prueba Liga Infantil 9 Hoyos
-LOCATION:Real Club Sevilla Golf\, Alcala de Guadaira\, Sevilla
-DESCRIPTION:Juvenil · Stableford · Individual\nFicha oficial: https://www
- .nextcaddy.com/tour/75261\nConfirma fechas y condiciones en la web del org
- anizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.nextcaddy.com/tour/75261
-END:VEVENT
-BEGIN:VEVENT
-UID:cc5f815c3756048f084f@banderin.es
-DTSTAMP:20261115T175328Z
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
-SUMMARY:9ª Prueba Liga de Caballeros
-LOCATION:Real Club Sevilla Golf\, Alcala de Guadaira\, Sevilla
-DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
- s://www.nextcaddy.com/tour/75257\nConfirma fechas y condiciones en la web 
- del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.nextcaddy.com/tour/75257
-END:VEVENT
-BEGIN:VEVENT
-UID:b7f182de3c476d16d965@banderin.es
-DTSTAMP:20261115T175328Z
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
-SUMMARY:IV Encuentro de Escuelas Públicas de Golf 2026
-LOCATION:Escuela Pública la Cartuja\, Sevilla\, Sevilla
-DESCRIPTION:Juvenil · Stableford · Individual\nFicha oficial: https://www
- .nextcaddy.com/tour/74809\nConfirma fechas y condiciones en la web del org
- anizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.nextcaddy.com/tour/74809
-END:VEVENT
-BEGIN:VEVENT
-UID:76e27dca2b1774ccedda@banderin.es
-DTSTAMP:20261115T175328Z
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
-SUMMARY:Liga de Damas Domingo(Jornada 3)
-LOCATION:Club Hato Verde\, Las Pajanosas\, Sevilla
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 14 de noviembre\, cierra el 14 de noviembre.\nPrecio: Gratis.\nFicha of
- icial: https://www.nextcaddy.com/tour/75354\nConfirma fechas y condiciones
-  en la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.nextcaddy.com/tour/75354
-END:VEVENT
-BEGIN:VEVENT
 UID:a1a33b9dc86082ea6352@banderin.es
-DTSTAMP:20261115T175328Z
+DTSTAMP:20261116T072203Z
 DTSTART;VALUE=DATE:20261116
 DTEND;VALUE=DATE:20261117
 SUMMARY:8ª Prueba Liga de Damas (Lunes)
@@ -124,7 +25,7 @@ URL:https://www.nextcaddy.com/tour/75259
 END:VEVENT
 BEGIN:VEVENT
 UID:e9d703cf12d6a1f547a5@banderin.es
-DTSTAMP:20261115T175328Z
+DTSTAMP:20261116T072203Z
 DTSTART;VALUE=DATE:20261116
 DTEND;VALUE=DATE:20261117
 SUMMARY:Lunes al Golf Jornada 4 ( Mañana 9:30)
@@ -139,7 +40,7 @@ URL:https://www.nextcaddy.com/tour/75269
 END:VEVENT
 BEGIN:VEVENT
 UID:f11a5f01e99a52a1a528@banderin.es
-DTSTAMP:20261115T175328Z
+DTSTAMP:20261116T072203Z
 DTSTART;VALUE=DATE:20261116
 DTEND;VALUE=DATE:20261117
 SUMMARY:Lunes al Golf Jornada 4 ( Tarde 16:00)
@@ -154,7 +55,7 @@ URL:https://www.nextcaddy.com/tour/75270
 END:VEVENT
 BEGIN:VEVENT
 UID:a51867e25cd3fa00eb0c@banderin.es
-DTSTAMP:20261115T175328Z
+DTSTAMP:20261116T072203Z
 DTSTART;VALUE=DATE:20261117
 DTEND;VALUE=DATE:20261118
 SUMMARY:4ª Prueba Liga de Señoras Otoño
@@ -168,7 +69,7 @@ URL:https://www.nextcaddy.com/tour/75267
 END:VEVENT
 BEGIN:VEVENT
 UID:af06ccf17449c04d5f11@banderin.es
-DTSTAMP:20261115T175328Z
+DTSTAMP:20261116T072203Z
 DTSTART;VALUE=DATE:20261117
 DTEND;VALUE=DATE:20261118
 SUMMARY:Lig. Damas Jornada 2 17/11/26
@@ -182,7 +83,7 @@ URL:https://www.nextcaddy.com/tour/75373
 END:VEVENT
 BEGIN:VEVENT
 UID:2db83e38e77cffcc5b09@banderin.es
-DTSTAMP:20261115T175328Z
+DTSTAMP:20261116T072203Z
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261120
 SUMMARY:4ª Prueba Circuito Seniors Otoño
@@ -196,7 +97,7 @@ URL:https://www.nextcaddy.com/tour/75301
 END:VEVENT
 BEGIN:VEVENT
 UID:09376bf212d460dfe595@banderin.es
-DTSTAMP:20261115T175328Z
+DTSTAMP:20261116T072203Z
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261120
 SUMMARY:Lig. Caballeros Jornada 3 19/11/26
@@ -210,7 +111,7 @@ URL:https://www.nextcaddy.com/tour/75372
 END:VEVENT
 BEGIN:VEVENT
 UID:ea8416ebb336b8ca035e@banderin.es
-DTSTAMP:20261115T175328Z
+DTSTAMP:20261116T072203Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:Circuito Benjamin Zona W
@@ -225,7 +126,7 @@ URL:https://www.nextcaddy.com/tour/61243
 END:VEVENT
 BEGIN:VEVENT
 UID:e87cc1ec4727b994232e@banderin.es
-DTSTAMP:20261115T175328Z
+DTSTAMP:20261116T072203Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:Circuito Juvenil Zona W
@@ -240,7 +141,7 @@ URL:https://www.nextcaddy.com/tour/61244
 END:VEVENT
 BEGIN:VEVENT
 UID:c31207b1bfa0a05278f3@banderin.es
-DTSTAMP:20261115T175328Z
+DTSTAMP:20261116T072203Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:VIII Open Femenino la Cartuja 2026
@@ -254,7 +155,7 @@ URL:https://www.nextcaddy.com/tour/75321
 END:VEVENT
 BEGIN:VEVENT
 UID:d6ad661e243e72b565fc@banderin.es
-DTSTAMP:20261115T175328Z
+DTSTAMP:20261116T072203Z
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
 SUMMARY:1ª Prueba Metas Amigos de Hato Verde
@@ -270,7 +171,7 @@ URL:https://www.golfdirecto.com/micro/game/6a980c839678d915e8fbbc15/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:954d8ff6309a6d3208fb@banderin.es
-DTSTAMP:20261115T175328Z
+DTSTAMP:20261116T072203Z
 DTSTART;VALUE=DATE:20261227
 DTEND;VALUE=DATE:20261228
 SUMMARY:2ª Prueba Metas Amigos de Hato Verde
@@ -286,7 +187,7 @@ URL:https://www.golfdirecto.com/micro/game/6a980f789678d915e8f0d9d4/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:48af65c245f6ce7fd3ff@banderin.es
-DTSTAMP:20261115T175328Z
+DTSTAMP:20261116T072203Z
 DTSTART;VALUE=DATE:20270110
 DTEND;VALUE=DATE:20270111
 SUMMARY:3ª Prueba Metas Amigos de Hato Verde
@@ -301,7 +202,7 @@ URL:https://www.golfdirecto.com/micro/game/6a980fa19678d915e8f50806/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:f887680d09179cc2eec5@banderin.es
-DTSTAMP:20261115T175328Z
+DTSTAMP:20261116T072203Z
 DTSTART;VALUE=DATE:20270214
 DTEND;VALUE=DATE:20270215
 SUMMARY:4ª Prueba Metas Amigos de Hato Verde
@@ -317,7 +218,7 @@ URL:https://www.golfdirecto.com/micro/game/6a9810d09678d915e85dee85/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:469d0f2386f238b7655b@banderin.es
-DTSTAMP:20261115T175328Z
+DTSTAMP:20261116T072203Z
 DTSTART;VALUE=DATE:20270228
 DTEND;VALUE=DATE:20270301
 SUMMARY:5ª Prueba Metas Amigos de Hato Verde
@@ -332,7 +233,7 @@ URL:https://www.golfdirecto.com/micro/game/6a98114b9678d915e882194e/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:d77afd7242e49da24bf4@banderin.es
-DTSTAMP:20261115T175328Z
+DTSTAMP:20261116T072203Z
 DTSTART;VALUE=DATE:20270425
 DTEND;VALUE=DATE:20270426
 SUMMARY:6ª Prueba Metas Amigos de Hato Verde
@@ -347,7 +248,7 @@ URL:https://www.golfdirecto.com/micro/game/6a98117b9678d915e8925d5b/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:029d9c7bab7fb4b7b5d1@banderin.es
-DTSTAMP:20261115T175328Z
+DTSTAMP:20261116T072203Z
 DTSTART;VALUE=DATE:20270516
 DTEND;VALUE=DATE:20270517
 SUMMARY:7ª Prueba Metas Amigos de Hato Verde
@@ -362,7 +263,7 @@ URL:https://www.golfdirecto.com/micro/game/6af0cce918fc8072fbc1942c/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:ad365ba3a23fa53c27d1@banderin.es
-DTSTAMP:20261115T175328Z
+DTSTAMP:20261116T072203Z
 DTSTART;VALUE=DATE:20270606
 DTEND;VALUE=DATE:20270607
 SUMMARY:Prueba Final Metas Amigos de Hato Verde

@@ -10,38 +10,8 @@ X-WR-TIMEZONE:Europe/Madrid
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:3495c58fbac616963982@banderin.es
-DTSTAMP:20261115T175328Z
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
-SUMMARY:Final Ranking Benjamin Fexgolf/Judex 2026
-LOCATION:Quinto Coto Golf
-DESCRIPTION:Juvenil · Medal Play · Individual\nInscripción: abre el 7 de
-  noviembre\, cierra el 12 de noviembre.\nPrecio: 1 €.\nFicha oficial: ht
- tps://www.golfdirecto.com/micro/game/6aef0fc4e0349cc290225182/summary\nCon
- firma fechas y condiciones en la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.golfdirecto.com/micro/game/6aef0fc4e0349cc290225182/summary
-END:VEVENT
-BEGIN:VEVENT
-UID:92a5d5cf0ae60a98f412@banderin.es
-DTSTAMP:20261115T175328Z
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
-SUMMARY:Final Ranking Juvenil Fexgolf/Judex 2026
-LOCATION:Quinto Coto Golf
-DESCRIPTION:Juvenil · Medal Play · Individual\nInscripción: abre el 7 de
-  noviembre\, cierra el 12 de noviembre.\nFicha oficial: https://www.golfdi
- recto.com/micro/game/6aef0e5ee0349cc29075d16a/summary\nConfirma fechas y c
- ondiciones en la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.golfdirecto.com/micro/game/6aef0e5ee0349cc29075d16a/summary
-END:VEVENT
-BEGIN:VEVENT
 UID:76301d9ca0190b36ba05@banderin.es
-DTSTAMP:20261115T175328Z
+DTSTAMP:20261116T072203Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:Campeonato de Madrid Interclubes Infantil y Cadete
@@ -56,7 +26,7 @@ URL:https://www.nextcaddy.com/tour/68256
 END:VEVENT
 BEGIN:VEVENT
 UID:498f90de13b4586126b9@banderin.es
-DTSTAMP:20261115T175328Z
+DTSTAMP:20261116T072203Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:VIII Torneo Juvenil de Golf "Jorge Campillo"
@@ -71,7 +41,7 @@ URL:https://www.golfdirecto.com/micro/game/6aece3d99dfa5416307d6f26/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:8c53c368008766bccce7@banderin.es
-DTSTAMP:20261115T175328Z
+DTSTAMP:20261116T072203Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:II Torneo de Navidad

@@ -10,23 +10,8 @@ X-WR-TIMEZONE:Europe/Madrid
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:5375addc1bd8181d2a43@banderin.es
-DTSTAMP:20261115T175328Z
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
-SUMMARY:Campeonato de Aragón dobles de profesionales
-LOCATION:Real Club de Golf la Peñaza\, Zaragoza\, Zaragoza
-DESCRIPTION:Profesional · Fourball · Parejas\nInscripción: abre el 8 de 
- noviembre\, cierra el 12 de noviembre.\nFicha oficial: https://www.golfdir
- ecto.com/micro/game/6aee5da0e0349cc290be537e/summary\nConfirma fechas y co
- ndiciones en la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.golfdirecto.com/micro/game/6aee5da0e0349cc290be537e/summary
-END:VEVENT
-BEGIN:VEVENT
 UID:bb76acac542cd5029bb0@banderin.es
-DTSTAMP:20261115T175328Z
+DTSTAMP:20261116T072203Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:Torneo Femenino FAG por Equipos 2026

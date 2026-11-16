@@ -10,23 +10,8 @@ X-WR-TIMEZONE:Europe/Madrid
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:6c8ae9e9997a6d882fec@banderin.es
-DTSTAMP:20261115T175328Z
-DTSTART;VALUE=DATE:20261114
-DTEND;VALUE=DATE:20261116
-SUMMARY:Torneig de la Castanya
-LOCATION:Club de Golf Castellterçol\, Castellterçol\, Barcelona
-DESCRIPTION:Social de club · Individual\nFicha oficial: https://www.catgol
- f.com/es/campeonatos/torneig-de-la-castanya-2026-11-14\nConfirma fechas y 
- condiciones en la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.catgolf.com/es/campeonatos/torneig-de-la-castanya-2026-11-1
- 4
-END:VEVENT
-BEGIN:VEVENT
 UID:9e9dc0bbcb616f4d0d38@banderin.es
-DTSTAMP:20261115T175328Z
+DTSTAMP:20261116T072203Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261130
 SUMMARY:Torneig Brot d'Or
@@ -40,7 +25,7 @@ URL:https://www.catgolf.com/es/campeonatos/torneig-brot-dor-2026-11-28
 END:VEVENT
 BEGIN:VEVENT
 UID:bfff6be0c7023417957a@banderin.es
-DTSTAMP:20261115T175328Z
+DTSTAMP:20261116T072203Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261214
 SUMMARY:Torneig del Fred
@@ -54,7 +39,7 @@ URL:https://www.catgolf.com/es/campeonatos/torneig-del-fred-2026-12-12
 END:VEVENT
 BEGIN:VEVENT
 UID:23816f1809a716ae8956@banderin.es
-DTSTAMP:20261115T175328Z
+DTSTAMP:20261116T072203Z
 DTSTART;VALUE=DATE:20270501
 DTEND;VALUE=DATE:20270503
 SUMMARY:CIRCUIT NACIONAL 5A CATEGORIA 2027 (Castellterçol)

@@ -11,14 +11,15 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:2ea1017385ddce147a0a@banderin.es
-DTSTAMP:20261115T175328Z
+DTSTAMP:20261116T072203Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:1ª Jornada Lpgh XXVI Edición (Portil/Monacilla)
 LOCATION:Golf Nuevo Portil\, El Portil\, Huelva
-DESCRIPTION:Social de club · Fourball · Parejas\nFicha oficial: https://w
- ww.golfdirecto.com/micro/game/6aad78d9371000592dadc325/summary\nConfirma f
- echas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club · Fourball · Parejas\nInscripción: abre el 15
+  de noviembre\, cierra el 20 de noviembre.\nFicha oficial: https://www.gol
+ fdirecto.com/micro/game/6aad78d9371000592dadc325/summary\nConfirma fechas 
+ y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6aad78d9371000592dadc325/summary

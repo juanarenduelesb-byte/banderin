@@ -10,23 +10,8 @@ X-WR-TIMEZONE:Europe/Madrid
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:bdac0dc4d26573de17d1@banderin.es
-DTSTAMP:20261115T175328Z
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
-SUMMARY:Pequecircuito Zona E
-LOCATION:Valle del Este Hotel Golf Spa\, Vera\, Almería
-DESCRIPTION:Juvenil · Medal Play · Individual\nInscripción: abre el 6 de
-  octubre\, cierra el 9 de noviembre.\nFicha oficial: https://www.nextcaddy
- .com/tour/61231\nConfirma fechas y condiciones en la web del organizador. 
- Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.nextcaddy.com/tour/61231
-END:VEVENT
-BEGIN:VEVENT
 UID:efe337f0c64840c8b043@banderin.es
-DTSTAMP:20261115T175328Z
+DTSTAMP:20261116T072203Z
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261201
 SUMMARY:Alamo Golf Society Sponsored by Julie & Steve Crook

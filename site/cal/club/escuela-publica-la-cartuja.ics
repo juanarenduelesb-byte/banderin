@@ -10,22 +10,8 @@ X-WR-TIMEZONE:Europe/Madrid
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:b7f182de3c476d16d965@banderin.es
-DTSTAMP:20261115T175328Z
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
-SUMMARY:IV Encuentro de Escuelas Públicas de Golf 2026
-LOCATION:Escuela Pública la Cartuja\, Sevilla\, Sevilla
-DESCRIPTION:Juvenil · Stableford · Individual\nFicha oficial: https://www
- .nextcaddy.com/tour/74809\nConfirma fechas y condiciones en la web del org
- anizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.nextcaddy.com/tour/74809
-END:VEVENT
-BEGIN:VEVENT
 UID:c31207b1bfa0a05278f3@banderin.es
-DTSTAMP:20261115T175328Z
+DTSTAMP:20261116T072203Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:VIII Open Femenino la Cartuja 2026
