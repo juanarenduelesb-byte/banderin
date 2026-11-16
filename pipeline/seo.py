@@ -244,6 +244,7 @@ def event_ld(t):
     return ev
 
 
+PAGINAS_TORNEO = False  # una página por torneo: apagado (contenido fino y duplicados; los clubes son mejor apuesta)
 TPATH = {}  # enlace del torneo -> ruta de su página propia; se rellena en main()
 
 
@@ -438,7 +439,7 @@ def main():
     # Dirección de la página de cada torneo (dos torneos con el mismo enlace comparten identificador: solo el primero tiene página)
     TPATH.clear()
     usados = set()
-    for t in T:
+    for t in (T if PAGINAS_TORNEO else []):
         k = tid(t.get('url'))
         if t.get('url') and k not in usados:
             usados.add(k)
