@@ -11,10 +11,10 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:dd8ff36d6bc36061644a@banderin.es
-DTSTAMP:20261116T072203Z
+DTSTAMP:20261116T130606Z
 DTSTART;VALUE=DATE:20261211
 DTEND;VALUE=DATE:20261212
-SUMMARY:SAS Stableford Eclectic
+SUMMARY:SAS Stableford Eclectic - 108028
 LOCATION:Alicante Golf\, Sant Joan\, Alicante
 DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
  el 26 de noviembre\, cierra el 9 de diciembre.\nPrecio: 45 €.\nFicha ofi

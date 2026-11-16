@@ -11,7 +11,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:3aef11d63185ca7191b3@banderin.es
-DTSTAMP:20261116T072203Z
+DTSTAMP:20261116T130606Z
 DTSTART;VALUE=DATE:20261116
 DTEND;VALUE=DATE:20261117
 SUMMARY:Monday Club 16th Nov 2026
@@ -25,8 +25,23 @@ STATUS:CONFIRMED
 URL:https://www.nextcaddy.com/tour/75370
 END:VEVENT
 BEGIN:VEVENT
+UID:da0cc45d9737e813faa6@banderin.es
+DTSTAMP:20261116T130606Z
+DTSTART;VALUE=DATE:20261118
+DTEND;VALUE=DATE:20261119
+SUMMARY:Monthly Stableford
+LOCATION:Santa María Golf & Country Club\, Marbella\, Málaga
+DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
+ el 16 de noviembre\, cierra el 16 de noviembre.\nPrecio: Gratis.\nFicha of
+ icial: https://www.nextcaddy.com/tour/75393\nConfirma fechas y condiciones
+  en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nextcaddy.com/tour/75393
+END:VEVENT
+BEGIN:VEVENT
 UID:a19c4462848814a5a2e9@banderin.es
-DTSTAMP:20261116T072203Z
+DTSTAMP:20261116T130606Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Torneo Senior Otoño Costa del Sol

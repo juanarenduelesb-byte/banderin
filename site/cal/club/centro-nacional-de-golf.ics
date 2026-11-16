@@ -11,7 +11,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:51577a3784be431c06c7@banderin.es
-DTSTAMP:20261116T072203Z
+DTSTAMP:20261116T130606Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:Ryder / Solheim Amateur
@@ -26,22 +26,22 @@ URL:https://www.nextcaddy.com/tour/73320
 END:VEVENT
 BEGIN:VEVENT
 UID:1a22417a687ce5c63aca@banderin.es
-DTSTAMP:20261116T072203Z
+DTSTAMP:20261116T130606Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Campeonato de Madrid Dobles Masculino
 LOCATION:Centro Nacional de Golf\, Madrid\, Madrid
 DESCRIPTION:Absoluto · Medal Play · Parejas\nInscripción: abre el 16 de 
- noviembre\, cierra el 23 de noviembre.\nFicha oficial: https://www.nextcad
- dy.com/tour/68355\nConfirma fechas y condiciones en la web del organizador
- . Vía Banderín.
+ noviembre\, cierra el 23 de noviembre.\nPrecio: 61\,5 €.\nFicha oficial:
+  https://www.nextcaddy.com/tour/68355\nConfirma fechas y condiciones en la
+  web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.nextcaddy.com/tour/68355
 END:VEVENT
 BEGIN:VEVENT
 UID:0c8a4704afda9f45956d@banderin.es
-DTSTAMP:20261116T072203Z
+DTSTAMP:20261116T130606Z
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
 SUMMARY:Final Liga Juvenil

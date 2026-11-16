@@ -10,11 +10,25 @@ X-WR-TIMEZONE:Europe/Madrid
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
+UID:752d7bb2cb0ae9cef82c@banderin.es
+DTSTAMP:20261116T130606Z
+DTSTART;VALUE=DATE:20261117
+DTEND;VALUE=DATE:20261118
+SUMMARY:Torneo Grupo Bélgica-España Noviembre 2026
+LOCATION:La Sella Golf (Campo)\, Jesus Pobre\, Alicante
+DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
+ s://www.golfdirecto.com/micro/game/6afab1785445bc102982b3ac/summary\nConfi
+ rma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6afab1785445bc102982b3ac/summary
+END:VEVENT
+BEGIN:VEVENT
 UID:55c72d76ef70c8f1e07b@banderin.es
-DTSTAMP:20261116T072203Z
+DTSTAMP:20261116T130606Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
-SUMMARY:SAS La Sella
+SUMMARY:SAS La Sella - 106994
 LOCATION:La Sella Golf (Campo)\, Jesus Pobre\, Alicante
 DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
  el 5 de noviembre\, cierra el 18 de noviembre.\nPrecio: 65 €.\nFicha ofi

@@ -10,8 +10,143 @@ X-WR-TIMEZONE:Europe/Madrid
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
+UID:8be3bbccec1334c1c238@banderin.es
+DTSTAMP:20261116T130606Z
+DTSTART;VALUE=DATE:20261116
+DTEND;VALUE=DATE:20261117
+SUMMARY:Liga Femenina Campo B Semana 1
+LOCATION:Real Novo Sancti Petri Golf Club\, Chiclana de la Frontera\, Cádi
+ z
+DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
+ s://www.golfdirecto.com/micro/game/6afabdd55445bc1029045cb7/summary\nConfi
+ rma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6afabdd55445bc1029045cb7/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:5645b1f11ab80fc0dabe@banderin.es
+DTSTAMP:20261116T130606Z
+DTSTART;VALUE=DATE:20261116
+DTEND;VALUE=DATE:20261117
+SUMMARY:Liga Femenina Campo a Semana 1
+LOCATION:Real Novo Sancti Petri Golf Club\, Chiclana de la Frontera\, Cádi
+ z
+DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
+ s://www.golfdirecto.com/micro/game/6afabe265445bc10291d4216/summary\nConfi
+ rma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6afabe265445bc10291d4216/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:17706cb4ca12d7e6acad@banderin.es
+DTSTAMP:20261116T130606Z
+DTSTART;VALUE=DATE:20261117
+DTEND;VALUE=DATE:20261118
+SUMMARY:Liga Femenina Campo B Semana 2
+LOCATION:Real Novo Sancti Petri Golf Club\, Chiclana de la Frontera\, Cádi
+ z
+DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
+ s://www.golfdirecto.com/micro/game/6afac9d85445bc102958dd75/summary\nConfi
+ rma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6afac9d85445bc102958dd75/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:4d662e4ea089cf60aff8@banderin.es
+DTSTAMP:20261116T130606Z
+DTSTART;VALUE=DATE:20261117
+DTEND;VALUE=DATE:20261118
+SUMMARY:Liga Femenina Campo a Semana 2
+LOCATION:Real Novo Sancti Petri Golf Club\, Chiclana de la Frontera\, Cádi
+ z
+DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
+ s://www.golfdirecto.com/micro/game/6afaca2d5445bc10296083e0/summary\nConfi
+ rma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6afaca2d5445bc10296083e0/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:043a8b8ef4680b0a79a6@banderin.es
+DTSTAMP:20261116T130606Z
+DTSTART;VALUE=DATE:20261118
+DTEND;VALUE=DATE:20261119
+SUMMARY:Liga Femenina Campo B Semana 3
+LOCATION:Real Novo Sancti Petri Golf Club\, Chiclana de la Frontera\, Cádi
+ z
+DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
+ s://www.golfdirecto.com/micro/game/6afacffb5445bc102909242d/summary\nConfi
+ rma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6afacffb5445bc102909242d/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:850d1465118a2c8a1699@banderin.es
+DTSTAMP:20261116T130606Z
+DTSTART;VALUE=DATE:20261118
+DTEND;VALUE=DATE:20261119
+SUMMARY:Liga Femenina Campo a Semana 3
+LOCATION:Real Novo Sancti Petri Golf Club\, Chiclana de la Frontera\, Cádi
+ z
+DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
+ s://www.golfdirecto.com/micro/game/6afad0e25445bc10292178b2/summary\nConfi
+ rma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6afad0e25445bc10292178b2/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:f0244312e13ca1ffd916@banderin.es
+DTSTAMP:20261116T130606Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+SUMMARY:Liga Femenina Campo B Semana 4
+LOCATION:Real Novo Sancti Petri Golf Club\, Chiclana de la Frontera\, Cádi
+ z
+DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
+ s://www.golfdirecto.com/micro/game/6afad5585445bc1029b33876/summary\nConfi
+ rma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6afad5585445bc1029b33876/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:487439aa3a0bf66dc379@banderin.es
+DTSTAMP:20261116T130606Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:Liga Femenina Campo B Semana 5
+LOCATION:Real Novo Sancti Petri Golf Club\, Chiclana de la Frontera\, Cádi
+ z
+DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
+ s://www.golfdirecto.com/micro/game/6afadb2223d5370df00f1516/summary\nConfi
+ rma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6afadb2223d5370df00f1516/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:27751479c8f4db8fbb0a@banderin.es
+DTSTAMP:20261116T130606Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:Liga Femenina Campo a Semana 5
+LOCATION:Real Novo Sancti Petri Golf Club\, Chiclana de la Frontera\, Cádi
+ z
+DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
+ s://www.golfdirecto.com/micro/game/6afadb2d5445bc1029829b04/summary\nConfi
+ rma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6afadb2d5445bc1029829b04/summary
+END:VEVENT
+BEGIN:VEVENT
 UID:55a20ca45f741f4e887e@banderin.es
-DTSTAMP:20261116T072203Z
+DTSTAMP:20261116T130606Z
 DTSTART;VALUE=DATE:20261203
 DTEND;VALUE=DATE:20261204
 SUMMARY:Campeonato Andalucía de Profesionales Femenino
@@ -27,7 +162,7 @@ URL:https://www.nextcaddy.com/tour/75274
 END:VEVENT
 BEGIN:VEVENT
 UID:7bbc6a135926e4dd3f37@banderin.es
-DTSTAMP:20261116T072203Z
+DTSTAMP:20261116T130606Z
 DTSTART;VALUE=DATE:20261216
 DTEND;VALUE=DATE:20261217
 SUMMARY:Campeonato Andalucía de Profesionales Masculino

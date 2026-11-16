@@ -10,8 +10,23 @@ X-WR-TIMEZONE:Europe/Madrid
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
+UID:2d932e35c6dd9b903596@banderin.es
+DTSTAMP:20261116T130606Z
+DTSTART;VALUE=DATE:20261116
+DTEND;VALUE=DATE:20261117
+SUMMARY:Final de la Liga Femenina
+LOCATION:Golf Park Entertainment\, Alcobendas\, Madrid
+DESCRIPTION:Absoluto · Stableford · Individual\nInscripción: abre el 9 d
+ e diciembre\, cierra el 16 de diciembre.\nPrecio: 25 €.\nFicha oficial: 
+ https://www.nextcaddy.com/tour/75400\nConfirma fechas y condiciones en la 
+ web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nextcaddy.com/tour/75400
+END:VEVENT
+BEGIN:VEVENT
 UID:f4293b69a1b6c0a81f31@banderin.es
-DTSTAMP:20261116T072203Z
+DTSTAMP:20261116T130606Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:Liga Femenina (hcp igual o menor de 42.0)
@@ -26,7 +41,7 @@ URL:https://www.nextcaddy.com/tour/68197
 END:VEVENT
 BEGIN:VEVENT
 UID:4d84a157351f887038c6@banderin.es
-DTSTAMP:20261116T072203Z
+DTSTAMP:20261116T130606Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:Liga Femenina (hcp mayor o igual a 42.1)

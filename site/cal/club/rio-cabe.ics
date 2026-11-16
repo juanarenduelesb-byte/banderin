@@ -11,7 +11,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:a4b7b398c0d45394a59d@banderin.es
-DTSTAMP:20261116T072203Z
+DTSTAMP:20261116T130606Z
 DTSTART;VALUE=DATE:20261116
 DTEND;VALUE=DATE:20261117
 SUMMARY:Torneo Bazar Lago 2026
@@ -23,5 +23,20 @@ DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6af1a3208527252f606d7139/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:f60c72402f867b3a8ac6@banderin.es
+DTSTAMP:20261116T130606Z
+DTSTART;VALUE=DATE:20261123
+DTEND;VALUE=DATE:20261124
+SUMMARY:Abierto de Parejas - Fisioterapia a Man
+LOCATION:Rio Cabe\, Monforte (casco Urbano)\, Lugo
+DESCRIPTION:Social de club · Fourball · Parejas\nInscripción: abre el 16
+  de noviembre\, cierra el 22 de noviembre.\nFicha oficial: https://www.gol
+ fdirecto.com/micro/game/6afacf895445bc1029fd25e8/summary\nConfirma fechas 
+ y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6afacf895445bc1029fd25e8/summary
 END:VEVENT
 END:VCALENDAR
