@@ -244,6 +244,24 @@ def event_ld(t):
     return ev
 
 
+TPATH = {}  # enlace del torneo -> ruta de su página propia; se rellena en main()
+
+
+def tid(u):
+    """Mismo identificador que tid() en site/app.js y functions/t/[id].js: FNV-1a del enlace, en base 36."""
+    h = 2166136261
+    b = (u or '').encode('utf-16-le')
+    for i in range(0, len(b), 2):
+        h ^= b[i] | (b[i + 1] << 8)
+        h = (h * 16777619) & 0xFFFFFFFF
+    n, out = h, ''
+    while True:
+        n, r = divmod(n, 36)
+        out = '0123456789abcdefghijklmnopqrstuvwxyz'[r] + out
+        if not n:
+            return out
+
+
 CLUBS = {}  # slug del club -> {'name','path',...}; se rellena en main() antes de generar páginas
 MIN_CLUB = 2  # un club tiene página propia con 2 o más torneos próximos (con menos sería contenido fino)
 
@@ -253,6 +271,11 @@ def club_link(name, here=None):
     if not c or c['path'] == here:
         return e(name)
     return '<a href="%s">%s</a>' % (c['path'], e(name))
+
+
+def tlink(t):
+    p = TPATH.get(t.get('url'))
+    return '<a href="%s">%s</a>' % (p, e(t['n'])) if p else e(t['n'])
 
 
 def event_li(t, here=None):
@@ -267,7 +290,7 @@ def event_li(t, here=None):
         side.append('<span class="open">Inscripción abierta</span>')
     btn = ('<a class="btn" href="%s" target="_blank" rel="noopener">%s</a>' % (e(u), 'Inscribirse' if is_open(t) else 'Ver ficha')) if u else ''
     return ('<li class="ev"><time datetime="%s">%s</time><div class="what"><h3>%s</h3><p>%s</p></div>'
-            '<div class="side">%s%s</div></li>' % (t['s'], e(when), e(t['n']), meta, ''.join(side), btn))
+            '<div class="side">%s%s</div></li>' % (t['s'], e(when), tlink(t), meta, ''.join(side), btn))
 
 
 def month_groups(ts, here=None):
@@ -415,6 +438,15 @@ def main():
         CLUBS[sg] = {'name': nm, 'path': '/%s/club/%s/' % (HUB, sg), 'ts': ts, 'city': top('city'), 'prov': top('prov'),
                      'ccaa': top('ccaa'), 'll': ll}
 
+    # Dirección de la página de cada torneo (dos torneos con el mismo enlace comparten identificador: solo el primero tiene página)
+    TPATH.clear()
+    usados = set()
+    for t in T:
+        k = tid(t.get('url'))
+        if t.get('url') and k not in usados:
+            usados.add(k)
+            TPATH[t['url']] = '/%s/torneo/%s-%s/' % (HUB, slug(t['n'])[:60].strip('-') or 'torneo', k)
+
     hub_dir = SITE / HUB
     if hub_dir.exists():
         shutil.rmtree(hub_dir)
@@ -519,6 +551,67 @@ def main():
             gc['geo'] = {'@type': 'GeoCoordinates', 'latitude': c['ll'][0], 'longitude': c['ll'][1]}
         page(path, title, desc, 'Torneos de golf en %s' % nm, where or 'Club de golf', nm, ts, crumb, sub, counts, c['ccaa'],
              intro=intro, faq_html=faq_html, here=path, extra_ld=[gc])
+        pages.append((path, True))
+
+    # Una página por torneo (todos los próximos): ficha con datos propios y datos estructurados de evento
+    seen_t = set()
+    for t in T:
+        path = TPATH.get(t.get('url'))
+        if not path or path in seen_t:
+            continue
+        seen_t.add(path)
+        cs = CLUBS.get(slug(t.get('club') or ''))
+        place = ', '.join(x for x in [t.get('city'), t.get('prov') if t.get('prov') != 'Por confirmar' else None] if x and x != t.get('club'))
+        when = flong(t['s']) + (' al ' + flong(t['e']) if t.get('e') and t['e'] != t['s'] else '') + ' de %d' % d(t['s']).year
+        title = '%s · %s%s | Banderín' % (t['n'], when, ' · ' + t['club'] if t.get('club') else '')
+        parts = [x for x in [t.get('cat'), t.get('mod') if t.get('mod') != 'Sin indicar' else None] if x]
+        desc = 'Torneo de golf%s el %s%s%s.%s Consulta fecha, precio e inscripción.' % (
+            ' ' + ' · '.join(parts).lower() if parts else '', when, ' en ' + t['club'] if t.get('club') else '', ' (%s)' % place if place else '',
+            ' Inscripción: %s.' % eur(t['price']) if t.get('price') is not None else '')
+        rows = [('Fecha', when), ('Club', None), ('Lugar', place), ('Categoría', t.get('cat')), ('Género', t.get('sex')),
+                ('Modalidad', t.get('mod') if t.get('mod') != 'Sin indicar' else None), ('Formato', t.get('form')), ('Recorrido', t.get('campo')),
+                ('Organiza', t.get('via') if t.get('via') and t.get('via') not in ('Club',) else t.get('org')),
+                ('Precio', eur(t['price']) if t.get('price') is not None else None),
+                ('Abre la inscripción', flong(t['op']) if t.get('op') else None), ('Cierra la inscripción', flong(t['cl']) if t.get('cl') else None),
+                ('Plazas', str(t['plazas']) if t.get('plazas') else None)]
+        dl = []
+        for k, v in rows:
+            if k == 'Club':
+                if t.get('club'):
+                    dl.append('<div><dt>Club</dt><dd>%s</dd></div>' % (('<a href="%s">%s</a>' % (cs['path'], e(t['club']))) if cs else e(t['club'])))
+            elif v:
+                dl.append('<div><dt>%s</dt><dd>%s</dd></div>' % (e(k), e(v)))
+        u = safe_url(t.get('url'))
+        btns = ('<a class="btn primary" href="%s" target="_blank" rel="noopener">%s</a>' % (e(u), 'Inscribirse' if is_open(t) else 'Ver la ficha oficial')) if u else ''
+        btns += '<a class="btn ghost" href="/#t=%s">Abrir en Banderín</a>' % tid(t['url'])
+        pv_path = next((('/%s/%s/%s/' % (HUB, ccaa_slug(cc), slug(t['prov']))) for cc, (_, pr) in CCAA.items() if cc == t.get('ccaa') and t.get('prov') in pr), None)
+        crumb = [('Inicio', '/'), ('Por comunidad', '/%s/' % HUB)]
+        if t.get('ccaa') in CCAA:
+            crumb.append((t['ccaa'], '/%s/%s/' % (HUB, ccaa_slug(t['ccaa']))))
+        if pv_path:
+            crumb.append((t['prov'], pv_path))
+        crumb.append((t['n'], path))
+        cr_html, cr_ld = crumbs(crumb)
+        more = [x for x in (cs['ts'] if cs else []) if x is not t and x.get('url') != t.get('url')][:8]
+        more_html = ('<section class="month"><h2>Más torneos en %s</h2><ol class="evs">%s</ol></section>' % (
+            e(t['club']), ''.join(event_li(x, path) for x in more))) if more else ''
+        links = []
+        if cs:
+            links.append('<a href="%s">Todos los torneos de %s</a>' % (cs['path'], e(t['club'])))
+        if pv_path:
+            links.append('<a href="%s">Torneos de golf en %s</a>' % (pv_path, e(t['prov'])))
+        sub = subnav('Sigue explorando', links)
+        lede = '%s se juega el %s%s%s. %s' % (t['n'], when, ' en %s' % t['club'] if t.get('club') else '', ' (%s)' % place if place else '',
+                                          'La inscripción está abierta ahora mismo.' if is_open(t) else 'Consulta en la ficha oficial cómo inscribirte.')
+        ld = [{'@context': 'https://schema.org', **event_ld(t)}, cr_ld]
+        body = [head(title, desc, path, ld=ld), '<body>', topbar(), '<main>', cr_html,
+                '<section class="hero"><p class="eyebrow">%s</p><h1>%s</h1><p class="lede">%s</p><p class="cta">%s</p>'
+                '<p class="upd">Actualizado el %s.</p></section>' % (e(t.get('cat') or 'Torneo de golf'), e(t['n']), e(lede), btns, flong(ISO) + ' de %d' % TODAY.year),
+                '<section class="month"><h2>Datos del torneo</h2><dl class="facts">%s</dl></section>' % ''.join(dl),
+                sub, more_html, regions_nav(counts, t.get('ccaa')), '</main>', footer(''), '</body></html>']
+        out = SITE / path.strip('/') / 'index.html'
+        out.parent.mkdir(parents=True, exist_ok=True)
+        out.write_text('\n'.join(body), encoding='utf-8')
         pages.append((path, True))
 
     # Índice de clubes

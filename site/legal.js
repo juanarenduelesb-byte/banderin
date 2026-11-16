@@ -104,7 +104,7 @@ window.LEGALDOCS = {
 <p>Lo mismo ocurre con GitHub, donde se guardan las copias de seguridad: es filial de Microsoft, certificada en ese mismo Marco de Privacidad, y su acuerdo de tratamiento incluye las cláusulas contractuales tipo.</p>
 
 <h3 id="pr-5">5. Tus derechos</h3>
-<p>Puedes ejercer en cualquier momento tus derechos de acceso, rectificación, supresión, oposición, limitación del tratamiento y portabilidad, y retirar tu consentimiento, escribiendo a {{email}} e indicando qué derecho ejerces. Te responderemos en el plazo máximo de un mes.</p>
+<p>Puedes ejercer en cualquier momento tus derechos de acceso, rectificación, supresión, oposición, limitación del tratamiento y portabilidad, y retirar tu consentimiento, escribiendo a {{email}} e indicando qué derecho ejerces. Si tienes cuenta, puedes descargar tus datos en un archivo desde Mi cuenta → «Descargar mis datos» y borrarla con «Eliminar mi cuenta». Te responderemos en el plazo máximo de un mes.</p>
 <p>Si consideras que no hemos atendido bien tu solicitud, puedes presentar una reclamación ante la <a href="https://www.aepd.es" target="_blank" rel="noopener noreferrer">Agencia Española de Protección de Datos</a>.</p>
 
 <h3 id="pr-6">6. Menores</h3>

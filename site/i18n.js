@@ -11,6 +11,7 @@ window.LANG=l;document.documentElement.lang=l;
 })();
 
 window.EN={
+  "Descargar mis datos": "Download my data",
   "Compartir torneo": "Share tournament",
   "Enlace copiado. Pégalo donde quieras.": "Link copied. Paste it wherever you like.",
   "Copia el enlace:": "Copy the link:",

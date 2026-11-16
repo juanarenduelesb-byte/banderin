@@ -235,6 +235,24 @@ $('pcuPw').onclick = () => cuOpen('nueva');
 $('pcuSalir').onclick = () => cuBusy($('pcuSalir'), async () => {
   await cuLoad(); await cuPush(); await SB.auth.signOut(); USER = null; cuClearLocal(); cuDraw();
 });
+// Portabilidad (RGPD art. 20): un archivo JSON con todo lo que Banderín guarda de ti, sin tener que escribirnos.
+$('pcuDatos').onclick = () => cuBusy($('pcuDatos'), async () => {
+  await cuLoad();
+  if (!USER) return;
+  const out = { generado: new Date().toISOString(), cuenta: { id: USER.id, correo: USER.email, creada: USER.created_at, ultimo_acceso: USER.last_sign_in_at } };
+  const { data } = await SB.from('perfiles').select('datos, actualizado').eq('user_id', USER.id).maybeSingle();
+  out.perfil_y_guardados = data ? data.datos : null;
+  out.actualizado = data ? data.actualizado : null;
+  if (AV && AV.tok) {
+    const y = await api('/api/avisos/yo', { tok: AV.tok }).catch(() => null);
+    if (y && y.ok) out.avisos_por_correo = y.data;
+  }
+  const url = URL.createObjectURL(new Blob([JSON.stringify(out, null, 2)], { type: 'application/json' }));
+  const a = document.createElement('a');
+  a.href = url; a.download = 'banderin-mis-datos.json';
+  document.body.appendChild(a); a.click(); a.remove();
+  setTimeout(() => URL.revokeObjectURL(url), 4000);
+});
 $('pcuBorrar').onclick = () => {
   const b = $('pcuBorrar');
   if (!b.classList.contains('confirm')) { b.classList.add('confirm'); b.textContent = L('Pulsa otra vez: se borra todo y no se puede deshacer'); return; }
