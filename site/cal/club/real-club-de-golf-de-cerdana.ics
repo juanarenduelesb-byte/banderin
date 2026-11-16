@@ -3,7 +3,7 @@ VERSION:2.0
 PRODID:-//Banderin//Torneos de golf//ES
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:Banderín · Real Club de Golf de Cerdaña
+X-WR-CALNAME:Banderín - Real Club de Golf de Cerdaña
 X-WR-CALDESC:Torneos de golf: Real Club de Golf de Cerdaña. Se actualiza c
  ada mañana. https://banderin.es
 X-WR-TIMEZONE:Europe/Madrid
@@ -11,14 +11,14 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:34c0605dacf8c3a04a01@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20270619
 DTEND;VALUE=DATE:20270620
 SUMMARY:Circuit Nacional 5a Categoria 2027 (Cerdaña)
 LOCATION:Real Club de Golf de Cerdaña\, Puigcerda\, Girona
-DESCRIPTION:Absoluto · Individual\nFicha oficial: https://www.catgolf.com/
- es/campeonatos/circuit-nacional-5a-categoria-2027-cerdana-2027-06-19\nConf
- irma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Absoluto - Individual\nFicha oficial: https://www.catgolf.com/e
+ s/campeonatos/circuit-nacional-5a-categoria-2027-cerdana-2027-06-19\nConfi
+ rma fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.catgolf.com/es/campeonatos/circuit-nacional-5a-categoria-20

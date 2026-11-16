@@ -3,7 +3,7 @@ VERSION:2.0
 PRODID:-//Banderin//Torneos de golf//ES
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:Banderín · Golf de Pals
+X-WR-CALNAME:Banderín - Golf de Pals
 X-WR-CALDESC:Torneos de golf: Golf de Pals. Se actualiza cada mañana. http
  s://banderin.es
 X-WR-TIMEZONE:Europe/Madrid
@@ -11,14 +11,14 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:6e0cc25a41bfdef0885b@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:Final Torneig 4 Estacions Pals
 LOCATION:Golf de Pals\, Pals\, Girona
-DESCRIPTION:Social de club · Individual\nFicha oficial: https://www.catgol
- f.com/es/campeonatos/final-torneig-4-estacions-pals-2026-11-21\nConfirma f
- echas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Individual\nFicha oficial: https://www.catgolf
+ .com/es/campeonatos/final-torneig-4-estacions-pals-2026-11-21\nConfirma fe
+ chas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.catgolf.com/es/campeonatos/final-torneig-4-estacions-pals-2
@@ -26,42 +26,42 @@ URL:https://www.catgolf.com/es/campeonatos/final-torneig-4-estacions-pals-2
 END:VEVENT
 BEGIN:VEVENT
 UID:294fd66b9fef823b9e56@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:Torneig De Nadal Pals
 LOCATION:Golf de Pals\, Pals\, Girona
-DESCRIPTION:Social de club · Individual\nFicha oficial: https://www.catgol
- f.com/es/campeonatos/torneig-de-nadal-pals-2026-12-12\nConfirma fechas y c
- ondiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Individual\nFicha oficial: https://www.catgolf
+ .com/es/campeonatos/torneig-de-nadal-pals-2026-12-12\nConfirma fechas y co
+ ndiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.catgolf.com/es/campeonatos/torneig-de-nadal-pals-2026-12-12
 END:VEVENT
 BEGIN:VEVENT
 UID:011d3fcd17cac7a8467a@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261220
 SUMMARY:Final Catalunya Promesa
 LOCATION:Golf de Pals\, Pals\, Girona
-DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
- s://www.golfdirecto.com/micro/game/693bf841be210588773d5b41/summary\nConfi
- rma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/693bf841be210588773d5b41/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/693bf841be210588773d5b41/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:264827dccbf0fee3c82f@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20270116
 DTEND;VALUE=DATE:20270118
 SUMMARY:Circuit Nacional 5a Categoria 2027 (Pals)
 LOCATION:Golf de Pals\, Pals\, Girona
-DESCRIPTION:Absoluto · Individual\nFicha oficial: https://www.catgolf.com/
- es/campeonatos/circuit-nacional-5a-categoria-2027-pals-2027-01-16\nConfirm
- a fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Absoluto - Individual\nFicha oficial: https://www.catgolf.com/e
+ s/campeonatos/circuit-nacional-5a-categoria-2027-pals-2027-01-16\nConfirma
+  fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.catgolf.com/es/campeonatos/circuit-nacional-5a-categoria-20

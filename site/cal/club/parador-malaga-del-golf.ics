@@ -3,7 +3,7 @@ VERSION:2.0
 PRODID:-//Banderin//Torneos de golf//ES
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:Banderín · Parador Málaga del Golf
+X-WR-CALNAME:Banderín - Parador Málaga del Golf
 X-WR-CALDESC:Torneos de golf: Parador Málaga del Golf. Se actualiza cada m
  añana. https://banderin.es
 X-WR-TIMEZONE:Europe/Madrid
@@ -11,45 +11,45 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:8221c05ae5dcb472231c@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
 SUMMARY:XXXII Torneo de Golf Miramar
 LOCATION:Parador Málaga del Golf\, Malaga\, Málaga
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 1 de octubre\, cierra el 9 de diciembre.\nPrecio: 50 €.\nFicha oficia
- l: https://www.nextcaddy.com/tour/74188\nConfirma fechas y condiciones en 
- la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  1 de octubre\, cierra el 9 de diciembre.\nPrecio: 50 €.\nFicha oficial:
+  https://www.nextcaddy.com/tour/74188\nConfirma fechas y condiciones en la
+  web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.nextcaddy.com/tour/74188
 END:VEVENT
 BEGIN:VEVENT
 UID:eb8827c0ec2c7090e9f4@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261227
 DTEND;VALUE=DATE:20261228
 SUMMARY:Final Nacional - Parador Málaga Golf - 3ª Categoría
 LOCATION:Parador Málaga del Golf\, Malaga\, Málaga
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 1 de septiembre\, cierra el 1 de diciembre.\nPrecio: Gratis.\nFicha ofi
- cial: https://www.nextcaddy.com/tour/72627\nConfirma fechas y condiciones 
- en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  1 de septiembre\, cierra el 1 de diciembre.\nPrecio: Gratis.\nFicha ofici
+ al: https://www.nextcaddy.com/tour/72627\nConfirma fechas y condiciones en
+  la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.nextcaddy.com/tour/72627
 END:VEVENT
 BEGIN:VEVENT
 UID:f1fbe1518b25918ff316@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261227
 DTEND;VALUE=DATE:20261228
 SUMMARY:Final Nacional - Parador de Malaga Golf - 1ª y 2ª Categoría
 LOCATION:Parador Málaga del Golf\, Malaga\, Málaga
-DESCRIPTION:Social de club · Medal Play · Individual\nInscripción: abre 
- el 1 de septiembre\, cierra el 1 de diciembre.\nPrecio: Gratis.\nFicha ofi
- cial: https://www.nextcaddy.com/tour/72626\nConfirma fechas y condiciones 
- en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Medal Play - Individual\nInscripción: abre el
+  1 de septiembre\, cierra el 1 de diciembre.\nPrecio: Gratis.\nFicha ofici
+ al: https://www.nextcaddy.com/tour/72626\nConfirma fechas y condiciones en
+  la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.nextcaddy.com/tour/72626

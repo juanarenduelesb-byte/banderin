@@ -3,7 +3,7 @@ VERSION:2.0
 PRODID:-//Banderin//Torneos de golf//ES
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:Banderín · Escuela de la Real Federación de Golf de Madrid
+X-WR-CALNAME:Banderín - Escuela de la Real Federación de Golf de Madrid
 X-WR-CALDESC:Torneos de golf: Escuela de la Real Federación de Golf de Mad
  rid. Se actualiza cada mañana. https://banderin.es
 X-WR-TIMEZONE:Europe/Madrid
@@ -11,199 +11,199 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:042ac187b131ab34740a@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261120
 SUMMARY:Final Circuito Senior Pitch & Putt
 LOCATION:Escuela de la Real Federación de Golf de Madrid\, Madrid\, Madrid
-DESCRIPTION:Senior · Medal Play · Individual\nInscripción: abre el 19 de
-  noviembre\, cierra el 19 de noviembre.\nPrecio: Gratis.\nFicha oficial: h
- ttps://www.nextcaddy.com/tour/67810\nConfirma fechas y condiciones en la w
- eb del organizador. Vía Banderín.
+DESCRIPTION:Senior - Medal Play - Individual\nInscripción: abre el 19 de n
+ oviembre\, cierra el 19 de noviembre.\nPrecio: Gratis.\nFicha oficial: htt
+ ps://www.nextcaddy.com/tour/67810\nConfirma fechas y condiciones en la web
+  del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.nextcaddy.com/tour/67810
 END:VEVENT
 BEGIN:VEVENT
 UID:51c5c8e2195276f8bab1@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:Final Circuito 1ª Categoría\, 2ª Categoría y Damas Pitch & Putt
 LOCATION:Escuela de la Real Federación de Golf de Madrid\, Madrid\, Madrid
-DESCRIPTION:Absoluto · Medal Play · Individual\nInscripción: abre el 22 
- de enero\, cierra el 22 de enero.\nPrecio: Gratis.\nFicha oficial: https:/
- /www.nextcaddy.com/tour/67835\nConfirma fechas y condiciones en la web del
-  organizador. Vía Banderín.
+DESCRIPTION:Absoluto - Medal Play - Individual\nInscripción: abre el 22 de
+  enero\, cierra el 22 de enero.\nPrecio: Gratis.\nFicha oficial: https://w
+ ww.nextcaddy.com/tour/67835\nConfirma fechas y condiciones en la web del o
+ rganizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.nextcaddy.com/tour/67835
 END:VEVENT
 BEGIN:VEVENT
 UID:3fa30c3b454e3c626acc@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
-SUMMARY:Final Ranking Damas Y caballeros 2026 · 10:00
+SUMMARY:Final Ranking Damas Y caballeros 2026 - 10:00
 LOCATION:Escuela de la Real Federación de Golf de Madrid\, Madrid\, Madrid
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 15 de octubre\, cierra el 15 de octubre.\nPrecio: Gratis.\nFicha oficia
- l: https://www.nextcaddy.com/tour/74603\nConfirma fechas y condiciones en 
- la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  15 de octubre\, cierra el 15 de octubre.\nPrecio: Gratis.\nFicha oficial:
+  https://www.nextcaddy.com/tour/74603\nConfirma fechas y condiciones en la
+  web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.nextcaddy.com/tour/74603
 END:VEVENT
 BEGIN:VEVENT
 UID:050101e1ecc0b0022c97@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
-SUMMARY:Torneo Benéfico SEOR · Salida 13:30
+SUMMARY:Torneo Benéfico SEOR - Salida 13:30
 LOCATION:Escuela de la Real Federación de Golf de Madrid\, Madrid\, Madrid
-DESCRIPTION:Benéfico · Stableford · Individual\nInscripción: abre el 8 
- de noviembre\, cierra el 20 de noviembre.\nPrecio: 30 €.\nFicha oficial:
-  https://www.nextcaddy.com/tour/75167\nConfirma fechas y condiciones en la
-  web del organizador. Vía Banderín.
+DESCRIPTION:Benéfico - Stableford - Individual\nInscripción: abre el 8 de
+  noviembre\, cierra el 20 de noviembre.\nPrecio: 30 €.\nFicha oficial: h
+ ttps://www.nextcaddy.com/tour/75167\nConfirma fechas y condiciones en la w
+ eb del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.nextcaddy.com/tour/75167
 END:VEVENT
 BEGIN:VEVENT
 UID:784a9388ca0473861592@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
-SUMMARY:IX Torneo RKN Senior · Turno de Mañana 10:00 · Turno de Tarde 13
- :00
+SUMMARY:IX Torneo RKN Senior - Turno de Mañana 10:00 - Turno de Tarde 13:0
+ 0
 LOCATION:Escuela de la Real Federación de Golf de Madrid\, Madrid\, Madrid
-DESCRIPTION:Senior · Stableford · Individual\nInscripción: abre el 11 de
-  noviembre\, cierra el 23 de noviembre.\nPrecio: 20 €.\nFicha oficial: h
- ttps://www.nextcaddy.com/tour/74945\nConfirma fechas y condiciones en la w
- eb del organizador. Vía Banderín.
+DESCRIPTION:Senior - Stableford - Individual\nInscripción: abre el 11 de n
+ oviembre\, cierra el 23 de noviembre.\nPrecio: 20 €.\nFicha oficial: htt
+ ps://www.nextcaddy.com/tour/74945\nConfirma fechas y condiciones en la web
+  del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.nextcaddy.com/tour/74945
 END:VEVENT
 BEGIN:VEVENT
 UID:da2dc983d3ee3bfa69d0@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
-SUMMARY:FINAL RKN Alumnos 2026 · Turno de Mañana 10:00 · Turno de Tarde 
- 13:30
+SUMMARY:FINAL RKN Alumnos 2026 - Turno de Mañana 10:00 - Turno de Tarde 13
+ :30
 LOCATION:Escuela de la Real Federación de Golf de Madrid\, Madrid\, Madrid
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 15 de octubre\, cierra el 15 de octubre.\nPrecio: Gratis.\nFicha oficia
- l: https://www.nextcaddy.com/tour/72183\nConfirma fechas y condiciones en 
- la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  15 de octubre\, cierra el 15 de octubre.\nPrecio: Gratis.\nFicha oficial:
+  https://www.nextcaddy.com/tour/72183\nConfirma fechas y condiciones en la
+  web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.nextcaddy.com/tour/72183
 END:VEVENT
 BEGIN:VEVENT
 UID:c325c2152a58665c9bf7@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
-SUMMARY:VIII Torneo RKN 2026 1ª a 5ª Categoría · Turno Mañana 9:30 · 
- Turno Tarde 12:30
+SUMMARY:VIII Torneo RKN 2026 1ª a 5ª Categoría - Turno Mañana 9:30 - Tu
+ rno Tarde 12:30
 LOCATION:Escuela de la Real Federación de Golf de Madrid\, Madrid\, Madrid
-DESCRIPTION:Social de club · Medal Play · Individual\nInscripción: abre 
- el 15 de noviembre\, cierra el 27 de noviembre.\nPrecio: 11 €.\nFicha of
- icial: https://www.nextcaddy.com/tour/72395\nConfirma fechas y condiciones
-  en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Medal Play - Individual\nInscripción: abre el
+  15 de noviembre\, cierra el 27 de noviembre.\nPrecio: 11 €.\nFicha ofic
+ ial: https://www.nextcaddy.com/tour/72395\nConfirma fechas y condiciones e
+ n la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.nextcaddy.com/tour/72395
 END:VEVENT
 BEGIN:VEVENT
 UID:ff4fc823a9de4484fe7a@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261202
 DTEND;VALUE=DATE:20261203
-SUMMARY:Final Ranking Senior · Stableford · 10:00
+SUMMARY:Final Ranking Senior - Stableford - 10:00
 LOCATION:Escuela de la Real Federación de Golf de Madrid\, Madrid\, Madrid
-DESCRIPTION:Senior · Stableford · Individual\nInscripción: abre el 28 de
-  octubre\, cierra el 28 de octubre.\nPrecio: Gratis.\nFicha oficial: https
- ://www.nextcaddy.com/tour/74946\nConfirma fechas y condiciones en la web d
- el organizador. Vía Banderín.
+DESCRIPTION:Senior - Stableford - Individual\nInscripción: abre el 28 de o
+ ctubre\, cierra el 28 de octubre.\nPrecio: Gratis.\nFicha oficial: https:/
+ /www.nextcaddy.com/tour/74946\nConfirma fechas y condiciones en la web del
+  organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.nextcaddy.com/tour/74946
 END:VEVENT
 BEGIN:VEVENT
 UID:d919b2eefda71fd8494a@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261203
 DTEND;VALUE=DATE:20261204
-SUMMARY:Torneo Privado LJG · 3 de Diciembre · 9:30 ·
+SUMMARY:Torneo Privado LJG - 3 de Diciembre - 9:30
 LOCATION:Escuela de la Real Federación de Golf de Madrid\, Madrid\, Madrid
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 26 de noviembre\, cierra el 2 de diciembre.\nPrecio: 20 €.\nFicha ofi
- cial: https://www.nextcaddy.com/tour/67949\nConfirma fechas y condiciones 
- en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  26 de noviembre\, cierra el 2 de diciembre.\nPrecio: 20 €.\nFicha ofici
+ al: https://www.nextcaddy.com/tour/67949\nConfirma fechas y condiciones en
+  la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.nextcaddy.com/tour/67949
 END:VEVENT
 BEGIN:VEVENT
 UID:eacdf34e12d9ed0d2f9c@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:Final Circuito 3ª Categoría Pitch & Putt
 LOCATION:Escuela de la Real Federación de Golf de Madrid\, Madrid\, Madrid
-DESCRIPTION:Absoluto · Stableford · Individual\nInscripción: abre el 12 
- de diciembre\, cierra el 12 de diciembre.\nPrecio: Gratis.\nFicha oficial:
-  https://www.nextcaddy.com/tour/67829\nConfirma fechas y condiciones en la
-  web del organizador. Vía Banderín.
+DESCRIPTION:Absoluto - Stableford - Individual\nInscripción: abre el 12 de
+  diciembre\, cierra el 12 de diciembre.\nPrecio: Gratis.\nFicha oficial: h
+ ttps://www.nextcaddy.com/tour/67829\nConfirma fechas y condiciones en la w
+ eb del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.nextcaddy.com/tour/67829
 END:VEVENT
 BEGIN:VEVENT
 UID:1864731da96f27c2bc62@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
 SUMMARY:Yo el Pitch y Tú el Putt
 LOCATION:Escuela de la Real Federación de Golf de Madrid\, Madrid\, Madrid
-DESCRIPTION:Absoluto · Medal Play · Individual\nInscripción: abre el 13 
- de diciembre\, cierra el 13 de diciembre.\nPrecio: Gratis.\nFicha oficial:
-  https://www.nextcaddy.com/tour/68351\nConfirma fechas y condiciones en la
-  web del organizador. Vía Banderín.
+DESCRIPTION:Absoluto - Medal Play - Individual\nInscripción: abre el 13 de
+  diciembre\, cierra el 13 de diciembre.\nPrecio: Gratis.\nFicha oficial: h
+ ttps://www.nextcaddy.com/tour/68351\nConfirma fechas y condiciones en la w
+ eb del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.nextcaddy.com/tour/68351
 END:VEVENT
 BEGIN:VEVENT
 UID:4d907dbe3365c052346b@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261216
 DTEND;VALUE=DATE:20261217
 SUMMARY:Torneo de Navidad de P&P "Escuela RFGM"
 LOCATION:Escuela de la Real Federación de Golf de Madrid\, Madrid\, Madrid
-DESCRIPTION:Juvenil · Medal Play · Individual\nInscripción: abre el 2 de
-  diciembre\, cierra el 9 de diciembre.\nPrecio: Gratis.\nFicha oficial: ht
- tps://www.nextcaddy.com/tour/68353\nConfirma fechas y condiciones en la we
- b del organizador. Vía Banderín.
+DESCRIPTION:Juvenil - Medal Play - Individual\nInscripción: abre el 2 de d
+ iciembre\, cierra el 9 de diciembre.\nPrecio: Gratis.\nFicha oficial: http
+ s://www.nextcaddy.com/tour/68353\nConfirma fechas y condiciones en la web 
+ del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.nextcaddy.com/tour/68353
 END:VEVENT
 BEGIN:VEVENT
 UID:17e272184e8ea55cbbe3@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261220
-SUMMARY:IX Torneo RKN 2026 1ª a 5ª Categoría · Turno Mañana 10:00 · T
- urno Tarde 13:00
+SUMMARY:IX Torneo RKN 2026 1ª a 5ª Categoría - Turno Mañana 10:00 - Tur
+ no Tarde 13:00
 LOCATION:Escuela de la Real Federación de Golf de Madrid\, Madrid\, Madrid
-DESCRIPTION:Social de club · Medal Play · Individual\nInscripción: abre 
- el 5 de diciembre\, cierra el 17 de diciembre.\nPrecio: 11 €.\nFicha ofi
- cial: https://www.nextcaddy.com/tour/72403\nConfirma fechas y condiciones 
- en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Medal Play - Individual\nInscripción: abre el
+  5 de diciembre\, cierra el 17 de diciembre.\nPrecio: 11 €.\nFicha ofici
+ al: https://www.nextcaddy.com/tour/72403\nConfirma fechas y condiciones en
+  la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.nextcaddy.com/tour/72403

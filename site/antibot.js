@@ -1,4 +1,4 @@
-/* Banderín · comprobación anti-robots (Cloudflare Turnstile) en los formularios que envían correos.
+/* Banderín - comprobación anti-robots (Cloudflare Turnstile) en los formularios que envían correos.
    Solo se activa cuando hay clave pública en cuenta-config.js (turnstile). Sin cookies de seguimiento.
    Devuelve un token de un solo uso; '' si Turnstile no está configurado. */
 (function () {

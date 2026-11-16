@@ -165,7 +165,7 @@ def clm():
         year = int(mt.group(2))
         for li in re.findall(r'<li class="torneo-item">(.*?)</li>', blk, re.S):
             f = re.search(r'class="fecha">([^<]+)<', li); nm = re.search(r'class="nombre-torneo"[^>]*>(.*?)</(?:a|span)>', li, re.S)
-            lg = re.search(r'class="lugar">\s*—?\s*([^<]+)<', li); ln = re.search(r'class="nombre-torneo" href="([^"]+)"', li)
+            lg = re.search(r'class="lugar">\s*-?\s*([^<]+)<', li); ln = re.search(r'class="nombre-torneo" href="([^"]+)"', li)
             if not f or not nm: continue
             fs = f.group(1).strip().lower()
             mm = re.findall(r'(\d{1,2})\s*([a-z]{3})?', fs)

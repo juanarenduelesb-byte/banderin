@@ -3,7 +3,7 @@ VERSION:2.0
 PRODID:-//Banderin//Torneos de golf//ES
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:Banderín · E. G. Montepríncipe
+X-WR-CALNAME:Banderín - E. G. Montepríncipe
 X-WR-CALDESC:Torneos de golf: E. G. Montepríncipe. Se actualiza cada maña
  na. https://banderin.es
 X-WR-TIMEZONE:Europe/Madrid
@@ -11,14 +11,14 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:c3628f20a8fe4e3b560b@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261220
 SUMMARY:Torneo de Navidad
 LOCATION:E. G. Montepríncipe\, Boadilla del Monte\, Madrid
-DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
- s://www.golfdirecto.com/micro/game/69677ab742551aa371d8282e/summary\nConfi
- rma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/69677ab742551aa371d8282e/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/69677ab742551aa371d8282e/summary

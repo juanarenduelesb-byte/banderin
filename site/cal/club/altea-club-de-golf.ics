@@ -3,7 +3,7 @@ VERSION:2.0
 PRODID:-//Banderin//Torneos de golf//ES
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:Banderín · Altea Club de Golf
+X-WR-CALNAME:Banderín - Altea Club de Golf
 X-WR-CALDESC:Torneos de golf: Altea Club de Golf. Se actualiza cada mañana
  . https://banderin.es
 X-WR-TIMEZONE:Europe/Madrid
@@ -11,28 +11,28 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:3d3e537d2d5ecac28d62@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:Altea Golf Society Noviembre 2026
 LOCATION:Altea Club de Golf\, Altea la Vella\, Alicante
-DESCRIPTION:Social de club · Medal Play · Individual\nFicha oficial: http
- s://www.golfdirecto.com/micro/game/6af842acd4037456f9384904/summary\nConfi
- rma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Medal Play - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/6af842acd4037456f9384904/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6af842acd4037456f9384904/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:efa7b210f549bb932d84@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Copa de Otoño 2026
 LOCATION:Altea Club de Golf\, Altea la Vella\, Alicante
-DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
- s://www.golfdirecto.com/micro/game/6af8435dd4037456f9533ff2/summary\nConfi
- rma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/6af8435dd4037456f9533ff2/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6af8435dd4037456f9533ff2/summary

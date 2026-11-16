@@ -3,7 +3,7 @@ VERSION:2.0
 PRODID:-//Banderin//Torneos de golf//ES
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:Banderín · Alicante Golf
+X-WR-CALNAME:Banderín - Alicante Golf
 X-WR-CALDESC:Torneos de golf: Alicante Golf. Se actualiza cada mañana. htt
  ps://banderin.es
 X-WR-TIMEZONE:Europe/Madrid
@@ -11,16 +11,16 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:dd8ff36d6bc36061644a@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261211
 DTEND;VALUE=DATE:20261212
 SUMMARY:SAS Stableford Eclectic - 108028
 LOCATION:Alicante Golf\, Sant Joan\, Alicante
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 26 de noviembre\, cierra el 9 de diciembre.\nPrecio: 45 €.\nFicha ofi
- cial: https://www.golfdirecto.com/micro/game/6aef0ab2e0349cc290a2b6e4/summ
- ary\nConfirma fechas y condiciones en la web del organizador. Vía Bander
- ín.
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  26 de noviembre\, cierra el 9 de diciembre.\nPrecio: 45 €.\nFicha ofici
+ al: https://www.golfdirecto.com/micro/game/6aef0ab2e0349cc290a2b6e4/summar
+ y\nConfirma fechas y condiciones en la web del organizador. Vía Banderín
+ .
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6aef0ab2e0349cc290a2b6e4/summary

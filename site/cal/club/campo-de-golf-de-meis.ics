@@ -3,7 +3,7 @@ VERSION:2.0
 PRODID:-//Banderin//Torneos de golf//ES
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:Banderín · Campo de Golf de Meis
+X-WR-CALNAME:Banderín - Campo de Golf de Meis
 X-WR-CALDESC:Torneos de golf: Campo de Golf de Meis. Se actualiza cada mañ
  ana. https://banderin.es
 X-WR-TIMEZONE:Europe/Madrid
@@ -11,15 +11,15 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:d4dc1663b096bd9f2ff9@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:2ª Prueba Ranking Gallego Absoluto 2027
 LOCATION:Campo de Golf de Meis\, Meis\, Pontevedra
-DESCRIPTION:Absoluto · Medal Play · Individual\nInscripción: abre el 21 
- de octubre\, cierra el 19 de noviembre.\nPrecio: 16 €.\nFicha oficial: h
- ttps://www.golfdirecto.com/micro/game/6943ebc84d9bda753032c525/summary\nCo
- nfirma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Absoluto - Medal Play - Individual\nInscripción: abre el 21 de
+  octubre\, cierra el 19 de noviembre.\nPrecio: 16 €.\nFicha oficial: htt
+ ps://www.golfdirecto.com/micro/game/6943ebc84d9bda753032c525/summary\nConf
+ irma fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6943ebc84d9bda753032c525/summary

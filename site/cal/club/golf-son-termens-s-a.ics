@@ -3,7 +3,7 @@ VERSION:2.0
 PRODID:-//Banderin//Torneos de golf//ES
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:Banderín · Golf Son Termens S.a
+X-WR-CALNAME:Banderín - Golf Son Termens S.a
 X-WR-CALDESC:Torneos de golf: Golf Son Termens S.a. Se actualiza cada maña
  na. https://banderin.es
 X-WR-TIMEZONE:Europe/Madrid
@@ -11,32 +11,32 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:e46ee11b2020f8e4838f@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:Torneo Social
 LOCATION:Golf Son Termens S.a\, Son Termes\, Illes Balears
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 1 de noviembre\, cierra el 19 de noviembre.\nPrecio: 70 €.\nFicha ofi
- cial: https://www.golfdirecto.com/micro/game/6ae7514804e5219251179f2a/summ
- ary\nConfirma fechas y condiciones en la web del organizador. Vía Bander
- ín.
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  1 de noviembre\, cierra el 19 de noviembre.\nPrecio: 70 €.\nFicha ofici
+ al: https://www.golfdirecto.com/micro/game/6ae7514804e5219251179f2a/summar
+ y\nConfirma fechas y condiciones en la web del organizador. Vía Banderín
+ .
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6ae7514804e5219251179f2a/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:f91b65f0738f006dabbe@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
 SUMMARY:Torneo de Navidad
 LOCATION:Golf Son Termens S.a\, Son Termes\, Illes Balears
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 14 de noviembre\, cierra el 2 de diciembre.\nPrecio: 70 €.\nFicha ofi
- cial: https://www.golfdirecto.com/micro/game/6af8597e535859a5fb515b1a/summ
- ary\nConfirma fechas y condiciones en la web del organizador. Vía Bander
- ín.
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  14 de noviembre\, cierra el 2 de diciembre.\nPrecio: 70 €.\nFicha ofici
+ al: https://www.golfdirecto.com/micro/game/6af8597e535859a5fb515b1a/summar
+ y\nConfirma fechas y condiciones en la web del organizador. Vía Banderín
+ .
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6af8597e535859a5fb515b1a/summary

@@ -3,7 +3,7 @@ VERSION:2.0
 PRODID:-//Banderin//Torneos de golf//ES
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:Banderín · Club de Golf D'Aro
+X-WR-CALNAME:Banderín - Club de Golf D'Aro
 X-WR-CALDESC:Torneos de golf: Club de Golf D'Aro. Se actualiza cada mañana
  . https://banderin.es
 X-WR-TIMEZONE:Europe/Madrid
@@ -11,29 +11,29 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:69fc73d9ac636c058555@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261220
 SUMMARY:Torneig de Nadal
 LOCATION:Club de Golf D'Aro\, Castell-Platja d'Aro\, Girona
-DESCRIPTION:Social de club · Fourball · Parejas\nInscripción: abre el 23
-  de noviembre\, cierra el 18 de diciembre.\nPrecio: 74 €.\nFicha oficial
- : https://www.golfdirecto.com/micro/game/69a9a145bba30eff7cd47620/summary\
- nConfirma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Fourball - Parejas\nInscripción: abre el 23 d
+ e noviembre\, cierra el 18 de diciembre.\nPrecio: 74 €.\nFicha oficial: 
+ https://www.golfdirecto.com/micro/game/69a9a145bba30eff7cd47620/summary\nC
+ onfirma fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/69a9a145bba30eff7cd47620/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:4b763ea56c3aaab9cbda@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20270201
 DTEND;VALUE=DATE:20270202
 SUMMARY:Cat ProTour 2027
 LOCATION:Club de Golf D'Aro\, Castell-Platja d'Aro\, Girona
-DESCRIPTION:Circuito comercial · Medal Play · Individual\nFicha oficial: 
- https://www.golfdirecto.com/micro/game/6ae3461de9762da1ae315088/summary\nC
- onfirma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Circuito comercial - Medal Play - Individual\nFicha oficial: ht
+ tps://www.golfdirecto.com/micro/game/6ae3461de9762da1ae315088/summary\nCon
+ firma fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6ae3461de9762da1ae315088/summary

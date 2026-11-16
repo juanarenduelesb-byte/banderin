@@ -3,7 +3,7 @@ VERSION:2.0
 PRODID:-//Banderin//Torneos de golf//ES
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:Banderín · Campo de Golf Villamartin
+X-WR-CALNAME:Banderín - Campo de Golf Villamartin
 X-WR-CALDESC:Torneos de golf: Campo de Golf Villamartin. Se actualiza cada 
  mañana. https://banderin.es
 X-WR-TIMEZONE:Europe/Madrid
@@ -11,30 +11,30 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:50594f731062ed7829f5@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261120
 SUMMARY:Thursday Competition
 LOCATION:Campo de Golf Villamartin\, Orihuela-costa\, Alicante
-DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
- s://www.golfdirecto.com/micro/game/6af879fcac1d012c7960bdee/summary\nConfi
- rma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/6af879fcac1d012c7960bdee/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6af879fcac1d012c7960bdee/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:4ab58a859125971cd0c6@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:PRO-AM - 125 Aniversario CAMARA ORIHUELA - XIII Memorial Benéfico 
  ANTONIO PEDRERA SOLER
 LOCATION:Campo de Golf Villamartin\, Orihuela-costa\, Alicante
-DESCRIPTION:Profesional · Scramble · Parejas\nInscripción: abre el 24 de
-  septiembre\, cierra el 10 de diciembre.\nPrecio: 130 €.\nFicha oficial:
-  https://www.golfdirecto.com/micro/game/6ab515345978d28e5a1fa60a/summary\n
- Confirma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Profesional - Scramble - Parejas\nInscripción: abre el 24 de s
+ eptiembre\, cierra el 10 de diciembre.\nPrecio: 130 €.\nFicha oficial: h
+ ttps://www.golfdirecto.com/micro/game/6ab515345978d28e5a1fa60a/summary\nCo
+ nfirma fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6ab515345978d28e5a1fa60a/summary

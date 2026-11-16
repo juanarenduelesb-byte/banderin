@@ -3,7 +3,7 @@ VERSION:2.0
 PRODID:-//Banderin//Torneos de golf//ES
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:Banderín · Vall D Or Golf Club
+X-WR-CALNAME:Banderín - Vall D Or Golf Club
 X-WR-CALDESC:Torneos de golf: Vall D Or Golf Club. Se actualiza cada mañan
  a. https://banderin.es
 X-WR-TIMEZONE:Europe/Madrid
@@ -11,190 +11,190 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:d5f5144af63c8549f714@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261118
 DTEND;VALUE=DATE:20261119
 SUMMARY:Miércoles Golf Open
 LOCATION:Vall D Or Golf Club\, S Horta/l Horta (felanitx)\, Illes Balears
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 28 de junio\, cierra el 17 de noviembre.\nPrecio: 85 €.\nFicha oficia
- l: https://www.golfdirecto.com/micro/game/6a40fc248a374cd01266a600/summary
- \nConfirma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  28 de junio\, cierra el 17 de noviembre.\nPrecio: 85 €.\nFicha oficial:
+  https://www.golfdirecto.com/micro/game/6a40fc248a374cd01266a600/summary\n
+ Confirma fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6a40fc248a374cd01266a600/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:18833c7ba89e33acc07a@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:XIII Campeonato del Club
 LOCATION:Vall D Or Golf Club\, S Horta/l Horta (felanitx)\, Illes Balears
-DESCRIPTION:Social de club · Medal Play · Individual\nInscripción: abre 
- el 6 de diciembre\, cierra el 20 de noviembre.\nFicha oficial: https://www
- .golfdirecto.com/micro/game/69342cb50ddda06815f3a0c8/summary\nConfirma fec
- has y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Medal Play - Individual\nInscripción: abre el
+  6 de diciembre\, cierra el 20 de noviembre.\nFicha oficial: https://www.g
+ olfdirecto.com/micro/game/69342cb50ddda06815f3a0c8/summary\nConfirma fecha
+ s y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/69342cb50ddda06815f3a0c8/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:fa57f9136e2f44059791@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:XIII Campeonato del Club
 LOCATION:Vall D Or Golf Club\, S Horta/l Horta (felanitx)\, Illes Balears
-DESCRIPTION:Social de club · Medal Play · Individual\nFicha oficial: http
- s://www.golfdirecto.com/micro/game/69342cf30ddda068152a813d/summary\nConfi
- rma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Medal Play - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/69342cf30ddda068152a813d/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/69342cf30ddda068152a813d/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:c84c518d851f5c6e2fa7@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:Miércoles Golf Open
 LOCATION:Vall D Or Golf Club\, S Horta/l Horta (felanitx)\, Illes Balears
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 28 de junio\, cierra el 24 de noviembre.\nPrecio: 85 €.\nFicha oficia
- l: https://www.golfdirecto.com/micro/game/6a40fc4a8a374cd0126e0b45/summary
- \nConfirma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  28 de junio\, cierra el 24 de noviembre.\nPrecio: 85 €.\nFicha oficial:
+  https://www.golfdirecto.com/micro/game/6a40fc4a8a374cd0126e0b45/summary\n
+ Confirma fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6a40fc4a8a374cd0126e0b45/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:e27ee105ae1c58ab3a37@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261202
 DTEND;VALUE=DATE:20261203
 SUMMARY:Miércoles Golf Open
 LOCATION:Vall D Or Golf Club\, S Horta/l Horta (felanitx)\, Illes Balears
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 28 de junio\, cierra el 1 de diciembre.\nPrecio: 85 €.\nFicha oficial
- : https://www.golfdirecto.com/micro/game/6a40fc70b16b4304e9b92601/summary\
- nConfirma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  28 de junio\, cierra el 1 de diciembre.\nPrecio: 85 €.\nFicha oficial: 
+ https://www.golfdirecto.com/micro/game/6a40fc70b16b4304e9b92601/summary\nC
+ onfirma fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6a40fc70b16b4304e9b92601/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:9d4be6497e60ecbcf19a@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261209
 DTEND;VALUE=DATE:20261210
 SUMMARY:Miércoles Golf Open
 LOCATION:Vall D Or Golf Club\, S Horta/l Horta (felanitx)\, Illes Balears
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 28 de junio\, cierra el 8 de diciembre.\nPrecio: 85 €.\nFicha oficial
- : https://www.golfdirecto.com/micro/game/6a40fc9b8a374cd0128ee383/summary\
- nConfirma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  28 de junio\, cierra el 8 de diciembre.\nPrecio: 85 €.\nFicha oficial: 
+ https://www.golfdirecto.com/micro/game/6a40fc9b8a374cd0128ee383/summary\nC
+ onfirma fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6a40fc9b8a374cd0128ee383/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:80e1849d37f17a79b02e@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261216
 DTEND;VALUE=DATE:20261217
 SUMMARY:Miércoles Golf Open
 LOCATION:Vall D Or Golf Club\, S Horta/l Horta (felanitx)\, Illes Balears
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 28 de junio\, cierra el 15 de diciembre.\nPrecio: 85 €.\nFicha oficia
- l: https://www.golfdirecto.com/micro/game/6a40fcc18a374cd0129bfbe5/summary
- \nConfirma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  28 de junio\, cierra el 15 de diciembre.\nPrecio: 85 €.\nFicha oficial:
+  https://www.golfdirecto.com/micro/game/6a40fcc18a374cd0129bfbe5/summary\n
+ Confirma fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6a40fcc18a374cd0129bfbe5/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:9a45594b0d2643345fde@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261220
 SUMMARY:The New Corporate Balearhouse 2026 - 2027
 LOCATION:Vall D Or Golf Club\, S Horta/l Horta (felanitx)\, Illes Balears
-DESCRIPTION:Social de club · Stableford · Parejas\nFicha oficial: https:/
- /www.golfdirecto.com/micro/game/6adf7156b0e08ac015855402/summary\nConfirma
-  fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Parejas\nFicha oficial: https://w
+ ww.golfdirecto.com/micro/game/6adf7156b0e08ac015855402/summary\nConfirma f
+ echas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6adf7156b0e08ac015855402/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:880364f7711b47ba4246@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261223
 DTEND;VALUE=DATE:20261224
 SUMMARY:Miércoles Golf Open
 LOCATION:Vall D Or Golf Club\, S Horta/l Horta (felanitx)\, Illes Balears
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 28 de junio\, cierra el 22 de diciembre.\nPrecio: 85 €.\nFicha oficia
- l: https://www.golfdirecto.com/micro/game/6a40fce18a374cd012a17f48/summary
- \nConfirma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  28 de junio\, cierra el 22 de diciembre.\nPrecio: 85 €.\nFicha oficial:
+  https://www.golfdirecto.com/micro/game/6a40fce18a374cd012a17f48/summary\n
+ Confirma fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6a40fce18a374cd012a17f48/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:70e2dcfa99fbef57d3da@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261230
 DTEND;VALUE=DATE:20261231
 SUMMARY:Miércoles Golf Open
 LOCATION:Vall D Or Golf Club\, S Horta/l Horta (felanitx)\, Illes Balears
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 28 de junio\, cierra el 29 de diciembre.\nPrecio: 85 €.\nFicha oficia
- l: https://www.golfdirecto.com/micro/game/6a40fd008a374cd012b1ce0c/summary
- \nConfirma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  28 de junio\, cierra el 29 de diciembre.\nPrecio: 85 €.\nFicha oficial:
+  https://www.golfdirecto.com/micro/game/6a40fd008a374cd012b1ce0c/summary\n
+ Confirma fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6a40fd008a374cd012b1ce0c/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:51377c074679e615be7e@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20270109
 DTEND;VALUE=DATE:20270110
 SUMMARY:The New Corporate Balearhouse 2026 - 2027
 LOCATION:Vall D Or Golf Club\, S Horta/l Horta (felanitx)\, Illes Balears
-DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
- s://www.golfdirecto.com/micro/game/6adf745eb0e08ac0154c8d28/summary\nConfi
- rma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/6adf745eb0e08ac0154c8d28/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6adf745eb0e08ac0154c8d28/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:e931014c2b286a5cc1f1@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20270116
 DTEND;VALUE=DATE:20270117
 SUMMARY:The New Corporate Balearhouse 2026-2027
 LOCATION:Vall D Or Golf Club\, S Horta/l Horta (felanitx)\, Illes Balears
-DESCRIPTION:Social de club · Greensome · Parejas\nFicha oficial: https://
- www.golfdirecto.com/micro/game/6adf7593b0e08ac0158ad25c/summary\nConfirma 
- fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Greensome - Parejas\nFicha oficial: https://ww
+ w.golfdirecto.com/micro/game/6adf7593b0e08ac0158ad25c/summary\nConfirma fe
+ chas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6adf7593b0e08ac0158ad25c/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:bfe008e96491700201ac@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20270220
 DTEND;VALUE=DATE:20270221
 SUMMARY:The New Corporate Balearhouse 2026-2027
 LOCATION:Vall D Or Golf Club\, S Horta/l Horta (felanitx)\, Illes Balears
-DESCRIPTION:Social de club · Fourball · Parejas\nFicha oficial: https://w
- ww.golfdirecto.com/micro/game/6adf7a96b0e08ac01596c7b9/summary\nConfirma f
- echas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Fourball - Parejas\nFicha oficial: https://www
+ .golfdirecto.com/micro/game/6adf7a96b0e08ac01596c7b9/summary\nConfirma fec
+ has y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6adf7a96b0e08ac01596c7b9/summary

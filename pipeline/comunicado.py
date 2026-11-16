@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Banderín · comunicado puntual a toda la gente con cuenta o con avisos activos.
+"""Banderín - comunicado puntual a toda la gente con cuenta o con avisos activos.
 
 Destinatarios: suscriptores activos de los avisos (D1) + los correos de COMUNICADO_EXTRA (cuentas de
 Supabase), sin repetir. Nunca a altas sin confirmar. Lo lanza el workflow «Comunicado» a mano.
@@ -38,7 +38,7 @@ BODY = (c.h1('Bienvenido a Banderín')
         + c.button(SITE, 'Abrir Banderín')
         + c.para('¿Aún no tienes los avisos? Actívalos desde tu perfil en banderin.es.', 13.5, '#6B776F', '26px 0 0'))
 FOOT = ('Recibes este correo porque tienes una cuenta o los avisos activos en Banderín. Es un aviso puntual del servicio.<br>'
-        'Banderín · Confirma siempre fechas y condiciones con el organizador.')
+        'Banderín - Confirma siempre fechas y condiciones con el organizador.')
 TXT = ('Bienvenido a Banderín\n\nDesde hoy, todos los correos de Banderín te llegan desde avisos@banderin.es, nuestro correo '
        'oficial. Añádelo a tus contactos para que no acabe en spam.\n\nGracias por estar desde el principio. Banderín reúne '
        'todos los torneos de golf de España en un solo sitio, gratis.\n\n' + SITE)

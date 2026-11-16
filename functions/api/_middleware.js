@@ -1,4 +1,4 @@
-// Banderín · capa común de la API: cabeceras de seguridad, protección CSRF y avisos apagados.
+// Banderín - capa común de la API: cabeceras de seguridad, protección CSRF y avisos apagados.
 import { enabled, json } from '../../lib/avisos.js';
 
 export async function onRequest(context) {

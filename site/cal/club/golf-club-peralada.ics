@@ -3,7 +3,7 @@ VERSION:2.0
 PRODID:-//Banderin//Torneos de golf//ES
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:Banderín · Golf Club Peralada
+X-WR-CALNAME:Banderín - Golf Club Peralada
 X-WR-CALDESC:Torneos de golf: Golf Club Peralada. Se actualiza cada mañana
  . https://banderin.es
 X-WR-TIMEZONE:Europe/Madrid
@@ -11,15 +11,15 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:818eb54282e16df5c0b2@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Campionat de Catalunya Interclubs Absolut 2026
 LOCATION:Golf Club Peralada\, Peralada\, Girona
-DESCRIPTION:Clubes y equipos · Foursome · Parejas\nInscripción: abre el 
- 3 de noviembre\, cierra el 24 de noviembre.\nFicha oficial: https://www.go
- lfdirecto.com/micro/game/6ae08298e85d85ec8f63b8a6/summary\nConfirma fechas
-  y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Clubes y equipos - Foursome - Parejas\nInscripción: abre el 3 
+ de noviembre\, cierra el 24 de noviembre.\nFicha oficial: https://www.golf
+ directo.com/micro/game/6ae08298e85d85ec8f63b8a6/summary\nConfirma fechas y
+  condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6ae08298e85d85ec8f63b8a6/summary

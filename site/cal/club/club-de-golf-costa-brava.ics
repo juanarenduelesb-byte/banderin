@@ -3,7 +3,7 @@ VERSION:2.0
 PRODID:-//Banderin//Torneos de golf//ES
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:Banderín · Club de Golf Costa Brava
+X-WR-CALNAME:Banderín - Club de Golf Costa Brava
 X-WR-CALDESC:Torneos de golf: Club de Golf Costa Brava. Se actualiza cada m
  añana. https://banderin.es
 X-WR-TIMEZONE:Europe/Madrid
@@ -11,14 +11,14 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:ab20e66da54916a1e168@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20270206
 DTEND;VALUE=DATE:20270208
 SUMMARY:Circuit Nacional 5a Categoria 2027 (Costa Brava)
 LOCATION:Club de Golf Costa Brava\, Santa Cristina D Aro\, Girona
-DESCRIPTION:Absoluto · Individual\nFicha oficial: https://www.catgolf.com/
- es/campeonatos/circuit-nacional-5a-categoria-2027-costa-brava-2027-02-06\n
- Confirma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Absoluto - Individual\nFicha oficial: https://www.catgolf.com/e
+ s/campeonatos/circuit-nacional-5a-categoria-2027-costa-brava-2027-02-06\nC
+ onfirma fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.catgolf.com/es/campeonatos/circuit-nacional-5a-categoria-20
@@ -26,14 +26,14 @@ URL:https://www.catgolf.com/es/campeonatos/circuit-nacional-5a-categoria-20
 END:VEVENT
 BEGIN:VEVENT
 UID:3be2bc62e7fd79338582@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20270403
 DTEND;VALUE=DATE:20270405
 SUMMARY:Campionat de Catalunya Mid-Amateur 2027
 LOCATION:Club de Golf Costa Brava\, Santa Cristina D Aro\, Girona
-DESCRIPTION:Mid-Amateur · Individual\nFicha oficial: https://www.catgolf.c
- om/es/campeonatos/campionat-de-catalunya-mid-amateur-2027-2027-04-03\nConf
- irma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Mid-Amateur - Individual\nFicha oficial: https://www.catgolf.co
+ m/es/campeonatos/campionat-de-catalunya-mid-amateur-2027-2027-04-03\nConfi
+ rma fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.catgolf.com/es/campeonatos/campionat-de-catalunya-mid-amate
@@ -41,14 +41,14 @@ URL:https://www.catgolf.com/es/campeonatos/campionat-de-catalunya-mid-amate
 END:VEVENT
 BEGIN:VEVENT
 UID:051aaab6e2c273a837ce@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20270605
 DTEND;VALUE=DATE:20270607
 SUMMARY:Circuit Nacional 5a Categoria 2027 (Costa Brava)
 LOCATION:Club de Golf Costa Brava\, Santa Cristina D Aro\, Girona
-DESCRIPTION:Absoluto · Individual\nFicha oficial: https://www.catgolf.com/
- es/campeonatos/circuit-nacional-5a-categoria-2027-costa-brava-2027-06-05\n
- Confirma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Absoluto - Individual\nFicha oficial: https://www.catgolf.com/e
+ s/campeonatos/circuit-nacional-5a-categoria-2027-costa-brava-2027-06-05\nC
+ onfirma fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.catgolf.com/es/campeonatos/circuit-nacional-5a-categoria-20

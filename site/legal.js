@@ -39,10 +39,10 @@ window.LEGALDOCS = {
 
 <h3 id="al-5">5. Propiedad intelectual e industrial</h3>
 <p>El diseño, el código, los textos propios, las ilustraciones y la marca Banderín pertenecen a su titular o se usan con licencia. Las tipografías Libre Caslon Display, Public Sans e Instrument Sans (logotipo) se usan bajo licencia SIL Open Font License 1.1, y el mapa de provincias procede de datos geográficos abiertos.</p>
-<p>Los datos de los torneos (nombre, fecha, campo, precio, etc.) son información de hecho publicada por sus organizadores; Banderín no reclama derechos sobre ella.</p>
+<p>Los datos de los torneos (nombre, fecha, campo, precio, etc.) son información de hecho publicada por sus organizadores, Banderín no reclama derechos sobre ella.</p>
 
 <h3 id="al-6">6. Enlaces a otros sitios</h3>
-<p>Banderín enlaza a páginas de terceros, como las fichas de inscripción de los organizadores. No controlamos esos sitios ni respondemos de su contenido, de su disponibilidad ni de sus políticas de privacidad; te recomendamos leerlas antes de facilitarles tus datos.</p>
+<p>Banderín enlaza a páginas de terceros, como las fichas de inscripción de los organizadores. No controlamos esos sitios ni respondemos de su contenido, de su disponibilidad ni de sus políticas de privacidad, te recomendamos leerlas antes de facilitarles tus datos.</p>
 
 <h3 id="al-7">7. Responsabilidad</h3>
 <p>Revisamos y actualizamos la información cada día y comprobamos que los enlaces funcionan, pero no podemos garantizar que todos los datos sean exactos, completos o estén al día en todo momento. Confirma siempre la información en la web del organizador antes de inscribirte o desplazarte. En la medida en que lo permita la ley, el titular no responde de los daños derivados de errores u omisiones en información procedente de terceros.</p>
@@ -51,7 +51,7 @@ window.LEGALDOCS = {
 <p>Si organizas un torneo y detectas un error, o prefieres que tu torneo no aparezca en Banderín, escríbenos a {{email}} y lo corregiremos o retiraremos en un plazo máximo de 72 horas hábiles.</p>
 
 <h3 id="al-9">9. Legislación aplicable</h3>
-<p>Estos textos se rigen por la legislación española. Para cualquier controversia, si actúas como consumidor serán competentes los juzgados y tribunales de tu domicilio; en otro caso, los del domicilio del titular.</p>
+<p>Estos textos se rigen por la legislación española. Para cualquier controversia, si actúas como consumidor serán competentes los juzgados y tribunales de tu domicilio, en otro caso, los del domicilio del titular.</p>
 `},
 
 "privacidad": {
@@ -61,7 +61,7 @@ window.LEGALDOCS = {
 <div class="resumen"><b>En pocas palabras</b>
 <ul>
 <li>Para buscar torneos no tienes que registrarte ni darnos ningún dato.</li>
-<li>Tus preferencias, tu perfil de golfista y lo que sigues se quedan en tu navegador; no nos llegan.</li>
+<li>Tus preferencias, tu perfil de golfista y lo que sigues se quedan en tu navegador, no nos llegan.</li>
 <li>No usamos publicidad ni perfiles. Contamos las visitas de forma agregada y sin cookies.</li>
 <li>Solo tratamos datos personales si nos escribes por correo.</li>
 </ul></div>
@@ -88,14 +88,14 @@ window.LEGALDOCS = {
 <tr><td>Eliges un idioma</td><td>El idioma, solo en tu navegador.</td><td>Mostrarte la web en el idioma que has elegido.</td><td>Servicio que solicitas (personalización de la interfaz, exenta de consentimiento).</td><td>12 meses.</td></tr>
 <tr><td>Nos escribes por correo</td><td>Nombre, dirección de correo y lo que nos cuentes.</td><td>Responderte y, si es el caso, corregir o retirar un torneo.</td><td>Tu consentimiento al escribirnos (art. 6.1.a) y nuestro interés legítimo en atender solicitudes (art. 6.1.f).</td><td>El tiempo necesario para resolverlo y, después, hasta un año.</td></tr>
 </tbody></table>
-<p>Los datos de los torneos que mostramos se refieren a competiciones y entidades, no a personas. Banderín enlaza a los resultados oficiales, pero no copia nombres de jugadores. Si algún torneo incluye el nombre de una persona (por ejemplo, un memorial) es porque así lo publica su organizador; puedes pedirnos su corrección o retirada.</p>
+<p>Los datos de los torneos que mostramos se refieren a competiciones y entidades, no a personas. Banderín enlaza a los resultados oficiales, pero no copia nombres de jugadores. Si algún torneo incluye el nombre de una persona (por ejemplo, un memorial) es porque así lo publica su organizador, puedes pedirnos su corrección o retirada.</p>
 
 <h3 id="pr-3">3. Alojamiento y proveedores</h3>
 <p>La web está alojada en Cloudflare Pages (Cloudflare, Inc.), que actúa como encargado del tratamiento. Para servir la página y protegerla frente a ataques, Cloudflare trata datos técnicos de conexión, como la dirección IP y el navegador, conforme a su <a href="https://www.cloudflare.com/es-es/privacypolicy/" target="_blank" rel="noopener noreferrer">política de privacidad</a> y a su acuerdo de tratamiento de datos. Banderín no guarda registros de visitas. Las tipografías se sirven desde la propia web, sin conexión con Google.</p>
 <p>Para evitar que se usen los formularios que envían correos (avisos y cuentas) de forma automatizada, Banderín cuenta los intentos con una huella cifrada de tu dirección IP que se borra sola en una hora, y puede usar Cloudflare Turnstile, una comprobación anti-robots sin cookies de seguimiento que analiza datos técnicos del navegador en ese momento.</p>
 <p>Si activas los avisos por correo, tu correo y lo que sigues se guardan en una base de datos de Cloudflare, y los correos se envían a través de Brevo (Sendinblue SAS, Francia), que actúa como encargado del tratamiento con servidores en la Unión Europea, conforme a su <a href="https://www.brevo.com/es/legal/privacypolicy/" target="_blank" rel="noopener noreferrer">política de privacidad</a>. Cada correo incluye un enlace para darte de baja en un clic.</p>
 <p>Si creas una cuenta, tus datos de acceso y lo que guardas se alojan en Supabase (Supabase, Inc.), que actúa como encargado del tratamiento con servidores en Fráncfort (Alemania), conforme a su <a href="https://supabase.com/privacy" target="_blank" rel="noopener noreferrer">política de privacidad</a> y a su acuerdo de tratamiento de datos con cláusulas contractuales tipo. Los correos de verificación y de cambio de contraseña se envían a través de Brevo. Si eliges «Continuar con Google», Google te identifica según su propia política y solo nos facilita tu correo y tu nombre.</p>
-<p>Para no perder los datos si falla un proveedor, cada semana se hace una copia de seguridad de la base de datos de avisos (y, cuando se active, de la de cuentas) que se guarda cifrada en reposo y de forma privada en GitHub (GitHub, Inc.), como encargado del tratamiento. Cada copia se borra sola a los 35 días; si te das de baja o borras tu cuenta, tus datos desaparecen de las copias como mucho en ese plazo.</p>
+<p>Para no perder los datos si falla un proveedor, cada semana se hace una copia de seguridad de la base de datos de avisos (y, cuando se active, de la de cuentas) que se guarda cifrada en reposo y de forma privada en GitHub (GitHub, Inc.), como encargado del tratamiento. Cada copia se borra sola a los 35 días, si te das de baja o borras tu cuenta, tus datos desaparecen de las copias como mucho en ese plazo.</p>
 <p>Si pulsas «Añadir a Google Calendar», «Inscribirme» o «Resultados», sales de Banderín hacia Google o hacia la web del organizador, que tratarán tus datos según sus propias políticas.</p>
 <p>No vendemos ni cedemos datos personales a terceros, salvo obligación legal.</p>
 
@@ -187,7 +187,7 @@ window.LEGALDOCS = {
 <p>Si organizas un torneo, puedes pedirnos que corrijamos, completemos o retiremos su información escribiendo a {{email}}. Atendemos estas solicitudes en un plazo máximo de 72 horas hábiles.</p>
 
 <h3 id="te-6">6. Disponibilidad y cambios</h3>
-<p>Banderín se ofrece tal cual y puede interrumpirse temporalmente por mantenimiento o por fallos de las fuentes. Podemos modificar, ampliar o retirar funciones, y actualizar estos términos; la fecha de la última versión aparece al final de esta página.</p>
+<p>Banderín se ofrece tal cual y puede interrumpirse temporalmente por mantenimiento o por fallos de las fuentes. Podemos modificar, ampliar o retirar funciones, y actualizar estos términos, la fecha de la última versión aparece al final de esta página.</p>
 
 <h3 id="te-7">7. Responsabilidad</h3>
 <p>En la medida en que lo permita la ley, el titular no responde de los perjuicios derivados de información inexacta o desactualizada facilitada por terceros, de cancelaciones o cambios decididos por los organizadores, ni del contenido de los sitios enlazados. Nada en estos términos limita los derechos que te reconoce la normativa de consumidores.</p>

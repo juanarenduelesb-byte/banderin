@@ -3,7 +3,7 @@ VERSION:2.0
 PRODID:-//Banderin//Torneos de golf//ES
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:Banderín · Club de Golf Llavaneras
+X-WR-CALNAME:Banderín - Club de Golf Llavaneras
 X-WR-CALDESC:Torneos de golf: Club de Golf Llavaneras. Se actualiza cada ma
  ñana. https://banderin.es
 X-WR-TIMEZONE:Europe/Madrid
@@ -11,42 +11,42 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:88e91563565bf2dc2357@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Trofeu Sant Andreu
 LOCATION:Club de Golf Llavaneras\, Sant Andreu de Llavaneres\, Barcelona
-DESCRIPTION:Social de club · Individual\nFicha oficial: https://www.catgol
- f.com/es/campeonatos/trofeu-sant-andreu-2026-11-28\nConfirma fechas y cond
- iciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Individual\nFicha oficial: https://www.catgolf
+ .com/es/campeonatos/trofeu-sant-andreu-2026-11-28\nConfirma fechas y condi
+ ciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.catgolf.com/es/campeonatos/trofeu-sant-andreu-2026-11-28
 END:VEVENT
 BEGIN:VEVENT
 UID:504947dacb3ee0d981c2@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261209
 DTEND;VALUE=DATE:20261210
 SUMMARY:Torneig Segolfcat
 LOCATION:Club de Golf Llavaneras\, Sant Andreu de Llavaneres\, Barcelona
-DESCRIPTION:Social de club · Individual\nFicha oficial: https://www.catgol
- f.com/es/campeonatos/torneig-segolfcat-2026-12-09\nConfirma fechas y condi
- ciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Individual\nFicha oficial: https://www.catgolf
+ .com/es/campeonatos/torneig-segolfcat-2026-12-09\nConfirma fechas y condic
+ iones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.catgolf.com/es/campeonatos/torneig-segolfcat-2026-12-09
 END:VEVENT
 BEGIN:VEVENT
 UID:413e9b8c6c613823d368@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261220
 SUMMARY:Trofeo Navideño Infantil
 LOCATION:Club de Golf Llavaneras\, Sant Andreu de Llavaneres\, Barcelona
-DESCRIPTION:Juvenil · Individual\nFicha oficial: https://www.catgolf.com/e
- s/campeonatos/trofeo-navideno-infantil-2026-12-19\nConfirma fechas y condi
- ciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Juvenil - Individual\nFicha oficial: https://www.catgolf.com/es
+ /campeonatos/trofeo-navideno-infantil-2026-12-19\nConfirma fechas y condic
+ iones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.catgolf.com/es/campeonatos/trofeo-navideno-infantil-2026-12
@@ -54,14 +54,14 @@ URL:https://www.catgolf.com/es/campeonatos/trofeo-navideno-infantil-2026-12
 END:VEVENT
 BEGIN:VEVENT
 UID:ad5ba85601a4357ecc4f@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20270619
 DTEND;VALUE=DATE:20270621
 SUMMARY:Campionat de Catalunya Sènior 2027
 LOCATION:Club de Golf Llavaneras\, Sant Andreu de Llavaneres\, Barcelona
-DESCRIPTION:Senior · Individual\nFicha oficial: https://www.catgolf.com/es
- /campeonatos/campionat-de-catalunya-senior-2027-2027-06-19\nConfirma fecha
- s y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Senior - Individual\nFicha oficial: https://www.catgolf.com/es/
+ campeonatos/campionat-de-catalunya-senior-2027-2027-06-19\nConfirma fechas
+  y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.catgolf.com/es/campeonatos/campionat-de-catalunya-senior-20

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Banderín · copia de seguridad de la base de datos de avisos (Cloudflare D1).
+"""Banderín - copia de seguridad de la base de datos de avisos (Cloudflare D1).
 
 Vuelca todas las tablas a un JSON. Lo usa el workflow semanal «Copia de seguridad»,
 que lo guarda como artefacto privado del repositorio durante 35 días.

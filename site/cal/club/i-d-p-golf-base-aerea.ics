@@ -3,7 +3,7 @@ VERSION:2.0
 PRODID:-//Banderin//Torneos de golf//ES
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:Banderín · I.D.P. Golf Base Aérea
+X-WR-CALNAME:Banderín - I.D.P. Golf Base Aérea
 X-WR-CALDESC:Torneos de golf: I.D.P. Golf Base Aérea. Se actualiza cada ma
  ñana. https://banderin.es
 X-WR-TIMEZONE:Europe/Madrid
@@ -11,14 +11,14 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:2faa2d0a42533ce69ebb@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20270508
 DTEND;VALUE=DATE:20270509
 SUMMARY:Ranking Absoluto FAG 2027 - 5ª Prueba
 LOCATION:I.D.P. Golf Base Aérea\, Zaragoza\, Zaragoza
-DESCRIPTION:Absoluto · Individual\nFicha oficial: https://www.aragongolf.c
- om/torneos-ficha/2013/\nConfirma fechas y condiciones en la web del organi
- zador. Vía Banderín.
+DESCRIPTION:Absoluto - Individual\nFicha oficial: https://www.aragongolf.co
+ m/torneos-ficha/2013/\nConfirma fechas y condiciones en la web del organiz
+ ador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.aragongolf.com/torneos-ficha/2013/

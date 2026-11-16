@@ -46,7 +46,7 @@ de subir el cambio para que `/en/` quede igual.
 - `pipeline/calendarios.py` genera cada día `site/cal/{prov,ccaa,club}/*.ics`
   para suscribirse desde Apple, Google u Outlook.
 
-## Avisos por correo (fase 2) — apagados hasta activarlos
+## Avisos por correo (fase 2) - apagados hasta activarlos
 
 Piezas:
 - `functions/api/*` y `lib/avisos.js`: API en Cloudflare Pages Functions (alta con doble

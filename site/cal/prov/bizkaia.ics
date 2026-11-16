@@ -3,7 +3,7 @@ VERSION:2.0
 PRODID:-//Banderin//Torneos de golf//ES
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:Banderín · Bizkaia
+X-WR-CALNAME:Banderín - Bizkaia
 X-WR-CALDESC:Torneos de golf: Bizkaia. Se actualiza cada mañana. https://b
  anderin.es
 X-WR-TIMEZONE:Europe/Madrid
@@ -11,29 +11,29 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:5eacc8940f7e0c795083@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:Ranking 2026 Prueba Final
 LOCATION:Derio Golf\, Derio\, Bizkaia
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 6 de noviembre\, cierra el 19 de noviembre.\nFicha oficial: https://www
- .golfdirecto.com/micro/game/6aeb170b50fe8a6f269f2356/summary\nConfirma fec
- has y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  6 de noviembre\, cierra el 19 de noviembre.\nFicha oficial: https://www.g
+ olfdirecto.com/micro/game/6aeb170b50fe8a6f269f2356/summary\nConfirma fecha
+ s y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6aeb170b50fe8a6f269f2356/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:20909ffe82d2a124d02b@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:Final Liga FVG Interclubs Infantil
 LOCATION:Campo de Golf Meaztegi S.a.\, Ortuella\, Bizkaia
-DESCRIPTION:Juvenil · Medal Play · Equipos\nFicha oficial: https://www.go
- lfdirecto.com/micro/game/6af81cedac1d012c795adef0/summary\nConfirma fechas
-  y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Juvenil - Medal Play - Equipos\nFicha oficial: https://www.golf
+ directo.com/micro/game/6af81cedac1d012c795adef0/summary\nConfirma fechas y
+  condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6af81cedac1d012c795adef0/summary

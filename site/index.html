@@ -199,7 +199,7 @@ label.f select,label.f input{height:36px;padding:6px 12px}
 .cell .top{display:flex;justify-content:space-between;align-items:center}
 .cell .n{font-size:14px;font-weight:700}
 .cell.today .n{color:var(--accent)}
-.cell.today .n::after{content:" · hoy";font-size:11px;font-weight:600}
+.cell.today .n::after{content:" - hoy";font-size:11px;font-weight:600}
 .cell .c{width:26px;height:26px;border-radius:50%;border:1.6px solid var(--accent);color:var(--accent);display:grid;place-items:center;font-size:12px;font-weight:700}
 .cell .x{font-size:11px;line-height:1.25;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:100%}
 .legend{display:flex;gap:16px;align-items:center;font-size:12px;color:var(--muted);margin:10px 4px 60px}
@@ -1137,7 +1137,7 @@ select::-ms-expand{display:none}
         <form id="pavForm" hidden novalidate>
           <div class="padd"><input id="pavEmail" type="email" autocomplete="email" placeholder="tu@correo.es" aria-label="Tu correo"><button class="btn primary" type="submit">Activar avisos</button></div>
           <input id="pavWeb" name="web" tabindex="-1" autocomplete="off" aria-hidden="true" class="pavtrap">
-          <p class="pavnote">Te enviaremos un enlace para confirmar. Guardamos solo tu correo y lo que sigues; puedes darte de baja cuando quieras. Al activarlos confirmas que tienes 14 años o más. <a href="#privacidad">Privacidad</a></p>
+          <p class="pavnote">Te enviaremos un enlace para confirmar. Guardamos solo tu correo y lo que sigues, puedes darte de baja cuando quieras. Al activarlos confirmas que tienes 14 años o más. <a href="#privacidad">Privacidad</a></p>
           <p class="perr" id="pavErr" role="alert" hidden></p>
         </form>
         <div id="pavPend" hidden><p class="pavok">Te hemos enviado un correo a <b id="pavPendMail"></b>. Pulsa el enlace para confirmar los avisos.</p><p class="pavnote">¿No te llega? Revisa la carpeta de spam o <button type="button" class="linkbtn" id="pavRetry">vuelve a intentarlo</button>.</p></div>
@@ -1156,7 +1156,7 @@ select::-ms-expand{display:none}
           <label class="pf"><span class="pl">Distancia máxima</span><select id="pradius"><option value="">Cualquier distancia</option><option value="25">Hasta 25 km</option><option value="50">Hasta 50 km</option><option value="100">Hasta 100 km</option><option value="200">Hasta 200 km</option></select></label>
         </div>
         <div class="pacts"><button class="btn primary" type="submit">Guardar perfil</button><span class="pstat" id="pstat" role="status" aria-live="polite"></span></div>
-        <p class="pnote">Pocas fichas publican el hándicap máximo o la edad exacta. Cuando lo hacen, lo tenemos en cuenta; si no, usamos el sexo y la categoría del torneo. Confirma siempre las condiciones en la ficha oficial.</p>
+        <p class="pnote">Pocas fichas publican el hándicap máximo o la edad exacta. Cuando lo hacen, lo tenemos en cuenta, si no, usamos el sexo y la categoría del torneo. Confirma siempre las condiciones en la ficha oficial.</p>
       </form></div>
         <div class="ppane" id="pp-cuenta" role="tabpanel" aria-labelledby="pt-cuenta" hidden><div class="pcard glass" id="pcuenta">
         <span class="psoon" id="pcuSoon">Próximamente</span>
@@ -1261,7 +1261,7 @@ select::-ms-expand{display:none}
       <p class="cu-foot"><button type="button" class="linkbtn" data-cu="entrar">Volver a entrar</button></p>
     </div>
     <div id="cu-nueva" hidden>
-      <p class="phint">Elige tu nueva contraseña. Mínimo 10 caracteres; mejor una frase que una palabra.</p>
+      <p class="phint">Elige tu nueva contraseña. Mínimo 10 caracteres, mejor una frase que una palabra.</p>
       <form id="cuNuevaF" novalidate>
         <input type="password" id="cuNuevaPw" autocomplete="new-password" placeholder="Nueva contraseña" aria-label="Nueva contraseña">
         <input type="password" id="cuNuevaPw2" autocomplete="new-password" placeholder="Repite la contraseña" aria-label="Repite la contraseña">
@@ -1291,13 +1291,13 @@ select::-ms-expand{display:none}
     <div class="cfoot"><button class="btn cb" data-c="reject">Rechazar todo</button><button class="btn ghost" data-c="save">Guardar selección</button><button class="btn cb" data-c="accept">Aceptar todo</button></div>
   </div>
 </div>
-<script src="/i18n.js?v=586c9a11c6"></script>
-<script src="/legal.js?v=1ff5bcccda"></script>
-<script src="/data.js?v=cee1014892"></script>
+<script src="/i18n.js?v=253ce1c03f"></script>
+<script src="/legal.js?v=b9d24ebad8"></script>
+<script src="/data.js?v=1125fa547b"></script>
 <script src="/mapa.js?v=5fb8ffc342"></script>
-<script src="/app.js?v=8b40b14a9f" data-pasados="5b4ab945dc"></script>
+<script src="/app.js?v=11a0bde8ae" data-pasados="e41076ed92"></script>
 <script src="/cuenta-config.js?v=88acbb7c76"></script>
-<script src="/antibot.js?v=2cda3bb9c0"></script>
-<script src="/cuenta.js?v=4a7484306a"></script>
+<script src="/antibot.js?v=e0916acf27"></script>
+<script src="/cuenta.js?v=ea6b18b665"></script>
 </body>
 </html>

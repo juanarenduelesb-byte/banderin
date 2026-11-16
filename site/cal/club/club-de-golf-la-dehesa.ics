@@ -3,7 +3,7 @@ VERSION:2.0
 PRODID:-//Banderin//Torneos de golf//ES
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:Banderín · Club de Golf la Dehesa
+X-WR-CALNAME:Banderín - Club de Golf la Dehesa
 X-WR-CALDESC:Torneos de golf: Club de Golf la Dehesa. Se actualiza cada ma
  ñana. https://banderin.es
 X-WR-TIMEZONE:Europe/Madrid
@@ -11,59 +11,59 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:b901a4c85e711554c8b4@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261124
 DTEND;VALUE=DATE:20261125
 SUMMARY:Match Senior Masculino RFGM - AESGOLF
 LOCATION:Club de Golf la Dehesa\, Villanueva de la Cañada\, Madrid
-DESCRIPTION:Senior · Match Play · Equipos\nInscripción: abre el 24 de no
- viembre\, cierra el 24 de noviembre.\nPrecio: Gratis.\nFicha oficial: http
- s://www.nextcaddy.com/tour/68337\nConfirma fechas y condiciones en la web 
- del organizador. Vía Banderín.
+DESCRIPTION:Senior - Match Play - Equipos\nInscripción: abre el 24 de novi
+ embre\, cierra el 24 de noviembre.\nPrecio: Gratis.\nFicha oficial: https:
+ //www.nextcaddy.com/tour/68337\nConfirma fechas y condiciones en la web de
+ l organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.nextcaddy.com/tour/68337
 END:VEVENT
 BEGIN:VEVENT
 UID:ec73b911f15d613b86e7@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:The Masters 2026 - Torneo de Navidad
 LOCATION:Club de Golf la Dehesa\, Villanueva de la Cañada\, Madrid
-DESCRIPTION:Social de club · Scramble · Parejas\nInscripción: abre el 10
-  de noviembre\, cierra el 26 de noviembre.\nFicha oficial: https://www.gol
- fdirecto.com/micro/game/6af2e6886aacb155d854d51c/summary\nConfirma fechas 
- y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Scramble - Parejas\nInscripción: abre el 10 d
+ e noviembre\, cierra el 26 de noviembre.\nFicha oficial: https://www.golfd
+ irecto.com/micro/game/6af2e6886aacb155d854d51c/summary\nConfirma fechas y 
+ condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6af2e6886aacb155d854d51c/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:9d4ebbfc8b5edb4afaee@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:Final Circuito Access Series "La Dehesa"
 LOCATION:Club de Golf la Dehesa\, Villanueva de la Cañada\, Madrid
-DESCRIPTION:Absoluto · Stableford · Individual\nInscripción: abre el 16 
- de noviembre\, cierra el 23 de noviembre.\nPrecio: 21\,5 €.\nFicha ofici
- al: https://www.nextcaddy.com/tour/70866\nConfirma fechas y condiciones en
-  la web del organizador. Vía Banderín.
+DESCRIPTION:Absoluto - Stableford - Individual\nInscripción: abre el 16 de
+  noviembre\, cierra el 23 de noviembre.\nPrecio: 21\,5 €.\nFicha oficial
+ : https://www.nextcaddy.com/tour/70866\nConfirma fechas y condiciones en l
+ a web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.nextcaddy.com/tour/70866
 END:VEVENT
 BEGIN:VEVENT
 UID:41641e987594e8f374ae@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20270131
 DTEND;VALUE=DATE:20270201
 SUMMARY:No Plomex Tour 2026 (Copia)
 LOCATION:Club de Golf la Dehesa\, Villanueva de la Cañada\, Madrid
-DESCRIPTION:Circuito comercial · Stableford · Individual\nFicha oficial: 
- https://www.golfdirecto.com/micro/game/6af1eb3c2f0e9df18bf97ce1/summary\nC
- onfirma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Circuito comercial - Stableford - Individual\nFicha oficial: ht
+ tps://www.golfdirecto.com/micro/game/6af1eb3c2f0e9df18bf97ce1/summary\nCon
+ firma fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6af1eb3c2f0e9df18bf97ce1/summary

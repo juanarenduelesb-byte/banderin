@@ -3,7 +3,7 @@ VERSION:2.0
 PRODID:-//Banderin//Torneos de golf//ES
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:Banderín · Gambito Golf Club Calatayud
+X-WR-CALNAME:Banderín - Gambito Golf Club Calatayud
 X-WR-CALDESC:Torneos de golf: Gambito Golf Club Calatayud. Se actualiza cad
  a mañana. https://banderin.es
 X-WR-TIMEZONE:Europe/Madrid
@@ -11,28 +11,28 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:f58c570f75363e4b6845@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20270306
 DTEND;VALUE=DATE:20270307
 SUMMARY:Ranking Absoluto FAG 2027 - 3ª Prueba
 LOCATION:Gambito Golf Club Calatayud\, Calatayud\, Zaragoza
-DESCRIPTION:Absoluto · Individual\nFicha oficial: https://www.aragongolf.c
- om/torneos-ficha/2011/\nConfirma fechas y condiciones en la web del organi
- zador. Vía Banderín.
+DESCRIPTION:Absoluto - Individual\nFicha oficial: https://www.aragongolf.co
+ m/torneos-ficha/2011/\nConfirma fechas y condiciones en la web del organiz
+ ador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.aragongolf.com/torneos-ficha/2011/
 END:VEVENT
 BEGIN:VEVENT
 UID:32c3baa32a5867cefbef@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20270529
 DTEND;VALUE=DATE:20270530
 SUMMARY:Campeonato de Aragón Absoluto Femenino 2027
 LOCATION:Gambito Golf Club Calatayud\, Calatayud\, Zaragoza
-DESCRIPTION:Absoluto · Individual\nFicha oficial: https://www.aragongolf.c
- om/torneos-ficha/2015/\nConfirma fechas y condiciones en la web del organi
- zador. Vía Banderín.
+DESCRIPTION:Absoluto - Individual\nFicha oficial: https://www.aragongolf.co
+ m/torneos-ficha/2015/\nConfirma fechas y condiciones en la web del organiz
+ ador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.aragongolf.com/torneos-ficha/2015/

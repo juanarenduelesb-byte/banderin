@@ -3,7 +3,7 @@ VERSION:2.0
 PRODID:-//Banderin//Torneos de golf//ES
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:Banderín · Alhama Signature
+X-WR-CALNAME:Banderín - Alhama Signature
 X-WR-CALDESC:Torneos de golf: Alhama Signature. Se actualiza cada mañana. 
  https://banderin.es
 X-WR-TIMEZONE:Europe/Madrid
@@ -11,46 +11,46 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:2a56e43300f046055cf6@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Torneo Navidad Alhama Signature
 LOCATION:Alhama Signature\, Alhama de Murcia\, Murcia
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 3 de noviembre\, cierra el 27 de noviembre.\nPrecio: 55 €.\nFicha ofi
- cial: https://www.golfdirecto.com/micro/game/6ae8a16f00f5e2ea7522ac28/summ
- ary\nConfirma fechas y condiciones en la web del organizador. Vía Bander
- ín.
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  3 de noviembre\, cierra el 27 de noviembre.\nPrecio: 55 €.\nFicha ofici
+ al: https://www.golfdirecto.com/micro/game/6ae8a16f00f5e2ea7522ac28/summar
+ y\nConfirma fechas y condiciones en la web del organizador. Vía Banderín
+ .
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6ae8a16f00f5e2ea7522ac28/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:e70f909513559642c1af@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:V Prueba (Final) Liga Challenge Alhama Signature
 LOCATION:Alhama Signature\, Alhama de Murcia\, Murcia
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 18 de noviembre\, cierra el 10 de diciembre.\nFicha oficial: https://ww
- w.golfdirecto.com/micro/game/6ac0c44c710147c35d47bd6b/summary\nConfirma fe
- chas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  18 de noviembre\, cierra el 10 de diciembre.\nFicha oficial: https://www.
+ golfdirecto.com/micro/game/6ac0c44c710147c35d47bd6b/summary\nConfirma fech
+ as y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6ac0c44c710147c35d47bd6b/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:757535c3f504a35d2ad4@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20270108
 DTEND;VALUE=DATE:20270109
 SUMMARY:Alamo Golf Society OoM Rd 1
 LOCATION:Alhama Signature\, Alhama de Murcia\, Murcia
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 19 de octubre\, cierra el 7 de enero.\nFicha oficial: https://www.golfd
- irecto.com/micro/game/6ad606f66a3a1de0ec9f2460/summary\nConfirma fechas y 
- condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  19 de octubre\, cierra el 7 de enero.\nFicha oficial: https://www.golfdir
+ ecto.com/micro/game/6ad606f66a3a1de0ec9f2460/summary\nConfirma fechas y co
+ ndiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6ad606f66a3a1de0ec9f2460/summary

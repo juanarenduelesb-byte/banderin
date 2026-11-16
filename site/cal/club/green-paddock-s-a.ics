@@ -3,7 +3,7 @@ VERSION:2.0
 PRODID:-//Banderin//Torneos de golf//ES
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:Banderín · Green Paddock S.a.
+X-WR-CALNAME:Banderín - Green Paddock S.a.
 X-WR-CALDESC:Torneos de golf: Green Paddock S.a.. Se actualiza cada mañana
  . https://banderin.es
 X-WR-TIMEZONE:Europe/Madrid
@@ -11,127 +11,127 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:e0c185d5f0b3b6905ae2@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261118
 DTEND;VALUE=DATE:20261119
 SUMMARY:II Liga Polo Swing 2026 Prueba 18
 LOCATION:Green Paddock S.a.\, Torrelodones\, Madrid
-DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
- s://www.golfdirecto.com/micro/game/6af5df5d8d4229260facb7db/summary\nConfi
- rma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/6af5df5d8d4229260facb7db/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6af5df5d8d4229260facb7db/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:c51c0784a3862d2e8561@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:Final Circuito "Soldeser Construcciones"
 LOCATION:Green Paddock S.a.\, Torrelodones\, Madrid
-DESCRIPTION:Circuito comercial · Stableford · Individual\nPrecio: 28 €.
- \nFicha oficial: https://www.golfdirecto.com/micro/game/692edaa40c48c91123
- 4dcd63/summary\nConfirma fechas y condiciones en la web del organizador. V
- ía Banderín.
+DESCRIPTION:Circuito comercial - Stableford - Individual\nPrecio: 28 €.\n
+ Ficha oficial: https://www.golfdirecto.com/micro/game/692edaa40c48c911234d
+ cd63/summary\nConfirma fechas y condiciones en la web del organizador. Ví
+ a Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/692edaa40c48c911234dcd63/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:c5941114f301e166b45c@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:FINALES Equipos Polo Swing Team 2026
 LOCATION:Green Paddock S.a.\, Torrelodones\, Madrid
-DESCRIPTION:Clubes y equipos · Fourball · Parejas\nFicha oficial: https:/
- /www.golfdirecto.com/micro/game/6ac0ce80710147c35ded47f2/summary\nConfirma
-  fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Clubes y equipos - Fourball - Parejas\nFicha oficial: https://w
+ ww.golfdirecto.com/micro/game/6ac0ce80710147c35ded47f2/summary\nConfirma f
+ echas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6ac0ce80710147c35ded47f2/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:620cb9f153bfc8fec87c@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:SEMIFINALES Equipos Polo Swing Team 2026
 LOCATION:Green Paddock S.a.\, Torrelodones\, Madrid
-DESCRIPTION:Clubes y equipos · Fourball · Parejas\nFicha oficial: https:/
- /www.golfdirecto.com/micro/game/697b91acead8497ab4164146/summary\nConfirma
-  fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Clubes y equipos - Fourball - Parejas\nFicha oficial: https://w
+ ww.golfdirecto.com/micro/game/697b91acead8497ab4164146/summary\nConfirma f
+ echas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/697b91acead8497ab4164146/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:48a6f4d6d5b1e6a31b33@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261210
 DTEND;VALUE=DATE:20261211
 SUMMARY:Privado -Torneo LJG - 10 Diciembre 2026
 LOCATION:Green Paddock S.a.\, Torrelodones\, Madrid
-DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
- s://www.golfdirecto.com/micro/game/692ed8b30c48c911231c2a6b/summary\nConfi
- rma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/692ed8b30c48c911231c2a6b/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/692ed8b30c48c911231c2a6b/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:4cf62cbbffc6a0ac00c5@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:Torneo Loteria Navidad 12/12/2026
 LOCATION:Green Paddock S.a.\, Torrelodones\, Madrid
-DESCRIPTION:Social de club · Fourball · Parejas\nFicha oficial: https://w
- ww.golfdirecto.com/micro/game/692edc930c48c9112376214a/summary\nConfirma f
- echas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Fourball - Parejas\nFicha oficial: https://www
+ .golfdirecto.com/micro/game/692edc930c48c9112376214a/summary\nConfirma fec
+ has y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/692edc930c48c9112376214a/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:bf62f30683a03c6d8928@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
 SUMMARY:Torneo Loteria Navidad 13/12/2026
 LOCATION:Green Paddock S.a.\, Torrelodones\, Madrid
-DESCRIPTION:Social de club · Stableford · Parejas\nFicha oficial: https:/
- /www.golfdirecto.com/micro/game/692edcc70c48c911237d5de3/summary\nConfirma
-  fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Parejas\nFicha oficial: https://w
+ ww.golfdirecto.com/micro/game/692edcc70c48c911237d5de3/summary\nConfirma f
+ echas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/692edcc70c48c911237d5de3/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:f3ec76f967d7b1687540@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261220
 SUMMARY:FINAL - II Liga Polo Swing 2026 "Los Miércoles al Green"
 LOCATION:Green Paddock S.a.\, Torrelodones\, Madrid
-DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
- s://www.golfdirecto.com/micro/game/697b9d62ead8497ab4453f1f/summary\nConfi
- rma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/697b9d62ead8497ab4453f1f/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/697b9d62ead8497ab4453f1f/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:2577c95970e01a4006f3@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261227
 DTEND;VALUE=DATE:20261228
 SUMMARY:Torneo Gourmet Polo Swing 27 diciembre 2026
 LOCATION:Green Paddock S.a.\, Torrelodones\, Madrid
-DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
- s://www.golfdirecto.com/micro/game/6963879653e1040c777e2a11/summary\nConfi
- rma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/6963879653e1040c777e2a11/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6963879653e1040c777e2a11/summary

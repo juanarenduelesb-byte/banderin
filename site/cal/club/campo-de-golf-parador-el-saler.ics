@@ -3,7 +3,7 @@ VERSION:2.0
 PRODID:-//Banderin//Torneos de golf//ES
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:Banderín · Campo de Golf Parador El Saler
+X-WR-CALNAME:Banderín - Campo de Golf Parador El Saler
 X-WR-CALDESC:Torneos de golf: Campo de Golf Parador El Saler. Se actualiza 
  cada mañana. https://banderin.es
 X-WR-TIMEZONE:Europe/Madrid
@@ -11,29 +11,29 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:6bb44b806eb288bdb9d1@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
 SUMMARY:Cto 5ª Cat Masculino
 LOCATION:Campo de Golf Parador El Saler\, El Saler\, Valencia
-DESCRIPTION:Absoluto · Individual\nFicha oficial: https://golfcv.com/torne
- o_seek/ver-torneo/?torneoid=2779\nConfirma fechas y condiciones en la web 
- del organizador. Vía Banderín.
+DESCRIPTION:Absoluto - Individual\nFicha oficial: https://golfcv.com/torneo
+ _seek/ver-torneo/?torneoid=2779\nConfirma fechas y condiciones en la web d
+ el organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://golfcv.com/torneo_seek/ver-torneo/?torneoid=2779
 END:VEVENT
 BEGIN:VEVENT
 UID:de024c6f83cb73c3b8d5@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261220
 DTEND;VALUE=DATE:20261221
 SUMMARY:Circuito Masculino y Femenino CV 4/4
 LOCATION:Campo de Golf Parador El Saler\, El Saler\, Valencia
-DESCRIPTION:Absoluto · Individual\nInscripción: abre el 16 de septiembre\
- , cierra el 13 de octubre.\nPrecio: 40 €.\nFicha oficial: https://golfcv
- .com/torneo_seek/ver-torneo/?torneoid=2706\nConfirma fechas y condiciones 
- en la web del organizador. Vía Banderín.
+DESCRIPTION:Absoluto - Individual\nInscripción: abre el 16 de septiembre\,
+  cierra el 13 de octubre.\nPrecio: 40 €.\nFicha oficial: https://golfcv.
+ com/torneo_seek/ver-torneo/?torneoid=2706\nConfirma fechas y condiciones e
+ n la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://golfcv.com/torneo_seek/ver-torneo/?torneoid=2706

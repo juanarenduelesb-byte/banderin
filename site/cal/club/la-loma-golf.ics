@@ -3,7 +3,7 @@ VERSION:2.0
 PRODID:-//Banderin//Torneos de golf//ES
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:Banderín · La Loma Golf
+X-WR-CALNAME:Banderín - La Loma Golf
 X-WR-CALDESC:Torneos de golf: La Loma Golf. Se actualiza cada mañana. http
  s://banderin.es
 X-WR-TIMEZONE:Europe/Madrid
@@ -11,16 +11,15 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:ffc8167006b1a593bb1b@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:II Copa Iniciación - BMW San Rafael Motor
 LOCATION:La Loma Golf\, Cordoba\, Córdoba
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 13 de octubre\, cierra el 27 de noviembre.\nPrecio: 10 €.\nFicha ofic
- ial: https://www.golfdirecto.com/micro/game/6ace11d13189133e5a976bd2/summa
- ry\nConfirma fechas y condiciones en la web del organizador. Vía Banderí
- n.
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  13 de octubre\, cierra el 27 de noviembre.\nPrecio: 10 €.\nFicha oficia
+ l: https://www.golfdirecto.com/micro/game/6ace11d13189133e5a976bd2/summary
+ \nConfirma fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6ace11d13189133e5a976bd2/summary

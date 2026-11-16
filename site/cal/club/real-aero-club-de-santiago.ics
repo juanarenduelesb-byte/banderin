@@ -3,7 +3,7 @@ VERSION:2.0
 PRODID:-//Banderin//Torneos de golf//ES
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:Banderín · Real Aero Club de Santiago
+X-WR-CALNAME:Banderín - Real Aero Club de Santiago
 X-WR-CALDESC:Torneos de golf: Real Aero Club de Santiago. Se actualiza cada
   mañana. https://banderin.es
 X-WR-TIMEZONE:Europe/Madrid
@@ -11,30 +11,30 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:cf1616c75b67b6666428@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:XVIII Torneo de Golf Opticalia - Casa de los Lentes
 LOCATION:Real Aero Club de Santiago\, San Mamede (piñeiro)\, A Coruña
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 15 de noviembre\, cierra el 20 de noviembre.\nFicha oficial: https://ww
- w.golfdirecto.com/micro/game/6af98b1390f777ff01d83f5d/summary\nConfirma fe
- chas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  15 de noviembre\, cierra el 20 de noviembre.\nFicha oficial: https://www.
+ golfdirecto.com/micro/game/6af98b1390f777ff01d83f5d/summary\nConfirma fech
+ as y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6af98b1390f777ff01d83f5d/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:cbc0b6e222aa76c2fba6@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:Campeonato de Galicia Match Play Juvenil
 LOCATION:Real Aero Club de Santiago\, San Mamede (piñeiro)\, A Coruña
-DESCRIPTION:Juvenil · Match Play · Equipos\nInscripción: abre el 2 de no
- viembre\, cierra el 17 de noviembre.\nFicha oficial: https://www.golfdirec
- to.com/micro/game/69e77fd48510e14eee693022/summary\nConfirma fechas y cond
- iciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Juvenil - Match Play - Equipos\nInscripción: abre el 2 de novi
+ embre\, cierra el 17 de noviembre.\nFicha oficial: https://www.golfdirecto
+ .com/micro/game/69e77fd48510e14eee693022/summary\nConfirma fechas y condic
+ iones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/69e77fd48510e14eee693022/summary

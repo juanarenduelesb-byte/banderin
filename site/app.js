@@ -119,7 +119,7 @@ const here=()=>{const v=$('city').value;if(v==='gps')return GEO?[GEO[0],GEO[1]]:
 const cityName=()=>{const v=$('city').value;return v==='gps'?L('tu ubicación'):(PROV[v]?PROV[v][0]:'')};
 // Identificador corto y estable de un torneo (FNV-1a de su enlace). El mismo cálculo está en functions/t/[id].js.
 function tid(t){let h=2166136261;const u=t.url||'';for(let i=0;i<u.length;i++){h^=u.charCodeAt(i);h=Math.imul(h,16777619)>>>0}return h.toString(36)}
-async function shareT(t){const url=location.origin+'/t/'+tid(t);const text=t.n+' · '+fShort(t.s)+(t.club?' · '+t.club:'');
+async function shareT(t){const url=location.origin+'/t/'+tid(t);const text=t.n+' - '+fShort(t.s)+(t.club?' - '+t.club:'');
   try{if(navigator.share){await navigator.share({title:t.n,text,url});return}}catch(e){if(e&&e.name==='AbortError')return}
   try{await navigator.clipboard.writeText(url);geoMsg(L('Enlace copiado. Pégalo donde quieras.'))}catch(e){prompt(L('Copia el enlace:'),url)}}
 function openShared(){const m=/^#t=([a-z0-9]+)$/.exec(location.hash);if(!m)return;const t=T.find(x=>tid(x)===m[1]);
@@ -171,13 +171,13 @@ function sorted(list){
   if(m==='close')return list.slice().sort((a,b)=>((a.sk==='open'&&a.cl)||'9999').localeCompare((b.sk==='open'&&b.cl)||'9999')||a.s.localeCompare(b.s));
   return list.slice().sort((a,b)=>a.s.localeCompare(b.s)||a.n.localeCompare(b.n));
 }
-const place=t=>[t.club,t.city&&t.city!==t.club?t.city:'',t.prov!==t.city&&t.prov!=='Por confirmar'?t.prov:''].filter(Boolean).join(' · ');
+const place=t=>[t.club,t.city&&t.city!==t.club?t.city:'',t.prov!==t.city&&t.prov!=='Por confirmar'?t.prov:''].filter(Boolean).join(' - ');
 const PLAYED_ICON='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>';
 const cnt=n=>n+' '+(n===1?L('torneo'):L('torneos'));
 const label=t=>L(t.sk==='done'||t.sk==='closed'?'Ver torneo':t.direct===false?'Web del organizador':'Inscribirme');
 function row(t){
   const k=km(t);
-  return '<button class="row" role="option" data-i="'+t.i+'" aria-selected="'+(sel===t.i)+'">'+I.flag(t.sk)+'<span class="t"><b>'+esc(t.n)+'</b><span>'+(nofit(t)?'<i class="nofit">'+L('No encaja')+'</i>':'')+esc(place(t))+(t.e!==t.s?' · '+fShort(t.s)+'–'+fShort(t.e):'')+'</span></span><span class="cat">'+esc(V(t.cat))+'</span><span class="km num">'+(k!=null?(k<5?'&lt; 5 km':k+' km'):'')+'</span><span class="st '+t.sk+'">'+esc(t.ss)+'</span>'+(saved.has(t.url)?I.starS:'<span></span>')+'</button>';
+  return '<button class="row" role="option" data-i="'+t.i+'" aria-selected="'+(sel===t.i)+'">'+I.flag(t.sk)+'<span class="t"><b>'+esc(t.n)+'</b><span>'+(nofit(t)?'<i class="nofit">'+L('No encaja')+'</i>':'')+esc(place(t))+(t.e!==t.s?' - '+fShort(t.s)+'–'+fShort(t.e):'')+'</span></span><span class="cat">'+esc(V(t.cat))+'</span><span class="km num">'+(k!=null?(k<5?'&lt; 5 km':k+' km'):'')+'</span><span class="st '+t.sk+'">'+esc(t.ss)+'</span>'+(saved.has(t.url)?I.starS:'<span></span>')+'</button>';
 }
 function weekTag(d){if(d===TODAY)return L('Hoy');if(d===add(TODAY,1))return L('Mañana');if(d>=WE[0]&&d<=WE[1])return L('Este finde');if(d>=NWE[0]&&d<=NWE[1])return L('Próximo finde');return''}
 function renderList(list){
@@ -269,7 +269,7 @@ function renderAgenda(list){
   const c=$('cal').querySelector('.cell[data-d="'+calDay+'"]');if(c)c.classList.add('sel');
   const ev=list.filter(t=>inRange(t,calDay,calDay)).sort((a,b)=>(a.sk==='open'?0:1)-(b.sk==='open'?0:1)||a.n.localeCompare(b.n,'es'));
   const wt=weekTag(calDay);
-  $('aEye').textContent=(wt?wt+' · ':'')+cnt(ev.length);
+  $('aEye').textContent=(wt?wt+' - ':'')+cnt(ev.length);
   $('aTitle').textContent=fDay(calDay);
   $('aList').hidden=!ev.length;
   $('aRows').innerHTML=ev.length?ev.map(row).join(''):'<div class="empty">'+L('Ningún torneo este día con tus filtros.')+'</div>';
@@ -315,7 +315,7 @@ const REV=window.REVISION||((window.ACTUALIZADO||TODAY)+'T07:00');
 const revDay=REV.slice(0,10),revTime=REV.slice(11,16);
 function revWhen(){return revDay===TODAY?L('hoy a las {t}',{t:revTime}):revDay===add(TODAY,-1)?L('ayer a las {t}',{t:revTime}):L('el {d} a las {t}',{d:fShort(revDay),t:revTime})}
 function revText(){return L('Comprobado {w}.',{w:revWhen()})}
-function sealText(){return L('Comprobado {w} · {n} enlaces verificados',{w:revWhen(),n:T.filter(t=>t.ok).length})}
+function sealText(){return L('Comprobado {w} - {n} enlaces verificados',{w:revWhen(),n:T.filter(t=>t.ok).length})}
 function checkedText(ok){return ok===revDay?L('Enlace comprobado {w}.',{w:revWhen()}):L('Enlace comprobado el {d}.',{d:fShort(ok)})}
 const CH=(window.CAMBIOS||[]).filter(c=>c.k!=='nuevos');
 function chgFor(url){const c=CH.find(x=>x.url===url&&(x.k==='fecha'||x.k==='plazo'));if(!c)return'';
@@ -330,7 +330,7 @@ function renderTrust(){
   $('changes').innerHTML=C.length?C.slice(0,40).map(c=>{
     if(c.k==='nuevos')return '<div class="chg"><span class="k nuevos">'+L(CHK.nuevos)+'</span><b>'+esc(L('{n} torneos nuevos publicados',{n:c.c}))+'</b><span class="s">'+esc(fShort(c.d))+'</span></div>';
     const det=c.k==='fecha'?L('Antes {a}, ahora {b}',{a:fShort(c.a),b:fShort(c.b)}):c.k==='plazo'?L('Cierre: antes {a}, ahora {b}',{a:fShort(c.a),b:fShort(c.b)}):c.k==='retirado'?L('Ya no aparece en su fuente. Confirma con el organizador.'):c.k==='abre'?L('Inscripción abierta desde hoy'):L('El organizador lo ha cancelado');
-    return '<a class="chg" href="'+esc(safeUrl(c.url))+'" target="_blank" rel="noopener noreferrer"><span class="k '+c.k+'">'+L(CHK[c.k])+'</span><b>'+esc(c.n)+'</b><span class="s">'+esc([fShort(c.d),c.club,det].filter(Boolean).join(' · '))+'</span></a>'}).join('')
+    return '<a class="chg" href="'+esc(safeUrl(c.url))+'" target="_blank" rel="noopener noreferrer"><span class="k '+c.k+'">'+L(CHK[c.k])+'</span><b>'+esc(c.n)+'</b><span class="s">'+esc([fShort(c.d),c.club,det].filter(Boolean).join(' - '))+'</span></a>'}).join('')
    :'<p class="chg empty">'+L('Aquí verás cada torneo que cambie de fecha, se cancele, desaparezca de su fuente o abra inscripción. El registro empieza con la revisión de mañana y guarda los últimos 14 días.')+'</p>';
   const CO=window.COBERTURA||[];
   $('cov').innerHTML='<table><thead><tr><th>'+L('Comunidad')+'</th><th>'+L('Calendario federativo')+'</th><th style="text-align:right">'+L('Torneos')+'</th></tr></thead><tbody>'+CO.map(r=>'<tr><td><b>'+esc(V(r.ccaa))+'</b><small>'+esc(r.fuentes.length?r.fuentes.map(V).join(', '):L('Sin fuente volcada'))+'</small></td><td><span class="bdg '+r.estado+'">'+L(r.estado==='completo'?'Completo':r.estado==='parcial'?'Parcial':'Pendiente')+'</span><small>'+esc(L(r.nota))+'</small></td><td class="n num">'+r.n+'</td></tr>').join('')+'</tbody></table>';
@@ -360,7 +360,7 @@ function renderResults(){
   if(!list.length){$('rlist').innerHTML='<div class="empty"><b>'+L(rMode==='mine'?'Aún no has marcado ningún torneo.':'Ningún torneo con estos filtros.')+'</b>'+L(rMode==='mine'?'Pulsa «Lo jugué» en cualquier torneo de la pestaña «Con resultados» o «Todos».':'Prueba con otra comunidad o quita la búsqueda.')+(rMode==='mine'&&!consent.pref()?' '+L('Para que se guarden al cerrar la página, acepta las cookies de preferencias.'):'')+'</div>';return}
   const g={};list.slice(0,rLimit).forEach(t=>(g[t.s]=g[t.s]||[]).push(t));
   $('rlist').innerHTML=Object.keys(g).sort().reverse().map(d=>'<div class="dhead"><b>'+fDay(d)+'</b><span>'+cnt(g[d].length)+'</span></div>'+g[d].map(t=>{const on=played.has(t.url);
-    return '<div class="rrow"><span class="t"><b>'+esc(t.n)+'</b><span>'+esc([t.club,t.prov&&t.prov!=='Por confirmar'?t.prov:'',t.cat?V(t.cat):''].filter(Boolean).join(' · '))+'</span></span><button class="played" data-p="'+esc(t.url)+'" aria-pressed="'+on+'">'+PLAYED_ICON+L(on?'Jugado':'Lo jugué')+'</button><a class="btn '+(t.res?'primary':'soft')+'" href="'+esc(safeUrl(t.url))+'" target="_blank" rel="noopener noreferrer">'+L(t.res?'Resultados':'Ficha')+I.out+'</a></div>'}).join('')).join('')+
+    return '<div class="rrow"><span class="t"><b>'+esc(t.n)+'</b><span>'+esc([t.club,t.prov&&t.prov!=='Por confirmar'?t.prov:'',t.cat?V(t.cat):''].filter(Boolean).join(' - '))+'</span></span><button class="played" data-p="'+esc(t.url)+'" aria-pressed="'+on+'">'+PLAYED_ICON+L(on?'Jugado':'Lo jugué')+'</button><a class="btn '+(t.res?'primary':'soft')+'" href="'+esc(safeUrl(t.url))+'" target="_blank" rel="noopener noreferrer">'+L(t.res?'Resultados':'Ficha')+I.out+'</a></div>'}).join('')).join('')+
     (list.length>rLimit?'<button class="btn ghost rmore" id="rmore">'+L('Ver {n} más',{n:Math.min(150,list.length-rLimit)})+'</button>':'');
 }
 $('rq').addEventListener('input',()=>{rLimit=150;renderResults()});
@@ -379,7 +379,7 @@ $('lang').onclick=()=>{const to=LANG==='en'?'es':'en';raw.set('lang',to);locatio
 
 const ok=SRC.filter(s=>s.volcada).length;
 $('srcTitle').textContent=L('{a} fuentes al día. {b} pendientes.',{a:ok,b:SRC.length-ok});
-$('srcs').innerHTML=SRC.map(s=>{const n=s.n!=null?s.n:T.filter(t=>t.src===s.nombre&&t.sk!=='done').length;const k=s.volcada?'open':'soon';return '<article class="src glass"><span class="dst st '+k+'">'+I.flag(k)+(s.volcada?L('Volcada')+' · '+(n?cnt(n):L('sin torneos próximos')):L('Pendiente de volcar'))+'</span><h3>'+esc(V(s.nombre))+'</h3><p>'+esc(L(s.desc))+'</p><div class="foot"><span>'+esc(s.url.replace(/^https?:\/\/(www\.)?/,'').split('/')[0])+'</span><a class="btn soft" href="'+esc(safeUrl(s.url))+'" target="_blank" rel="noopener noreferrer">'+L('Abrir')+I.out+'</a></div></article>'}).join('');
+$('srcs').innerHTML=SRC.map(s=>{const n=s.n!=null?s.n:T.filter(t=>t.src===s.nombre&&t.sk!=='done').length;const k=s.volcada?'open':'soon';return '<article class="src glass"><span class="dst st '+k+'">'+I.flag(k)+(s.volcada?L('Volcada')+' - '+(n?cnt(n):L('sin torneos próximos')):L('Pendiente de volcar'))+'</span><h3>'+esc(V(s.nombre))+'</h3><p>'+esc(L(s.desc))+'</p><div class="foot"><span>'+esc(s.url.replace(/^https?:\/\/(www\.)?/,'').split('/')[0])+'</span><a class="btn soft" href="'+esc(safeUrl(s.url))+'" target="_blank" rel="noopener noreferrer">'+L('Abrir')+I.out+'</a></div></article>'}).join('');
 $('k1').textContent=T.filter(t=>t.sk!=='done').length;$('k2').textContent=T.filter(t=>t.sk==='open').length;$('k3').textContent=uniq('ccaa').length;
 $('upd').textContent=revText();
 
@@ -410,7 +410,7 @@ function goList(setup,keepRadius){
 }
 function hcard(t){
   const k=km(t);
-  return '<button class="hcard" data-i="'+t.i+'"><div class="cmap">'+greenSvg(hash(t.club||t.n))+dchip(t.s)+'</div><div class="cb"><span class="st '+t.sk+'">'+esc(t.ss)+'</span><h3>'+esc(t.n)+'</h3><span class="cp">'+esc([t.club,t.city].filter(Boolean).join(' · '))+'</span><div class="cf"><span class="num">'+(k!=null?(k<5?'&lt; 5 km':k+' km'):esc(t.prov!=='Por confirmar'?t.prov:t.ccaa))+'</span><b class="num">'+eur(t.price)+'</b></div></div></button>';
+  return '<button class="hcard" data-i="'+t.i+'"><div class="cmap">'+greenSvg(hash(t.club||t.n))+dchip(t.s)+'</div><div class="cb"><span class="st '+t.sk+'">'+esc(t.ss)+'</span><h3>'+esc(t.n)+'</h3><span class="cp">'+esc([t.club,t.city].filter(Boolean).join(' - '))+'</span><div class="cf"><span class="num">'+(k!=null?(k<5?'&lt; 5 km':k+' km'):esc(t.prov!=='Por confirmar'?t.prov:t.ccaa))+'</span><b class="num">'+eur(t.price)+'</b></div></div></button>';
 }
 function renderHome(){
   if(!$('v-inicio'))return;
@@ -432,7 +432,7 @@ function renderHome(){
   // Cierra pronto
   const cs=closing.slice().sort((a,b)=>a.cl.localeCompare(b.cl)||a.s.localeCompare(b.s));
   $('closeTitle').textContent=cs.length?L('{n} inscripciones cierran en 7 días.',{n:cs.length}):L('Ninguna inscripción cierra esta semana.');
-  $('closing').innerHTML=cs.slice(0,6).map(t=>{const d=dleft(t.cl);return '<button class="crow" data-i="'+t.i+'"><span class="cd'+(d===0?' today':'')+'"><span>'+(d===0?'<b>'+L('Hoy')+'</b>':'<b class="num">'+d+'</b><span>'+L(d===1?'día':'días')+'</span>')+'</span></span><span><b>'+esc(t.n)+'</b><span class="s">'+esc(fWk(t.s)+' · '+[t.club,t.city].filter(Boolean).join(' · '))+'</span></span><span class="p num">'+eur(t.price)+'</span></button>'}).join('')||'<p class="empty">'+L('Vuelve en unos días: la lista se actualiza cada mañana.')+'</p>';
+  $('closing').innerHTML=cs.slice(0,6).map(t=>{const d=dleft(t.cl);return '<button class="crow" data-i="'+t.i+'"><span class="cd'+(d===0?' today':'')+'"><span>'+(d===0?'<b>'+L('Hoy')+'</b>':'<b class="num">'+d+'</b><span>'+L(d===1?'día':'días')+'</span>')+'</span></span><span><b>'+esc(t.n)+'</b><span class="s">'+esc(fWk(t.s)+' - '+[t.club,t.city].filter(Boolean).join(' - '))+'</span></span><span class="p num">'+eur(t.price)+'</span></button>'}).join('')||'<p class="empty">'+L('Vuelve en unos días: la lista se actualiza cada mañana.')+'</p>';
   // Explora por tipo
   const TL=[['senior','Senior','Mayores de 50 años',t=>t.cat==='Senior',()=>{$('fcat').value='Senior'}],
    ['juvenil','Juvenil','Benjamín a sub-18',t=>t.cat==='Juvenil',()=>{$('fcat').value='Juvenil'}],
@@ -448,7 +448,7 @@ function renderHome(){
   // Grandes citas
   const big=U.filter(t=>t.src==='RFEG'||(t.org==='Federación'&&/campeonato|copa|open|cto\.?\s|final|gran premio|grand prix|internacional/i.test(t.n)&&/espa[ñn]a|andaluc|madrid|catal|comunitat|\bcv\b|galicia|asturias|balear|canarias|castilla|murcia|arag|navarr|vasco|euskadi|rioja|cantabr|extremad|internacional/i.test(t.n)))
    .sort((a,b)=>(a.src==='RFEG'?0:1)-(b.src==='RFEG'?0:1)||a.s.localeCompare(b.s)).slice(0,8).sort((a,b)=>a.s.localeCompare(b.s)).slice(0,4);
-  $('events').innerHTML=big.map(t=>{const d=dleft(t.s);const c=d<=0?L(t.e>=TODAY?'En juego':'Hoy'):(d===1?L('Mañana'):L('Faltan {n} días',{n:d}));return '<button class="ev" data-i="'+t.i+'"><div class="emap">'+greenSvg(hash(t.n))+'<span class="count">'+c+'</span></div><div class="eb"><h3>'+esc(t.n)+'</h3><span class="s">'+esc((t.e!==t.s?fShort(t.s)+' – '+fShort(t.e):fWk(t.s))+' · '+[t.club,t.prov!=='Por confirmar'?t.prov:''].filter(Boolean).join(' · '))+'</span><span class="tag">'+esc(V(t.cat))+'</span></div></button>'}).join('');
+  $('events').innerHTML=big.map(t=>{const d=dleft(t.s);const c=d<=0?L(t.e>=TODAY?'En juego':'Hoy'):(d===1?L('Mañana'):L('Faltan {n} días',{n:d}));return '<button class="ev" data-i="'+t.i+'"><div class="emap">'+greenSvg(hash(t.n))+'<span class="count">'+c+'</span></div><div class="eb"><h3>'+esc(t.n)+'</h3><span class="s">'+esc((t.e!==t.s?fShort(t.s)+' – '+fShort(t.e):fWk(t.s))+' - '+[t.club,t.prov!=='Por confirmar'?t.prov:''].filter(Boolean).join(' - '))+'</span><span class="tag">'+esc(V(t.cat))+'</span></div></button>'}).join('');
   // 14 días
   const days=[...Array(14)].map((_,i)=>add(TODAY,i));const cnts=days.map(d=>U.filter(t=>inRange(t,d,d)).length);const mx=Math.max(1,...cnts);
   const tot=cnts.reduce((a,b)=>a+b,0);const bi=cnts.indexOf(Math.max(...cnts));
@@ -472,14 +472,14 @@ function renderMap(){
   $('map').setAttribute('viewBox','0 0 '+m.w+' '+m.h);$('map').innerHTML=svg;
   renderSide(S,pc);
 }
-function mlist(items){return '<div class="mlist">'+items.slice(0,12).map(t=>{const x=D(t.s);return '<button data-i="'+t.i+'"><span class="md">'+x.toLocaleDateString(LOC,{weekday:'short'}).replace('.','')+'<em class="num">'+x.getDate()+'</em>'+x.toLocaleDateString(LOC,{month:'short'}).replace('.','')+'</span><span><b>'+esc(t.n)+'</b><span class="s">'+esc([t.club,t.ss].filter(Boolean).join(' · '))+'</span></span></button>'}).join('')+'</div>'}
+function mlist(items){return '<div class="mlist">'+items.slice(0,12).map(t=>{const x=D(t.s);return '<button data-i="'+t.i+'"><span class="md">'+x.toLocaleDateString(LOC,{weekday:'short'}).replace('.','')+'<em class="num">'+x.getDate()+'</em>'+x.toLocaleDateString(LOC,{month:'short'}).replace('.','')+'</span><span><b>'+esc(t.n)+'</b><span class="s">'+esc([t.club,t.ss].filter(Boolean).join(' - '))+'</span></span></button>'}).join('')+'</div>'}
 function renderSide(S,pc){
   const el=$('mside');const rl=L(mapR==='all'?'en total':mapR==='30'?'en los próximos 30 días':'en los próximos 3 meses');
   if(mapSel&&mapSel.p){const items=S.filter(t=>t.prov===mapSel.p).sort((a,b)=>a.s.localeCompare(b.s));
     el.innerHTML='<button class="btn ghost back" data-back>← '+L('Toda España')+'</button><h3>'+esc(mapSel.p)+'</h3><p class="sub">'+cnt(items.length)+' '+rl+'</p>'+(items.length?mlist(items):'<p class="sub">'+L('Sin torneos en este periodo.')+'</p>')+(items.length?'<button class="btn primary" data-golist="p">'+L('Ver los {n} en la lista',{n:items.length})+'</button>':'');return}
   if(mapSel&&mapSel.g){const g=(window._mapG||[]).find(x=>x.club+'|'+x.ll.join(',')===mapSel.g);if(!g){mapSel=null;return renderSide(S,pc)}
     const items=g.items.slice().sort((a,b)=>a.s.localeCompare(b.s));
-    el.innerHTML='<button class="btn ghost back" data-back>← '+L('Toda España')+'</button><h3>'+esc(g.club)+'</h3><p class="sub">'+esc([g.city,g.prov].filter(x=>x&&x!=='Por confirmar').join(' · '))+' · '+cnt(items.length)+' '+rl+'</p>'+mlist(items)+'<button class="btn primary" data-golist="g">'+L('Ver en la lista')+'</button>';return}
+    el.innerHTML='<button class="btn ghost back" data-back>← '+L('Toda España')+'</button><h3>'+esc(g.club)+'</h3><p class="sub">'+esc([g.city,g.prov].filter(x=>x&&x!=='Por confirmar').join(' - '))+' - '+cnt(items.length)+' '+rl+'</p>'+mlist(items)+'<button class="btn primary" data-golist="g">'+L('Ver en la lista')+'</button>';return}
   const R=Object.entries(pc).filter(x=>x[0]&&x[0]!=='Por confirmar').sort((a,b)=>b[1]-a[1]).slice(0,10);const mx=R.length?R[0][1]:1;
   el.innerHTML='<h3>'+cnt(S.length)+' '+rl+'.</h3><p class="sub">'+L('Toca un punto para ver los torneos de ese campo, o una provincia para ver todos los suyos.')+'</p><div class="rank">'+R.map(([p,n])=>'<button data-prov="'+esc(p)+'"><span>'+esc(p)+'</span><span class="bar"><i style="width:'+Math.round(n/mx*100)+'%"></i></span><b class="num">'+n+'</b></button>').join('')+'</div>';
 }
@@ -500,7 +500,7 @@ $('v-inicio').addEventListener('click',e=>{
 });
 $('map').addEventListener('click',e=>{const d=e.target.closest('.dot');if(d){mapSel={g:d.dataset.g};renderMap();if(mobile())$('mside').scrollIntoView({behavior:'smooth',block:'start'});return}const p=e.target.closest('.pv');if(p){mapSel={p:p.dataset.p};renderMap();if(mobile())$('mside').scrollIntoView({behavior:'smooth',block:'start'})}});
 $('map').addEventListener('pointermove',e=>{const d=e.target.closest('.dot'),tip=$('mtip');if(!d){tip.hidden=true;return}const g=(window._mapG||[]).find(x=>x.club+'|'+x.ll.join(',')===d.dataset.g);if(!g){tip.hidden=true;return}
-  tip.innerHTML='<b>'+esc(g.club)+'</b>'+esc([g.city,cnt(g.items.length)].filter(Boolean).join(' · '));tip.hidden=false;const r=$('map').closest('.mapbox').getBoundingClientRect();let x=e.clientX-r.left+14,y=e.clientY-r.top-10;if(x+tip.offsetWidth>r.width-8)x=e.clientX-r.left-tip.offsetWidth-14;tip.style.left=x+'px';tip.style.top=y+'px'});
+  tip.innerHTML='<b>'+esc(g.club)+'</b>'+esc([g.city,cnt(g.items.length)].filter(Boolean).join(' - '));tip.hidden=false;const r=$('map').closest('.mapbox').getBoundingClientRect();let x=e.clientX-r.left+14,y=e.clientY-r.top-10;if(x+tip.offsetWidth>r.width-8)x=e.clientX-r.left-tip.offsetWidth-14;tip.style.left=x+'px';tip.style.top=y+'px'});
 $('map').addEventListener('pointerleave',()=>{$('mtip').hidden=true});
 $('modal').addEventListener('click',e=>{if(e.target.classList.contains('mscrim'))closeModal()});
 // Arte de la portada
@@ -534,7 +534,7 @@ function renderPerfil(){
   $('pcity').innerHTML=$('city').innerHTML.replace(L('¿Desde dónde sales?'),L('Sin indicar'));$('pcity').value=$('city').value;$('pradius').value=$('radius').value;
   const up0=T.filter(t=>t.sk!=='done');
   const items=[...SIGO.prov.map(n=>['prov',n,up0.filter(t=>t.prov===n).length]),...SIGO.clubs.map(n=>['club',n,up0.filter(t=>t.club===n).length])];
-  $('psigo').innerHTML=items.map(([k,n,c])=>'<li><span><b>'+esc(n)+'</b><small>'+L(k==='prov'?'Provincia':'Club')+' · '+cnt(c)+'</small></span><span class="pcal">'+(c?calLinks(k,n):'')+'<button type="button" data-k="'+k+'" data-n="'+esc(n)+'" aria-label="'+esc(L('Dejar de seguir {c}',{c:n}))+'">×</button></span></li>').join('');
+  $('psigo').innerHTML=items.map(([k,n,c])=>'<li><span><b>'+esc(n)+'</b><small>'+L(k==='prov'?'Provincia':'Club')+' - '+cnt(c)+'</small></span><span class="pcal">'+(c?calLinks(k,n):'')+'<button type="button" data-k="'+k+'" data-n="'+esc(n)+'" aria-label="'+esc(L('Dejar de seguir {c}',{c:n}))+'">×</button></span></li>').join('');
   const fl=up0.filter(follows).sort((a,b)=>a.s.localeCompare(b.s)).slice(0,8);
   {let last='';$('prows').innerHTML=fl.length?'':'<p class="phint">'+L('Aún no sigues nada.')+' <button type="button" class="linkbtn" data-pgo="sigo">'+L('Sigue un club o una provincia')+'</button></p>';$('prows').innerHTML+=fl.map(t=>{const h=t.s!==last?'<div class="dhead"><b>'+fDay(t.s)+'</b>'+(weekTag(t.s)?'<span class="wk">'+weekTag(t.s)+'</span>':'')+'</div>':'';last=t.s;return h+row(t)}).join('')}
   const nf=hasPerf()?up0.filter(nofit).length:0;
@@ -616,7 +616,7 @@ function renderLegal(k){
   const up=window.LEGAL_ACTUALIZADO?D(window.LEGAL_ACTUALIZADO).toLocaleDateString(LOC,{day:'numeric',month:'long',year:'numeric'}):'';
   $('ldoc').innerHTML='<p class="eyebrow">Legal</p><h1>'+esc(d.titulo)+'</h1><p class="lintro">'+esc(d.intro)+'</p>'+h+'<p class="lupd">'+L('Última actualización')+': '+up+'.</p>';
   document.querySelectorAll('.lnav a').forEach(a=>a.classList.toggle('on',a.getAttribute('href')==='#'+k));const on=document.querySelector('.lnav a.on');if(on&&innerWidth<900){const n=on.parentNode;n.scrollLeft=on.offsetLeft-(n.clientWidth-on.offsetWidth)/2}
-  document.title=d.titulo+' · Banderín';
+  document.title=d.titulo+' - Banderín';
 }
 $('fyear').textContent=new Date().getFullYear();
 $('fcontact').onclick=e=>{e.preventDefault();const m=(window.TITULAR||{}).email;if(m)location.href='mailto:'+m+'?subject='+encodeURIComponent(L('Corrección de un torneo en Banderín'));else location.hash='aviso-legal'};

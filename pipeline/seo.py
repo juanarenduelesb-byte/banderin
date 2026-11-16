@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Banderín · páginas para buscadores.
+"""Banderín - páginas para buscadores.
 
 Lee site/data.js y genera, sin JavaScript, lo que Google necesita para
 entender y posicionar la web:
@@ -130,7 +130,7 @@ def _ver(name):
 
 def versionar(html):
     """Pone ?v=<huella> a los scripts y estilos propios. Cloudflare obliga a los navegadores a guardar
-    los .js 4 horas; con la huella en el enlace, en cuanto cambia el archivo el navegador pide el nuevo."""
+    los .js 4 horas, con la huella en el enlace, en cuanto cambia el archivo el navegador pide el nuevo."""
     html = re.sub(r'(<script src="/)([\w.-]+\.js)(?:\?v=\w+)?(")', lambda m: m.group(1) + m.group(2) + '?v=' + _ver(m.group(2)) + m.group(3), html)
     html = re.sub(r'(<script src="/app\.js\?v=\w+")(?: data-pasados="\w+")?', lambda m: m.group(1) + ' data-pasados="%s"' % _ver('pasados.js'), html)
     return html
@@ -216,7 +216,7 @@ def event_ld(t):
           'eventStatus': 'https://schema.org/EventScheduled',
           'eventAttendanceMode': 'https://schema.org/OfflineEventAttendanceMode',
           'sport': 'Golf', 'location': loc, 'image': [BASE + '/og.png?v=2'],
-          'description': ' · '.join(x for x in [t.get('cat'), t.get('mod'), t.get('form'), t.get('club')] if x)}
+          'description': ' - '.join(x for x in [t.get('cat'), t.get('mod'), t.get('form'), t.get('club')] if x)}
     u = safe_url(t.get('url'))
     if u:
         ev['url'] = u
@@ -280,7 +280,7 @@ def tlink(t):
 
 def event_li(t, here=None):
     u = safe_url(t.get('url'))
-    meta = ' · '.join([club_link(t['club'], here)] * bool(t.get('club')) + [e(x) for x in [
+    meta = ' - '.join([club_link(t['club'], here)] * bool(t.get('club')) + [e(x) for x in [
         t.get('city') if t.get('city') and t.get('city') != t.get('club') else None, t.get('cat'), t.get('mod')] if x])
     when = fday(t['s']) + (' – ' + fday(t['e']) if t.get('e') and t['e'] != t['s'] else '')
     side = []
@@ -313,7 +313,7 @@ def faq(place):
     qs = [
         ('¿Cómo me inscribo en un torneo de golf en %s?' % place,
          'Cada torneo enlaza a su ficha oficial en la federación, el club o la plataforma de inscripción '
-         '(NextCaddy, Golf Directo y otras). La inscripción y el pago se hacen allí; Banderín solo te lleva a la página correcta.'),
+         '(NextCaddy, Golf Directo y otras). La inscripción y el pago se hacen allí, Banderín solo te lleva a la página correcta.'),
         ('¿Qué necesito para jugar un torneo?',
          'Normalmente, licencia federativa en vigor y hándicap. Algunos torneos sociales están abiertos a socios '
          'o tienen límites de hándicap, edad o categoría: lo indica la ficha de cada torneo.'),
@@ -460,7 +460,7 @@ def main():
         provs = [p for p in CCAA[c][1] if by_p.get((c, p))]
         cards.append('<li><a href="/%s/%s/"><b>%s</b><span>%s</span></a>%s</li>' % (
             HUB, ccaa_slug(c), e(c), plural(counts[c], 'torneo', 'torneos'),
-            ('<p>' + ' · '.join('<a href="/%s/%s/%s/">%s</a>' % (HUB, ccaa_slug(c), slug(p), e(p)) for p in provs) + '</p>') if provs else ''))
+            ('<p>' + ' - '.join('<a href="/%s/%s/%s/">%s</a>' % (HUB, ccaa_slug(c), slug(p), e(p)) for p in provs) + '</p>') if provs else ''))
     cr_html, cr_ld = crumbs([('Inicio', '/'), ('Torneos de golf por comunidad', '/%s/' % HUB)])
     title = 'Torneos de golf por comunidad y provincia | Banderín'
     desc = ('Elige comunidad o provincia y mira todos sus torneos de golf: %d en España, con fechas, precios e inscripción. '
@@ -483,7 +483,7 @@ def main():
         plinks = ['<a href="/%s/%s/%s/">%s <span>%d</span></a>' % (HUB, cs, slug(p), e(p), len(by_p.get((c, p), [])))
                   for p in provs if by_p.get((c, p))]
         n = len(ts)
-        title = 'Torneos de golf en %s · Calendario | Banderín' % short
+        title = 'Torneos de golf en %s - Calendario | Banderín' % short
         desc = ('Calendario de %s de golf en %s: fechas, clubes, precios e inscripción. Revisado cada mañana en federaciones y clubes.'
                 % (plural(n, 'torneo', 'torneos'), short)) if n else ('Torneos de golf en %s: calendario de federaciones y clubes, revisado cada mañana.' % short)
         page(path, title, desc, 'Torneos de golf en %s' % short, c, short, ts,
@@ -496,7 +496,7 @@ def main():
             sib = ['<a href="/%s/%s/%s/"%s>%s <span>%d</span></a>' % (HUB, cs, slug(q), ' aria-current="page"' if q == p else '', e(q),
                                                                      len(by_p.get((c, q), []))) for q in provs if by_p.get((c, q))]
             pn = len(pts)
-            title = 'Torneos de golf en %s · Calendario | Banderín' % p
+            title = 'Torneos de golf en %s - Calendario | Banderín' % p
             desc = ('Calendario de %s de golf en %s (%s): fechas, clubes, precios e inscripción, revisado cada mañana.'
                     % (plural(pn, 'torneo', 'torneos'), p, c)) if pn else ('Torneos de golf en %s (%s): calendario de federaciones y clubes, revisado cada mañana.' % (p, c))
             page(ppath, title, desc, 'Torneos de golf en %s' % p, c, p, pts,
@@ -539,7 +539,7 @@ def main():
                    plural(n, 'torneo', 'torneos'), nm, flong(ts[0]['s']), flong(ts[-1]['s']) + ' de %d' % d(ts[-1]['s']).year)),
               ('¿Cómo me inscribo en un torneo de %s?' % nm,
                'Cada torneo enlaza a su ficha oficial en el club, la federación o la plataforma de inscripción. La inscripción y el pago '
-               'se hacen allí; Banderín solo te lleva a la página correcta.'),
+               'se hacen allí, Banderín solo te lleva a la página correcta.'),
               ('¿Hace falta ser socio para jugar?',
                'Depende del torneo: algunos son abiertos y otros solo para socios. La ficha de cada uno lo indica, y ante la duda '
                'lo más seguro es preguntar al club.')]
@@ -563,10 +563,10 @@ def main():
         cs = CLUBS.get(slug(t.get('club') or ''))
         place = ', '.join(x for x in [t.get('city'), t.get('prov') if t.get('prov') != 'Por confirmar' else None] if x and x != t.get('club'))
         when = flong(t['s']) + (' al ' + flong(t['e']) if t.get('e') and t['e'] != t['s'] else '') + ' de %d' % d(t['s']).year
-        title = '%s · %s%s | Banderín' % (t['n'], when, ' · ' + t['club'] if t.get('club') else '')
+        title = '%s - %s%s | Banderín' % (t['n'], when, ' - ' + t['club'] if t.get('club') else '')
         parts = [x for x in [t.get('cat'), t.get('mod') if t.get('mod') != 'Sin indicar' else None] if x]
         desc = 'Torneo de golf%s el %s%s%s.%s Consulta fecha, precio e inscripción.' % (
-            ' ' + ' · '.join(parts).lower() if parts else '', when, ' en ' + t['club'] if t.get('club') else '', ' (%s)' % place if place else '',
+            ' ' + ' - '.join(parts).lower() if parts else '', when, ' en ' + t['club'] if t.get('club') else '', ' (%s)' % place if place else '',
             ' Inscripción: %s.' % eur(t['price']) if t.get('price') is not None else '')
         rows = [('Fecha', when), ('Club', None), ('Lugar', place), ('Categoría', t.get('cat')), ('Género', t.get('sex')),
                 ('Modalidad', t.get('mod') if t.get('mod') != 'Sin indicar' else None), ('Formato', t.get('form')), ('Recorrido', t.get('campo')),

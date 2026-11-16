@@ -3,7 +3,7 @@ VERSION:2.0
 PRODID:-//Banderin//Torneos de golf//ES
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:Banderín · Real Club de Campo Villa de Madrid
+X-WR-CALNAME:Banderín - Real Club de Campo Villa de Madrid
 X-WR-CALDESC:Torneos de golf: Real Club de Campo Villa de Madrid. Se actual
  iza cada mañana. https://banderin.es
 X-WR-TIMEZONE:Europe/Madrid
@@ -11,62 +11,62 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:83a76fc8775da3849e07@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:Asignacion HCP Noviembre
 LOCATION:Real Club de Campo Villa de Madrid\, Madrid\, Madrid
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 15 de noviembre\, cierra el 18 de noviembre.\nPrecio: 7 €.\nFicha ofi
- cial: https://www.golfdirecto.com/micro/game/6abe4923e8d6c57145e141c6/summ
- ary\nConfirma fechas y condiciones en la web del organizador. Vía Bander
- ín.
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  15 de noviembre\, cierra el 18 de noviembre.\nPrecio: 7 €.\nFicha ofici
+ al: https://www.golfdirecto.com/micro/game/6abe4923e8d6c57145e141c6/summar
+ y\nConfirma fechas y condiciones en la web del organizador. Vía Banderín
+ .
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6abe4923e8d6c57145e141c6/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:01da7f2be36e4d984c1f@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:Final Ranking Alevin/Benjamin
 LOCATION:Real Club de Campo Villa de Madrid\, Madrid\, Madrid
-DESCRIPTION:Juvenil · Stableford · Individual\nInscripción: abre el 15 d
- e noviembre\, cierra el 18 de noviembre.\nPrecio: 4 €.\nFicha oficial: h
- ttps://www.golfdirecto.com/micro/game/6abe49e6e8d6c57145250ac2/summary\nCo
- nfirma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Juvenil - Stableford - Individual\nInscripción: abre el 15 de 
+ noviembre\, cierra el 18 de noviembre.\nPrecio: 4 €.\nFicha oficial: htt
+ ps://www.golfdirecto.com/micro/game/6abe49e6e8d6c57145250ac2/summary\nConf
+ irma fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6abe49e6e8d6c57145250ac2/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:1457bf9d6b61f89cc957@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:Final Ranking Juvenil
 LOCATION:Real Club de Campo Villa de Madrid\, Madrid\, Madrid
-DESCRIPTION:Juvenil · Stableford · Individual\nInscripción: abre el 15 d
- e noviembre\, cierra el 18 de noviembre.\nPrecio: 7 €.\nFicha oficial: h
- ttps://www.golfdirecto.com/micro/game/6abe4c25e8d6c57145f7b6c7/summary\nCo
- nfirma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Juvenil - Stableford - Individual\nInscripción: abre el 15 de 
+ noviembre\, cierra el 18 de noviembre.\nPrecio: 7 €.\nFicha oficial: htt
+ ps://www.golfdirecto.com/micro/game/6abe4c25e8d6c57145f7b6c7/summary\nConf
+ irma fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6abe4c25e8d6c57145f7b6c7/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:619edc4123c7e0b626de@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:Prueba Pares 3 HCP No Nacional
 LOCATION:Real Club de Campo Villa de Madrid\, Madrid\, Madrid
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 15 de noviembre\, cierra el 18 de noviembre.\nPrecio: 7 €.\nFicha ofi
- cial: https://www.golfdirecto.com/micro/game/6abe4967e8d6c57145ffe348/summ
- ary\nConfirma fechas y condiciones en la web del organizador. Vía Bander
- ín.
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  15 de noviembre\, cierra el 18 de noviembre.\nPrecio: 7 €.\nFicha ofici
+ al: https://www.golfdirecto.com/micro/game/6abe4967e8d6c57145ffe348/summar
+ y\nConfirma fechas y condiciones en la web del organizador. Vía Banderín
+ .
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6abe4967e8d6c57145ffe348/summary

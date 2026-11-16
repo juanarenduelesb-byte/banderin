@@ -3,7 +3,7 @@ VERSION:2.0
 PRODID:-//Banderin//Torneos de golf//ES
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:Banderín · Ugolf Aravell Andorra
+X-WR-CALNAME:Banderín - Ugolf Aravell Andorra
 X-WR-CALDESC:Torneos de golf: Ugolf Aravell Andorra. Se actualiza cada mañ
  ana. https://banderin.es
 X-WR-TIMEZONE:Europe/Madrid
@@ -11,14 +11,14 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:1b6b67c006815226157d@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20270522
 DTEND;VALUE=DATE:20270524
 SUMMARY:Circuit Nacional 5a Categoria 2027 (Aravell)
 LOCATION:Ugolf Aravell Andorra\, Aravell\, Lleida
-DESCRIPTION:Absoluto · Individual\nFicha oficial: https://www.catgolf.com/
- es/campeonatos/circuit-nacional-5a-categoria-2027-aravell-2027-05-22\nConf
- irma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Absoluto - Individual\nFicha oficial: https://www.catgolf.com/e
+ s/campeonatos/circuit-nacional-5a-categoria-2027-aravell-2027-05-22\nConfi
+ rma fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.catgolf.com/es/campeonatos/circuit-nacional-5a-categoria-20

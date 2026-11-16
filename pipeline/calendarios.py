@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Banderín · calendarios suscribibles (.ics).
+"""Banderín - calendarios suscribibles (.ics).
 
 Genera, a partir de site/data.js, un calendario por provincia, por comunidad y
 por club con los torneos próximos:
@@ -52,7 +52,7 @@ def day(s):
 def event(t):
     end = (dt.date.fromisoformat(t.get('e') or t['s']) + dt.timedelta(days=1)).isoformat()
     url = seo.safe_url(t.get('url'))
-    desc = [' · '.join(x for x in [t.get('cat'), t.get('mod'), t.get('form')] if x and x != 'Sin indicar')]
+    desc = [' - '.join(x for x in [t.get('cat'), t.get('mod'), t.get('form')] if x and x != 'Sin indicar')]
     if t.get('op') or t.get('cl'):
         desc.append('Inscripción: ' + ', '.join(x for x in [
             ('abre el ' + seo.flong(t['op'])) if t.get('op') else '',
@@ -80,7 +80,7 @@ def event(t):
 
 def write(kind, name, ts, title):
     lines = ['BEGIN:VCALENDAR', 'VERSION:2.0', 'PRODID:-//Banderin//Torneos de golf//ES', 'CALSCALE:GREGORIAN',
-             'METHOD:PUBLISH', 'X-WR-CALNAME:' + esc('Banderín · ' + title),
+             'METHOD:PUBLISH', 'X-WR-CALNAME:' + esc('Banderín - ' + title),
              'X-WR-CALDESC:' + esc('Torneos de golf: %s. Se actualiza cada mañana. %s' % (title, seo.BASE)),
              'X-WR-TIMEZONE:Europe/Madrid', 'REFRESH-INTERVAL;VALUE=DURATION:PT12H', 'X-PUBLISHED-TTL:PT12H']
     for t in ts:

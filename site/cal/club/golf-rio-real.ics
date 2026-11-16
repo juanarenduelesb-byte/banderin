@@ -3,7 +3,7 @@ VERSION:2.0
 PRODID:-//Banderin//Torneos de golf//ES
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:Banderín · Golf Río Real
+X-WR-CALNAME:Banderín - Golf Río Real
 X-WR-CALDESC:Torneos de golf: Golf Río Real. Se actualiza cada mañana. ht
  tps://banderin.es
 X-WR-TIMEZONE:Europe/Madrid
@@ -11,30 +11,30 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:c610748c6d78961d6c40@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:Mejor ranking 2026
 LOCATION:Golf Río Real\, Marbella\, Málaga
-DESCRIPTION:Social de club · Medal Play · Individual\nInscripción: cierr
- a el 19 de noviembre.\nPrecio: 105 €.\nFicha oficial: https://www.golfdi
- recto.com/micro/game/6af5699fcb197af66b2348b4/summary\nConfirma fechas y c
- ondiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Medal Play - Individual\nInscripción: cierra 
+ el 19 de noviembre.\nPrecio: 105 €.\nFicha oficial: https://www.golfdire
+ cto.com/micro/game/6af5699fcb197af66b2348b4/summary\nConfirma fechas y con
+ diciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6af5699fcb197af66b2348b4/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:9a581f42d8194f4f9429@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:Campeonato Andalucía Femenino Categoría Mid Amateur
 LOCATION:Golf Río Real\, Marbella\, Málaga
-DESCRIPTION:Mid-Amateur · Medal Play · Individual\nInscripción: abre el 
- 13 de noviembre\, cierra el 7 de diciembre.\nPrecio: 100 €.\nFicha ofici
- al: https://www.nextcaddy.com/tour/61249\nConfirma fechas y condiciones en
-  la web del organizador. Vía Banderín.
+DESCRIPTION:Mid-Amateur - Medal Play - Individual\nInscripción: abre el 13
+  de noviembre\, cierra el 7 de diciembre.\nPrecio: 100 €.\nFicha oficial
+ : https://www.nextcaddy.com/tour/61249\nConfirma fechas y condiciones en l
+ a web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.nextcaddy.com/tour/61249

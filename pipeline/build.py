@@ -45,6 +45,8 @@ ACR = {'CV','FGCV','RFGA','RFGM','FGM','FVG','FCGOLF','FAG','FBG','FGPA','RFEG',
 SMALL = {'de','del','la','las','el','los','y','e','en','a','al','por','para','con','sin','i','d\'','les','els','o','da','do','dos','das'}
 def nice(name):
     name = html.unescape(re.sub(r'\s+', ' ', name or '')).strip()
+    name = re.sub(r'\s+[·—](?=\s|$)|[—]', ' -', name)  # el separador · o — de los clubes se muestra como guion (la l·l catalana se respeta)
+    name = re.sub(r'(?:\s+-)+\s*$', '', re.sub(r'\s+', ' ', name)).strip()
     name = re.sub(r'^(?:[A-Za-z]\.? ){3,}', '', name)
     name = re.sub(r'^inscripciones?\s+(?:para\s+[^/]+/\s*)?', '', name, flags=re.I).strip() or name
     letters = [c for c in name if c.isalpha()]
@@ -201,7 +203,7 @@ for o in NC.values():
          'cat': cat, 'sex': sex, 'mod': mod_from(o['mod_raw']), 'form': form, 'campo': campo, 'org': org,
          'price': min(prices) if prices else None, 'url': f'https://www.nextcaddy.com/tour/{o["id"]}', 'direct': True,
          'src': 'NextCaddy', 'via': fed or FEDNAME.get(o['list']) or 'Club', 'plazas': o.get('plazas'), 'll': ll}
-    if len(prices) > 1: t['priceNote'] = 'Desde ' + (f'{min(prices):.2f}'.rstrip('0').rstrip('.').replace('.', ',')) + ' €; hay ' + str(len(prices)) + ' tarifas'
+    if len(prices) > 1: t['priceNote'] = 'Desde ' + (f'{min(prices):.2f}'.rstrip('0').rstrip('.').replace('.', ',')) + ' €, hay ' + str(len(prices)) + ' tarifas'
     if o.get('op'): t['op'] = o['op']
     if o.get('cl'): t['cl'] = o['cl']
     if o.get('ins_email') and not o.get('op'): t['insNote'] = 'Inscripción por email'
@@ -346,7 +348,7 @@ for t in T:
 json.dump(GEO, open(GEO_P, 'w'), ensure_ascii=False)
 json.dump(kept, open(SCR + 'tournaments.json', 'w'), ensure_ascii=False)
 import collections
-print('total', len(T), 'tras duplicados', len(kept), '· no fusionados por ser distintos:', dict(SEPARADOS))
+print('total', len(T), 'tras duplicados', len(kept), '- no fusionados por ser distintos:', dict(SEPARADOS))
 print(collections.Counter(t['src'] for t in kept))
 print(collections.Counter(t['ccaa'] for t in kept).most_common())
 print('sin coordenadas', sum(1 for t in kept if not t.get('ll')), 'sin provincia', sum(1 for t in kept if not t.get('prov')))

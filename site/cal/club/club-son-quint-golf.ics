@@ -3,7 +3,7 @@ VERSION:2.0
 PRODID:-//Banderin//Torneos de golf//ES
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:Banderín · Club Son Quint Golf
+X-WR-CALNAME:Banderín - Club Son Quint Golf
 X-WR-CALDESC:Torneos de golf: Club Son Quint Golf. Se actualiza cada mañan
  a. https://banderin.es
 X-WR-TIMEZONE:Europe/Madrid
@@ -11,48 +11,48 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:7c0862dbda890bc41fd6@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 SUMMARY:1ª Prueba Circuito Otoño - 9 Hoyos - Palma Pitch & Putt 2026
 LOCATION:Club Son Quint Golf\, Palma de Mallorca\, Illes Balears
-DESCRIPTION:Circuito comercial · Stableford · Individual\nInscripción: a
- bre el 14 de octubre\, cierra el 19 de noviembre.\nPrecio: 18 €.\nFicha 
- oficial: https://www.golfdirecto.com/micro/game/6acf2a6943b4ac0d0c374d1a/s
- ummary\nConfirma fechas y condiciones en la web del organizador. Vía Band
- erín.
+DESCRIPTION:Circuito comercial - Stableford - Individual\nInscripción: abr
+ e el 14 de octubre\, cierra el 19 de noviembre.\nPrecio: 18 €.\nFicha of
+ icial: https://www.golfdirecto.com/micro/game/6acf2a6943b4ac0d0c374d1a/sum
+ mary\nConfirma fechas y condiciones en la web del organizador. Vía Bander
+ ín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6acf2a6943b4ac0d0c374d1a/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:722093ac052f90456831@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
 SUMMARY:2ª Prueba Circuito Otoño - 9 Hoyos - Palma Pitch & Putt 2026
 LOCATION:Club Son Quint Golf\, Palma de Mallorca\, Illes Balears
-DESCRIPTION:Circuito comercial · Stableford · Individual\nInscripción: a
- bre el 15 de noviembre\, cierra el 3 de diciembre.\nPrecio: 18 €.\nFicha
-  oficial: https://www.golfdirecto.com/micro/game/6af98e3e440203a820b6ee70/
- summary\nConfirma fechas y condiciones en la web del organizador. Vía Ban
- derín.
+DESCRIPTION:Circuito comercial - Stableford - Individual\nInscripción: abr
+ e el 15 de noviembre\, cierra el 3 de diciembre.\nPrecio: 18 €.\nFicha o
+ ficial: https://www.golfdirecto.com/micro/game/6af98e3e440203a820b6ee70/su
+ mmary\nConfirma fechas y condiciones en la web del organizador. Vía Bande
+ rín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6af98e3e440203a820b6ee70/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:c33e814e246311f7d788@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261211
 DTEND;VALUE=DATE:20261212
 SUMMARY:3ª Prueba Circuito Otoño - 9 Hoyos - Palma Pitch & Putt 2026
 LOCATION:Club Son Quint Golf\, Palma de Mallorca\, Illes Balears
-DESCRIPTION:Circuito comercial · Stableford · Individual\nInscripción: a
- bre el 15 de noviembre\, cierra el 10 de diciembre.\nPrecio: 18 €.\nFich
- a oficial: https://www.golfdirecto.com/micro/game/6af98ec890f777ff010e7390
- /summary\nConfirma fechas y condiciones en la web del organizador. Vía Ba
- nderín.
+DESCRIPTION:Circuito comercial - Stableford - Individual\nInscripción: abr
+ e el 15 de noviembre\, cierra el 10 de diciembre.\nPrecio: 18 €.\nFicha 
+ oficial: https://www.golfdirecto.com/micro/game/6af98ec890f777ff010e7390/s
+ ummary\nConfirma fechas y condiciones en la web del organizador. Vía Band
+ erín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6af98ec890f777ff010e7390/summary

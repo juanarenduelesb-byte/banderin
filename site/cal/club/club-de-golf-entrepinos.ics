@@ -3,7 +3,7 @@ VERSION:2.0
 PRODID:-//Banderin//Torneos de golf//ES
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:Banderín · Club de Golf Entrepinos
+X-WR-CALNAME:Banderín - Club de Golf Entrepinos
 X-WR-CALDESC:Torneos de golf: Club de Golf Entrepinos. Se actualiza cada ma
  ñana. https://banderin.es
 X-WR-TIMEZONE:Europe/Madrid
@@ -11,130 +11,130 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:5652a384a8fdf1d29aa1@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:XIV Torneo Solidario de Golf
 LOCATION:Club de Golf Entrepinos\, Simancas\, Valladolid
-DESCRIPTION:Benéfico · Greensome · Parejas\nInscripción: abre el 10 de 
- noviembre\, cierra el 19 de noviembre.\nFicha oficial: https://www.golfdir
- ecto.com/micro/game/6af2d15534e221597439becd/summary\nConfirma fechas y co
- ndiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Benéfico - Greensome - Parejas\nInscripción: abre el 10 de no
+ viembre\, cierra el 19 de noviembre.\nFicha oficial: https://www.golfdirec
+ to.com/micro/game/6af2d15534e221597439becd/summary\nConfirma fechas y cond
+ iciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6af2d15534e221597439becd/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:a6b72a4d7ded2afe0d7f@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Golf Getafe Series_4° Prueba
 LOCATION:Club de Golf Entrepinos\, Simancas\, Valladolid
-DESCRIPTION:Circuito comercial · Medal Play · Individual\nInscripción: a
- bre el 9 de noviembre\, cierra el 27 de noviembre.\nFicha oficial: https:/
- /www.golfdirecto.com/micro/game/6af1d3b93f87d1a99fddc326/summary\nConfirma
-  fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Circuito comercial - Medal Play - Individual\nInscripción: abr
+ e el 9 de noviembre\, cierra el 27 de noviembre.\nFicha oficial: https://w
+ ww.golfdirecto.com/micro/game/6af1d3b93f87d1a99fddc326/summary\nConfirma f
+ echas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6af1d3b93f87d1a99fddc326/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:81285e897893d3a51368@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:LIGA INFANTIL 18 hoyos -1ª jornada
 LOCATION:Club de Golf Entrepinos\, Simancas\, Valladolid
-DESCRIPTION:Juvenil · Stableford · Individual\nInscripción: abre el 11 d
- e noviembre\, cierra el 28 de noviembre.\nPrecio: 20 €.\nFicha oficial: 
- https://www.golfdirecto.com/micro/game/6af41f9340d1c05a5004eab0/summary\nC
- onfirma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Juvenil - Stableford - Individual\nInscripción: abre el 11 de 
+ noviembre\, cierra el 28 de noviembre.\nPrecio: 20 €.\nFicha oficial: ht
+ tps://www.golfdirecto.com/micro/game/6af41f9340d1c05a5004eab0/summary\nCon
+ firma fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6af41f9340d1c05a5004eab0/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:663abb22df9fd00e9068@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:LIGA INFANTIL 9 hoyos 1ª jornada
 LOCATION:Club de Golf Entrepinos\, Simancas\, Valladolid
-DESCRIPTION:Juvenil · Stableford · Individual\nInscripción: abre el 11 d
- e noviembre\, cierra el 28 de noviembre.\nPrecio: 18 €.\nFicha oficial: 
- https://www.golfdirecto.com/micro/game/6af42f8040d1c05a50bf85eb/summary\nC
- onfirma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Juvenil - Stableford - Individual\nInscripción: abre el 11 de 
+ noviembre\, cierra el 28 de noviembre.\nPrecio: 18 €.\nFicha oficial: ht
+ tps://www.golfdirecto.com/micro/game/6af42f8040d1c05a50bf85eb/summary\nCon
+ firma fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6af42f8040d1c05a50bf85eb/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:c1ceb82af4a4519da876@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
 SUMMARY:Torneo Navigolf
 LOCATION:Club de Golf Entrepinos\, Simancas\, Valladolid
-DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
- s://www.golfdirecto.com/micro/game/69652a90cb999c8d22c87777/summary\nConfi
- rma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/69652a90cb999c8d22c87777/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/69652a90cb999c8d22c87777/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:ee67dfc57d56bfdd8443@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261220
 DTEND;VALUE=DATE:20261221
 SUMMARY:LIGA INFANTIL 18 hoyos 2ª jornada
 LOCATION:Club de Golf Entrepinos\, Simancas\, Valladolid
-DESCRIPTION:Juvenil · Stableford · Individual\nFicha oficial: https://www
- .golfdirecto.com/micro/game/6af42d3440d1c05a506c99b1/summary\nConfirma fec
- has y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Juvenil - Stableford - Individual\nFicha oficial: https://www.g
+ olfdirecto.com/micro/game/6af42d3440d1c05a506c99b1/summary\nConfirma fecha
+ s y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6af42d3440d1c05a506c99b1/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:bd0f2451bf9c4da2e5a3@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261220
 DTEND;VALUE=DATE:20261221
 SUMMARY:LIGA INFANTIL 9 hoyos 2ª jornada
 LOCATION:Club de Golf Entrepinos\, Simancas\, Valladolid
-DESCRIPTION:Juvenil · Stableford · Individual\nFicha oficial: https://www
- .golfdirecto.com/micro/game/6af430db713f44da33ce746f/summary\nConfirma fec
- has y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Juvenil - Stableford - Individual\nFicha oficial: https://www.g
+ olfdirecto.com/micro/game/6af430db713f44da33ce746f/summary\nConfirma fecha
+ s y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6af430db713f44da33ce746f/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:2dbe98e0bd35bd637011@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20270131
 DTEND;VALUE=DATE:20270201
 SUMMARY:LIGA INFANTIL 18 hoyos 3ª jornada
 LOCATION:Club de Golf Entrepinos\, Simancas\, Valladolid
-DESCRIPTION:Juvenil · Stableford · Individual\nFicha oficial: https://www
- .golfdirecto.com/micro/game/6af42dac713f44da3366bebd/summary\nConfirma fec
- has y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Juvenil - Stableford - Individual\nFicha oficial: https://www.g
+ olfdirecto.com/micro/game/6af42dac713f44da3366bebd/summary\nConfirma fecha
+ s y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6af42dac713f44da3366bebd/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:e1a30b48ad7d39eba125@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20270131
 DTEND;VALUE=DATE:20270201
 SUMMARY:LIGA INFANTIL 9 hoyos 3ª jornada
 LOCATION:Club de Golf Entrepinos\, Simancas\, Valladolid
-DESCRIPTION:Juvenil · Stableford · Individual\nFicha oficial: https://www
- .golfdirecto.com/micro/game/6af4312b713f44da33d6ed15/summary\nConfirma fec
- has y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Juvenil - Stableford - Individual\nFicha oficial: https://www.g
+ olfdirecto.com/micro/game/6af4312b713f44da33d6ed15/summary\nConfirma fecha
+ s y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6af4312b713f44da33d6ed15/summary

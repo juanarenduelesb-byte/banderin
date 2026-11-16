@@ -3,7 +3,7 @@ VERSION:2.0
 PRODID:-//Banderin//Torneos de golf//ES
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:Banderín · Club de Golf Sant Cugat
+X-WR-CALNAME:Banderín - Club de Golf Sant Cugat
 X-WR-CALDESC:Torneos de golf: Club de Golf Sant Cugat. Se actualiza cada ma
  ñana. https://banderin.es
 X-WR-TIMEZONE:Europe/Madrid
@@ -11,14 +11,14 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:e01b751c6d41db3360df@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20270410
 DTEND;VALUE=DATE:20270412
 SUMMARY:II Puntuable Zonal Juvenil RFEG 2027
 LOCATION:Club de Golf Sant Cugat\, Sant Cugat del Valles\, Barcelona
-DESCRIPTION:Juvenil · Individual\nFicha oficial: https://www.catgolf.com/e
- s/campeonatos/ii-puntuable-zonal-juvenil-rfeg-2027-2027-04-10\nConfirma fe
- chas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Juvenil - Individual\nFicha oficial: https://www.catgolf.com/es
+ /campeonatos/ii-puntuable-zonal-juvenil-rfeg-2027-2027-04-10\nConfirma fec
+ has y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.catgolf.com/es/campeonatos/ii-puntuable-zonal-juvenil-rfeg-

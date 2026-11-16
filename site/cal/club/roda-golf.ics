@@ -3,7 +3,7 @@ VERSION:2.0
 PRODID:-//Banderin//Torneos de golf//ES
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:Banderín · Roda Golf
+X-WR-CALNAME:Banderín - Roda Golf
 X-WR-CALDESC:Torneos de golf: Roda Golf. Se actualiza cada mañana. https:/
  /banderin.es
 X-WR-TIMEZONE:Europe/Madrid
@@ -11,87 +11,87 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:b997349a6cc419db4bc8@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261117
 DTEND;VALUE=DATE:20261118
 SUMMARY:Society Fun day
 LOCATION:Roda Golf\, San Javier\, Murcia
-DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
- s://www.golfdirecto.com/micro/game/6ae1ddb847e356105ab4c5c9/summary\nConfi
- rma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/6ae1ddb847e356105ab4c5c9/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6ae1ddb847e356105ab4c5c9/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:0905e7574fb487ebb7cd@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261120
 SUMMARY:Society Federation
 LOCATION:Roda Golf\, San Javier\, Murcia
-DESCRIPTION:Absoluto · Stableford · Individual\nFicha oficial: https://ww
- w.golfdirecto.com/micro/game/6ae1e3af47e356105ae5f455/summary\nConfirma fe
- chas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Absoluto - Stableford - Individual\nFicha oficial: https://www.
+ golfdirecto.com/micro/game/6ae1e3af47e356105ae5f455/summary\nConfirma fech
+ as y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6ae1e3af47e356105ae5f455/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:ff7a48435618b768e4c8@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261124
 DTEND;VALUE=DATE:20261125
 SUMMARY:Society Federation
 LOCATION:Roda Golf\, San Javier\, Murcia
-DESCRIPTION:Absoluto · Stableford · Individual\nFicha oficial: https://ww
- w.golfdirecto.com/micro/game/6ae1e43647e356105a1f82ae/summary\nConfirma fe
- chas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Absoluto - Stableford - Individual\nFicha oficial: https://www.
+ golfdirecto.com/micro/game/6ae1e43647e356105a1f82ae/summary\nConfirma fech
+ as y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6ae1e43647e356105a1f82ae/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:02e37e689b65c88df02d@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
 SUMMARY:Society Federation
 LOCATION:Roda Golf\, San Javier\, Murcia
-DESCRIPTION:Absoluto · Stableford · Individual\nFicha oficial: https://ww
- w.golfdirecto.com/micro/game/6ae1e4a847e356105a4d05e6/summary\nConfirma fe
- chas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Absoluto - Stableford - Individual\nFicha oficial: https://www.
+ golfdirecto.com/micro/game/6ae1e4a847e356105a4d05e6/summary\nConfirma fech
+ as y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6ae1e4a847e356105a4d05e6/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:35f138d70f54d80d9996@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261202
 SUMMARY:Rencontre AGFCB 29- Roda Golf - Mardi 01 décembre - 60€ / 70€ 
  + PAF 5€ - 24 places disponibles - 7 buggies -PROCESABLE
 LOCATION:Roda Golf\, San Javier\, Murcia
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 7 de septiembre\, cierra el 29 de noviembre.\nFicha oficial: https://ww
- w.golfdirecto.com/micro/game/6a9ef631b9cdc384ebc94563/summary\nConfirma fe
- chas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  7 de septiembre\, cierra el 29 de noviembre.\nFicha oficial: https://www.
+ golfdirecto.com/micro/game/6a9ef631b9cdc384ebc94563/summary\nConfirma fech
+ as y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6a9ef631b9cdc384ebc94563/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:5068bdc9954ef9c025e4@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:X Torneo Navideño "El Décimo" - Roda Golf
 LOCATION:Roda Golf\, San Javier\, Murcia
-DESCRIPTION:Social de club · Fourball · Parejas\nInscripción: abre el 20
-  de octubre\, cierra el 9 de diciembre.\nPrecio: 65 €.\nFicha oficial: h
- ttps://www.golfdirecto.com/micro/game/6ac37f39f8fce057b32463e4/summary\nCo
- nfirma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Fourball - Parejas\nInscripción: abre el 20 d
+ e octubre\, cierra el 9 de diciembre.\nPrecio: 65 €.\nFicha oficial: htt
+ ps://www.golfdirecto.com/micro/game/6ac37f39f8fce057b32463e4/summary\nConf
+ irma fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6ac37f39f8fce057b32463e4/summary

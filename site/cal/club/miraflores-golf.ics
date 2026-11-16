@@ -3,7 +3,7 @@ VERSION:2.0
 PRODID:-//Banderin//Torneos de golf//ES
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:Banderín · Miraflores Golf
+X-WR-CALNAME:Banderín - Miraflores Golf
 X-WR-CALDESC:Torneos de golf: Miraflores Golf. Se actualiza cada mañana. h
  ttps://banderin.es
 X-WR-TIMEZONE:Europe/Madrid
@@ -11,59 +11,59 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:8b4fb03ab60acdeaf156@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261117
 DTEND;VALUE=DATE:20261118
 SUMMARY:Mensday1711
 LOCATION:Miraflores Golf\, Mijas Costa\, Málaga
-DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
- s://www.nextcaddy.com/tour/75396\nConfirma fechas y condiciones en la web 
- del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.nextcaddy.com/tour/75396\nConfirma fechas y condiciones en la web de
+ l organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.nextcaddy.com/tour/75396
 END:VEVENT
 BEGIN:VEVENT
 UID:acfa7ac0fde4377481a6@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261118
 DTEND;VALUE=DATE:20261119
 SUMMARY:Miraflores Members Ladies Day - Shambles
 LOCATION:Miraflores Golf\, Mijas Costa\, Málaga
-DESCRIPTION:Social de club · Fourball · Parejas\nInscripción: abre el 6 
- de noviembre\, cierra el 15 de noviembre.\nFicha oficial: https://www.golf
- directo.com/micro/game/6aedc22e1ab4f21da63a83b4/summary\nConfirma fechas y
-  condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Fourball - Parejas\nInscripción: abre el 6 de
+  noviembre\, cierra el 15 de noviembre.\nFicha oficial: https://www.golfdi
+ recto.com/micro/game/6aedc22e1ab4f21da63a83b4/summary\nConfirma fechas y c
+ ondiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6aedc22e1ab4f21da63a83b4/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:47a21108e636d8d20a6d@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:Presidents Putter Board Competition (Medal)
 LOCATION:Miraflores Golf\, Mijas Costa\, Málaga
-DESCRIPTION:Social de club · Medal Play · Individual\nInscripción: abre 
- el 6 de noviembre\, cierra el 18 de noviembre.\nFicha oficial: https://www
- .golfdirecto.com/micro/game/6aedf32f1ab4f21da641a12a/summary\nConfirma fec
- has y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Medal Play - Individual\nInscripción: abre el
+  6 de noviembre\, cierra el 18 de noviembre.\nFicha oficial: https://www.g
+ olfdirecto.com/micro/game/6aedf32f1ab4f21da641a12a/summary\nConfirma fecha
+ s y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6aedf32f1ab4f21da641a12a/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:e94c8e46f4a5c87deeab@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:Ladies Individual Stableford Qualifier
 LOCATION:Miraflores Golf\, Mijas Costa\, Málaga
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 6 de noviembre\, cierra el 6 de noviembre.\nFicha oficial: https://www.
- golfdirecto.com/micro/game/6aedc0f602e839445a7f26ef/summary\nConfirma fech
- as y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  6 de noviembre\, cierra el 6 de noviembre.\nFicha oficial: https://www.go
+ lfdirecto.com/micro/game/6aedc0f602e839445a7f26ef/summary\nConfirma fechas
+  y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6aedc0f602e839445a7f26ef/summary

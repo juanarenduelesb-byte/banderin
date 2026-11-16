@@ -3,7 +3,7 @@ VERSION:2.0
 PRODID:-//Banderin//Torneos de golf//ES
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:Banderín · Isla Canela Old Course
+X-WR-CALNAME:Banderín - Isla Canela Old Course
 X-WR-CALDESC:Torneos de golf: Isla Canela Old Course. Se actualiza cada ma
  ñana. https://banderin.es
 X-WR-TIMEZONE:Europe/Madrid
@@ -11,29 +11,29 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:4dfbbaa5a8b598fc81c7@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:10ª Jornada Camaleón Golf 26/27
 LOCATION:Isla Canela Old Course\, Ayamonte\, Huelva
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 15 de noviembre\, cierra el 20 de noviembre.\nFicha oficial: https://ww
- w.golfdirecto.com/micro/game/6af3b1246aacb155d8364c04/summary\nConfirma fe
- chas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  15 de noviembre\, cierra el 20 de noviembre.\nFicha oficial: https://www.
+ golfdirecto.com/micro/game/6af3b1246aacb155d8364c04/summary\nConfirma fech
+ as y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6af3b1246aacb155d8364c04/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:02ffc9808b42c2b6a74b@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:11ª Jornada Camaleón Golf 26/27
 LOCATION:Isla Canela Old Course\, Ayamonte\, Huelva
-DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
- s://www.golfdirecto.com/micro/game/6afa0acc5445bc102935b69b/summary\nConfi
- rma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/6afa0acc5445bc102935b69b/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6afa0acc5445bc102935b69b/summary

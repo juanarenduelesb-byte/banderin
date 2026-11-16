@@ -3,7 +3,7 @@ VERSION:2.0
 PRODID:-//Banderin//Torneos de golf//ES
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:Banderín · Cantabria
+X-WR-CALNAME:Banderín - Cantabria
 X-WR-CALDESC:Torneos de golf: Cantabria. Se actualiza cada mañana. https:/
  /banderin.es
 X-WR-TIMEZONE:Europe/Madrid
@@ -11,64 +11,64 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:f79fc73df9c70fac5ec8@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Triangular Santa Marina Solo Socios (Copia)
 LOCATION:Club de Golf Santa Marina\, Revilla\, la (san Vicente de la Barque
  ra)\, Cantabria
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 4 de septiembre\, cierra el 26 de noviembre.\nFicha oficial: https://ww
- w.golfdirecto.com/micro/game/6a9a63dd5898bfbfbf5a6e01/summary\nConfirma fe
- chas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  4 de septiembre\, cierra el 26 de noviembre.\nFicha oficial: https://www.
+ golfdirecto.com/micro/game/6a9a63dd5898bfbfbf5a6e01/summary\nConfirma fech
+ as y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6a9a63dd5898bfbfbf5a6e01/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:5942034fdc7468c8787a@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261228
 DTEND;VALUE=DATE:20261229
 SUMMARY:Copa Navidad-Torneo Empleados
 LOCATION:Club de Golf Santa Marina\, Revilla\, la (san Vicente de la Barque
  ra)\, Cantabria
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 4 de noviembre\, cierra el 26 de diciembre.\nFicha oficial: https://www
- .golfdirecto.com/micro/game/6aeae4363539d98a46a653bf/summary\nConfirma fec
- has y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  4 de noviembre\, cierra el 26 de diciembre.\nFicha oficial: https://www.g
+ olfdirecto.com/micro/game/6aeae4363539d98a46a653bf/summary\nConfirma fecha
+ s y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6aeae4363539d98a46a653bf/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:65fcb1cedc857959ad90@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261231
 DTEND;VALUE=DATE:20270101
 SUMMARY:Torneo de Navidad-Abaceria de la Sal (Social)
 LOCATION:Club de Golf Santa Marina\, Revilla\, la (san Vicente de la Barque
  ra)\, Cantabria
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 24 de agosto\, cierra el 29 de diciembre.\nFicha oficial: https://www.g
- olfdirecto.com/micro/game/6a8c28c06aceba7d06d56fac/summary\nConfirma fecha
- s y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  24 de agosto\, cierra el 29 de diciembre.\nFicha oficial: https://www.gol
+ fdirecto.com/micro/game/6a8c28c06aceba7d06d56fac/summary\nConfirma fechas 
+ y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6a8c28c06aceba7d06d56fac/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:98e6f3872b48d1c71a17@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20270109
 DTEND;VALUE=DATE:20270110
 SUMMARY:Torneo de Reyes-Confiteria Blanco
 LOCATION:Club de Golf Santa Marina\, Revilla\, la (san Vicente de la Barque
  ra)\, Cantabria
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 28 de octubre\, cierra el 6 de enero.\nFicha oficial: https://www.golfd
- irecto.com/micro/game/6ae1a8d1edb548bf364cf786/summary\nConfirma fechas y 
- condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  28 de octubre\, cierra el 6 de enero.\nFicha oficial: https://www.golfdir
+ ecto.com/micro/game/6ae1a8d1edb548bf364cf786/summary\nConfirma fechas y co
+ ndiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6ae1a8d1edb548bf364cf786/summary

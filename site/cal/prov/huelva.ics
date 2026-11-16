@@ -3,7 +3,7 @@ VERSION:2.0
 PRODID:-//Banderin//Torneos de golf//ES
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:Banderín · Huelva
+X-WR-CALNAME:Banderín - Huelva
 X-WR-CALDESC:Torneos de golf: Huelva. Se actualiza cada mañana. https://ba
  nderin.es
 X-WR-TIMEZONE:Europe/Madrid
@@ -11,146 +11,146 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:f329af1b690737070c48@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261118
 DTEND;VALUE=DATE:20261121
 SUMMARY:Islantilla Open 2026
 LOCATION:Islantilla Golf Resort\, Isla Cristina\, Huelva
-DESCRIPTION:Profesional · Medal Play · Individual\nFicha oficial: https:/
- /rfegolf.es/competicion/islantilla-open-2026\nConfirma fechas y condicione
- s en la web del organizador. Vía Banderín.
+DESCRIPTION:Profesional - Medal Play - Individual\nFicha oficial: https://r
+ fegolf.es/competicion/islantilla-open-2026\nConfirma fechas y condiciones 
+ en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://rfegolf.es/competicion/islantilla-open-2026
 END:VEVENT
 BEGIN:VEVENT
 UID:70eb1c1219096d065dd0@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261118
 DTEND;VALUE=DATE:20261119
 SUMMARY:Torneo Solheim Cup
 LOCATION:Club de Golf Bellavista\, Aljaraque\, Huelva
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 16 de noviembre\, cierra el 16 de noviembre.\nPrecio: Gratis.\nFicha of
- icial: https://www.nextcaddy.com/tour/75395\nConfirma fechas y condiciones
-  en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  16 de noviembre\, cierra el 16 de noviembre.\nPrecio: Gratis.\nFicha ofic
+ ial: https://www.nextcaddy.com/tour/75395\nConfirma fechas y condiciones e
+ n la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.nextcaddy.com/tour/75395
 END:VEVENT
 BEGIN:VEVENT
 UID:afd00f93a1841dbf2092@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:4ª Jornada Lpgh XXVI Edición (Monacilla-Dunas)
 LOCATION:La Monacilla Golf Club\, Corrales\, Huelva
-DESCRIPTION:Social de club · Fourball · Parejas\nInscripción: abre el 15
-  de noviembre\, cierra el 19 de noviembre.\nFicha oficial: https://www.gol
- fdirecto.com/micro/game/6af76d023f2ad705e4c1ae4e/summary\nConfirma fechas 
- y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Fourball - Parejas\nInscripción: abre el 15 d
+ e noviembre\, cierra el 19 de noviembre.\nFicha oficial: https://www.golfd
+ irecto.com/micro/game/6af76d023f2ad705e4c1ae4e/summary\nConfirma fechas y 
+ condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6af76d023f2ad705e4c1ae4e/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:4dfbbaa5a8b598fc81c7@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:10ª Jornada Camaleón Golf 26/27
 LOCATION:Isla Canela Old Course\, Ayamonte\, Huelva
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 15 de noviembre\, cierra el 20 de noviembre.\nFicha oficial: https://ww
- w.golfdirecto.com/micro/game/6af3b1246aacb155d8364c04/summary\nConfirma fe
- chas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  15 de noviembre\, cierra el 20 de noviembre.\nFicha oficial: https://www.
+ golfdirecto.com/micro/game/6af3b1246aacb155d8364c04/summary\nConfirma fech
+ as y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6af3b1246aacb155d8364c04/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:2ea1017385ddce147a0a@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:1ª Jornada Lpgh XXVI Edición (Portil/Monacilla)
 LOCATION:Golf Nuevo Portil\, El Portil\, Huelva
-DESCRIPTION:Social de club · Fourball · Parejas\nInscripción: abre el 15
-  de noviembre\, cierra el 20 de noviembre.\nFicha oficial: https://www.gol
- fdirecto.com/micro/game/6aad78d9371000592dadc325/summary\nConfirma fechas 
- y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Fourball - Parejas\nInscripción: abre el 15 d
+ e noviembre\, cierra el 20 de noviembre.\nFicha oficial: https://www.golfd
+ irecto.com/micro/game/6aad78d9371000592dadc325/summary\nConfirma fechas y 
+ condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6aad78d9371000592dadc325/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:79ddf4771f5e858a1f70@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:4ª Jornada Lpgh XXVI Edición (Bellavista-Old Course)
 LOCATION:Club de Golf Bellavista\, Aljaraque\, Huelva
-DESCRIPTION:Social de club · Fourball · Parejas\nInscripción: abre el 16
-  de noviembre\, cierra el 20 de noviembre.\nFicha oficial: https://www.gol
- fdirecto.com/micro/game/6af76c51aef92489910a3740/summary\nConfirma fechas 
- y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Fourball - Parejas\nInscripción: abre el 16 d
+ e noviembre\, cierra el 20 de noviembre.\nFicha oficial: https://www.golfd
+ irecto.com/micro/game/6af76c51aef92489910a3740/summary\nConfirma fechas y 
+ condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6af76c51aef92489910a3740/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:3ab97c254fc286dddedd@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:4ª Jornada Lpgh XXVI Edición (Links-Islantilla)
 LOCATION:Isla Canela Links\, Ayamonte\, Huelva
-DESCRIPTION:Social de club · Fourball · Parejas\nInscripción: abre el 15
-  de noviembre\, cierra el 20 de noviembre.\nFicha oficial: https://www.gol
- fdirecto.com/micro/game/6af76badaef9248991f367cd/summary\nConfirma fechas 
- y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Fourball - Parejas\nInscripción: abre el 15 d
+ e noviembre\, cierra el 20 de noviembre.\nFicha oficial: https://www.golfd
+ irecto.com/micro/game/6af76badaef9248991f367cd/summary\nConfirma fechas y 
+ condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6af76badaef9248991f367cd/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:8355281cafa9960bd57b@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:IV Torneo Jesus Castizo
 LOCATION:la Monacilla Golf Club\, Corrales\, Huelva
-DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
- s://www.nextcaddy.com/tour/74751\nConfirma fechas y condiciones en la web 
- del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.nextcaddy.com/tour/74751\nConfirma fechas y condiciones en la web de
+ l organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.nextcaddy.com/tour/74751
 END:VEVENT
 BEGIN:VEVENT
 UID:02ffc9808b42c2b6a74b@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:11ª Jornada Camaleón Golf 26/27
 LOCATION:Isla Canela Old Course\, Ayamonte\, Huelva
-DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
- s://www.golfdirecto.com/micro/game/6afa0acc5445bc102935b69b/summary\nConfi
- rma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/6afa0acc5445bc102935b69b/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6afa0acc5445bc102935b69b/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:6cff6b2c0221ac68e875@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
 SUMMARY:Final Circuito Senior
 LOCATION:Club de Golf Bellavista\, Aljaraque\, Huelva
-DESCRIPTION:Senior · Stableford · Individual\nFicha oficial: https://www.
- nextcaddy.com/tour/61254\nConfirma fechas y condiciones en la web del orga
- nizador. Vía Banderín.
+DESCRIPTION:Senior - Stableford - Individual\nFicha oficial: https://www.ne
+ xtcaddy.com/tour/61254\nConfirma fechas y condiciones en la web del organi
+ zador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.nextcaddy.com/tour/61254

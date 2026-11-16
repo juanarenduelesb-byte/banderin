@@ -3,7 +3,7 @@ VERSION:2.0
 PRODID:-//Banderin//Torneos de golf//ES
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:Banderín · Club la Valmuza Golf Salamanca
+X-WR-CALNAME:Banderín - Club la Valmuza Golf Salamanca
 X-WR-CALDESC:Torneos de golf: Club la Valmuza Golf Salamanca. Se actualiza 
  cada mañana. https://banderin.es
 X-WR-TIMEZONE:Europe/Madrid
@@ -11,32 +11,32 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:53d7335971682983371c@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:V Campeonato de Navidad Padres e Hijos de Castilla y León (9 Hoyos
  )
 LOCATION:Club la Valmuza Golf Salamanca\, Doñinos de Salamanca\, Salamanca
-DESCRIPTION:Juvenil · Stableford · Individual\nInscripción: abre el 23 d
- e noviembre\, cierra el 8 de diciembre.\nPrecio: 24 €.\nFicha oficial: h
- ttps://www.nextcaddy.com/tour/68072\nConfirma fechas y condiciones en la w
- eb del organizador. Vía Banderín.
+DESCRIPTION:Juvenil - Stableford - Individual\nInscripción: abre el 23 de 
+ noviembre\, cierra el 8 de diciembre.\nPrecio: 24 €.\nFicha oficial: htt
+ ps://www.nextcaddy.com/tour/68072\nConfirma fechas y condiciones en la web
+  del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.nextcaddy.com/tour/68072
 END:VEVENT
 BEGIN:VEVENT
 UID:eae6f75e29a3f4e3f4f1@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:VII Campeonato de Navidad Padres e Hijos de Castilla y León (18 Ho
  yos)
 LOCATION:Club la Valmuza Golf Salamanca\, Doñinos de Salamanca\, Salamanca
-DESCRIPTION:Juvenil · Stableford · Individual\nInscripción: abre el 23 d
- e noviembre\, cierra el 8 de diciembre.\nPrecio: 23 €.\nFicha oficial: h
- ttps://www.nextcaddy.com/tour/68071\nConfirma fechas y condiciones en la w
- eb del organizador. Vía Banderín.
+DESCRIPTION:Juvenil - Stableford - Individual\nInscripción: abre el 23 de 
+ noviembre\, cierra el 8 de diciembre.\nPrecio: 23 €.\nFicha oficial: htt
+ ps://www.nextcaddy.com/tour/68071\nConfirma fechas y condiciones en la web
+  del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.nextcaddy.com/tour/68071

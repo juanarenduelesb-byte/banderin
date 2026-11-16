@@ -3,7 +3,7 @@ VERSION:2.0
 PRODID:-//Banderin//Torneos de golf//ES
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:Banderín · Real Club de Golf Guadalmina
+X-WR-CALNAME:Banderín - Real Club de Golf Guadalmina
 X-WR-CALDESC:Torneos de golf: Real Club de Golf Guadalmina. Se actualiza ca
  da mañana. https://banderin.es
 X-WR-TIMEZONE:Europe/Madrid
@@ -11,105 +11,105 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:1fd0267d7c4a6bd919d3@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261116
 DTEND;VALUE=DATE:20261117
 SUMMARY:Holandeses Sur 16.11.26
 LOCATION:Real Club de Golf Guadalmina\, Guadalmina\, Málaga
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 14 de noviembre\, cierra el 14 de noviembre.\nPrecio: Gratis.\nFicha of
- icial: https://www.nextcaddy.com/tour/75357\nConfirma fechas y condiciones
-  en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  14 de noviembre\, cierra el 14 de noviembre.\nPrecio: Gratis.\nFicha ofic
+ ial: https://www.nextcaddy.com/tour/75357\nConfirma fechas y condiciones e
+ n la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.nextcaddy.com/tour/75357
 END:VEVENT
 BEGIN:VEVENT
 UID:f676e1d392193e870269@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261117
 DTEND;VALUE=DATE:20261118
 SUMMARY:Señoras 4 Bbb Lady Captain Shotgun Norte
 LOCATION:Real Club de Golf Guadalmina\, Guadalmina\, Málaga
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 16 de noviembre\, cierra el 16 de noviembre.\nPrecio: Gratis.\nFicha of
- icial: https://www.nextcaddy.com/tour/75391\nConfirma fechas y condiciones
-  en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  16 de noviembre\, cierra el 16 de noviembre.\nPrecio: Gratis.\nFicha ofic
+ ial: https://www.nextcaddy.com/tour/75391\nConfirma fechas y condiciones e
+ n la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.nextcaddy.com/tour/75391
 END:VEVENT
 BEGIN:VEVENT
 UID:68b5cd1385180940d8dc@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261118
 DTEND;VALUE=DATE:20261119
 SUMMARY:Nordicos Miercoles Norte
 LOCATION:Real Club de Golf Guadalmina\, Guadalmina\, Málaga
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 16 de noviembre\, cierra el 16 de noviembre.\nPrecio: Gratis.\nFicha of
- icial: https://www.nextcaddy.com/tour/75404\nConfirma fechas y condiciones
-  en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  16 de noviembre\, cierra el 16 de noviembre.\nPrecio: Gratis.\nFicha ofic
+ ial: https://www.nextcaddy.com/tour/75404\nConfirma fechas y condiciones e
+ n la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.nextcaddy.com/tour/75404
 END:VEVENT
 BEGIN:VEVENT
 UID:3f3dee7b25c9fcb3c930@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261118
 DTEND;VALUE=DATE:20261119
 SUMMARY:Suecos Miercoles Sur 18.11
 LOCATION:Real Club de Golf Guadalmina\, Guadalmina\, Málaga
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 15 de noviembre\, cierra el 15 de noviembre.\nPrecio: Gratis.\nFicha of
- icial: https://www.nextcaddy.com/tour/75368\nConfirma fechas y condiciones
-  en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  15 de noviembre\, cierra el 15 de noviembre.\nPrecio: Gratis.\nFicha ofic
+ ial: https://www.nextcaddy.com/tour/75368\nConfirma fechas y condiciones e
+ n la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.nextcaddy.com/tour/75368
 END:VEVENT
 BEGIN:VEVENT
 UID:bb96d574952c2c09dcb2@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:Circuito Benjamín Zona C
 LOCATION:Real Club de Golf Guadalmina\, Guadalmina\, Málaga
-DESCRIPTION:Juvenil · Medal Play · Individual\nInscripción: abre el 9 de
-  octubre\, cierra el 16 de noviembre.\nFicha oficial: https://www.nextcadd
- y.com/tour/61232\nConfirma fechas y condiciones en la web del organizador.
-  Vía Banderín.
+DESCRIPTION:Juvenil - Medal Play - Individual\nInscripción: abre el 9 de o
+ ctubre\, cierra el 16 de noviembre.\nFicha oficial: https://www.nextcaddy.
+ com/tour/61232\nConfirma fechas y condiciones en la web del organizador. V
+ ía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.nextcaddy.com/tour/61232
 END:VEVENT
 BEGIN:VEVENT
 UID:1bd9f3f36ec88adfc228@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:Circuito Juvenil Zona C
 LOCATION:Real Club de Golf Guadalmina\, Guadalmina\, Málaga
-DESCRIPTION:Juvenil · Medal Play · Individual\nInscripción: abre el 9 de
-  octubre\, cierra el 16 de noviembre.\nFicha oficial: https://www.nextcadd
- y.com/tour/61233\nConfirma fechas y condiciones en la web del organizador.
-  Vía Banderín.
+DESCRIPTION:Juvenil - Medal Play - Individual\nInscripción: abre el 9 de o
+ ctubre\, cierra el 16 de noviembre.\nFicha oficial: https://www.nextcaddy.
+ com/tour/61233\nConfirma fechas y condiciones en la web del organizador. V
+ ía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.nextcaddy.com/tour/61233
 END:VEVENT
 BEGIN:VEVENT
 UID:ba864d429521bd6c79b7@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261231
 DTEND;VALUE=DATE:20270101
 SUMMARY:Ranking Escuela 2026
 LOCATION:Real Club de Golf Guadalmina\, Guadalmina\, Málaga
-DESCRIPTION:Juvenil · Stableford · Individual\nInscripción: abre el 31 d
- e diciembre\, cierra el 30 de diciembre.\nPrecio: Gratis.\nFicha oficial: 
- https://www.nextcaddy.com/tour/68574\nConfirma fechas y condiciones en la 
- web del organizador. Vía Banderín.
+DESCRIPTION:Juvenil - Stableford - Individual\nInscripción: abre el 31 de 
+ diciembre\, cierra el 30 de diciembre.\nPrecio: Gratis.\nFicha oficial: ht
+ tps://www.nextcaddy.com/tour/68574\nConfirma fechas y condiciones en la we
+ b del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.nextcaddy.com/tour/68574

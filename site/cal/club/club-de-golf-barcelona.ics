@@ -3,7 +3,7 @@ VERSION:2.0
 PRODID:-//Banderin//Torneos de golf//ES
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:Banderín · Club de Golf Barcelona
+X-WR-CALNAME:Banderín - Club de Golf Barcelona
 X-WR-CALDESC:Torneos de golf: Club de Golf Barcelona. Se actualiza cada ma
  ñana. https://banderin.es
 X-WR-TIMEZONE:Europe/Madrid
@@ -11,152 +11,151 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:9b1732c446fca7732eaa@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261116
 DTEND;VALUE=DATE:20261117
 SUMMARY:Torneig Green Monday By Oak Restautante
 LOCATION:Club de Golf Barcelona\, Sant Esteve Sesrovires\, Barcelona
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 10 de noviembre\, cierra el 15 de noviembre.\nPrecio: 52 €.\nFicha of
- icial: https://www.golfdirecto.com/micro/game/6965b85d7205a3564d30c036/sum
- mary\nConfirma fechas y condiciones en la web del organizador. Vía Bander
- ín.
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  10 de noviembre\, cierra el 15 de noviembre.\nPrecio: 52 €.\nFicha ofic
+ ial: https://www.golfdirecto.com/micro/game/6965b85d7205a3564d30c036/summa
+ ry\nConfirma fechas y condiciones en la web del organizador. Vía Banderí
+ n.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6965b85d7205a3564d30c036/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:8028c9363328db696b7b@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 SUMMARY:Barcelona International Golf Cup -Wagr
 LOCATION:Club de Golf Barcelona\, Sant Esteve Sesrovires\, Barcelona
-DESCRIPTION:Social de club · Medal Play · Individual\nInscripción: abre 
- el 19 de octubre\, cierra el 17 de noviembre.\nPrecio: 125 €.\nFicha ofi
- cial: https://www.golfdirecto.com/micro/game/69f1d2b85435bb536ec66ce3/summ
- ary\nConfirma fechas y condiciones en la web del organizador. Vía Bander
- ín.
+DESCRIPTION:Social de club - Medal Play - Individual\nInscripción: abre el
+  19 de octubre\, cierra el 17 de noviembre.\nPrecio: 125 €.\nFicha ofici
+ al: https://www.golfdirecto.com/micro/game/69f1d2b85435bb536ec66ce3/summar
+ y\nConfirma fechas y condiciones en la web del organizador. Vía Banderín
+ .
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/69f1d2b85435bb536ec66ce3/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:aa176ae2d19e99a4c4e0@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:Barcelona International Golf Cup -Wagr
 LOCATION:Club de Golf Barcelona\, Sant Esteve Sesrovires\, Barcelona
-DESCRIPTION:Social de club · Medal Play · Individual\nFicha oficial: http
- s://www.golfdirecto.com/micro/game/69f1d2f65435bb536ed70809/summary\nConfi
- rma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Medal Play - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/69f1d2f65435bb536ed70809/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/69f1d2f65435bb536ed70809/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:87c8d4817448ed866bb5@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:Barcelona International Golf Cup -Wagr
 LOCATION:Club de Golf Barcelona\, Sant Esteve Sesrovires\, Barcelona
-DESCRIPTION:Social de club · Medal Play · Individual\nFicha oficial: http
- s://www.golfdirecto.com/micro/game/69f1d31c5435bb536eddb644/summary\nConfi
- rma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Medal Play - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/69f1d31c5435bb536eddb644/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/69f1d31c5435bb536eddb644/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:c18d28fb5665b55956a6@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:V Circuito Executive 5ª Categoria Final
 LOCATION:Club de Golf Barcelona\, Sant Esteve Sesrovires\, Barcelona
-DESCRIPTION:Circuito comercial · Stableford · Individual\nInscripción: a
- bre el 26 de octubre\, cierra el 27 de noviembre.\nPrecio: 20 €.\nFicha 
- oficial: https://www.golfdirecto.com/micro/game/69524a80801d0bfc6167505f/s
- ummary\nConfirma fechas y condiciones en la web del organizador. Vía Band
- erín.
+DESCRIPTION:Circuito comercial - Stableford - Individual\nInscripción: abr
+ e el 26 de octubre\, cierra el 27 de noviembre.\nPrecio: 20 €.\nFicha of
+ icial: https://www.golfdirecto.com/micro/game/69524a80801d0bfc6167505f/sum
+ mary\nConfirma fechas y condiciones en la web del organizador. Vía Bander
+ ín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/69524a80801d0bfc6167505f/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:e1557f4d5c894a9b9c4d@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261207
 DTEND;VALUE=DATE:20261208
 SUMMARY:Torneig Green Monday By Alengolf
 LOCATION:Club de Golf Barcelona\, Sant Esteve Sesrovires\, Barcelona
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 1 de diciembre\, cierra el 6 de diciembre.\nPrecio: 52 €.\nFicha ofic
- ial: https://www.golfdirecto.com/micro/game/6965b91b7205a3564d4700db/summa
- ry\nConfirma fechas y condiciones en la web del organizador. Vía Banderí
- n.
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  1 de diciembre\, cierra el 6 de diciembre.\nPrecio: 52 €.\nFicha oficia
+ l: https://www.golfdirecto.com/micro/game/6965b91b7205a3564d4700db/summary
+ \nConfirma fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6965b91b7205a3564d4700db/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:eae3c1b1e166b76d746b@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261220
 SUMMARY:"El Navideño" By Oak Restaurante
 LOCATION:Club de Golf Barcelona\, Sant Esteve Sesrovires\, Barcelona
-DESCRIPTION:Social de club · Greensome · Parejas\nFicha oficial: https://
- www.golfdirecto.com/micro/game/69f1d3845435bb536e023558/summary\nConfirma 
- fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Greensome - Parejas\nFicha oficial: https://ww
+ w.golfdirecto.com/micro/game/69f1d3845435bb536e023558/summary\nConfirma fe
+ chas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/69f1d3845435bb536e023558/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:779a0499bc7bb3c46cb0@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261221
 DTEND;VALUE=DATE:20261222
 SUMMARY:Torneig Green Monday By Can Tintorer
 LOCATION:Club de Golf Barcelona\, Sant Esteve Sesrovires\, Barcelona
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 15 de diciembre\, cierra el 20 de diciembre.\nPrecio: 52 €.\nFicha of
- icial: https://www.golfdirecto.com/micro/game/6965b9927205a3564d523186/sum
- mary\nConfirma fechas y condiciones en la web del organizador. Vía Bander
- ín.
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  15 de diciembre\, cierra el 20 de diciembre.\nPrecio: 52 €.\nFicha ofic
+ ial: https://www.golfdirecto.com/micro/game/6965b9927205a3564d523186/summa
+ ry\nConfirma fechas y condiciones en la web del organizador. Vía Banderí
+ n.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6965b9927205a3564d523186/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:03d84a79b170013dc5c6@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261228
 DTEND;VALUE=DATE:20261229
 SUMMARY:Torneig Green Monday By Oak Restautante
 LOCATION:Club de Golf Barcelona\, Sant Esteve Sesrovires\, Barcelona
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 22 de diciembre\, cierra el 27 de diciembre.\nPrecio: 52 €.\nFicha of
- icial: https://www.golfdirecto.com/micro/game/6965b9c57205a3564d54d8e6/sum
- mary\nConfirma fechas y condiciones en la web del organizador. Vía Bander
- ín.
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  22 de diciembre\, cierra el 27 de diciembre.\nPrecio: 52 €.\nFicha ofic
+ ial: https://www.golfdirecto.com/micro/game/6965b9c57205a3564d54d8e6/summa
+ ry\nConfirma fechas y condiciones en la web del organizador. Vía Banderí
+ n.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6965b9c57205a3564d54d8e6/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:9054af64e2cc67c30d31@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20270424
 DTEND;VALUE=DATE:20270425
 SUMMARY:Circuit Nacional 5a Categoria 2027 (Barcelona)
 LOCATION:Club de Golf Barcelona\, Sant Esteve Sesrovires\, Barcelona
-DESCRIPTION:Absoluto · Individual\nFicha oficial: https://www.catgolf.com/
- es/campeonatos/circuit-nacional-5a-categoria-2027-barcelona-2027-04-24\nCo
- nfirma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Absoluto - Individual\nFicha oficial: https://www.catgolf.com/e
+ s/campeonatos/circuit-nacional-5a-categoria-2027-barcelona-2027-04-24\nCon
+ firma fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.catgolf.com/es/campeonatos/circuit-nacional-5a-categoria-20

@@ -3,7 +3,7 @@ VERSION:2.0
 PRODID:-//Banderin//Torneos de golf//ES
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:Banderín · Montecastillo Barceló Golf Club
+X-WR-CALNAME:Banderín - Montecastillo Barceló Golf Club
 X-WR-CALDESC:Torneos de golf: Montecastillo Barceló Golf Club. Se actualiz
  a cada mañana. https://banderin.es
 X-WR-TIMEZONE:Europe/Madrid
@@ -11,30 +11,30 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:67f8c7246a9398c05f6f@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:Circuito Social Cadiz Golf (Solo Socios)
 LOCATION:Montecastillo Barceló Golf Club\, Jerez de la Frontera\, Cádiz
-DESCRIPTION:Circuito comercial · Stableford · Individual\nInscripción: a
- bre el 2 de noviembre\, cierra el 20 de noviembre.\nPrecio: 40 €.\nFicha
-  oficial: https://www.nextcaddy.com/tour/75074\nConfirma fechas y condicio
- nes en la web del organizador. Vía Banderín.
+DESCRIPTION:Circuito comercial - Stableford - Individual\nInscripción: abr
+ e el 2 de noviembre\, cierra el 20 de noviembre.\nPrecio: 40 €.\nFicha o
+ ficial: https://www.nextcaddy.com/tour/75074\nConfirma fechas y condicione
+ s en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.nextcaddy.com/tour/75074
 END:VEVENT
 BEGIN:VEVENT
 UID:a5416099b53488c464c7@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Campeonato Andalucía MASC Categoría Mid Amateur
 LOCATION:Montecastillo Barceló Golf Club\, Jerez de la Frontera\, Cádiz
-DESCRIPTION:Mid-Amateur · Medal Play · Individual\nInscripción: abre el 
- 3 de noviembre\, cierra el 24 de noviembre.\nPrecio: 100 €.\nFicha ofici
- al: https://www.nextcaddy.com/tour/61247\nConfirma fechas y condiciones en
-  la web del organizador. Vía Banderín.
+DESCRIPTION:Mid-Amateur - Medal Play - Individual\nInscripción: abre el 3 
+ de noviembre\, cierra el 24 de noviembre.\nPrecio: 100 €.\nFicha oficial
+ : https://www.nextcaddy.com/tour/61247\nConfirma fechas y condiciones en l
+ a web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.nextcaddy.com/tour/61247

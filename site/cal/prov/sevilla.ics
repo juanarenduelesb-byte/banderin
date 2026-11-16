@@ -3,7 +3,7 @@ VERSION:2.0
 PRODID:-//Banderin//Torneos de golf//ES
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:Banderín · Sevilla
+X-WR-CALNAME:Banderín - Sevilla
 X-WR-CALDESC:Torneos de golf: Sevilla. Se actualiza cada mañana. https://b
  anderin.es
 X-WR-TIMEZONE:Europe/Madrid
@@ -11,281 +11,280 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:a1a33b9dc86082ea6352@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261116
 DTEND;VALUE=DATE:20261117
 SUMMARY:8ª Prueba Liga de Damas (Lunes)
 LOCATION:Real Club Sevilla Golf\, Alcala de Guadaira\, Sevilla
-DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
- s://www.nextcaddy.com/tour/75259\nConfirma fechas y condiciones en la web 
- del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.nextcaddy.com/tour/75259\nConfirma fechas y condiciones en la web de
+ l organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.nextcaddy.com/tour/75259
 END:VEVENT
 BEGIN:VEVENT
 UID:e9d703cf12d6a1f547a5@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261116
 DTEND;VALUE=DATE:20261117
 SUMMARY:Lunes al Golf Jornada 4 ( Mañana 9:30)
 LOCATION:Club Hato Verde\, Las Pajanosas\, Sevilla
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 9 de noviembre\, cierra el 15 de noviembre.\nPrecio: Gratis.\nFicha ofi
- cial: https://www.nextcaddy.com/tour/75269\nConfirma fechas y condiciones 
- en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  9 de noviembre\, cierra el 15 de noviembre.\nPrecio: Gratis.\nFicha ofici
+ al: https://www.nextcaddy.com/tour/75269\nConfirma fechas y condiciones en
+  la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.nextcaddy.com/tour/75269
 END:VEVENT
 BEGIN:VEVENT
 UID:f11a5f01e99a52a1a528@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261116
 DTEND;VALUE=DATE:20261117
 SUMMARY:Lunes al Golf Jornada 4 ( Tarde 16:00)
 LOCATION:Club Hato Verde\, Las Pajanosas\, Sevilla
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 9 de noviembre\, cierra el 16 de noviembre.\nPrecio: Gratis.\nFicha ofi
- cial: https://www.nextcaddy.com/tour/75270\nConfirma fechas y condiciones 
- en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  9 de noviembre\, cierra el 16 de noviembre.\nPrecio: Gratis.\nFicha ofici
+ al: https://www.nextcaddy.com/tour/75270\nConfirma fechas y condiciones en
+  la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.nextcaddy.com/tour/75270
 END:VEVENT
 BEGIN:VEVENT
 UID:a51867e25cd3fa00eb0c@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261117
 DTEND;VALUE=DATE:20261118
 SUMMARY:4ª Prueba Liga de Señoras Otoño
 LOCATION:Real Club Pineda de Sevilla\, Sevilla\, Sevilla
-DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
- s://www.nextcaddy.com/tour/75267\nConfirma fechas y condiciones en la web 
- del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.nextcaddy.com/tour/75267\nConfirma fechas y condiciones en la web de
+ l organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.nextcaddy.com/tour/75267
 END:VEVENT
 BEGIN:VEVENT
 UID:7ade741c501f58b2e9d4@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261117
 DTEND;VALUE=DATE:20261118
 SUMMARY:4ª Prueba Liga de Señoras Otoño
 LOCATION:Real Club Pineda de Sevilla\, Sevilla\, Sevilla
-DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
- s://www.nextcaddy.com/tour/75388\nConfirma fechas y condiciones en la web 
- del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.nextcaddy.com/tour/75388\nConfirma fechas y condiciones en la web de
+ l organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.nextcaddy.com/tour/75388
 END:VEVENT
 BEGIN:VEVENT
 UID:af06ccf17449c04d5f11@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261117
 DTEND;VALUE=DATE:20261118
 SUMMARY:Lig. Damas Jornada 2 17/11/26
 LOCATION:Club Zaudín Golf\, Tomares\, Sevilla
-DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
- s://www.nextcaddy.com/tour/75373\nConfirma fechas y condiciones en la web 
- del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.nextcaddy.com/tour/75373\nConfirma fechas y condiciones en la web de
+ l organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.nextcaddy.com/tour/75373
 END:VEVENT
 BEGIN:VEVENT
 UID:2db83e38e77cffcc5b09@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261120
 SUMMARY:4ª Prueba Circuito Seniors Otoño
 LOCATION:Real Club Pineda de Sevilla\, Sevilla\, Sevilla
-DESCRIPTION:Senior · Stableford · Individual\nFicha oficial: https://www.
- nextcaddy.com/tour/75301\nConfirma fechas y condiciones en la web del orga
- nizador. Vía Banderín.
+DESCRIPTION:Senior - Stableford - Individual\nFicha oficial: https://www.ne
+ xtcaddy.com/tour/75301\nConfirma fechas y condiciones en la web del organi
+ zador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.nextcaddy.com/tour/75301
 END:VEVENT
 BEGIN:VEVENT
 UID:09376bf212d460dfe595@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261120
 SUMMARY:Lig. Caballeros Jornada 3 19/11/26
 LOCATION:Club Zaudín Golf\, Tomares\, Sevilla
-DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
- s://www.nextcaddy.com/tour/75372\nConfirma fechas y condiciones en la web 
- del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.nextcaddy.com/tour/75372\nConfirma fechas y condiciones en la web de
+ l organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.nextcaddy.com/tour/75372
 END:VEVENT
 BEGIN:VEVENT
 UID:ea8416ebb336b8ca035e@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:Circuito Benjamin Zona W
 LOCATION:Real Club Pineda de Sevilla\, Sevilla\, Sevilla
-DESCRIPTION:Juvenil · Medal Play · Individual\nInscripción: abre el 9 de
-  octubre\, cierra el 16 de noviembre.\nFicha oficial: https://www.nextcadd
- y.com/tour/61243\nConfirma fechas y condiciones en la web del organizador.
-  Vía Banderín.
+DESCRIPTION:Juvenil - Medal Play - Individual\nInscripción: abre el 9 de o
+ ctubre\, cierra el 16 de noviembre.\nFicha oficial: https://www.nextcaddy.
+ com/tour/61243\nConfirma fechas y condiciones en la web del organizador. V
+ ía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.nextcaddy.com/tour/61243
 END:VEVENT
 BEGIN:VEVENT
 UID:e87cc1ec4727b994232e@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:Circuito Juvenil Zona W
 LOCATION:Real Club Pineda de Sevilla\, Sevilla\, Sevilla
-DESCRIPTION:Juvenil · Medal Play · Individual\nInscripción: abre el 9 de
-  octubre\, cierra el 16 de noviembre.\nFicha oficial: https://www.nextcadd
- y.com/tour/61244\nConfirma fechas y condiciones en la web del organizador.
-  Vía Banderín.
+DESCRIPTION:Juvenil - Medal Play - Individual\nInscripción: abre el 9 de o
+ ctubre\, cierra el 16 de noviembre.\nFicha oficial: https://www.nextcaddy.
+ com/tour/61244\nConfirma fechas y condiciones en la web del organizador. V
+ ía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.nextcaddy.com/tour/61244
 END:VEVENT
 BEGIN:VEVENT
 UID:c31207b1bfa0a05278f3@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:VIII Open Femenino la Cartuja 2026
 LOCATION:Escuela Pública la Cartuja\, Sevilla\, Sevilla
-DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
- s://www.nextcaddy.com/tour/75321\nConfirma fechas y condiciones en la web 
- del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.nextcaddy.com/tour/75321\nConfirma fechas y condiciones en la web de
+ l organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.nextcaddy.com/tour/75321
 END:VEVENT
 BEGIN:VEVENT
 UID:d6ad661e243e72b565fc@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
 SUMMARY:1ª Prueba Metas Amigos de Hato Verde
 LOCATION:Club Hato Verde\, Las Pajanosas\, Sevilla
-DESCRIPTION:Social de club · Medal Play · Individual\nInscripción: abre 
- el 2 de septiembre\, cierra el 26 de diciembre.\nPrecio: 35 €.\nFicha of
- icial: https://www.golfdirecto.com/micro/game/6a980c839678d915e8fbbc15/sum
- mary\nConfirma fechas y condiciones en la web del organizador. Vía Bander
- ín.
+DESCRIPTION:Social de club - Medal Play - Individual\nInscripción: abre el
+  2 de septiembre\, cierra el 26 de diciembre.\nPrecio: 35 €.\nFicha ofic
+ ial: https://www.golfdirecto.com/micro/game/6a980c839678d915e8fbbc15/summa
+ ry\nConfirma fechas y condiciones en la web del organizador. Vía Banderí
+ n.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6a980c839678d915e8fbbc15/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:954d8ff6309a6d3208fb@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261227
 DTEND;VALUE=DATE:20261228
 SUMMARY:2ª Prueba Metas Amigos de Hato Verde
 LOCATION:Club Hato Verde\, Las Pajanosas\, Sevilla
-DESCRIPTION:Social de club · Medal Play · Individual\nInscripción: abre 
- el 2 de septiembre\, cierra el 26 de diciembre.\nPrecio: 10 €.\nFicha of
- icial: https://www.golfdirecto.com/micro/game/6a980f789678d915e8f0d9d4/sum
- mary\nConfirma fechas y condiciones en la web del organizador. Vía Bander
- ín.
+DESCRIPTION:Social de club - Medal Play - Individual\nInscripción: abre el
+  2 de septiembre\, cierra el 26 de diciembre.\nPrecio: 10 €.\nFicha ofic
+ ial: https://www.golfdirecto.com/micro/game/6a980f789678d915e8f0d9d4/summa
+ ry\nConfirma fechas y condiciones en la web del organizador. Vía Banderí
+ n.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6a980f789678d915e8f0d9d4/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:48af65c245f6ce7fd3ff@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20270110
 DTEND;VALUE=DATE:20270111
 SUMMARY:3ª Prueba Metas Amigos de Hato Verde
 LOCATION:Club Hato Verde\, Las Pajanosas\, Sevilla
-DESCRIPTION:Social de club · Medal Play · Individual\nInscripción: abre 
- el 2 de septiembre\, cierra el 30 de enero.\nPrecio: 10 €.\nFicha oficia
- l: https://www.golfdirecto.com/micro/game/6a980fa19678d915e8f50806/summary
- \nConfirma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Medal Play - Individual\nInscripción: abre el
+  2 de septiembre\, cierra el 30 de enero.\nPrecio: 10 €.\nFicha oficial:
+  https://www.golfdirecto.com/micro/game/6a980fa19678d915e8f50806/summary\n
+ Confirma fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6a980fa19678d915e8f50806/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:f887680d09179cc2eec5@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20270214
 DTEND;VALUE=DATE:20270215
 SUMMARY:4ª Prueba Metas Amigos de Hato Verde
 LOCATION:Club Hato Verde\, Las Pajanosas\, Sevilla
-DESCRIPTION:Social de club · Medal Play · Individual\nInscripción: abre 
- el 2 de septiembre\, cierra el 20 de febrero.\nPrecio: 10 €.\nFicha ofic
- ial: https://www.golfdirecto.com/micro/game/6a9810d09678d915e85dee85/summa
- ry\nConfirma fechas y condiciones en la web del organizador. Vía Banderí
- n.
+DESCRIPTION:Social de club - Medal Play - Individual\nInscripción: abre el
+  2 de septiembre\, cierra el 20 de febrero.\nPrecio: 10 €.\nFicha oficia
+ l: https://www.golfdirecto.com/micro/game/6a9810d09678d915e85dee85/summary
+ \nConfirma fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6a9810d09678d915e85dee85/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:469d0f2386f238b7655b@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20270228
 DTEND;VALUE=DATE:20270301
 SUMMARY:5ª Prueba Metas Amigos de Hato Verde
 LOCATION:Club Hato Verde\, Las Pajanosas\, Sevilla
-DESCRIPTION:Social de club · Medal Play · Individual\nInscripción: abre 
- el 2 de septiembre\, cierra el 27 de marzo.\nPrecio: 10 €.\nFicha oficia
- l: https://www.golfdirecto.com/micro/game/6a98114b9678d915e882194e/summary
- \nConfirma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Medal Play - Individual\nInscripción: abre el
+  2 de septiembre\, cierra el 27 de marzo.\nPrecio: 10 €.\nFicha oficial:
+  https://www.golfdirecto.com/micro/game/6a98114b9678d915e882194e/summary\n
+ Confirma fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6a98114b9678d915e882194e/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:d77afd7242e49da24bf4@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20270425
 DTEND;VALUE=DATE:20270426
 SUMMARY:6ª Prueba Metas Amigos de Hato Verde
 LOCATION:Club Hato Verde\, Las Pajanosas\, Sevilla
-DESCRIPTION:Social de club · Medal Play · Individual\nInscripción: abre 
- el 2 de septiembre\, cierra el 24 de abril.\nPrecio: 10 €.\nFicha oficia
- l: https://www.golfdirecto.com/micro/game/6a98117b9678d915e8925d5b/summary
- \nConfirma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Medal Play - Individual\nInscripción: abre el
+  2 de septiembre\, cierra el 24 de abril.\nPrecio: 10 €.\nFicha oficial:
+  https://www.golfdirecto.com/micro/game/6a98117b9678d915e8925d5b/summary\n
+ Confirma fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6a98117b9678d915e8925d5b/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:029d9c7bab7fb4b7b5d1@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20270516
 DTEND;VALUE=DATE:20270517
 SUMMARY:7ª Prueba Metas Amigos de Hato Verde
 LOCATION:Club Hato Verde\, Las Pajanosas\, Sevilla
-DESCRIPTION:Social de club · Medal Play · Individual\nInscripción: abre 
- el 8 de noviembre\, cierra el 15 de mayo.\nPrecio: 10 €.\nFicha oficial:
-  https://www.golfdirecto.com/micro/game/6af0cce918fc8072fbc1942c/summary\n
- Confirma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Medal Play - Individual\nInscripción: abre el
+  8 de noviembre\, cierra el 15 de mayo.\nPrecio: 10 €.\nFicha oficial: h
+ ttps://www.golfdirecto.com/micro/game/6af0cce918fc8072fbc1942c/summary\nCo
+ nfirma fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6af0cce918fc8072fbc1942c/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:ad365ba3a23fa53c27d1@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20270606
 DTEND;VALUE=DATE:20270607
 SUMMARY:Prueba Final Metas Amigos de Hato Verde
 LOCATION:Club Hato Verde\, Las Pajanosas\, Sevilla
-DESCRIPTION:Social de club · Medal Play · Individual\nInscripción: abre 
- el 2 de septiembre\, cierra el 29 de mayo.\nPrecio: 10 €.\nFicha oficial
- : https://www.golfdirecto.com/micro/game/6a9811be9678d915e8a88c62/summary\
- nConfirma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Medal Play - Individual\nInscripción: abre el
+  2 de septiembre\, cierra el 29 de mayo.\nPrecio: 10 €.\nFicha oficial: 
+ https://www.golfdirecto.com/micro/game/6a9811be9678d915e8a88c62/summary\nC
+ onfirma fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6a9811be9678d915e8a88c62/summary

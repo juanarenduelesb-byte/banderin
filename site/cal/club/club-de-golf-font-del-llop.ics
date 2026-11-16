@@ -3,7 +3,7 @@ VERSION:2.0
 PRODID:-//Banderin//Torneos de golf//ES
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:Banderín · Club de Golf Font del Llop
+X-WR-CALNAME:Banderín - Club de Golf Font del Llop
 X-WR-CALDESC:Torneos de golf: Club de Golf Font del Llop. Se actualiza cada
   mañana. https://banderin.es
 X-WR-TIMEZONE:Europe/Madrid
@@ -11,104 +11,104 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:b9155304966d49259a67@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261116
 DTEND;VALUE=DATE:20261117
 SUMMARY:monday plates 16th
 LOCATION:Club de Golf Font del Llop\, Monforte del Cid\, Alicante
-DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
- s://www.golfdirecto.com/micro/game/6afaba8b5445bc102998895c/summary\nConfi
- rma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/6afaba8b5445bc102998895c/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6afaba8b5445bc102998895c/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:b75de8f87cdf9589b8fb@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261117
 DTEND;VALUE=DATE:20261118
 SUMMARY:Green Jackets 17-11-2026
 LOCATION:Club de Golf Font del Llop\, Monforte del Cid\, Alicante
-DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
- s://www.golfdirecto.com/micro/game/6afaedfb5445bc1029112404/summary\nConfi
- rma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/6afaedfb5445bc1029112404/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6afaedfb5445bc1029112404/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:8d497c4c7378d5f49267@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261117
 DTEND;VALUE=DATE:20261118
 SUMMARY:Rencontre AGFCB 28 - Font de Llop Golf - Mardi 17 novembre - 70€ 
  / 80€ + PAF 5€- 24 places disponibles - 8 buggies -PROCESABLE
 LOCATION:Club de Golf Font del Llop\, Monforte del Cid\, Alicante
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 7 de septiembre\, cierra el 15 de noviembre.\nFicha oficial: https://ww
- w.golfdirecto.com/micro/game/6a9ef4dee4e6c9f60ed8b1fb/summary\nConfirma fe
- chas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  7 de septiembre\, cierra el 15 de noviembre.\nFicha oficial: https://www.
+ golfdirecto.com/micro/game/6a9ef4dee4e6c9f60ed8b1fb/summary\nConfirma fech
+ as y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6a9ef4dee4e6c9f60ed8b1fb/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:0a23fb5246ae2e9fd75e@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261130
 SUMMARY:Cto Absoluto de la CV
 LOCATION:Club de Golf Font del Llop\, Monforte del Cid\, Alicante
-DESCRIPTION:Absoluto · Individual\nInscripción: abre el 23 de octubre\, c
- ierra el 23 de noviembre.\nPrecio: 100 €.\nFicha oficial: https://golfcv
- .com/torneo_seek/ver-torneo/?torneoid=2719\nConfirma fechas y condiciones 
- en la web del organizador. Vía Banderín.
+DESCRIPTION:Absoluto - Individual\nInscripción: abre el 23 de octubre\, ci
+ erra el 23 de noviembre.\nPrecio: 100 €.\nFicha oficial: https://golfcv.
+ com/torneo_seek/ver-torneo/?torneoid=2719\nConfirma fechas y condiciones e
+ n la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://golfcv.com/torneo_seek/ver-torneo/?torneoid=2719
 END:VEVENT
 BEGIN:VEVENT
 UID:4b410f83c7ef4d34c157@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261130
 SUMMARY:Jugadores No LV Cto Absoluto de la CV
 LOCATION:Club de Golf Font del Llop\, Monforte del Cid\, Alicante
-DESCRIPTION:Absoluto · Individual\nInscripción: abre el 23 de octubre\, c
- ierra el 23 de noviembre.\nPrecio: 140 €.\nFicha oficial: https://golfcv
- .com/torneo_seek/ver-torneo/?torneoid=2778\nConfirma fechas y condiciones 
- en la web del organizador. Vía Banderín.
+DESCRIPTION:Absoluto - Individual\nInscripción: abre el 23 de octubre\, ci
+ erra el 23 de noviembre.\nPrecio: 140 €.\nFicha oficial: https://golfcv.
+ com/torneo_seek/ver-torneo/?torneoid=2778\nConfirma fechas y condiciones e
+ n la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://golfcv.com/torneo_seek/ver-torneo/?torneoid=2778
 END:VEVENT
 BEGIN:VEVENT
 UID:32c2ac8fc8cf0754a8e3@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261220
 SUMMARY:XVII Torneo Navidad Font del Llop 2026
 LOCATION:Club de Golf Font del Llop\, Monforte del Cid\, Alicante
-DESCRIPTION:Social de club · Scramble · Parejas\nInscripción: abre el 1 
- de noviembre\, cierra el 18 de diciembre.\nPrecio: 60 €.\nFicha oficial:
-  https://www.golfdirecto.com/micro/game/6ae6fc4f8f4f6415e0ac88d9/summary\n
- Confirma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Scramble - Parejas\nInscripción: abre el 1 de
+  noviembre\, cierra el 18 de diciembre.\nPrecio: 60 €.\nFicha oficial: h
+ ttps://www.golfdirecto.com/micro/game/6ae6fc4f8f4f6415e0ac88d9/summary\nCo
+ nfirma fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6ae6fc4f8f4f6415e0ac88d9/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:ac46267536003536d52d@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261227
 DTEND;VALUE=DATE:20261228
 SUMMARY:XV Torneo Pav@ y UVA Embolsada Vinalopo
 LOCATION:Club de Golf Font del Llop\, Monforte del Cid\, Alicante
-DESCRIPTION:Social de club · Fourball · Parejas\nInscripción: abre el 3 
- de noviembre\, cierra el 26 de diciembre.\nPrecio: 60 €.\nFicha oficial:
-  https://www.golfdirecto.com/micro/game/6aea031e2267c6230f30b6ae/summary\n
- Confirma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Fourball - Parejas\nInscripción: abre el 3 de
+  noviembre\, cierra el 26 de diciembre.\nPrecio: 60 €.\nFicha oficial: h
+ ttps://www.golfdirecto.com/micro/game/6aea031e2267c6230f30b6ae/summary\nCo
+ nfirma fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6aea031e2267c6230f30b6ae/summary

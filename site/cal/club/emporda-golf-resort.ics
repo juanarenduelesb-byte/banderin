@@ -3,7 +3,7 @@ VERSION:2.0
 PRODID:-//Banderin//Torneos de golf//ES
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:Banderín · Empordà Golf Resort
+X-WR-CALNAME:Banderín - Empordà Golf Resort
 X-WR-CALDESC:Torneos de golf: Empordà Golf Resort. Se actualiza cada maña
  na. https://banderin.es
 X-WR-TIMEZONE:Europe/Madrid
@@ -11,42 +11,42 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:17c3b288122dc704676e@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Final Cica Golf
 LOCATION:Empordà Golf Resort\, Gualta\, Girona
-DESCRIPTION:Social de club · Individual\nFicha oficial: https://www.catgol
- f.com/es/campeonatos/final-cica-golf-2026-11-28\nConfirma fechas y condici
- ones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Individual\nFicha oficial: https://www.catgolf
+ .com/es/campeonatos/final-cica-golf-2026-11-28\nConfirma fechas y condicio
+ nes en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.catgolf.com/es/campeonatos/final-cica-golf-2026-11-28
 END:VEVENT
 BEGIN:VEVENT
 UID:5cb21f81185b6b6ab143@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261130
 SUMMARY:Final Junior & Baby Cup
 LOCATION:Empordà Golf Resort\, Gualta\, Girona
-DESCRIPTION:Juvenil · Individual\nFicha oficial: https://www.catgolf.com/e
- s/campeonatos/final-junior-baby-cup-2026-11-28\nConfirma fechas y condicio
- nes en la web del organizador. Vía Banderín.
+DESCRIPTION:Juvenil - Individual\nFicha oficial: https://www.catgolf.com/es
+ /campeonatos/final-junior-baby-cup-2026-11-28\nConfirma fechas y condicion
+ es en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.catgolf.com/es/campeonatos/final-junior-baby-cup-2026-11-28
 END:VEVENT
 BEGIN:VEVENT
 UID:2a8af5223c918f8405ef@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:Torneig Social De Nadal
 LOCATION:Empordà Golf Resort\, Gualta\, Girona
-DESCRIPTION:Social de club · Individual\nFicha oficial: https://www.catgol
- f.com/es/campeonatos/torneig-social-de-nadal-2026-12-12\nConfirma fechas y
-  condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Individual\nFicha oficial: https://www.catgolf
+ .com/es/campeonatos/torneig-social-de-nadal-2026-12-12\nConfirma fechas y 
+ condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.catgolf.com/es/campeonatos/torneig-social-de-nadal-2026-12-
@@ -54,15 +54,15 @@ URL:https://www.catgolf.com/es/campeonatos/torneig-social-de-nadal-2026-12-
 END:VEVENT
 BEGIN:VEVENT
 UID:567d0a6a52d35c892839@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261214
 DTEND;VALUE=DATE:20261216
 SUMMARY:FINAL CATPROTOUR 2026 (Empordà 14-15 dic.)
 LOCATION:Empordà Golf Resort\, Gualta\, Girona
-DESCRIPTION:Profesional · Individual\nInscripción: abre el 6 de marzo\, c
- ierra el 6 de marzo.\nFicha oficial: https://www.catgolf.com/es/campeonato
- s/final-catprotour-2026-emporda-14-15-dic-2026-12-14\nConfirma fechas y co
- ndiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Profesional - Individual\nInscripción: abre el 6 de marzo\, ci
+ erra el 6 de marzo.\nFicha oficial: https://www.catgolf.com/es/campeonatos
+ /final-catprotour-2026-emporda-14-15-dic-2026-12-14\nConfirma fechas y con
+ diciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.catgolf.com/es/campeonatos/final-catprotour-2026-emporda-14
@@ -70,28 +70,28 @@ URL:https://www.catgolf.com/es/campeonatos/final-catprotour-2026-emporda-14
 END:VEVENT
 BEGIN:VEVENT
 UID:04aa33782762ce90b70d@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261220
 SUMMARY:Especial Birdie Club
 LOCATION:Empordà Golf Resort\, Gualta\, Girona
-DESCRIPTION:Social de club · Individual\nFicha oficial: https://www.catgol
- f.com/es/campeonatos/especial-birdie-club-2026-12-19\nConfirma fechas y co
- ndiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Individual\nFicha oficial: https://www.catgolf
+ .com/es/campeonatos/especial-birdie-club-2026-12-19\nConfirma fechas y con
+ diciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.catgolf.com/es/campeonatos/especial-birdie-club-2026-12-19
 END:VEVENT
 BEGIN:VEVENT
 UID:064afd8f19e74c252188@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20271002
 DTEND;VALUE=DATE:20271004
 SUMMARY:Campionat de Catalunya Interclubs Boys & Girls 2027
 LOCATION:Empordà Golf Resort\, Gualta\, Girona
-DESCRIPTION:Juvenil · Equipos\nFicha oficial: https://www.catgolf.com/es/c
- ampeonatos/campionat-de-catalunya-interclubs-boys-girls-2027-2027-10-02\nC
- onfirma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Juvenil - Equipos\nFicha oficial: https://www.catgolf.com/es/ca
+ mpeonatos/campionat-de-catalunya-interclubs-boys-girls-2027-2027-10-02\nCo
+ nfirma fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.catgolf.com/es/campeonatos/campionat-de-catalunya-interclub

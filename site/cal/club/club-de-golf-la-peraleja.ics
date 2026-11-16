@@ -3,7 +3,7 @@ VERSION:2.0
 PRODID:-//Banderin//Torneos de golf//ES
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:Banderín · Club de Golf la Peraleja
+X-WR-CALNAME:Banderín - Club de Golf la Peraleja
 X-WR-CALDESC:Torneos de golf: Club de Golf la Peraleja. Se actualiza cada m
  añana. https://banderin.es
 X-WR-TIMEZONE:Europe/Madrid
@@ -11,15 +11,15 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:6bf9bb2f139e52fd43d9@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:Ryder "Fuera de Limites"
 LOCATION:Club de Golf la Peraleja\, Sucina\, Murcia
-DESCRIPTION:Social de club · Fourball · Parejas\nInscripción: abre el 23
-  de septiembre\, cierra el 30 de septiembre.\nFicha oficial: https://www.g
- olfdirecto.com/micro/game/6ab41332e6821b500a3de004/summary\nConfirma fecha
- s y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Fourball - Parejas\nInscripción: abre el 23 d
+ e septiembre\, cierra el 30 de septiembre.\nFicha oficial: https://www.gol
+ fdirecto.com/micro/game/6ab41332e6821b500a3de004/summary\nConfirma fechas 
+ y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6ab41332e6821b500a3de004/summary

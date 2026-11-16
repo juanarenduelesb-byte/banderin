@@ -24,8 +24,8 @@ export async function onRequestGet({ request, env, params }) {
     } catch (e) { t = null; }
   }
   const dest = t ? '/#t=' + id : '/';
-  const title = t ? t.n + ' · Banderín' : 'Banderín · Todos los torneos de golf de España';
-  const desc = t ? [fecha(t.s), t.club, t.city || t.prov].filter(Boolean).join(' · ') + '. Mira el torneo y apúntate en Banderín.' : 'Todos los torneos de golf de España en un solo sitio.';
+  const title = t ? t.n + ' - Banderín' : 'Banderín - Todos los torneos de golf de España';
+  const desc = t ? [fecha(t.s), t.club, t.city || t.prov].filter(Boolean).join(' - ') + '. Mira el torneo y apúntate en Banderín.' : 'Todos los torneos de golf de España en un solo sitio.';
   const body = '<!DOCTYPE html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">' +
     '<title>' + esc(title) + '</title><meta name="robots" content="noindex">' +
     '<meta name="description" content="' + esc(desc) + '">' +

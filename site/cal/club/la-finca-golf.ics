@@ -3,7 +3,7 @@ VERSION:2.0
 PRODID:-//Banderin//Torneos de golf//ES
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:Banderín · La Finca Golf
+X-WR-CALNAME:Banderín - La Finca Golf
 X-WR-CALDESC:Torneos de golf: La Finca Golf. Se actualiza cada mañana. htt
  ps://banderin.es
 X-WR-TIMEZONE:Europe/Madrid
@@ -11,14 +11,14 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:99e398a39160e3751ab6@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:Final VII Circuito La Finca Resort
 LOCATION:La Finca Golf
-DESCRIPTION:Circuito comercial · Stableford · Individual\nFicha oficial: 
- https://www.golfdirecto.com/micro/game/6afac5ac23d5370df067b99e/summary\nC
- onfirma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Circuito comercial - Stableford - Individual\nFicha oficial: ht
+ tps://www.golfdirecto.com/micro/game/6afac5ac23d5370df067b99e/summary\nCon
+ firma fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6afac5ac23d5370df067b99e/summary

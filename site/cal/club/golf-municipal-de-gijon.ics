@@ -3,7 +3,7 @@ VERSION:2.0
 PRODID:-//Banderin//Torneos de golf//ES
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:Banderín · Golf Municipal de Gijon
+X-WR-CALNAME:Banderín - Golf Municipal de Gijon
 X-WR-CALDESC:Torneos de golf: Golf Municipal de Gijon. Se actualiza cada ma
  ñana. https://banderin.es
 X-WR-TIMEZONE:Europe/Madrid
@@ -11,180 +11,180 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:5941d79139d3b317fbe7@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261120
 SUMMARY:1ª prueba IX Liga GSA 26/27
 LOCATION:Golf Municipal de Gijon\, Lloreda (gijon)\, Asturias
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 5 de noviembre\, cierra el 17 de noviembre.\nFicha oficial: https://www
- .golfdirecto.com/micro/game/6aecc749313a6a0df13d5a09/summary\nConfirma fec
- has y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  5 de noviembre\, cierra el 17 de noviembre.\nFicha oficial: https://www.g
+ olfdirecto.com/micro/game/6aecc749313a6a0df13d5a09/summary\nConfirma fecha
+ s y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6aecc749313a6a0df13d5a09/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:8a114d7303297d3bd034@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
 SUMMARY:2ª prueba IX Liga GSA 26/27
 LOCATION:Golf Municipal de Gijon\, Lloreda (gijon)\, Asturias
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 5 de noviembre\, cierra el 24 de noviembre.\nFicha oficial: https://www
- .golfdirecto.com/micro/game/6aecca469dfa5416305dbaad/summary\nConfirma fec
- has y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  5 de noviembre\, cierra el 24 de noviembre.\nFicha oficial: https://www.g
+ olfdirecto.com/micro/game/6aecca469dfa5416305dbaad/summary\nConfirma fecha
+ s y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6aecca469dfa5416305dbaad/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:ce906998f4027c1ca689@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261203
 DTEND;VALUE=DATE:20261204
 SUMMARY:3ª prueba IX Liga GSA 26/27
 LOCATION:Golf Municipal de Gijon\, Lloreda (gijon)\, Asturias
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 5 de noviembre\, cierra el 1 de diciembre.\nFicha oficial: https://www.
- golfdirecto.com/micro/game/6aecd0f79dfa541630d60777/summary\nConfirma fech
- as y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  5 de noviembre\, cierra el 1 de diciembre.\nFicha oficial: https://www.go
+ lfdirecto.com/micro/game/6aecd0f79dfa541630d60777/summary\nConfirma fechas
+  y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6aecd0f79dfa541630d60777/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:86939f350b17d3ce87cf@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261210
 DTEND;VALUE=DATE:20261211
 SUMMARY:4ª prueba IX Liga GSA 26/27
 LOCATION:Golf Municipal de Gijon\, Lloreda (gijon)\, Asturias
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 5 de noviembre\, cierra el 8 de diciembre.\nFicha oficial: https://www.
- golfdirecto.com/micro/game/6aecd1df9dfa541630f5cd1c/summary\nConfirma fech
- as y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  5 de noviembre\, cierra el 8 de diciembre.\nFicha oficial: https://www.go
+ lfdirecto.com/micro/game/6aecd1df9dfa541630f5cd1c/summary\nConfirma fechas
+  y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6aecd1df9dfa541630f5cd1c/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:94e8d823b24e1c161096@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261217
 DTEND;VALUE=DATE:20261218
 SUMMARY:5ª prueba IX Liga GSA 26/27
 LOCATION:Golf Municipal de Gijon\, Lloreda (gijon)\, Asturias
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 6 de noviembre\, cierra el 15 de diciembre.\nFicha oficial: https://www
- .golfdirecto.com/micro/game/6aed900102e839445a3dc23f/summary\nConfirma fec
- has y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  6 de noviembre\, cierra el 15 de diciembre.\nFicha oficial: https://www.g
+ olfdirecto.com/micro/game/6aed900102e839445a3dc23f/summary\nConfirma fecha
+ s y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6aed900102e839445a3dc23f/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:751a6197129ff0e063e8@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261223
 DTEND;VALUE=DATE:20261224
 SUMMARY:6ª prueba IX Liga GSA 26/27
 LOCATION:Golf Municipal de Gijon\, Lloreda (gijon)\, Asturias
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 6 de noviembre\, cierra el 21 de diciembre.\nFicha oficial: https://www
- .golfdirecto.com/micro/game/6aed905a1ab4f21da62c9537/summary\nConfirma fec
- has y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  6 de noviembre\, cierra el 21 de diciembre.\nFicha oficial: https://www.g
+ olfdirecto.com/micro/game/6aed905a1ab4f21da62c9537/summary\nConfirma fecha
+ s y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6aed905a1ab4f21da62c9537/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:a9bcd21501de1b65676a@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261230
 DTEND;VALUE=DATE:20261231
 SUMMARY:7ª prueba IX Liga GSA 26/27
 LOCATION:Golf Municipal de Gijon\, Lloreda (gijon)\, Asturias
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 6 de noviembre\, cierra el 28 de diciembre.\nFicha oficial: https://www
- .golfdirecto.com/micro/game/6aed90ab02e839445a509be1/summary\nConfirma fec
- has y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  6 de noviembre\, cierra el 28 de diciembre.\nFicha oficial: https://www.g
+ olfdirecto.com/micro/game/6aed90ab02e839445a509be1/summary\nConfirma fecha
+ s y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6aed90ab02e839445a509be1/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:fd12a12508886378ab05@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20270107
 DTEND;VALUE=DATE:20270108
 SUMMARY:8ª prueba IX Liga GSA 26/27
 LOCATION:Golf Municipal de Gijon\, Lloreda (gijon)\, Asturias
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 6 de noviembre\, cierra el 5 de enero.\nFicha oficial: https://www.golf
- directo.com/micro/game/6aed90f502e839445a56f0a7/summary\nConfirma fechas y
-  condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  6 de noviembre\, cierra el 5 de enero.\nFicha oficial: https://www.golfdi
+ recto.com/micro/game/6aed90f502e839445a56f0a7/summary\nConfirma fechas y c
+ ondiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6aed90f502e839445a56f0a7/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:52cc0100fa8e56ff42dd@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20270128
 DTEND;VALUE=DATE:20270129
 SUMMARY:9ª prueba IX Liga GSA 26/27
 LOCATION:Golf Municipal de Gijon\, Lloreda (gijon)\, Asturias
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 6 de noviembre\, cierra el 26 de enero.\nFicha oficial: https://www.gol
- fdirecto.com/micro/game/6aed912f1ab4f21da642985b/summary\nConfirma fechas 
- y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  6 de noviembre\, cierra el 26 de enero.\nFicha oficial: https://www.golfd
+ irecto.com/micro/game/6aed912f1ab4f21da642985b/summary\nConfirma fechas y 
+ condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6aed912f1ab4f21da642985b/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:d7cd05787dde2e1b0f15@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20270204
 DTEND;VALUE=DATE:20270205
 SUMMARY:10ª prueba IX Liga GSA 26/27
 LOCATION:Golf Municipal de Gijon\, Lloreda (gijon)\, Asturias
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 6 de noviembre\, cierra el 2 de febrero.\nFicha oficial: https://www.go
- lfdirecto.com/micro/game/6aed91641ab4f21da648cb30/summary\nConfirma fechas
-  y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  6 de noviembre\, cierra el 2 de febrero.\nFicha oficial: https://www.golf
+ directo.com/micro/game/6aed91641ab4f21da648cb30/summary\nConfirma fechas y
+  condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6aed91641ab4f21da648cb30/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:c81555711958b5015fde@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20270218
 DTEND;VALUE=DATE:20270219
 SUMMARY:11ª prueba IX Liga GSA 26/27
 LOCATION:Golf Municipal de Gijon\, Lloreda (gijon)\, Asturias
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 6 de noviembre\, cierra el 16 de febrero.\nFicha oficial: https://www.g
- olfdirecto.com/micro/game/6aed918f1ab4f21da64d0fa8/summary\nConfirma fecha
- s y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  6 de noviembre\, cierra el 16 de febrero.\nFicha oficial: https://www.gol
+ fdirecto.com/micro/game/6aed918f1ab4f21da64d0fa8/summary\nConfirma fechas 
+ y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6aed918f1ab4f21da64d0fa8/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:88c3b7491a8b7fb824ce@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20270225
 DTEND;VALUE=DATE:20270226
 SUMMARY:12ª prueba IX Liga GSA 26/27
 LOCATION:Golf Municipal de Gijon\, Lloreda (gijon)\, Asturias
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 6 de noviembre\, cierra el 23 de febrero.\nFicha oficial: https://www.g
- olfdirecto.com/micro/game/6aed91bf1ab4f21da651fccc/summary\nConfirma fecha
- s y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  6 de noviembre\, cierra el 23 de febrero.\nFicha oficial: https://www.gol
+ fdirecto.com/micro/game/6aed91bf1ab4f21da651fccc/summary\nConfirma fechas 
+ y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6aed91bf1ab4f21da651fccc/summary

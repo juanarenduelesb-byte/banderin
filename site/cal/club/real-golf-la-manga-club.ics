@@ -3,7 +3,7 @@ VERSION:2.0
 PRODID:-//Banderin//Torneos de golf//ES
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:Banderín · Real Golf La Manga Club
+X-WR-CALNAME:Banderín - Real Golf La Manga Club
 X-WR-CALDESC:Torneos de golf: Real Golf La Manga Club. Se actualiza cada ma
  ñana. https://banderin.es
 X-WR-TIMEZONE:Europe/Madrid
@@ -11,28 +11,28 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:c8ce2f80f33ba3af892f@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261124
 DTEND;VALUE=DATE:20261127
 SUMMARY:Match Internacional Cuadrangular de Golf Adaptado 2026
 LOCATION:Real Golf La Manga Club\, Cartagena\, Murcia
-DESCRIPTION:Adaptado · Match Play · Equipos\nFicha oficial: https://rfego
- lf.es/competicion/match-internacional-de-golf-adaptado\nConfirma fechas y 
- condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Adaptado - Match Play - Equipos\nFicha oficial: https://rfegolf
+ .es/competicion/match-internacional-de-golf-adaptado\nConfirma fechas y co
+ ndiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://rfegolf.es/competicion/match-internacional-de-golf-adaptado
 END:VEVENT
 BEGIN:VEVENT
 UID:07a40790307d7b806184@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261209
 SUMMARY:22º Open La Manga
 LOCATION:Real Golf La Manga Club\, Cartagena\, Murcia
-DESCRIPTION:Circuito comercial · Individual\nFicha oficial: https://www.co
- rporategolf.es/openlamanga\nConfirma fechas y condiciones en la web del or
- ganizador. Vía Banderín.
+DESCRIPTION:Circuito comercial - Individual\nFicha oficial: https://www.cor
+ porategolf.es/openlamanga\nConfirma fechas y condiciones en la web del org
+ anizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.corporategolf.es/openlamanga

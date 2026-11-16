@@ -3,7 +3,7 @@ VERSION:2.0
 PRODID:-//Banderin//Torneos de golf//ES
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:Banderín · Club de Golf El Bosque
+X-WR-CALNAME:Banderín - Club de Golf El Bosque
 X-WR-CALDESC:Torneos de golf: Club de Golf El Bosque. Se actualiza cada ma
  ñana. https://banderin.es
 X-WR-TIMEZONE:Europe/Madrid
@@ -11,15 +11,15 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:a6a9216b4320aab319d5@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261202
 SUMMARY:Liguilla Senior Masculina Zona Vlc/Cs 1div 2div 9/9
 LOCATION:Club de Golf El Bosque\, Chiva\, Valencia
-DESCRIPTION:Senior · Medal Play · Individual\nInscripción: abre el 27 de
-  octubre\, cierra el 26 de noviembre.\nPrecio: 40 €.\nFicha oficial: htt
- ps://golfcv.com/torneo_seek/ver-torneo/?torneoid=2721\nConfirma fechas y c
- ondiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Senior - Medal Play - Individual\nInscripción: abre el 27 de o
+ ctubre\, cierra el 26 de noviembre.\nPrecio: 40 €.\nFicha oficial: https
+ ://golfcv.com/torneo_seek/ver-torneo/?torneoid=2721\nConfirma fechas y con
+ diciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://golfcv.com/torneo_seek/ver-torneo/?torneoid=2721

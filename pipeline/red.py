@@ -1,4 +1,4 @@
-"""Banderín · acceso educado a webs ajenas.
+"""Banderín - acceso educado a webs ajenas.
 
 Al importarlo, todas las descargas con urllib del programa diario:
   - se identifican como BanderinBot, con una página pública que explica quiénes somos (https://banderin.es/robot);
@@ -33,7 +33,7 @@ def _host(url):
 
 
 class Reglas:
-    """robots.txt según la norma RFC 9309: gana la regla más larga que encaja; a igualdad, Allow."""
+    """robots.txt según la norma RFC 9309: gana la regla más larga que encaja, a igualdad, Allow."""
     def __init__(self, lines=()):
         grupos, actual, ua_abierto = {}, None, False
         for raw in lines:

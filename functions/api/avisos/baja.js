@@ -11,7 +11,7 @@ async function borrar(env, id) {
   ]);
 }
 
-const page = (title, body, form = '') => html('<!DOCTYPE html><html lang="es"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>' + title + ' · Banderín</title>' +
+const page = (title, body, form = '') => html('<!DOCTYPE html><html lang="es"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>' + title + ' - Banderín</title>' +
   '<body style="font-family:system-ui,sans-serif;background:#0E2A1E;color:#F4F1E8;display:grid;place-items:center;min-height:100vh;margin:0;padding:24px">' +
   '<main style="max-width:420px;background:#FAF7EE;color:#13201A;border-radius:24px;padding:28px"><h1 style="font-family:Georgia,serif;font-weight:400;margin-top:0">' + title + '</h1><p>' + body + '</p>' + form +
   '<p><a href="/" style="color:#1C4734">Ir a Banderín</a></p></main></body></html>');

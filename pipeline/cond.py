@@ -1,4 +1,4 @@
-"""Banderín · condiciones de participación de cada torneo.
+"""Banderín - condiciones de participación de cada torneo.
 
 Lee el texto que publica la fuente (ficha de NextCaddy, información del torneo
 en Golf Directo) y extrae solo las condiciones de inscripción que se pueden

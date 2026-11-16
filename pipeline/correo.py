@@ -1,4 +1,4 @@
-"""Banderín · plantilla de los correos (mismo diseño que la web).
+"""Banderín - plantilla de los correos (mismo diseño que la web).
 
 El resumen diario de avisos se construye aquí. Los correos de la web
 (confirmación y «ya estabas suscrito») usan la misma plantilla, copiada en
@@ -110,9 +110,9 @@ def footer(lang, manage=None, unsub=None, why=None):
     if why:
         parts.append(e(why))
     if links:
-        parts.append(' &nbsp;·&nbsp; '.join(links))
-    parts.append(('Banderín · a project by Esclusa · Always confirm dates and conditions with the organiser.' if lang == 'en'
-                  else 'Banderín · un proyecto de Esclusa · Confirma siempre fechas y condiciones con el organizador.'))
+        parts.append(' &nbsp;-&nbsp; '.join(links))
+    parts.append(('Banderín - a project by Esclusa - Always confirm dates and conditions with the organiser.' if lang == 'en'
+                  else 'Banderín - un proyecto de Esclusa - Confirma siempre fechas y condiciones con el organizador.'))
     return '<br>'.join(parts)
 
 
@@ -120,7 +120,7 @@ def item(lang, tipo, tag_label, t, url, btn_label):
     """Un torneo: fecha en bloque verde, etiqueta del aviso, nombre, lugar y botón."""
     col, bg = TAG.get(tipo, TAG['fecha'])
     d = dt.date.fromisoformat(t['s'])
-    where = ' · '.join(v for v in [t.get('club'), t.get('city'), t.get('prov')] if v and v != 'Por confirmar')
+    where = ' - '.join(v for v in [t.get('club'), t.get('city'), t.get('prov')] if v and v != 'Por confirmar')
     solid = tipo in ('abre', 'cierra')
     return (
         '<table role="presentation" width="100%%" cellpadding="0" cellspacing="0" style="margin:12px 0 0;background:%s;'

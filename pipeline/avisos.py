@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Banderín · envío diario de avisos por correo.
+"""Banderín - envío diario de avisos por correo.
 
 Compara los torneos de hoy con los de la publicación anterior, busca qué le
 interesa a cada suscriptor (torneos, clubes y provincias que sigue) y le envía
@@ -229,7 +229,7 @@ def compose(sub, items, site, extra=(), zone=()):
         subject = ('Your golf weekend in %s' if lang == 'en' else 'Tu fin de semana de golf en %s') % zname
         title = 'Your golf weekend' if lang == 'en' else 'Tu fin de semana de golf'
     elif n == 1:
-        subject = label(items[0], lang) + ' · ' + items[0]['t']['n']
+        subject = label(items[0], lang) + ' - ' + items[0]['t']['n']
         title = label(items[0], lang)
     else:
         subject = ('%d updates on what you follow' if lang == 'en' else '%d novedades de lo que sigues') % n
@@ -267,8 +267,8 @@ def compose(sub, items, site, extra=(), zone=()):
             enter = x['tipo'] in ('abre', 'cierra')
             btn = ('Enter' if enter else 'View page') if lang == 'en' else ('Inscribirme' if enter else 'Ver ficha')
             cards.append(correo.item(lang, x['tipo'], label(x, lang), t, t['url'], btn))
-            where = ' · '.join(v for v in [t.get('club'), t.get('city')] if v)
-            text.append('- %s: %s (%s%s)\n  %s' % (label(x, lang), t['n'], fdate(t['s'], lang), (' · ' + where) if where else '', t['url']))
+            where = ' - '.join(v for v in [t.get('club'), t.get('city')] if v)
+            text.append('- %s: %s (%s%s)\n  %s' % (label(x, lang), t['n'], fdate(t['s'], lang), (' - ' + where) if where else '', t['url']))
     more = n - MAX_ITEMS
     if more > 0:
         cards.append(correo.para('<a href="%s" style="color:%s">%s</a>' % (
@@ -286,7 +286,7 @@ def compose(sub, items, site, extra=(), zone=()):
                             'See every tournament' if lang == 'en' else 'Ver todos los torneos'))
     why = ('You get this email because you turned on Banderín alerts. At most one a day.' if lang == 'en'
            else 'Recibes este correo porque activaste los avisos de Banderín. Como mucho, uno al día.')
-    preheader = ' · '.join(x['t']['n'] for x in (list(items) + list(extra))[:3])
+    preheader = ' - '.join(x['t']['n'] for x in (list(items) + list(extra))[:3])
     body = correo.shell(lang, subject, preheader, 'Alerts' if lang == 'en' else 'Avisos',
                         correo.h1(title) + correo.para(correo.e(lede), margin='0 0 10px') + ''.join(cards),
                         correo.footer(lang, manage, unsub, why), site)

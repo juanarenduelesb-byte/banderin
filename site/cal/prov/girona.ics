@@ -3,7 +3,7 @@ VERSION:2.0
 PRODID:-//Banderin//Torneos de golf//ES
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:Banderín · Girona
+X-WR-CALNAME:Banderín - Girona
 X-WR-CALDESC:Torneos de golf: Girona. Se actualiza cada mañana. https://ba
  nderin.es
 X-WR-TIMEZONE:Europe/Madrid
@@ -11,90 +11,88 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:994245a9837183414c7d@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261117
 DTEND;VALUE=DATE:20261118
 SUMMARY:Associacio Catalana de Periodistes - Acpjg
 LOCATION:Emporda Golf Club\, Gualta\, Girona
-DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
- s://www.golfdirecto.com/micro/game/6af70c6d3f2ad705e4722f0f/summary\nConfi
- rma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/6af70c6d3f2ad705e4722f0f/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6af70c6d3f2ad705e4722f0f/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:d6b8665a8ab9f4c368e8@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261118
 DTEND;VALUE=DATE:20261119
 SUMMARY:Associacio Catalana de Periodistes - Acpjg
 LOCATION:Emporda Golf Club\, Gualta\, Girona
-DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
- s://www.golfdirecto.com/micro/game/6af70c893f2ad705e47ae9aa/summary\nConfi
- rma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/6af70c893f2ad705e47ae9aa/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6af70c893f2ad705e47ae9aa/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:370b15f2cefc21f53e1e@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261118
 DTEND;VALUE=DATE:20261119
 SUMMARY:Birdie Club -Dunes
 LOCATION:Emporda Golf Club\, Gualta\, Girona
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 11 de noviembre\, cierra el 17 de noviembre.\nPrecio: 75 €.\nFicha of
- icial: https://www.golfdirecto.com/micro/game/6a9a5c465898bfbfbfeae15c/sum
- mary\nConfirma fechas y condiciones en la web del organizador. Vía Bander
- ín.
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  11 de noviembre\, cierra el 17 de noviembre.\nPrecio: 75 €.\nFicha ofic
+ ial: https://www.golfdirecto.com/micro/game/6a9a5c465898bfbfbfeae15c/summa
+ ry\nConfirma fechas y condiciones en la web del organizador. Vía Banderí
+ n.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6a9a5c465898bfbfbfeae15c/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:8e26953b9bbe41bce416@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261120
 SUMMARY:Torneig Torremirona Real Estate
 LOCATION:Torremirona Golf Club\, Navata\, Girona
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 18 de agosto\, cierra el 18 de noviembre.\nPrecio: 60 €.\nFicha ofici
- al: https://www.golfdirecto.com/micro/game/6a8456960d6379a1ffae40e1/summar
- y\nConfirma fechas y condiciones en la web del organizador. Vía Banderín
- .
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  18 de agosto\, cierra el 18 de noviembre.\nPrecio: 60 €.\nFicha oficial
+ : https://www.golfdirecto.com/micro/game/6a8456960d6379a1ffae40e1/summary\
+ nConfirma fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6a8456960d6379a1ffae40e1/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:29c602552a8ada0e4a3c@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:Club Championship - Octavos Final
 LOCATION:Camiral\, Caldes de Malavella\, Girona
-DESCRIPTION:Social de club · Match Play · Individual\nInscripción: abre 
- el 9 de octubre\, cierra el 17 de noviembre.\nPrecio: 10 €.\nFicha ofici
- al: https://www.golfdirecto.com/micro/game/6ad9fcdbadd6f56c0337d042/summar
- y\nConfirma fechas y condiciones en la web del organizador. Vía Banderín
- .
+DESCRIPTION:Social de club - Match Play - Individual\nInscripción: abre el
+  9 de octubre\, cierra el 17 de noviembre.\nPrecio: 10 €.\nFicha oficial
+ : https://www.golfdirecto.com/micro/game/6ad9fcdbadd6f56c0337d042/summary\
+ nConfirma fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6ad9fcdbadd6f56c0337d042/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:6e0cc25a41bfdef0885b@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:Final Torneig 4 Estacions Pals
 LOCATION:Golf de Pals\, Pals\, Girona
-DESCRIPTION:Social de club · Individual\nFicha oficial: https://www.catgol
- f.com/es/campeonatos/final-torneig-4-estacions-pals-2026-11-21\nConfirma f
- echas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Individual\nFicha oficial: https://www.catgolf
+ .com/es/campeonatos/final-torneig-4-estacions-pals-2026-11-21\nConfirma fe
+ chas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.catgolf.com/es/campeonatos/final-torneig-4-estacions-pals-2
@@ -102,138 +100,137 @@ URL:https://www.catgolf.com/es/campeonatos/final-torneig-4-estacions-pals-2
 END:VEVENT
 BEGIN:VEVENT
 UID:9022305e335f7fdf46d0@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:Galaxy Golf (Copia)
 LOCATION:Camiral\, Caldes de Malavella\, Girona
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 27 de octubre\, cierra el 18 de noviembre.\nPrecio: 109 €.\nFicha ofi
- cial: https://www.golfdirecto.com/micro/game/6ae08fcc7fd81c35f4b32a8f/summ
- ary\nConfirma fechas y condiciones en la web del organizador. Vía Bander
- ín.
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  27 de octubre\, cierra el 18 de noviembre.\nPrecio: 109 €.\nFicha ofici
+ al: https://www.golfdirecto.com/micro/game/6ae08fcc7fd81c35f4b32a8f/summar
+ y\nConfirma fechas y condiciones en la web del organizador. Vía Banderín
+ .
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6ae08fcc7fd81c35f4b32a8f/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:a84e95ff1e02ff39da69@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:MAJOR Prueba Circuito Camino a Huelva
 LOCATION:Torremirona Golf Club\, Navata\, Girona
-DESCRIPTION:Circuito comercial · Stableford · Individual\nInscripción: a
- bre el 10 de abril\, cierra el 20 de noviembre.\nPrecio: 70 €.\nFicha of
- icial: https://www.golfdirecto.com/micro/game/69d8c8d933ad0e81be6119ea/sum
- mary\nConfirma fechas y condiciones en la web del organizador. Vía Bander
- ín.
+DESCRIPTION:Circuito comercial - Stableford - Individual\nInscripción: abr
+ e el 10 de abril\, cierra el 20 de noviembre.\nPrecio: 70 €.\nFicha ofic
+ ial: https://www.golfdirecto.com/micro/game/69d8c8d933ad0e81be6119ea/summa
+ ry\nConfirma fechas y condiciones en la web del organizador. Vía Banderí
+ n.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/69d8c8d933ad0e81be6119ea/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:5cd7907352f1678e875e@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:Torneig Vila de Begur - Dunes
 LOCATION:Emporda Golf Club\, Gualta\, Girona
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 7 de noviembre\, cierra el 19 de noviembre.\nPrecio: 120 €.\nFicha of
- icial: https://www.golfdirecto.com/micro/game/68a06ab44316349802901c50/sum
- mary\nConfirma fechas y condiciones en la web del organizador. Vía Bander
- ín.
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  7 de noviembre\, cierra el 19 de noviembre.\nPrecio: 120 €.\nFicha ofic
+ ial: https://www.golfdirecto.com/micro/game/68a06ab44316349802901c50/summa
+ ry\nConfirma fechas y condiciones en la web del organizador. Vía Banderí
+ n.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/68a06ab44316349802901c50/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:e4177d4c86de57bf650e@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:Torneo GARDA
 LOCATION:Fontanals Golf Club\, Fontanals de Cerdanya\, Girona
-DESCRIPTION:Social de club · Individual\nFicha oficial: https://www.catgol
- f.com/es/campeonatos/torneo-garda\nConfirma fechas y condiciones en la web
-  del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Individual\nFicha oficial: https://www.catgolf
+ .com/es/campeonatos/torneo-garda\nConfirma fechas y condiciones en la web 
+ del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.catgolf.com/es/campeonatos/torneo-garda
 END:VEVENT
 BEGIN:VEVENT
 UID:15ba9be235ca5d2451a0@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:Club Championship - Cuartos Final
 LOCATION:Camiral\, Caldes de Malavella\, Girona
-DESCRIPTION:Social de club · Match Play · Individual\nFicha oficial: http
- s://www.golfdirecto.com/micro/game/6ad9fd2fadd6f56c033bf70b/summary\nConfi
- rma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Match Play - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/6ad9fd2fadd6f56c033bf70b/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6ad9fd2fadd6f56c033bf70b/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:9cfe6ba22fc7b3999e10@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:Galaxy Golf
 LOCATION:Camiral\, Caldes de Malavella\, Girona
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 21 de octubre\, cierra el 18 de noviembre.\nPrecio: 109 €.\nFicha ofi
- cial: https://www.golfdirecto.com/micro/game/6ad89a75ad3db58f4c86671c/summ
- ary\nConfirma fechas y condiciones en la web del organizador. Vía Bander
- ín.
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  21 de octubre\, cierra el 18 de noviembre.\nPrecio: 109 €.\nFicha ofici
+ al: https://www.golfdirecto.com/micro/game/6ad89a75ad3db58f4c86671c/summar
+ y\nConfirma fechas y condiciones en la web del organizador. Vía Banderín
+ .
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6ad89a75ad3db58f4c86671c/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:323a85f45df5a3d7e0ca@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:Birdie Club -Forest
 LOCATION:Emporda Golf Club\, Gualta\, Girona
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 18 de noviembre\, cierra el 24 de noviembre.\nPrecio: 75 €.\nFicha of
- icial: https://www.golfdirecto.com/micro/game/6a9a5cc45898bfbfbff5e982/sum
- mary\nConfirma fechas y condiciones en la web del organizador. Vía Bander
- ín.
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  18 de noviembre\, cierra el 24 de noviembre.\nPrecio: 75 €.\nFicha ofic
+ ial: https://www.golfdirecto.com/micro/game/6a9a5cc45898bfbfbff5e982/summa
+ ry\nConfirma fechas y condiciones en la web del organizador. Vía Banderí
+ n.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6a9a5cc45898bfbfbff5e982/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:a21edd91de4a07789bd3@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
 SUMMARY:Torneig Torremirona Real Estate
 LOCATION:Torremirona Golf Club\, Navata\, Girona
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 18 de agosto\, cierra el 25 de noviembre.\nPrecio: 60 €.\nFicha ofici
- al: https://www.golfdirecto.com/micro/game/6a8456b70d6379a1ffbae656/summar
- y\nConfirma fechas y condiciones en la web del organizador. Vía Banderín
- .
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  18 de agosto\, cierra el 25 de noviembre.\nPrecio: 60 €.\nFicha oficial
+ : https://www.golfdirecto.com/micro/game/6a8456b70d6379a1ffbae656/summary\
+ nConfirma fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6a8456b70d6379a1ffbae656/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:0f99af8d33d010504199@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:2N Torneig Black Friday
 LOCATION:Torremirona Golf Club\, Navata\, Girona
-DESCRIPTION:Social de club · Individual\nFicha oficial: https://www.catgol
- f.com/es/campeonatos/2n-torneig-black-friday-2026-11-28\nConfirma fechas y
-  condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Individual\nFicha oficial: https://www.catgolf
+ .com/es/campeonatos/2n-torneig-black-friday-2026-11-28\nConfirma fechas y 
+ condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.catgolf.com/es/campeonatos/2n-torneig-black-friday-2026-11-
@@ -241,219 +238,218 @@ URL:https://www.catgolf.com/es/campeonatos/2n-torneig-black-friday-2026-11-
 END:VEVENT
 BEGIN:VEVENT
 UID:818eb54282e16df5c0b2@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Campionat de Catalunya Interclubs Absolut 2026
 LOCATION:Golf Club Peralada\, Peralada\, Girona
-DESCRIPTION:Clubes y equipos · Foursome · Parejas\nInscripción: abre el 
- 3 de noviembre\, cierra el 24 de noviembre.\nFicha oficial: https://www.go
- lfdirecto.com/micro/game/6ae08298e85d85ec8f63b8a6/summary\nConfirma fechas
-  y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Clubes y equipos - Foursome - Parejas\nInscripción: abre el 3 
+ de noviembre\, cierra el 24 de noviembre.\nFicha oficial: https://www.golf
+ directo.com/micro/game/6ae08298e85d85ec8f63b8a6/summary\nConfirma fechas y
+  condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6ae08298e85d85ec8f63b8a6/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:dfbc5eadb9abc95c6b09@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Campionat de Catalunya Interclubs Senior
 LOCATION:Camiral\, Caldes de Malavella\, Girona
-DESCRIPTION:Senior · Greensome · Parejas\nFicha oficial: https://www.golf
- directo.com/micro/game/6ada058adf69af0f567d8e34/summary\nConfirma fechas y
-  condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Senior - Greensome - Parejas\nFicha oficial: https://www.golfdi
+ recto.com/micro/game/6ada058adf69af0f567d8e34/summary\nConfirma fechas y c
+ ondiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6ada058adf69af0f567d8e34/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:697bdeb965cc83e02723@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Campionat de Catalunya Interclubs Sènior 2026
 LOCATION:Camiral\, Caldes de Malavella\, Girona
-DESCRIPTION:Senior · Fourball · Parejas\nInscripción: abre el 3 de novie
- mbre\, cierra el 24 de noviembre.\nFicha oficial: https://www.golfdirecto.
- com/micro/game/6ae08035e85d85ec8f93ecac/summary\nConfirma fechas y condici
- ones en la web del organizador. Vía Banderín.
+DESCRIPTION:Senior - Fourball - Parejas\nInscripción: abre el 3 de noviemb
+ re\, cierra el 24 de noviembre.\nFicha oficial: https://www.golfdirecto.co
+ m/micro/game/6ae08035e85d85ec8f93ecac/summary\nConfirma fechas y condicion
+ es en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6ae08035e85d85ec8f93ecac/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:17c3b288122dc704676e@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Final Cica Golf
 LOCATION:Empordà Golf Resort\, Gualta\, Girona
-DESCRIPTION:Social de club · Individual\nFicha oficial: https://www.catgol
- f.com/es/campeonatos/final-cica-golf-2026-11-28\nConfirma fechas y condici
- ones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Individual\nFicha oficial: https://www.catgolf
+ .com/es/campeonatos/final-cica-golf-2026-11-28\nConfirma fechas y condicio
+ nes en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.catgolf.com/es/campeonatos/final-cica-golf-2026-11-28
 END:VEVENT
 BEGIN:VEVENT
 UID:5cb21f81185b6b6ab143@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261130
 SUMMARY:Final Junior & Baby Cup
 LOCATION:Empordà Golf Resort\, Gualta\, Girona
-DESCRIPTION:Juvenil · Individual\nFicha oficial: https://www.catgolf.com/e
- s/campeonatos/final-junior-baby-cup-2026-11-28\nConfirma fechas y condicio
- nes en la web del organizador. Vía Banderín.
+DESCRIPTION:Juvenil - Individual\nFicha oficial: https://www.catgolf.com/es
+ /campeonatos/final-junior-baby-cup-2026-11-28\nConfirma fechas y condicion
+ es en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.catgolf.com/es/campeonatos/final-junior-baby-cup-2026-11-28
 END:VEVENT
 BEGIN:VEVENT
 UID:dd361992d2fe83bf4a1c@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Torneo Golf Passion
 LOCATION:Fontanals Golf Club\, Fontanals de Cerdanya\, Girona
-DESCRIPTION:Social de club · Individual\nFicha oficial: https://www.catgol
- f.com/es/campeonatos/torneo-golf-passion\nConfirma fechas y condiciones en
-  la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Individual\nFicha oficial: https://www.catgolf
+ .com/es/campeonatos/torneo-golf-passion\nConfirma fechas y condiciones en 
+ la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.catgolf.com/es/campeonatos/torneo-golf-passion
 END:VEVENT
 BEGIN:VEVENT
 UID:03ba11d7168071c08f84@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Orden de Merito 2026 (Only Members)
 LOCATION:Camiral\, Caldes de Malavella\, Girona
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 16 de noviembre\, cierra el 27 de noviembre.\nPrecio: 10 €.\nFicha of
- icial: https://www.golfdirecto.com/micro/game/696256f5e888c47ef6b2a993/sum
- mary\nConfirma fechas y condiciones en la web del organizador. Vía Bander
- ín.
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  16 de noviembre\, cierra el 27 de noviembre.\nPrecio: 10 €.\nFicha ofic
+ ial: https://www.golfdirecto.com/micro/game/696256f5e888c47ef6b2a993/summa
+ ry\nConfirma fechas y condiciones en la web del organizador. Vía Banderí
+ n.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/696256f5e888c47ef6b2a993/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:f0b800af472a763745c7@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261203
 DTEND;VALUE=DATE:20261204
 SUMMARY:Torneig Torremirona Real Estate
 LOCATION:Torremirona Golf Club\, Navata\, Girona
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 18 de agosto\, cierra el 2 de diciembre.\nPrecio: 60 €.\nFicha oficia
- l: https://www.golfdirecto.com/micro/game/6a8457100d6379a1ffd1d120/summary
- \nConfirma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  18 de agosto\, cierra el 2 de diciembre.\nPrecio: 60 €.\nFicha oficial:
+  https://www.golfdirecto.com/micro/game/6a8457100d6379a1ffd1d120/summary\n
+ Confirma fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6a8457100d6379a1ffd1d120/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:ef6eb9679b279d8b0df6@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
 SUMMARY:Social Nadal 9h
 LOCATION:Emporda Golf Club\, Gualta\, Girona
-DESCRIPTION:Social de club · Greensome · Parejas\nFicha oficial: https://
- www.golfdirecto.com/micro/game/6af4748ad161f2f1b8721615/summary\nConfirma 
- fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Greensome - Parejas\nFicha oficial: https://ww
+ w.golfdirecto.com/micro/game/6af4748ad161f2f1b8721615/summary\nConfirma fe
+ chas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6af4748ad161f2f1b8721615/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:5f0717db57d0e70a22fb@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
 SUMMARY:Social de Nadal
 LOCATION:Emporda Golf Club\, Gualta\, Girona
-DESCRIPTION:Social de club · Greensome · Parejas\nInscripción: abre el 2
- 1 de noviembre\, cierra el 3 de diciembre.\nFicha oficial: https://www.gol
- fdirecto.com/micro/game/6af4750bd161f2f1b88326e9/summary\nConfirma fechas 
- y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Greensome - Parejas\nInscripción: abre el 21 
+ de noviembre\, cierra el 3 de diciembre.\nFicha oficial: https://www.golfd
+ irecto.com/micro/game/6af4750bd161f2f1b88326e9/summary\nConfirma fechas y 
+ condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6af4750bd161f2f1b88326e9/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:8190660ee88c9b47de98@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261209
 DTEND;VALUE=DATE:20261210
 SUMMARY:Birdie Club -Forest
 LOCATION:Emporda Golf Club\, Gualta\, Girona
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 2 de diciembre\, cierra el 8 de diciembre.\nPrecio: 75 €.\nFicha ofic
- ial: https://www.golfdirecto.com/micro/game/6a9a5d2b5898bfbfbf071cd0/summa
- ry\nConfirma fechas y condiciones en la web del organizador. Vía Banderí
- n.
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  2 de diciembre\, cierra el 8 de diciembre.\nPrecio: 75 €.\nFicha oficia
+ l: https://www.golfdirecto.com/micro/game/6a9a5d2b5898bfbfbf071cd0/summary
+ \nConfirma fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6a9a5d2b5898bfbfbf071cd0/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:5587c5686b9ec8c948e0@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261210
 DTEND;VALUE=DATE:20261211
 SUMMARY:Torneig Torremirona Real Estate
 LOCATION:Torremirona Golf Club\, Navata\, Girona
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 18 de agosto\, cierra el 9 de diciembre.\nPrecio: 60 €.\nFicha oficia
- l: https://www.golfdirecto.com/micro/game/6a8457f80d6379a1ff3c3195/summary
- \nConfirma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  18 de agosto\, cierra el 9 de diciembre.\nPrecio: 60 €.\nFicha oficial:
+  https://www.golfdirecto.com/micro/game/6a8457f80d6379a1ff3c3195/summary\n
+ Confirma fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6a8457f80d6379a1ff3c3195/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:414d6e7056968a7718ef@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:Birdie Especial Nadal
 LOCATION:Emporda Golf Club\, Gualta\, Girona
-DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
- s://www.golfdirecto.com/micro/game/6af475529292980794d16b2e/summary\nConfi
- rma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/6af475529292980794d16b2e/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6af475529292980794d16b2e/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:294fd66b9fef823b9e56@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:Torneig De Nadal Pals
 LOCATION:Golf de Pals\, Pals\, Girona
-DESCRIPTION:Social de club · Individual\nFicha oficial: https://www.catgol
- f.com/es/campeonatos/torneig-de-nadal-pals-2026-12-12\nConfirma fechas y c
- ondiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Individual\nFicha oficial: https://www.catgolf
+ .com/es/campeonatos/torneig-de-nadal-pals-2026-12-12\nConfirma fechas y co
+ ndiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.catgolf.com/es/campeonatos/torneig-de-nadal-pals-2026-12-12
 END:VEVENT
 BEGIN:VEVENT
 UID:2a8af5223c918f8405ef@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:Torneig Social De Nadal
 LOCATION:Empordà Golf Resort\, Gualta\, Girona
-DESCRIPTION:Social de club · Individual\nFicha oficial: https://www.catgol
- f.com/es/campeonatos/torneig-social-de-nadal-2026-12-12\nConfirma fechas y
-  condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Individual\nFicha oficial: https://www.catgolf
+ .com/es/campeonatos/torneig-social-de-nadal-2026-12-12\nConfirma fechas y 
+ condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.catgolf.com/es/campeonatos/torneig-social-de-nadal-2026-12-
@@ -461,59 +457,59 @@ URL:https://www.catgolf.com/es/campeonatos/torneig-social-de-nadal-2026-12-
 END:VEVENT
 BEGIN:VEVENT
 UID:971a452a3f48706ae856@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:Torneo Navideño
 LOCATION:Fontanals Golf Club\, Fontanals de Cerdanya\, Girona
-DESCRIPTION:Social de club · Individual\nFicha oficial: https://www.catgol
- f.com/es/campeonatos/torneo-navideno\nConfirma fechas y condiciones en la 
- web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Individual\nFicha oficial: https://www.catgolf
+ .com/es/campeonatos/torneo-navideno\nConfirma fechas y condiciones en la w
+ eb del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.catgolf.com/es/campeonatos/torneo-navideno
 END:VEVENT
 BEGIN:VEVENT
 UID:0fa24d516e8afd9352d4@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
 SUMMARY:Orden de Merito 2026 (Only Members)
 LOCATION:Camiral\, Caldes de Malavella\, Girona
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 30 de noviembre\, cierra el 11 de diciembre.\nPrecio: 10 €.\nFicha of
- icial: https://www.golfdirecto.com/micro/game/6962568ae888c47ef693c371/sum
- mary\nConfirma fechas y condiciones en la web del organizador. Vía Bander
- ín.
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  30 de noviembre\, cierra el 11 de diciembre.\nPrecio: 10 €.\nFicha ofic
+ ial: https://www.golfdirecto.com/micro/game/6962568ae888c47ef693c371/summa
+ ry\nConfirma fechas y condiciones en la web del organizador. Vía Banderí
+ n.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6962568ae888c47ef693c371/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:142992ae8a98165d8680@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261214
 DTEND;VALUE=DATE:20261215
 SUMMARY:Catprotour
 LOCATION:Emporda Golf Club\, Gualta\, Girona
-DESCRIPTION:Profesional · Medal Play · Individual\nFicha oficial: https:/
- /www.golfdirecto.com/micro/game/6af475999292980794ded6b7/summary\nConfirma
-  fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Profesional - Medal Play - Individual\nFicha oficial: https://w
+ ww.golfdirecto.com/micro/game/6af475999292980794ded6b7/summary\nConfirma f
+ echas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6af475999292980794ded6b7/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:567d0a6a52d35c892839@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261214
 DTEND;VALUE=DATE:20261216
 SUMMARY:FINAL CATPROTOUR 2026 (Empordà 14-15 dic.)
 LOCATION:Empordà Golf Resort\, Gualta\, Girona
-DESCRIPTION:Profesional · Individual\nInscripción: abre el 6 de marzo\, c
- ierra el 6 de marzo.\nFicha oficial: https://www.catgolf.com/es/campeonato
- s/final-catprotour-2026-emporda-14-15-dic-2026-12-14\nConfirma fechas y co
- ndiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Profesional - Individual\nInscripción: abre el 6 de marzo\, ci
+ erra el 6 de marzo.\nFicha oficial: https://www.catgolf.com/es/campeonatos
+ /final-catprotour-2026-emporda-14-15-dic-2026-12-14\nConfirma fechas y con
+ diciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.catgolf.com/es/campeonatos/final-catprotour-2026-emporda-14
@@ -521,328 +517,324 @@ URL:https://www.catgolf.com/es/campeonatos/final-catprotour-2026-emporda-14
 END:VEVENT
 BEGIN:VEVENT
 UID:797b582de3762d41a950@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261215
 DTEND;VALUE=DATE:20261216
 SUMMARY:Catprotour
 LOCATION:Emporda Golf Club\, Gualta\, Girona
-DESCRIPTION:Profesional · Medal Play · Individual\nFicha oficial: https:/
- /www.golfdirecto.com/micro/game/6af475bbd161f2f1b89a9caa/summary\nConfirma
-  fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Profesional - Medal Play - Individual\nFicha oficial: https://w
+ ww.golfdirecto.com/micro/game/6af475bbd161f2f1b89a9caa/summary\nConfirma f
+ echas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6af475bbd161f2f1b89a9caa/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:ff6efc28749f74278e7f@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261216
 DTEND;VALUE=DATE:20261217
 SUMMARY:Birdie Club -Dunes
 LOCATION:Emporda Golf Club\, Gualta\, Girona
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 9 de diciembre\, cierra el 15 de diciembre.\nPrecio: 75 €.\nFicha ofi
- cial: https://www.golfdirecto.com/micro/game/6a9a5dad5898bfbfbf1af378/summ
- ary\nConfirma fechas y condiciones en la web del organizador. Vía Bander
- ín.
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  9 de diciembre\, cierra el 15 de diciembre.\nPrecio: 75 €.\nFicha ofici
+ al: https://www.golfdirecto.com/micro/game/6a9a5dad5898bfbfbf1af378/summar
+ y\nConfirma fechas y condiciones en la web del organizador. Vía Banderín
+ .
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6a9a5dad5898bfbfbf1af378/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:2989cd4cdd1886f11d51@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261217
 DTEND;VALUE=DATE:20261218
 SUMMARY:Torneig Torremirona Real Estate
 LOCATION:Torremirona Golf Club\, Navata\, Girona
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 18 de agosto\, cierra el 16 de diciembre.\nPrecio: 60 €.\nFicha ofici
- al: https://www.golfdirecto.com/micro/game/6a8458090d6379a1ff3fcf36/summar
- y\nConfirma fechas y condiciones en la web del organizador. Vía Banderín
- .
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  18 de agosto\, cierra el 16 de diciembre.\nPrecio: 60 €.\nFicha oficial
+ : https://www.golfdirecto.com/micro/game/6a8458090d6379a1ff3fcf36/summary\
+ nConfirma fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6a8458090d6379a1ff3fcf36/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:698603a4d59185f8a237@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261218
 DTEND;VALUE=DATE:20261219
 SUMMARY:Bonasport
 LOCATION:Emporda Golf Club\, Gualta\, Girona
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 4 de diciembre\, cierra el 16 de diciembre.\nPrecio: 90 €.\nFicha ofi
- cial: https://www.golfdirecto.com/micro/game/6af477489292980794293b1e/summ
- ary\nConfirma fechas y condiciones en la web del organizador. Vía Bander
- ín.
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  4 de diciembre\, cierra el 16 de diciembre.\nPrecio: 90 €.\nFicha ofici
+ al: https://www.golfdirecto.com/micro/game/6af477489292980794293b1e/summar
+ y\nConfirma fechas y condiciones en la web del organizador. Vía Banderín
+ .
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6af477489292980794293b1e/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:9df715e6dae41551bda4@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261220
 SUMMARY:Christmas Tournament - Only Members
 LOCATION:Camiral\, Caldes de Malavella\, Girona
-DESCRIPTION:Circuito comercial · Fourball · Parejas\nFicha oficial: https
- ://www.golfdirecto.com/micro/game/6ada062ddf69af0f568a78f0/summary\nConfir
- ma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Circuito comercial - Fourball - Parejas\nFicha oficial: https:/
+ /www.golfdirecto.com/micro/game/6ada062ddf69af0f568a78f0/summary\nConfirma
+  fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6ada062ddf69af0f568a78f0/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:04aa33782762ce90b70d@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261220
 SUMMARY:Especial Birdie Club
 LOCATION:Empordà Golf Resort\, Gualta\, Girona
-DESCRIPTION:Social de club · Individual\nFicha oficial: https://www.catgol
- f.com/es/campeonatos/especial-birdie-club-2026-12-19\nConfirma fechas y co
- ndiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Individual\nFicha oficial: https://www.catgolf
+ .com/es/campeonatos/especial-birdie-club-2026-12-19\nConfirma fechas y con
+ diciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.catgolf.com/es/campeonatos/especial-birdie-club-2026-12-19
 END:VEVENT
 BEGIN:VEVENT
 UID:011d3fcd17cac7a8467a@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261220
 SUMMARY:Final Catalunya Promesa
 LOCATION:Golf de Pals\, Pals\, Girona
-DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
- s://www.golfdirecto.com/micro/game/693bf841be210588773d5b41/summary\nConfi
- rma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/693bf841be210588773d5b41/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/693bf841be210588773d5b41/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:9a868e8db3eb23b3cfe2@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261220
 SUMMARY:Manresa Golf
 LOCATION:Emporda Golf Club\, Gualta\, Girona
-DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
- s://www.golfdirecto.com/micro/game/6af475ecd161f2f1b8a3ee12/summary\nConfi
- rma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/6af475ecd161f2f1b8a3ee12/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6af475ecd161f2f1b8a3ee12/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:200505fa799607529630@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261220
 SUMMARY:Torneig Social Nadalenc
 LOCATION:Torremirona Golf Club\, Navata\, Girona
-DESCRIPTION:Social de club · Scramble · Parejas\nInscripción: abre el 28
-  de junio\, cierra el 18 de diciembre.\nPrecio: 200 €.\nFicha oficial: h
- ttps://www.golfdirecto.com/micro/game/6a40e1f2a44d938a9300f4ad/summary\nCo
- nfirma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Scramble - Parejas\nInscripción: abre el 28 d
+ e junio\, cierra el 18 de diciembre.\nPrecio: 200 €.\nFicha oficial: htt
+ ps://www.golfdirecto.com/micro/game/6a40e1f2a44d938a9300f4ad/summary\nConf
+ irma fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6a40e1f2a44d938a9300f4ad/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:69fc73d9ac636c058555@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261220
 SUMMARY:Torneig de Nadal
 LOCATION:Club de Golf D'Aro\, Castell-Platja d'Aro\, Girona
-DESCRIPTION:Social de club · Fourball · Parejas\nInscripción: abre el 23
-  de noviembre\, cierra el 18 de diciembre.\nPrecio: 74 €.\nFicha oficial
- : https://www.golfdirecto.com/micro/game/69a9a145bba30eff7cd47620/summary\
- nConfirma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Fourball - Parejas\nInscripción: abre el 23 d
+ e noviembre\, cierra el 18 de diciembre.\nPrecio: 74 €.\nFicha oficial: 
+ https://www.golfdirecto.com/micro/game/69a9a145bba30eff7cd47620/summary\nC
+ onfirma fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/69a9a145bba30eff7cd47620/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:0c9499b79b097168427b@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261223
 DTEND;VALUE=DATE:20261224
 SUMMARY:Birdie Club -Forest
 LOCATION:Emporda Golf Club\, Gualta\, Girona
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 16 de diciembre\, cierra el 22 de diciembre.\nPrecio: 75 €.\nFicha of
- icial: https://www.golfdirecto.com/micro/game/6a9a5e0f5898bfbfbf26fcb0/sum
- mary\nConfirma fechas y condiciones en la web del organizador. Vía Bander
- ín.
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  16 de diciembre\, cierra el 22 de diciembre.\nPrecio: 75 €.\nFicha ofic
+ ial: https://www.golfdirecto.com/micro/game/6a9a5e0f5898bfbfbf26fcb0/summa
+ ry\nConfirma fechas y condiciones en la web del organizador. Vía Banderí
+ n.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6a9a5e0f5898bfbfbf26fcb0/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:8269b240f892e9320594@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261224
 DTEND;VALUE=DATE:20261225
 SUMMARY:Torneig Torremirona Real Estate
 LOCATION:Torremirona Golf Club\, Navata\, Girona
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 18 de agosto\, cierra el 23 de diciembre.\nPrecio: 60 €.\nFicha ofici
- al: https://www.golfdirecto.com/micro/game/6a8458240d6379a1ff4d2ee1/summar
- y\nConfirma fechas y condiciones en la web del organizador. Vía Banderín
- .
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  18 de agosto\, cierra el 23 de diciembre.\nPrecio: 60 €.\nFicha oficial
+ : https://www.golfdirecto.com/micro/game/6a8458240d6379a1ff4d2ee1/summary\
+ nConfirma fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6a8458240d6379a1ff4d2ee1/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:851c36a4f74270837e75@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261226
 DTEND;VALUE=DATE:20261227
 SUMMARY:Torneig de Cap D'Any
 LOCATION:Torremirona Golf Club\, Navata\, Girona
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 18 de agosto\, cierra el 24 de diciembre.\nPrecio: 75 €.\nFicha ofici
- al: https://www.golfdirecto.com/micro/game/6a8458be4ec26de90b887833/summar
- y\nConfirma fechas y condiciones en la web del organizador. Vía Banderín
- .
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  18 de agosto\, cierra el 24 de diciembre.\nPrecio: 75 €.\nFicha oficial
+ : https://www.golfdirecto.com/micro/game/6a8458be4ec26de90b887833/summary\
+ nConfirma fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6a8458be4ec26de90b887833/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:0beccd50505b92558cf4@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261227
 DTEND;VALUE=DATE:20261228
 SUMMARY:End Of The Year - Members + Residents
 LOCATION:Camiral\, Caldes de Malavella\, Girona
-DESCRIPTION:Social de club · Scramble · Parejas\nFicha oficial: https://w
- ww.golfdirecto.com/micro/game/6ada06addf69af0f5695f0a1/summary\nConfirma f
- echas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Scramble - Parejas\nFicha oficial: https://www
+ .golfdirecto.com/micro/game/6ada06addf69af0f5695f0a1/summary\nConfirma fec
+ has y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6ada06addf69af0f5695f0a1/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:a4031ddea794eae4b15b@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261228
 DTEND;VALUE=DATE:20261229
 SUMMARY:Camiral Cup - Sants Innocents
 LOCATION:Camiral\, Caldes de Malavella\, Girona
-DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
- s://www.golfdirecto.com/micro/game/6ada070edf69af0f569b03d8/summary\nConfi
- rma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/6ada070edf69af0f569b03d8/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6ada070edf69af0f569b03d8/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:677f9875eb8a10d85401@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261230
 DTEND;VALUE=DATE:20261231
 SUMMARY:Birdie Club -Dunes
 LOCATION:Emporda Golf Club\, Gualta\, Girona
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 23 de diciembre\, cierra el 29 de diciembre.\nPrecio: 75 €.\nFicha of
- icial: https://www.golfdirecto.com/micro/game/6a9a5e5801bb3f0088fd9410/sum
- mary\nConfirma fechas y condiciones en la web del organizador. Vía Bander
- ín.
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  23 de diciembre\, cierra el 29 de diciembre.\nPrecio: 75 €.\nFicha ofic
+ ial: https://www.golfdirecto.com/micro/game/6a9a5e5801bb3f0088fd9410/summa
+ ry\nConfirma fechas y condiciones en la web del organizador. Vía Banderí
+ n.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6a9a5e5801bb3f0088fd9410/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:c309b76131959ec48157@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261231
 DTEND;VALUE=DATE:20270101
 SUMMARY:Torneig Torremirona Real Estate
 LOCATION:Torremirona Golf Club\, Navata\, Girona
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 18 de agosto\, cierra el 30 de diciembre.\nPrecio: 60 €.\nFicha ofici
- al: https://www.golfdirecto.com/micro/game/6a8458490d6379a1ff5d8a32/summar
- y\nConfirma fechas y condiciones en la web del organizador. Vía Banderín
- .
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  18 de agosto\, cierra el 30 de diciembre.\nPrecio: 60 €.\nFicha oficial
+ : https://www.golfdirecto.com/micro/game/6a8458490d6379a1ff5d8a32/summary\
+ nConfirma fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6a8458490d6379a1ff5d8a32/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:cbe832c151b346e5bc9a@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20270106
 DTEND;VALUE=DATE:20270107
 SUMMARY:Birdie Club
 LOCATION:Emporda Golf Club\, Gualta\, Girona
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 30 de diciembre\, cierra el 5 de enero.\nFicha oficial: https://www.gol
- fdirecto.com/micro/game/6af06d3667a73a9c34ffec74/summary\nConfirma fechas 
- y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  30 de diciembre\, cierra el 5 de enero.\nFicha oficial: https://www.golfd
+ irecto.com/micro/game/6af06d3667a73a9c34ffec74/summary\nConfirma fechas y 
+ condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6af06d3667a73a9c34ffec74/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:1096d5411266ba12e136@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20270109
 DTEND;VALUE=DATE:20270110
 SUMMARY:Circuit Nacional de 5ª Categoria
 LOCATION:Emporda Golf Club\, Gualta\, Girona
-DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
- s://www.golfdirecto.com/micro/game/6af473f2d161f2f1b85d4ddc/summary\nConfi
- rma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/6af473f2d161f2f1b85d4ddc/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6af473f2d161f2f1b85d4ddc/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:958a9e634e635e2156df@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20270110
 DTEND;VALUE=DATE:20270111
 SUMMARY:Circuit Nacional de 5ª Categoria
 LOCATION:Emporda Golf Club\, Gualta\, Girona
-DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
- s://www.golfdirecto.com/micro/game/6af4740cd161f2f1b861d8eb/summary\nConfi
- rma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/6af4740cd161f2f1b861d8eb/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6af4740cd161f2f1b861d8eb/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:4ce52782f4847d764310@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20270113
 DTEND;VALUE=DATE:20270114
 SUMMARY:Birdie Club
 LOCATION:Emporda Golf Club\, Gualta\, Girona
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 6 de enero\, cierra el 12 de enero.\nFicha oficial: https://www.golfdir
- ecto.com/micro/game/6af06d5567a73a9c341337d5/summary\nConfirma fechas y co
- ndiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  6 de enero\, cierra el 12 de enero.\nFicha oficial: https://www.golfdirec
+ to.com/micro/game/6af06d5567a73a9c341337d5/summary\nConfirma fechas y cond
+ iciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6af06d5567a73a9c341337d5/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:264827dccbf0fee3c82f@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20270116
 DTEND;VALUE=DATE:20270118
 SUMMARY:Circuit Nacional 5a Categoria 2027 (Pals)
 LOCATION:Golf de Pals\, Pals\, Girona
-DESCRIPTION:Absoluto · Individual\nFicha oficial: https://www.catgolf.com/
- es/campeonatos/circuit-nacional-5a-categoria-2027-pals-2027-01-16\nConfirm
- a fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Absoluto - Individual\nFicha oficial: https://www.catgolf.com/e
+ s/campeonatos/circuit-nacional-5a-categoria-2027-pals-2027-01-16\nConfirma
+  fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.catgolf.com/es/campeonatos/circuit-nacional-5a-categoria-20
@@ -850,29 +842,29 @@ URL:https://www.catgolf.com/es/campeonatos/circuit-nacional-5a-categoria-20
 END:VEVENT
 BEGIN:VEVENT
 UID:bf8dff1fa3fda9dae2c9@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20270120
 DTEND;VALUE=DATE:20270121
 SUMMARY:Birdie Club
 LOCATION:Emporda Golf Club\, Gualta\, Girona
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 13 de enero\, cierra el 19 de enero.\nFicha oficial: https://www.golfdi
- recto.com/micro/game/6af06d8ce0349cc290450ce7/summary\nConfirma fechas y c
- ondiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  13 de enero\, cierra el 19 de enero.\nFicha oficial: https://www.golfdire
+ cto.com/micro/game/6af06d8ce0349cc290450ce7/summary\nConfirma fechas y con
+ diciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6af06d8ce0349cc290450ce7/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:dac8f079f372d9d6c0fc@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20270123
 DTEND;VALUE=DATE:20270125
 SUMMARY:Campionat de Catalunya Dobles Absolut 2027
 LOCATION:Camiral\, Caldes de Malavella\, Girona
-DESCRIPTION:Absoluto · Parejas\nFicha oficial: https://www.catgolf.com/es/
- campeonatos/campionat-de-catalunya-dobles-absolut-2027-2027-01-23\nConfirm
- a fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Absoluto - Parejas\nFicha oficial: https://www.catgolf.com/es/c
+ ampeonatos/campionat-de-catalunya-dobles-absolut-2027-2027-01-23\nConfirma
+  fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.catgolf.com/es/campeonatos/campionat-de-catalunya-dobles-ab
@@ -880,126 +872,126 @@ URL:https://www.catgolf.com/es/campeonatos/campionat-de-catalunya-dobles-ab
 END:VEVENT
 BEGIN:VEVENT
 UID:b04f0ef6156f80d158da@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20270129
 DTEND;VALUE=DATE:20270130
 SUMMARY:Cica Golf
 LOCATION:Emporda Golf Club\, Gualta\, Girona
-DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
- s://www.golfdirecto.com/micro/game/6af471b092929807943b0d74/summary\nConfi
- rma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/6af471b092929807943b0d74/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6af471b092929807943b0d74/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:725029f6a75c319bc818@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20270129
 DTEND;VALUE=DATE:20270130
 SUMMARY:Cica Golf (Fourball)
 LOCATION:Emporda Golf Club\, Gualta\, Girona
-DESCRIPTION:Social de club · Fourball · Parejas\nFicha oficial: https://w
- ww.golfdirecto.com/micro/game/6af4715292929807942e3cd9/summary\nConfirma f
- echas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Fourball - Parejas\nFicha oficial: https://www
+ .golfdirecto.com/micro/game/6af4715292929807942e3cd9/summary\nConfirma fec
+ has y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6af4715292929807942e3cd9/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:d46447ae02ff17e7f41b@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20270130
 DTEND;VALUE=DATE:20270131
 SUMMARY:Cica Golf
 LOCATION:Emporda Golf Club\, Gualta\, Girona
-DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
- s://www.golfdirecto.com/micro/game/6af471cb929298079441fa31/summary\nConfi
- rma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/6af471cb929298079441fa31/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6af471cb929298079441fa31/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:95141cd70702347b0b05@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20270130
 DTEND;VALUE=DATE:20270131
 SUMMARY:Cica Golf (Fourball)
 LOCATION:Emporda Golf Club\, Gualta\, Girona
-DESCRIPTION:Social de club · Fourball · Parejas\nFicha oficial: https://w
- ww.golfdirecto.com/micro/game/6af471739292980794322eff/summary\nConfirma f
- echas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Fourball - Parejas\nFicha oficial: https://www
+ .golfdirecto.com/micro/game/6af471739292980794322eff/summary\nConfirma fec
+ has y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6af471739292980794322eff/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:e70504452417dc151f50@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20270131
 DTEND;VALUE=DATE:20270201
 SUMMARY:Cica Golf
 LOCATION:Emporda Golf Club\, Gualta\, Girona
-DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
- s://www.golfdirecto.com/micro/game/6af471e9d161f2f1b805e020/summary\nConfi
- rma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/6af471e9d161f2f1b805e020/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6af471e9d161f2f1b805e020/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:b62735819f7b77f948c2@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20270131
 DTEND;VALUE=DATE:20270201
 SUMMARY:Cica Golf (Fourball)
 LOCATION:Emporda Golf Club\, Gualta\, Girona
-DESCRIPTION:Social de club · Fourball · Parejas\nFicha oficial: https://w
- ww.golfdirecto.com/micro/game/6af471919292980794364fdd/summary\nConfirma f
- echas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Fourball - Parejas\nFicha oficial: https://www
+ .golfdirecto.com/micro/game/6af471919292980794364fdd/summary\nConfirma fec
+ has y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6af471919292980794364fdd/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:4b763ea56c3aaab9cbda@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20270201
 DTEND;VALUE=DATE:20270202
 SUMMARY:Cat ProTour 2027
 LOCATION:Club de Golf D'Aro\, Castell-Platja d'Aro\, Girona
-DESCRIPTION:Circuito comercial · Medal Play · Individual\nFicha oficial: 
- https://www.golfdirecto.com/micro/game/6ae3461de9762da1ae315088/summary\nC
- onfirma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Circuito comercial - Medal Play - Individual\nFicha oficial: ht
+ tps://www.golfdirecto.com/micro/game/6ae3461de9762da1ae315088/summary\nCon
+ firma fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6ae3461de9762da1ae315088/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:157b72c44e725d792e36@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20270203
 DTEND;VALUE=DATE:20270204
 SUMMARY:Birdie Club
 LOCATION:Emporda Golf Club\, Gualta\, Girona
-DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
- s://www.golfdirecto.com/micro/game/6af06e00e0349cc2908fd22a/summary\nConfi
- rma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/6af06e00e0349cc2908fd22a/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6af06e00e0349cc2908fd22a/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:ab20e66da54916a1e168@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20270206
 DTEND;VALUE=DATE:20270208
 SUMMARY:Circuit Nacional 5a Categoria 2027 (Costa Brava)
 LOCATION:Club de Golf Costa Brava\, Santa Cristina D Aro\, Girona
-DESCRIPTION:Absoluto · Individual\nFicha oficial: https://www.catgolf.com/
- es/campeonatos/circuit-nacional-5a-categoria-2027-costa-brava-2027-02-06\n
- Confirma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Absoluto - Individual\nFicha oficial: https://www.catgolf.com/e
+ s/campeonatos/circuit-nacional-5a-categoria-2027-costa-brava-2027-02-06\nC
+ onfirma fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.catgolf.com/es/campeonatos/circuit-nacional-5a-categoria-20
@@ -1007,57 +999,57 @@ URL:https://www.catgolf.com/es/campeonatos/circuit-nacional-5a-categoria-20
 END:VEVENT
 BEGIN:VEVENT
 UID:286baf0b6a541c5fe267@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20270210
 DTEND;VALUE=DATE:20270219
 SUMMARY:Wintyer Series
 LOCATION:Emporda Golf Club\, Gualta\, Girona
-DESCRIPTION:Circuito comercial · Medal Play · Individual\nFicha oficial: 
- https://www.golfdirecto.com/micro/game/6af5de5c8d4229260f8db217/summary\nC
- onfirma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Circuito comercial - Medal Play - Individual\nFicha oficial: ht
+ tps://www.golfdirecto.com/micro/game/6af5de5c8d4229260f8db217/summary\nCon
+ firma fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6af5de5c8d4229260f8db217/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:03fa631db1ac6223af63@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20270220
 DTEND;VALUE=DATE:20270222
 SUMMARY:Grand Prix Senior
 LOCATION:Emporda Golf Club\, Gualta\, Girona
-DESCRIPTION:Senior · Medal Play · Individual\nInscripción: cierra el 11 
- de noviembre.\nFicha oficial: https://www.golfdirecto.com/micro/game/6af5d
- 809a1e39bb384eaa76d/summary\nConfirma fechas y condiciones en la web del o
- rganizador. Vía Banderín.
+DESCRIPTION:Senior - Medal Play - Individual\nInscripción: cierra el 11 de
+  noviembre.\nFicha oficial: https://www.golfdirecto.com/micro/game/6af5d80
+ 9a1e39bb384eaa76d/summary\nConfirma fechas y condiciones en la web del org
+ anizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6af5d809a1e39bb384eaa76d/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:5bbfc7ba778e7b8a4241@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20270224
 DTEND;VALUE=DATE:20270225
 SUMMARY:Birdie Club
 LOCATION:Emporda Golf Club\, Gualta\, Girona
-DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
- s://www.golfdirecto.com/micro/game/6af06e1f67a73a9c34813ffc/summary\nConfi
- rma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/6af06e1f67a73a9c34813ffc/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6af06e1f67a73a9c34813ffc/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:cdfb4401dd98631fa74e@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20270227
 DTEND;VALUE=DATE:20270301
 SUMMARY:Circuit Nacional 5a Categoria 2027 (Perelada)
 LOCATION:Perelada Golf\, Peralada\, Girona
-DESCRIPTION:Absoluto · Individual\nFicha oficial: https://www.catgolf.com/
- es/campeonatos/circuit-nacional-5a-categoria-2027-perelada-2027-02-27\nCon
- firma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Absoluto - Individual\nFicha oficial: https://www.catgolf.com/e
+ s/campeonatos/circuit-nacional-5a-categoria-2027-perelada-2027-02-27\nConf
+ irma fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.catgolf.com/es/campeonatos/circuit-nacional-5a-categoria-20
@@ -1065,56 +1057,56 @@ URL:https://www.catgolf.com/es/campeonatos/circuit-nacional-5a-categoria-20
 END:VEVENT
 BEGIN:VEVENT
 UID:28c511ec690bcda78daf@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20270302
 DTEND;VALUE=DATE:20270305
 SUMMARY:Global Junior Golf
 LOCATION:Emporda Golf Club\, Gualta\, Girona
-DESCRIPTION:Juvenil · Medal Play · Individual\nFicha oficial: https://www
- .golfdirecto.com/micro/game/6af5e06b8d4229260fd8d891/summary\nConfirma fec
- has y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Juvenil - Medal Play - Individual\nFicha oficial: https://www.g
+ olfdirecto.com/micro/game/6af5e06b8d4229260fd8d891/summary\nConfirma fecha
+ s y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6af5e06b8d4229260fd8d891/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:21a6b28971b5a684a924@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20270303
 DTEND;VALUE=DATE:20270304
 SUMMARY:Birdie Club
 LOCATION:Emporda Golf Club\, Gualta\, Girona
-DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
- s://www.golfdirecto.com/micro/game/6af06e3f67a73a9c349e4955/summary\nConfi
- rma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/6af06e3f67a73a9c349e4955/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6af06e3f67a73a9c349e4955/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:d7915c4e7a613de11f19@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20270310
 DTEND;VALUE=DATE:20270311
 SUMMARY:Birdie Club
 LOCATION:Emporda Golf Club\, Gualta\, Girona
-DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
- s://www.golfdirecto.com/micro/game/6af06e5be0349cc290c33645/summary\nConfi
- rma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/6af06e5be0349cc290c33645/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6af06e5be0349cc290c33645/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:5e1c31dc24a883be8f7d@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20270315
 DTEND;VALUE=DATE:20270316
 SUMMARY:CATPROTOUR 2027 (Perelada)
 LOCATION:Perelada Golf\, Peralada\, Girona
-DESCRIPTION:Profesional · Individual\nFicha oficial: https://www.catgolf.c
- om/es/campeonatos/catprotour-2027-perelada-2027-03-15\nConfirma fechas y c
- ondiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Profesional - Individual\nFicha oficial: https://www.catgolf.co
+ m/es/campeonatos/catprotour-2027-perelada-2027-03-15\nConfirma fechas y co
+ ndiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.catgolf.com/es/campeonatos/catprotour-2027-perelada-2027-03
@@ -1122,84 +1114,84 @@ URL:https://www.catgolf.com/es/campeonatos/catprotour-2027-perelada-2027-03
 END:VEVENT
 BEGIN:VEVENT
 UID:d5eed2e9c37dfd266a18@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20270317
 DTEND;VALUE=DATE:20270318
 SUMMARY:Birdie Club
 LOCATION:Emporda Golf Club\, Gualta\, Girona
-DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
- s://www.golfdirecto.com/micro/game/6af06e74e0349cc290d4ea71/summary\nConfi
- rma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/6af06e74e0349cc290d4ea71/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6af06e74e0349cc290d4ea71/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:27fa3aef8cdf3abb2b62@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20270324
 DTEND;VALUE=DATE:20270325
 SUMMARY:Birdie Club
 LOCATION:Emporda Golf Club\, Gualta\, Girona
-DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
- s://www.golfdirecto.com/micro/game/6af06ecf67a73a9c3408cea4/summary\nConfi
- rma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/6af06ecf67a73a9c3408cea4/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6af06ecf67a73a9c3408cea4/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:ce4d9f7d4bf61084c4be@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20270326
 DTEND;VALUE=DATE:20270327
 SUMMARY:Torneo J. J. Calderon
 LOCATION:Emporda Golf Club\, Gualta\, Girona
-DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
- s://www.golfdirecto.com/micro/game/6af5e2a28d4229260f51bfe2/summary\nConfi
- rma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/6af5e2a28d4229260f51bfe2/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6af5e2a28d4229260f51bfe2/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:1281030de6b9b5f3dec6@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20270328
 DTEND;VALUE=DATE:20270329
 SUMMARY:Gran Torneig de Pasqua
 LOCATION:Emporda Golf Club\, Gualta\, Girona
-DESCRIPTION:Social de club · Fourball · Parejas\nFicha oficial: https://w
- ww.golfdirecto.com/micro/game/6af5e2d9a1e39bb3843c911a/summary\nConfirma f
- echas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Fourball - Parejas\nFicha oficial: https://www
+ .golfdirecto.com/micro/game/6af5e2d9a1e39bb3843c911a/summary\nConfirma fec
+ has y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6af5e2d9a1e39bb3843c911a/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:a02ad16c49686acccbcd@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20270331
 DTEND;VALUE=DATE:20270401
 SUMMARY:Birdie Club
 LOCATION:Emporda Golf Club\, Gualta\, Girona
-DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
- s://www.golfdirecto.com/micro/game/6af06eec67a73a9c341d68cf/summary\nConfi
- rma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/6af06eec67a73a9c341d68cf/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6af06eec67a73a9c341d68cf/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:3be2bc62e7fd79338582@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20270403
 DTEND;VALUE=DATE:20270405
 SUMMARY:Campionat de Catalunya Mid-Amateur 2027
 LOCATION:Club de Golf Costa Brava\, Santa Cristina D Aro\, Girona
-DESCRIPTION:Mid-Amateur · Individual\nFicha oficial: https://www.catgolf.c
- om/es/campeonatos/campionat-de-catalunya-mid-amateur-2027-2027-04-03\nConf
- irma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Mid-Amateur - Individual\nFicha oficial: https://www.catgolf.co
+ m/es/campeonatos/campionat-de-catalunya-mid-amateur-2027-2027-04-03\nConfi
+ rma fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.catgolf.com/es/campeonatos/campionat-de-catalunya-mid-amate
@@ -1207,70 +1199,70 @@ URL:https://www.catgolf.com/es/campeonatos/campionat-de-catalunya-mid-amate
 END:VEVENT
 BEGIN:VEVENT
 UID:f5e120e3b41d0f8c0454@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20270409
 DTEND;VALUE=DATE:20270410
 SUMMARY:Galaxy Golf
 LOCATION:Emporda Golf Club\, Gualta\, Girona
-DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
- s://www.golfdirecto.com/micro/game/6af86539ef4584c21c4073f0/summary\nConfi
- rma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/6af86539ef4584c21c4073f0/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6af86539ef4584c21c4073f0/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:dc2524fbfaafb99b4177@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20270410
 DTEND;VALUE=DATE:20270411
 SUMMARY:Galaxy Golf
 LOCATION:Emporda Golf Club\, Gualta\, Girona
-DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
- s://www.golfdirecto.com/micro/game/6af86584535859a5fb674073/summary\nConfi
- rma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/6af86584535859a5fb674073/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6af86584535859a5fb674073/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:25e4e6bf1b5271a3df25@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20270411
 DTEND;VALUE=DATE:20270412
 SUMMARY:Galaxy Golf
 LOCATION:Emporda Golf Club\, Gualta\, Girona
-DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
- s://www.golfdirecto.com/micro/game/6af865ba535859a5fb7936cd/summary\nConfi
- rma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/6af865ba535859a5fb7936cd/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6af865ba535859a5fb7936cd/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:fbb253cbb1f5c7141d34@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20270414
 DTEND;VALUE=DATE:20270415
 SUMMARY:31è Quadragular Femení de Catalunya 2027
 LOCATION:Emporda Golf Club\, Gualta\, Girona
-DESCRIPTION:Social de club · Fourball · Parejas\nFicha oficial: https://w
- ww.golfdirecto.com/micro/game/6af8683f535859a5fb2a2560/summary\nConfirma f
- echas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Fourball - Parejas\nFicha oficial: https://www
+ .golfdirecto.com/micro/game/6af8683f535859a5fb2a2560/summary\nConfirma fec
+ has y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6af8683f535859a5fb2a2560/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:0569ecf840abd9fd8320@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20270419
 DTEND;VALUE=DATE:20270421
 SUMMARY:CATPROTOUR DOBLES 2027 (Fontanals)
 LOCATION:Fontanals Golf Club\, Fontanals de Cerdanya\, Girona
-DESCRIPTION:Profesional · Parejas\nFicha oficial: https://www.catgolf.com/
- es/campeonatos/catprotour-dobles-2027-fontanals-2027-04-19\nConfirma fecha
- s y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Profesional - Parejas\nFicha oficial: https://www.catgolf.com/e
+ s/campeonatos/catprotour-dobles-2027-fontanals-2027-04-19\nConfirma fechas
+  y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.catgolf.com/es/campeonatos/catprotour-dobles-2027-fontanals
@@ -1278,14 +1270,14 @@ URL:https://www.catgolf.com/es/campeonatos/catprotour-dobles-2027-fontanals
 END:VEVENT
 BEGIN:VEVENT
 UID:051aaab6e2c273a837ce@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20270605
 DTEND;VALUE=DATE:20270607
 SUMMARY:Circuit Nacional 5a Categoria 2027 (Costa Brava)
 LOCATION:Club de Golf Costa Brava\, Santa Cristina D Aro\, Girona
-DESCRIPTION:Absoluto · Individual\nFicha oficial: https://www.catgolf.com/
- es/campeonatos/circuit-nacional-5a-categoria-2027-costa-brava-2027-06-05\n
- Confirma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Absoluto - Individual\nFicha oficial: https://www.catgolf.com/e
+ s/campeonatos/circuit-nacional-5a-categoria-2027-costa-brava-2027-06-05\nC
+ onfirma fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.catgolf.com/es/campeonatos/circuit-nacional-5a-categoria-20
@@ -1293,14 +1285,14 @@ URL:https://www.catgolf.com/es/campeonatos/circuit-nacional-5a-categoria-20
 END:VEVENT
 BEGIN:VEVENT
 UID:b371b24e6168b6f11024@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20270612
 DTEND;VALUE=DATE:20270614
 SUMMARY:Circuit Nacional 5a Categoria 2027 (Camprodon)
 LOCATION:Club de Golf Camprodon\, Camprodon\, Girona
-DESCRIPTION:Absoluto · Individual\nFicha oficial: https://www.catgolf.com/
- es/campeonatos/circuit-nacional-5a-categoria-2027-camprodon-2027-06-12\nCo
- nfirma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Absoluto - Individual\nFicha oficial: https://www.catgolf.com/e
+ s/campeonatos/circuit-nacional-5a-categoria-2027-camprodon-2027-06-12\nCon
+ firma fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.catgolf.com/es/campeonatos/circuit-nacional-5a-categoria-20
@@ -1308,14 +1300,14 @@ URL:https://www.catgolf.com/es/campeonatos/circuit-nacional-5a-categoria-20
 END:VEVENT
 BEGIN:VEVENT
 UID:34c0605dacf8c3a04a01@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20270619
 DTEND;VALUE=DATE:20270620
 SUMMARY:Circuit Nacional 5a Categoria 2027 (Cerdaña)
 LOCATION:Real Club de Golf de Cerdaña\, Puigcerda\, Girona
-DESCRIPTION:Absoluto · Individual\nFicha oficial: https://www.catgolf.com/
- es/campeonatos/circuit-nacional-5a-categoria-2027-cerdana-2027-06-19\nConf
- irma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Absoluto - Individual\nFicha oficial: https://www.catgolf.com/e
+ s/campeonatos/circuit-nacional-5a-categoria-2027-cerdana-2027-06-19\nConfi
+ rma fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.catgolf.com/es/campeonatos/circuit-nacional-5a-categoria-20
@@ -1323,14 +1315,14 @@ URL:https://www.catgolf.com/es/campeonatos/circuit-nacional-5a-categoria-20
 END:VEVENT
 BEGIN:VEVENT
 UID:b7e5f5426a6e2e886015@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20270703
 DTEND;VALUE=DATE:20270705
 SUMMARY:Circuit Nacional 5a Categoria 2027 (Torremirona)
 LOCATION:Torremirona Golf Club\, Navata\, Girona
-DESCRIPTION:Absoluto · Individual\nFicha oficial: https://www.catgolf.com/
- es/campeonatos/circuit-nacional-5a-categoria-2027-torremirona-2027-07-03\n
- Confirma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Absoluto - Individual\nFicha oficial: https://www.catgolf.com/e
+ s/campeonatos/circuit-nacional-5a-categoria-2027-torremirona-2027-07-03\nC
+ onfirma fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.catgolf.com/es/campeonatos/circuit-nacional-5a-categoria-20
@@ -1338,42 +1330,42 @@ URL:https://www.catgolf.com/es/campeonatos/circuit-nacional-5a-categoria-20
 END:VEVENT
 BEGIN:VEVENT
 UID:09d4267c995d9a335640@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20270704
 DTEND;VALUE=DATE:20270705
 SUMMARY:Birdie Summer
 LOCATION:Emporda Golf Club\, Gualta\, Girona
-DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
- s://www.golfdirecto.com/micro/game/6a86dcd981e2448787dd54ac/summary\nConfi
- rma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/6a86dcd981e2448787dd54ac/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6a86dcd981e2448787dd54ac/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:ead8832d733ddae955a8@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20270711
 DTEND;VALUE=DATE:20270712
 SUMMARY:Birdie Summer
 LOCATION:Emporda Golf Club\, Gualta\, Girona
-DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
- s://www.golfdirecto.com/micro/game/6a86dd1881e2448787f3360d/summary\nConfi
- rma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/6a86dd1881e2448787f3360d/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6a86dd1881e2448787f3360d/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:064afd8f19e74c252188@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20271002
 DTEND;VALUE=DATE:20271004
 SUMMARY:Campionat de Catalunya Interclubs Boys & Girls 2027
 LOCATION:Empordà Golf Resort\, Gualta\, Girona
-DESCRIPTION:Juvenil · Equipos\nFicha oficial: https://www.catgolf.com/es/c
- ampeonatos/campionat-de-catalunya-interclubs-boys-girls-2027-2027-10-02\nC
- onfirma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Juvenil - Equipos\nFicha oficial: https://www.catgolf.com/es/ca
+ mpeonatos/campionat-de-catalunya-interclubs-boys-girls-2027-2027-10-02\nCo
+ nfirma fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.catgolf.com/es/campeonatos/campionat-de-catalunya-interclub

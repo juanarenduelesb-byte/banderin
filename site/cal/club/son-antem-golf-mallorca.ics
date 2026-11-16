@@ -3,7 +3,7 @@ VERSION:2.0
 PRODID:-//Banderin//Torneos de golf//ES
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:Banderín · Son Antem Golf Mallorca
+X-WR-CALNAME:Banderín - Son Antem Golf Mallorca
 X-WR-CALDESC:Torneos de golf: Son Antem Golf Mallorca. Se actualiza cada ma
  ñana. https://banderin.es
 X-WR-TIMEZONE:Europe/Madrid
@@ -11,74 +11,73 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:f18a5a1d32d8c6f6d277@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:VIII Prueba Liga Social 2026
 LOCATION:Son Antem Golf Mallorca\, Llucmajor\, Illes Balears
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 15 de octubre\, cierra el 27 de noviembre.\nPrecio: 10 €.\nFicha ofic
- ial: https://www.golfdirecto.com/micro/game/692eb14b07280dd3ed35b617/summa
- ry\nConfirma fechas y condiciones en la web del organizador. Vía Banderí
- n.
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  15 de octubre\, cierra el 27 de noviembre.\nPrecio: 10 €.\nFicha oficia
+ l: https://www.golfdirecto.com/micro/game/692eb14b07280dd3ed35b617/summary
+ \nConfirma fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/692eb14b07280dd3ed35b617/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:a84fa35b22e95d5c23db@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:The New Corporate Balearhouse 2026 - 2027
 LOCATION:Son Antem Golf Mallorca\, Llucmajor\, Illes Balears
-DESCRIPTION:Social de club · Fourball · Parejas\nFicha oficial: https://w
- ww.golfdirecto.com/micro/game/6adf1ce6b0e08ac015fb8a37/summary\nConfirma f
- echas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Fourball - Parejas\nFicha oficial: https://www
+ .golfdirecto.com/micro/game/6adf1ce6b0e08ac015fb8a37/summary\nConfirma fec
+ has y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6adf1ce6b0e08ac015fb8a37/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:86d39e7a4ead38b68d2a@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261220
 SUMMARY:Torneo Social de Navidad 2026
 LOCATION:Son Antem Golf Mallorca\, Llucmajor\, Illes Balears
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 13 de noviembre\, cierra el 17 de diciembre.\nPrecio: 40 €.\nFicha of
- icial: https://www.golfdirecto.com/micro/game/6ad093177fca7abedc79f57c/sum
- mary\nConfirma fechas y condiciones en la web del organizador. Vía Bander
- ín.
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  13 de noviembre\, cierra el 17 de diciembre.\nPrecio: 40 €.\nFicha ofic
+ ial: https://www.golfdirecto.com/micro/game/6ad093177fca7abedc79f57c/summa
+ ry\nConfirma fechas y condiciones en la web del organizador. Vía Banderí
+ n.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6ad093177fca7abedc79f57c/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:d705df384d86ff38cdfa@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20270109
 DTEND;VALUE=DATE:20270110
 SUMMARY:The New Corporate Balearhouse 2026 - 2027
 LOCATION:Son Antem Golf Mallorca\, Llucmajor\, Illes Balears
-DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
- s://www.golfdirecto.com/micro/game/6adf740eb0e08ac0153a200e/summary\nConfi
- rma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/6adf740eb0e08ac0153a200e/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6adf740eb0e08ac0153a200e/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:1d32a440b78cecce4707@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20270123
 DTEND;VALUE=DATE:20270124
 SUMMARY:The New Corporate Balearhouse 2026 - 2027
 LOCATION:Son Antem Golf Mallorca\, Llucmajor\, Illes Balears
-DESCRIPTION:Social de club · Fourball · Parejas\nFicha oficial: https://w
- ww.golfdirecto.com/micro/game/6adf789bb0e08ac0152fec12/summary\nConfirma f
- echas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Fourball - Parejas\nFicha oficial: https://www
+ .golfdirecto.com/micro/game/6adf789bb0e08ac0152fec12/summary\nConfirma fec
+ has y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6adf789bb0e08ac0152fec12/summary

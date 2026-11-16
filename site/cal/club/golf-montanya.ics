@@ -3,7 +3,7 @@ VERSION:2.0
 PRODID:-//Banderin//Torneos de golf//ES
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:Banderín · Golf Montanyà
+X-WR-CALNAME:Banderín - Golf Montanyà
 X-WR-CALDESC:Torneos de golf: Golf Montanyà. Se actualiza cada mañana. ht
  tps://banderin.es
 X-WR-TIMEZONE:Europe/Madrid
@@ -11,28 +11,28 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:d872b5040267115d04cb@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261124
 DTEND;VALUE=DATE:20261125
 SUMMARY:Club Me Gusta 2026
 LOCATION:Golf Montanyà\, El Brull\, Barcelona
-DESCRIPTION:Social de club · Individual\nFicha oficial: https://www.catgol
- f.com/es/campeonatos/club-me-gusta-2026-2026-11-24\nConfirma fechas y cond
- iciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Individual\nFicha oficial: https://www.catgolf
+ .com/es/campeonatos/club-me-gusta-2026-2026-11-24\nConfirma fechas y condi
+ ciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.catgolf.com/es/campeonatos/club-me-gusta-2026-2026-11-24
 END:VEVENT
 BEGIN:VEVENT
 UID:7a9da7425b423058cb79@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:Torneig Social Escudella&Carn D'Olla
 LOCATION:Golf Montanyà\, El Brull\, Barcelona
-DESCRIPTION:Social de club · Individual\nFicha oficial: https://www.catgol
- f.com/es/campeonatos/torneig-social-escudellacarn-dolla-2026-12-12\nConfir
- ma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Individual\nFicha oficial: https://www.catgolf
+ .com/es/campeonatos/torneig-social-escudellacarn-dolla-2026-12-12\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.catgolf.com/es/campeonatos/torneig-social-escudellacarn-dol

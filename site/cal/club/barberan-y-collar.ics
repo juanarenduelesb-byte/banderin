@@ -3,7 +3,7 @@ VERSION:2.0
 PRODID:-//Banderin//Torneos de golf//ES
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:Banderín · Barberan y Collar
+X-WR-CALNAME:Banderín - Barberan y Collar
 X-WR-CALDESC:Torneos de golf: Barberan y Collar. Se actualiza cada mañana.
   https://banderin.es
 X-WR-TIMEZONE:Europe/Madrid
@@ -11,74 +11,74 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:d36c04542e4a949cb928@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 SUMMARY:Jaime Gross
 LOCATION:Barberan y Collar\, Madrid\, Madrid
-DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
- s://www.golfdirecto.com/micro/game/6af41129713f44da33ab1846/summary\nConfi
- rma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/6af41129713f44da33ab1846/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6af41129713f44da33ab1846/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:e320641803fc25d60f66@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:Torneo Social ¨ Orden de Merito ¨ Noviembre 2026
 LOCATION:Barberan y Collar\, Madrid\, Madrid
-DESCRIPTION:Social de club · Medal Play · Individual\nInscripción: abre 
- el 7 de noviembre\, cierra el 18 de noviembre.\nPrecio: 10 €.\nFicha ofi
- cial: https://www.golfdirecto.com/micro/game/6977a519393debfc1bd32cb4/summ
- ary\nConfirma fechas y condiciones en la web del organizador. Vía Bander
- ín.
+DESCRIPTION:Social de club - Medal Play - Individual\nInscripción: abre el
+  7 de noviembre\, cierra el 18 de noviembre.\nPrecio: 10 €.\nFicha ofici
+ al: https://www.golfdirecto.com/micro/game/6977a519393debfc1bd32cb4/summar
+ y\nConfirma fechas y condiciones en la web del organizador. Vía Banderín
+ .
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6977a519393debfc1bd32cb4/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:30f1c6eb06fc22ff53cf@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:Liga Seniors Noviembre
 LOCATION:Barberan y Collar\, Madrid\, Madrid
-DESCRIPTION:Senior · Stableford · Individual\nInscripción: abre el 15 de
-  noviembre\, cierra el 23 de noviembre.\nFicha oficial: https://www.golfdi
- recto.com/micro/game/697894855dc6a5fcc72c4d17/summary\nConfirma fechas y c
- ondiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Senior - Stableford - Individual\nInscripción: abre el 15 de n
+ oviembre\, cierra el 23 de noviembre.\nFicha oficial: https://www.golfdire
+ cto.com/micro/game/697894855dc6a5fcc72c4d17/summary\nConfirma fechas y con
+ diciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/697894855dc6a5fcc72c4d17/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:47412c647144b214a368@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:Torneo Padres e Hijos
 LOCATION:Barberan y Collar\, Madrid\, Madrid
-DESCRIPTION:Juvenil · Greensome · Parejas\nFicha oficial: https://www.gol
- fdirecto.com/micro/game/6af30e2f6aacb155d8acd094/summary\nConfirma fechas 
- y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Juvenil - Greensome - Parejas\nFicha oficial: https://www.golfd
+ irecto.com/micro/game/6af30e2f6aacb155d8acd094/summary\nConfirma fechas y 
+ condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6af30e2f6aacb155d8acd094/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:3c421017670a42e73858@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261216
 DTEND;VALUE=DATE:20261217
 SUMMARY:Liga Seniors Diciembre
 LOCATION:Barberan y Collar\, Madrid\, Madrid
-DESCRIPTION:Senior · Stableford · Individual\nInscripción: abre el 7 de 
- diciembre\, cierra el 14 de diciembre.\nFicha oficial: https://www.golfdir
- ecto.com/micro/game/697895295dc6a5fcc734eaaa/summary\nConfirma fechas y co
- ndiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Senior - Stableford - Individual\nInscripción: abre el 7 de di
+ ciembre\, cierra el 14 de diciembre.\nFicha oficial: https://www.golfdirec
+ to.com/micro/game/697895295dc6a5fcc734eaaa/summary\nConfirma fechas y cond
+ iciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/697895295dc6a5fcc734eaaa/summary

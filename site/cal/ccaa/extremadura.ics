@@ -3,7 +3,7 @@ VERSION:2.0
 PRODID:-//Banderin//Torneos de golf//ES
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:Banderín · Extremadura
+X-WR-CALNAME:Banderín - Extremadura
 X-WR-CALDESC:Torneos de golf: Extremadura. Se actualiza cada mañana. https
  ://banderin.es
 X-WR-TIMEZONE:Europe/Madrid
@@ -11,44 +11,44 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:76301d9ca0190b36ba05@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:Campeonato de Madrid Interclubes Infantil y Cadete
 LOCATION:Campo de Golf de Talayuela\, Talayuela\, Cáceres
-DESCRIPTION:Juvenil · Medal Play · Equipos\nInscripción: abre el 26 de s
- eptiembre\, cierra el 26 de septiembre.\nPrecio: Gratis.\nFicha oficial: h
- ttps://www.nextcaddy.com/tour/68256\nConfirma fechas y condiciones en la w
- eb del organizador. Vía Banderín.
+DESCRIPTION:Juvenil - Medal Play - Equipos\nInscripción: abre el 26 de sep
+ tiembre\, cierra el 26 de septiembre.\nPrecio: Gratis.\nFicha oficial: htt
+ ps://www.nextcaddy.com/tour/68256\nConfirma fechas y condiciones en la web
+  del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.nextcaddy.com/tour/68256
 END:VEVENT
 BEGIN:VEVENT
 UID:498f90de13b4586126b9@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:VIII Torneo Juvenil de Golf "Jorge Campillo"
 LOCATION:Norba Club de Golf\, Caceres\, Cáceres
-DESCRIPTION:Juvenil · Medal Play · Individual\nInscripción: abre el 5 de
-  noviembre\, cierra el 19 de noviembre.\nFicha oficial: https://www.golfdi
- recto.com/micro/game/6aece3d99dfa5416307d6f26/summary\nConfirma fechas y c
- ondiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Juvenil - Medal Play - Individual\nInscripción: abre el 5 de n
+ oviembre\, cierra el 19 de noviembre.\nFicha oficial: https://www.golfdire
+ cto.com/micro/game/6aece3d99dfa5416307d6f26/summary\nConfirma fechas y con
+ diciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6aece3d99dfa5416307d6f26/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:8c53c368008766bccce7@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
 SUMMARY:II Torneo de Navidad
 LOCATION:Don Tello Club de Golf\, Merida\, Badajoz
-DESCRIPTION:Social de club · Stableford · Parejas\nFicha oficial: https:/
- /www.golfdirecto.com/micro/game/698f8d90c3938be59d062d8d/summary\nConfirma
-  fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Parejas\nFicha oficial: https://w
+ ww.golfdirecto.com/micro/game/698f8d90c3938be59d062d8d/summary\nConfirma f
+ echas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/698f8d90c3938be59d062d8d/summary

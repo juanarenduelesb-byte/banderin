@@ -3,7 +3,7 @@ VERSION:2.0
 PRODID:-//Banderin//Torneos de golf//ES
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:Banderín · Aldeamayor Club de Golf
+X-WR-CALNAME:Banderín - Aldeamayor Club de Golf
 X-WR-CALDESC:Torneos de golf: Aldeamayor Club de Golf. Se actualiza cada ma
  ñana. https://banderin.es
 X-WR-TIMEZONE:Europe/Madrid
@@ -11,70 +11,70 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:8924b244b004bd17c2a3@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:1ª jornada fase final TEAM CUP 2026
 LOCATION:Aldeamayor Club de Golf\, Aldeamayor de San Martin\, Valladolid
-DESCRIPTION:Social de club · Medal Play · Equipos\nFicha oficial: https:/
- /www.golfdirecto.com/micro/game/6ab3ab0967086a8c6d3087da/summary\nConfirma
-  fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Medal Play - Equipos\nFicha oficial: https://w
+ ww.golfdirecto.com/micro/game/6ab3ab0967086a8c6d3087da/summary\nConfirma f
+ echas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6ab3ab0967086a8c6d3087da/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:bc053b6f5917140eb769@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:1ª jornada fase final TEAM CUP 2026 parejas
 LOCATION:Aldeamayor Club de Golf\, Aldeamayor de San Martin\, Valladolid
-DESCRIPTION:Social de club · Greensome · Parejas\nFicha oficial: https://
- www.golfdirecto.com/micro/game/6ab3ab7e67086a8c6d5c1a0a/summary\nConfirma 
- fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Greensome - Parejas\nFicha oficial: https://ww
+ w.golfdirecto.com/micro/game/6ab3ab7e67086a8c6d5c1a0a/summary\nConfirma fe
+ chas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6ab3ab7e67086a8c6d5c1a0a/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:58bab70a4518e51e2dc8@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:2ª jornada fase final TEAM CUP2026
 LOCATION:Aldeamayor Club de Golf\, Aldeamayor de San Martin\, Valladolid
-DESCRIPTION:Social de club · Match Play · Equipos\nFicha oficial: https:/
- /www.golfdirecto.com/micro/game/6ab3abeb67086a8c6d8f021b/summary\nConfirma
-  fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Match Play - Equipos\nFicha oficial: https://w
+ ww.golfdirecto.com/micro/game/6ab3abeb67086a8c6d8f021b/summary\nConfirma f
+ echas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6ab3abeb67086a8c6d8f021b/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:39012e05fb3bcddde42e@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Ryder Aldeamayor 2026
 LOCATION:Aldeamayor Club de Golf\, Aldeamayor de San Martin\, Valladolid
-DESCRIPTION:Social de club · Greensome · Parejas\nFicha oficial: https://
- www.golfdirecto.com/micro/game/6ab3ac3267086a8c6da90a67/summary\nConfirma 
- fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Greensome - Parejas\nFicha oficial: https://ww
+ w.golfdirecto.com/micro/game/6ab3ac3267086a8c6da90a67/summary\nConfirma fe
+ chas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6ab3ac3267086a8c6da90a67/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:19f6e7e75a74a6e9b2aa@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261220
 SUMMARY:Trofeo Benéfico Memorial Javier Sanchidrian 2026_
 LOCATION:Aldeamayor Club de Golf\, Aldeamayor de San Martin\, Valladolid
-DESCRIPTION:Benéfico · Stableford · Individual\nFicha oficial: https://w
- ww.golfdirecto.com/micro/game/6ad0bf2f7fca7abedcdc41f3/summary\nConfirma f
- echas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Benéfico - Stableford - Individual\nFicha oficial: https://www
+ .golfdirecto.com/micro/game/6ad0bf2f7fca7abedcdc41f3/summary\nConfirma fec
+ has y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6ad0bf2f7fca7abedcdc41f3/summary

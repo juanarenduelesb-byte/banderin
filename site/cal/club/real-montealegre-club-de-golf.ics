@@ -3,7 +3,7 @@ VERSION:2.0
 PRODID:-//Banderin//Torneos de golf//ES
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:Banderín · Real Montealegre Club de Golf
+X-WR-CALNAME:Banderín - Real Montealegre Club de Golf
 X-WR-CALDESC:Torneos de golf: Real Montealegre Club de Golf. Se actualiza c
  ada mañana. https://banderin.es
 X-WR-TIMEZONE:Europe/Madrid
@@ -11,168 +11,168 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:476c1da216abe35f0a00@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
 SUMMARY:3ª Prueba Liga Femenina 26-27
 LOCATION:Real Montealegre Club de Golf\, Ourense\, Ourense
-DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
- s://www.golfdirecto.com/micro/game/6ac218e958408d9c20f850a5/summary\nConfi
- rma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/6ac218e958408d9c20f850a5/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6ac218e958408d9c20f850a5/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:bb3a533b1b9433bd14f9@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:4ª Prueba IV Liga Juvenil Igualdebuenas
 LOCATION:Real Montealegre Club de Golf\, Ourense\, Ourense
-DESCRIPTION:Juvenil · Medal Play · Individual\nFicha oficial: https://www
- .golfdirecto.com/micro/game/6af0858877b7cd1d6ebf20fc/summary\nConfirma fec
- has y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Juvenil - Medal Play - Individual\nFicha oficial: https://www.g
+ olfdirecto.com/micro/game/6af0858877b7cd1d6ebf20fc/summary\nConfirma fecha
+ s y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6af0858877b7cd1d6ebf20fc/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:5aa4a57ec4d670310367@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:4ª Prueba Liga Juvenil 5 Hoyos
 LOCATION:Real Montealegre Club de Golf\, Ourense\, Ourense
-DESCRIPTION:Juvenil · Medal Play · Individual\nFicha oficial: https://www
- .golfdirecto.com/micro/game/6af085c289677877bf6352b3/summary\nConfirma fec
- has y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Juvenil - Medal Play - Individual\nFicha oficial: https://www.g
+ olfdirecto.com/micro/game/6af085c289677877bf6352b3/summary\nConfirma fecha
+ s y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6af085c289677877bf6352b3/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:e01f4153244dfa8bfc34@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:4ª Prueba Liga Juvenil Pich&Putt
 LOCATION:Real Montealegre Club de Golf\, Ourense\, Ourense
-DESCRIPTION:Juvenil · Medal Play · Individual\nFicha oficial: https://www
- .golfdirecto.com/micro/game/6af085f389677877bf700911/summary\nConfirma fec
- has y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Juvenil - Medal Play - Individual\nFicha oficial: https://www.g
+ olfdirecto.com/micro/game/6af085f389677877bf700911/summary\nConfirma fecha
+ s y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6af085f389677877bf700911/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:6b44016011792503e12f@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261210
 DTEND;VALUE=DATE:20261211
 SUMMARY:4ª Prueba Liga Femenina 26-27
 LOCATION:Real Montealegre Club de Golf\, Ourense\, Ourense
-DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
- s://www.golfdirecto.com/micro/game/6ac2198658408d9c2043ded9/summary\nConfi
- rma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/6ac2198658408d9c2043ded9/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6ac2198658408d9c2043ded9/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:75e4f9e31359c1c73779@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:Torneo Navidad
 LOCATION:Real Montealegre Club de Golf\, Ourense\, Ourense
-DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
- s://www.golfdirecto.com/micro/game/69c69f17459151fb64510bf5/summary\nConfi
- rma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/69c69f17459151fb64510bf5/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/69c69f17459151fb64510bf5/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:fa751c3bece0d1d6b9f2@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20270225
 DTEND;VALUE=DATE:20270226
 SUMMARY:5ª Prueba Liga Femenina 26-27
 LOCATION:Real Montealegre Club de Golf\, Ourense\, Ourense
-DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
- s://www.golfdirecto.com/micro/game/6ac219ca58408d9c205d4fdd/summary\nConfi
- rma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/6ac219ca58408d9c205d4fdd/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6ac219ca58408d9c205d4fdd/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:222ffd14642f46c51d39@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20270318
 DTEND;VALUE=DATE:20270319
 SUMMARY:6ª Prueba Liga Femenina 26-27
 LOCATION:Real Montealegre Club de Golf\, Ourense\, Ourense
-DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
- s://www.golfdirecto.com/micro/game/6ac21a0158408d9c2079e072/summary\nConfi
- rma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/6ac21a0158408d9c2079e072/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6ac21a0158408d9c2079e072/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:66d4737dc25396fd9e8c@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20270429
 DTEND;VALUE=DATE:20270430
 SUMMARY:7ª Prueba Liga Femenina 26-27
 LOCATION:Real Montealegre Club de Golf\, Ourense\, Ourense
-DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
- s://www.golfdirecto.com/micro/game/6ac21a6658408d9c20ae014d/summary\nConfi
- rma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/6ac21a6658408d9c20ae014d/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6ac21a6658408d9c20ae014d/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:47b40ca2faa45e28c60d@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20270527
 DTEND;VALUE=DATE:20270528
 SUMMARY:8ª Prueba Liga Femenina 26-27
 LOCATION:Real Montealegre Club de Golf\, Ourense\, Ourense
-DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
- s://www.golfdirecto.com/micro/game/6ac21ac1bcb6bc125c79c33a/summary\nConfi
- rma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/6ac21ac1bcb6bc125c79c33a/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6ac21ac1bcb6bc125c79c33a/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:2dcb61982136fc465581@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20270610
 DTEND;VALUE=DATE:20270611
 SUMMARY:10ª Prueba Liga Femenina 26-27
 LOCATION:Real Montealegre Club de Golf\, Ourense\, Ourense
-DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
- s://www.golfdirecto.com/micro/game/6ac21b5258408d9c200bffba/summary\nConfi
- rma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/6ac21b5258408d9c200bffba/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6ac21b5258408d9c200bffba/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:08e0bd19f7adf230ead1@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20270610
 DTEND;VALUE=DATE:20270611
 SUMMARY:9ª Prueba Liga Femenina 26-27
 LOCATION:Real Montealegre Club de Golf\, Ourense\, Ourense
-DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
- s://www.golfdirecto.com/micro/game/6ac21b1e58408d9c20f631fe/summary\nConfi
- rma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/6ac21b1e58408d9c20f631fe/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6ac21b1e58408d9c20f631fe/summary

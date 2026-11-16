@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Banderín · genera las plantillas de correo de las cuentas (Supabase) con el diseño de correo.py.
+"""Banderín - genera las plantillas de correo de las cuentas (Supabase) con el diseño de correo.py.
 
   python3 pipeline/correos_supabase.py
 Escribe db/correos-supabase/*.html. Después hay que pegar cada una en Supabase →
@@ -13,7 +13,7 @@ import correo as c  # noqa: E402
 
 URL = '{{ .ConfirmationURL }}'
 FOOT = ('Recibes este correo porque se ha pedido desde banderin.es.<br>'
-        'Banderín · un proyecto de Esclusa · Confirma siempre fechas y condiciones con el organizador.')
+        'Banderín - un proyecto de Esclusa - Confirma siempre fechas y condiciones con el organizador.')
 NOTA = lambda t: c.para(c.e(t) + '<br><span style="color:#8A958E">If you didn\'t request this, ignore this email.</span>', 13, '#6B776F', '26px 0 0')
 PLANTILLAS = {
     'confirmar': ('Confirma tu cuenta de Banderín', 'Un clic y tu golf queda guardado en tu cuenta.', 'Confirma tu correo',

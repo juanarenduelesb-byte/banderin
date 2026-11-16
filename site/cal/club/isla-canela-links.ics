@@ -3,7 +3,7 @@ VERSION:2.0
 PRODID:-//Banderin//Torneos de golf//ES
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:Banderín · Isla Canela Links
+X-WR-CALNAME:Banderín - Isla Canela Links
 X-WR-CALDESC:Torneos de golf: Isla Canela Links. Se actualiza cada mañana.
   https://banderin.es
 X-WR-TIMEZONE:Europe/Madrid
@@ -11,15 +11,15 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:3ab97c254fc286dddedd@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:4ª Jornada Lpgh XXVI Edición (Links-Islantilla)
 LOCATION:Isla Canela Links\, Ayamonte\, Huelva
-DESCRIPTION:Social de club · Fourball · Parejas\nInscripción: abre el 15
-  de noviembre\, cierra el 20 de noviembre.\nFicha oficial: https://www.gol
- fdirecto.com/micro/game/6af76badaef9248991f367cd/summary\nConfirma fechas 
- y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Fourball - Parejas\nInscripción: abre el 15 d
+ e noviembre\, cierra el 20 de noviembre.\nFicha oficial: https://www.golfd
+ irecto.com/micro/game/6af76badaef9248991f367cd/summary\nConfirma fechas y 
+ condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6af76badaef9248991f367cd/summary

@@ -38,7 +38,7 @@ def gd_price(o,gx):
         o['price']=min(ps)
         o['priceNote']='Según las condiciones publicadas'+(f'; desde {min(ps):g} € hasta {max(ps):g} €' if len(set(ps))>1 else '')
         return
-    if gx.get('en') and not gx.get('pay') and not o.get('insNote'): o['insNote']='Inscripción online; se paga en el club'
+    if gx.get('en') and not gx.get('pay') and not o.get('insNote'): o['insNote']='Inscripción online, se paga en el club'
 out=[]
 for t in T:
     ok,st,s=(L.get(t['url'])+[None,None,None])[:3] if t['url'] in L else (None,None,None)
@@ -78,7 +78,7 @@ F=[
  {'nombre':'Federación Riojana de Golf','desc':'Calendario anual oficial (circular en PDF).','url':'https://frgolf.es/calendario','volcada':True},
  {'nombre':'Federación Cántabra de Golf','desc':'Calendario de competiciones de la federación cántabra.','url':'https://federacioncantabradegolf.com/calendario/','volcada':True},
  {'nombre':'Federación de Golf de la Región de Murcia','desc':'Calendario oficial de la federación murciana.','url':'https://fgolfmurcia.com/torneos/','volcada':True},
- {'nombre':'Federación de Golf de Castilla-La Mancha','desc':'Calendario oficial; la inscripción se hace en su app.','url':'https://fedgolfclm.com/inscripciones-y-resultados-torneos-fed-castilla-la-mancha/','volcada':True},
+ {'nombre':'Federación de Golf de Castilla-La Mancha','desc':'Calendario oficial, la inscripción se hace en su app.','url':'https://fedgolfclm.com/inscripciones-y-resultados-torneos-fed-castilla-la-mancha/','volcada':True},
  {'nombre':'Clubes con otras plataformas','desc':'Golfmanager, iMaster o TeeOne, y clubes que solo publican en su web.','url':'https://rfegolf.es/jugar-golf/clubes-golf-espana','volcada':False},
  {'nombre':'Circuitos privados','desc':'Circuitos de asociaciones con inscripción solo para socios, como AESGOLF.','url':'https://www.aesgolf.com/','volcada':False}]
 # ---------- Torneos por fuente (incluye los que también publica otra fuente) ----------
@@ -146,10 +146,10 @@ FED={
  'Principado de Asturias':('completo','Federación de Asturias: su calendario de competiciones'),
  'Galicia':('completo','Federación Gallega: su listado de torneos, contrastado con Golf Directo'),
  'Aragón':('completo','Federación Aragonesa: sus fichas de torneo, contrastadas con Golf Directo'),
- 'Illes Balears':('completo','Federación Balear: publica su calendario en Golf Directo; contrastado con su web'),
+ 'Illes Balears':('completo','Federación Balear: publica su calendario en Golf Directo, contrastado con su web'),
  'Extremadura':('completo','Federación Extremeña: publica su calendario en Golf Directo'),
  'Región de Murcia':('completo','Federación de la Región de Murcia: su calendario oficial'),
- 'Melilla':('parcial','Clubes en Golf Directo; la web de la federación no permite la lectura automática'),
+ 'Melilla':('parcial','Clubes en Golf Directo, la web de la federación no permite la lectura automática'),
 }
 cnt=collections.Counter(o['ccaa'] for o in out if not o.get('past'))
 srcs=collections.defaultdict(collections.Counter)

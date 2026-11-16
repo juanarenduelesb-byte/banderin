@@ -3,7 +3,7 @@ VERSION:2.0
 PRODID:-//Banderin//Torneos de golf//ES
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:Banderín · Salamanca
+X-WR-CALNAME:Banderín - Salamanca
 X-WR-CALDESC:Torneos de golf: Salamanca. Se actualiza cada mañana. https:/
  /banderin.es
 X-WR-TIMEZONE:Europe/Madrid
@@ -11,63 +11,63 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:8007d5629ff2314b6eb4@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:V Torneo Copa Presidente
 LOCATION:La Valmuza Golf\, Doñinos de Salamanca\, Salamanca
-DESCRIPTION:Social de club · Medal Play · Individual\nInscripción: abre 
- el 7 de noviembre\, cierra el 27 de noviembre.\nFicha oficial: https://www
- .golfdirecto.com/micro/game/6aede6b51ab4f21da63295c2/summary\nConfirma fec
- has y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Medal Play - Individual\nInscripción: abre el
+  7 de noviembre\, cierra el 27 de noviembre.\nFicha oficial: https://www.g
+ olfdirecto.com/micro/game/6aede6b51ab4f21da63295c2/summary\nConfirma fecha
+ s y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6aede6b51ab4f21da63295c2/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:b43aeeaee34fb944cc84@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
 SUMMARY:IV Copa Valmuza
 LOCATION:La Valmuza Golf\, Doñinos de Salamanca\, Salamanca
-DESCRIPTION:Social de club · Medal Play · Individual\nInscripción: abre 
- el 13 de noviembre\, cierra el 1 de diciembre.\nPrecio: 75 €.\nFicha ofi
- cial: https://www.golfdirecto.com/micro/game/6af43b80713f44da339b6d95/summ
- ary\nConfirma fechas y condiciones en la web del organizador. Vía Bander
- ín.
+DESCRIPTION:Social de club - Medal Play - Individual\nInscripción: abre el
+  13 de noviembre\, cierra el 1 de diciembre.\nPrecio: 75 €.\nFicha ofici
+ al: https://www.golfdirecto.com/micro/game/6af43b80713f44da339b6d95/summar
+ y\nConfirma fechas y condiciones en la web del organizador. Vía Banderín
+ .
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6af43b80713f44da339b6d95/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:53d7335971682983371c@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:V Campeonato de Navidad Padres e Hijos de Castilla y León (9 Hoyos
  )
 LOCATION:Club la Valmuza Golf Salamanca\, Doñinos de Salamanca\, Salamanca
-DESCRIPTION:Juvenil · Stableford · Individual\nInscripción: abre el 23 d
- e noviembre\, cierra el 8 de diciembre.\nPrecio: 24 €.\nFicha oficial: h
- ttps://www.nextcaddy.com/tour/68072\nConfirma fechas y condiciones en la w
- eb del organizador. Vía Banderín.
+DESCRIPTION:Juvenil - Stableford - Individual\nInscripción: abre el 23 de 
+ noviembre\, cierra el 8 de diciembre.\nPrecio: 24 €.\nFicha oficial: htt
+ ps://www.nextcaddy.com/tour/68072\nConfirma fechas y condiciones en la web
+  del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.nextcaddy.com/tour/68072
 END:VEVENT
 BEGIN:VEVENT
 UID:eae6f75e29a3f4e3f4f1@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:VII Campeonato de Navidad Padres e Hijos de Castilla y León (18 Ho
  yos)
 LOCATION:Club la Valmuza Golf Salamanca\, Doñinos de Salamanca\, Salamanca
-DESCRIPTION:Juvenil · Stableford · Individual\nInscripción: abre el 23 d
- e noviembre\, cierra el 8 de diciembre.\nPrecio: 23 €.\nFicha oficial: h
- ttps://www.nextcaddy.com/tour/68071\nConfirma fechas y condiciones en la w
- eb del organizador. Vía Banderín.
+DESCRIPTION:Juvenil - Stableford - Individual\nInscripción: abre el 23 de 
+ noviembre\, cierra el 8 de diciembre.\nPrecio: 23 €.\nFicha oficial: htt
+ ps://www.nextcaddy.com/tour/68071\nConfirma fechas y condiciones en la web
+  del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.nextcaddy.com/tour/68071

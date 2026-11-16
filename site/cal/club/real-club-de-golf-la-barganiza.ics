@@ -3,7 +3,7 @@ VERSION:2.0
 PRODID:-//Banderin//Torneos de golf//ES
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:Banderín · Real Club de Golf La Barganiza
+X-WR-CALNAME:Banderín - Real Club de Golf La Barganiza
 X-WR-CALDESC:Torneos de golf: Real Club de Golf La Barganiza. Se actualiza 
  cada mañana. https://banderin.es
 X-WR-TIMEZONE:Europe/Madrid
@@ -11,16 +11,16 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:efcc89b6784c1ca5532a@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261208
 SUMMARY:IX Memorial Celia Barquín Arozamena - Copa Principado de Asturias 
  Femenina
 LOCATION:Real Club de Golf La Barganiza\, Siero\, Asturias
-DESCRIPTION:Absoluto · Medal Play · Individual\nFicha oficial: https://ww
- w.fedegolfasturias.com/competicion/ix-memorial-celia-barquin-arozamena-cop
- a-principado-de-asturias-femenina-prueba-sace/1851\nConfirma fechas y cond
- iciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Absoluto - Medal Play - Individual\nFicha oficial: https://www.
+ fedegolfasturias.com/competicion/ix-memorial-celia-barquin-arozamena-copa-
+ principado-de-asturias-femenina-prueba-sace/1851\nConfirma fechas y condic
+ iones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.fedegolfasturias.com/competicion/ix-memorial-celia-barquin-

@@ -3,7 +3,7 @@ VERSION:2.0
 PRODID:-//Banderin//Torneos de golf//ES
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:Banderín · Valle del Este Hotel Golf Spa
+X-WR-CALNAME:Banderín - Valle del Este Hotel Golf Spa
 X-WR-CALDESC:Torneos de golf: Valle del Este Hotel Golf Spa. Se actualiza c
  ada mañana. https://banderin.es
 X-WR-TIMEZONE:Europe/Madrid
@@ -11,15 +11,15 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:efe337f0c64840c8b043@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261201
 SUMMARY:Alamo Golf Society Sponsored by Julie & Steve Crook
 LOCATION:Valle del Este Hotel Golf Spa\, Vera\, Almería
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 14 de septiembre\, cierra el 29 de noviembre.\nFicha oficial: https://w
- ww.golfdirecto.com/micro/game/6aa763add8e43faad755fec8/summary\nConfirma f
- echas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  14 de septiembre\, cierra el 29 de noviembre.\nFicha oficial: https://www
+ .golfdirecto.com/micro/game/6aa763add8e43faad755fec8/summary\nConfirma fec
+ has y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6aa763add8e43faad755fec8/summary

@@ -3,7 +3,7 @@ VERSION:2.0
 PRODID:-//Banderin//Torneos de golf//ES
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:Banderín · Forus Golf las Rejas
+X-WR-CALNAME:Banderín - Forus Golf las Rejas
 X-WR-CALDESC:Torneos de golf: Forus Golf las Rejas. Se actualiza cada maña
  na. https://banderin.es
 X-WR-TIMEZONE:Europe/Madrid
@@ -11,14 +11,14 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:3138a2abfb2f86930754@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:Vivo Golf Tour - 5ª Jornada
 LOCATION:Forus Golf las Rejas\, Majadahonda\, Madrid
-DESCRIPTION:Circuito comercial · Stableford · Individual\nFicha oficial: 
- https://www.golfdirecto.com/micro/game/6ab0cf9439f4fd5778f4bd1f/summary\nC
- onfirma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Circuito comercial - Stableford - Individual\nFicha oficial: ht
+ tps://www.golfdirecto.com/micro/game/6ab0cf9439f4fd5778f4bd1f/summary\nCon
+ firma fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6ab0cf9439f4fd5778f4bd1f/summary

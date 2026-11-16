@@ -3,7 +3,7 @@ VERSION:2.0
 PRODID:-//Banderin//Torneos de golf//ES
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:Banderín · Club de Golf Encinas de Boadilla
+X-WR-CALNAME:Banderín - Club de Golf Encinas de Boadilla
 X-WR-CALDESC:Torneos de golf: Club de Golf Encinas de Boadilla. Se actualiz
  a cada mañana. https://banderin.es
 X-WR-TIMEZONE:Europe/Madrid
@@ -11,15 +11,15 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:77dfa77b605e5a0e6dff@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Campeonato de Madrid Senior Pitch & Putt 2026
 LOCATION:Club de Golf Encinas de Boadilla\, Boadilla del Monte\, Madrid
-DESCRIPTION:Senior · Medal Play · Individual\nInscripción: abre el 16 de
-  noviembre\, cierra el 23 de noviembre.\nPrecio: 40 €.\nFicha oficial: h
- ttps://www.nextcaddy.com/tour/67787\nConfirma fechas y condiciones en la w
- eb del organizador. Vía Banderín.
+DESCRIPTION:Senior - Medal Play - Individual\nInscripción: abre el 16 de n
+ oviembre\, cierra el 23 de noviembre.\nPrecio: 40 €.\nFicha oficial: htt
+ ps://www.nextcaddy.com/tour/67787\nConfirma fechas y condiciones en la web
+  del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.nextcaddy.com/tour/67787

@@ -3,7 +3,7 @@ VERSION:2.0
 PRODID:-//Banderin//Torneos de golf//ES
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:Banderín · Campo de Golf La Finca
+X-WR-CALNAME:Banderín - Campo de Golf La Finca
 X-WR-CALDESC:Torneos de golf: Campo de Golf La Finca. Se actualiza cada ma
  ñana. https://banderin.es
 X-WR-TIMEZONE:Europe/Madrid
@@ -11,14 +11,14 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:b48350eeae7b5e338d41@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261220
 SUMMARY:Gala PRO-AM FGCV 2026
 LOCATION:Campo de Golf La Finca\, Algorfa\, Alicante
-DESCRIPTION:Profesional · Individual\nFicha oficial: https://golfcv.com/to
- rneo_seek/ver-torneo/?torneoid=2766\nConfirma fechas y condiciones en la w
- eb del organizador. Vía Banderín.
+DESCRIPTION:Profesional - Individual\nFicha oficial: https://golfcv.com/tor
+ neo_seek/ver-torneo/?torneoid=2766\nConfirma fechas y condiciones en la we
+ b del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://golfcv.com/torneo_seek/ver-torneo/?torneoid=2766

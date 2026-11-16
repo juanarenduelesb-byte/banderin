@@ -1,4 +1,4 @@
-// Banderín · una sola dirección: todo lo que llega a banderin.pages.dev o a www.banderin.es
+// Banderín - una sola dirección: todo lo que llega a banderin.pages.dev o a www.banderin.es
 // se redirige de forma permanente (301) a https://banderin.es, conservando la ruta.
 // Así Google no ve dos webs iguales y no se pierde ningún enlace antiguo.
 const CANON = 'banderin.es';

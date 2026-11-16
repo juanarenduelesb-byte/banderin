@@ -3,7 +3,7 @@ VERSION:2.0
 PRODID:-//Banderin//Torneos de golf//ES
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:Banderín · Navarra
+X-WR-CALNAME:Banderín - Navarra
 X-WR-CALDESC:Torneos de golf: Navarra. Se actualiza cada mañana. https://b
  anderin.es
 X-WR-TIMEZONE:Europe/Madrid
@@ -11,14 +11,14 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:a4f97269e564149a947e@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:3ª Prueba Liga Junior FNG – Lizaso
 LOCATION:Club de Golf Ulzama\, Gerendiain\, Navarra
-DESCRIPTION:Juvenil · Individual\nFicha oficial: https://fnavarragolf.com/
- calendar/campeonato-navarro-interclubes-2026/\nConfirma fechas y condicion
- es en la web del organizador. Vía Banderín.
+DESCRIPTION:Juvenil - Individual\nFicha oficial: https://fnavarragolf.com/c
+ alendar/campeonato-navarro-interclubes-2026/\nConfirma fechas y condicione
+ s en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://fnavarragolf.com/calendar/campeonato-navarro-interclubes-2026/

@@ -3,7 +3,7 @@ VERSION:2.0
 PRODID:-//Banderin//Torneos de golf//ES
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:Banderín · Granada
+X-WR-CALNAME:Banderín - Granada
 X-WR-CALDESC:Torneos de golf: Granada. Se actualiza cada mañana. https://b
  anderin.es
 X-WR-TIMEZONE:Europe/Madrid
@@ -11,59 +11,59 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:7d079e3f54734d83e122@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261116
 DTEND;VALUE=DATE:20261117
 SUMMARY:Aparejadores
 LOCATION:Granada Club de Golf\, Las Gabias\, Granada
-DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
- s://www.golfdirecto.com/micro/game/6afad5ef5445bc1029c6d10b/summary\nConfi
- rma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/6afad5ef5445bc1029c6d10b/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6afad5ef5445bc1029c6d10b/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:ab3b194dc13ba24dc844@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261116
 DTEND;VALUE=DATE:20261117
 SUMMARY:Pool 2000 Noviembre
 LOCATION:Granada Club de Golf\, Las Gabias\, Granada
-DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
- s://www.golfdirecto.com/micro/game/6af81e96535859a5fbb4aae0/summary\nConfi
- rma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/6af81e96535859a5fbb4aae0/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6af81e96535859a5fbb4aae0/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:1bb4be115e9e6976e97d@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261118
 DTEND;VALUE=DATE:20261119
 SUMMARY:Liga Senior Noviembre 26
 LOCATION:Granada Club de Golf\, Las Gabias\, Granada
-DESCRIPTION:Senior · Stableford · Individual\nInscripción: abre el 6 de 
- noviembre\, cierra el 16 de noviembre.\nPrecio: 35 €.\nFicha oficial: ht
- tps://www.golfdirecto.com/micro/game/6aec39995ca5a43533c02ef6/summary\nCon
- firma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Senior - Stableford - Individual\nInscripción: abre el 6 de no
+ viembre\, cierra el 16 de noviembre.\nPrecio: 35 €.\nFicha oficial: http
+ s://www.golfdirecto.com/micro/game/6aec39995ca5a43533c02ef6/summary\nConfi
+ rma fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6aec39995ca5a43533c02ef6/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:122418ef5993b2414f52@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:Liga Damas Noviembre26
 LOCATION:Granada Club de Golf\, Las Gabias\, Granada
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 9 de noviembre\, cierra el 19 de noviembre.\nPrecio: 15 €.\nFicha ofi
- cial: https://www.golfdirecto.com/micro/game/6af187268527252f607cf775/summ
- ary\nConfirma fechas y condiciones en la web del organizador. Vía Bander
- ín.
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  9 de noviembre\, cierra el 19 de noviembre.\nPrecio: 15 €.\nFicha ofici
+ al: https://www.golfdirecto.com/micro/game/6af187268527252f607cf775/summar
+ y\nConfirma fechas y condiciones en la web del organizador. Vía Banderín
+ .
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6af187268527252f607cf775/summary

@@ -3,7 +3,7 @@ VERSION:2.0
 PRODID:-//Banderin//Torneos de golf//ES
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:Banderín · Alenda Golf Club
+X-WR-CALNAME:Banderín - Alenda Golf Club
 X-WR-CALDESC:Torneos de golf: Alenda Golf Club. Se actualiza cada mañana. 
  https://banderin.es
 X-WR-TIMEZONE:Europe/Madrid
@@ -11,16 +11,16 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:e81d9047d5aaf1bfac76@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:WCGS-106194-Individual Stableford
 LOCATION:Alenda Golf Club\, Monforte del Cid\, Alicante
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 14 de noviembre\, cierra el 22 de noviembre.\nPrecio: 66 €.\nFicha of
- icial: https://www.golfdirecto.com/micro/game/6aedb09202e839445a227108/sum
- mary\nConfirma fechas y condiciones en la web del organizador. Vía Bander
- ín.
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  14 de noviembre\, cierra el 22 de noviembre.\nPrecio: 66 €.\nFicha ofic
+ ial: https://www.golfdirecto.com/micro/game/6aedb09202e839445a227108/summa
+ ry\nConfirma fechas y condiciones en la web del organizador. Vía Banderí
+ n.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6aedb09202e839445a227108/summary

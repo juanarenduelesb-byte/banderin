@@ -3,7 +3,7 @@ VERSION:2.0
 PRODID:-//Banderin//Torneos de golf//ES
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:Banderín · Real Guadalhorce Club de Golf
+X-WR-CALNAME:Banderín - Real Guadalhorce Club de Golf
 X-WR-CALDESC:Torneos de golf: Real Guadalhorce Club de Golf. Se actualiza c
  ada mañana. https://banderin.es
 X-WR-TIMEZONE:Europe/Madrid
@@ -11,195 +11,194 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:aaa54c72a94d7a20e69b@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261117
 DTEND;VALUE=DATE:20261118
 SUMMARY:Liga Social Cab. Volvo Vypsa Heineken - Malaga Costa & Bebidas
 LOCATION:Real Guadalhorce Club de Golf\, Campanillas\, Málaga
-DESCRIPTION:Social de club · Stableford · Parejas\nInscripción: abre el 
- 10 de noviembre\, cierra el 15 de noviembre.\nFicha oficial: https://www.g
- olfdirecto.com/micro/game/6aaec3dfea1573c17a35c393/summary\nConfirma fecha
- s y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Parejas\nInscripción: abre el 10
+  de noviembre\, cierra el 15 de noviembre.\nFicha oficial: https://www.gol
+ fdirecto.com/micro/game/6aaec3dfea1573c17a35c393/summary\nConfirma fechas 
+ y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6aaec3dfea1573c17a35c393/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:4c5b9bca4a76ef6d28e0@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261120
 SUMMARY:Liga Social Damas Volvo Vypsa Heineken Malaga&costa Bebidas
 LOCATION:Real Guadalhorce Club de Golf\, Campanillas\, Málaga
-DESCRIPTION:Social de club · Stableford · Parejas\nInscripción: abre el 
- 12 de noviembre\, cierra el 17 de noviembre.\nFicha oficial: https://www.g
- olfdirecto.com/micro/game/6aaec4e8ea1573c17aba1805/summary\nConfirma fecha
- s y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Parejas\nInscripción: abre el 12
+  de noviembre\, cierra el 17 de noviembre.\nFicha oficial: https://www.gol
+ fdirecto.com/micro/game/6aaec4e8ea1573c17aba1805/summary\nConfirma fechas 
+ y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6aaec4e8ea1573c17aba1805/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:94c7f6c81dfec2cf340a@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:Cuadrangular Mid Amateur Masculino
 LOCATION:Real Guadalhorce Club de Golf\, Campanillas\, Málaga
-DESCRIPTION:Mid-Amateur · Medal Play · Equipos\nFicha oficial: https://ww
- w.nextcaddy.com/tour/61227\nConfirma fechas y condiciones en la web del or
- ganizador. Vía Banderín.
+DESCRIPTION:Mid-Amateur - Medal Play - Equipos\nFicha oficial: https://www.
+ nextcaddy.com/tour/61227\nConfirma fechas y condiciones en la web del orga
+ nizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.nextcaddy.com/tour/61227
 END:VEVENT
 BEGIN:VEVENT
 UID:9b8e39c16e46f7ec7061@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261124
 DTEND;VALUE=DATE:20261125
 SUMMARY:Liga Social Cab. Volvo Vypsa Heineken - Malaga Costa & Bebidas
 LOCATION:Real Guadalhorce Club de Golf\, Campanillas\, Málaga
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 17 de noviembre\, cierra el 22 de noviembre.\nFicha oficial: https://ww
- w.golfdirecto.com/micro/game/6aaec65fea1573c17a88951b/summary\nConfirma fe
- chas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  17 de noviembre\, cierra el 22 de noviembre.\nFicha oficial: https://www.
+ golfdirecto.com/micro/game/6aaec65fea1573c17a88951b/summary\nConfirma fech
+ as y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6aaec65fea1573c17a88951b/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:69e183fdfcacd52f2939@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
 SUMMARY:Liga Social Damas Volvo Vypsa Heineken - Malaga Costa & Bebidas
 LOCATION:Real Guadalhorce Club de Golf\, Campanillas\, Málaga
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 19 de noviembre\, cierra el 24 de noviembre.\nFicha oficial: https://ww
- w.golfdirecto.com/micro/game/6aaec6cbea1573c17aa03131/summary\nConfirma fe
- chas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  19 de noviembre\, cierra el 24 de noviembre.\nFicha oficial: https://www.
+ golfdirecto.com/micro/game/6aaec6cbea1573c17aa03131/summary\nConfirma fech
+ as y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6aaec6cbea1573c17aa03131/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:c26279dce738fdc4e0e4@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261202
 SUMMARY:Liga Social Cab. Volvo Vypsa Heineken - Malaga Costa & Bebidas
 LOCATION:Real Guadalhorce Club de Golf\, Campanillas\, Málaga
-DESCRIPTION:Social de club · Medal Play · Individual\nInscripción: abre 
- el 24 de noviembre\, cierra el 29 de noviembre.\nFicha oficial: https://ww
- w.golfdirecto.com/micro/game/6aaec74bea1573c17acf36ad/summary\nConfirma fe
- chas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Medal Play - Individual\nInscripción: abre el
+  24 de noviembre\, cierra el 29 de noviembre.\nFicha oficial: https://www.
+ golfdirecto.com/micro/game/6aaec74bea1573c17acf36ad/summary\nConfirma fech
+ as y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6aaec74bea1573c17acf36ad/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:eb87112cb5174b77ecd6@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261203
 DTEND;VALUE=DATE:20261204
 SUMMARY:Liga Social Damas Volvo Vypsa Heineken - Malaga Costa & Bebidas
 LOCATION:Real Guadalhorce Club de Golf\, Campanillas\, Málaga
-DESCRIPTION:Social de club · Medal Play · Individual\nInscripción: abre 
- el 26 de noviembre\, cierra el 1 de diciembre.\nFicha oficial: https://www
- .golfdirecto.com/micro/game/6aaec7e6ea1573c17af7336d/summary\nConfirma fec
- has y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Medal Play - Individual\nInscripción: abre el
+  26 de noviembre\, cierra el 1 de diciembre.\nFicha oficial: https://www.g
+ olfdirecto.com/micro/game/6aaec7e6ea1573c17af7336d/summary\nConfirma fecha
+ s y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6aaec7e6ea1573c17af7336d/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:4bf0117708702983e985@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
 SUMMARY:Copa Guadalhorce Final
 LOCATION:Real Guadalhorce Club de Golf\, Campanillas\, Málaga
-DESCRIPTION:Social de club · Medal Play · Individual\nInscripción: abre 
- el 26 de octubre\, cierra el 26 de noviembre.\nPrecio: 25 €.\nFicha ofic
- ial: https://www.golfdirecto.com/micro/game/6ad60ada46735c80a07fb5da/summa
- ry\nConfirma fechas y condiciones en la web del organizador. Vía Banderí
- n.
+DESCRIPTION:Social de club - Medal Play - Individual\nInscripción: abre el
+  26 de octubre\, cierra el 26 de noviembre.\nPrecio: 25 €.\nFicha oficia
+ l: https://www.golfdirecto.com/micro/game/6ad60ada46735c80a07fb5da/summary
+ \nConfirma fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6ad60ada46735c80a07fb5da/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:36a3dcc05902114421e2@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
 SUMMARY:Final Pequecircuito
 LOCATION:Real Guadalhorce Club de Golf\, Campanillas\, Málaga
-DESCRIPTION:Juvenil · Medal Play · Individual\nInscripción: abre el 11 d
- e noviembre\, cierra el 30 de noviembre.\nFicha oficial: https://www.nextc
- addy.com/tour/61252\nConfirma fechas y condiciones en la web del organizad
- or. Vía Banderín.
+DESCRIPTION:Juvenil - Medal Play - Individual\nInscripción: abre el 11 de 
+ noviembre\, cierra el 30 de noviembre.\nFicha oficial: https://www.nextcad
+ dy.com/tour/61252\nConfirma fechas y condiciones en la web del organizador
+ . Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.nextcaddy.com/tour/61252
 END:VEVENT
 BEGIN:VEVENT
 UID:0b29a1c2193398f2bb64@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261209
 DTEND;VALUE=DATE:20261210
 SUMMARY:Liga Social Cab. Volvo Vypsa Heineken - Malaga Costa & Bebidas
 LOCATION:Real Guadalhorce Club de Golf\, Campanillas\, Málaga
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 1 de diciembre\, cierra el 7 de diciembre.\nFicha oficial: https://www.
- golfdirecto.com/micro/game/6aaec8b2ea1573c17a593dde/summary\nConfirma fech
- as y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  1 de diciembre\, cierra el 7 de diciembre.\nFicha oficial: https://www.go
+ lfdirecto.com/micro/game/6aaec8b2ea1573c17a593dde/summary\nConfirma fechas
+  y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6aaec8b2ea1573c17a593dde/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:4e25d408efcdbca7a1e9@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261210
 DTEND;VALUE=DATE:20261211
 SUMMARY:Liga Social Damas Volvo Vypsa Heineken - Malaga Costa & Bebidas
 LOCATION:Real Guadalhorce Club de Golf\, Campanillas\, Málaga
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 3 de diciembre\, cierra el 8 de diciembre.\nFicha oficial: https://www.
- golfdirecto.com/micro/game/6aaec96cea1573c17a97db13/summary\nConfirma fech
- as y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  3 de diciembre\, cierra el 8 de diciembre.\nFicha oficial: https://www.go
+ lfdirecto.com/micro/game/6aaec96cea1573c17a97db13/summary\nConfirma fechas
+  y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6aaec96cea1573c17a97db13/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:2dbe807336734b2ee243@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261215
 DTEND;VALUE=DATE:20261216
 SUMMARY:Liga Social Cab. Volvo Vypsa Heineken - Malaga Costa & Bebidas
 LOCATION:Real Guadalhorce Club de Golf\, Campanillas\, Málaga
-DESCRIPTION:Social de club · Scramble · Parejas\nInscripción: abre el 9 
- de diciembre\, cierra el 13 de diciembre.\nFicha oficial: https://www.golf
- directo.com/micro/game/6aaeca84ea1573c17aebc386/summary\nConfirma fechas y
-  condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Scramble - Parejas\nInscripción: abre el 9 de
+  diciembre\, cierra el 13 de diciembre.\nFicha oficial: https://www.golfdi
+ recto.com/micro/game/6aaeca84ea1573c17aebc386/summary\nConfirma fechas y c
+ ondiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6aaeca84ea1573c17aebc386/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:9397617da60dfc837d8b@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261217
 DTEND;VALUE=DATE:20261218
 SUMMARY:Liga Social Damas Volvo Vypsa Heineken - Malaga Costa & Bebidas
 LOCATION:Real Guadalhorce Club de Golf\, Campanillas\, Málaga
-DESCRIPTION:Social de club · Scramble · Parejas\nInscripción: abre el 10
-  de diciembre\, cierra el 15 de diciembre.\nFicha oficial: https://www.gol
- fdirecto.com/micro/game/6aaecb58ea1573c17a4709d8/summary\nConfirma fechas 
- y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Scramble - Parejas\nInscripción: abre el 10 d
+ e diciembre\, cierra el 15 de diciembre.\nFicha oficial: https://www.golfd
+ irecto.com/micro/game/6aaecb58ea1573c17a4709d8/summary\nConfirma fechas y 
+ condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6aaecb58ea1573c17a4709d8/summary

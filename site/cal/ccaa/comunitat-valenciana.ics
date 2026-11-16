@@ -3,7 +3,7 @@ VERSION:2.0
 PRODID:-//Banderin//Torneos de golf//ES
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:Banderín · Comunitat Valenciana
+X-WR-CALNAME:Banderín - Comunitat Valenciana
 X-WR-CALDESC:Torneos de golf: Comunitat Valenciana. Se actualiza cada maña
  na. https://banderin.es
 X-WR-TIMEZONE:Europe/Madrid
@@ -11,2216 +11,2184 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:37142993f6776fadb88a@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261116
 DTEND;VALUE=DATE:20261117
 SUMMARY:Deutscher G.C.
 LOCATION:Campo de Golf Lo Romero\, Pilar de la Horadada\, Alicante
-DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
- s://www.golfdirecto.com/micro/game/6af9be9c90f777ff01f0362f/summary\nConfi
- rma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/6af9be9c90f777ff01f0362f/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6af9be9c90f777ff01f0362f/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:b9155304966d49259a67@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261116
 DTEND;VALUE=DATE:20261117
 SUMMARY:monday plates 16th
 LOCATION:Club de Golf Font del Llop\, Monforte del Cid\, Alicante
-DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
- s://www.golfdirecto.com/micro/game/6afaba8b5445bc102998895c/summary\nConfi
- rma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/6afaba8b5445bc102998895c/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6afaba8b5445bc102998895c/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:0778073763abc44bc03f@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261117
 DTEND;VALUE=DATE:20261118
 SUMMARY:9&tapas Pairs Scramble
 LOCATION:Las Colinas Golf & Country Club\, San Miguel de Salinas\, Alicante
-DESCRIPTION:Social de club · Scramble · Parejas\nInscripción: abre el 29
-  de octubre\, cierra el 16 de noviembre.\nPrecio: 39 €.\nFicha oficial: 
- https://www.golfdirecto.com/micro/game/6ae35a94e9762da1ae309612/summary\nC
- onfirma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Scramble - Parejas\nInscripción: abre el 29 d
+ e octubre\, cierra el 16 de noviembre.\nPrecio: 39 €.\nFicha oficial: ht
+ tps://www.golfdirecto.com/micro/game/6ae35a94e9762da1ae309612/summary\nCon
+ firma fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6ae35a94e9762da1ae309612/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:b75de8f87cdf9589b8fb@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261117
 DTEND;VALUE=DATE:20261118
 SUMMARY:Green Jackets 17-11-2026
 LOCATION:Club de Golf Font del Llop\, Monforte del Cid\, Alicante
-DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
- s://www.golfdirecto.com/micro/game/6afaedfb5445bc1029112404/summary\nConfi
- rma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/6afaedfb5445bc1029112404/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6afaedfb5445bc1029112404/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:410a23f45c1d768ee5c4@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261117
 DTEND;VALUE=DATE:20261118
 SUMMARY:IV Liguilla Interclubs Femenina 9/9
 LOCATION:Mediterraneo Golf\, Borriol\, Castellón
-DESCRIPTION:Clubes y equipos · Equipos\nInscripción: abre el 6 de octubre
- \, cierra el 12 de noviembre.\nPrecio: 40 €.\nFicha oficial: https://gol
- fcv.com/torneo_seek/ver-torneo/?torneoid=2717\nConfirma fechas y condicion
- es en la web del organizador. Vía Banderín.
+DESCRIPTION:Clubes y equipos - Equipos\nInscripción: abre el 6 de octubre\
+ , cierra el 12 de noviembre.\nPrecio: 40 €.\nFicha oficial: https://golf
+ cv.com/torneo_seek/ver-torneo/?torneoid=2717\nConfirma fechas y condicione
+ s en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://golfcv.com/torneo_seek/ver-torneo/?torneoid=2717
 END:VEVENT
 BEGIN:VEVENT
 UID:8d497c4c7378d5f49267@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261117
 DTEND;VALUE=DATE:20261118
 SUMMARY:Rencontre AGFCB 28 - Font de Llop Golf - Mardi 17 novembre - 70€ 
  / 80€ + PAF 5€- 24 places disponibles - 8 buggies -PROCESABLE
 LOCATION:Club de Golf Font del Llop\, Monforte del Cid\, Alicante
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 7 de septiembre\, cierra el 15 de noviembre.\nFicha oficial: https://ww
- w.golfdirecto.com/micro/game/6a9ef4dee4e6c9f60ed8b1fb/summary\nConfirma fe
- chas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  7 de septiembre\, cierra el 15 de noviembre.\nFicha oficial: https://www.
+ golfdirecto.com/micro/game/6a9ef4dee4e6c9f60ed8b1fb/summary\nConfirma fech
+ as y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6a9ef4dee4e6c9f60ed8b1fb/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:752d7bb2cb0ae9cef82c@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261117
 DTEND;VALUE=DATE:20261118
 SUMMARY:Torneo Grupo Bélgica-España Noviembre 2026
 LOCATION:La Sella Golf (Campo)\, Jesus Pobre\, Alicante
-DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
- s://www.golfdirecto.com/micro/game/6afab1785445bc102982b3ac/summary\nConfi
- rma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/6afab1785445bc102982b3ac/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6afab1785445bc102982b3ac/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:12d20864c0dcbd53b736@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261117
 DTEND;VALUE=DATE:20261118
 SUMMARY:Tuesday Duel Eclectic 2026 - Round 46 - 106314
 LOCATION:Meliá Villaitana Golf\, Benidorm\, Alicante
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 20 de octubre\, cierra el 16 de noviembre.\nPrecio: 63 €.\nFicha ofic
- ial: https://www.golfdirecto.com/micro/game/69b021afd9295ef7aae7e302/summa
- ry\nConfirma fechas y condiciones en la web del organizador. Vía Banderí
- n.
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  20 de octubre\, cierra el 16 de noviembre.\nPrecio: 63 €.\nFicha oficia
+ l: https://www.golfdirecto.com/micro/game/69b021afd9295ef7aae7e302/summary
+ \nConfirma fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/69b021afd9295ef7aae7e302/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:7770d49401ed0824f7e5@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261118
 DTEND;VALUE=DATE:20261119
 SUMMARY:Cbgs Texas Scramble
 LOCATION:Club de Golf de Bonalba\, Mutxamel\, Alicante
-DESCRIPTION:Social de club · Scramble · Parejas\nFicha oficial: https://w
- ww.golfdirecto.com/micro/game/6afad02123d5370df087b816/summary\nConfirma f
- echas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Scramble - Parejas\nFicha oficial: https://www
+ .golfdirecto.com/micro/game/6afad02123d5370df087b816/summary\nConfirma fec
+ has y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6afad02123d5370df087b816/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:9df666011c8e2e0ef59f@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261118
 DTEND;VALUE=DATE:20261119
 SUMMARY:Golf Holanda 18 Hoyos
 LOCATION:Vistabella Golf Club\, Jacarilla\, Alicante
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 12 de agosto\, cierra el 18 de noviembre.\nPrecio: 60 €.\nFicha ofici
- al: https://www.golfdirecto.com/micro/game/6a7c3b5af0874b6037fab899/summar
- y\nConfirma fechas y condiciones en la web del organizador. Vía Banderín
- .
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  12 de agosto\, cierra el 18 de noviembre.\nPrecio: 60 €.\nFicha oficial
+ : https://www.golfdirecto.com/micro/game/6a7c3b5af0874b6037fab899/summary\
+ nConfirma fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6a7c3b5af0874b6037fab899/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:5dd0ce3dd9035967a09b@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261118
 DTEND;VALUE=DATE:20261119
 SUMMARY:Golf Holanda 9 Hoyos
 LOCATION:Vistabella Golf Club\, Jacarilla\, Alicante
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 12 de agosto\, cierra el 18 de noviembre.\nPrecio: 40 €.\nFicha ofici
- al: https://www.golfdirecto.com/micro/game/6a7c4967312fe0d5256d20ec/summar
- y\nConfirma fechas y condiciones en la web del organizador. Vía Banderín
- .
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  12 de agosto\, cierra el 18 de noviembre.\nPrecio: 40 €.\nFicha oficial
+ : https://www.golfdirecto.com/micro/game/6a7c4967312fe0d5256d20ec/summary\
+ nConfirma fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6a7c4967312fe0d5256d20ec/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:65b819c8998a5b314569@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261118
 DTEND;VALUE=DATE:20261119
 SUMMARY:Wednesday Afternoon Golf
 LOCATION:Las Colinas Golf & Country Club\, San Miguel de Salinas\, Alicante
-DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
- s://www.golfdirecto.com/micro/game/6af5c852a1e39bb384177501/summary\nConfi
- rma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/6af5c852a1e39bb384177501/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6af5c852a1e39bb384177501/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:98d0bb590032ed5a1925@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261120
 SUMMARY:Final XIV Circuito por Equipos AESGOLF C.V.
 LOCATION:Club de Golf el Plantio\, Bacarot\, Alicante
-DESCRIPTION:Senior · Fourball · Parejas\nFicha oficial: https://www.golfd
- irecto.com/micro/game/6af98632440203a820598be1/summary\nConfirma fechas y 
- condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Senior - Fourball - Parejas\nFicha oficial: https://www.golfdir
+ ecto.com/micro/game/6af98632440203a820598be1/summary\nConfirma fechas y co
+ ndiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6af98632440203a820598be1/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:d927ee19bad72852cef0@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261120
 SUMMARY:Las Colinas Spain
 LOCATION:Las Colinas Golf & Country Club\, San Miguel de Salinas\, Alicante
-DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
- s://www.golfdirecto.com/micro/game/6afb05b623d5370df0220f0c/summary\nConfi
- rma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/6afb05b623d5370df0220f0c/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6afb05b623d5370df0220f0c/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:b7a6085538280f6f548d@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261120
 SUMMARY:Liga Damas 2026 (Noviembre)
 LOCATION:Club de Golf de Bonalba\, Mutxamel\, Alicante
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 12 de enero\, cierra el 18 de noviembre.\nPrecio: 45 €.\nFicha oficia
- l: https://www.golfdirecto.com/micro/game/6964abc87205a3564d93bbca/summary
- \nConfirma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  12 de enero\, cierra el 18 de noviembre.\nPrecio: 45 €.\nFicha oficial:
+  https://www.golfdirecto.com/micro/game/6964abc87205a3564d93bbca/summary\n
+ Confirma fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6964abc87205a3564d93bbca/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:16ccc63528b606242c24@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261120
 SUMMARY:The 12 - Round 11 - The Lamont Classic - El Saler - 106358
 LOCATION:Campo de Golf el Saler\, Valencia\, Valencia
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 12 de octubre\, cierra el 16 de noviembre.\nPrecio: 75 €.\nFicha ofic
- ial: https://www.golfdirecto.com/micro/game/69b03db2d9295ef7aa995fca/summa
- ry\nConfirma fechas y condiciones en la web del organizador. Vía Banderí
- n.
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  12 de octubre\, cierra el 16 de noviembre.\nPrecio: 75 €.\nFicha oficia
+ l: https://www.golfdirecto.com/micro/game/69b03db2d9295ef7aa995fca/summary
+ \nConfirma fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/69b03db2d9295ef7aa995fca/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:50594f731062ed7829f5@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261120
 SUMMARY:Thursday Competition
 LOCATION:Campo de Golf Villamartin\, Orihuela-costa\, Alicante
-DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
- s://www.golfdirecto.com/micro/game/6af879fcac1d012c7960bdee/summary\nConfi
- rma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/6af879fcac1d012c7960bdee/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6af879fcac1d012c7960bdee/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:55c72d76ef70c8f1e07b@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 SUMMARY:SAS La Sella - 106994
 LOCATION:La Sella Golf (Campo)\, Jesus Pobre\, Alicante
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 5 de noviembre\, cierra el 18 de noviembre.\nPrecio: 65 €.\nFicha ofi
- cial: https://www.golfdirecto.com/micro/game/6aef06e3e0349cc290bd6730/summ
- ary\nConfirma fechas y condiciones en la web del organizador. Vía Bander
- ín.
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  5 de noviembre\, cierra el 18 de noviembre.\nPrecio: 65 €.\nFicha ofici
+ al: https://www.golfdirecto.com/micro/game/6aef06e3e0349cc290bd6730/summar
+ y\nConfirma fechas y condiciones en la web del organizador. Vía Banderín
+ .
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6aef06e3e0349cc290bd6730/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:d4ee2b1f71d2bb4a5ee2@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:6ª Prueba Liga Par 3 1er Turno
 LOCATION:Club de Golf el Plantio\, Bacarot\, Alicante
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 22 de octubre\, cierra el 19 de noviembre.\nPrecio: 15 €.\nFicha ofic
- ial: https://www.golfdirecto.com/micro/game/6ada0c5ba1531ddba47cc06c/summa
- ry\nConfirma fechas y condiciones en la web del organizador. Vía Banderí
- n.
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  22 de octubre\, cierra el 19 de noviembre.\nPrecio: 15 €.\nFicha oficia
+ l: https://www.golfdirecto.com/micro/game/6ada0c5ba1531ddba47cc06c/summary
+ \nConfirma fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6ada0c5ba1531ddba47cc06c/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:5e67d5b29b4e1093ecb1@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:6ª Prueba Liga Par 3 2º Turno
 LOCATION:Club de Golf el Plantio\, Bacarot\, Alicante
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 22 de octubre\, cierra el 19 de noviembre.\nPrecio: 15 €.\nFicha ofic
- ial: https://www.golfdirecto.com/micro/game/6ada0d01a1531ddba48cf7b4/summa
- ry\nConfirma fechas y condiciones en la web del organizador. Vía Banderí
- n.
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  22 de octubre\, cierra el 19 de noviembre.\nPrecio: 15 €.\nFicha oficia
+ l: https://www.golfdirecto.com/micro/game/6ada0d01a1531ddba48cf7b4/summary
+ \nConfirma fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6ada0d01a1531ddba48cf7b4/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:3d3e537d2d5ecac28d62@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:Altea Golf Society Noviembre 2026
 LOCATION:Altea Club de Golf\, Altea la Vella\, Alicante
-DESCRIPTION:Social de club · Medal Play · Individual\nFicha oficial: http
- s://www.golfdirecto.com/micro/game/6af842acd4037456f9384904/summary\nConfi
- rma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Medal Play - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/6af842acd4037456f9384904/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6af842acd4037456f9384904/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:4f8f500bc2c696490adc@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:Copa Levante - Memorial Fco. Gil (Final)
 LOCATION:Meliá Villaitana Golf\, Benidorm\, Alicante
-DESCRIPTION:Absoluto · Individual\nInscripción: abre el 6 de octubre\, ci
- erra el 16 de noviembre.\nFicha oficial: https://golfcv.com/torneo_seek/ve
- r-torneo/?torneoid=2718\nConfirma fechas y condiciones en la web del organ
- izador. Vía Banderín.
+DESCRIPTION:Absoluto - Individual\nInscripción: abre el 6 de octubre\, cie
+ rra el 16 de noviembre.\nFicha oficial: https://golfcv.com/torneo_seek/ver
+ -torneo/?torneoid=2718\nConfirma fechas y condiciones en la web del organi
+ zador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://golfcv.com/torneo_seek/ver-torneo/?torneoid=2718
 END:VEVENT
 BEGIN:VEVENT
 UID:948002616bdc18d0bc25@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:II Torneo de Otoño Ege
 LOCATION:Escuela de Golf Elche\, Elx/elche\, Alicante
-DESCRIPTION:Social de club · Fourball · Parejas\nInscripción: abre el 26
-  de octubre\, cierra el 19 de noviembre.\nPrecio: 40 €.\nFicha oficial: 
- https://www.golfdirecto.com/micro/game/6adf7da805d0e598f32da3d7/summary\nC
- onfirma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Fourball - Parejas\nInscripción: abre el 26 d
+ e octubre\, cierra el 19 de noviembre.\nPrecio: 40 €.\nFicha oficial: ht
+ tps://www.golfdirecto.com/micro/game/6adf7da805d0e598f32da3d7/summary\nCon
+ firma fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6adf7da805d0e598f32da3d7/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:007cf1741a6fe3962d46@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:Orden Mérito Parejas
 LOCATION:Panoramica Golf\, Sports & Resort\, San Jorge\, Castellón
-DESCRIPTION:Social de club · Fourball · Parejas\nInscripción: abre el 15
-  de septiembre\, cierra el 20 de noviembre.\nPrecio: 50 €.\nFicha oficia
- l: https://www.golfdirecto.com/micro/game/6aa974a8d2cbd360cacb1cbf/summary
- \nConfirma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Fourball - Parejas\nInscripción: abre el 15 d
+ e septiembre\, cierra el 20 de noviembre.\nPrecio: 50 €.\nFicha oficial:
+  https://www.golfdirecto.com/micro/game/6aa974a8d2cbd360cacb1cbf/summary\n
+ Confirma fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6aa974a8d2cbd360cacb1cbf/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:b95ef6890803a117b42d@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:Torneo Audi
 LOCATION:Club de Golf el Bosque\, Chiva\, Valencia
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 13 de noviembre\, cierra el 18 de noviembre.\nPrecio: 55 €.\nFicha of
- icial: https://www.golfdirecto.com/micro/game/6ab4bcd71ddaf3a38eb89493/sum
- mary\nConfirma fechas y condiciones en la web del organizador. Vía Bander
- ín.
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  13 de noviembre\, cierra el 18 de noviembre.\nPrecio: 55 €.\nFicha ofic
+ ial: https://www.golfdirecto.com/micro/game/6ab4bcd71ddaf3a38eb89493/summa
+ ry\nConfirma fechas y condiciones en la web del organizador. Vía Banderí
+ n.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6ab4bcd71ddaf3a38eb89493/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:11fa005e90e91293c16e@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:Torneo Golf y Viajes Msc Cruceros 20/11/2026-21/11/2026
 LOCATION:Real Club de Golf de Manises\, Manises\, Valencia
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 29 de octubre\, cierra el 18 de noviembre.\nPrecio: 50 €.\nFicha ofic
- ial: https://www.golfdirecto.com/micro/game/6aaa6b58edb6caeda7e4a2c7/summa
- ry\nConfirma fechas y condiciones en la web del organizador. Vía Banderí
- n.
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  29 de octubre\, cierra el 18 de noviembre.\nPrecio: 50 €.\nFicha oficia
+ l: https://www.golfdirecto.com/micro/game/6aaa6b58edb6caeda7e4a2c7/summary
+ \nConfirma fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6aaa6b58edb6caeda7e4a2c7/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:dac91f3d628ed2dd988e@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:V Torneo de Golf Mutxamel
 LOCATION:Club de Golf de Bonalba\, Mutxamel\, Alicante
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 10 de octubre\, cierra el 20 de noviembre.\nPrecio: 70 €.\nFicha ofic
- ial: https://www.golfdirecto.com/micro/game/6ac9e9eb7268198aae0c3f62/summa
- ry\nConfirma fechas y condiciones en la web del organizador. Vía Banderí
- n.
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  10 de octubre\, cierra el 20 de noviembre.\nPrecio: 70 €.\nFicha oficia
+ l: https://www.golfdirecto.com/micro/game/6ac9e9eb7268198aae0c3f62/summary
+ \nConfirma fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6ac9e9eb7268198aae0c3f62/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:445614472fb2b8330e2d@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:Villaitana Copa Levante 2026
 LOCATION:Meliá Villaitana Golf\, Benidorm\, Alicante
-DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
- s://www.golfdirecto.com/micro/game/69a4c629a5c98bfc69534913/summary\nConfi
- rma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/69a4c629a5c98bfc69534913/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/69a4c629a5c98bfc69534913/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:469f7e107aaed69bf691@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:18H Torneo Mensual Infantil
 LOCATION:Club de Golf el Bosque\, Chiva\, Valencia
-DESCRIPTION:Juvenil · Stableford · Individual\nInscripción: abre el 14 d
- e noviembre\, cierra el 20 de noviembre.\nPrecio: 15 €.\nFicha oficial: 
- https://www.golfdirecto.com/micro/game/69737b36d8ad1b97c8c84538/summary\nC
- onfirma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Juvenil - Stableford - Individual\nInscripción: abre el 14 de 
+ noviembre\, cierra el 20 de noviembre.\nPrecio: 15 €.\nFicha oficial: ht
+ tps://www.golfdirecto.com/micro/game/69737b36d8ad1b97c8c84538/summary\nCon
+ firma fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/69737b36d8ad1b97c8c84538/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:8f8c02674716c410b08e@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:4º- MAJOR (FUSION 2x1 Circuito BCG y MVGT) PONIENTE (Parejas e Ind
  ividual)
 LOCATION:Meliá Villaitana Golf\, Benidorm\, Alicante
-DESCRIPTION:Circuito comercial · Stableford · Parejas\nInscripción: abre
-  el 11 de noviembre\, cierra el 18 de noviembre.\nPrecio: 63 €.\nFicha o
- ficial: https://www.golfdirecto.com/micro/game/6af457b197842d5df4e8a54f/su
- mmary\nConfirma fechas y condiciones en la web del organizador. Vía Bande
- rín.
+DESCRIPTION:Circuito comercial - Stableford - Parejas\nInscripción: abre e
+ l 11 de noviembre\, cierra el 18 de noviembre.\nPrecio: 63 €.\nFicha ofi
+ cial: https://www.golfdirecto.com/micro/game/6af457b197842d5df4e8a54f/summ
+ ary\nConfirma fechas y condiciones en la web del organizador. Vía Bander
+ ín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6af457b197842d5df4e8a54f/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:a473def0725c9d48b550@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:9H Torneo Mensual Infantil
 LOCATION:Club de Golf el Bosque\, Chiva\, Valencia
-DESCRIPTION:Juvenil · Stableford · Individual\nInscripción: abre el 14 d
- e noviembre\, cierra el 20 de noviembre.\nPrecio: 10 €.\nFicha oficial: 
- https://www.golfdirecto.com/micro/game/69737b4dd8ad1b97c8c95fe6/summary\nC
- onfirma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Juvenil - Stableford - Individual\nInscripción: abre el 14 de 
+ noviembre\, cierra el 20 de noviembre.\nPrecio: 10 €.\nFicha oficial: ht
+ tps://www.golfdirecto.com/micro/game/69737b4dd8ad1b97c8c95fe6/summary\nCon
+ firma fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/69737b4dd8ad1b97c8c95fe6/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:8396d5b9df08718a13da@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:Golf Holanda 18 Hoyos
 LOCATION:Vistabella Golf Club\, Jacarilla\, Alicante
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 12 de agosto\, cierra el 22 de noviembre.\nPrecio: 60 €.\nFicha ofici
- al: https://www.golfdirecto.com/micro/game/6a7c4035f0874b6037b6ab42/summar
- y\nConfirma fechas y condiciones en la web del organizador. Vía Banderín
- .
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  12 de agosto\, cierra el 22 de noviembre.\nPrecio: 60 €.\nFicha oficial
+ : https://www.golfdirecto.com/micro/game/6a7c4035f0874b6037b6ab42/summary\
+ nConfirma fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6a7c4035f0874b6037b6ab42/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:b95900fc39622498b5ab@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:Golf Holanda 9 Hoyos
 LOCATION:Vistabella Golf Club\, Jacarilla\, Alicante
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 12 de agosto\, cierra el 22 de noviembre.\nPrecio: 40 €.\nFicha ofici
- al: https://www.golfdirecto.com/micro/game/6a7c4983312fe0d5258cabf7/summar
- y\nConfirma fechas y condiciones en la web del organizador. Vía Banderín
- .
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  12 de agosto\, cierra el 22 de noviembre.\nPrecio: 40 €.\nFicha oficial
+ : https://www.golfdirecto.com/micro/game/6a7c4983312fe0d5258cabf7/summary\
+ nConfirma fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6a7c4983312fe0d5258cabf7/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:614d133282c4301bfd93@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261124
 DTEND;VALUE=DATE:20261125
 SUMMARY:Tuesday Duel Eclectic 2026 - Round 47 - 106315
 LOCATION:Meliá Villaitana Golf\, Benidorm\, Alicante
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 19 de octubre\, cierra el 23 de noviembre.\nPrecio: 57 €.\nFicha ofic
- ial: https://www.golfdirecto.com/micro/game/69b0225ad9295ef7aaf99848/summa
- ry\nConfirma fechas y condiciones en la web del organizador. Vía Banderí
- n.
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  19 de octubre\, cierra el 23 de noviembre.\nPrecio: 57 €.\nFicha oficia
+ l: https://www.golfdirecto.com/micro/game/69b0225ad9295ef7aaf99848/summary
+ \nConfirma fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/69b0225ad9295ef7aaf99848/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:8d361589d49c621a2a87@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:Golf Holanda 18 Hoyos
 LOCATION:Vistabella Golf Club\, Jacarilla\, Alicante
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 12 de agosto\, cierra el 25 de noviembre.\nPrecio: 60 €.\nFicha ofici
- al: https://www.golfdirecto.com/micro/game/6a7c3b82f0874b6037008b5f/summar
- y\nConfirma fechas y condiciones en la web del organizador. Vía Banderín
- .
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  12 de agosto\, cierra el 25 de noviembre.\nPrecio: 60 €.\nFicha oficial
+ : https://www.golfdirecto.com/micro/game/6a7c3b82f0874b6037008b5f/summary\
+ nConfirma fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6a7c3b82f0874b6037008b5f/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:f4000baf0190482a0d82@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:Golf Holanda 9 Hoyos
 LOCATION:Vistabella Golf Club\, Jacarilla\, Alicante
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 12 de agosto\, cierra el 25 de noviembre.\nPrecio: 40 €.\nFicha ofici
- al: https://www.golfdirecto.com/micro/game/6a7c499e312fe0d52593a192/summar
- y\nConfirma fechas y condiciones en la web del organizador. Vía Banderín
- .
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  12 de agosto\, cierra el 25 de noviembre.\nPrecio: 40 €.\nFicha oficial
+ : https://www.golfdirecto.com/micro/game/6a7c499e312fe0d52593a192/summary\
+ nConfirma fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6a7c499e312fe0d52593a192/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:e81d9047d5aaf1bfac76@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:WCGS-106194-Individual Stableford
 LOCATION:Alenda Golf Club\, Monforte del Cid\, Alicante
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 14 de noviembre\, cierra el 22 de noviembre.\nPrecio: 66 €.\nFicha of
- icial: https://www.golfdirecto.com/micro/game/6aedb09202e839445a227108/sum
- mary\nConfirma fechas y condiciones en la web del organizador. Vía Bander
- ín.
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  14 de noviembre\, cierra el 22 de noviembre.\nPrecio: 66 €.\nFicha ofic
+ ial: https://www.golfdirecto.com/micro/game/6aedb09202e839445a227108/summa
+ ry\nConfirma fechas y condiciones en la web del organizador. Vía Banderí
+ n.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6aedb09202e839445a227108/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:66abc61ee91c676cc892@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:Wednesday Afternoon Golf
 LOCATION:Las Colinas Golf & Country Club\, San Miguel de Salinas\, Alicante
-DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
- s://www.golfdirecto.com/micro/game/6af8195ed94ac1f59d0bf1f4/summary\nConfi
- rma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/6af8195ed94ac1f59d0bf1f4/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6af8195ed94ac1f59d0bf1f4/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:0a23fb5246ae2e9fd75e@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261130
 SUMMARY:Cto Absoluto de la CV
 LOCATION:Club de Golf Font del Llop\, Monforte del Cid\, Alicante
-DESCRIPTION:Absoluto · Individual\nInscripción: abre el 23 de octubre\, c
- ierra el 23 de noviembre.\nPrecio: 100 €.\nFicha oficial: https://golfcv
- .com/torneo_seek/ver-torneo/?torneoid=2719\nConfirma fechas y condiciones 
- en la web del organizador. Vía Banderín.
+DESCRIPTION:Absoluto - Individual\nInscripción: abre el 23 de octubre\, ci
+ erra el 23 de noviembre.\nPrecio: 100 €.\nFicha oficial: https://golfcv.
+ com/torneo_seek/ver-torneo/?torneoid=2719\nConfirma fechas y condiciones e
+ n la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://golfcv.com/torneo_seek/ver-torneo/?torneoid=2719
 END:VEVENT
 BEGIN:VEVENT
 UID:4b410f83c7ef4d34c157@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261130
 SUMMARY:Jugadores No LV Cto Absoluto de la CV
 LOCATION:Club de Golf Font del Llop\, Monforte del Cid\, Alicante
-DESCRIPTION:Absoluto · Individual\nInscripción: abre el 23 de octubre\, c
- ierra el 23 de noviembre.\nPrecio: 140 €.\nFicha oficial: https://golfcv
- .com/torneo_seek/ver-torneo/?torneoid=2778\nConfirma fechas y condiciones 
- en la web del organizador. Vía Banderín.
+DESCRIPTION:Absoluto - Individual\nInscripción: abre el 23 de octubre\, ci
+ erra el 23 de noviembre.\nPrecio: 140 €.\nFicha oficial: https://golfcv.
+ com/torneo_seek/ver-torneo/?torneoid=2778\nConfirma fechas y condiciones e
+ n la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://golfcv.com/torneo_seek/ver-torneo/?torneoid=2778
 END:VEVENT
 BEGIN:VEVENT
 UID:371b0a9454dda6ab6c7d@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:SAS Stableford Eclectic - 106060
 LOCATION:Club de Golf el Plantio\, Bacarot\, Alicante
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 12 de noviembre\, cierra el 25 de noviembre.\nPrecio: 56 €.\nFicha of
- icial: https://www.golfdirecto.com/micro/game/6aef08a6ec94b7c14e4d55ca/sum
- mary\nConfirma fechas y condiciones en la web del organizador. Vía Bander
- ín.
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  12 de noviembre\, cierra el 25 de noviembre.\nPrecio: 56 €.\nFicha ofic
+ ial: https://www.golfdirecto.com/micro/game/6aef08a6ec94b7c14e4d55ca/summa
+ ry\nConfirma fechas y condiciones en la web del organizador. Vía Banderí
+ n.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6aef08a6ec94b7c14e4d55ca/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:f5fe2458e211fcff5930@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Campeonato Clubes sin Campo CV
 LOCATION:Meliá Villaitana Golf\, Benidorm\, Alicante
-DESCRIPTION:Clubes y equipos · Equipos\nInscripción: abre el 27 de octubr
- e\, cierra el 23 de noviembre.\nFicha oficial: https://golfcv.com/torneo_s
- eek/ver-torneo/?torneoid=2720\nConfirma fechas y condiciones en la web del
-  organizador. Vía Banderín.
+DESCRIPTION:Clubes y equipos - Equipos\nInscripción: abre el 27 de octubre
+ \, cierra el 23 de noviembre.\nFicha oficial: https://golfcv.com/torneo_se
+ ek/ver-torneo/?torneoid=2720\nConfirma fechas y condiciones en la web del 
+ organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://golfcv.com/torneo_seek/ver-torneo/?torneoid=2720
 END:VEVENT
 BEGIN:VEVENT
 UID:efa7b210f549bb932d84@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Copa de Otoño 2026
 LOCATION:Altea Club de Golf\, Altea la Vella\, Alicante
-DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
- s://www.golfdirecto.com/micro/game/6af8435dd4037456f9533ff2/summary\nConfi
- rma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/6af8435dd4037456f9533ff2/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6af8435dd4037456f9533ff2/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:8eea62ac3cda611b033d@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Ryder / Solheim P&P
 LOCATION:Escuela de Golf Elche\, Elx/elche\, Alicante
-DESCRIPTION:Absoluto · Match Play · Equipos\nFicha oficial: https://www.n
- extcaddy.com/tour/73510\nConfirma fechas y condiciones en la web del organ
- izador. Vía Banderín.
+DESCRIPTION:Absoluto - Match Play - Equipos\nFicha oficial: https://www.nex
+ tcaddy.com/tour/73510\nConfirma fechas y condiciones en la web del organiz
+ ador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.nextcaddy.com/tour/73510
 END:VEVENT
 BEGIN:VEVENT
 UID:7935b10fc2dffba9a1c3@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Torneo Virgen del Loreto
 LOCATION:Real Club de Golf de Manises\, Manises\, Valencia
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 12 de noviembre\, cierra el 28 de noviembre.\nPrecio: 50 €.\nFicha of
- icial: https://www.golfdirecto.com/micro/game/6974da92920bf1ea8d60a995/sum
- mary\nConfirma fechas y condiciones en la web del organizador. Vía Bander
- ín.
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  12 de noviembre\, cierra el 28 de noviembre.\nPrecio: 50 €.\nFicha ofic
+ ial: https://www.golfdirecto.com/micro/game/6974da92920bf1ea8d60a995/summa
+ ry\nConfirma fechas y condiciones en la web del organizador. Vía Banderí
+ n.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6974da92920bf1ea8d60a995/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:de07fea97c2c78d0ba80@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:V My Lawyer In Spain
 LOCATION:Golf And Country Club la Marquesa\, Rojales\, Alicante
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 26 de octubre\, cierra el 25 de noviembre.\nPrecio: 80 €.\nFicha ofic
- ial: https://www.golfdirecto.com/micro/game/6adf0390b0e08ac0156a8cc8/summa
- ry\nConfirma fechas y condiciones en la web del organizador. Vía Banderí
- n.
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  26 de octubre\, cierra el 25 de noviembre.\nPrecio: 80 €.\nFicha oficia
+ l: https://www.golfdirecto.com/micro/game/6adf0390b0e08ac0156a8cc8/summary
+ \nConfirma fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6adf0390b0e08ac0156a8cc8/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:4a060eacbfa1af351523@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Golf Holanda 18 Hoyos
 LOCATION:Vistabella Golf Club\, Jacarilla\, Alicante
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 12 de agosto\, cierra el 29 de noviembre.\nPrecio: 60 €.\nFicha ofici
- al: https://www.golfdirecto.com/micro/game/6a7c40aef0874b6037034c21/summar
- y\nConfirma fechas y condiciones en la web del organizador. Vía Banderín
- .
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  12 de agosto\, cierra el 29 de noviembre.\nPrecio: 60 €.\nFicha oficial
+ : https://www.golfdirecto.com/micro/game/6a7c40aef0874b6037034c21/summary\
+ nConfirma fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6a7c40aef0874b6037034c21/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:34ff5342924f2f00d419@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Golf Holanda 9 Hoyos
 LOCATION:Vistabella Golf Club\, Jacarilla\, Alicante
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 12 de agosto\, cierra el 29 de noviembre.\nPrecio: 40 €.\nFicha ofici
- al: https://www.golfdirecto.com/micro/game/6a7c4a0c312fe0d525bb5dab/summar
- y\nConfirma fechas y condiciones en la web del organizador. Vía Banderín
- .
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  12 de agosto\, cierra el 29 de noviembre.\nPrecio: 40 €.\nFicha oficial
+ : https://www.golfdirecto.com/micro/game/6a7c4a0c312fe0d525bb5dab/summary\
+ nConfirma fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6a7c4a0c312fe0d525bb5dab/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:b4f9b65c7f29d6acb68b@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Texas Scramble Champion Of Champions -105840
 LOCATION:Club de Golf de Bonalba\, Mutxamel\, Alicante
-DESCRIPTION:Social de club · Scramble · Parejas\nInscripción: abre el 28
-  de octubre\, cierra el 28 de noviembre.\nPrecio: 55 €.\nFicha oficial: 
- https://www.golfdirecto.com/micro/game/69b045e4d9295ef7aae544f1/summary\nC
- onfirma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Scramble - Parejas\nInscripción: abre el 28 d
+ e octubre\, cierra el 28 de noviembre.\nPrecio: 55 €.\nFicha oficial: ht
+ tps://www.golfdirecto.com/micro/game/69b045e4d9295ef7aae544f1/summary\nCon
+ firma fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/69b045e4d9295ef7aae544f1/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:93f1a8daf7cbb6d45510@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261201
 SUMMARY:Cto Dobles de Profesionales de la CV
 LOCATION:Oliva Golf\, Oliva\, Valencia
-DESCRIPTION:Profesional · Parejas\nInscripción: abre el 27 de octubre\, c
- ierra el 26 de noviembre.\nPrecio: 40 €.\nFicha oficial: https://golfcv.
- com/torneo_seek/ver-torneo/?torneoid=2746\nConfirma fechas y condiciones e
- n la web del organizador. Vía Banderín.
+DESCRIPTION:Profesional - Parejas\nInscripción: abre el 27 de octubre\, ci
+ erra el 26 de noviembre.\nPrecio: 40 €.\nFicha oficial: https://golfcv.c
+ om/torneo_seek/ver-torneo/?torneoid=2746\nConfirma fechas y condiciones en
+  la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://golfcv.com/torneo_seek/ver-torneo/?torneoid=2746
 END:VEVENT
 BEGIN:VEVENT
 UID:d64993ea7b23dcb866f7@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261202
 SUMMARY:Ladies Golf League 2026 - 8
 LOCATION:Las Colinas Golf & Country Club\, San Miguel de Salinas\, Alicante
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 5 de enero\, cierra el 30 de noviembre.\nPrecio: 90 €.\nFicha oficial
- : https://www.golfdirecto.com/micro/game/695b7a02154abbf47a77fe4f/summary\
- nConfirma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  5 de enero\, cierra el 30 de noviembre.\nPrecio: 90 €.\nFicha oficial: 
+ https://www.golfdirecto.com/micro/game/695b7a02154abbf47a77fe4f/summary\nC
+ onfirma fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/695b7a02154abbf47a77fe4f/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:a6a9216b4320aab319d5@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261202
 SUMMARY:Liguilla Senior Masculina Zona Vlc/Cs 1div 2div 9/9
 LOCATION:Club de Golf El Bosque\, Chiva\, Valencia
-DESCRIPTION:Senior · Medal Play · Individual\nInscripción: abre el 27 de
-  octubre\, cierra el 26 de noviembre.\nPrecio: 40 €.\nFicha oficial: htt
- ps://golfcv.com/torneo_seek/ver-torneo/?torneoid=2721\nConfirma fechas y c
- ondiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Senior - Medal Play - Individual\nInscripción: abre el 27 de o
+ ctubre\, cierra el 26 de noviembre.\nPrecio: 40 €.\nFicha oficial: https
+ ://golfcv.com/torneo_seek/ver-torneo/?torneoid=2721\nConfirma fechas y con
+ diciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://golfcv.com/torneo_seek/ver-torneo/?torneoid=2721
 END:VEVENT
 BEGIN:VEVENT
 UID:fcc2de1da97a13e40a28@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261202
 SUMMARY:Tuesday Duel Eclectic Final & Campbells Xmas Cracker - 106316
 LOCATION:Meliá Villaitana Golf\, Benidorm\, Alicante
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 28 de octubre\, cierra el 30 de noviembre.\nPrecio: 57 €.\nFicha ofic
- ial: https://www.golfdirecto.com/micro/game/69b02359d9295ef7aa1c36ea/summa
- ry\nConfirma fechas y condiciones en la web del organizador. Vía Banderí
- n.
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  28 de octubre\, cierra el 30 de noviembre.\nPrecio: 57 €.\nFicha oficia
+ l: https://www.golfdirecto.com/micro/game/69b02359d9295ef7aa1c36ea/summary
+ \nConfirma fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/69b02359d9295ef7aa1c36ea/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:984d1ae63732bb310087@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261202
 DTEND;VALUE=DATE:20261203
 SUMMARY:Golf Holanda 18 Hoyos
 LOCATION:Vistabella Golf Club\, Jacarilla\, Alicante
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 12 de agosto\, cierra el 2 de diciembre.\nPrecio: 60 €.\nFicha oficia
- l: https://www.golfdirecto.com/micro/game/6a7c3bc5f0874b60372ab181/summary
- \nConfirma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  12 de agosto\, cierra el 2 de diciembre.\nPrecio: 60 €.\nFicha oficial:
+  https://www.golfdirecto.com/micro/game/6a7c3bc5f0874b60372ab181/summary\n
+ Confirma fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6a7c3bc5f0874b60372ab181/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:87c3809b12521cc6c337@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261202
 DTEND;VALUE=DATE:20261203
 SUMMARY:Golf Holanda 9 Hoyos
 LOCATION:Vistabella Golf Club\, Jacarilla\, Alicante
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 12 de agosto\, cierra el 2 de diciembre.\nPrecio: 40 €.\nFicha oficia
- l: https://www.golfdirecto.com/micro/game/6a7c4a27312fe0d525c1cbc4/summary
- \nConfirma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  12 de agosto\, cierra el 2 de diciembre.\nPrecio: 40 €.\nFicha oficial:
+  https://www.golfdirecto.com/micro/game/6a7c4a27312fe0d525c1cbc4/summary\n
+ Confirma fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6a7c4a27312fe0d525c1cbc4/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:69c8386cf0f03b976cd1@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261202
 DTEND;VALUE=DATE:20261203
 SUMMARY:Rec IV Liguilla Interclubs Femenina 4/9
 LOCATION:Meliá Villaitana Golf\, Benidorm\, Alicante
-DESCRIPTION:Clubes y equipos · Equipos\nInscripción: abre el 4 de noviemb
- re\, cierra el 26 de noviembre.\nPrecio: 40 €.\nFicha oficial: https://g
- olfcv.com/torneo_seek/ver-torneo/?torneoid=2776\nConfirma fechas y condici
- ones en la web del organizador. Vía Banderín.
+DESCRIPTION:Clubes y equipos - Equipos\nInscripción: abre el 4 de noviembr
+ e\, cierra el 26 de noviembre.\nPrecio: 40 €.\nFicha oficial: https://go
+ lfcv.com/torneo_seek/ver-torneo/?torneoid=2776\nConfirma fechas y condicio
+ nes en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://golfcv.com/torneo_seek/ver-torneo/?torneoid=2776
 END:VEVENT
 BEGIN:VEVENT
 UID:6237876b197ba6189de0@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261202
 DTEND;VALUE=DATE:20261203
 SUMMARY:Wednesday Afternoon Golf
 LOCATION:Las Colinas Golf & Country Club\, San Miguel de Salinas\, Alicante
-DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
- s://www.golfdirecto.com/micro/game/6af81975a1b1857577312121/summary\nConfi
- rma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/6af81975a1b1857577312121/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6af81975a1b1857577312121/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:40d8b73d7f5ca4445ea1@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
 SUMMARY:Liga Senior de Bonalba 2026 (Diciembre)
 LOCATION:Club de Golf de Bonalba\, Mutxamel\, Alicante
-DESCRIPTION:Senior · Stableford · Individual\nInscripción: abre el 8 de 
- junio\, cierra el 3 de diciembre.\nPrecio: 50 €.\nFicha oficial: https:/
- /www.golfdirecto.com/micro/game/6a26683d64a97bd26d354c5d/summary\nConfirma
-  fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Senior - Stableford - Individual\nInscripción: abre el 8 de ju
+ nio\, cierra el 3 de diciembre.\nPrecio: 50 €.\nFicha oficial: https://w
+ ww.golfdirecto.com/micro/game/6a26683d64a97bd26d354c5d/summary\nConfirma f
+ echas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6a26683d64a97bd26d354c5d/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:d03bf1b194c3f9e8f63b@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
 SUMMARY:SAS Winter/Xmas Medal - 105405
 LOCATION:Meliá Villaitana Golf\, Benidorm\, Alicante
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 19 de noviembre\, cierra el 2 de diciembre.\nPrecio: 55 €.\nFicha ofi
- cial: https://www.golfdirecto.com/micro/game/6aef09a8e0349cc2901878b7/summ
- ary\nConfirma fechas y condiciones en la web del organizador. Vía Bander
- ín.
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  19 de noviembre\, cierra el 2 de diciembre.\nPrecio: 55 €.\nFicha ofici
+ al: https://www.golfdirecto.com/micro/game/6aef09a8e0349cc2901878b7/summar
+ y\nConfirma fechas y condiciones en la web del organizador. Vía Banderín
+ .
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6aef09a8e0349cc2901878b7/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:b834e32ddcd7613ad0e6@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
 SUMMARY:The 12 - Round 12 - Las Colinas - 106397
 LOCATION:Las Colinas Golf & Country Club\, San Miguel de Salinas\, Alicante
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 1 de noviembre\, cierra el 4 de diciembre.\nPrecio: 85 €.\nFicha ofic
- ial: https://www.golfdirecto.com/micro/game/69b03ee6d9295ef7aada5bf9/summa
- ry\nConfirma fechas y condiciones en la web del organizador. Vía Banderí
- n.
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  1 de noviembre\, cierra el 4 de diciembre.\nPrecio: 85 €.\nFicha oficia
+ l: https://www.golfdirecto.com/micro/game/69b03ee6d9295ef7aada5bf9/summary
+ \nConfirma fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/69b03ee6d9295ef7aada5bf9/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:1e3c3ff8931186db0608@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
 SUMMARY:Torneo Om Individual
 LOCATION:Panoramica Golf\, Sports & Resort\, San Jorge\, Castellón
-DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
- s://www.golfdirecto.com/micro/game/6aa978c8d2cbd360ca912b01/summary\nConfi
- rma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/6aa978c8d2cbd360ca912b01/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6aa978c8d2cbd360ca912b01/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:6bb44b806eb288bdb9d1@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
 SUMMARY:Cto 5ª Cat Masculino
 LOCATION:Campo de Golf Parador El Saler\, El Saler\, Valencia
-DESCRIPTION:Absoluto · Individual\nFicha oficial: https://golfcv.com/torne
- o_seek/ver-torneo/?torneoid=2779\nConfirma fechas y condiciones en la web 
- del organizador. Vía Banderín.
+DESCRIPTION:Absoluto - Individual\nFicha oficial: https://golfcv.com/torneo
+ _seek/ver-torneo/?torneoid=2779\nConfirma fechas y condiciones en la web d
+ el organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://golfcv.com/torneo_seek/ver-torneo/?torneoid=2779
 END:VEVENT
 BEGIN:VEVENT
 UID:7723b0c65cba1473d3da@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
 SUMMARY:Golf Holanda 9 Hoyos
 LOCATION:Vistabella Golf Club\, Jacarilla\, Alicante
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 12 de agosto\, cierra el 6 de diciembre.\nPrecio: 40 €.\nFicha oficia
- l: https://www.golfdirecto.com/micro/game/6a7c4a4b312fe0d525dae2b9/summary
- \nConfirma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  12 de agosto\, cierra el 6 de diciembre.\nPrecio: 40 €.\nFicha oficial:
+  https://www.golfdirecto.com/micro/game/6a7c4a4b312fe0d525dae2b9/summary\n
+ Confirma fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6a7c4a4b312fe0d525dae2b9/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:e511c540329d3a1c1f9b@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
 SUMMARY:Las Colinas Trophy - V Edición
 LOCATION:Las Colinas Golf & Country Club\, San Miguel de Salinas\, Alicante
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 1 de junio\, cierra el 30 de noviembre.\nPrecio: 318 €.\nFicha oficia
- l: https://www.golfdirecto.com/micro/game/6a07272bbefa498256213862/summary
- \nConfirma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  1 de junio\, cierra el 30 de noviembre.\nPrecio: 318 €.\nFicha oficial:
+  https://www.golfdirecto.com/micro/game/6a07272bbefa498256213862/summary\n
+ Confirma fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6a07272bbefa498256213862/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:06e224c5ab9c81790439@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
 SUMMARY:Torneo Navidad Vistabella Golf
 LOCATION:Vistabella Golf Club\, Jacarilla\, Alicante
-DESCRIPTION:Social de club · Fourball · Parejas\nInscripción: abre el 6 
- de noviembre\, cierra el 3 de diciembre.\nPrecio: 65 €.\nFicha oficial: 
- https://www.golfdirecto.com/micro/game/6aeb59b03539d98a46ec6c0a/summary\nC
- onfirma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Fourball - Parejas\nInscripción: abre el 6 de
+  noviembre\, cierra el 3 de diciembre.\nPrecio: 65 €.\nFicha oficial: ht
+ tps://www.golfdirecto.com/micro/game/6aeb59b03539d98a46ec6c0a/summary\nCon
+ firma fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6aeb59b03539d98a46ec6c0a/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:e029a9b22839c680e225@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261208
 DTEND;VALUE=DATE:20261209
 SUMMARY:Rencontre AGFCB 30 - Lo Romero - Mardi 08 décembre 2026 - 4BB - 28
   places disponibles ! - 80€ buggy inclus + PAF 5€
 LOCATION:Campo de Golf Lo Romero\, Pilar de la Horadada\, Alicante
-DESCRIPTION:Social de club · Fourball · Parejas\nInscripción: abre el 7 
- de septiembre\, cierra el 6 de diciembre.\nFicha oficial: https://www.golf
- directo.com/micro/game/6a9ef766e4e6c9f60ea463c1/summary\nConfirma fechas y
-  condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Fourball - Parejas\nInscripción: abre el 7 de
+  septiembre\, cierra el 6 de diciembre.\nFicha oficial: https://www.golfdi
+ recto.com/micro/game/6a9ef766e4e6c9f60ea463c1/summary\nConfirma fechas y c
+ ondiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6a9ef766e4e6c9f60ea463c1/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:5ffbb8021f9feea6f49c@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261208
 DTEND;VALUE=DATE:20261209
 SUMMARY:Tuesday Duel Eclectic 20267- Round 1 - 106317
 LOCATION:Meliá Villaitana Golf\, Benidorm\, Alicante
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 9 de noviembre\, cierra el 7 de diciembre.\nPrecio: 57 €.\nFicha ofic
- ial: https://www.golfdirecto.com/micro/game/6af1ee6f2f0e9df18b74eb73/summa
- ry\nConfirma fechas y condiciones en la web del organizador. Vía Banderí
- n.
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  9 de noviembre\, cierra el 7 de diciembre.\nPrecio: 57 €.\nFicha oficia
+ l: https://www.golfdirecto.com/micro/game/6af1ee6f2f0e9df18b74eb73/summary
+ \nConfirma fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6af1ee6f2f0e9df18b74eb73/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:410b4aad5da806fbc0e6@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261209
 DTEND;VALUE=DATE:20261210
 SUMMARY:Golf Holanda 18 Hoyos
 LOCATION:Vistabella Golf Club\, Jacarilla\, Alicante
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 12 de agosto\, cierra el 9 de diciembre.\nPrecio: 60 €.\nFicha oficia
- l: https://www.golfdirecto.com/micro/game/6a7c3bedf0874b60373b3324/summary
- \nConfirma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  12 de agosto\, cierra el 9 de diciembre.\nPrecio: 60 €.\nFicha oficial:
+  https://www.golfdirecto.com/micro/game/6a7c3bedf0874b60373b3324/summary\n
+ Confirma fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6a7c3bedf0874b60373b3324/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:e15e9b332b4e1b98ff4a@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261209
 DTEND;VALUE=DATE:20261210
 SUMMARY:Golf Holanda 9 Hoyos
 LOCATION:Vistabella Golf Club\, Jacarilla\, Alicante
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 12 de agosto\, cierra el 9 de diciembre.\nPrecio: 40 €.\nFicha oficia
- l: https://www.golfdirecto.com/micro/game/6a7c4a73312fe0d525ee117e/summary
- \nConfirma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  12 de agosto\, cierra el 9 de diciembre.\nPrecio: 40 €.\nFicha oficial:
+  https://www.golfdirecto.com/micro/game/6a7c4a73312fe0d525ee117e/summary\n
+ Confirma fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6a7c4a73312fe0d525ee117e/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:dd8ff36d6bc36061644a@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261211
 DTEND;VALUE=DATE:20261212
 SUMMARY:SAS Stableford Eclectic - 108028
 LOCATION:Alicante Golf\, Sant Joan\, Alicante
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 26 de noviembre\, cierra el 9 de diciembre.\nPrecio: 45 €.\nFicha ofi
- cial: https://www.golfdirecto.com/micro/game/6aef0ab2e0349cc290a2b6e4/summ
- ary\nConfirma fechas y condiciones en la web del organizador. Vía Bander
- ín.
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  26 de noviembre\, cierra el 9 de diciembre.\nPrecio: 45 €.\nFicha ofici
+ al: https://www.golfdirecto.com/micro/game/6aef0ab2e0349cc290a2b6e4/summar
+ y\nConfirma fechas y condiciones en la web del organizador. Vía Banderín
+ .
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6aef0ab2e0349cc290a2b6e4/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:99e398a39160e3751ab6@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:Final VII Circuito La Finca Resort
 LOCATION:La Finca Golf
-DESCRIPTION:Circuito comercial · Stableford · Individual\nFicha oficial: 
- https://www.golfdirecto.com/micro/game/6afac5ac23d5370df067b99e/summary\nC
- onfirma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Circuito comercial - Stableford - Individual\nFicha oficial: ht
+ tps://www.golfdirecto.com/micro/game/6afac5ac23d5370df067b99e/summary\nCon
+ firma fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6afac5ac23d5370df067b99e/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:4ab58a859125971cd0c6@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:PRO-AM - 125 Aniversario CAMARA ORIHUELA - XIII Memorial Benéfico 
  ANTONIO PEDRERA SOLER
 LOCATION:Campo de Golf Villamartin\, Orihuela-costa\, Alicante
-DESCRIPTION:Profesional · Scramble · Parejas\nInscripción: abre el 24 de
-  septiembre\, cierra el 10 de diciembre.\nPrecio: 130 €.\nFicha oficial:
-  https://www.golfdirecto.com/micro/game/6ab515345978d28e5a1fa60a/summary\n
- Confirma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Profesional - Scramble - Parejas\nInscripción: abre el 24 de s
+ eptiembre\, cierra el 10 de diciembre.\nPrecio: 130 €.\nFicha oficial: h
+ ttps://www.golfdirecto.com/micro/game/6ab515345978d28e5a1fa60a/summary\nCo
+ nfirma fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6ab515345978d28e5a1fa60a/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:854e174a71d976f25eb0@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:Torneo Noveles
 LOCATION:Club de Golf el Bosque\, Chiva\, Valencia
-DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
- s://www.golfdirecto.com/micro/game/69737893d8ad1b97c86f5045/summary\nConfi
- rma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/69737893d8ad1b97c86f5045/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/69737893d8ad1b97c86f5045/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:b8d5c33f9964e68016bd@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
 SUMMARY:Golf Holanda 18 Hoyos
 LOCATION:Vistabella Golf Club\, Jacarilla\, Alicante
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 12 de agosto\, cierra el 13 de diciembre.\nPrecio: 60 €.\nFicha ofici
- al: https://www.golfdirecto.com/micro/game/6a7c40e9f0874b6037208ef7/summar
- y\nConfirma fechas y condiciones en la web del organizador. Vía Banderín
- .
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  12 de agosto\, cierra el 13 de diciembre.\nPrecio: 60 €.\nFicha oficial
+ : https://www.golfdirecto.com/micro/game/6a7c40e9f0874b6037208ef7/summary\
+ nConfirma fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6a7c40e9f0874b6037208ef7/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:b611a23d379aecec8392@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
 SUMMARY:Golf Holanda 9 Hoyos
 LOCATION:Vistabella Golf Club\, Jacarilla\, Alicante
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 12 de agosto\, cierra el 13 de diciembre.\nPrecio: 40 €.\nFicha ofici
- al: https://www.golfdirecto.com/micro/game/6a7c4a98312fe0d525f3d524/summar
- y\nConfirma fechas y condiciones en la web del organizador. Vía Banderín
- .
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  12 de agosto\, cierra el 13 de diciembre.\nPrecio: 40 €.\nFicha oficial
+ : https://www.golfdirecto.com/micro/game/6a7c4a98312fe0d525f3d524/summary\
+ nConfirma fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6a7c4a98312fe0d525f3d524/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:e0b5682cfeb5899d0c17@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
 SUMMARY:VIII Damas Marfil Heritage
 LOCATION:Club de Golf el Bosque\, Chiva\, Valencia
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 5 de diciembre\, cierra el 11 de diciembre.\nFicha oficial: https://www
- .golfdirecto.com/micro/game/68f876d4d4916519150ea585/summary\nConfirma fec
- has y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  5 de diciembre\, cierra el 11 de diciembre.\nFicha oficial: https://www.g
+ olfdirecto.com/micro/game/68f876d4d4916519150ea585/summary\nConfirma fecha
+ s y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/68f876d4d4916519150ea585/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:45b1158081e9fb15c1d0@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
 SUMMARY:VIII Torneo Padres e Hijos
 LOCATION:Real Club de Golf de Manises\, Manises\, Valencia
-DESCRIPTION:Juvenil · Fourball · Parejas\nInscripción: abre el 6 de octu
- bre\, cierra el 16 de octubre.\nPrecio: 17\,5 €.\nFicha oficial: https:/
- /www.golfdirecto.com/micro/game/6974b1c2920bf1ea8daa2a55/summary\nConfirma
-  fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Juvenil - Fourball - Parejas\nInscripción: abre el 6 de octubr
+ e\, cierra el 16 de octubre.\nPrecio: 17\,5 €.\nFicha oficial: https://w
+ ww.golfdirecto.com/micro/game/6974b1c2920bf1ea8daa2a55/summary\nConfirma f
+ echas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6974b1c2920bf1ea8daa2a55/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:5faabacb6d9bec8cfcf6@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261215
 DTEND;VALUE=DATE:20261217
 SUMMARY:Final Liguilla Masculina Senior 2026
 LOCATION:Oliva Golf\, Oliva\, Valencia
-DESCRIPTION:Senior · Individual\nFicha oficial: https://golfcv.com/torneo_
- seek/ver-torneo/?torneoid=2724\nConfirma fechas y condiciones en la web de
- l organizador. Vía Banderín.
+DESCRIPTION:Senior - Individual\nFicha oficial: https://golfcv.com/torneo_s
+ eek/ver-torneo/?torneoid=2724\nConfirma fechas y condiciones en la web del
+  organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://golfcv.com/torneo_seek/ver-torneo/?torneoid=2724
 END:VEVENT
 BEGIN:VEVENT
 UID:2b9c3c77b6fda0435f17@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261216
 DTEND;VALUE=DATE:20261217
 SUMMARY:Golf Holanda 18 Hoyos
 LOCATION:Vistabella Golf Club\, Jacarilla\, Alicante
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 12 de agosto\, cierra el 16 de diciembre.\nPrecio: 60 €.\nFicha ofici
- al: https://www.golfdirecto.com/micro/game/6a7c3c19f0874b60374d0958/summar
- y\nConfirma fechas y condiciones en la web del organizador. Vía Banderín
- .
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  12 de agosto\, cierra el 16 de diciembre.\nPrecio: 60 €.\nFicha oficial
+ : https://www.golfdirecto.com/micro/game/6a7c3c19f0874b60374d0958/summary\
+ nConfirma fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6a7c3c19f0874b60374d0958/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:625c899e95df6872503d@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261216
 DTEND;VALUE=DATE:20261217
 SUMMARY:Golf Holanda 9 Hoyos
 LOCATION:Vistabella Golf Club\, Jacarilla\, Alicante
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 12 de agosto\, cierra el 16 de diciembre.\nPrecio: 40 €.\nFicha ofici
- al: https://www.golfdirecto.com/micro/game/6a7c4ab8312fe0d525f9a1ce/summar
- y\nConfirma fechas y condiciones en la web del organizador. Vía Banderín
- .
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  12 de agosto\, cierra el 16 de diciembre.\nPrecio: 40 €.\nFicha oficial
+ : https://www.golfdirecto.com/micro/game/6a7c4ab8312fe0d525f9a1ce/summary\
+ nConfirma fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6a7c4ab8312fe0d525f9a1ce/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:0a7f26d63cf4a0cd8ceb@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261216
 DTEND;VALUE=DATE:20261217
 SUMMARY:Wednesday Afternoon Golf
 LOCATION:Las Colinas Golf & Country Club\, San Miguel de Salinas\, Alicante
-DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
- s://www.golfdirecto.com/micro/game/6af81993d94ac1f59d0e31cb/summary\nConfi
- rma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/6af81993d94ac1f59d0e31cb/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6af81993d94ac1f59d0e31cb/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:20e738fb56c2f1eeac30@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261217
 DTEND;VALUE=DATE:20261218
 SUMMARY:Final Liga Damas de Bonalba 2026 (Diciembre)
 LOCATION:Club de Golf de Bonalba\, Mutxamel\, Alicante
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 12 de enero\, cierra el 16 de diciembre.\nPrecio: 45 €.\nFicha oficia
- l: https://www.golfdirecto.com/micro/game/6964acca7205a3564dbd0e3f/summary
- \nConfirma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  12 de enero\, cierra el 16 de diciembre.\nPrecio: 45 €.\nFicha oficial:
+  https://www.golfdirecto.com/micro/game/6964acca7205a3564dbd0e3f/summary\n
+ Confirma fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6964acca7205a3564dbd0e3f/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:0c9758d862a195d130e3@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261217
 DTEND;VALUE=DATE:20261218
 SUMMARY:Torneo LPG
 LOCATION:Club de Golf el Bosque\, Chiva\, Valencia
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 9 de diciembre\, cierra el 9 de diciembre.\nFicha oficial: https://www.
- golfdirecto.com/micro/game/693ad9047b4c3868a273abcd/summary\nConfirma fech
- as y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  9 de diciembre\, cierra el 9 de diciembre.\nFicha oficial: https://www.go
+ lfdirecto.com/micro/game/693ad9047b4c3868a273abcd/summary\nConfirma fechas
+  y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/693ad9047b4c3868a273abcd/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:3f76ba8235ade272803f@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261218
 DTEND;VALUE=DATE:20261219
 SUMMARY:SAS Xmas Scramble - 107067
 LOCATION:Meliá Villaitana Golf\, Benidorm\, Alicante
-DESCRIPTION:Social de club · Stableford · Parejas\nInscripción: abre el 
- 3 de diciembre\, cierra el 16 de diciembre.\nPrecio: 45 €.\nFicha oficia
- l: https://www.golfdirecto.com/micro/game/6aef0bc3ec94b7c14ee0c793/summary
- \nConfirma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Parejas\nInscripción: abre el 3 
+ de diciembre\, cierra el 16 de diciembre.\nPrecio: 45 €.\nFicha oficial:
+  https://www.golfdirecto.com/micro/game/6aef0bc3ec94b7c14ee0c793/summary\n
+ Confirma fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6aef0bc3ec94b7c14ee0c793/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:b48350eeae7b5e338d41@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261220
 SUMMARY:Gala PRO-AM FGCV 2026
 LOCATION:Campo de Golf La Finca\, Algorfa\, Alicante
-DESCRIPTION:Profesional · Individual\nFicha oficial: https://golfcv.com/to
- rneo_seek/ver-torneo/?torneoid=2766\nConfirma fechas y condiciones en la w
- eb del organizador. Vía Banderín.
+DESCRIPTION:Profesional - Individual\nFicha oficial: https://golfcv.com/tor
+ neo_seek/ver-torneo/?torneoid=2766\nConfirma fechas y condiciones en la we
+ b del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://golfcv.com/torneo_seek/ver-torneo/?torneoid=2766
 END:VEVENT
 BEGIN:VEVENT
 UID:624e63551f422e34aa63@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261220
 SUMMARY:Torneo Memorial Alfonso Pinto
 LOCATION:Club de Golf el Bosque\, Chiva\, Valencia
-DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
- s://www.golfdirecto.com/micro/game/69737c36d8ad1b97c8e681a3/summary\nConfi
- rma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/69737c36d8ad1b97c8e681a3/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/69737c36d8ad1b97c8e681a3/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:e1c069da42d01d61f7d7@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261220
 SUMMARY:Torneo Om Parejas
 LOCATION:Panoramica Golf\, Sports & Resort\, San Jorge\, Castellón
-DESCRIPTION:Social de club · Fourball · Parejas\nFicha oficial: https://w
- ww.golfdirecto.com/micro/game/6aa97914d2cbd360caa9d6a0/summary\nConfirma f
- echas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Fourball - Parejas\nFicha oficial: https://www
+ .golfdirecto.com/micro/game/6aa97914d2cbd360caa9d6a0/summary\nConfirma fec
+ has y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6aa97914d2cbd360caa9d6a0/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:32c2ac8fc8cf0754a8e3@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261220
 SUMMARY:XVII Torneo Navidad Font del Llop 2026
 LOCATION:Club de Golf Font del Llop\, Monforte del Cid\, Alicante
-DESCRIPTION:Social de club · Scramble · Parejas\nInscripción: abre el 1 
- de noviembre\, cierra el 18 de diciembre.\nPrecio: 60 €.\nFicha oficial:
-  https://www.golfdirecto.com/micro/game/6ae6fc4f8f4f6415e0ac88d9/summary\n
- Confirma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Scramble - Parejas\nInscripción: abre el 1 de
+  noviembre\, cierra el 18 de diciembre.\nPrecio: 60 €.\nFicha oficial: h
+ ttps://www.golfdirecto.com/micro/game/6ae6fc4f8f4f6415e0ac88d9/summary\nCo
+ nfirma fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6ae6fc4f8f4f6415e0ac88d9/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:a16d05484dd821cdef65@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261220
 DTEND;VALUE=DATE:20261221
 SUMMARY:18H Torneo Mensual Infantil
 LOCATION:Club de Golf el Bosque\, Chiva\, Valencia
-DESCRIPTION:Juvenil · Stableford · Individual\nFicha oficial: https://www
- .golfdirecto.com/micro/game/69737c65d8ad1b97c8ebd887/summary\nConfirma fec
- has y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Juvenil - Stableford - Individual\nFicha oficial: https://www.g
+ olfdirecto.com/micro/game/69737c65d8ad1b97c8ebd887/summary\nConfirma fecha
+ s y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/69737c65d8ad1b97c8ebd887/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:363677517486193bdc75@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261220
 DTEND;VALUE=DATE:20261221
 SUMMARY:9H Torneo Mensual Infantil
 LOCATION:Club de Golf el Bosque\, Chiva\, Valencia
-DESCRIPTION:Juvenil · Stableford · Individual\nFicha oficial: https://www
- .golfdirecto.com/micro/game/69737c8fd8ad1b97c8f044fe/summary\nConfirma fec
- has y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Juvenil - Stableford - Individual\nFicha oficial: https://www.g
+ olfdirecto.com/micro/game/69737c8fd8ad1b97c8f044fe/summary\nConfirma fecha
+ s y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/69737c8fd8ad1b97c8f044fe/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:de024c6f83cb73c3b8d5@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261220
 DTEND;VALUE=DATE:20261221
 SUMMARY:Circuito Masculino y Femenino CV 4/4
 LOCATION:Campo de Golf Parador El Saler\, El Saler\, Valencia
-DESCRIPTION:Absoluto · Individual\nInscripción: abre el 16 de septiembre\
- , cierra el 13 de octubre.\nPrecio: 40 €.\nFicha oficial: https://golfcv
- .com/torneo_seek/ver-torneo/?torneoid=2706\nConfirma fechas y condiciones 
- en la web del organizador. Vía Banderín.
+DESCRIPTION:Absoluto - Individual\nInscripción: abre el 16 de septiembre\,
+  cierra el 13 de octubre.\nPrecio: 40 €.\nFicha oficial: https://golfcv.
+ com/torneo_seek/ver-torneo/?torneoid=2706\nConfirma fechas y condiciones e
+ n la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://golfcv.com/torneo_seek/ver-torneo/?torneoid=2706
 END:VEVENT
 BEGIN:VEVENT
 UID:5f830097c9a12e5f3b0e@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261220
 DTEND;VALUE=DATE:20261221
 SUMMARY:Golf Holanda 18 Hoyos
 LOCATION:Vistabella Golf Club\, Jacarilla\, Alicante
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 12 de agosto\, cierra el 20 de diciembre.\nPrecio: 60 €.\nFicha ofici
- al: https://www.golfdirecto.com/micro/game/6a7c411f312fe0d525f9f721/summar
- y\nConfirma fechas y condiciones en la web del organizador. Vía Banderín
- .
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  12 de agosto\, cierra el 20 de diciembre.\nPrecio: 60 €.\nFicha oficial
+ : https://www.golfdirecto.com/micro/game/6a7c411f312fe0d525f9f721/summary\
+ nConfirma fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6a7c411f312fe0d525f9f721/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:615bb20b3818227ba555@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261220
 DTEND;VALUE=DATE:20261221
 SUMMARY:Golf Holanda 9 Hoyos
 LOCATION:Vistabella Golf Club\, Jacarilla\, Alicante
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 12 de agosto\, cierra el 20 de diciembre.\nPrecio: 40 €.\nFicha ofici
- al: https://www.golfdirecto.com/micro/game/6a7c4ae2312fe0d525062a17/summar
- y\nConfirma fechas y condiciones en la web del organizador. Vía Banderín
- .
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  12 de agosto\, cierra el 20 de diciembre.\nPrecio: 40 €.\nFicha oficial
+ : https://www.golfdirecto.com/micro/game/6a7c4ae2312fe0d525062a17/summary\
+ nConfirma fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6a7c4ae2312fe0d525062a17/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:a28cb372a71e606e2afc@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261220
 DTEND;VALUE=DATE:20261221
 SUMMARY:PRO-AM Felices Fiestas 2026
 LOCATION:Real Club de Golf de Manises\, Manises\, Valencia
-DESCRIPTION:Profesional · Scramble · Parejas\nFicha oficial: https://www.
- golfdirecto.com/micro/game/6974dad4920bf1ea8d71ac10/summary\nConfirma fech
- as y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Profesional - Scramble - Parejas\nFicha oficial: https://www.go
+ lfdirecto.com/micro/game/6974dad4920bf1ea8d71ac10/summary\nConfirma fechas
+  y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6974dad4920bf1ea8d71ac10/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:8f91a1b05b57169c313d@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261223
 DTEND;VALUE=DATE:20261224
 SUMMARY:Golf Holanda 18 Hoyos
 LOCATION:Vistabella Golf Club\, Jacarilla\, Alicante
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 12 de agosto\, cierra el 23 de diciembre.\nPrecio: 60 €.\nFicha ofici
- al: https://www.golfdirecto.com/micro/game/6a7c3c3bf0874b60375ba458/summar
- y\nConfirma fechas y condiciones en la web del organizador. Vía Banderín
- .
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  12 de agosto\, cierra el 23 de diciembre.\nPrecio: 60 €.\nFicha oficial
+ : https://www.golfdirecto.com/micro/game/6a7c3c3bf0874b60375ba458/summary\
+ nConfirma fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6a7c3c3bf0874b60375ba458/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:72afc368e3d2eba44a4b@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261223
 DTEND;VALUE=DATE:20261224
 SUMMARY:Golf Holanda 9 Hoyos
 LOCATION:Vistabella Golf Club\, Jacarilla\, Alicante
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 12 de agosto\, cierra el 23 de diciembre.\nPrecio: 40 €.\nFicha ofici
- al: https://www.golfdirecto.com/micro/game/6a7c4b1b312fe0d52526f22a/summar
- y\nConfirma fechas y condiciones en la web del organizador. Vía Banderín
- .
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  12 de agosto\, cierra el 23 de diciembre.\nPrecio: 40 €.\nFicha oficial
+ : https://www.golfdirecto.com/micro/game/6a7c4b1b312fe0d52526f22a/summary\
+ nConfirma fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6a7c4b1b312fe0d52526f22a/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:fbc5eb72c6c34f6bba4c@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261223
 DTEND;VALUE=DATE:20261224
 SUMMARY:Wednesday Afternoon Golf
 LOCATION:Las Colinas Golf & Country Club\, San Miguel de Salinas\, Alicante
-DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
- s://www.golfdirecto.com/micro/game/6af8199cd94ac1f59d0f5019/summary\nConfi
- rma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/6af8199cd94ac1f59d0f5019/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6af8199cd94ac1f59d0f5019/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:01ed1d2bb94dbea0304d@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261227
 DTEND;VALUE=DATE:20261228
 SUMMARY:Golf Holanda 18 Hoyos
 LOCATION:Vistabella Golf Club\, Jacarilla\, Alicante
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 12 de agosto\, cierra el 27 de diciembre.\nPrecio: 60 €.\nFicha ofici
- al: https://www.golfdirecto.com/micro/game/6a7c4141f0874b6037553bf7/summar
- y\nConfirma fechas y condiciones en la web del organizador. Vía Banderín
- .
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  12 de agosto\, cierra el 27 de diciembre.\nPrecio: 60 €.\nFicha oficial
+ : https://www.golfdirecto.com/micro/game/6a7c4141f0874b6037553bf7/summary\
+ nConfirma fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6a7c4141f0874b6037553bf7/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:b43ce9fb876aba2e5dc9@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261227
 DTEND;VALUE=DATE:20261228
 SUMMARY:Golf Holanda 9 Hoyos
 LOCATION:Vistabella Golf Club\, Jacarilla\, Alicante
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 12 de agosto\, cierra el 27 de diciembre.\nPrecio: 40 €.\nFicha ofici
- al: https://www.golfdirecto.com/micro/game/6a7c4b76312fe0d5254f3355/summar
- y\nConfirma fechas y condiciones en la web del organizador. Vía Banderín
- .
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  12 de agosto\, cierra el 27 de diciembre.\nPrecio: 40 €.\nFicha oficial
+ : https://www.golfdirecto.com/micro/game/6a7c4b76312fe0d5254f3355/summary\
+ nConfirma fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6a7c4b76312fe0d5254f3355/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:ac46267536003536d52d@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261227
 DTEND;VALUE=DATE:20261228
 SUMMARY:XV Torneo Pav@ y UVA Embolsada Vinalopo
 LOCATION:Club de Golf Font del Llop\, Monforte del Cid\, Alicante
-DESCRIPTION:Social de club · Fourball · Parejas\nInscripción: abre el 3 
- de noviembre\, cierra el 26 de diciembre.\nPrecio: 60 €.\nFicha oficial:
-  https://www.golfdirecto.com/micro/game/6aea031e2267c6230f30b6ae/summary\n
- Confirma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Fourball - Parejas\nInscripción: abre el 3 de
+  noviembre\, cierra el 26 de diciembre.\nPrecio: 60 €.\nFicha oficial: h
+ ttps://www.golfdirecto.com/micro/game/6aea031e2267c6230f30b6ae/summary\nCo
+ nfirma fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6aea031e2267c6230f30b6ae/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:157e63ad3fb43fa806c5@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261230
 DTEND;VALUE=DATE:20261231
 SUMMARY:Golf Holanda 18 Hoyos
 LOCATION:Vistabella Golf Club\, Jacarilla\, Alicante
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 12 de agosto\, cierra el 30 de diciembre.\nPrecio: 60 €.\nFicha ofici
- al: https://www.golfdirecto.com/micro/game/6a7c3c57f0874b60376368fc/summar
- y\nConfirma fechas y condiciones en la web del organizador. Vía Banderín
- .
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  12 de agosto\, cierra el 30 de diciembre.\nPrecio: 60 €.\nFicha oficial
+ : https://www.golfdirecto.com/micro/game/6a7c3c57f0874b60376368fc/summary\
+ nConfirma fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6a7c3c57f0874b60376368fc/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:97f76c6ed21bc010900e@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261230
 DTEND;VALUE=DATE:20261231
 SUMMARY:Golf Holanda 9 Hoyos
 LOCATION:Vistabella Golf Club\, Jacarilla\, Alicante
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 12 de agosto\, cierra el 30 de diciembre.\nPrecio: 40 €.\nFicha ofici
- al: https://www.golfdirecto.com/micro/game/6a7c4baa312fe0d5256d6a3e/summar
- y\nConfirma fechas y condiciones en la web del organizador. Vía Banderín
- .
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  12 de agosto\, cierra el 30 de diciembre.\nPrecio: 40 €.\nFicha oficial
+ : https://www.golfdirecto.com/micro/game/6a7c4baa312fe0d5256d6a3e/summary\
+ nConfirma fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6a7c4baa312fe0d5256d6a3e/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:a7cc9b37f50b35e3e10e@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261230
 DTEND;VALUE=DATE:20261231
 SUMMARY:Wednesday Afternoon Golf
 LOCATION:Las Colinas Golf & Country Club\, San Miguel de Salinas\, Alicante
-DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
- s://www.golfdirecto.com/micro/game/6af819a5d94ac1f59d0fd285/summary\nConfi
- rma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/6af819a5d94ac1f59d0fd285/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6af819a5d94ac1f59d0fd285/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:48bb6ae3344ae3eb9cb7@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261231
 DTEND;VALUE=DATE:20270101
 SUMMARY:New Year Tournament
 LOCATION:Las Colinas Golf & Country Club\, San Miguel de Salinas\, Alicante
-DESCRIPTION:Circuito comercial · Fourball · Parejas\nInscripción: abre e
- l 10 de febrero\, cierra el 28 de diciembre.\nPrecio: 90 €.\nFicha ofici
- al: https://www.golfdirecto.com/micro/game/698ae2fc74e61b4173e03799/summar
- y\nConfirma fechas y condiciones en la web del organizador. Vía Banderín
- .
+DESCRIPTION:Circuito comercial - Fourball - Parejas\nInscripción: abre el 
+ 10 de febrero\, cierra el 28 de diciembre.\nPrecio: 90 €.\nFicha oficial
+ : https://www.golfdirecto.com/micro/game/698ae2fc74e61b4173e03799/summary\
+ nConfirma fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/698ae2fc74e61b4173e03799/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:f622a0130d07738b6dbb@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20270103
 DTEND;VALUE=DATE:20270104
 SUMMARY:Poniente Eclectic Series Round 1 - 111260
 LOCATION:Meliá Villaitana Golf\, Benidorm\, Alicante
-DESCRIPTION:Circuito comercial · Stableford · Individual\nInscripción: a
- bre el 6 de diciembre\, cierra el 2 de enero.\nFicha oficial: https://www.
- golfdirecto.com/micro/game/6afb2fd323d5370df02577c5/summary\nConfirma fech
- as y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Circuito comercial - Stableford - Individual\nInscripción: abr
+ e el 6 de diciembre\, cierra el 2 de enero.\nFicha oficial: https://www.go
+ lfdirecto.com/micro/game/6afb2fd323d5370df02577c5/summary\nConfirma fechas
+  y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6afb2fd323d5370df02577c5/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:543912c7b1abadf97f94@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20270105
 DTEND;VALUE=DATE:20270106
 SUMMARY:Tuesday Duel Eclectic 20267- Round 2 - 111482
 LOCATION:Meliá Villaitana Golf\, Benidorm\, Alicante
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 1 de diciembre\, cierra el 4 de enero.\nPrecio: 60 €.\nFicha oficial:
-  https://www.golfdirecto.com/micro/game/6afb0f945445bc1029451647/summary\n
- Confirma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  1 de diciembre\, cierra el 4 de enero.\nPrecio: 60 €.\nFicha oficial: h
+ ttps://www.golfdirecto.com/micro/game/6afb0f945445bc1029451647/summary\nCo
+ nfirma fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6afb0f945445bc1029451647/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:9bf276055f8241e13f2d@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20270106
 DTEND;VALUE=DATE:20270107
 SUMMARY:Wednesday Afternoon Golf
 LOCATION:Las Colinas Golf & Country Club\, San Miguel de Salinas\, Alicante
-DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
- s://www.golfdirecto.com/micro/game/6af819c7d94ac1f59d10dde9/summary\nConfi
- rma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/6af819c7d94ac1f59d10dde9/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6af819c7d94ac1f59d10dde9/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:65b4ccf26dfed043cf9c@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20270112
 DTEND;VALUE=DATE:20270113
 SUMMARY:Tuesday Duel Eclectic 20267- Round 3 - 111483
 LOCATION:Meliá Villaitana Golf\, Benidorm\, Alicante
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 7 de diciembre\, cierra el 11 de enero.\nPrecio: 60 €.\nFicha oficial
- : https://www.golfdirecto.com/micro/game/6afb10225445bc10295a0686/summary\
- nConfirma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  7 de diciembre\, cierra el 11 de enero.\nPrecio: 60 €.\nFicha oficial: 
+ https://www.golfdirecto.com/micro/game/6afb10225445bc10295a0686/summary\nC
+ onfirma fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6afb10225445bc10295a0686/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:4bda5379811e5f4d9c11@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20270113
 DTEND;VALUE=DATE:20270114
 SUMMARY:Wednesday Afternoon Golf
 LOCATION:Las Colinas Golf & Country Club\, San Miguel de Salinas\, Alicante
-DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
- s://www.golfdirecto.com/micro/game/6af81b06d94ac1f59d262f0a/summary\nConfi
- rma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/6af81b06d94ac1f59d262f0a/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6af81b06d94ac1f59d262f0a/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:a66cc3bf81032c208f3b@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20270117
 DTEND;VALUE=DATE:20270118
 SUMMARY:Damas Almudena Dehesa
 LOCATION:Club de Golf el Bosque\, Chiva\, Valencia
-DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
- s://www.golfdirecto.com/micro/game/6af1e9122f0e9df18bb0cfec/summary\nConfi
- rma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/6af1e9122f0e9df18bb0cfec/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6af1e9122f0e9df18bb0cfec/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:25435202c4da5f7cfd15@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20270119
 DTEND;VALUE=DATE:20270120
 SUMMARY:Tuesday Duel Eclectic 20267- Round 4 - 111484
 LOCATION:Meliá Villaitana Golf\, Benidorm\, Alicante
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 14 de diciembre\, cierra el 18 de enero.\nPrecio: 60 €.\nFicha oficia
- l: https://www.golfdirecto.com/micro/game/6afb105123d5370df0049707/summary
- \nConfirma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  14 de diciembre\, cierra el 18 de enero.\nPrecio: 60 €.\nFicha oficial:
+  https://www.golfdirecto.com/micro/game/6afb105123d5370df0049707/summary\n
+ Confirma fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6afb105123d5370df0049707/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:dbf2ee0082597c23890f@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20270120
 DTEND;VALUE=DATE:20270121
 SUMMARY:Wednesday Afternoon Golf
 LOCATION:Las Colinas Golf & Country Club\, San Miguel de Salinas\, Alicante
-DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
- s://www.golfdirecto.com/micro/game/6af81a48d94ac1f59d1dc5cf/summary\nConfi
- rma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/6af81a48d94ac1f59d1dc5cf/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6af81a48d94ac1f59d1dc5cf/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:3ba89b74c4e4e3f696bc@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20270123
 DTEND;VALUE=DATE:20270124
 SUMMARY:Torneo Solo Ellas
 LOCATION:Las Ramblas Golf\, Orihuela-costa\, Alicante
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 4 de noviembre\, cierra el 20 de enero.\nPrecio: 50 €.\nFicha oficial
- : https://www.golfdirecto.com/micro/game/6aeb4e193539d98a46d8a4c6/summary\
- nConfirma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  4 de noviembre\, cierra el 20 de enero.\nPrecio: 50 €.\nFicha oficial: 
+ https://www.golfdirecto.com/micro/game/6aeb4e193539d98a46d8a4c6/summary\nC
+ onfirma fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6aeb4e193539d98a46d8a4c6/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:6ba41b7093812e9a2d73@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20270126
 DTEND;VALUE=DATE:20270127
 SUMMARY:Tuesday Duel Eclectic 20267- Round 5 - 111485
 LOCATION:Meliá Villaitana Golf\, Benidorm\, Alicante
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 21 de diciembre\, cierra el 25 de enero.\nPrecio: 60 €.\nFicha oficia
- l: https://www.golfdirecto.com/micro/game/6afb10845445bc10296e63da/summary
- \nConfirma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  21 de diciembre\, cierra el 25 de enero.\nPrecio: 60 €.\nFicha oficial:
+  https://www.golfdirecto.com/micro/game/6afb10845445bc10296e63da/summary\n
+ Confirma fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6afb10845445bc10296e63da/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:50d14cd56c2c3cee846b@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20270127
 DTEND;VALUE=DATE:20270128
 SUMMARY:Wednesday Afternoon Golf
 LOCATION:Las Colinas Golf & Country Club\, San Miguel de Salinas\, Alicante
-DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
- s://www.golfdirecto.com/micro/game/6af81a51d94ac1f59d1e1ec1/summary\nConfi
- rma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/6af81a51d94ac1f59d1e1ec1/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6af81a51d94ac1f59d1e1ec1/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:93f89444b5e7555af58c@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20270202
 DTEND;VALUE=DATE:20270203
 SUMMARY:Tuesday Duel Eclectic 20267- Round 6 - 111486
 LOCATION:Meliá Villaitana Golf\, Benidorm\, Alicante
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 1 de enero\, cierra el 1 de febrero.\nPrecio: 60 €.\nFicha oficial: h
- ttps://www.golfdirecto.com/micro/game/6afb11b75445bc1029a4ba28/summary\nCo
- nfirma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  1 de enero\, cierra el 1 de febrero.\nPrecio: 60 €.\nFicha oficial: htt
+ ps://www.golfdirecto.com/micro/game/6afb11b75445bc1029a4ba28/summary\nConf
+ irma fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6afb11b75445bc1029a4ba28/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:fe4af9492a97bc0a5d7c@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20270203
 DTEND;VALUE=DATE:20270204
 SUMMARY:Wednesday Afternoon Golf
 LOCATION:Las Colinas Golf & Country Club\, San Miguel de Salinas\, Alicante
-DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
- s://www.golfdirecto.com/micro/game/6af81ab8a1b1857577446ae0/summary\nConfi
- rma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/6af81ab8a1b1857577446ae0/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6af81ab8a1b1857577446ae0/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:98ff11acc60dfe6ca0bd@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20270209
 DTEND;VALUE=DATE:20270210
 SUMMARY:Tuesday Duel Eclectic 20267- Round 7 - 111488
 LOCATION:Meliá Villaitana Golf\, Benidorm\, Alicante
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 4 de enero\, cierra el 8 de febrero.\nPrecio: 60 €.\nFicha oficial: h
- ttps://www.golfdirecto.com/micro/game/6afb11fa23d5370df04c46d6/summary\nCo
- nfirma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  4 de enero\, cierra el 8 de febrero.\nPrecio: 60 €.\nFicha oficial: htt
+ ps://www.golfdirecto.com/micro/game/6afb11fa23d5370df04c46d6/summary\nConf
+ irma fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6afb11fa23d5370df04c46d6/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:7cc72d4bd32d6e62ee15@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20270210
 DTEND;VALUE=DATE:20270211
 SUMMARY:Wednesday Afternoon Golf
 LOCATION:Las Colinas Golf & Country Club\, San Miguel de Salinas\, Alicante
-DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
- s://www.golfdirecto.com/micro/game/6af81ac2d94ac1f59d23cce6/summary\nConfi
- rma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/6af81ac2d94ac1f59d23cce6/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6af81ac2d94ac1f59d23cce6/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:88ec8756a5b7d6ca4907@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20270211
 DTEND;VALUE=DATE:20270212
 SUMMARY:Alamo Golf Society
 LOCATION:Las Colinas Golf & Country Club\, San Miguel de Salinas\, Alicante
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 19 de octubre\, cierra el 10 de febrero.\nFicha oficial: https://www.go
- lfdirecto.com/micro/game/6ad605bd6a3a1de0ec7b7f32/summary\nConfirma fechas
-  y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  19 de octubre\, cierra el 10 de febrero.\nFicha oficial: https://www.golf
+ directo.com/micro/game/6ad605bd6a3a1de0ec7b7f32/summary\nConfirma fechas y
+  condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6ad605bd6a3a1de0ec7b7f32/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:bcc5a98002b4fea3325d@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20270216
 DTEND;VALUE=DATE:20270217
 SUMMARY:Tuesday Duel Eclectic 20267- Round 8 - 111487
 LOCATION:Meliá Villaitana Golf\, Benidorm\, Alicante
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 11 de enero\, cierra el 15 de febrero.\nPrecio: 60 €.\nFicha oficial:
-  https://www.golfdirecto.com/micro/game/6afb12745445bc1029c0bbaf/summary\n
- Confirma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  11 de enero\, cierra el 15 de febrero.\nPrecio: 60 €.\nFicha oficial: h
+ ttps://www.golfdirecto.com/micro/game/6afb12745445bc1029c0bbaf/summary\nCo
+ nfirma fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6afb12745445bc1029c0bbaf/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:6a03e970448f1b5ce906@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20270217
 DTEND;VALUE=DATE:20270218
 SUMMARY:Wednesday Afternoon Golf
 LOCATION:Las Colinas Golf & Country Club\, San Miguel de Salinas\, Alicante
-DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
- s://www.golfdirecto.com/micro/game/6af81acca1b185757744e5dd/summary\nConfi
- rma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/6af81acca1b185757744e5dd/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6af81acca1b185757744e5dd/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:f2dd62550615b8913efb@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20270221
 DTEND;VALUE=DATE:20270222
 SUMMARY:Damas Medical Wellness
 LOCATION:Club de Golf el Bosque\, Chiva\, Valencia
-DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
- s://www.golfdirecto.com/micro/game/6af1e9643f87d1a99f6fc46b/summary\nConfi
- rma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/6af1e9643f87d1a99f6fc46b/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6af1e9643f87d1a99f6fc46b/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:549866ef567d6fc3ea59@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20270223
 DTEND;VALUE=DATE:20270224
 SUMMARY:Tuesday Duel Eclectic 20267- Round 9 - 111489
 LOCATION:Meliá Villaitana Golf\, Benidorm\, Alicante
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 18 de enero\, cierra el 22 de febrero.\nPrecio: 60 €.\nFicha oficial:
-  https://www.golfdirecto.com/micro/game/6afb12ac5445bc1029c73cc2/summary\n
- Confirma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  18 de enero\, cierra el 22 de febrero.\nPrecio: 60 €.\nFicha oficial: h
+ ttps://www.golfdirecto.com/micro/game/6afb12ac5445bc1029c73cc2/summary\nCo
+ nfirma fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6afb12ac5445bc1029c73cc2/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:63cfef496a7f75a61f15@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20270224
 DTEND;VALUE=DATE:20270225
 SUMMARY:Wednesday Afternoon Golf
 LOCATION:Las Colinas Golf & Country Club\, San Miguel de Salinas\, Alicante
-DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
- s://www.golfdirecto.com/micro/game/6af81ad6d94ac1f59d243bbe/summary\nConfi
- rma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/6af81ad6d94ac1f59d243bbe/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6af81ad6d94ac1f59d243bbe/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:08ed71bce3fb0c03e940@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20270303
 DTEND;VALUE=DATE:20270304
 SUMMARY:Wednesday Afternoon Golf
 LOCATION:Las Colinas Golf & Country Club\, San Miguel de Salinas\, Alicante
-DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
- s://www.golfdirecto.com/micro/game/6af81b11d94ac1f59d27ba22/summary\nConfi
- rma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/6af81b11d94ac1f59d27ba22/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6af81b11d94ac1f59d27ba22/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:1687050e2c83e4f6001e@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20270309
 DTEND;VALUE=DATE:20270310
 SUMMARY:AESGOLF Circuito por Equipos
 LOCATION:Club de Golf el Bosque\, Chiva\, Valencia
-DESCRIPTION:Senior · Fourball · Parejas\nFicha oficial: https://www.golfd
- irecto.com/micro/game/6a969b72ded811e432879043/summary\nConfirma fechas y 
- condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Senior - Fourball - Parejas\nFicha oficial: https://www.golfdir
+ ecto.com/micro/game/6a969b72ded811e432879043/summary\nConfirma fechas y co
+ ndiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6a969b72ded811e432879043/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:90c13d593b10cde6dfd9@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20270310
 DTEND;VALUE=DATE:20270311
 SUMMARY:Wednesday Afternoon Golf
 LOCATION:Las Colinas Golf & Country Club\, San Miguel de Salinas\, Alicante
-DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
- s://www.golfdirecto.com/micro/game/6af81b1bd94ac1f59d2841ab/summary\nConfi
- rma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/6af81b1bd94ac1f59d2841ab/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6af81b1bd94ac1f59d2841ab/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:90240079421d6e47015c@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20270317
 DTEND;VALUE=DATE:20270318
 SUMMARY:Wednesday Afternoon Golf
 LOCATION:Las Colinas Golf & Country Club\, San Miguel de Salinas\, Alicante
-DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
- s://www.golfdirecto.com/micro/game/6af81b26d94ac1f59d2889a4/summary\nConfi
- rma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/6af81b26d94ac1f59d2889a4/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6af81b26d94ac1f59d2889a4/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:cfa47eb9c2982a6614c5@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20270321
 DTEND;VALUE=DATE:20270322
 SUMMARY:Damas Clinica Maria Hueso
 LOCATION:Club de Golf el Bosque\, Chiva\, Valencia
-DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
- s://www.golfdirecto.com/micro/game/6af1e99d2f0e9df18bbf0e5c/summary\nConfi
- rma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/6af1e99d2f0e9df18bbf0e5c/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6af1e99d2f0e9df18bbf0e5c/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:c37785d40d82fd24220d@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20270324
 DTEND;VALUE=DATE:20270325
 SUMMARY:Wednesday Afternoon Golf
 LOCATION:Las Colinas Golf & Country Club\, San Miguel de Salinas\, Alicante
-DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
- s://www.golfdirecto.com/micro/game/6af81b31a1b185757749c917/summary\nConfi
- rma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/6af81b31a1b185757749c917/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6af81b31a1b185757749c917/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:650869f2d4f76cce91ab@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20270331
 DTEND;VALUE=DATE:20270401
 SUMMARY:Wednesday Afternoon Golf
 LOCATION:Las Colinas Golf & Country Club\, San Miguel de Salinas\, Alicante
-DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
- s://www.golfdirecto.com/micro/game/6af81b3bd94ac1f59d2956d5/summary\nConfi
- rma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/6af81b3bd94ac1f59d2956d5/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6af81b3bd94ac1f59d2956d5/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:9434ccff8dfa2708e325@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20270407
 DTEND;VALUE=DATE:20270408
 SUMMARY:Wednesday Afternoon Golf
 LOCATION:Las Colinas Golf & Country Club\, San Miguel de Salinas\, Alicante
-DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
- s://www.golfdirecto.com/micro/game/6af81b76a1b18575774cebda/summary\nConfi
- rma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/6af81b76a1b18575774cebda/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6af81b76a1b18575774cebda/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:5e999c328610e887752e@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20270414
 DTEND;VALUE=DATE:20270415
 SUMMARY:Wednesday Afternoon Golf
 LOCATION:Las Colinas Golf & Country Club\, San Miguel de Salinas\, Alicante
-DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
- s://www.golfdirecto.com/micro/game/6af81b80d94ac1f59d2cd20c/summary\nConfi
- rma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/6af81b80d94ac1f59d2cd20c/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6af81b80d94ac1f59d2cd20c/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:d20ab258f5694ae1a00f@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20270418
 DTEND;VALUE=DATE:20270419
 SUMMARY:Damas Look At My Skin
 LOCATION:Club de Golf el Bosque\, Chiva\, Valencia
-DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
- s://www.golfdirecto.com/micro/game/6af1e9cb2f0e9df18bc48309/summary\nConfi
- rma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/6af1e9cb2f0e9df18bc48309/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6af1e9cb2f0e9df18bc48309/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:096db89c758be974bae5@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20270421
 DTEND;VALUE=DATE:20270422
 SUMMARY:Wednesday Afternoon Golf
 LOCATION:Las Colinas Golf & Country Club\, San Miguel de Salinas\, Alicante
-DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
- s://www.golfdirecto.com/micro/game/6af81b8aa1b18575774d82a5/summary\nConfi
- rma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/6af81b8aa1b18575774d82a5/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6af81b8aa1b18575774d82a5/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:bd4dae5776d3e44103c8@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20270428
 DTEND;VALUE=DATE:20270429
 SUMMARY:Wednesday Afternoon Golf
 LOCATION:Las Colinas Golf & Country Club\, San Miguel de Salinas\, Alicante
-DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
- s://www.golfdirecto.com/micro/game/6af81b95a1b18575774f0b12/summary\nConfi
- rma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/6af81b95a1b18575774f0b12/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6af81b95a1b18575774f0b12/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:a8e74cc566b5e062f524@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20270505
 DTEND;VALUE=DATE:20270506
 SUMMARY:Wednesday Afternoon Golf
 LOCATION:Las Colinas Golf & Country Club\, San Miguel de Salinas\, Alicante
-DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
- s://www.golfdirecto.com/micro/game/6af81b9fa1b18575774f5289/summary\nConfi
- rma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/6af81b9fa1b18575774f5289/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6af81b9fa1b18575774f5289/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:f49f7f2646f6e4514a24@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20270512
 DTEND;VALUE=DATE:20270513
 SUMMARY:Wednesday Afternoon Golf
 LOCATION:Las Colinas Golf & Country Club\, San Miguel de Salinas\, Alicante
-DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
- s://www.golfdirecto.com/micro/game/6af81ba9a1b18575774f88d4/summary\nConfi
- rma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/6af81ba9a1b18575774f88d4/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6af81ba9a1b18575774f88d4/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:d2703e1a95a8ac89338b@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20270516
 DTEND;VALUE=DATE:20270517
 SUMMARY:Damas Bisuteria Verca
 LOCATION:Club de Golf el Bosque\, Chiva\, Valencia
-DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
- s://www.golfdirecto.com/micro/game/6af1e9f22f0e9df18bc7285b/summary\nConfi
- rma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/6af1e9f22f0e9df18bc7285b/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6af1e9f22f0e9df18bc7285b/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:95708a812e1f2890daed@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20270519
 DTEND;VALUE=DATE:20270520
 SUMMARY:Wednesday Afternoon Golf
 LOCATION:Las Colinas Golf & Country Club\, San Miguel de Salinas\, Alicante
-DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
- s://www.golfdirecto.com/micro/game/6af81bb3a1b1857577503bc9/summary\nConfi
- rma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/6af81bb3a1b1857577503bc9/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6af81bb3a1b1857577503bc9/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:e4ef0c52f2d80dc6a3a7@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20270526
 DTEND;VALUE=DATE:20270527
 SUMMARY:Wednesday Afternoon Golf
 LOCATION:Las Colinas Golf & Country Club\, San Miguel de Salinas\, Alicante
-DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
- s://www.golfdirecto.com/micro/game/6af81bbed94ac1f59d2f8ccc/summary\nConfi
- rma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/6af81bbed94ac1f59d2f8ccc/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6af81bbed94ac1f59d2f8ccc/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:a49e8dc1edb4f67617ed@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20270602
 DTEND;VALUE=DATE:20270603
 SUMMARY:Wednesday Afternoon Golf
 LOCATION:Las Colinas Golf & Country Club\, San Miguel de Salinas\, Alicante
-DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
- s://www.golfdirecto.com/micro/game/6af81bf9a1b185757752c005/summary\nConfi
- rma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/6af81bf9a1b185757752c005/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6af81bf9a1b185757752c005/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:190c511f593d07ed7366@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20270606
 DTEND;VALUE=DATE:20270607
 SUMMARY:Damas
 LOCATION:Club de Golf el Bosque\, Chiva\, Valencia
-DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
- s://www.golfdirecto.com/micro/game/6af1ea133f87d1a99f8388f6/summary\nConfi
- rma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/6af1ea133f87d1a99f8388f6/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6af1ea133f87d1a99f8388f6/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:70ac3e82c39d9c4997c9@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20270616
 DTEND;VALUE=DATE:20270617
 SUMMARY:Wednesday Afternoon Golf
 LOCATION:Las Colinas Golf & Country Club\, San Miguel de Salinas\, Alicante
-DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
- s://www.golfdirecto.com/micro/game/6af81c03d94ac1f59d31d1a7/summary\nConfi
- rma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/6af81c03d94ac1f59d31d1a7/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6af81c03d94ac1f59d31d1a7/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:3d99d877648e469bf4e7@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20270623
 DTEND;VALUE=DATE:20270624
 SUMMARY:Wednesday Afternoon Golf
 LOCATION:Las Colinas Golf & Country Club\, San Miguel de Salinas\, Alicante
-DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
- s://www.golfdirecto.com/micro/game/6af81c0da1b185757754764d/summary\nConfi
- rma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/6af81c0da1b185757754764d/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6af81c0da1b185757754764d/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:2f90fb7bb5db96838f45@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20270630
 DTEND;VALUE=DATE:20270701
 SUMMARY:Wednesday Afternoon Golf
 LOCATION:Las Colinas Golf & Country Club\, San Miguel de Salinas\, Alicante
-DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
- s://www.golfdirecto.com/micro/game/6af81c17d94ac1f59d32ebff/summary\nConfi
- rma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/6af81c17d94ac1f59d32ebff/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6af81c17d94ac1f59d32ebff/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:9d6a1f453d04b94c8b06@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20270707
 DTEND;VALUE=DATE:20270708
 SUMMARY:Wednesday Afternoon Golf
 LOCATION:Las Colinas Golf & Country Club\, San Miguel de Salinas\, Alicante
-DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
- s://www.golfdirecto.com/micro/game/6af81c22a1b1857577551847/summary\nConfi
- rma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/6af81c22a1b1857577551847/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6af81c22a1b1857577551847/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:7b6c1cd7959299aa55aa@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20270714
 DTEND;VALUE=DATE:20270715
 SUMMARY:Wednesday Afternoon Golf
 LOCATION:Las Colinas Golf & Country Club\, San Miguel de Salinas\, Alicante
-DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
- s://www.golfdirecto.com/micro/game/6af81c2cd94ac1f59d331e11/summary\nConfi
- rma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/6af81c2cd94ac1f59d331e11/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6af81c2cd94ac1f59d331e11/summary

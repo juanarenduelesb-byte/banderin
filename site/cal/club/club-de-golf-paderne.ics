@@ -3,7 +3,7 @@ VERSION:2.0
 PRODID:-//Banderin//Torneos de golf//ES
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:Banderín · Club de Golf Paderne
+X-WR-CALNAME:Banderín - Club de Golf Paderne
 X-WR-CALDESC:Torneos de golf: Club de Golf Paderne. Se actualiza cada maña
  na. https://banderin.es
 X-WR-TIMEZONE:Europe/Madrid
@@ -11,29 +11,29 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:4cf2988456a111d316cc@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261220
 DTEND;VALUE=DATE:20261221
 SUMMARY:Torneo Navidad
 LOCATION:Club de Golf Paderne\, Paderne (san Xoan)\, A Coruña
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 1 de diciembre\, cierra el 19 de diciembre.\nFicha oficial: https://www
- .golfdirecto.com/micro/game/6adb1395042bd6a99e77e066/summary\nConfirma fec
- has y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  1 de diciembre\, cierra el 19 de diciembre.\nFicha oficial: https://www.g
+ olfdirecto.com/micro/game/6adb1395042bd6a99e77e066/summary\nConfirma fecha
+ s y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6adb1395042bd6a99e77e066/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:c1189602ff217e88c07e@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261231
 DTEND;VALUE=DATE:20270101
 SUMMARY:Torneo Fin de Año
 LOCATION:Club de Golf Paderne\, Paderne (san Xoan)\, A Coruña
-DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
- s://www.golfdirecto.com/micro/game/6949740fd6b8a9e4131109ad/summary\nConfi
- rma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/6949740fd6b8a9e4131109ad/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6949740fd6b8a9e4131109ad/summary

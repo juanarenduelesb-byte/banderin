@@ -3,7 +3,7 @@ VERSION:2.0
 PRODID:-//Banderin//Torneos de golf//ES
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:Banderín · Campo de Golf Layos
+X-WR-CALNAME:Banderín - Campo de Golf Layos
 X-WR-CALDESC:Torneos de golf: Campo de Golf Layos. Se actualiza cada mañan
  a. https://banderin.es
 X-WR-TIMEZONE:Europe/Madrid
@@ -11,74 +11,74 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:88a5c571fff5b81f4099@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261118
 DTEND;VALUE=DATE:20261119
 SUMMARY:Foro 2000 - Legends Tour -Torneo Final-
 LOCATION:Campo de Golf Layos\, Layos\, Toledo
-DESCRIPTION:Circuito comercial · Medal Play · Individual\nFicha oficial: 
- https://www.golfdirecto.com/micro/game/6ae8c82647d5a6672955e7e2/summary\nC
- onfirma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Circuito comercial - Medal Play - Individual\nFicha oficial: ht
+ tps://www.golfdirecto.com/micro/game/6ae8c82647d5a6672955e7e2/summary\nCon
+ firma fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6ae8c82647d5a6672955e7e2/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:4ced23faa17bc6cdcc87@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:X Torneo Ranking Tajo Golf 2026
 LOCATION:Campo de Golf Layos\, Layos\, Toledo
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 15 de noviembre\, cierra el 25 de noviembre.\nFicha oficial: https://ww
- w.golfdirecto.com/micro/game/6af99b7b23d5370df0fbba8f/summary\nConfirma fe
- chas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  15 de noviembre\, cierra el 25 de noviembre.\nFicha oficial: https://www.
+ golfdirecto.com/micro/game/6af99b7b23d5370df0fbba8f/summary\nConfirma fech
+ as y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6af99b7b23d5370df0fbba8f/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:a650c02eaa2789c634b4@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Cuartillos Liga 2026 - Torneo 10
 LOCATION:Campo de Golf Layos\, Layos\, Toledo
-DESCRIPTION:Social de club · Medal Play · Individual\nInscripción: abre 
- el 16 de noviembre\, cierra el 27 de noviembre.\nPrecio: 48 €.\nFicha of
- icial: https://www.golfdirecto.com/micro/game/6afb2024ffca647eb1bf557b/sum
- mary\nConfirma fechas y condiciones en la web del organizador. Vía Bander
- ín.
+DESCRIPTION:Social de club - Medal Play - Individual\nInscripción: abre el
+  16 de noviembre\, cierra el 27 de noviembre.\nPrecio: 48 €.\nFicha ofic
+ ial: https://www.golfdirecto.com/micro/game/6afb2024ffca647eb1bf557b/summa
+ ry\nConfirma fechas y condiciones en la web del organizador. Vía Banderí
+ n.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6afb2024ffca647eb1bf557b/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:9284aabdcba7c9bc8b4a@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261211
 DTEND;VALUE=DATE:20261212
 SUMMARY:Torneo Navidad Tajogolf 2026
 LOCATION:Campo de Golf Layos\, Layos\, Toledo
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 9 de noviembre\, cierra el 9 de diciembre.\nFicha oficial: https://www.
- golfdirecto.com/micro/game/6af1e9c62f0e9df18bc4659e/summary\nConfirma fech
- as y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  9 de noviembre\, cierra el 9 de diciembre.\nFicha oficial: https://www.go
+ lfdirecto.com/micro/game/6af1e9c62f0e9df18bc4659e/summary\nConfirma fechas
+  y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6af1e9c62f0e9df18bc4659e/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:a5c986895e5ab12f3660@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20270130
 DTEND;VALUE=DATE:20270131
 SUMMARY:Torneo no valido
 LOCATION:Campo de Golf Layos\, Layos\, Toledo
-DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
- s://www.golfdirecto.com/micro/game/6a994dec9430f16c660869b1/summary\nConfi
- rma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/6a994dec9430f16c660869b1/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6a994dec9430f16c660869b1/summary

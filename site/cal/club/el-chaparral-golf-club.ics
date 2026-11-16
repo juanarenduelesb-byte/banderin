@@ -3,7 +3,7 @@ VERSION:2.0
 PRODID:-//Banderin//Torneos de golf//ES
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:Banderín · el Chaparral Golf Club
+X-WR-CALNAME:Banderín - el Chaparral Golf Club
 X-WR-CALDESC:Torneos de golf: el Chaparral Golf Club. Se actualiza cada ma
  ñana. https://banderin.es
 X-WR-TIMEZONE:Europe/Madrid
@@ -11,15 +11,15 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:83821345680db06e3eeb@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261227
 DTEND;VALUE=DATE:20261228
 SUMMARY:V Torneo Padres e Hijos TEM2026 GROSS DENTISTAS Costa del Sol
 LOCATION:el Chaparral Golf Club\, Mijas Costa\, Málaga
-DESCRIPTION:Juvenil · Stableford · Individual\nInscripción: abre el 1 de
-  diciembre\, cierra el 22 de diciembre.\nPrecio: Gratis.\nFicha oficial: h
- ttps://www.nextcaddy.com/tour/71808\nConfirma fechas y condiciones en la w
- eb del organizador. Vía Banderín.
+DESCRIPTION:Juvenil - Stableford - Individual\nInscripción: abre el 1 de d
+ iciembre\, cierra el 22 de diciembre.\nPrecio: Gratis.\nFicha oficial: htt
+ ps://www.nextcaddy.com/tour/71808\nConfirma fechas y condiciones en la web
+  del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.nextcaddy.com/tour/71808

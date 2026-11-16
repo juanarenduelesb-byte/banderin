@@ -1,5 +1,5 @@
 'use strict';
-/* Banderín · cuentas de usuario (Supabase Auth, región Frankfurt).
+/* Banderín - cuentas de usuario (Supabase Auth, región Frankfurt).
    - Correo y contraseña con verificación del correo, o «Continuar con Google».
    - Lo que hoy se guarda en el navegador (perfil, lo que sigues, guardados,
      jugados y la llave de los avisos) se guarda también en la cuenta y se

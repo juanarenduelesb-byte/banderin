@@ -3,7 +3,7 @@ VERSION:2.0
 PRODID:-//Banderin//Torneos de golf//ES
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:Banderín · Arenal Golf
+X-WR-CALNAME:Banderín - Arenal Golf
 X-WR-CALDESC:Torneos de golf: Arenal Golf. Se actualiza cada mañana. https
  ://banderin.es
 X-WR-TIMEZONE:Europe/Madrid
@@ -11,15 +11,15 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:3a79b22518cd5fb5fd9d@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261202
 SUMMARY:4ª Prueba Liga "Martes de P&P"
 LOCATION:Arenal Golf\, Benalmádena\, Málaga
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 12 de noviembre\, cierra el 12 de noviembre.\nPrecio: Gratis.\nFicha of
- icial: https://www.nextcaddy.com/tour/75328\nConfirma fechas y condiciones
-  en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  12 de noviembre\, cierra el 12 de noviembre.\nPrecio: Gratis.\nFicha ofic
+ ial: https://www.nextcaddy.com/tour/75328\nConfirma fechas y condiciones e
+ n la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.nextcaddy.com/tour/75328

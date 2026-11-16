@@ -3,7 +3,7 @@ VERSION:2.0
 PRODID:-//Banderin//Torneos de golf//ES
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:Banderín · Campo de Golf Lo Romero
+X-WR-CALNAME:Banderín - Campo de Golf Lo Romero
 X-WR-CALDESC:Torneos de golf: Campo de Golf Lo Romero. Se actualiza cada ma
  ñana. https://banderin.es
 X-WR-TIMEZONE:Europe/Madrid
@@ -11,30 +11,30 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:37142993f6776fadb88a@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261116
 DTEND;VALUE=DATE:20261117
 SUMMARY:Deutscher G.C.
 LOCATION:Campo de Golf Lo Romero\, Pilar de la Horadada\, Alicante
-DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
- s://www.golfdirecto.com/micro/game/6af9be9c90f777ff01f0362f/summary\nConfi
- rma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/6af9be9c90f777ff01f0362f/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6af9be9c90f777ff01f0362f/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:e029a9b22839c680e225@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261208
 DTEND;VALUE=DATE:20261209
 SUMMARY:Rencontre AGFCB 30 - Lo Romero - Mardi 08 décembre 2026 - 4BB - 28
   places disponibles ! - 80€ buggy inclus + PAF 5€
 LOCATION:Campo de Golf Lo Romero\, Pilar de la Horadada\, Alicante
-DESCRIPTION:Social de club · Fourball · Parejas\nInscripción: abre el 7 
- de septiembre\, cierra el 6 de diciembre.\nFicha oficial: https://www.golf
- directo.com/micro/game/6a9ef766e4e6c9f60ea463c1/summary\nConfirma fechas y
-  condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Fourball - Parejas\nInscripción: abre el 7 de
+  septiembre\, cierra el 6 de diciembre.\nFicha oficial: https://www.golfdi
+ recto.com/micro/game/6a9ef766e4e6c9f60ea463c1/summary\nConfirma fechas y c
+ ondiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6a9ef766e4e6c9f60ea463c1/summary

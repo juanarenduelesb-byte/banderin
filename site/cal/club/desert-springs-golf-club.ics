@@ -3,7 +3,7 @@ VERSION:2.0
 PRODID:-//Banderin//Torneos de golf//ES
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:Banderín · Desert Springs Golf Club
+X-WR-CALNAME:Banderín - Desert Springs Golf Club
 X-WR-CALDESC:Torneos de golf: Desert Springs Golf Club. Se actualiza cada m
  añana. https://banderin.es
 X-WR-TIMEZONE:Europe/Madrid
@@ -11,221 +11,220 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:c6ed2c1ea052a4ae4bb7@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:November Medal
 LOCATION:Desert Springs Golf Club\, Las Cunas\, Almería
-DESCRIPTION:Social de club · Medal Play · Individual\nInscripción: abre 
- el 21 de junio\, cierra el 19 de noviembre.\nPrecio: 60 €.\nFicha oficia
- l: https://www.golfdirecto.com/micro/game/6856b3569147670615769435/summary
- \nConfirma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Medal Play - Individual\nInscripción: abre el
+  21 de junio\, cierra el 19 de noviembre.\nPrecio: 60 €.\nFicha oficial:
+  https://www.golfdirecto.com/micro/game/6856b3569147670615769435/summary\n
+ Confirma fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6856b3569147670615769435/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:276efc06f99bd5df8305@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Memorial Day Tournament
 LOCATION:Desert Springs Golf Club\, Las Cunas\, Almería
-DESCRIPTION:Circuito comercial · Stableford · Individual\nInscripción: a
- bre el 21 de junio\, cierra el 1 de noviembre.\nPrecio: 60 €.\nFicha ofi
- cial: https://www.golfdirecto.com/micro/game/6856b2cc9147670615607ef6/summ
- ary\nConfirma fechas y condiciones en la web del organizador. Vía Bander
- ín.
+DESCRIPTION:Circuito comercial - Stableford - Individual\nInscripción: abr
+ e el 21 de junio\, cierra el 1 de noviembre.\nPrecio: 60 €.\nFicha ofici
+ al: https://www.golfdirecto.com/micro/game/6856b2cc9147670615607ef6/summar
+ y\nConfirma fechas y condiciones en la web del organizador. Vía Banderín
+ .
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6856b2cc9147670615607ef6/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:0cecfdf70225440456e8@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Alamo Golf Society Team Championship Final Sponsored by Home Space.
 LOCATION:Desert Springs Golf Club\, Las Cunas\, Almería
-DESCRIPTION:Social de club · Fourball · Parejas\nInscripción: abre el 3 
- de mayo\, cierra el 22 de noviembre.\nFicha oficial: https://www.golfdirec
- to.com/micro/game/69f6d8078c2f356495d1a3ed/summary\nConfirma fechas y cond
- iciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Fourball - Parejas\nInscripción: abre el 3 de
+  mayo\, cierra el 22 de noviembre.\nFicha oficial: https://www.golfdirecto
+ .com/micro/game/69f6d8078c2f356495d1a3ed/summary\nConfirma fechas y condic
+ iones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/69f6d8078c2f356495d1a3ed/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:d2eb7c82ceb7ffb1bbfe@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
 SUMMARY:III Torneo Sabores Almanzora 2026
 LOCATION:Desert Springs Golf Club\, Las Cunas\, Almería
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 26 de agosto\, cierra el 1 de diciembre.\nPrecio: 60 €.\nFicha oficia
- l: https://www.golfdirecto.com/micro/game/6a8ea6aa54be9938498981d7/summary
- \nConfirma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  26 de agosto\, cierra el 1 de diciembre.\nPrecio: 60 €.\nFicha oficial:
+  https://www.golfdirecto.com/micro/game/6a8ea6aa54be9938498981d7/summary\n
+ Confirma fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6a8ea6aa54be9938498981d7/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:b3c1be96cee7ccfdbc7c@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
 SUMMARY:The Constitution Cup
 LOCATION:Desert Springs Golf Club\, Las Cunas\, Almería
-DESCRIPTION:Social de club · Medal Play · Individual\nInscripción: abre 
- el 21 de junio\, cierra el 4 de diciembre.\nPrecio: 60 €.\nFicha oficial
- : https://www.golfdirecto.com/micro/game/6856b3bc914767061593f6e5/summary\
- nConfirma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Medal Play - Individual\nInscripción: abre el
+  21 de junio\, cierra el 4 de diciembre.\nPrecio: 60 €.\nFicha oficial: 
+ https://www.golfdirecto.com/micro/game/6856b3bc914767061593f6e5/summary\nC
+ onfirma fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6856b3bc914767061593f6e5/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:3b1e5976d9b2c806dd12@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261220
 SUMMARY:December Stableford
 LOCATION:Desert Springs Golf Club\, Las Cunas\, Almería
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 21 de junio\, cierra el 10 de diciembre.\nPrecio: 60 €.\nFicha oficia
- l: https://www.golfdirecto.com/micro/game/6856b3e59147670615abdb73/summary
- \nConfirma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  21 de junio\, cierra el 10 de diciembre.\nPrecio: 60 €.\nFicha oficial:
+  https://www.golfdirecto.com/micro/game/6856b3e59147670615abdb73/summary\n
+ Confirma fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6856b3e59147670615abdb73/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:eab07eb8bf112bef1ddf@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261226
 DTEND;VALUE=DATE:20261227
 SUMMARY:Christmas Individual Stableford
 LOCATION:Desert Springs Golf Club\, Las Cunas\, Almería
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 21 de junio\, cierra el 24 de diciembre.\nPrecio: 60 €.\nFicha oficia
- l: https://www.golfdirecto.com/micro/game/6856b4359147670615bcda12/summary
- \nConfirma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  21 de junio\, cierra el 24 de diciembre.\nPrecio: 60 €.\nFicha oficial:
+  https://www.golfdirecto.com/micro/game/6856b4359147670615bcda12/summary\n
+ Confirma fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6856b4359147670615bcda12/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:3d5bb46c0f80b113c6bc@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261231
 DTEND;VALUE=DATE:20270101
 SUMMARY:New Year'S Eve Mixed Pairs Stableford
 LOCATION:Desert Springs Golf Club\, Las Cunas\, Almería
-DESCRIPTION:Social de club · Fourball · Parejas\nInscripción: abre el 21
-  de junio\, cierra el 29 de diciembre.\nPrecio: 60 €.\nFicha oficial: ht
- tps://www.golfdirecto.com/micro/game/6856b4cb9147670615e63a94/summary\nCon
- firma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Fourball - Parejas\nInscripción: abre el 21 d
+ e junio\, cierra el 29 de diciembre.\nPrecio: 60 €.\nFicha oficial: http
+ s://www.golfdirecto.com/micro/game/6856b4cb9147670615e63a94/summary\nConfi
+ rma fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6856b4cb9147670615e63a94/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:5d7f8b29845f6da4de95@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20270103
 DTEND;VALUE=DATE:20270104
 SUMMARY:New Year Stableford
 LOCATION:Desert Springs Golf Club\, Las Cunas\, Almería
-DESCRIPTION:Social de club · Stableford · Individual\nInscripción: abre 
- el 31 de octubre\, cierra el 30 de diciembre.\nPrecio: 65 €.\nFicha ofic
- ial: https://www.golfdirecto.com/micro/game/6ae638724e69f3adf9365a8e/summa
- ry\nConfirma fechas y condiciones en la web del organizador. Vía Banderí
- n.
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  31 de octubre\, cierra el 30 de diciembre.\nPrecio: 65 €.\nFicha oficia
+ l: https://www.golfdirecto.com/micro/game/6ae638724e69f3adf9365a8e/summary
+ \nConfirma fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6ae638724e69f3adf9365a8e/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:d6a67e7953b106e09037@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20270106
 DTEND;VALUE=DATE:20270107
 SUMMARY:Epiphany Stableford / Día de Reyes
 LOCATION:Desert Springs Golf Club\, Las Cunas\, Almería
-DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
- s://www.golfdirecto.com/micro/game/6ae638e38f4f6415e0ba2627/summary\nConfi
- rma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/6ae638e38f4f6415e0ba2627/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6ae638e38f4f6415e0ba2627/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:d46c284059a2a4fafcd3@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20270116
 DTEND;VALUE=DATE:20270117
 SUMMARY:Captain And Past Captains Challenge
 LOCATION:Desert Springs Golf Club\, Las Cunas\, Almería
-DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
- s://www.golfdirecto.com/micro/game/6ae6396a4e69f3adf95822ac/summary\nConfi
- rma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/6ae6396a4e69f3adf95822ac/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6ae6396a4e69f3adf95822ac/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:fa5ca8b80b8413363b2d@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20270130
 DTEND;VALUE=DATE:20270201
 SUMMARY:The Club Handicap Salver
 LOCATION:Desert Springs Golf Club\, Las Cunas\, Almería
-DESCRIPTION:Social de club · Medal Play · Individual\nFicha oficial: http
- s://www.golfdirecto.com/micro/game/6ae639f34e69f3adf969b287/summary\nConfi
- rma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Medal Play - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/6ae639f34e69f3adf969b287/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6ae639f34e69f3adf969b287/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:9fe4f99a25fa98d4975a@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20270213
 DTEND;VALUE=DATE:20270214
 SUMMARY:Valetine'S Day
 LOCATION:Desert Springs Golf Club\, Las Cunas\, Almería
-DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
- s://www.golfdirecto.com/micro/game/6ae63a8a8f4f6415e0ec3703/summary\nConfi
- rma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/6ae63a8a8f4f6415e0ec3703/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6ae63a8a8f4f6415e0ec3703/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:e5ece758b57c18954c90@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20270220
 DTEND;VALUE=DATE:20270221
 SUMMARY:Carnival Scramble
 LOCATION:Desert Springs Golf Club\, Las Cunas\, Almería
-DESCRIPTION:Social de club · Scramble · Parejas\nFicha oficial: https://w
- ww.golfdirecto.com/micro/game/6ae63b158f4f6415e0049e96/summary\nConfirma f
- echas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Scramble - Parejas\nFicha oficial: https://www
+ .golfdirecto.com/micro/game/6ae63b158f4f6415e0049e96/summary\nConfirma fec
+ has y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6ae63b158f4f6415e0049e96/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:8b5398b2fdfa0683faab@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20270228
 DTEND;VALUE=DATE:20270301
 SUMMARY:Andalucia Day
 LOCATION:Desert Springs Golf Club\, Las Cunas\, Almería
-DESCRIPTION:Social de club · Stableford · Individual\nFicha oficial: http
- s://www.golfdirecto.com/micro/game/6ae63b3f4e69f3adf990df25/summary\nConfi
- rma fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/6ae63b3f4e69f3adf990df25/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6ae63b3f4e69f3adf990df25/summary

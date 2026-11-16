@@ -3,7 +3,7 @@ VERSION:2.0
 PRODID:-//Banderin//Torneos de golf//ES
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:Banderín · Club de Golf Son Antem
+X-WR-CALNAME:Banderín - Club de Golf Son Antem
 X-WR-CALDESC:Torneos de golf: Club de Golf Son Antem. Se actualiza cada ma
  ñana. https://banderin.es
 X-WR-TIMEZONE:Europe/Madrid
@@ -11,15 +11,15 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:25618910bd1e00df1213@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261208
 SUMMARY:Copa de Baleares Masculina 2026
 LOCATION:Club de Golf Son Antem\, Llucmajor\, Illes Balears
-DESCRIPTION:Absoluto · Medal Play · Individual\nInscripción: abre el 9 d
- e octubre\, cierra el 18 de noviembre.\nPrecio: 110 €.\nFicha oficial: h
- ttps://rfegolf.es/competicion/copa-baleares\nConfirma fechas y condiciones
-  en la web del organizador. Vía Banderín.
+DESCRIPTION:Absoluto - Medal Play - Individual\nInscripción: abre el 9 de 
+ octubre\, cierra el 18 de noviembre.\nPrecio: 110 €.\nFicha oficial: htt
+ ps://rfegolf.es/competicion/copa-baleares\nConfirma fechas y condiciones e
+ n la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://rfegolf.es/competicion/copa-baleares

@@ -3,7 +3,7 @@ VERSION:2.0
 PRODID:-//Banderin//Torneos de golf//ES
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:Banderín · Golf Los Lagos
+X-WR-CALNAME:Banderín - Golf Los Lagos
 X-WR-CALDESC:Torneos de golf: Golf Los Lagos. Se actualiza cada mañana. ht
  tps://banderin.es
 X-WR-TIMEZONE:Europe/Madrid
@@ -11,42 +11,42 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:96fd81bda4141108e8ab@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20270123
 DTEND;VALUE=DATE:20270124
 SUMMARY:Ranking Absoluto FAG 2027 - 1ª Prueba
 LOCATION:Golf Los Lagos\, Pinseque\, Zaragoza
-DESCRIPTION:Absoluto · Individual\nFicha oficial: https://www.aragongolf.c
- om/torneos-ficha/2009/\nConfirma fechas y condiciones en la web del organi
- zador. Vía Banderín.
+DESCRIPTION:Absoluto - Individual\nFicha oficial: https://www.aragongolf.co
+ m/torneos-ficha/2009/\nConfirma fechas y condiciones en la web del organiz
+ ador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.aragongolf.com/torneos-ficha/2009/
 END:VEVENT
 BEGIN:VEVENT
 UID:46605c782ab43f5449e3@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20270619
 DTEND;VALUE=DATE:20270621
 SUMMARY:Campeonato de Aragón Sub18 2027
 LOCATION:Golf Los Lagos\, Pinseque\, Zaragoza
-DESCRIPTION:Juvenil · Individual\nFicha oficial: https://www.aragongolf.co
- m/torneos-ficha/2014/\nConfirma fechas y condiciones en la web del organiz
- ador. Vía Banderín.
+DESCRIPTION:Juvenil - Individual\nFicha oficial: https://www.aragongolf.com
+ /torneos-ficha/2014/\nConfirma fechas y condiciones en la web del organiza
+ dor. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.aragongolf.com/torneos-ficha/2014/
 END:VEVENT
 BEGIN:VEVENT
 UID:61eb6e39d7dfb523c23d@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20270911
 DTEND;VALUE=DATE:20270912
 SUMMARY:Campeonato de Aragón de 4ª y 5ª Categoría 2027
 LOCATION:Golf Los Lagos\, Pinseque\, Zaragoza
-DESCRIPTION:Absoluto · Individual\nFicha oficial: https://www.aragongolf.c
- om/torneos-ficha/2022/\nConfirma fechas y condiciones en la web del organi
- zador. Vía Banderín.
+DESCRIPTION:Absoluto - Individual\nFicha oficial: https://www.aragongolf.co
+ m/torneos-ficha/2022/\nConfirma fechas y condiciones en la web del organiz
+ ador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.aragongolf.com/torneos-ficha/2022/

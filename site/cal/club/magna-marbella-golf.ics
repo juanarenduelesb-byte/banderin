@@ -3,7 +3,7 @@ VERSION:2.0
 PRODID:-//Banderin//Torneos de golf//ES
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:Banderín · Magna Marbella Golf
+X-WR-CALNAME:Banderín - Magna Marbella Golf
 X-WR-CALDESC:Torneos de golf: Magna Marbella Golf. Se actualiza cada mañan
  a. https://banderin.es
 X-WR-TIMEZONE:Europe/Madrid
@@ -11,28 +11,28 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:507587703c60bdea15bc@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:Pg Junior Golf Circuit - Nov.
 LOCATION:Magna Marbella Golf\, Nueva Andalucia\, Málaga
-DESCRIPTION:Juvenil · Stableford · Individual\nFicha oficial: https://www
- .nextcaddy.com/tour/68964\nConfirma fechas y condiciones en la web del org
- anizador. Vía Banderín.
+DESCRIPTION:Juvenil - Stableford - Individual\nFicha oficial: https://www.n
+ extcaddy.com/tour/68964\nConfirma fechas y condiciones en la web del organ
+ izador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.nextcaddy.com/tour/68964
 END:VEVENT
 BEGIN:VEVENT
 UID:20d43a2e771e7c4dfa7b@banderin.es
-DTSTAMP:20261116T164907Z
+DTSTAMP:20261116T211515Z
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
 SUMMARY:Pg Junior Golf Circuit - Dec.
 LOCATION:Magna Marbella Golf\, Nueva Andalucia\, Málaga
-DESCRIPTION:Juvenil · Stableford · Individual\nFicha oficial: https://www
- .nextcaddy.com/tour/68965\nConfirma fechas y condiciones en la web del org
- anizador. Vía Banderín.
+DESCRIPTION:Juvenil - Stableford - Individual\nFicha oficial: https://www.n
+ extcaddy.com/tour/68965\nConfirma fechas y condiciones en la web del organ
+ izador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.nextcaddy.com/tour/68965
