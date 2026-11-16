@@ -5,7 +5,7 @@ window.TITULAR = {
   nombre: "Juan Álvarez-Rendueles Basagoiti",        // Nombre y apellidos (autónomo) o razón social (sociedad)
   nif: "53730185T",           // NIF / CIF
   domicilio: "Avenida de los Pirineos, 33, 28703 San Sebastián de los Reyes (Madrid)",     // Dirección postal completa
-  email: "juanarenduelesb@gmail.com",         // Correo de contacto y de privacidad
+  email: "avisos@banderin.es",                // Correo de contacto y de privacidad
   registro: "",      // Solo si es sociedad: Registro Mercantil, tomo, folio, hoja
   marca: "Esclusa",
   web: "Banderín"
