@@ -244,13 +244,31 @@ def compose(sub, items, site, extra=(), zone=()):
     else:
         lede = 'Hoy hay %d %s en los torneos, clubes y provincias que sigues.' % (n, 'novedad' if n == 1 else 'novedades')
     cards, text = [], []
-    for x in items[:MAX_ITEMS]:
-        t = x['t']
-        enter = x['tipo'] in ('abre', 'cierra')
-        btn = ('Enter' if enter else 'View page') if lang == 'en' else ('Inscribirme' if enter else 'Ver ficha')
-        cards.append(correo.item(lang, x['tipo'], label(x, lang), t, t['url'], btn))
-        where = ' · '.join(v for v in [t.get('club'), t.get('city')] if v)
-        text.append('- %s: %s (%s%s)\n  %s' % (label(x, lang), t['n'], fdate(t['s'], lang), (' · ' + where) if where else '', t['url']))
+    # Agrupados por urgencia: primero lo que cierra, luego lo que abre, lo nuevo y los cambios.
+    GRUPOS = [('cierra', ('Closing soon', "Don't miss it") if lang == 'en' else ('Cierra la inscripción', 'Que no se te escape')),
+              ('abre', ('Entries opening', 'Get ready to enter') if lang == 'en' else ('Abre la inscripción', 'Prepárate para apuntarte')),
+              ('nuevo', ('Just published', 'New tournaments') if lang == 'en' else ('Recién publicados', 'Torneos nuevos')),
+              ('cambio', ('Changes', 'Dates, deadlines and cancellations') if lang == 'en' else ('Cambios', 'Fechas, plazos y cancelaciones'))]
+    grupo = lambda x: x['tipo'] if x['tipo'] in ('cierra', 'abre', 'nuevo') else 'cambio'
+    shown = sorted(items[:MAX_ITEMS], key=lambda x: [g for g, _ in GRUPOS].index(grupo(x)))
+    tipos = [g for g, _ in GRUPOS if any(grupo(x) == g for x in shown)]
+    if n > 1:
+        nombres = {'cierra': ('closing', 'cierran'), 'abre': ('opening', 'abren'), 'nuevo': ('new', 'nuevos'), 'cambio': ('changes', 'cambios')}
+        cards.append(correo.chips([(sum(1 for x in items if grupo(x) == g), nombres[g][0 if lang == 'en' else 1],
+                                    {'cambio': 'fecha'}.get(g, g)) for g in tipos]))
+    for g, (eyebrow, stitle) in GRUPOS:
+        grp = [x for x in shown if grupo(x) == g]
+        if not grp:
+            continue
+        if len(tipos) > 1:
+            cards.append(correo.section(eyebrow, stitle))
+        for x in grp:
+            t = x['t']
+            enter = x['tipo'] in ('abre', 'cierra')
+            btn = ('Enter' if enter else 'View page') if lang == 'en' else ('Inscribirme' if enter else 'Ver ficha')
+            cards.append(correo.item(lang, x['tipo'], label(x, lang), t, t['url'], btn))
+            where = ' · '.join(v for v in [t.get('club'), t.get('city')] if v)
+            text.append('- %s: %s (%s%s)\n  %s' % (label(x, lang), t['n'], fdate(t['s'], lang), (' · ' + where) if where else '', t['url']))
     more = n - MAX_ITEMS
     if more > 0:
         cards.append(correo.para('<a href="%s" style="color:%s">%s</a>' % (
@@ -264,6 +282,8 @@ def compose(sub, items, site, extra=(), zone=()):
             t = x['t']
             cards.append(correo.item(lang, x['tipo'], x['label'], t, t['url'], 'View page' if lang == 'en' else 'Ver ficha'))
             text.append('- %s: %s (%s) %s' % (x['label'], t['n'], fdate(t['s'], lang), t['url']))
+    cards.append(correo.cta(site + ('/en/' if lang == 'en' else '/') + '#lista',
+                            'See every tournament' if lang == 'en' else 'Ver todos los torneos'))
     why = ('You get this email because you turned on Banderín alerts. At most one a day.' if lang == 'en'
            else 'Recibes este correo porque activaste los avisos de Banderín. Como mucho, uno al día.')
     preheader = ' · '.join(x['t']['n'] for x in (list(items) + list(extra))[:3])
