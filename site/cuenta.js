@@ -9,6 +9,13 @@
    Depende de app.js (raw, store, PERF, SIGO, saved, played, AV, L, $, render…). */
 
 const CU = window.CUENTA || {};
+// Para los avisos con un toque: correo verificado de la sesión y su token (solo viajan a /api/avisos/cuenta).
+window.cuEmail = () => (USER && USER.email_confirmed_at ? USER.email : '');
+window.cuSesion = async () => {
+  if (!SB || !USER || !USER.email_confirmed_at) return null;
+  const { data } = await SB.auth.getSession();
+  return data && data.session ? { email: USER.email, tok: data.session.access_token } : null;
+};
 let SB = null, USER = null, cuSaveT = null, cuApplying = false, cuMode = 'entrar';
 const cuOn = () => !!(CU.url && CU.key);
 const cuRef = () => { try { return new URL(CU.url).hostname.split('.')[0]; } catch (e) { return ''; } };
@@ -204,6 +211,7 @@ $('cuNuevaF').onsubmit = e => {
 
 /* ---------- tarjeta «Cuenta» en Mi perfil y botón de la cabecera ---------- */
 function cuDraw() {
+  if (typeof window.drawAvisos === 'function') try { window.drawAvisos(); } catch (e) {}
   const box = $('pcuenta'); if (!box) return;
   $('pcuSoon').hidden = cuOn();
   $('pcuOff').hidden = !!USER || !cuOn();

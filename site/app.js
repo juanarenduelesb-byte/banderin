@@ -22,7 +22,7 @@ const raw={get(k){try{const v=localStorage.getItem('banderin.'+k);return v==null
 const consent={get(){const c=raw.get('consent');if(!c||!c.ts||Date.now()-c.ts>365*864e5)return null;return c},pref(){const c=consent.get();return!!(c&&c.pref)}};
 const store={get(k,d){if(k in MEM)return MEM[k];if(!consent.pref())return d;const v=raw.get(k);return v==null?d:v},set(k,v){MEM[k]=v;if(consent.pref())raw.set(k,v)}};
 
-const I={
+const I={share:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12M7.5 7.5 12 3l4.5 4.5"/><path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-7"/></svg>',
  flag:c=>'<svg class="fl '+c+'" viewBox="0 0 16 16" aria-hidden="true"><path d="M4 1.5v13" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" fill="none"/><path d="M5 2l8 3-8 3z" fill="currentColor"/></svg>',
  star:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><path d="m12 3 2.8 5.7 6.2.9-4.5 4.4 1.1 6.2L12 17.3 6.4 20.2l1.1-6.2L3 9.6l6.2-.9z"/></svg>',
  starS:'<svg class="sv" viewBox="0 0 24 24" fill="currentColor" role="img" aria-label="Guardado"><path d="m12 3 2.8 5.7 6.2.9-4.5 4.4 1.1 6.2L12 17.3 6.4 20.2l1.1-6.2L3 9.6l6.2-.9z"/></svg>',
@@ -117,6 +117,13 @@ let GEO=null,geoPrev='';
 const LOCI='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 11 21 3l-8 18-2-8z"/></svg>';
 const here=()=>{const v=$('city').value;if(v==='gps')return GEO?[GEO[0],GEO[1]]:null;return v===''||!PROV[v]?null:[PROV[v][2],PROV[v][3]]};
 const cityName=()=>{const v=$('city').value;return v==='gps'?L('tu ubicación'):(PROV[v]?PROV[v][0]:'')};
+// Identificador corto y estable de un torneo (FNV-1a de su enlace). El mismo cálculo está en functions/t/[id].js.
+function tid(t){let h=2166136261;const u=t.url||'';for(let i=0;i<u.length;i++){h^=u.charCodeAt(i);h=Math.imul(h,16777619)>>>0}return h.toString(36)}
+async function shareT(t){const url=location.origin+'/t/'+tid(t);const text=t.n+' · '+fShort(t.s)+(t.club?' · '+t.club:'');
+  try{if(navigator.share){await navigator.share({title:t.n,text,url});return}}catch(e){if(e&&e.name==='AbortError')return}
+  try{await navigator.clipboard.writeText(url);geoMsg(L('Enlace copiado. Pégalo donde quieras.'))}catch(e){prompt(L('Copia el enlace:'),url)}}
+function openShared(){const m=/^#t=([a-z0-9]+)$/.exec(location.hash);if(!m)return;const t=T.find(x=>tid(x)===m[1]);
+  history.replaceState(null,'',location.pathname+'#inicio');route();if(t)openModal(t.i);else geoMsg(L('Ese torneo ya no está en Banderín, pero aquí tienes todos los demás.'))}
 function geoMsg(t){let m=$('geomsg');if(!m){m=document.createElement('div');m.id='geomsg';m.className='geomsg';m.setAttribute('role','status');document.body.appendChild(m)}
   m.textContent=t;m.classList.add('on');clearTimeout(geoMsg.t);geoMsg.t=setTimeout(()=>m.classList.remove('on'),6000)}
 function setCity(v){$('city').value=v;store.set('city',v);['hcity','pcity'].forEach(id=>{if($(id))$(id).value=v})}
@@ -196,9 +203,10 @@ function fillDetail(d,t,modal){
   d.innerHTML='<div class="dmap">'+greenSvg(hash(t.club||t.n))+'<span class="where">'+esc(t.prov!=='Por confirmar'?t.prov:V(t.ccaa))+'</span><button class="icon-btn dclose" data-act="close" aria-label="'+L('Cerrar ficha')+'">'+I.x+'</button></div>'+
    '<div class="dbody"><span class="dst st '+t.sk+'">'+I.flag(t.sk)+esc(t.sl)+'</span><h2>'+esc(t.n)+'</h2><p class="sub">'+esc(place(t))+'</p>'+(t.club?'<button class="follow" data-act="follow" aria-pressed="'+SIGO.clubs.includes(t.club)+'">'+(SIGO.clubs.includes(t.club)?'✓ '+L('Sigues este club'):'+ '+L('Seguir este club'))+'</button>':'')+(t.aviso?'<p class="dnote"><b>'+L('Aviso')+':</b> '+esc(L(t.aviso))+'</p>':'')+(chg?'<p class="dnote">'+chg+'</p>':'')+
    '<div class="facts">'+facts.filter(f=>f[1]&&f[1]!=='Sin indicar'&&f[1]!=='Not stated').map(f=>'<div class="fact'+(f[2]?' wide':'')+(f[3]?' '+f[3]:'')+'"><span>'+L(f[0])+'</span><b title="'+esc(f[1])+'">'+esc(f[1])+'</b></div>').join('')+'</div>'+
-   '<div class="acts"><a class="btn primary" href="'+esc(safeUrl(t.url))+'" target="_blank" rel="noopener noreferrer">'+label(t)+I.out+'</a><button class="btn ghost" data-act="save" aria-pressed="'+isS+'" title="'+L(isS?'Quitar de guardados':'Guardar')+'" aria-label="'+L(isS?'Quitar de guardados':'Guardar')+'">'+I.star+'</button><a class="btn ghost" href="'+gcal(t)+'" target="_blank" rel="noopener noreferrer" title="'+L('Añadir a Google Calendar')+'" aria-label="'+L('Añadir a Google Calendar')+'">'+I.cal+'</a></div>'+
+   '<div class="acts"><a class="btn primary" href="'+esc(safeUrl(t.url))+'" target="_blank" rel="noopener noreferrer">'+label(t)+I.out+'</a><button class="btn ghost" data-act="save" aria-pressed="'+isS+'" title="'+L(isS?'Quitar de guardados':'Guardar')+'" aria-label="'+L(isS?'Quitar de guardados':'Guardar')+'">'+I.star+'</button><a class="btn ghost" href="'+gcal(t)+'" target="_blank" rel="noopener noreferrer" title="'+L('Añadir a Google Calendar')+'" aria-label="'+L('Añadir a Google Calendar')+'">'+I.cal+'</a><button class="btn ghost" data-act="share" title="'+L('Compartir torneo')+'" aria-label="'+L('Compartir torneo')+'">'+I.share+'</button></div>'+
    '<p class="note">'+L('Datos de {s}.',{s:esc(t.src)})+' '+(t.ok?esc(checkedText(t.ok))+' ':'')+L('Confirma fechas y precio en la web del organizador antes de inscribirte.')+(t.direct===false?' '+L('Este organizador no publica una ficha por torneo: el enlace lleva a su página de torneos.'):'')+'</p>'+
    (same.length?'<div class="same"><h3>'+L('Más en este campo')+'</h3>'+same.map(x=>'<button data-i="'+x.i+'"><span>'+esc(x.n)+'</span><span>'+fShort(x.s)+'</span></button>').join('')+'</div>':'')+'</div>';
+  d.querySelector('[data-act=share]').onclick=()=>shareT(t);
   d.querySelector('[data-act=save]').onclick=()=>{isS?saved.delete(t.url):saved.add(t.url);store.set('saved',[...saved]);syncAvisos();render();if(modal){fillDetail(d,t,true);renderHome()}};
   const fb=d.querySelector('[data-act=follow]');if(fb)fb.onclick=()=>{toggleFollow('clubs',t.club);fillDetail(d,t,modal);renderQuick();if(location.hash==='#perfil')renderPerfil()};
   d.querySelector('[data-act=close]').onclick=modal?closeModal:closeSheet;
@@ -644,7 +652,7 @@ async function api(path,opt={}){
   let d=null;try{d=await r.json()}catch(e){}
   return {ok:r.ok,status:r.status,data:d};
 }
-function drawAvisos(){
+function drawAvisos(){const ce=window.cuEmail&&window.cuEmail();if(ce){if($('pavEmail')&&!$('pavEmail').value)$('pavEmail').value=ce;if($('avPopEmail')&&!$('avPopEmail').value)$('avPopEmail').value=ce}
   const st=!avOn?'off':AV&&AV.tok?'on':AV&&AV.pend?'pend':'form';
   $('pavSoon').hidden=st!=='off';$('pavOff').hidden=st!=='off';$('pavForm').hidden=st!=='form';$('pavPend').hidden=st!=='pend';$('pavOn').hidden=st!=='on';
   if(st==='pend')$('pavPendMail').textContent=AV.pend;
@@ -674,12 +682,16 @@ async function initAvisos(){
   drawAvisos();if(location.hash==='#perfil')renderPerfil();
   avPopSchedule();
 }
+// Con cuenta y el mismo correo: se activan al momento, sin correo de confirmación (Supabase ya lo verificó).
+async function avCuenta(em){try{const c=window.cuSesion&&await window.cuSesion();if(!c||c.email.toLowerCase()!==em.toLowerCase())return false;
+  const r=await api('/api/avisos/cuenta',{method:'POST',tok:c.tok,body:{idioma:LANG,sigo:avSigo(),perfil:avPerfil()}});
+  if(!r||!r.ok||!r.data||!r.data.tok)return false;AV={tok:r.data.tok,email:r.data.email};raw.set('avisos',AV);syncAvisos();return true}catch(e){return false}}
 $('pavForm').onsubmit=async e=>{
   e.preventDefault();const em=$('pavEmail').value.trim(),btn=$('pavForm').querySelector('button');
   $('pavErr').hidden=true;
   if(!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(em)){$('pavErr').textContent=L('Revisa el correo: no parece válido.');$('pavErr').hidden=false;$('pavEmail').focus();return}
   btn.disabled=true;
-  const r=await api('/api/avisos/alta',{method:'POST',body:{email:em,idioma:LANG,sigo:avSigo(),perfil:avPerfil(),web:$('pavWeb').value,ts:window.botToken?await botToken():''}}).catch(()=>null);
+  const c=await avCuenta(em);if(c){btn.disabled=false;drawAvisos();avFabSync();geoMsg(L('Avisos activados con tu cuenta.'));return}const r=await api('/api/avisos/alta',{method:'POST',body:{email:em,idioma:LANG,sigo:avSigo(),perfil:avPerfil(),web:$('pavWeb').value,ts:window.botToken?await botToken():''}}).catch(()=>null);
   btn.disabled=false;
   if(r&&r.ok){AV={pend:em};raw.set('avisos',AV);drawAvisos();avFabSync()}
   else{$('pavErr').textContent=L(r&&r.status===400?'Revisa el correo: no parece válido.':r&&r.status===429?'Demasiados intentos seguidos. Espera un rato y vuelve a probar.':'No hemos podido activarlos ahora. Inténtalo en unos minutos.');$('pavErr').hidden=false}
@@ -725,7 +737,7 @@ $('avPopForm').onsubmit=async e=>{
   if(!pv){$('avPopErr').textContent=L('Elige una provincia para saber de qué avisarte.');$('avPopErr').hidden=false;$('avPopProv').focus();return}
   if(!SIGO.prov.includes(pv)){SIGO.prov.push(pv);SIGO.ts=Date.now();raw.set('sigo',SIGO);markMe()}
   btn.disabled=true;
-  const r=await api('/api/avisos/alta',{method:'POST',body:{email:em,idioma:LANG,sigo:avSigo(),perfil:avPerfil(),web:$('avPopWeb').value,ts:window.botToken?await botToken():''}}).catch(()=>null);
+  const c=await avCuenta(em);if(c){btn.disabled=false;drawAvisos();renderQuick();avPopClose(true);geoMsg(L('Avisos activados con tu cuenta.'));return}const r=await api('/api/avisos/alta',{method:'POST',body:{email:em,idioma:LANG,sigo:avSigo(),perfil:avPerfil(),web:$('avPopWeb').value,ts:window.botToken?await botToken():''}}).catch(()=>null);
   btn.disabled=false;
   if(r&&r.ok){AV={pend:em};raw.set('avisos',AV);drawAvisos();renderQuick();$('avPopBody').hidden=true;$('avPopOk').hidden=false;raw.set('avpop',Date.now());setTimeout(()=>avPopClose(false),9000)}
   else{$('avPopErr').textContent=L(r&&r.status===400?'Revisa el correo: no parece válido.':r&&r.status===429?'Demasiados intentos seguidos. Espera un rato y vuelve a probar.':'No hemos podido activarlos ahora. Inténtalo en unos minutos.');$('avPopErr').hidden=false}
@@ -733,4 +745,4 @@ $('avPopForm').onsubmit=async e=>{
 initAvisos();
 
 // Arranque: al final, cuando todo está definido
-addEventListener('hashchange',route);route();render();
+addEventListener('hashchange',()=>{if(/^#t=/.test(location.hash))openShared();else route()});route();render();openShared();

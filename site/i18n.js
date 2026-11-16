@@ -11,6 +11,11 @@ window.LANG=l;document.documentElement.lang=l;
 })();
 
 window.EN={
+  "Compartir torneo": "Share tournament",
+  "Enlace copiado. Pégalo donde quieras.": "Link copied. Paste it wherever you like.",
+  "Copia el enlace:": "Copy the link:",
+  "Ese torneo ya no está en Banderín, pero aquí tienes todos los demás.": "That tournament is no longer on Banderín, but here are all the others.",
+  "Avisos activados con tu cuenta.": "Alerts turned on with your account.",
 /* navegación y portada */
 "Un proyecto de Esclusa":"A project by Esclusa","Inicio":"Home","Torneos":"Tournaments","Calendario":"Calendar","Resultados":"Results","Fuentes":"Sources",
 "Cambiar entre modo claro y oscuro":"Switch between light and dark mode","Cambiar tema":"Change theme",
