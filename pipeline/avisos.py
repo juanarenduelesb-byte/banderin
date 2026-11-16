@@ -292,6 +292,18 @@ def main():
     if os.environ.get('AVISOS') != 'on':
         print('avisos: apagados (AVISOS no es "on")')
         return
+    if sys.argv[1:2] == ['--desde']:
+        # Desde cuándo hay que comparar: el último correo más antiguo entre quienes aún no lo han recibido hoy
+        # (como mucho 7 días). Así, lo que cambió en una pasada posterior al correo de ese día no se pierde;
+        # lo ya enviado no se repite porque cada aviso queda registrado en «enviados».
+        hoy0 = dt.datetime.combine(TODAY, dt.time(), TZ).astimezone(dt.timezone.utc)
+        r = D1().q("SELECT MIN(ultimo_aviso) AS d FROM suscriptores WHERE estado = 'activo' AND ultimo_aviso IS NOT NULL AND ultimo_aviso < ?",
+                   (hoy0.isoformat(),))
+        d = r[0]['d'] if r else None
+        if d:
+            d = max(dt.datetime.fromisoformat(d.replace('Z', '+00:00')), hoy0 - dt.timedelta(days=7))
+            print(d.strftime('%Y-%m-%dT%H:%M:%SZ'))
+        return
     if len(sys.argv) < 3:
         sys.exit('uso: avisos.py <data.js nuevo> <data.js anterior>')
     site = (os.environ.get('SITE_URL') or 'https://banderin.es').rstrip('/')

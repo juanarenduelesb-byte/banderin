@@ -129,4 +129,17 @@ jobs:
           BREVO_API_KEY: ${{ secrets.BREVO_API_KEY }}
           LINK_SECRET: ${{ secrets.LINK_SECRET }}
           CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
-        run: python3 pipeline/avisos.py /tmp/banderin/nuevo/data.js /tmp/banderin/anterior/data.js
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+        run: |
+          # Compara con los torneos tal como estaban cuando salió el último correo, no con la pasada anterior:
+          # así no se pierde lo que cambió en una pasada de la tarde, cuando ese día ya se había enviado el correo.
+          PREV=/tmp/banderin/anterior/data.js
+          DESDE=$(python3 pipeline/avisos.py --desde || true)
+          if [ -n "$DESDE" ]; then
+            SHA=$(gh api "repos/$REPO/commits?path=site/data.js&until=$DESDE&per_page=1" --jq '.[0].sha' || true)
+            if [ -n "$SHA" ] && gh api -H "Accept: application/vnd.github.raw" "repos/$REPO/contents/site/data.js?ref=$SHA" > /tmp/banderin/base.js && [ -s /tmp/banderin/base.js ]; then
+              PREV=/tmp/banderin/base.js; echo "avisos: comparo con los torneos de $DESDE ($SHA)"
+            fi
+          fi
+          python3 pipeline/avisos.py /tmp/banderin/nuevo/data.js "$PREV"
