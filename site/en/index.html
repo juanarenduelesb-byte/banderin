@@ -957,7 +957,7 @@ select::-ms-expand{display:none}
 <nav class="tabbar" aria-label="Secciones"><div class="tabs tabin"><a href="#inicio" class="tb"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3.5 10.6 12 3.8l8.5 6.8V19a1.6 1.6 0 0 1-1.6 1.6h-4.2v-5.4a.9.9 0 0 0-.9-.9h-3.6a.9.9 0 0 0-.9.9v5.4H5.1A1.6 1.6 0 0 1 3.5 19z"/></svg><span>Inicio</span></a><a href="#lista" class="tb"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="4" width="17" height="16.5" rx="3.2"/><path d="M7.5 9.2h9M7.5 13h9M7.5 16.8h5.5"/></svg><span>Torneos</span></a><a href="#calendario" class="tb"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="5" width="17" height="15.5" rx="3.2"/><path d="M3.5 9.6h17M8 3v4M16 3v4"/><circle cx="8.3" cy="14" r=".9" class="f"/><circle cx="12" cy="14" r=".9" class="f"/><circle cx="15.7" cy="14" r=".9" class="f"/></svg><span>Calendario</span></a><a href="#resultados" class="tb"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 4h8v5.2a4 4 0 0 1-8 0z"/><path d="M8 5.6H5.2v1.2A3.2 3.2 0 0 0 8.4 10M16 5.6h2.8v1.2A3.2 3.2 0 0 1 15.6 10M12 13.2v3.6M8.6 20h6.8M9.6 20l.6-3.2h3.6l.6 3.2"/></svg><span>Resultados</span></a><a href="#perfil" class="tb"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8.2" r="3.9"/><path d="M4.6 20.2c.9-3.9 3.9-6 7.4-6s6.5 2.1 7.4 6"/></svg><span>Perfil</span></a></div></nav>
 
 <div class="wrap">
-<section id="v-inicio" hidden>
+<section id="v-inicio">
   <div class="hero glass">
     <div class="hcopy">
       <h1 class="eyebrow" id="hEyebrow">Torneos de golf en España</h1>
@@ -1030,12 +1030,12 @@ select::-ms-expand{display:none}
   </div>
 </section>
 
-<div class="head" id="pagehead">
+<div class="head" id="pagehead" hidden>
   <div><p class="eyebrow">Torneos de golf en España</p><h2 class="ltitle">Encuentra tu próximo torneo.</h2><a class="seal" id="pSeal" href="#fuentes"></a></div>
   <div class="kpis num"><div class="kpi glass"><b id="k1">0</b><span>Torneos</span></div><div class="kpi glass"><b id="k2">0</b><span>Abiertos</span></div><div class="kpi glass"><b id="k3">0</b><span>Comunidades</span></div></div>
 </div>
 
-<div id="controls">
+<div id="controls" hidden>
   <div class="tool glass">
     <label class="field q"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg><input type="search" id="q" placeholder="Torneo, campo o ciudad" aria-label="Buscar torneo, campo o ciudad"></label>
     <label class="field loc"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg><select id="city" aria-label="Tu ciudad, para calcular distancias"></select></label>
@@ -1062,7 +1062,7 @@ select::-ms-expand{display:none}
   <div class="quick" id="quick" role="group" aria-label="Atajos"></div>
 </div>
 
-<section id="v-lista">
+<section id="v-lista" hidden>
   <div class="status"><span class="count num" id="count"></span><div class="chips" id="chips"></div>
     <label class="sortsel">Ordenar<select id="sort" aria-label="Ordenar"><option value="date">Por fecha</option><option value="dist">Por distancia</option><option value="close">Cierre de inscripción</option></select></label></div>
   <div class="explore">

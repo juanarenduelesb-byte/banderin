@@ -335,9 +335,7 @@ def stats_text(ts, place):
     opn = sum(1 for t in ts if is_open(t))
     wk_end = TODAY + dt.timedelta(days=(6 - TODAY.weekday()))
     this_week = sum(1 for t in ts if d(t['s']) <= wk_end)
-    txt = ('Hay %s de golf en %s entre el %s y el %s, en %s. ' %
-           (plural(n, 'torneo', 'torneos'), place, flong(max(ts[0]['s'], ISO)), flong(ts[-1]['s']) + (' de %d' % d(ts[-1]['s']).year),
-            plural(clubs, 'club', 'clubes')))
+    txt = ('Hay %s de golf en %s, en %s. ' % (plural(n, 'torneo', 'torneos'), place, plural(clubs, 'club', 'clubes')))
     if opn:
         txt += '%s tienen la inscripción abierta ahora mismo. ' % opn if opn > 1 else 'Uno tiene la inscripción abierta ahora mismo. '
     if this_week:
@@ -372,7 +370,6 @@ def page(path, title, desc, h1, eyebrow, place, ts, crumb_items, extra_nav, coun
     cr_html, cr_ld = crumbs(crumb_items)
     ld = [{'@context': 'https://schema.org', '@type': 'CollectionPage', 'name': title, 'description': desc,
            'url': BASE + path, 'inLanguage': 'es', 'isPartOf': {'@type': 'WebSite', 'name': 'Banderín', 'url': BASE + '/'},
-           'dateModified': ISO,
            'mainEntity': {'@type': 'ItemList', 'numberOfItems': len(ts), 'itemListElement': [
                {'@type': 'ListItem', 'position': i + 1, 'item': event_ld(t)} for i, t in enumerate(ts[:60])]}},
           cr_ld] + list(extra_ld)
@@ -384,7 +381,7 @@ def page(path, title, desc, h1, eyebrow, place, ts, crumb_items, extra_nav, coun
             '<section class="hero"><p class="eyebrow">%s</p><h1>%s</h1><p class="lede">%s</p>%s'
             '<p class="cta"><a class="btn primary" href="/#lista">Filtrar en el buscador</a>'
             '<a class="btn ghost" href="/#calendario">Ver el calendario</a>%s</p>'
-            '<p class="upd">Actualizado el %s.</p></section>' % (e(eyebrow), e(h1), e(intro), cats(ts), cal_link(cal) if ts and cal else '', flong(ISO) + ' de %d' % TODAY.year),
+            '<p class="upd">Se actualiza cada mañana.</p></section>' % (e(eyebrow), e(h1), e(intro), cats(ts), cal_link(cal) if ts and cal else ''),
             extra_nav,
             month_groups(ts, here) if ts else '',
             top_clubs(ts) if not here else '', faq_html or faq(place), regions_nav(counts, current_ccaa), '</main>', footer(''), '</body></html>']
@@ -466,11 +463,11 @@ def main():
     desc = ('Elige comunidad o provincia y mira todos sus torneos de golf: %d en España, con fechas, precios e inscripción. '
             'Actualizado cada mañana.' % len(T))
     ld = [{'@context': 'https://schema.org', '@type': 'CollectionPage', 'name': title, 'description': desc,
-           'url': '%s/%s/' % (BASE, HUB), 'inLanguage': 'es', 'dateModified': ISO}, cr_ld]
+           'url': '%s/%s/' % (BASE, HUB), 'inLanguage': 'es'}, cr_ld]
     hub = [head(title, desc, '/%s/' % HUB, ld=ld), '<body>', topbar(), '<main>', cr_html,
            '<section class="hero"><p class="eyebrow">Toda España</p><h1>Torneos de golf por comunidad y provincia</h1>'
            '<p class="lede">%s</p><p class="cta"><a class="btn primary" href="/#lista">Abrir el buscador</a></p>'
-           '<p class="upd">Actualizado el %s.</p></section>' % (e(stats_text(T, 'España')), flong(ISO) + ' de %d' % TODAY.year),
+           '<p class="upd">Se actualiza cada mañana.</p></section>' % (e(stats_text(T, 'España'))),
            '<ul class="cgrid">%s</ul>' % ''.join(cards) + ('<p class="cta"><a class="btn ghost" href="/%s/clubes/">Ver todos los clubes</a></p>' % HUB if CLUBS else ''), faq('España'), '</main>', footer(''), '</body></html>']
     hub_dir.mkdir(parents=True, exist_ok=True)
     (hub_dir / 'index.html').write_text('\n'.join(hub), encoding='utf-8')
@@ -483,7 +480,7 @@ def main():
         plinks = ['<a href="/%s/%s/%s/">%s <span>%d</span></a>' % (HUB, cs, slug(p), e(p), len(by_p.get((c, p), [])))
                   for p in provs if by_p.get((c, p))]
         n = len(ts)
-        title = 'Torneos de golf en %s - Calendario | Banderín' % short
+        title = 'Torneos de golf en %s: calendario e inscripción | Banderín' % short
         desc = ('Calendario de %s de golf en %s: fechas, clubes, precios e inscripción. Revisado cada mañana en federaciones y clubes.'
                 % (plural(n, 'torneo', 'torneos'), short)) if n else ('Torneos de golf en %s: calendario de federaciones y clubes, revisado cada mañana.' % short)
         page(path, title, desc, 'Torneos de golf en %s' % short, c, short, ts,
@@ -496,7 +493,7 @@ def main():
             sib = ['<a href="/%s/%s/%s/"%s>%s <span>%d</span></a>' % (HUB, cs, slug(q), ' aria-current="page"' if q == p else '', e(q),
                                                                      len(by_p.get((c, q), []))) for q in provs if by_p.get((c, q))]
             pn = len(pts)
-            title = 'Torneos de golf en %s - Calendario | Banderín' % p
+            title = 'Torneos de golf en %s: calendario e inscripción | Banderín' % p
             desc = ('Calendario de %s de golf en %s (%s): fechas, clubes, precios e inscripción, revisado cada mañana.'
                     % (plural(pn, 'torneo', 'torneos'), p, c)) if pn else ('Torneos de golf en %s (%s): calendario de federaciones y clubes, revisado cada mañana.' % (p, c))
             page(ppath, title, desc, 'Torneos de golf en %s' % p, c, p, pts,
@@ -515,8 +512,7 @@ def main():
         title = 'Torneos de golf en %s%s | Banderín' % (nm, ' (%s)' % c['city'] if c['city'] and c['city'].lower() not in nm.lower() else '')
         desc = ('%s de golf en %s%s: fechas, categorías, precios e inscripción. Revisado cada mañana.'
                 % (plural(n, 'torneo', 'torneos').capitalize(), nm, ' (%s)' % where if where else ''))
-        intro = ('%s organiza o acoge %s próximos%s, entre el %s y el %s. ' % (
-            nm, plural(n, 'torneo', 'torneos'), ' en %s' % where if where else '', flong(ts[0]['s']), flong(ts[-1]['s']) + ' de %d' % d(ts[-1]['s']).year))
+        intro = '%s organiza o acoge %s próximos%s. ' % (nm, plural(n, 'torneo', 'torneos'), ' en %s' % where if where else '')
         if opn:
             intro += ('%d tienen la inscripción abierta ahora mismo. ' % opn) if opn > 1 else 'Uno tiene la inscripción abierta ahora mismo. '
         if prices:
@@ -535,8 +531,7 @@ def main():
         if pp:
             sub = '<p class="cta"><a class="btn ghost" href="%s">Todos los torneos en %s</a></p>' % (pp, e(pv)) + sub
         fq = [('¿Qué torneos de golf hay en %s?' % nm,
-               'Ahora mismo hay %s en %s, desde el %s hasta el %s. La lista de arriba se actualiza cada mañana.' % (
-                   plural(n, 'torneo', 'torneos'), nm, flong(ts[0]['s']), flong(ts[-1]['s']) + ' de %d' % d(ts[-1]['s']).year)),
+               'Ahora mismo hay %s en %s. La lista de arriba se actualiza cada mañana.' % (plural(n, 'torneo', 'torneos'), nm)),
               ('¿Cómo me inscribo en un torneo de %s?' % nm,
                'Cada torneo enlaza a su ficha oficial en el club, la federación o la plataforma de inscripción. La inscripción y el pago '
                'se hacen allí, Banderín solo te lleva a la página correcta.'),
@@ -606,7 +601,7 @@ def main():
         ld = [{'@context': 'https://schema.org', **event_ld(t)}, cr_ld]
         body = [head(title, desc, path, ld=ld), '<body>', topbar(), '<main>', cr_html,
                 '<section class="hero"><p class="eyebrow">%s</p><h1>%s</h1><p class="lede">%s</p><p class="cta">%s</p>'
-                '<p class="upd">Actualizado el %s.</p></section>' % (e(t.get('cat') or 'Torneo de golf'), e(t['n']), e(lede), btns, flong(ISO) + ' de %d' % TODAY.year),
+                '<p class="upd">Se actualiza cada mañana.</p></section>' % (e(t.get('cat') or 'Torneo de golf'), e(t['n']), e(lede), btns),
                 '<section class="month"><h2>Datos del torneo</h2><dl class="facts">%s</dl></section>' % ''.join(dl),
                 sub, more_html, regions_nav(counts, t.get('ccaa')), '</main>', footer(''), '</body></html>']
         out = SITE / path.strip('/') / 'index.html'
@@ -629,7 +624,7 @@ def main():
         title = 'Clubes de golf con torneos en España | Banderín'
         desc = 'Los %d clubes de golf con torneos próximos en España, por provincia: fechas, precios e inscripción.' % len(CLUBS)
         body = [head(title, desc, cpath, ld=[{'@context': 'https://schema.org', '@type': 'CollectionPage', 'name': title, 'description': desc,
-                                              'url': BASE + cpath, 'inLanguage': 'es', 'dateModified': ISO}, cr_ld]),
+                                              'url': BASE + cpath, 'inLanguage': 'es'}, cr_ld]),
                 '<body>', topbar(), '<main>', cr_html,
                 '<section class="hero"><p class="eyebrow">Toda España</p><h1>Clubes de golf con torneos</h1>'
                 '<p class="lede">%s</p></section>' % e(desc), ''.join(secs), regions_nav(counts), '</main>', footer(''), '</body></html>']
@@ -673,7 +668,7 @@ def main():
     urls = [('/', '1.0'), ('/en/', '0.6')] + [(p, '0.8' if p.count('/') <= 3 else '0.7') for p, ok in pages if ok]
     sm = ['<?xml version="1.0" encoding="UTF-8"?>', '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
     for p, pr in urls:
-        sm.append('  <url><loc>%s%s</loc><lastmod>%s</lastmod><changefreq>daily</changefreq><priority>%s</priority></url>' % (BASE, p, ISO, pr))
+        sm.append('  <url><loc>%s%s</loc></url>' % (BASE, p))
     sm.append('</urlset>')
     (SITE / 'sitemap.xml').write_text('\n'.join(sm) + '\n', encoding='utf-8')
     print('seo: %d torneos, %d páginas (%d en el mapa del sitio)' % (len(T), len(pages), len(urls)))
