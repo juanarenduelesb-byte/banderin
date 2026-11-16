@@ -1,0 +1,33 @@
+name: Comunicado
+
+# Solo a mano. Envía pipeline/comunicado.py a los suscriptores activos y a los correos que se pasen.
+on:
+  workflow_dispatch:
+    inputs:
+      extra:
+        description: 'Correos de cuentas (separados por comas)'
+        required: false
+      prueba:
+        description: 'Solo enviar a este correo (prueba)'
+        required: false
+
+permissions:
+  contents: read
+
+jobs:
+  enviar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      - env:
+          AVISOS: ${{ vars.AVISOS }}
+          AVISOS_FROM: ${{ vars.AVISOS_FROM }}
+          CF_ACCOUNT_ID: ${{ vars.CF_ACCOUNT_ID }}
+          D1_DATABASE_ID: ${{ vars.D1_DATABASE_ID }}
+          CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
+          BREVO_API_KEY: ${{ secrets.BREVO_API_KEY }}
+          LINK_SECRET: ${{ secrets.LINK_SECRET }}
+          COMUNICADO_EXTRA: ${{ inputs.extra }}
+          COMUNICADO_PRUEBA: ${{ inputs.prueba }}
+        run: python3 pipeline/comunicado.py
