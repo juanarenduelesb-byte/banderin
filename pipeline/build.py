@@ -150,7 +150,7 @@ def geocode(town, prov):
 OVR = {'golf de pals':('Pals','Girona'),'golf club peralada':('Peralada','Girona'),"club de golf d'aro":("Castell-Platja d'Aro",'Girona'),'serres de pals golf & sport club':('Pals','Girona'),
  'derio golf':('Derio','Bizkaia'),'campo de golf de meis':('Meis','Pontevedra'),'arenal golf':('Benalmádena','Málaga'),'e. g. montepríncipe':('Boadilla del Monte','Madrid'),
  'villa nueva golf resort':('Puerto Real','Cádiz'),'roda golf':('San Javier','Murcia'),'campo de golf la finca':('Algorfa','Alicante'),'higuerón marbella golf resort':('Fuengirola','Málaga'),
- 'quinto coto golf':(None,None),'air golf club':(None,None)}
+ 'quinto coto golf':(None,None),'air golf club':('Vegas de Matute','Segovia')}
 def locate(club_name, code=None, nc_city=None):
     key = strip(club_name).strip() if club_name else ''
     ov = next((v for k, v in OVR.items() if strip(k) == key), None)
