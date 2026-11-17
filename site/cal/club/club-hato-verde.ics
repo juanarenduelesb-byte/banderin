@@ -10,8 +10,39 @@ X-WR-TIMEZONE:Europe/Madrid
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
+UID:56a4d308e7bf139d2e6e@banderin.es
+DTSTAMP:20261117T134353Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:Leclub - Somabay World Cup
+LOCATION:Club Hato Verde\, Las Pajanosas\, Sevilla
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  17 de noviembre\, cierra el 26 de noviembre.\nPrecio: 39 €.\nFicha ofic
+ ial: https://www.nextcaddy.com/tour/75424\nConfirma fechas y condiciones e
+ n la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nextcaddy.com/tour/75424
+END:VEVENT
+BEGIN:VEVENT
+UID:71d23565919554b786ec@banderin.es
+DTSTAMP:20261117T134353Z
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+SUMMARY:1ª Prueba Circuito Academia
+LOCATION:Club Hato Verde\, Las Pajanosas\, Sevilla
+DESCRIPTION:Circuito comercial - Stableford - Individual\nInscripción: abr
+ e el 17 de noviembre\, cierra el 5 de diciembre.\nPrecio: 25 €.\nFicha o
+ ficial: https://www.golfdirecto.com/micro/game/6afc19cd698e8624fb02a08c/su
+ mmary\nConfirma fechas y condiciones en la web del organizador. Vía Bande
+ rín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6afc19cd698e8624fb02a08c/summary
+END:VEVENT
+BEGIN:VEVENT
 UID:d6ad661e243e72b565fc@banderin.es
-DTSTAMP:20261117T073653Z
+DTSTAMP:20261117T134353Z
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
 SUMMARY:1ª Prueba Metas Amigos de Hato Verde
@@ -27,7 +58,7 @@ URL:https://www.golfdirecto.com/micro/game/6a980c839678d915e8fbbc15/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:954d8ff6309a6d3208fb@banderin.es
-DTSTAMP:20261117T073653Z
+DTSTAMP:20261117T134353Z
 DTSTART;VALUE=DATE:20261227
 DTEND;VALUE=DATE:20261228
 SUMMARY:2ª Prueba Metas Amigos de Hato Verde
@@ -42,8 +73,24 @@ STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6a980f789678d915e8f0d9d4/summary
 END:VEVENT
 BEGIN:VEVENT
+UID:5013360f272bd922873d@banderin.es
+DTSTAMP:20261117T134353Z
+DTSTART;VALUE=DATE:20270110
+DTEND;VALUE=DATE:20270111
+SUMMARY:2ª Prueba Circuito Academia
+LOCATION:Club Hato Verde\, Las Pajanosas\, Sevilla
+DESCRIPTION:Circuito comercial - Stableford - Individual\nInscripción: abr
+ e el 17 de noviembre\, cierra el 9 de enero.\nPrecio: 25 €.\nFicha ofici
+ al: https://www.golfdirecto.com/micro/game/6afc1af34cfcc17e462a2657/summar
+ y\nConfirma fechas y condiciones en la web del organizador. Vía Banderín
+ .
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6afc1af34cfcc17e462a2657/summary
+END:VEVENT
+BEGIN:VEVENT
 UID:48af65c245f6ce7fd3ff@banderin.es
-DTSTAMP:20261117T073653Z
+DTSTAMP:20261117T134353Z
 DTSTART;VALUE=DATE:20270110
 DTEND;VALUE=DATE:20270111
 SUMMARY:3ª Prueba Metas Amigos de Hato Verde
@@ -58,7 +105,7 @@ URL:https://www.golfdirecto.com/micro/game/6a980fa19678d915e8f50806/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:f887680d09179cc2eec5@banderin.es
-DTSTAMP:20261117T073653Z
+DTSTAMP:20261117T134353Z
 DTSTART;VALUE=DATE:20270214
 DTEND;VALUE=DATE:20270215
 SUMMARY:4ª Prueba Metas Amigos de Hato Verde
@@ -73,7 +120,7 @@ URL:https://www.golfdirecto.com/micro/game/6a9810d09678d915e85dee85/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:469d0f2386f238b7655b@banderin.es
-DTSTAMP:20261117T073653Z
+DTSTAMP:20261117T134353Z
 DTSTART;VALUE=DATE:20270228
 DTEND;VALUE=DATE:20270301
 SUMMARY:5ª Prueba Metas Amigos de Hato Verde
@@ -88,7 +135,7 @@ URL:https://www.golfdirecto.com/micro/game/6a98114b9678d915e882194e/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:d77afd7242e49da24bf4@banderin.es
-DTSTAMP:20261117T073653Z
+DTSTAMP:20261117T134353Z
 DTSTART;VALUE=DATE:20270425
 DTEND;VALUE=DATE:20270426
 SUMMARY:6ª Prueba Metas Amigos de Hato Verde
@@ -103,7 +150,7 @@ URL:https://www.golfdirecto.com/micro/game/6a98117b9678d915e8925d5b/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:029d9c7bab7fb4b7b5d1@banderin.es
-DTSTAMP:20261117T073653Z
+DTSTAMP:20261117T134353Z
 DTSTART;VALUE=DATE:20270516
 DTEND;VALUE=DATE:20270517
 SUMMARY:7ª Prueba Metas Amigos de Hato Verde
@@ -118,7 +165,7 @@ URL:https://www.golfdirecto.com/micro/game/6af0cce918fc8072fbc1942c/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:ad365ba3a23fa53c27d1@banderin.es
-DTSTAMP:20261117T073653Z
+DTSTAMP:20261117T134353Z
 DTSTART;VALUE=DATE:20270606
 DTEND;VALUE=DATE:20270607
 SUMMARY:Prueba Final Metas Amigos de Hato Verde

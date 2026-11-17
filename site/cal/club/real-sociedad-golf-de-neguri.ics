@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Banderin//Torneos de golf//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Banderín - Real Sociedad Golf de Neguri
+X-WR-CALDESC:Torneos de golf: Real Sociedad Golf de Neguri. Se actualiza ca
+ da mañana. https://banderin.es
+X-WR-TIMEZONE:Europe/Madrid
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:6b0bd71b9d9538baf02a@banderin.es
+DTSTAMP:20261117T134353Z
+DTSTART;VALUE=DATE:20261116
+DTEND;VALUE=DATE:20261118
+SUMMARY:Campeonato País Vasco Profesionales
+LOCATION:Real Sociedad Golf de Neguri\, Algorta\, Bizkaia
+DESCRIPTION:Profesional - Medal Play - Individual\nInscripción: abre el 2 
+ de noviembre\, cierra el 13 de noviembre.\nFicha oficial: https://www.golf
+ directo.com/micro/game/6ad8771b2ab1ab88b171d256/summary\nConfirma fechas y
+  condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6ad8771b2ab1ab88b171d256/summary
+END:VEVENT
+END:VCALENDAR

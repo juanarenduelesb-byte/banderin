@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Banderin//Torneos de golf//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Banderín - Real Club de Golf Vista Hermosa
+X-WR-CALDESC:Torneos de golf: Real Club de Golf Vista Hermosa. Se actualiza
+  cada mañana. https://banderin.es
+X-WR-TIMEZONE:Europe/Madrid
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:530c1c04c0f47977fdf3@banderin.es
+DTSTAMP:20261117T134353Z
+DTSTART;VALUE=DATE:20261118
+DTEND;VALUE=DATE:20261119
+SUMMARY:3ª P. Torneo Damas 18-11-26
+LOCATION:Real Club de Golf Vista Hermosa\, El Puerto de Santa Maria\, Cádi
+ z
+DESCRIPTION:Social de club - Stableford - Individual\nPrecio: 10 €.\nFich
+ a oficial: https://www.nextcaddy.com/tour/75409\nConfirma fechas y condici
+ ones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nextcaddy.com/tour/75409
+END:VEVENT
+END:VCALENDAR

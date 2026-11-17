@@ -11,11 +11,11 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:7fa356b277b704c6acae@banderin.es
-DTSTAMP:20261117T073653Z
+DTSTAMP:20261117T134353Z
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261220
 SUMMARY:Torneo de Navidad
-LOCATION:Air Golf Club\, Altorreal\, Murcia
+LOCATION:Air Golf Club\, Vegas de Matute\, Segovia
 DESCRIPTION:Social de club - Fourball - Parejas\nFicha oficial: https://www
  .golfdirecto.com/micro/game/6ac5f4c64865b8bb77afc948/summary\nConfirma fec
  has y condiciones en la web del organizador. Vía Banderín.

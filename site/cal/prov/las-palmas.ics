@@ -11,7 +11,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:de6456aa79080e5e2d6c@banderin.es
-DTSTAMP:20261117T073653Z
+DTSTAMP:20261117T134353Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:XV Rafael León Aecc
@@ -27,10 +27,10 @@ URL:https://www.golfdirecto.com/micro/game/6ae1d46913422144210da920/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:65f9535ce62430eb8ae8@banderin.es
-DTSTAMP:20261117T073653Z
+DTSTAMP:20261117T134353Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
-SUMMARY:5ª Prueba 18 H. Circuito Juvenil Rafa Cabrera Bello
+SUMMARY:18 H.5ª Prueba Circuito Juvenil Rafa Cabrera Bello
 LOCATION:Jandía Golf Course\, Morro Jable\, Las Palmas
 DESCRIPTION:Juvenil - Medal Play - Individual\nFicha oficial: https://www.g
  olfdirecto.com/micro/game/6aeb03d9317b13aa703902ce/summary\nConfirma fecha
@@ -40,8 +40,22 @@ STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6aeb03d9317b13aa703902ce/summary
 END:VEVENT
 BEGIN:VEVENT
+UID:bcd1e4abd3dc16afe6f9@banderin.es
+DTSTAMP:20261117T134353Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:9h 5ª Prueba Circuito Juvenil Rcb
+LOCATION:Jandía Golf Course\, Morro Jable\, Las Palmas
+DESCRIPTION:Juvenil - Stableford - Individual\nFicha oficial: https://www.g
+ olfdirecto.com/micro/game/6afc1b77669bd90e39b7d436/summary\nConfirma fecha
+ s y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6afc1b77669bd90e39b7d436/summary
+END:VEVENT
+BEGIN:VEVENT
 UID:f4a6af696cd7231e2bf7@banderin.es
-DTSTAMP:20261117T073653Z
+DTSTAMP:20261117T134353Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:XVII Torneo Astican - XI Mrial. Enrique Perez
@@ -56,7 +70,7 @@ URL:https://www.golfdirecto.com/micro/game/6aeb037d50fe8a6f263b24a3/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:2b1a0e1d0bd21eca0a1a@banderin.es
-DTSTAMP:20261117T073653Z
+DTSTAMP:20261117T134353Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
 SUMMARY:IX Puntuable Ranking las Palmeras Golf 2026
@@ -71,7 +85,7 @@ URL:https://www.golfdirecto.com/micro/game/696146558ddd5ab4db157a05/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:5917e285cb0aac998e37@banderin.es
-DTSTAMP:20261117T073653Z
+DTSTAMP:20261117T134353Z
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
 SUMMARY:III Prueba Ranking Juvenil 18 Hoyos - Especial Invierno
@@ -86,7 +100,7 @@ URL:https://www.golfdirecto.com/micro/game/6a3427d478b1adbfc014aa29/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:d4879af29b53132d85e7@banderin.es
-DTSTAMP:20261117T073653Z
+DTSTAMP:20261117T134353Z
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
 SUMMARY:III Prueba Ranking Juvenil 9 Hoyos - Especial Invierno
@@ -101,7 +115,7 @@ URL:https://www.golfdirecto.com/micro/game/6a34281e78b1adbfc01f31c8/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:c03257b4823cecc2396a@banderin.es
-DTSTAMP:20261117T073653Z
+DTSTAMP:20261117T134353Z
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261220
 SUMMARY:Torneo Benefico Ningun Niño sin Juguete
@@ -115,7 +129,7 @@ URL:https://www.golfdirecto.com/micro/game/6a57553665c0e41735a2e3ec/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:c54a08994841b7c7f5e1@banderin.es
-DTSTAMP:20261117T073653Z
+DTSTAMP:20261117T134353Z
 DTSTART;VALUE=DATE:20270102
 DTEND;VALUE=DATE:20270103
 SUMMARY:X Torneo Benefico Aldeas Infantiles
@@ -130,7 +144,7 @@ URL:https://www.golfdirecto.com/micro/game/6ad20a6c609f0a0b27fb48ed/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:4de19fb45c2f9cfe49af@banderin.es
-DTSTAMP:20261117T073653Z
+DTSTAMP:20261117T134353Z
 DTSTART;VALUE=DATE:20270124
 DTEND;VALUE=DATE:20270125
 SUMMARY:IV Prueba Ranking Juvenil 18 Hoyos
@@ -145,7 +159,7 @@ URL:https://www.golfdirecto.com/micro/game/6afada39d977036aba74c3bc/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:e9531b77bfd8bbd1c6cc@banderin.es
-DTSTAMP:20261117T073653Z
+DTSTAMP:20261117T134353Z
 DTSTART;VALUE=DATE:20270124
 DTEND;VALUE=DATE:20270125
 SUMMARY:IV Prueba Ranking Juvenil 9 Hoyos
@@ -160,7 +174,7 @@ URL:https://www.golfdirecto.com/micro/game/6afada89a31918b570ef8e41/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:ab614d05c6dafcdf10ed@banderin.es
-DTSTAMP:20261117T073653Z
+DTSTAMP:20261117T134353Z
 DTSTART;VALUE=DATE:20270204
 DTEND;VALUE=DATE:20270205
 SUMMARY:⚠️ Pruebas para la Web

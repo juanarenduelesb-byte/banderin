@@ -11,7 +11,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:c2aa9f0743bc1282cd0b@banderin.es
-DTSTAMP:20261117T073653Z
+DTSTAMP:20261117T134353Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
 SUMMARY:Gem Winter Slam
@@ -23,5 +23,20 @@ DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6ad8ba74ad3db58f4cf1da7d/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:4086d40c63093cca748e@banderin.es
+DTSTAMP:20261117T134353Z
+DTSTART;VALUE=DATE:20270107
+DTEND;VALUE=DATE:20270108
+SUMMARY:Gem Winter Slam
+LOCATION:Club de Golf Alcanada\, Alcudia\, Illes Balears
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  17 de noviembre\, cierra el 6 de enero.\nPrecio: 85 €.\nFicha oficial: 
+ https://www.golfdirecto.com/micro/game/6afc2f59b82c45b939c31900/summary\nC
+ onfirma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6afc2f59b82c45b939c31900/summary
 END:VEVENT
 END:VCALENDAR
