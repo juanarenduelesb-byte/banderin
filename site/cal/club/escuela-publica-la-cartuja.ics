@@ -10,8 +10,22 @@ X-WR-TIMEZONE:Europe/Madrid
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
+UID:fac739fb1d885b2de3dc@banderin.es
+DTSTAMP:20261117T073653Z
+DTSTART;VALUE=DATE:20261117
+DTEND;VALUE=DATE:20261118
+SUMMARY:Jueves Cartujano Jª10 3t 17/11/26
+LOCATION:Escuela Pública la Cartuja\, Sevilla\, Sevilla
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.nextcaddy.com/tour/75408\nConfirma fechas y condiciones en la web de
+ l organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nextcaddy.com/tour/75408
+END:VEVENT
+BEGIN:VEVENT
 UID:c31207b1bfa0a05278f3@banderin.es
-DTSTAMP:20261116T211515Z
+DTSTAMP:20261117T073653Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:VIII Open Femenino la Cartuja 2026

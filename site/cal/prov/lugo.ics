@@ -10,23 +10,8 @@ X-WR-TIMEZONE:Europe/Madrid
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:a4b7b398c0d45394a59d@banderin.es
-DTSTAMP:20261116T211515Z
-DTSTART;VALUE=DATE:20261116
-DTEND;VALUE=DATE:20261117
-SUMMARY:Torneo Bazar Lago 2026
-LOCATION:Rio Cabe\, Monforte (casco Urbano)\, Lugo
-DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
-  9 de noviembre\, cierra el 15 de noviembre.\nFicha oficial: https://www.g
- olfdirecto.com/micro/game/6af1a3208527252f606d7139/summary\nConfirma fecha
- s y condiciones en la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.golfdirecto.com/micro/game/6af1a3208527252f606d7139/summary
-END:VEVENT
-BEGIN:VEVENT
 UID:9722c74c80fa817ff61d@banderin.es
-DTSTAMP:20261116T211515Z
+DTSTAMP:20261117T073653Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:2p XI Liga de Dobles
@@ -41,7 +26,7 @@ URL:https://www.golfdirecto.com/micro/game/6af590e306089eb2d9be793b/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:f60c72402f867b3a8ac6@banderin.es
-DTSTAMP:20261116T211515Z
+DTSTAMP:20261117T073653Z
 DTSTART;VALUE=DATE:20261123
 DTEND;VALUE=DATE:20261124
 SUMMARY:Abierto de Parejas - Fisioterapia a Man

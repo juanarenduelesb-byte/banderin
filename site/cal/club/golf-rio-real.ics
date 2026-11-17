@@ -11,22 +11,23 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:c610748c6d78961d6c40@banderin.es
-DTSTAMP:20261116T211515Z
+DTSTAMP:20261117T073653Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:Mejor ranking 2026
 LOCATION:Golf Río Real\, Marbella\, Málaga
-DESCRIPTION:Social de club - Medal Play - Individual\nInscripción: cierra 
- el 19 de noviembre.\nPrecio: 105 €.\nFicha oficial: https://www.golfdire
- cto.com/micro/game/6af5699fcb197af66b2348b4/summary\nConfirma fechas y con
- diciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Medal Play - Individual\nInscripción: abre el
+  16 de noviembre\, cierra el 19 de noviembre.\nPrecio: 105 €.\nFicha ofi
+ cial: https://www.golfdirecto.com/micro/game/6af5699fcb197af66b2348b4/summ
+ ary\nConfirma fechas y condiciones en la web del organizador. Vía Bander
+ ín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6af5699fcb197af66b2348b4/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:9a581f42d8194f4f9429@banderin.es
-DTSTAMP:20261116T211515Z
+DTSTAMP:20261117T073653Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:Campeonato Andalucía Femenino Categoría Mid Amateur
