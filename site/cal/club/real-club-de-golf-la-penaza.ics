@@ -11,13 +11,13 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:bb76acac542cd5029bb0@banderin.es
-DTSTAMP:20261117T134353Z
+DTSTAMP:20261117T213950Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:Torneo Femenino FAG por Equipos 2026
 LOCATION:Real Club de Golf la Peñaza\, Zaragoza\, Zaragoza
 DESCRIPTION:Clubes y equipos - Stableford - Equipos\nInscripción: abre el 
- 13 de octubre\, cierra el 17 de noviembre.\nPrecio: 45 €.\nFicha oficial
+ 13 de octubre\, cierra el 18 de noviembre.\nPrecio: 45 €.\nFicha oficial
  : https://www.golfdirecto.com/micro/game/6acdfc9c3189133e5a13b3a4/summary\
  nConfirma fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT

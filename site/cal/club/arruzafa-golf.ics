@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Banderin//Torneos de golf//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Banderín - Arruzafa Golf
+X-WR-CALDESC:Torneos de golf: Arruzafa Golf. Se actualiza cada mañana. htt
+ ps://banderin.es
+X-WR-TIMEZONE:Europe/Madrid
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:76deb0c3427f8e4d8650@banderin.es
+DTSTAMP:20261117T213950Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:Liga Iniación IV Prueba
+LOCATION:Arruzafa Golf\, Cordoba\, Córdoba
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  17 de noviembre\, cierra el 26 de noviembre.\nFicha oficial: https://www.
+ golfdirecto.com/micro/game/6aad19a9bbc718cf57dd0a1f/summary\nConfirma fech
+ as y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6aad19a9bbc718cf57dd0a1f/summary
+END:VEVENT
+END:VCALENDAR

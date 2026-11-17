@@ -11,7 +11,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:a4b08f473c19330fb415@banderin.es
-DTSTAMP:20261117T134353Z
+DTSTAMP:20261117T213950Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:II Jornada Liga Infantil 18 Hoyos
@@ -23,5 +23,20 @@ DESCRIPTION:Juvenil - Stableford - Individual\nInscripción: abre el 15 de
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6af98fca90f777ff0164bf8d/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:8d547915a4be4b1172d6@banderin.es
+DTSTAMP:20261117T213950Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:II Jornada Liga Infantil 9 Hoyos
+LOCATION:Escuela de Golf de Castilla y Leon\, Valladolid\, Valladolid
+DESCRIPTION:Juvenil - Stableford - Individual\nInscripción: abre el 15 de 
+ noviembre\, cierra el 21 de noviembre.\nPrecio: 13 €.\nFicha oficial: ht
+ tps://www.golfdirecto.com/micro/game/6af9a3fd90f777ff0113330a/summary\nCon
+ firma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6af9a3fd90f777ff0113330a/summary
 END:VEVENT
 END:VCALENDAR

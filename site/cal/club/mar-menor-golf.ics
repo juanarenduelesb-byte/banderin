@@ -11,7 +11,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:872bc17e817353ac978f@banderin.es
-DTSTAMP:20261117T134353Z
+DTSTAMP:20261117T213950Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Final 13 Gt 2026
@@ -24,5 +24,21 @@ DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6af0c3fb18fc8072fbdc6c1a/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:8e698ee2d715df88522a@banderin.es
+DTSTAMP:20261117T213950Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:Final 13 Gt 2026 (Solo Comida y Entrega de Premios)
+LOCATION:Mar Menor Golf\, Torre Pacheco\, Murcia
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  17 de noviembre\, cierra el 27 de noviembre.\nPrecio: 40 €.\nFicha ofic
+ ial: https://www.golfdirecto.com/micro/game/6afc9916669bd90e3960312a/summa
+ ry\nConfirma fechas y condiciones en la web del organizador. Vía Banderí
+ n.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6afc9916669bd90e3960312a/summary
 END:VEVENT
 END:VCALENDAR
