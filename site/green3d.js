@@ -144,13 +144,13 @@ function init(){
   const motes=new T.Points(pg,new T.PointsMaterial({size:.035,map:new T.CanvasTexture(sc),transparent:true,opacity:.55,depthWrite:false,blending:T.AdditiveBlending}));scene.add(motes);
 
   /* ---------- cámara y tamaño ---------- */
-  let W=0,Hh=0,wide=true;
-  function resize(){W=cv.clientWidth;Hh=cv.clientHeight;if(!W||!Hh)return;wide=W/Hh>1.35;renderer.setSize(W,Hh,false);cam.aspect=W/Hh;
-    cam.clearViewOffset();cam.fov=wide?24:33;cam.updateProjectionMatrix()}
-  resize();addEventListener('resize',()=>{clearTimeout(resize.t);resize.t=setTimeout(resize,100)});
+  let W=0,Hh=0,wide=true,full=false;
+  function resize(){W=cv.clientWidth;Hh=cv.clientHeight;if(!W||!Hh)return;wide=W/Hh>1.35;full=W>900;renderer.setSize(W,Hh,false);cam.aspect=W/Hh;
+    if(full)cam.setViewOffset(W*1.42,Hh,0,0,W,Hh);else cam.clearViewOffset();cam.fov=full?27:wide?24:33;cam.updateProjectionMatrix()}
+  cv.closest('.hart').classList.add('g3d');resize();addEventListener('resize',()=>{clearTimeout(resize.t);resize.t=setTimeout(resize,100)});if(window.ResizeObserver)new ResizeObserver(()=>resize()).observe(cv);
   let mx=0,my=0,tmx=0,tmy=0;
-  cv.parentElement.addEventListener('pointermove',e=>{const r=cv.getBoundingClientRect();tmx=(e.clientX-r.left)/r.width-.5;tmy=(e.clientY-r.top)/r.height-.5});
-  cv.parentElement.addEventListener('pointerleave',()=>{tmx=tmy=0});
+  cv.closest('.hero').addEventListener('pointermove',e=>{const r=cv.getBoundingClientRect();tmx=(e.clientX-r.left)/r.width-.5;tmy=(e.clientY-r.top)/r.height-.5});
+  cv.closest('.hero').addEventListener('pointerleave',()=>{tmx=tmy=0});
   const look=new T.Vector3(.35,0,-.45);
 
   /* ---------- animación del putt ---------- */
@@ -162,7 +162,7 @@ function init(){
     const time=(now-t0)/1000;const c=RM?AIM+ROLL+DROP+.4:time%CYCLE;
     mx+=(tmx-mx)*.05;my+=(tmy-my)*.05;
     const orbit=RM?0:Math.sin(time*.07)*.22;
-    const R=wide?7.4:8.2;cam.position.set(look.x+Math.sin(orbit+mx*.25)*R*.36,(wide?2.7:3.8)-my*.35,look.z+Math.cos(orbit+mx*.25)*R*.88);cam.lookAt(look);
+    const R=full?7.6:wide?7.4:8.2;cam.position.set(look.x+Math.sin(orbit+mx*.25)*R*.36,(full?3.35:wide?2.7:3.8)-my*.35,look.z+Math.cos(orbit+mx*.25)*R*.88);cam.lookAt(look);
 
     // fases
     let prog=0,y=0,alpha=1;
