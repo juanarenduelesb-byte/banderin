@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Banderin//Torneos de golf//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Banderín - Benalmadena Golf
+X-WR-CALDESC:Torneos de golf: Benalmadena Golf. Se actualiza cada mañana. 
+ https://banderin.es
+X-WR-TIMEZONE:Europe/Madrid
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:961997b561b37e24f968@banderin.es
+DTSTAMP:20261118T084023Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+SUMMARY:Liga los Jueves al Golf 2026
+LOCATION:Benalmadena Golf\, Benalmadena\, Málaga
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.nextcaddy.com/tour/75437\nConfirma fechas y condiciones en la web de
+ l organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nextcaddy.com/tour/75437
+END:VEVENT
+END:VCALENDAR

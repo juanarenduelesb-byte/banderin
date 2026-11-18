@@ -10,8 +10,22 @@ X-WR-TIMEZONE:Europe/Madrid
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
+UID:70ff675adb4d7655cdce@banderin.es
+DTSTAMP:20261118T084023Z
+DTSTART;VALUE=DATE:20261118
+DTEND;VALUE=DATE:20261119
+SUMMARY:Perra Galga 18-11-26
+LOCATION:Real la Manga Club\, Los Belones\, Murcia
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/6afcc98a669bd90e390c3c9e/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6afcc98a669bd90e390c3c9e/summary
+END:VEVENT
+BEGIN:VEVENT
 UID:101f9590c20633caa2c4@banderin.es
-DTSTAMP:20261117T213950Z
+DTSTAMP:20261118T084023Z
 DTSTART;VALUE=DATE:20261118
 DTEND;VALUE=DATE:20261119
 SUMMARY:Rglmc Mid Month 4bbb - 18.11.2026- North Course
@@ -25,7 +39,7 @@ URL:https://www.golfdirecto.com/micro/game/6af9b3d3440203a8206bb299/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:95f7323f2b9590cd9e4e@banderin.es
-DTSTAMP:20261117T213950Z
+DTSTAMP:20261118T084023Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:Alamo Golf Society
@@ -40,7 +54,7 @@ URL:https://www.golfdirecto.com/micro/game/6afc50d0b82c45b9395c2a51/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:776525ffa2a7ef8b0f19@banderin.es
-DTSTAMP:20261117T213950Z
+DTSTAMP:20261118T084023Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261214
 SUMMARY:I Match Cuadrangular - Fgcv/Rfag/Fgclm/Fgrm
@@ -53,8 +67,23 @@ STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6ae88192020a09e5bde8f4c2/summary
 END:VEVENT
 BEGIN:VEVENT
+UID:bb4337ef3ba869288008@banderin.es
+DTSTAMP:20261118T084023Z
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261213
+SUMMARY:Mensual Navidad Club Carthago
+LOCATION:Real la Manga Club\, Los Belones\, Murcia
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  17 de noviembre\, cierra el 17 de noviembre.\nFicha oficial: https://www.
+ golfdirecto.com/micro/game/6afccaf6698e8624fb8f7873/summary\nConfirma fech
+ as y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6afccaf6698e8624fb8f7873/summary
+END:VEVENT
+BEGIN:VEVENT
 UID:4a0ed3af113afd47538c@banderin.es
-DTSTAMP:20261117T213950Z
+DTSTAMP:20261118T084023Z
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
 SUMMARY:RGA December Team Competition

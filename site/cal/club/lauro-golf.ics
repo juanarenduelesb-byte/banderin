@@ -10,40 +10,8 @@ X-WR-TIMEZONE:Europe/Madrid
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:f422c28cea87fc15c9c3@banderin.es
-DTSTAMP:20261117T213950Z
-DTSTART;VALUE=DATE:20261117
-DTEND;VALUE=DATE:20261118
-SUMMARY:Skandinavisk Match 17/11 C + a
-LOCATION:Lauro Golf\, Alhaurin de la Torre\, Málaga
-DESCRIPTION:Clubes y equipos - Stableford - Equipos\nInscripción: abre el 
- 10 de noviembre\, cierra el 14 de noviembre.\nPrecio: 55 €.\nFicha ofici
- al: https://www.golfdirecto.com/micro/game/6adf567405d0e598f36e9603/summar
- y\nConfirma fechas y condiciones en la web del organizador. Vía Banderín
- .
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.golfdirecto.com/micro/game/6adf567405d0e598f36e9603/summary
-END:VEVENT
-BEGIN:VEVENT
-UID:c6b676d2b2a6d4dec619@banderin.es
-DTSTAMP:20261117T213950Z
-DTSTART;VALUE=DATE:20261117
-DTEND;VALUE=DATE:20261118
-SUMMARY:Skandinavisk Match 17/11 a + B
-LOCATION:Lauro Golf\, Alhaurin de la Torre\, Málaga
-DESCRIPTION:Clubes y equipos - Stableford - Equipos\nInscripción: abre el 
- 15 de noviembre\, cierra el 16 de noviembre.\nPrecio: 55 €.\nFicha ofici
- al: https://www.golfdirecto.com/micro/game/6af983ba440203a820b3bc1f/summar
- y\nConfirma fechas y condiciones en la web del organizador. Vía Banderín
- .
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.golfdirecto.com/micro/game/6af983ba440203a820b3bc1f/summary
-END:VEVENT
-BEGIN:VEVENT
 UID:3292ffe3f5a2cfe836a6@banderin.es
-DTSTAMP:20261117T213950Z
+DTSTAMP:20261118T084023Z
 DTSTART;VALUE=DATE:20261124
 DTEND;VALUE=DATE:20261125
 SUMMARY:Skandinavisk Match 24/11
@@ -59,7 +27,7 @@ URL:https://www.golfdirecto.com/micro/game/6adf571605d0e598f392664b/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:09edfe8756bf522e9914@banderin.es
-DTSTAMP:20261117T213950Z
+DTSTAMP:20261118T084023Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Campeonato Andalucía Interclubs Infantil y Cadete
@@ -73,7 +41,7 @@ URL:https://www.nextcaddy.com/tour/61215
 END:VEVENT
 BEGIN:VEVENT
 UID:0d9725552dad218a6144@banderin.es
-DTSTAMP:20261117T213950Z
+DTSTAMP:20261118T084023Z
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261202
 SUMMARY:Skandinavisk Match 01/12
@@ -89,7 +57,7 @@ URL:https://www.golfdirecto.com/micro/game/6adf575505d0e598f3a02fcf/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:2329316c1f9822692adc@banderin.es
-DTSTAMP:20261117T213950Z
+DTSTAMP:20261118T084023Z
 DTSTART;VALUE=DATE:20261208
 DTEND;VALUE=DATE:20261209
 SUMMARY:Skandinavisk Match 08/12
@@ -104,7 +72,7 @@ URL:https://www.golfdirecto.com/micro/game/6adf578f05d0e598f3afc378/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:4a57ab55476d067d2be4@banderin.es
-DTSTAMP:20261117T213950Z
+DTSTAMP:20261118T084023Z
 DTSTART;VALUE=DATE:20261215
 DTEND;VALUE=DATE:20261216
 SUMMARY:Skandinavisk Match 15/12
