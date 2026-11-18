@@ -11,7 +11,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:9a2f9e00bc87a5e4d259@banderin.es
-DTSTAMP:20261118T084023Z
+DTSTAMP:20261118T132317Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:Mensual Juvenil - Altaona Golf
@@ -26,10 +26,10 @@ URL:https://www.golfdirecto.com/micro/game/6a969fccb62fd6c8c65723b3/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:b94f446593c17269ce61@banderin.es
-DTSTAMP:20261118T084023Z
+DTSTAMP:20261118T132317Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
-SUMMARY:Torneo 6 Aniversario / 6th Anniversary Tournament
+SUMMARY:Torneo 7 Aniversario / 7th Anniversary Tournament
 LOCATION:Altaona Golf\, Baños y Mendigo\, Murcia
 DESCRIPTION:Circuito comercial - Stableford - Individual\nInscripción: abr
  e el 13 de noviembre\, cierra el 10 de diciembre.\nFicha oficial: https://

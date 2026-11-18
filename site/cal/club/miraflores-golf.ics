@@ -11,7 +11,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:acfa7ac0fde4377481a6@banderin.es
-DTSTAMP:20261118T084023Z
+DTSTAMP:20261118T132317Z
 DTSTART;VALUE=DATE:20261118
 DTEND;VALUE=DATE:20261119
 SUMMARY:Miraflores Members Ladies Day - Shambles
@@ -26,7 +26,7 @@ URL:https://www.golfdirecto.com/micro/game/6aedc22e1ab4f21da63a83b4/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:47a21108e636d8d20a6d@banderin.es
-DTSTAMP:20261118T084023Z
+DTSTAMP:20261118T132317Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:Presidents Putter Board Competition (Medal)
@@ -41,15 +41,15 @@ URL:https://www.golfdirecto.com/micro/game/6aedf32f1ab4f21da641a12a/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:e94c8e46f4a5c87deeab@banderin.es
-DTSTAMP:20261118T084023Z
+DTSTAMP:20261118T132317Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:Ladies Individual Stableford Qualifier
 LOCATION:Miraflores Golf\, Mijas Costa\, Málaga
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
-  6 de noviembre\, cierra el 6 de noviembre.\nFicha oficial: https://www.go
- lfdirecto.com/micro/game/6aedc0f602e839445a7f26ef/summary\nConfirma fechas
-  y condiciones en la web del organizador. Vía Banderín.
+  6 de noviembre\, cierra el 24 de noviembre.\nFicha oficial: https://www.g
+ olfdirecto.com/micro/game/6aedc0f602e839445a7f26ef/summary\nConfirma fecha
+ s y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6aedc0f602e839445a7f26ef/summary
