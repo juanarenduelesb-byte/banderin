@@ -31,3 +31,8 @@
 /og.png
   Cross-Origin-Resource-Policy: cross-origin
   Cache-Control: public, max-age=604800
+/og.jpg
+  Cross-Origin-Resource-Policy: cross-origin
+  Cache-Control: public, max-age=604800
+/img/*
+  Cache-Control: public, max-age=86400

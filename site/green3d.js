@@ -6,9 +6,14 @@
   const cv=document.getElementById('green3d');if(!cv)return;
   let ok=false;try{const t=document.createElement('canvas');ok=!!(window.WebGLRenderingContext&&(t.getContext('webgl')||t.getContext('experimental-webgl')))}catch(e){}
   if(!ok)return;
+  // Móviles modestos, ahorro de datos o redes lentas: se queda la imagen fija del green (misma escena), sin 3D.
+  const nc=navigator.connection||{},lite=nc.saveData||/(^|-)2g|3g/.test(nc.effectiveType||'')||(navigator.deviceMemory&&navigator.deviceMemory<4)||(navigator.hardwareConcurrency&&navigator.hardwareConcurrency<4);
+  if(lite)return;
   const go=()=>{if(window.THREE)return init();const s=document.createElement('script');s.src='/vendor/three.min.js?v=r128';s.async=true;s.onload=init;document.head.append(s)};
   const idle=window.requestIdleCallback||(f=>setTimeout(f,300));
-  go();
+  // Three.js (150 KB) se pide cuando la página ya ha cargado y el navegador está libre: la imagen fija cubre la espera.
+  const later=()=>idle(go,{timeout:2500});
+  if(document.readyState==='complete')later();else addEventListener('load',later,{once:true});
 function init(){
   if(!window.THREE)return;
   const RM=matchMedia('(prefers-reduced-motion: reduce)').matches;
@@ -70,13 +75,13 @@ function init(){
   // luz de atardecer
   scene.add(new T.HemisphereLight(0xfff1d6,0x0b2318,.42));
   const sun=new T.DirectionalLight(0xffdcae,1.9);sun.position.set(4.2,6.4,-2.6);sun.castShadow=true;
-  sun.shadow.mapSize.set(mobile?2048:4096,mobile?2048:4096);Object.assign(sun.shadow.camera,{left:-7,right:7,top:7,bottom:-7,near:.5,far:22});sun.shadow.bias=-.0004;sun.shadow.normalBias=.02;sun.shadow.radius=3;
+  sun.shadow.mapSize.set(mobile?1024:4096,mobile?1024:4096);Object.assign(sun.shadow.camera,{left:-7,right:7,top:7,bottom:-7,near:.5,far:22});sun.shadow.bias=-.0004;sun.shadow.normalBias=.02;sun.shadow.radius=3;
   sun.target.position.set(.3,0,-.4);scene.add(sun,sun.target);
   const fill=new T.DirectionalLight(0x9fc9ff,.22);fill.position.set(-4,2,4);scene.add(fill);
   const pool=new T.SpotLight(0xfff0cc,.85,0,.45,1,1.2);pool.position.set(.6,7,-.2);pool.target.position.set(.35,0,-.5);scene.add(pool,pool.target);
 
   // terreno
-  const seg=mobile?220:320;
+  const seg=mobile?140:320;
   const geo=new T.PlaneGeometry(SIZE,SIZE,seg,seg);geo.rotateX(-Math.PI/2);
   const pos=geo.attributes.position;for(let i=0;i<pos.count;i++){pos.setY(i,H(pos.getX(i),pos.getZ(i)))}geo.computeVertexNormals();
   const map=new T.CanvasTexture(tex);map.encoding=T.sRGBEncoding;map.anisotropy=renderer.capabilities.getMaxAnisotropy();
@@ -158,7 +163,7 @@ function init(){
   const LEN=(()=>{let l=0,p=path(0);for(let i=1;i<=200;i++){const q=path(i/200);l+=Math.hypot(q.x-p.x,q.z-p.z);p=q}return l})();
   const ax=new T.Vector3(),q=new T.Quaternion();let last=path(0),t0=performance.now(),visible=true;
   new IntersectionObserver(e=>{visible=e[0].isIntersecting},{threshold:0}).observe(cv);
-  let drawn=0;function frame(now){if(!(RM&&drawn>2))requestAnimationFrame(frame);drawn++;if(!visible&&!RM)return;
+  let drawn=0,lastF=0;function frame(now){if(!(RM&&drawn>2))requestAnimationFrame(frame);if(!visible&&!RM)return;if(mobile&&now-lastF<31)return;lastF=now;drawn++;
     const time=(now-t0)/1000+.5;const c=RM?AIM+ROLL+DROP+.4:time%CYCLE;
     mx+=(tmx-mx)*.05;my+=(tmy-my)*.05;
     const orbit=RM?0:Math.sin(time*.07)*.22;

@@ -180,11 +180,28 @@ function row(t){
   return '<button class="row" role="option" data-i="'+t.i+'" aria-selected="'+(sel===t.i)+'">'+I.flag(t.sk)+'<span class="t"><b>'+esc(t.n)+'</b><span>'+(nofit(t)?'<i class="nofit">'+L('No encaja')+'</i>':'')+esc(place(t))+(t.e!==t.s?' - '+fShort(t.s)+'–'+fShort(t.e):'')+'</span></span><span class="cat">'+esc(V(t.cat))+'</span><span class="km num">'+(k!=null?(k<5?'&lt; 5 km':k+' km'):'')+'</span><span class="st '+t.sk+'">'+esc(t.ss)+'</span>'+(saved.has(t.url)?I.starS:'<span></span>')+'</button>';
 }
 function weekTag(d){if(d===TODAY)return L('Hoy');if(d===add(TODAY,1))return L('Mañana');if(d>=WE[0]&&d<=WE[1])return L('Este finde');if(d>=NWE[0]&&d<=NWE[1])return L('Próximo finde');return''}
+// La lista se pinta por tandas: 80 torneos al principio y el resto según se acerca el final (o con «Ver más»).
+// Con más de mil torneos, pintarlos todos de golpe creaba 12.000 elementos y bloqueaba el móvil.
+let LQ=[],LIO=null;
+function listMore(n){
+  const box=$('list');const old=box.querySelector('.lmore');if(old)old.remove();
+  let h='',k=0;while(LQ.length&&k<n){const x=LQ.shift();h+=x[1];if(x[0])k++}
+  box.insertAdjacentHTML('beforeend',h);
+  box.querySelectorAll('.row:not([aria-selected])').forEach(r=>r.setAttribute('aria-selected',String(+r.dataset.i===sel)));
+  const left=LQ.filter(x=>x[0]).length;
+  if(left){box.insertAdjacentHTML('beforeend','<button type="button" class="btn ghost rmore lmore">'+L('Ver {n} más',{n:Math.min(120,left)})+'</button>');
+    const b=box.querySelector('.lmore');b.onclick=()=>listMore(120);
+    if('IntersectionObserver' in window){LIO=LIO||new IntersectionObserver(es=>{es.forEach(e=>{if(e.isIntersecting){LIO.unobserve(e.target);listMore(120)}})},{rootMargin:'600px 0px'});LIO.observe(b)}}
+}
 function renderList(list){
+  LQ=[];if(LIO)LIO.disconnect();
   if(!list.length){$('list').innerHTML='<div class="empty"><b>'+L('Ningún torneo con estos filtros.')+'</b>'+L('Prueba a quitar alguno o a ampliar la distancia.')+'</div>';return}
-  if($('sort').value!=='date'){$('list').innerHTML='<div class="dhead"><b>'+L($('sort').value==='dist'?'Más cerca primero':'Cierra antes primero')+'</b><span>'+cnt(list.length)+'</span></div>'+list.map(row).join('');return}
-  const g={};list.forEach(t=>(g[t.s]=g[t.s]||[]).push(t));
-  $('list').innerHTML=Object.keys(g).sort().map(d=>{const w=weekTag(d);return '<div class="dhead"><b>'+fDay(d)+'</b><span>'+cnt(g[d].length)+'</span>'+(w?'<span class="wk">'+w+'</span>':'')+'</div>'+g[d].map(row).join('')}).join('');
+  if($('sort').value!=='date'){LQ=[[0,'<div class="dhead"><b>'+L($('sort').value==='dist'?'Más cerca primero':'Cierra antes primero')+'</b><span>'+cnt(list.length)+'</span></div>']].concat(list.map(t=>[1,row(t)]))}
+  else{const g={};list.forEach(t=>(g[t.s]=g[t.s]||[]).push(t));
+    Object.keys(g).sort().forEach(d=>{const w=weekTag(d);LQ.push([0,'<div class="dhead"><b>'+fDay(d)+'</b><span>'+cnt(g[d].length)+'</span>'+(w?'<span class="wk">'+w+'</span>':'')+'</div>']);g[d].forEach(t=>LQ.push([1,row(t)]))})}
+  // Si hay un torneo elegido más abajo, se pinta hasta él para que su fila exista.
+  let n=80;if(sel!=null){let c=0;for(const x of LQ){if(x[0])c++;if(x[0]&&x[1].includes('data-i="'+sel+'"')){n=Math.max(n,c+10);break}}}
+  $('list').innerHTML='';listMore(n);
 }
 function gcal(t){const e=add(t.e,1).replace(/-/g,'');return 'https://calendar.google.com/calendar/render?action=TEMPLATE&text='+encodeURIComponent(t.n)+'&dates='+t.s.replace(/-/g,'')+'/'+e+'&location='+encodeURIComponent(place(t))+'&details='+encodeURIComponent(L('Inscripción y detalles: ')+t.url)}
 function renderDetail(){fillDetail($('detail'),T[sel],false)}
@@ -288,11 +305,11 @@ function route(){
   if(v!=='lista')closeSheet();
 }
 const inputs=()=>document.querySelectorAll('#controls select,#controls input');
-inputs().forEach(el=>el.addEventListener('input',()=>{
+let qT=0;inputs().forEach(el=>el.addEventListener('input',()=>{if(el.type==='search'||el.type==='text'){clearTimeout(qT);qT=setTimeout(go,180)}else go();function go(){
   if(el.id==='fccaa')provs();
   if(el.id==='city'){if(cityPick(el))return;store.set('city',el.value)}
   if(el.id==='radius'){store.set('radius',el.value);if(el.value&&here())$('sort').value='dist'}
-  render()}));
+  render()}}));
 $('sort').addEventListener('input',render);
 $('moreBtn').onclick=()=>{const m=$('more');m.hidden=!m.hidden;$('moreBtn').setAttribute('aria-expanded',String(!m.hidden));chips()};
 $('reset').onclick=()=>{inputs().forEach(i=>{if(i.id!=='city'&&i.type!=='checkbox')i.value=''});$('fpast').checked=true;qOn.clear();dayFilter=null;store.set('radius','');$('sort').value='date';provs();render()};
@@ -363,7 +380,7 @@ function renderResults(){
     return '<div class="rrow"><span class="t"><b>'+esc(t.n)+'</b><span>'+esc([t.club,t.prov&&t.prov!=='Por confirmar'?t.prov:'',t.cat?V(t.cat):''].filter(Boolean).join(' - '))+'</span></span><button class="played" data-p="'+esc(t.url)+'" aria-pressed="'+on+'">'+PLAYED_ICON+L(on?'Jugado':'Lo jugué')+'</button><a class="btn '+(t.res?'primary':'soft')+'" href="'+esc(safeUrl(t.url))+'" target="_blank" rel="noopener noreferrer">'+L(t.res?'Resultados':'Ficha')+I.out+'</a></div>'}).join('')).join('')+
     (list.length>rLimit?'<button class="btn ghost rmore" id="rmore">'+L('Ver {n} más',{n:Math.min(150,list.length-rLimit)})+'</button>':'');
 }
-$('rq').addEventListener('input',()=>{rLimit=150;renderResults()});
+let rqT=0;$('rq').addEventListener('input',()=>{clearTimeout(rqT);rqT=setTimeout(()=>{rLimit=150;renderResults()},180)});
 $('rccaa').addEventListener('input',()=>{rLimit=150;renderResults()});
 $('rmode').addEventListener('click',e=>{const a=e.target.closest('a');if(!a)return;e.preventDefault();rMode=a.dataset.m;rLimit=150;document.querySelectorAll('#rmode a').forEach(x=>x.classList.toggle('on',x===a));renderResults()});
 $('rlist').addEventListener('click',e=>{

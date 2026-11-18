@@ -31,7 +31,7 @@ export async function onRequestGet({ request, env, params }) {
     '<meta name="description" content="' + esc(desc) + '">' +
     '<meta property="og:type" content="website"><meta property="og:site_name" content="Banderín">' +
     '<meta property="og:title" content="' + esc(title) + '"><meta property="og:description" content="' + esc(desc) + '">' +
-    '<meta property="og:url" content="' + esc(origin + '/t/' + id) + '"><meta property="og:image" content="' + esc(origin + '/og.png') + '">' +
+    '<meta property="og:url" content="' + esc(origin + '/t/' + id) + '"><meta property="og:image" content="' + esc(origin + '/og.jpg') + '">' +
     '<meta name="twitter:card" content="summary_large_image">' +
     '<meta http-equiv="refresh" content="0;url=' + esc(dest) + '"><link rel="canonical" href="' + esc(origin + '/') + '"></head>' +
     '<body style="font-family:system-ui,sans-serif;background:#0E2A1E;color:#F4F1E8;display:grid;place-items:center;min-height:100vh;margin:0">' +
