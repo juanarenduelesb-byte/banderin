@@ -1,5 +1,6 @@
 // Avisos con un toque para quien ya tiene cuenta: Supabase ya verificó ese correo, así que no hace falta
 // el correo de confirmación. Se comprueba la sesión contra Supabase y se activa directamente.
+import { limited } from '../../../lib/seguridad.js';
 import { json, normEmail, randomId, now, readJson, bearer, cleanSigo, cleanPerfil, replaceSigo, manageToken } from '../../../lib/avisos.js';
 
 // Datos públicos del proyecto (los mismos que site/cuenta-config.js).
@@ -18,6 +19,8 @@ async function correoVerificado(token) {
 }
 
 export async function onRequestPost({ request, env }) {
+  // Cada intento consulta a Supabase: como mucho 20 por IP y hora.
+  if (await limited(env, request, 'cuenta', 20, 3600, true)) return json({ error: 'limite' }, 429);
   const email = await correoVerificado(bearer(request));
   if (!email) return json({ error: 'sesion' }, 401);
   const b = (await readJson(request)) || {};

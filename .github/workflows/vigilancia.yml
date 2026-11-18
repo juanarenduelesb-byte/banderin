@@ -1,0 +1,23 @@
+name: Vigilancia de seguridad
+
+# Cada día a las 6:53 UTC. Si encuentra algo raro, el workflow falla y GitHub te avisa por correo.
+on:
+  schedule:
+    - cron: '53 6 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  vigilancia:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      - name: Revisar actividad y protecciones
+        env:
+          CF_ACCOUNT_ID: ${{ vars.CF_ACCOUNT_ID }}
+          D1_DATABASE_ID: ${{ vars.D1_DATABASE_ID }}
+          CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
+        run: python3 pipeline/vigilancia.py

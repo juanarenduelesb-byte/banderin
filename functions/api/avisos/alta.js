@@ -1,27 +1,12 @@
 // Alta en los avisos: guarda el correo como pendiente y envía el enlace de confirmación.
 // La respuesta es siempre la misma, exista o no el correo, para no revelar quién está suscrito.
+import { limited } from '../../../lib/seguridad.js';
 import { json, normEmail, randomId, now, readJson, cleanSigo, cleanPerfil, replaceSigo, sendConfirm, sendAlready } from '../../../lib/avisos.js';
 
 const OK = { ok: true };
-const POR_IP_HORA = 6;        // altas por IP y hora (cada centro de datos de Cloudflare cuenta las suyas)
+const POR_IP_HORA = 6;        // altas por IP y hora (cuenta global en D1; ver lib/seguridad.js)
 const TOPE_GLOBAL_HORA = 150; // freno de emergencia: altas pendientes nuevas en toda la web por hora
 const REENVIO_MIN = 60;       // el mismo correo recibe como mucho un mensaje por hora
-
-// Contador por IP sin guardar la IP: huella SHA-256 con la hora, en la caché de Cloudflare (se borra sola).
-async function demasiadosPorIp(request) {
-  const ip = request.headers.get('CF-Connecting-IP') || '';
-  if (!ip) return false;
-  const hora = Math.floor(Date.now() / 3600000);
-  const h = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(ip + '|' + hora + '|banderin'));
-  const id = [...new Uint8Array(h)].slice(0, 12).map(b => b.toString(16).padStart(2, '0')).join('');
-  const key = new Request('https://limite.banderin.es/alta/' + id);
-  const cache = caches.default;
-  const hit = await cache.match(key);
-  const n = hit ? parseInt(await hit.text(), 10) || 0 : 0;
-  if (n >= POR_IP_HORA) return true;
-  await cache.put(key, new Response(String(n + 1), { headers: { 'Cache-Control': 'max-age=3600' } }));
-  return false;
-}
 
 // Turnstile: solo se exige si la clave secreta está puesta en Cloudflare Pages (TURNSTILE_SECRET).
 async function robot(env, request, token) {
@@ -46,7 +31,7 @@ export async function onRequestPost({ request, env }) {
   if (!b) return json({ error: 'datos' }, 400);
   if (b.web) return json(OK); // campo trampa: solo lo rellenan los robots
   if (await robot(env, request, b.ts)) return json({ error: 'robot' }, 403);
-  if (await demasiadosPorIp(request)) return json({ error: 'limite' }, 429);
+  if (await limited(env, request, 'alta', POR_IP_HORA, 3600, true)) return json({ error: 'limite' }, 429);
   const email = normEmail(b.email);
   if (!email) return json({ error: 'correo' }, 400);
   const idioma = b.idioma === 'en' ? 'en' : 'es';

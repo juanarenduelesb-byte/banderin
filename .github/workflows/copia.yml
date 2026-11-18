@@ -30,6 +30,18 @@ jobs:
           if [ -z "$SUPABASE_DB_URL" ]; then echo "Sin SUPABASE_DB_URL: se omite la copia de Supabase"; exit 0; fi
           docker run --rm -e U="$SUPABASE_DB_URL" postgres:17 sh -c 'pg_dump "$U" --schema=public --schema=auth --no-owner --no-privileges' > copia/supabase.sql
           ls -la copia
+      - name: Cifrar la copia
+        # Con el secreto BACKUP_PASSPHRASE, la copia se sube cifrada (AES-256). Para abrirla:
+        #   gpg -d supabase.sql.gpg > supabase.sql   (pide la frase)
+        env:
+          P: ${{ secrets.BACKUP_PASSPHRASE }}
+        run: |
+          if [ -z "$P" ]; then echo "::warning::Sin BACKUP_PASSPHRASE: la copia (correos y hashes de contraseñas) se sube SIN cifrar"; exit 0; fi
+          for f in copia/*; do
+            printf '%s' "$P" | gpg --batch --yes --pinentry-mode loopback --passphrase-fd 0 --symmetric --cipher-algo AES256 -o "$f.gpg" "$f"
+            shred -u "$f" 2>/dev/null || rm -f "$f"
+          done
+          ls -la copia
       - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
         with:
           name: copia-${{ github.run_number }}

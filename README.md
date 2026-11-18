@@ -77,3 +77,11 @@ GitHub retrasa horas las tareas programadas (la de las 5:23 llegaba a las 12:37 
 El workflow lo intenta cada hora en dos ventanas (mañana y tarde, hora UTC) y el trabajo «decidir»
 deja pasar solo la primera pasada de cada ventana que llegue; las demás acaban en segundos.
 No hace falta ningún token extra: usa el GITHUB_TOKEN del propio workflow.
+
+## Seguridad
+
+- **API** (`functions/api/_middleware.js`): solo acepta escrituras desde banderin.es (Origin y Sec-Fetch-Site) y en JSON; la única excepción es la baja de 1 clic de los gestores de correo. Límite de peticiones por IP (`lib/seguridad.js`): caché de Cloudflare para todo y D1 para altas y cuentas.
+- **Registro**: los rechazos (origen ajeno, llave falsa, límite, robot) quedan en los registros de Cloudflare y en la tabla `seguridad` de D1, con una huella de la IP que no se puede revertir.
+- **Vigilancia** (`.github/workflows/vigilancia.yml`, cada día): resume la actividad sospechosa, comprueba en producción HTTPS, cabeceras, archivos privados y CSRF, y falla (GitHub te avisa por correo) si algo no cuadra.
+- **Una vez**: ejecutar `db/migracion-2026-11-18-seguridad.sql` en D1 → Console. Sin ella todo funciona, pero los límites solo cuentan por centro de datos y no se guardan eventos.
+- **Copias**: con el secreto `BACKUP_PASSPHRASE` la copia semanal se sube cifrada (AES-256).
