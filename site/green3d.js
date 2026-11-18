@@ -8,7 +8,7 @@
   if(!ok)return;
   const go=()=>{if(window.THREE)return init();const s=document.createElement('script');s.src='/vendor/three.min.js?v=r128';s.async=true;s.onload=init;document.head.append(s)};
   const idle=window.requestIdleCallback||(f=>setTimeout(f,300));
-  if(document.readyState==='complete')idle(go);else addEventListener('load',()=>idle(go));
+  go();
 function init(){
   if(!window.THREE)return;
   const RM=matchMedia('(prefers-reduced-motion: reduce)').matches;
