@@ -10,9 +10,14 @@ const iso=d=>d.getFullYear()+'-'+pad(d.getMonth()+1)+'-'+pad(d.getDate());
 const now=new Date();const TODAY=iso(now);
 const D=s=>{const[a,b,c]=s.split('-').map(Number);return new Date(a,b-1,c)};
 const add=(s,n)=>{const d=D(s);d.setDate(d.getDate()+n);return iso(d)};
-const fDay=s=>D(s).toLocaleDateString(LOC,{weekday:'long',day:'numeric',month:'long',year:D(s).getFullYear()!==now.getFullYear()?'numeric':undefined});
-const fShort=s=>D(s).toLocaleDateString(LOC,{day:'numeric',month:'short'}).replace('.','');
-const fWk=s=>D(s).toLocaleDateString(LOC,{weekday:'short',day:'numeric',month:'short'}).replace(/\./g,'');
+// Formatear fechas con toLocaleDateString crea un formateador nuevo cada vez (lentísimo con mil torneos):
+// se crean una vez y se recuerda cada fecha ya formateada.
+const FMT={},FMEM=new Map();
+const fmt=(k,o)=>FMT[k]||(FMT[k]=new Intl.DateTimeFormat(LOC,o));
+const memo=(k,s,f)=>{const key=k+s;let v=FMEM.get(key);if(v===undefined){v=f();FMEM.set(key,v)}return v};
+const fDay=s=>memo('d',s,()=>{const y=D(s).getFullYear()!==now.getFullYear();return fmt(y?'dy':'d',{weekday:'long',day:'numeric',month:'long',year:y?'numeric':undefined}).format(D(s))});
+const fShort=s=>memo('s',s,()=>fmt('s',{day:'numeric',month:'short'}).format(D(s)).replace('.',''));
+const fWk=s=>memo('w',s,()=>fmt('w',{weekday:'short',day:'numeric',month:'short'}).format(D(s)).replace(/\./g,''));
 const eur=p=>{if(p===0)return L('Gratis');if(p==null)return L('En la web');const n=p.toLocaleString(LOC,{minimumFractionDigits:p%1?2:0,maximumFractionDigits:2});return LANG==='en'?'€'+n:n+' €'};
 const esc=s=>String(s==null?'':s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'})[c]);
 // Solo enlaces web: cualquier otro esquema (javascript:, data:…) se descarta
