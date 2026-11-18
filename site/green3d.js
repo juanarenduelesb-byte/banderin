@@ -34,7 +34,7 @@ function init(){
     return h}
 
   /* ---------- textura pintada (albedo) ---------- */
-  const N=mobile?1536:2048;
+  const N=1024;
   const tex=document.createElement('canvas');tex.width=tex.height=N;const tx=tex.getContext('2d');
   const img=tx.createImageData(N,N),D=img.data;
   const hash=(x,y)=>{const s=Math.sin(x*127.1+y*311.7)*43758.5453;return s-Math.floor(s)};
@@ -159,7 +159,7 @@ function init(){
   const ax=new T.Vector3(),q=new T.Quaternion();let last=path(0),t0=performance.now(),visible=true;
   new IntersectionObserver(e=>{visible=e[0].isIntersecting},{threshold:0}).observe(cv);
   let drawn=0;function frame(now){if(!(RM&&drawn>2))requestAnimationFrame(frame);drawn++;if(!visible&&!RM)return;
-    const time=(now-t0)/1000;const c=RM?AIM+ROLL+DROP+.4:time%CYCLE;
+    const time=(now-t0)/1000+.5;const c=RM?AIM+ROLL+DROP+.4:time%CYCLE;
     mx+=(tmx-mx)*.05;my+=(tmy-my)*.05;
     const orbit=RM?0:Math.sin(time*.07)*.22;
     const R=full?7.6:wide?7.4:8.2;cam.position.set(look.x+Math.sin(orbit+mx*.25)*R*.36,(full?3.35:wide?2.7:3.8)-my*.35,look.z+Math.cos(orbit+mx*.25)*R*.88);cam.lookAt(look);

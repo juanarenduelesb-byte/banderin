@@ -4,6 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="description" content="Calendario de los torneos de golf de España: más de 1000 de federaciones y clubes, con fechas, precios e inscripción. Actualizado cada mañana.">
+<link rel="preload" href="/vendor/three.min.js?v=r128" as="script">
 <link rel="canonical" href="https://banderin.es/">
 <link rel="alternate" hreflang="es" href="https://banderin.es/">
 <link rel="alternate" hreflang="en" href="https://banderin.es/en/">
@@ -274,11 +275,12 @@ footer{padding:0 0 36px;font-size:12px;color:var(--muted)}
 .hart .hpole{stroke:var(--ink);stroke-width:3;stroke-linecap:round}
 .hart .hcloth{fill:var(--accent)}
 .hart .hball{fill:#fff;stroke:rgba(0,0,0,.25);stroke-width:1}
-.hart canvas{position:absolute;inset:0;width:100%;height:100%;display:block;opacity:0;transition:opacity .5s ease;-webkit-mask-image:linear-gradient(90deg,transparent 0,#000 34%),linear-gradient(180deg,#000 70%,transparent 100%);mask-image:linear-gradient(90deg,transparent 0,#000 34%),linear-gradient(180deg,#000 70%,transparent 100%);-webkit-mask-composite:source-in;mask-composite:intersect}
+.hart .gposter{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center;display:block}
+.hart canvas{position:absolute;inset:0;width:100%;height:100%;display:block;opacity:0;transition:opacity .9s ease;-webkit-mask-image:linear-gradient(90deg,transparent 0,#000 34%),linear-gradient(180deg,#000 70%,transparent 100%);mask-image:linear-gradient(90deg,transparent 0,#000 34%),linear-gradient(180deg,#000 70%,transparent 100%);-webkit-mask-composite:source-in;mask-composite:intersect}
 .hart svg{display:none!important}
 .hart.g3d canvas{opacity:1}
-@media (min-width:901px){.hart{position:absolute;inset:0;z-index:0;pointer-events:none}.hart canvas{-webkit-mask-image:linear-gradient(90deg,transparent 14%,rgba(0,0,0,.35) 34%,#000 56%);mask-image:linear-gradient(90deg,transparent 14%,rgba(0,0,0,.35) 34%,#000 56%)}.hero .hcopy{z-index:2}}
-@media (max-width:900px){.hart canvas{-webkit-mask-image:linear-gradient(180deg,#000 62%,transparent);mask-image:linear-gradient(180deg,#000 62%,transparent)}}
+@media (min-width:901px){.hart{position:absolute;inset:0;z-index:0;pointer-events:none}.hart canvas,.hart .gposter{-webkit-mask-image:linear-gradient(90deg,transparent 14%,rgba(0,0,0,.35) 34%,#000 56%);mask-image:linear-gradient(90deg,transparent 14%,rgba(0,0,0,.35) 34%,#000 56%)}.hero .hcopy{z-index:2}}
+@media (max-width:900px){.hart canvas,.hart .gposter{-webkit-mask-image:linear-gradient(180deg,#000 62%,transparent);mask-image:linear-gradient(180deg,#000 62%,transparent)}}
 .breathe{transform-origin:450px 190px;animation:breathe 14s ease-in-out infinite alternate}
 @keyframes breathe{to{transform:scale(1.04) rotate(1.5deg)}}
 .hsec{margin-top:40px}
@@ -979,6 +981,7 @@ select::-ms-expand{display:none}
       <div class="hstats num" id="hStats"></div>
     </div>
     <div class="hart" aria-hidden="true">
+      <picture><source media="(max-width:900px)" srcset="/img/green-m.webp"><img class="gposter" src="/img/green.webp" alt="" fetchpriority="high" decoding="async"></picture>
       <canvas id="green3d"></canvas>
       <svg viewBox="0 0 640 460" preserveAspectRatio="xMidYMid slice" id="heroArt">
         <path class="fairway" d="M150 520 C 170 430 230 350 300 310 C 380 262 400 160 520 122 C 600 100 680 140 700 200 L 700 520 Z"/>
@@ -1306,6 +1309,6 @@ select::-ms-expand{display:none}
 <script src="/antibot.js?v=e0916acf27"></script>
 <script src="/cuenta.js?v=ea6b18b665"></script>
 <script src="/vendor/three.min.js?v=r128" defer></script>
-<script src="/green3d.js?v=4d5e8cef7c" defer></script>
+<script src="/green3d.js?v=cf0a314759" defer></script>
 </body>
 </html>
