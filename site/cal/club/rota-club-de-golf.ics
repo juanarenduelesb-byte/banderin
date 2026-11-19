@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Banderin//Torneos de golf//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Banderín - Rota Club de Golf
+X-WR-CALDESC:Torneos de golf: Rota Club de Golf. Se actualiza cada mañana.
+  https://banderin.es
+X-WR-TIMEZONE:Europe/Madrid
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:fdb1e36efa4c17862d5c@banderin.es
+DTSTAMP:20261119T083833Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:XXIII Memorial Juan Ayoso
+LOCATION:Rota Club de Golf\, Rota Naval\, Cádiz
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  18 de noviembre\, cierra el 25 de noviembre.\nPrecio: Gratis.\nFicha ofic
+ ial: https://www.nextcaddy.com/tour/75282\nConfirma fechas y condiciones e
+ n la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nextcaddy.com/tour/75282
+END:VEVENT
+END:VCALENDAR

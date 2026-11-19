@@ -10,51 +10,8 @@ X-WR-TIMEZONE:Europe/Madrid
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:530c1c04c0f47977fdf3@banderin.es
-DTSTAMP:20261118T132317Z
-DTSTART;VALUE=DATE:20261118
-DTEND;VALUE=DATE:20261119
-SUMMARY:3ª P. Torneo Damas 18-11-26 (Suspendido)
-LOCATION:Real Club de Golf Vista Hermosa\, El Puerto de Santa Maria\, Cádi
- z
-DESCRIPTION:Social de club - Stableford - Individual\nPrecio: 10 €.\nFich
- a oficial: https://www.nextcaddy.com/tour/75409\nConfirma fechas y condici
- ones en la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.nextcaddy.com/tour/75409
-END:VEVENT
-BEGIN:VEVENT
-UID:04c74bd3ab9556f77c4d@banderin.es
-DTSTAMP:20261118T132317Z
-DTSTART;VALUE=DATE:20261118
-DTEND;VALUE=DATE:20261119
-SUMMARY:5ª Prueba Liga Senior Mixta 26/27 Iveco-Veimancha
-LOCATION:Real Club de Campo de Cordoba\, Cordoba\, Córdoba
-DESCRIPTION:Senior - Stableford - Individual\nFicha oficial: https://www.ne
- xtcaddy.com/tour/75170\nConfirma fechas y condiciones en la web del organi
- zador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.nextcaddy.com/tour/75170
-END:VEVENT
-BEGIN:VEVENT
-UID:90c41f597cd1d36bce04@banderin.es
-DTSTAMP:20261118T132317Z
-DTSTART;VALUE=DATE:20261118
-DTEND;VALUE=DATE:20261119
-SUMMARY:Amigos18/11/26
-LOCATION:Aguilon Golf\, Pilar de Jaravia\, Almería
-DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
- //www.golfdirecto.com/micro/game/6afae2be5445bc10298e6e0f/summary\nConfirm
- a fechas y condiciones en la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.golfdirecto.com/micro/game/6afae2be5445bc10298e6e0f/summary
-END:VEVENT
-BEGIN:VEVENT
 UID:f329af1b690737070c48@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261118
 DTEND;VALUE=DATE:20261121
 SUMMARY:Islantilla Open 2026
@@ -67,171 +24,8 @@ STATUS:CONFIRMED
 URL:https://rfegolf.es/competicion/islantilla-open-2026
 END:VEVENT
 BEGIN:VEVENT
-UID:1ef6cff17bf3ad75f4b0@banderin.es
-DTSTAMP:20261118T132317Z
-DTSTART;VALUE=DATE:20261118
-DTEND;VALUE=DATE:20261119
-SUMMARY:Killer´s Noviembre 2026
-LOCATION:Escuela Pública la Cartuja\, Sevilla\, Sevilla
-DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
- //www.nextcaddy.com/tour/75415\nConfirma fechas y condiciones en la web de
- l organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.nextcaddy.com/tour/75415
-END:VEVENT
-BEGIN:VEVENT
-UID:043a8b8ef4680b0a79a6@banderin.es
-DTSTAMP:20261118T132317Z
-DTSTART;VALUE=DATE:20261118
-DTEND;VALUE=DATE:20261119
-SUMMARY:Liga Femenina Campo B Semana 3
-LOCATION:Real Novo Sancti Petri Golf Club\, Chiclana de la Frontera\, Cádi
- z
-DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
- //www.golfdirecto.com/micro/game/6afacffb5445bc102909242d/summary\nConfirm
- a fechas y condiciones en la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.golfdirecto.com/micro/game/6afacffb5445bc102909242d/summary
-END:VEVENT
-BEGIN:VEVENT
-UID:850d1465118a2c8a1699@banderin.es
-DTSTAMP:20261118T132317Z
-DTSTART;VALUE=DATE:20261118
-DTEND;VALUE=DATE:20261119
-SUMMARY:Liga Femenina Campo a Semana 3
-LOCATION:Real Novo Sancti Petri Golf Club\, Chiclana de la Frontera\, Cádi
- z
-DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
- //www.golfdirecto.com/micro/game/6afad0e25445bc10292178b2/summary\nConfirm
- a fechas y condiciones en la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.golfdirecto.com/micro/game/6afad0e25445bc10292178b2/summary
-END:VEVENT
-BEGIN:VEVENT
-UID:1bb4be115e9e6976e97d@banderin.es
-DTSTAMP:20261118T132317Z
-DTSTART;VALUE=DATE:20261118
-DTEND;VALUE=DATE:20261119
-SUMMARY:Liga Senior Noviembre 26
-LOCATION:Granada Club de Golf\, Las Gabias\, Granada
-DESCRIPTION:Senior - Stableford - Individual\nInscripción: abre el 6 de no
- viembre\, cierra el 16 de noviembre.\nPrecio: 35 €.\nFicha oficial: http
- s://www.golfdirecto.com/micro/game/6aec39995ca5a43533c02ef6/summary\nConfi
- rma fechas y condiciones en la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.golfdirecto.com/micro/game/6aec39995ca5a43533c02ef6/summary
-END:VEVENT
-BEGIN:VEVENT
-UID:acfa7ac0fde4377481a6@banderin.es
-DTSTAMP:20261118T132317Z
-DTSTART;VALUE=DATE:20261118
-DTEND;VALUE=DATE:20261119
-SUMMARY:Miraflores Members Ladies Day - Shambles
-LOCATION:Miraflores Golf\, Mijas Costa\, Málaga
-DESCRIPTION:Social de club - Fourball - Parejas\nInscripción: abre el 6 de
-  noviembre\, cierra el 15 de noviembre.\nFicha oficial: https://www.golfdi
- recto.com/micro/game/6aedc22e1ab4f21da63a83b4/summary\nConfirma fechas y c
- ondiciones en la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.golfdirecto.com/micro/game/6aedc22e1ab4f21da63a83b4/summary
-END:VEVENT
-BEGIN:VEVENT
-UID:da0cc45d9737e813faa6@banderin.es
-DTSTAMP:20261118T132317Z
-DTSTART;VALUE=DATE:20261118
-DTEND;VALUE=DATE:20261119
-SUMMARY:Monthly Stableford
-LOCATION:Santa María Golf & Country Club\, Marbella\, Málaga
-DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
-  16 de noviembre\, cierra el 16 de noviembre.\nPrecio: Gratis.\nFicha ofic
- ial: https://www.nextcaddy.com/tour/75393\nConfirma fechas y condiciones e
- n la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.nextcaddy.com/tour/75393
-END:VEVENT
-BEGIN:VEVENT
-UID:68b5cd1385180940d8dc@banderin.es
-DTSTAMP:20261118T132317Z
-DTSTART;VALUE=DATE:20261118
-DTEND;VALUE=DATE:20261119
-SUMMARY:Nordicos Miercoles Norte
-LOCATION:Real Club de Golf Guadalmina\, Guadalmina\, Málaga
-DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
-  16 de noviembre\, cierra el 16 de noviembre.\nPrecio: Gratis.\nFicha ofic
- ial: https://www.nextcaddy.com/tour/75404\nConfirma fechas y condiciones e
- n la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.nextcaddy.com/tour/75404
-END:VEVENT
-BEGIN:VEVENT
-UID:1bc9248e4a262a917b35@banderin.es
-DTSTAMP:20261118T132317Z
-DTSTART;VALUE=DATE:20261118
-DTEND;VALUE=DATE:20261119
-SUMMARY:P3 Sherry Golfeando (Grupo Privado)
-LOCATION:Sherry Golf Jerez\, Jerez de la Frontera\, Cádiz
-DESCRIPTION:Social de club - Medal Play - Individual\nInscripción: abre el
-  16 de noviembre\, cierra el 17 de noviembre.\nPrecio: Gratis.\nFicha ofic
- ial: https://www.nextcaddy.com/tour/75405\nConfirma fechas y condiciones e
- n la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.nextcaddy.com/tour/75405
-END:VEVENT
-BEGIN:VEVENT
-UID:3c24425bb6a1cac9628d@banderin.es
-DTSTAMP:20261118T132317Z
-DTSTART;VALUE=DATE:20261118
-DTEND;VALUE=DATE:20261119
-SUMMARY:Pull Miercoles
-LOCATION:la Monacilla Golf Club\, Corrales\, Huelva
-DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
- //www.nextcaddy.com/tour/75423\nConfirma fechas y condiciones en la web de
- l organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.nextcaddy.com/tour/75423
-END:VEVENT
-BEGIN:VEVENT
-UID:3f3dee7b25c9fcb3c930@banderin.es
-DTSTAMP:20261118T132317Z
-DTSTART;VALUE=DATE:20261118
-DTEND;VALUE=DATE:20261119
-SUMMARY:Suecos Miercoles Sur 18.11
-LOCATION:Real Club de Golf Guadalmina\, Guadalmina\, Málaga
-DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
-  15 de noviembre\, cierra el 15 de noviembre.\nPrecio: Gratis.\nFicha ofic
- ial: https://www.nextcaddy.com/tour/75368\nConfirma fechas y condiciones e
- n la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.nextcaddy.com/tour/75368
-END:VEVENT
-BEGIN:VEVENT
-UID:70eb1c1219096d065dd0@banderin.es
-DTSTAMP:20261118T132317Z
-DTSTART;VALUE=DATE:20261118
-DTEND;VALUE=DATE:20261119
-SUMMARY:Torneo Solheim Cup
-LOCATION:Club de Golf Bellavista\, Aljaraque\, Huelva
-DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
-  16 de noviembre\, cierra el 16 de noviembre.\nPrecio: Gratis.\nFicha ofic
- ial: https://www.nextcaddy.com/tour/75395\nConfirma fechas y condiciones e
- n la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.nextcaddy.com/tour/75395
-END:VEVENT
-BEGIN:VEVENT
 UID:2db83e38e77cffcc5b09@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261120
 SUMMARY:4ª Prueba Circuito Seniors Otoño
@@ -244,8 +38,22 @@ STATUS:CONFIRMED
 URL:https://www.nextcaddy.com/tour/75301
 END:VEVENT
 BEGIN:VEVENT
+UID:3de2e96258cd2d4a10b9@banderin.es
+DTSTAMP:20261119T083833Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+SUMMARY:Amigos 1911
+LOCATION:Aguilon Golf\, Pilar de Jaravia\, Almería
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/6afe9bd4fa1568a5cd316be1/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6afe9bd4fa1568a5cd316be1/summary
+END:VEVENT
+BEGIN:VEVENT
 UID:dc8eafc8666cd525f1b9@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261120
 SUMMARY:Jueves Int Scottish Greensome Sur
@@ -260,7 +68,7 @@ URL:https://www.nextcaddy.com/tour/75410
 END:VEVENT
 BEGIN:VEVENT
 UID:583f92498052100f1242@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261120
 SUMMARY:Ladies Thursday Competition (Members)
@@ -275,7 +83,7 @@ URL:https://www.golfdirecto.com/micro/game/696e34d3557fa34aa58d4fc6/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:09376bf212d460dfe595@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261120
 SUMMARY:Lig. Caballeros Jornada 3 19/11/26
@@ -289,7 +97,7 @@ URL:https://www.nextcaddy.com/tour/75372
 END:VEVENT
 BEGIN:VEVENT
 UID:f0244312e13ca1ffd916@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261120
 SUMMARY:Liga Femenina Campo B Semana 4
@@ -304,7 +112,7 @@ URL:https://www.golfdirecto.com/micro/game/6afad5585445bc1029b33876/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:4ee57265d360a45d06f4@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261120
 SUMMARY:Liga Señoras
@@ -318,7 +126,7 @@ URL:https://www.nextcaddy.com/tour/75439
 END:VEVENT
 BEGIN:VEVENT
 UID:4c5b9bca4a76ef6d28e0@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261120
 SUMMARY:Liga Social Damas Volvo Vypsa Heineken Malaga&costa Bebidas
@@ -333,7 +141,7 @@ URL:https://www.golfdirecto.com/micro/game/6aaec4e8ea1573c17aba1805/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:961997b561b37e24f968@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261120
 SUMMARY:Liga los Jueves al Golf 2026
@@ -347,7 +155,7 @@ URL:https://www.nextcaddy.com/tour/75437
 END:VEVENT
 BEGIN:VEVENT
 UID:57d404dbf33fc919fe37@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261120
 SUMMARY:Men'S Thursday Competition (Members)
@@ -362,7 +170,7 @@ URL:https://www.golfdirecto.com/micro/game/696e34af557fa34aa58981f1/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:cf66dd94117b25de417a@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261120
 SUMMARY:Pool Senior 19 de Noviembre
@@ -376,7 +184,7 @@ URL:https://www.golfdirecto.com/micro/game/6af98326440203a820878349/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:4498049182c681e31f90@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261120
 SUMMARY:Sherry International Golf Group (SIGG) - Jueves 19 Noviembre 2026 (
@@ -392,7 +200,7 @@ URL:https://www.nextcaddy.com/tour/75366
 END:VEVENT
 BEGIN:VEVENT
 UID:a80a4d8fb749798afc46@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261120
 SUMMARY:Torneo la Peña
@@ -406,7 +214,7 @@ URL:https://www.nextcaddy.com/tour/75433
 END:VEVENT
 BEGIN:VEVENT
 UID:cb91e76aabf13b1446bb@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261120
 SUMMARY:VI Liga Femenina Golf Cartuja Jª2 19/11/26
@@ -419,8 +227,23 @@ STATUS:CONFIRMED
 URL:https://www.nextcaddy.com/tour/75438
 END:VEVENT
 BEGIN:VEVENT
+UID:7767b1806cc796a6cced@banderin.es
+DTSTAMP:20261119T083833Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+SUMMARY:Vobs Competition
+LOCATION:Villa Nueva Golf Resort\, Puerto Real\, Cádiz
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  18 de noviembre\, cierra el 18 de noviembre.\nPrecio: Gratis.\nFicha ofic
+ ial: https://www.nextcaddy.com/tour/75447\nConfirma fechas y condiciones e
+ n la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nextcaddy.com/tour/75447
+END:VEVENT
+BEGIN:VEVENT
 UID:7e94aa0bb6caf30e8b0c@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261120
 SUMMARY:Ybb Santa Clata
@@ -433,8 +256,22 @@ STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6afd7abe4ce424fcdea11230/summary
 END:VEVENT
 BEGIN:VEVENT
+UID:3484364d5a850f9bf6f8@banderin.es
+DTSTAMP:20261119T083833Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:10ª Jornada XXI Liga Tirantes Verdes 20/11/26
+LOCATION:Escuela Pública la Cartuja\, Sevilla\, Sevilla
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.nextcaddy.com/tour/75451\nConfirma fechas y condiciones en la web de
+ l organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nextcaddy.com/tour/75451
+END:VEVENT
+BEGIN:VEVENT
 UID:cdf57e647bfa2c7c8906@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 SUMMARY:Friday Club Heathland
@@ -447,8 +284,23 @@ STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6afc787a698e8624fbac7dec/summary
 END:VEVENT
 BEGIN:VEVENT
+UID:e4b25340aa9ea2bcc0f8@banderin.es
+DTSTAMP:20261119T083833Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:Holandeses Viernes Sur 20/11/26
+LOCATION:Real Club de Golf Guadalmina\, Guadalmina\, Málaga
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  19 de noviembre\, cierra el 19 de noviembre.\nPrecio: Gratis.\nFicha ofic
+ ial: https://www.nextcaddy.com/tour/75448\nConfirma fechas y condiciones e
+ n la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nextcaddy.com/tour/75448
+END:VEVENT
+BEGIN:VEVENT
 UID:487439aa3a0bf66dc379@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 SUMMARY:Liga Femenina Campo B Semana 5
@@ -463,7 +315,7 @@ URL:https://www.golfdirecto.com/micro/game/6afadb2223d5370df00f1516/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:27751479c8f4db8fbb0a@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 SUMMARY:Liga Femenina Campo a Semana 5
@@ -478,7 +330,7 @@ URL:https://www.golfdirecto.com/micro/game/6afadb2d5445bc1029829b04/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:7dc6bad6c4faeffbca7b@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 SUMMARY:Regular Tournament (Annual League)
@@ -493,7 +345,7 @@ URL:https://www.golfdirecto.com/micro/game/6953b04c1a52f0e9fda4da0e/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:468940db1b8eb5ac94c4@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 SUMMARY:Ryder Boda L&I
@@ -508,7 +360,7 @@ URL:https://www.nextcaddy.com/tour/72658
 END:VEVENT
 BEGIN:VEVENT
 UID:2d165ce57dd81d603550@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 SUMMARY:Torneo WAGR Ugp Tour
@@ -522,7 +374,7 @@ URL:https://www.nextcaddy.com/tour/75426
 END:VEVENT
 BEGIN:VEVENT
 UID:fcca0299a2e1526cf809@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 SUMMARY:Tribu Ryder Cup Navidad
@@ -536,7 +388,7 @@ URL:https://www.nextcaddy.com/tour/75412
 END:VEVENT
 BEGIN:VEVENT
 UID:0f1ddea39234ead1f48c@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 SUMMARY:Western Liga Final 2026
@@ -551,7 +403,7 @@ URL:https://www.nextcaddy.com/tour/75443
 END:VEVENT
 BEGIN:VEVENT
 UID:714f9285ca794b44f1af@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:3 J. Circuito Vng 2026. Categoria Bronce (26\,1 - 36)
@@ -566,7 +418,7 @@ URL:https://www.nextcaddy.com/tour/74179
 END:VEVENT
 BEGIN:VEVENT
 UID:73db28249a2fbc00144f@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:3 J. Circuito Vng 2026. Categoria Oro (0 - 14)
@@ -581,7 +433,7 @@ URL:https://www.nextcaddy.com/tour/74177
 END:VEVENT
 BEGIN:VEVENT
 UID:9239fe16d089ce1fb2cf@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:3 J. Circuito Vng 2026. Categoria Plata (14\,1 - 26)
@@ -596,7 +448,7 @@ URL:https://www.nextcaddy.com/tour/74178
 END:VEVENT
 BEGIN:VEVENT
 UID:afd00f93a1841dbf2092@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:4ª Jornada Lpgh XXVI Edición (Monacilla-Dunas)
@@ -611,7 +463,7 @@ URL:https://www.golfdirecto.com/micro/game/6af76d023f2ad705e4c1ae4e/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:ea8416ebb336b8ca035e@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:Circuito Benjamin Zona W
@@ -626,7 +478,7 @@ URL:https://www.nextcaddy.com/tour/61243
 END:VEVENT
 BEGIN:VEVENT
 UID:e87cc1ec4727b994232e@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:Circuito Juvenil Zona W
@@ -641,7 +493,7 @@ URL:https://www.nextcaddy.com/tour/61244
 END:VEVENT
 BEGIN:VEVENT
 UID:67f8c7246a9398c05f6f@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:Circuito Social Cadiz Golf (Solo Socios)
@@ -656,7 +508,7 @@ URL:https://www.nextcaddy.com/tour/75074
 END:VEVENT
 BEGIN:VEVENT
 UID:7be7bd8be2412f068ea2@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:Competición Final de Temporada P&P 2026
@@ -671,7 +523,7 @@ URL:https://www.nextcaddy.com/tour/61248
 END:VEVENT
 BEGIN:VEVENT
 UID:94c7f6c81dfec2cf340a@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:Cuadrangular Mid Amateur Masculino
@@ -685,7 +537,7 @@ URL:https://www.nextcaddy.com/tour/61227
 END:VEVENT
 BEGIN:VEVENT
 UID:5f669139877a36e85ae7@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:II Prueba Liga de Principiantes Ideal 26/27
@@ -698,8 +550,22 @@ STATUS:CONFIRMED
 URL:https://www.nextcaddy.com/tour/75386
 END:VEVENT
 BEGIN:VEVENT
+UID:6faf14d21f6b8a52f52e@banderin.es
+DTSTAMP:20261119T083833Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:IV Torneo Club de Leones de Sevilla
+LOCATION:Club Zaudín Golf\, Tomares\, Sevilla
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.nextcaddy.com/tour/75452\nConfirma fechas y condiciones en la web de
+ l organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nextcaddy.com/tour/75452
+END:VEVENT
+BEGIN:VEVENT
 UID:37520230708832d7dfb6@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:IX Liga la Estancia
@@ -714,7 +580,7 @@ URL:https://www.nextcaddy.com/tour/75417
 END:VEVENT
 BEGIN:VEVENT
 UID:0980135c1c978fac0a9a@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:Ladies Medal Sponsored By Vinomarket (Members)
@@ -729,7 +595,7 @@ URL:https://www.golfdirecto.com/micro/game/696e3630557fa34aa5b49242/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:122418ef5993b2414f52@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:Liga Damas Noviembre26
@@ -745,7 +611,7 @@ URL:https://www.golfdirecto.com/micro/game/6af187268527252f607cf775/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:8b9bd00e685b508ac0d7@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:Men´s Medal Sponsored By Vinomarket (Members)
@@ -760,7 +626,7 @@ URL:https://www.golfdirecto.com/micro/game/696e3613557fa34aa5b2e0df/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:c6ed2c1ea052a4ae4bb7@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:November Medal
@@ -775,7 +641,7 @@ URL:https://www.golfdirecto.com/micro/game/6856b3569147670615769435/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:cb87de01cfb1889395de@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:Pequecircuito Zona C
@@ -790,7 +656,7 @@ URL:https://www.nextcaddy.com/tour/61236
 END:VEVENT
 BEGIN:VEVENT
 UID:47a21108e636d8d20a6d@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:Presidents Putter Board Competition (Medal)
@@ -804,8 +670,22 @@ STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6aedf32f1ab4f21da641a12a/summary
 END:VEVENT
 BEGIN:VEVENT
+UID:408d1ef7e285bb34d077@banderin.es
+DTSTAMP:20261119T083833Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:Satcomp21/11
+LOCATION:Miraflores Golf\, Mijas Costa\, Málaga
+DESCRIPTION:Social de club - Medal Play - Individual\nFicha oficial: https:
+ //www.nextcaddy.com/tour/75449\nConfirma fechas y condiciones en la web de
+ l organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nextcaddy.com/tour/75449
+END:VEVENT
+BEGIN:VEVENT
 UID:3cf385b40224c72d087e@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:Torneo Cadena Cope
@@ -819,7 +699,7 @@ URL:https://www.nextcaddy.com/tour/75350
 END:VEVENT
 BEGIN:VEVENT
 UID:5c85586da82f37ad9dd4@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:Torneo Golf Divino by LeClub
@@ -834,7 +714,7 @@ URL:https://www.nextcaddy.com/tour/74950
 END:VEVENT
 BEGIN:VEVENT
 UID:c31207b1bfa0a05278f3@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:VIII Open Femenino la Cartuja 2026
@@ -848,7 +728,7 @@ URL:https://www.nextcaddy.com/tour/75321
 END:VEVENT
 BEGIN:VEVENT
 UID:4dfbbaa5a8b598fc81c7@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:10ª Jornada Camaleón Golf 26/27
@@ -863,7 +743,7 @@ URL:https://www.golfdirecto.com/micro/game/6af3b1246aacb155d8364c04/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:2ea1017385ddce147a0a@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:1ª Jornada Lpgh XXVI Edición (Portil/Monacilla)
@@ -878,7 +758,7 @@ URL:https://www.golfdirecto.com/micro/game/6aad78d9371000592dadc325/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:79ddf4771f5e858a1f70@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:4ª Jornada Lpgh XXVI Edición (Bellavista-Old Course)
@@ -893,7 +773,7 @@ URL:https://www.golfdirecto.com/micro/game/6af76c51aef92489910a3740/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:3ab97c254fc286dddedd@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:4ª Jornada Lpgh XXVI Edición (Links-Islantilla)
@@ -908,7 +788,7 @@ URL:https://www.golfdirecto.com/micro/game/6af76badaef9248991f367cd/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:20bc8e561e59a14b7a60@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:5ª Jornada Domingo Liga Interna Golf Otoño 2026-2027
@@ -921,8 +801,22 @@ STATUS:CONFIRMED
 URL:https://www.nextcaddy.com/tour/75428
 END:VEVENT
 BEGIN:VEVENT
+UID:c7f28aa5ab64dee434e6@banderin.es
+DTSTAMP:20261119T083833Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:Cigaleta
+LOCATION:Los Moriscos Club de Golf\, Motril\, Granada
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.nextcaddy.com/tour/75453\nConfirma fechas y condiciones en la web de
+ l organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nextcaddy.com/tour/75453
+END:VEVENT
+BEGIN:VEVENT
 UID:bb96d574952c2c09dcb2@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:Circuito Benjamín Zona C
@@ -937,7 +831,7 @@ URL:https://www.nextcaddy.com/tour/61232
 END:VEVENT
 BEGIN:VEVENT
 UID:bf049ff00b8173562f94@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:Circuito Caser Hipoteca Inversa 2026
@@ -952,7 +846,7 @@ URL:https://www.nextcaddy.com/tour/74404
 END:VEVENT
 BEGIN:VEVENT
 UID:1bd9f3f36ec88adfc228@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:Circuito Juvenil Zona C
@@ -967,7 +861,7 @@ URL:https://www.nextcaddy.com/tour/61233
 END:VEVENT
 BEGIN:VEVENT
 UID:535489e15fa54994beb9@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:IV Torneo de Golf Solidario Cruz Roja 2026
@@ -981,7 +875,7 @@ URL:https://www.nextcaddy.com/tour/75303
 END:VEVENT
 BEGIN:VEVENT
 UID:c610748c6d78961d6c40@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:Mejor ranking 2026
@@ -997,7 +891,7 @@ URL:https://www.golfdirecto.com/micro/game/6af5699fcb197af66b2348b4/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:2676be0bb282a78715f2@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:Peña Parejas Noviembre
@@ -1011,7 +905,7 @@ URL:https://www.golfdirecto.com/micro/game/6afc7dab698e8624fb9b598b/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:507587703c60bdea15bc@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:Pg Junior Golf Circuit - Nov.
@@ -1025,7 +919,7 @@ URL:https://www.nextcaddy.com/tour/68964
 END:VEVENT
 BEGIN:VEVENT
 UID:723185b2bb79d551cb24@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:T2 La Cala Junior Golf League 26-27
@@ -1040,7 +934,7 @@ URL:https://www.golfdirecto.com/micro/game/6ac50d4f6dee272525916b20/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:14d45fa41303f52417bb@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261123
 DTEND;VALUE=DATE:20261124
 SUMMARY:5ª Jornada Lunes Liga Interna Golf Otoño 2026-2027
@@ -1054,7 +948,7 @@ URL:https://www.nextcaddy.com/tour/75429
 END:VEVENT
 BEGIN:VEVENT
 UID:05c50a108ae50dc343dc@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261123
 DTEND;VALUE=DATE:20261124
 SUMMARY:Inscripcion Interclub Andalucía
@@ -1068,7 +962,7 @@ URL:https://www.golfdirecto.com/micro/game/6afca2fc669bd90e39b65356/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:f9cb74547a3280a02b04@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261124
 DTEND;VALUE=DATE:20261125
 SUMMARY:Ladies Tuesday Competition (Members) (Copia)
@@ -1083,7 +977,7 @@ URL:https://www.golfdirecto.com/micro/game/696e370b557fa34aa5cd97bc/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:9b8e39c16e46f7ec7061@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261124
 DTEND;VALUE=DATE:20261125
 SUMMARY:Liga Social Cab. Volvo Vypsa Heineken - Malaga Costa & Bebidas
@@ -1098,7 +992,7 @@ URL:https://www.golfdirecto.com/micro/game/6aaec65fea1573c17a88951b/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:b688d6e8311b9c4db4db@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261124
 DTEND;VALUE=DATE:20261125
 SUMMARY:Liguilla de Damas 24/11/2026
@@ -1112,7 +1006,7 @@ URL:https://www.nextcaddy.com/tour/75434
 END:VEVENT
 BEGIN:VEVENT
 UID:0e88f804b6f8c603479d@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261124
 DTEND;VALUE=DATE:20261125
 SUMMARY:Men'S Tuesday Competition (Members)
@@ -1127,7 +1021,7 @@ URL:https://www.golfdirecto.com/micro/game/696e36f3557fa34aa5ca52cf/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:3292ffe3f5a2cfe836a6@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261124
 DTEND;VALUE=DATE:20261125
 SUMMARY:Skandinavisk Match 24/11
@@ -1143,7 +1037,7 @@ URL:https://www.golfdirecto.com/micro/game/6adf571605d0e598f392664b/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:2ba46e5e0b286a7737e6@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:5ª Prueba Liga Senior Mixta Iveco-Veimancha 25/11/2026
@@ -1157,7 +1051,7 @@ URL:https://www.nextcaddy.com/tour/75442
 END:VEVENT
 BEGIN:VEVENT
 UID:e94c8e46f4a5c87deeab@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:Ladies Individual Stableford Qualifier
@@ -1172,7 +1066,7 @@ URL:https://www.golfdirecto.com/micro/game/6aedc0f602e839445a7f26ef/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:ef0818aa96daa548e0df@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261130
 SUMMARY:Andalucía Costa del Sol Open de España 2026
@@ -1188,7 +1082,7 @@ URL:https://rfegolf.es/competicion/andalucia-costa-del-sol-open-de-espana-p
 END:VEVENT
 BEGIN:VEVENT
 UID:1542327a9bde15791825@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
 SUMMARY:Ladies Thursday Competition (Members)
@@ -1203,7 +1097,7 @@ URL:https://www.golfdirecto.com/micro/game/696e374d557fa34aa5db363b/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:69e183fdfcacd52f2939@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
 SUMMARY:Liga Social Damas Volvo Vypsa Heineken - Malaga Costa & Bebidas
@@ -1218,7 +1112,7 @@ URL:https://www.golfdirecto.com/micro/game/6aaec6cbea1573c17aa03131/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:94eb7ca31fc1cc6a9347@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
 SUMMARY:Men'S Thursday Competition (Members)
@@ -1233,7 +1127,7 @@ URL:https://www.golfdirecto.com/micro/game/696e371f557fa34aa5cf83f1/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:3127881976adc4e7a6c1@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
 SUMMARY:XIII Pgsf Memorial Santiago Terry
@@ -1247,8 +1141,23 @@ STATUS:CONFIRMED
 URL:https://www.nextcaddy.com/tour/75169
 END:VEVENT
 BEGIN:VEVENT
+UID:7ec5d353eabab08de38b@banderin.es
+DTSTAMP:20261119T083833Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:Preboda JC (Grupo Privado)
+LOCATION:Sherry Golf Jerez\, Jerez de la Frontera\, Cádiz
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  18 de noviembre\, cierra el 25 de noviembre.\nPrecio: 54 €.\nFicha ofic
+ ial: https://www.nextcaddy.com/tour/75445\nConfirma fechas y condiciones e
+ n la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nextcaddy.com/tour/75445
+END:VEVENT
+BEGIN:VEVENT
 UID:c64cb4e658fddf7a6d7f@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Signature Tournament - Otoño / Autumn
@@ -1263,7 +1172,7 @@ URL:https://www.golfdirecto.com/micro/game/6953caad1a52f0e9fd92bb7d/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:562d6c0278feb193a952@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Torneo de Navidad Jerez Club de Golf (viernes 27)
@@ -1278,7 +1187,7 @@ URL:https://www.nextcaddy.com/tour/74816
 END:VEVENT
 BEGIN:VEVENT
 UID:09edfe8756bf522e9914@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Campeonato Andalucía Interclubs Infantil y Cadete
@@ -1292,7 +1201,7 @@ URL:https://www.nextcaddy.com/tour/61215
 END:VEVENT
 BEGIN:VEVENT
 UID:a5416099b53488c464c7@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Campeonato Andalucía MASC Categoría Mid Amateur
@@ -1307,7 +1216,7 @@ URL:https://www.nextcaddy.com/tour/61247
 END:VEVENT
 BEGIN:VEVENT
 UID:abb31c71a4d68cfb8a26@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261130
 SUMMARY:Final Matchplay Parejas 2026
@@ -1321,7 +1230,7 @@ URL:https://www.golfdirecto.com/micro/game/69a4caf0a5c98bfc698183f6/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:ffc8167006b1a593bb1b@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:II Copa Iniciación - BMW San Rafael Motor
@@ -1336,7 +1245,7 @@ URL:https://www.golfdirecto.com/micro/game/6ace11d13189133e5a976bd2/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:ca92ddc66e8df6ba9312@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:III Torneo Academia Infantil 2026-2027 - 1ª Categoría
@@ -1351,7 +1260,7 @@ URL:https://www.nextcaddy.com/tour/74915
 END:VEVENT
 BEGIN:VEVENT
 UID:d228e939bbb1cb1fe924@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:III Torneo Academia Infantil 2026-2027 - 2ª y 3ª Categoría
@@ -1366,7 +1275,7 @@ URL:https://www.nextcaddy.com/tour/74916
 END:VEVENT
 BEGIN:VEVENT
 UID:46ccadafd788abc55785@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:III Torneo Academia Infantil 2026-2027 - 4ª Categoría
@@ -1381,7 +1290,7 @@ URL:https://www.nextcaddy.com/tour/74917
 END:VEVENT
 BEGIN:VEVENT
 UID:8355281cafa9960bd57b@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:IV Torneo Jesus Castizo
@@ -1395,7 +1304,7 @@ URL:https://www.nextcaddy.com/tour/74751
 END:VEVENT
 BEGIN:VEVENT
 UID:56573bd9fe76788aed67@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:IV Torneo Jésica Reyes
@@ -1410,7 +1319,7 @@ URL:https://www.nextcaddy.com/tour/71874
 END:VEVENT
 BEGIN:VEVENT
 UID:56a4d308e7bf139d2e6e@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Leclub - Somabay World Cup
@@ -1425,7 +1334,7 @@ URL:https://www.nextcaddy.com/tour/75424
 END:VEVENT
 BEGIN:VEVENT
 UID:76deb0c3427f8e4d8650@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Liga Iniación IV Prueba
@@ -1440,7 +1349,7 @@ URL:https://www.golfdirecto.com/micro/game/6aad19a9bbc718cf57dd0a1f/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:276efc06f99bd5df8305@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Memorial Day Tournament
@@ -1456,7 +1365,7 @@ URL:https://www.golfdirecto.com/micro/game/6856b2cc9147670615607ef6/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:8850521a81ccebdf22c8@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Ryder Raufer Cup Aguilon By Reale Galpe Seguros
@@ -1470,7 +1379,7 @@ URL:https://www.golfdirecto.com/micro/game/6adcbc4cc98c39027759840e/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:85c5b55a7dabdd488a18@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Torneo Benéfico Contra el Cancer Aecc
@@ -1485,7 +1394,7 @@ URL:https://www.nextcaddy.com/tour/75319
 END:VEVENT
 BEGIN:VEVENT
 UID:9fe12405eb556a616a10@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Torneo Mensual Costa del Sol Golf Club
@@ -1499,7 +1408,7 @@ URL:https://www.nextcaddy.com/tour/75422
 END:VEVENT
 BEGIN:VEVENT
 UID:6c4b1cb09e391d785a11@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Torneo Ranking (Absoluto)
@@ -1514,7 +1423,7 @@ URL:https://www.nextcaddy.com/tour/71988
 END:VEVENT
 BEGIN:VEVENT
 UID:a19c4462848814a5a2e9@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Torneo Senior Otoño Costa del Sol
@@ -1529,7 +1438,7 @@ URL:https://www.nextcaddy.com/tour/61235
 END:VEVENT
 BEGIN:VEVENT
 UID:f59d4cae289f4388aad8@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Torneo de Navidad Jerez Club de Golf
@@ -1544,7 +1453,7 @@ URL:https://www.nextcaddy.com/tour/74814
 END:VEVENT
 BEGIN:VEVENT
 UID:7ae898a0905dc856c755@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:XVII Torneo Open Fuengirola la Bandera
@@ -1559,8 +1468,23 @@ STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6abcb75fa2d0ff021a0d72d7/summary
 END:VEVENT
 BEGIN:VEVENT
+UID:fdb1e36efa4c17862d5c@banderin.es
+DTSTAMP:20261119T083833Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:XXIII Memorial Juan Ayoso
+LOCATION:Rota Club de Golf\, Rota Naval\, Cádiz
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  18 de noviembre\, cierra el 25 de noviembre.\nPrecio: Gratis.\nFicha ofic
+ ial: https://www.nextcaddy.com/tour/75282\nConfirma fechas y condiciones e
+ n la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nextcaddy.com/tour/75282
+END:VEVENT
+BEGIN:VEVENT
 UID:02ffc9808b42c2b6a74b@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:11ª Jornada Camaleón Golf 26/27
@@ -1574,7 +1498,7 @@ URL:https://www.golfdirecto.com/micro/game/6afa0acc5445bc102935b69b/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:0cecfdf70225440456e8@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Alamo Golf Society Team Championship Final Sponsored by Home Space.
@@ -1589,7 +1513,7 @@ URL:https://www.golfdirecto.com/micro/game/69f6d8078c2f356495d1a3ed/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:c6aa3fd37faf2c28fb2e@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:II Torneo ZOF - Domingo 29 Noviembre 2026 (Grupo privado)
@@ -1604,7 +1528,7 @@ URL:https://www.nextcaddy.com/tour/74623
 END:VEVENT
 BEGIN:VEVENT
 UID:35e64dbaedd019e259fd@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Ladies Vs Men
@@ -1619,7 +1543,7 @@ URL:https://www.golfdirecto.com/micro/game/696e37fd557fa34aa5eef03e/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:37c6fb5afcd4bb8cef33@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Mejor Final ranking 2026
@@ -1635,7 +1559,7 @@ URL:https://www.golfdirecto.com/micro/game/6af56cafcb197af66b8e5366/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:76d45dd406f613107db7@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Torneo Joyeria Melanie & Claire
@@ -1651,7 +1575,7 @@ URL:https://www.golfdirecto.com/micro/game/6974877005a15f8d1994d407/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:efe337f0c64840c8b043@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261201
 SUMMARY:Alamo Golf Society Sponsored by Julie & Steve Crook
@@ -1666,7 +1590,7 @@ URL:https://www.golfdirecto.com/micro/game/6aa763add8e43faad755fec8/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:3a79b22518cd5fb5fd9d@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261202
 SUMMARY:4ª Prueba Liga "Martes de P&P"
@@ -1681,7 +1605,7 @@ URL:https://www.nextcaddy.com/tour/75328
 END:VEVENT
 BEGIN:VEVENT
 UID:504afcd772f3554f5288@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261202
 SUMMARY:FINAL Ranking Damas 2026
@@ -1696,7 +1620,7 @@ URL:https://www.nextcaddy.com/tour/75097
 END:VEVENT
 BEGIN:VEVENT
 UID:44521a3a2d754d90191b@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261202
 SUMMARY:Ladies Tuesday Competition (Members)
@@ -1711,7 +1635,7 @@ URL:https://www.golfdirecto.com/micro/game/696e38a3557fa34aa500fd8e/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:c26279dce738fdc4e0e4@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261202
 SUMMARY:Liga Social Cab. Volvo Vypsa Heineken - Malaga Costa & Bebidas
@@ -1726,7 +1650,7 @@ URL:https://www.golfdirecto.com/micro/game/6aaec74bea1573c17acf36ad/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:6e56e51e6ddae7d7d1d3@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261202
 SUMMARY:Men'S Tuesday Competition (Members)
@@ -1741,7 +1665,7 @@ URL:https://www.golfdirecto.com/micro/game/696e38d8557fa34aa5035d05/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:0d9725552dad218a6144@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261202
 SUMMARY:Skandinavisk Match 01/12
@@ -1757,7 +1681,7 @@ URL:https://www.golfdirecto.com/micro/game/6adf575505d0e598f3a02fcf/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:55a20ca45f741f4e887e@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261203
 DTEND;VALUE=DATE:20261204
 SUMMARY:Campeonato Andalucía de Profesionales Femenino
@@ -1773,7 +1697,7 @@ URL:https://www.nextcaddy.com/tour/75274
 END:VEVENT
 BEGIN:VEVENT
 UID:d4a85e2580f6023ef2e0@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261203
 DTEND;VALUE=DATE:20261204
 SUMMARY:Ladies Thursday Competition (Members)
@@ -1788,7 +1712,7 @@ URL:https://www.golfdirecto.com/micro/game/696e390c557fa34aa5072937/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:eb87112cb5174b77ecd6@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261203
 DTEND;VALUE=DATE:20261204
 SUMMARY:Liga Social Damas Volvo Vypsa Heineken - Malaga Costa & Bebidas
@@ -1803,7 +1727,7 @@ URL:https://www.golfdirecto.com/micro/game/6aaec7e6ea1573c17af7336d/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:b5a5ac858b7d860715ad@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261203
 DTEND;VALUE=DATE:20261204
 SUMMARY:Men'S Thursday Competition (Members)
@@ -1818,7 +1742,7 @@ URL:https://www.golfdirecto.com/micro/game/696e394a557fa34aa5118f77/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:99697ad583908e1ffc16@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
 SUMMARY:Marbella Final Summum Business 2026
@@ -1833,7 +1757,7 @@ URL:https://www.golfdirecto.com/micro/game/69a4cdd1a5c98bfc69e4f0b6/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:7c7ad065be0393c7719c@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
 SUMMARY:Regular Tournament (Annual League)
@@ -1848,7 +1772,7 @@ URL:https://www.golfdirecto.com/micro/game/6953b19d1a52f0e9fdd15016/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:1bfdd38d1820ee87163c@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
 SUMMARY:Benefico Santa Barbara - Hermandad Amargura
@@ -1863,7 +1787,7 @@ URL:https://www.nextcaddy.com/tour/75253
 END:VEVENT
 BEGIN:VEVENT
 UID:08bea4f4b59a73aaa823@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
 SUMMARY:Campeonato Medal Almeria
@@ -1879,7 +1803,7 @@ URL:https://www.golfdirecto.com/micro/game/69748c3505a15f8d19b5272e/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:4bf0117708702983e985@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
 SUMMARY:Copa Guadalhorce Final
@@ -1894,7 +1818,7 @@ URL:https://www.golfdirecto.com/micro/game/6ad60ada46735c80a07fb5da/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:96724433c220eb962e08@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
 SUMMARY:Final Circuito Benjamín
@@ -1909,7 +1833,7 @@ URL:https://www.nextcaddy.com/tour/61250
 END:VEVENT
 BEGIN:VEVENT
 UID:532f5c80826cbcb5d813@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
 SUMMARY:Final Circuito Juvenil
@@ -1924,7 +1848,7 @@ URL:https://www.nextcaddy.com/tour/61251
 END:VEVENT
 BEGIN:VEVENT
 UID:6cff6b2c0221ac68e875@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
 SUMMARY:Final Circuito Senior
@@ -1938,7 +1862,7 @@ URL:https://www.nextcaddy.com/tour/61254
 END:VEVENT
 BEGIN:VEVENT
 UID:d2eb7c82ceb7ffb1bbfe@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
 SUMMARY:III Torneo Sabores Almanzora 2026
@@ -1953,7 +1877,7 @@ URL:https://www.golfdirecto.com/micro/game/6a8ea6aa54be9938498981d7/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:b812ecc2856e6da52744@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
 SUMMARY:Ladies Ranking December Sponsored By Abbeygate (Members)
@@ -1968,7 +1892,7 @@ URL:https://www.golfdirecto.com/micro/game/696e3a91557fa34aa549e500/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:a0d6d21dfda1036a7b2c@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
 SUMMARY:Men Ranking December Sponsored By Abbeygate (Members)
@@ -1983,7 +1907,7 @@ URL:https://www.golfdirecto.com/micro/game/696e3aaf557fa34aa54f152c/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:809d7a1a70264abc490f@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
 SUMMARY:Torneo Benefico Anoreta Golf
@@ -1997,8 +1921,22 @@ STATUS:CONFIRMED
 URL:https://www.nextcaddy.com/tour/69149
 END:VEVENT
 BEGIN:VEVENT
+UID:93cef649a945b85f7b37@banderin.es
+DTSTAMP:20261119T083833Z
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261206
+SUMMARY:Torneo Fin de Escuela Golf Otoño 26-27
+LOCATION:Escuela Pública la Cartuja\, Sevilla\, Sevilla
+DESCRIPTION:Juvenil - Stableford - Individual\nFicha oficial: https://www.n
+ extcaddy.com/tour/75446\nConfirma fechas y condiciones en la web del organ
+ izador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nextcaddy.com/tour/75446
+END:VEVENT
+BEGIN:VEVENT
 UID:71d23565919554b786ec@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
 SUMMARY:1ª Prueba Circuito Academia
@@ -2014,7 +1952,7 @@ URL:https://www.golfdirecto.com/micro/game/6afc19cd698e8624fb02a08c/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:d6ad661e243e72b565fc@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
 SUMMARY:1ª Prueba Metas Amigos de Hato Verde
@@ -2030,7 +1968,7 @@ URL:https://www.golfdirecto.com/micro/game/6a980c839678d915e8fbbc15/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:f6497865e784c903f4cd@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261208
 SUMMARY:Final Nacional Summum 2026
@@ -2044,7 +1982,7 @@ URL:https://www.golfdirecto.com/micro/game/69a4cbe2a5c98bfc69ab6465/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:36a3dcc05902114421e2@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
 SUMMARY:Final Pequecircuito
@@ -2059,7 +1997,7 @@ URL:https://www.nextcaddy.com/tour/61252
 END:VEVENT
 BEGIN:VEVENT
 UID:b3c1be96cee7ccfdbc7c@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
 SUMMARY:The Constitution Cup
@@ -2074,7 +2012,7 @@ URL:https://www.golfdirecto.com/micro/game/6856b3bc914767061593f6e5/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:77576e17c0d3b0d1262c@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261207
 DTEND;VALUE=DATE:20261208
 SUMMARY:9ª Prueba Ranking Escuela 18H 2026
@@ -2089,7 +2027,7 @@ URL:https://www.nextcaddy.com/tour/74220
 END:VEVENT
 BEGIN:VEVENT
 UID:e266678f1ca8468c98d9@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261207
 DTEND;VALUE=DATE:20261208
 SUMMARY:9ª Prueba Ranking Escuela Benjamín 2026
@@ -2104,7 +2042,7 @@ URL:https://www.nextcaddy.com/tour/74217
 END:VEVENT
 BEGIN:VEVENT
 UID:4f4a5bb7eef8a9162a74@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261207
 DTEND;VALUE=DATE:20261208
 SUMMARY:9ª Prueba Ranking Escuela Cat. Especial 2026
@@ -2119,7 +2057,7 @@ URL:https://www.nextcaddy.com/tour/74216
 END:VEVENT
 BEGIN:VEVENT
 UID:3f03509931a503eff642@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261207
 DTEND;VALUE=DATE:20261208
 SUMMARY:9ª Prueba Ranking Escuela P3 2026
@@ -2134,7 +2072,7 @@ URL:https://www.nextcaddy.com/tour/74218
 END:VEVENT
 BEGIN:VEVENT
 UID:6621de1d84a8a72acaf7@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261208
 DTEND;VALUE=DATE:20261209
 SUMMARY:(56) Ladies Tuesday Competition (Members)
@@ -2149,7 +2087,7 @@ URL:https://www.golfdirecto.com/micro/game/696e3b23557fa34aa561510e/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:4d1205916d755a3b406c@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261208
 DTEND;VALUE=DATE:20261209
 SUMMARY:Men'S Tuesday Competition (Members)
@@ -2164,7 +2102,7 @@ URL:https://www.golfdirecto.com/micro/game/696e3b8b557fa34aa5716080/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:2329316c1f9822692adc@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261208
 DTEND;VALUE=DATE:20261209
 SUMMARY:Skandinavisk Match 08/12
@@ -2179,7 +2117,7 @@ URL:https://www.golfdirecto.com/micro/game/6adf578f05d0e598f3afc378/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:0b29a1c2193398f2bb64@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261209
 DTEND;VALUE=DATE:20261210
 SUMMARY:Liga Social Cab. Volvo Vypsa Heineken - Malaga Costa & Bebidas
@@ -2194,7 +2132,7 @@ URL:https://www.golfdirecto.com/micro/game/6aaec8b2ea1573c17a593dde/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:1d9bdad103cec26c4ad4@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261210
 DTEND;VALUE=DATE:20261211
 SUMMARY:Ladies Thursday Competition (Members) (
@@ -2209,7 +2147,7 @@ URL:https://www.golfdirecto.com/micro/game/696e3bac557fa34aa577c1b0/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:4e25d408efcdbca7a1e9@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261210
 DTEND;VALUE=DATE:20261211
 SUMMARY:Liga Social Damas Volvo Vypsa Heineken - Malaga Costa & Bebidas
@@ -2224,7 +2162,7 @@ URL:https://www.golfdirecto.com/micro/game/6aaec96cea1573c17a97db13/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:84d603e552db88f0bb35@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261210
 DTEND;VALUE=DATE:20261211
 SUMMARY:Men'S Thursday Competition (Members)
@@ -2239,7 +2177,7 @@ URL:https://www.golfdirecto.com/micro/game/696e3965557fa34aa51565b1/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:672847191d0332af0e64@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261211
 DTEND;VALUE=DATE:20261212
 SUMMARY:Regular Tournament (Annual League)
@@ -2254,7 +2192,7 @@ URL:https://www.golfdirecto.com/micro/game/695b9fae3c4e361f97baf000/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:0d491011a76a9b17a000@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261211
 DTEND;VALUE=DATE:20261212
 SUMMARY:Torneo de Navidad Sherry Golf Jerez (Salidas Viernes)
@@ -2269,7 +2207,7 @@ URL:https://www.nextcaddy.com/tour/75367
 END:VEVENT
 BEGIN:VEVENT
 UID:5013360f272bd922873d@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:2ª Prueba Circuito Academia
@@ -2284,8 +2222,22 @@ STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6afc1af34cfcc17e462a2657/summary
 END:VEVENT
 BEGIN:VEVENT
+UID:593ab87bb9d9be277715@banderin.es
+DTSTAMP:20261119T083833Z
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261213
+SUMMARY:5ª Jornada Lpgh XXVI Edición. (Old Course-Links)
+LOCATION:Isla Canela Old Course\, Ayamonte\, Huelva
+DESCRIPTION:Social de club - Fourball - Parejas\nFicha oficial: https://www
+ .golfdirecto.com/micro/game/6afe32ab9c9e80fccff2e00e/summary\nConfirma fec
+ has y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6afe32ab9c9e80fccff2e00e/summary
+END:VEVENT
+BEGIN:VEVENT
 UID:9a581f42d8194f4f9429@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:Campeonato Andalucía Femenino Categoría Mid Amateur
@@ -2300,7 +2252,7 @@ URL:https://www.nextcaddy.com/tour/61249
 END:VEVENT
 BEGIN:VEVENT
 UID:dc4bf81c20d542367352@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:Campeonato Andalucía Interclubs Masculino
@@ -2314,7 +2266,7 @@ URL:https://www.nextcaddy.com/tour/61253
 END:VEVENT
 BEGIN:VEVENT
 UID:1e5ec1946612e193ac93@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:LIGAS MAJ - 18 Hoyos - Diciembre
@@ -2329,7 +2281,7 @@ URL:https://www.nextcaddy.com/tour/75362
 END:VEVENT
 BEGIN:VEVENT
 UID:289958263459f3992a68@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:LIGAS MAJ - 9 Hoyos - Noviembre
@@ -2344,7 +2296,7 @@ URL:https://www.nextcaddy.com/tour/75363
 END:VEVENT
 BEGIN:VEVENT
 UID:ce33fb6deaf6842c07b1@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:League Final / Final de la Liga
@@ -2359,7 +2311,7 @@ URL:https://www.golfdirecto.com/micro/game/6953cbbf1a52f0e9fdbfb336/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:45328a135e2fc1044202@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:Torneo Colegio Abogados Málaga
@@ -2374,7 +2326,7 @@ URL:https://www.nextcaddy.com/tour/75205
 END:VEVENT
 BEGIN:VEVENT
 UID:46c9fa81a23a5fb3ecd3@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:Torneo de Navidad IDEAterrazas
@@ -2390,7 +2342,7 @@ URL:https://www.golfdirecto.com/micro/game/6af1924b48b95e9e1a76ee4a/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:6e61df1ef48afd9474b1@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:Torneo de Navidad Sherry Golf Jerez (Salidas Sábado)
@@ -2404,8 +2356,36 @@ STATUS:CONFIRMED
 URL:https://www.nextcaddy.com/tour/74970
 END:VEVENT
 BEGIN:VEVENT
+UID:830445cf7b3d44ce461c@banderin.es
+DTSTAMP:20261119T083833Z
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+SUMMARY:5ª Jornada Lpgh XXVI Edición. (Dunas-Bellavista)
+LOCATION:Club de Golf Bellavista\, Aljaraque\, Huelva
+DESCRIPTION:Social de club - Fourball - Parejas\nFicha oficial: https://www
+ .golfdirecto.com/micro/game/6afe33f59c9e80fccf03246d/summary\nConfirma fec
+ has y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6afe33f59c9e80fccf03246d/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:858acfb3a118c03832df@banderin.es
+DTSTAMP:20261119T083833Z
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+SUMMARY:5ª Jornada Lpgh XXVI Edición.(Islantilla-Portil)
+LOCATION:Islantilla Golf Resort\, S.l\, Lepe\, Huelva
+DESCRIPTION:Social de club - Fourball - Parejas\nFicha oficial: https://www
+ .golfdirecto.com/micro/game/6afe33589c9e80fccffbf069/summary\nConfirma fec
+ has y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6afe33589c9e80fccffbf069/summary
+END:VEVENT
+BEGIN:VEVENT
 UID:d108b51fcb92475cfd42@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
 SUMMARY:Jóvenes Golfistas de Navidad: Torneo Juvenil Papá Noel
@@ -2420,7 +2400,7 @@ URL:https://www.nextcaddy.com/tour/75292
 END:VEVENT
 BEGIN:VEVENT
 UID:e383ba78cff1ec726b9b@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
 SUMMARY:Ladies Medal Sponsored By Vinomarket (Members)
@@ -2435,7 +2415,7 @@ URL:https://www.golfdirecto.com/micro/game/696e3c09557fa34aa584e5cd/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:52fac6b1d942afd02da2@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
 SUMMARY:Men´s Medal Sponsored By Vinomarket (Members)
@@ -2450,7 +2430,7 @@ URL:https://www.golfdirecto.com/micro/game/696e3c2a557fa34aa58e5572/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:47ad4dbd541f6a738641@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
 SUMMARY:Pequeños Golfistas de Navidad: Torneo Infantil Papá Noel (P&P)
@@ -2465,7 +2445,7 @@ URL:https://www.nextcaddy.com/tour/75293
 END:VEVENT
 BEGIN:VEVENT
 UID:20d43a2e771e7c4dfa7b@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
 SUMMARY:Pg Junior Golf Circuit - Dec.
@@ -2479,7 +2459,7 @@ URL:https://www.nextcaddy.com/tour/68965
 END:VEVENT
 BEGIN:VEVENT
 UID:d9578f68f28e946073a7@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
 SUMMARY:Torneo de Navidad
@@ -2493,7 +2473,7 @@ URL:https://www.golfdirecto.com/micro/game/69748c6105a15f8d19b543d5/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:8221c05ae5dcb472231c@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
 SUMMARY:XXXII Torneo de Golf Miramar
@@ -2508,7 +2488,7 @@ URL:https://www.nextcaddy.com/tour/74188
 END:VEVENT
 BEGIN:VEVENT
 UID:e25c81701e6a098d82f2@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261214
 DTEND;VALUE=DATE:20261215
 SUMMARY:Winter Amateur Series (3 rounds)
@@ -2523,7 +2503,7 @@ URL:https://www.nextcaddy.com/tour/71876
 END:VEVENT
 BEGIN:VEVENT
 UID:2dbe807336734b2ee243@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261215
 DTEND;VALUE=DATE:20261216
 SUMMARY:Liga Social Cab. Volvo Vypsa Heineken - Malaga Costa & Bebidas
@@ -2538,7 +2518,7 @@ URL:https://www.golfdirecto.com/micro/game/6aaeca84ea1573c17aebc386/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:fdf57402e3aa252dfb8a@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261215
 DTEND;VALUE=DATE:20261216
 SUMMARY:Members & Staff Day
@@ -2553,7 +2533,7 @@ URL:https://www.golfdirecto.com/micro/game/696e3c78557fa34aa5a0274b/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:4a57ab55476d067d2be4@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261215
 DTEND;VALUE=DATE:20261216
 SUMMARY:Skandinavisk Match 15/12
@@ -2568,7 +2548,7 @@ URL:https://www.golfdirecto.com/micro/game/6adf583305d0e598f3de5fd6/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:7bbc6a135926e4dd3f37@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261216
 DTEND;VALUE=DATE:20261217
 SUMMARY:Campeonato Andalucía de Profesionales Masculino
@@ -2584,7 +2564,7 @@ URL:https://www.nextcaddy.com/tour/66035
 END:VEVENT
 BEGIN:VEVENT
 UID:e430054cede06c01d39c@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261216
 DTEND;VALUE=DATE:20261217
 SUMMARY:Torneo Staff vs. Members
@@ -2599,7 +2579,7 @@ URL:https://www.golfdirecto.com/micro/game/6964e53c42551aa3719ec91f/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:0d2f5db8798f2a0d9f0b@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261217
 DTEND;VALUE=DATE:20261218
 SUMMARY:Ladies Thursday Competition (Members)
@@ -2614,7 +2594,7 @@ URL:https://www.golfdirecto.com/micro/game/696e3bdf557fa34aa5804c80/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:9397617da60dfc837d8b@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261217
 DTEND;VALUE=DATE:20261218
 SUMMARY:Liga Social Damas Volvo Vypsa Heineken - Malaga Costa & Bebidas
@@ -2629,7 +2609,7 @@ URL:https://www.golfdirecto.com/micro/game/6aaecb58ea1573c17a4709d8/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:2d0ec6e6ce017106e798@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261217
 DTEND;VALUE=DATE:20261218
 SUMMARY:Men'S Thursday Competition (Members)
@@ -2644,21 +2624,22 @@ URL:https://www.golfdirecto.com/micro/game/696e397b557fa34aa51b0a67/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:51cad761b7eda80c700d@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261220
 SUMMARY:Campeonato Internacional de Andalucía Dobles Senior
 LOCATION:Golf Torrequebrada\, Benalmadena Costa\, Málaga
-DESCRIPTION:Senior - Medal Play - Parejas\nFicha oficial: https://www.nextc
- addy.com/tour/61171\nConfirma fechas y condiciones en la web del organizad
- or. Vía Banderín.
+DESCRIPTION:Senior - Medal Play - Parejas\nInscripción: abre el 18 de novi
+ embre\, cierra el 14 de diciembre.\nPrecio: 100 €.\nFicha oficial: https
+ ://www.nextcaddy.com/tour/61171\nConfirma fechas y condiciones en la web d
+ el organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.nextcaddy.com/tour/61171
 END:VEVENT
 BEGIN:VEVENT
 UID:9eba01fc512b853a2270@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261220
 SUMMARY:Christmas Texas Scramble
@@ -2673,7 +2654,7 @@ URL:https://www.golfdirecto.com/micro/game/696e3caf557fa34aa5a5e33c/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:3b1e5976d9b2c806dd12@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261220
 SUMMARY:December Stableford
@@ -2688,7 +2669,7 @@ URL:https://www.golfdirecto.com/micro/game/6856b3e59147670615abdb73/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:f501efe9f7a8f74b8a47@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261220
 SUMMARY:Torneo de Navidad | Christmas Tournament
@@ -2703,7 +2684,7 @@ URL:https://www.golfdirecto.com/micro/game/6964d8e042551aa371d973c7/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:5cf4329c042d20c36231@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261220
 DTEND;VALUE=DATE:20261221
 SUMMARY:III Torneo ZOF - Domingo 20 Diciembre 2026 (Grupo privado)
@@ -2718,7 +2699,7 @@ URL:https://www.nextcaddy.com/tour/75175
 END:VEVENT
 BEGIN:VEVENT
 UID:5dcd9abf106ab50db192@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261221
 DTEND;VALUE=DATE:20261222
 SUMMARY:Campeonato Andalucía Match Play
@@ -2732,7 +2713,7 @@ URL:https://www.nextcaddy.com/tour/61256
 END:VEVENT
 BEGIN:VEVENT
 UID:664f42a11f82c5042794@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261222
 DTEND;VALUE=DATE:20261223
 SUMMARY:Ladies Tuesday Competition (Members)
@@ -2747,7 +2728,7 @@ URL:https://www.golfdirecto.com/micro/game/696e3b6a557fa34aa56caad1/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:4697013834410aca54d4@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261222
 DTEND;VALUE=DATE:20261223
 SUMMARY:Men'S Tuesday Competition (Members)
@@ -2762,7 +2743,7 @@ URL:https://www.golfdirecto.com/micro/game/696e3d04557fa34aa5adb2fe/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:884aa9dd4c8fdac5cab3@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261224
 DTEND;VALUE=DATE:20261225
 SUMMARY:Ladies & Men Christmas Eve Competition
@@ -2777,7 +2758,7 @@ URL:https://www.golfdirecto.com/micro/game/696e3d4f557fa34aa5b8f1e6/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:eab07eb8bf112bef1ddf@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261226
 DTEND;VALUE=DATE:20261227
 SUMMARY:Christmas Individual Stableford
@@ -2792,7 +2773,7 @@ URL:https://www.golfdirecto.com/micro/game/6856b4359147670615bcda12/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:954d8ff6309a6d3208fb@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261227
 DTEND;VALUE=DATE:20261228
 SUMMARY:2ª Prueba Metas Amigos de Hato Verde
@@ -2808,7 +2789,7 @@ URL:https://www.golfdirecto.com/micro/game/6a980f789678d915e8f0d9d4/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:097d77d14ed707a61c5b@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261227
 DTEND;VALUE=DATE:20261228
 SUMMARY:Fin de año Club de Golf Marbella
@@ -2822,7 +2803,7 @@ URL:https://www.golfdirecto.com/micro/game/6af56fefcb197af66bf87ff7/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:eb8827c0ec2c7090e9f4@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261227
 DTEND;VALUE=DATE:20261228
 SUMMARY:Final Nacional - Parador Málaga Golf - 3ª Categoría
@@ -2837,7 +2818,7 @@ URL:https://www.nextcaddy.com/tour/72627
 END:VEVENT
 BEGIN:VEVENT
 UID:f1fbe1518b25918ff316@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261227
 DTEND;VALUE=DATE:20261228
 SUMMARY:Final Nacional - Parador de Malaga Golf - 1ª y 2ª Categoría
@@ -2852,7 +2833,7 @@ URL:https://www.nextcaddy.com/tour/72626
 END:VEVENT
 BEGIN:VEVENT
 UID:dcdbd8af5104ae996a74@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261227
 DTEND;VALUE=DATE:20261228
 SUMMARY:Mixed Red\, White\, Blue Texas Scramble
@@ -2867,7 +2848,7 @@ URL:https://www.golfdirecto.com/micro/game/696e3da9557fa34aa5cdc3a8/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:83821345680db06e3eeb@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261227
 DTEND;VALUE=DATE:20261228
 SUMMARY:V Torneo Padres e Hijos TEM2026 GROSS DENTISTAS Costa del Sol
@@ -2882,7 +2863,7 @@ URL:https://www.nextcaddy.com/tour/71808
 END:VEVENT
 BEGIN:VEVENT
 UID:baa718a19edfc4e25e5d@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261229
 DTEND;VALUE=DATE:20261230
 SUMMARY:Empleados & Abonados
@@ -2897,7 +2878,7 @@ URL:https://www.nextcaddy.com/tour/69151
 END:VEVENT
 BEGIN:VEVENT
 UID:2c5bb97e7a504b06e916@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261229
 DTEND;VALUE=DATE:20261230
 SUMMARY:Ladies Tuesday Competition (Members)
@@ -2912,7 +2893,7 @@ URL:https://www.golfdirecto.com/micro/game/696e3dc8557fa34aa5d4ef9b/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:755434b4d514eb716ee8@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261229
 DTEND;VALUE=DATE:20261230
 SUMMARY:Men'S Tuesday Competition (Members)
@@ -2927,7 +2908,7 @@ URL:https://www.golfdirecto.com/micro/game/696e3dfc557fa34aa5dae7d3/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:977960babbca0a0b65fb@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261230
 DTEND;VALUE=DATE:20261231
 SUMMARY:Torneo Similar Memorial Aper (Grupo Privado)
@@ -2942,7 +2923,7 @@ URL:https://www.nextcaddy.com/tour/75275
 END:VEVENT
 BEGIN:VEVENT
 UID:7881a3b05362e62e643f@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261231
 DTEND;VALUE=DATE:20270101
 SUMMARY:La Cala Resort - End of Year Tournament
@@ -2958,7 +2939,7 @@ URL:https://www.golfdirecto.com/micro/game/6a8817db96dc2a94e1eec253/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:bf44e192dd397df41f17@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261231
 DTEND;VALUE=DATE:20270101
 SUMMARY:New Year'S Eve Competition
@@ -2973,7 +2954,7 @@ URL:https://www.golfdirecto.com/micro/game/696e3e38557fa34aa5e53aef/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:3d5bb46c0f80b113c6bc@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261231
 DTEND;VALUE=DATE:20270101
 SUMMARY:New Year'S Eve Mixed Pairs Stableford
@@ -2988,7 +2969,7 @@ URL:https://www.golfdirecto.com/micro/game/6856b4cb9147670615e63a94/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:ba864d429521bd6c79b7@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261231
 DTEND;VALUE=DATE:20270101
 SUMMARY:Ranking Escuela 2026
@@ -3003,7 +2984,7 @@ URL:https://www.nextcaddy.com/tour/68574
 END:VEVENT
 BEGIN:VEVENT
 UID:2b47f004e9956756d287@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261231
 DTEND;VALUE=DATE:20270101
 SUMMARY:Torneo Última Oportunidad
@@ -3017,7 +2998,7 @@ URL:https://www.golfdirecto.com/micro/game/69748d1805a15f8d19c067c4/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:d26cba8e2c443d33071b@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20270101
 DTEND;VALUE=DATE:20270102
 SUMMARY:Torneo de Año Nuevo | New Year's Tournament
@@ -3032,7 +3013,7 @@ URL:https://www.golfdirecto.com/micro/game/6ae48b3a524439f9a107fbd8/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:5d7f8b29845f6da4de95@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20270103
 DTEND;VALUE=DATE:20270104
 SUMMARY:New Year Stableford
@@ -3047,7 +3028,7 @@ URL:https://www.golfdirecto.com/micro/game/6ae638724e69f3adf9365a8e/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:d6a67e7953b106e09037@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20270106
 DTEND;VALUE=DATE:20270107
 SUMMARY:Epiphany Stableford / Día de Reyes
@@ -3061,7 +3042,7 @@ URL:https://www.golfdirecto.com/micro/game/6ae638e38f4f6415e0ba2627/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:996df3eaf2b94320cd97@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20270110
 DTEND;VALUE=DATE:20270111
 SUMMARY:3ª Prueba Circuito Academia
@@ -3077,7 +3058,7 @@ URL:https://www.golfdirecto.com/micro/game/6afc7809669bd90e3951f9b2/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:48af65c245f6ce7fd3ff@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20270110
 DTEND;VALUE=DATE:20270111
 SUMMARY:3ª Prueba Metas Amigos de Hato Verde
@@ -3092,7 +3073,7 @@ URL:https://www.golfdirecto.com/micro/game/6a980fa19678d915e8f50806/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:d46c284059a2a4fafcd3@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20270116
 DTEND;VALUE=DATE:20270117
 SUMMARY:Captain And Past Captains Challenge
@@ -3106,7 +3087,7 @@ URL:https://www.golfdirecto.com/micro/game/6ae6396a4e69f3adf95822ac/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:57ecf94b789631fa5a4b@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20270129
 DTEND;VALUE=DATE:20270130
 SUMMARY:Away - Santa Maria - Ladies Western League
@@ -3121,7 +3102,7 @@ URL:https://www.golfdirecto.com/micro/game/6ab6f97a8cfbb19c03fca11e/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:fa5ca8b80b8413363b2d@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20270130
 DTEND;VALUE=DATE:20270201
 SUMMARY:The Club Handicap Salver
@@ -3135,7 +3116,7 @@ URL:https://www.golfdirecto.com/micro/game/6ae639f34e69f3adf969b287/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:858afd2bf23350e5b4fe@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20270131
 DTEND;VALUE=DATE:20270201
 SUMMARY:Quadrangular At Aloha
@@ -3149,7 +3130,7 @@ URL:https://www.golfdirecto.com/micro/game/6aa3b0ef4304e83a56842547/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:cdef426c5210979b581f@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20270131
 DTEND;VALUE=DATE:20270201
 SUMMARY:T3 La Cala Junior Golf League 26-27
@@ -3164,7 +3145,7 @@ URL:https://www.golfdirecto.com/micro/game/6adf7657b0e08ac015af1696/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:9fe4f99a25fa98d4975a@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20270213
 DTEND;VALUE=DATE:20270214
 SUMMARY:Valetine'S Day
@@ -3178,7 +3159,7 @@ URL:https://www.golfdirecto.com/micro/game/6ae63a8a8f4f6415e0ec3703/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:f2d5fc1dcc2e5085cf76@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20270214
 DTEND;VALUE=DATE:20270215
 SUMMARY:4ª Prueba Circuito Academia
@@ -3194,7 +3175,7 @@ URL:https://www.golfdirecto.com/micro/game/6afc7849669bd90e395da7f7/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:f887680d09179cc2eec5@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20270214
 DTEND;VALUE=DATE:20270215
 SUMMARY:4ª Prueba Metas Amigos de Hato Verde
@@ -3209,7 +3190,7 @@ URL:https://www.golfdirecto.com/micro/game/6a9810d09678d915e85dee85/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:dd67b1da065cb196fa16@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20270214
 DTEND;VALUE=DATE:20270215
 SUMMARY:St Valentine´s Day Competition
@@ -3223,7 +3204,7 @@ URL:https://www.golfdirecto.com/micro/game/6aa3c70e4304e83a56a5766b/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:e5ece758b57c18954c90@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20270220
 DTEND;VALUE=DATE:20270221
 SUMMARY:Carnival Scramble
@@ -3237,7 +3218,7 @@ URL:https://www.golfdirecto.com/micro/game/6ae63b158f4f6415e0049e96/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:12bb432b77609c68140c@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20270221
 DTEND;VALUE=DATE:20270222
 SUMMARY:Quadrangular At RCG las Brisas
@@ -3251,7 +3232,7 @@ URL:https://www.golfdirecto.com/micro/game/6aa3c9404304e83a5641f46e/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:065ded78153bf9906208@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20270221
 DTEND;VALUE=DATE:20270222
 SUMMARY:T4 La Cala Junior Golf League 26-27
@@ -3266,7 +3247,7 @@ URL:https://www.golfdirecto.com/micro/game/6adf76e3b0e08ac015d6817e/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:40861fec96ab130577a1@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20270228
 DTEND;VALUE=DATE:20270301
 SUMMARY:5ª Prueba Circuito Academia
@@ -3282,7 +3263,7 @@ URL:https://www.golfdirecto.com/micro/game/6afc78a7669bd90e396b0353/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:469d0f2386f238b7655b@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20270228
 DTEND;VALUE=DATE:20270301
 SUMMARY:5ª Prueba Metas Amigos de Hato Verde
@@ -3297,7 +3278,7 @@ URL:https://www.golfdirecto.com/micro/game/6a98114b9678d915e882194e/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:8b5398b2fdfa0683faab@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20270228
 DTEND;VALUE=DATE:20270301
 SUMMARY:Andalucia Day
@@ -3311,7 +3292,7 @@ URL:https://www.golfdirecto.com/micro/game/6ae63b3f4e69f3adf990df25/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:0b4a2d911388fbb268e9@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20270228
 DTEND;VALUE=DATE:20270301
 SUMMARY:Andalucia Day Flag Competition (Members)
@@ -3325,7 +3306,7 @@ URL:https://www.golfdirecto.com/micro/game/6aa3c4c08b9e3b6bed77fbbd/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:b31958d2a158f8c3ff3a@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20270314
 DTEND;VALUE=DATE:20270315
 SUMMARY:Alamo Golf Society
@@ -3340,7 +3321,7 @@ URL:https://www.golfdirecto.com/micro/game/6ad6075d6a3a1de0ecaa19d7/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:426c93edd42887456e87@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20270320
 DTEND;VALUE=DATE:20270321
 SUMMARY:Dc Memorial Trophy
@@ -3354,7 +3335,7 @@ URL:https://www.golfdirecto.com/micro/game/6aa433c706a21397eced9773/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:57ce90c935e7f39affbf@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20270325
 DTEND;VALUE=DATE:20270326
 SUMMARY:Captains Farewell (Members)
@@ -3368,7 +3349,7 @@ URL:https://www.golfdirecto.com/micro/game/6aa4308e06a21397ec7ab4d2/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:d21c18ad9371bd6b1e9a@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20270327
 DTEND;VALUE=DATE:20270328
 SUMMARY:Captains Drive In
@@ -3382,7 +3363,7 @@ URL:https://www.golfdirecto.com/micro/game/6aa4314006a21397ec90e0c5/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:49bfb5071e71e63e246b@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20270329
 DTEND;VALUE=DATE:20270330
 SUMMARY:Easter Monday Texas Captains Pick
@@ -3396,7 +3377,7 @@ URL:https://www.golfdirecto.com/micro/game/6aa4321d06a21397ecae30b8/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:92a453ee6d502612f85c@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20270409
 DTEND;VALUE=DATE:20270410
 SUMMARY:III The San Roque Club Masters 2027( Abierto / Open)
@@ -3410,7 +3391,7 @@ URL:https://www.golfdirecto.com/micro/game/69da0d13c25629fe68858bde/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:901ae791b9a66022aad0@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20270425
 DTEND;VALUE=DATE:20270426
 SUMMARY:6ª Prueba Circuito Academia
@@ -3426,7 +3407,7 @@ URL:https://www.golfdirecto.com/micro/game/6afc78db669bd90e397667b1/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:d77afd7242e49da24bf4@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20270425
 DTEND;VALUE=DATE:20270426
 SUMMARY:6ª Prueba Metas Amigos de Hato Verde
@@ -3441,7 +3422,7 @@ URL:https://www.golfdirecto.com/micro/game/6a98117b9678d915e8925d5b/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:c5e07ff28456b1d0ad07@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20270516
 DTEND;VALUE=DATE:20270517
 SUMMARY:7ª Prueba Circuito Academia
@@ -3457,7 +3438,7 @@ URL:https://www.golfdirecto.com/micro/game/6afc79a5669bd90e399d8f4c/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:029d9c7bab7fb4b7b5d1@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20270516
 DTEND;VALUE=DATE:20270517
 SUMMARY:7ª Prueba Metas Amigos de Hato Verde
@@ -3472,7 +3453,7 @@ URL:https://www.golfdirecto.com/micro/game/6af0cce918fc8072fbc1942c/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:ccc693afdf707ba8557e@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20270606
 DTEND;VALUE=DATE:20270607
 SUMMARY:Gran Final Prueba Circuito Academia
@@ -3488,7 +3469,7 @@ URL:https://www.golfdirecto.com/micro/game/6afc79d8669bd90e39a42c86/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:ad365ba3a23fa53c27d1@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20270606
 DTEND;VALUE=DATE:20270607
 SUMMARY:Prueba Final Metas Amigos de Hato Verde

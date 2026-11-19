@@ -11,7 +11,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:1c72abebba8c2b5f7925@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:Campeonato Juvenil de la Faisanera (Liguilla Sub21)
@@ -25,8 +25,36 @@ STATUS:CONFIRMED
 URL:https://www.nextcaddy.com/tour/73672
 END:VEVENT
 BEGIN:VEVENT
+UID:9b89ce17d24dce870c9e@banderin.es
+DTSTAMP:20261119T083833Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:Caos Gastrogolf
+LOCATION:Air Golf Club\, Vegas de Matute\, Segovia
+DESCRIPTION:Social de club - Scramble - Parejas\nFicha oficial: https://www
+ .golfdirecto.com/micro/game/6afeb03dfa1568a5cdb778ca/summary\nConfirma fec
+ has y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6afeb03dfa1568a5cdb778ca/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:a169c0438e0cf8b032eb@banderin.es
+DTSTAMP:20261119T083833Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:Caos Grastrogolf 2026-2027
+LOCATION:Air Golf Club\, Vegas de Matute\, Segovia
+DESCRIPTION:Social de club - Scramble - Parejas\nFicha oficial: https://www
+ .golfdirecto.com/micro/game/6afdd71f04837c6e595ef66d/summary\nConfirma fec
+ has y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6afdd71f04837c6e595ef66d/summary
+END:VEVENT
+BEGIN:VEVENT
 UID:7fa356b277b704c6acae@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261220
 SUMMARY:Torneo de Navidad
@@ -37,5 +65,19 @@ DESCRIPTION:Social de club - Fourball - Parejas\nFicha oficial: https://www
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6ac5f4c64865b8bb77afc948/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:2730da2b714ccf602cff@banderin.es
+DTSTAMP:20261119T083833Z
+DTSTART;VALUE=DATE:20270417
+DTEND;VALUE=DATE:20270418
+SUMMARY:Mulligan 26/27 - Faisanera
+LOCATION:C.D. la Faisanera Golf Segovia\, Palazuelos de Eresma\, Segovia
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/6afe8ebcfa1568a5cd20abbc/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6afe8ebcfa1568a5cd20abbc/summary
 END:VEVENT
 END:VCALENDAR

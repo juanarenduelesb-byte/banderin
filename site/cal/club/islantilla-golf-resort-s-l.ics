@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Banderin//Torneos de golf//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Banderín - Islantilla Golf Resort\, S.l
+X-WR-CALDESC:Torneos de golf: Islantilla Golf Resort\, S.l. Se actualiza ca
+ da mañana. https://banderin.es
+X-WR-TIMEZONE:Europe/Madrid
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:858acfb3a118c03832df@banderin.es
+DTSTAMP:20261119T083833Z
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+SUMMARY:5ª Jornada Lpgh XXVI Edición.(Islantilla-Portil)
+LOCATION:Islantilla Golf Resort\, S.l\, Lepe\, Huelva
+DESCRIPTION:Social de club - Fourball - Parejas\nFicha oficial: https://www
+ .golfdirecto.com/micro/game/6afe33589c9e80fccffbf069/summary\nConfirma fec
+ has y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6afe33589c9e80fccffbf069/summary
+END:VEVENT
+END:VCALENDAR

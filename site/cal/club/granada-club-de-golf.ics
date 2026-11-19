@@ -10,23 +10,8 @@ X-WR-TIMEZONE:Europe/Madrid
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:1bb4be115e9e6976e97d@banderin.es
-DTSTAMP:20261118T132317Z
-DTSTART;VALUE=DATE:20261118
-DTEND;VALUE=DATE:20261119
-SUMMARY:Liga Senior Noviembre 26
-LOCATION:Granada Club de Golf\, Las Gabias\, Granada
-DESCRIPTION:Senior - Stableford - Individual\nInscripción: abre el 6 de no
- viembre\, cierra el 16 de noviembre.\nPrecio: 35 €.\nFicha oficial: http
- s://www.golfdirecto.com/micro/game/6aec39995ca5a43533c02ef6/summary\nConfi
- rma fechas y condiciones en la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.golfdirecto.com/micro/game/6aec39995ca5a43533c02ef6/summary
-END:VEVENT
-BEGIN:VEVENT
 UID:122418ef5993b2414f52@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:Liga Damas Noviembre26
@@ -42,7 +27,7 @@ URL:https://www.golfdirecto.com/micro/game/6af187268527252f607cf775/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:2676be0bb282a78715f2@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:Peña Parejas Noviembre

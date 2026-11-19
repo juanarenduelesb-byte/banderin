@@ -10,8 +10,50 @@ X-WR-TIMEZONE:Europe/Madrid
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
+UID:782afc434d0cdabb1548@banderin.es
+DTSTAMP:20261119T083833Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:FTP 2026 - Handicap
+LOCATION:Club de Golf Alcanada\, Alcudia\, Illes Balears
+DESCRIPTION:Social de club - Fourball - Parejas\nFicha oficial: https://www
+ .golfdirecto.com/micro/game/6afc78cc669bd90e3974045d/summary\nConfirma fec
+ has y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6afc78cc669bd90e3974045d/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:ed7e7d9787fb747f88d0@banderin.es
+DTSTAMP:20261119T083833Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:FTP 2026 - Scratch
+LOCATION:Club de Golf Alcanada\, Alcudia\, Illes Balears
+DESCRIPTION:Social de club - Fourball - Parejas\nFicha oficial: https://www
+ .golfdirecto.com/micro/game/6aeb03c6e86c4f3aae21962c/summary\nConfirma fec
+ has y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6aeb03c6e86c4f3aae21962c/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:11a24ed58f6359d30fb6@banderin.es
+DTSTAMP:20261119T083833Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:Ftp 2026 - Begleitungsturnier
+LOCATION:Club de Golf Alcanada\, Alcudia\, Illes Balears
+DESCRIPTION:Social de club - Fourball - Parejas\nFicha oficial: https://www
+ .golfdirecto.com/micro/game/6afc7544669bd90e39be8627/summary\nConfirma fec
+ has y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6afc7544669bd90e39be8627/summary
+END:VEVENT
+BEGIN:VEVENT
 UID:c2aa9f0743bc1282cd0b@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
 SUMMARY:Gem Winter Slam
@@ -26,7 +68,7 @@ URL:https://www.golfdirecto.com/micro/game/6ad8ba74ad3db58f4cf1da7d/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:4086d40c63093cca748e@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20270107
 DTEND;VALUE=DATE:20270108
 SUMMARY:Gem Winter Slam

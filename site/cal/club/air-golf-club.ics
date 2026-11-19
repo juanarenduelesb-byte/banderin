@@ -10,8 +10,36 @@ X-WR-TIMEZONE:Europe/Madrid
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
+UID:9b89ce17d24dce870c9e@banderin.es
+DTSTAMP:20261119T083833Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:Caos Gastrogolf
+LOCATION:Air Golf Club\, Vegas de Matute\, Segovia
+DESCRIPTION:Social de club - Scramble - Parejas\nFicha oficial: https://www
+ .golfdirecto.com/micro/game/6afeb03dfa1568a5cdb778ca/summary\nConfirma fec
+ has y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6afeb03dfa1568a5cdb778ca/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:a169c0438e0cf8b032eb@banderin.es
+DTSTAMP:20261119T083833Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:Caos Grastrogolf 2026-2027
+LOCATION:Air Golf Club\, Vegas de Matute\, Segovia
+DESCRIPTION:Social de club - Scramble - Parejas\nFicha oficial: https://www
+ .golfdirecto.com/micro/game/6afdd71f04837c6e595ef66d/summary\nConfirma fec
+ has y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6afdd71f04837c6e595ef66d/summary
+END:VEVENT
+BEGIN:VEVENT
 UID:7fa356b277b704c6acae@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261220
 SUMMARY:Torneo de Navidad

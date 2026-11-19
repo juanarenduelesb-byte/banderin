@@ -1,0 +1,54 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Banderin//Torneos de golf//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Banderín - La Morgal Sports
+X-WR-CALDESC:Torneos de golf: La Morgal Sports. Se actualiza cada mañana. 
+ https://banderin.es
+X-WR-TIMEZONE:Europe/Madrid
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:6367b0d971aeeee6628d@banderin.es
+DTSTAMP:20261119T083833Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:Mas y Mas viernes
+LOCATION:La Morgal Sports
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/6afdba989c9e80fccfa72889/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6afdba989c9e80fccfa72889/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:074f1261f8579ad6c902@banderin.es
+DTSTAMP:20261119T083833Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:Mas y Mas Sábado
+LOCATION:La Morgal Sports
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/6afde15b04837c6e59c75467/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6afde15b04837c6e59c75467/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:cd6bfde11555fef098ef@banderin.es
+DTSTAMP:20261119T083833Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:Mas y Mas domingo
+LOCATION:La Morgal Sports
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/6afde44a9c9e80fccf0729b7/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6afde44a9c9e80fccf0729b7/summary
+END:VEVENT
+END:VCALENDAR

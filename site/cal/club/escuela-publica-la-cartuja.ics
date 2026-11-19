@@ -10,22 +10,8 @@ X-WR-TIMEZONE:Europe/Madrid
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:1ef6cff17bf3ad75f4b0@banderin.es
-DTSTAMP:20261118T132317Z
-DTSTART;VALUE=DATE:20261118
-DTEND;VALUE=DATE:20261119
-SUMMARY:Killer´s Noviembre 2026
-LOCATION:Escuela Pública la Cartuja\, Sevilla\, Sevilla
-DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
- //www.nextcaddy.com/tour/75415\nConfirma fechas y condiciones en la web de
- l organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.nextcaddy.com/tour/75415
-END:VEVENT
-BEGIN:VEVENT
 UID:cb91e76aabf13b1446bb@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261120
 SUMMARY:VI Liga Femenina Golf Cartuja Jª2 19/11/26
@@ -38,8 +24,22 @@ STATUS:CONFIRMED
 URL:https://www.nextcaddy.com/tour/75438
 END:VEVENT
 BEGIN:VEVENT
+UID:3484364d5a850f9bf6f8@banderin.es
+DTSTAMP:20261119T083833Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:10ª Jornada XXI Liga Tirantes Verdes 20/11/26
+LOCATION:Escuela Pública la Cartuja\, Sevilla\, Sevilla
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.nextcaddy.com/tour/75451\nConfirma fechas y condiciones en la web de
+ l organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nextcaddy.com/tour/75451
+END:VEVENT
+BEGIN:VEVENT
 UID:c31207b1bfa0a05278f3@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:VIII Open Femenino la Cartuja 2026
@@ -53,7 +53,7 @@ URL:https://www.nextcaddy.com/tour/75321
 END:VEVENT
 BEGIN:VEVENT
 UID:20bc8e561e59a14b7a60@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:5ª Jornada Domingo Liga Interna Golf Otoño 2026-2027
@@ -67,7 +67,7 @@ URL:https://www.nextcaddy.com/tour/75428
 END:VEVENT
 BEGIN:VEVENT
 UID:14d45fa41303f52417bb@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261123
 DTEND;VALUE=DATE:20261124
 SUMMARY:5ª Jornada Lunes Liga Interna Golf Otoño 2026-2027
@@ -78,5 +78,19 @@ DESCRIPTION:Circuito comercial - Stableford - Individual\nFicha oficial: ht
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.nextcaddy.com/tour/75429
+END:VEVENT
+BEGIN:VEVENT
+UID:93cef649a945b85f7b37@banderin.es
+DTSTAMP:20261119T083833Z
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261206
+SUMMARY:Torneo Fin de Escuela Golf Otoño 26-27
+LOCATION:Escuela Pública la Cartuja\, Sevilla\, Sevilla
+DESCRIPTION:Juvenil - Stableford - Individual\nFicha oficial: https://www.n
+ extcaddy.com/tour/75446\nConfirma fechas y condiciones en la web del organ
+ izador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nextcaddy.com/tour/75446
 END:VEVENT
 END:VCALENDAR

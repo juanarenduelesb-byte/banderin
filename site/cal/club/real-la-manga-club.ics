@@ -10,36 +10,22 @@ X-WR-TIMEZONE:Europe/Madrid
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:70ff675adb4d7655cdce@banderin.es
-DTSTAMP:20261118T132317Z
-DTSTART;VALUE=DATE:20261118
-DTEND;VALUE=DATE:20261119
-SUMMARY:Perra Galga 18-11-26
+UID:a6fe57e021de674c3686@banderin.es
+DTSTAMP:20261119T083833Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:Individual Stableford Competition- 20.11.2026 -West Course
 LOCATION:Real la Manga Club\, Los Belones\, Murcia
 DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
- //www.golfdirecto.com/micro/game/6afcc98a669bd90e390c3c9e/summary\nConfirm
+ //www.golfdirecto.com/micro/game/6afe9752fa1568a5cdc77cd1/summary\nConfirm
  a fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-URL:https://www.golfdirecto.com/micro/game/6afcc98a669bd90e390c3c9e/summary
-END:VEVENT
-BEGIN:VEVENT
-UID:101f9590c20633caa2c4@banderin.es
-DTSTAMP:20261118T132317Z
-DTSTART;VALUE=DATE:20261118
-DTEND;VALUE=DATE:20261119
-SUMMARY:Rglmc Mid Month 4bbb - 18.11.2026- North Course
-LOCATION:Real la Manga Club\, Los Belones\, Murcia
-DESCRIPTION:Social de club - Fourball - Parejas\nFicha oficial: https://www
- .golfdirecto.com/micro/game/6af9b3d3440203a8206bb299/summary\nConfirma fec
- has y condiciones en la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.golfdirecto.com/micro/game/6af9b3d3440203a8206bb299/summary
+URL:https://www.golfdirecto.com/micro/game/6afe9752fa1568a5cdc77cd1/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:95f7323f2b9590cd9e4e@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:Alamo Golf Society
@@ -54,7 +40,7 @@ URL:https://www.golfdirecto.com/micro/game/6afc50d0b82c45b9395c2a51/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:776525ffa2a7ef8b0f19@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261214
 SUMMARY:I Match Cuadrangular - Fgcv/Rfag/Fgclm/Fgrm
@@ -68,7 +54,7 @@ URL:https://www.golfdirecto.com/micro/game/6ae88192020a09e5bde8f4c2/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:bb4337ef3ba869288008@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:Mensual Navidad Club Carthago
@@ -83,7 +69,7 @@ URL:https://www.golfdirecto.com/micro/game/6afccaf6698e8624fb8f7873/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:4a0ed3af113afd47538c@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
 SUMMARY:RGA December Team Competition

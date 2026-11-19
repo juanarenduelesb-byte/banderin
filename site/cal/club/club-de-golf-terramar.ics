@@ -10,24 +10,8 @@ X-WR-TIMEZONE:Europe/Madrid
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:7fdbdc624a420746f49f@banderin.es
-DTSTAMP:20261118T132317Z
-DTSTART;VALUE=DATE:20261118
-DTEND;VALUE=DATE:20261119
-SUMMARY:8è Interclubs Masculí de Catalunya 2026 (Terramar)
-LOCATION:Club de Golf Terramar\, Sitges\, Barcelona
-DESCRIPTION:Clubes y equipos - Equipos\nFicha oficial: https://www.catgolf.
- com/es/campeonatos/8e-interclubs-masculi-de-catalunya-2026-terramar-2026-1
- 1-18\nConfirma fechas y condiciones en la web del organizador. Vía Bander
- ín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.catgolf.com/es/campeonatos/8e-interclubs-masculi-de-catalun
- ya-2026-terramar-2026-11-18
-END:VEVENT
-BEGIN:VEVENT
 UID:0eb0e6dbba5dca2c7e29@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:Trofeo Infantil Navideño
@@ -42,7 +26,7 @@ URL:https://www.catgolf.com/es/campeonatos/trofeo-infantil-navideno-2026-12
 END:VEVENT
 BEGIN:VEVENT
 UID:ab47151330a0b20d4348@banderin.es
-DTSTAMP:20261118T132317Z
+DTSTAMP:20261119T083833Z
 DTSTART;VALUE=DATE:20270709
 DTEND;VALUE=DATE:20270712
 SUMMARY:Campionat de Catalunya Absolut 2027 (WAGR)
