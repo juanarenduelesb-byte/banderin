@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Banderin//Torneos de golf//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Banderín - Golf Guadiana
+X-WR-CALDESC:Torneos de golf: Golf Guadiana. Se actualiza cada mañana. htt
+ ps://banderin.es
+X-WR-TIMEZONE:Europe/Madrid
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:ff9a40051e861066d2dc@banderin.es
+DTSTAMP:20261119T132336Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:Torneo "Joyeria Cuevas Moreno"
+LOCATION:Golf Guadiana\, Badajoz\, Badajoz
+DESCRIPTION:Social de club - Medal Play - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/6afed58cfa1568a5cdf3c127/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6afed58cfa1568a5cdf3c127/summary
+END:VEVENT
+END:VCALENDAR

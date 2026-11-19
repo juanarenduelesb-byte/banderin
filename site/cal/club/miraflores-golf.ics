@@ -11,7 +11,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:47a21108e636d8d20a6d@banderin.es
-DTSTAMP:20261119T083833Z
+DTSTAMP:20261119T132336Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:Presidents Putter Board Competition (Medal)
@@ -26,7 +26,7 @@ URL:https://www.golfdirecto.com/micro/game/6aedf32f1ab4f21da641a12a/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:408d1ef7e285bb34d077@banderin.es
-DTSTAMP:20261119T083833Z
+DTSTAMP:20261119T132336Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:Satcomp21/11
@@ -40,7 +40,7 @@ URL:https://www.nextcaddy.com/tour/75449
 END:VEVENT
 BEGIN:VEVENT
 UID:e94c8e46f4a5c87deeab@banderin.es
-DTSTAMP:20261119T083833Z
+DTSTAMP:20261119T132336Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:Ladies Individual Stableford Qualifier
@@ -52,5 +52,20 @@ DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6aedc0f602e839445a7f26ef/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:539ac21c95826c28c20e@banderin.es
+DTSTAMP:20261119T132336Z
+DTSTART;VALUE=DATE:20261202
+DTEND;VALUE=DATE:20261203
+SUMMARY:Christmas Pairs Scramble
+LOCATION:Miraflores Golf\, Mijas Costa\, Málaga
+DESCRIPTION:Social de club - Scramble - Parejas\nInscripción: abre el 19 d
+ e noviembre\, cierra el 29 de noviembre.\nFicha oficial: https://www.golfd
+ irecto.com/micro/game/6afec04be64dbfd6f4e5c194/summary\nConfirma fechas y 
+ condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6afec04be64dbfd6f4e5c194/summary
 END:VEVENT
 END:VCALENDAR

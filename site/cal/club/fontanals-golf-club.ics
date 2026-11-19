@@ -11,7 +11,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:e4177d4c86de57bf650e@banderin.es
-DTSTAMP:20261119T083833Z
+DTSTAMP:20261119T132336Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:Torneo GARDA
@@ -25,7 +25,7 @@ URL:https://www.catgolf.com/es/campeonatos/torneo-garda
 END:VEVENT
 BEGIN:VEVENT
 UID:dd361992d2fe83bf4a1c@banderin.es
-DTSTAMP:20261119T083833Z
+DTSTAMP:20261119T132336Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Torneo Golf Passion
@@ -39,7 +39,7 @@ URL:https://www.catgolf.com/es/campeonatos/torneo-golf-passion
 END:VEVENT
 BEGIN:VEVENT
 UID:971a452a3f48706ae856@banderin.es
-DTSTAMP:20261119T083833Z
+DTSTAMP:20261119T132336Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:Torneo Navideño
@@ -52,8 +52,22 @@ STATUS:CONFIRMED
 URL:https://www.catgolf.com/es/campeonatos/torneo-navideno
 END:VEVENT
 BEGIN:VEVENT
+UID:7d8ccee97d92edb28602@banderin.es
+DTSTAMP:20261119T132336Z
+DTSTART;VALUE=DATE:20270103
+DTEND;VALUE=DATE:20270104
+SUMMARY:Torneo de Reyes "El Décimo"
+LOCATION:Fontanals Golf Club\, Fontanals de Cerdanya\, Girona
+DESCRIPTION:Social de club - Individual\nFicha oficial: https://www.catgolf
+ .com/es/campeonatos/torneo-de-reyes-el-decimo\nConfirma fechas y condicion
+ es en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.catgolf.com/es/campeonatos/torneo-de-reyes-el-decimo
+END:VEVENT
+BEGIN:VEVENT
 UID:0569ecf840abd9fd8320@banderin.es
-DTSTAMP:20261119T083833Z
+DTSTAMP:20261119T132336Z
 DTSTART;VALUE=DATE:20270419
 DTEND;VALUE=DATE:20270421
 SUMMARY:CATPROTOUR DOBLES 2027 (Fontanals)
@@ -65,5 +79,22 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.catgolf.com/es/campeonatos/catprotour-dobles-2027-fontanals
  -2027-04-19
+END:VEVENT
+BEGIN:VEVENT
+UID:2a19b8ccafc61f4e3c55@banderin.es
+DTSTAMP:20261119T132336Z
+DTSTART;VALUE=DATE:20270609
+DTEND;VALUE=DATE:20270610
+SUMMARY:53è Interclubs Femeni de Catalunya - Liguilla 2027 (Fontanals)
+LOCATION:Fontanals Golf Club\, Fontanals de Cerdanya\, Girona
+DESCRIPTION:Clubes y equipos - Equipos\nInscripción: abre el 19 de noviemb
+ re\, cierra el 19 de noviembre.\nFicha oficial: https://www.catgolf.com/es
+ /campeonatos/53e-interclubs-femeni-de-catalunya-liguilla-2027-fontanals-20
+ 27-06-09\nConfirma fechas y condiciones en la web del organizador. Vía Ba
+ nderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.catgolf.com/es/campeonatos/53e-interclubs-femeni-de-catalun
+ ya-liguilla-2027-fontanals-2027-06-09
 END:VEVENT
 END:VCALENDAR

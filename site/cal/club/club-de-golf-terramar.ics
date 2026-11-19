@@ -11,7 +11,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:0eb0e6dbba5dca2c7e29@banderin.es
-DTSTAMP:20261119T083833Z
+DTSTAMP:20261119T132336Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:Trofeo Infantil Navideño
@@ -25,8 +25,24 @@ URL:https://www.catgolf.com/es/campeonatos/trofeo-infantil-navideno-2026-12
  -12
 END:VEVENT
 BEGIN:VEVENT
+UID:62e955c71ff04de1f251@banderin.es
+DTSTAMP:20261119T132336Z
+DTSTART;VALUE=DATE:20270602
+DTEND;VALUE=DATE:20270603
+SUMMARY:31è Quadrangular Femení de Catalunya 2027 (Terramar)
+LOCATION:Club de Golf Terramar\, Sitges\, Barcelona
+DESCRIPTION:Absoluto - Individual\nFicha oficial: https://www.catgolf.com/e
+ s/campeonatos/31e-quadrangular-femeni-de-catalunya-2027-terramar-2027-06-0
+ 2\nConfirma fechas y condiciones en la web del organizador. Vía Banderín
+ .
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.catgolf.com/es/campeonatos/31e-quadrangular-femeni-de-catal
+ unya-2027-terramar-2027-06-02
+END:VEVENT
+BEGIN:VEVENT
 UID:ab47151330a0b20d4348@banderin.es
-DTSTAMP:20261119T083833Z
+DTSTAMP:20261119T132336Z
 DTSTART;VALUE=DATE:20270709
 DTEND;VALUE=DATE:20270712
 SUMMARY:Campionat de Catalunya Absolut 2027 (WAGR)

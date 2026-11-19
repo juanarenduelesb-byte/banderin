@@ -10,23 +10,8 @@ X-WR-TIMEZONE:Europe/Madrid
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:9722c74c80fa817ff61d@banderin.es
-DTSTAMP:20261119T083833Z
-DTSTART;VALUE=DATE:20261122
-DTEND;VALUE=DATE:20261123
-SUMMARY:2p XI Liga de Dobles
-LOCATION:Club de Golf Lugo S.a.\, Ribas de Miño (san Mamede) (lugo)\, Lugo
-DESCRIPTION:Social de club - Scramble - Parejas\nInscripción: abre el 13 d
- e noviembre\, cierra el 21 de noviembre.\nFicha oficial: https://www.golfd
- irecto.com/micro/game/6af590e306089eb2d9be793b/summary\nConfirma fechas y 
- condiciones en la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.golfdirecto.com/micro/game/6af590e306089eb2d9be793b/summary
-END:VEVENT
-BEGIN:VEVENT
 UID:f60c72402f867b3a8ac6@banderin.es
-DTSTAMP:20261119T083833Z
+DTSTAMP:20261119T132336Z
 DTSTART;VALUE=DATE:20261123
 DTEND;VALUE=DATE:20261124
 SUMMARY:Abierto de Parejas - Fisioterapia a Man
@@ -38,5 +23,20 @@ DESCRIPTION:Social de club - Fourball - Parejas\nInscripción: abre el 16 d
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6afacf895445bc1029fd25e8/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:861902f1f7fe181852b9@banderin.es
+DTSTAMP:20261119T132336Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:2p XI Liga de Dobles
+LOCATION:Club de Golf Lugo S.a.\, Ribas de Miño (san Mamede) (lugo)\, Lugo
+DESCRIPTION:Social de club - Scramble - Parejas\nInscripción: abre el 20 d
+ e noviembre\, cierra el 28 de noviembre.\nFicha oficial: https://www.golfd
+ irecto.com/micro/game/6afee800fb9c521b04eb8bee/summary\nConfirma fechas y 
+ condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6afee800fb9c521b04eb8bee/summary
 END:VEVENT
 END:VCALENDAR

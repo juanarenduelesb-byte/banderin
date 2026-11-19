@@ -11,7 +11,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:f14cee7ced673658fc99@banderin.es
-DTSTAMP:20261119T083833Z
+DTSTAMP:20261119T132336Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:Torneo Padres e Hijos
@@ -25,7 +25,7 @@ URL:https://www.catgolf.com/es/campeonatos/torneo-padres-e-hijos-2026-11-22
 END:VEVENT
 BEGIN:VEVENT
 UID:19bba16304f1e5baa18e@banderin.es
-DTSTAMP:20261119T083833Z
+DTSTAMP:20261119T132336Z
 DTSTART;VALUE=DATE:20261215
 DTEND;VALUE=DATE:20261216
 SUMMARY:Open Vallromanes Golf & brunch
@@ -37,5 +37,22 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.catgolf.com/es/campeonatos/open-vallromanes-golf-brunch-202
  6-12-15
+END:VEVENT
+BEGIN:VEVENT
+UID:fe317bab4a3e649ab7b2@banderin.es
+DTSTAMP:20261119T132336Z
+DTSTART;VALUE=DATE:20270505
+DTEND;VALUE=DATE:20270506
+SUMMARY:53è Interclubs Femeni de Catalunya - Liguilla 2027 (Vallromanes)
+LOCATION:Club de Golf Vallromanes\, Vallromanes\, Barcelona
+DESCRIPTION:Clubes y equipos - Equipos\nInscripción: abre el 19 de noviemb
+ re\, cierra el 19 de noviembre.\nFicha oficial: https://www.catgolf.com/es
+ /campeonatos/53e-interclubs-femeni-de-catalunya-liguilla-2027-vallromanes-
+ 2027-05-05\nConfirma fechas y condiciones en la web del organizador. Vía 
+ Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.catgolf.com/es/campeonatos/53e-interclubs-femeni-de-catalun
+ ya-liguilla-2027-vallromanes-2027-05-05
 END:VEVENT
 END:VCALENDAR

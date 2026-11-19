@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Banderin//Torneos de golf//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Banderín - Baviera Golf
+X-WR-CALDESC:Torneos de golf: Baviera Golf. Se actualiza cada mañana. http
+ s://banderin.es
+X-WR-TIMEZONE:Europe/Madrid
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:270b42abfdaa8a90e3b6@banderin.es
+DTSTAMP:20261119T132336Z
+DTSTART;VALUE=DATE:20261125
+DTEND;VALUE=DATE:20261126
+SUMMARY:Liga Prinzipiante Noviembre
+LOCATION:Baviera Golf\, Caleta de Velez\, Málaga
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  19 de noviembre\, cierra el 19 de noviembre.\nPrecio: Gratis.\nFicha ofic
+ ial: https://www.nextcaddy.com/tour/75466\nConfirma fechas y condiciones e
+ n la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nextcaddy.com/tour/75466
+END:VEVENT
+END:VCALENDAR

@@ -11,7 +11,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:1b6b67c006815226157d@banderin.es
-DTSTAMP:20261119T083833Z
+DTSTAMP:20261119T132336Z
 DTSTART;VALUE=DATE:20270522
 DTEND;VALUE=DATE:20270524
 SUMMARY:Circuit Nacional 5a Categoria 2027 (Aravell)
@@ -23,5 +23,21 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.catgolf.com/es/campeonatos/circuit-nacional-5a-categoria-20
  27-aravell-2027-05-22
+END:VEVENT
+BEGIN:VEVENT
+UID:8f2a9d0edd68e461c40d@banderin.es
+DTSTAMP:20261119T132336Z
+DTSTART;VALUE=DATE:20270605
+DTEND;VALUE=DATE:20270606
+SUMMARY:61è Gran Premi de Catalunya "Hexagonal" 2027 (Aravell)
+LOCATION:Ugolf Aravell Andorra\, Aravell\, Lleida
+DESCRIPTION:Absoluto - Individual\nFicha oficial: https://www.catgolf.com/e
+ s/campeonatos/61e-gran-premi-de-catalunya-hexagonal-2027-aravell-2027-06-0
+ 5\nConfirma fechas y condiciones en la web del organizador. Vía Banderín
+ .
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.catgolf.com/es/campeonatos/61e-gran-premi-de-catalunya-hexa
+ gonal-2027-aravell-2027-06-05
 END:VEVENT
 END:VCALENDAR

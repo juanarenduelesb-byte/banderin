@@ -11,7 +11,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:dc8eafc8666cd525f1b9@banderin.es
-DTSTAMP:20261119T083833Z
+DTSTAMP:20261119T132336Z
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261120
 SUMMARY:Jueves Int Scottish Greensome Sur
@@ -26,7 +26,7 @@ URL:https://www.nextcaddy.com/tour/75410
 END:VEVENT
 BEGIN:VEVENT
 UID:e4b25340aa9ea2bcc0f8@banderin.es
-DTSTAMP:20261119T083833Z
+DTSTAMP:20261119T132336Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 SUMMARY:Holandeses Viernes Sur 20/11/26
@@ -40,8 +40,23 @@ STATUS:CONFIRMED
 URL:https://www.nextcaddy.com/tour/75448
 END:VEVENT
 BEGIN:VEVENT
+UID:69e06656015d95d2185d@banderin.es
+DTSTAMP:20261119T132336Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:Scandic Viernes Sur
+LOCATION:Real Club de Golf Guadalmina\, Guadalmina\, Málaga
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  19 de noviembre\, cierra el 19 de noviembre.\nPrecio: Gratis.\nFicha ofic
+ ial: https://www.nextcaddy.com/tour/75461\nConfirma fechas y condiciones e
+ n la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nextcaddy.com/tour/75461
+END:VEVENT
+BEGIN:VEVENT
 UID:0f1ddea39234ead1f48c@banderin.es
-DTSTAMP:20261119T083833Z
+DTSTAMP:20261119T132336Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 SUMMARY:Western Liga Final 2026
@@ -55,8 +70,23 @@ STATUS:CONFIRMED
 URL:https://www.nextcaddy.com/tour/75443
 END:VEVENT
 BEGIN:VEVENT
+UID:85ede09034e451f59a5e@banderin.es
+DTSTAMP:20261119T132336Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:Texas Scramble 21.11.26 Norte
+LOCATION:Real Club de Golf Guadalmina\, Guadalmina\, Málaga
+DESCRIPTION:Social de club - Scramble - Parejas\nInscripción: abre el 19 d
+ e noviembre\, cierra el 19 de noviembre.\nPrecio: Gratis.\nFicha oficial: 
+ https://www.nextcaddy.com/tour/75464\nConfirma fechas y condiciones en la 
+ web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nextcaddy.com/tour/75464
+END:VEVENT
+BEGIN:VEVENT
 UID:bb96d574952c2c09dcb2@banderin.es
-DTSTAMP:20261119T083833Z
+DTSTAMP:20261119T132336Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:Circuito Benjamín Zona C
@@ -71,7 +101,7 @@ URL:https://www.nextcaddy.com/tour/61232
 END:VEVENT
 BEGIN:VEVENT
 UID:1bd9f3f36ec88adfc228@banderin.es
-DTSTAMP:20261119T083833Z
+DTSTAMP:20261119T132336Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:Circuito Juvenil Zona C
@@ -86,7 +116,7 @@ URL:https://www.nextcaddy.com/tour/61233
 END:VEVENT
 BEGIN:VEVENT
 UID:ba864d429521bd6c79b7@banderin.es
-DTSTAMP:20261119T083833Z
+DTSTAMP:20261119T132336Z
 DTSTART;VALUE=DATE:20261231
 DTEND;VALUE=DATE:20270101
 SUMMARY:Ranking Escuela 2026

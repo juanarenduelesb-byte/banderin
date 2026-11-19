@@ -11,7 +11,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:cdfb4401dd98631fa74e@banderin.es
-DTSTAMP:20261119T083833Z
+DTSTAMP:20261119T132336Z
 DTSTART;VALUE=DATE:20270227
 DTEND;VALUE=DATE:20270301
 SUMMARY:Circuit Nacional 5a Categoria 2027 (Perelada)
@@ -26,7 +26,7 @@ URL:https://www.catgolf.com/es/campeonatos/circuit-nacional-5a-categoria-20
 END:VEVENT
 BEGIN:VEVENT
 UID:5e1c31dc24a883be8f7d@banderin.es
-DTSTAMP:20261119T083833Z
+DTSTAMP:20261119T132336Z
 DTSTART;VALUE=DATE:20270315
 DTEND;VALUE=DATE:20270316
 SUMMARY:CATPROTOUR 2027 (Perelada)
@@ -38,5 +38,21 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.catgolf.com/es/campeonatos/catprotour-2027-perelada-2027-03
  -15
+END:VEVENT
+BEGIN:VEVENT
+UID:93f226602d8ffd08670e@banderin.es
+DTSTAMP:20261119T132336Z
+DTSTART;VALUE=DATE:20270918
+DTEND;VALUE=DATE:20270919
+SUMMARY:61è Gran Premi de Catalunya "Hexagonal" 2027 (Perelada)
+LOCATION:Perelada Golf\, Peralada\, Girona
+DESCRIPTION:Absoluto - Individual\nFicha oficial: https://www.catgolf.com/e
+ s/campeonatos/61e-gran-premi-de-catalunya-hexagonal-2027-perelada-2027-09-
+ 18\nConfirma fechas y condiciones en la web del organizador. Vía Banderí
+ n.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.catgolf.com/es/campeonatos/61e-gran-premi-de-catalunya-hexa
+ gonal-2027-perelada-2027-09-18
 END:VEVENT
 END:VCALENDAR
