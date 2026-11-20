@@ -10,36 +10,8 @@ X-WR-TIMEZONE:Europe/Madrid
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:d82234353d8f002d2201@banderin.es
-DTSTAMP:20261119T132336Z
-DTSTART;VALUE=DATE:20261119
-DTEND;VALUE=DATE:20261120
-SUMMARY:Green Jackets
-LOCATION:Club de Golf Font del Llop\, Monforte del Cid\, Alicante
-DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
- //www.golfdirecto.com/micro/game/6afd94d2098fd9d9a2c7331f/summary\nConfirm
- a fechas y condiciones en la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.golfdirecto.com/micro/game/6afd94d2098fd9d9a2c7331f/summary
-END:VEVENT
-BEGIN:VEVENT
-UID:c7a9f616be4a67d8fa20@banderin.es
-DTSTAMP:20261119T132336Z
-DTSTART;VALUE=DATE:20261119
-DTEND;VALUE=DATE:20261120
-SUMMARY:Thursday Seniors 19th November
-LOCATION:Club de Golf Font del Llop\, Monforte del Cid\, Alicante
-DESCRIPTION:Senior - Stableford - Individual\nFicha oficial: https://www.go
- lfdirecto.com/micro/game/6afeaa0653aeeeb7e5f9db7c/summary\nConfirma fechas
-  y condiciones en la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.golfdirecto.com/micro/game/6afeaa0653aeeeb7e5f9db7c/summary
-END:VEVENT
-BEGIN:VEVENT
 UID:078d7f82604b8aaf8b34@banderin.es
-DTSTAMP:20261119T132336Z
+DTSTAMP:20261120T081442Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 SUMMARY:Wilkinson Yellow Plate 20/11
@@ -52,22 +24,8 @@ STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6afee63e53aeeeb7e5ce75b6/summary
 END:VEVENT
 BEGIN:VEVENT
-UID:0d7fd1be4da0df0a6fed@banderin.es
-DTSTAMP:20261119T132336Z
-DTSTART;VALUE=DATE:20261120
-DTEND;VALUE=DATE:20261121
-SUMMARY:Wilkinson Yellow Plate 20/11
-LOCATION:Club de Golf Font del Llop\, Monforte del Cid\, Alicante
-DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
- //www.golfdirecto.com/micro/game/6afee63efb9c521b04b586bc/summary\nConfirm
- a fechas y condiciones en la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.golfdirecto.com/micro/game/6afee63efb9c521b04b586bc/summary
-END:VEVENT
-BEGIN:VEVENT
 UID:0a23fb5246ae2e9fd75e@banderin.es
-DTSTAMP:20261119T132336Z
+DTSTAMP:20261120T081442Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261130
 SUMMARY:Cto Absoluto de la CV
@@ -82,7 +40,7 @@ URL:https://golfcv.com/torneo_seek/ver-torneo/?torneoid=2719
 END:VEVENT
 BEGIN:VEVENT
 UID:4b410f83c7ef4d34c157@banderin.es
-DTSTAMP:20261119T132336Z
+DTSTAMP:20261120T081442Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261130
 SUMMARY:Jugadores No LV Cto Absoluto de la CV
@@ -97,7 +55,7 @@ URL:https://golfcv.com/torneo_seek/ver-torneo/?torneoid=2778
 END:VEVENT
 BEGIN:VEVENT
 UID:32c2ac8fc8cf0754a8e3@banderin.es
-DTSTAMP:20261119T132336Z
+DTSTAMP:20261120T081442Z
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261220
 SUMMARY:XVII Torneo Navidad Font del Llop 2026
@@ -112,7 +70,7 @@ URL:https://www.golfdirecto.com/micro/game/6ae6fc4f8f4f6415e0ac88d9/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:ac46267536003536d52d@banderin.es
-DTSTAMP:20261119T132336Z
+DTSTAMP:20261120T081442Z
 DTSTART;VALUE=DATE:20261227
 DTEND;VALUE=DATE:20261228
 SUMMARY:XV Torneo Pav@ y UVA Embolsada Vinalopo

@@ -10,22 +10,22 @@ X-WR-TIMEZONE:Europe/Madrid
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:50594f731062ed7829f5@banderin.es
-DTSTAMP:20261119T132336Z
-DTSTART;VALUE=DATE:20261119
-DTEND;VALUE=DATE:20261120
-SUMMARY:Thursday Competition
+UID:d3f88c060d2ffd23d4a9@banderin.es
+DTSTAMP:20261120T081442Z
+DTSTART;VALUE=DATE:20261123
+DTEND;VALUE=DATE:20261124
+SUMMARY:Monday Competition
 LOCATION:Campo de Golf Villamartin\, Orihuela-costa\, Alicante
 DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
- //www.golfdirecto.com/micro/game/6af879fcac1d012c7960bdee/summary\nConfirm
+ //www.golfdirecto.com/micro/game/6aff13c8fb9c521b04a9d242/summary\nConfirm
  a fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-URL:https://www.golfdirecto.com/micro/game/6af879fcac1d012c7960bdee/summary
+URL:https://www.golfdirecto.com/micro/game/6aff13c8fb9c521b04a9d242/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:4ab58a859125971cd0c6@banderin.es
-DTSTAMP:20261119T132336Z
+DTSTAMP:20261120T081442Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:PRO-AM - 125 Aniversario CAMARA ORIHUELA - XIII Memorial Benéfico 

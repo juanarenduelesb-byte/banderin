@@ -11,7 +11,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:e2bc192178c2d17dc0d4@banderin.es
-DTSTAMP:20261119T132336Z
+DTSTAMP:20261120T081442Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:Ryder / Solheim Amateur
@@ -25,7 +25,7 @@ URL:https://www.nextcaddy.com/tour/75455
 END:VEVENT
 BEGIN:VEVENT
 UID:1a22417a687ce5c63aca@banderin.es
-DTSTAMP:20261119T132336Z
+DTSTAMP:20261120T081442Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Campeonato de Madrid Dobles Masculino
@@ -40,7 +40,7 @@ URL:https://www.nextcaddy.com/tour/68355
 END:VEVENT
 BEGIN:VEVENT
 UID:0c8a4704afda9f45956d@banderin.es
-DTSTAMP:20261119T132336Z
+DTSTAMP:20261120T081442Z
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
 SUMMARY:Final Liga Juvenil
@@ -52,5 +52,20 @@ DESCRIPTION:Juvenil - Medal Play - Individual\nInscripción: abre el 13 de
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.nextcaddy.com/tour/68338
+END:VEVENT
+BEGIN:VEVENT
+UID:45a7bab82e7f24d08315@banderin.es
+DTSTAMP:20261120T081442Z
+DTSTART;VALUE=DATE:20261214
+DTEND;VALUE=DATE:20261215
+SUMMARY:VIII Campeonato de Madrid Hickory
+LOCATION:Centro Nacional de Golf\, Madrid\, Madrid
+DESCRIPTION:Absoluto - Medal Play - Individual\nInscripción: abre el 14 de
+  diciembre\, cierra el 14 de diciembre.\nPrecio: Gratis.\nFicha oficial: h
+ ttps://www.nextcaddy.com/tour/75475\nConfirma fechas y condiciones en la w
+ eb del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nextcaddy.com/tour/75475
 END:VEVENT
 END:VCALENDAR

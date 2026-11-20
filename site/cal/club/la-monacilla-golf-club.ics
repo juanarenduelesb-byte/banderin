@@ -3,25 +3,24 @@ VERSION:2.0
 PRODID:-//Banderin//Torneos de golf//ES
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:Banderín - La Monacilla Golf Club
-X-WR-CALDESC:Torneos de golf: La Monacilla Golf Club. Se actualiza cada ma
+X-WR-CALNAME:Banderín - la Monacilla Golf Club
+X-WR-CALDESC:Torneos de golf: la Monacilla Golf Club. Se actualiza cada ma
  ñana. https://banderin.es
 X-WR-TIMEZONE:Europe/Madrid
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:afd00f93a1841dbf2092@banderin.es
-DTSTAMP:20261119T132336Z
-DTSTART;VALUE=DATE:20261121
-DTEND;VALUE=DATE:20261122
-SUMMARY:4ª Jornada Lpgh XXVI Edición (Monacilla-Dunas)
-LOCATION:La Monacilla Golf Club\, Corrales\, Huelva
-DESCRIPTION:Social de club - Fourball - Parejas\nInscripción: abre el 15 d
- e noviembre\, cierra el 19 de noviembre.\nFicha oficial: https://www.golfd
- irecto.com/micro/game/6af76d023f2ad705e4c1ae4e/summary\nConfirma fechas y 
- condiciones en la web del organizador. Vía Banderín.
+UID:8355281cafa9960bd57b@banderin.es
+DTSTAMP:20261120T081442Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:IV Torneo Jesus Castizo
+LOCATION:la Monacilla Golf Club\, Corrales\, Huelva
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.nextcaddy.com/tour/74751\nConfirma fechas y condiciones en la web de
+ l organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-URL:https://www.golfdirecto.com/micro/game/6af76d023f2ad705e4c1ae4e/summary
+URL:https://www.nextcaddy.com/tour/74751
 END:VEVENT
 END:VCALENDAR

@@ -10,22 +10,8 @@ X-WR-TIMEZONE:Europe/Madrid
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:98d0bb590032ed5a1925@banderin.es
-DTSTAMP:20261119T132336Z
-DTSTART;VALUE=DATE:20261119
-DTEND;VALUE=DATE:20261120
-SUMMARY:Final XIV Circuito por Equipos AESGOLF C.V.
-LOCATION:Club de Golf el Plantio\, Bacarot\, Alicante
-DESCRIPTION:Senior - Fourball - Parejas\nFicha oficial: https://www.golfdir
- ecto.com/micro/game/6af98632440203a820598be1/summary\nConfirma fechas y co
- ndiciones en la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.golfdirecto.com/micro/game/6af98632440203a820598be1/summary
-END:VEVENT
-BEGIN:VEVENT
 UID:d4ee2b1f71d2bb4a5ee2@banderin.es
-DTSTAMP:20261119T132336Z
+DTSTAMP:20261120T081442Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:6ª Prueba Liga Par 3 1er Turno
@@ -40,7 +26,7 @@ URL:https://www.golfdirecto.com/micro/game/6ada0c5ba1531ddba47cc06c/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:5e67d5b29b4e1093ecb1@banderin.es
-DTSTAMP:20261119T132336Z
+DTSTAMP:20261120T081442Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:6ª Prueba Liga Par 3 2º Turno
@@ -55,7 +41,7 @@ URL:https://www.golfdirecto.com/micro/game/6ada0d01a1531ddba48cf7b4/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:371b0a9454dda6ab6c7d@banderin.es
-DTSTAMP:20261119T132336Z
+DTSTAMP:20261120T081442Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:SAS Stableford Eclectic - 106060
@@ -68,5 +54,20 @@ DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6aef08a6ec94b7c14e4d55ca/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:d5c2b8bf7211397507e8@banderin.es
+DTSTAMP:20261120T081442Z
+DTSTART;VALUE=DATE:20261219
+DTEND;VALUE=DATE:20261220
+SUMMARY:Torneo Navidad en Parejas
+LOCATION:Club de Golf el Plantio\, Bacarot\, Alicante
+DESCRIPTION:Social de club - Scramble - Parejas\nInscripción: abre el 19 d
+ e noviembre\, cierra el 17 de diciembre.\nPrecio: 44 €.\nFicha oficial: 
+ https://www.golfdirecto.com/micro/game/6afefe06fa1568a5cd9d153a/summary\nC
+ onfirma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6afefe06fa1568a5cd9d153a/summary
 END:VEVENT
 END:VCALENDAR

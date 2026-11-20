@@ -11,7 +11,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:ffc8167006b1a593bb1b@banderin.es
-DTSTAMP:20261119T132336Z
+DTSTAMP:20261120T081442Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:II Copa Iniciación - BMW San Rafael Motor
@@ -23,5 +23,33 @@ DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6ace11d13189133e5a976bd2/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:8b8587a295426ebf82c9@banderin.es
+DTSTAMP:20261120T081442Z
+DTSTART;VALUE=DATE:20261220
+DTEND;VALUE=DATE:20261221
+SUMMARY:Torneo Navideño Escuela Juvenil
+LOCATION:La Loma Golf\, Cordoba\, Córdoba
+DESCRIPTION:Juvenil - Stableford - Individual\nFicha oficial: https://www.g
+ olfdirecto.com/micro/game/6affa7365e04914dfabc9aec/summary\nConfirma fecha
+ s y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6affa7365e04914dfabc9aec/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:57ef35d06416284f5433@banderin.es
+DTSTAMP:20261120T081442Z
+DTSTART;VALUE=DATE:20270102
+DTEND;VALUE=DATE:20270103
+SUMMARY:Torneo Reyes Magos
+LOCATION:La Loma Golf\, Cordoba\, Córdoba
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/6affadf25e04914dfad5b971/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6affadf25e04914dfad5b971/summary
 END:VEVENT
 END:VCALENDAR

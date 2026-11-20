@@ -11,15 +11,16 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:76deb0c3427f8e4d8650@banderin.es
-DTSTAMP:20261119T132336Z
+DTSTAMP:20261120T081442Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Liga Iniación IV Prueba
 LOCATION:Arruzafa Golf\, Cordoba\, Córdoba
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
-  17 de noviembre\, cierra el 26 de noviembre.\nFicha oficial: https://www.
- golfdirecto.com/micro/game/6aad19a9bbc718cf57dd0a1f/summary\nConfirma fech
- as y condiciones en la web del organizador. Vía Banderín.
+  17 de noviembre\, cierra el 26 de noviembre.\nPrecio: 12 €.\nFicha ofic
+ ial: https://www.golfdirecto.com/micro/game/6aad19a9bbc718cf57dd0a1f/summa
+ ry\nConfirma fechas y condiciones en la web del organizador. Vía Banderí
+ n.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6aad19a9bbc718cf57dd0a1f/summary

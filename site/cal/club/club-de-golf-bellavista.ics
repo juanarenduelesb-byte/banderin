@@ -10,8 +10,23 @@ X-WR-TIMEZONE:Europe/Madrid
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
+UID:9ee433a8a9da7a6714ed@banderin.es
+DTSTAMP:20261120T081442Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:Torneo Pick-Pockets
+LOCATION:Club de Golf Bellavista\, Aljaraque\, Huelva
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  19 de noviembre\, cierra el 19 de noviembre.\nPrecio: Gratis.\nFicha ofic
+ ial: https://www.nextcaddy.com/tour/75472\nConfirma fechas y condiciones e
+ n la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nextcaddy.com/tour/75472
+END:VEVENT
+BEGIN:VEVENT
 UID:79ddf4771f5e858a1f70@banderin.es
-DTSTAMP:20261119T132336Z
+DTSTAMP:20261120T081442Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:4ª Jornada Lpgh XXVI Edición (Bellavista-Old Course)
@@ -26,7 +41,7 @@ URL:https://www.golfdirecto.com/micro/game/6af76c51aef92489910a3740/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:6cff6b2c0221ac68e875@banderin.es
-DTSTAMP:20261119T132336Z
+DTSTAMP:20261120T081442Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
 SUMMARY:Final Circuito Senior
@@ -40,7 +55,7 @@ URL:https://www.nextcaddy.com/tour/61254
 END:VEVENT
 BEGIN:VEVENT
 UID:830445cf7b3d44ce461c@banderin.es
-DTSTAMP:20261119T132336Z
+DTSTAMP:20261120T081442Z
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
 SUMMARY:5ª Jornada Lpgh XXVI Edición. (Dunas-Bellavista)
