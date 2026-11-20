@@ -11,14 +11,16 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:7981621e0d004024ee51@banderin.es
-DTSTAMP:20261120T081442Z
+DTSTAMP:20261120T131423Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:Torneo Navidad
 LOCATION:Campo de Golf Oliva-Nova\, Oliva\, Valencia
-DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
- //www.golfdirecto.com/micro/game/6afc37c4669bd90e39022a72/summary\nConfirm
- a fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  20 de noviembre\, cierra el 11 de diciembre.\nPrecio: 65 €.\nFicha ofic
+ ial: https://www.golfdirecto.com/micro/game/6afc37c4669bd90e39022a72/summa
+ ry\nConfirma fechas y condiciones en la web del organizador. Vía Banderí
+ n.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6afc37c4669bd90e39022a72/summary

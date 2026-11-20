@@ -10,8 +10,23 @@ X-WR-TIMEZONE:Europe/Madrid
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
+UID:70aad7fb9ee0837d0703@banderin.es
+DTSTAMP:20261120T131423Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:Vg Com Stableford
+LOCATION:Isla Canela Links\, Ayamonte\, Huelva
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  20 de noviembre\, cierra el 20 de noviembre.\nPrecio: Gratis.\nFicha ofic
+ ial: https://www.nextcaddy.com/tour/75497\nConfirma fechas y condiciones e
+ n la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nextcaddy.com/tour/75497
+END:VEVENT
+BEGIN:VEVENT
 UID:3ab97c254fc286dddedd@banderin.es
-DTSTAMP:20261120T081442Z
+DTSTAMP:20261120T131423Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:4ª Jornada Lpgh XXVI Edición (Links-Islantilla)

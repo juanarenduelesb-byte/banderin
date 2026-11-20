@@ -11,13 +11,13 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:498f90de13b4586126b9@banderin.es
-DTSTAMP:20261120T081442Z
+DTSTAMP:20261120T131423Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:VIII Torneo Juvenil de Golf "Jorge Campillo"
 LOCATION:Norba Club de Golf\, Caceres\, Cáceres
 DESCRIPTION:Juvenil - Medal Play - Individual\nInscripción: abre el 5 de n
- oviembre\, cierra el 19 de noviembre.\nFicha oficial: https://www.golfdire
+ oviembre\, cierra el 21 de noviembre.\nFicha oficial: https://www.golfdire
  cto.com/micro/game/6aece3d99dfa5416307d6f26/summary\nConfirma fechas y con
  diciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT

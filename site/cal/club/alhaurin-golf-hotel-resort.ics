@@ -11,7 +11,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:7be7bd8be2412f068ea2@banderin.es
-DTSTAMP:20261120T081442Z
+DTSTAMP:20261120T131423Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:Competición Final de Temporada P&P 2026
@@ -23,5 +23,33 @@ DESCRIPTION:Absoluto - Medal Play - Individual\nInscripción: abre el 30 de
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.nextcaddy.com/tour/61248
+END:VEVENT
+BEGIN:VEVENT
+UID:ca2ba6efce7b33de8cf3@banderin.es
+DTSTAMP:20261120T131423Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:Los Gallos - 21/11/26
+LOCATION:Alhaurín Golf Hotel & Resort\, Alhaurin el Grande\, Málaga
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.nextcaddy.com/tour/75495\nConfirma fechas y condiciones en la web de
+ l organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nextcaddy.com/tour/75495
+END:VEVENT
+BEGIN:VEVENT
+UID:0ea4d4fe8f8e5d872aaa@banderin.es
+DTSTAMP:20261120T131423Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:Ryder Cup P&P 2026
+LOCATION:Alhaurín Golf Hotel & Resort\, Alhaurin el Grande\, Málaga
+DESCRIPTION:Social de club - Equipos\nFicha oficial: https://www.nextcaddy.
+ com/tour/75460\nConfirma fechas y condiciones en la web del organizador. V
+ ía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nextcaddy.com/tour/75460
 END:VEVENT
 END:VCALENDAR
