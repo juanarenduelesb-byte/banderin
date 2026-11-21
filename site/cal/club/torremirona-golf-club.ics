@@ -11,7 +11,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:a84e95ff1e02ff39da69@banderin.es
-DTSTAMP:20261121T081833Z
+DTSTAMP:20261121T130031Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:MAJOR Prueba Circuito Camino a Huelva
@@ -27,7 +27,7 @@ URL:https://www.golfdirecto.com/micro/game/69d8c8d933ad0e81be6119ea/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:f27ef4be85f213b98945@banderin.es
-DTSTAMP:20261121T081833Z
+DTSTAMP:20261121T130031Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:Torneig Golf Passion
@@ -41,7 +41,7 @@ URL:https://www.golfdirecto.com/micro/game/6afd96a904837c6e5958dcc1/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:a21edd91de4a07789bd3@banderin.es
-DTSTAMP:20261121T081833Z
+DTSTAMP:20261121T130031Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
 SUMMARY:Torneig Torremirona Real Estate
@@ -56,7 +56,7 @@ URL:https://www.golfdirecto.com/micro/game/6a8456b70d6379a1ffbae656/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:0f99af8d33d010504199@banderin.es
-DTSTAMP:20261121T081833Z
+DTSTAMP:20261121T130031Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:2N Torneig Black Friday
@@ -71,7 +71,7 @@ URL:https://www.catgolf.com/es/campeonatos/2n-torneig-black-friday-2026-11-
 END:VEVENT
 BEGIN:VEVENT
 UID:f0b800af472a763745c7@banderin.es
-DTSTAMP:20261121T081833Z
+DTSTAMP:20261121T130031Z
 DTSTART;VALUE=DATE:20261203
 DTEND;VALUE=DATE:20261204
 SUMMARY:Torneig Torremirona Real Estate
@@ -86,7 +86,7 @@ URL:https://www.golfdirecto.com/micro/game/6a8457100d6379a1ffd1d120/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:5587c5686b9ec8c948e0@banderin.es
-DTSTAMP:20261121T081833Z
+DTSTAMP:20261121T130031Z
 DTSTART;VALUE=DATE:20261210
 DTEND;VALUE=DATE:20261211
 SUMMARY:Torneig Torremirona Real Estate
@@ -101,7 +101,7 @@ URL:https://www.golfdirecto.com/micro/game/6a8457f80d6379a1ff3c3195/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:2989cd4cdd1886f11d51@banderin.es
-DTSTAMP:20261121T081833Z
+DTSTAMP:20261121T130031Z
 DTSTART;VALUE=DATE:20261217
 DTEND;VALUE=DATE:20261218
 SUMMARY:Torneig Torremirona Real Estate
@@ -116,22 +116,22 @@ URL:https://www.golfdirecto.com/micro/game/6a8458090d6379a1ff3fcf36/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:200505fa799607529630@banderin.es
-DTSTAMP:20261121T081833Z
+DTSTAMP:20261121T130031Z
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261220
 SUMMARY:Torneig Social Nadalenc
 LOCATION:Torremirona Golf Club\, Navata\, Girona
 DESCRIPTION:Social de club - Scramble - Parejas\nInscripción: abre el 28 d
- e junio\, cierra el 18 de diciembre.\nPrecio: 200 €.\nFicha oficial: htt
- ps://www.golfdirecto.com/micro/game/6a40e1f2a44d938a9300f4ad/summary\nConf
- irma fechas y condiciones en la web del organizador. Vía Banderín.
+ e junio\, cierra el 18 de diciembre.\nPrecio: 2000 €.\nFicha oficial: ht
+ tps://www.golfdirecto.com/micro/game/6a40e1f2a44d938a9300f4ad/summary\nCon
+ firma fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6a40e1f2a44d938a9300f4ad/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:8269b240f892e9320594@banderin.es
-DTSTAMP:20261121T081833Z
+DTSTAMP:20261121T130031Z
 DTSTART;VALUE=DATE:20261224
 DTEND;VALUE=DATE:20261225
 SUMMARY:Torneig Torremirona Real Estate
@@ -146,7 +146,7 @@ URL:https://www.golfdirecto.com/micro/game/6a8458240d6379a1ff4d2ee1/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:851c36a4f74270837e75@banderin.es
-DTSTAMP:20261121T081833Z
+DTSTAMP:20261121T130031Z
 DTSTART;VALUE=DATE:20261226
 DTEND;VALUE=DATE:20261227
 SUMMARY:Torneig de Cap D'Any
@@ -161,7 +161,7 @@ URL:https://www.golfdirecto.com/micro/game/6a8458be4ec26de90b887833/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:c309b76131959ec48157@banderin.es
-DTSTAMP:20261121T081833Z
+DTSTAMP:20261121T130031Z
 DTSTART;VALUE=DATE:20261231
 DTEND;VALUE=DATE:20270101
 SUMMARY:Torneig Torremirona Real Estate
@@ -176,7 +176,7 @@ URL:https://www.golfdirecto.com/micro/game/6a8458490d6379a1ff5d8a32/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:ec765753df920a56acb2@banderin.es
-DTSTAMP:20261121T081833Z
+DTSTAMP:20261121T130031Z
 DTSTART;VALUE=DATE:20270403
 DTEND;VALUE=DATE:20270404
 SUMMARY:61è Gran Premi de Catalunya "Hexagonal" 2027 (Torremirona)
@@ -192,7 +192,7 @@ URL:https://www.catgolf.com/es/campeonatos/61e-gran-premi-de-catalunya-hexa
 END:VEVENT
 BEGIN:VEVENT
 UID:b7e5f5426a6e2e886015@banderin.es
-DTSTAMP:20261121T081833Z
+DTSTAMP:20261121T130031Z
 DTSTART;VALUE=DATE:20270703
 DTEND;VALUE=DATE:20270705
 SUMMARY:Circuit Nacional 5a Categoria 2027 (Torremirona)

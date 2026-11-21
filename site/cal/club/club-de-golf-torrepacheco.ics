@@ -10,8 +10,23 @@ X-WR-TIMEZONE:Europe/Madrid
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
+UID:ae4437e983c236cf7725@banderin.es
+DTSTAMP:20261121T130031Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:VI Torneo Restaurante Ramon
+LOCATION:Club de Golf Torrepacheco\, Torre Pacheco\, Murcia
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  4 de noviembre\, cierra el 19 de noviembre.\nFicha oficial: https://www.g
+ olfdirecto.com/micro/game/6ae98c272267c6230fd0365b/summary\nConfirma fecha
+ s y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6ae98c272267c6230fd0365b/summary
+END:VEVENT
+BEGIN:VEVENT
 UID:89a63df9adc2b5c2465b@banderin.es
-DTSTAMP:20261121T081833Z
+DTSTAMP:20261121T130031Z
 DTSTART;VALUE=DATE:20261220
 DTEND;VALUE=DATE:20261221
 SUMMARY:Torneo Navidad Memorial Armando Castro Suarez

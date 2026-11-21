@@ -11,13 +11,13 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:3ebe87c74f03946d8304@banderin.es
-DTSTAMP:20261121T081833Z
+DTSTAMP:20261121T130031Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:Torneo Social Golf de Nueno Guara
 LOCATION:Club de Golf de Guara\, Arascues\, Huesca
 DESCRIPTION:Social de club - Medal Play - Individual\nInscripción: abre el
-  15 de noviembre\, cierra el 20 de noviembre.\nPrecio: 15 €.\nFicha ofic
+  15 de noviembre\, cierra el 21 de noviembre.\nPrecio: 15 €.\nFicha ofic
  ial: https://www.golfdirecto.com/micro/game/6af73189aef9248991dfb2f2/summa
  ry\nConfirma fechas y condiciones en la web del organizador. Vía Banderí
  n.
