@@ -10,22 +10,8 @@ X-WR-TIMEZONE:Europe/Madrid
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:958eab3cac0f2f9332ab@banderin.es
-DTSTAMP:20261120T131423Z
-DTSTART;VALUE=DATE:20261120
-DTEND;VALUE=DATE:20261121
-SUMMARY:6th Roger Goulart Challenge Trophy (Eagles Group - Oct. 2026)
-LOCATION:Son Muntaner Golf\, Palma de Mallorca\, Illes Balears
-DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
- //www.golfdirecto.com/micro/game/6afd83c5c9944e5be2440a23/summary\nConfirm
- a fechas y condiciones en la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.golfdirecto.com/micro/game/6afd83c5c9944e5be2440a23/summary
-END:VEVENT
-BEGIN:VEVENT
 UID:c074efb305b0b4e333b9@banderin.es
-DTSTAMP:20261120T131423Z
+DTSTAMP:20261121T081833Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:Torneo Comité de Competición 2026 (Sólo Abonados Arabella Golf M
@@ -40,7 +26,7 @@ URL:https://www.golfdirecto.com/micro/game/6abfb7b1ea19e81b2abe4542/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:e7aefdcd4121fb179129@banderin.es
-DTSTAMP:20261120T131423Z
+DTSTAMP:20261121T081833Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:VI Prueba Circuito Hexagonal - Qromia 2026
@@ -56,7 +42,7 @@ URL:https://www.golfdirecto.com/micro/game/69fcb6f7db4357f53020d06b/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:471ac10c58149d76eca9@banderin.es
-DTSTAMP:20261120T131423Z
+DTSTAMP:20261121T081833Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
 SUMMARY:Liga Social 2026 Final "El Caire Espai Cuina"
@@ -71,7 +57,7 @@ URL:https://www.golfdirecto.com/micro/game/6abfbdbfea19e81b2a47618e/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:740b95197e3fa5c8bb56@banderin.es
-DTSTAMP:20261120T131423Z
+DTSTAMP:20261121T081833Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:Torneo Presidente 2026 (Sólo Abonados Arabella Golf Mallorca)
@@ -87,7 +73,7 @@ URL:https://www.golfdirecto.com/micro/game/6aec99589dfa541630f07c96/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:57fed7e5c9f8ebbd5023@banderin.es
-DTSTAMP:20261120T131423Z
+DTSTAMP:20261121T081833Z
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261220
 SUMMARY:Torneo Navidad 2026 - Golf Son Muntaner

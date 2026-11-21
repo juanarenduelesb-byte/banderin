@@ -10,24 +10,8 @@ X-WR-TIMEZONE:Europe/Madrid
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:55c72d76ef70c8f1e07b@banderin.es
-DTSTAMP:20261120T131423Z
-DTSTART;VALUE=DATE:20261120
-DTEND;VALUE=DATE:20261121
-SUMMARY:SAS La Sella - 106994
-LOCATION:La Sella Golf (Campo)\, Jesus Pobre\, Alicante
-DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
-  5 de noviembre\, cierra el 18 de noviembre.\nPrecio: 65 €.\nFicha ofici
- al: https://www.golfdirecto.com/micro/game/6aef06e3e0349cc290bd6730/summar
- y\nConfirma fechas y condiciones en la web del organizador. Vía Banderín
- .
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.golfdirecto.com/micro/game/6aef06e3e0349cc290bd6730/summary
-END:VEVENT
-BEGIN:VEVENT
 UID:683e814abcdacc9f4bfe@banderin.es
-DTSTAMP:20261120T131423Z
+DTSTAMP:20261121T081833Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:Torneo Mizuno-Carser 2026

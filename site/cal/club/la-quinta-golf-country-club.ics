@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Banderin//Torneos de golf//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Banderín - La Quinta Golf & Country Club
+X-WR-CALDESC:Torneos de golf: La Quinta Golf & Country Club. Se actualiza c
+ ada mañana. https://banderin.es
+X-WR-TIMEZONE:Europe/Madrid
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:884e8e10394d8cebb5a2@banderin.es
+DTSTAMP:20261121T081833Z
+DTSTART;VALUE=DATE:20261123
+DTEND;VALUE=DATE:20261124
+SUMMARY:Monday Group
+LOCATION:La Quinta Golf & Country Club\, Nueva Andalucia\, Málaga
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/6b0063b09ff2c182e54b6001/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6b0063b09ff2c182e54b6001/summary
+END:VEVENT
+END:VCALENDAR
