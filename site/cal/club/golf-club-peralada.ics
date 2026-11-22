@@ -11,7 +11,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:95892c221d0af97e5e0a@banderin.es
-DTSTAMP:20261122T103158Z
+DTSTAMP:20261122T125551Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261124
 SUMMARY:Ryder Cup - Peralada Vs Torremirona
@@ -24,8 +24,22 @@ STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6b018396781fba1b07c9e58e/summary
 END:VEVENT
 BEGIN:VEVENT
+UID:b9c79e528b08e6bfda3a@banderin.es
+DTSTAMP:20261122T125551Z
+DTSTART;VALUE=DATE:20261124
+DTEND;VALUE=DATE:20261125
+SUMMARY:Torneig la Caixa
+LOCATION:Golf Club Peralada\, Peralada\, Girona
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/6b02e0a4a59269a253cee259/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6b02e0a4a59269a253cee259/summary
+END:VEVENT
+BEGIN:VEVENT
 UID:818eb54282e16df5c0b2@banderin.es
-DTSTAMP:20261122T103158Z
+DTSTAMP:20261122T125551Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Campionat de Catalunya Interclubs Absolut 2026

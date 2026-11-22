@@ -10,8 +10,22 @@ X-WR-TIMEZONE:Europe/Madrid
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
+UID:16982ba7da9b88840cca@banderin.es
+DTSTAMP:20261122T125551Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:Infantil 9 Hoyos Cortos C5
+LOCATION:Real Club la Moraleja\, Alcobendas\, Madrid
+DESCRIPTION:Juvenil - Stableford - Individual\nFicha oficial: https://www.g
+ olfdirecto.com/micro/game/6afd8149c9944e5be2eafaa9/summary\nConfirma fecha
+ s y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6afd8149c9944e5be2eafaa9/summary
+END:VEVENT
+BEGIN:VEVENT
 UID:96c0114a3618d3acfd17@banderin.es
-DTSTAMP:20261122T103158Z
+DTSTAMP:20261122T125551Z
 DTSTART;VALUE=DATE:20261222
 DTEND;VALUE=DATE:20261223
 SUMMARY:Final Ranking Juvenil “D. Luis Zornoza”
