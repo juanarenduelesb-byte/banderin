@@ -10,23 +10,8 @@ X-WR-TIMEZONE:Europe/Madrid
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:948002616bdc18d0bc25@banderin.es
-DTSTAMP:20261121T130031Z
-DTSTART;VALUE=DATE:20261121
-DTEND;VALUE=DATE:20261122
-SUMMARY:II Torneo de Otoño Ege
-LOCATION:Escuela de Golf Elche\, Elx/elche\, Alicante
-DESCRIPTION:Social de club - Fourball - Parejas\nInscripción: abre el 26 d
- e octubre\, cierra el 19 de noviembre.\nPrecio: 40 €.\nFicha oficial: ht
- tps://www.golfdirecto.com/micro/game/6adf7da805d0e598f32da3d7/summary\nCon
- firma fechas y condiciones en la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.golfdirecto.com/micro/game/6adf7da805d0e598f32da3d7/summary
-END:VEVENT
-BEGIN:VEVENT
 UID:8eea62ac3cda611b033d@banderin.es
-DTSTAMP:20261121T130031Z
+DTSTAMP:20261122T002949Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Ryder / Solheim P&P
@@ -40,7 +25,7 @@ URL:https://www.nextcaddy.com/tour/73510
 END:VEVENT
 BEGIN:VEVENT
 UID:8535edeb5011af4a9198@banderin.es
-DTSTAMP:20261121T130031Z
+DTSTAMP:20261122T002949Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:XII Torneo de Navidad Ege

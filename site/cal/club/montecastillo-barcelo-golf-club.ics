@@ -10,23 +10,8 @@ X-WR-TIMEZONE:Europe/Madrid
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:67f8c7246a9398c05f6f@banderin.es
-DTSTAMP:20261121T130031Z
-DTSTART;VALUE=DATE:20261121
-DTEND;VALUE=DATE:20261122
-SUMMARY:Circuito Social Cadiz Golf (Solo Socios)
-LOCATION:Montecastillo Barceló Golf Club\, Jerez de la Frontera\, Cádiz
-DESCRIPTION:Circuito comercial - Stableford - Individual\nInscripción: abr
- e el 2 de noviembre\, cierra el 20 de noviembre.\nPrecio: 40 €.\nFicha o
- ficial: https://www.nextcaddy.com/tour/75074\nConfirma fechas y condicione
- s en la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.nextcaddy.com/tour/75074
-END:VEVENT
-BEGIN:VEVENT
 UID:a5416099b53488c464c7@banderin.es
-DTSTAMP:20261121T130031Z
+DTSTAMP:20261122T002949Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Campeonato Andalucía MASC Categoría Mid Amateur

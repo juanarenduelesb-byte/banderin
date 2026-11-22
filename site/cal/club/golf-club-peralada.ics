@@ -10,25 +10,11 @@ X-WR-TIMEZONE:Europe/Madrid
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:d869e6f63733613359c4@banderin.es
-DTSTAMP:20261121T130031Z
-DTSTART;VALUE=DATE:20261121
-DTEND;VALUE=DATE:20261122
-SUMMARY:Final Golfpassion Tour 2026
-LOCATION:Golf Club Peralada\, Peralada\, Girona
-DESCRIPTION:Circuito comercial - Stableford - Individual\nFicha oficial: ht
- tps://www.golfdirecto.com/micro/game/6afc0e9f4ece8d67bdf383a9/summary\nCon
- firma fechas y condiciones en la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.golfdirecto.com/micro/game/6afc0e9f4ece8d67bdf383a9/summary
-END:VEVENT
-BEGIN:VEVENT
 UID:95892c221d0af97e5e0a@banderin.es
-DTSTAMP:20261121T130031Z
+DTSTAMP:20261122T002949Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261124
-SUMMARY:Ryder Peralada Torremirona
+SUMMARY:Ryder Cup - Peralada Vs Torremirona
 LOCATION:Golf Club Peralada\, Peralada\, Girona
 DESCRIPTION:Social de club - Match Play - Equipos\nFicha oficial: https://w
  ww.golfdirecto.com/micro/game/6b018396781fba1b07c9e58e/summary\nConfirma f
@@ -39,7 +25,7 @@ URL:https://www.golfdirecto.com/micro/game/6b018396781fba1b07c9e58e/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:818eb54282e16df5c0b2@banderin.es
-DTSTAMP:20261121T130031Z
+DTSTAMP:20261122T002949Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Campionat de Catalunya Interclubs Absolut 2026

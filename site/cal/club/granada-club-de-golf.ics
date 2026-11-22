@@ -10,38 +10,8 @@ X-WR-TIMEZONE:Europe/Madrid
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:122418ef5993b2414f52@banderin.es
-DTSTAMP:20261121T130031Z
-DTSTART;VALUE=DATE:20261121
-DTEND;VALUE=DATE:20261122
-SUMMARY:Liga Damas Noviembre26
-LOCATION:Granada Club de Golf\, Las Gabias\, Granada
-DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
-  9 de noviembre\, cierra el 19 de noviembre.\nPrecio: 15 €.\nFicha ofici
- al: https://www.golfdirecto.com/micro/game/6af187268527252f607cf775/summar
- y\nConfirma fechas y condiciones en la web del organizador. Vía Banderín
- .
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.golfdirecto.com/micro/game/6af187268527252f607cf775/summary
-END:VEVENT
-BEGIN:VEVENT
-UID:013012d3b36b824c5164@banderin.es
-DTSTAMP:20261121T130031Z
-DTSTART;VALUE=DATE:20261121
-DTEND;VALUE=DATE:20261122
-SUMMARY:Pool And Beer Noviembre
-LOCATION:Granada Club de Golf\, Las Gabias\, Granada
-DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
- //www.golfdirecto.com/micro/game/6afb02305445bc1029dffd9a/summary\nConfirm
- a fechas y condiciones en la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.golfdirecto.com/micro/game/6afb02305445bc1029dffd9a/summary
-END:VEVENT
-BEGIN:VEVENT
 UID:2676be0bb282a78715f2@banderin.es
-DTSTAMP:20261121T130031Z
+DTSTAMP:20261122T002949Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:Peña Parejas Noviembre

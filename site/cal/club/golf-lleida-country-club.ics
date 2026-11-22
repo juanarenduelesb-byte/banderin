@@ -10,38 +10,8 @@ X-WR-TIMEZONE:Europe/Madrid
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:81b289843b94188d565d@banderin.es
-DTSTAMP:20261121T130031Z
-DTSTART;VALUE=DATE:20261121
-DTEND;VALUE=DATE:20261122
-SUMMARY:9a Catalunya Family Cup 2026 (18 Forats)
-LOCATION:Golf Lleida & Country Club\, Raimat\, Lleida
-DESCRIPTION:Social de club - Greensome - Parejas\nInscripción: abre el 27 
- de octubre\, cierra el 17 de noviembre.\nPrecio: 36 €.\nFicha oficial: h
- ttps://www.golfdirecto.com/micro/game/6acf5fa47fca7abedc8baec5/summary\nCo
- nfirma fechas y condiciones en la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.golfdirecto.com/micro/game/6acf5fa47fca7abedc8baec5/summary
-END:VEVENT
-BEGIN:VEVENT
-UID:cda5f6b44b25e05fac8f@banderin.es
-DTSTAMP:20261121T130031Z
-DTSTART;VALUE=DATE:20261121
-DTEND;VALUE=DATE:20261122
-SUMMARY:9a Catalunya Family Cup 2026 (9 Forats)
-LOCATION:Golf Lleida & Country Club\, Raimat\, Lleida
-DESCRIPTION:Social de club - Greensome - Parejas\nInscripción: abre el 27 
- de octubre\, cierra el 17 de noviembre.\nPrecio: 25 €.\nFicha oficial: h
- ttps://www.golfdirecto.com/micro/game/6acf61a77fca7abedc01dd98/summary\nCo
- nfirma fechas y condiciones en la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.golfdirecto.com/micro/game/6acf61a77fca7abedc01dd98/summary
-END:VEVENT
-BEGIN:VEVENT
 UID:e6e48044cd1e53347289@banderin.es
-DTSTAMP:20261121T130031Z
+DTSTAMP:20261122T002949Z
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261202
 SUMMARY:Tr. Mama Noel Femení
@@ -55,7 +25,7 @@ URL:https://www.catgolf.com/es/campeonatos/tr-mama-noel-femeni-2026-12-01
 END:VEVENT
 BEGIN:VEVENT
 UID:92c4b687a0ce29c6a193@banderin.es
-DTSTAMP:20261121T130031Z
+DTSTAMP:20261122T002949Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:Christmas Party
@@ -69,7 +39,7 @@ URL:https://www.catgolf.com/es/campeonatos/christmas-party-2026-12-12
 END:VEVENT
 BEGIN:VEVENT
 UID:07f876a98c95eebeec79@banderin.es
-DTSTAMP:20261121T130031Z
+DTSTAMP:20261122T002949Z
 DTSTART;VALUE=DATE:20261215
 DTEND;VALUE=DATE:20261216
 SUMMARY:Mama Noël
@@ -83,7 +53,7 @@ URL:https://www.golfdirecto.com/micro/game/6afd7122c9944e5be2ec621f/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:5c05fdcc56031e158c76@banderin.es
-DTSTAMP:20261121T130031Z
+DTSTAMP:20261122T002949Z
 DTSTART;VALUE=DATE:20270317
 DTEND;VALUE=DATE:20270318
 SUMMARY:53è Interclubs Femeni de Catalunya - Liguilla 2027 (Lleida)
@@ -100,7 +70,7 @@ URL:https://www.catgolf.com/es/campeonatos/53e-interclubs-femeni-de-catalun
 END:VEVENT
 BEGIN:VEVENT
 UID:3b29ec2cb6fc44061c6d@banderin.es
-DTSTAMP:20261121T130031Z
+DTSTAMP:20261122T002949Z
 DTSTART;VALUE=DATE:20270510
 DTEND;VALUE=DATE:20270511
 SUMMARY:CATPROTOUR 2027 (Lleida)
@@ -115,7 +85,7 @@ URL:https://www.catgolf.com/es/campeonatos/catprotour-2027-lleida-2027-05-1
 END:VEVENT
 BEGIN:VEVENT
 UID:d0faec5b9294d74fda1f@banderin.es
-DTSTAMP:20261121T130031Z
+DTSTAMP:20261122T002949Z
 DTSTART;VALUE=DATE:20270514
 DTEND;VALUE=DATE:20270517
 SUMMARY:Copa Catalunya Femenina 2027
@@ -130,7 +100,7 @@ URL:https://www.catgolf.com/es/campeonatos/copa-catalunya-femenina-2027-202
 END:VEVENT
 BEGIN:VEVENT
 UID:dde1267ea781f997d98d@banderin.es
-DTSTAMP:20261121T130031Z
+DTSTAMP:20261122T002949Z
 DTSTART;VALUE=DATE:20270529
 DTEND;VALUE=DATE:20270531
 SUMMARY:Circuit Nacional 5a Categoria 2027 (Lleida)

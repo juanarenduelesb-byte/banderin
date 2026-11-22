@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Banderin//Torneos de golf//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Banderín - Real Club Sevilla Golf
+X-WR-CALDESC:Torneos de golf: Real Club Sevilla Golf. Se actualiza cada ma
+ ñana. https://banderin.es
+X-WR-TIMEZONE:Europe/Madrid
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:a74d82a112ec77d751ff@banderin.es
+DTSTAMP:20261122T002949Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:XI Copa Real Club Sevilla Golf 2026
+LOCATION:Real Club Sevilla Golf\, Alcala de Guadaira\, Sevilla
+DESCRIPTION:Social de club - Medal Play - Individual\nFicha oficial: https:
+ //www.nextcaddy.com/tour/75521\nConfirma fechas y condiciones en la web de
+ l organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nextcaddy.com/tour/75521
+END:VEVENT
+END:VCALENDAR

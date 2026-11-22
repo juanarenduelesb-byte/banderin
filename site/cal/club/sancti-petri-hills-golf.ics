@@ -10,23 +10,8 @@ X-WR-TIMEZONE:Europe/Madrid
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:caaa2886298ce3440f1b@banderin.es
-DTSTAMP:20261121T130031Z
-DTSTART;VALUE=DATE:20261121
-DTEND;VALUE=DATE:20261122
-SUMMARY:Final Circuito Solidario Cádiz
-LOCATION:Sancti Petri Hills Golf\, Chiclana de la Frontera\, Cádiz
-DESCRIPTION:Benéfico - Stableford - Individual\nInscripción: abre el 17 d
- e noviembre\, cierra el 17 de noviembre.\nPrecio: Gratis.\nFicha oficial: 
- https://www.nextcaddy.com/tour/75432\nConfirma fechas y condiciones en la 
- web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.nextcaddy.com/tour/75432
-END:VEVENT
-BEGIN:VEVENT
 UID:ebceea8db87a25be78d2@banderin.es
-DTSTAMP:20261121T130031Z
+DTSTAMP:20261122T002949Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:Torneo de Navidad 2026

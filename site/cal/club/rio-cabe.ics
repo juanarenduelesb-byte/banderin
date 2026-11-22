@@ -11,7 +11,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:f60c72402f867b3a8ac6@banderin.es
-DTSTAMP:20261121T130031Z
+DTSTAMP:20261122T002949Z
 DTSTART;VALUE=DATE:20261123
 DTEND;VALUE=DATE:20261124
 SUMMARY:Abierto de Parejas - Fisioterapia a Man
@@ -23,5 +23,20 @@ DESCRIPTION:Social de club - Fourball - Parejas\nInscripción: abre el 16 d
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6afacf895445bc1029fd25e8/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:2e076f6f8d7a4563d2d1@banderin.es
+DTSTAMP:20261122T002949Z
+DTSTART;VALUE=DATE:20261125
+DTEND;VALUE=DATE:20261126
+SUMMARY:Ruta do Viño 2026
+LOCATION:Rio Cabe\, Monforte (casco Urbano)\, Lugo
+DESCRIPTION:Social de club - Fourball - Parejas\nInscripción: abre el 21 d
+ e noviembre\, cierra el 24 de noviembre.\nFicha oficial: https://www.golfd
+ irecto.com/micro/game/6b01d03d664a1e64896093f9/summary\nConfirma fechas y 
+ condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6b01d03d664a1e64896093f9/summary
 END:VEVENT
 END:VCALENDAR

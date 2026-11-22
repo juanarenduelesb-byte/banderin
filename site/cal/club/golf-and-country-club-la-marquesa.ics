@@ -10,22 +10,8 @@ X-WR-TIMEZONE:Europe/Madrid
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:4b574db7990a4ff9f8c9@banderin.es
-DTSTAMP:20261121T130031Z
-DTSTART;VALUE=DATE:20261121
-DTEND;VALUE=DATE:20261122
-SUMMARY:XXXIV Edición Circuito "CLUB de GOLF VALLE de las UVAS"
-LOCATION:Golf And Country Club la Marquesa\, Rojales\, Alicante
-DESCRIPTION:Circuito comercial - Medal Play - Individual\nFicha oficial: ht
- tps://www.golfdirecto.com/micro/game/6b0032565b8514d75abb46d4/summary\nCon
- firma fechas y condiciones en la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.golfdirecto.com/micro/game/6b0032565b8514d75abb46d4/summary
-END:VEVENT
-BEGIN:VEVENT
 UID:de07fea97c2c78d0ba80@banderin.es
-DTSTAMP:20261121T130031Z
+DTSTAMP:20261122T002949Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:V My Lawyer In Spain
@@ -40,7 +26,7 @@ URL:https://www.golfdirecto.com/micro/game/6adf0390b0e08ac0156a8cc8/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:78a7e4c240c7bb2353bc@banderin.es
-DTSTAMP:20261121T130031Z
+DTSTAMP:20261122T002949Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
 SUMMARY:14º Torneo Solidario Rotary 9 Hoyos (Copia) (Copia)
@@ -55,7 +41,7 @@ URL:https://www.golfdirecto.com/micro/game/6afc538e08e5186b3777fbb4/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:3dc722887564b8069e46@banderin.es
-DTSTAMP:20261121T130031Z
+DTSTAMP:20261122T002949Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
 SUMMARY:17º Torneo Solidario de Navidad Rotary Club

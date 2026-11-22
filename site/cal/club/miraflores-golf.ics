@@ -10,51 +10,8 @@ X-WR-TIMEZONE:Europe/Madrid
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:a7dd1a24e4c683503669@banderin.es
-DTSTAMP:20261121T130031Z
-DTSTART;VALUE=DATE:20261121
-DTEND;VALUE=DATE:20261122
-SUMMARY:Amigos de Miraflores 21.11.26
-LOCATION:Miraflores Golf\, Mijas Costa\, Málaga
-DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
- //www.nextcaddy.com/tour/75478\nConfirma fechas y condiciones en la web de
- l organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.nextcaddy.com/tour/75478
-END:VEVENT
-BEGIN:VEVENT
-UID:47a21108e636d8d20a6d@banderin.es
-DTSTAMP:20261121T130031Z
-DTSTART;VALUE=DATE:20261121
-DTEND;VALUE=DATE:20261122
-SUMMARY:Presidents Putter Board Competition (Medal)
-LOCATION:Miraflores Golf\, Mijas Costa\, Málaga
-DESCRIPTION:Social de club - Medal Play - Individual\nInscripción: abre el
-  6 de noviembre\, cierra el 18 de noviembre.\nFicha oficial: https://www.g
- olfdirecto.com/micro/game/6aedf32f1ab4f21da641a12a/summary\nConfirma fecha
- s y condiciones en la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.golfdirecto.com/micro/game/6aedf32f1ab4f21da641a12a/summary
-END:VEVENT
-BEGIN:VEVENT
-UID:408d1ef7e285bb34d077@banderin.es
-DTSTAMP:20261121T130031Z
-DTSTART;VALUE=DATE:20261121
-DTEND;VALUE=DATE:20261122
-SUMMARY:Satcomp21/11
-LOCATION:Miraflores Golf\, Mijas Costa\, Málaga
-DESCRIPTION:Social de club - Medal Play - Individual\nFicha oficial: https:
- //www.nextcaddy.com/tour/75449\nConfirma fechas y condiciones en la web de
- l organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.nextcaddy.com/tour/75449
-END:VEVENT
-BEGIN:VEVENT
 UID:e94c8e46f4a5c87deeab@banderin.es
-DTSTAMP:20261121T130031Z
+DTSTAMP:20261122T002949Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:Ladies Individual Stableford Qualifier
@@ -69,7 +26,7 @@ URL:https://www.golfdirecto.com/micro/game/6aedc0f602e839445a7f26ef/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:adfda511a00407c118b9@banderin.es
-DTSTAMP:20261121T130031Z
+DTSTAMP:20261122T002949Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Pairs Greensomes
@@ -84,7 +41,7 @@ URL:https://www.golfdirecto.com/micro/game/6afecda6fa1568a5cdf78190/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:539ac21c95826c28c20e@banderin.es
-DTSTAMP:20261121T130031Z
+DTSTAMP:20261122T002949Z
 DTSTART;VALUE=DATE:20261202
 DTEND;VALUE=DATE:20261203
 SUMMARY:Christmas Pairs Scramble
