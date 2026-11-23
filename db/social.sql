@@ -435,7 +435,8 @@ grant execute on function public.social_escaparate() to anon, authenticated;
 -- («social_aviso_secreto»); la web envía el correo con Brevo. Sin llave o sin pg_net no hace nada.
 -- Nunca rompe la acción del usuario: si algo falla, se ignora. Tope: 12 avisos al día por persona.
 do $$ begin create extension if not exists pg_net; exception when others then raise notice 'pg_net no disponible: avisos apagados'; end $$;
-grant insert (avisos), update (avisos) on public.social_perfiles to authenticated;
+-- «select» también: guardar el perfil (upsert) lee la columna; sin él, Postgres rechaza el guardado entero.
+grant select (avisos), insert (avisos), update (avisos) on public.social_perfiles to authenticated;
 create table if not exists public.social_avisos_log (
   id      bigint generated always as identity primary key,
   destino uuid not null references auth.users (id) on delete cascade,

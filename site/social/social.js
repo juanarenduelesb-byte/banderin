@@ -85,7 +85,8 @@ function errMsg(e) {
   if (/plazas/.test(m)) return 'La partida ya está completa.';
   if (/fecha/.test(m)) return 'La fecha tiene que estar entre hoy y dentro de 6 meses.';
   if (/hcp/.test(m)) return 'El hándicap mínimo no puede ser mayor que el máximo.';
-  if (/perfil/.test(m)) return 'Primero crea tu perfil de jugador.';
+  if (/^perfil:/.test(m)) return 'Primero crea tu perfil de jugador.';
+  if (/permission denied|row-level security/i.test(m)) return 'No se ha podido guardar. Recarga la página e inténtalo de nuevo; si sigue, escríbenos.';
   if (/whatsapp/.test(m)) return 'El número de WhatsApp no parece válido.';
   if (/email/.test(m)) return 'El correo no parece válido.';
   if (/duplicate|unique/.test(m)) return 'Eso ya está hecho.';
