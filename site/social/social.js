@@ -221,7 +221,8 @@ function openLogin(msg) {
   <div class="more smore"><a href="https://banderin.es/#perfil" target="_blank" rel="noopener">Crear una cuenta</a><a href="https://banderin.es/#perfil" target="_blank" rel="noopener">He olvidado la contraseña</a></div>`, s => {
     s.querySelector('#lf').addEventListener('submit', async e => {
       e.preventDefault(); const f = e.target, btn = f.querySelector('button'); btn.disabled = true;
-      const { error } = await SB.auth.signInWithPassword({ email: f.e.value.trim(), password: f.p.value });
+      const tk = window.botToken ? await window.botToken() : '';
+      const { error } = await SB.auth.signInWithPassword({ email: f.e.value.trim(), password: f.p.value, options: tk ? { captchaToken: tk } : {} });
       btn.disabled = false;
       if (error) { const er = s.querySelector('#lerr'); er.hidden = false; er.textContent = errMsg(error); return; }
       closeSheet();
