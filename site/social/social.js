@@ -36,6 +36,10 @@ const whereOf = c => { const i = CINFO.get(c); return i ? [i[0], i[1]].filter(Bo
 const mapsUrl = c => 'https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent(c + (whereOf(c) ? ', ' + whereOf(c) : ''));
 const clubSugg = L => L.map(k => `<button type="button" data-c="${esc(k)}">${esc(k)}<small>${esc(whereOf(k))}</small></button>`).join('');
 const PROVS = [...new Set([...CLUBS.values()])].sort((a, b) => a.localeCompare(b, 'es'));
+// Perfil único: la parte privada (para «Encajan conmigo» en Torneos) usa los clubes tal como los publican los torneos.
+const TCLIST = [...new Set(TT.map(t => t.club).filter(Boolean))].map(k => [k, fold(k + ' ' + ((CINFO.get(k) || [])[0] || ''))]);
+const findTClubs = (txt, skip = []) => { const w = fold(txt).split(/\s+/).filter(Boolean); return w.length ? TCLIST.filter(([k, f]) => !skip.includes(k) && w.every(x => f.includes(x))).slice(0, 7).map(([k]) => k) : []; };
+const CCAA = ['Andalucía', 'Aragón', 'Canarias', 'Cantabria', 'Castilla y León', 'Castilla-La Mancha', 'Cataluña', 'Comunidad de Madrid', 'Comunidad Foral de Navarra', 'Comunitat Valenciana', 'Extremadura', 'Galicia', 'Illes Balears', 'La Rioja', 'País Vasco', 'Principado de Asturias', 'Región de Murcia', 'Ceuta', 'Melilla'];
 const tid = t => { let h = 2166136261; const u = t.url || ''; for (let i = 0; i < u.length; i++) { h ^= u.charCodeAt(i); h = Math.imul(h, 16777619) >>> 0 } return h.toString(36) };
 const PAREJAS = TT.filter(t => t.form === 'Parejas' && t.s >= TODAY && t.s <= addDays(60) && t.cat !== 'Juvenil' && t.cat !== 'Profesional')
   .sort((a, b) => a.s.localeCompare(b.s));
@@ -543,14 +547,18 @@ async function vPerfil(sub) {
 }
 
 async function vEditar() {
-  let pre = null;
-  if (!MYP) { try { const r = (await q(SB.from('perfiles').select('datos').eq('user_id', ME.id).limit(1)))[0]; pre = r && r.datos && r.datos.perfil; } catch (e) { } }
+  // Un solo perfil: lo de Social y lo de «Mi cuenta» (hándicap, sexo, federación, socio de…) se editan aquí juntos.
+  let datos = null, pre = null, nacAno = null;
+  try { const r = (await q(SB.from('perfiles').select('datos').eq('user_id', ME.id).limit(1)))[0]; datos = (r && r.datos) || null; pre = datos && datos.perfil; } catch (e) { }
+  try { const r = (await q(SB.from('social_privado').select('nacimiento').eq('user_id', ME.id).limit(1)))[0]; if (r) nacAno = +r.nacimiento.slice(0, 4); } catch (e) { }
+  const priv = { sexo: (pre && pre.sexo) || '', fed: (pre && pre.fed) || '', socio: pre && Array.isArray(pre.clubs) ? pre.clubs.filter(c => typeof c === 'string').slice(0, 10) : [] };
   const preClubs = pre && Array.isArray(pre.clubs) ? pre.clubs.filter(c => typeof c === 'string').slice(0, 8) : [];
-  const p = MYP || { nombre: (ME.user_metadata && (ME.user_metadata.full_name || ME.user_metadata.name)) || '', hcp: pre && typeof pre.hcp === 'number' ? pre.hcp : null, provincia: (preClubs.map(c => CLUBS.get(c)).find(Boolean)) || '', campos: preClubs, bio: '', visible: true };
+  const base = MYP ? { ...MYP, hcp: MYP.hcp ?? (pre && typeof pre.hcp === 'number' ? pre.hcp : null) } : null;
+  const p = base || { nombre: (ME.user_metadata && (ME.user_metadata.full_name || ME.user_metadata.name)) || '', hcp: pre && typeof pre.hcp === 'number' ? pre.hcp : null, provincia: (preClubs.map(c => CLUBS.get(c)).find(Boolean)) || '', campos: preClubs, bio: '', visible: true };
   const c = MYC || { whatsapp: '', email: ME.email || '', publico: false };
-  let campos = [...(p.campos || [])];
+  let campos = [...(p.campos || [])], socio = [...priv.socio];
   const nuevo = !MYP;
-  view.innerHTML = `${MYP ? backBtn() : ''}<div class="sec" style="margin-top:18px"><h2>${nuevo ? 'Crea tu perfil de jugador' : 'Editar perfil'}</h2></div>
+  view.innerHTML = `${MYP ? backBtn() : ''}<div class="sec" style="margin-top:18px"><h2>${nuevo ? 'Crea tu perfil de jugador' : 'Editar mi perfil'}</h2></div>
   ${nuevo ? `<p class="lede">${pre ? 'Hemos rellenado lo que ya sabíamos por tu cuenta de Banderín. Revísalo y listo.' : 'Dos minutos. Así los demás saben con quién van a jugar.'}</p>` : ''}
   <form id="ef" class="panel glass" novalidate>
     <label class="field"><span>Nombre que verán los demás</span><input class="in" name="nombre" maxlength="40" required value="${esc(p.nombre)}" placeholder="Ej.: Lucía M."><small>Puedes poner solo tu nombre y la inicial del apellido.</small></label>
@@ -559,6 +567,11 @@ async function vEditar() {
       <label class="field"><span>Provincia</span><select class="in" name="prov"><option value="">Elige</option>${PROVS.map(x => `<option${p.provincia === x ? ' selected' : ''}>${esc(x)}</option>`).join('')}</select></label></div>
     <div class="field"><span>Campos donde te gusta jugar <small style="display:inline;color:var(--muted)">(hasta 8)</small></span><input class="in" id="cq" placeholder="Busca un club" autocomplete="off"><div class="sugg glass" id="cs" hidden></div><div class="chips" id="cc"></div></div>
     <label class="field"><span>Sobre ti <small style="display:inline;color:var(--muted)">(opcional)</small></span><textarea class="in" name="bio" maxlength="280" placeholder="Cuándo sueles jugar, qué formatos te gustan…">${esc(p.bio || '')}</textarea></label>
+    <div class="sec" style="margin:8px 0 6px"><h2 style="font-size:20px">Para los torneos</h2></div>
+    <p class="lede" style="margin:0 0 10px">Privado: no lo ve nadie. Sirve para que Torneos te marque los que encajan contigo.</p>
+    <div class="two"><label class="field"><span>Sexo de competición</span><select class="in" name="sexo"><option value="">Sin indicar</option><option value="M"${priv.sexo === 'M' ? ' selected' : ''}>Masculino</option><option value="F"${priv.sexo === 'F' ? ' selected' : ''}>Femenino</option></select></label>
+      <label class="field"><span>Federación autonómica</span><select class="in" name="fed"><option value="">Sin indicar</option>${CCAA.map(x => `<option${priv.fed === x ? ' selected' : ''}>${esc(x)}</option>`).join('')}</select></label></div>
+    <div class="field"><span>Clubes de los que eres socio <small style="display:inline;color:var(--muted)">(para los torneos solo para socios)</small></span><input class="in" id="sq" placeholder="Busca tu club" autocomplete="off"><div class="sugg glass" id="ss" hidden></div><div class="chips" id="sc"></div></div>
     <div class="sec" style="margin:8px 0 6px"><h2 style="font-size:20px">Contacto</h2></div>
     <p class="lede" style="margin:0 0 10px">Solo lo ven tus amigos y los jugadores con los que quedas, salvo que lo hagas público.</p>
     <div class="two"><label class="field"><span>WhatsApp</span><input class="in" type="tel" name="wa" inputmode="tel" maxlength="17" value="${esc(c.whatsapp || '')}" placeholder="600 123 456"></label>
@@ -573,6 +586,12 @@ async function vEditar() {
   const f = view.querySelector('#ef'), cq = f.querySelector('#cq'), cs = f.querySelector('#cs'), cc = f.querySelector('#cc');
   const drawC = () => { cc.innerHTML = campos.map((x, i) => `<span class="chip">${esc(x)}<button type="button" data-rm="${i}" aria-label="Quitar ${esc(x)}">×</button></span>`).join(''); cq.disabled = campos.length >= 8; };
   drawC();
+  const sq = f.querySelector('#sq'), ss = f.querySelector('#ss'), sc = f.querySelector('#sc');
+  const drawS = () => { sc.innerHTML = socio.map((x, i) => `<span class="chip">${esc(x)}<button type="button" data-rm="${i}" aria-label="Quitar ${esc(x)}">×</button></span>`).join(''); sq.disabled = socio.length >= 10; };
+  drawS();
+  sc.onclick = e => { const b = e.target.closest('[data-rm]'); if (b) { socio.splice(+b.dataset.rm, 1); drawS(); } };
+  sq.oninput = () => { const L = findTClubs(sq.value, socio); ss.hidden = !L.length; ss.innerHTML = clubSugg(L); };
+  ss.onclick = e => { const b = e.target.closest('[data-c]'); if (!b) return; socio.push(b.dataset.c); sq.value = ''; ss.hidden = true; drawS(); };
   cc.onclick = e => { const b = e.target.closest('[data-rm]'); if (b) { campos.splice(+b.dataset.rm, 1); drawC(); } };
   cq.oninput = () => { const L = findClubs(cq.value, campos); cs.hidden = !L.length; cs.innerHTML = clubSugg(L); };
   cs.onclick = e => { const b = e.target.closest('[data-c]'); if (!b) return; campos.push(b.dataset.c); cq.value = ''; cs.hidden = true; drawC(); if (!f.prov.value) f.prov.value = CLUBS.get(b.dataset.c) || ''; };
@@ -589,6 +608,12 @@ async function vEditar() {
       await q(SB.from('social_perfiles').upsert({ user_id: ME.id, nombre, hcp, provincia: f.prov.value || null, campos, bio: f.bio.value.trim() || null, visible: f.vis.checked, avisos: f.av.checked }));
       if (wa || em) await q(SB.from('social_contacto').upsert({ user_id: ME.id, whatsapp: wa || null, email: em || null, publico: !!f.pub.checked }));
       else await q(SB.from('social_contacto').delete().eq('user_id', ME.id));
+      // Mismo perfil en «Mi cuenta»: se guarda en la cuenta y Torneos lo usa al volver a la portada.
+      const ano = f.nac && f.nac.value ? +f.nac.value.slice(0, 4) : nacAno || (pre && pre.nac) || null;
+      const perfil = { ...(pre || {}), v: 1, hcp, nac: ano, sexo: f.sexo.value || null, fed: f.fed.value || null, clubs: socio.slice(), ts: Date.now() };
+      const nd = { v: 1, sigo: { v: 1, clubs: [], prov: [] }, saved: [], played: [], ...(datos || {}), perfil, ts: Date.now() };
+      await q(SB.from('perfiles').upsert({ user_id: ME.id, datos: nd, actualizado: new Date().toISOString() }));
+      try { localStorage.setItem('banderin.perfil', JSON.stringify(perfil)); } catch (e3) { }
       await refresh(); toast(nuevo ? '¡Perfil creado!' : 'Guardado'); location.hash = nuevo ? '#partidas' : '#perfil';
     } catch (e2) { er.hidden = false; er.textContent = errMsg(e2); btn.disabled = false; }
   };

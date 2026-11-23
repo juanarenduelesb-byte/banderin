@@ -212,6 +212,7 @@ $('cuNuevaF').onsubmit = e => {
 /* ---------- tarjeta «Cuenta» en Mi perfil y botón de la cabecera ---------- */
 function cuDraw() {
   if (typeof window.drawAvisos === 'function') try { window.drawAvisos(); } catch (e) {}
+  if (typeof pUnico === 'function') try { pUnico(); } catch (e) {}
   const box = $('pcuenta'); if (!box) return;
   $('pcuSoon').hidden = cuOn();
   $('pcuOff').hidden = !!USER || !cuOn();

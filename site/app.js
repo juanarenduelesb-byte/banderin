@@ -548,7 +548,22 @@ function parseH(v){v=String(v||'').trim().replace(',','.');if(!v)return null;con
 function drawClubs(){$('pclubs').innerHTML=pClubs.map((c,i)=>'<span class="ptag">'+esc(c)+'<button type="button" data-i="'+i+'" aria-label="'+esc(L('Quitar {c}',{c}))+'">×</button></span>').join('')}
 function calLinks(kind,name){const path='/cal/'+kind+'/'+slugify(name)+'.ics',web='webcal://'+location.host+path;
   return '<a href="'+esc(web)+'">'+L('Calendario')+'</a><a href="'+esc('https://calendar.google.com/calendar/r?cid='+encodeURIComponent(web))+'" target="_blank" rel="noopener noreferrer">Google</a>'}
+/* Perfil único: con cuenta, el perfil se edita en un solo sitio (el de Banderín Social) y aquí se resume. */
+function pUnico(){
+  const u=typeof USER!=='undefined'?USER:null,f=$('pform');if(!f)return;
+  let c=$('puni');
+  if(!c){c=document.createElement('div');c.id='puni';c.className='pcard glass';f.parentNode.insertBefore(c,f)}
+  // Banderín Social es a partir de 16 años: con 14 o 15 se sigue usando el formulario de aquí.
+  const P=PERF||{},menor=!!(P.nac&&new Date().getFullYear()-P.nac<16);
+  f.hidden=!!u&&!menor;c.hidden=!u||menor;if(!u||menor)return;
+  const sx={M:L('Masculino'),F:L('Femenino')}[P.sexo];
+  const it=[[L('Hándicap'),P.hcp!=null?fmtH(P.hcp):''],[L('Año de nacimiento'),P.nac||''],[L('Sexo de competición'),sx||''],[L('Federación autonómica'),P.fed?V(P.fed):''],[L('Socio de'),(P.clubs||[]).join(', ')]];
+  c.innerHTML='<h3>'+L('Tu perfil de jugador')+'</h3><p class="phint">'+L('Es el mismo perfil en Torneos y en Banderín Social. Lo privado (sexo, federación, año y clubes de los que eres socio) no lo ve nadie.')+'</p>'+
+    '<dl class="puni">'+it.map(([k,v])=>'<div><dt>'+esc(k)+'</dt><dd>'+(v?esc(String(v)):'<span class="pmute">'+L('Sin indicar')+'</span>')+'</dd></div>').join('')+'</dl>'+
+    '<div class="pacts"><a class="btn primary" href="/social/#perfil/editar">'+L('Editar mi perfil')+'</a></div>';
+}
 function renderPerfil(){
+  pUnico();
   const P=PERF||{};
   $('phcp').value=P.hcp!=null?fmtH(P.hcp):'';$('phcp').removeAttribute('aria-invalid');$('phcpErr').hidden=true;
   $('pnac').value=P.nac||'';$('pfed').value=P.fed||'';
