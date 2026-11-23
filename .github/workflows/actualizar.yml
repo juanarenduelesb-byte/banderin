@@ -100,9 +100,10 @@ jobs:
           publicar() {
             cp /tmp/banderin/nuevo/data.js /tmp/banderin/nuevo/pasados.js site/
             cp /tmp/banderin/geo_cache.json pipeline/geo_cache.json
+            python3 pipeline/clubes.py || echo "AVISO: no se pudo actualizar el directorio de clubes"
             python3 pipeline/seo.py
             python3 pipeline/calendarios.py
-            git add -A site/ pipeline/geo_cache.json
+            git add -A site/ pipeline/geo_cache.json pipeline/datos/
             if git diff --cached --quiet; then echo "Sin cambios"; return 0; fi
             git commit -q -m "Torneos actualizados $(TZ=Europe/Madrid date '+%Y-%m-%d %H:%M')"
           }
