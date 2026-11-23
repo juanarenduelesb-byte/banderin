@@ -564,6 +564,7 @@ async function vEditar() {
       <label class="field"><span>Correo</span><input class="in" type="email" name="em" maxlength="120" value="${esc(c.email || '')}"></label></div>
     <div class="switch"><div><b>Contacto visible para todos</b><small>${EST && EST.mayor ? 'Cualquier jugador con cuenta lo verá.' : 'Solo para mayores de 18. Así protegemos a los más jóvenes.'}</small></div><input type="checkbox" name="pub" aria-label="Contacto visible para todos"${c.publico ? ' checked' : ''}${EST && EST.mayor ? '' : ' disabled'}></div>
     <div class="switch"><div><b>Aparecer en «Jugadores»</b><small>Si lo apagas, solo te verán tus amigos y con quien juegues.</small></div><input type="checkbox" name="vis" aria-label="Aparecer en Jugadores"${p.visible !== false ? ' checked' : ''}></div>
+    <div class="switch"><div><b>Avisarme por correo</b><small>Cuando alguien pida unirse a tu partida, te acepten o te pidan amistad. Como mucho 12 al día.</small></div><input type="checkbox" name="av" aria-label="Avisarme por correo"${!EST || EST.avisos !== false ? ' checked' : ''}></div>
     ${nuevo ? `<label class="okrow"><input type="checkbox" name="ok"><span>Tengo 16 años o más y acepto las <a href="/#terminos" target="_blank" rel="noopener">normas de Banderín Social</a> y la <a href="/#privacidad" target="_blank" rel="noopener">política de privacidad</a>. Los demás jugadores verán mi nombre, hándicap, provincia y campos.</span></label>` : ''}
     <p class="err" id="eerr" hidden></p>
     <button class="btn primary block" type="submit" style="margin-top:14px">${nuevo ? 'Crear mi perfil' : 'Guardar'}</button>
@@ -584,7 +585,7 @@ async function vEditar() {
     const btn = f.querySelector('[type=submit]'); btn.disabled = true;
     try {
       if (f.nac && EST && !EST.edad) { await q(SB.from('social_privado').insert({ user_id: ME.id, nacimiento: f.nac.value })); EST.edad = true; EST.mayor = f.nac.value <= addDays(-365 * 18 - 5); }
-      await q(SB.from('social_perfiles').upsert({ user_id: ME.id, nombre, hcp, provincia: f.prov.value || null, campos, bio: f.bio.value.trim() || null, visible: f.vis.checked }));
+      await q(SB.from('social_perfiles').upsert({ user_id: ME.id, nombre, hcp, provincia: f.prov.value || null, campos, bio: f.bio.value.trim() || null, visible: f.vis.checked, avisos: f.av.checked }));
       if (wa || em) await q(SB.from('social_contacto').upsert({ user_id: ME.id, whatsapp: wa || null, email: em || null, publico: !!f.pub.checked }));
       else await q(SB.from('social_contacto').delete().eq('user_id', ME.id));
       await refresh(); toast(nuevo ? '¡Perfil creado!' : 'Guardado'); location.hash = nuevo ? '#partidas' : '#perfil';

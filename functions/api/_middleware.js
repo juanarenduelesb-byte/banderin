@@ -3,8 +3,9 @@
 import { enabled, json } from '../../lib/avisos.js';
 import { limited, logEvent } from '../../lib/seguridad.js';
 
-// Única escritura que puede llegar sin Origin: el botón de baja de 1 clic de Gmail, Apple Mail… (RFC 8058).
-const SIN_ORIGEN = new Set(['/api/avisos/baja']);
+// Escrituras que pueden llegar sin Origin: el botón de baja de 1 clic de Gmail, Apple Mail… (RFC 8058)
+// y los avisos de Social, que envía la base de datos con su propia llave (functions/api/social/aviso.js).
+const SIN_ORIGEN = new Set(['/api/avisos/baja', '/api/social/aviso']);
 const ESCRITURAS_POR_IP = 40;   // escrituras a la API por IP cada 10 minutos
 const LECTURAS_POR_IP = 300;    // lecturas a la API por IP cada 10 minutos
 

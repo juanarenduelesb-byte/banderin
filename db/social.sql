@@ -3,6 +3,22 @@
 -- Todo está protegido por seguridad por filas (RLS): nadie lee ni toca lo que no le corresponde.
 -- Para quitarlo entero: ver el bloque «DESHACER» al final.
 
+-- ───────────────────────── Esquema privado ──────────────────────
+-- Las funciones auxiliares viven en «social_priv», que la API no expone: las usan las reglas
+-- de seguridad por dentro, pero nadie puede llamarlas desde fuera para sondear relaciones entre cuentas.
+create schema if not exists social_priv;
+grant usage on schema social_priv to authenticated;
+do $$
+declare f text;
+begin
+  foreach f in array array['social_bloqueo(uuid,uuid)','social_amigos(uuid,uuid)','social_conectados(uuid,uuid)','social_tiene_perfil(uuid)',
+                           'social_autor(uuid)','social_ve_partida(uuid)','social_en_partida(uuid,uuid)'] loop
+    if to_regprocedure('public.' || f) is not null and to_regprocedure('social_priv.' || f) is null then
+      execute 'alter function public.' || f || ' set schema social_priv';
+    end if;
+  end loop;
+end $$;
+
 -- ───────────────────────── Edad (privada) ─────────────────────────
 -- La fecha de nacimiento solo la ve su dueño. Mínimo 16 años. No se puede cambiar una vez puesta.
 create table if not exists public.social_privado (
@@ -11,7 +27,7 @@ create table if not exists public.social_privado (
   aceptado   timestamptz not null default now()  -- cuándo aceptó las normas de Social y la política de privacidad
 );
 alter table public.social_privado add column if not exists aceptado timestamptz not null default now();
-create or replace function public.social_edad_ok() returns trigger language plpgsql as $$
+create or replace function public.social_edad_ok() returns trigger language plpgsql set search_path = public as $$
 begin
   if new.user_id <> auth.uid() then raise exception 'no permitido'; end if;
   new.aceptado := now();
@@ -38,6 +54,8 @@ create table if not exists public.social_perfiles (
 );
 
 -- ───────────────────────── Contacto (se ve solo si toca) ─────────────────────────
+-- Avisos por correo de Social (ver «Avisos por correo» más abajo). Se puede apagar en el perfil.
+alter table public.social_perfiles add column if not exists avisos boolean not null default true;
 create table if not exists public.social_contacto (
   user_id  uuid primary key references auth.users (id) on delete cascade,
   whatsapp text check (whatsapp ~ '^\+?[0-9 ]{9,17}$'),
@@ -109,16 +127,16 @@ create table if not exists public.social_denuncias (
 );
 
 -- ───────────────────────── Funciones de ayuda (no exponen datos) ─────────────────────────
-create or replace function public.social_bloqueo(a uuid, b uuid) returns boolean
+create or replace function social_priv.social_bloqueo(a uuid, b uuid) returns boolean
 language sql stable security definer set search_path = public as $$
   select exists (select 1 from social_bloqueos where (quien = a and a_quien = b) or (quien = b and a_quien = a));
 $$;
-create or replace function public.social_amigos(a uuid, b uuid) returns boolean
+create or replace function social_priv.social_amigos(a uuid, b uuid) returns boolean
 language sql stable security definer set search_path = public as $$
   select exists (select 1 from social_amistades where estado = 'aceptada' and ((de = a and para = b) or (de = b and para = a)));
 $$;
 -- Conectados: uno aceptó al otro en una partida, o los dos están aceptados en la misma.
-create or replace function public.social_conectados(a uuid, b uuid) returns boolean
+create or replace function social_priv.social_conectados(a uuid, b uuid) returns boolean
 language sql stable security definer set search_path = public as $$
   select exists (
     select 1 from social_partidas p join social_solicitudes s on s.partida = p.id and s.estado = 'aceptada'
@@ -128,18 +146,18 @@ language sql stable security definer set search_path = public as $$
     where s1.estado = 'aceptada' and s2.estado = 'aceptada' and s1.jugador = a and s2.jugador = b
   );
 $$;
-create or replace function public.social_tiene_perfil(u uuid) returns boolean
+create or replace function social_priv.social_tiene_perfil(u uuid) returns boolean
 language sql stable security definer set search_path = public as $$
   select exists (select 1 from social_perfiles where user_id = u);
 $$;
-create or replace function public.social_autor(pid uuid) returns uuid
+create or replace function social_priv.social_autor(pid uuid) returns uuid
 language sql stable security definer set search_path = public as $$
   select autor from social_partidas where id = pid;
 $$;
-create or replace function public.social_ve_partida(pid uuid) returns boolean
+create or replace function social_priv.social_ve_partida(pid uuid) returns boolean
 language sql stable security definer set search_path = public as $$
-  select exists (select 1 from social_partidas p where p.id = pid and not social_bloqueo(auth.uid(), p.autor)
-                 and (p.autor = auth.uid() or not p.solo_amigos or social_amigos(auth.uid(), p.autor)));
+  select exists (select 1 from social_partidas p where p.id = pid and not social_priv.social_bloqueo(auth.uid(), p.autor)
+                 and (p.autor = auth.uid() or not p.solo_amigos or social_priv.social_amigos(auth.uid(), p.autor)));
 $$;
 -- Mi estado (lo único que el cliente sabe del campo «mayor»: el suyo).
 create or replace function public.social_mi_estado() returns json
@@ -147,7 +165,8 @@ language sql stable security definer set search_path = public as $$
   select json_build_object(
     'edad', exists (select 1 from social_privado where user_id = auth.uid()),
     'mayor', coalesce((select nacimiento <= (current_date - interval '18 years')::date from social_privado where user_id = auth.uid()), false),
-    'perfil', exists (select 1 from social_perfiles where user_id = auth.uid()));
+    'perfil', exists (select 1 from social_perfiles where user_id = auth.uid()),
+    'avisos', coalesce((select avisos from social_perfiles where user_id = auth.uid()), true));
 $$;
 
 -- ───────────────────────── Reglas que el cliente no puede saltarse ─────────────────────────
@@ -179,7 +198,7 @@ create trigger social_contacto_guard before insert or update on public.social_co
 create or replace function public.social_amistad_guard() returns trigger language plpgsql security definer set search_path = public as $$
 begin
   if tg_op = 'INSERT' then
-    if social_bloqueo(new.de, new.para) then raise exception 'no permitido'; end if;
+    if social_priv.social_bloqueo(new.de, new.para) then raise exception 'no permitido'; end if;
     if (select count(*) from social_amistades where de = new.de and creado > now() - interval '1 day') >= 30 then raise exception 'limite'; end if;
     -- Si el otro ya me la había pedido, se acepta directamente.
     if exists (select 1 from social_amistades where de = new.para and para = new.de) then
@@ -199,7 +218,7 @@ create or replace function public.social_partida_guard() returns trigger languag
 begin
   if tg_op = 'INSERT' then
     new.autor := auth.uid();
-    if not social_tiene_perfil(new.autor) then raise exception 'perfil: crea tu perfil primero'; end if;
+    if not social_priv.social_tiene_perfil(new.autor) then raise exception 'perfil: crea tu perfil primero'; end if;
     if (select count(*) from social_partidas where autor = new.autor and creado > now() - interval '1 day') >= 6 then raise exception 'limite'; end if;
     new.creado := now();
     -- Limpieza: las partidas (con sus solicitudes y su chat) se borran 30 días después de jugarse.
@@ -220,8 +239,8 @@ begin
   select * into p from social_partidas where id = coalesce(new.partida, old.partida);
   if tg_op = 'INSERT' then
     if new.jugador <> auth.uid() then raise exception 'no permitido'; end if;
-    if not social_tiene_perfil(new.jugador) then raise exception 'perfil: crea tu perfil primero'; end if;
-    if p.autor = new.jugador or p.cerrada or p.fecha < current_date or social_bloqueo(p.autor, new.jugador) then raise exception 'no permitido'; end if;
+    if not social_priv.social_tiene_perfil(new.jugador) then raise exception 'perfil: crea tu perfil primero'; end if;
+    if p.autor = new.jugador or p.cerrada or p.fecha < current_date or social_priv.social_bloqueo(p.autor, new.jugador) then raise exception 'no permitido'; end if;
     if (select count(*) from social_solicitudes where jugador = new.jugador and creado > now() - interval '1 day') >= 30 then raise exception 'limite'; end if;
     new.estado := 'pendiente'; new.creado := now();
   else
@@ -292,8 +311,8 @@ create policy "edad: la mía" on public.social_privado for all to authenticated
 
 drop policy if exists "perfiles: ver" on public.social_perfiles;
 create policy "perfiles: ver" on public.social_perfiles for select to authenticated
-  using (user_id = (select auth.uid()) or (not public.social_bloqueo((select auth.uid()), user_id)
-         and (visible or public.social_amigos((select auth.uid()), user_id) or public.social_conectados((select auth.uid()), user_id))));
+  using (user_id = (select auth.uid()) or (not social_priv.social_bloqueo((select auth.uid()), user_id)
+         and (visible or social_priv.social_amigos((select auth.uid()), user_id) or social_priv.social_conectados((select auth.uid()), user_id))));
 drop policy if exists "perfiles: el mío" on public.social_perfiles;
 create policy "perfiles: el mío" on public.social_perfiles for insert to authenticated with check (user_id = (select auth.uid()));
 drop policy if exists "perfiles: editar el mío" on public.social_perfiles;
@@ -303,8 +322,8 @@ create policy "perfiles: borrar el mío" on public.social_perfiles for delete to
 
 drop policy if exists "contacto: ver" on public.social_contacto;
 create policy "contacto: ver" on public.social_contacto for select to authenticated
-  using (user_id = (select auth.uid()) or (not public.social_bloqueo((select auth.uid()), user_id) and
-         (publico or public.social_amigos((select auth.uid()), user_id) or public.social_conectados((select auth.uid()), user_id))));
+  using (user_id = (select auth.uid()) or (not social_priv.social_bloqueo((select auth.uid()), user_id) and
+         (publico or social_priv.social_amigos((select auth.uid()), user_id) or social_priv.social_conectados((select auth.uid()), user_id))));
 drop policy if exists "contacto: el mío" on public.social_contacto;
 create policy "contacto: el mío" on public.social_contacto for all to authenticated
   using (user_id = (select auth.uid())) with check (user_id = (select auth.uid()));
@@ -321,8 +340,8 @@ create policy "amistades: quitar" on public.social_amistades for delete to authe
 
 drop policy if exists "partidas: ver" on public.social_partidas;
 create policy "partidas: ver" on public.social_partidas for select to authenticated
-  using (autor = (select auth.uid()) or (not public.social_bloqueo((select auth.uid()), autor)
-         and (not solo_amigos or public.social_amigos((select auth.uid()), autor))));
+  using (autor = (select auth.uid()) or (not social_priv.social_bloqueo((select auth.uid()), autor)
+         and (not solo_amigos or social_priv.social_amigos((select auth.uid()), autor))));
 drop policy if exists "partidas: publicar" on public.social_partidas;
 create policy "partidas: publicar" on public.social_partidas for insert to authenticated with check (true);
 drop policy if exists "partidas: editar las mías" on public.social_partidas;
@@ -332,17 +351,17 @@ create policy "partidas: borrar las mías" on public.social_partidas for delete 
 
 drop policy if exists "solicitudes: ver" on public.social_solicitudes;
 create policy "solicitudes: ver" on public.social_solicitudes for select to authenticated
-  using (jugador = (select auth.uid()) or public.social_autor(partida) = (select auth.uid())
-         or (estado = 'aceptada' and public.social_ve_partida(partida)));
+  using (jugador = (select auth.uid()) or social_priv.social_autor(partida) = (select auth.uid())
+         or (estado = 'aceptada' and social_priv.social_ve_partida(partida)));
 drop policy if exists "solicitudes: pedir" on public.social_solicitudes;
 create policy "solicitudes: pedir" on public.social_solicitudes for insert to authenticated with check (jugador = (select auth.uid()));
 drop policy if exists "solicitudes: responder" on public.social_solicitudes;
 create policy "solicitudes: responder" on public.social_solicitudes for update to authenticated
-  using (public.social_autor(partida) = (select auth.uid()) or jugador = (select auth.uid()))
-  with check (public.social_autor(partida) = (select auth.uid()) or jugador = (select auth.uid()));
+  using (social_priv.social_autor(partida) = (select auth.uid()) or jugador = (select auth.uid()))
+  with check (social_priv.social_autor(partida) = (select auth.uid()) or jugador = (select auth.uid()));
 drop policy if exists "solicitudes: retirar" on public.social_solicitudes;
 create policy "solicitudes: retirar" on public.social_solicitudes for delete to authenticated
-  using (jugador = (select auth.uid()) or public.social_autor(partida) = (select auth.uid()));
+  using (jugador = (select auth.uid()) or social_priv.social_autor(partida) = (select auth.uid()));
 
 drop policy if exists "bloqueos: los míos" on public.social_bloqueos;
 create policy "bloqueos: los míos" on public.social_bloqueos for all to authenticated
@@ -370,7 +389,7 @@ create table if not exists public.social_mensajes (
 );
 create index if not exists social_mensajes_partida on public.social_mensajes (partida, id);
 
-create or replace function public.social_en_partida(pid uuid, u uuid) returns boolean
+create or replace function social_priv.social_en_partida(pid uuid, u uuid) returns boolean
 language sql stable security definer set search_path = public as $$
   select exists (select 1 from social_partidas where id = pid and autor = u)
       or exists (select 1 from social_solicitudes where partida = pid and jugador = u and estado = 'aceptada');
@@ -378,7 +397,7 @@ $$;
 create or replace function public.social_mensaje_guard() returns trigger language plpgsql security definer set search_path = public as $$
 begin
   new.autor := auth.uid(); new.creado := now(); new.texto := btrim(new.texto);
-  if not social_en_partida(new.partida, new.autor) then raise exception 'no permitido'; end if;
+  if not social_priv.social_en_partida(new.partida, new.autor) then raise exception 'no permitido'; end if;
   if (select count(*) from social_mensajes where autor = new.autor and creado > now() - interval '1 hour') >= 80 then raise exception 'limite'; end if;
   return new;
 end $$;
@@ -389,7 +408,7 @@ alter table public.social_mensajes enable row level security;
 revoke all on public.social_mensajes from anon, authenticated;
 grant select, insert (partida, texto), delete on public.social_mensajes to authenticated;
 drop policy if exists "mensajes: leer" on public.social_mensajes;
-create policy "mensajes: leer" on public.social_mensajes for select to authenticated using (public.social_en_partida(partida, (select auth.uid())));
+create policy "mensajes: leer" on public.social_mensajes for select to authenticated using (social_priv.social_en_partida(partida, (select auth.uid())));
 drop policy if exists "mensajes: escribir" on public.social_mensajes;
 create policy "mensajes: escribir" on public.social_mensajes for insert to authenticated with check (true);
 drop policy if exists "mensajes: borrar los míos" on public.social_mensajes;
@@ -410,14 +429,79 @@ $$;
 grant execute on function public.social_escaparate() to anon, authenticated;
 -- (Para deshacer también: drop table public.social_mensajes cascade; drop function public.social_escaparate, public.social_en_partida, public.social_mensaje_guard;)
 
--- ------------------------------------------------------------------
--- Las funciones auxiliares solo las ejecuta quien ha iniciado sesión.
--- Postgres da «execute» a todo el mundo por defecto; sin esto, un
--- anónimo podría llamarlas por la API y sondear relaciones entre cuentas.
--- ------------------------------------------------------------------
-revoke execute on function public.social_bloqueo(uuid, uuid), public.social_amigos(uuid, uuid), public.social_conectados(uuid, uuid),
-  public.social_tiene_perfil(uuid), public.social_autor(uuid), public.social_ve_partida(uuid), public.social_en_partida(uuid, uuid),
-  public.social_mi_estado() from public, anon;
-grant execute on function public.social_bloqueo(uuid, uuid), public.social_amigos(uuid, uuid), public.social_conectados(uuid, uuid),
-  public.social_tiene_perfil(uuid), public.social_autor(uuid), public.social_ve_partida(uuid), public.social_en_partida(uuid, uuid),
-  public.social_mi_estado() to authenticated;
+-- ───────────────────────── Avisos por correo ─────────────────────
+-- Cuando alguien pide unirse a tu partida, te aceptan o te piden amistad, Banderín te avisa por correo.
+-- La base de datos llama a banderin.es/api/social/aviso (pg_net) con una llave guardada en Vault
+-- («social_aviso_secreto»); la web envía el correo con Brevo. Sin llave o sin pg_net no hace nada.
+-- Nunca rompe la acción del usuario: si algo falla, se ignora. Tope: 12 avisos al día por persona.
+do $$ begin create extension if not exists pg_net; exception when others then raise notice 'pg_net no disponible: avisos apagados'; end $$;
+grant insert (avisos), update (avisos) on public.social_perfiles to authenticated;
+create table if not exists public.social_avisos_log (
+  id      bigint generated always as identity primary key,
+  destino uuid not null references auth.users (id) on delete cascade,
+  tipo    text not null,
+  creado  timestamptz not null default now()
+);
+create index if not exists social_avisos_log_destino on public.social_avisos_log (destino, creado);
+alter table public.social_avisos_log enable row level security;
+revoke all on public.social_avisos_log from anon, authenticated;
+
+create or replace function social_priv.social_avisar(p_destino uuid, p_tipo text, p_quien uuid, p_partida uuid) returns void
+language plpgsql security definer set search_path = public as $$
+declare correo text; secreto text; nom text; pa social_partidas;
+begin
+  if p_destino is null or p_destino = p_quien then return; end if;
+  if not coalesce((select avisos from social_perfiles where user_id = p_destino), true) then return; end if;
+  if social_priv.social_bloqueo(p_destino, p_quien) then return; end if;
+  if (select count(*) from social_avisos_log where destino = p_destino and creado > now() - interval '1 day') >= 12 then return; end if;
+  if to_regnamespace('net') is null or to_regnamespace('vault') is null then return; end if;
+  execute 'select decrypted_secret from vault.decrypted_secrets where name = ''social_aviso_secreto'' limit 1' into secreto;
+  if secreto is null or length(secreto) < 24 then return; end if;
+  select email into correo from auth.users where id = p_destino;
+  if correo is null then return; end if;
+  select nombre into nom from social_perfiles where user_id = p_quien;
+  if p_partida is not null then select * into pa from social_partidas where id = p_partida; end if;
+  insert into social_avisos_log (destino, tipo) values (p_destino, p_tipo);
+  delete from social_avisos_log where creado < now() - interval '30 days';
+  execute 'select net.http_post(url := $1, body := $2, headers := $3, timeout_milliseconds := 5000)'
+    using 'https://banderin.es/api/social/aviso',
+          jsonb_build_object('para', correo, 'tipo', p_tipo, 'quien', nom, 'campo', pa.campo, 'fecha', pa.fecha, 'partida', p_partida),
+          jsonb_build_object('Content-Type', 'application/json', 'X-Aviso-Secreto', secreto);
+exception when others then
+  raise warning 'social_avisar: %', sqlerrm;
+end $$;
+
+create or replace function public.social_avisos_trg() returns trigger language plpgsql security definer set search_path = public as $$
+begin
+  if tg_table_name = 'social_solicitudes' then
+    if tg_op = 'INSERT' then
+      perform social_priv.social_avisar(social_priv.social_autor(new.partida), 'solicitud', new.jugador, new.partida);
+    elsif new.estado = 'aceptada' and old.estado <> 'aceptada' then
+      perform social_priv.social_avisar(new.jugador, 'aceptada', social_priv.social_autor(new.partida), new.partida);
+    end if;
+  elsif tg_table_name = 'social_amistades' then
+    if tg_op = 'INSERT' then
+      perform social_priv.social_avisar(new.para, 'amistad', new.de, null);
+    elsif new.estado = 'aceptada' and old.estado <> 'aceptada' then
+      perform social_priv.social_avisar(new.de, 'amigo', new.para, null);
+    end if;
+  end if;
+  return null;
+end $$;
+drop trigger if exists social_avisos on public.social_solicitudes;
+create trigger social_avisos after insert or update on public.social_solicitudes for each row execute function public.social_avisos_trg();
+drop trigger if exists social_avisos on public.social_amistades;
+create trigger social_avisos after insert or update on public.social_amistades for each row execute function public.social_avisos_trg();
+
+-- ───────────────────────── Quién puede ejecutar qué ──────────────
+-- Postgres da «execute» a todo el mundo por defecto. Aquí se cierra: las auxiliares solo las usan
+-- las cuentas con sesión (a través de las reglas), y las de los disparadores no las llama nadie a mano.
+revoke execute on all functions in schema social_priv from public, anon;
+grant execute on function social_priv.social_bloqueo(uuid, uuid), social_priv.social_amigos(uuid, uuid), social_priv.social_conectados(uuid, uuid),
+  social_priv.social_tiene_perfil(uuid), social_priv.social_autor(uuid), social_priv.social_ve_partida(uuid), social_priv.social_en_partida(uuid, uuid) to authenticated;
+revoke execute on function social_priv.social_avisar(uuid, text, uuid, uuid) from authenticated;
+revoke execute on function public.social_mi_estado() from public, anon;
+grant execute on function public.social_mi_estado() to authenticated;
+revoke execute on function public.social_edad_ok(), public.social_perfil_guard(), public.social_contacto_guard(), public.social_amistad_guard(),
+  public.social_partida_guard(), public.social_solicitud_guard(), public.social_bloqueo_limpia(), public.social_denuncia_guard(),
+  public.social_mensaje_guard(), public.social_avisos_trg() from public, anon, authenticated;

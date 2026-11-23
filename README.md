@@ -85,3 +85,14 @@ No hace falta ningún token extra: usa el GITHUB_TOKEN del propio workflow.
 - **Vigilancia** (`.github/workflows/vigilancia.yml`, cada día): resume la actividad sospechosa, comprueba en producción HTTPS, cabeceras, archivos privados y CSRF, y falla (GitHub te avisa por correo) si algo no cuadra.
 - **Una vez**: ejecutar `db/migracion-2026-11-18-seguridad.sql` en D1 → Console. Sin ella todo funciona, pero los límites solo cuentan por centro de datos y no se guardan eventos.
 - **Copias**: con el secreto `BACKUP_PASSPHRASE` la copia semanal se sube cifrada (AES-256).
+
+## Avisos por correo de Banderín Social
+
+Cuando alguien pide unirse a una partida, es aceptado o envía una solicitud de amistad, la base de
+datos (Supabase, `pg_net`) llama a `/api/social/aviso` y la web envía el correo con Brevo.
+Hace falta la misma llave larga (24 caracteres o más) en dos sitios; sin ella no se envía nada:
+
+1. Cloudflare Pages → Settings → Variables and Secrets: `SOCIAL_AVISO_SECRETO` (tipo Secret, en Production).
+2. Supabase → Integrations → Vault → New secret, con nombre `social_aviso_secreto`.
+
+Cada persona puede apagar los avisos en Social → Mi perfil → Editar perfil. Tope: 12 al día por persona.
