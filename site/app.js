@@ -558,7 +558,7 @@ function pUnico(){
   f.hidden=!!u&&!menor;c.hidden=!u||menor;if(!u||menor)return;
   const sx={M:L('Masculino'),F:L('Femenino')}[P.sexo];
   const it=[[L('Hándicap'),P.hcp!=null?fmtH(P.hcp):''],[L('Año de nacimiento'),P.nac||''],[L('Sexo de competición'),sx||''],[L('Federación autonómica'),P.fed?V(P.fed):''],[L('Socio de'),(P.clubs||[]).join(', ')]];
-  c.innerHTML='<h3>'+L('Tu perfil de jugador')+'</h3><p class="phint">'+L('Es el mismo perfil en Torneos y en Banderín Social. Lo privado (sexo, federación, año y clubes de los que eres socio) no lo ve nadie.')+'</p>'+
+  c.innerHTML='<h3>'+L('Mi perfil')+'</h3><p class="phint">'+L('Es el mismo perfil en Torneos y en Banderín Social. Lo privado (sexo, federación, año y clubes de los que eres socio) no lo ve nadie.')+'</p>'+
     '<dl class="puni">'+it.map(([k,v])=>'<div><dt>'+esc(k)+'</dt><dd>'+(v?esc(String(v)):'<span class="pmute">'+L('Sin indicar')+'</span>')+'</dd></div>').join('')+'</dl>'+
     '<div class="pacts"><a class="btn primary" href="/social/#perfil/editar">'+L('Editar mi perfil')+'</a></div>';
 }
