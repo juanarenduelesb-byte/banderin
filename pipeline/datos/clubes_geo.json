@@ -1,0 +1,453 @@
+{
+"|Granada": [
+37.173,
+-3.6
+],
+"|Murcia": [
+37.935,
+-1.113
+],
+"|Madrid": [
+40.417,
+-3.704
+],
+"S Horta/L Horta|Illes Balears": [
+39.424,
+3.195
+],
+"|Guadalajara": [
+40.74,
+-2.506
+],
+"|Cádiz": [
+36.53,
+-6.293
+],
+"Baños Y Mendigo|Murcia": [
+37.869,
+-1.13
+],
+"Fontanals De Cerdanya|Girona": [
+42.384,
+1.911
+],
+"|Illes Balears": [
+39.613,
+2.883
+],
+"|Asturias": [
+43.313,
+-5.942
+],
+"Camposol,mazarron|Murcia": [
+37.67,
+-1.352
+],
+"|Girona": [
+41.979,
+2.82
+],
+"|Bizkaia": [
+43.238,
+-2.852
+],
+"|Málaga": [
+36.765,
+-4.442
+],
+"|Barcelona": [
+41.383,
+2.177
+],
+"|Álava": [
+42.844,
+-2.682
+],
+"|Zaragoza": [
+41.692,
+-0.91
+],
+"|Pontevedra": [
+42.428,
+-8.604
+],
+"|Melilla": [
+35.292,
+-2.941
+],
+"Albacete|Ciudad Real": [
+39.072,
+-3.612
+],
+"|A Coruña": [
+43.345,
+-8.414
+],
+"|Ciudad Real": [
+38.96,
+-3.883
+],
+"|La Rioja": [
+42.281,
+-2.483
+],
+"|Gipuzkoa": [
+43.145,
+-2.204
+],
+"|Valencia": [
+39.47,
+-0.376
+],
+"|Cantabria": [
+43.16,
+-4.088
+],
+"|Santa Cruz de Tenerife": [
+28.467,
+-16.251
+],
+"|Toledo": [
+39.856,
+-4.024
+],
+"|Las Palmas": [
+28.129,
+-15.435
+],
+"Villarrin de Campos|Zamora": [
+41.797,
+-5.638
+],
+"|Burgos": [
+42.345,
+-3.681
+],
+"|León": [
+42.634,
+-5.971
+],
+"Santiago, de|Santa Cruz de Tenerife": [
+28.211,
+-16.78
+],
+"Cabezuela|Segovia": [
+41.236,
+-3.931
+],
+"Palencia|Palencia": [
+41.995,
+-4.544
+],
+"Club de Golf Bonmont Terres Noves|Mont-roig del Camp": [
+41.043,
+0.92
+],
+"Platja D Aro|Girona": [
+41.818,
+3.069
+],
+"Sanlucar de Barrameda|Cádiz": [
+36.776,
+-6.353
+],
+"El Grau de Castello|Castellón": [
+39.975,
+0.016
+],
+"Maspalomas|Las Palmas": [
+27.753,
+-15.597
+],
+"Moraleja|Cáceres": [
+40.068,
+-6.66
+],
+"|Cuenca": [
+40.066,
+-2.131
+],
+"Eivissa|Baleares": [
+38.974,
+1.42
+],
+"Benasque|Huesca": [
+42.605,
+0.524
+],
+"Baraguas|Huesca": [
+42.579,
+-0.486
+],
+"Corvera|Murcia": [
+37.842,
+-1.171
+],
+"Bocigas|Valladolid": [
+41.229,
+-4.681
+],
+"Alcala de la Selva|Teruel": [
+40.372,
+-0.72
+],
+"San Ildefonso O la Granja|Segovia": [
+40.898,
+-4.005
+],
+"Otura|Granada": [
+37.071,
+-3.655
+],
+"Puerto del Carmen|Las Palmas": [
+28.92,
+-13.651
+],
+"Gorraiz|Navarra": [
+42.821,
+-1.581
+],
+"Galdakao|Bizkaia": [
+43.232,
+-2.844
+],
+"Tomelloso|Ciudad Real": [
+39.159,
+-3.021
+],
+"Casares|Málaga": [
+36.443,
+-5.273
+],
+"Guia de Isora|Santa Cruz de Tenerife": [
+28.215,
+-16.759
+],
+"Bendinat|Baleares": [
+39.535,
+2.58
+],
+"Guitiriz (casco Urbano)|Lugo": null,
+"|Lugo": [
+43.04,
+-7.457
+],
+"Palma de Mallorca|Baleares": [
+39.57,
+2.65
+],
+"Benissa|Alicante": [
+38.716,
+0.053
+],
+"Gea y Truyols|Murcia": [
+37.88,
+-1.023
+],
+"Pollença|Baleares": [
+39.879,
+3.016
+],
+"Grajera|Segovia": [
+41.373,
+-3.613
+],
+"Rois|A Coruña": [
+42.789,
+-8.72
+],
+"Arevalo|Ávila": [
+41.063,
+-4.72
+],
+"San Leonardo de Yague|Soria": [
+41.829,
+-3.068
+],
+"Saldaña de Burgos|Burgos": [
+42.258,
+-3.685
+],
+"Rioseco de Soria|Soria": [
+41.642,
+-2.84
+],
+"Quijorna|Madrid": [
+40.429,
+-4.057
+],
+"Canyamel|Baleares": [
+39.657,
+3.44
+],
+"Caleta de Fuste|Las Palmas": [
+28.398,
+-13.86
+],
+"Club de Golf la Graiera|Calafell": [
+41.224,
+1.581
+],
+"Villanueva del Arbol|León": [
+42.658,
+-5.527
+],
+"Silleda (casco Urbano)|Pontevedra": null,
+"Tuineje|Las Palmas": [
+28.326,
+-14.046
+],
+"Santander|Cantabria": [
+43.462,
+-3.81
+],
+"Torrenueva|Ciudad Real": [
+38.64,
+-3.365
+],
+"Javea|Alicante": [
+38.789,
+0.163
+],
+"Arazuri|Navarra": [
+42.816,
+-1.721
+],
+"La Rabia|Cantabria": [
+43.379,
+-4.317
+],
+"Villalba de la Sierra|Cuenca": [
+40.236,
+-2.089
+],
+"Santa Cruz de Mudela|Ciudad Real": [
+38.642,
+-3.467
+],
+"|Navarra": [
+42.613,
+-1.831
+],
+"Cifuentes|Guadalajara": [
+40.785,
+-2.622
+],
+"Arcos de la Frontera|Cádiz": [
+36.753,
+-5.812
+],
+"|Soria": [
+41.601,
+-2.722
+],
+"Galisteo|Cáceres": [
+39.976,
+-6.268
+],
+"Bejar|Salamanca": [
+40.387,
+-5.765
+],
+"Mojacar|Almería": [
+37.14,
+-1.851
+],
+"Aznalcazar|Sevilla": [
+37.304,
+-6.251
+],
+"Miengo|Cantabria": [
+43.431,
+-4.0
+],
+"Mungia|Bizkaia": [
+43.362,
+-2.835
+],
+"Solsona|Lleida": [
+41.995,
+1.518
+],
+"Candeleda|Ávila": [
+40.156,
+-5.241
+],
+"Americas, de las|Santa Cruz de Tenerife": [
+28.062,
+-16.734
+],
+"El Bonillo|Albacete": [
+38.949,
+-2.539
+],
+"Navarrevisca|Ávila": [
+40.364,
+-4.895
+],
+"Minas de Riotinto|Huelva": [
+37.693,
+-6.596
+],
+"San Clemente|Cuenca": [
+39.403,
+-2.428
+],
+"Aviles|Asturias": [
+43.556,
+-5.922
+],
+"Xaz|A Coruña": [
+43.351,
+-8.321
+],
+"Requena|Valencia": [
+39.488,
+-1.1
+],
+"Cereceda (villamayor)|Asturias": null,
+"Comillas|Cantabria": [
+43.386,
+-4.29
+],
+"Cistierna|León": [
+42.803,
+-5.126
+],
+"Telde|Las Palmas": [
+27.998,
+-15.417
+],
+"Linares|Jaen": [
+38.088,
+-3.64
+],
+"Bercial|Segovia": [
+40.906,
+-4.437
+],
+"El Espinar|Segovia": [
+40.717,
+-4.246
+],
+"Villar de Olalla|Cuenca": [
+40.015,
+-2.196
+],
+"Purias|Murcia": [
+37.572,
+-1.661
+],
+"Zuia|Álava": [
+42.982,
+-2.832
+],
+"Salas de los Infantes|Burgos": [
+42.022,
+-3.288
+],
+"San Pedro Alcantara|Málaga": [
+36.487,
+-4.991
+]
+}

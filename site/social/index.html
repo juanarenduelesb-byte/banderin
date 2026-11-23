@@ -328,6 +328,12 @@ a{color:var(--accent)}
 .toast{background:var(--card);color:var(--ink)}
 .sdh .meta{color:var(--on-page-m)}
 .cta{background:color-mix(in srgb,var(--card) 92%,transparent)!important}
+.chat .msgs{max-height:320px;overflow:auto;display:flex;flex-direction:column;gap:6px;padding:2px 2px 10px}
+.msg{align-self:flex-start;max-width:82%;background:var(--tint);border-radius:16px 16px 16px 4px;padding:7px 12px;font-size:15px;line-height:1.35;overflow-wrap:anywhere}
+.msg.me{align-self:flex-end;background:var(--accent);color:var(--on-accent);border-radius:16px 16px 4px 16px}
+.msg b{display:block;font-size:12px;color:var(--gold)}
+.msg time{font-size:10px;opacity:.6;margin-left:8px;white-space:nowrap}
+.cform{display:flex;gap:8px}.cform .in{flex:1;border-radius:999px}
 .fab{position:fixed;right:max(20px,calc((100vw - 820px)/2 + 20px));bottom:calc(96px + env(safe-area-inset-bottom));z-index:45;height:52px;padding:0 20px;border-radius:999px;display:inline-flex;align-items:center;gap:8px;font-weight:700;font-size:15px;text-decoration:none;color:#1B1408;background:linear-gradient(180deg,#D9BC7E,#B8955A);box-shadow:0 14px 30px -12px rgba(0,0,0,.6)}
 .fab svg{width:20px;height:20px}
 .fab[hidden]{display:none}
@@ -356,6 +362,8 @@ a{color:var(--accent)}
 <script src="/vendor/supabase.js?v=2.119.0"></script>
 <script src="/cuenta-config.js"></script>
 <script src="/data.js"></script>
-<script src="/social/social.js?v=3"></script>
+<script src="/clubes.js"></script>
+<script src="/social/escaparate.js?v=1"></script>
+<script src="/social/social.js?v=4"></script>
 </body>
 </html>

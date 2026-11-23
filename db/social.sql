@@ -354,3 +354,53 @@ create policy "denuncias: enviar" on public.social_denuncias for insert to authe
 --   public.social_autor, public.social_ve_partida, public.social_mi_estado, public.social_edad_ok, public.social_perfil_guard,
 --   public.social_contacto_guard, public.social_amistad_guard, public.social_partida_guard, public.social_solicitud_guard,
 --   public.social_bloqueo_limpia, public.social_denuncia_guard cascade;
+
+-- ───────────────────────── Chat de cada partida (solo quien organiza y los jugadores aceptados) ─────────────────────────
+create table if not exists public.social_mensajes (
+  id      bigint generated always as identity primary key,
+  partida uuid not null references public.social_partidas (id) on delete cascade,
+  autor   uuid not null default auth.uid() references auth.users (id) on delete cascade,
+  texto   text not null check (char_length(btrim(texto)) between 1 and 500),
+  creado  timestamptz not null default now()
+);
+create index if not exists social_mensajes_partida on public.social_mensajes (partida, id);
+
+create or replace function public.social_en_partida(pid uuid, u uuid) returns boolean
+language sql stable security definer set search_path = public as $$
+  select exists (select 1 from social_partidas where id = pid and autor = u)
+      or exists (select 1 from social_solicitudes where partida = pid and jugador = u and estado = 'aceptada');
+$$;
+create or replace function public.social_mensaje_guard() returns trigger language plpgsql security definer set search_path = public as $$
+begin
+  new.autor := auth.uid(); new.creado := now(); new.texto := btrim(new.texto);
+  if not social_en_partida(new.partida, new.autor) then raise exception 'no permitido'; end if;
+  if (select count(*) from social_mensajes where autor = new.autor and creado > now() - interval '1 hour') >= 80 then raise exception 'limite'; end if;
+  return new;
+end $$;
+drop trigger if exists social_mensaje_guard on public.social_mensajes;
+create trigger social_mensaje_guard before insert on public.social_mensajes for each row execute function public.social_mensaje_guard();
+
+alter table public.social_mensajes enable row level security;
+revoke all on public.social_mensajes from anon, authenticated;
+grant select, insert (partida, texto), delete on public.social_mensajes to authenticated;
+drop policy if exists "mensajes: leer" on public.social_mensajes;
+create policy "mensajes: leer" on public.social_mensajes for select to authenticated using (public.social_en_partida(partida, (select auth.uid())));
+drop policy if exists "mensajes: escribir" on public.social_mensajes;
+create policy "mensajes: escribir" on public.social_mensajes for insert to authenticated with check (true);
+drop policy if exists "mensajes: borrar los míos" on public.social_mensajes;
+create policy "mensajes: borrar los míos" on public.social_mensajes for delete to authenticated using (autor = (select auth.uid()));
+
+-- ───────────────────────── Escaparate público: partidas abiertas SIN datos personales ─────────────────────────
+-- Lo único que ve quien no tiene cuenta: campo, día, tipo y plazas. Ni nombres, ni notas, ni contacto.
+create or replace function public.social_escaparate()
+returns table (campo text, provincia text, fecha date, hora time, tipo text, torneo text, plazas smallint, libres int, hcp_min numeric, hcp_max numeric)
+language sql stable security definer set search_path = public as $$
+  select p.campo, p.provincia, p.fecha, p.hora, p.tipo, p.torneo, p.plazas,
+         greatest(0, p.plazas - (select count(*) from social_solicitudes s where s.partida = p.id and s.estado = 'aceptada'))::int,
+         p.hcp_min, p.hcp_max
+  from social_partidas p
+  where p.fecha >= current_date and not p.solo_amigos and not p.cerrada
+  order by p.fecha, p.hora nulls last limit 12;
+$$;
+grant execute on function public.social_escaparate() to anon, authenticated;
+-- (Para deshacer también: drop table public.social_mensajes cascade; drop function public.social_escaparate, public.social_en_partida, public.social_mensaje_guard;)

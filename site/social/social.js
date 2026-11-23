@@ -26,8 +26,15 @@ const weekend = () => { const d = new Date(), w = d.getDay(); const toSat = (6 -
 
 // ───────── Datos de Banderín: clubes, provincias y torneos por parejas ─────────
 const TT = Array.isArray(window.TORNEOS) ? window.TORNEOS : [];
-const CLUBS = new Map();
-TT.forEach(t => { if (t.club && t.prov && t.prov !== 'Por confirmar' && !CLUBS.has(t.club)) CLUBS.set(t.club, t.prov); });
+const CLUBS = new Map(), CINFO = new Map();   // club -> provincia · club -> [localidad, provincia, lat, lng, hoyos]
+(window.CLUBES || []).forEach(c => { CLUBS.set(c[0], c[2]); CINFO.set(c[0], c.slice(1)); });
+TT.forEach(t => { if (t.club && t.prov && t.prov !== 'Por confirmar' && !CLUBS.has(t.club)) { CLUBS.set(t.club, t.prov); CINFO.set(t.club, [(t.city || '').split(' (')[0], t.prov, t.ll ? t.ll[0] : null, t.ll ? t.ll[1] : null, 0]); } });
+const fold = x => String(x || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
+const CLIST = [...CLUBS.keys()].map(k => [k, fold(k + ' ' + ((CINFO.get(k) || [])[0] || ''))]);
+const findClubs = (txt, skip = []) => { const w = fold(txt).split(/\s+/).filter(Boolean); return w.length ? CLIST.filter(([k, f]) => !skip.includes(k) && w.every(x => f.includes(x))).slice(0, 7).map(([k]) => k) : []; };
+const whereOf = c => { const i = CINFO.get(c); return i ? [i[0], i[1]].filter(Boolean).join(', ') : ''; };
+const mapsUrl = c => 'https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent(c + (whereOf(c) ? ', ' + whereOf(c) : ''));
+const clubSugg = L => L.map(k => `<button type="button" data-c="${esc(k)}">${esc(k)}<small>${esc(whereOf(k))}</small></button>`).join('');
 const PROVS = [...new Set([...CLUBS.values()])].sort((a, b) => a.localeCompare(b, 'es'));
 const tid = t => { let h = 2166136261; const u = t.url || ''; for (let i = 0; i < u.length; i++) { h ^= u.charCodeAt(i); h = Math.imul(h, 16777619) >>> 0 } return h.toString(36) };
 const PAREJAS = TT.filter(t => t.form === 'Parejas' && t.s >= TODAY && t.s <= addDays(60) && t.cat !== 'Juvenil' && t.cat !== 'Profesional')
@@ -36,6 +43,7 @@ const safeUrl = u => /^https:\/\//.test(u || '') ? u : '';
 
 // ───────── Estado ─────────
 let ME = null, EST = null, MYP = null, MYC = null, DEMO = true, NOSQL = false;
+let CHAT = 0;
 let FIL = { prov: '', cuando: 'todas', hcp: false, tipo: '' };
 
 // ───────── Utilidades de interfaz ─────────
@@ -293,7 +301,8 @@ async function vPartida(id) {
     <h1 style="margin-top:6px">${esc(p.tipo === 'torneo' && p.torneo ? p.torneo : p.campo)}</h1>
     <div class="meta" style="color:var(--muted);font-size:14px;margin-top:4px">${esc(when(p.fecha))}${p.hora ? ' · ' + esc(hhmm(p.hora)) : ''}${p.tipo === 'torneo' ? ' · ' + esc(p.campo) : ''}</div></div></div>
   <div class="facts"><div><small>Plazas</small>${seats(n, on)}</div><div><small>Hándicap</small><b>${esc(hcpRange(p))}</b></div>
-    <div><small>Dónde</small><b>${esc(p.provincia || '—')}</b></div><div><small>Visible para</small><b>${p.solo_amigos ? 'Solo amigos' : 'Todos'}</b></div></div>
+    <div><small>Dónde</small><b>${esc(whereOf(p.campo) || p.provincia || '—')}</b></div><div><small>Visible para</small><b>${p.solo_amigos ? 'Solo amigos' : 'Todos'}</b></div></div>
+  <a class="btn ghost block" style="margin-bottom:8px" href="${esc(mapsUrl(p.campo))}" target="_blank" rel="noopener">Cómo llegar a ${esc(p.campo)}</a>
   ${p.torneo_url ? `<a class="btn ghost block" href="${esc(safeUrl(p.torneo_url))}" target="_blank" rel="noopener">Ver el torneo y la inscripción</a>` : ''}
   ${p.nota ? `<p class="note">${esc(p.nota)}</p>` : ''}
   <div class="panel glass" style="margin-top:14px"><div class="row">${av(a, 'm')}<a class="grow" href="#jugador/${esc(p.autor)}"><b>${esc(a.nombre || '')}</b><span>Organiza · Hándicap ${hcpTxt(a.hcp)}</span></a>${p.mia ? '<span class="tag gold">Tú</span>' : ''}</div>
@@ -301,11 +310,29 @@ async function vPartida(id) {
     ${acc.map(s => pRow(s)).join('')}
     ${p.mia && acc.length ? acc.map(s => contactBtns(p.contactos.get(s.jugador)) ? `<div style="margin:6px 0 4px 56px">${contactBtns(p.contactos.get(s.jugador))}</div>` : '').join('') : ''}
     ${!acc.length ? `<p class="lede" style="margin:8px 0 0">Aún no se ha unido nadie.</p>` : ''}</div>
+  ${p.mia || yoDentro ? `<div class="sec"><h2>Chat de la partida</h2></div><div class="panel glass chat"><div class="msgs" id="msgs" aria-live="polite"><p class="lede" style="margin:0">Cargando…</p></div><form id="cf" class="cform"><input class="in" id="ct" maxlength="500" placeholder="Escribe un mensaje" autocomplete="off" aria-label="Mensaje"><button class="btn primary" type="submit" aria-label="Enviar">Enviar</button></form><p class="lede" style="margin:8px 0 0;font-size:12px">Solo lo leéis quien organiza y los jugadores aceptados.</p></div>` : `<p class="lock" style="margin:14px 4px 0;color:var(--on-page-m)">${I.lock}<span>El chat de la partida se abre cuando te aceptan.</span></p>`}
   ${p.mia ? `<div class="sec"><h2>Solicitudes${pend.length ? ' <span class="dot">' + pend.length + '</span>' : ''}</h2></div>
     <div class="panel glass">${pend.length ? pend.map(s => pRow(s, `<div style="display:flex;gap:6px"><button class="btn soft sm" data-rej="${esc(s.jugador)}">No</button><button class="btn primary sm" data-acc="${esc(s.jugador)}" ${full ? 'disabled' : ''}>Aceptar</button></div>`)).join('') : '<p class="lede" style="margin:0">Cuando alguien pida unirse, aparecerá aquí. Comparte la partida para que te encuentren.</p>'}</div>` : ''}
   <div class="cta glass">${cta}</div>
   <div class="more smore">${p.mia ? '<button data-del>Borrar partida</button>' : `<button data-report>Denunciar</button><button data-block>Bloquear a ${esc((a.nombre || '').split(' ')[0])}</button>`}</div>`;
   const reload = () => vPartida(id);
+  if (p.mia || yoDentro) {
+    const names = new Map([[p.autor, a], ...p.sol.map(x => [x.jugador, x.p])]); let last = 0, first = true;
+    const box = view.querySelector('#msgs');
+    const pull = async () => {
+      if (!document.body.contains(box)) { clearInterval(CHAT); return; }
+      let rows; try { rows = await q(SB.from('social_mensajes').select('id,autor,texto,creado').eq('partida', p.id).gt('id', last).order('id').limit(200)); } catch (e) { if (first) box.innerHTML = '<p class="lede" style="margin:0">El chat no está disponible todavía.</p>'; return; }
+      if (first) { box.innerHTML = rows.length ? '' : '<p class="lede" id="nomsg" style="margin:0">Aún no hay mensajes. Rompe el hielo: hora, punto de encuentro, buggy…</p>'; first = false; }
+      if (!rows.length) return;
+      const nm = box.querySelector('#nomsg'); if (nm) nm.remove();
+      box.insertAdjacentHTML('beforeend', rows.map(m => { const me = m.autor === ME.id, w = names.get(m.autor) || {}; const d = new Date(m.creado);
+        return `<div class="msg${me ? ' me' : ''}">${me ? '' : `<b>${esc((w.nombre || 'Jugador').split(' ')[0])}</b>`}<span>${esc(m.texto)}</span><time>${isNaN(d) ? '' : pad(d.getHours()) + ':' + pad(d.getMinutes())}</time></div>`; }).join(''));
+      last = rows[rows.length - 1].id; box.scrollTop = box.scrollHeight;
+    };
+    clearInterval(CHAT); pull(); CHAT = setInterval(() => { if (!document.hidden) pull(); }, 7000);
+    view.querySelector('#cf').onsubmit = async e => { e.preventDefault(); const i = view.querySelector('#ct'), txt = i.value.trim(); if (!txt) return; i.value = '';
+      try { await q(SB.from('social_mensajes').insert({ partida: p.id, texto: txt })); pull(); } catch (er) { i.value = txt; toast(errMsg(er)); } };
+  }
   view.querySelectorAll('[data-share]').forEach(b => b.onclick = () => share(`${p.tipo === 'torneo' ? 'Busco pareja: ' + (p.torneo || p.campo) : 'Partida en ' + p.campo} · ${when(p.fecha)}`, location.origin + '/social/#partida/' + p.id));
   const on1 = (sel, fn) => { const b = view.querySelector(sel); if (b) b.onclick = fn; };
   on1('[data-join]', () => { if (needReal()) return; if (!MYP) return askProfile();
@@ -358,8 +385,7 @@ function vPublicar(arg) {
   <form id="pf" class="panel glass" novalidate>
     <div class="field"><span>¿Qué buscas?</span><div class="choice"><label><input type="radio" name="tipo" value="partida"${t ? '' : ' checked'}><span>Gente para jugar</span></label><label><input type="radio" name="tipo" value="torneo"${t ? ' checked' : ''}><span>Pareja para un torneo</span></label></div></div>
     <div id="tsel" ${t ? '' : 'hidden'} class="field"><span>Torneo</span><input class="in" id="tq" placeholder="Busca por nombre o club" autocomplete="off" value="${t ? esc(t.n) : ''}"><div class="sugg glass" id="ts" hidden></div><small id="tinfo">${t ? esc(t.club + ' · ' + when(t.s)) : 'Los torneos por parejas salen primero.'}</small></div>
-    <label class="field"><span>Campo</span><input class="in" name="campo" id="campo" list="clubs" required maxlength="80" placeholder="Escribe el club" value="${t ? esc(t.club) : ''}"></label>
-    <datalist id="clubs">${[...CLUBS.keys()].sort((a, b) => a.localeCompare(b, 'es')).map(c => `<option value="${esc(c)}">`).join('')}</datalist>
+    <div class="field"><span>Campo</span><input class="in" name="campo" id="campo" required maxlength="80" placeholder="Escribe el club o la localidad" autocomplete="off" value="${t ? esc(t.club) : ''}"><div class="sugg glass" id="ps" hidden></div><small id="pwhere">${t && whereOf(t.club) ? esc(whereOf(t.club)) : 'Elige el club de la lista y sabremos dónde está.'}</small></div>
     <div class="two"><label class="field"><span>Día</span><input class="in" type="date" name="fecha" required min="${TODAY}" max="${addDays(180)}" value="${t ? esc(t.s) : weekend()[0]}"></label>
       <label class="field"><span>Hora <small style="display:inline;color:var(--muted)">(opcional)</small></span><input class="in" type="time" name="hora" step="300"></label></div>
     <div class="field"><span>¿Cuántos buscas?</span><div class="choice">${[1, 2, 3].map(n => `<label><input type="radio" name="plazas" value="${n}"${n === (t ? 1 : 3) ? ' checked' : ''}><span>${n} ${n === 1 ? 'jugador' : 'jugadores'}</span></label>`).join('')}</div></div>
@@ -371,13 +397,17 @@ function vPublicar(arg) {
   </form>`;
   const f = view.querySelector('#pf'); let tor = t;
   f.querySelectorAll('input[name=tipo]').forEach(r => r.onchange = () => { f.querySelector('#tsel').hidden = f.tipo.value !== 'torneo'; if (f.tipo.value === 'torneo') f.plazas.value = '1'; });
+  const ci = f.querySelector('#campo'), ps = f.querySelector('#ps'), pw = f.querySelector('#pwhere');
+  const setWhere = () => { const w = whereOf(ci.value.trim()); pw.textContent = w ? w : (ci.value.trim() ? 'No lo tenemos en la lista: se publicará con tu provincia.' : 'Elige el club de la lista y sabremos dónde está.'); };
+  ci.oninput = () => { const L = findClubs(ci.value); ps.hidden = !L.length; ps.innerHTML = clubSugg(L); setWhere(); };
+  ps.onclick = e => { const b = e.target.closest('[data-c]'); if (!b) return; ci.value = b.dataset.c; ps.hidden = true; setWhere(); };
   const tq = f.querySelector('#tq'), ts = f.querySelector('#ts');
   tq.oninput = () => {
     const s = tq.value.trim().toLowerCase(); if (s.length < 2) { ts.hidden = true; return; }
     const L = TT.filter(x => x.s >= TODAY && (x.n + ' ' + x.club).toLowerCase().includes(s)).sort((a, b) => (b.form === 'Parejas') - (a.form === 'Parejas') || a.s.localeCompare(b.s)).slice(0, 8);
     ts.hidden = !L.length; ts.innerHTML = L.map(x => `<button type="button" data-k="${esc(tid(x))}">${esc(x.n)}<small>${esc(x.club)} · ${esc(when(x.s))}${x.form === 'Parejas' ? ' · Parejas' : ''}</small></button>`).join('');
   };
-  ts.onclick = e => { const b = e.target.closest('button'); if (!b) return; tor = TT.find(x => tid(x) === b.dataset.k); tq.value = tor.n; ts.hidden = true; f.campo.value = tor.club; f.fecha.value = tor.s; f.querySelector('#tinfo').textContent = tor.club + ' · ' + when(tor.s); };
+  ts.onclick = e => { const b = e.target.closest('button'); if (!b) return; tor = TT.find(x => tid(x) === b.dataset.k); tq.value = tor.n; ts.hidden = true; f.campo.value = tor.club; setWhere(); f.fecha.value = tor.s; f.querySelector('#tinfo').textContent = tor.club + ' · ' + when(tor.s); };
   f.onsubmit = async e => {
     e.preventDefault(); const er = f.querySelector('#perr'); er.hidden = true;
     const campo = f.campo.value.trim(), tipo = f.tipo.value;
@@ -495,7 +525,7 @@ async function vPerfil(sub) {
     return;
   }
   if (NOSQL) { view.innerHTML = `<div class="empty glass panel" style="margin-top:18px"><b>Falta preparar la base de datos.</b>Cuando esté lista podrás crear tu perfil de jugador.<br><button class="btn ghost" id="lo">Cerrar sesión</button></div>`; $('#lo').onclick = () => SB.auth.signOut(); return; }
-  if (sub === 'editar' || !MYP) return vEditar();
+  if (sub === 'editar' || !MYP) return await vEditar();
   let n = 0; try { n = (await q(SB.from('social_partidas').select('id').eq('autor', ME.id).gte('fecha', TODAY))).length; } catch (e) { }
   view.innerHTML = `<div style="margin-top:14px">${profileBlock(MYP, MYC, { self: true, n, acts: `<a class="btn primary" href="#perfil/editar">Editar perfil</a><button class="btn ghost" data-sh>${I.share}Compartir</button>` })}</div>
     <div class="panel glass" style="margin-top:10px"><div class="lock">${I.lock}<span>${MYC && MYC.publico ? 'Tu contacto es visible para cualquier jugador con cuenta.' : 'Tu contacto solo lo ven tus amigos y quien juega una partida contigo.'} Tu fecha de nacimiento no la ve nadie.</span></div></div>
@@ -511,13 +541,16 @@ async function vPerfil(sub) {
     try { await q(SB.from('social_partidas').delete().eq('autor', ME.id)); await q(SB.from('social_contacto').delete().eq('user_id', ME.id)); await q(SB.from('social_perfiles').delete().eq('user_id', ME.id)); await refresh(); toast('Perfil borrado'); location.hash = '#partidas'; } catch (e) { toast(errMsg(e)); } });
 }
 
-function vEditar() {
-  const p = MYP || { nombre: (ME.user_metadata && (ME.user_metadata.full_name || ME.user_metadata.name)) || '', hcp: null, provincia: '', campos: [], bio: '', visible: true };
+async function vEditar() {
+  let pre = null;
+  if (!MYP) { try { const r = (await q(SB.from('perfiles').select('datos').eq('user_id', ME.id).limit(1)))[0]; pre = r && r.datos && r.datos.perfil; } catch (e) { } }
+  const preClubs = pre && Array.isArray(pre.clubs) ? pre.clubs.filter(c => typeof c === 'string').slice(0, 8) : [];
+  const p = MYP || { nombre: (ME.user_metadata && (ME.user_metadata.full_name || ME.user_metadata.name)) || '', hcp: pre && typeof pre.hcp === 'number' ? pre.hcp : null, provincia: (preClubs.map(c => CLUBS.get(c)).find(Boolean)) || '', campos: preClubs, bio: '', visible: true };
   const c = MYC || { whatsapp: '', email: ME.email || '', publico: false };
   let campos = [...(p.campos || [])];
   const nuevo = !MYP;
   view.innerHTML = `${MYP ? backBtn() : ''}<div class="sec" style="margin-top:18px"><h2>${nuevo ? 'Crea tu perfil de jugador' : 'Editar perfil'}</h2></div>
-  ${nuevo ? '<p class="lede">Dos minutos. Así los demás saben con quién van a jugar.</p>' : ''}
+  ${nuevo ? `<p class="lede">${pre ? 'Hemos rellenado lo que ya sabíamos por tu cuenta de Banderín. Revísalo y listo.' : 'Dos minutos. Así los demás saben con quién van a jugar.'}</p>` : ''}
   <form id="ef" class="panel glass" novalidate>
     <label class="field"><span>Nombre que verán los demás</span><input class="in" name="nombre" maxlength="40" required value="${esc(p.nombre)}" placeholder="Ej.: Lucía M."><small>Puedes poner solo tu nombre y la inicial del apellido.</small></label>
     ${EST && !EST.edad ? `<label class="field"><span>Fecha de nacimiento</span><input class="in" type="date" name="nac" required max="${addDays(-365 * 16 - 4)}"><small>No la ve nadie. Hay que tener al menos 16 años. No se puede cambiar después.</small></label>` : ''}
@@ -539,9 +572,7 @@ function vEditar() {
   const drawC = () => { cc.innerHTML = campos.map((x, i) => `<span class="chip">${esc(x)}<button type="button" data-rm="${i}" aria-label="Quitar ${esc(x)}">×</button></span>`).join(''); cq.disabled = campos.length >= 8; };
   drawC();
   cc.onclick = e => { const b = e.target.closest('[data-rm]'); if (b) { campos.splice(+b.dataset.rm, 1); drawC(); } };
-  cq.oninput = () => { const s = cq.value.trim().toLowerCase(); if (s.length < 2) { cs.hidden = true; return; }
-    const L = [...CLUBS].filter(([k]) => k.toLowerCase().includes(s) && !campos.includes(k)).slice(0, 7);
-    cs.hidden = !L.length; cs.innerHTML = L.map(([k, v]) => `<button type="button" data-c="${esc(k)}">${esc(k)}<small>${esc(v)}</small></button>`).join(''); };
+  cq.oninput = () => { const L = findClubs(cq.value, campos); cs.hidden = !L.length; cs.innerHTML = clubSugg(L); };
   cs.onclick = e => { const b = e.target.closest('[data-c]'); if (!b) return; campos.push(b.dataset.c); cq.value = ''; cs.hidden = true; drawC(); if (!f.prov.value) f.prov.value = CLUBS.get(b.dataset.c) || ''; };
   f.onsubmit = async e => {
     e.preventDefault(); const er = f.querySelector('#eerr'); er.hidden = true;
@@ -568,7 +599,8 @@ function vGate() {
     <p>Social es para golfistas con cuenta de Banderín. Entra o crea tu cuenta gratis en un minuto.</p>
     <ul><li><i>1</i><span><b>Partidas abiertas</b> en tu zona, filtradas por tu hándicap.</span></li><li><i>2</i><span><b>Busca pareja</b> para los torneos por parejas de Banderín.</span></li><li><i>3</i><span><b>Amigos y perfil de jugador</b>, con tu contacto solo para quien tú quieras.</span></li></ul>
     <div class="acts"><button class="btn gold" data-login>Entrar</button><a class="btn ghost" href="/#perfil">Crear cuenta gratis</a></div></section>
-    <p class="lede" style="text-align:center;margin-top:14px">Hay que tener al menos 16 años.</p>`;
+    <p class="lede" style="text-align:center;margin-top:14px">Hay que tener al menos 16 años.</p><div id="esc"></div>`;
+  window.BanderinEscaparate && window.BanderinEscaparate($('#esc'), { titulo: true });
 }
 function vPreparando() {
   setTab('');
@@ -580,7 +612,7 @@ function vPreparando() {
 async function route() {
   const h = decodeURIComponent(location.hash.slice(1)) || 'partidas';
   const [v, ...rest] = h.split('/'); const arg = rest.join('/');
-  window.scrollTo(0, 0);
+  window.scrollTo(0, 0); clearInterval(CHAT);
   if (!ME || !SB) { vGate(); view.focus({ preventScroll: true }); return; }
   if (NOSQL) { vPreparando(); return; }
   try {
