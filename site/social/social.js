@@ -186,7 +186,7 @@ async function estado() {
 }
 async function badges() {
   const dj = $('#dotJ'), dm = $('#dotM'); dj.hidden = dm.hidden = true;
-  if (DEMO) return;
+  if (DEMO || !ME || NOSQL) return;
   try {
     const r = await q(SB.from('social_amistades').select('de').eq('para', ME.id).eq('estado', 'pendiente'));
     if (r.length) { dj.hidden = false; dj.textContent = r.length; }
@@ -198,16 +198,11 @@ async function badges() {
   } catch (e) { /* sin avisos */ }
 }
 
-// ───────── Cabecera y avisos ─────────
-function chrome() {
-  const b = $('#banner');
-  if (NOSQL) b.innerHTML = `<div class="banner"><span><b>Vista previa.</b> Falta preparar la base de datos de Social; mientras tanto ves datos de ejemplo.</span></div>`;
-  else if (DEMO) b.innerHTML = `<div class="banner"><span><b>Vista previa</b> con datos de ejemplo.</span><button class="btn primary sm" data-login>Entrar</button></div>`;
-  else b.innerHTML = '';
-  $('#meBtn').innerHTML = MYP ? av(MYP, 'm') : `<span class="av m" style="background:var(--hair);color:var(--muted)">${ME ? esc(ini(ME.email)) : '?'}</span>`;
-}
+// ───────── Cabecera ─────────
+function chrome() { document.body.classList.toggle('logged', !!ME); }
 document.addEventListener('click', e => { if (e.target.closest('[data-login]')) { e.preventDefault(); openLogin(); } });
-$('#meBtn').addEventListener('click', () => { location.hash = ME ? '#perfil' : ''; if (!ME) openLogin(); });
+{ const th = $('#theme'); if (th) th.onclick = () => { const r = document.documentElement, dark = r.dataset.theme ? r.dataset.theme === 'dark' : matchMedia('(prefers-color-scheme:dark)').matches; r.dataset.theme = dark ? 'light' : 'dark';
+  try { if (localStorage.getItem('banderin.tema') !== null) localStorage.setItem('banderin.tema', JSON.stringify(r.dataset.theme)); } catch (e) { } }; }
 
 // ───────── Entrar ─────────
 function openLogin(msg) {
@@ -215,7 +210,7 @@ function openLogin(msg) {
   <form id="lf"><label class="field"><span>Correo</span><input class="in" type="email" name="e" autocomplete="email" required></label>
   <label class="field"><span>Contraseña</span><input class="in" type="password" name="p" autocomplete="current-password" required minlength="6"></label>
   <p class="err" id="lerr" hidden></p><button class="btn primary block" type="submit">Entrar</button></form>
-  <div class="more"><a href="https://banderin.es/#perfil" target="_blank" rel="noopener">Crear una cuenta</a><a href="https://banderin.es/#perfil" target="_blank" rel="noopener">He olvidado la contraseña</a></div>`, s => {
+  <div class="more smore"><a href="https://banderin.es/#perfil" target="_blank" rel="noopener">Crear una cuenta</a><a href="https://banderin.es/#perfil" target="_blank" rel="noopener">He olvidado la contraseña</a></div>`, s => {
     s.querySelector('#lf').addEventListener('submit', async e => {
       e.preventDefault(); const f = e.target, btn = f.querySelector('button'); btn.disabled = true;
       const { error } = await SB.auth.signInWithPassword({ email: f.e.value.trim(), password: f.p.value });
@@ -227,7 +222,7 @@ function openLogin(msg) {
 }
 
 // ───────── Vistas ─────────
-function setTab(t) { document.querySelectorAll('.tabs a').forEach(a => { if (a.dataset.tab === t) a.setAttribute('aria-current', 'page'); else a.removeAttribute('aria-current'); }); }
+function setTab(t) { document.querySelectorAll('.subnav a').forEach(a => { const on = a.dataset.tab === t; a.classList.toggle('on', on); if (on) a.setAttribute('aria-current', 'page'); else a.removeAttribute('aria-current'); }); const f = $('#fab'); if (f) f.hidden = !ME || NOSQL || !MYP || t === 'publicar' || t === 'perfil' || /^#(partida|jugador)\//.test(location.hash); }
 const skel = n => '<div class="list" aria-busy="true">' + '<div class="skel"></div>'.repeat(n) + '</div>';
 const backBtn = () => `<button class="back" data-back>${I.back}Volver</button>`;
 document.addEventListener('click', e => { if (e.target.closest('[data-back]')) { e.preventDefault(); history.length > 1 ? history.back() : (location.hash = '#partidas'); } });
@@ -246,7 +241,7 @@ function matchCard(p) {
 async function vPartidas() {
   setTab('partidas');
   const nombre = MYP ? MYP.nombre.split(' ')[0] : '';
-  view.innerHTML = `<section class="hero"><p class="eb">Banderín Social · Prueba</p><h1>${nombre ? 'Hola, ' + esc(nombre) + '.<br>' : ''}¿Con quién juegas?</h1>
+  view.innerHTML = `<section class="shero"><p class="eb">Banderín Social · Prueba</p><h1>${nombre ? 'Hola, ' + esc(nombre) + '.<br>' : ''}¿Con quién juegas?</h1>
     <p>Únete a una partida, busca pareja para un torneo o publica la tuya y deja que te encuentren.</p>
     <div class="acts"><a class="btn gold" href="#publicar">${I.plus}Publicar partida</a><a class="btn ghost" href="#jugadores">Ver jugadores</a></div></section>
     ${PAREJAS.length ? `<div class="sec"><h2>Torneos por parejas</h2><a href="https://banderin.es/#lista" target="_blank" rel="noopener">Ver todos</a></div>
@@ -309,7 +304,7 @@ async function vPartida(id) {
   ${p.mia ? `<div class="sec"><h2>Solicitudes${pend.length ? ' <span class="dot">' + pend.length + '</span>' : ''}</h2></div>
     <div class="panel glass">${pend.length ? pend.map(s => pRow(s, `<div style="display:flex;gap:6px"><button class="btn soft sm" data-rej="${esc(s.jugador)}">No</button><button class="btn primary sm" data-acc="${esc(s.jugador)}" ${full ? 'disabled' : ''}>Aceptar</button></div>`)).join('') : '<p class="lede" style="margin:0">Cuando alguien pida unirse, aparecerá aquí. Comparte la partida para que te encuentren.</p>'}</div>` : ''}
   <div class="cta glass">${cta}</div>
-  <div class="more">${p.mia ? '<button data-del>Borrar partida</button>' : `<button data-report>Denunciar</button><button data-block>Bloquear a ${esc((a.nombre || '').split(' ')[0])}</button>`}</div>`;
+  <div class="more smore">${p.mia ? '<button data-del>Borrar partida</button>' : `<button data-report>Denunciar</button><button data-block>Bloquear a ${esc((a.nombre || '').split(' ')[0])}</button>`}</div>`;
   const reload = () => vPartida(id);
   view.querySelectorAll('[data-share]').forEach(b => b.onclick = () => share(`${p.tipo === 'torneo' ? 'Busco pareja: ' + (p.torneo || p.campo) : 'Partida en ' + p.campo} · ${when(p.fecha)}`, location.origin + '/social/#partida/' + p.id));
   const on1 = (sel, fn) => { const b = view.querySelector(sel); if (b) b.onclick = fn; };
@@ -356,7 +351,7 @@ function askProfile() { toast('Primero crea tu perfil de jugador'); location.has
 
 function vPublicar(arg) {
   setTab('publicar');
-  if (DEMO) { view.innerHTML = `<section class="hero"><p class="eb">Publicar</p><h1>Publica tu partida.</h1><p>Elige campo, día y plazas. Los jugadores te piden unirse y tú decides.</p><div class="acts"><button class="btn gold" data-login>Entrar para publicar</button></div></section>${demoForm()}`; return; }
+  if (DEMO) { view.innerHTML = `<section class="shero"><p class="eb">Publicar</p><h1>Publica tu partida.</h1><p>Elige campo, día y plazas. Los jugadores te piden unirse y tú decides.</p><div class="acts"><button class="btn gold" data-login>Entrar para publicar</button></div></section>${demoForm()}`; return; }
   if (!MYP) { view.innerHTML = `<div class="empty glass panel" style="margin-top:14px"><b>Primero, tu perfil de jugador.</b>Así los demás saben con quién van a jugar.<br><a class="btn primary" href="#perfil/editar">Crear mi perfil</a></div>`; return; }
   const t = arg && arg.startsWith('t/') ? TT.find(x => tid(x) === arg.slice(2)) : null;
   view.innerHTML = `<div class="sec" style="margin-top:18px"><h2>Publicar partida</h2></div>
@@ -410,7 +405,7 @@ async function vJugadores(sub) {
   let am = { amigos: [], recibidas: [], enviadas: [] };
   try { if (ME || DEMO) am = await amistades(); } catch (e) { /* sigue */ }
   view.innerHTML = `<div class="sec" style="margin-top:18px"><h2>Jugadores</h2></div>
-  <div class="seg" role="tablist"><button role="tab" data-j="buscar" aria-selected="${JTAB === 'buscar'}">Buscar</button><button role="tab" data-j="amigos" aria-selected="${JTAB === 'amigos'}">Amigos ${am.amigos.length ? '· ' + am.amigos.length : ''}</button><button role="tab" data-j="sol" aria-selected="${JTAB === 'sol'}">Solicitudes${am.recibidas.length ? '<span class="dot">' + am.recibidas.length + '</span>' : ''}</button></div><div id="jl"></div>`;
+  <div class="sseg" role="tablist"><button role="tab" data-j="buscar" aria-selected="${JTAB === 'buscar'}">Buscar</button><button role="tab" data-j="amigos" aria-selected="${JTAB === 'amigos'}">Amigos ${am.amigos.length ? '· ' + am.amigos.length : ''}</button><button role="tab" data-j="sol" aria-selected="${JTAB === 'sol'}">Solicitudes${am.recibidas.length ? '<span class="dot">' + am.recibidas.length + '</span>' : ''}</button></div><div id="jl"></div>`;
   view.querySelectorAll('[data-j]').forEach(b => b.onclick = () => { JTAB = b.dataset.j; vJugadores(); });
   const box = $('#jl');
   if (JTAB === 'amigos') {
@@ -460,7 +455,7 @@ async function vJugador(id) {
     r.rel === 'recibida' ? `<button class="btn primary" data-facc>Aceptar amistad</button>` : `<button class="btn primary" data-fadd>${I.plus}Añadir amigo</button>`;
   view.innerHTML = backBtn() + `<div style="margin-top:12px">${profileBlock(r.p, r.c, { n: r.partidas.length, acts: btn })}</div>
     ${r.partidas.length ? `<div class="sec"><h2>Sus próximas partidas</h2></div><div class="list">${r.partidas.map(p => matchCard({ ...p, autorP: r.p, ocupadas: p.ok || 0 })).join('')}</div>` : ''}
-    <div class="more"><button data-report>Denunciar</button><button data-block>Bloquear</button></div>`;
+    <div class="more smore"><button data-report>Denunciar</button><button data-block>Bloquear</button></div>`;
   const on1 = (s, fn) => { const b = view.querySelector(s); if (b) b.onclick = fn; };
   on1('[data-fadd]', async () => { if (needReal()) return; if (!MYP) return askProfile(); try { await q(SB.from('social_amistades').insert({ de: ME.id, para: id })); toast('Solicitud enviada'); vJugador(id); } catch (e) { toast(errMsg(e)); } });
   on1('[data-facc]', async () => { try { await q(SB.from('social_amistades').update({ estado: 'aceptada' }).eq('de', id).eq('para', ME.id)); toast('¡Ahora sois amigos!'); vJugador(id); badges(); } catch (e) { toast(errMsg(e)); } });
@@ -474,7 +469,7 @@ let MTAB = 'pub';
 async function vMias() {
   setTab('mias');
   if (DEMO) { view.innerHTML = `<div class="empty glass panel" style="margin-top:18px"><b>Aquí verás tus partidas.</b>Las que publicas y a las que te apuntas, con sus solicitudes.<br><button class="btn primary" data-login>Entrar</button></div>`; return; }
-  view.innerHTML = `<div class="sec" style="margin-top:18px"><h2>Mis partidas</h2></div><div class="seg" role="tablist"><button role="tab" data-m="pub" aria-selected="${MTAB === 'pub'}">Publicadas</button><button role="tab" data-m="ap" aria-selected="${MTAB === 'ap'}">Me apunté</button></div><div id="mm">${skel(2)}</div>`;
+  view.innerHTML = `<div class="sec" style="margin-top:18px"><h2>Mis partidas</h2></div><div class="sseg" role="tablist"><button role="tab" data-m="pub" aria-selected="${MTAB === 'pub'}">Publicadas</button><button role="tab" data-m="ap" aria-selected="${MTAB === 'ap'}">Me apunté</button></div><div id="mm">${skel(2)}</div>`;
   view.querySelectorAll('[data-m]').forEach(b => b.onclick = () => { MTAB = b.dataset.m; vMias(); });
   try {
     if (MTAB === 'pub') {
@@ -495,7 +490,7 @@ async function vMias() {
 async function vPerfil(sub) {
   setTab('perfil');
   if (!ME) {
-    view.innerHTML = `<section class="hero"><p class="eb">Tu perfil de jugador</p><h1>Que sepan con quién juegan.</h1><p>Tu nombre, tu hándicap, tus campos y tu zona. Tu contacto, solo si tú quieres.</p><div class="acts"><button class="btn gold" data-login>Entrar con mi cuenta</button></div></section>
+    view.innerHTML = `<section class="shero"><p class="eb">Tu perfil de jugador</p><h1>Que sepan con quién juegan.</h1><p>Tu nombre, tu hándicap, tus campos y tu zona. Tu contacto, solo si tú quieres.</p><div class="acts"><button class="btn gold" data-login>Entrar con mi cuenta</button></div></section>
     <div style="margin-top:12px">${profileBlock(DEMOD.U[0], null, { n: 1, self: true })}</div><p class="lede" style="text-align:center;margin-top:10px">Perfil de ejemplo</p>`;
     return;
   }
@@ -504,7 +499,7 @@ async function vPerfil(sub) {
   let n = 0; try { n = (await q(SB.from('social_partidas').select('id').eq('autor', ME.id).gte('fecha', TODAY))).length; } catch (e) { }
   view.innerHTML = `<div style="margin-top:14px">${profileBlock(MYP, MYC, { self: true, n, acts: `<a class="btn primary" href="#perfil/editar">Editar perfil</a><button class="btn ghost" data-sh>${I.share}Compartir</button>` })}</div>
     <div class="panel glass" style="margin-top:10px"><div class="lock">${I.lock}<span>${MYC && MYC.publico ? 'Tu contacto es visible para cualquier jugador con cuenta.' : 'Tu contacto solo lo ven tus amigos y quien juega una partida contigo.'} Tu fecha de nacimiento no la ve nadie.</span></div></div>
-    <div class="more"><button id="lo">Cerrar sesión</button><button id="unb">Desbloquear jugadores</button><button id="delp">Borrar mi perfil social</button></div>`;
+    <div class="more smore"><button id="lo">Cerrar sesión</button><button id="unb">Desbloquear jugadores</button><button id="delp">Borrar mi perfil social</button></div>`;
   view.querySelector('[data-sh]').onclick = () => share('Juega conmigo en Banderín Social', location.origin + '/social/#jugador/' + ME.id);
   $('#lo').onclick = () => SB.auth.signOut();
   $('#unb').onclick = async () => {
@@ -566,11 +561,28 @@ function vEditar() {
   };
 }
 
+// ───────── Solo con cuenta ─────────
+function vGate() {
+  setTab('');
+  view.innerHTML = `<section class="shero gate"><p class="eb">Banderín Social</p><h1>Encuentra con quién jugar.</h1>
+    <p>Social es para golfistas con cuenta de Banderín. Entra o crea tu cuenta gratis en un minuto.</p>
+    <ul><li><i>1</i><span><b>Partidas abiertas</b> en tu zona, filtradas por tu hándicap.</span></li><li><i>2</i><span><b>Busca pareja</b> para los torneos por parejas de Banderín.</span></li><li><i>3</i><span><b>Amigos y perfil de jugador</b>, con tu contacto solo para quien tú quieras.</span></li></ul>
+    <div class="acts"><button class="btn gold" data-login>Entrar</button><a class="btn ghost" href="/#perfil">Crear cuenta gratis</a></div></section>
+    <p class="lede" style="text-align:center;margin-top:14px">Hay que tener al menos 16 años.</p>`;
+}
+function vPreparando() {
+  setTab('');
+  view.innerHTML = `<div class="empty glass panel" style="margin-top:18px"><b>Social se está preparando.</b>Muy pronto podrás crear tu perfil de jugador y publicar partidas.<br><button class="btn ghost" id="lo">Cerrar sesión</button></div>`;
+  $('#lo').onclick = () => SB.auth.signOut();
+}
+
 // ───────── Navegación ─────────
 async function route() {
   const h = decodeURIComponent(location.hash.slice(1)) || 'partidas';
   const [v, ...rest] = h.split('/'); const arg = rest.join('/');
   window.scrollTo(0, 0);
+  if (!ME || !SB) { vGate(); view.focus({ preventScroll: true }); return; }
+  if (NOSQL) { vPreparando(); return; }
   try {
     if (v === 'partida') await vPartida(arg);
     else if (v === 'publicar') vPublicar(arg);
@@ -579,16 +591,17 @@ async function route() {
     else if (v === 'mias') await vMias();
     else if (v === 'perfil') await vPerfil(arg);
     else await vPartidas();
+    if (v === 'partida' || v === 'jugador') $('#fab').hidden = true;
   } catch (e) { console.error(e); view.innerHTML = `<div class="empty"><b>Algo ha fallado.</b>${esc(errMsg(e))}</div>`; }
   view.focus({ preventScroll: true });
 }
 addEventListener('hashchange', route);
 async function refresh() {
   try { await estado(); } catch (e) { console.error(e); }
-  DEMO = !ME || NOSQL; chrome(); badges();
+  DEMO = false; chrome(); badges();
 }
 async function start() {
-  if (!SB) { DEMO = true; chrome(); route(); return; }
+  if (!SB) { chrome(); route(); return; }
   const { data } = await SB.auth.getSession(); ME = data.session ? data.session.user : null;
   await refresh(); route();
   SB.auth.onAuthStateChange(async (ev, session) => {

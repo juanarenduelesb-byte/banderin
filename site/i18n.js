@@ -18,7 +18,7 @@ window.EN={
   "Ese torneo ya no está en Banderín, pero aquí tienes todos los demás.": "That tournament is no longer on Banderín, but here are all the others.",
   "Avisos activados con tu cuenta.": "Alerts turned on with your account.",
 /* navegación y portada */
-"Un proyecto de Esclusa":"A project by Esclusa","Inicio":"Home","Torneos":"Tournaments","Calendario":"Calendar","Resultados":"Results","Fuentes":"Sources",
+"Un proyecto de Esclusa":"A project by Esclusa","Inicio":"Home","Social":"Social","Buscador":"Search","Torneos":"Tournaments","Calendario":"Calendar","Resultados":"Results","Fuentes":"Sources",
 "Cambiar entre modo claro y oscuro":"Switch between light and dark mode","Cambiar tema":"Change theme",
 "Torneos de golf en España":"Golf tournaments in Spain","¿Dónde juegas este":"Where are you playing","fin de semana":"this weekend",
 "Tu ciudad":"Your city","Distancia máxima":"Maximum distance","Cualquier distancia":"Any distance","Hasta 25 km":"Up to 25 km","Hasta 50 km":"Up to 50 km","Hasta 100 km":"Up to 100 km","Hasta 200 km":"Up to 200 km",

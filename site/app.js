@@ -306,7 +306,8 @@ function route(){
   {const m=$('me');if(v==='perfil')m.setAttribute('aria-current','page');else m.removeAttribute('aria-current')}
   if(v==='legal'){renderLegal(h);scrollTo({top:0})}
   if(v!=='inicio'&&v!=='calendario')closeModal();
-  document.querySelectorAll('.tabs a').forEach(a=>{const on=a.getAttribute('href')==='#'+v;a.classList.toggle('on',on);if(on)a.setAttribute('aria-current','page');else a.removeAttribute('aria-current')});
+  document.querySelectorAll('.subnav a').forEach(a=>{const on=a.getAttribute('href')==='#'+v;a.classList.toggle('on',on);if(on)a.setAttribute('aria-current','page');else a.removeAttribute('aria-current')});
+  document.querySelectorAll('.tabs a').forEach(a=>{const hr=a.getAttribute('href'),on=hr==='#'+v||(hr==='#lista'&&(v==='calendario'||v==='resultados'));a.classList.toggle('on',on);if(on)a.setAttribute('aria-current','page');else a.removeAttribute('aria-current')});
   if(v!=='lista')closeSheet();
 }
 const inputs=()=>document.querySelectorAll('#controls select,#controls input');
