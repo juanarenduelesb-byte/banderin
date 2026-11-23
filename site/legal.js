@@ -10,7 +10,7 @@ window.TITULAR = {
   marca: "Esclusa",
   web: "Banderín"
 };
-window.LEGAL_ACTUALIZADO = "2026-11-11";
+window.LEGAL_ACTUALIZADO = "2026-11-23";
 
 window.LEGALDOCS = {
 "aviso-legal": {
@@ -85,10 +85,13 @@ window.LEGALDOCS = {
 <tr><td>Rellenas tu perfil o sigues clubes y provincias</td><td>Hándicap, año de nacimiento, sexo de competición, federación, clubes de los que eres socio y lo que sigues, solo en tu navegador.</td><td>Marcar qué torneos encajan contigo y mostrarte los de lo que sigues.</td><td>Servicio que solicitas al guardarlo (exento de consentimiento).</td><td>Hasta que lo borres desde «Mi perfil».</td></tr>
 <tr><td>Creas una cuenta</td><td>Tu correo y una contraseña cifrada (o, si entras con Google, tu correo y nombre que nos facilita Google), y lo que guardas en Banderín: perfil, lo que sigues, torneos guardados y jugados.</td><td>Que entres desde cualquier dispositivo y encuentres tus datos.</td><td>Ejecución del servicio que solicitas al crear la cuenta (art. 6.1.b RGPD).</td><td>Hasta que borres la cuenta desde «Mi perfil», que lo elimina todo al instante.</td></tr>
 <tr><td>Activas los avisos por correo</td><td>Tu correo, el idioma, lo que sigues (clubes, provincias y torneos guardados) y, si lo has rellenado, tu perfil de golfista, en la base de datos de Banderín en Cloudflare.</td><td>Enviarte los avisos que pides, como mucho un correo al día, sin sugerirte torneos que no encajan contigo.</td><td>Ejecución del servicio que solicitas (art. 6.1.b RGPD).</td><td>Hasta que te des de baja, que borra todo al instante. Las altas sin confirmar se borran a los 7 días y las inactivas a los 24 meses. Si tienes cuenta, se activan sin correo de confirmación porque tu dirección ya está verificada.</td></tr>
+<tr><td>Usas Banderín Social</td><td>Tu perfil de jugador (nombre que elijas, hándicap, provincia, campos y presentación), tu contacto si lo añades (WhatsApp o correo), tu fecha de nacimiento, tus amistades, las partidas que publicas, tus solicitudes para unirte y los mensajes del chat de cada partida.</td><td>Que encuentres con quién jugar: mostrar tu perfil y tus partidas a otros usuarios con cuenta, gestionar solicitudes y amistades y permitir que los jugadores de una partida hablen entre sí. La fecha de nacimiento solo sirve para comprobar la edad mínima (16 años) y proteger a los menores de 18, y no la ve nadie.</td><td>Ejecución del servicio que solicitas al crear tu perfil de jugador (art. 6.1.b RGPD) e interés legítimo en moderar y prevenir abusos (art. 6.1.f).</td><td>Hasta que borres tu perfil social o tu cuenta, que lo elimina al instante. Las partidas, con sus solicitudes y su chat, se borran solas 30 días después de la fecha de juego. Las denuncias se conservan hasta un año.</td></tr>
 <tr><td>Eliges un idioma</td><td>El idioma, solo en tu navegador.</td><td>Mostrarte la web en el idioma que has elegido.</td><td>Servicio que solicitas (personalización de la interfaz, exenta de consentimiento).</td><td>12 meses.</td></tr>
 <tr><td>Nos escribes por correo</td><td>Nombre, dirección de correo y lo que nos cuentes.</td><td>Responderte y, si es el caso, corregir o retirar un torneo.</td><td>Tu consentimiento al escribirnos (art. 6.1.a) y nuestro interés legítimo en atender solicitudes (art. 6.1.f).</td><td>El tiempo necesario para resolverlo y, después, hasta un año.</td></tr>
 </tbody></table>
 <p>Los datos de los torneos que mostramos se refieren a competiciones y entidades, no a personas. Banderín enlaza a los resultados oficiales, pero no copia nombres de jugadores. Si algún torneo incluye el nombre de una persona (por ejemplo, un memorial) es porque así lo publica su organizador, puedes pedirnos su corrección o retirada.</p>
+
+<p><b>Quién ve tus datos en Banderín Social.</b> Solo otros usuarios con cuenta. Tu nombre, hándicap, provincia, campos y presentación los ven los demás jugadores (si ocultas tu perfil, solo tus amigos y las personas con las que juegas). Tu contacto solo lo ven tus amigos y los jugadores con los que compartes una partida aceptada, salvo que tú decidas hacerlo visible para todos los usuarios. El chat de una partida solo lo leen quien la organiza y los jugadores aceptados. Quien no tiene cuenta solo ve, de cada partida abierta, el campo, el día, el hándicap que se busca y las plazas libres, sin ningún dato personal. Banderín puede revisar el contenido denunciado para moderarlo.</p>
 
 <h3 id="pr-3">3. Alojamiento y proveedores</h3>
 <p>La web está alojada en Cloudflare Pages (Cloudflare, Inc.), que actúa como encargado del tratamiento. Para servir la página y protegerla frente a ataques, Cloudflare trata datos técnicos de conexión, como la dirección IP y el navegador, conforme a su <a href="https://www.cloudflare.com/es-es/privacypolicy/" target="_blank" rel="noopener noreferrer">política de privacidad</a> y a su acuerdo de tratamiento de datos. Banderín no guarda registros de visitas. Las tipografías se sirven desde la propia web, sin conexión con Google.</p>
@@ -109,6 +112,7 @@ window.LEGALDOCS = {
 
 <h3 id="pr-6">6. Menores</h3>
 <p>Para crear una cuenta o activar los avisos por correo hay que tener 14 años o más, la edad a partir de la cual se puede consentir el tratamiento de los propios datos en España (artículo 7 de la Ley Orgánica 3/2018). Al crear la cuenta lo confirmas expresamente. Si eres menor de 14 años, puedes usar la web sin cuenta, pero no nos envíes tu correo ni otros datos personales.</p>
+<p>Para usar Banderín Social hay que tener 16 años o más. Lo comprobamos con la fecha de nacimiento que indicas al crear tu perfil de jugador, que no se muestra a nadie. El contacto de las personas de 16 y 17 años nunca puede hacerse público: solo lo ven sus amigos y los jugadores con los que comparten una partida.</p>
 <p>Banderín muestra torneos de categorías juveniles, pero no publica ni guarda datos de los jugadores, tampoco de menores. Si sabes que un menor de 14 años nos ha dado sus datos, o eres su madre, padre o tutor, escríbenos a {{email}} y los borraremos.</p>
 
 <h3 id="pr-7">7. Decisiones automatizadas</h3>
@@ -147,6 +151,7 @@ window.LEGALDOCS = {
 <tr><td><code>sb-…-auth-token</code></td><td>Sesión, propia (Supabase)</td><td>Mantener abierta tu sesión si has entrado en tu cuenta.</td><td>Hasta que cierres sesión</td><td>No (estrictamente necesaria para el servicio que pides)</td></tr>
 </tbody></table>
 <p>Estos datos se quedan en tu dispositivo. Banderín no los recibe ni los comparte.</p>
+<p>Banderín Social no añade cookies ni almacenamiento nuevos: usa la misma sesión de tu cuenta y, si la has guardado, tu preferencia de tema.</p>
 
 <h3 id="co-3">3. Cookies de terceros</h3>
 <p>Banderín no instala cookies de terceros. Cloudflare, el proveedor de alojamiento, puede usar cookies estrictamente técnicas de seguridad (por ejemplo, para distinguir visitas legítimas de tráfico automatizado), exentas de consentimiento según su <a href="https://www.cloudflare.com/es-es/cookie-policy/" target="_blank" rel="noopener noreferrer">política de cookies</a>. Banderín no carga ningún otro servicio de terceros al abrir la página.</p>
@@ -192,7 +197,13 @@ window.LEGALDOCS = {
 <h3 id="te-7">7. Responsabilidad</h3>
 <p>En la medida en que lo permita la ley, el titular no responde de los perjuicios derivados de información inexacta o desactualizada facilitada por terceros, de cancelaciones o cambios decididos por los organizadores, ni del contenido de los sitios enlazados. Nada en estos términos limita los derechos que te reconoce la normativa de consumidores.</p>
 
-<h3 id="te-8">8. Ley y jurisdicción</h3>
+<h3 id="te-8">8. Banderín Social</h3>
+<p>Banderín Social es la parte de Banderín para encontrar con quién jugar: publicar partidas, buscar pareja para un torneo, añadir amigos y hablar en el chat de cada partida. Para usarla necesitas una cuenta, tener 16 años o más y crear un perfil de jugador con datos verdaderos.</p>
+<p>Banderín solo pone en contacto a los jugadores. No organiza las partidas, no reserva campos ni salidas, no cobra nada y no comprueba la identidad, la edad ni el hándicap que declara cada persona. Quedar con otros jugadores es decisión y responsabilidad tuya: usa el sentido común, queda en el club y no compartas más datos de los necesarios. La inscripción en los torneos y el pago de green fees se hacen siempre con el club u organizador.</p>
+<p>No está permitido acosar, insultar o discriminar, publicar contenido sexual, violento o ilegal, hacer publicidad o spam, suplantar a otra persona, publicar partidas falsas ni pedir o difundir datos de otros usuarios fuera de Banderín sin su permiso. Puedes denunciar y bloquear a cualquier usuario desde su perfil o desde una partida. Banderín puede retirar contenido y suspender o eliminar perfiles que incumplan estas normas, sin aviso previo cuando sea necesario para proteger a otras personas.</p>
+<p>El contenido que publicas (perfil, partidas y mensajes) es tuyo y eres responsable de él. Puedes borrar tu perfil social o tu cuenta en cualquier momento desde «Mi perfil».</p>
+
+<h3 id="te-9">9. Ley y jurisdicción</h3>
 <p>Estos términos se rigen por la ley española. Si eres consumidor, podrás acudir a los juzgados de tu domicilio.</p>
 `}
 };

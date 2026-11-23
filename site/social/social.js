@@ -564,9 +564,9 @@ async function vEditar() {
       <label class="field"><span>Correo</span><input class="in" type="email" name="em" maxlength="120" value="${esc(c.email || '')}"></label></div>
     <div class="switch"><div><b>Contacto visible para todos</b><small>${EST && EST.mayor ? 'Cualquier jugador con cuenta lo verá.' : 'Solo para mayores de 18. Así protegemos a los más jóvenes.'}</small></div><input type="checkbox" name="pub" aria-label="Contacto visible para todos"${c.publico ? ' checked' : ''}${EST && EST.mayor ? '' : ' disabled'}></div>
     <div class="switch"><div><b>Aparecer en «Jugadores»</b><small>Si lo apagas, solo te verán tus amigos y con quien juegues.</small></div><input type="checkbox" name="vis" aria-label="Aparecer en Jugadores"${p.visible !== false ? ' checked' : ''}></div>
+    ${nuevo ? `<label class="okrow"><input type="checkbox" name="ok"><span>Tengo 16 años o más y acepto las <a href="/#terminos" target="_blank" rel="noopener">normas de Banderín Social</a> y la <a href="/#privacidad" target="_blank" rel="noopener">política de privacidad</a>. Los demás jugadores verán mi nombre, hándicap, provincia y campos.</span></label>` : ''}
     <p class="err" id="eerr" hidden></p>
     <button class="btn primary block" type="submit" style="margin-top:14px">${nuevo ? 'Crear mi perfil' : 'Guardar'}</button>
-    <p class="lede" style="margin:12px 0 0;text-align:center">Al crear tu perfil aceptas que los demás jugadores vean tu nombre, hándicap, provincia y campos.</p>
   </form>`;
   const f = view.querySelector('#ef'), cq = f.querySelector('#cq'), cs = f.querySelector('#cs'), cc = f.querySelector('#cc');
   const drawC = () => { cc.innerHTML = campos.map((x, i) => `<span class="chip">${esc(x)}<button type="button" data-rm="${i}" aria-label="Quitar ${esc(x)}">×</button></span>`).join(''); cq.disabled = campos.length >= 8; };
@@ -578,7 +578,7 @@ async function vEditar() {
     e.preventDefault(); const er = f.querySelector('#eerr'); er.hidden = true;
     const nombre = f.nombre.value.trim(), hcp = f.hcp.value === '' ? null : Math.round(+f.hcp.value * 10) / 10;
     const wa = f.wa.value.trim(), em = f.em.value.trim();
-    const bad = nombre.length < 2 ? 'Escribe tu nombre.' : f.nac && !f.nac.value ? 'Pon tu fecha de nacimiento.' : f.nac && f.nac.value > addDays(-365 * 16 - 4) ? 'Hay que tener al menos 16 años.' :
+    const bad = f.ok && !f.ok.checked ? 'Para crear tu perfil tienes que aceptar las normas y la política de privacidad.' : nombre.length < 2 ? 'Escribe tu nombre.' : f.nac && !f.nac.value ? 'Pon tu fecha de nacimiento.' : f.nac && f.nac.value > addDays(-365 * 16 - 4) ? 'Hay que tener al menos 16 años.' :
       hcp != null && (hcp < -10 || hcp > 54) ? 'El hándicap va de -10 a 54.' : wa && !/^\+?[0-9 ]{9,17}$/.test(wa) ? 'El WhatsApp no parece válido.' : em && !/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(em) ? 'El correo no parece válido.' : '';
     if (bad) { er.hidden = false; er.textContent = bad; return; }
     const btn = f.querySelector('[type=submit]'); btn.disabled = true;

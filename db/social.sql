@@ -7,11 +7,14 @@
 -- La fecha de nacimiento solo la ve su dueño. Mínimo 16 años. No se puede cambiar una vez puesta.
 create table if not exists public.social_privado (
   user_id    uuid primary key references auth.users (id) on delete cascade,
-  nacimiento date not null
+  nacimiento date not null,
+  aceptado   timestamptz not null default now()  -- cuándo aceptó las normas de Social y la política de privacidad
 );
+alter table public.social_privado add column if not exists aceptado timestamptz not null default now();
 create or replace function public.social_edad_ok() returns trigger language plpgsql as $$
 begin
   if new.user_id <> auth.uid() then raise exception 'no permitido'; end if;
+  new.aceptado := now();
   if new.nacimiento > (current_date - interval '16 years')::date or new.nacimiento < date '1910-01-01' then
     raise exception 'edad: hay que tener al menos 16 años';
   end if;
@@ -199,6 +202,8 @@ begin
     if not social_tiene_perfil(new.autor) then raise exception 'perfil: crea tu perfil primero'; end if;
     if (select count(*) from social_partidas where autor = new.autor and creado > now() - interval '1 day') >= 6 then raise exception 'limite'; end if;
     new.creado := now();
+    -- Limpieza: las partidas (con sus solicitudes y su chat) se borran 30 días después de jugarse.
+    delete from social_partidas where fecha < current_date - 30;
   else
     new.autor := old.autor; new.creado := old.creado;
   end if;
