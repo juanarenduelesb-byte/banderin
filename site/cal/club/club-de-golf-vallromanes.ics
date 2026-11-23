@@ -10,22 +10,8 @@ X-WR-TIMEZONE:Europe/Madrid
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:f14cee7ced673658fc99@banderin.es
-DTSTAMP:20261122T125551Z
-DTSTART;VALUE=DATE:20261122
-DTEND;VALUE=DATE:20261123
-SUMMARY:Torneo Padres e Hijos
-LOCATION:Club de Golf Vallromanes\, Vallromanes\, Barcelona
-DESCRIPTION:Juvenil - Individual\nFicha oficial: https://www.catgolf.com/es
- /campeonatos/torneo-padres-e-hijos-2026-11-22\nConfirma fechas y condicion
- es en la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.catgolf.com/es/campeonatos/torneo-padres-e-hijos-2026-11-22
-END:VEVENT
-BEGIN:VEVENT
 UID:19bba16304f1e5baa18e@banderin.es
-DTSTAMP:20261122T125551Z
+DTSTAMP:20261123T065831Z
 DTSTART;VALUE=DATE:20261215
 DTEND;VALUE=DATE:20261216
 SUMMARY:Open Vallromanes Golf & brunch
@@ -40,7 +26,7 @@ URL:https://www.catgolf.com/es/campeonatos/open-vallromanes-golf-brunch-202
 END:VEVENT
 BEGIN:VEVENT
 UID:fe317bab4a3e649ab7b2@banderin.es
-DTSTAMP:20261122T125551Z
+DTSTAMP:20261123T065831Z
 DTSTART;VALUE=DATE:20270505
 DTEND;VALUE=DATE:20270506
 SUMMARY:53è Interclubs Femeni de Catalunya - Liguilla 2027 (Vallromanes)

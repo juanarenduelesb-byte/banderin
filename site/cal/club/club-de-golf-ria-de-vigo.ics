@@ -10,23 +10,8 @@ X-WR-TIMEZONE:Europe/Madrid
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:06ca4c335db69717dc9e@banderin.es
-DTSTAMP:20261122T125551Z
-DTSTART;VALUE=DATE:20261122
-DTEND;VALUE=DATE:20261123
-SUMMARY:Noveles
-LOCATION:Club de Golf Ria de Vigo\, San Lourenzo (domaio)\, Pontevedra
-DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
-  16 de octubre\, cierra el 21 de noviembre.\nFicha oficial: https://www.go
- lfdirecto.com/micro/game/6ad1ed4258859e3c4360236f/summary\nConfirma fechas
-  y condiciones en la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.golfdirecto.com/micro/game/6ad1ed4258859e3c4360236f/summary
-END:VEVENT
-BEGIN:VEVENT
 UID:a42144fd3270bea5924d@banderin.es
-DTSTAMP:20261122T125551Z
+DTSTAMP:20261123T065831Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Anselmo Benito
@@ -41,7 +26,7 @@ URL:https://www.golfdirecto.com/micro/game/6abbf8a73e4bd064bd40dac3/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:d661a9f032c9d01613ce@banderin.es
-DTSTAMP:20261122T125551Z
+DTSTAMP:20261123T065831Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
 SUMMARY:Homenaje Sechu M.C
@@ -56,7 +41,7 @@ URL:https://www.golfdirecto.com/micro/game/6abbf9083e4bd064bd554636/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:bad530bb2c3204ac56c9@banderin.es
-DTSTAMP:20261122T125551Z
+DTSTAMP:20261123T065831Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:Torneo de Nadal 2026
@@ -71,7 +56,7 @@ URL:https://www.golfdirecto.com/micro/game/6acdd9063889028eefec9c57/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:a47f3387a5ed59b11aee@banderin.es
-DTSTAMP:20261122T125551Z
+DTSTAMP:20261123T065831Z
 DTSTART;VALUE=DATE:20270519
 DTEND;VALUE=DATE:20270520
 SUMMARY:Ruta do Viño 2027

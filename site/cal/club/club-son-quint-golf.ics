@@ -10,8 +10,23 @@ X-WR-TIMEZONE:Europe/Madrid
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
+UID:fa24bca626dec480c10b@banderin.es
+DTSTAMP:20261123T065831Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:Torneo Competidores
+LOCATION:Club Son Quint Golf\, Palma de Mallorca\, Illes Balears
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  22 de noviembre\, cierra el 25 de noviembre.\nFicha oficial: https://www.
+ golfdirecto.com/micro/game/6b02f626b275bf02365a95c6/summary\nConfirma fech
+ as y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6b02f626b275bf02365a95c6/summary
+END:VEVENT
+BEGIN:VEVENT
 UID:722093ac052f90456831@banderin.es
-DTSTAMP:20261122T125551Z
+DTSTAMP:20261123T065831Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
 SUMMARY:2ª Prueba Circuito Otoño - 9 Hoyos - Palma Pitch & Putt 2026
@@ -27,7 +42,7 @@ URL:https://www.golfdirecto.com/micro/game/6af98e3e440203a820b6ee70/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:c33e814e246311f7d788@banderin.es
-DTSTAMP:20261122T125551Z
+DTSTAMP:20261123T065831Z
 DTSTART;VALUE=DATE:20261211
 DTEND;VALUE=DATE:20261212
 SUMMARY:3ª Prueba Circuito Otoño - 9 Hoyos - Palma Pitch & Putt 2026

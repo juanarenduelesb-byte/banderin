@@ -10,23 +10,8 @@ X-WR-TIMEZONE:Europe/Madrid
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:02d1595cc7907043a226@banderin.es
-DTSTAMP:20261122T125551Z
-DTSTART;VALUE=DATE:20261122
-DTEND;VALUE=DATE:20261123
-SUMMARY:Torneo Liga Social 1er Torneo
-LOCATION:Real Novo Sancti Petri Golf Club\, Chiclana de la Frontera\, Cádi
- z
-DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
- //www.golfdirecto.com/micro/game/6b015ffe664a1e6489676c36/summary\nConfirm
- a fechas y condiciones en la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.golfdirecto.com/micro/game/6b015ffe664a1e6489676c36/summary
-END:VEVENT
-BEGIN:VEVENT
 UID:55a20ca45f741f4e887e@banderin.es
-DTSTAMP:20261122T125551Z
+DTSTAMP:20261123T065831Z
 DTSTART;VALUE=DATE:20261203
 DTEND;VALUE=DATE:20261204
 SUMMARY:Campeonato Andalucía de Profesionales Femenino
@@ -42,7 +27,7 @@ URL:https://www.nextcaddy.com/tour/75274
 END:VEVENT
 BEGIN:VEVENT
 UID:7bbc6a135926e4dd3f37@banderin.es
-DTSTAMP:20261122T125551Z
+DTSTAMP:20261123T065831Z
 DTSTART;VALUE=DATE:20261216
 DTEND;VALUE=DATE:20261217
 SUMMARY:Campeonato Andalucía de Profesionales Masculino

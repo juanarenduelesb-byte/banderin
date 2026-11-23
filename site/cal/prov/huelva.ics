@@ -10,68 +10,8 @@ X-WR-TIMEZONE:Europe/Madrid
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:4dfbbaa5a8b598fc81c7@banderin.es
-DTSTAMP:20261122T125551Z
-DTSTART;VALUE=DATE:20261122
-DTEND;VALUE=DATE:20261123
-SUMMARY:10ª Jornada Camaleón Golf 26/27
-LOCATION:Isla Canela Old Course\, Ayamonte\, Huelva
-DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
-  15 de noviembre\, cierra el 20 de noviembre.\nFicha oficial: https://www.
- golfdirecto.com/micro/game/6af3b1246aacb155d8364c04/summary\nConfirma fech
- as y condiciones en la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.golfdirecto.com/micro/game/6af3b1246aacb155d8364c04/summary
-END:VEVENT
-BEGIN:VEVENT
-UID:2ea1017385ddce147a0a@banderin.es
-DTSTAMP:20261122T125551Z
-DTSTART;VALUE=DATE:20261122
-DTEND;VALUE=DATE:20261123
-SUMMARY:1ª Jornada Lpgh XXVI Edición (Portil/Monacilla)
-LOCATION:Golf Nuevo Portil\, El Portil\, Huelva
-DESCRIPTION:Social de club - Fourball - Parejas\nInscripción: abre el 15 d
- e noviembre\, cierra el 20 de noviembre.\nFicha oficial: https://www.golfd
- irecto.com/micro/game/6aad78d9371000592dadc325/summary\nConfirma fechas y 
- condiciones en la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.golfdirecto.com/micro/game/6aad78d9371000592dadc325/summary
-END:VEVENT
-BEGIN:VEVENT
-UID:79ddf4771f5e858a1f70@banderin.es
-DTSTAMP:20261122T125551Z
-DTSTART;VALUE=DATE:20261122
-DTEND;VALUE=DATE:20261123
-SUMMARY:4ª Jornada Lpgh XXVI Edición (Bellavista-Old Course)
-LOCATION:Club de Golf Bellavista\, Aljaraque\, Huelva
-DESCRIPTION:Social de club - Fourball - Parejas\nInscripción: abre el 16 d
- e noviembre\, cierra el 20 de noviembre.\nFicha oficial: https://www.golfd
- irecto.com/micro/game/6af76c51aef92489910a3740/summary\nConfirma fechas y 
- condiciones en la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.golfdirecto.com/micro/game/6af76c51aef92489910a3740/summary
-END:VEVENT
-BEGIN:VEVENT
-UID:3ab97c254fc286dddedd@banderin.es
-DTSTAMP:20261122T125551Z
-DTSTART;VALUE=DATE:20261122
-DTEND;VALUE=DATE:20261123
-SUMMARY:4ª Jornada Lpgh XXVI Edición (Links-Islantilla)
-LOCATION:Isla Canela Links\, Ayamonte\, Huelva
-DESCRIPTION:Social de club - Fourball - Parejas\nInscripción: abre el 15 d
- e noviembre\, cierra el 20 de noviembre.\nFicha oficial: https://www.golfd
- irecto.com/micro/game/6af76badaef9248991f367cd/summary\nConfirma fechas y 
- condiciones en la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.golfdirecto.com/micro/game/6af76badaef9248991f367cd/summary
-END:VEVENT
-BEGIN:VEVENT
 UID:8355281cafa9960bd57b@banderin.es
-DTSTAMP:20261122T125551Z
+DTSTAMP:20261123T065831Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:IV Torneo Jesus Castizo
@@ -85,21 +25,22 @@ URL:https://www.nextcaddy.com/tour/74751
 END:VEVENT
 BEGIN:VEVENT
 UID:02ffc9808b42c2b6a74b@banderin.es
-DTSTAMP:20261122T125551Z
+DTSTAMP:20261123T065831Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:11ª Jornada Camaleón Golf 26/27
 LOCATION:Isla Canela Old Course\, Ayamonte\, Huelva
-DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
- //www.golfdirecto.com/micro/game/6afa0acc5445bc102935b69b/summary\nConfirm
- a fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  22 de noviembre\, cierra el 27 de noviembre.\nFicha oficial: https://www.
+ golfdirecto.com/micro/game/6afa0acc5445bc102935b69b/summary\nConfirma fech
+ as y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6afa0acc5445bc102935b69b/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:6cff6b2c0221ac68e875@banderin.es
-DTSTAMP:20261122T125551Z
+DTSTAMP:20261123T065831Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
 SUMMARY:Final Circuito Senior
@@ -112,8 +53,22 @@ STATUS:CONFIRMED
 URL:https://www.nextcaddy.com/tour/61254
 END:VEVENT
 BEGIN:VEVENT
+UID:8486509498313b7074a4@banderin.es
+DTSTAMP:20261123T065831Z
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+SUMMARY:12ª Jornada Camaleón Golf 26/27
+LOCATION:Isla Canela Old Course\, Ayamonte\, Huelva
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/6b0382edb275bf0236a418c7/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6b0382edb275bf0236a418c7/summary
+END:VEVENT
+BEGIN:VEVENT
 UID:593ab87bb9d9be277715@banderin.es
-DTSTAMP:20261122T125551Z
+DTSTAMP:20261123T065831Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:5ª Jornada Lpgh XXVI Edición. (Old Course-Links)
@@ -127,7 +82,7 @@ URL:https://www.golfdirecto.com/micro/game/6afe32ab9c9e80fccff2e00e/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:830445cf7b3d44ce461c@banderin.es
-DTSTAMP:20261122T125551Z
+DTSTAMP:20261123T065831Z
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
 SUMMARY:5ª Jornada Lpgh XXVI Edición. (Dunas-Bellavista)
@@ -141,7 +96,7 @@ URL:https://www.golfdirecto.com/micro/game/6afe33f59c9e80fccf03246d/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:858acfb3a118c03832df@banderin.es
-DTSTAMP:20261122T125551Z
+DTSTAMP:20261123T065831Z
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
 SUMMARY:5ª Jornada Lpgh XXVI Edición.(Islantilla-Portil)

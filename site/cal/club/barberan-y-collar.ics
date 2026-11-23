@@ -10,24 +10,8 @@ X-WR-TIMEZONE:Europe/Madrid
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:e320641803fc25d60f66@banderin.es
-DTSTAMP:20261122T125551Z
-DTSTART;VALUE=DATE:20261122
-DTEND;VALUE=DATE:20261123
-SUMMARY:Torneo Social ¨ Orden de Merito ¨ Noviembre 2026
-LOCATION:Barberan y Collar\, Madrid\, Madrid
-DESCRIPTION:Social de club - Medal Play - Individual\nInscripción: abre el
-  7 de noviembre\, cierra el 18 de noviembre.\nPrecio: 10 €.\nFicha ofici
- al: https://www.golfdirecto.com/micro/game/6977a519393debfc1bd32cb4/summar
- y\nConfirma fechas y condiciones en la web del organizador. Vía Banderín
- .
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.golfdirecto.com/micro/game/6977a519393debfc1bd32cb4/summary
-END:VEVENT
-BEGIN:VEVENT
 UID:30f1c6eb06fc22ff53cf@banderin.es
-DTSTAMP:20261122T125551Z
+DTSTAMP:20261123T065831Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:Liga Seniors Noviembre
@@ -42,7 +26,7 @@ URL:https://www.golfdirecto.com/micro/game/697894855dc6a5fcc72c4d17/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:32230e1b2e713fd35533@banderin.es
-DTSTAMP:20261122T125551Z
+DTSTAMP:20261123T065831Z
 DTSTART;VALUE=DATE:20261208
 DTEND;VALUE=DATE:20261209
 SUMMARY:Premio Social y Virgen de Loreto
@@ -58,7 +42,7 @@ URL:https://www.golfdirecto.com/micro/game/6a7d8ccc61fd16bcfc9e8e63/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:46e05ed9cdc0118adbc0@banderin.es
-DTSTAMP:20261122T125551Z
+DTSTAMP:20261123T065831Z
 DTSTART;VALUE=DATE:20261208
 DTEND;VALUE=DATE:20261209
 SUMMARY:Torneo "Nuestra Señora de Loreto" SOLO AQUÍ INVITADOS
@@ -74,7 +58,7 @@ URL:https://www.golfdirecto.com/micro/game/6aee192de0349cc290f6cd36/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:bd1b8dd0880e59aa4646@banderin.es
-DTSTAMP:20261122T125551Z
+DTSTAMP:20261123T065831Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:Liga Damas Barberán Feliz Navidad
@@ -90,7 +74,7 @@ URL:https://www.golfdirecto.com/micro/game/69755fca45d9e07d123803c2/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:47412c647144b214a368@banderin.es
-DTSTAMP:20261122T125551Z
+DTSTAMP:20261123T065831Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:Torneo Padres e Hijos
@@ -104,7 +88,7 @@ URL:https://www.golfdirecto.com/micro/game/6af30e2f6aacb155d8acd094/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:3c421017670a42e73858@banderin.es
-DTSTAMP:20261122T125551Z
+DTSTAMP:20261123T065831Z
 DTSTART;VALUE=DATE:20261216
 DTEND;VALUE=DATE:20261217
 SUMMARY:Liga Seniors Diciembre

@@ -10,17 +10,17 @@ X-WR-TIMEZONE:Europe/Madrid
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:683e814abcdacc9f4bfe@banderin.es
-DTSTAMP:20261122T125551Z
-DTSTART;VALUE=DATE:20261122
-DTEND;VALUE=DATE:20261123
-SUMMARY:Torneo Mizuno-Carser 2026
+UID:e1527680e3e4186a8fd4@banderin.es
+DTSTAMP:20261123T065831Z
+DTSTART;VALUE=DATE:20261123
+DTEND;VALUE=DATE:20261124
+SUMMARY:Torneo Denia GS Noviembre'26
 LOCATION:La Sella Golf (Campo)\, Jesus Pobre\, Alicante
 DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
- //www.golfdirecto.com/micro/game/6afed4c9fb9c521b04339b02/summary\nConfirm
+ //www.golfdirecto.com/micro/game/6b03e055d2ed4f3d1ccdae72/summary\nConfirm
  a fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-URL:https://www.golfdirecto.com/micro/game/6afed4c9fb9c521b04339b02/summary
+URL:https://www.golfdirecto.com/micro/game/6b03e055d2ed4f3d1ccdae72/summary
 END:VEVENT
 END:VCALENDAR
