@@ -409,3 +409,15 @@ language sql stable security definer set search_path = public as $$
 $$;
 grant execute on function public.social_escaparate() to anon, authenticated;
 -- (Para deshacer también: drop table public.social_mensajes cascade; drop function public.social_escaparate, public.social_en_partida, public.social_mensaje_guard;)
+
+-- ------------------------------------------------------------------
+-- Las funciones auxiliares solo las ejecuta quien ha iniciado sesión.
+-- Postgres da «execute» a todo el mundo por defecto; sin esto, un
+-- anónimo podría llamarlas por la API y sondear relaciones entre cuentas.
+-- ------------------------------------------------------------------
+revoke execute on function public.social_bloqueo(uuid, uuid), public.social_amigos(uuid, uuid), public.social_conectados(uuid, uuid),
+  public.social_tiene_perfil(uuid), public.social_autor(uuid), public.social_ve_partida(uuid), public.social_en_partida(uuid, uuid),
+  public.social_mi_estado() from public, anon;
+grant execute on function public.social_bloqueo(uuid, uuid), public.social_amigos(uuid, uuid), public.social_conectados(uuid, uuid),
+  public.social_tiene_perfil(uuid), public.social_autor(uuid), public.social_ve_partida(uuid), public.social_en_partida(uuid, uuid),
+  public.social_mi_estado() to authenticated;
