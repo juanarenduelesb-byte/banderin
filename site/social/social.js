@@ -552,17 +552,24 @@ async function vEditar() {
   try { const r = (await q(SB.from('perfiles').select('datos').eq('user_id', ME.id).limit(1)))[0]; datos = (r && r.datos) || null; pre = datos && datos.perfil; } catch (e) { }
   try { const r = (await q(SB.from('social_privado').select('nacimiento').eq('user_id', ME.id).limit(1)))[0]; if (r) nacAno = +r.nacimiento.slice(0, 4); } catch (e) { }
   const priv = { sexo: (pre && pre.sexo) || '', fed: (pre && pre.fed) || '', socio: pre && Array.isArray(pre.clubs) ? pre.clubs.filter(c => typeof c === 'string').slice(0, 10) : [] };
-  const preClubs = pre && Array.isArray(pre.clubs) ? pre.clubs.filter(c => typeof c === 'string').slice(0, 8) : [];
+  // Clubes escritos a mano en la cuenta («real club puerta de hierro») → el nombre del directorio («Real Club de la Puerta de Hierro»).
+  const VACIAS = new Set(['de', 'del', 'la', 'las', 'el', 'los', 'y', 'club', 'golf', 'real', 'cg', 'rcg']);
+  const pal = x => fold(x).split(/[^a-z0-9]+/).filter(w => w && !VACIAS.has(w));
+  const canon = c => { if (CLUBS.has(c)) return c; const w = pal(c); if (!w.length) return c;
+    const hit = [...CLUBS.keys()].filter(k => { const kw = pal(k); return w.every(x => kw.includes(x)); }).sort((a, b) => pal(a).length - pal(b).length);
+    return hit[0] || c; };
+  const preClubs = pre && Array.isArray(pre.clubs) ? [...new Set(pre.clubs.filter(c => typeof c === 'string').map(canon))].slice(0, 8) : [];
   const base = MYP ? { ...MYP, hcp: MYP.hcp ?? (pre && typeof pre.hcp === 'number' ? pre.hcp : null) } : null;
   const p = base || { nombre: (ME.user_metadata && (ME.user_metadata.full_name || ME.user_metadata.name)) || '', hcp: pre && typeof pre.hcp === 'number' ? pre.hcp : null, provincia: (preClubs.map(c => CLUBS.get(c)).find(Boolean)) || '', campos: preClubs, bio: '', visible: true };
   const c = MYC || { whatsapp: '', email: ME.email || '', publico: false };
   let campos = [...(p.campos || [])], socio = [...priv.socio];
   const nuevo = !MYP;
-  view.innerHTML = `${MYP ? backBtn() : ''}<div class="sec" style="margin-top:18px"><h2>${nuevo ? 'Crea tu perfil de jugador' : 'Editar mi perfil'}</h2></div>
-  ${nuevo ? `<p class="lede">${pre ? 'Hemos rellenado lo que ya sabíamos por tu cuenta de Banderín. Revísalo y listo.' : 'Dos minutos. Así los demás saben con quién van a jugar.'}</p>` : ''}
+  view.innerHTML = `${MYP ? backBtn() : ''}<div class="sec" style="margin-top:18px"><h2>${nuevo ? (pre ? 'Activa tu perfil en Social' : 'Crea tu perfil de jugador') : 'Editar mi perfil'}</h2></div>
+  ${nuevo ? `<p class="lede">${pre ? 'Tu perfil de Banderín ya está aquí. Para que te vean otros jugadores solo faltan el nombre que verán y tu fecha de nacimiento.' : 'Un solo perfil para Torneos y para Social. Dos minutos.'}</p>` : ''}
   <form id="ef" class="panel glass" novalidate>
     <label class="field"><span>Nombre que verán los demás</span><input class="in" name="nombre" maxlength="40" required value="${esc(p.nombre)}" placeholder="Ej.: Lucía M."><small>Puedes poner solo tu nombre y la inicial del apellido.</small></label>
     ${EST && !EST.edad ? `<label class="field"><span>Fecha de nacimiento</span><input class="in" type="date" name="nac" required max="${addDays(-365 * 16 - 4)}"><small>No la ve nadie. Hay que tener al menos 16 años. No se puede cambiar después.</small></label>` : ''}
+    ${nuevo && pre ? '<details class="rest"><summary>Revisar el resto de tu perfil <small>(ya relleno con tu cuenta)</small></summary>' : '<div>'}
     <div class="two"><label class="field"><span>Hándicap</span><input class="in" type="number" name="hcp" step="0.1" min="-10" max="54" inputmode="decimal" value="${p.hcp ?? ''}" placeholder="18,4"></label>
       <label class="field"><span>Provincia</span><select class="in" name="prov"><option value="">Elige</option>${PROVS.map(x => `<option${p.provincia === x ? ' selected' : ''}>${esc(x)}</option>`).join('')}</select></label></div>
     <div class="field"><span>Campos donde te gusta jugar <small style="display:inline;color:var(--muted)">(hasta 8)</small></span><input class="in" id="cq" placeholder="Busca un club" autocomplete="off"><div class="sugg glass" id="cs" hidden></div><div class="chips" id="cc"></div></div>
@@ -579,9 +586,10 @@ async function vEditar() {
     <div class="switch"><div><b>Contacto visible para todos</b><small>${EST && EST.mayor ? 'Cualquier jugador con cuenta lo verá.' : 'Solo para mayores de 18. Así protegemos a los más jóvenes.'}</small></div><input type="checkbox" name="pub" aria-label="Contacto visible para todos"${c.publico ? ' checked' : ''}${EST && EST.mayor ? '' : ' disabled'}></div>
     <div class="switch"><div><b>Aparecer en «Jugadores»</b><small>Si lo apagas, solo te verán tus amigos y con quien juegues.</small></div><input type="checkbox" name="vis" aria-label="Aparecer en Jugadores"${p.visible !== false ? ' checked' : ''}></div>
     <div class="switch"><div><b>Avisarme por correo</b><small>Cuando alguien pida unirse a tu partida, te acepten o te pidan amistad. Como mucho 12 al día.</small></div><input type="checkbox" name="av" aria-label="Avisarme por correo"${!EST || EST.avisos !== false ? ' checked' : ''}></div>
+    ${nuevo && pre ? '</details>' : '</div>'}
     ${nuevo ? `<label class="okrow"><input type="checkbox" name="ok"><span>Tengo 16 años o más y acepto las <a href="/#terminos" target="_blank" rel="noopener">normas de Banderín Social</a> y la <a href="/#privacidad" target="_blank" rel="noopener">política de privacidad</a>. Los demás jugadores verán mi nombre, hándicap, provincia y campos.</span></label>` : ''}
     <p class="err" id="eerr" hidden></p>
-    <button class="btn primary block" type="submit" style="margin-top:14px">${nuevo ? 'Crear mi perfil' : 'Guardar'}</button>
+    <button class="btn primary block" type="submit" style="margin-top:14px">${nuevo ? (pre ? 'Activar mi perfil' : 'Crear mi perfil') : 'Guardar'}</button>
   </form>`;
   const f = view.querySelector('#ef'), cq = f.querySelector('#cq'), cs = f.querySelector('#cs'), cc = f.querySelector('#cc');
   const drawC = () => { cc.innerHTML = campos.map((x, i) => `<span class="chip">${esc(x)}<button type="button" data-rm="${i}" aria-label="Quitar ${esc(x)}">×</button></span>`).join(''); cq.disabled = campos.length >= 8; };
@@ -601,7 +609,7 @@ async function vEditar() {
     const wa = f.wa.value.trim(), em = f.em.value.trim();
     const bad = f.ok && !f.ok.checked ? 'Para crear tu perfil tienes que aceptar las normas y la política de privacidad.' : nombre.length < 2 ? 'Escribe tu nombre.' : f.nac && !f.nac.value ? 'Pon tu fecha de nacimiento.' : f.nac && f.nac.value > addDays(-365 * 16 - 4) ? 'Hay que tener al menos 16 años.' :
       hcp != null && (hcp < -10 || hcp > 54) ? 'El hándicap va de -10 a 54.' : wa && !/^\+?[0-9 ]{9,17}$/.test(wa) ? 'El WhatsApp no parece válido.' : em && !/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(em) ? 'El correo no parece válido.' : '';
-    if (bad) { er.hidden = false; er.textContent = bad; return; }
+    if (bad) { er.hidden = false; er.textContent = bad; const d = f.querySelector('details.rest'); if (d && /hándicap|WhatsApp|correo no/i.test(bad)) d.open = true; return; }
     const btn = f.querySelector('[type=submit]'); btn.disabled = true;
     try {
       if (f.nac && EST && !EST.edad) { await q(SB.from('social_privado').insert({ user_id: ME.id, nacimiento: f.nac.value })); EST.edad = true; EST.mayor = f.nac.value <= addDays(-365 * 18 - 5); }
@@ -614,7 +622,7 @@ async function vEditar() {
       const nd = { v: 1, sigo: { v: 1, clubs: [], prov: [] }, saved: [], played: [], ...(datos || {}), perfil, ts: Date.now() };
       await q(SB.from('perfiles').upsert({ user_id: ME.id, datos: nd, actualizado: new Date().toISOString() }));
       try { localStorage.setItem('banderin.perfil', JSON.stringify(perfil)); } catch (e3) { }
-      await refresh(); toast(nuevo ? '¡Perfil creado!' : 'Guardado'); location.hash = nuevo ? '#partidas' : '#perfil';
+      await refresh(); toast(nuevo ? (pre ? '¡Ya estás en Social!' : '¡Perfil creado!') : 'Guardado'); location.hash = nuevo ? '#partidas' : '#perfil';
     } catch (e2) { er.hidden = false; er.textContent = errMsg(e2); btn.disabled = false; }
   };
 }
@@ -667,7 +675,7 @@ async function start() {
     const u = session ? session.user : null;
     if ((u && u.id) === (ME && ME.id)) return;
     ME = u; await refresh();
-    if (ME && EST && !EST.perfil && !NOSQL) location.hash = '#perfil/editar'; else route();
+    route(); // ya no se fuerza el formulario: el perfil se pide solo al publicar, unirse o añadir amigos
   });
 }
 start();
