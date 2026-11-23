@@ -11,7 +11,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:e1527680e3e4186a8fd4@banderin.es
-DTSTAMP:20261123T065831Z
+DTSTAMP:20261123T145734Z
 DTSTART;VALUE=DATE:20261123
 DTEND;VALUE=DATE:20261124
 SUMMARY:Torneo Denia GS Noviembre'26
@@ -22,5 +22,33 @@ DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6b03e055d2ed4f3d1ccdae72/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:dc698a75dcb35571c40a@banderin.es
+DTSTAMP:20261123T145734Z
+DTSTART;VALUE=DATE:20261123
+DTEND;VALUE=DATE:20261124
+SUMMARY:Torneo Mizuno-Carser 2026 (COPIA)
+LOCATION:La Sella Golf (Campo)\, Jesus Pobre\, Alicante
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/6b040268d2ed4f3d1ce60d8a/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6b040268d2ed4f3d1ce60d8a/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:c1e9b93d378443ec8aeb@banderin.es
+DTSTAMP:20261123T145734Z
+DTSTART;VALUE=DATE:20261124
+DTEND;VALUE=DATE:20261125
+SUMMARY:Torneo Grupo Bélgica-España Noviembre'26
+LOCATION:La Sella Golf (Campo)\, Jesus Pobre\, Alicante
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/6b03f179d2ed4f3d1c8cffa5/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6b03f179d2ed4f3d1c8cffa5/summary
 END:VEVENT
 END:VCALENDAR

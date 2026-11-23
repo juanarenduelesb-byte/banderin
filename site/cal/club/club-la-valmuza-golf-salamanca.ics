@@ -11,14 +11,14 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:53d7335971682983371c@banderin.es
-DTSTAMP:20261123T065831Z
+DTSTAMP:20261123T145734Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:V Campeonato de Navidad Padres e Hijos de Castilla y León (9 Hoyos
  )
 LOCATION:Club la Valmuza Golf Salamanca\, Doñinos de Salamanca\, Salamanca
 DESCRIPTION:Juvenil - Stableford - Individual\nInscripción: abre el 23 de 
- noviembre\, cierra el 8 de diciembre.\nPrecio: 24 €.\nFicha oficial: htt
+ noviembre\, cierra el 8 de diciembre.\nPrecio: 12 €.\nFicha oficial: htt
  ps://www.nextcaddy.com/tour/68072\nConfirma fechas y condiciones en la web
   del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
@@ -27,7 +27,7 @@ URL:https://www.nextcaddy.com/tour/68072
 END:VEVENT
 BEGIN:VEVENT
 UID:eae6f75e29a3f4e3f4f1@banderin.es
-DTSTAMP:20261123T065831Z
+DTSTAMP:20261123T145734Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:VII Campeonato de Navidad Padres e Hijos de Castilla y León (18 Ho

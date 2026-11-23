@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Banderin//Torneos de golf//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Banderín - Golf Nuevo Portil
+X-WR-CALDESC:Torneos de golf: Golf Nuevo Portil. Se actualiza cada mañana.
+  https://banderin.es
+X-WR-TIMEZONE:Europe/Madrid
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:09e41575b0b29ba2e0be@banderin.es
+DTSTAMP:20261123T145734Z
+DTSTART;VALUE=DATE:20261123
+DTEND;VALUE=DATE:20261124
+SUMMARY:Torneo de Navidad 26
+LOCATION:Golf Nuevo Portil\, El Portil\, Huelva
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  23 de noviembre\, cierra el 23 de noviembre.\nPrecio: Gratis.\nFicha ofic
+ ial: https://www.nextcaddy.com/tour/75549\nConfirma fechas y condiciones e
+ n la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nextcaddy.com/tour/75549
+END:VEVENT
+END:VCALENDAR

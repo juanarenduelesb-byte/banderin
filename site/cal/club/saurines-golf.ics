@@ -11,7 +11,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:27cff68f7c5b2858099f@banderin.es
-DTSTAMP:20261123T065831Z
+DTSTAMP:20261123T145734Z
 DTSTART;VALUE=DATE:20270117
 DTEND;VALUE=DATE:20270118
 SUMMARY:Alamo Golf Society
@@ -23,5 +23,20 @@ DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6ace4c3f3889028eef61621a/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:3a2acb5f6cdfc246f4c0@banderin.es
+DTSTAMP:20261123T145734Z
+DTSTART;VALUE=DATE:20270417
+DTEND;VALUE=DATE:20270418
+SUMMARY:Strokers GS 2027 Round 3
+LOCATION:Saurines Golf\, Roldan\, Murcia
+DESCRIPTION:Social de club - Medal Play - Individual\nInscripción: abre el
+  23 de noviembre\, cierra el 9 de abril.\nPrecio: 10 €.\nFicha oficial: 
+ https://www.golfdirecto.com/micro/game/6b04223f9bf25f617611813f/summary\nC
+ onfirma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6b04223f9bf25f617611813f/summary
 END:VEVENT
 END:VCALENDAR

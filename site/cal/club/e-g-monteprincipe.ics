@@ -11,14 +11,16 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:c3628f20a8fe4e3b560b@banderin.es
-DTSTAMP:20261123T065831Z
+DTSTAMP:20261123T145734Z
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261220
 SUMMARY:Torneo de Navidad
 LOCATION:E. G. Montepríncipe\, Boadilla del Monte\, Madrid
-DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
- //www.golfdirecto.com/micro/game/69677ab742551aa371d8282e/summary\nConfirm
- a fechas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  23 de noviembre\, cierra el 17 de diciembre.\nPrecio: 21 €.\nFicha ofic
+ ial: https://www.golfdirecto.com/micro/game/69677ab742551aa371d8282e/summa
+ ry\nConfirma fechas y condiciones en la web del organizador. Vía Banderí
+ n.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/69677ab742551aa371d8282e/summary

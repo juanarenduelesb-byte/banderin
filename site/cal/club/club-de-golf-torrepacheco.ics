@@ -11,15 +11,15 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:89a63df9adc2b5c2465b@banderin.es
-DTSTAMP:20261123T065831Z
+DTSTAMP:20261123T145734Z
 DTSTART;VALUE=DATE:20261220
 DTEND;VALUE=DATE:20261221
 SUMMARY:Torneo Navidad Memorial Armando Castro Suarez
 LOCATION:Club de Golf Torrepacheco\, Torre Pacheco\, Murcia
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
-  1 de diciembre\, cierra el 16 de diciembre.\nFicha oficial: https://www.g
- olfdirecto.com/micro/game/6aeb93cf50fe8a6f26cd3ca1/summary\nConfirma fecha
- s y condiciones en la web del organizador. Vía Banderín.
+  24 de noviembre\, cierra el 16 de diciembre.\nFicha oficial: https://www.
+ golfdirecto.com/micro/game/6aeb93cf50fe8a6f26cd3ca1/summary\nConfirma fech
+ as y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6aeb93cf50fe8a6f26cd3ca1/summary

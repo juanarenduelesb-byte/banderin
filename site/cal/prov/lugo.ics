@@ -11,7 +11,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:f60c72402f867b3a8ac6@banderin.es
-DTSTAMP:20261123T065831Z
+DTSTAMP:20261123T145734Z
 DTSTART;VALUE=DATE:20261123
 DTEND;VALUE=DATE:20261124
 SUMMARY:Abierto de Parejas - Fisioterapia a Man
@@ -26,7 +26,7 @@ URL:https://www.golfdirecto.com/micro/game/6afacf895445bc1029fd25e8/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:2e076f6f8d7a4563d2d1@banderin.es
-DTSTAMP:20261123T065831Z
+DTSTAMP:20261123T145734Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:Ruta do Viño 2026
@@ -40,8 +40,23 @@ STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6b01d03d664a1e64896093f9/summary
 END:VEVENT
 BEGIN:VEVENT
+UID:755904ccec0801b96294@banderin.es
+DTSTAMP:20261123T145734Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:III Prueba Desafío Ribeira Sacra 2026 - Adega Cabo do Mundo
+LOCATION:Rio Cabe\, Monforte (casco Urbano)\, Lugo
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  23 de noviembre\, cierra el 27 de noviembre.\nFicha oficial: https://www.
+ golfdirecto.com/micro/game/6b042dbdd2ed4f3d1cda8784/summary\nConfirma fech
+ as y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6b042dbdd2ed4f3d1cda8784/summary
+END:VEVENT
+BEGIN:VEVENT
 UID:861902f1f7fe181852b9@banderin.es
-DTSTAMP:20261123T065831Z
+DTSTAMP:20261123T145734Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:2p XI Liga de Dobles

@@ -10,8 +10,23 @@ X-WR-TIMEZONE:Europe/Madrid
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
+UID:113520f01b473be2dcde@banderin.es
+DTSTAMP:20261123T145734Z
+DTSTART;VALUE=DATE:20261123
+DTEND;VALUE=DATE:20261124
+SUMMARY:Resultados Fuera de Competición Daniel Avedillo
+LOCATION:Sancti Petri Hills Golf\, Chiclana de la Frontera\, Cádiz
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  23 de noviembre\, cierra el 23 de noviembre.\nPrecio: Gratis.\nFicha ofic
+ ial: https://www.nextcaddy.com/tour/75555\nConfirma fechas y condiciones e
+ n la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nextcaddy.com/tour/75555
+END:VEVENT
+BEGIN:VEVENT
 UID:ebceea8db87a25be78d2@banderin.es
-DTSTAMP:20261123T065831Z
+DTSTAMP:20261123T145734Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:Torneo de Navidad 2026
