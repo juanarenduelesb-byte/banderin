@@ -207,9 +207,11 @@ def regions_nav(counts, current=None):
 
 
 def event_ld(t):
+    # Google pide una dirección en cada evento: sin localidad se usa la provincia, y no se envían campos vacíos.
+    prov = t.get('prov') if t.get('prov') not in (None, '', 'Por confirmar') else (t.get('ccaa') or '')
+    adr = {'@type': 'PostalAddress', 'addressLocality': t.get('city') or prov, 'addressRegion': prov, 'addressCountry': 'ES'}
     loc = {'@type': 'Place', 'name': t.get('club') or t.get('campo') or 'Campo de golf',
-           'address': {'@type': 'PostalAddress', 'addressLocality': t.get('city') or '', 'addressRegion': t.get('prov') or '',
-                       'addressCountry': 'ES'}}
+           'address': {k: v for k, v in adr.items() if v}}
     if t.get('ll'):
         loc['geo'] = {'@type': 'GeoCoordinates', 'latitude': t['ll'][0], 'longitude': t['ll'][1]}
     ev = {'@type': 'SportsEvent', 'name': t['n'], 'startDate': t['s'], 'endDate': t.get('e') or t['s'],
