@@ -260,6 +260,8 @@ $('pcuBorrar').onclick = () => {
   cuBusy(b, async () => {
     await cuLoad();
     if (AV && AV.tok) await api('/api/avisos/baja', { method: 'POST', tok: AV.tok }).catch(() => {});
+    // Las fotos de Social están en Storage y no se borran solas con la cuenta.
+    try { const { data } = await SB.storage.from('avatares').list(USER.id, { limit: 50 }); if (data && data.length) await SB.storage.from('avatares').remove(data.map(o => USER.id + '/' + o.name)); } catch (e) {}
     const { error } = await SB.rpc('borrar_mi_cuenta');
     if (error) { b.textContent = L('No se ha podido borrar. Inténtalo de nuevo.'); return; }
     await SB.auth.signOut().catch(() => {});

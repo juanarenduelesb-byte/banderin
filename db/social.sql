@@ -371,6 +371,32 @@ drop policy if exists "denuncias: enviar" on public.social_denuncias;
 create policy "denuncias: enviar" on public.social_denuncias for insert to authenticated with check (true);
 -- Las denuncias solo se leen desde el panel de Supabase (Table Editor → social_denuncias).
 
+-- ───────────────────────── Foto de perfil ─────────────────────────
+-- Se guarda en un almacén privado («avatares»): solo la ven usuarios con cuenta, con enlaces que caducan.
+-- La web recorta la foto a un cuadrado de 512 px y la vuelve a codificar (quita los datos EXIF, como la ubicación).
+-- Cada uno solo puede subir, cambiar o borrar lo que está en su carpeta (<su id>/...).
+alter table public.social_perfiles add column if not exists foto text;
+do $$ begin
+  alter table public.social_perfiles add constraint social_perfiles_foto_ok
+    check (foto is null or foto ~ ('^' || user_id::text || '/[0-9]{10,16}\.(webp|jpg)$'));
+exception when duplicate_object then null; end $$;
+grant select (foto), insert (foto), update (foto) on public.social_perfiles to authenticated;
+insert into storage.buckets (id, name, public, file_size_limit, allowed_mime_types)
+values ('avatares', 'avatares', false, 400000, array['image/webp', 'image/jpeg'])
+on conflict (id) do update set public = false, file_size_limit = 400000, allowed_mime_types = array['image/webp', 'image/jpeg'];
+drop policy if exists "avatares: ver con cuenta" on storage.objects;
+create policy "avatares: ver con cuenta" on storage.objects for select to authenticated using (bucket_id = 'avatares');
+drop policy if exists "avatares: subir la mía" on storage.objects;
+create policy "avatares: subir la mía" on storage.objects for insert to authenticated
+  with check (bucket_id = 'avatares' and (storage.foldername(name))[1] = (select auth.uid())::text);
+drop policy if exists "avatares: cambiar la mía" on storage.objects;
+create policy "avatares: cambiar la mía" on storage.objects for update to authenticated
+  using (bucket_id = 'avatares' and (storage.foldername(name))[1] = (select auth.uid())::text)
+  with check (bucket_id = 'avatares' and (storage.foldername(name))[1] = (select auth.uid())::text);
+drop policy if exists "avatares: borrar la mía" on storage.objects;
+create policy "avatares: borrar la mía" on storage.objects for delete to authenticated
+  using (bucket_id = 'avatares' and (storage.foldername(name))[1] = (select auth.uid())::text);
+
 -- ───────────────────────── DESHACER (solo si quieres quitarlo todo) ─────────────────────────
 -- drop table if exists public.social_denuncias, public.social_bloqueos, public.social_solicitudes,
 --   public.social_partidas, public.social_amistades, public.social_contacto, public.social_perfiles, public.social_privado cascade;

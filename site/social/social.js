@@ -54,7 +54,29 @@ let FIL = { prov: '', cuando: 'todas', hcp: false, tipo: '' };
 const PAL = ['#17643F', '#1E5A3E', '#8A6D3B', '#2F6F5E', '#46664F', '#6B5A2E', '#24543F', '#5B7351'];
 const colorOf = id => { let h = 0; for (const c of String(id)) h = (h * 31 + c.charCodeAt(0)) >>> 0; return PAL[h % PAL.length]; };
 const ini = n => String(n || '?').trim().split(/\s+/).slice(0, 2).map(w => w[0]).join('').toUpperCase();
-const av = (p, size = 's') => `<span class="av ${size}" style="background:${colorOf(p && p.user_id)}" aria-hidden="true">${esc(ini(p && p.nombre))}</span>`;
+const av = (p, size = 's') => { const u = p && (p._fotoLocal || (p.foto && FOTO.get(p.foto)));
+  return `<span class="av ${size}" style="background:${colorOf(p && p.user_id)}" aria-hidden="true">${u ? `<img src="${esc(u)}" alt="" loading="lazy" decoding="async">` : esc(ini(p && p.nombre))}</span>`; };
+
+// Foto: se recorta a un cuadrado de 512 px y se vuelve a codificar en el navegador (fuera EXIF y ubicación).
+async function prepararFoto(file) {
+  if (!file || !/^image\//.test(file.type || 'image/')) throw new Error('foto: no es una imagen');
+  if (file.size > 25e6) throw new Error('foto: demasiado grande');
+  let bmp;
+  try { bmp = await createImageBitmap(file, { imageOrientation: 'from-image' }); }
+  catch (e) { bmp = await new Promise((ok, ko) => { const i = new Image(); i.onload = () => ok(i); i.onerror = () => ko(new Error('foto: formato')); i.src = URL.createObjectURL(file); }); }
+  const w = bmp.width, h = bmp.height, s = Math.min(w, h), N = Math.min(512, s);
+  const cv = document.createElement('canvas'); cv.width = cv.height = N;
+  cv.getContext('2d').drawImage(bmp, (w - s) / 2, (h - s) / 2, s, s, 0, 0, N, N);
+  const toB = (t, qy) => new Promise(ok => cv.toBlob(ok, t, qy));
+  let b = await toB('image/webp', .86);
+  if (!b || b.type !== 'image/webp') b = await toB('image/jpeg', .86);
+  if (!b || b.size > 400000) b = await toB('image/jpeg', .7);
+  if (!b) throw new Error('foto: formato');
+  return b;
+}
+async function borrarFotos(keep) {
+  try { const { data } = await SB.storage.from('avatares').list(ME.id, { limit: 50 }); const rm = (data || []).map(o => ME.id + '/' + o.name).filter(n => n !== keep); if (rm.length) await SB.storage.from('avatares').remove(rm); } catch (e) { }
+}
 const hcpTxt = h => h == null || h === '' ? '—' : String(Number(h).toFixed(1)).replace('.', ',');
 const hcpRange = p => p.hcp_min == null && p.hcp_max == null ? 'Cualquiera' : p.hcp_min != null && p.hcp_max != null ? hcpTxt(p.hcp_min) + ' – ' + hcpTxt(p.hcp_max) : p.hcp_min != null ? 'Desde ' + hcpTxt(p.hcp_min) : 'Hasta ' + hcpTxt(p.hcp_max);
 const seats = (n, on) => `<span class="seats" aria-label="${on} de ${n} plazas ocupadas">${Array.from({ length: n }, (_, i) => `<i class="${i < on ? 'on' : ''}"></i>`).join('')}<em>${on >= n ? 'Completa' : (n - on) + (n - on === 1 ? ' libre' : ' libres')}</em></span>`;
@@ -86,6 +108,7 @@ function errMsg(e) {
   if (/fecha/.test(m)) return 'La fecha tiene que estar entre hoy y dentro de 6 meses.';
   if (/hcp/.test(m)) return 'El hándicap mínimo no puede ser mayor que el máximo.';
   if (/^perfil:/.test(m)) return 'Primero crea tu perfil de jugador.';
+  if (/foto/i.test(m)) return /^No se/.test(m) ? m : 'No se ha podido guardar la foto. Prueba con otra.';
   if (/permission denied|row-level security/i.test(m)) return 'No se ha podido guardar. Recarga la página e inténtalo de nuevo; si sigue, escríbenos.';
   if (/whatsapp/.test(m)) return 'El número de WhatsApp no parece válido.';
   if (/email/.test(m)) return 'El correo no parece válido.';
@@ -128,12 +151,20 @@ const DEMOD = (() => {
 const demoP = id => DEMOD.U.find(u => u.user_id === id);
 
 // ───────── Acceso a datos ─────────
-const PCOLS = 'user_id,nombre,hcp,provincia,campos,bio,visible,creado';
+const PCOLS = 'user_id,nombre,hcp,provincia,campos,bio,visible,creado,foto';
+// Fotos de perfil: almacén privado, enlaces firmados que caducan en 2 h (se renuevan al recargar).
+const FOTO = new Map();
+async function firmar(rows) {
+  const paths = [...new Set((rows || []).map(r => r && r.foto).filter(f => f && !FOTO.has(f)))];
+  if (!paths.length || !SB) return rows;
+  try { const { data } = await SB.storage.from('avatares').createSignedUrls(paths, 7200); (data || []).forEach(d => { if (d && d.signedUrl) FOTO.set(d.path, d.signedUrl); }); } catch (e) { }
+  return rows;
+}
 const MCOLS = 'id,autor,campo,provincia,fecha,hora,tipo,torneo,torneo_url,plazas,hcp_min,hcp_max,nota,solo_amigos,cerrada,creado';
 async function q(p) { const { data, error } = await p; if (error) throw error; return data; }
 async function perfilesDe(ids) {
   ids = [...new Set(ids.filter(Boolean))]; if (!ids.length) return new Map();
-  const rows = await q(SB.from('social_perfiles').select(PCOLS).in('user_id', ids));
+  const rows = await firmar(await q(SB.from('social_perfiles').select(PCOLS).in('user_id', ids)));
   return new Map(rows.map(r => [r.user_id, r]));
 }
 async function partidas() {
@@ -167,7 +198,7 @@ async function jugadores(f) {
   let qq = SB.from('social_perfiles').select(PCOLS).eq('visible', true).neq('user_id', ME.id).order('actualizado', { ascending: false }).limit(100);
   if (f.prov) qq = qq.eq('provincia', f.prov);
   if (f.nombre) qq = qq.ilike('nombre', '%' + f.nombre.replace(/[%_,()]/g, '') + '%');
-  return q(qq);
+  return firmar(await q(qq));
 }
 async function amistades() {
   if (DEMO) return { amigos: DEMOD.U.slice(0, 2), recibidas: [DEMOD.U[3]], enviadas: [] };
@@ -179,7 +210,7 @@ async function amistades() {
 }
 async function jugador(id) {
   if (DEMO) { const p = demoP(id); return p && { p, c: null, rel: 'nada', partidas: DEMOD.P.filter(x => x.autor === id) }; }
-  const p = (await q(SB.from('social_perfiles').select(PCOLS).eq('user_id', id).limit(1)))[0]; if (!p) return null;
+  const p = (await firmar(await q(SB.from('social_perfiles').select(PCOLS).eq('user_id', id).limit(1))))[0]; if (!p) return null;
   const c = (await q(SB.from('social_contacto').select('user_id,whatsapp,email,publico').eq('user_id', id).limit(1)))[0] || null;
   const am = id === ME.id ? [] : await q(SB.from('social_amistades').select('de,para,estado').or(`and(de.eq.${ME.id},para.eq.${id}),and(de.eq.${id},para.eq.${ME.id})`));
   const a = am[0]; const rel = !a ? 'nada' : a.estado === 'aceptada' ? 'amigos' : a.de === ME.id ? 'enviada' : 'recibida';
@@ -193,7 +224,7 @@ async function estado() {
   if (error) { if (isMissing(error)) { NOSQL = true; return; } throw error; }
   NOSQL = false; EST = data;
   if (EST.perfil) {
-    MYP = (await q(SB.from('social_perfiles').select(PCOLS).eq('user_id', ME.id).limit(1)))[0] || null;
+    MYP = (await firmar(await q(SB.from('social_perfiles').select(PCOLS).eq('user_id', ME.id).limit(1))))[0] || null;
     MYC = (await q(SB.from('social_contacto').select('user_id,whatsapp,email,publico').eq('user_id', ME.id).limit(1)))[0] || null;
   }
 }
@@ -544,7 +575,7 @@ async function vPerfil(sub) {
       s => s.querySelectorAll('[data-ub]').forEach(x => x.onclick = async () => { await q(SB.from('social_bloqueos').delete().eq('quien', ME.id).eq('a_quien', x.dataset.ub)).catch(() => {}); x.closest('.row').remove(); toast('Desbloqueado'); }));
   };
   $('#delp').onclick = () => confirmSheet('¿Borrar tu perfil social?', 'Se borran tu perfil, tu contacto y tus partidas de Social. Tu cuenta de Banderín y tus avisos siguen igual.', 'Borrar', async () => {
-    try { await q(SB.from('social_partidas').delete().eq('autor', ME.id)); await q(SB.from('social_contacto').delete().eq('user_id', ME.id)); await q(SB.from('social_perfiles').delete().eq('user_id', ME.id)); await refresh(); toast('Perfil borrado'); location.hash = '#partidas'; } catch (e) { toast(errMsg(e)); } });
+    try { await q(SB.from('social_partidas').delete().eq('autor', ME.id)); await q(SB.from('social_contacto').delete().eq('user_id', ME.id)); await q(SB.from('social_perfiles').delete().eq('user_id', ME.id)); await borrarFotos(null); await refresh(); toast('Perfil borrado'); location.hash = '#partidas'; } catch (e) { toast(errMsg(e)); } });
 }
 
 async function vEditar() {
@@ -568,6 +599,11 @@ async function vEditar() {
   view.innerHTML = `${MYP ? backBtn() : ''}<div class="sec" style="margin-top:18px"><h2>${nuevo ? (pre ? 'Activa tu perfil en Social' : 'Crea tu perfil de jugador') : 'Editar mi perfil'}</h2></div>
   ${nuevo ? `<p class="lede">${pre ? 'Tu perfil de Banderín ya está aquí. Para que te vean otros jugadores solo faltan el nombre que verán y tu fecha de nacimiento.' : 'Un solo perfil para Torneos y para Social. Dos minutos.'}</p>` : ''}
   <form id="ef" class="panel glass" novalidate>
+    <div class="fotopick"><span id="fprev">${av({ ...p, user_id: ME.id }, 'l')}</span>
+      <div><b>Foto de perfil</b><small>Opcional. Que se te vea la cara ayuda a quedar. La ven solo los jugadores con cuenta.</small>
+      <div class="fbtns"><label class="btn soft sm">Elegir foto<input type="file" accept="image/*" id="ffile" hidden></label>
+      ${matchMedia('(pointer:coarse)').matches ? '<label class="btn soft sm">Hacer foto<input type="file" accept="image/*" capture="user" id="fcam" hidden></label>' : ''}
+      <button type="button" class="btn ghost sm" id="fdel"${p.foto ? '' : ' hidden'}>Quitar</button></div></div></div>
     <label class="field"><span>Nombre que verán los demás</span><input class="in" name="nombre" maxlength="40" required value="${esc(p.nombre)}" placeholder="Ej.: Lucía M."><small>Puedes poner solo tu nombre y la inicial del apellido.</small></label>
     ${EST && !EST.edad ? `<label class="field"><span>Fecha de nacimiento</span><input class="in" type="date" name="nac" required max="${addDays(-365 * 16 - 4)}"><small>No la ve nadie. Hay que tener al menos 16 años. No se puede cambiar después.</small></label>` : ''}
     ${nuevo && pre ? '<details class="rest"><summary>Revisar el resto de tu perfil <small>(ya relleno con tu cuenta)</small></summary>' : '<div>'}
@@ -595,6 +631,16 @@ async function vEditar() {
   const f = view.querySelector('#ef'), cq = f.querySelector('#cq'), cs = f.querySelector('#cs'), cc = f.querySelector('#cc');
   const drawC = () => { cc.innerHTML = campos.map((x, i) => `<span class="chip">${esc(x)}<button type="button" data-rm="${i}" aria-label="Quitar ${esc(x)}">×</button></span>`).join(''); cq.disabled = campos.length >= 8; };
   drawC();
+  // Foto: 'keep' sin cambios, Blob nueva, null para quitarla.
+  let foto = 'keep';
+  const fprev = f.querySelector('#fprev'), fdel = f.querySelector('#fdel');
+  const pintaFoto = url => { fprev.innerHTML = av({ ...p, user_id: ME.id, foto: null, _fotoLocal: url }, 'l'); };
+  const elegir = async inp => { const file = inp.files && inp.files[0]; inp.value = ''; if (!file) return;
+    try { foto = await prepararFoto(file); pintaFoto(URL.createObjectURL(foto)); fdel.hidden = false; }
+    catch (e) { toast('No se ha podido leer esa foto. Prueba con otra (JPG o PNG).'); } };
+  f.querySelector('#ffile').onchange = e => elegir(e.target);
+  const fcam = f.querySelector('#fcam'); if (fcam) fcam.onchange = e => elegir(e.target);
+  fdel.onclick = () => { foto = null; pintaFoto(null); fdel.hidden = true; };
   const sq = f.querySelector('#sq'), ss = f.querySelector('#ss'), sc = f.querySelector('#sc');
   const drawS = () => { sc.innerHTML = socio.map((x, i) => `<span class="chip">${esc(x)}<button type="button" data-rm="${i}" aria-label="Quitar ${esc(x)}">×</button></span>`).join(''); sq.disabled = socio.length >= 10; };
   drawS();
@@ -614,7 +660,15 @@ async function vEditar() {
     const btn = f.querySelector('[type=submit]'); btn.disabled = true;
     try {
       if (f.nac && EST && !EST.edad) { await q(SB.from('social_privado').insert({ user_id: ME.id, nacimiento: f.nac.value })); EST.edad = true; EST.mayor = f.nac.value <= addDays(-365 * 18 - 5); }
-      await q(SB.from('social_perfiles').upsert({ user_id: ME.id, nombre, hcp, provincia: f.prov.value || null, campos, bio: f.bio.value.trim() || null, visible: f.vis.checked, avisos: f.av.checked }));
+      let fotoPath = MYP ? MYP.foto || null : null;
+      if (foto instanceof Blob) {
+        const ext = foto.type === 'image/webp' ? 'webp' : 'jpg', path = ME.id + '/' + Date.now() + '.' + ext;
+        const up = await SB.storage.from('avatares').upload(path, foto, { contentType: foto.type, upsert: false, cacheControl: '86400' });
+        if (up.error) throw new Error('No se ha podido subir la foto. Inténtalo de nuevo.');
+        fotoPath = path;
+      } else if (foto === null) fotoPath = null;
+      await q(SB.from('social_perfiles').upsert({ user_id: ME.id, nombre, hcp, provincia: f.prov.value || null, campos, bio: f.bio.value.trim() || null, visible: f.vis.checked, avisos: f.av.checked, foto: fotoPath }));
+      if (foto !== 'keep') borrarFotos(fotoPath);
       if (wa || em) await q(SB.from('social_contacto').upsert({ user_id: ME.id, whatsapp: wa || null, email: em || null, publico: !!f.pub.checked }));
       else await q(SB.from('social_contacto').delete().eq('user_id', ME.id));
       // Mismo perfil en «Mi cuenta»: se guarda en la cuenta y Torneos lo usa al volver a la portada.
