@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Banderin//Torneos de golf//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Banderín - Club de Golf Luarca
+X-WR-CALDESC:Torneos de golf: Club de Golf Luarca. Se actualiza cada mañan
+ a. https://banderin.es
+X-WR-TIMEZONE:Europe/Madrid
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:7a789a483093ae8b84f6@banderin.es
+DTSTAMP:20261124T004706Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:VI Liga Apartamentos la Necora J 1
+LOCATION:Club de Golf Luarca\, Luarca\, Asturias
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  23 de noviembre\, cierra el 27 de noviembre.\nFicha oficial: https://www.
+ golfdirecto.com/micro/game/6b048d1dd2ed4f3d1c5d9588/summary\nConfirma fech
+ as y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6b048d1dd2ed4f3d1c5d9588/summary
+END:VEVENT
+END:VCALENDAR

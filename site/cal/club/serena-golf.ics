@@ -10,22 +10,22 @@ X-WR-TIMEZONE:Europe/Madrid
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:1bac781688d1c28a30f1@banderin.es
-DTSTAMP:20261123T145734Z
-DTSTART;VALUE=DATE:20261123
-DTEND;VALUE=DATE:20261124
-SUMMARY:Sjgs Poy 7
+UID:9411e64c6a0aab39c1e6@banderin.es
+DTSTAMP:20261124T004706Z
+DTSTART;VALUE=DATE:20261125
+DTEND;VALUE=DATE:20261126
+SUMMARY:SJGS WEDNESDAY 25th NOVEMBER (Non-Counting)
 LOCATION:Serena Golf\, Los Alcazares\, Murcia
 DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
- //www.golfdirecto.com/micro/game/6b01725030507b49b14536b9/summary\nConfirm
+ //www.golfdirecto.com/micro/game/6b0454439bf25f61762fee0e/summary\nConfirm
  a fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-URL:https://www.golfdirecto.com/micro/game/6b01725030507b49b14536b9/summary
+URL:https://www.golfdirecto.com/micro/game/6b0454439bf25f61762fee0e/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:9138a6246b584c1e2060@banderin.es
-DTSTAMP:20261123T145734Z
+DTSTAMP:20261124T004706Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Torneo Aniversario Escuela Torné

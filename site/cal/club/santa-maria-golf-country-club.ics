@@ -10,23 +10,8 @@ X-WR-TIMEZONE:Europe/Madrid
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:066e33c404bda19067be@banderin.es
-DTSTAMP:20261123T145734Z
-DTSTART;VALUE=DATE:20261123
-DTEND;VALUE=DATE:20261124
-SUMMARY:Monday Club
-LOCATION:Santa María Golf & Country Club\, Marbella\, Málaga
-DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
-  22 de noviembre\, cierra el 22 de noviembre.\nPrecio: Gratis.\nFicha ofic
- ial: https://www.nextcaddy.com/tour/75534\nConfirma fechas y condiciones e
- n la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.nextcaddy.com/tour/75534
-END:VEVENT
-BEGIN:VEVENT
 UID:a19c4462848814a5a2e9@banderin.es
-DTSTAMP:20261123T145734Z
+DTSTAMP:20261124T004706Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Torneo Senior Otoño Costa del Sol

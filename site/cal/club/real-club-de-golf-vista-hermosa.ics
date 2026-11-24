@@ -1,0 +1,42 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Banderin//Torneos de golf//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Banderín - Real Club de Golf Vista Hermosa
+X-WR-CALDESC:Torneos de golf: Real Club de Golf Vista Hermosa. Se actualiza
+  cada mañana. https://banderin.es
+X-WR-TIMEZONE:Europe/Madrid
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:92d6c71efb6743ba2505@banderin.es
+DTSTAMP:20261124T004706Z
+DTSTART;VALUE=DATE:20261125
+DTEND;VALUE=DATE:20261126
+SUMMARY:Torneo Master Senior 25-11-26
+LOCATION:Real Club de Golf Vista Hermosa\, El Puerto de Santa Maria\, Cádi
+ z
+DESCRIPTION:Senior - Stableford - Individual\nPrecio: 6 €.\nFicha oficial
+ : https://www.nextcaddy.com/tour/75564\nConfirma fechas y condiciones en l
+ a web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nextcaddy.com/tour/75564
+END:VEVENT
+BEGIN:VEVENT
+UID:024f391e9802f95904d1@banderin.es
+DTSTAMP:20261124T004706Z
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+SUMMARY:Circuito Senior 2ª Prueba 26-11-26
+LOCATION:Real Club de Golf Vista Hermosa\, El Puerto de Santa Maria\, Cádi
+ z
+DESCRIPTION:Senior - Stableford - Individual\nPrecio: 10 €.\nFicha oficia
+ l: https://www.nextcaddy.com/tour/75565\nConfirma fechas y condiciones en 
+ la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nextcaddy.com/tour/75565
+END:VEVENT
+END:VCALENDAR

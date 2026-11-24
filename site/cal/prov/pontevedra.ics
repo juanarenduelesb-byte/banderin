@@ -11,7 +11,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:a42144fd3270bea5924d@banderin.es
-DTSTAMP:20261123T145734Z
+DTSTAMP:20261124T004706Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Anselmo Benito
@@ -25,8 +25,53 @@ STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6abbf8a73e4bd064bd40dac3/summary
 END:VEVENT
 BEGIN:VEVENT
+UID:6e2672affa6657d7b50c@banderin.es
+DTSTAMP:20261124T004706Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:Otoño Padres & Hijos 18
+LOCATION:Real Aero Club de Vigo\, Vigo\, Pontevedra
+DESCRIPTION:Social de club - Greensome - Parejas\nInscripción: abre el 23 
+ de noviembre\, cierra el 27 de noviembre.\nFicha oficial: https://www.golf
+ directo.com/micro/game/6b047386d2ed4f3d1c3dec73/summary\nConfirma fechas y
+  condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6b047386d2ed4f3d1c3dec73/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:42311f810d63ae5e6dcf@banderin.es
+DTSTAMP:20261124T004706Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:Otoño Padres & Hijos 5
+LOCATION:Real Aero Club de Vigo\, Vigo\, Pontevedra
+DESCRIPTION:Social de club - Foursome - Parejas\nInscripción: abre el 23 d
+ e noviembre\, cierra el 27 de noviembre.\nFicha oficial: https://www.golfd
+ irecto.com/micro/game/6b04735bd2ed4f3d1c38d49c/summary\nConfirma fechas y 
+ condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6b04735bd2ed4f3d1c38d49c/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:17ad1d84a99618569a50@banderin.es
+DTSTAMP:20261124T004706Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:Otoño Padres & Hijos 9
+LOCATION:Real Aero Club de Vigo\, Vigo\, Pontevedra
+DESCRIPTION:Social de club - Greensome - Parejas\nInscripción: abre el 23 
+ de noviembre\, cierra el 27 de noviembre.\nFicha oficial: https://www.golf
+ directo.com/micro/game/6b047373d2ed4f3d1c3c5fad/summary\nConfirma fechas y
+  condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6b047373d2ed4f3d1c3c5fad/summary
+END:VEVENT
+BEGIN:VEVENT
 UID:d661a9f032c9d01613ce@banderin.es
-DTSTAMP:20261123T145734Z
+DTSTAMP:20261124T004706Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
 SUMMARY:Homenaje Sechu M.C
@@ -41,7 +86,7 @@ URL:https://www.golfdirecto.com/micro/game/6abbf9083e4bd064bd554636/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:bad530bb2c3204ac56c9@banderin.es
-DTSTAMP:20261123T145734Z
+DTSTAMP:20261124T004706Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:Torneo de Nadal 2026
@@ -56,7 +101,7 @@ URL:https://www.golfdirecto.com/micro/game/6acdd9063889028eefec9c57/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:454026704cc01e16378b@banderin.es
-DTSTAMP:20261123T145734Z
+DTSTAMP:20261124T004706Z
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
 SUMMARY:Cestas de Navidad
@@ -70,7 +115,7 @@ URL:https://www.golfdirecto.com/micro/game/6966c696cb999c8d228a1c04/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:51306664ca8ed87a624d@banderin.es
-DTSTAMP:20261123T145734Z
+DTSTAMP:20261124T004706Z
 DTSTART;VALUE=DATE:20261220
 DTEND;VALUE=DATE:20261221
 SUMMARY:Navidad Padres & Hijos 18
@@ -84,7 +129,7 @@ URL:https://www.golfdirecto.com/micro/game/6963e0789c21a39f585d6a69/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:abb026fdbeb7a0afdb7d@banderin.es
-DTSTAMP:20261123T145734Z
+DTSTAMP:20261124T004706Z
 DTSTART;VALUE=DATE:20261220
 DTEND;VALUE=DATE:20261221
 SUMMARY:Navidad Padres & Hijos 5
@@ -98,7 +143,7 @@ URL:https://www.golfdirecto.com/micro/game/6963e0a89c21a39f5862cfc0/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:23de0bf1bb368ba63570@banderin.es
-DTSTAMP:20261123T145734Z
+DTSTAMP:20261124T004706Z
 DTSTART;VALUE=DATE:20261220
 DTEND;VALUE=DATE:20261221
 SUMMARY:Navidad Padres & Hijos 9
@@ -112,7 +157,7 @@ URL:https://www.golfdirecto.com/micro/game/6963e0029c21a39f58536044/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:4c05a930ff0c715e4cd2@banderin.es
-DTSTAMP:20261123T145734Z
+DTSTAMP:20261124T004706Z
 DTSTART;VALUE=DATE:20261229
 DTEND;VALUE=DATE:20261230
 SUMMARY:II Torneo Fin de Año
@@ -126,7 +171,7 @@ URL:https://www.golfdirecto.com/micro/game/6966c820cb999c8d2292ffef/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:a47f3387a5ed59b11aee@banderin.es
-DTSTAMP:20261123T145734Z
+DTSTAMP:20261124T004706Z
 DTSTART;VALUE=DATE:20270519
 DTEND;VALUE=DATE:20270520
 SUMMARY:Ruta do Viño 2027
