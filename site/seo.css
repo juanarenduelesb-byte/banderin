@@ -105,3 +105,6 @@ h2{font:400 clamp(26px,3.4vw,34px)/1.1 "Libre Caslon Display",Georgia,serif;marg
 .facts dt{font:600 12px/1.4 "Public Sans",sans-serif;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin:0 0 4px}
 .facts dd{margin:0;font-size:15.5px;font-weight:600}
 .facts a{color:inherit}
+
+/* Mismo fondo que la portada: curvas de nivel finas sobre el verde */
+body::before{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;background:url(/topo.svg) center/cover no-repeat}
