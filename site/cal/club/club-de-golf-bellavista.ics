@@ -10,8 +10,23 @@ X-WR-TIMEZONE:Europe/Madrid
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
+UID:9ac3a7e79a3315901d5e@banderin.es
+DTSTAMP:20261124T094626Z
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+SUMMARY:Torneo Portaceli
+LOCATION:Club de Golf Bellavista\, Aljaraque\, Huelva
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  24 de noviembre\, cierra el 24 de noviembre.\nPrecio: Gratis.\nFicha ofic
+ ial: https://www.nextcaddy.com/tour/75577\nConfirma fechas y condiciones e
+ n la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nextcaddy.com/tour/75577
+END:VEVENT
+BEGIN:VEVENT
 UID:6cff6b2c0221ac68e875@banderin.es
-DTSTAMP:20261124T004706Z
+DTSTAMP:20261124T094626Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
 SUMMARY:Final Circuito Senior
@@ -25,7 +40,7 @@ URL:https://www.nextcaddy.com/tour/61254
 END:VEVENT
 BEGIN:VEVENT
 UID:830445cf7b3d44ce461c@banderin.es
-DTSTAMP:20261124T004706Z
+DTSTAMP:20261124T094626Z
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
 SUMMARY:5ª Jornada Lpgh XXVI Edición. (Dunas-Bellavista)

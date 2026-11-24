@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Banderin//Torneos de golf//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Banderín - Real Club de la Puerta de Hierro
+X-WR-CALDESC:Torneos de golf: Real Club de la Puerta de Hierro. Se actualiz
+ a cada mañana. https://banderin.es
+X-WR-TIMEZONE:Europe/Madrid
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:5bb3bed706af519439e7@banderin.es
+DTSTAMP:20261124T094626Z
+DTSTART;VALUE=DATE:20261124
+DTEND;VALUE=DATE:20261125
+SUMMARY:Copa Sra. Marquesa de Casa Valdés
+LOCATION:Real Club de la Puerta de Hierro\, Madrid\, Madrid
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.nextcaddy.com/tour/67427\nConfirma fechas y condiciones en la web de
+ l organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nextcaddy.com/tour/67427
+END:VEVENT
+END:VCALENDAR
