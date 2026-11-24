@@ -92,7 +92,7 @@ window.EN={
 "Pruebas de profesionales":"Professional events","Pruebas inclusivas":"Inclusive events","Próximo finde":"Next weekend",
 "Pulsa «Lo jugué» en cualquier torneo de la pestaña «Con resultados» o «Todos».":"Tap “I played it” on any tournament under “With results” or “All”.",
 "Quitar de guardados":"Remove from saved","Recorrido":"Course","Recorridos cortos":"Short courses","Resultados de los últimos 45 días.":"Results from the last 45 days.",
-"Retirado":"Removed","Senior":"Senior","Sin cambios en los últimos 14 días.":"No changes in the last 14 days.","Sin coste de inscripción":"No entry fee",
+"Retirado":"Removed","Senior":"Senior","Sin cambios en los últimos 14 días.":"No changes in the last 14 days.","Sin coste de inscripción":"No entry fee","Sin coste":"Free",
 "Sin fuente volcada":"No source imported","Sin torneos en este periodo.":"No tournaments in this period.","Sobre el precio":"About the price",
 "Toca cualquier fila para ver su ficha y el enlace de inscripción.":"Tap any row to see its details and entry link.",
 "Toca un punto para ver los torneos de ese campo, o una provincia para ver todos los suyos.":"Tap a dot to see that course's tournaments, or a province to see all of its own.",

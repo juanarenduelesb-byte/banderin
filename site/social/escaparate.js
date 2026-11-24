@@ -79,7 +79,7 @@ async function rails(el, o = {}) {
   css();
   const ps = await partidas(), ts = parejas();
   const items = ps.map(p => [p.fecha + (p.hora || ''), card(p.fecha, p.hora, p.tipo === 'torneo' ? L('Busca pareja') : L('Partida'), p.tipo === 'torneo', p.tipo === 'torneo' && p.torneo ? p.torneo : p.campo, p.tipo === 'torneo' ? p.campo : (p.provincia || ''),
-    `<span>${L('Hándicap')}: ${esc(rango(p))}</span><em>${p.libres > 0 ? p.libres + ' ' + L(p.libres === 1 ? 'libre' : 'libres') : L('Completa')}</em>`, '/social/')])
+    `<span>${L('Hándicap')}: ${esc(rango(p))}${p.precio != null ? ' · ' + (+p.precio === 0 ? L('Sin coste') : p.precio + ' €') : ''}</span><em>${p.libres > 0 ? p.libres + ' ' + L(p.libres === 1 ? 'libre' : 'libres') : L('Completa')}</em>`, '/social/')])
     .concat(ts.map(t => [t.s + '~', card(t.s, null, L('Torneo por parejas'), true, t.n, t.club, `<span>${esc(t.prov || '')}</span><em>${L('Busco pareja')} →</em>`, '/social/#publicar/t/' + tid(t))]))
     .sort((x, y) => x[0].localeCompare(y[0]));
   el.innerHTML = items.length ? `<h3 class="bs-h">${L('Partidas y torneos: ¿te falta gente?')}</h3><div class="bs-rail">${items.map(x => x[1]).join('')}</div>` : '';

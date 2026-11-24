@@ -95,6 +95,8 @@ create table if not exists public.social_partidas (
 );
 create index if not exists social_partidas_fecha on public.social_partidas (fecha);
 create index if not exists social_partidas_autor on public.social_partidas (autor);
+-- Precio por jugador (green fee o inscripción), en euros enteros; 0 = no cuesta nada. Vacío en partidas antiguas.
+alter table public.social_partidas add column if not exists precio smallint check (precio between 0 and 2000);
 
 -- ───────────────────────── Solicitudes para unirse ─────────────────────────
 create table if not exists public.social_solicitudes (
@@ -297,8 +299,8 @@ grant select (user_id, nombre, hcp, provincia, campos, bio, visible, creado, act
 grant insert (user_id, nombre, hcp, provincia, campos, bio, visible), update (user_id, nombre, hcp, provincia, campos, bio, visible), delete on public.social_perfiles to authenticated;
 grant select, insert, update (user_id, whatsapp, email, publico), delete on public.social_contacto to authenticated;
 grant select, insert (de, para), update (estado), delete on public.social_amistades to authenticated;
-grant select, insert (campo, provincia, fecha, hora, tipo, torneo, torneo_url, plazas, hcp_min, hcp_max, nota, solo_amigos),
-  update (campo, provincia, fecha, hora, tipo, torneo, torneo_url, plazas, hcp_min, hcp_max, nota, solo_amigos, cerrada), delete on public.social_partidas to authenticated;
+grant select, insert (campo, provincia, fecha, hora, tipo, torneo, torneo_url, plazas, hcp_min, hcp_max, nota, solo_amigos, precio),
+  update (campo, provincia, fecha, hora, tipo, torneo, torneo_url, plazas, hcp_min, hcp_max, nota, solo_amigos, cerrada, precio), delete on public.social_partidas to authenticated;
 grant select, insert (partida, jugador, mensaje), update (estado, mensaje), delete on public.social_solicitudes to authenticated;
 grant select, insert (quien, a_quien), delete on public.social_bloqueos to authenticated;
 grant insert (contra, partida, motivo, texto) on public.social_denuncias to authenticated;
@@ -442,12 +444,14 @@ create policy "mensajes: borrar los míos" on public.social_mensajes for delete 
 
 -- ───────────────────────── Escaparate público: partidas abiertas SIN datos personales ─────────────────────────
 -- Lo único que ve quien no tiene cuenta: campo, día, tipo y plazas. Ni nombres, ni notas, ni contacto.
+-- Cambia lo que devuelve (añade el precio): hay que borrarla antes de crearla de nuevo.
+drop function if exists public.social_escaparate();
 create or replace function public.social_escaparate()
-returns table (campo text, provincia text, fecha date, hora time, tipo text, torneo text, plazas smallint, libres int, hcp_min numeric, hcp_max numeric)
+returns table (campo text, provincia text, fecha date, hora time, tipo text, torneo text, plazas smallint, libres int, hcp_min numeric, hcp_max numeric, precio smallint)
 language sql stable security definer set search_path = public as $$
   select p.campo, p.provincia, p.fecha, p.hora, p.tipo, p.torneo, p.plazas,
          greatest(0, p.plazas - (select count(*) from social_solicitudes s where s.partida = p.id and s.estado = 'aceptada'))::int,
-         p.hcp_min, p.hcp_max
+         p.hcp_min, p.hcp_max, p.precio
   from social_partidas p
   where p.fecha >= current_date and not p.solo_amigos and not p.cerrada
   order by p.fecha, p.hora nulls last limit 12;

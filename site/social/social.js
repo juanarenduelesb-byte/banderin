@@ -140,11 +140,11 @@ const DEMOD = (() => {
   ];
   const par = PAREJAS[0];
   const P = [
-    { id: 'p1', autor: 'd1', campo: c(mad, 0, 'Club de Campo Villa de Madrid'), provincia: 'Madrid', fecha: weekend()[0], hora: '09:30:00', tipo: 'partida', plazas: 3, hcp_min: 10, hcp_max: 28, nota: 'Partida tranquila de 18 hoyos. Salimos a las 9:30 y después caña en el bar del club.', solo_amigos: false, cerrada: false, ok: 1 },
-    par ? { id: 'p2', autor: 'd6', campo: par.club, provincia: par.prov, fecha: par.s, hora: null, tipo: 'torneo', torneo: par.n, torneo_url: safeUrl(par.url), plazas: 1, hcp_min: null, hcp_max: 24, nota: 'Busco pareja para este torneo. Me da igual el hándicap si te lo tomas con ganas.', solo_amigos: false, cerrada: false, ok: 0 } : null,
-    { id: 'p3', autor: 'd2', campo: c(mad, 1, 'Golf Park'), provincia: 'Madrid', fecha: addDays(3), hora: '17:00:00', tipo: 'partida', plazas: 2, hcp_min: 18, hcp_max: 36, nota: 'Nueve hoyos al salir del trabajo. Nivel principiante, sin presión.', solo_amigos: false, cerrada: false, ok: 1 },
-    { id: 'p4', autor: 'd3', campo: c(bcn, 0, 'Real Club de Golf El Prat'), provincia: 'Barcelona', fecha: addDays(9), hora: '08:40:00', tipo: 'partida', plazas: 3, hcp_min: null, hcp_max: 15, nota: 'Fourball con apuesta amistosa. Hándicap hasta 15.', solo_amigos: false, cerrada: false, ok: 2 },
-    { id: 'p5', autor: 'd4', campo: c(mal, 0, 'Golf Torrequebrada'), provincia: 'Málaga', fecha: addDays(5), hora: '10:00:00', tipo: 'partida', plazas: 2, hcp_min: null, hcp_max: null, nota: 'Cualquier nivel. Yo pongo el buen rollo.', solo_amigos: false, cerrada: false, ok: 0 },
+    { id: 'p1', autor: 'd1', campo: c(mad, 0, 'Club de Campo Villa de Madrid'), provincia: 'Madrid', fecha: weekend()[0], hora: '09:30:00', tipo: 'partida', plazas: 3, hcp_min: 10, hcp_max: 28, precio: 85, nota: 'Partida tranquila de 18 hoyos. Salimos a las 9:30 y después caña en el bar del club.', solo_amigos: false, cerrada: false, ok: 1 },
+    par ? { id: 'p2', autor: 'd6', campo: par.club, provincia: par.prov, fecha: par.s, hora: null, tipo: 'torneo', torneo: par.n, torneo_url: safeUrl(par.url), plazas: 1, hcp_min: null, hcp_max: 24, precio: 60, nota: 'Busco pareja para este torneo. Me da igual el hándicap si te lo tomas con ganas.', solo_amigos: false, cerrada: false, ok: 0 } : null,
+    { id: 'p3', autor: 'd2', campo: c(mad, 1, 'Golf Park'), provincia: 'Madrid', fecha: addDays(3), hora: '17:00:00', tipo: 'partida', plazas: 2, hcp_min: 18, hcp_max: 36, precio: 25, nota: 'Nueve hoyos al salir del trabajo. Nivel principiante, sin presión.', solo_amigos: false, cerrada: false, ok: 1 },
+    { id: 'p4', autor: 'd3', campo: c(bcn, 0, 'Real Club de Golf El Prat'), provincia: 'Barcelona', fecha: addDays(9), hora: '08:40:00', tipo: 'partida', plazas: 3, hcp_min: null, hcp_max: 15, precio: 110, nota: 'Fourball con apuesta amistosa. Hándicap hasta 15.', solo_amigos: false, cerrada: false, ok: 2 },
+    { id: 'p5', autor: 'd4', campo: c(mal, 0, 'Golf Torrequebrada'), provincia: 'Málaga', fecha: addDays(5), hora: '10:00:00', tipo: 'partida', plazas: 2, hcp_min: null, hcp_max: null, precio: 70, nota: 'Cualquier nivel. Yo pongo el buen rollo.', solo_amigos: false, cerrada: false, ok: 0 },
   ].filter(Boolean);
   return { U, P };
 })();
@@ -160,7 +160,9 @@ async function firmar(rows) {
   try { const { data } = await SB.storage.from('avatares').createSignedUrls(paths, 7200); (data || []).forEach(d => { if (d && d.signedUrl) FOTO.set(d.path, d.signedUrl); }); } catch (e) { }
   return rows;
 }
-const MCOLS = 'id,autor,campo,provincia,fecha,hora,tipo,torneo,torneo_url,plazas,hcp_min,hcp_max,nota,solo_amigos,cerrada,creado';
+const MCOLS = 'id,autor,campo,provincia,fecha,hora,tipo,torneo,torneo_url,plazas,hcp_min,hcp_max,nota,solo_amigos,cerrada,creado,precio';
+// Precio por jugador (green fee o inscripción). 0 = no cuesta nada; vacío en partidas antiguas.
+const precioTxt = p => p.precio == null ? '' : +p.precio === 0 ? 'Sin coste' : p.precio + ' € / jugador';
 async function q(p) { const { data, error } = await p; if (error) throw error; return data; }
 async function perfilesDe(ids) {
   ids = [...new Set(ids.filter(Boolean))]; if (!ids.length) return new Map();
@@ -279,7 +281,7 @@ function matchCard(p) {
   return `<a class="match glass" href="#partida/${esc(p.id)}">${dateBox(p.fecha, p.hora)}<div>
     <div style="display:flex;gap:6px;align-items:center;flex-wrap:wrap;margin-bottom:4px">${p.tipo === 'torneo' ? '<span class="tag gold">Busca pareja · Torneo</span>' : '<span class="tag">Partida</span>'}${p.solo_amigos ? '<span class="tag mute">Solo amigos</span>' : ''}${st}</div>
     <h3>${esc(p.tipo === 'torneo' && p.torneo ? p.torneo : p.campo)}</h3>
-    <div class="meta"><span>${esc(p.tipo === 'torneo' ? p.campo : (p.provincia || ''))}</span><span>Hándicap: ${esc(hcpRange(p))}</span></div>
+    <div class="meta"><span>${esc(p.tipo === 'torneo' ? p.campo : (p.provincia || ''))}</span><span>Hándicap: ${esc(hcpRange(p))}</span>${p.precio != null ? `<span>${esc(precioTxt(p))}</span>` : ''}</div>
     <div class="foot"><span class="who">${av(a)}<span>${esc(a.nombre || '')}</span><span class="hcp" style="font-weight:600;color:var(--muted)">${hcpTxt(a.hcp)}</span></span>${seats(n, on)}</div></div></a>`;
 }
 
@@ -337,8 +339,9 @@ async function vPartida(id) {
   <div class="dhead">${dateBox(p.fecha, p.hora)}<div>${p.tipo === 'torneo' ? '<span class="tag gold">Busca pareja · Torneo</span>' : '<span class="tag">Partida</span>'}
     <h1 style="margin-top:6px">${esc(p.tipo === 'torneo' && p.torneo ? p.torneo : p.campo)}</h1>
     <div class="meta" style="color:var(--muted);font-size:14px;margin-top:4px">${esc(when(p.fecha))}${p.hora ? ' · ' + esc(hhmm(p.hora)) : ''}${p.tipo === 'torneo' ? ' · ' + esc(p.campo) : ''}</div></div></div>
-  <div class="facts"><div><small>Plazas</small>${seats(n, on)}</div><div><small>Hándicap</small><b>${esc(hcpRange(p))}</b></div>
-    <div><small>Dónde</small><b>${esc(whereOf(p.campo) || p.provincia || '—')}</b></div><div><small>Visible para</small><b>${p.solo_amigos ? 'Solo amigos' : 'Todos'}</b></div></div>
+  <div class="facts"><div><small>Plazas</small>${seats(n, on)}</div><div><small>Precio</small><b>${esc(precioTxt(p) || 'Sin indicar')}</b></div>
+    <div><small>Hándicap</small><b>${esc(hcpRange(p))}</b></div><div><small>Dónde</small><b>${esc(whereOf(p.campo) || p.provincia || '—')}</b></div></div>
+  ${p.solo_amigos ? '<p class="lock" style="margin:-6px 0 12px">' + I.lock + 'Solo la ven tus amigos.</p>' : ''}
   <a class="btn ghost block" style="margin-bottom:8px" href="${esc(mapsUrl(p.campo))}" target="_blank" rel="noopener">Cómo llegar a ${esc(p.campo)}</a>
   ${p.torneo_url ? `<a class="btn ghost block" href="${esc(safeUrl(p.torneo_url))}" target="_blank" rel="noopener">Ver el torneo y la inscripción</a>` : ''}
   ${p.nota ? `<p class="note">${esc(p.nota)}</p>` : ''}
@@ -427,6 +430,7 @@ function vPublicar(arg) {
       <label class="field"><span>Hora <small style="display:inline;color:var(--muted)">(opcional)</small></span><input class="in" type="time" name="hora" step="300"></label></div>
     <div class="field"><span>¿Cuántos buscas?</span><div class="choice">${[1, 2, 3].map(n => `<label><input type="radio" name="plazas" value="${n}"${n === (t ? 1 : 3) ? ' checked' : ''}><span>${n} ${n === 1 ? 'jugador' : 'jugadores'}</span></label>`).join('')}</div></div>
     <div class="field"><span>Hándicap que buscas <small style="display:inline;color:var(--muted)">(opcional)</small></span><div class="two"><input class="in" type="number" name="hmin" step="0.1" min="-10" max="54" placeholder="Desde"><input class="in" type="number" name="hmax" step="0.1" min="-10" max="54" placeholder="Hasta"></div></div>
+    <label class="field"><span>Precio por jugador</span><div class="eur"><input class="in" type="number" name="precio" required min="0" max="2000" step="1" inputmode="numeric" placeholder="Ej.: 65"><b>€</b></div><small>Lo que paga cada uno: green fee, buggy si va incluido o la inscripción del torneo. Pon 0 si no cuesta nada.</small></label>
     <label class="field"><span>Nota</span><textarea class="in" name="nota" maxlength="280" placeholder="Ritmo de juego, si vais en buggy, tercer tiempo…"></textarea></label>
     <div class="switch"><div><b>Solo para mis amigos</b><small>Si no, la ve cualquier jugador con cuenta.</small></div><input type="checkbox" name="am" aria-label="Solo para mis amigos"></div>
     <p class="err" id="perr" hidden></p>
@@ -449,10 +453,10 @@ function vPublicar(arg) {
     e.preventDefault(); const er = f.querySelector('#perr'); er.hidden = true;
     const campo = f.campo.value.trim(), tipo = f.tipo.value;
     const hmin = f.hmin.value === '' ? null : +f.hmin.value, hmax = f.hmax.value === '' ? null : +f.hmax.value;
-    const bad = !campo ? 'Escribe el campo.' : !f.fecha.value || f.fecha.value < TODAY ? 'Elige un día a partir de hoy.' : tipo === 'torneo' && !tor ? 'Elige el torneo de la lista.' : hmin != null && hmax != null && hmin > hmax ? 'El hándicap «desde» es mayor que «hasta».' : '';
+    const bad = !campo ? 'Escribe el campo.' : !f.fecha.value || f.fecha.value < TODAY ? 'Elige un día a partir de hoy.' : tipo === 'torneo' && !tor ? 'Elige el torneo de la lista.' : hmin != null && hmax != null && hmin > hmax ? 'El hándicap «desde» es mayor que «hasta».' : f.precio.value === '' ? 'Pon el precio por jugador (0 si no cuesta nada).' : !(+f.precio.value >= 0 && +f.precio.value <= 2000) ? 'El precio tiene que estar entre 0 y 2.000 €.' : '';
     if (bad) { er.hidden = false; er.textContent = bad; return; }
     const row = { campo, provincia: CLUBS.get(campo) || (tor && tor.prov) || MYP.provincia || null, fecha: f.fecha.value, hora: f.hora.value || null, tipo, plazas: +f.plazas.value,
-      hcp_min: hmin, hcp_max: hmax, nota: f.nota.value.trim() || null, solo_amigos: f.am.checked,
+      hcp_min: hmin, hcp_max: hmax, nota: f.nota.value.trim() || null, solo_amigos: f.am.checked, precio: Math.round(+f.precio.value),
       torneo: tipo === 'torneo' && tor ? tor.n.slice(0, 160) : null, torneo_url: tipo === 'torneo' && tor ? (safeUrl(tor.url) || null) : null };
     const btn = f.querySelector('[type=submit]'); btn.disabled = true;
     try { const r = await q(SB.from('social_partidas').insert(row).select('id').single()); toast('¡Publicada! Compártela para que te encuentren.'); location.hash = '#partida/' + r.id; }
