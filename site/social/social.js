@@ -286,7 +286,7 @@ function matchCard(p) {
 async function vPartidas() {
   setTab('partidas');
   const nombre = MYP ? MYP.nombre.split(' ')[0] : '';
-  view.innerHTML = `<section class="shero"><p class="eb">Banderín Social · Prueba</p><h1>${nombre ? 'Hola, ' + esc(nombre) + '.<br>' : ''}¿Con quién juegas?</h1>
+  view.innerHTML = `<section class="shero"><p class="eb">Banderín Social</p><h1>${nombre ? 'Hola, ' + esc(nombre) + '.<br>' : ''}¿Con quién juegas?</h1>
     <p>Únete a una partida, busca pareja para un torneo o publica la tuya y deja que te encuentren.</p>
     <div class="acts"><a class="btn gold" href="#publicar">${I.plus}Publicar partida</a><a class="btn ghost" href="#jugadores">Ver jugadores</a></div></section>
     ${PAREJAS.length ? `<div class="sec"><h2>Torneos por parejas</h2><a href="https://banderin.es/#lista" target="_blank" rel="noopener">Ver todos</a></div>
