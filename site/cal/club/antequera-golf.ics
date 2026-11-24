@@ -11,7 +11,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:5b31254eb077c2dcfd06@banderin.es
-DTSTAMP:20261124T094626Z
+DTSTAMP:20261124T145432Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:1º torneo III Liga CMS y Ventanas Kömmerling
@@ -26,7 +26,7 @@ URL:https://www.nextcaddy.com/tour/75470
 END:VEVENT
 BEGIN:VEVENT
 UID:58e89229caa085acd6a2@banderin.es
-DTSTAMP:20261124T094626Z
+DTSTAMP:20261124T145432Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
 SUMMARY:XV Memorial Vicente Jimenez & XXV Aniversario Antequera Golf
@@ -38,5 +38,20 @@ DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.nextcaddy.com/tour/75530
+END:VEVENT
+BEGIN:VEVENT
+UID:97b6bddf7fdedd0273e0@banderin.es
+DTSTAMP:20261124T145432Z
+DTSTART;VALUE=DATE:20261219
+DTEND;VALUE=DATE:20261220
+SUMMARY:Torneo Cudeca 2026
+LOCATION:Antequera Golf\, Antequera\, Málaga
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  24 de noviembre\, cierra el 18 de diciembre.\nPrecio: 38 €.\nFicha ofic
+ ial: https://www.nextcaddy.com/tour/75582\nConfirma fechas y condiciones e
+ n la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nextcaddy.com/tour/75582
 END:VEVENT
 END:VCALENDAR

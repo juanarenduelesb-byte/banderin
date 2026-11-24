@@ -1,0 +1,40 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Banderin//Torneos de golf//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Banderín - Mijas Golf Internacional
+X-WR-CALDESC:Torneos de golf: Mijas Golf Internacional. Se actualiza cada m
+ añana. https://banderin.es
+X-WR-TIMEZONE:Europe/Madrid
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:3967d208079e48f93791@banderin.es
+DTSTAMP:20261124T145432Z
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261206
+SUMMARY:Final Nacional Circuito Club Series (Copia)
+LOCATION:Mijas Golf Internacional\, Mijas\, Málaga
+DESCRIPTION:Circuito comercial - Stableford - Individual\nFicha oficial: ht
+ tps://www.golfdirecto.com/micro/game/6b056374bbee5ec91aef2179/summary\nCon
+ firma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6b056374bbee5ec91aef2179/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:91fb20b0c0a00dd36a76@banderin.es
+DTSTAMP:20261124T145432Z
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261206
+SUMMARY:Torneo Invitados Club Series
+LOCATION:Mijas Golf Internacional\, Mijas\, Málaga
+DESCRIPTION:Circuito comercial - Stableford - Individual\nFicha oficial: ht
+ tps://www.golfdirecto.com/micro/game/6b05639bd09541e3235c5d83/summary\nCon
+ firma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6b05639bd09541e3235c5d83/summary
+END:VEVENT
+END:VCALENDAR

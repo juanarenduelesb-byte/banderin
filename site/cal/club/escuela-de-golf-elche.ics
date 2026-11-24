@@ -10,22 +10,23 @@ X-WR-TIMEZONE:Europe/Madrid
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:8eea62ac3cda611b033d@banderin.es
-DTSTAMP:20261124T094626Z
+UID:afc88a1583e77925cd66@banderin.es
+DTSTAMP:20261124T145432Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Ryder / Solheim P&P
 LOCATION:Escuela de Golf Elche\, Elx/elche\, Alicante
-DESCRIPTION:Absoluto - Match Play - Equipos\nFicha oficial: https://www.nex
- tcaddy.com/tour/73510\nConfirma fechas y condiciones en la web del organiz
- ador. Vía Banderín.
+DESCRIPTION:Absoluto - Equipos\nInscripción: abre el 24 de noviembre\, cie
+ rra el 24 de noviembre.\nPrecio: Gratis.\nFicha oficial: https://www.nextc
+ addy.com/tour/75585\nConfirma fechas y condiciones en la web del organizad
+ or. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-URL:https://www.nextcaddy.com/tour/73510
+URL:https://www.nextcaddy.com/tour/75585
 END:VEVENT
 BEGIN:VEVENT
 UID:8535edeb5011af4a9198@banderin.es
-DTSTAMP:20261124T094626Z
+DTSTAMP:20261124T145432Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:XII Torneo de Navidad Ege

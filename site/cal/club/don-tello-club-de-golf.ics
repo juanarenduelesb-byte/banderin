@@ -11,15 +11,15 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:8c53c368008766bccce7@banderin.es
-DTSTAMP:20261124T094626Z
+DTSTAMP:20261124T145432Z
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
 SUMMARY:II Torneo de Navidad
 LOCATION:Don Tello Club de Golf\, Merida\, Badajoz
-DESCRIPTION:Social de club - Stableford - Parejas\nInscripción: abre el 13
-  de febrero\, cierra el 10 de diciembre.\nFicha oficial: https://www.golfd
- irecto.com/micro/game/698f8d90c3938be59d062d8d/summary\nConfirma fechas y 
- condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Social de club - Scramble - Parejas\nInscripción: abre el 13 d
+ e febrero\, cierra el 10 de diciembre.\nFicha oficial: https://www.golfdir
+ ecto.com/micro/game/698f8d90c3938be59d062d8d/summary\nConfirma fechas y co
+ ndiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/698f8d90c3938be59d062d8d/summary

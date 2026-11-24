@@ -10,8 +10,22 @@ X-WR-TIMEZONE:Europe/Madrid
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
+UID:1bac781688d1c28a30f1@banderin.es
+DTSTAMP:20261124T145432Z
+DTSTART;VALUE=DATE:20261124
+DTEND;VALUE=DATE:20261125
+SUMMARY:Sjgs Poy 7
+LOCATION:Serena Golf\, Los Alcazares\, Murcia
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/6b01725030507b49b14536b9/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6b01725030507b49b14536b9/summary
+END:VEVENT
+BEGIN:VEVENT
 UID:9411e64c6a0aab39c1e6@banderin.es
-DTSTAMP:20261124T094626Z
+DTSTAMP:20261124T145432Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:SJGS WEDNESDAY 25th NOVEMBER (Non-Counting)
@@ -24,8 +38,36 @@ STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6b0454439bf25f61762fee0e/summary
 END:VEVENT
 BEGIN:VEVENT
+UID:519a0581d59de1d36145@banderin.es
+DTSTAMP:20261124T145432Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:Sjgs Friday Counting
+LOCATION:Serena Golf\, Los Alcazares\, Murcia
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/6b0578e965911b42dd6e4340/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6b0578e965911b42dd6e4340/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:64b8e504664671b49fbc@banderin.es
+DTSTAMP:20261124T145432Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:Sjgs Friday Counting
+LOCATION:Serena Golf\, Los Alcazares\, Murcia
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/6b057855d09541e323ea5e13/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6b057855d09541e323ea5e13/summary
+END:VEVENT
+BEGIN:VEVENT
 UID:9138a6246b584c1e2060@banderin.es
-DTSTAMP:20261124T094626Z
+DTSTAMP:20261124T145432Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Torneo Aniversario Escuela Torné
