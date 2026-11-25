@@ -11,11 +11,11 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:872bc17e817353ac978f@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Final 13 Gt 2026
-LOCATION:Mar Menor Golf\, Torre Pacheco\, Murcia
+LOCATION:Mar Menor Golf
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   8 de noviembre\, cierra el 25 de noviembre.\nPrecio: 58 €.\nFicha ofici
  al: https://www.golfdirecto.com/micro/game/6af0c3fb18fc8072fbdc6c1a/summar
@@ -27,11 +27,11 @@ URL:https://www.golfdirecto.com/micro/game/6af0c3fb18fc8072fbdc6c1a/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:8e698ee2d715df88522a@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Final 13 Gt 2026 (Solo Comida y Entrega de Premios)
-LOCATION:Mar Menor Golf\, Torre Pacheco\, Murcia
+LOCATION:Mar Menor Golf
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   17 de noviembre\, cierra el 27 de noviembre.\nPrecio: 40 €.\nFicha ofic
  ial: https://www.golfdirecto.com/micro/game/6afc9916669bd90e3960312a/summa
@@ -43,11 +43,11 @@ URL:https://www.golfdirecto.com/micro/game/6afc9916669bd90e3960312a/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:22be4a11b982e26bbd49@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20270221
 DTEND;VALUE=DATE:20270222
 SUMMARY:Strokers GS 2027 Round 1
-LOCATION:Mar Menor Golf\, Torre Pacheco\, Murcia
+LOCATION:Mar Menor Golf
 DESCRIPTION:Social de club - Medal Play - Individual\nInscripción: abre el
   23 de noviembre\, cierra el 13 de febrero.\nPrecio: 10 €.\nFicha oficia
  l: https://www.golfdirecto.com/micro/game/6b042033d2ed4f3d1c204487/summary

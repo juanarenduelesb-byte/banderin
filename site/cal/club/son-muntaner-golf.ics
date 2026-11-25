@@ -11,11 +11,11 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:e7aefdcd4121fb179129@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:VI Prueba Circuito Hexagonal - Qromia 2026
-LOCATION:Son Muntaner Golf\, Palma de Mallorca\, Illes Balears
+LOCATION:Son Muntaner Golf
 DESCRIPTION:Circuito comercial - Stableford - Individual\nInscripción: abr
  e el 18 de noviembre\, cierra el 25 de noviembre.\nPrecio: 65 €.\nFicha 
  oficial: https://www.golfdirecto.com/micro/game/69fcb6f7db4357f53020d06b/s
@@ -27,11 +27,11 @@ URL:https://www.golfdirecto.com/micro/game/69fcb6f7db4357f53020d06b/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:471ac10c58149d76eca9@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
 SUMMARY:Liga Social 2026 Final "El Caire Espai Cuina"
-LOCATION:Son Muntaner Golf\, Palma de Mallorca\, Illes Balears
+LOCATION:Son Muntaner Golf
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   2 de octubre\, cierra el 4 de diciembre.\nPrecio: 78 €.\nFicha oficial:
   https://www.golfdirecto.com/micro/game/6abfbdbfea19e81b2a47618e/summary\n
@@ -42,11 +42,11 @@ URL:https://www.golfdirecto.com/micro/game/6abfbdbfea19e81b2a47618e/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:740b95197e3fa5c8bb56@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:Torneo Presidente 2026 (Sólo Abonados Arabella Golf Mallorca)
-LOCATION:Son Muntaner Golf\, Palma de Mallorca\, Illes Balears
+LOCATION:Son Muntaner Golf
 DESCRIPTION:Social de club - Medal Play - Individual\nInscripción: abre el
   5 de noviembre\, cierra el 10 de diciembre.\nPrecio: 10 €.\nFicha ofici
  al: https://www.golfdirecto.com/micro/game/6aec99589dfa541630f07c96/summar
@@ -58,11 +58,11 @@ URL:https://www.golfdirecto.com/micro/game/6aec99589dfa541630f07c96/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:57fed7e5c9f8ebbd5023@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261220
 SUMMARY:Torneo Navidad 2026 - Golf Son Muntaner
-LOCATION:Son Muntaner Golf\, Palma de Mallorca\, Illes Balears
+LOCATION:Son Muntaner Golf
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   10 de noviembre\, cierra el 17 de diciembre.\nPrecio: 115 €.\nFicha ofi
  cial: https://www.golfdirecto.com/micro/game/6af2d69c5d98b588719e40f0/summ

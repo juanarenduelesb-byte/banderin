@@ -11,11 +11,11 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:1215a4e0a9cc7727d3c7@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
 SUMMARY:III Trofeo Copa Presidente. (O.m.)
-LOCATION:Club de Golf la Rasa de Berbes\, Ribadesella\, Asturias
+LOCATION:Club de Golf la Rasa de Berbes
 DESCRIPTION:Social de club - Medal Play - Individual\nInscripción: abre el
   25 de noviembre\, cierra el 3 de diciembre.\nFicha oficial: https://www.g
  olfdirecto.com/micro/game/6b05e8c037dbfef559d6a6e6/summary\nConfirma fecha

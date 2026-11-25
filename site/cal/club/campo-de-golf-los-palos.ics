@@ -11,11 +11,11 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:bb9ec9efcc21f2679bca@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:XXXII Torneo Aniversario Golf Los Palos
-LOCATION:Campo de Golf los Palos\, Guaza\, Santa Cruz de Tenerife
+LOCATION:Campo de Golf los Palos
 DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
  //www.golfdirecto.com/micro/game/6af48f259292980794dfde99/summary\nConfirm
  a fechas y condiciones en la web del organizador. Vía Banderín.

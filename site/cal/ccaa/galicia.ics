@@ -11,11 +11,11 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:92d1a85d2c7d60ef589c@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
 SUMMARY:10ª Jornada Race To Barbanza
-LOCATION:C.D. Barbanza Pitch And Putt\, Boiro (boiro)\, A Coruña
+LOCATION:C.D. Barbanza Pitch And Putt
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   23 de noviembre\, cierra el 26 de noviembre.\nFicha oficial: https://www.
  golfdirecto.com/micro/game/6b0434019bf25f6176cba051/summary\nConfirma fech
@@ -26,11 +26,11 @@ URL:https://www.golfdirecto.com/micro/game/6b0434019bf25f6176cba051/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:476c1da216abe35f0a00@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
 SUMMARY:3ª Prueba Liga Femenina 26-27
-LOCATION:Real Montealegre Club de Golf\, Ourense\, Ourense
+LOCATION:Real Montealegre Club de Golf
 DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
  //www.golfdirecto.com/micro/game/6ac218e958408d9c20f850a5/summary\nConfirm
  a fechas y condiciones en la web del organizador. Vía Banderín.
@@ -40,11 +40,11 @@ URL:https://www.golfdirecto.com/micro/game/6ac218e958408d9c20f850a5/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:af15b596a90c0438106a@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
 SUMMARY:Ruta do Viño 2026
-LOCATION:Rio Cabe\, Monforte (casco Urbano)\, Lugo
+LOCATION:Rio Cabe
 DESCRIPTION:Social de club - Fourball - Parejas\nInscripción: cierra el 23
   de noviembre.\nFicha oficial: https://www.golfdirecto.com/micro/game/6b05
  a34c65911b42dd8ba4c6/summary\nConfirma fechas y condiciones en la web del 
@@ -55,11 +55,11 @@ URL:https://www.golfdirecto.com/micro/game/6b05a34c65911b42dd8ba4c6/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:423f6d882c17af569bdd@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:2ª Prueba Liga de Parejas Campomar 26/27
-LOCATION:Club Campomar\, Santa Margarita (naron)\, A Coruña
+LOCATION:Club Campomar
 DESCRIPTION:Social de club - Greensome - Parejas\nInscripción: abre el 23 
  de octubre\, cierra el 27 de noviembre.\nFicha oficial: https://www.golfdi
  recto.com/micro/game/6adb729e042bd6a99e102d30/summary\nConfirma fechas y c
@@ -70,11 +70,11 @@ URL:https://www.golfdirecto.com/micro/game/6adb729e042bd6a99e102d30/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:a42144fd3270bea5924d@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Anselmo Benito
-LOCATION:Club de Golf Ria de Vigo\, San Lourenzo (domaio)\, Pontevedra
+LOCATION:Club de Golf Ria de Vigo
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   29 de septiembre\, cierra el 27 de noviembre.\nFicha oficial: https://www
  .golfdirecto.com/micro/game/6abbf8a73e4bd064bd40dac3/summary\nConfirma fec
@@ -85,11 +85,11 @@ URL:https://www.golfdirecto.com/micro/game/6abbf8a73e4bd064bd40dac3/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:24ba9cdb23cc1b8f7490@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Benjamines-Final Liga Gallega Juvenil Sub-18
-LOCATION:Club Compostela Pitch & Putt\, A Sionlla\, A Coruña
+LOCATION:Club Compostela Pitch & Putt
 DESCRIPTION:Juvenil - Medal Play - Individual\nInscripción: abre el 17 de 
  noviembre\, cierra el 24 de noviembre.\nFicha oficial: https://www.golfdir
  ecto.com/micro/game/6a55dbcf0a8b1b9e07dbe5cb/summary\nConfirma fechas y co
@@ -100,11 +100,11 @@ URL:https://www.golfdirecto.com/micro/game/6a55dbcf0a8b1b9e07dbe5cb/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:28d62a580c50b325a9c4@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Final Liga Gallega Juvenil Sub-18
-LOCATION:Club Compostela Pitch & Putt\, A Sionlla\, A Coruña
+LOCATION:Club Compostela Pitch & Putt
 DESCRIPTION:Juvenil - Medal Play - Individual\nInscripción: abre el 17 de 
  noviembre\, cierra el 24 de noviembre.\nFicha oficial: https://www.golfdir
  ecto.com/micro/game/6943eb634d9bda753002bebf/summary\nConfirma fechas y co
@@ -115,11 +115,11 @@ URL:https://www.golfdirecto.com/micro/game/6943eb634d9bda753002bebf/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:755904ccec0801b96294@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:III Prueba Desafío Ribeira Sacra 2026 - Adega Cabo do Mundo
-LOCATION:Rio Cabe\, Monforte (casco Urbano)\, Lugo
+LOCATION:Rio Cabe
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   23 de noviembre\, cierra el 27 de noviembre.\nFicha oficial: https://www.
  golfdirecto.com/micro/game/6b042dbdd2ed4f3d1cda8784/summary\nConfirma fech
@@ -130,11 +130,11 @@ URL:https://www.golfdirecto.com/micro/game/6b042dbdd2ed4f3d1cda8784/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:0bdd8f47f3931c272edd@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:10ª Jornada Race To Barbanza (2ª Vuelta)
-LOCATION:C.D. Barbanza Pitch And Putt\, Boiro (boiro)\, A Coruña
+LOCATION:C.D. Barbanza Pitch And Putt
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   23 de noviembre\, cierra el 29 de noviembre.\nFicha oficial: https://www.
  golfdirecto.com/micro/game/6b04357ad2ed4f3d1cbdab5b/summary\nConfirma fech
@@ -145,11 +145,11 @@ URL:https://www.golfdirecto.com/micro/game/6b04357ad2ed4f3d1cbdab5b/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:861902f1f7fe181852b9@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:2p XI Liga de Dobles
-LOCATION:Club de Golf Lugo S.a.\, Ribas de Miño (san Mamede) (lugo)\, Lugo
+LOCATION:Club de Golf Lugo S.a.
 DESCRIPTION:Social de club - Scramble - Parejas\nInscripción: abre el 20 d
  e noviembre\, cierra el 28 de noviembre.\nFicha oficial: https://www.golfd
  irecto.com/micro/game/6afee800fb9c521b04eb8bee/summary\nConfirma fechas y 
@@ -160,11 +160,11 @@ URL:https://www.golfdirecto.com/micro/game/6afee800fb9c521b04eb8bee/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:bb3a533b1b9433bd14f9@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:4ª Prueba IV Liga Juvenil Igualdebuenas
-LOCATION:Real Montealegre Club de Golf\, Ourense\, Ourense
+LOCATION:Real Montealegre Club de Golf
 DESCRIPTION:Juvenil - Medal Play - Individual\nInscripción: abre el 8 de n
  oviembre\, cierra el 28 de noviembre.\nFicha oficial: https://www.golfdire
  cto.com/micro/game/6af0858877b7cd1d6ebf20fc/summary\nConfirma fechas y con
@@ -175,11 +175,11 @@ URL:https://www.golfdirecto.com/micro/game/6af0858877b7cd1d6ebf20fc/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:5aa4a57ec4d670310367@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:4ª Prueba Liga Juvenil 5 Hoyos
-LOCATION:Real Montealegre Club de Golf\, Ourense\, Ourense
+LOCATION:Real Montealegre Club de Golf
 DESCRIPTION:Juvenil - Medal Play - Individual\nFicha oficial: https://www.g
  olfdirecto.com/micro/game/6af085c289677877bf6352b3/summary\nConfirma fecha
  s y condiciones en la web del organizador. Vía Banderín.
@@ -189,11 +189,11 @@ URL:https://www.golfdirecto.com/micro/game/6af085c289677877bf6352b3/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:e01f4153244dfa8bfc34@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:4ª Prueba Liga Juvenil Pich&Putt
-LOCATION:Real Montealegre Club de Golf\, Ourense\, Ourense
+LOCATION:Real Montealegre Club de Golf
 DESCRIPTION:Juvenil - Medal Play - Individual\nFicha oficial: https://www.g
  olfdirecto.com/micro/game/6af085f389677877bf700911/summary\nConfirma fecha
  s y condiciones en la web del organizador. Vía Banderín.
@@ -203,11 +203,11 @@ URL:https://www.golfdirecto.com/micro/game/6af085f389677877bf700911/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:f7e47912722e6d1e5dfd@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Circuito Barbanza Arousa. 3ª prueba. Boiro
-LOCATION:C.D. Barbanza Pitch And Putt\, Boiro (boiro)\, A Coruña
+LOCATION:C.D. Barbanza Pitch And Putt
 DESCRIPTION:Circuito comercial - Stableford - Individual\nInscripción: abr
  e el 6 de noviembre\, cierra el 26 de noviembre.\nFicha oficial: https://w
  ww.golfdirecto.com/micro/game/6ac4cc49457edc1ace625b5e/summary\nConfirma f
@@ -218,11 +218,11 @@ URL:https://www.golfdirecto.com/micro/game/6ac4cc49457edc1ace625b5e/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:6e2672affa6657d7b50c@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Otoño Padres & Hijos 18
-LOCATION:Real Aero Club de Vigo\, Vigo\, Pontevedra
+LOCATION:Real Aero Club de Vigo
 DESCRIPTION:Social de club - Greensome - Parejas\nInscripción: abre el 23 
  de noviembre\, cierra el 27 de noviembre.\nFicha oficial: https://www.golf
  directo.com/micro/game/6b047386d2ed4f3d1c3dec73/summary\nConfirma fechas y
@@ -233,11 +233,11 @@ URL:https://www.golfdirecto.com/micro/game/6b047386d2ed4f3d1c3dec73/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:42311f810d63ae5e6dcf@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Otoño Padres & Hijos 5
-LOCATION:Real Aero Club de Vigo\, Vigo\, Pontevedra
+LOCATION:Real Aero Club de Vigo
 DESCRIPTION:Social de club - Foursome - Parejas\nInscripción: abre el 23 d
  e noviembre\, cierra el 27 de noviembre.\nFicha oficial: https://www.golfd
  irecto.com/micro/game/6b04735bd2ed4f3d1c38d49c/summary\nConfirma fechas y 
@@ -248,11 +248,11 @@ URL:https://www.golfdirecto.com/micro/game/6b04735bd2ed4f3d1c38d49c/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:17ad1d84a99618569a50@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Otoño Padres & Hijos 9
-LOCATION:Real Aero Club de Vigo\, Vigo\, Pontevedra
+LOCATION:Real Aero Club de Vigo
 DESCRIPTION:Social de club - Greensome - Parejas\nInscripción: abre el 23 
  de noviembre\, cierra el 27 de noviembre.\nFicha oficial: https://www.golf
  directo.com/micro/game/6b047373d2ed4f3d1c3c5fad/summary\nConfirma fechas y
@@ -263,11 +263,11 @@ URL:https://www.golfdirecto.com/micro/game/6b047373d2ed4f3d1c3c5fad/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:fd449713c26265cf5671@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20261203
 DTEND;VALUE=DATE:20261204
 SUMMARY:4ª Prueba LIGA SENIOR 2026-27
-LOCATION:Miño Club de Golf Artabro\, Miño (pontedeume)\, A Coruña
+LOCATION:Miño Club de Golf Artabro
 DESCRIPTION:Senior - Stableford - Individual\nFicha oficial: https://www.go
  lfdirecto.com/micro/game/6a6c473f0ac413c45d5fd29b/summary\nConfirma fechas
   y condiciones en la web del organizador. Vía Banderín.
@@ -277,11 +277,11 @@ URL:https://www.golfdirecto.com/micro/game/6a6c473f0ac413c45d5fd29b/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:9a621753a020b7454861@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
 SUMMARY:3ª Prueba Liga de Parejas Campomar 20/27
-LOCATION:Club Campomar\, Santa Margarita (naron)\, A Coruña
+LOCATION:Club Campomar
 DESCRIPTION:Social de club - Fourball - Parejas\nInscripción: abre el 23 d
  e octubre\, cierra el 4 de diciembre.\nFicha oficial: https://www.golfdire
  cto.com/micro/game/6adb7310042bd6a99e20dda1/summary\nConfirma fechas y con
@@ -292,26 +292,27 @@ URL:https://www.golfdirecto.com/micro/game/6adb7310042bd6a99e20dda1/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:d661a9f032c9d01613ce@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
 SUMMARY:Homenaje Sechu M.C
-LOCATION:Club de Golf Ria de Vigo\, San Lourenzo (domaio)\, Pontevedra
+LOCATION:Club de Golf Ria de Vigo
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
-  29 de septiembre\, cierra el 4 de diciembre.\nFicha oficial: https://www.
- golfdirecto.com/micro/game/6abbf9083e4bd064bd554636/summary\nConfirma fech
- as y condiciones en la web del organizador. Vía Banderín.
+  29 de septiembre\, cierra el 4 de diciembre.\nPrecio: 25 €.\nFicha ofic
+ ial: https://www.golfdirecto.com/micro/game/6abbf9083e4bd064bd554636/summa
+ ry\nConfirma fechas y condiciones en la web del organizador. Vía Banderí
+ n.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6abbf9083e4bd064bd554636/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:694c8fe6252b609f4d1a@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
 SUMMARY:XI Torneo de Navidad Concello de Boiro
-LOCATION:C.D. Barbanza Pitch And Putt\, Boiro (boiro)\, A Coruña
+LOCATION:C.D. Barbanza Pitch And Putt
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   16 de noviembre\, cierra el 3 de diciembre.\nFicha oficial: https://www.g
  olfdirecto.com/micro/game/6afaed4b23d5370df09d3fd3/summary\nConfirma fecha
@@ -322,11 +323,11 @@ URL:https://www.golfdirecto.com/micro/game/6afaed4b23d5370df09d3fd3/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:6b44016011792503e12f@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20261210
 DTEND;VALUE=DATE:20261211
 SUMMARY:4ª Prueba Liga Femenina 26-27
-LOCATION:Real Montealegre Club de Golf\, Ourense\, Ourense
+LOCATION:Real Montealegre Club de Golf
 DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
  //www.golfdirecto.com/micro/game/6ac2198658408d9c2043ded9/summary\nConfirm
  a fechas y condiciones en la web del organizador. Vía Banderín.
@@ -336,11 +337,11 @@ URL:https://www.golfdirecto.com/micro/game/6ac2198658408d9c2043ded9/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:f6052dc48f3f80c0ae54@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:4ª Prueba Liga de Parejas Campomar 20/27
-LOCATION:Club Campomar\, Santa Margarita (naron)\, A Coruña
+LOCATION:Club Campomar
 DESCRIPTION:Social de club - Stableford - Parejas\nInscripción: abre el 19
   de noviembre\, cierra el 4 de diciembre.\nFicha oficial: https://www.golf
  directo.com/micro/game/6aff155f53aeeeb7e5c6fd0b/summary\nConfirma fechas y
@@ -351,11 +352,11 @@ URL:https://www.golfdirecto.com/micro/game/6aff155f53aeeeb7e5c6fd0b/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:75e4f9e31359c1c73779@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:Torneo Navidad
-LOCATION:Real Montealegre Club de Golf\, Ourense\, Ourense
+LOCATION:Real Montealegre Club de Golf
 DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
  //www.golfdirecto.com/micro/game/69c69f17459151fb64510bf5/summary\nConfirm
  a fechas y condiciones en la web del organizador. Vía Banderín.
@@ -365,11 +366,11 @@ URL:https://www.golfdirecto.com/micro/game/69c69f17459151fb64510bf5/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:bad530bb2c3204ac56c9@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:Torneo de Nadal 2026
-LOCATION:Club de Golf Ria de Vigo\, San Lourenzo (domaio)\, Pontevedra
+LOCATION:Club de Golf Ria de Vigo
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   13 de octubre\, cierra el 11 de diciembre.\nFicha oficial: https://www.go
  lfdirecto.com/micro/game/6acdd9063889028eefec9c57/summary\nConfirma fechas
@@ -380,11 +381,11 @@ URL:https://www.golfdirecto.com/micro/game/6acdd9063889028eefec9c57/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:454026704cc01e16378b@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
 SUMMARY:Cestas de Navidad
-LOCATION:Real Aero Club de Vigo\, Vigo\, Pontevedra
+LOCATION:Real Aero Club de Vigo
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   1 de diciembre\, cierra el 12 de diciembre.\nFicha oficial: https://www.g
  olfdirecto.com/micro/game/6966c696cb999c8d228a1c04/summary\nConfirma fecha
@@ -395,11 +396,11 @@ URL:https://www.golfdirecto.com/micro/game/6966c696cb999c8d228a1c04/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:ed49e2d4ece4205502b2@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20261217
 DTEND;VALUE=DATE:20261218
 SUMMARY:5ª Prueba LIGA SENIOR 2026-27
-LOCATION:Miño Club de Golf Artabro\, Miño (pontedeume)\, A Coruña
+LOCATION:Miño Club de Golf Artabro
 DESCRIPTION:Senior - Stableford - Individual\nFicha oficial: https://www.go
  lfdirecto.com/micro/game/6a6c476e0ac413c45d6cb490/summary\nConfirma fechas
   y condiciones en la web del organizador. Vía Banderín.
@@ -409,11 +410,11 @@ URL:https://www.golfdirecto.com/micro/game/6a6c476e0ac413c45d6cb490/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:fe078ba853674c4f4b96@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261220
 SUMMARY:Cestas de Navidad 2026
-LOCATION:Club Campomar\, Santa Margarita (naron)\, A Coruña
+LOCATION:Club Campomar
 DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
  //www.golfdirecto.com/micro/game/6adb7342042bd6a99e2e3161/summary\nConfirm
  a fechas y condiciones en la web del organizador. Vía Banderín.
@@ -423,11 +424,11 @@ URL:https://www.golfdirecto.com/micro/game/6adb7342042bd6a99e2e3161/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:ca8454fe4b1f9e22c56f@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20261220
 DTEND;VALUE=DATE:20261221
 SUMMARY:Circuito Barbanza Arousa. Final A Pobra Do Caramiñal
-LOCATION:C.D. Barbanza Pitch And Putt\, Boiro (boiro)\, A Coruña
+LOCATION:C.D. Barbanza Pitch And Putt
 DESCRIPTION:Circuito comercial - Stableford - Individual\nFicha oficial: ht
  tps://www.golfdirecto.com/micro/game/6ac4cc8f457edc1ace68df14/summary\nCon
  firma fechas y condiciones en la web del organizador. Vía Banderín.
@@ -437,11 +438,11 @@ URL:https://www.golfdirecto.com/micro/game/6ac4cc8f457edc1ace68df14/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:51306664ca8ed87a624d@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20261220
 DTEND;VALUE=DATE:20261221
 SUMMARY:Navidad Padres & Hijos 18
-LOCATION:Real Aero Club de Vigo\, Vigo\, Pontevedra
+LOCATION:Real Aero Club de Vigo
 DESCRIPTION:Social de club - Greensome - Parejas\nFicha oficial: https://ww
  w.golfdirecto.com/micro/game/6963e0789c21a39f585d6a69/summary\nConfirma fe
  chas y condiciones en la web del organizador. Vía Banderín.
@@ -451,11 +452,11 @@ URL:https://www.golfdirecto.com/micro/game/6963e0789c21a39f585d6a69/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:abb026fdbeb7a0afdb7d@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20261220
 DTEND;VALUE=DATE:20261221
 SUMMARY:Navidad Padres & Hijos 5
-LOCATION:Real Aero Club de Vigo\, Vigo\, Pontevedra
+LOCATION:Real Aero Club de Vigo
 DESCRIPTION:Social de club - Foursome - Parejas\nFicha oficial: https://www
  .golfdirecto.com/micro/game/6963e0a89c21a39f5862cfc0/summary\nConfirma fec
  has y condiciones en la web del organizador. Vía Banderín.
@@ -465,11 +466,11 @@ URL:https://www.golfdirecto.com/micro/game/6963e0a89c21a39f5862cfc0/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:23de0bf1bb368ba63570@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20261220
 DTEND;VALUE=DATE:20261221
 SUMMARY:Navidad Padres & Hijos 9
-LOCATION:Real Aero Club de Vigo\, Vigo\, Pontevedra
+LOCATION:Real Aero Club de Vigo
 DESCRIPTION:Social de club - Greensome - Parejas\nFicha oficial: https://ww
  w.golfdirecto.com/micro/game/6963e0029c21a39f58536044/summary\nConfirma fe
  chas y condiciones en la web del organizador. Vía Banderín.
@@ -479,11 +480,11 @@ URL:https://www.golfdirecto.com/micro/game/6963e0029c21a39f58536044/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:4cf2988456a111d316cc@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20261220
 DTEND;VALUE=DATE:20261221
 SUMMARY:Torneo Navidad
-LOCATION:Club de Golf Paderne\, Paderne (san Xoan)\, A Coruña
+LOCATION:Club de Golf Paderne
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   1 de diciembre\, cierra el 19 de diciembre.\nFicha oficial: https://www.g
  olfdirecto.com/micro/game/6adb1395042bd6a99e77e066/summary\nConfirma fecha
@@ -494,11 +495,11 @@ URL:https://www.golfdirecto.com/micro/game/6adb1395042bd6a99e77e066/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:72ad3eb14133086350c6@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20261227
 DTEND;VALUE=DATE:20261228
 SUMMARY:Campeonato Crema de Navidad
-LOCATION:Hercules Club de Golf\, Larin (san Esteban)\, A Coruña
+LOCATION:Hercules Club de Golf
 DESCRIPTION:Social de club - Fourball - Parejas\nFicha oficial: https://www
  .golfdirecto.com/micro/game/6943ecab4d9bda75305f7465/summary\nConfirma fec
  has y condiciones en la web del organizador. Vía Banderín.
@@ -508,11 +509,11 @@ URL:https://www.golfdirecto.com/micro/game/6943ecab4d9bda75305f7465/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:4c05a930ff0c715e4cd2@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20261229
 DTEND;VALUE=DATE:20261230
 SUMMARY:II Torneo Fin de Año
-LOCATION:Real Aero Club de Vigo\, Vigo\, Pontevedra
+LOCATION:Real Aero Club de Vigo
 DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
  //www.golfdirecto.com/micro/game/6966c820cb999c8d2292ffef/summary\nConfirm
  a fechas y condiciones en la web del organizador. Vía Banderín.
@@ -522,11 +523,11 @@ URL:https://www.golfdirecto.com/micro/game/6966c820cb999c8d2292ffef/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:c1189602ff217e88c07e@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20261231
 DTEND;VALUE=DATE:20270101
 SUMMARY:Torneo Fin de Año
-LOCATION:Club de Golf Paderne\, Paderne (san Xoan)\, A Coruña
+LOCATION:Club de Golf Paderne
 DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
  //www.golfdirecto.com/micro/game/6949740fd6b8a9e4131109ad/summary\nConfirm
  a fechas y condiciones en la web del organizador. Vía Banderín.
@@ -536,11 +537,11 @@ URL:https://www.golfdirecto.com/micro/game/6949740fd6b8a9e4131109ad/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:f7a778faf61609ecf4b8@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20270114
 DTEND;VALUE=DATE:20270115
 SUMMARY:6ª Prueba LIGA SENIOR 2026-27
-LOCATION:Miño Club de Golf Artabro\, Miño (pontedeume)\, A Coruña
+LOCATION:Miño Club de Golf Artabro
 DESCRIPTION:Senior - Stableford - Individual\nFicha oficial: https://www.go
  lfdirecto.com/micro/game/6a6c49dc09f4121c48721035/summary\nConfirma fechas
   y condiciones en la web del organizador. Vía Banderín.
@@ -550,11 +551,11 @@ URL:https://www.golfdirecto.com/micro/game/6a6c49dc09f4121c48721035/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:acc34298a02ff9912bb7@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20270128
 DTEND;VALUE=DATE:20270129
 SUMMARY:7ª Prueba Final LIGA SENIOR 2026-27
-LOCATION:Miño Club de Golf Artabro\, Miño (pontedeume)\, A Coruña
+LOCATION:Miño Club de Golf Artabro
 DESCRIPTION:Senior - Stableford - Individual\nFicha oficial: https://www.go
  lfdirecto.com/micro/game/6a6c4a1809f4121c487b22fb/summary\nConfirma fechas
   y condiciones en la web del organizador. Vía Banderín.
@@ -564,11 +565,11 @@ URL:https://www.golfdirecto.com/micro/game/6a6c4a1809f4121c487b22fb/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:fa751c3bece0d1d6b9f2@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20270225
 DTEND;VALUE=DATE:20270226
 SUMMARY:5ª Prueba Liga Femenina 26-27
-LOCATION:Real Montealegre Club de Golf\, Ourense\, Ourense
+LOCATION:Real Montealegre Club de Golf
 DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
  //www.golfdirecto.com/micro/game/6ac219ca58408d9c205d4fdd/summary\nConfirm
  a fechas y condiciones en la web del organizador. Vía Banderín.
@@ -578,11 +579,11 @@ URL:https://www.golfdirecto.com/micro/game/6ac219ca58408d9c205d4fdd/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:222ffd14642f46c51d39@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20270318
 DTEND;VALUE=DATE:20270319
 SUMMARY:6ª Prueba Liga Femenina 26-27
-LOCATION:Real Montealegre Club de Golf\, Ourense\, Ourense
+LOCATION:Real Montealegre Club de Golf
 DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
  //www.golfdirecto.com/micro/game/6ac21a0158408d9c2079e072/summary\nConfirm
  a fechas y condiciones en la web del organizador. Vía Banderín.
@@ -592,11 +593,11 @@ URL:https://www.golfdirecto.com/micro/game/6ac21a0158408d9c2079e072/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:66d4737dc25396fd9e8c@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20270429
 DTEND;VALUE=DATE:20270430
 SUMMARY:7ª Prueba Liga Femenina 26-27
-LOCATION:Real Montealegre Club de Golf\, Ourense\, Ourense
+LOCATION:Real Montealegre Club de Golf
 DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
  //www.golfdirecto.com/micro/game/6ac21a6658408d9c20ae014d/summary\nConfirm
  a fechas y condiciones en la web del organizador. Vía Banderín.
@@ -606,11 +607,11 @@ URL:https://www.golfdirecto.com/micro/game/6ac21a6658408d9c20ae014d/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:eee5005462ffbfb6fbd3@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20270512
 DTEND;VALUE=DATE:20270513
 SUMMARY:Ruta do Viño - Prueba 8 Miño
-LOCATION:Miño Club de Golf Artabro\, Miño (pontedeume)\, A Coruña
+LOCATION:Miño Club de Golf Artabro
 DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
  //www.golfdirecto.com/micro/game/6a912304a025e97b85706a59/summary\nConfirm
  a fechas y condiciones en la web del organizador. Vía Banderín.
@@ -620,11 +621,11 @@ URL:https://www.golfdirecto.com/micro/game/6a912304a025e97b85706a59/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:a47f3387a5ed59b11aee@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20270519
 DTEND;VALUE=DATE:20270520
 SUMMARY:Ruta do Viño 2027
-LOCATION:Club de Golf Ria de Vigo\, San Lourenzo (domaio)\, Pontevedra
+LOCATION:Club de Golf Ria de Vigo
 DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
  //www.golfdirecto.com/micro/game/6adf809005d0e598f393d50d/summary\nConfirm
  a fechas y condiciones en la web del organizador. Vía Banderín.
@@ -634,11 +635,11 @@ URL:https://www.golfdirecto.com/micro/game/6adf809005d0e598f393d50d/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:47b40ca2faa45e28c60d@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20270527
 DTEND;VALUE=DATE:20270528
 SUMMARY:8ª Prueba Liga Femenina 26-27
-LOCATION:Real Montealegre Club de Golf\, Ourense\, Ourense
+LOCATION:Real Montealegre Club de Golf
 DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
  //www.golfdirecto.com/micro/game/6ac21ac1bcb6bc125c79c33a/summary\nConfirm
  a fechas y condiciones en la web del organizador. Vía Banderín.
@@ -648,11 +649,11 @@ URL:https://www.golfdirecto.com/micro/game/6ac21ac1bcb6bc125c79c33a/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:c0da2325212f32938c93@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20270601
 DTEND;VALUE=DATE:20270602
 SUMMARY:AESGOLF
-LOCATION:Club de Golf Ria de Vigo\, San Lourenzo (domaio)\, Pontevedra
+LOCATION:Club de Golf Ria de Vigo
 DESCRIPTION:Senior - Stableford - Individual\nFicha oficial: https://www.go
  lfdirecto.com/micro/game/6b057e8265911b42dd78a98e/summary\nConfirma fechas
   y condiciones en la web del organizador. Vía Banderín.
@@ -662,11 +663,11 @@ URL:https://www.golfdirecto.com/micro/game/6b057e8265911b42dd78a98e/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:2dcb61982136fc465581@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20270610
 DTEND;VALUE=DATE:20270611
 SUMMARY:10ª Prueba Liga Femenina 26-27
-LOCATION:Real Montealegre Club de Golf\, Ourense\, Ourense
+LOCATION:Real Montealegre Club de Golf
 DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
  //www.golfdirecto.com/micro/game/6ac21b5258408d9c200bffba/summary\nConfirm
  a fechas y condiciones en la web del organizador. Vía Banderín.
@@ -676,11 +677,11 @@ URL:https://www.golfdirecto.com/micro/game/6ac21b5258408d9c200bffba/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:08e0bd19f7adf230ead1@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20270610
 DTEND;VALUE=DATE:20270611
 SUMMARY:9ª Prueba Liga Femenina 26-27
-LOCATION:Real Montealegre Club de Golf\, Ourense\, Ourense
+LOCATION:Real Montealegre Club de Golf
 DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
  //www.golfdirecto.com/micro/game/6ac21b1e58408d9c20f631fe/summary\nConfirm
  a fechas y condiciones en la web del organizador. Vía Banderín.

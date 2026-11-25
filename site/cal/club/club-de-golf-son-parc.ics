@@ -11,11 +11,11 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:6f2d699ff0f0620ab2da@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:Trofeo Navideño
-LOCATION:Club de Golf Son Parc\, Es Mercadal\, Illes Balears
+LOCATION:Club de Golf Son Parc
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   2 de octubre\, cierra el 10 de diciembre.\nFicha oficial: https://www.gol
  fdirecto.com/micro/game/6abf9036860d5cb9e548d160/summary\nConfirma fechas 
@@ -26,11 +26,11 @@ URL:https://www.golfdirecto.com/micro/game/6abf9036860d5cb9e548d160/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:77c4a623b0b162c59abc@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261220
 SUMMARY:Trofeo Pavo Real - Solo Socios / Only Members 2026
-LOCATION:Club de Golf Son Parc\, Es Mercadal\, Illes Balears
+LOCATION:Club de Golf Son Parc
 DESCRIPTION:Social de club - Medal Play - Individual\nInscripción: abre el
   29 de octubre\, cierra el 17 de diciembre.\nFicha oficial: https://www.go
  lfdirecto.com/micro/game/6ae334df5e6a1f02b2dda30f/summary\nConfirma fechas

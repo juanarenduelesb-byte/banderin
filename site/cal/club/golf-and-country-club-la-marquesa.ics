@@ -11,11 +11,11 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:de07fea97c2c78d0ba80@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:V My Lawyer In Spain
-LOCATION:Golf And Country Club la Marquesa\, Rojales\, Alicante
+LOCATION:Golf And Country Club la Marquesa
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   26 de octubre\, cierra el 25 de noviembre.\nPrecio: 80 €.\nFicha oficia
  l: https://www.golfdirecto.com/micro/game/6adf0390b0e08ac0156a8cc8/summary
@@ -26,11 +26,11 @@ URL:https://www.golfdirecto.com/micro/game/6adf0390b0e08ac0156a8cc8/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:3dc722887564b8069e46@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
 SUMMARY:17º Torneo Solidario de Navidad Rotary Club
-LOCATION:Golf And Country Club la Marquesa\, Rojales\, Alicante
+LOCATION:Golf And Country Club la Marquesa
 DESCRIPTION:Benéfico - Stableford - Individual\nInscripción: abre el 17 d
  e noviembre\, cierra el 3 de diciembre.\nPrecio: 65 €.\nFicha oficial: h
  ttps://www.golfdirecto.com/micro/game/6afc364e698e8624fb46dcdf/summary\nCo

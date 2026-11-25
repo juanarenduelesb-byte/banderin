@@ -11,12 +11,12 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:1a8369495a8976bd6c3b@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20270331
 DTEND;VALUE=DATE:20270403
 SUMMARY:51è Gran Premi Sènior de Catalunya "Pentagonal" 2027 (Costa Daura
  da)
-LOCATION:Golf Costa Daurada\, El Catllar\, Tarragona
+LOCATION:Golf Costa Daurada
 DESCRIPTION:Senior - Individual\nFicha oficial: https://www.catgolf.com/es/
  campeonatos/51e-gran-premi-senior-de-catalunya-pentagonal-2027-costa-daura
  da-2027-03-31\nConfirma fechas y condiciones en la web del organizador. V
@@ -28,11 +28,11 @@ URL:https://www.catgolf.com/es/campeonatos/51e-gran-premi-senior-de-catalun
 END:VEVENT
 BEGIN:VEVENT
 UID:21402100e8a6671c7eab@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20270703
 DTEND;VALUE=DATE:20270704
 SUMMARY:61è Gran Premi de Catalunya "Hexagonal" 2027 (Costa Daurada)
-LOCATION:Golf Costa Daurada\, El Catllar\, Tarragona
+LOCATION:Golf Costa Daurada
 DESCRIPTION:Absoluto - Individual\nFicha oficial: https://www.catgolf.com/e
  s/campeonatos/61e-gran-premi-de-catalunya-hexagonal-2027-costa-daurada-202
  7-07-03\nConfirma fechas y condiciones en la web del organizador. Vía Ban
@@ -44,11 +44,11 @@ URL:https://www.catgolf.com/es/campeonatos/61e-gran-premi-de-catalunya-hexa
 END:VEVENT
 BEGIN:VEVENT
 UID:46fc682e3d8ed07a6390@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20270718
 DTEND;VALUE=DATE:20270719
 SUMMARY:Circuit Nacional 5a Categoria 2027 (Costa Daurada)
-LOCATION:Golf Costa Daurada\, El Catllar\, Tarragona
+LOCATION:Golf Costa Daurada
 DESCRIPTION:Absoluto - Individual\nFicha oficial: https://www.catgolf.com/e
  s/campeonatos/circuit-nacional-5a-categoria-2027-costa-daurada-2027-07-18\
  nConfirma fechas y condiciones en la web del organizador. Vía Banderín.
@@ -59,11 +59,11 @@ URL:https://www.catgolf.com/es/campeonatos/circuit-nacional-5a-categoria-20
 END:VEVENT
 BEGIN:VEVENT
 UID:78a985be570a186d0917@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20270918
 DTEND;VALUE=DATE:20270920
 SUMMARY:Campionat de Catalunya Matchplay Juvenil 2027
-LOCATION:Golf Costa Daurada\, El Catllar\, Tarragona
+LOCATION:Golf Costa Daurada
 DESCRIPTION:Juvenil - Match Play - Individual\nFicha oficial: https://www.c
  atgolf.com/es/campeonatos/campionat-de-catalunya-matchplay-juvenil-2027-20
  27-09-18\nConfirma fechas y condiciones en la web del organizador. Vía Ba

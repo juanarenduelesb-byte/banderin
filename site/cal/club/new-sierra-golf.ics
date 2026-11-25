@@ -11,11 +11,11 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:137c88f527eb1867bf36@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Mensual Juvenil - New Sierra Golf
-LOCATION:New Sierra Golf\, Balsicas\, Murcia
+LOCATION:New Sierra Golf\, Murcia
 DESCRIPTION:Juvenil - Medal Play - Individual\nInscripción: abre el 2 de n
  oviembre\, cierra el 26 de noviembre.\nPrecio: 20 €.\nFicha oficial: htt
  ps://www.golfdirecto.com/micro/game/6a994f877be6f1e13e401d53/summary\nConf
@@ -26,11 +26,11 @@ URL:https://www.golfdirecto.com/micro/game/6a994f877be6f1e13e401d53/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:b48c3377bb6423f9d718@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20261211
 DTEND;VALUE=DATE:20261212
 SUMMARY:Alamo Golf Society
-LOCATION:New Sierra Golf\, Balsicas\, Murcia
+LOCATION:New Sierra Golf
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   15 de enero\, cierra el 9 de diciembre.\nFicha oficial: https://www.golfd
  irecto.com/micro/game/69691a6f7205a3564dd36948/summary\nConfirma fechas y 
@@ -38,5 +38,19 @@ DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/69691a6f7205a3564dd36948/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:3c88efcaa3c570f19a5f@banderin.es
+DTSTAMP:20261125T144514Z
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+SUMMARY:Torneo Legión Sagrada 2026
+LOCATION:New Sierra Golf
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/6b06980a2e603a2faf21fd66/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6b06980a2e603a2faf21fd66/summary
 END:VEVENT
 END:VCALENDAR

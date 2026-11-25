@@ -11,11 +11,11 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:64d8a91b6d6e6f8059d8@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:AESGOLF Individual
-LOCATION:Club Zaudín Golf\, Tomares\, Sevilla
+LOCATION:Club Zaudín Golf\, Tomares
 DESCRIPTION:Senior - Stableford - Individual\nFicha oficial: https://www.ne
  xtcaddy.com/tour/75501\nConfirma fechas y condiciones en la web del organi
  zador. Vía Banderín.
@@ -25,16 +25,30 @@ URL:https://www.nextcaddy.com/tour/75501
 END:VEVENT
 BEGIN:VEVENT
 UID:a69282008496f22f9d2e@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:Torneo AESGOLF 2026
-LOCATION:Club Zaudín Golf\, Tomares\, Sevilla
+LOCATION:Club Zaudín Golf\, Tomares
 DESCRIPTION:Senior - Stableford - Individual\nFicha oficial: https://www.ne
  xtcaddy.com/tour/75499\nConfirma fechas y condiciones en la web del organi
  zador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.nextcaddy.com/tour/75499
+END:VEVENT
+BEGIN:VEVENT
+UID:0c52044111f97dafa7e9@banderin.es
+DTSTAMP:20261125T144514Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:Torneo Golf Divino
+LOCATION:Club Zaudín Golf\, Tomares
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.nextcaddy.com/tour/75604\nConfirma fechas y condiciones en la web de
+ l organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nextcaddy.com/tour/75604
 END:VEVENT
 END:VCALENDAR

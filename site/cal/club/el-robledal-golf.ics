@@ -11,11 +11,11 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:81b511565fd6899692b3@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20261220
 DTEND;VALUE=DATE:20261221
 SUMMARY:Torneo Navidad - Ggc
-LOCATION:El Robledal Golf\, Villalbilla\, Madrid
+LOCATION:El Robledal Golf
 DESCRIPTION:Social de club - Stableford - Parejas\nFicha oficial: https://w
  ww.golfdirecto.com/micro/game/6aabbf6eac3438945f492c77/summary\nConfirma f
  echas y condiciones en la web del organizador. Vía Banderín.
@@ -25,7 +25,7 @@ URL:https://www.golfdirecto.com/micro/game/6aabbf6eac3438945f492c77/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:1b713279cddce7c7cca2@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20261220
 DTEND;VALUE=DATE:20261221
 SUMMARY:Torneo de Navidad Grow Golf Club - El Robledal Golf

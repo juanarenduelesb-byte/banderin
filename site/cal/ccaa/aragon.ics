@@ -11,11 +11,11 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:0893bdb475b68a7ff7a5@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Torneo PXG
-LOCATION:Arcosur Golf\, Zaragoza\, Zaragoza
+LOCATION:Arcosur Golf
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   22 de octubre\, cierra el 27 de noviembre.\nPrecio: 19 €.\nFicha oficia
  l: https://www.golfdirecto.com/micro/game/6ada00ddb2884b135d52f0e5/summary
@@ -26,11 +26,11 @@ URL:https://www.golfdirecto.com/micro/game/6ada00ddb2884b135d52f0e5/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:26da3abd96c90ea9b5af@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:Torneo de Navidad
-LOCATION:Arcosur Golf\, Zaragoza\, Zaragoza
+LOCATION:Arcosur Golf
 DESCRIPTION:Social de club - Greensome - Parejas\nInscripción: abre el 24 
  de noviembre\, cierra el 11 de diciembre.\nPrecio: 21 €.\nFicha oficial:
   https://www.golfdirecto.com/micro/game/6b05bb4ecfb57efc14cddb78/summary\n
@@ -41,11 +41,11 @@ URL:https://www.golfdirecto.com/micro/game/6b05bb4ecfb57efc14cddb78/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:010d8241c9c89e348a07@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
 SUMMARY:Torneo Cursillistas
-LOCATION:Arcosur Golf\, Zaragoza\, Zaragoza
+LOCATION:Arcosur Golf
 DESCRIPTION:Social de club - Greensome - Parejas\nInscripción: abre el 24 
  de noviembre\, cierra el 12 de diciembre.\nPrecio: 11 €.\nFicha oficial:
   https://www.golfdirecto.com/micro/game/6b05ba47cfb57efc149eeefe/summary\n
@@ -56,11 +56,11 @@ URL:https://www.golfdirecto.com/micro/game/6b05ba47cfb57efc149eeefe/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:416c2227828c8ee4c519@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261220
 SUMMARY:Torneo Juvenil FAG
-LOCATION:Golf los Lagos\, Pinseque\, Zaragoza
+LOCATION:Golf los Lagos
 DESCRIPTION:Juvenil - Medal Play - Individual\nInscripción: abre el 1 de d
  iciembre\, cierra el 16 de diciembre.\nFicha oficial: https://www.golfdire
  cto.com/micro/game/6b00261edec726ee0c530f41/summary\nConfirma fechas y con
@@ -71,11 +71,11 @@ URL:https://www.golfdirecto.com/micro/game/6b00261edec726ee0c530f41/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:96fd81bda4141108e8ab@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20270123
 DTEND;VALUE=DATE:20270124
 SUMMARY:Ranking Absoluto FAG 2027 - 1ª Prueba
-LOCATION:Golf Los Lagos\, Pinseque\, Zaragoza
+LOCATION:Golf Los Lagos
 DESCRIPTION:Absoluto - Individual\nFicha oficial: https://www.aragongolf.co
  m/torneos-ficha/2009/\nConfirma fechas y condiciones en la web del organiz
  ador. Vía Banderín.
@@ -85,11 +85,11 @@ URL:https://www.aragongolf.com/torneos-ficha/2009/
 END:VEVENT
 BEGIN:VEVENT
 UID:5fccfaebc6d1b2b22c72@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20270220
 DTEND;VALUE=DATE:20270221
 SUMMARY:Ranking Absoluto FAG 2027 - 2ª Prueba
-LOCATION:RCG La Peñaza\, Zaragoza\, Zaragoza
+LOCATION:RCG La Peñaza
 DESCRIPTION:Absoluto - Individual\nFicha oficial: https://www.aragongolf.co
  m/torneos-ficha/2010/\nConfirma fechas y condiciones en la web del organiz
  ador. Vía Banderín.
@@ -99,11 +99,11 @@ URL:https://www.aragongolf.com/torneos-ficha/2010/
 END:VEVENT
 BEGIN:VEVENT
 UID:f58c570f75363e4b6845@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20270306
 DTEND;VALUE=DATE:20270307
 SUMMARY:Ranking Absoluto FAG 2027 - 3ª Prueba
-LOCATION:Gambito Golf Club Calatayud\, Calatayud\, Zaragoza
+LOCATION:Gambito Golf Club Calatayud
 DESCRIPTION:Absoluto - Individual\nFicha oficial: https://www.aragongolf.co
  m/torneos-ficha/2011/\nConfirma fechas y condiciones en la web del organiz
  ador. Vía Banderín.
@@ -113,11 +113,11 @@ URL:https://www.aragongolf.com/torneos-ficha/2011/
 END:VEVENT
 BEGIN:VEVENT
 UID:c916930c1a35a1dfffa7@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20270417
 DTEND;VALUE=DATE:20270418
 SUMMARY:Ranking Absoluto FAG 2027 - 4ª Prueba
-LOCATION:Exe Las Margas Golf\, Latas\, Huesca
+LOCATION:Exe Las Margas Golf
 DESCRIPTION:Absoluto - Individual\nFicha oficial: https://www.aragongolf.co
  m/torneos-ficha/2012/\nConfirma fechas y condiciones en la web del organiz
  ador. Vía Banderín.
@@ -127,11 +127,11 @@ URL:https://www.aragongolf.com/torneos-ficha/2012/
 END:VEVENT
 BEGIN:VEVENT
 UID:2faa2d0a42533ce69ebb@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20270508
 DTEND;VALUE=DATE:20270509
 SUMMARY:Ranking Absoluto FAG 2027 - 5ª Prueba
-LOCATION:I.D.P. Golf Base Aérea\, Zaragoza\, Zaragoza
+LOCATION:I.D.P. Golf Base Aérea
 DESCRIPTION:Absoluto - Individual\nFicha oficial: https://www.aragongolf.co
  m/torneos-ficha/2013/\nConfirma fechas y condiciones en la web del organiz
  ador. Vía Banderín.
@@ -141,11 +141,11 @@ URL:https://www.aragongolf.com/torneos-ficha/2013/
 END:VEVENT
 BEGIN:VEVENT
 UID:a78d122d8cdaba212c9e@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20270509
 DTEND;VALUE=DATE:20270510
 SUMMARY:Campeonato de Aragón de Pitch & Putt 2027
-LOCATION:Las Ranillas Urban Club\, Zaragoza\, Zaragoza
+LOCATION:Las Ranillas Urban Club
 DESCRIPTION:Absoluto - Individual\nFicha oficial: https://www.aragongolf.co
  m/torneos-ficha/2019/\nConfirma fechas y condiciones en la web del organiz
  ador. Vía Banderín.
@@ -155,11 +155,11 @@ URL:https://www.aragongolf.com/torneos-ficha/2019/
 END:VEVENT
 BEGIN:VEVENT
 UID:32c3baa32a5867cefbef@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20270529
 DTEND;VALUE=DATE:20270530
 SUMMARY:Campeonato de Aragón Absoluto Femenino 2027
-LOCATION:Gambito Golf Club Calatayud\, Calatayud\, Zaragoza
+LOCATION:Gambito Golf Club Calatayud
 DESCRIPTION:Absoluto - Individual\nFicha oficial: https://www.aragongolf.co
  m/torneos-ficha/2015/\nConfirma fechas y condiciones en la web del organiz
  ador. Vía Banderín.
@@ -169,11 +169,11 @@ URL:https://www.aragongolf.com/torneos-ficha/2015/
 END:VEVENT
 BEGIN:VEVENT
 UID:46605c782ab43f5449e3@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20270619
 DTEND;VALUE=DATE:20270621
 SUMMARY:Campeonato de Aragón Sub18 2027
-LOCATION:Golf Los Lagos\, Pinseque\, Zaragoza
+LOCATION:Golf Los Lagos
 DESCRIPTION:Juvenil - Individual\nFicha oficial: https://www.aragongolf.com
  /torneos-ficha/2014/\nConfirma fechas y condiciones en la web del organiza
  dor. Vía Banderín.
@@ -183,11 +183,11 @@ URL:https://www.aragongolf.com/torneos-ficha/2014/
 END:VEVENT
 BEGIN:VEVENT
 UID:988e91e4ff00e63827fb@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20270703
 DTEND;VALUE=DATE:20270705
 SUMMARY:Campeonato de Aragón Absoluto Masculino 2027
-LOCATION:RCG La Peñaza\, Zaragoza\, Zaragoza
+LOCATION:RCG La Peñaza
 DESCRIPTION:Absoluto - Individual\nFicha oficial: https://www.aragongolf.co
  m/torneos-ficha/2016/\nConfirma fechas y condiciones en la web del organiz
  ador. Vía Banderín.
@@ -197,11 +197,11 @@ URL:https://www.aragongolf.com/torneos-ficha/2016/
 END:VEVENT
 BEGIN:VEVENT
 UID:5c81ae4638efe624f225@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20270904
 DTEND;VALUE=DATE:20270906
 SUMMARY:Campeonato de Aragón de Parejas 2027
-LOCATION:Exe Las Margas Golf\, Latas\, Huesca
+LOCATION:Exe Las Margas Golf
 DESCRIPTION:Absoluto - Parejas\nFicha oficial: https://www.aragongolf.com/t
  orneos-ficha/2017/\nConfirma fechas y condiciones en la web del organizado
  r. Vía Banderín.
@@ -211,11 +211,11 @@ URL:https://www.aragongolf.com/torneos-ficha/2017/
 END:VEVENT
 BEGIN:VEVENT
 UID:61eb6e39d7dfb523c23d@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20270911
 DTEND;VALUE=DATE:20270912
 SUMMARY:Campeonato de Aragón de 4ª y 5ª Categoría 2027
-LOCATION:Golf Los Lagos\, Pinseque\, Zaragoza
+LOCATION:Golf Los Lagos
 DESCRIPTION:Absoluto - Individual\nFicha oficial: https://www.aragongolf.co
  m/torneos-ficha/2022/\nConfirma fechas y condiciones en la web del organiz
  ador. Vía Banderín.
@@ -225,11 +225,11 @@ URL:https://www.aragongolf.com/torneos-ficha/2022/
 END:VEVENT
 BEGIN:VEVENT
 UID:fb864a96d051c853b063@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20271002
 DTEND;VALUE=DATE:20271004
 SUMMARY:Copa Federación 2027
-LOCATION:RCG La Peñaza\, Zaragoza\, Zaragoza
+LOCATION:RCG La Peñaza
 DESCRIPTION:Absoluto - Individual\nFicha oficial: https://www.aragongolf.co
  m/torneos-ficha/2018/\nConfirma fechas y condiciones en la web del organiz
  ador. Vía Banderín.

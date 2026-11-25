@@ -11,11 +11,11 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:88883311e7bbc8b67f12@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
 SUMMARY:Golfistas de Sevilla\, Jornada 3(Mañana 9:30)
-LOCATION:Club Hato Verde\, Las Pajanosas\, Sevilla
+LOCATION:Club Hato Verde\, Guillena
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   19 de noviembre\, cierra el 24 de noviembre.\nPrecio: Gratis.\nFicha ofic
  ial: https://www.nextcaddy.com/tour/75476\nConfirma fechas y condiciones e
@@ -26,11 +26,11 @@ URL:https://www.nextcaddy.com/tour/75476
 END:VEVENT
 BEGIN:VEVENT
 UID:8514426c266efaed6af7@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
 SUMMARY:Golfistas de Sevilla\, Jornada 3(Tarde 13:00)
-LOCATION:Club Hato Verde\, Las Pajanosas\, Sevilla
+LOCATION:Club Hato Verde\, Guillena
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   19 de noviembre\, cierra el 24 de noviembre.\nPrecio: Gratis.\nFicha ofic
  ial: https://www.nextcaddy.com/tour/75477\nConfirma fechas y condiciones e
@@ -41,11 +41,11 @@ URL:https://www.nextcaddy.com/tour/75477
 END:VEVENT
 BEGIN:VEVENT
 UID:56a4d308e7bf139d2e6e@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Leclub - Somabay World Cup
-LOCATION:Club Hato Verde\, Las Pajanosas\, Sevilla
+LOCATION:Club Hato Verde\, Guillena
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   17 de noviembre\, cierra el 26 de noviembre.\nPrecio: 39 €.\nFicha ofic
  ial: https://www.nextcaddy.com/tour/75424\nConfirma fechas y condiciones e
@@ -56,11 +56,11 @@ URL:https://www.nextcaddy.com/tour/75424
 END:VEVENT
 BEGIN:VEVENT
 UID:7397bece75b6f4945317@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261201
 SUMMARY:Lunes al Golf Jornada 6 ( Mañana 9:30)
-LOCATION:Club Hato Verde\, Las Pajanosas\, Sevilla
+LOCATION:Club Hato Verde\, Guillena
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   24 de noviembre\, cierra el 29 de noviembre.\nPrecio: Gratis.\nFicha ofic
  ial: https://www.nextcaddy.com/tour/75586\nConfirma fechas y condiciones e
@@ -71,11 +71,11 @@ URL:https://www.nextcaddy.com/tour/75586
 END:VEVENT
 BEGIN:VEVENT
 UID:818c0e4736e7419fb57f@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261201
 SUMMARY:Lunes al Golf Jornada 6 ( Tarde 15:45)
-LOCATION:Club Hato Verde\, Las Pajanosas\, Sevilla
+LOCATION:Club Hato Verde\, Guillena
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   24 de noviembre\, cierra el 30 de noviembre.\nPrecio: Gratis.\nFicha ofic
  ial: https://www.nextcaddy.com/tour/75587\nConfirma fechas y condiciones e
@@ -86,11 +86,11 @@ URL:https://www.nextcaddy.com/tour/75587
 END:VEVENT
 BEGIN:VEVENT
 UID:71d23565919554b786ec@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
 SUMMARY:1ª Prueba Circuito Academia
-LOCATION:Club Hato Verde\, Las Pajanosas\, Sevilla
+LOCATION:Club Hato Verde
 DESCRIPTION:Circuito comercial - Stableford - Individual\nInscripción: abr
  e el 17 de noviembre\, cierra el 5 de diciembre.\nPrecio: 75 €.\nFicha o
  ficial: https://www.golfdirecto.com/micro/game/6afc19cd698e8624fb02a08c/su
@@ -102,11 +102,11 @@ URL:https://www.golfdirecto.com/micro/game/6afc19cd698e8624fb02a08c/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:d6ad661e243e72b565fc@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
 SUMMARY:1ª Prueba Metas Amigos de Hato Verde
-LOCATION:Club Hato Verde\, Las Pajanosas\, Sevilla
+LOCATION:Club Hato Verde
 DESCRIPTION:Social de club - Medal Play - Individual\nInscripción: abre el
   2 de septiembre\, cierra el 26 de diciembre.\nPrecio: 35 €.\nFicha ofic
  ial: https://www.golfdirecto.com/micro/game/6a980c839678d915e8fbbc15/summa
@@ -118,11 +118,11 @@ URL:https://www.golfdirecto.com/micro/game/6a980c839678d915e8fbbc15/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:5013360f272bd922873d@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:2ª Prueba Circuito Academia
-LOCATION:Club Hato Verde\, Las Pajanosas\, Sevilla
+LOCATION:Club Hato Verde
 DESCRIPTION:Circuito comercial - Stableford - Individual\nInscripción: abr
  e el 17 de noviembre\, cierra el 9 de enero.\nPrecio: 25 €.\nFicha ofici
  al: https://www.golfdirecto.com/micro/game/6afc1af34cfcc17e462a2657/summar
@@ -134,11 +134,11 @@ URL:https://www.golfdirecto.com/micro/game/6afc1af34cfcc17e462a2657/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:954d8ff6309a6d3208fb@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20261227
 DTEND;VALUE=DATE:20261228
 SUMMARY:2ª Prueba Metas Amigos de Hato Verde
-LOCATION:Club Hato Verde\, Las Pajanosas\, Sevilla
+LOCATION:Club Hato Verde
 DESCRIPTION:Social de club - Medal Play - Individual\nInscripción: abre el
   2 de septiembre\, cierra el 26 de diciembre.\nPrecio: 10 €.\nFicha ofic
  ial: https://www.golfdirecto.com/micro/game/6a980f789678d915e8f0d9d4/summa
@@ -150,11 +150,11 @@ URL:https://www.golfdirecto.com/micro/game/6a980f789678d915e8f0d9d4/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:996df3eaf2b94320cd97@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20270110
 DTEND;VALUE=DATE:20270111
 SUMMARY:3ª Prueba Circuito Academia
-LOCATION:Club Hato Verde\, Las Pajanosas\, Sevilla
+LOCATION:Club Hato Verde
 DESCRIPTION:Circuito comercial - Stableford - Individual\nInscripción: abr
  e el 17 de noviembre\, cierra el 9 de enero.\nPrecio: 25 €.\nFicha ofici
  al: https://www.golfdirecto.com/micro/game/6afc7809669bd90e3951f9b2/summar
@@ -166,11 +166,11 @@ URL:https://www.golfdirecto.com/micro/game/6afc7809669bd90e3951f9b2/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:48af65c245f6ce7fd3ff@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20270110
 DTEND;VALUE=DATE:20270111
 SUMMARY:3ª Prueba Metas Amigos de Hato Verde
-LOCATION:Club Hato Verde\, Las Pajanosas\, Sevilla
+LOCATION:Club Hato Verde
 DESCRIPTION:Social de club - Medal Play - Individual\nInscripción: abre el
   2 de septiembre\, cierra el 30 de enero.\nPrecio: 10 €.\nFicha oficial:
   https://www.golfdirecto.com/micro/game/6a980fa19678d915e8f50806/summary\n
@@ -181,11 +181,11 @@ URL:https://www.golfdirecto.com/micro/game/6a980fa19678d915e8f50806/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:f2d5fc1dcc2e5085cf76@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20270214
 DTEND;VALUE=DATE:20270215
 SUMMARY:4ª Prueba Circuito Academia
-LOCATION:Club Hato Verde\, Las Pajanosas\, Sevilla
+LOCATION:Club Hato Verde
 DESCRIPTION:Circuito comercial - Stableford - Individual\nInscripción: abr
  e el 17 de noviembre\, cierra el 13 de febrero.\nPrecio: 25 €.\nFicha of
  icial: https://www.golfdirecto.com/micro/game/6afc7849669bd90e395da7f7/sum
@@ -197,11 +197,11 @@ URL:https://www.golfdirecto.com/micro/game/6afc7849669bd90e395da7f7/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:f887680d09179cc2eec5@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20270214
 DTEND;VALUE=DATE:20270215
 SUMMARY:4ª Prueba Metas Amigos de Hato Verde
-LOCATION:Club Hato Verde\, Las Pajanosas\, Sevilla
+LOCATION:Club Hato Verde
 DESCRIPTION:Social de club - Medal Play - Individual\nInscripción: abre el
   2 de septiembre\, cierra el 20 de febrero.\nPrecio: 10 €.\nFicha oficia
  l: https://www.golfdirecto.com/micro/game/6a9810d09678d915e85dee85/summary
@@ -212,11 +212,11 @@ URL:https://www.golfdirecto.com/micro/game/6a9810d09678d915e85dee85/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:40861fec96ab130577a1@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20270228
 DTEND;VALUE=DATE:20270301
 SUMMARY:5ª Prueba Circuito Academia
-LOCATION:Club Hato Verde\, Las Pajanosas\, Sevilla
+LOCATION:Club Hato Verde
 DESCRIPTION:Circuito comercial - Stableford - Individual\nInscripción: abr
  e el 17 de noviembre\, cierra el 27 de febrero.\nPrecio: 25 €.\nFicha of
  icial: https://www.golfdirecto.com/micro/game/6afc78a7669bd90e396b0353/sum
@@ -228,11 +228,11 @@ URL:https://www.golfdirecto.com/micro/game/6afc78a7669bd90e396b0353/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:469d0f2386f238b7655b@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20270228
 DTEND;VALUE=DATE:20270301
 SUMMARY:5ª Prueba Metas Amigos de Hato Verde
-LOCATION:Club Hato Verde\, Las Pajanosas\, Sevilla
+LOCATION:Club Hato Verde
 DESCRIPTION:Social de club - Medal Play - Individual\nInscripción: abre el
   2 de septiembre\, cierra el 27 de marzo.\nPrecio: 10 €.\nFicha oficial:
   https://www.golfdirecto.com/micro/game/6a98114b9678d915e882194e/summary\n
@@ -243,11 +243,11 @@ URL:https://www.golfdirecto.com/micro/game/6a98114b9678d915e882194e/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:901ae791b9a66022aad0@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20270425
 DTEND;VALUE=DATE:20270426
 SUMMARY:6ª Prueba Circuito Academia
-LOCATION:Club Hato Verde\, Las Pajanosas\, Sevilla
+LOCATION:Club Hato Verde
 DESCRIPTION:Circuito comercial - Stableford - Individual\nInscripción: abr
  e el 17 de noviembre\, cierra el 24 de abril.\nPrecio: 25 €.\nFicha ofic
  ial: https://www.golfdirecto.com/micro/game/6afc78db669bd90e397667b1/summa
@@ -259,11 +259,11 @@ URL:https://www.golfdirecto.com/micro/game/6afc78db669bd90e397667b1/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:d77afd7242e49da24bf4@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20270425
 DTEND;VALUE=DATE:20270426
 SUMMARY:6ª Prueba Metas Amigos de Hato Verde
-LOCATION:Club Hato Verde\, Las Pajanosas\, Sevilla
+LOCATION:Club Hato Verde
 DESCRIPTION:Social de club - Medal Play - Individual\nInscripción: abre el
   2 de septiembre\, cierra el 24 de abril.\nPrecio: 10 €.\nFicha oficial:
   https://www.golfdirecto.com/micro/game/6a98117b9678d915e8925d5b/summary\n
@@ -274,11 +274,11 @@ URL:https://www.golfdirecto.com/micro/game/6a98117b9678d915e8925d5b/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:c5e07ff28456b1d0ad07@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20270516
 DTEND;VALUE=DATE:20270517
 SUMMARY:7ª Prueba Circuito Academia
-LOCATION:Club Hato Verde\, Las Pajanosas\, Sevilla
+LOCATION:Club Hato Verde
 DESCRIPTION:Circuito comercial - Stableford - Individual\nInscripción: abr
  e el 17 de noviembre\, cierra el 15 de mayo.\nPrecio: 25 €.\nFicha ofici
  al: https://www.golfdirecto.com/micro/game/6afc79a5669bd90e399d8f4c/summar
@@ -290,11 +290,11 @@ URL:https://www.golfdirecto.com/micro/game/6afc79a5669bd90e399d8f4c/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:029d9c7bab7fb4b7b5d1@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20270516
 DTEND;VALUE=DATE:20270517
 SUMMARY:7ª Prueba Metas Amigos de Hato Verde
-LOCATION:Club Hato Verde\, Las Pajanosas\, Sevilla
+LOCATION:Club Hato Verde
 DESCRIPTION:Social de club - Medal Play - Individual\nInscripción: abre el
   8 de noviembre\, cierra el 15 de mayo.\nPrecio: 10 €.\nFicha oficial: h
  ttps://www.golfdirecto.com/micro/game/6af0cce918fc8072fbc1942c/summary\nCo
@@ -305,11 +305,11 @@ URL:https://www.golfdirecto.com/micro/game/6af0cce918fc8072fbc1942c/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:ccc693afdf707ba8557e@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20270606
 DTEND;VALUE=DATE:20270607
 SUMMARY:Gran Final Prueba Circuito Academia
-LOCATION:Club Hato Verde\, Las Pajanosas\, Sevilla
+LOCATION:Club Hato Verde
 DESCRIPTION:Circuito comercial - Stableford - Individual\nInscripción: abr
  e el 17 de noviembre\, cierra el 5 de junio.\nPrecio: 25 €.\nFicha ofici
  al: https://www.golfdirecto.com/micro/game/6afc79d8669bd90e39a42c86/summar
@@ -321,11 +321,11 @@ URL:https://www.golfdirecto.com/micro/game/6afc79d8669bd90e39a42c86/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:ad365ba3a23fa53c27d1@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20270606
 DTEND;VALUE=DATE:20270607
 SUMMARY:Prueba Final Metas Amigos de Hato Verde
-LOCATION:Club Hato Verde\, Las Pajanosas\, Sevilla
+LOCATION:Club Hato Verde
 DESCRIPTION:Social de club - Medal Play - Individual\nInscripción: abre el
   2 de septiembre\, cierra el 29 de mayo.\nPrecio: 10 €.\nFicha oficial: 
  https://www.golfdirecto.com/micro/game/6a9811be9678d915e8a88c62/summary\nC

@@ -11,11 +11,11 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:c66a78005cfa8e4e1f99@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:Frogs 25.11.2026
-LOCATION:Lauro Golf\, Alhaurin de la Torre\, Málaga
+LOCATION:Lauro Golf\, Alhaurín de la Torre
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   24 de noviembre\, cierra el 24 de noviembre.\nPrecio: Gratis.\nFicha ofic
  ial: https://www.nextcaddy.com/tour/75584\nConfirma fechas y condiciones e
@@ -25,12 +25,27 @@ STATUS:CONFIRMED
 URL:https://www.nextcaddy.com/tour/75584
 END:VEVENT
 BEGIN:VEVENT
+UID:0e92f807158ca3c327cc@banderin.es
+DTSTAMP:20261125T144514Z
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+SUMMARY:Lauro Ladies 26/11/26
+LOCATION:Lauro Golf\, Alhaurín de la Torre
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  25 de noviembre\, cierra el 25 de noviembre.\nPrecio: Gratis.\nFicha ofic
+ ial: https://www.nextcaddy.com/tour/75607\nConfirma fechas y condiciones e
+ n la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nextcaddy.com/tour/75607
+END:VEVENT
+BEGIN:VEVENT
 UID:09edfe8756bf522e9914@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Campeonato Andalucía Interclubs Infantil y Cadete
-LOCATION:Lauro Golf\, Alhaurin de la Torre\, Málaga
+LOCATION:Lauro Golf\, Alhaurín de la Torre
 DESCRIPTION:Juvenil - Medal Play - Equipos\nFicha oficial: https://www.next
  caddy.com/tour/61215\nConfirma fechas y condiciones en la web del organiza
  dor. Vía Banderín.
@@ -40,11 +55,11 @@ URL:https://www.nextcaddy.com/tour/61215
 END:VEVENT
 BEGIN:VEVENT
 UID:0d9725552dad218a6144@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261202
 SUMMARY:Skandinavisk Match 01/12
-LOCATION:Lauro Golf\, Alhaurin de la Torre\, Málaga
+LOCATION:Lauro Golf
 DESCRIPTION:Clubes y equipos - Stableford - Equipos\nInscripción: abre el 
  24 de noviembre\, cierra el 28 de noviembre.\nPrecio: 55 €.\nFicha ofici
  al: https://www.golfdirecto.com/micro/game/6adf575505d0e598f3a02fcf/summar
@@ -56,11 +71,11 @@ URL:https://www.golfdirecto.com/micro/game/6adf575505d0e598f3a02fcf/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:2329316c1f9822692adc@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20261208
 DTEND;VALUE=DATE:20261209
 SUMMARY:Skandinavisk Match 08/12
-LOCATION:Lauro Golf\, Alhaurin de la Torre\, Málaga
+LOCATION:Lauro Golf
 DESCRIPTION:Clubes y equipos - Stableford - Equipos\nInscripción: abre el 
  1 de diciembre\, cierra el 5 de diciembre.\nPrecio: 55 €.\nFicha oficial
  : https://www.golfdirecto.com/micro/game/6adf578f05d0e598f3afc378/summary\
@@ -71,11 +86,11 @@ URL:https://www.golfdirecto.com/micro/game/6adf578f05d0e598f3afc378/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:4a57ab55476d067d2be4@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20261215
 DTEND;VALUE=DATE:20261216
 SUMMARY:Skandinavisk Match 15/12
-LOCATION:Lauro Golf\, Alhaurin de la Torre\, Málaga
+LOCATION:Lauro Golf
 DESCRIPTION:Clubes y equipos - Stableford - Equipos\nInscripción: cierra e
  l 26 de octubre.\nPrecio: 55 €.\nFicha oficial: https://www.golfdirecto.
  com/micro/game/6adf583305d0e598f3de5fd6/summary\nConfirma fechas y condici

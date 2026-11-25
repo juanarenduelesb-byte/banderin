@@ -11,11 +11,11 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:809d7a1a70264abc490f@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
 SUMMARY:Torneo Benefico Anoreta Golf
-LOCATION:Club Deportivo Añoreta Golf\, Rincon de la Victoria\, Málaga
+LOCATION:Club Deportivo Añoreta Golf\, Rincón de la Victoria
 DESCRIPTION:Benéfico - Stableford - Individual\nInscripción: abre el 13 d
  e marzo\, cierra el 3 de diciembre.\nPrecio: 45 €.\nFicha oficial: https
  ://www.nextcaddy.com/tour/69149\nConfirma fechas y condiciones en la web d
@@ -26,11 +26,11 @@ URL:https://www.nextcaddy.com/tour/69149
 END:VEVENT
 BEGIN:VEVENT
 UID:45328a135e2fc1044202@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:Torneo Colegio Abogados Málaga
-LOCATION:Club Deportivo Añoreta Golf\, Rincon de la Victoria\, Málaga
+LOCATION:Club Deportivo Añoreta Golf\, Rincón de la Victoria
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   6 de noviembre\, cierra el 5 de diciembre.\nPrecio: 75 €.\nFicha oficia
  l: https://www.nextcaddy.com/tour/75205\nConfirma fechas y condiciones en 
@@ -41,11 +41,11 @@ URL:https://www.nextcaddy.com/tour/75205
 END:VEVENT
 BEGIN:VEVENT
 UID:baa718a19edfc4e25e5d@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20261229
 DTEND;VALUE=DATE:20261230
 SUMMARY:Empleados & Abonados
-LOCATION:Club Deportivo Añoreta Golf\, Rincon de la Victoria\, Málaga
+LOCATION:Club Deportivo Añoreta Golf\, Rincón de la Victoria
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   13 de marzo\, cierra el 13 de marzo.\nPrecio: Gratis.\nFicha oficial: htt
  ps://www.nextcaddy.com/tour/69151\nConfirma fechas y condiciones en la web

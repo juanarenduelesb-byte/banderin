@@ -11,11 +11,11 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:9e9dc0bbcb616f4d0d38@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261130
 SUMMARY:Torneig Brot d'Or
-LOCATION:Club de Golf Castellterçol\, Castellterçol\, Barcelona
+LOCATION:Club de Golf Castellterçol
 DESCRIPTION:Social de club - Individual\nFicha oficial: https://www.catgolf
  .com/es/campeonatos/torneig-brot-dor-2026-11-28\nConfirma fechas y condici
  ones en la web del organizador. Vía Banderín.
@@ -25,11 +25,11 @@ URL:https://www.catgolf.com/es/campeonatos/torneig-brot-dor-2026-11-28
 END:VEVENT
 BEGIN:VEVENT
 UID:bfff6be0c7023417957a@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261214
 SUMMARY:Torneig del Fred
-LOCATION:Club de Golf Castellterçol\, Castellterçol\, Barcelona
+LOCATION:Club de Golf Castellterçol
 DESCRIPTION:Social de club - Individual\nFicha oficial: https://www.catgolf
  .com/es/campeonatos/torneig-del-fred-2026-12-12\nConfirma fechas y condici
  ones en la web del organizador. Vía Banderín.
@@ -39,11 +39,11 @@ URL:https://www.catgolf.com/es/campeonatos/torneig-del-fred-2026-12-12
 END:VEVENT
 BEGIN:VEVENT
 UID:23816f1809a716ae8956@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20270501
 DTEND;VALUE=DATE:20270503
 SUMMARY:CIRCUIT NACIONAL 5A CATEGORIA 2027 (Castellterçol)
-LOCATION:Club de Golf Castellterçol\, Castellterçol\, Barcelona
+LOCATION:Club de Golf Castellterçol
 DESCRIPTION:Absoluto - Individual\nFicha oficial: https://www.catgolf.com/e
  s/campeonatos/circuit-nacional-5a-categoria-2027-castelltercol-2027-05-01\
  nConfirma fechas y condiciones en la web del organizador. Vía Banderín.

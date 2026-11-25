@@ -11,11 +11,11 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:20d43a2e771e7c4dfa7b@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
 SUMMARY:Pg Junior Golf Circuit - Dec.
-LOCATION:Magna Marbella Golf\, Nueva Andalucia\, Málaga
+LOCATION:Magna Marbella Golf\, Marbella
 DESCRIPTION:Juvenil - Stableford - Individual\nFicha oficial: https://www.n
  extcaddy.com/tour/68965\nConfirma fechas y condiciones en la web del organ
  izador. Vía Banderín.

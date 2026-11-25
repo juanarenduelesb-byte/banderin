@@ -11,11 +11,11 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:5f9cdacabdfdc1aa5f86@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Tres Cantos Vs Golfdegolfos
-LOCATION:Golf Santander S.a.\, Boadilla del Monte\, Madrid
+LOCATION:Golf Santander S.a.
 DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
  //www.golfdirecto.com/micro/game/6af1fb152f0e9df18b7a1968/summary\nConfirm
  a fechas y condiciones en la web del organizador. Vía Banderín.

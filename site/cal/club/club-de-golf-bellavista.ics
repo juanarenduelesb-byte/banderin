@@ -11,11 +11,11 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:9ac3a7e79a3315901d5e@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
 SUMMARY:Torneo Portaceli
-LOCATION:Club de Golf Bellavista\, Aljaraque\, Huelva
+LOCATION:Club de Golf Bellavista\, Aljaraque
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   24 de noviembre\, cierra el 24 de noviembre.\nPrecio: Gratis.\nFicha ofic
  ial: https://www.nextcaddy.com/tour/75577\nConfirma fechas y condiciones e
@@ -25,12 +25,27 @@ STATUS:CONFIRMED
 URL:https://www.nextcaddy.com/tour/75577
 END:VEVENT
 BEGIN:VEVENT
+UID:959e077f54cebd8696ba@banderin.es
+DTSTAMP:20261125T144514Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:Torneo Jubilados y Simpatizantes Navidad 2026
+LOCATION:Club de Golf Bellavista\, Aljaraque
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  25 de noviembre\, cierra el 25 de noviembre.\nPrecio: Gratis.\nFicha ofic
+ ial: https://www.nextcaddy.com/tour/75599\nConfirma fechas y condiciones e
+ n la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nextcaddy.com/tour/75599
+END:VEVENT
+BEGIN:VEVENT
 UID:6cff6b2c0221ac68e875@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
 SUMMARY:Final Circuito Senior
-LOCATION:Club de Golf Bellavista\, Aljaraque\, Huelva
+LOCATION:Club de Golf Bellavista\, Aljaraque
 DESCRIPTION:Senior - Stableford - Individual\nFicha oficial: https://www.ne
  xtcaddy.com/tour/61254\nConfirma fechas y condiciones en la web del organi
  zador. Vía Banderín.
@@ -40,11 +55,11 @@ URL:https://www.nextcaddy.com/tour/61254
 END:VEVENT
 BEGIN:VEVENT
 UID:830445cf7b3d44ce461c@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
 SUMMARY:5ª Jornada Lpgh XXVI Edición. (Dunas-Bellavista)
-LOCATION:Club de Golf Bellavista\, Aljaraque\, Huelva
+LOCATION:Club de Golf Bellavista
 DESCRIPTION:Social de club - Fourball - Parejas\nFicha oficial: https://www
  .golfdirecto.com/micro/game/6afe33f59c9e80fccf03246d/summary\nConfirma fec
  has y condiciones en la web del organizador. Vía Banderín.

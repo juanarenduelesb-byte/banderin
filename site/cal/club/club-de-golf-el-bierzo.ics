@@ -11,11 +11,11 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:27e9d43e7ec7270bed4d@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:Torneo Solidario 2026
-LOCATION:Club de Golf el Bierzo\, Ponferrada\, León
+LOCATION:Club de Golf el Bierzo
 DESCRIPTION:Benéfico - Scramble - Parejas\nInscripción: abre el 13 de nov
  iembre\, cierra el 11 de diciembre.\nFicha oficial: https://www.golfdirect
  o.com/micro/game/6af6f6183f2ad705e420b961/summary\nConfirma fechas y condi

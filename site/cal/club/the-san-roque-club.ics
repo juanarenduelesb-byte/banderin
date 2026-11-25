@@ -10,12 +10,26 @@ X-WR-TIMEZONE:Europe/Madrid
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
+UID:820cd3a2f78e135e727c@banderin.es
+DTSTAMP:20261125T144514Z
+DTSTART;VALUE=DATE:20261125
+DTEND;VALUE=DATE:20261126
+SUMMARY:Triple A European Classic
+LOCATION:The San Roque Club
+DESCRIPTION:Social de club - Medal Play - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/6b06af609b4f2a62b8304713/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6b06af609b4f2a62b8304713/summary
+END:VEVENT
+BEGIN:VEVENT
 UID:1542327a9bde15791825@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
 SUMMARY:Ladies Thursday Competition (Members)
-LOCATION:The San Roque Club\, San Roque\, Cádiz
+LOCATION:The San Roque Club
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   19 de enero\, cierra el 25 de noviembre.\nFicha oficial: https://www.golf
  directo.com/micro/game/696e374d557fa34aa5db363b/summary\nConfirma fechas y
@@ -26,11 +40,11 @@ URL:https://www.golfdirecto.com/micro/game/696e374d557fa34aa5db363b/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:94eb7ca31fc1cc6a9347@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
 SUMMARY:Men'S Thursday Competition (Members)
-LOCATION:The San Roque Club\, San Roque\, Cádiz
+LOCATION:The San Roque Club
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   19 de enero\, cierra el 25 de noviembre.\nFicha oficial: https://www.golf
  directo.com/micro/game/696e371f557fa34aa5cf83f1/summary\nConfirma fechas y
@@ -41,11 +55,11 @@ URL:https://www.golfdirecto.com/micro/game/696e371f557fa34aa5cf83f1/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:35e64dbaedd019e259fd@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Ladies Vs Men
-LOCATION:The San Roque Club\, San Roque\, Cádiz
+LOCATION:The San Roque Club
 DESCRIPTION:Social de club - Fourball - Parejas\nInscripción: abre el 19 d
  e enero\, cierra el 28 de noviembre.\nFicha oficial: https://www.golfdirec
  to.com/micro/game/696e37fd557fa34aa5eef03e/summary\nConfirma fechas y cond
@@ -56,11 +70,11 @@ URL:https://www.golfdirecto.com/micro/game/696e37fd557fa34aa5eef03e/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:44521a3a2d754d90191b@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261202
 SUMMARY:Ladies Tuesday Competition (Members)
-LOCATION:The San Roque Club\, San Roque\, Cádiz
+LOCATION:The San Roque Club
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   19 de enero\, cierra el 30 de noviembre.\nFicha oficial: https://www.golf
  directo.com/micro/game/696e38a3557fa34aa500fd8e/summary\nConfirma fechas y
@@ -71,11 +85,11 @@ URL:https://www.golfdirecto.com/micro/game/696e38a3557fa34aa500fd8e/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:6e56e51e6ddae7d7d1d3@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261202
 SUMMARY:Men'S Tuesday Competition (Members)
-LOCATION:The San Roque Club\, San Roque\, Cádiz
+LOCATION:The San Roque Club
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   19 de enero\, cierra el 30 de noviembre.\nFicha oficial: https://www.golf
  directo.com/micro/game/696e38d8557fa34aa5035d05/summary\nConfirma fechas y
@@ -86,11 +100,11 @@ URL:https://www.golfdirecto.com/micro/game/696e38d8557fa34aa5035d05/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:d4a85e2580f6023ef2e0@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20261203
 DTEND;VALUE=DATE:20261204
 SUMMARY:Ladies Thursday Competition (Members)
-LOCATION:The San Roque Club\, San Roque\, Cádiz
+LOCATION:The San Roque Club
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   19 de enero\, cierra el 2 de diciembre.\nFicha oficial: https://www.golfd
  irecto.com/micro/game/696e390c557fa34aa5072937/summary\nConfirma fechas y 
@@ -101,11 +115,11 @@ URL:https://www.golfdirecto.com/micro/game/696e390c557fa34aa5072937/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:b5a5ac858b7d860715ad@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20261203
 DTEND;VALUE=DATE:20261204
 SUMMARY:Men'S Thursday Competition (Members)
-LOCATION:The San Roque Club\, San Roque\, Cádiz
+LOCATION:The San Roque Club
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   19 de enero\, cierra el 2 de diciembre.\nFicha oficial: https://www.golfd
  irecto.com/micro/game/696e394a557fa34aa5118f77/summary\nConfirma fechas y 
@@ -116,11 +130,11 @@ URL:https://www.golfdirecto.com/micro/game/696e394a557fa34aa5118f77/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:b812ecc2856e6da52744@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
 SUMMARY:Ladies Ranking December Sponsored By Abbeygate (Members)
-LOCATION:The San Roque Club\, San Roque\, Cádiz
+LOCATION:The San Roque Club
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   19 de enero\, cierra el 4 de diciembre.\nFicha oficial: https://www.golfd
  irecto.com/micro/game/696e3a91557fa34aa549e500/summary\nConfirma fechas y 
@@ -131,11 +145,11 @@ URL:https://www.golfdirecto.com/micro/game/696e3a91557fa34aa549e500/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:a0d6d21dfda1036a7b2c@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
 SUMMARY:Men Ranking December Sponsored By Abbeygate (Members)
-LOCATION:The San Roque Club\, San Roque\, Cádiz
+LOCATION:The San Roque Club
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   19 de enero\, cierra el 4 de diciembre.\nFicha oficial: https://www.golfd
  irecto.com/micro/game/696e3aaf557fa34aa54f152c/summary\nConfirma fechas y 
@@ -146,11 +160,11 @@ URL:https://www.golfdirecto.com/micro/game/696e3aaf557fa34aa54f152c/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:6621de1d84a8a72acaf7@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20261208
 DTEND;VALUE=DATE:20261209
 SUMMARY:(56) Ladies Tuesday Competition (Members)
-LOCATION:The San Roque Club\, San Roque\, Cádiz
+LOCATION:The San Roque Club
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   19 de enero\, cierra el 7 de diciembre.\nFicha oficial: https://www.golfd
  irecto.com/micro/game/696e3b23557fa34aa561510e/summary\nConfirma fechas y 
@@ -161,11 +175,11 @@ URL:https://www.golfdirecto.com/micro/game/696e3b23557fa34aa561510e/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:4d1205916d755a3b406c@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20261208
 DTEND;VALUE=DATE:20261209
 SUMMARY:Men'S Tuesday Competition (Members)
-LOCATION:The San Roque Club\, San Roque\, Cádiz
+LOCATION:The San Roque Club
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   19 de enero\, cierra el 7 de diciembre.\nFicha oficial: https://www.golfd
  irecto.com/micro/game/696e3b8b557fa34aa5716080/summary\nConfirma fechas y 
@@ -176,11 +190,11 @@ URL:https://www.golfdirecto.com/micro/game/696e3b8b557fa34aa5716080/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:1d9bdad103cec26c4ad4@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20261210
 DTEND;VALUE=DATE:20261211
 SUMMARY:Ladies Thursday Competition (Members) (
-LOCATION:The San Roque Club\, San Roque\, Cádiz
+LOCATION:The San Roque Club
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   19 de enero\, cierra el 9 de diciembre.\nFicha oficial: https://www.golfd
  irecto.com/micro/game/696e3bac557fa34aa577c1b0/summary\nConfirma fechas y 
@@ -191,11 +205,11 @@ URL:https://www.golfdirecto.com/micro/game/696e3bac557fa34aa577c1b0/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:84d603e552db88f0bb35@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20261210
 DTEND;VALUE=DATE:20261211
 SUMMARY:Men'S Thursday Competition (Members)
-LOCATION:The San Roque Club\, San Roque\, Cádiz
+LOCATION:The San Roque Club
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   19 de enero\, cierra el 9 de diciembre.\nFicha oficial: https://www.golfd
  irecto.com/micro/game/696e3965557fa34aa51565b1/summary\nConfirma fechas y 
@@ -206,11 +220,11 @@ URL:https://www.golfdirecto.com/micro/game/696e3965557fa34aa51565b1/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:e383ba78cff1ec726b9b@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
 SUMMARY:Ladies Medal Sponsored By Vinomarket (Members)
-LOCATION:The San Roque Club\, San Roque\, Cádiz
+LOCATION:The San Roque Club
 DESCRIPTION:Social de club - Medal Play - Individual\nInscripción: abre el
   19 de enero\, cierra el 12 de diciembre.\nFicha oficial: https://www.golf
  directo.com/micro/game/696e3c09557fa34aa584e5cd/summary\nConfirma fechas y
@@ -221,11 +235,11 @@ URL:https://www.golfdirecto.com/micro/game/696e3c09557fa34aa584e5cd/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:52fac6b1d942afd02da2@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
 SUMMARY:Men´s Medal Sponsored By Vinomarket (Members)
-LOCATION:The San Roque Club\, San Roque\, Cádiz
+LOCATION:The San Roque Club
 DESCRIPTION:Social de club - Medal Play - Individual\nInscripción: abre el
   19 de enero\, cierra el 12 de diciembre.\nFicha oficial: https://www.golf
  directo.com/micro/game/696e3c2a557fa34aa58e5572/summary\nConfirma fechas y
@@ -236,11 +250,11 @@ URL:https://www.golfdirecto.com/micro/game/696e3c2a557fa34aa58e5572/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:fdf57402e3aa252dfb8a@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20261215
 DTEND;VALUE=DATE:20261216
 SUMMARY:Members & Staff Day
-LOCATION:The San Roque Club\, San Roque\, Cádiz
+LOCATION:The San Roque Club
 DESCRIPTION:Social de club - Scramble - Parejas\nInscripción: abre el 19 d
  e enero\, cierra el 14 de diciembre.\nFicha oficial: https://www.golfdirec
  to.com/micro/game/696e3c78557fa34aa5a0274b/summary\nConfirma fechas y cond
@@ -251,11 +265,11 @@ URL:https://www.golfdirecto.com/micro/game/696e3c78557fa34aa5a0274b/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:0d2f5db8798f2a0d9f0b@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20261217
 DTEND;VALUE=DATE:20261218
 SUMMARY:Ladies Thursday Competition (Members)
-LOCATION:The San Roque Club\, San Roque\, Cádiz
+LOCATION:The San Roque Club
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   19 de enero\, cierra el 16 de diciembre.\nFicha oficial: https://www.golf
  directo.com/micro/game/696e3bdf557fa34aa5804c80/summary\nConfirma fechas y
@@ -266,11 +280,11 @@ URL:https://www.golfdirecto.com/micro/game/696e3bdf557fa34aa5804c80/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:2d0ec6e6ce017106e798@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20261217
 DTEND;VALUE=DATE:20261218
 SUMMARY:Men'S Thursday Competition (Members)
-LOCATION:The San Roque Club\, San Roque\, Cádiz
+LOCATION:The San Roque Club
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   19 de enero\, cierra el 16 de diciembre.\nFicha oficial: https://www.golf
  directo.com/micro/game/696e397b557fa34aa51b0a67/summary\nConfirma fechas y
@@ -281,11 +295,11 @@ URL:https://www.golfdirecto.com/micro/game/696e397b557fa34aa51b0a67/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:9eba01fc512b853a2270@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261220
 SUMMARY:Christmas Texas Scramble
-LOCATION:The San Roque Club\, San Roque\, Cádiz
+LOCATION:The San Roque Club
 DESCRIPTION:Social de club - Scramble - Parejas\nInscripción: abre el 19 d
  e enero\, cierra el 18 de diciembre.\nFicha oficial: https://www.golfdirec
  to.com/micro/game/696e3caf557fa34aa5a5e33c/summary\nConfirma fechas y cond
@@ -296,11 +310,11 @@ URL:https://www.golfdirecto.com/micro/game/696e3caf557fa34aa5a5e33c/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:664f42a11f82c5042794@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20261222
 DTEND;VALUE=DATE:20261223
 SUMMARY:Ladies Tuesday Competition (Members)
-LOCATION:The San Roque Club\, San Roque\, Cádiz
+LOCATION:The San Roque Club
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   19 de enero\, cierra el 21 de diciembre.\nFicha oficial: https://www.golf
  directo.com/micro/game/696e3b6a557fa34aa56caad1/summary\nConfirma fechas y
@@ -311,11 +325,11 @@ URL:https://www.golfdirecto.com/micro/game/696e3b6a557fa34aa56caad1/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:4697013834410aca54d4@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20261222
 DTEND;VALUE=DATE:20261223
 SUMMARY:Men'S Tuesday Competition (Members)
-LOCATION:The San Roque Club\, San Roque\, Cádiz
+LOCATION:The San Roque Club
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   19 de enero\, cierra el 21 de diciembre.\nFicha oficial: https://www.golf
  directo.com/micro/game/696e3d04557fa34aa5adb2fe/summary\nConfirma fechas y
@@ -326,11 +340,11 @@ URL:https://www.golfdirecto.com/micro/game/696e3d04557fa34aa5adb2fe/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:884aa9dd4c8fdac5cab3@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20261224
 DTEND;VALUE=DATE:20261225
 SUMMARY:Ladies & Men Christmas Eve Competition
-LOCATION:The San Roque Club\, San Roque\, Cádiz
+LOCATION:The San Roque Club
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   19 de enero\, cierra el 23 de diciembre.\nFicha oficial: https://www.golf
  directo.com/micro/game/696e3d4f557fa34aa5b8f1e6/summary\nConfirma fechas y
@@ -341,11 +355,11 @@ URL:https://www.golfdirecto.com/micro/game/696e3d4f557fa34aa5b8f1e6/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:dcdbd8af5104ae996a74@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20261227
 DTEND;VALUE=DATE:20261228
 SUMMARY:Mixed Red\, White\, Blue Texas Scramble
-LOCATION:The San Roque Club\, San Roque\, Cádiz
+LOCATION:The San Roque Club
 DESCRIPTION:Social de club - Scramble - Parejas\nInscripción: abre el 19 d
  e enero\, cierra el 26 de diciembre.\nFicha oficial: https://www.golfdirec
  to.com/micro/game/696e3da9557fa34aa5cdc3a8/summary\nConfirma fechas y cond
@@ -356,11 +370,11 @@ URL:https://www.golfdirecto.com/micro/game/696e3da9557fa34aa5cdc3a8/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:2c5bb97e7a504b06e916@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20261229
 DTEND;VALUE=DATE:20261230
 SUMMARY:Ladies Tuesday Competition (Members)
-LOCATION:The San Roque Club\, San Roque\, Cádiz
+LOCATION:The San Roque Club
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   19 de enero\, cierra el 28 de diciembre.\nFicha oficial: https://www.golf
  directo.com/micro/game/696e3dc8557fa34aa5d4ef9b/summary\nConfirma fechas y
@@ -371,11 +385,11 @@ URL:https://www.golfdirecto.com/micro/game/696e3dc8557fa34aa5d4ef9b/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:755434b4d514eb716ee8@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20261229
 DTEND;VALUE=DATE:20261230
 SUMMARY:Men'S Tuesday Competition (Members)
-LOCATION:The San Roque Club\, San Roque\, Cádiz
+LOCATION:The San Roque Club
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   19 de enero\, cierra el 28 de diciembre.\nFicha oficial: https://www.golf
  directo.com/micro/game/696e3dfc557fa34aa5dae7d3/summary\nConfirma fechas y
@@ -386,11 +400,11 @@ URL:https://www.golfdirecto.com/micro/game/696e3dfc557fa34aa5dae7d3/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:bf44e192dd397df41f17@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20261231
 DTEND;VALUE=DATE:20270101
 SUMMARY:New Year'S Eve Competition
-LOCATION:The San Roque Club\, San Roque\, Cádiz
+LOCATION:The San Roque Club
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   19 de enero\, cierra el 30 de diciembre.\nFicha oficial: https://www.golf
  directo.com/micro/game/696e3e38557fa34aa5e53aef/summary\nConfirma fechas y
@@ -400,12 +414,162 @@ STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/696e3e38557fa34aa5e53aef/summary
 END:VEVENT
 BEGIN:VEVENT
+UID:b5f1970949437edc1389@banderin.es
+DTSTAMP:20261125T144514Z
+DTSTART;VALUE=DATE:20270103
+DTEND;VALUE=DATE:20270104
+SUMMARY:Three Kings Tournament
+LOCATION:The San Roque Club
+DESCRIPTION:Circuito comercial - Stableford - Individual\nInscripción: abr
+ e el 4 de marzo\, cierra el 2 de enero.\nFicha oficial: https://www.golfdi
+ recto.com/micro/game/69a8571bbba30eff7cfbf5bc/summary\nConfirma fechas y c
+ ondiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/69a8571bbba30eff7cfbf5bc/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:1a4571eafb9446e9ba23@banderin.es
+DTSTAMP:20261125T144514Z
+DTSTART;VALUE=DATE:20270105
+DTEND;VALUE=DATE:20270106
+SUMMARY:Ladies Tuesday Competition (Members)
+LOCATION:The San Roque Club
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  4 de marzo\, cierra el 4 de enero.\nFicha oficial: https://www.golfdirect
+ o.com/micro/game/69a8579cbba30eff7c15370f/summary\nConfirma fechas y condi
+ ciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/69a8579cbba30eff7c15370f/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:6c8c4eb134fc0ca4ed29@banderin.es
+DTSTAMP:20261125T144514Z
+DTSTART;VALUE=DATE:20270105
+DTEND;VALUE=DATE:20270106
+SUMMARY:Men'S Tuesday Competition (Members)
+LOCATION:The San Roque Club
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  4 de marzo\, cierra el 4 de enero.\nFicha oficial: https://www.golfdirect
+ o.com/micro/game/69a85850bba30eff7c2b1aaa/summary\nConfirma fechas y condi
+ ciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/69a85850bba30eff7c2b1aaa/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:4f450961a00abc4fb7f1@banderin.es
+DTSTAMP:20261125T144514Z
+DTSTART;VALUE=DATE:20270107
+DTEND;VALUE=DATE:20270108
+SUMMARY:Ladies Thursday Competition (Members)
+LOCATION:The San Roque Club
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  11 de septiembre\, cierra el 6 de enero.\nFicha oficial: https://www.golf
+ directo.com/micro/game/6aa3ac244304e83a563d2296/summary\nConfirma fechas y
+  condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6aa3ac244304e83a563d2296/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:e85c84d9f724105858b7@banderin.es
+DTSTAMP:20261125T144514Z
+DTSTART;VALUE=DATE:20270107
+DTEND;VALUE=DATE:20270108
+SUMMARY:Men'S Thursday Competition (Members)
+LOCATION:The San Roque Club
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  4 de marzo\, cierra el 6 de enero.\nFicha oficial: https://www.golfdirect
+ o.com/micro/game/69a864edbba30eff7ceee83c/summary\nConfirma fechas y condi
+ ciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/69a864edbba30eff7ceee83c/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:87686722a8a386104d5c@banderin.es
+DTSTAMP:20261125T144514Z
+DTSTART;VALUE=DATE:20270110
+DTEND;VALUE=DATE:20270111
+SUMMARY:Ladies Ranking January Sponsored By Abbeygate (Members)
+LOCATION:The San Roque Club
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  4 de marzo\, cierra el 9 de enero.\nFicha oficial: https://www.golfdirect
+ o.com/micro/game/69a84c2d3d89fa2b64a83842/summary\nConfirma fechas y condi
+ ciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/69a84c2d3d89fa2b64a83842/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:75a33d5c9ee347fcfd4b@banderin.es
+DTSTAMP:20261125T144514Z
+DTSTART;VALUE=DATE:20270110
+DTEND;VALUE=DATE:20270111
+SUMMARY:Men Ranking January Sponsored By Abbeygate (Members)
+LOCATION:The San Roque Club
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  4 de marzo\, cierra el 9 de enero.\nFicha oficial: https://www.golfdirect
+ o.com/micro/game/69a84bb93d89fa2b648fc7a1/summary\nConfirma fechas y condi
+ ciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/69a84bb93d89fa2b648fc7a1/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:0a301edca7e1c1ec167f@banderin.es
+DTSTAMP:20261125T144514Z
+DTSTART;VALUE=DATE:20270112
+DTEND;VALUE=DATE:20270113
+SUMMARY:Ladies Tuesday Competition (Members)
+LOCATION:The San Roque Club
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  4 de marzo\, cierra el 11 de enero.\nFicha oficial: https://www.golfdirec
+ to.com/micro/game/69a8613ebba30eff7c6eb964/summary\nConfirma fechas y cond
+ iciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/69a8613ebba30eff7c6eb964/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:98caad49c2965abb1e3f@banderin.es
+DTSTAMP:20261125T144514Z
+DTSTART;VALUE=DATE:20270112
+DTEND;VALUE=DATE:20270113
+SUMMARY:Men'S Tuesday Competition (Members)
+LOCATION:The San Roque Club
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  4 de marzo\, cierra el 11 de enero.\nFicha oficial: https://www.golfdirec
+ to.com/micro/game/69a860d8bba30eff7c636664/summary\nConfirma fechas y cond
+ iciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/69a860d8bba30eff7c636664/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:338e49cab7627fed53bb@banderin.es
+DTSTAMP:20261125T144514Z
+DTSTART;VALUE=DATE:20270114
+DTEND;VALUE=DATE:20270115
+SUMMARY:Men'S Thursday Competition (Members)
+LOCATION:The San Roque Club
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  4 de marzo\, cierra el 13 de enero.\nFicha oficial: https://www.golfdirec
+ to.com/micro/game/69a86511bba30eff7cf407d7/summary\nConfirma fechas y cond
+ iciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/69a86511bba30eff7cf407d7/summary
+END:VEVENT
+BEGIN:VEVENT
 UID:858afd2bf23350e5b4fe@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20270131
 DTEND;VALUE=DATE:20270201
 SUMMARY:Quadrangular At Aloha
-LOCATION:The San Roque Club\, San Roque\, Cádiz
+LOCATION:The San Roque Club
 DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
  //www.golfdirecto.com/micro/game/6aa3b0ef4304e83a56842547/summary\nConfirm
  a fechas y condiciones en la web del organizador. Vía Banderín.
@@ -415,11 +579,11 @@ URL:https://www.golfdirecto.com/micro/game/6aa3b0ef4304e83a56842547/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:dd67b1da065cb196fa16@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20270214
 DTEND;VALUE=DATE:20270215
 SUMMARY:St Valentine´s Day Competition
-LOCATION:The San Roque Club\, San Roque\, Cádiz
+LOCATION:The San Roque Club
 DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
  //www.golfdirecto.com/micro/game/6aa3c70e4304e83a56a5766b/summary\nConfirm
  a fechas y condiciones en la web del organizador. Vía Banderín.
@@ -429,11 +593,11 @@ URL:https://www.golfdirecto.com/micro/game/6aa3c70e4304e83a56a5766b/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:12bb432b77609c68140c@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20270221
 DTEND;VALUE=DATE:20270222
 SUMMARY:Quadrangular At RCG las Brisas
-LOCATION:The San Roque Club\, San Roque\, Cádiz
+LOCATION:The San Roque Club
 DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
  //www.golfdirecto.com/micro/game/6aa3c9404304e83a5641f46e/summary\nConfirm
  a fechas y condiciones en la web del organizador. Vía Banderín.
@@ -443,11 +607,11 @@ URL:https://www.golfdirecto.com/micro/game/6aa3c9404304e83a5641f46e/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:0b4a2d911388fbb268e9@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20270228
 DTEND;VALUE=DATE:20270301
 SUMMARY:Andalucia Day Flag Competition (Members)
-LOCATION:The San Roque Club\, San Roque\, Cádiz
+LOCATION:The San Roque Club
 DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
  //www.golfdirecto.com/micro/game/6aa3c4c08b9e3b6bed77fbbd/summary\nConfirm
  a fechas y condiciones en la web del organizador. Vía Banderín.
@@ -457,11 +621,11 @@ URL:https://www.golfdirecto.com/micro/game/6aa3c4c08b9e3b6bed77fbbd/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:426c93edd42887456e87@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20270320
 DTEND;VALUE=DATE:20270321
 SUMMARY:Dc Memorial Trophy
-LOCATION:The San Roque Club\, San Roque\, Cádiz
+LOCATION:The San Roque Club
 DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
  //www.golfdirecto.com/micro/game/6aa433c706a21397eced9773/summary\nConfirm
  a fechas y condiciones en la web del organizador. Vía Banderín.
@@ -471,11 +635,11 @@ URL:https://www.golfdirecto.com/micro/game/6aa433c706a21397eced9773/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:57ce90c935e7f39affbf@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20270325
 DTEND;VALUE=DATE:20270326
 SUMMARY:Captains Farewell (Members)
-LOCATION:The San Roque Club\, San Roque\, Cádiz
+LOCATION:The San Roque Club
 DESCRIPTION:Social de club - Fourball - Parejas\nFicha oficial: https://www
  .golfdirecto.com/micro/game/6aa4308e06a21397ec7ab4d2/summary\nConfirma fec
  has y condiciones en la web del organizador. Vía Banderín.
@@ -485,11 +649,11 @@ URL:https://www.golfdirecto.com/micro/game/6aa4308e06a21397ec7ab4d2/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:d21c18ad9371bd6b1e9a@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20270327
 DTEND;VALUE=DATE:20270328
 SUMMARY:Captains Drive In
-LOCATION:The San Roque Club\, San Roque\, Cádiz
+LOCATION:The San Roque Club
 DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
  //www.golfdirecto.com/micro/game/6aa4314006a21397ec90e0c5/summary\nConfirm
  a fechas y condiciones en la web del organizador. Vía Banderín.
@@ -499,11 +663,11 @@ URL:https://www.golfdirecto.com/micro/game/6aa4314006a21397ec90e0c5/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:49bfb5071e71e63e246b@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20270329
 DTEND;VALUE=DATE:20270330
 SUMMARY:Easter Monday Texas Captains Pick
-LOCATION:The San Roque Club\, San Roque\, Cádiz
+LOCATION:The San Roque Club
 DESCRIPTION:Social de club - Scramble - Parejas\nFicha oficial: https://www
  .golfdirecto.com/micro/game/6aa4321d06a21397ecae30b8/summary\nConfirma fec
  has y condiciones en la web del organizador. Vía Banderín.
@@ -513,11 +677,11 @@ URL:https://www.golfdirecto.com/micro/game/6aa4321d06a21397ecae30b8/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:92a453ee6d502612f85c@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20270409
 DTEND;VALUE=DATE:20270410
 SUMMARY:III The San Roque Club Masters 2027( Abierto / Open)
-LOCATION:The San Roque Club\, San Roque\, Cádiz
+LOCATION:The San Roque Club
 DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
  //www.golfdirecto.com/micro/game/69da0d13c25629fe68858bde/summary\nConfirm
  a fechas y condiciones en la web del organizador. Vía Banderín.

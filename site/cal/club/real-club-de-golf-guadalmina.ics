@@ -11,11 +11,11 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:046efa932df3b7a626c2@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:Nordicos Miercoles 25.11.2026
-LOCATION:Real Club de Golf Guadalmina\, Guadalmina\, Málaga
+LOCATION:Real Club de Golf Guadalmina\, Salares
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   21 de noviembre\, cierra el 21 de noviembre.\nPrecio: Gratis.\nFicha ofic
  ial: https://www.nextcaddy.com/tour/75519\nConfirma fechas y condiciones e
@@ -26,11 +26,11 @@ URL:https://www.nextcaddy.com/tour/75519
 END:VEVENT
 BEGIN:VEVENT
 UID:e9b5fe0973a59cd7264d@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:Suecos Miercoles 25.11.2026
-LOCATION:Real Club de Golf Guadalmina\, Guadalmina\, Málaga
+LOCATION:Real Club de Golf Guadalmina\, Salares
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   22 de noviembre\, cierra el 22 de noviembre.\nPrecio: Gratis.\nFicha ofic
  ial: https://www.nextcaddy.com/tour/75525\nConfirma fechas y condiciones e
@@ -41,11 +41,11 @@ URL:https://www.nextcaddy.com/tour/75525
 END:VEVENT
 BEGIN:VEVENT
 UID:b590a9193c9f78f573fd@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
 SUMMARY:Jueves Int Gsome Chapman Norte 26.11
-LOCATION:Real Club de Golf Guadalmina\, Guadalmina\, Málaga
+LOCATION:Real Club de Golf Guadalmina\, Salares
 DESCRIPTION:Social de club - Stableford - Parejas\nInscripción: abre el 24
   de noviembre\, cierra el 24 de noviembre.\nPrecio: Gratis.\nFicha oficial
  : https://www.nextcaddy.com/tour/75589\nConfirma fechas y condiciones en l
@@ -56,11 +56,11 @@ URL:https://www.nextcaddy.com/tour/75589
 END:VEVENT
 BEGIN:VEVENT
 UID:ba864d429521bd6c79b7@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20261231
 DTEND;VALUE=DATE:20270101
 SUMMARY:Ranking Escuela 2026
-LOCATION:Real Club de Golf Guadalmina\, Guadalmina\, Málaga
+LOCATION:Real Club de Golf Guadalmina\, Salares
 DESCRIPTION:Juvenil - Stableford - Individual\nInscripción: abre el 31 de 
  diciembre\, cierra el 30 de diciembre.\nPrecio: Gratis.\nFicha oficial: ht
  tps://www.nextcaddy.com/tour/68574\nConfirma fechas y condiciones en la we

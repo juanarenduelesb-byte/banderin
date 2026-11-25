@@ -11,11 +11,11 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:e01b751c6d41db3360df@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20270410
 DTEND;VALUE=DATE:20270412
 SUMMARY:II Puntuable Zonal Juvenil RFEG 2027
-LOCATION:Club de Golf Sant Cugat\, Sant Cugat del Valles\, Barcelona
+LOCATION:Club de Golf Sant Cugat
 DESCRIPTION:Juvenil - Individual\nFicha oficial: https://www.catgolf.com/es
  /campeonatos/ii-puntuable-zonal-juvenil-rfeg-2027-2027-04-10\nConfirma fec
  has y condiciones en la web del organizador. Vía Banderín.

@@ -11,11 +11,11 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:95deb2fe0bd5fe5bc88b@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
 SUMMARY:Torneo Cgam Regular Noviembre 2026
-LOCATION:Club de Golf Olivar de la Hinojosa\, Madrid\, Madrid
+LOCATION:Club de Golf Olivar de la Hinojosa
 DESCRIPTION:Social de club - Medal Play - Individual\nFicha oficial: https:
  //www.golfdirecto.com/micro/game/6b0327e8361e970efa27722f/summary\nConfirm
  a fechas y condiciones en la web del organizador. Vía Banderín.
@@ -25,11 +25,11 @@ URL:https://www.golfdirecto.com/micro/game/6b0327e8361e970efa27722f/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:fd22314fb4c304d13702@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
 SUMMARY:Torneo de Navidad Olivar
-LOCATION:Club de Golf Olivar de la Hinojosa\, Madrid\, Madrid
+LOCATION:Club de Golf Olivar de la Hinojosa
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   20 de noviembre\, cierra el 3 de diciembre.\nPrecio: 67 €.\nFicha ofici
  al: https://www.golfdirecto.com/micro/game/6af59bfe5149c55c27dd544e/summar
@@ -41,11 +41,11 @@ URL:https://www.golfdirecto.com/micro/game/6af59bfe5149c55c27dd544e/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:b704906c0a39c0eee713@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20261209
 DTEND;VALUE=DATE:20261210
 SUMMARY:Copa 2 Escuelas
-LOCATION:Club de Golf Olivar de la Hinojosa\, Madrid\, Madrid
+LOCATION:Club de Golf Olivar de la Hinojosa
 DESCRIPTION:Juvenil - Stableford - Individual\nInscripción: abre el 29 de 
  noviembre\, cierra el 7 de diciembre.\nPrecio: 19 €.\nFicha oficial: htt
  ps://www.golfdirecto.com/micro/game/6afec446fb9c521b04134a09/summary\nConf
@@ -56,11 +56,11 @@ URL:https://www.golfdirecto.com/micro/game/6afec446fb9c521b04134a09/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:4d20fa1e16044e6b69f3@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
 SUMMARY:Copa 2 Escuelas
-LOCATION:Club de Golf Olivar de la Hinojosa\, Madrid\, Madrid
+LOCATION:Club de Golf Olivar de la Hinojosa
 DESCRIPTION:Juvenil - Stableford - Individual\nFicha oficial: https://www.g
  olfdirecto.com/micro/game/6afed374e64dbfd6f44cbe9b/summary\nConfirma fecha
  s y condiciones en la web del organizador. Vía Banderín.
@@ -70,11 +70,11 @@ URL:https://www.golfdirecto.com/micro/game/6afed374e64dbfd6f44cbe9b/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:6e8ea5e86f5820b68229@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20261215
 DTEND;VALUE=DATE:20261216
 SUMMARY:Torneo AESGOLF Navidad Dobles Indistintos M1
-LOCATION:Club de Golf Olivar de la Hinojosa\, Madrid\, Madrid
+LOCATION:Club de Golf Olivar de la Hinojosa
 DESCRIPTION:Senior - Fourball - Parejas\nFicha oficial: https://www.golfdir
  ecto.com/micro/game/69401724892dbc936353b8dd/summary\nConfirma fechas y co
  ndiciones en la web del organizador. Vía Banderín.
@@ -84,11 +84,11 @@ URL:https://www.golfdirecto.com/micro/game/69401724892dbc936353b8dd/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:91b0f62c0e5daf12f9f2@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261220
 SUMMARY:Final de Ranking Benjamín
-LOCATION:Club de Golf Olivar de la Hinojosa\, Madrid\, Madrid
+LOCATION:Club de Golf Olivar de la Hinojosa\, Madrid
 DESCRIPTION:Juvenil - Medal Play - Individual\nInscripción: abre el 7 de d
  iciembre\, cierra el 14 de diciembre.\nPrecio: Gratis.\nFicha oficial: htt
  ps://www.nextcaddy.com/tour/68354\nConfirma fechas y condiciones en la web

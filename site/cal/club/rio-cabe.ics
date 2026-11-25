@@ -11,11 +11,11 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:af15b596a90c0438106a@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
 SUMMARY:Ruta do Viño 2026
-LOCATION:Rio Cabe\, Monforte (casco Urbano)\, Lugo
+LOCATION:Rio Cabe
 DESCRIPTION:Social de club - Fourball - Parejas\nInscripción: cierra el 23
   de noviembre.\nFicha oficial: https://www.golfdirecto.com/micro/game/6b05
  a34c65911b42dd8ba4c6/summary\nConfirma fechas y condiciones en la web del 
@@ -26,11 +26,11 @@ URL:https://www.golfdirecto.com/micro/game/6b05a34c65911b42dd8ba4c6/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:755904ccec0801b96294@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:III Prueba Desafío Ribeira Sacra 2026 - Adega Cabo do Mundo
-LOCATION:Rio Cabe\, Monforte (casco Urbano)\, Lugo
+LOCATION:Rio Cabe
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   23 de noviembre\, cierra el 27 de noviembre.\nFicha oficial: https://www.
  golfdirecto.com/micro/game/6b042dbdd2ed4f3d1cda8784/summary\nConfirma fech

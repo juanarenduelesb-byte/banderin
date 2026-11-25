@@ -11,11 +11,11 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:c64cb4e658fddf7a6d7f@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Signature Tournament - Otoño / Autumn
-LOCATION:Club de Golf la Reserva de Sotogrande\, Sotogrande\, Cádiz
+LOCATION:Club de Golf la Reserva de Sotogrande
 DESCRIPTION:Circuito comercial - Stableford - Individual\nInscripción: abr
  e el 27 de octubre\, cierra el 26 de noviembre.\nFicha oficial: https://ww
  w.golfdirecto.com/micro/game/6953caad1a52f0e9fd92bb7d/summary\nConfirma fe
@@ -26,11 +26,11 @@ URL:https://www.golfdirecto.com/micro/game/6953caad1a52f0e9fd92bb7d/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:7c7ad065be0393c7719c@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
 SUMMARY:Regular Tournament (Annual League)
-LOCATION:Club de Golf la Reserva de Sotogrande\, Sotogrande\, Cádiz
+LOCATION:Club de Golf la Reserva de Sotogrande
 DESCRIPTION:Circuito comercial - Stableford - Individual\nInscripción: abr
  e el 4 de noviembre\, cierra el 3 de diciembre.\nFicha oficial: https://ww
  w.golfdirecto.com/micro/game/6953b19d1a52f0e9fdd15016/summary\nConfirma fe
@@ -41,11 +41,11 @@ URL:https://www.golfdirecto.com/micro/game/6953b19d1a52f0e9fdd15016/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:ce33fb6deaf6842c07b1@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20261211
 DTEND;VALUE=DATE:20261212
 SUMMARY:League Final / Final de la Liga
-LOCATION:Club de Golf la Reserva de Sotogrande\, Sotogrande\, Cádiz
+LOCATION:Club de Golf la Reserva de Sotogrande
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   10 de noviembre\, cierra el 11 de diciembre.\nFicha oficial: https://www.
  golfdirecto.com/micro/game/6953cbbf1a52f0e9fdbfb336/summary\nConfirma fech
@@ -56,11 +56,11 @@ URL:https://www.golfdirecto.com/micro/game/6953cbbf1a52f0e9fdbfb336/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:e430054cede06c01d39c@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20261216
 DTEND;VALUE=DATE:20261217
 SUMMARY:Torneo Staff vs. Members
-LOCATION:Club de Golf la Reserva de Sotogrande\, Sotogrande\, Cádiz
+LOCATION:Club de Golf la Reserva de Sotogrande
 DESCRIPTION:Social de club - Scramble - Parejas\nInscripción: abre el 12 d
  e enero\, cierra el 15 de diciembre.\nFicha oficial: https://www.golfdirec
  to.com/micro/game/6964e53c42551aa3719ec91f/summary\nConfirma fechas y cond
@@ -71,11 +71,11 @@ URL:https://www.golfdirecto.com/micro/game/6964e53c42551aa3719ec91f/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:f501efe9f7a8f74b8a47@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261220
 SUMMARY:Torneo de Navidad | Christmas Tournament
-LOCATION:Club de Golf la Reserva de Sotogrande\, Sotogrande\, Cádiz
+LOCATION:Club de Golf la Reserva de Sotogrande
 DESCRIPTION:Circuito comercial - Fourball - Parejas\nInscripción: abre el 
  18 de noviembre\, cierra el 18 de diciembre.\nFicha oficial: https://www.g
  olfdirecto.com/micro/game/6964d8e042551aa371d973c7/summary\nConfirma fecha
@@ -86,11 +86,11 @@ URL:https://www.golfdirecto.com/micro/game/6964d8e042551aa371d973c7/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:d26cba8e2c443d33071b@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20270101
 DTEND;VALUE=DATE:20270102
 SUMMARY:Torneo de Año Nuevo | New Year's Tournament
-LOCATION:Club de Golf la Reserva de Sotogrande\, Sotogrande\, Cádiz
+LOCATION:Club de Golf la Reserva de Sotogrande
 DESCRIPTION:Circuito comercial - Scramble - Parejas\nInscripción: abre el 
  12 de noviembre\, cierra el 30 de diciembre.\nFicha oficial: https://www.g
  olfdirecto.com/micro/game/6ae48b3a524439f9a107fbd8/summary\nConfirma fecha

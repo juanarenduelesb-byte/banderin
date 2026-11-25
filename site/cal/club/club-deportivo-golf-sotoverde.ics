@@ -11,12 +11,11 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:4a8bf5b5c62bd6f50e2f@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:4ª Prueba IX Liguilla Benjamín y Alevín de Castilla y León
-LOCATION:Club Deportivo Golf Sotoverde\, Arroyo de la Encomienda\, Valladol
- id
+LOCATION:Club Deportivo Golf Sotoverde\, Arroyo de la Encomienda
 DESCRIPTION:Juvenil - Medal Play - Individual\nInscripción: abre el 2 de o
  ctubre\, cierra el 26 de noviembre.\nPrecio: 10 €.\nFicha oficial: https
  ://www.nextcaddy.com/tour/74235\nConfirma fechas y condiciones en la web d

@@ -10,23 +10,22 @@ X-WR-TIMEZONE:Europe/Madrid
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:4b410f83c7ef4d34c157@banderin.es
-DTSTAMP:20261125T063849Z
-DTSTART;VALUE=DATE:20261127
-DTEND;VALUE=DATE:20261130
-SUMMARY:Jugadores No LV Cto Absoluto de la CV
-LOCATION:Club de Golf Font del Llop\, Monforte del Cid\, Alicante
-DESCRIPTION:Absoluto - Individual\nInscripción: abre el 23 de octubre\, ci
- erra el 23 de noviembre.\nPrecio: 140 €.\nFicha oficial: https://golfcv.
- com/torneo_seek/ver-torneo/?torneoid=2778\nConfirma fechas y condiciones e
- n la web del organizador. Vía Banderín.
+UID:ac1e900f77e49a4c68cc@banderin.es
+DTSTAMP:20261125T144514Z
+DTSTART;VALUE=DATE:20261125
+DTEND;VALUE=DATE:20261126
+SUMMARY:Thursday Seniors
+LOCATION:Club de Golf Font del Llop
+DESCRIPTION:Senior - Stableford - Individual\nFicha oficial: https://www.go
+ lfdirecto.com/micro/game/6b068cc79b4f2a62b85cb3f8/summary\nConfirma fechas
+  y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-URL:https://golfcv.com/torneo_seek/ver-torneo/?torneoid=2778
+URL:https://www.golfdirecto.com/micro/game/6b068cc79b4f2a62b85cb3f8/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:0a23fb5246ae2e9fd75e@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261130
 SUMMARY:XXX Campeonato Absoluto de la Comunitat Valenciana
@@ -41,11 +40,11 @@ URL:https://golfcv.com/torneo_seek/ver-torneo/?torneoid=2719
 END:VEVENT
 BEGIN:VEVENT
 UID:32c2ac8fc8cf0754a8e3@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261220
 SUMMARY:XVII Torneo Navidad Font del Llop 2026
-LOCATION:Club de Golf Font del Llop\, Monforte del Cid\, Alicante
+LOCATION:Club de Golf Font del Llop
 DESCRIPTION:Social de club - Scramble - Parejas\nInscripción: abre el 1 de
   noviembre\, cierra el 18 de diciembre.\nPrecio: 60 €.\nFicha oficial: h
  ttps://www.golfdirecto.com/micro/game/6ae6fc4f8f4f6415e0ac88d9/summary\nCo
@@ -56,11 +55,11 @@ URL:https://www.golfdirecto.com/micro/game/6ae6fc4f8f4f6415e0ac88d9/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:ac46267536003536d52d@banderin.es
-DTSTAMP:20261125T063849Z
-DTSTART;VALUE=DATE:20261227
-DTEND;VALUE=DATE:20261228
+DTSTAMP:20261125T144514Z
+DTSTART;VALUE=DATE:20261226
+DTEND;VALUE=DATE:20261227
 SUMMARY:XV Torneo Pav@ y UVA Embolsada Vinalopo
-LOCATION:Club de Golf Font del Llop\, Monforte del Cid\, Alicante
+LOCATION:Club de Golf Font del Llop
 DESCRIPTION:Social de club - Fourball - Parejas\nInscripción: abre el 3 de
   noviembre\, cierra el 26 de diciembre.\nPrecio: 60 €.\nFicha oficial: h
  ttps://www.golfdirecto.com/micro/game/6aea031e2267c6230f30b6ae/summary\nCo
@@ -68,5 +67,34 @@ DESCRIPTION:Social de club - Fourball - Parejas\nInscripción: abre el 3 de
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6aea031e2267c6230f30b6ae/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:fe080615614ee54f2d12@banderin.es
+DTSTAMP:20261125T144514Z
+DTSTART;VALUE=DATE:20261227
+DTEND;VALUE=DATE:20261228
+SUMMARY:Golf Staff Trophy
+LOCATION:Club de Golf Font del Llop
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/6b068d5b9b4f2a62b864dc0b/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6b068d5b9b4f2a62b864dc0b/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:4b410f83c7ef4d34c157@banderin.es
+DTSTAMP:20261125T144514Z
+DTSTART;VALUE=DATE:20261229
+DTEND;VALUE=DATE:20270101
+SUMMARY:Jugadores No LV Cto Absoluto de la CV
+LOCATION:Club de Golf Font del Llop\, Monforte del Cid\, Alicante
+DESCRIPTION:Absoluto - Individual\nInscripción: abre el 23 de octubre\, ci
+ erra el 23 de noviembre.\nPrecio: 140 €.\nFicha oficial: https://golfcv.
+ com/torneo_seek/ver-torneo/?torneoid=2778\nConfirma fechas y condiciones e
+ n la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://golfcv.com/torneo_seek/ver-torneo/?torneoid=2778
 END:VEVENT
 END:VCALENDAR

@@ -11,7 +11,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:93f1a8daf7cbb6d45510@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261201
 SUMMARY:Cto Dobles de Profesionales de la CV
@@ -26,14 +26,15 @@ URL:https://golfcv.com/torneo_seek/ver-torneo/?torneoid=2746
 END:VEVENT
 BEGIN:VEVENT
 UID:5faabacb6d9bec8cfcf6@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20261215
 DTEND;VALUE=DATE:20261217
 SUMMARY:Final Liguilla Masculina Senior 2026
 LOCATION:Oliva Golf\, Oliva\, Valencia
-DESCRIPTION:Senior - Individual\nFicha oficial: https://golfcv.com/torneo_s
- eek/ver-torneo/?torneoid=2724\nConfirma fechas y condiciones en la web del
-  organizador. Vía Banderín.
+DESCRIPTION:Senior - Individual\nInscripción: abre el 25 de noviembre\, ci
+ erra el 10 de diciembre.\nFicha oficial: https://golfcv.com/torneo_seek/ve
+ r-torneo/?torneoid=2724\nConfirma fechas y condiciones en la web del organ
+ izador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://golfcv.com/torneo_seek/ver-torneo/?torneoid=2724

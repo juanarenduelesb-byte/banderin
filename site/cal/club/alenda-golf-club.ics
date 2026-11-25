@@ -11,11 +11,11 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:e81d9047d5aaf1bfac76@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:WCGS-106194-Individual Stableford
-LOCATION:Alenda Golf Club\, Monforte del Cid\, Alicante
+LOCATION:Alenda Golf Club
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   14 de noviembre\, cierra el 22 de noviembre.\nPrecio: 66 €.\nFicha ofic
  ial: https://www.golfdirecto.com/micro/game/6aedb09202e839445a227108/summa

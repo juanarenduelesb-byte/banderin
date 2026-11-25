@@ -11,11 +11,11 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:1bcdc7672a0ff33571b8@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20270530
 DTEND;VALUE=DATE:20270531
 SUMMARY:Mulligan 26/27 - Montealvar
-LOCATION:Montealvar\, Yebes\, Guadalajara
+LOCATION:Montealvar
 DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
  //www.golfdirecto.com/micro/game/6afe8efa53aeeeb7e53d16aa/summary\nConfirm
  a fechas y condiciones en la web del organizador. Vía Banderín.

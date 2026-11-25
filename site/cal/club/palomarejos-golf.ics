@@ -11,11 +11,11 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:7df0c89c3b0bb959a1e8@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20270313
 DTEND;VALUE=DATE:20270314
 SUMMARY:Mulligan 26/27 - Palomarejos
-LOCATION:Palomarejos Golf\, Talavera de la Reina\, Toledo
+LOCATION:Palomarejos Golf
 DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
  //www.golfdirecto.com/micro/game/6afe8e1953aeeeb7e51dffb3/summary\nConfirm
  a fechas y condiciones en la web del organizador. Vía Banderín.

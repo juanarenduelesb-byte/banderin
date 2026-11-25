@@ -11,11 +11,11 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:a5416099b53488c464c7@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Campeonato Andalucía MASC Categoría Mid Amateur
-LOCATION:Montecastillo Barceló Golf Club\, Jerez de la Frontera\, Cádiz
+LOCATION:Montecastillo Barceló Golf Club\, Jerez de la Frontera
 DESCRIPTION:Mid-Amateur - Medal Play - Individual\nInscripción: abre el 3 
  de noviembre\, cierra el 25 de noviembre.\nPrecio: 100 €.\nFicha oficial
  : https://www.nextcaddy.com/tour/61247\nConfirma fechas y condiciones en l

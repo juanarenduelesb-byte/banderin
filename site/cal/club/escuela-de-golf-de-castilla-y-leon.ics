@@ -11,11 +11,11 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:ee010371e580f53ba404@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261220
 SUMMARY:Torneo de Navidad 2026
-LOCATION:Escuela de Golf de Castilla y Leon\, Valladolid\, Valladolid
+LOCATION:Escuela de Golf de Castilla y Leon
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   21 de noviembre\, cierra el 16 de diciembre.\nPrecio: 30 €.\nFicha ofic
  ial: https://www.golfdirecto.com/micro/game/6b01803b308888f8b432faf0/summa

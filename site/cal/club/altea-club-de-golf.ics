@@ -11,11 +11,11 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:efa7b210f549bb932d84@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Copa de Otoño 2026
-LOCATION:Altea Club de Golf\, Altea la Vella\, Alicante
+LOCATION:Altea Club de Golf
 DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
  //www.golfdirecto.com/micro/game/6af8435dd4037456f9533ff2/summary\nConfirm
  a fechas y condiciones en la web del organizador. Vía Banderín.

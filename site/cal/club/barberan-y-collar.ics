@@ -11,11 +11,11 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:30f1c6eb06fc22ff53cf@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:Liga Seniors Noviembre
-LOCATION:Barberan y Collar\, Madrid\, Madrid
+LOCATION:Barberan y Collar
 DESCRIPTION:Senior - Stableford - Individual\nInscripción: abre el 15 de n
  oviembre\, cierra el 23 de noviembre.\nPrecio: 9 €.\nFicha oficial: http
  s://www.golfdirecto.com/micro/game/697894855dc6a5fcc72c4d17/summary\nConfi
@@ -26,11 +26,11 @@ URL:https://www.golfdirecto.com/micro/game/697894855dc6a5fcc72c4d17/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:32230e1b2e713fd35533@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20261208
 DTEND;VALUE=DATE:20261209
 SUMMARY:Premio Social y Virgen de Loreto
-LOCATION:Barberan y Collar\, Madrid\, Madrid
+LOCATION:Barberan y Collar
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   20 de noviembre\, cierra el 3 de diciembre.\nPrecio: 10 €.\nFicha ofici
  al: https://www.golfdirecto.com/micro/game/6a7d8ccc61fd16bcfc9e8e63/summar
@@ -42,11 +42,11 @@ URL:https://www.golfdirecto.com/micro/game/6a7d8ccc61fd16bcfc9e8e63/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:46e05ed9cdc0118adbc0@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20261208
 DTEND;VALUE=DATE:20261209
 SUMMARY:Torneo "Nuestra Señora de Loreto" SOLO AQUÍ INVITADOS
-LOCATION:Barberan y Collar\, Madrid\, Madrid
+LOCATION:Barberan y Collar
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   20 de noviembre\, cierra el 3 de diciembre.\nPrecio: 30 €.\nFicha ofici
  al: https://www.golfdirecto.com/micro/game/6aee192de0349cc290f6cd36/summar
@@ -58,11 +58,11 @@ URL:https://www.golfdirecto.com/micro/game/6aee192de0349cc290f6cd36/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:bd1b8dd0880e59aa4646@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:Liga Damas Barberán Feliz Navidad
-LOCATION:Barberan y Collar\, Madrid\, Madrid
+LOCATION:Barberan y Collar
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   30 de noviembre\, cierra el 10 de diciembre.\nPrecio: 10 €.\nFicha ofic
  ial: https://www.golfdirecto.com/micro/game/69755fca45d9e07d123803c2/summa
@@ -74,11 +74,11 @@ URL:https://www.golfdirecto.com/micro/game/69755fca45d9e07d123803c2/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:47412c647144b214a368@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:Torneo Padres e Hijos
-LOCATION:Barberan y Collar\, Madrid\, Madrid
+LOCATION:Barberan y Collar
 DESCRIPTION:Juvenil - Greensome - Parejas\nFicha oficial: https://www.golfd
  irecto.com/micro/game/6af30e2f6aacb155d8acd094/summary\nConfirma fechas y 
  condiciones en la web del organizador. Vía Banderín.
@@ -88,11 +88,11 @@ URL:https://www.golfdirecto.com/micro/game/6af30e2f6aacb155d8acd094/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:3c421017670a42e73858@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20261216
 DTEND;VALUE=DATE:20261217
 SUMMARY:Liga Seniors Diciembre
-LOCATION:Barberan y Collar\, Madrid\, Madrid
+LOCATION:Barberan y Collar
 DESCRIPTION:Senior - Stableford - Individual\nInscripción: abre el 7 de di
  ciembre\, cierra el 14 de diciembre.\nFicha oficial: https://www.golfdirec
  to.com/micro/game/697895295dc6a5fcc734eaaa/summary\nConfirma fechas y cond

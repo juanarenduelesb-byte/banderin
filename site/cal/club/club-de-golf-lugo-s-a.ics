@@ -11,11 +11,11 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:861902f1f7fe181852b9@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:2p XI Liga de Dobles
-LOCATION:Club de Golf Lugo S.a.\, Ribas de Miño (san Mamede) (lugo)\, Lugo
+LOCATION:Club de Golf Lugo S.a.
 DESCRIPTION:Social de club - Scramble - Parejas\nInscripción: abre el 20 d
  e noviembre\, cierra el 28 de noviembre.\nFicha oficial: https://www.golfd
  irecto.com/micro/game/6afee800fb9c521b04eb8bee/summary\nConfirma fechas y 

@@ -11,11 +11,11 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:2a2cb2bd1f90230cd83b@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
 SUMMARY:Final Circuito Senior Masculino
-LOCATION:Golf Los Retamares\, Alalpardo\, Madrid
+LOCATION:Golf Los Retamares\, Valdeolmos-Alalpardo
 DESCRIPTION:Senior - Stableford - Individual\nInscripción: abre el 11 de n
  oviembre\, cierra el 11 de noviembre.\nPrecio: Gratis.\nFicha oficial: htt
  ps://www.nextcaddy.com/tour/68156\nConfirma fechas y condiciones en la web
@@ -26,11 +26,11 @@ URL:https://www.nextcaddy.com/tour/68156
 END:VEVENT
 BEGIN:VEVENT
 UID:8fee8fedbe572cdad583@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
 SUMMARY:Final Circuito Supersenior Masculino
-LOCATION:Golf Los Retamares\, Alalpardo\, Madrid
+LOCATION:Golf Los Retamares\, Valdeolmos-Alalpardo
 DESCRIPTION:Senior - Stableford - Individual\nInscripción: abre el 24 de n
  oviembre\, cierra el 24 de noviembre.\nPrecio: Gratis.\nFicha oficial: htt
  ps://www.nextcaddy.com/tour/75588\nConfirma fechas y condiciones en la web

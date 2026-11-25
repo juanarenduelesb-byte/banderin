@@ -11,11 +11,11 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:854e174a71d976f25eb0@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:Torneo Noveles
-LOCATION:Club de Golf el Bosque\, Chiva\, Valencia
+LOCATION:Club de Golf el Bosque
 DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
  //www.golfdirecto.com/micro/game/69737893d8ad1b97c86f5045/summary\nConfirm
  a fechas y condiciones en la web del organizador. Vía Banderín.
@@ -25,11 +25,11 @@ URL:https://www.golfdirecto.com/micro/game/69737893d8ad1b97c86f5045/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:e0b5682cfeb5899d0c17@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
 SUMMARY:VIII Damas Marfil Heritage
-LOCATION:Club de Golf el Bosque\, Chiva\, Valencia
+LOCATION:Club de Golf el Bosque
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   5 de diciembre\, cierra el 11 de diciembre.\nFicha oficial: https://www.g
  olfdirecto.com/micro/game/68f876d4d4916519150ea585/summary\nConfirma fecha
@@ -40,11 +40,11 @@ URL:https://www.golfdirecto.com/micro/game/68f876d4d4916519150ea585/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:0c9758d862a195d130e3@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20261217
 DTEND;VALUE=DATE:20261218
 SUMMARY:Torneo LPG
-LOCATION:Club de Golf el Bosque\, Chiva\, Valencia
+LOCATION:Club de Golf el Bosque
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   9 de diciembre\, cierra el 9 de diciembre.\nFicha oficial: https://www.go
  lfdirecto.com/micro/game/693ad9047b4c3868a273abcd/summary\nConfirma fechas
@@ -55,11 +55,11 @@ URL:https://www.golfdirecto.com/micro/game/693ad9047b4c3868a273abcd/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:624e63551f422e34aa63@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261220
 SUMMARY:Torneo Memorial Alfonso Pinto
-LOCATION:Club de Golf el Bosque\, Chiva\, Valencia
+LOCATION:Club de Golf el Bosque
 DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
  //www.golfdirecto.com/micro/game/69737c36d8ad1b97c8e681a3/summary\nConfirm
  a fechas y condiciones en la web del organizador. Vía Banderín.
@@ -69,11 +69,11 @@ URL:https://www.golfdirecto.com/micro/game/69737c36d8ad1b97c8e681a3/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:a16d05484dd821cdef65@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20261220
 DTEND;VALUE=DATE:20261221
 SUMMARY:18H Torneo Mensual Infantil
-LOCATION:Club de Golf el Bosque\, Chiva\, Valencia
+LOCATION:Club de Golf el Bosque
 DESCRIPTION:Juvenil - Stableford - Individual\nFicha oficial: https://www.g
  olfdirecto.com/micro/game/69737c65d8ad1b97c8ebd887/summary\nConfirma fecha
  s y condiciones en la web del organizador. Vía Banderín.
@@ -83,11 +83,11 @@ URL:https://www.golfdirecto.com/micro/game/69737c65d8ad1b97c8ebd887/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:363677517486193bdc75@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20261220
 DTEND;VALUE=DATE:20261221
 SUMMARY:9H Torneo Mensual Infantil
-LOCATION:Club de Golf el Bosque\, Chiva\, Valencia
+LOCATION:Club de Golf el Bosque
 DESCRIPTION:Juvenil - Stableford - Individual\nFicha oficial: https://www.g
  olfdirecto.com/micro/game/69737c8fd8ad1b97c8f044fe/summary\nConfirma fecha
  s y condiciones en la web del organizador. Vía Banderín.
@@ -97,11 +97,11 @@ URL:https://www.golfdirecto.com/micro/game/69737c8fd8ad1b97c8f044fe/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:a66cc3bf81032c208f3b@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20270117
 DTEND;VALUE=DATE:20270118
 SUMMARY:Damas Almudena Dehesa
-LOCATION:Club de Golf el Bosque\, Chiva\, Valencia
+LOCATION:Club de Golf el Bosque
 DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
  //www.golfdirecto.com/micro/game/6af1e9122f0e9df18bb0cfec/summary\nConfirm
  a fechas y condiciones en la web del organizador. Vía Banderín.
@@ -111,11 +111,11 @@ URL:https://www.golfdirecto.com/micro/game/6af1e9122f0e9df18bb0cfec/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:6acc21c4dc534c878463@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20270211
 DTEND;VALUE=DATE:20270212
 SUMMARY:Torneo LPG
-LOCATION:Club de Golf el Bosque\, Chiva\, Valencia
+LOCATION:Club de Golf el Bosque
 DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
  //www.golfdirecto.com/micro/game/6afd4e904a43c8bc62ef5ca5/summary\nConfirm
  a fechas y condiciones en la web del organizador. Vía Banderín.
@@ -125,11 +125,11 @@ URL:https://www.golfdirecto.com/micro/game/6afd4e904a43c8bc62ef5ca5/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:f2dd62550615b8913efb@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20270221
 DTEND;VALUE=DATE:20270222
 SUMMARY:Damas Clinica M. Fort
-LOCATION:Club de Golf el Bosque\, Chiva\, Valencia
+LOCATION:Club de Golf el Bosque
 DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
  //www.golfdirecto.com/micro/game/6af1e9643f87d1a99f6fc46b/summary\nConfirm
  a fechas y condiciones en la web del organizador. Vía Banderín.
@@ -139,11 +139,11 @@ URL:https://www.golfdirecto.com/micro/game/6af1e9643f87d1a99f6fc46b/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:1687050e2c83e4f6001e@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20270309
 DTEND;VALUE=DATE:20270310
 SUMMARY:AESGOLF Circuito por Equipos
-LOCATION:Club de Golf el Bosque\, Chiva\, Valencia
+LOCATION:Club de Golf el Bosque
 DESCRIPTION:Senior - Fourball - Parejas\nFicha oficial: https://www.golfdir
  ecto.com/micro/game/6a969b72ded811e432879043/summary\nConfirma fechas y co
  ndiciones en la web del organizador. Vía Banderín.
@@ -153,11 +153,11 @@ URL:https://www.golfdirecto.com/micro/game/6a969b72ded811e432879043/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:cfa47eb9c2982a6614c5@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20270321
 DTEND;VALUE=DATE:20270322
 SUMMARY:Damas Clinica Maria Hueso
-LOCATION:Club de Golf el Bosque\, Chiva\, Valencia
+LOCATION:Club de Golf el Bosque
 DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
  //www.golfdirecto.com/micro/game/6af1e99d2f0e9df18bbf0e5c/summary\nConfirm
  a fechas y condiciones en la web del organizador. Vía Banderín.
@@ -167,11 +167,11 @@ URL:https://www.golfdirecto.com/micro/game/6af1e99d2f0e9df18bbf0e5c/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:d20ab258f5694ae1a00f@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20270418
 DTEND;VALUE=DATE:20270419
 SUMMARY:Damas Look At My Skin
-LOCATION:Club de Golf el Bosque\, Chiva\, Valencia
+LOCATION:Club de Golf el Bosque
 DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
  //www.golfdirecto.com/micro/game/6af1e9cb2f0e9df18bc48309/summary\nConfirm
  a fechas y condiciones en la web del organizador. Vía Banderín.
@@ -181,11 +181,11 @@ URL:https://www.golfdirecto.com/micro/game/6af1e9cb2f0e9df18bc48309/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:d2703e1a95a8ac89338b@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20270516
 DTEND;VALUE=DATE:20270517
 SUMMARY:Damas Bisuteria Verca
-LOCATION:Club de Golf el Bosque\, Chiva\, Valencia
+LOCATION:Club de Golf el Bosque
 DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
  //www.golfdirecto.com/micro/game/6af1e9f22f0e9df18bc7285b/summary\nConfirm
  a fechas y condiciones en la web del organizador. Vía Banderín.
@@ -195,11 +195,11 @@ URL:https://www.golfdirecto.com/micro/game/6af1e9f22f0e9df18bc7285b/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:190c511f593d07ed7366@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20270606
 DTEND;VALUE=DATE:20270607
 SUMMARY:Damas
-LOCATION:Club de Golf el Bosque\, Chiva\, Valencia
+LOCATION:Club de Golf el Bosque
 DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
  //www.golfdirecto.com/micro/game/6af1ea133f87d1a99f8388f6/summary\nConfirm
  a fechas y condiciones en la web del organizador. Vía Banderín.
@@ -209,11 +209,11 @@ URL:https://www.golfdirecto.com/micro/game/6af1ea133f87d1a99f8388f6/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:10b3e30c555dec323903@banderin.es
-DTSTAMP:20261125T063849Z
+DTSTAMP:20261125T144514Z
 DTSTART;VALUE=DATE:20270718
 DTEND;VALUE=DATE:20270719
 SUMMARY:Damas
-LOCATION:Club de Golf el Bosque\, Chiva\, Valencia
+LOCATION:Club de Golf el Bosque
 DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
  //www.golfdirecto.com/micro/game/6af1ea3c3f87d1a99f8a6df0/summary\nConfirm
  a fechas y condiciones en la web del organizador. Vía Banderín.
