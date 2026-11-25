@@ -11,7 +11,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:fdb1e36efa4c17862d5c@banderin.es
-DTSTAMP:20261124T145432Z
+DTSTAMP:20261125T063849Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:XXIII Memorial Juan Ayoso
@@ -23,5 +23,20 @@ DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.nextcaddy.com/tour/75282
+END:VEVENT
+BEGIN:VEVENT
+UID:5efea014519b60449928@banderin.es
+DTSTAMP:20261125T063849Z
+DTSTART;VALUE=DATE:20261210
+DTEND;VALUE=DATE:20261211
+SUMMARY:I Torneo de Golf de la FLOAN
+LOCATION:Rota Club de Golf\, Rota Naval\, Cádiz
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  24 de noviembre\, cierra el 7 de diciembre.\nPrecio: Gratis.\nFicha ofici
+ al: https://www.nextcaddy.com/tour/75594\nConfirma fechas y condiciones en
+  la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nextcaddy.com/tour/75594
 END:VEVENT
 END:VCALENDAR

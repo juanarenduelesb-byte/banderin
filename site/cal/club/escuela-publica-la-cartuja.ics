@@ -10,36 +10,8 @@ X-WR-TIMEZONE:Europe/Madrid
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:248969ae5d4b854f32d3@banderin.es
-DTSTAMP:20261124T145432Z
-DTSTART;VALUE=DATE:20261124
-DTEND;VALUE=DATE:20261125
-SUMMARY:Amigos Cartujanos 11ª Jornada 24/11/26
-LOCATION:Escuela Pública la Cartuja\, Sevilla\, Sevilla
-DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
- //www.nextcaddy.com/tour/75574\nConfirma fechas y condiciones en la web de
- l organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.nextcaddy.com/tour/75574
-END:VEVENT
-BEGIN:VEVENT
-UID:ceedb1e0cf9888161baa@banderin.es
-DTSTAMP:20261124T145432Z
-DTSTART;VALUE=DATE:20261124
-DTEND;VALUE=DATE:20261125
-SUMMARY:Jueves Cartujano Jª11 3t 24/11/26
-LOCATION:Escuela Pública la Cartuja\, Sevilla\, Sevilla
-DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
- //www.nextcaddy.com/tour/75554\nConfirma fechas y condiciones en la web de
- l organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.nextcaddy.com/tour/75554
-END:VEVENT
-BEGIN:VEVENT
 UID:3992e8bcd79878c78ba3@banderin.es
-DTSTAMP:20261124T145432Z
+DTSTAMP:20261125T063849Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:3ª Jornada Viernes XIV Liga Junior Golf 2026-2027
@@ -53,7 +25,7 @@ URL:https://www.nextcaddy.com/tour/75559
 END:VEVENT
 BEGIN:VEVENT
 UID:6b7b7fccbb6c70c75d44@banderin.es
-DTSTAMP:20261124T145432Z
+DTSTAMP:20261125T063849Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:3ª Jornada Sábado XIV Liga Junior Golf 2026-2027
@@ -67,7 +39,7 @@ URL:https://www.nextcaddy.com/tour/75560
 END:VEVENT
 BEGIN:VEVENT
 UID:532b63c6153495bdd760@banderin.es
-DTSTAMP:20261124T145432Z
+DTSTAMP:20261125T063849Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:3ª Jornada VIII Liga Junior P&P Golf Otoño 2026-2027
@@ -81,7 +53,7 @@ URL:https://www.nextcaddy.com/tour/75563
 END:VEVENT
 BEGIN:VEVENT
 UID:93cef649a945b85f7b37@banderin.es
-DTSTAMP:20261124T145432Z
+DTSTAMP:20261125T063849Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
 SUMMARY:Torneo Fin de Escuela Golf Otoño 26-27

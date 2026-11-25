@@ -10,23 +10,8 @@ X-WR-TIMEZONE:Europe/Madrid
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:f4a6af696cd7231e2bf7@banderin.es
-DTSTAMP:20261124T145432Z
-DTSTART;VALUE=DATE:20261127
-DTEND;VALUE=DATE:20261128
-SUMMARY:XVII Torneo Astican - XI Mrial. Enrique Perez
-LOCATION:Real Club Golf las Palmas\, Santa Brigida (capital Municipal)\, La
- s Palmas
-DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
- //www.golfdirecto.com/micro/game/6aeb037d50fe8a6f263b24a3/summary\nConfirm
- a fechas y condiciones en la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.golfdirecto.com/micro/game/6aeb037d50fe8a6f263b24a3/summary
-END:VEVENT
-BEGIN:VEVENT
 UID:ab614d05c6dafcdf10ed@banderin.es
-DTSTAMP:20261124T145432Z
+DTSTAMP:20261125T063849Z
 DTSTART;VALUE=DATE:20270204
 DTEND;VALUE=DATE:20270205
 SUMMARY:⚠️ Pruebas para la Web

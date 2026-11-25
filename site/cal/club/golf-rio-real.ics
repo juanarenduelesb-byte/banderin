@@ -10,22 +10,8 @@ X-WR-TIMEZONE:Europe/Madrid
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:e2ce8a2c4819521f4f57@banderin.es
-DTSTAMP:20261124T145432Z
-DTSTART;VALUE=DATE:20261124
-DTEND;VALUE=DATE:20261125
-SUMMARY:Ybb Back Tees Rio Real
-LOCATION:Golf Río Real\, Marbella\, Málaga
-DESCRIPTION:Social de club - Medal Play - Individual\nFicha oficial: https:
- //www.golfdirecto.com/micro/game/6b01beab664a1e6489553624/summary\nConfirm
- a fechas y condiciones en la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.golfdirecto.com/micro/game/6b01beab664a1e6489553624/summary
-END:VEVENT
-BEGIN:VEVENT
 UID:9a581f42d8194f4f9429@banderin.es
-DTSTAMP:20261124T145432Z
+DTSTAMP:20261125T063849Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:Campeonato Andalucía Femenino Categoría Mid Amateur

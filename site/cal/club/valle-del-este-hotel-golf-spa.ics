@@ -11,7 +11,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:efe337f0c64840c8b043@banderin.es
-DTSTAMP:20261124T145432Z
+DTSTAMP:20261125T063849Z
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261201
 SUMMARY:Alamo Golf Society Sponsored by Julie & Steve Crook
@@ -23,21 +23,5 @@ DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6aa763add8e43faad755fec8/summary
-END:VEVENT
-BEGIN:VEVENT
-UID:ea8ad65727a6ed686ff4@banderin.es
-DTSTAMP:20261124T145432Z
-DTSTART;VALUE=DATE:20261212
-DTEND;VALUE=DATE:20261213
-SUMMARY:Proshop Christmas Tournament
-LOCATION:Valle del Este Hotel Golf Spa\, Vera\, Almería
-DESCRIPTION:Circuito comercial - Stableford - Individual\nInscripción: abr
- e el 16 de noviembre\, cierra el 11 de diciembre.\nPrecio: 60 €.\nFicha 
- oficial: https://www.golfdirecto.com/micro/game/6afb6f6a5445bc1029f8a626/s
- ummary\nConfirma fechas y condiciones en la web del organizador. Vía Band
- erín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.golfdirecto.com/micro/game/6afb6f6a5445bc1029f8a626/summary
 END:VEVENT
 END:VCALENDAR

@@ -11,7 +11,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:dd8ff36d6bc36061644a@banderin.es
-DTSTAMP:20261124T145432Z
+DTSTAMP:20261125T063849Z
 DTSTART;VALUE=DATE:20261211
 DTEND;VALUE=DATE:20261212
 SUMMARY:SAS Stableford Eclectic - 108028
@@ -24,5 +24,20 @@ DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6aef0ab2e0349cc290a2b6e4/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:3735b26cc5d8d271b866@banderin.es
+DTSTAMP:20261125T063849Z
+DTSTART;VALUE=DATE:20270205
+DTEND;VALUE=DATE:20270206
+SUMMARY:Alicante Stableford
+LOCATION:Alicante Golf\, Sant Joan\, Alicante
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  19 de noviembre\, cierra el 2 de febrero.\nPrecio: 50 €.\nFicha oficial
+ : https://www.golfdirecto.com/micro/game/6b05fe526f9665f02201e5f9/summary\
+ nConfirma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6b05fe526f9665f02201e5f9/summary
 END:VEVENT
 END:VCALENDAR

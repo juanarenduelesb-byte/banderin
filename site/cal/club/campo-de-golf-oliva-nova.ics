@@ -11,7 +11,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:7981621e0d004024ee51@banderin.es
-DTSTAMP:20261124T145432Z
+DTSTAMP:20261125T063849Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:Torneo Navidad
@@ -24,5 +24,20 @@ DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6afc37c4669bd90e39022a72/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:198995c57616a3a64775@banderin.es
+DTSTAMP:20261125T063849Z
+DTSTART;VALUE=DATE:20270108
+DTEND;VALUE=DATE:20270109
+SUMMARY:Oliva Nova Stableford
+LOCATION:Campo de Golf Oliva-Nova\, Oliva\, Valencia
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  24 de diciembre\, cierra el 5 de enero.\nPrecio: 60 €.\nFicha oficial: 
+ https://www.golfdirecto.com/micro/game/6b05f8ca37dbfef559d0c8f1/summary\nC
+ onfirma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6b05f8ca37dbfef559d0c8f1/summary
 END:VEVENT
 END:VCALENDAR

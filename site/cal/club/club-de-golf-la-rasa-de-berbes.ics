@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Banderin//Torneos de golf//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Banderín - Club de Golf la Rasa de Berbes
+X-WR-CALDESC:Torneos de golf: Club de Golf la Rasa de Berbes. Se actualiza 
+ cada mañana. https://banderin.es
+X-WR-TIMEZONE:Europe/Madrid
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:1215a4e0a9cc7727d3c7@banderin.es
+DTSTAMP:20261125T063849Z
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261206
+SUMMARY:III Trofeo Copa Presidente. (O.m.)
+LOCATION:Club de Golf la Rasa de Berbes\, Ribadesella\, Asturias
+DESCRIPTION:Social de club - Medal Play - Individual\nInscripción: abre el
+  25 de noviembre\, cierra el 3 de diciembre.\nFicha oficial: https://www.g
+ olfdirecto.com/micro/game/6b05e8c037dbfef559d6a6e6/summary\nConfirma fecha
+ s y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6b05e8c037dbfef559d6a6e6/summary
+END:VEVENT
+END:VCALENDAR

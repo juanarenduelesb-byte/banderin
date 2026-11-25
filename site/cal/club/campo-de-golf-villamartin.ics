@@ -10,22 +10,8 @@ X-WR-TIMEZONE:Europe/Madrid
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:d3f88c060d2ffd23d4a9@banderin.es
-DTSTAMP:20261124T145432Z
-DTSTART;VALUE=DATE:20261124
-DTEND;VALUE=DATE:20261125
-SUMMARY:Monday Competition
-LOCATION:Campo de Golf Villamartin\, Orihuela-costa\, Alicante
-DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
- //www.golfdirecto.com/micro/game/6aff13c8fb9c521b04a9d242/summary\nConfirm
- a fechas y condiciones en la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.golfdirecto.com/micro/game/6aff13c8fb9c521b04a9d242/summary
-END:VEVENT
-BEGIN:VEVENT
 UID:c3716493cafc125c83f0@banderin.es
-DTSTAMP:20261124T145432Z
+DTSTAMP:20261125T063849Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
 SUMMARY:Thursday Competition

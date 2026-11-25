@@ -11,7 +11,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:e029a9b22839c680e225@banderin.es
-DTSTAMP:20261124T145432Z
+DTSTAMP:20261125T063849Z
 DTSTART;VALUE=DATE:20261208
 DTEND;VALUE=DATE:20261209
 SUMMARY:Rencontre AGFCB 30 - Lo Romero - Mardi 08 décembre 2026 - 4BB - 28
@@ -24,5 +24,19 @@ DESCRIPTION:Social de club - Fourball - Parejas\nInscripción: abre el 7 de
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6a9ef766e4e6c9f60ea463c1/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:6a0832ecae61c0c5f1dc@banderin.es
+DTSTAMP:20261125T063849Z
+DTSTART;VALUE=DATE:20270506
+DTEND;VALUE=DATE:20270510
+SUMMARY:First Costa Blanca Golf Event
+LOCATION:Campo de Golf Lo Romero\, Pilar de la Horadada\, Alicante
+DESCRIPTION:Social de club - Scramble - Parejas\nFicha oficial: https://www
+ .golfdirecto.com/micro/game/6b05a914cfb57efc14f81877/summary\nConfirma fec
+ has y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6b05a914cfb57efc14f81877/summary
 END:VEVENT
 END:VCALENDAR

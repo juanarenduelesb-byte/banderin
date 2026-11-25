@@ -11,7 +11,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:0893bdb475b68a7ff7a5@banderin.es
-DTSTAMP:20261124T145432Z
+DTSTAMP:20261125T063849Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Torneo PXG
@@ -23,5 +23,35 @@ DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6ada00ddb2884b135d52f0e5/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:26da3abd96c90ea9b5af@banderin.es
+DTSTAMP:20261125T063849Z
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261213
+SUMMARY:Torneo de Navidad
+LOCATION:Arcosur Golf\, Zaragoza\, Zaragoza
+DESCRIPTION:Social de club - Greensome - Parejas\nInscripción: abre el 24 
+ de noviembre\, cierra el 11 de diciembre.\nPrecio: 21 €.\nFicha oficial:
+  https://www.golfdirecto.com/micro/game/6b05bb4ecfb57efc14cddb78/summary\n
+ Confirma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6b05bb4ecfb57efc14cddb78/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:010d8241c9c89e348a07@banderin.es
+DTSTAMP:20261125T063849Z
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+SUMMARY:Torneo Cursillistas
+LOCATION:Arcosur Golf\, Zaragoza\, Zaragoza
+DESCRIPTION:Social de club - Greensome - Parejas\nInscripción: abre el 24 
+ de noviembre\, cierra el 12 de diciembre.\nPrecio: 11 €.\nFicha oficial:
+  https://www.golfdirecto.com/micro/game/6b05ba47cfb57efc149eeefe/summary\n
+ Confirma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6b05ba47cfb57efc149eeefe/summary
 END:VEVENT
 END:VCALENDAR
