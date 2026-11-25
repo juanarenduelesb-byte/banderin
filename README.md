@@ -96,3 +96,16 @@ Hace falta la misma llave larga (24 caracteres o más) en dos sitios; sin ella n
 2. Supabase → Integrations → Vault → New secret, con nombre `social_aviso_secreto`.
 
 Cada persona puede apagar los avisos en Social → Mi perfil → Editar perfil. Tope: 12 al día por persona.
+
+## Actualización tres veces al día
+
+Los torneos se actualizan a las 6:20, 13:20 y 20:20 (hora de Madrid en invierno; en verano, una hora más tarde).
+GitHub retrasa o se salta sus tareas programadas, así que quien da la hora es un programador de Cloudflare
+(`workers/programador`), que lanza la actualización en GitHub. Las tareas de GitHub quedan como respaldo y,
+si llegan las dos, solo se actualiza una vez por franja.
+
+Para instalarlo (una vez):
+1. GitHub → Settings → Developer settings → Fine-grained tokens → Generate new token. Solo el repositorio
+   `banderin`, permiso **Actions: Read and write**, caducidad de un año. Apunta en el calendario cuándo caduca.
+2. Repositorio → Settings → Secrets and variables → Actions → New secret: `GH_DISPATCH_TOKEN` con ese token.
+3. Actions → «Instalar el programador» → Run workflow.

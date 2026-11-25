@@ -2,12 +2,19 @@ name: Actualizar torneos
 
 on:
   schedule:
-    # GitHub retrasa horas (o se salta) las tareas programadas: la de las 5:23 llegaba a las 12:37.
-    # Por eso se intenta cada hora en dos ventanas, y el trabajo «decidir» deja pasar solo la primera
-    # de cada ventana que llegue; las demás terminan en segundos. Hora UTC (Madrid = +1 en invierno).
-    - cron: '17 4-10 * * *'   # mañana: de 5:17 a 11:17
-    - cron: '47 12-16 * * *'  # tarde: de 13:47 a 17:47
+    # Respaldo. El lanzamiento puntual lo hace el programador de Cloudflare (workers/programador) a las
+    # 6:20, 13:20 y 20:20 de Madrid; GitHub retrasa horas o se salta sus tareas programadas. Si el
+    # programador falla, estos intentos cubren cada ventana y «decidir» deja pasar solo uno por ventana.
+    # Hora UTC (Madrid = +1 en invierno).
+    - cron: '47 5-9 * * *'    # mañana
+    - cron: '47 12-15 * * *'  # mediodía
+    - cron: '47 19-22 * * *'  # noche
   workflow_dispatch:
+    inputs:
+      auto:
+        description: 'Lanzado por el programador (no tocar)'
+        required: false
+        default: '0'
 
 permissions:
   contents: write
@@ -26,10 +33,14 @@ jobs:
           EV: ${{ github.event_name }}
           REPO: ${{ github.repository }}
           RUN: ${{ github.run_id }}
+          AUTO: ${{ github.event.inputs.auto }}
         run: |
-          if [ "$EV" != "schedule" ]; then echo "go=1" >> "$GITHUB_OUTPUT"; exit 0; fi
-          H=$(date -u +%H); D=$(date -u +%Y-%m-%d)
-          if [ "$H" -lt 12 ]; then A="${D}T04:00:00Z"; B="${D}T12:00:00Z"; else A="${D}T12:00:00Z"; B="${D}T23:59:59Z"; fi
+          # A mano: siempre. Programador o tarea de GitHub: una sola actualización por ventana.
+          if [ "$EV" != "schedule" ] && [ "$AUTO" != "1" ]; then echo "go=1" >> "$GITHUB_OUTPUT"; exit 0; fi
+          H=$((10#$(date -u +%H))); D=$(date -u +%Y-%m-%d)
+          if [ "$H" -lt 11 ]; then A="${D}T04:00:00Z"; B="${D}T11:00:00Z"
+          elif [ "$H" -lt 17 ]; then A="${D}T11:00:00Z"; B="${D}T17:00:00Z"
+          else A="${D}T17:00:00Z"; B="${D}T23:59:59Z"; fi
           # Solo cuentan las pasadas que actualizaron de verdad (o están en ello); las que se saltaron no.
           OK=$(gh api "repos/$REPO/actions/workflows/actualizar.yml/runs?created=%3E%3D$A&per_page=50" \
             --jq "[.workflow_runs[] | select(.id != $RUN and .created_at < \"$B\")] | map(.id) | join(\" \")")

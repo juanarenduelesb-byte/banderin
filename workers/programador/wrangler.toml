@@ -1,0 +1,9 @@
+name = "banderin-programador"
+main = "index.js"
+compatibility_date = "2026-11-01"
+workers_dev = false
+preview_urls = false
+
+# Hora UTC. En invierno Madrid va una hora por delante (6:20, 13:20 y 20:20); en verano, dos.
+[triggers]
+crons = ["20 5 * * *", "20 12 * * *", "20 19 * * *"]
