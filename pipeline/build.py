@@ -212,8 +212,9 @@ for o in NC.values():
     add(t)
 
 # Golf Directo
-GDC = {c['_id']: c for c in json.load(open('/home/claude/raw/gd/clubs.json'))['data']}
-GD = json.load(open('/home/claude/raw/gd/official.json'))
+_gdc, _gdo = '/home/claude/raw/gd/clubs.json', '/home/claude/raw/gd/official.json'
+GDC = {c['_id']: c for c in json.load(open(_gdc))['data']} if os.path.exists(_gdc) else {}
+GD = json.load(open(_gdo)) if os.path.exists(_gdo) else {}
 def local(iso):
     if not iso: return None
     return dt.datetime.fromisoformat(iso.replace('Z', '+00:00')).astimezone(MAD).date().isoformat()

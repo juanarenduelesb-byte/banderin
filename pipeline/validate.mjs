@@ -10,7 +10,7 @@ for (const t of N.TORNEOS) {
 if (!N.REVISION || !Array.isArray(N.CAMBIOS) || !Array.isArray(N.COBERTURA)) fail('faltan REVISION, CAMBIOS o COBERTURA');
 if (!Array.isArray(P.PASADOS) || !P.PASADOS.length) fail('PASADOS vacío');
 const srcs = new Set(N.TORNEOS.map((t) => t.src));
-for (const s of ['NextCaddy', 'Golf Directo']) if (!srcs.has(s)) fail('falta la fuente ' + s);
+for (const s of ['NextCaddy']) if (!srcs.has(s)) fail('falta la fuente ' + s); // Golf Directo ya no se lee (26/11/2026): solo quedan sus torneos congelados
 if (prev && fs.existsSync(prev)) {
   const A = load(prev);
   const a = (A.TORNEOS || []).length, n = N.TORNEOS.length;

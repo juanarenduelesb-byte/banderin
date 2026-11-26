@@ -63,9 +63,19 @@ for t in T:
         o['ok']=TODAY if ok else None
         if s=='postponed': o['aviso']='Aplazado por el organizador'
     out.append(o)
+# Golf Directo prohíbe a Banderín en su robots.txt desde el 26/11/2026. Sus torneos ya conocidos se muestran
+# congelados (copia del 25/11) hasta que pase su fecha, con aviso en la ficha. No se vuelve a leer su web.
+GD_CONG='2026-11-25'
+_cg=os.path.join(os.path.dirname(os.path.abspath(__file__)),'datos','gd_congelado.json')
+N_CG=0
+if os.path.exists(_cg):
+    _urls={o['url'] for o in out}
+    for g in json.load(open(_cg,encoding='utf-8')):
+        if (g.get('e') or g['s'])<TODAY or g['url'] in _urls: continue
+        o=dict(g); o.pop('ok',None); o['cg']=GD_CONG; out.append(o); N_CG+=1
 F=[
  {'nombre':'NextCaddy','desc':'Plataforma de las federaciones de Andalucía, Madrid, Castilla y León y Canarias, y de 244 clubes. Fichas con precio, plazas y plazo.','url':'https://www.nextcaddy.com/','volcada':True},
- {'nombre':'Golf Directo','desc':'Plataforma de inscripciones de clubes y federaciones de las 17 comunidades (Cataluña, País Vasco, Galicia, Aragón, Baleares y más).','url':'https://www.golfdirecto.com/','volcada':True},
+ {'nombre':'Golf Directo','desc':'Plataforma de inscripciones de clubes y federaciones. Desde el 26/11/2026 no permite que Banderín la lea: sus torneos se muestran con los datos del 25/11 y no se actualizan.','url':'https://www.golfdirecto.com/','volcada':False},
  {'nombre':'Federación de Golf de la Comunitat Valenciana','desc':'Calendario oficial con precio, plazas y plazo de inscripción.','url':'https://golfcv.com/torneo_seek/','volcada':True},
  {'nombre':'RFEG','desc':'Campeonatos de España y pruebas nacionales.','url':'https://rfegolf.es/competiciones/calendario-torneos','volcada':True},
  {'nombre':'Federación de Golf del Principado de Asturias','desc':'Calendario completo de la federación, con plazo de inscripción.','url':'https://www.fedegolfasturias.com/competiciones','volcada':True},
@@ -95,7 +105,7 @@ for t in T:
         for d,nm in DOM.items():
             if d in u: ss.add(nm)
     for x in ss: PER[x]+=1
-for f in F: f['n']=PER.get(f['nombre'],0)
+for f in F: f['n']=PER.get(f['nombre'],0)+(N_CG if f['nombre']=='Golf Directo' else 0)
 # ---------- Cambios frente a la revisión anterior ----------
 def load_prev(path):
     if not path or not os.path.exists(path): return [],[]
@@ -144,12 +154,12 @@ FED={
  'Cantabria':('completo','Federación Cántabra: su calendario oficial'),
  'Castilla-La Mancha':('completo','Federación de Castilla-La Mancha: su calendario oficial'),
  'Principado de Asturias':('completo','Federación de Asturias: su calendario de competiciones'),
- 'Galicia':('completo','Federación Gallega: su listado de torneos, contrastado con Golf Directo'),
- 'Aragón':('completo','Federación Aragonesa: sus fichas de torneo, contrastadas con Golf Directo'),
- 'Illes Balears':('completo','Federación Balear: publica su calendario en Golf Directo, contrastado con su web'),
- 'Extremadura':('completo','Federación Extremeña: publica su calendario en Golf Directo'),
+ 'Galicia':('parcial','Federación Gallega: su listado de torneos. Las fichas de Golf Directo, congeladas a 25/11'),
+ 'Aragón':('parcial','Federación Aragonesa: sus fichas de torneo. Las de Golf Directo, congeladas a 25/11'),
+ 'Illes Balears':('parcial','Federación Balear: publica en Golf Directo, que no permite a Banderín leerlo. Datos congelados a 25/11'),
+ 'Extremadura':('parcial','Federación Extremeña: publica en Golf Directo, que no permite a Banderín leerlo. Datos congelados a 25/11'),
  'Región de Murcia':('completo','Federación de la Región de Murcia: su calendario oficial'),
- 'Melilla':('parcial','Clubes en Golf Directo, la web de la federación no permite la lectura automática'),
+ 'Melilla':('parcial','Clubes en Golf Directo (datos congelados a 25/11); la web de la federación no permite la lectura automática'),
 }
 cnt=collections.Counter(o['ccaa'] for o in out if not o.get('past'))
 srcs=collections.defaultdict(collections.Counter)

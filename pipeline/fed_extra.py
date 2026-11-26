@@ -226,6 +226,7 @@ def have_gd():
     except Exception: pass
     return s
 def gd_game(gid, via, ccaa):
+    return  # Golf Directo prohíbe a Banderín en su robots.txt (26/11/2026)
     r = get(f'https://www.golfdirecto.com/api/v2/public/game/{gid}/active')
     if not r: return
     d = json.loads(r)
