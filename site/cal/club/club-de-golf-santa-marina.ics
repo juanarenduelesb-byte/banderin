@@ -11,7 +11,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:93c206fa6c2ca8c5be1b@banderin.es
-DTSTAMP:20261126T102813Z
+DTSTAMP:20261126T160509Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Liga Damas
@@ -24,23 +24,8 @@ STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6b057478bbee5ec91a33038f/summary
 END:VEVENT
 BEGIN:VEVENT
-UID:f79fc73df9c70fac5ec8@banderin.es
-DTSTAMP:20261126T102813Z
-DTSTART;VALUE=DATE:20261128
-DTEND;VALUE=DATE:20261129
-SUMMARY:Triangular Santa Marina Solo Socios (Copia)
-LOCATION:Club de Golf Santa Marina
-DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
-  4 de septiembre\, cierra el 26 de noviembre.\nFicha oficial: https://www.
- golfdirecto.com/micro/game/6a9a63dd5898bfbfbf5a6e01/summary\nConfirma fech
- as y condiciones en la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.golfdirecto.com/micro/game/6a9a63dd5898bfbfbf5a6e01/summary
-END:VEVENT
-BEGIN:VEVENT
 UID:5942034fdc7468c8787a@banderin.es
-DTSTAMP:20261126T102813Z
+DTSTAMP:20261126T160509Z
 DTSTART;VALUE=DATE:20261228
 DTEND;VALUE=DATE:20261229
 SUMMARY:Copa Navidad-Torneo Empleados
@@ -55,7 +40,7 @@ URL:https://www.golfdirecto.com/micro/game/6aeae4363539d98a46a653bf/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:65fcb1cedc857959ad90@banderin.es
-DTSTAMP:20261126T102813Z
+DTSTAMP:20261126T160509Z
 DTSTART;VALUE=DATE:20261231
 DTEND;VALUE=DATE:20270101
 SUMMARY:Torneo de Navidad-Abaceria de la Sal (Social)
@@ -70,7 +55,7 @@ URL:https://www.golfdirecto.com/micro/game/6a8c28c06aceba7d06d56fac/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:98e6f3872b48d1c71a17@banderin.es
-DTSTAMP:20261126T102813Z
+DTSTAMP:20261126T160509Z
 DTSTART;VALUE=DATE:20270109
 DTEND;VALUE=DATE:20270110
 SUMMARY:Torneo de Reyes-Confiteria Blanco

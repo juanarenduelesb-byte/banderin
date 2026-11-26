@@ -10,23 +10,23 @@ X-WR-TIMEZONE:Europe/Madrid
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:4cf2988456a111d316cc@banderin.es
-DTSTAMP:20261126T102813Z
-DTSTART;VALUE=DATE:20261220
+UID:d36cf42c8abf6dc839c4@banderin.es
+DTSTAMP:20261126T160509Z
+DTSTART;VALUE=DATE:20261218
 DTEND;VALUE=DATE:20261221
-SUMMARY:Torneo Navidad
+SUMMARY:Torneo Navidad 2026
 LOCATION:Club de Golf Paderne
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
-  1 de diciembre\, cierra el 19 de diciembre.\nFicha oficial: https://www.g
- olfdirecto.com/micro/game/6adb1395042bd6a99e77e066/summary\nConfirma fecha
- s y condiciones en la web del organizador. Vía Banderín.
+  26 de noviembre\, cierra el 17 de diciembre.\nFicha oficial: https://www.
+ golfdirecto.com/micro/game/6b081bef33682f5705bd307b/summary\nConfirma fech
+ as y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-URL:https://www.golfdirecto.com/micro/game/6adb1395042bd6a99e77e066/summary
+URL:https://www.golfdirecto.com/micro/game/6b081bef33682f5705bd307b/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:c1189602ff217e88c07e@banderin.es
-DTSTAMP:20261126T102813Z
+DTSTAMP:20261126T160509Z
 DTSTART;VALUE=DATE:20261231
 DTEND;VALUE=DATE:20270101
 SUMMARY:Torneo Fin de Año

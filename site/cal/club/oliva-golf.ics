@@ -11,10 +11,10 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:93f1a8daf7cbb6d45510@banderin.es
-DTSTAMP:20261126T102813Z
+DTSTAMP:20261126T160509Z
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261201
-SUMMARY:Cto Dobles de Profesionales de la CV
+SUMMARY:Campeonato Dobles de Profesionales de la Comunitat Valenciana
 LOCATION:Oliva Golf\, Oliva\, Valencia
 DESCRIPTION:Profesional - Parejas\nInscripción: abre el 27 de octubre\, ci
  erra el 26 de noviembre.\nPrecio: 40 €.\nFicha oficial: https://golfcv.c
@@ -26,7 +26,7 @@ URL:https://golfcv.com/torneo_seek/ver-torneo/?torneoid=2746
 END:VEVENT
 BEGIN:VEVENT
 UID:5faabacb6d9bec8cfcf6@banderin.es
-DTSTAMP:20261126T102813Z
+DTSTAMP:20261126T160509Z
 DTSTART;VALUE=DATE:20261215
 DTEND;VALUE=DATE:20261217
 SUMMARY:Final Liguilla Masculina Senior 2026

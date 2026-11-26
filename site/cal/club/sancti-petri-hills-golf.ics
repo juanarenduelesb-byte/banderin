@@ -10,8 +10,22 @@ X-WR-TIMEZONE:Europe/Madrid
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
+UID:c481dc3924a0a6dc9d46@banderin.es
+DTSTAMP:20261126T160509Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:7ª Prueba Ranking Social 28/11/26
+LOCATION:Sancti Petri Hills Golf\, Chiclana de la Frontera
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.nextcaddy.com/tour/75656\nConfirma fechas y condiciones en la web de
+ l organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nextcaddy.com/tour/75656
+END:VEVENT
+BEGIN:VEVENT
 UID:ebceea8db87a25be78d2@banderin.es
-DTSTAMP:20261126T102813Z
+DTSTAMP:20261126T160509Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:Torneo de Navidad 2026

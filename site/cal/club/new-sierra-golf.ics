@@ -10,12 +10,40 @@ X-WR-TIMEZONE:Europe/Madrid
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
+UID:3bba464e37a1d45f4607@banderin.es
+DTSTAMP:20261126T160509Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:Mensual Juvenil - 9 Hoyos Stableford
+LOCATION:New Sierra Golf\, Murcia
+DESCRIPTION:Juvenil - Stableford - Individual\nFicha oficial: https://www.g
+ olfdirecto.com/micro/game/6b08129da705699f01870a23/summary\nConfirma fecha
+ s y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6b08129da705699f01870a23/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:0988d78c09da2ac04e86@banderin.es
+DTSTAMP:20261126T160509Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:Mensual Juvenil - Benjamines Medal
+LOCATION:New Sierra Golf
+DESCRIPTION:Juvenil - Medal Play - Individual\nFicha oficial: https://www.g
+ olfdirecto.com/micro/game/6b08122ba705699f017ac953/summary\nConfirma fecha
+ s y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6b08122ba705699f017ac953/summary
+END:VEVENT
+BEGIN:VEVENT
 UID:137c88f527eb1867bf36@banderin.es
-DTSTAMP:20261126T102813Z
+DTSTAMP:20261126T160509Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Mensual Juvenil - New Sierra Golf
-LOCATION:New Sierra Golf\, Murcia
+LOCATION:New Sierra Golf
 DESCRIPTION:Juvenil - Medal Play - Individual\nInscripción: abre el 2 de n
  oviembre\, cierra el 26 de noviembre.\nFicha oficial: https://www.golfdire
  cto.com/micro/game/6a994f877be6f1e13e401d53/summary\nConfirma fechas y con
@@ -25,8 +53,36 @@ STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6a994f877be6f1e13e401d53/summary
 END:VEVENT
 BEGIN:VEVENT
+UID:709c96a2b030f77e8098@banderin.es
+DTSTAMP:20261126T160509Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:Mensual Juvenil - New Sierra Golf
+LOCATION:New Sierra Golf
+DESCRIPTION:Juvenil - Medal Play - Individual\nFicha oficial: https://www.g
+ olfdirecto.com/micro/game/6b080c9933682f5705d7f7df/summary\nConfirma fecha
+ s y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6b080c9933682f5705d7f7df/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:d28f795db9ee27eed4ec@banderin.es
+DTSTAMP:20261126T160509Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:Mensual Juvenil - Ns Golf Course Stableford 18
+LOCATION:New Sierra Golf
+DESCRIPTION:Juvenil - Stableford - Individual\nFicha oficial: https://www.g
+ olfdirecto.com/micro/game/6b08114715c295799716a32a/summary\nConfirma fecha
+ s y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6b08114715c295799716a32a/summary
+END:VEVENT
+BEGIN:VEVENT
 UID:b48c3377bb6423f9d718@banderin.es
-DTSTAMP:20261126T102813Z
+DTSTAMP:20261126T160509Z
 DTSTART;VALUE=DATE:20261211
 DTEND;VALUE=DATE:20261212
 SUMMARY:Alamo Golf Society
@@ -41,7 +97,7 @@ URL:https://www.golfdirecto.com/micro/game/69691a6f7205a3564dd36948/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:3c88efcaa3c570f19a5f@banderin.es
-DTSTAMP:20261126T102813Z
+DTSTAMP:20261126T160509Z
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
 SUMMARY:Torneo Legión Sagrada 2026

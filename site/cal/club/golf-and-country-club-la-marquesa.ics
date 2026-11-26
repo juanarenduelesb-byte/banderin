@@ -11,7 +11,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:de07fea97c2c78d0ba80@banderin.es
-DTSTAMP:20261126T102813Z
+DTSTAMP:20261126T160509Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:V My Lawyer In Spain
@@ -26,7 +26,7 @@ URL:https://www.golfdirecto.com/micro/game/6adf0390b0e08ac0156a8cc8/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:3dc722887564b8069e46@banderin.es
-DTSTAMP:20261126T102813Z
+DTSTAMP:20261126T160509Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
 SUMMARY:17º Torneo Solidario de Navidad Rotary Club
@@ -38,5 +38,20 @@ DESCRIPTION:Benéfico - Stableford - Individual\nInscripción: abre el 17 d
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6afc364e698e8624fb46dcdf/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:fb93e7c9eadca6d360df@banderin.es
+DTSTAMP:20261126T160509Z
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261206
+SUMMARY:Torneo Infantil 9 Hoyos
+LOCATION:Golf And Country Club la Marquesa
+DESCRIPTION:Juvenil - Stableford - Individual\nInscripción: abre el 26 de 
+ noviembre\, cierra el 4 de diciembre.\nFicha oficial: https://www.golfdire
+ cto.com/micro/game/6b081c0aa705699f01be3af0/summary\nConfirma fechas y con
+ diciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6b081c0aa705699f01be3af0/summary
 END:VEVENT
 END:VCALENDAR
