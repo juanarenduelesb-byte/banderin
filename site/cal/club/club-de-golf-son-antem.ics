@@ -11,14 +11,15 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:25618910bd1e00df1213@banderin.es
-DTSTAMP:20261126T095459Z
+DTSTAMP:20261126T102813Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261208
 SUMMARY:Copa de Baleares Masculina 2026
 LOCATION:Club de Golf Son Antem\, Llucmajor\, Illes Balears
-DESCRIPTION:Absoluto - Medal Play - Individual\nFicha oficial: https://rfeg
- olf.es/competicion/copa-baleares\nConfirma fechas y condiciones en la web 
- del organizador. Vía Banderín.
+DESCRIPTION:Absoluto - Medal Play - Individual\nInscripción: abre el 9 de 
+ octubre\, cierra el 18 de noviembre.\nFicha oficial: https://rfegolf.es/co
+ mpeticion/copa-baleares\nConfirma fechas y condiciones en la web del organ
+ izador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://rfegolf.es/competicion/copa-baleares

@@ -11,7 +11,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:519a0581d59de1d36145@banderin.es
-DTSTAMP:20261126T095459Z
+DTSTAMP:20261126T102813Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Sjgs Friday Counting
@@ -25,17 +25,31 @@ URL:https://www.golfdirecto.com/micro/game/6b0578e965911b42dd6e4340/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:9138a6246b584c1e2060@banderin.es
-DTSTAMP:20261126T095459Z
+DTSTAMP:20261126T102813Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Torneo Aniversario Escuela Torné
 LOCATION:Serena Golf
 DESCRIPTION:Juvenil - Stableford - Individual\nInscripción: abre el 3 de n
- oviembre\, cierra el 25 de noviembre.\nFicha oficial: https://www.golfdire
+ oviembre\, cierra el 26 de noviembre.\nFicha oficial: https://www.golfdire
  cto.com/micro/game/6ae9d3872267c6230f916de9/summary\nConfirma fechas y con
  diciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6ae9d3872267c6230f916de9/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:86e0d43ba05c16dc7d14@banderin.es
+DTSTAMP:20261126T102813Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:Celts' Club Championship 29/11/26
+LOCATION:Serena Golf
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/6b07e73fa705699f01accaba/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6b07e73fa705699f01accaba/summary
 END:VEVENT
 END:VCALENDAR

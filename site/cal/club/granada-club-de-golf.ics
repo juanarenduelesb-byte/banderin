@@ -10,8 +10,22 @@ X-WR-TIMEZONE:Europe/Madrid
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
+UID:eda4c8c9b7231b9298e8@banderin.es
+DTSTAMP:20261126T102813Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:Pool 2019 Noviembre
+LOCATION:Granada Club de Golf
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/6b070db62638d23287eb9cb2/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6b070db62638d23287eb9cb2/summary
+END:VEVENT
+BEGIN:VEVENT
 UID:c08ff14e29418710a734@banderin.es
-DTSTAMP:20261126T095459Z
+DTSTAMP:20261126T102813Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Pool Juan Pedro Montijano
@@ -22,5 +36,20 @@ DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6b06d5b62638d23287088393/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:08b67ec4eb1fa6ff84bf@banderin.es
+DTSTAMP:20261126T102813Z
+DTSTART;VALUE=DATE:20261219
+DTEND;VALUE=DATE:20261220
+SUMMARY:Trofeo de Navidad "Banco de Alimentos de Granada"
+LOCATION:Granada Club de Golf
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  25 de noviembre\, cierra el 17 de diciembre.\nFicha oficial: https://www.
+ golfdirecto.com/micro/game/6b040e27d2ed4f3d1c07e966/summary\nConfirma fech
+ as y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6b040e27d2ed4f3d1c07e966/summary
 END:VEVENT
 END:VCALENDAR

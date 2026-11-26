@@ -11,7 +11,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:7fa356b277b704c6acae@banderin.es
-DTSTAMP:20261126T095459Z
+DTSTAMP:20261126T102813Z
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261220
 SUMMARY:Torneo de Navidad
@@ -22,5 +22,19 @@ DESCRIPTION:Social de club - Fourball - Parejas\nFicha oficial: https://www
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6ac5f4c64865b8bb77afc948/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:c8b6b0204137f92a3fbe@banderin.es
+DTSTAMP:20261126T102813Z
+DTSTART;VALUE=DATE:20270603
+DTEND;VALUE=DATE:20270604
+SUMMARY:Lcsc Entre Semana Match Play Jornada 4
+LOCATION:Air Golf Club\, Vegas de Matute\, Segovia
+DESCRIPTION:Clubes y equipos - Match Play - Equipos\nFicha oficial: https:/
+ /www.golfdirecto.com/micro/game/6b07dc1c6549a3fb780a2817/summary\nConfirma
+  fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6b07dc1c6549a3fb780a2817/summary
 END:VEVENT
 END:VCALENDAR

@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Banderin//Torneos de golf//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Banderín - Campo de Golf B.a. de Torrejon
+X-WR-CALDESC:Torneos de golf: Campo de Golf B.a. de Torrejon. Se actualiza 
+ cada mañana. https://banderin.es
+X-WR-TIMEZONE:Europe/Madrid
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:4dd6442a56d6c482bbf2@banderin.es
+DTSTAMP:20261126T102813Z
+DTSTART;VALUE=DATE:20270513
+DTEND;VALUE=DATE:20270514
+SUMMARY:Lcsc Entre Semana Match Play Jornada 3
+LOCATION:Campo de Golf B.a. de Torrejon
+DESCRIPTION:Clubes y equipos - Match Play - Equipos\nFicha oficial: https:/
+ /www.golfdirecto.com/micro/game/6b07dbeba705699f01d43e74/summary\nConfirma
+  fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6b07dbeba705699f01d43e74/summary
+END:VEVENT
+END:VCALENDAR

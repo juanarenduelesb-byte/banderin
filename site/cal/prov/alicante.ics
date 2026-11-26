@@ -11,22 +11,22 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:0a23fb5246ae2e9fd75e@banderin.es
-DTSTAMP:20261126T095459Z
+DTSTAMP:20261126T102813Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261130
 SUMMARY:XXX Campeonato Absoluto de la Comunitat Valenciana
 LOCATION:Club de Golf Font del Llop\, Monforte del Cid\, Alicante
-DESCRIPTION:Absoluto - Individual\nInscripción: abre el 23 de octubre\, ci
- erra el 23 de noviembre.\nPrecio: 100 €.\nFicha oficial: https://golfcv.
- com/torneo_seek/ver-torneo/?torneoid=2719\nConfirma fechas y condiciones e
- n la web del organizador. Vía Banderín.
+DESCRIPTION:Absoluto - Medal Play - Individual\nInscripción: abre el 23 de
+  octubre\, cierra el 23 de noviembre.\nPrecio: 100 €.\nFicha oficial: ht
+ tps://golfcv.com/torneo_seek/ver-torneo/?torneoid=2719\nConfirma fechas y 
+ condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://golfcv.com/torneo_seek/ver-torneo/?torneoid=2719
 END:VEVENT
 BEGIN:VEVENT
 UID:f5fe2458e211fcff5930@banderin.es
-DTSTAMP:20261126T095459Z
+DTSTAMP:20261126T102813Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Campeonato Clubes sin Campo CV
@@ -41,7 +41,7 @@ URL:https://golfcv.com/torneo_seek/ver-torneo/?torneoid=2720
 END:VEVENT
 BEGIN:VEVENT
 UID:69c8386cf0f03b976cd1@banderin.es
-DTSTAMP:20261126T095459Z
+DTSTAMP:20261126T102813Z
 DTSTART;VALUE=DATE:20261202
 DTEND;VALUE=DATE:20261203
 SUMMARY:Rec IV Liguilla Interclubs Femenina 4/9
@@ -56,7 +56,7 @@ URL:https://golfcv.com/torneo_seek/ver-torneo/?torneoid=2776
 END:VEVENT
 BEGIN:VEVENT
 UID:b48350eeae7b5e338d41@banderin.es
-DTSTAMP:20261126T095459Z
+DTSTAMP:20261126T102813Z
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261220
 SUMMARY:Gala PRO-AM FGCV 2026
@@ -70,7 +70,7 @@ URL:https://golfcv.com/torneo_seek/ver-torneo/?torneoid=2766
 END:VEVENT
 BEGIN:VEVENT
 UID:4b410f83c7ef4d34c157@banderin.es
-DTSTAMP:20261126T095459Z
+DTSTAMP:20261126T102813Z
 DTSTART;VALUE=DATE:20261229
 DTEND;VALUE=DATE:20270101
 SUMMARY:Jugadores No LV Cto Absoluto de la CV

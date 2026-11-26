@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Banderin//Torneos de golf//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Banderín - Real Golf Club de Pedreña
+X-WR-CALDESC:Torneos de golf: Real Golf Club de Pedreña. Se actualiza cada
+  mañana. https://banderin.es
+X-WR-TIMEZONE:Europe/Madrid
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:3bdbb5dbe2fcbe9db95c@banderin.es
+DTSTAMP:20261126T102813Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:Torneo JB Capital 2026
+LOCATION:Real Golf Club de Pedreña
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/6b0703d62638d232878dbbbc/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6b0703d62638d232878dbbbc/summary
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,40 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Banderin//Torneos de golf//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Banderín - Real Club el Candado
+X-WR-CALDESC:Torneos de golf: Real Club el Candado. Se actualiza cada maña
+ na. https://banderin.es
+X-WR-TIMEZONE:Europe/Madrid
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:77d07455a4b789fef933@banderin.es
+DTSTAMP:20261126T102813Z
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+SUMMARY:torneo escuela infantil 9 hoyos cortos
+LOCATION:Real Club el Candado\, Málaga
+DESCRIPTION:Juvenil - Stableford - Individual\nFicha oficial: https://www.n
+ extcaddy.com/tour/75646\nConfirma fechas y condiciones en la web del organ
+ izador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nextcaddy.com/tour/75646
+END:VEVENT
+BEGIN:VEVENT
+UID:8e66d4ca4c01745dd9ce@banderin.es
+DTSTAMP:20261126T102813Z
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+SUMMARY:torneo escuela infantil 9 hoyos largos
+LOCATION:Real Club el Candado\, Málaga
+DESCRIPTION:Juvenil - Stableford - Individual\nFicha oficial: https://www.n
+ extcaddy.com/tour/75644\nConfirma fechas y condiciones en la web del organ
+ izador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nextcaddy.com/tour/75644
+END:VEVENT
+END:VCALENDAR

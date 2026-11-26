@@ -11,22 +11,21 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:af15b596a90c0438106a@banderin.es
-DTSTAMP:20261126T095459Z
+DTSTAMP:20261126T102813Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
 SUMMARY:Ruta do Viño 2026
 LOCATION:Rio Cabe
-DESCRIPTION:Social de club - Fourball - Parejas\nInscripción: cierra el 23
-  de noviembre.\nFicha oficial: https://www.golfdirecto.com/micro/game/6b05
- a34c65911b42dd8ba4c6/summary\nConfirma fechas y condiciones en la web del 
- organizador. Vía Banderín.
+DESCRIPTION:Social de club - Fourball - Parejas\nFicha oficial: https://www
+ .golfdirecto.com/micro/game/6b05a34c65911b42dd8ba4c6/summary\nConfirma fec
+ has y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6b05a34c65911b42dd8ba4c6/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:755904ccec0801b96294@banderin.es
-DTSTAMP:20261126T095459Z
+DTSTAMP:20261126T102813Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:III Prueba Desafío Ribeira Sacra 2026 - Adega Cabo do Mundo
@@ -38,5 +37,20 @@ DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6b042dbdd2ed4f3d1cda8784/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:cee677f80204e59f7885@banderin.es
+DTSTAMP:20261126T102813Z
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261201
+SUMMARY:Abierto de Parejas - Casa dos Muros
+LOCATION:Rio Cabe
+DESCRIPTION:Social de club - Greensome - Parejas\nInscripción: abre el 25 
+ de noviembre\, cierra el 29 de noviembre.\nFicha oficial: https://www.golf
+ directo.com/micro/game/6b0733dc6549a3fb78953ac2/summary\nConfirma fechas y
+  condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6b0733dc6549a3fb78953ac2/summary
 END:VEVENT
 END:VCALENDAR

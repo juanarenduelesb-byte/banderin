@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Banderin//Torneos de golf//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Banderín - Naturavila Golf
+X-WR-CALDESC:Torneos de golf: Naturavila Golf. Se actualiza cada mañana. h
+ ttps://banderin.es
+X-WR-TIMEZONE:Europe/Madrid
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:7d496860ac473123eb22@banderin.es
+DTSTAMP:20261126T102813Z
+DTSTART;VALUE=DATE:20270425
+DTEND;VALUE=DATE:20270426
+SUMMARY:Lcsc Fin de Semana Match Play Jornada 1
+LOCATION:Naturavila Golf
+DESCRIPTION:Clubes y equipos - Match Play - Equipos\nFicha oficial: https:/
+ /www.golfdirecto.com/micro/game/6b07dd2d6549a3fb781bc0ab/summary\nConfirma
+  fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6b07dd2d6549a3fb781bc0ab/summary
+END:VEVENT
+END:VCALENDAR
