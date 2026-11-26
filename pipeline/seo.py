@@ -287,6 +287,8 @@ def event_li(t, here=None):
         t.get('city') if t.get('city') and t.get('city') != t.get('club') else None, t.get('cat'), t.get('mod')] if x])
     when = fday(t['s']) + (' – ' + fday(t['e']) if t.get('e') and t['e'] != t['s'] else '')
     side = []
+    if 'golfdirecto.com' in (t.get('url') or ''):
+        meta += (' - ' if meta else '') + 'Fuente: golfdirecto.com'
     if t.get('price') is not None:
         side.append('<span class="price">%s</span>' % e(eur(t['price'])))
     if is_open(t):

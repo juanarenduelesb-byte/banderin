@@ -71,7 +71,7 @@ window.EN={
 "Comprobado {w} - {n} enlaces verificados":"Checked {w} - {n} links verified","Comprobado {w} - {n} torneos":"Checked {w} - {n} tournaments","Comprobado {w}.":"Checked {w}.",
 "Con finalizados":"Including finished","Confirma fechas y precio en la web del organizador antes de inscribirte.":"Confirm dates and price on the organiser's website before you enter.",
 "Consultar":"Ask","Consultar inscripción":"Ask about entry","Corrección de un torneo en Banderín":"Correction to a tournament on Banderín",
-"Damas y ligas femeninas":"Ladies' events and leagues","Datos de {s}.":"Data from {s}.","Copia del {d}: Golf Directo ya no permite que Banderín actualice sus torneos, así que pueden haber cambiado.":"Copy from {d}: Golf Directo no longer lets Banderín update its tournaments, so details may have changed.","Datos registrales":"Registry details","Distancia":"Distance",
+"Damas y ligas femeninas":"Ladies' events and leagues","Datos de {s}.":"Data from {s}.","Fuente":"Source","Inscribirme en golfdirecto.com":"Enter on golfdirecto.com","Ver en golfdirecto.com":"View on golfdirecto.com","Copia del {d}: Golf Directo ya no permite que Banderín actualice sus torneos, así que pueden haber cambiado.":"Copy from {d}: Golf Directo no longer lets Banderín update its tournaments, so details may have changed.","Datos registrales":"Registry details","Distancia":"Distance",
 "El organizador lo ha cancelado":"Cancelled by the organiser","Elige un torneo.":"Pick a tournament.","En juego":"In play","En la web":"See website",
 "Enlace comprobado el {d}.":"Link checked on {d}.","Enlace comprobado {w}.":"Link checked {w}.",
 "Este fin de semana se juegan {n} torneos.":"{n} tournaments are being played this weekend.","Este finde":"This weekend",

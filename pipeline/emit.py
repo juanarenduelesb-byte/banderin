@@ -48,7 +48,7 @@ for t in T:
     past=t['e']<TODAY
     if past:
         o={k:t[k] for k in KEEP_PAST if t.get(k) not in (None,'')}
-        if s=='finished_public': o['res']=True
+        if s=='finished_public' and 'golfdirecto.com' not in t['url']: o['res']=True
         o['past']=True
     else:
         o={k:v for k,v in t.items() if k not in ('gid','also','res') and v not in (None,'')}

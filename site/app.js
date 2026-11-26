@@ -179,10 +179,13 @@ function sorted(list){
 const place=t=>[t.club,t.city&&t.city!==t.club?t.city:'',t.prov!==t.city&&t.prov!=='Por confirmar'?t.prov:''].filter(Boolean).join(' - ');
 const PLAYED_ICON='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>';
 const cnt=n=>n+' '+(n===1?L('torneo'):L('torneos'));
-const label=t=>L(t.sk==='done'||t.sk==='closed'?'Ver torneo':t.direct===false?'Web del organizador':'Inscribirme');
+// Golf Directo pide (correo del 20/11/2026) que en cada torneo suyo, en la lista, la búsqueda y la ficha, se vea que la fuente es golfdirecto.com, y que no se muestren resultados.
+const isGD=t=>t.src==='Golf Directo'||/golfdirecto\.com/i.test(t.url||'');
+const gdTag=t=>isGD(t)?'<i class="gdsrc">'+L('Fuente')+': golfdirecto.com</i>':'';
+const label=t=>isGD(t)?L(t.sk==='done'||t.sk==='closed'?'Ver en golfdirecto.com':'Inscribirme en golfdirecto.com'):L(t.sk==='done'||t.sk==='closed'?'Ver torneo':t.direct===false?'Web del organizador':'Inscribirme');
 function row(t){
   const k=km(t);
-  return '<button class="row" role="option" data-i="'+t.i+'" aria-selected="'+(sel===t.i)+'">'+I.flag(t.sk)+'<span class="t"><b>'+esc(t.n)+'</b><span>'+(nofit(t)?'<i class="nofit">'+L('No encaja')+'</i>':'')+esc(place(t))+(t.e!==t.s?' - '+fShort(t.s)+'–'+fShort(t.e):'')+'</span></span><span class="cat">'+esc(V(t.cat))+'</span><span class="km num">'+(k!=null?(k<5?'&lt; 5 km':k+' km'):'')+'</span><span class="st '+t.sk+'">'+esc(t.ss)+'</span>'+(saved.has(t.url)?I.starS:'<span></span>')+'</button>';
+  return '<button class="row" role="option" data-i="'+t.i+'" aria-selected="'+(sel===t.i)+'">'+I.flag(t.sk)+'<span class="t"><b>'+esc(t.n)+'</b><span>'+(nofit(t)?'<i class="nofit">'+L('No encaja')+'</i>':'')+esc(place(t))+(t.e!==t.s?' - '+fShort(t.s)+'–'+fShort(t.e):'')+gdTag(t)+'</span></span><span class="cat">'+esc(V(t.cat))+'</span><span class="km num">'+(k!=null?(k<5?'&lt; 5 km':k+' km'):'')+'</span><span class="st '+t.sk+'">'+esc(t.ss)+'</span>'+(saved.has(t.url)?I.starS:'<span></span>')+'</button>';
 }
 function weekTag(d){if(d===TODAY)return L('Hoy');if(d===add(TODAY,1))return L('Mañana');if(d>=WE[0]&&d<=WE[1])return L('Este finde');if(d>=NWE[0]&&d<=NWE[1])return L('Próximo finde');return''}
 // La lista se pinta por tandas: 80 torneos al principio y el resto según se acerca el final (o con «Ver más»).
@@ -223,10 +226,10 @@ function fillDetail(d,t,modal){
   const chg=chgFor(t.url);
   const same=T.filter(x=>x.club===t.club&&x.i!==t.i&&x.sk!=='done').slice(0,4);
   d.innerHTML='<div class="dmap">'+greenSvg(hash(t.club||t.n))+'<span class="where">'+esc(t.prov!=='Por confirmar'?t.prov:V(t.ccaa))+'</span><button class="icon-btn dclose" data-act="close" aria-label="'+L('Cerrar ficha')+'">'+I.x+'</button></div>'+
-   '<div class="dbody"><span class="dst st '+t.sk+'">'+I.flag(t.sk)+esc(t.sl)+'</span><h2>'+esc(t.n)+'</h2><p class="sub">'+esc(place(t))+'</p>'+(t.club?'<button class="follow" data-act="follow" aria-pressed="'+SIGO.clubs.includes(t.club)+'">'+(SIGO.clubs.includes(t.club)?'✓ '+L('Sigues este club'):'+ '+L('Seguir este club'))+'</button>':'')+(t.aviso?'<p class="dnote"><b>'+L('Aviso')+':</b> '+esc(L(t.aviso))+'</p>':'')+(chg?'<p class="dnote">'+chg+'</p>':'')+
+   '<div class="dbody"><span class="dst st '+t.sk+'">'+I.flag(t.sk)+esc(t.sl)+'</span><h2>'+esc(t.n)+'</h2><p class="sub">'+esc(place(t))+'</p>'+(isGD(t)?'<p class="gdline">'+L('Fuente')+': <a href="https://www.golfdirecto.com/" target="_blank" rel="noopener">golfdirecto.com</a></p>':'')+(t.club?'<button class="follow" data-act="follow" aria-pressed="'+SIGO.clubs.includes(t.club)+'">'+(SIGO.clubs.includes(t.club)?'✓ '+L('Sigues este club'):'+ '+L('Seguir este club'))+'</button>':'')+(t.aviso?'<p class="dnote"><b>'+L('Aviso')+':</b> '+esc(L(t.aviso))+'</p>':'')+(chg?'<p class="dnote">'+chg+'</p>':'')+
    '<div class="facts">'+facts.filter(f=>f[1]&&f[1]!=='Sin indicar'&&f[1]!=='Not stated').map(f=>'<div class="fact'+(f[2]?' wide':'')+(f[3]?' '+f[3]:'')+'"><span>'+L(f[0])+'</span><b title="'+esc(f[1])+'">'+esc(f[1])+'</b></div>').join('')+'</div>'+
    '<div class="acts"><a class="btn primary" href="'+esc(safeUrl(t.url))+'" target="_blank" rel="noopener noreferrer">'+label(t)+I.out+'</a><button class="btn ghost" data-act="save" aria-pressed="'+isS+'" title="'+L(isS?'Quitar de guardados':'Guardar')+'" aria-label="'+L(isS?'Quitar de guardados':'Guardar')+'">'+I.star+'</button><a class="btn ghost" href="'+gcal(t)+'" target="_blank" rel="noopener noreferrer" title="'+L('Añadir a Google Calendar')+'" aria-label="'+L('Añadir a Google Calendar')+'">'+I.cal+'</a><button class="btn ghost" data-act="share" title="'+L('Compartir torneo')+'" aria-label="'+L('Compartir torneo')+'">'+I.share+'</button></div>'+
-   '<p class="note">'+L('Datos de {s}.',{s:esc(t.src)})+' '+(t.cg?L('Copia del {d}: Golf Directo ya no permite que Banderín actualice sus torneos, así que pueden haber cambiado.',{d:esc(t.cg.slice(8,10)+'/'+t.cg.slice(5,7))})+' ':'')+(t.ok?esc(checkedText(t.ok))+' ':'')+L('Confirma fechas y precio en la web del organizador antes de inscribirte.')+(t.direct===false?' '+L('Este organizador no publica una ficha por torneo: el enlace lleva a su página de torneos.'):'')+'</p>'+
+   '<p class="note">'+L('Datos de {s}.',{s:isGD(t)?'golfdirecto.com':esc(t.src)})+' '+(t.cg?L('Copia del {d}: Golf Directo ya no permite que Banderín actualice sus torneos, así que pueden haber cambiado.',{d:esc(t.cg.slice(8,10)+'/'+t.cg.slice(5,7))})+' ':'')+(t.ok?esc(checkedText(t.ok))+' ':'')+L('Confirma fechas y precio en la web del organizador antes de inscribirte.')+(t.direct===false?' '+L('Este organizador no publica una ficha por torneo: el enlace lleva a su página de torneos.'):'')+'</p>'+
    (same.length?'<div class="same"><h3>'+L('Más en este campo')+'</h3>'+same.map(x=>'<button data-i="'+x.i+'"><span>'+esc(x.n)+'</span><span>'+fShort(x.s)+'</span></button>').join('')+'</div>':'')+'</div>';
   d.querySelector('[data-act=share]').onclick=()=>shareT(t);
   d.querySelector('[data-act=save]').onclick=()=>{isS?saved.delete(t.url):saved.add(t.url);store.set('saved',[...saved]);syncAvisos();render();if(modal){fillDetail(d,t,true);renderHome()}};
@@ -378,12 +381,12 @@ function renderResults(){
   $('rMine').textContent=played.size?played.size:'';
   let list;
   if(rMode==='mine'){const byU=new Map(P.map(t=>[t.url,t]));list=[...played.values()].map(p=>Object.assign({},p,byU.get(p.url)||{})).sort((a,b)=>b.s.localeCompare(a.s))}
-  else list=P.filter(t=>rMode==='all'||t.res);
+  else list=P.filter(t=>rMode==='all'||(t.res&&!isGD(t)));
   list=list.filter(t=>(!cc||t.ccaa===cc)&&(!q||norm(t.n+' '+(t.club||'')+' '+(t.prov||'')).includes(q)));
   if(!list.length){$('rlist').innerHTML='<div class="empty"><b>'+L(rMode==='mine'?'Aún no has marcado ningún torneo.':'Ningún torneo con estos filtros.')+'</b>'+L(rMode==='mine'?'Pulsa «Lo jugué» en cualquier torneo de la pestaña «Con resultados» o «Todos».':'Prueba con otra comunidad o quita la búsqueda.')+(rMode==='mine'&&!consent.pref()?' '+L('Para que se guarden al cerrar la página, acepta las cookies de preferencias.'):'')+'</div>';return}
   const g={};list.slice(0,rLimit).forEach(t=>(g[t.s]=g[t.s]||[]).push(t));
   $('rlist').innerHTML=Object.keys(g).sort().reverse().map(d=>'<div class="dhead"><b>'+fDay(d)+'</b><span>'+cnt(g[d].length)+'</span></div>'+g[d].map(t=>{const on=played.has(t.url);
-    return '<div class="rrow"><span class="t"><b>'+esc(t.n)+'</b><span>'+esc([t.club,t.prov&&t.prov!=='Por confirmar'?t.prov:'',t.cat?V(t.cat):''].filter(Boolean).join(' - '))+'</span></span><button class="played" data-p="'+esc(t.url)+'" aria-pressed="'+on+'">'+PLAYED_ICON+L(on?'Jugado':'Lo jugué')+'</button><a class="btn '+(t.res?'primary':'soft')+'" href="'+esc(safeUrl(t.url))+'" target="_blank" rel="noopener noreferrer">'+L(t.res?'Resultados':'Ficha')+I.out+'</a></div>'}).join('')).join('')+
+    return '<div class="rrow"><span class="t"><b>'+esc(t.n)+'</b><span>'+esc([t.club,t.prov&&t.prov!=='Por confirmar'?t.prov:'',t.cat?V(t.cat):''].filter(Boolean).join(' - '))+'</span></span><button class="played" data-p="'+esc(t.url)+'" aria-pressed="'+on+'">'+PLAYED_ICON+L(on?'Jugado':'Lo jugué')+'</button><a class="btn '+(t.res&&!isGD(t)?'primary':'soft')+'" href="'+esc(safeUrl(t.url))+'" target="_blank" rel="noopener noreferrer">'+L(t.res?'Resultados':'Ficha')+I.out+'</a></div>'}).join('')).join('')+
     (list.length>rLimit?'<button class="btn ghost rmore" id="rmore">'+L('Ver {n} más',{n:Math.min(150,list.length-rLimit)})+'</button>':'');
 }
 let rqT=0;$('rq').addEventListener('input',()=>{clearTimeout(rqT);rqT=setTimeout(()=>{rLimit=150;renderResults()},180)});
@@ -433,7 +436,7 @@ function goList(setup,keepRadius){
 }
 function hcard(t){
   const k=km(t);
-  return '<button class="hcard" data-i="'+t.i+'"><div class="cmap">'+greenSvg(hash(t.club||t.n))+dchip(t.s)+'</div><div class="cb"><span class="st '+t.sk+'">'+esc(t.ss)+'</span><h3>'+esc(t.n)+'</h3><span class="cp">'+esc([t.club,t.city].filter(Boolean).join(' - '))+'</span><div class="cf"><span class="num">'+(k!=null?(k<5?'&lt; 5 km':k+' km'):esc(t.prov!=='Por confirmar'?t.prov:t.ccaa))+'</span><b class="num">'+eur(t.price)+'</b></div></div></button>';
+  return '<button class="hcard" data-i="'+t.i+'"><div class="cmap">'+greenSvg(hash(t.club||t.n))+dchip(t.s)+'</div><div class="cb"><span class="st '+t.sk+'">'+esc(t.ss)+'</span><h3>'+esc(t.n)+'</h3><span class="cp">'+esc([t.club,t.city].filter(Boolean).join(' - '))+'</span>'+gdTag(t)+'<div class="cf"><span class="num">'+(k!=null?(k<5?'&lt; 5 km':k+' km'):esc(t.prov!=='Por confirmar'?t.prov:t.ccaa))+'</span><b class="num">'+eur(t.price)+'</b></div></div></button>';
 }
 function renderHome(){
   if(!$('v-inicio'))return;
