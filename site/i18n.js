@@ -68,7 +68,7 @@ window.EN={
 "Campeonatos y circuitos oficiales":"Official championships and tours","Campos":"Courses","Cancelado":"Cancelled","Cargando resultados…":"Loading results…",
 "Cerrada":"Closed","Cerrar ficha":"Close details","Cierra en 3 días":"Closes within 3 days","Cierra inscripción":"Entry closes","Cierran esta semana":"Closing this week",
 "Cierre: antes {a}, ahora {b}":"Deadline: was {a}, now {b}","Completo":"Complete","Parcial":"Partial","Pendiente":"Pending",
-"Comprobado {w} - {n} enlaces verificados":"Checked {w} - {n} links verified","Comprobado {w}.":"Checked {w}.",
+"Comprobado {w} - {n} enlaces verificados":"Checked {w} - {n} links verified","Comprobado {w} - {n} torneos":"Checked {w} - {n} tournaments","Comprobado {w}.":"Checked {w}.",
 "Con finalizados":"Including finished","Confirma fechas y precio en la web del organizador antes de inscribirte.":"Confirm dates and price on the organiser's website before you enter.",
 "Consultar":"Ask","Consultar inscripción":"Ask about entry","Corrección de un torneo en Banderín":"Correction to a tournament on Banderín",
 "Damas y ligas femeninas":"Ladies' events and leagues","Datos de {s}.":"Data from {s}.","Copia del {d}: Golf Directo ya no permite que Banderín actualice sus torneos, así que pueden haber cambiado.":"Copy from {d}: Golf Directo no longer lets Banderín update its tournaments, so details may have changed.","Datos registrales":"Registry details","Distancia":"Distance",

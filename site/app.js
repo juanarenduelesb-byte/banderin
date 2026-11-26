@@ -338,16 +338,16 @@ const REV=window.REVISION||((window.ACTUALIZADO||TODAY)+'T07:00');
 const revDay=REV.slice(0,10),revTime=REV.slice(11,16);
 function revWhen(){return revDay===TODAY?L('hoy a las {t}',{t:revTime}):revDay===add(TODAY,-1)?L('ayer a las {t}',{t:revTime}):L('el {d} a las {t}',{d:fShort(revDay),t:revTime})}
 function revText(){return L('Comprobado {w}.',{w:revWhen()})}
-function sealText(){return L('Comprobado {w} - {n} enlaces verificados',{w:revWhen(),n:T.filter(t=>t.ok).length})}
+function sealText(){return L('Comprobado {w} - {n} torneos',{w:revWhen(),n:T.length})}
 function checkedText(ok){return ok===revDay?L('Enlace comprobado {w}.',{w:revWhen()}):L('Enlace comprobado el {d}.',{d:fShort(ok)})}
 const CH=(window.CAMBIOS||[]).filter(c=>c.k!=='nuevos');
 function chgFor(url){const c=CH.find(x=>x.url===url&&(x.k==='fecha'||x.k==='plazo'));if(!c)return'';
   return c.k==='fecha'?'<b>'+L('Cambio de fecha')+':</b> '+esc(L('antes {a}, ahora {b}. Detectado el {d}.',{a:fShort(c.a),b:fShort(c.b),d:fShort(c.d)})):'<b>'+L('Cambio de plazo')+':</b> '+esc(L('la inscripción cerraba el {a}; ahora cierra el {b}.',{a:fShort(c.a),b:fShort(c.b)}))}
 const CHK={fecha:'Cambia de fecha',plazo:'Cambia el plazo',cancelado:'Cancelado',retirado:'Retirado',abre:'Abre inscripción',nuevos:'Nuevos'};
 function renderTrust(){
-  const nOk=T.filter(t=>t.ok).length,cc=new Set(T.filter(t=>t.sk!=='done').map(t=>t.ccaa)).size;
+  const nOk=T.length,cc=new Set(T.filter(t=>t.sk!=='done').map(t=>t.ccaa)).size;
   $('trust').innerHTML='<div class="big">'+esc(L('Comprobado {w}.',{w:revWhen()}))+'<small>'+esc(L('Cada mañana un proceso automático lee las fuentes, compara con el día anterior y abre cada enlace antes de publicarlo. Si un enlace no responde, el torneo no se publica.'))+'</small></div>'+
-   [[nOk,'enlaces verificados'],[SRC.filter(s=>s.volcada).length,'fuentes leídas'],[cc,'comunidades con torneos']].map(x=>'<div class="m"><b class="num">'+x[0]+'</b><span>'+L(x[1])+'</span></div>').join('');
+   [[nOk,'torneos'],[SRC.filter(s=>s.volcada).length,'fuentes leídas'],[cc,'comunidades con torneos']].map(x=>'<div class="m"><b class="num">'+x[0]+'</b><span>'+L(x[1])+'</span></div>').join('');
   const C=window.CAMBIOS||[];
   $('chTitle').textContent=C.length?L('Lo que ha cambiado en 14 días.'):L('Sin cambios en los últimos 14 días.');
   $('changes').innerHTML=C.length?C.slice(0,40).map(c=>{
