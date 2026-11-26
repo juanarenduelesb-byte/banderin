@@ -8,7 +8,10 @@ cd /home/claude/scr
 python3 -I nc_clubs.py
 python3 -I nc_lists.py
 python3 -I nc_tours.py
-# Golf Directo prohíbe a Banderín en su robots.txt desde el 26/11/2026: no se lee. Sus torneos salen de pipeline/datos/gd_congelado.json (ver emit.py).
+# Golf Directo: solo la lista pública de torneos y la de clubes, si su robots.txt lo permite (gd_fetch.py lo comprueba).
+# Mientras lo prohíba, sus torneos salen de pipeline/datos/gd_congelado.json (ver emit.py).
+python3 -I gd_fetch.py || echo "AVISO: Golf Directo no se ha leído"
+python3 -I red.py get https://www.golfdirecto.com/api/v2/public/club /home/claude/raw/gd/clubs.json || echo "AVISO: clubes de Golf Directo no leídos"
 python3 -I red.py get "https://golfcv.com/wp-json/bt_ws/v1/torneos_lt/?criterio=PROXIMOS&conlimit=no&nomas=si&ordentipo=asc&limite=500&lang=0" /home/claude/raw/fed/cv.json
 python3 -I rfeg_clubs.py
 python3 -I fed_extra.py || echo "AVISO: calendarios federativos fallaron"

@@ -10,6 +10,10 @@ def window(a,b,profile):
     q=urllib.parse.urlencode({'filter[profile]':profile,'limit':500,'filter[startDate]':a+'T00:00:00.000Z','filter[endDate]':b+'T23:59:59.000Z'})
     d=get(B+'?'+q)
     return (a,b,profile,d['data'] if d and d.get('code')==0 else None)
+# Acordado con Golf Directo (20/11/2026): solo la lista pública de torneos, sin fichas, jugadores, resultados ni precios.
+# Si su robots.txt no deja pasar a BanderinBot, no se descarga nada y se usan los torneos congelados.
+if not red._reglas(B).permite(B):
+    json.dump({},open('/home/claude/raw/gd/official.json','w'));print('Golf Directo: robots.txt no permite a BanderinBot; no se descarga nada');raise SystemExit(0)
 start=dt.date.today()-dt.timedelta(days=45);end=dt.date.today()+dt.timedelta(days=240)
 W=[];d=start
 while d<=end:

@@ -250,7 +250,6 @@ for x in GD.values():
         bs, be = local(b.get('startDate')), local(b.get('endDate'))
         if bs and be and be >= bs:
             t['op'], t['cl'] = bs, be
-        if b.get('priceForGeneral'): t['price'] = float(b['priceForGeneral'])
     else:
         t['insNote'] = 'Inscripción a través del club'
     add(t)

@@ -12,7 +12,9 @@ def http(u,api=False):
         except Exception as e: time.sleep(1+k)
     return 0,b''
 def check(t):
-    if t.get('gid'):
+    if t.get('gid') or 'golfdirecto.com' in t['url']:
+        return t['url'],None,None,None  # acordado con Golf Directo: solo la lista, no se abre cada ficha
+    if False:
         st,b=http(f"https://www.golfdirecto.com/api/v2/public/game/{t['gid']}/active")
         ok=False;status=None
         if st==200:

@@ -68,11 +68,12 @@ for t in T:
 GD_CONG='2026-11-25'
 _cg=os.path.join(os.path.dirname(os.path.abspath(__file__)),'datos','gd_congelado.json')
 N_CG=0
-if os.path.exists(_cg):
+_gd_vivo=any('golfdirecto.com' in o['url'] for o in out if not o.get('past'))
+if os.path.exists(_cg) and not _gd_vivo:
     _urls={o['url'] for o in out}
     for g in json.load(open(_cg,encoding='utf-8')):
         if (g.get('e') or g['s'])<TODAY or g['url'] in _urls: continue
-        o=dict(g); o.pop('ok',None); o['cg']=GD_CONG; out.append(o); N_CG+=1
+        o={k:v for k,v in g.items() if k not in ('ok','price','priceNote','cond')}; o['price']=None; o['cg']=GD_CONG; out.append(o); N_CG+=1
 F=[
  {'nombre':'NextCaddy','desc':'Plataforma de las federaciones de Andalucía, Madrid, Castilla y León y Canarias, y de 244 clubes. Fichas con precio, plazas y plazo.','url':'https://www.nextcaddy.com/','volcada':True},
  {'nombre':'Golf Directo','desc':'Plataforma de inscripciones de clubes y federaciones. Desde el 26/11/2026 no permite que Banderín la lea: sus torneos se muestran con los datos del 25/11 y no se actualizan.','url':'https://www.golfdirecto.com/','volcada':False},
@@ -106,6 +107,9 @@ for t in T:
             if d in u: ss.add(nm)
     for x in ss: PER[x]+=1
 for f in F: f['n']=PER.get(f['nombre'],0)+(N_CG if f['nombre']=='Golf Directo' else 0)
+if _gd_vivo:
+    for f in F:
+        if f['nombre']=='Golf Directo': f.update(volcada=True,desc='Plataforma de inscripciones de clubes y federaciones. Por acuerdo con Golf Directo, Banderín solo lee su lista pública de torneos: sin precios, jugadores ni resultados.')
 # ---------- Cambios frente a la revisión anterior ----------
 def load_prev(path):
     if not path or not os.path.exists(path): return [],[]
@@ -161,6 +165,12 @@ FED={
  'Región de Murcia':('completo','Federación de la Región de Murcia: su calendario oficial'),
  'Melilla':('parcial','Clubes en Golf Directo (datos congelados a 25/11); la web de la federación no permite la lectura automática'),
 }
+if _gd_vivo:
+    FED.update({'Galicia':('completo','Federación Gallega: su listado de torneos, contrastado con Golf Directo'),
+                'Aragón':('completo','Federación Aragonesa: sus fichas de torneo, contrastadas con Golf Directo'),
+                'Illes Balears':('completo','Federación Balear: publica su calendario en Golf Directo'),
+                'Extremadura':('completo','Federación Extremeña: publica su calendario en Golf Directo'),
+                'Melilla':('parcial','Clubes en Golf Directo, la web de la federación no permite la lectura automática')})
 cnt=collections.Counter(o['ccaa'] for o in out if not o.get('past'))
 srcs=collections.defaultdict(collections.Counter)
 for o in out:
