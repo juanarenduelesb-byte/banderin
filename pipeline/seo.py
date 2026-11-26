@@ -169,7 +169,7 @@ def topbar():
             '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 3v17" stroke="#F4F1E8" stroke-width="2" stroke-linecap="round"/>'
             '<path d="M8 3.5l10 3.6L8 10.6z" fill="#C9A86A"/></svg><span>banderín</span></a>'
             '<nav aria-label="Principal"><a href="/#lista">Torneos</a><a href="/#calendario">Calendario</a>'
-            '<a href="/%s/">Por comunidad</a><a href="/#resultados">Resultados</a><a href="/social/">Social</a></nav></header>' % HUB)
+            '<a href="/%s/">Por comunidad</a><a href="/social/">Social</a></nav></header>' % HUB)
 
 
 def crumbs(items):

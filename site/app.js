@@ -181,11 +181,11 @@ const PLAYED_ICON='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" st
 const cnt=n=>n+' '+(n===1?L('torneo'):L('torneos'));
 // Golf Directo pide (correo del 20/11/2026) que en cada torneo suyo, en la lista, la búsqueda y la ficha, se vea que la fuente es golfdirecto.com, y que no se muestren resultados.
 const isGD=t=>t.src==='Golf Directo'||/golfdirecto\.com/i.test(t.url||'');
-const gdTag=t=>isGD(t)?'<i class="gdsrc">'+L('Fuente')+': golfdirecto.com</i>':'';
+const gdTag=t=>isGD(t)?'<i class="gdsrc">golfdirecto.com</i>':'';
 const label=t=>isGD(t)?L(t.sk==='done'||t.sk==='closed'?'Ver en golfdirecto.com':'Inscribirme en golfdirecto.com'):L(t.sk==='done'||t.sk==='closed'?'Ver torneo':t.direct===false?'Web del organizador':'Inscribirme');
 function row(t){
   const k=km(t);
-  return '<button class="row" role="option" data-i="'+t.i+'" aria-selected="'+(sel===t.i)+'">'+I.flag(t.sk)+'<span class="t"><b>'+esc(t.n)+'</b><span>'+(nofit(t)?'<i class="nofit">'+L('No encaja')+'</i>':'')+esc(place(t))+(t.e!==t.s?' - '+fShort(t.s)+'–'+fShort(t.e):'')+gdTag(t)+'</span></span><span class="cat">'+esc(V(t.cat))+'</span><span class="km num">'+(k!=null?(k<5?'&lt; 5 km':k+' km'):'')+'</span><span class="st '+t.sk+'">'+esc(t.ss)+'</span>'+(saved.has(t.url)?I.starS:'<span></span>')+'</button>';
+  return '<button class="row" role="option" data-i="'+t.i+'" aria-selected="'+(sel===t.i)+'">'+I.flag(t.sk)+'<span class="t"><b>'+esc(t.n)+'</b><span>'+(nofit(t)?'<i class="nofit">'+L('No encaja')+'</i>':'')+esc(place(t))+(t.e!==t.s?' - '+fShort(t.s)+'–'+fShort(t.e):'')+'</span></span><span class="gdb">'+(isGD(t)?'golfdirecto.com':'')+'</span><span class="cat">'+esc(V(t.cat))+'</span><span class="km num">'+(k!=null?(k<5?'&lt; 5 km':k+' km'):'')+'</span><span class="st '+t.sk+'">'+esc(t.ss)+'</span>'+(saved.has(t.url)?I.starS:'<span></span>')+'</button>';
 }
 function weekTag(d){if(d===TODAY)return L('Hoy');if(d===add(TODAY,1))return L('Mañana');if(d>=WE[0]&&d<=WE[1])return L('Este finde');if(d>=NWE[0]&&d<=NWE[1])return L('Próximo finde');return''}
 // La lista se pinta por tandas: 80 torneos al principio y el resto según se acerca el final (o con «Ver más»).
@@ -301,10 +301,10 @@ function renderAgenda(list){
 }
 function route(){
   const h=location.hash.slice(1),LD=window.LEGALDOCS||{};
-  const v=['inicio','lista','calendario','resultados','fuentes','perfil'].includes(h)?h:LD[h]?'legal':'inicio';
+  // La sección de resultados se retiró el 26/11/2026: #resultados lleva al buscador.
+  const v=h==='resultados'?'lista':['inicio','lista','calendario','fuentes','perfil'].includes(h)?h:LD[h]?'legal':'inicio';
   ['inicio','lista','calendario','resultados','fuentes','perfil','legal'].forEach(x=>{$('v-'+x).hidden=x!==v});
   $('controls').hidden=v!=='lista'&&v!=='calendario';$('pagehead').hidden=v!=='lista'&&v!=='calendario';document.body.dataset.view=v;
-  if(v==='resultados')openResults();
   if(v==='perfil')renderPerfil();
   {const m=$('me');if(v==='perfil')m.setAttribute('aria-current','page');else m.removeAttribute('aria-current')}
   if(v==='legal'){renderLegal(h);scrollTo({top:0})}
@@ -579,7 +579,7 @@ function renderPerfil(){
   const fl=up0.filter(follows).sort((a,b)=>a.s.localeCompare(b.s)).slice(0,8);
   {let last='';$('prows').innerHTML=fl.length?'':'<p class="phint">'+L('Aún no sigues nada.')+' <button type="button" class="linkbtn" data-pgo="sigo">'+L('Sigue un club o una provincia')+'</button></p>';$('prows').innerHTML+=fl.map(t=>{const h=t.s!==last?'<div class="dhead"><b>'+fDay(t.s)+'</b>'+(weekTag(t.s)?'<span class="wk">'+weekTag(t.s)+'</span>':'')+'</div>':'';last=t.s;return h+row(t)}).join('')}
   const nf=hasPerf()?up0.filter(nofit).length:0;
-  $('pmine').innerHTML='<a href="#lista" data-go="saved"><b>'+saved.size+'</b><span>'+L('Guardados')+'</span></a><a href="#resultados" data-go="played"><b>'+played.size+'</b><span>'+L('Jugados')+'</span></a>'+
+  $('pmine').innerHTML='<a href="#lista" data-go="saved"><b>'+saved.size+'</b><span>'+L('Guardados')+'</span></a>'+
     (hasPerf()?'<a href="#lista" data-go="fit"><b>'+(up0.length-nf)+'</b><span>'+L('Encajan contigo')+'</span></a>':'')+
     ((SIGO.clubs.length+SIGO.prov.length)?'<a href="#lista" data-go="sigo"><b>'+up0.filter(follows).length+'</b><span>'+L('De lo que sigues')+'</span></a>':'');
   $('pwipe').classList.remove('confirm');$('pwipe').textContent=L('Borrar mis datos de este dispositivo');
