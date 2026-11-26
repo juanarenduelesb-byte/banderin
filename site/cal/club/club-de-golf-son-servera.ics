@@ -11,38 +11,37 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:129a0a8d4d1a847363a9@banderin.es
-DTSTAMP:20261126T083144Z
+DTSTAMP:20261126T095459Z
 DTSTART;VALUE=DATE:20261202
 DTEND;VALUE=DATE:20261203
 SUMMARY:Back Nine Tour
 LOCATION:Club de Golf Son Servera
 DESCRIPTION:Circuito comercial - Stableford - Individual\nInscripción: abr
- e el 25 de noviembre\, cierra el 1 de diciembre.\nPrecio: 59 €.\nFicha o
- ficial: https://www.golfdirecto.com/micro/game/6afd8a5a04837c6e593cbe95/su
- mmary\nConfirma fechas y condiciones en la web del organizador. Vía Bande
- rín.
+ e el 25 de noviembre\, cierra el 1 de diciembre.\nFicha oficial: https://w
+ ww.golfdirecto.com/micro/game/6afd8a5a04837c6e593cbe95/summary\nConfirma f
+ echas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6afd8a5a04837c6e593cbe95/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:9fffb029e8c78d94b984@banderin.es
-DTSTAMP:20261126T083144Z
+DTSTAMP:20261126T095459Z
 DTSTART;VALUE=DATE:20261203
 DTEND;VALUE=DATE:20261204
 SUMMARY:Gem Winter Slam 2026
 LOCATION:Club de Golf Son Servera
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
-  3 de noviembre\, cierra el 2 de diciembre.\nPrecio: 70 €.\nFicha oficia
- l: https://www.golfdirecto.com/micro/game/6ad9efe4a1531ddba4571ddb/summary
- \nConfirma fechas y condiciones en la web del organizador. Vía Banderín.
+  3 de noviembre\, cierra el 2 de diciembre.\nFicha oficial: https://www.go
+ lfdirecto.com/micro/game/6ad9efe4a1531ddba4571ddb/summary\nConfirma fechas
+  y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6ad9efe4a1531ddba4571ddb/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:8c34f9f91356de939f27@banderin.es
-DTSTAMP:20261126T083144Z
+DTSTAMP:20261126T095459Z
 DTSTART;VALUE=DATE:20261209
 DTEND;VALUE=DATE:20261210
 SUMMARY:Back Nine Tour
@@ -56,63 +55,60 @@ URL:https://www.golfdirecto.com/micro/game/6afd8a8c65e3b0b0a5c24e53/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:84e42dd370dd2156e0dd@banderin.es
-DTSTAMP:20261126T083144Z
+DTSTAMP:20261126T095459Z
 DTSTART;VALUE=DATE:20261216
 DTEND;VALUE=DATE:20261217
 SUMMARY:Back Nine Tour
 LOCATION:Club de Golf Son Servera
 DESCRIPTION:Circuito comercial - Stableford - Individual\nInscripción: abr
- e el 18 de noviembre\, cierra el 15 de diciembre.\nPrecio: 59 €.\nFicha 
- oficial: https://www.golfdirecto.com/micro/game/6afd8ab765e3b0b0a5c7044c/s
- ummary\nConfirma fechas y condiciones en la web del organizador. Vía Band
- erín.
+ e el 18 de noviembre\, cierra el 15 de diciembre.\nFicha oficial: https://
+ www.golfdirecto.com/micro/game/6afd8ab765e3b0b0a5c7044c/summary\nConfirma 
+ fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6afd8ab765e3b0b0a5c7044c/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:9ea2f77fc3f9f9254a81@banderin.es
-DTSTAMP:20261126T083144Z
+DTSTAMP:20261126T095459Z
 DTSTART;VALUE=DATE:20261223
 DTEND;VALUE=DATE:20261224
 SUMMARY:Back Nine Tour
 LOCATION:Club de Golf Son Servera
 DESCRIPTION:Circuito comercial - Stableford - Individual\nInscripción: abr
- e el 18 de noviembre\, cierra el 22 de diciembre.\nPrecio: 59 €.\nFicha 
- oficial: https://www.golfdirecto.com/micro/game/6afd8d139c9e80fccfa8e3da/s
- ummary\nConfirma fechas y condiciones en la web del organizador. Vía Band
- erín.
+ e el 18 de noviembre\, cierra el 22 de diciembre.\nFicha oficial: https://
+ www.golfdirecto.com/micro/game/6afd8d139c9e80fccfa8e3da/summary\nConfirma 
+ fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6afd8d139c9e80fccfa8e3da/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:74570d8132b9850d7723@banderin.es
-DTSTAMP:20261126T083144Z
+DTSTAMP:20261126T095459Z
 DTSTART;VALUE=DATE:20261228
 DTEND;VALUE=DATE:20261229
 SUMMARY:Torneig Cap D`any
 LOCATION:Club de Golf Son Servera
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
-  26 de noviembre\, cierra el 26 de diciembre.\nPrecio: 108 €.\nFicha ofi
- cial: https://www.golfdirecto.com/micro/game/6b06c3c62638d23287969d12/summ
- ary\nConfirma fechas y condiciones en la web del organizador. Vía Bander
- ín.
+  26 de noviembre\, cierra el 26 de diciembre.\nFicha oficial: https://www.
+ golfdirecto.com/micro/game/6b06c3c62638d23287969d12/summary\nConfirma fech
+ as y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6b06c3c62638d23287969d12/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:fa22a04b41a2d58eda38@banderin.es
-DTSTAMP:20261126T083144Z
+DTSTAMP:20261126T095459Z
 DTSTART;VALUE=DATE:20270128
 DTEND;VALUE=DATE:20270129
 SUMMARY:Gem Winter Slam 26/27
 LOCATION:Club de Golf Son Servera
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
-  28 de diciembre\, cierra el 27 de enero.\nPrecio: 70 €.\nFicha oficial:
-  https://www.golfdirecto.com/micro/game/6ada0267b2884b135d820420/summary\n
- Confirma fechas y condiciones en la web del organizador. Vía Banderín.
+  28 de diciembre\, cierra el 27 de enero.\nFicha oficial: https://www.golf
+ directo.com/micro/game/6ada0267b2884b135d820420/summary\nConfirma fechas y
+  condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6ada0267b2884b135d820420/summary

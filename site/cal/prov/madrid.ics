@@ -11,23 +11,22 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:c3628f20a8fe4e3b560b@banderin.es
-DTSTAMP:20261126T083144Z
+DTSTAMP:20261126T095459Z
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261220
 SUMMARY:Torneo de Navidad
 LOCATION:E. G. Montepríncipe\, Boadilla del Monte\, Madrid
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
-  23 de noviembre\, cierra el 17 de diciembre.\nPrecio: 21 €.\nFicha ofic
- ial: https://www.golfdirecto.com/micro/game/69677ab742551aa371d8282e/summa
- ry\nConfirma fechas y condiciones en la web del organizador. Vía Banderí
- n.
+  23 de noviembre\, cierra el 17 de diciembre.\nFicha oficial: https://www.
+ golfdirecto.com/micro/game/69677ab742551aa371d8282e/summary\nConfirma fech
+ as y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/69677ab742551aa371d8282e/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:1b713279cddce7c7cca2@banderin.es
-DTSTAMP:20261126T083144Z
+DTSTAMP:20261126T095459Z
 DTSTART;VALUE=DATE:20261220
 DTEND;VALUE=DATE:20261221
 SUMMARY:Torneo de Navidad Grow Golf Club - El Robledal Golf

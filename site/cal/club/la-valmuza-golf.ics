@@ -11,7 +11,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:8007d5629ff2314b6eb4@banderin.es
-DTSTAMP:20261126T083144Z
+DTSTAMP:20261126T095459Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:V Torneo Copa Presidente
@@ -26,16 +26,15 @@ URL:https://www.golfdirecto.com/micro/game/6aede6b51ab4f21da63295c2/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:b43aeeaee34fb944cc84@banderin.es
-DTSTAMP:20261126T083144Z
+DTSTAMP:20261126T095459Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
 SUMMARY:IV Copa Valmuza
 LOCATION:La Valmuza Golf
 DESCRIPTION:Social de club - Medal Play - Individual\nInscripción: abre el
-  13 de noviembre\, cierra el 1 de diciembre.\nPrecio: 75 €.\nFicha ofici
- al: https://www.golfdirecto.com/micro/game/6af43b80713f44da339b6d95/summar
- y\nConfirma fechas y condiciones en la web del organizador. Vía Banderín
- .
+  13 de noviembre\, cierra el 1 de diciembre.\nFicha oficial: https://www.g
+ olfdirecto.com/micro/game/6af43b80713f44da339b6d95/summary\nConfirma fecha
+ s y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6af43b80713f44da339b6d95/summary

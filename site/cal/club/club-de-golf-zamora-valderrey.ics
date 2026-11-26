@@ -11,64 +11,60 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:d1288d1af739a5397682@banderin.es
-DTSTAMP:20261126T083144Z
+DTSTAMP:20261126T095459Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
 SUMMARY:Ranking 9 Hoyos
 LOCATION:Club de Golf Zamora Valderrey
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
-  18 de noviembre\, cierra el 25 de noviembre.\nPrecio: 4\,4 €.\nFicha of
- icial: https://www.golfdirecto.com/micro/game/6afd75522ef0ab8bb467eb58/sum
- mary\nConfirma fechas y condiciones en la web del organizador. Vía Bander
- ín.
+  18 de noviembre\, cierra el 25 de noviembre.\nFicha oficial: https://www.
+ golfdirecto.com/micro/game/6afd75522ef0ab8bb467eb58/summary\nConfirma fech
+ as y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6afd75522ef0ab8bb467eb58/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:32a14ceb49eefc9493d0@banderin.es
-DTSTAMP:20261126T083144Z
+DTSTAMP:20261126T095459Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Ranking 9 Hoyos
 LOCATION:Club de Golf Zamora Valderrey
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
-  25 de noviembre\, cierra el 28 de noviembre.\nPrecio: 7\,4 €.\nFicha of
- icial: https://www.golfdirecto.com/micro/game/6b06ae202638d23287328b4b/sum
- mary\nConfirma fechas y condiciones en la web del organizador. Vía Bander
- ín.
+  25 de noviembre\, cierra el 28 de noviembre.\nFicha oficial: https://www.
+ golfdirecto.com/micro/game/6b06ae202638d23287328b4b/summary\nConfirma fech
+ as y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6b06ae202638d23287328b4b/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:ac80de52ee6e96c50c67@banderin.es
-DTSTAMP:20261126T083144Z
+DTSTAMP:20261126T095459Z
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261202
 SUMMARY:Ranking 9 Hoyos
 LOCATION:Club de Golf Zamora Valderrey
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
-  25 de noviembre\, cierra el 30 de noviembre.\nPrecio: 4\,4 €.\nFicha of
- icial: https://www.golfdirecto.com/micro/game/6b06ae40005aa6109f415750/sum
- mary\nConfirma fechas y condiciones en la web del organizador. Vía Bander
- ín.
+  25 de noviembre\, cierra el 30 de noviembre.\nFicha oficial: https://www.
+ golfdirecto.com/micro/game/6b06ae40005aa6109f415750/summary\nConfirma fech
+ as y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6b06ae40005aa6109f415750/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:efe5d9afff0e6cbdc3b5@banderin.es
-DTSTAMP:20261126T083144Z
+DTSTAMP:20261126T095459Z
 DTSTART;VALUE=DATE:20261203
 DTEND;VALUE=DATE:20261204
 SUMMARY:Ranking 9 Hoyos
 LOCATION:Club de Golf Zamora Valderrey
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
-  25 de noviembre\, cierra el 2 de diciembre.\nPrecio: 4\,4 €.\nFicha ofi
- cial: https://www.golfdirecto.com/micro/game/6b06ae650a1fef116c46a38e/summ
- ary\nConfirma fechas y condiciones en la web del organizador. Vía Bander
- ín.
+  25 de noviembre\, cierra el 2 de diciembre.\nFicha oficial: https://www.g
+ olfdirecto.com/micro/game/6b06ae650a1fef116c46a38e/summary\nConfirma fecha
+ s y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6b06ae650a1fef116c46a38e/summary

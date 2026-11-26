@@ -11,15 +11,15 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:3ba89b74c4e4e3f696bc@banderin.es
-DTSTAMP:20261126T083144Z
+DTSTAMP:20261126T095459Z
 DTSTART;VALUE=DATE:20270123
 DTEND;VALUE=DATE:20270124
 SUMMARY:Torneo Solo Ellas
 LOCATION:Las Ramblas Golf
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
-  4 de noviembre\, cierra el 20 de enero.\nPrecio: 50 €.\nFicha oficial: 
- https://www.golfdirecto.com/micro/game/6aeb4e193539d98a46d8a4c6/summary\nC
- onfirma fechas y condiciones en la web del organizador. Vía Banderín.
+  4 de noviembre\, cierra el 20 de enero.\nFicha oficial: https://www.golfd
+ irecto.com/micro/game/6aeb4e193539d98a46d8a4c6/summary\nConfirma fechas y 
+ condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6aeb4e193539d98a46d8a4c6/summary

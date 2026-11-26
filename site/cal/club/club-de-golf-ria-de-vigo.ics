@@ -11,7 +11,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:a42144fd3270bea5924d@banderin.es
-DTSTAMP:20261126T083144Z
+DTSTAMP:20261126T095459Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Anselmo Benito
@@ -26,23 +26,22 @@ URL:https://www.golfdirecto.com/micro/game/6abbf8a73e4bd064bd40dac3/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:d661a9f032c9d01613ce@banderin.es
-DTSTAMP:20261126T083144Z
+DTSTAMP:20261126T095459Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
 SUMMARY:Homenaje Sechu M.C
 LOCATION:Club de Golf Ria de Vigo
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
-  29 de septiembre\, cierra el 4 de diciembre.\nPrecio: 25 €.\nFicha ofic
- ial: https://www.golfdirecto.com/micro/game/6abbf9083e4bd064bd554636/summa
- ry\nConfirma fechas y condiciones en la web del organizador. Vía Banderí
- n.
+  29 de septiembre\, cierra el 4 de diciembre.\nFicha oficial: https://www.
+ golfdirecto.com/micro/game/6abbf9083e4bd064bd554636/summary\nConfirma fech
+ as y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6abbf9083e4bd064bd554636/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:bad530bb2c3204ac56c9@banderin.es
-DTSTAMP:20261126T083144Z
+DTSTAMP:20261126T095459Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:Torneo de Nadal 2026
@@ -57,7 +56,7 @@ URL:https://www.golfdirecto.com/micro/game/6acdd9063889028eefec9c57/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:a47f3387a5ed59b11aee@banderin.es
-DTSTAMP:20261126T083144Z
+DTSTAMP:20261126T095459Z
 DTSTART;VALUE=DATE:20270519
 DTEND;VALUE=DATE:20270520
 SUMMARY:Ruta do Viño 2027
@@ -71,7 +70,7 @@ URL:https://www.golfdirecto.com/micro/game/6adf809005d0e598f393d50d/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:c0da2325212f32938c93@banderin.es
-DTSTAMP:20261126T083144Z
+DTSTAMP:20261126T095459Z
 DTSTART;VALUE=DATE:20270601
 DTEND;VALUE=DATE:20270602
 SUMMARY:AESGOLF

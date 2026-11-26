@@ -11,38 +11,37 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:7935b10fc2dffba9a1c3@banderin.es
-DTSTAMP:20261126T083144Z
+DTSTAMP:20261126T095459Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Torneo Virgen del Loreto
 LOCATION:Real Club de Golf de Manises
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
-  12 de noviembre\, cierra el 28 de noviembre.\nPrecio: 50 €.\nFicha ofic
- ial: https://www.golfdirecto.com/micro/game/6974da92920bf1ea8d60a995/summa
- ry\nConfirma fechas y condiciones en la web del organizador. Vía Banderí
- n.
+  12 de noviembre\, cierra el 28 de noviembre.\nFicha oficial: https://www.
+ golfdirecto.com/micro/game/6974da92920bf1ea8d60a995/summary\nConfirma fech
+ as y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6974da92920bf1ea8d60a995/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:45b1158081e9fb15c1d0@banderin.es
-DTSTAMP:20261126T083144Z
+DTSTAMP:20261126T095459Z
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
 SUMMARY:VIII Torneo Padres e Hijos
 LOCATION:Real Club de Golf de Manises
 DESCRIPTION:Juvenil - Fourball - Parejas\nInscripción: abre el 6 de octubr
- e\, cierra el 16 de octubre.\nPrecio: 17\,5 €.\nFicha oficial: https://w
- ww.golfdirecto.com/micro/game/6974b1c2920bf1ea8daa2a55/summary\nConfirma f
- echas y condiciones en la web del organizador. Vía Banderín.
+ e\, cierra el 16 de octubre.\nFicha oficial: https://www.golfdirecto.com/m
+ icro/game/6974b1c2920bf1ea8daa2a55/summary\nConfirma fechas y condiciones 
+ en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6974b1c2920bf1ea8daa2a55/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:a28cb372a71e606e2afc@banderin.es
-DTSTAMP:20261126T083144Z
+DTSTAMP:20261126T095459Z
 DTSTART;VALUE=DATE:20261220
 DTEND;VALUE=DATE:20261221
 SUMMARY:PRO-AM Felices Fiestas 2026

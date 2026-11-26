@@ -11,7 +11,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:a1f9fdb0c62536c87f64@banderin.es
-DTSTAMP:20261126T083144Z
+DTSTAMP:20261126T095459Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
 SUMMARY:ProAm 2027 Smart Sport Reisen
@@ -25,39 +25,37 @@ URL:https://www.golfdirecto.com/micro/game/6afd8177c9944e5be2f00e38/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:78c4d1ce8f47fe264dad@banderin.es
-DTSTAMP:20261126T083144Z
+DTSTAMP:20261126T095459Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Final del Circuit GalaxyGolf 2026 HILLS
 LOCATION:Infinitum Golf
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
-  12 de noviembre\, cierra el 26 de noviembre.\nPrecio: 110 €.\nFicha ofi
- cial: https://www.golfdirecto.com/micro/game/6af585f4cb197af66b5c13aa/summ
- ary\nConfirma fechas y condiciones en la web del organizador. Vía Bander
- ín.
+  12 de noviembre\, cierra el 26 de noviembre.\nFicha oficial: https://www.
+ golfdirecto.com/micro/game/6af585f4cb197af66b5c13aa/summary\nConfirma fech
+ as y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6af585f4cb197af66b5c13aa/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:80a50e93f0b00968a128@banderin.es
-DTSTAMP:20261126T083144Z
+DTSTAMP:20261126T095459Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Final del Circuit GalaxyGolf 2026 HILLS&LAKES
 LOCATION:Infinitum Golf
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
-  12 de noviembre\, cierra el 26 de noviembre.\nPrecio: 204 €.\nFicha ofi
- cial: https://www.golfdirecto.com/micro/game/6af5869dcb197af66b7de06e/summ
- ary\nConfirma fechas y condiciones en la web del organizador. Vía Bander
- ín.
+  12 de noviembre\, cierra el 26 de noviembre.\nFicha oficial: https://www.
+ golfdirecto.com/micro/game/6af5869dcb197af66b7de06e/summary\nConfirma fech
+ as y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6af5869dcb197af66b7de06e/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:3243b3c06b157e941dec@banderin.es
-DTSTAMP:20261126T083144Z
+DTSTAMP:20261126T095459Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Torneo Galaxy Golf
@@ -71,23 +69,22 @@ URL:https://www.catgolf.com/es/campeonatos/torneo-galaxy-golf-2026-11-28
 END:VEVENT
 BEGIN:VEVENT
 UID:35c6507d5e637b18beaa@banderin.es
-DTSTAMP:20261126T083144Z
+DTSTAMP:20261126T095459Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Final del Circuit GalaxyGolf 2026 LAKES
 LOCATION:Infinitum Golf
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
-  12 de noviembre\, cierra el 27 de noviembre.\nPrecio: 105 €.\nFicha ofi
- cial: https://www.golfdirecto.com/micro/game/6af58637cb197af66b66a76e/summ
- ary\nConfirma fechas y condiciones en la web del organizador. Vía Bander
- ín.
+  12 de noviembre\, cierra el 27 de noviembre.\nFicha oficial: https://www.
+ golfdirecto.com/micro/game/6af58637cb197af66b66a76e/summary\nConfirma fech
+ as y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6af58637cb197af66b66a76e/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:40cac08c495e99e55907@banderin.es
-DTSTAMP:20261126T083144Z
+DTSTAMP:20261126T095459Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Torneo Galaxy Golf
@@ -101,7 +98,7 @@ URL:https://www.catgolf.com/es/campeonatos/torneo-galaxy-golf-2026-11-29
 END:VEVENT
 BEGIN:VEVENT
 UID:7d41bc6ee4076a90fbb8@banderin.es
-DTSTAMP:20261126T083144Z
+DTSTAMP:20261126T095459Z
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261201
 SUMMARY:CATPROTOUR 2026 (Infinitum - Lakes)
@@ -117,37 +114,37 @@ URL:https://www.catgolf.com/es/campeonatos/catprotour-2026-infinitum-lakes-
 END:VEVENT
 BEGIN:VEVENT
 UID:25e7125f2c90202029b8@banderin.es
-DTSTAMP:20261126T083144Z
+DTSTAMP:20261126T095459Z
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261201
 SUMMARY:CATPROTOUR 2026 (Infinitum - Lakes)
 LOCATION:Infinitum Golf
 DESCRIPTION:Profesional - Medal Play - Individual\nInscripción: abre el 10
-  de noviembre\, cierra el 25 de noviembre.\nPrecio: 40 €.\nFicha oficial
- : https://www.golfdirecto.com/micro/game/6af1ed1b2f0e9df18b39c30d/summary\
- nConfirma fechas y condiciones en la web del organizador. Vía Banderín.
+  de noviembre\, cierra el 25 de noviembre.\nFicha oficial: https://www.gol
+ fdirecto.com/micro/game/6af1ed1b2f0e9df18b39c30d/summary\nConfirma fechas 
+ y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6af1ed1b2f0e9df18b39c30d/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:883de375f96c3a047e35@banderin.es
-DTSTAMP:20261126T083144Z
+DTSTAMP:20261126T095459Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:Torneo de Navidad Infinitum 2026
 LOCATION:Infinitum Golf
 DESCRIPTION:Social de club - Fourball - Parejas\nInscripción: abre el 20 d
- e noviembre\, cierra el 10 de diciembre.\nPrecio: 125 €.\nFicha oficial:
-  https://www.golfdirecto.com/micro/game/6b00138fdec726ee0cd737a5/summary\n
- Confirma fechas y condiciones en la web del organizador. Vía Banderín.
+ e noviembre\, cierra el 10 de diciembre.\nFicha oficial: https://www.golfd
+ irecto.com/micro/game/6b00138fdec726ee0cd737a5/summary\nConfirma fechas y 
+ condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6b00138fdec726ee0cd737a5/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:89cd4e4ed0d18acd4812@banderin.es
-DTSTAMP:20261126T083144Z
+DTSTAMP:20261126T095459Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:Torneo de navidad
@@ -161,7 +158,7 @@ URL:https://www.catgolf.com/es/campeonatos/torneo-de-navidad-2026-12-12
 END:VEVENT
 BEGIN:VEVENT
 UID:fab614e49b6affab79c5@banderin.es
-DTSTAMP:20261126T083144Z
+DTSTAMP:20261126T095459Z
 DTSTART;VALUE=DATE:20270130
 DTEND;VALUE=DATE:20270201
 SUMMARY:Campionat de Catalunya Dobles Sènior 2027
@@ -176,7 +173,7 @@ URL:https://www.catgolf.com/es/campeonatos/campionat-de-catalunya-dobles-se
 END:VEVENT
 BEGIN:VEVENT
 UID:430c7168b809733059ee@banderin.es
-DTSTAMP:20261126T083144Z
+DTSTAMP:20261126T095459Z
 DTSTART;VALUE=DATE:20270725
 DTEND;VALUE=DATE:20270726
 SUMMARY:Circuit Nacional 5a Categoria 2027 (Infinitum)

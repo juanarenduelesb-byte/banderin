@@ -11,7 +11,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:9e7f75435c8b01137cf4@banderin.es
-DTSTAMP:20261126T083144Z
+DTSTAMP:20261126T095459Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
 SUMMARY:Pool 26 de Noviembre
@@ -25,39 +25,37 @@ URL:https://www.golfdirecto.com/micro/game/6b02bfb5b275bf023666269b/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:76d45dd406f613107db7@banderin.es
-DTSTAMP:20261126T083144Z
+DTSTAMP:20261126T095459Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Torneo Joyeria Melanie & Claire
 LOCATION:Club de Golf Playa Serena
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
-  16 de noviembre\, cierra el 28 de noviembre.\nPrecio: 50 €.\nFicha ofic
- ial: https://www.golfdirecto.com/micro/game/6974877005a15f8d1994d407/summa
- ry\nConfirma fechas y condiciones en la web del organizador. Vía Banderí
- n.
+  16 de noviembre\, cierra el 28 de noviembre.\nFicha oficial: https://www.
+ golfdirecto.com/micro/game/6974877005a15f8d1994d407/summary\nConfirma fech
+ as y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6974877005a15f8d1994d407/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:08bea4f4b59a73aaa823@banderin.es
-DTSTAMP:20261126T083144Z
+DTSTAMP:20261126T095459Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
 SUMMARY:Campeonato Medal Almeria
 LOCATION:Club de Golf Playa Serena
 DESCRIPTION:Social de club - Medal Play - Individual\nInscripción: abre el
-  18 de noviembre\, cierra el 4 de diciembre.\nPrecio: 60 €.\nFicha ofici
- al: https://www.golfdirecto.com/micro/game/69748c3505a15f8d19b5272e/summar
- y\nConfirma fechas y condiciones en la web del organizador. Vía Banderín
- .
+  18 de noviembre\, cierra el 4 de diciembre.\nFicha oficial: https://www.g
+ olfdirecto.com/micro/game/69748c3505a15f8d19b5272e/summary\nConfirma fecha
+ s y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/69748c3505a15f8d19b5272e/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:2b47f004e9956756d287@banderin.es
-DTSTAMP:20261126T083144Z
+DTSTAMP:20261126T095459Z
 DTSTART;VALUE=DATE:20261231
 DTEND;VALUE=DATE:20270101
 SUMMARY:Torneo Última Oportunidad

@@ -11,137 +11,135 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:3948bb0fcef828f0d6d1@banderin.es
-DTSTAMP:20261126T083144Z
+DTSTAMP:20261126T095459Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Torneo Reflexion 2026
 LOCATION:Cabanillas Casa de Campo Golf
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
-  13 de noviembre\, cierra el 26 de noviembre.\nPrecio: 75 €.\nFicha ofic
- ial: https://www.golfdirecto.com/micro/game/6af6f4f7aef9248991dfc6e4/summa
- ry\nConfirma fechas y condiciones en la web del organizador. Vía Banderí
- n.
+  13 de noviembre\, cierra el 26 de noviembre.\nFicha oficial: https://www.
+ golfdirecto.com/micro/game/6af6f4f7aef9248991dfc6e4/summary\nConfirma fech
+ as y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6af6f4f7aef9248991dfc6e4/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:261277b4efe35d3691f1@banderin.es
-DTSTAMP:20261126T083144Z
+DTSTAMP:20261126T095459Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Liga 9 Hoyos Cccgolf 8810. Jornada II
 LOCATION:Cabanillas Casa de Campo Golf
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
-  10 de noviembre\, cierra el 28 de noviembre.\nPrecio: 50 €.\nFicha ofic
- ial: https://www.golfdirecto.com/micro/game/6af2d24f34e2215974578109/summa
- ry\nConfirma fechas y condiciones en la web del organizador. Vía Banderí
- n.
+  10 de noviembre\, cierra el 28 de noviembre.\nFicha oficial: https://www.
+ golfdirecto.com/micro/game/6af2d24f34e2215974578109/summary\nConfirma fech
+ as y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6af2d24f34e2215974578109/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:6ce0ba4f9ce6d6da620d@banderin.es
-DTSTAMP:20261126T083144Z
+DTSTAMP:20261126T095459Z
 DTSTART;VALUE=DATE:20261220
 DTEND;VALUE=DATE:20261221
 SUMMARY:Liga 9 Hoyos Cccgolf 8810. Jornada III
 LOCATION:Cabanillas Casa de Campo Golf
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
-  16 de octubre\, cierra el 19 de diciembre.\nPrecio: 50 €.\nFicha oficia
- l: https://www.golfdirecto.com/micro/game/6ad2000558859e3c43c11bba/summary
- \nConfirma fechas y condiciones en la web del organizador. Vía Banderín.
+  16 de octubre\, cierra el 19 de diciembre.\nFicha oficial: https://www.go
+ lfdirecto.com/micro/game/6ad2000558859e3c43c11bba/summary\nConfirma fechas
+  y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6ad2000558859e3c43c11bba/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:1874671d8de585f1efb9@banderin.es
-DTSTAMP:20261126T083144Z
+DTSTAMP:20261126T095459Z
 DTSTART;VALUE=DATE:20270124
 DTEND;VALUE=DATE:20270125
 SUMMARY:Liga 9 Hoyos Cccgolf 8810. Jornada IV
 LOCATION:Cabanillas Casa de Campo Golf
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
-  16 de octubre\, cierra el 23 de enero.\nPrecio: 50 €.\nFicha oficial: h
- ttps://www.golfdirecto.com/micro/game/6ad200fd58859e3c4302e687/summary\nCo
- nfirma fechas y condiciones en la web del organizador. Vía Banderín.
+  16 de octubre\, cierra el 23 de enero.\nFicha oficial: https://www.golfdi
+ recto.com/micro/game/6ad200fd58859e3c4302e687/summary\nConfirma fechas y c
+ ondiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6ad200fd58859e3c4302e687/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:092692f65ce95819f7b6@banderin.es
-DTSTAMP:20261126T083144Z
+DTSTAMP:20261126T095459Z
 DTSTART;VALUE=DATE:20270207
 DTEND;VALUE=DATE:20270208
 SUMMARY:Liga 9 Hoyos Cccgolf 8810. Jornada V
 LOCATION:Cabanillas Casa de Campo Golf
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
-  16 de octubre\, cierra el 6 de febrero.\nPrecio: 50 €.\nFicha oficial: 
- https://www.golfdirecto.com/micro/game/6ad2003658859e3c43d07230/summary\nC
- onfirma fechas y condiciones en la web del organizador. Vía Banderín.
+  16 de octubre\, cierra el 6 de febrero.\nFicha oficial: https://www.golfd
+ irecto.com/micro/game/6ad2003658859e3c43d07230/summary\nConfirma fechas y 
+ condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6ad2003658859e3c43d07230/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:8053edfaa68714c90886@banderin.es
-DTSTAMP:20261126T083144Z
+DTSTAMP:20261126T095459Z
 DTSTART;VALUE=DATE:20270307
 DTEND;VALUE=DATE:20270308
 SUMMARY:Liga 9 Hoyos Cccgolf 8810. Jornada VI
 LOCATION:Cabanillas Casa de Campo Golf
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
-  16 de octubre\, cierra el 6 de marzo.\nPrecio: 50 €.\nFicha oficial: ht
- tps://www.golfdirecto.com/micro/game/6ad2012658859e3c430bd506/summary\nCon
- firma fechas y condiciones en la web del organizador. Vía Banderín.
+  16 de octubre\, cierra el 6 de marzo.\nFicha oficial: https://www.golfdir
+ ecto.com/micro/game/6ad2012658859e3c430bd506/summary\nConfirma fechas y co
+ ndiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6ad2012658859e3c430bd506/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:ce67ea9de4e5da39c794@banderin.es
-DTSTAMP:20261126T083144Z
+DTSTAMP:20261126T095459Z
 DTSTART;VALUE=DATE:20270411
 DTEND;VALUE=DATE:20270412
 SUMMARY:Liga 9 Hoyos Cccgolf 8810. Jornada VII
 LOCATION:Cabanillas Casa de Campo Golf
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
-  16 de octubre\, cierra el 10 de abril.\nPrecio: 50 €.\nFicha oficial: h
- ttps://www.golfdirecto.com/micro/game/6ad2015658859e3c4319fda7/summary\nCo
- nfirma fechas y condiciones en la web del organizador. Vía Banderín.
+  16 de octubre\, cierra el 10 de abril.\nFicha oficial: https://www.golfdi
+ recto.com/micro/game/6ad2015658859e3c4319fda7/summary\nConfirma fechas y c
+ ondiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6ad2015658859e3c4319fda7/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:ad42f2cf4fae9520b86b@banderin.es
-DTSTAMP:20261126T083144Z
+DTSTAMP:20261126T095459Z
 DTSTART;VALUE=DATE:20270509
 DTEND;VALUE=DATE:20270510
 SUMMARY:Liga 9 Hoyos Cccgolf 8810. Jornada VIII
 LOCATION:Cabanillas Casa de Campo Golf
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
-  16 de octubre\, cierra el 8 de mayo.\nPrecio: 50 €.\nFicha oficial: htt
- ps://www.golfdirecto.com/micro/game/6ad2016f58859e3c431f6905/summary\nConf
- irma fechas y condiciones en la web del organizador. Vía Banderín.
+  16 de octubre\, cierra el 8 de mayo.\nFicha oficial: https://www.golfdire
+ cto.com/micro/game/6ad2016f58859e3c431f6905/summary\nConfirma fechas y con
+ diciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6ad2016f58859e3c431f6905/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:98e321bbc9073bca899c@banderin.es
-DTSTAMP:20261126T083144Z
+DTSTAMP:20261126T095459Z
 DTSTART;VALUE=DATE:20270620
 DTEND;VALUE=DATE:20270621
 SUMMARY:Liga 9 Hoyos Cccgolf 8810. Jornada IX
 LOCATION:Cabanillas Casa de Campo Golf
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
-  16 de octubre\, cierra el 19 de junio.\nPrecio: 50 €.\nFicha oficial: h
- ttps://www.golfdirecto.com/micro/game/6ad2018e58859e3c43275b88/summary\nCo
- nfirma fechas y condiciones en la web del organizador. Vía Banderín.
+  16 de octubre\, cierra el 19 de junio.\nFicha oficial: https://www.golfdi
+ recto.com/micro/game/6ad2018e58859e3c43275b88/summary\nConfirma fechas y c
+ ondiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6ad2018e58859e3c43275b88/summary

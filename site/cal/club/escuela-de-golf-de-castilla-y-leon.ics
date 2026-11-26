@@ -11,16 +11,15 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:ee010371e580f53ba404@banderin.es
-DTSTAMP:20261126T083144Z
+DTSTAMP:20261126T095459Z
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261220
 SUMMARY:Torneo de Navidad 2026
 LOCATION:Escuela de Golf de Castilla y Leon
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
-  21 de noviembre\, cierra el 16 de diciembre.\nPrecio: 30 €.\nFicha ofic
- ial: https://www.golfdirecto.com/micro/game/6b01803b308888f8b432faf0/summa
- ry\nConfirma fechas y condiciones en la web del organizador. Vía Banderí
- n.
+  21 de noviembre\, cierra el 16 de diciembre.\nFicha oficial: https://www.
+ golfdirecto.com/micro/game/6b01803b308888f8b432faf0/summary\nConfirma fech
+ as y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6b01803b308888f8b432faf0/summary
