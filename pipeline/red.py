@@ -18,6 +18,23 @@ PAUSA = float(os.environ.get('BANDERIN_PAUSA', '0.5'))  # segundos mínimos entr
 SUSCRIPCION = re.compile(r'^https://calendar\.google\.com/calendar/ical/[^/]+/public/basic\.ics$')
 EXENTOS = ('api.cloudflare.com', 'api.brevo.com', 'geocoding-api.open-meteo.com', 'banderin.es', 'www.banderin.es')
 
+# Permisos por escrito del dueño de una web, para rutas concretas, mientras su robots.txt no lo recoge.
+# Golf Directo (J. M. Griñón, director técnico, correo del 26/11/2026 11:10): «ya puedes lanzar el bot» antes de
+# actualizar su robots.txt. Solo la lista pública de torneos y la de clubes. Caduca sola: después manda su robots.txt.
+PERMISOS = {'www.golfdirecto.com': (('/api/v2/public/tournament/last', '/api/v2/public/club'), '2026-12-03')}
+
+
+def _permiso_escrito(url):
+    import datetime
+    p = urllib.parse.urlsplit(url)
+    rutas, hasta = PERMISOS.get(p.netloc, ((), ''))
+    return datetime.date.today().isoformat() <= hasta and any(p.path == r for r in rutas)
+
+
+def permitido(url):
+    return _permiso_escrito(url) or _reglas(url).permite(url)
+
+
 _orig_urlopen = urllib.request.urlopen
 _orig_open = urllib.request.OpenerDirector.open
 _robots, _ultimo, _locks, _lock = {}, {}, {}, threading.Lock()
@@ -115,7 +132,7 @@ def _preparar(req):
     req.add_header('User-Agent', UA)  # sustituye la que traiga el programa
     if urllib.parse.urlsplit(url).path == '/robots.txt':
         return req
-    if not SUSCRIPCION.match(url) and not _reglas(url).permite(url):
+    if not SUSCRIPCION.match(url) and not _permiso_escrito(url) and not _reglas(url).permite(url):
         if url not in BLOQUEADAS:
             BLOQUEADAS.append(url)
             print('robots.txt no permite descargar', url, file=sys.stderr)
