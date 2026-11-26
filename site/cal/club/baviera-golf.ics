@@ -10,23 +10,8 @@ X-WR-TIMEZONE:Europe/Madrid
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:270b42abfdaa8a90e3b6@banderin.es
-DTSTAMP:20261125T152412Z
-DTSTART;VALUE=DATE:20261125
-DTEND;VALUE=DATE:20261126
-SUMMARY:Liga Prinzipiante Noviembre
-LOCATION:Baviera Golf\, Vélez-Málaga
-DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
-  19 de noviembre\, cierra el 19 de noviembre.\nPrecio: Gratis.\nFicha ofic
- ial: https://www.nextcaddy.com/tour/75466\nConfirma fechas y condiciones e
- n la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.nextcaddy.com/tour/75466
-END:VEVENT
-BEGIN:VEVENT
 UID:a448d7d6a41839b12946@banderin.es
-DTSTAMP:20261125T152412Z
+DTSTAMP:20261126T083144Z
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261202
 SUMMARY:Salida domingo

@@ -10,37 +10,8 @@ X-WR-TIMEZONE:Europe/Madrid
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:2a99a069c4be974a1380@banderin.es
-DTSTAMP:20261125T152412Z
-DTSTART;VALUE=DATE:20261125
-DTEND;VALUE=DATE:20261126
-SUMMARY:Ladies Day 25/11
-LOCATION:Miraflores Golf\, Mijas
-DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
- //www.nextcaddy.com/tour/75571\nConfirma fechas y condiciones en la web de
- l organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.nextcaddy.com/tour/75571
-END:VEVENT
-BEGIN:VEVENT
-UID:e94c8e46f4a5c87deeab@banderin.es
-DTSTAMP:20261125T152412Z
-DTSTART;VALUE=DATE:20261125
-DTEND;VALUE=DATE:20261126
-SUMMARY:Ladies Individual Stableford Qualifier
-LOCATION:Miraflores Golf
-DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
-  6 de noviembre\, cierra el 24 de noviembre.\nFicha oficial: https://www.g
- olfdirecto.com/micro/game/6aedc0f602e839445a7f26ef/summary\nConfirma fecha
- s y condiciones en la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.golfdirecto.com/micro/game/6aedc0f602e839445a7f26ef/summary
-END:VEVENT
-BEGIN:VEVENT
 UID:58b0513794183e4dd7a8@banderin.es
-DTSTAMP:20261125T152412Z
+DTSTAMP:20261126T083144Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
 SUMMARY:Daneses2611
@@ -54,7 +25,7 @@ URL:https://www.nextcaddy.com/tour/75597
 END:VEVENT
 BEGIN:VEVENT
 UID:adfda511a00407c118b9@banderin.es
-DTSTAMP:20261125T152412Z
+DTSTAMP:20261126T083144Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Pairs Greensomes
@@ -69,7 +40,7 @@ URL:https://www.golfdirecto.com/micro/game/6afecda6fa1568a5cdf78190/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:539ac21c95826c28c20e@banderin.es
-DTSTAMP:20261125T152412Z
+DTSTAMP:20261126T083144Z
 DTSTART;VALUE=DATE:20261202
 DTEND;VALUE=DATE:20261203
 SUMMARY:Christmas Pairs Scramble

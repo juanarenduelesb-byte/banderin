@@ -10,23 +10,8 @@ X-WR-TIMEZONE:Europe/Madrid
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:37b25f17e04770b6da83@banderin.es
-DTSTAMP:20261125T152412Z
-DTSTART;VALUE=DATE:20261125
-DTEND;VALUE=DATE:20261126
-SUMMARY:Resultado Fuera de Competición Ricardo Otero
-LOCATION:Sancti Petri Hills Golf\, Chiclana de la Frontera
-DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
-  25 de noviembre\, cierra el 25 de noviembre.\nPrecio: Gratis.\nFicha ofic
- ial: https://www.nextcaddy.com/tour/75616\nConfirma fechas y condiciones e
- n la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.nextcaddy.com/tour/75616
-END:VEVENT
-BEGIN:VEVENT
 UID:ebceea8db87a25be78d2@banderin.es
-DTSTAMP:20261125T152412Z
+DTSTAMP:20261126T083144Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:Torneo de Navidad 2026
