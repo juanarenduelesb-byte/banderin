@@ -1,0 +1,101 @@
+<!DOCTYPE html><html lang="es"><head><meta charset="utf-8"><title>banderin fichajes</title>
+<style>
+@font-face{font-family:"IS";font-weight:600;src:url(/fonts/public-sans-latin-600-normal.woff2) format("woff2")}
+@font-face{font-family:"IS";font-weight:700;src:url(/fonts/public-sans-latin-700-normal.woff2) format("woff2")}
+@font-face{font-family:"ISit";font-style:italic;font-weight:400;src:url(/fonts/instrument-serif-latin-400-italic.woff2) format("woff2")}
+@font-face{font-family:"Logo";font-weight:700;src:url(/fonts/instrument-sans-latin-700-normal.woff2) format("woff2")}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:1080px;height:1920px;overflow:hidden;background:#07090B;font-family:"IS",sans-serif;color:#fff}
+.L{position:absolute;inset:0;overflow:hidden}
+.H{font-family:"Logo";font-weight:700;letter-spacing:-.045em;line-height:.9}
+#bg{background:radial-gradient(80% 50% at 50% 30%,#1A2B12 0%,#07090B 70%)}
+#bg:before{content:"";position:absolute;inset:0;background:repeating-linear-gradient(115deg,transparent 0 60px,rgba(198,255,61,.035) 60px 62px)}
+#top{position:absolute;left:50px;right:50px;top:60px;display:flex;justify-content:space-between;align-items:center;z-index:30}
+#top .lg{display:flex;align-items:center;gap:14px;font-family:"Logo";font-size:40px;letter-spacing:-.03em}#top img{width:56px;height:56px;border-radius:14px}
+#top .tag{font-weight:700;font-size:28px;letter-spacing:.14em;color:#C6FF3D;border:3px solid #C6FF3D;padding:8px 16px;border-radius:8px}
+#brk{display:flex;flex-direction:column;align-items:center;justify-content:center}
+#brk .r{background:#E8202A;font-family:"Logo";font-size:120px;letter-spacing:-.03em;padding:14px 46px;transform:skewX(-10deg)}
+#brk .m{margin-top:40px;font-size:66px;font-weight:700;letter-spacing:.18em;color:#C6FF3D}
+#pc{position:absolute;left:170px;width:740px;top:230px;height:1060px;border-radius:40px;overflow:hidden;background:linear-gradient(160deg,#C6FF3D 0%,#8BD11A 45%,#2C4A0C 100%);box-shadow:0 40px 120px rgba(198,255,61,.25);color:#0B1405}
+#pc .ph{position:absolute;left:0;right:0;top:0;height:620px;background:url(/_m/f0.jpg) center 18%/cover;-webkit-mask-image:linear-gradient(#000 70%,transparent)}
+#pc .ov{position:absolute;left:44px;top:40px;z-index:2;color:#fff;text-shadow:0 4px 14px rgba(0,0,0,.6)}#pc .ov b{display:block;font-family:"Logo";font-size:140px;letter-spacing:-.05em;line-height:.9}#pc .ov span{font-weight:700;font-size:40px;letter-spacing:.1em}
+#pc .nm{position:absolute;left:0;right:0;top:560px;text-align:center;font-family:"Logo";font-size:78px;letter-spacing:-.03em}
+#pc .info{position:absolute;left:0;right:0;top:660px;display:flex;justify-content:center;gap:24px;font-weight:700;font-size:38px}
+#pc .info span{background:rgba(11,20,5,.12);padding:8px 20px;border-radius:999px}
+#st{position:absolute;left:60px;right:60px;top:760px;display:grid;grid-template-columns:1fr 1fr;gap:16px 40px;font-family:"Logo";font-size:58px}
+#st div{display:flex;justify-content:space-between;border-bottom:4px solid rgba(11,20,5,.18);padding:6px 0}
+#st div.x{background:#0B1405;color:#C6FF3D;border-radius:14px;padding:6px 18px;border:0;grid-column:span 2;font-size:72px}
+.of{position:absolute;left:70px;right:70px;height:300px;border-radius:34px;background:#13181C;border:4px solid #2A3238;display:flex;align-items:center;gap:36px;padding:0 44px}
+.of .cr{width:170px;height:170px;border-radius:50%;background:#1F272D;border:6px solid #C6FF3D;display:flex;align-items:center;justify-content:center;font-size:90px;flex:none}
+.of h4{font-family:"Logo";font-size:64px;letter-spacing:-.03em;line-height:1}.of p{font-size:34px;color:#9AA6AE;margin-top:10px;font-weight:600}
+.of .x{position:absolute;right:30px;top:30px;background:#E8202A;font-weight:700;font-size:32px;padding:8px 18px;border-radius:10px;transform:rotate(6deg)}
+.of.win{border-color:#C6FF3D;background:#16210B;box-shadow:0 0 0 6px rgba(198,255,61,.25),0 30px 80px rgba(198,255,61,.2)}
+#det{position:absolute;left:70px;right:70px;top:1260px;display:flex;flex-wrap:wrap;gap:16px;justify-content:center}
+#det span{background:#C6FF3D;color:#0B1405;font-weight:700;font-size:40px;padding:14px 28px;border-radius:999px}
+#ofi .ph{position:absolute;inset:0;background:url(/_m/f0.jpg) center/cover;filter:saturate(1.1)}
+#ofi .ph:after{content:"";position:absolute;inset:0;background:linear-gradient(transparent 40%,rgba(0,0,0,.85))}
+#ofi .b{position:absolute;left:0;right:0;top:1060px;text-align:center}
+#ofi .b .H{font-size:250px;color:#C6FF3D;text-shadow:0 10px 40px rgba(0,0,0,.6)}
+#ofi .b p{font-size:52px;font-weight:700;margin-top:10px}
+#cl{position:absolute;left:0;right:0;top:700px;text-align:center;z-index:3}
+#cl span{display:inline-block;border:12px solid #C6FF3D;color:#C6FF3D;background:rgba(0,0,0,.65);font-family:"Logo";font-size:100px;padding:8px 40px;border-radius:20px}
+#ag{display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center}
+#ag .k{font-size:44px;font-weight:700;letter-spacing:.2em;color:#9AA6AE}
+#ag .lg{display:flex;align-items:center;gap:30px;margin-top:40px}#ag img{width:200px;height:200px;border-radius:48px}#ag .lg b{font-family:"Logo";font-size:150px;letter-spacing:-.05em}
+#ag .s{margin-top:50px;font-family:ISit;font-style:italic;font-size:76px;color:#C6FF3D}
+#cta{display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:0 80px;background:#C6FF3D;color:#0B1405}
+#cta .H{font-size:140px}#cta .s{margin-top:40px;font-size:58px;font-weight:700}
+#cta .u{margin-top:80px;background:#0B1405;color:#C6FF3D;font-family:"Logo";font-size:78px;padding:22px 64px;border-radius:999px}
+#cap{position:absolute;left:60px;right:60px;top:1600px;text-align:center;font-weight:700;font-size:62px;line-height:1.1;z-index:50}
+#cap span{display:inline-block;margin:4px .05em;padding:4px 16px;border-radius:10px;background:rgba(7,9,11,.9);color:#fff}
+#cap span.k{color:#C6FF3D}
+#tick{position:absolute;left:0;right:0;bottom:0;height:90px;background:#E8202A;z-index:40;overflow:hidden}#tk{position:absolute;top:20px;white-space:nowrap;font-weight:700;font-size:40px;letter-spacing:.04em}
+#flash{position:absolute;inset:0;background:#fff;opacity:0;z-index:70}
+</style></head><body>
+<div class="L" id="bg"></div>
+<div id="top"><span class="lg"><img src="/icons/icon-192.png" alt="">banderín</span><span class="tag">MERCADO DE FICHAJES</span></div>
+<div class="L" id="brk"><div class="r H" id="br">ÚLTIMA HORA</div><div class="m" id="bm">MERCADO DE FICHAJES</div></div>
+<div class="L" id="card"><div id="pc"><div class="ph"></div><div class="ov"><b>62</b><span>AMT</span></div><div class="nm">EL AMATEUR</div>
+ <div class="info"><span id="ia">38 años</span><span id="ih">HCP 18,4</span></div>
+ <div id="st"><div><span>DRV</span><span>64</span></div><div><span>HIE</span><span>58</span></div><div><span>PUT</span><span>47</span></div><div><span>BUN</span><span>31</span></div><div class="x" id="sx"><span>EXCUSAS</span><span id="xn">--</span></div></div></div></div>
+<div class="L" id="offers">
+ <div class="of" id="o0" style="top:300px"><div class="cr">🏆</div><div><h4>Copa Senior</h4><p>Mayores de 50 · Stableford</p></div><span class="x" id="x0">RETIRADA · no cumple la edad</span></div>
+ <div class="of" id="o1" style="top:630px"><div class="cr">👥</div><div><h4>Liga de Parejas</h4><p>Fourball · 2 jugadores</p></div><span class="x" id="x1">RETIRADA · no tiene pareja</span></div>
+ <div class="of" id="o2" style="top:960px"><div class="cr">🎄</div><div><h4>Torneo de Navidad</h4><p>Individual · Hcp hasta 26,4</p></div></div>
+ <div id="det"><span id="d0">📅 Sábado</span><span id="d1">📍 a 10 km</span><span id="d2">✓ Inscripción abierta</span></div></div>
+<div class="L" id="ofi"><div class="ph"></div><div id="cl"><span>OPERACIÓN CERRADA</span></div><div class="b" id="ob"><div class="H">OFICIAL</div><p>Jugará el Torneo de Navidad</p></div></div>
+<div class="L" id="ag"><div class="k">SU AGENTE</div><div class="lg" id="al"><img src="/icons/icon-192.png" alt=""><b>banderín</b></div><div class="s" id="as">1.103 torneos en cartera</div></div>
+<div class="L" id="cta"><div class="H" id="c1">¿A qué torneo fichas este finde?</div><div class="s" id="c2">💬 Te leo en comentarios</div><div class="u" id="c3">banderin.es</div></div>
+<div id="tick"><div id="tk"></div></div>
+<div id="cap"></div><div id="flash"></div>
+<script>document.write('<script src="/_r/'+new URLSearchParams(location.search).get("r")+'.js?'+Date.now()+'"><\/script>')</script>
+<script>
+const $=id=>document.getElementById(id),cl=(x,a=0,b=1)=>Math.max(a,Math.min(b,x)),seg=(t,a,b)=>cl((t-a)/(b-a));
+const eo=x=>1-Math.pow(1-x,3),back=x=>{const c=1.7;return 1+(c+1)*Math.pow(x-1,3)+c*Math.pow(x-1,2)};
+const esc=s=>String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;');const op=(t,a,d=.08)=>seg(t,a,a+d);const pop=(t,a,d=.35)=>back(seg(t,a,a+d));
+const R=window.REEL;const S=R.scenes;const sc=k=>S.find(s=>s.type===k);
+const TK='ÚLTIMA HORA  ●  EL AMATEUR, CERCA DE CERRAR SU FICHAJE  ●  LA COPA SENIOR SE RETIRA  ●  LA LIGA DE PAREJAS PIDE PAREJA  ●  1.103 TORNEOS EN ESPAÑA  ●  ';$('tk').textContent=TK+TK+TK;
+const W=R.words||[];const KEY=new Set((R.keys||[]).map(s=>s.toLowerCase()));
+function caption(t){const g=(R.capgroups||[]).find(g=>t>=g[0]&&t<g[1]+0.12);const cap=$('cap');if(!g||S.some(s=>s.nocap&&t>=s.t0&&t<s.t1)){cap.style.opacity=0;return}cap.style.opacity=1;const ws=W.slice(g[2],g[3]);
+ if(cap.dataset.k!==g[0]+''){cap.dataset.k=g[0]+'';cap.innerHTML=ws.map(w=>`<span class="${KEY.has(w.w.toLowerCase().replace(/[.,¿?¡!:;…«»]/g,''))?'k':''}">${esc(w.w)}</span>`).join(' ')}
+ [...cap.children].forEach((s,i)=>{const w=ws[i];const p=seg(t,w.s-0.04,w.s+0.12);s.style.opacity=t<w.s-0.04?0:1;s.style.transform=`translateY(${(1-eo(p))*20}px) scale(${0.85+0.15*back(p)})`})}
+const vis=(id,on)=>{$(id).style.display=on?'':'none'};
+window.render=function(t){
+ const cur=S.find(s=>t>=s.t0&&t<s.t1)||S[S.length-1],ty=cur.type;const B=sc('breaking'),C=sc('card'),O=sc('offers'),F=sc('oficial'),A=sc('agent'),T=sc('cta');
+ vis('brk',ty==='breaking');$('br').style.transform=`skewX(-10deg) scale(${.5+.5*pop(t,.05,.4)})`;$('bm').style.opacity=op(t,.4,.2);
+ vis('card',ty==='card');const c=eo(seg(t,C.t0,C.t0+.5));$('pc').style.transform=`perspective(1600px) rotateY(${(1-c)*90}deg) scale(${.85+.15*c})`;
+ $('ia').style.opacity=op(t,C.ageAt);$('ih').style.opacity=op(t,C.hcpAt);$('xn').textContent=t<C.excAt?'--':Math.round(eo(seg(t,C.excAt,C.excAt+.5))*99);
+ $('sx').style.transform=`scale(${t>=C.excAt?1+.08*Math.sin(Math.PI*seg(t,C.excAt,C.excAt+.4)):1})`;
+ vis('offers',ty==='offers');[0,1,2].forEach(j=>{const e=$('o'+j);const a=j<2?O.t0+.1+j*.15:O.inAt;const p=pop(t,a,.4);e.style.opacity=op(t,a);e.style.transform=`translateX(${(1-p)*(j==2?1100:-1100)}px)`});
+ [[0,O.x1],[1,O.x2]].forEach(([j,x])=>{const on=t>=x;$('x'+j).style.opacity=op(t,x);$('x'+j).style.transform=`rotate(6deg) scale(${.5+.5*pop(t,x)})`;$('o'+j).style.filter=on?'grayscale(1) brightness(.55)':'none'});
+ $('o2').classList.toggle('win',t>=O.detAt);[0,1,2].forEach(j=>{const a=O.detAt+j*.45;$('d'+j).style.opacity=op(t,a);$('d'+j).style.transform=`scale(${.6+.4*pop(t,a)})`});
+ vis('ofi',ty==='oficial');const s=seg(t,F.stampAt,F.stampAt+.2);$('cl').style.opacity=op(t,F.stampAt)*(1-op(t,F.ofAt-.1,.15));$('cl').style.transform=`scale(${2.4-1.4*eo(s)}) rotate(-6deg)`;
+ $('ob').style.opacity=op(t,F.ofAt);$('ob').style.transform=`scale(${.6+.4*pop(t,F.ofAt,.4)})`;$('ofi').firstElementChild.style.transform=`scale(${1.15-.1*seg(t,F.t0,F.t1)})`;
+ vis('ag',ty==='agent');$('al').style.opacity=op(t,A.logoAt);$('al').style.transform=`scale(${.5+.5*pop(t,A.logoAt,.4)})`;$('as').style.opacity=op(t,A.logoAt+.5,.2);
+ vis('cta',ty==='cta');$('c1').style.transform=`scale(${.6+.4*pop(t,T.t0+.05,.45)})`;$('c2').style.opacity=op(t,T.eAt,.2);$('c3').style.opacity=op(t,T.eAt+.4,.2);
+ vis('top',ty!=='cta'&&ty!=='oficial');vis('tick',ty!=='cta');$('tk').style.transform=`translateX(${-t*200}px)`;
+ $('cap').style.top=ty==='cta'?'1700px':'1600px';
+ const fl=S.find(s=>s.flash&&t>=s.t0&&t<s.t0+.2);$('flash').style.opacity=fl?.85*(1-seg(t,fl.t0,fl.t0+.2)):0;
+ caption(t);document.body.style.opacity=1-seg(t,R.dur-.35,R.dur);return 0};
+window.prep=async()=>{await document.fonts.ready;await new Promise(r=>{const i=new Image();i.onload=i.onerror=r;i.src='/_m/f0.jpg'});render(0);return true};
+</script></body></html>

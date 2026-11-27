@@ -1,0 +1,11 @@
+# Solo se guarda el código del motor. Vídeos, audios, capturas y fotos generadas no van al repositorio.
+*.mp4
+*.mp3
+*.wav
+*.jpg
+*.png
+__pycache__/
+_r/
+assets*/
+carr/
+web/

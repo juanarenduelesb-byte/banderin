@@ -1,0 +1,172 @@
+<!DOCTYPE html><html lang="es"><head><meta charset="utf-8"><title>tv</title>
+<link rel="stylesheet" href="/_r/k2.css">
+<style>
+html,body{background:#000}
+.sc{overflow:hidden}
+.t{position:absolute;left:70px;right:70px;text-align:center;font-family:"CAS";color:#F4F1E8;font-size:92px;line-height:1.06;text-shadow:0 6px 40px rgba(0,0,0,.6)}
+.t .w{display:inline-block;opacity:0}
+.t i{font-style:normal;color:#E9C77E}
+#grain{position:absolute;inset:-50px;z-index:200;opacity:.07;pointer-events:none;mix-blend-mode:overlay}
+#vig{position:absolute;inset:0;z-index:199;pointer-events:none;background:radial-gradient(120% 90% at 50% 45%,transparent 55%,rgba(0,0,0,.55))}
+#bars{position:absolute;inset:0;z-index:198;pointer-events:none}
+/* calendario */
+#cal{position:absolute;left:150px;top:470px;width:780px;height:900px;perspective:2400px}
+.pg{position:absolute;inset:0;background:#EFE9DA;border-radius:18px;box-shadow:0 40px 90px rgba(0,0,0,.6);transform-origin:50% 0;backface-visibility:hidden;color:#2a2a2a;font-family:"PS"}
+.pg .hd{height:150px;background:#1F3A2C;border-radius:18px 18px 0 0;color:#EFE9DA;display:flex;align-items:center;justify-content:space-between;padding:0 50px;font-family:"CAS";font-size:74px}
+.pg .hd span{font-family:"PS";font-weight:600;font-size:40px;opacity:.8}
+.pg .gr{display:grid;grid-template-columns:repeat(7,1fr);gap:0;padding:30px 40px}
+.pg .gr b{height:96px;border-top:2px solid #d8d0bd;font-weight:600;font-size:28px;color:#777;padding:8px 10px}
+.pg .ring{position:absolute;width:150px;height:110px;border:6px solid #C8402F;border-radius:50%;transform:rotate(-8deg)}
+.pg .nt{position:absolute;font-family:"CAS";font-size:66px;color:#C8402F;transform:rotate(-6deg);white-space:nowrap}
+/* móvil */
+.ph{position:absolute;left:250px;top:420px;width:580px;height:1180px;border-radius:80px;background:#0A0F0C;padding:16px;box-shadow:0 0 120px rgba(80,140,255,.25),0 60px 120px rgba(0,0,0,.7)}
+.ph .s{position:relative;width:548px;height:1148px;border-radius:66px;overflow:hidden;background:#0B141A}
+.msg{position:absolute;max-width:400px;padding:22px 28px;border-radius:30px;font-family:"PS";font-size:34px;line-height:1.3;color:#E9EDEF;opacity:0}
+.msg small{display:block;font-size:24px;font-weight:700;margin-bottom:6px}
+/* pestañas */
+.win{position:absolute;width:640px;height:820px;background:#fff;border-radius:22px;overflow:hidden;box-shadow:0 30px 80px rgba(0,0,0,.6)}
+.win .bar{height:70px;background:#E8E9EB;display:flex;align-items:center;gap:12px;padding:0 22px}
+.win .bar i{width:18px;height:18px;border-radius:50%;background:#E0605A}
+.win .ln{height:20px;background:#E6E8EB;border-radius:6px;margin:18px 34px}
+/* tarjeta */
+#card{position:absolute;left:120px;right:120px;top:520px;background:#F4F1E8;border-radius:50px;overflow:hidden;color:#13201A;box-shadow:0 50px 120px rgba(0,0,0,.7)}
+#card .il{height:330px;background:linear-gradient(160deg,#4F7F62,#22422F)}
+#card .bd{padding:44px 50px 54px;font-family:"PS"}
+#card h3{font-family:"CAS";font-weight:400;font-size:74px;margin:10px 0}
+#cbtn{margin-top:36px;text-align:center;border-radius:999px;padding:30px;font-weight:700;font-size:44px;background:#163D2B;color:#fff}
+#stamp{position:absolute;left:60px;right:60px;top:900px;text-align:center;border:12px solid #C8402F;color:#C8402F;border-radius:30px;font-family:"PS";font-weight:700;font-size:100px;line-height:1.05;padding:30px 0;background:rgba(244,241,232,.95);opacity:0;z-index:5}
+/* final */
+#web{position:absolute;left:230px;top:330px;width:620px;height:1300px;border-radius:84px;background:#0A0F0C;padding:18px;box-shadow:0 60px 140px rgba(0,0,0,.6)}
+#web .s{position:relative;width:584px;height:1264px;border-radius:68px;overflow:hidden;background:#F4F1E8}
+#wf{position:absolute;left:0;top:0;width:390px;height:844px;border:0;transform:scale(1.4974);transform-origin:0 0}
+#endc{position:absolute;inset:0;background:radial-gradient(110% 80% at 50% 42%,#1F5139,#123323 55%,#071710);text-align:center;opacity:0}
+#endc img{width:250px;height:250px;border-radius:58px;margin-top:560px;box-shadow:0 30px 90px rgba(0,0,0,.5)}
+#endc .nm{font-family:"PS";font-weight:700;font-size:120px;letter-spacing:-.04em;margin-top:40px;color:#F4F1E8}
+#endc h2{font-family:"CAS";font-weight:400;font-size:84px;line-height:1.05;margin:40px 90px 0;color:#F4F1E8}
+#endc h2 span{color:#E9C77E}
+#endc .u{display:inline-block;margin-top:70px;font-family:"PS";font-weight:700;font-size:64px;background:#F4F1E8;color:#163D2B;border-radius:999px;padding:26px 64px}
+</style></head><body>
+<!-- 1 · campo al amanecer (frío) / 7 · amanecer cálido -->
+<div id="s1" class="sc"><svg id="land" width="1080" height="1920" viewBox="0 0 1080 1920" aria-hidden="true">
+ <defs>
+  <linearGradient id="skyC" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0E1A27"/><stop offset=".55" stop-color="#2D4256"/><stop offset="1" stop-color="#6B7F8C"/></linearGradient>
+  <linearGradient id="skyW" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2B4A6B"/><stop offset=".45" stop-color="#E9A26B"/><stop offset=".7" stop-color="#F6D49A"/><stop offset="1" stop-color="#FFF1CF"/></linearGradient>
+  <radialGradient id="sun"><stop offset="0" stop-color="#FFF8E1"/><stop offset=".35" stop-color="#FFE3A3" stop-opacity=".9"/><stop offset="1" stop-color="#FFC66B" stop-opacity="0"/></radialGradient>
+  <linearGradient id="fog" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".35"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+ </defs>
+ <rect width="1080" height="1920" fill="url(#skyC)"/>
+ <rect id="skyw" width="1080" height="1920" fill="url(#skyW)" opacity="0"/>
+ <circle id="sunc" cx="540" cy="980" r="420" fill="url(#sun)" opacity="0"/>
+ <g id="rays" opacity="0" stroke="#FFE7B0" stroke-width="40" stroke-linecap="round"></g>
+ <g id="h3"><path d="M-100 1010 C 160 930 330 960 560 990 S 960 920 1180 960 L1180 1920 L-100 1920Z" fill="#3B5A4A"/></g>
+ <rect id="fogb" x="-100" y="900" width="1300" height="220" fill="url(#fog)"/>
+ <g id="h2"><path d="M-100 1150 C 200 1080 420 1110 640 1135 S 980 1090 1180 1110 L1180 1920 L-100 1920Z" fill="#2C4A3A"/>
+  <ellipse id="green" cx="640" cy="1180" rx="230" ry="44" fill="#4E7F5C"/>
+  <g id="pin"><line x1="660" y1="1182" x2="660" y2="1000" stroke="#F4F1E8" stroke-width="7" stroke-linecap="round"/><path id="flagp" d="M663 1003 L760 1030 L663 1058 Z" fill="#E9C77E"/></g>
+  <ellipse cx="660" cy="1184" rx="16" ry="5" fill="#13241A"/>
+  <circle id="ball" cx="300" cy="1190" r="12" fill="#fff" opacity="0"/></g>
+ <g id="h1"><path d="M-100 1430 C 220 1360 520 1400 760 1420 S 1040 1390 1180 1400 L1180 1920 L-100 1920Z" fill="#1C3326"/></g>
+ <rect id="grade" width="1080" height="1920" fill="#0D1B2A" opacity=".25" style="mix-blend-mode:multiply"/>
+</svg>
+ <div id="tA" class="t" style="top:300px"></div><div id="tG" class="t" style="top:260px"></div></div>
+<!-- 2 · calendario -->
+<div id="s2" class="sc" style="background:radial-gradient(90% 70% at 50% 45%,#2B2A27,#0D0D0C)"><div id="cal"></div><div id="tB" class="t" style="top:170px;font-size:80px"></div></div>
+<!-- 3 · nos enteramos tarde -->
+<div id="s3" class="sc" style="background:#05080C"><div class="ph"><div class="s">
+ <div style="height:150px;background:#1F2C33;display:flex;align-items:flex-end;padding:0 0 26px 40px;font-family:PS;font-weight:700;font-size:36px;color:#E9EDEF">Golf · los de siempre</div>
+ <div class="msg" id="m1" style="left:24px;top:260px;background:#202C33"><small style="color:#E9C77E">Carlos</small>¿Qué tal el torneo del sábado? 🏆</div>
+ <div class="msg" id="m2" style="left:24px;top:470px;background:#202C33"><small style="color:#7FCF9C">Marta</small>Ganó Luis con 41 puntos 😂</div>
+ <div class="msg" id="m3" style="right:24px;top:690px;background:#005C4B">¿¿Había torneo?? 😩</div>
+</div></div><div id="tC" class="t" style="top:1650px;font-size:76px"></div></div>
+<!-- 4 · dónde mirar -->
+<div id="s4" class="sc" style="background:#0A0C10"><div id="wins"></div><div style="position:absolute;left:0;right:0;bottom:0;height:560px;z-index:15;background:linear-gradient(transparent,#0A0C10 55%)"></div><div id="tD" class="t" style="top:1640px;font-size:76px;z-index:20"></div></div>
+<!-- 5 · cerrado -->
+<div id="s5" class="sc" style="background:radial-gradient(90% 70% at 50% 45%,#1A1D1B,#050605)"><div id="card"><div class="il"></div><div class="bd"><div style="font-weight:700;color:#1F6B45;font-size:34px;letter-spacing:.05em">SÁB 14 JUN · TU CLUB</div><h3>El torneo del año</h3><div style="font-size:34px;color:#6B7A70">Medal · Hándicap</div><div id="cbtn">Inscribirme</div></div></div><div id="stamp">INSCRIPCIÓN<br>CERRADA</div><div id="tE" class="t" style="top:200px;font-size:80px"></div></div>
+<!-- 6 · este año, no -->
+<div id="s6" class="sc" style="background:#000"><div id="tF" class="t" style="top:820px;font-size:150px"></div></div>
+<!-- 8 · la web real -->
+<div id="s8" class="sc" style="background:radial-gradient(100% 80% at 50% 40%,#2C6B49,#123323 60%,#061510)"><div id="web"><div class="s"><iframe id="wf" src="/#lista" scrolling="no"></iframe></div></div><div id="tG2" class="t" style="top:130px;font-size:80px"></div></div>
+<!-- 9 · final -->
+<div id="endc"><img src="/icons/icon-512.png" alt=""><div class="nm">banderín</div><h2 id="ih">Tu próximo torneo<br><span>empieza aquí.</span></h2><div class="u">banderin.es</div></div>
+<div id="tap" class="tap" style="z-index:150"></div>
+<div id="vig"></div>
+<svg id="grain" width="1180" height="2020" aria-hidden="true"><filter id="gf"><feTurbulence id="turb" type="fractalNoise" baseFrequency=".9" numOctaves="2" seed="1"/></filter><rect width="100%" height="100%" filter="url(#gf)"/></svg>
+<div id="flash"></div>
+<script src="/_r/k2.js"></script>
+<script>
+const DUR=31,E=24.0;window.DUR=DUR;
+// textos palabra a palabra: [id, html, inicio, fin, palabras por segundo]
+function words(id,html){const el=$(id);el.innerHTML=html.split(' ').map(w=>'<span class="w">'+w+'</span>').join(' ');return [...el.querySelectorAll('.w')]}
+const TX={tA:['Todos tenemos <i>uno.</i>',1.0,2.95,4],
+ tB:['Ese torneo que íbamos a jugar… <i>el año que viene.</i>',3.0,7.4,3.2],
+ tC:['Porque nos enteramos <i>tarde.</i>',7.6,9.6,5],
+ tD:['Porque no sabíamos <i>dónde mirar.</i>',9.9,12.1,5],
+ tE:['Porque, cuando llegamos… <i>ya estaba cerrado.</i>',12.4,15.4,3.2],
+ tF:['Este año, <i>no.</i>',16.7,18.3,3],
+ tG:['Todos los torneos de golf <i>de España.</i>',19.3,21.4,4.5],
+ tG2:['En un solo <i>sitio.</i>',21.9,24.0,4]};
+const W={};for(const k in TX)W[k]=words(k,TX[k][0]);
+function txt(t){for(const k in TX){const [_,a,b,r]=TX[k];const ws=W[k];ws.forEach((w,i)=>{const s=a+i/r,p=eo(seg(t,s,s+.45));w.style.opacity=Math.min(p,1-seg(t,b-.35,b));w.style.transform=`translateY(${(1-p)*24}px)`;w.style.filter=`blur(${(1-p)*8}px)`})}}
+// calendario: tres años
+const cal=$('cal');const YRS=[2024,2025,2026];
+YRS.forEach((y,i)=>{const d=document.createElement('div');d.className='pg';d.id='pg'+i;d.style.zIndex=10-i;
+ d.innerHTML=`<div class="hd">Junio<span>${y}</span></div><div class="gr">${Array.from({length:35},(_,k)=>`<b>${k<30?k+1:''}</b>`).join('')}</div><div class="ring" style="left:${485}px;top:${380}px"></div><div class="nt" style="left:130px;top:${700}px">${i<2?'el año que viene…':'¿este año?'}</div>`;cal.appendChild(d)});
+// ventanas
+const WS=[];for(let i=0;i<14;i++){const d=document.createElement('div');d.className='win';const r=n=>{const x=Math.sin(i*12.9898+n*78.233)*43758.5453;return x-Math.floor(x)};
+ d.innerHTML='<div class="bar"><i></i><i style="background:#E6B54A"></i><i style="background:#5BB26A"></i></div>'+'<div class="ln"></div>'.repeat(22);
+ d.dataset.x=-80+r(1)*520;d.dataset.y=160+r(2)*900;d.dataset.r=(r(3)-.5)*24;d.dataset.z=r(4);$('wins').appendChild(d);WS.push(d)}
+const rays=$('rays');for(let i=0;i<9;i++){const a=-160+i*17.5;const l=document.createElementNS('http://www.w3.org/2000/svg','line');const R=Math.PI*a/180;l.setAttribute('x1',540);l.setAttribute('y1',980);l.setAttribute('x2',540+Math.cos(R)*1400);l.setAttribute('y2',980+Math.sin(R)*1400);l.setAttribute('opacity',.18);rays.appendChild(l)}
+const CL=(id,o)=>$(id).style.opacity=o;
+window.render=function(t){let wait=0;
+  // escena 1/7: campo
+  const s1=Math.max(vis(t,0,3.1,.9,.25),vis(t,18.25,21.55,.06,.2));CL('s1',s1);
+  const warm=t>18;const k=warm?eo(seg(t,18.25,20.5)):0;
+  $('skyw').setAttribute('opacity',k);$('sunc').setAttribute('opacity',k);$('sunc').setAttribute('cy',1060-200*eio(seg(t,18.25,21.5)));
+  $('rays').setAttribute('opacity',.9*k);$('rays').setAttribute('transform',`rotate(${(t-18)*2} 540 980)`);
+  $('grade').setAttribute('opacity',warm?.25*(1-k):.25);$('grade').setAttribute('fill',warm?'#3A1E00':'#0D1B2A');
+  $('fogb').setAttribute('transform',`translate(${(t%40)*6-60},0)`);
+  const push=warm?1+.08*seg(t,18.25,21.55):1.02+.07*seg(t,0,3.1);
+  [['h3',.25],['h2',.55],['h1',1]].forEach(([id,f])=>$(id).setAttribute('transform',`translate(${540*(1-1-(push-1)*f)} ${1100*(-(push-1)*f)}) scale(${1+(push-1)*f})`));
+  $('h2').querySelector('path').setAttribute('fill',warm?'#3D6B4B':'#2C4A3A');$('h1').querySelector('path').setAttribute('fill',warm?'#264A35':'#1C3326');$('h3').querySelector('path').setAttribute('fill',warm?'#6B8F6E':'#3B5A4A');
+  $('green').setAttribute('fill',warm?'#6FAE7E':'#4E7F5C');
+  const wv=Math.sin(t*5)*6;$('flagp').setAttribute('d',`M663 1003 Q712 ${1012+wv} 760 ${1030+wv*.6} Q712 ${1046-wv*.4} 663 1058 Z`);
+  // la bola entra en el hoyo
+  const bp=seg(t,19.0,20.9),bx=300+(660-300)*eo(bp);const ball=$('ball');ball.setAttribute('opacity',t>19&&t<21.05?1:0);ball.setAttribute('cx',bx);ball.setAttribute('cy',1190-6*Math.sin(Math.PI*bp)+(t>20.9?8*seg(t,20.9,21.0):0));ball.setAttribute('r',12*(1-.5*seg(t,20.9,21.0)));
+  // escena 2: calendario
+  CL('s2',vis(t,2.95,7.45,.3,.3));
+  YRS.forEach((y,i)=>{const fl=[4.55,5.75,99][i];const p=eio(seg(t,fl,fl+.55));$('pg'+i).style.transform=`rotateX(${p*-175}deg)`;$('pg'+i).style.opacity=p>.98?0:1;
+    $('pg'+i).querySelector('.ring').style.clipPath=`inset(0 ${100-100*eo(seg(t,3.4+i*1.2,3.9+i*1.2))}% 0 0)`;$('pg'+i).querySelector('.nt').style.opacity=eo(seg(t,3.8+i*1.2,4.2+i*1.2))});
+  $('cal').style.transform=`scale(${1+.05*seg(t,3,7.4)}) rotate(${-1.5+seg(t,3,7.4)}deg)`;
+  // escena 3: chat
+  CL('s3',vis(t,7.4,9.75,.2,.2));
+  [['m1',7.55],['m2',8.1],['m3',8.75]].forEach(([id,a])=>{const p=back(seg(t,a,a+.35));$(id).style.opacity=cl(seg(t,a,a+.1));$(id).style.transform=`translateY(${(1-p)*40}px) scale(${.92+.08*p})`});
+  $('s3').querySelector('.ph').style.transform=`scale(${1.0+.08*seg(t,7.4,9.75)})`;
+  // escena 4: ventanas
+  CL('s4',vis(t,9.7,12.2,.15,.2));
+  WS.forEach((d,i)=>{const a=9.75+i*.11,p=back(seg(t,a,a+.3));d.style.opacity=cl(seg(t,a,a+.05));const z=+d.dataset.z;
+    d.style.transform=`translate(${+d.dataset.x+(t-10)*30*(z-.5)}px,${+d.dataset.y}px) rotate(${d.dataset.r}deg) scale(${(.55+.35*z)*(.7+.3*p)})`;d.style.filter=`blur(${(1-z)*6*seg(t,10.5,12)}px) brightness(${.6+.4*z})`});
+  // escena 5: tarjeta cerrada
+  CL('s5',vis(t,12.2,15.45,.25,.35));
+  const cp=eo(seg(t,12.2,12.8));$('card').style.transform=`translateY(${(1-cp)*120}px) scale(${1.04-.04*seg(t,12.2,15.4)})`;
+  const r=$('cbtn').getBoundingClientRect();const tp=tapAt($('tap'),t,13.6,r.left+r.width/2,r.top+r.height/2);if(!tp)$('tap').style.opacity=0;
+  const cl0=t>14.35;$('cbtn').textContent=cl0?'Inscripción cerrada':'Inscribirme';$('cbtn').style.background=cl0?'#9A958A':'#163D2B';
+  $('stamp').style.opacity=t<14.35?0:1;$('stamp').style.transform=`rotate(-8deg) scale(${2.1-1.1*eo(seg(t,14.35,14.55))})`;
+  const sh=t>14.5&&t<14.95?Math.sin(t*95)*14*(1-seg(t,14.5,14.95)):0;$('s5').style.transform=`translateX(${sh}px)`;
+  $('s5').style.filter=`saturate(${.75-.6*seg(t,14.6,15.4)})`;
+  // escena 6
+  CL('s6',vis(t,16.5,18.32,.2,.04));$('tF').style.transform=`scale(${1+.06*seg(t,16.7,18.3)})`;
+  // escena 8: la web
+  const s8=vis(t,21.45,E+.05,.2,.05);CL('s8',s8);$('web').style.transform=`translateY(${(1-eo(seg(t,21.45,22.1)))*260}px) scale(${.96+.04*seg(t,21.45,24)})`;
+  try{const fw=$('wf').contentWindow;fw.scrollTo(0,900*eio(seg(t,21.7,23.9)))}catch(e){}
+  // final
+  const ev=eo(seg(t,E,E+.5));CL('endc',ev);const ec=$('endc');
+  ec.querySelector('img').style.transform=`scale(${.6+.4*back(seg(t,E+.05,E+.7))})`;
+  const nm=ec.querySelector('.nm');nm.style.opacity=eo(seg(t,E+.35,E+.9));nm.style.letterSpacing=(-.04+.04*(1-eo(seg(t,E+.35,E+1.4))))+'em';
+  const h=eo(seg(t,25.35,26.0));$('ih').style.opacity=h;$('ih').style.transform=`translateY(${(1-h)*40}px)`;
+  const u=back(seg(t,26.6,27.1));const U=ec.querySelector('.u');U.style.opacity=cl(seg(t,26.6,26.75));U.style.transform=`scale(${.8+.2*u})`;
+  txt(t);
+  $('turb').setAttribute('seed',Math.floor(t*24)%97);
+  flash(t,[18.3]);document.body.style.opacity=Math.min(1,t/.6)*(1-seg(t,DUR-.6,DUR));
+  return wait};
+window.prep=async()=>{await document.fonts.ready;const d=$('wf').contentDocument,st=d.createElement('style');st.textContent='*{animation:none!important;transition:none!important}::-webkit-scrollbar{display:none}#avFab,.avfab,#cbanner{display:none!important}';d.head.appendChild(st);try{const f=d.getElementById('fst');f.value='open';f.dispatchEvent(new Event('change',{bubbles:true}));f.dispatchEvent(new Event('input',{bubbles:true}))}catch(e){}await new Promise(r=>setTimeout(r,600));render(0);return true};
+</script></body></html>

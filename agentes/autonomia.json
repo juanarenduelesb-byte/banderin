@@ -1,0 +1,14 @@
+{
+ "niveles": {"A0": "Ayuda a Juan cuando se lo pide", "A1": "Propone y Juan decide", "A2": "Ejecuta con aprobación previa", "A3": "Ejecuta y avisa", "A4": "Autónomo; Juan revisa una muestra"},
+ "regla": "Lo que habla con terceros, gasta dinero, borra datos de usuarios o toca secretos nunca pasa de A2. Solo Juan cambia un nivel; el analista lo propone cada lunes.",
+ "bajar": "Baja a A1 en el acto con un fallo grave (publicar un dato falso, acción no permitida, romper el acuerdo con Golf Directo, dejar la web caída). Baja un nivel si su métrica empeora tres semanas seguidas.",
+ "agentes": {
+  "operaciones": {"actual": "A3", "tope": "A4", "subir": "4 semanas sin un arreglo que haya que deshacer y sin incidencias que viera Juan antes que el agente."},
+  "redes": {"actual": "A3", "tope": "A3", "subir": "No sube: publicar es hablar en nombre de Banderín. Juan puede revisar una muestra.", "nota": "A3 por decisión de Juan (D-012), con controles antes de publicar."},
+  "posicionamiento": {"actual": "A3", "tope": "A4", "subir": "4 mejoras seguidas sin romper páginas ni bajar visitas."},
+  "analista": {"actual": "A1", "tope": "A1", "subir": "No sube: decide Juan."},
+  "comercial": {"actual": "A1", "tope": "A2", "subir": "A2 = enviar correos que Juan haya aprobado uno a uno. Solo si Juan lo pide."},
+  "atencion": {"actual": "A1", "tope": "A2", "subir": "A2 = enviar respuestas de plantillas aprobadas (casos.md) a dudas simples. Solo si Juan lo pide."},
+  "estratega": {"actual": "A1 para proponer · A3 para construir lo aprobado", "tope": "A3", "subir": "No sube de A1 al proponer: lo que se construye lo decide Juan (D-015)."}
+ }
+}

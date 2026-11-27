@@ -1,0 +1,145 @@
+<!DOCTYPE html><html lang="es"><head><meta charset="utf-8"><title>banderin mision</title>
+<style>
+@font-face{font-family:"IS";font-weight:600;src:url(/fonts/public-sans-latin-600-normal.woff2) format("woff2")}
+@font-face{font-family:"IS";font-weight:700;src:url(/fonts/public-sans-latin-700-normal.woff2) format("woff2")}
+@font-face{font-family:"ISit";font-style:italic;font-weight:400;src:url(/fonts/instrument-serif-latin-400-italic.woff2) format("woff2")}
+@font-face{font-family:"Logo";font-weight:700;src:url(/fonts/instrument-sans-latin-700-normal.woff2) format("woff2")}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:1080px;height:1920px;overflow:hidden;background:#0B0F0C;font-family:"IS",sans-serif;color:#fff}
+.L{position:absolute;inset:0;overflow:hidden}
+.G{font-family:"Logo";font-weight:700;letter-spacing:-.02em;-webkit-text-stroke:10px #000;paint-order:stroke fill;text-shadow:0 10px 0 rgba(0,0,0,.35)}
+#world{position:absolute;left:0;top:0;width:1080px;height:3400px}
+#vig{background:radial-gradient(120% 70% at 50% 50%,transparent 50%,rgba(0,0,0,.55) 100%)}
+.bar{position:absolute;left:0;right:0;height:0;background:#000;z-index:30}
+#hud{position:absolute;right:50px;top:70px;text-align:right;z-index:35}
+#clock{font-size:54px}#hcp{font-size:40px;color:#9FE3A8;margin-top:8px}
+#balls{display:flex;gap:12px;justify-content:flex-end;margin-top:14px}
+#balls i{width:40px;height:40px;border-radius:50%;border:5px solid #000;background:#3a3a3a;display:block}
+#balls i.on{background:#fff;box-shadow:inset -6px -6px 0 #cfcfcf}
+#radar{position:absolute;left:50px;top:70px;width:230px;height:230px;border-radius:50%;border:8px solid #000;overflow:hidden;z-index:35;background:#1F4A2A}
+#radar:after{content:"";position:absolute;left:50%;top:50%;width:0;height:0;border-left:16px solid transparent;border-right:16px solid transparent;border-bottom:34px solid #fff;transform:translate(-50%,-60%);filter:drop-shadow(0 0 3px #000)}
+#obj{position:absolute;left:50px;top:340px;z-index:35;background:rgba(0,0,0,.72);border-left:10px solid #F2C14E;padding:22px 30px;border-radius:6px;font-weight:700;font-size:42px;display:flex;gap:18px;align-items:center}
+#obj b{display:inline-block;width:42px;height:42px;border:5px solid #fff;border-radius:6px;position:relative}
+#obj b.x:after{content:"✕";position:absolute;inset:-8px 0 0 4px;color:#E8473B;font-size:46px}
+.tab{position:absolute;left:90px;right:90px;background:#F7F6F2;color:#1A1A1A;border-radius:22px;box-shadow:0 30px 80px rgba(0,0,0,.55);overflow:hidden}
+.tab .tb{background:#DAD7CF;padding:16px 24px;font-size:30px;font-weight:700;display:flex;gap:14px;align-items:center}
+.tab .tb:before{content:"";width:18px;height:18px;border-radius:50%;background:#E8473B;box-shadow:28px 0 #F2C14E,56px 0 #48B26B;margin-right:60px}
+.tab .bd{padding:34px 30px;font-size:36px;color:#555;min-height:120px}
+#cnt{position:absolute;right:70px;top:1330px;z-index:36;font-size:120px;color:#F2C14E}
+.fcard{position:absolute;left:90px;right:90px;top:620px;background:#F7F6F2;color:#1A1A1A;border-radius:30px;padding:46px;box-shadow:0 40px 100px rgba(0,0,0,.6)}
+.fcard h3{font-family:"Logo";font-size:72px;letter-spacing:-.03em;line-height:1}.fcard p{font-size:36px;color:#666;margin-top:14px}
+.stamp{position:absolute;left:0;right:0;top:860px;text-align:center;z-index:5}
+.stamp span{display:inline-block;border:12px solid #E8473B;color:#E8473B;font-family:"Logo";font-size:80px;padding:6px 40px;border-radius:20px;background:rgba(255,255,255,.85)}
+#fail{z-index:40;display:flex;flex-direction:column;align-items:center;justify-content:center;background:rgba(40,0,0,.35)}
+#fail .G{font-size:230px;color:#D9342B;-webkit-text-stroke:14px #000}
+#fail p{font-size:54px;font-weight:700;margin-top:10px;text-shadow:0 4px 12px #000}
+#retry{margin-top:110px;background:#fff;color:#000;font-family:"Logo";font-size:58px;padding:20px 60px;border-radius:999px;border:6px solid #000}
+#cheat{z-index:42;background:#050806;display:flex;flex-direction:column;justify-content:center;padding:0 90px;font-family:ui-monospace,Menlo,Consolas,monospace}
+#cheat .l1{font-size:44px;color:#7BD88F;letter-spacing:.06em}
+#cheat .in{margin-top:40px;font-size:118px;font-weight:700;color:#fff;border-bottom:8px solid #7BD88F;padding-bottom:20px;min-height:160px;white-space:nowrap}
+#cheat .ok{margin-top:50px;font-size:60px;font-weight:700;color:#050806;background:#7BD88F;align-self:flex-start;padding:14px 30px}
+#map{z-index:43;background:radial-gradient(90% 60% at 50% 45%,#12301D 0%,#06110A 80%)}
+#map svg{position:absolute;inset:0}
+#mcnt{position:absolute;left:0;right:0;top:170px;text-align:center}
+#mcnt .G{font-size:190px;color:#F2C14E}#mcnt p{font-size:46px;font-weight:700;letter-spacing:.2em;margin-top:-6px}
+#chip{position:absolute;left:0;right:0;top:1370px;text-align:center}
+#chip span{display:inline-block;background:#F2C14E;color:#000;font-weight:700;font-size:44px;padding:18px 36px;border-radius:999px;border:5px solid #000}
+#pass{z-index:44;display:flex;flex-direction:column;align-items:center;justify-content:center;background:radial-gradient(80% 50% at 50% 45%,rgba(242,193,78,.35),rgba(0,0,0,.75))}
+#pass .G{font-size:150px;color:#F2C14E;text-align:center;line-height:.95}
+#pass p{font-size:50px;font-weight:700;margin-top:40px;text-shadow:0 4px 12px #000}
+#pass .r{margin-top:24px;font-size:44px;color:#9FE3A8}
+#cta{z-index:46;background:#F2C14E;color:#000;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:0 70px}
+#cta .G{font-size:136px;color:#fff;line-height:.98}
+#cta .u{margin-top:80px;background:#000;color:#F2C14E;font-family:"Logo";font-size:78px;padding:22px 64px;border-radius:999px}
+#cap{position:absolute;left:60px;right:60px;top:1600px;text-align:center;font-family:"Logo";font-weight:700;font-size:72px;line-height:1.08;z-index:60}
+#cap span{display:inline-block;margin:0 .08em;-webkit-text-stroke:9px #000;paint-order:stroke fill}
+#cap span.k{color:#F2C14E}
+#brand{position:absolute;left:50%;bottom:60px;transform:translateX(-50%);display:flex;align-items:center;gap:12px;font-family:"Logo";font-size:34px;z-index:61;opacity:.9}
+#brand img{width:46px;height:46px;border-radius:11px}
+#flash{position:absolute;inset:0;background:#fff;opacity:0;z-index:70}
+</style></head><body>
+<div class="L" id="game">
+ <svg id="world" viewBox="0 0 1080 3400">
+  <rect width="1080" height="3400" fill="#2F6B39"/>
+  <g fill="#1E4E28">__TREES__</g>
+  <path d="M540 3300 C 380 2900, 720 2600, 560 2200 S 300 1500, 520 1100 S 760 500, 560 150" stroke="#4E9C57" stroke-width="260" fill="none" stroke-linecap="round"/>
+  <path d="M540 3300 C 380 2900, 720 2600, 560 2200 S 300 1500, 520 1100 S 760 500, 560 150" stroke="#D8C9A0" stroke-width="12" fill="none" stroke-dasharray="40 30" transform="translate(170 0)"/>
+  <ellipse cx="300" cy="1900" rx="190" ry="120" fill="#2B7BB9"/><ellipse cx="300" cy="1900" rx="150" ry="85" fill="#3A8FD0"/>
+  <ellipse cx="700" cy="1350" rx="80" ry="45" fill="#E7D7A3"/><ellipse cx="380" cy="700" rx="70" ry="40" fill="#E7D7A3"/><ellipse cx="760" cy="2500" rx="90" ry="50" fill="#E7D7A3"/>
+  <circle cx="560" cy="260" r="150" fill="#6CC070"/><line x1="560" y1="260" x2="560" y2="120" stroke="#fff" stroke-width="8"/><path d="M560 120 l70 22 l-70 22z" fill="#E8473B"/><circle cx="560" cy="260" r="10" fill="#000"/>
+ </svg>
+ <div class="L" id="vig"></div>
+</div>
+<div class="bar" id="bt" style="top:0"></div><div class="bar" id="bb" style="bottom:0"></div>
+<div class="L" id="intro" style="z-index:31;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center">
+ <div class="G" id="i1" style="font-size:150px;color:#F2C14E">NUEVA<br>MISIÓN</div>
+ <div id="i2" style="margin-top:40px;font-family:ISit;font-style:italic;font-size:84px;text-shadow:0 6px 20px #000">«Sábado de torneo»</div>
+</div>
+<div id="radar"><svg viewBox="0 0 230 230" width="230" height="230"><rect width="230" height="230" fill="#2F6B39"/><path id="rp" d="M115 260 C 90 200, 150 150, 115 90 S 70 20, 115 -40" stroke="#4E9C57" stroke-width="44" fill="none"/><circle id="rb" cx="170" cy="40" r="12" fill="#F2C14E" stroke="#000" stroke-width="4"/></svg></div>
+<div id="hud"><div class="G" id="clock">SÁB 07:58</div><div class="G" id="hcp">HCP 18,4</div><div id="balls"><i></i><i></i><i></i><i></i><i></i></div></div>
+<div id="obj"><b id="ob"></b><span>Encuentra un torneo</span></div>
+<div class="L" id="tabs" style="z-index:34"></div><div class="G" id="cnt">14</div>
+<div class="L" id="found" style="z-index:36"><div class="fcard" id="fc"><h3>Torneo Social</h3><p>Sábado · 9:00 · Individual Stableford</p></div><div class="stamp" id="fs"><span>INSCRIPCIÓN CERRADA</span></div></div>
+<div class="L" id="fail"><div class="G" id="fw">AL AGUA</div><p id="fp">MISIÓN FALLIDA</p><div id="retry">▶ REINTENTAR</div></div>
+<div class="L" id="cheat"><div class="l1">&gt; INTRODUCE TRUCO_</div><div class="in" id="ci"></div><div class="ok" id="co">✓ TRUCO ACTIVADO</div></div>
+<div class="L" id="map"><svg viewBox="0 0 1080 1920" id="msv"><g id="dots"></g></svg><div id="mcnt"><div class="G" id="mn">0</div><p>TORNEOS EN ESPAÑA</p></div><div id="chip"><span>📅 Con su plazo de inscripción</span></div></div>
+<div class="L" id="pass"><div class="G" id="pw">¡MISIÓN<br>SUPERADA!</div><p id="pp">Torneo encontrado · Sábado 9:00</p><p class="r" id="pr">RESPETO ▲▲▲</p></div>
+<div class="L" id="cta"><div class="G" id="c1">Etiqueta a tu compañero de partida 👇</div><div class="u" id="c2">banderin.es</div></div>
+<div id="brand"><img src="/icons/icon-192.png" alt="">banderín</div><div id="cap"></div><div id="flash"></div>
+<script>document.write('<script src="/_r/'+new URLSearchParams(location.search).get("r")+'.js?'+Date.now()+'"><\/script>')</script>
+<script>
+const $=id=>document.getElementById(id),cl=(x,a=0,b=1)=>Math.max(a,Math.min(b,x)),seg=(t,a,b)=>cl((t-a)/(b-a));
+const eo=x=>1-Math.pow(1-x,3),back=x=>{const c=1.7;return 1+(c+1)*Math.pow(x-1,3)+c*Math.pow(x-1,2)};
+const esc=s=>String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;');const op=(t,a,d=.08)=>seg(t,a,a+d);const pop=(t,a,d=.35)=>back(seg(t,a,a+d));
+const R=window.REEL;const S=R.scenes;const sc=k=>S.find(s=>s.type===k);
+// árboles
+let tr='';let sd=3;const rnd=()=>{sd=(sd*9301+49297)%233280;return sd/233280};for(let i=0;i<120;i++){const x=rnd()<.5?rnd()*260:820+rnd()*260;tr+=`<circle cx="${x|0}" cy="${(rnd()*3400)|0}" r="${(30+rnd()*40)|0}"/>`}
+$('world').innerHTML=$('world').innerHTML.replace('__TREES__',tr);
+const TB=sc('tabs');TB.tabs.forEach((x,j)=>{const d=document.createElement('div');d.className='tab';d.id='tb'+j;d.style.top=(450+j*235)+'px';d.innerHTML=`<div class="tb">${x[1]}</div><div class="bd">${x[2]}</div>`;$('tabs').appendChild(d)});
+const M=sc('map');$('dots').innerHTML=`<path d="M${M.poly.map(p=>p[0]+' '+(p[1]+80)).join(' L')} Z" fill="rgba(242,193,78,.07)" stroke="rgba(242,193,78,.45)" stroke-width="4"/>`+M.dots.map((d,i)=>`<circle id="m${i}" cx="${d[0]}" cy="${d[1]+80}" r="7" fill="#F2C14E" opacity="0"/>`).join('')+'<rect x="120" y="1270" width="280" height="110" rx="14" fill="none" stroke="rgba(242,193,78,.35)" stroke-width="3"/>';
+const W=R.words||[];const KEY=new Set((R.keys||[]).map(s=>s.toLowerCase()));
+function caption(t){const g=(R.capgroups||[]).find(g=>t>=g[0]&&t<g[1]+0.12);const cap=$('cap');if(!g||S.some(s=>s.nocap&&t>=s.t0&&t<s.t1)){cap.style.opacity=0;return}cap.style.opacity=1;const ws=W.slice(g[2],g[3]);
+ if(cap.dataset.k!==g[0]+''){cap.dataset.k=g[0]+'';cap.innerHTML=ws.map(w=>`<span class="${KEY.has(w.w.toLowerCase().replace(/[.,¿?¡!:;…«»]/g,''))?'k':''}">${esc(w.w)}</span>`).join(' ')}
+ [...cap.children].forEach((s,i)=>{const w=ws[i];const p=seg(t,w.s-0.04,w.s+0.12);s.style.opacity=t<w.s-0.04?0:1;s.style.transform=`scale(${0.7+0.3*back(p)})`})}
+const vis=(id,on)=>{$(id).style.display=on?'':'none'};
+window.render=function(t){
+ const cur=S.find(s=>t>=s.t0&&t<s.t1)||S[S.length-1],ty=cur.type;
+ const mi=sc('mission'),ob=sc('objective'),fo=sc('found'),fa=sc('fail'),ch=sc('cheat'),pa=sc('passed'),ct=sc('cta');
+ // mundo: paneo continuo, gris al fallar
+ const gy=-1480+(t/R.dur)*1400;$('world').style.transform=`translateY(${gy}px) scale(${1+.04*Math.sin(t*.7)})`;
+ $('game').style.filter=(ty==='fail')?'grayscale(1) brightness(.6)':'none';
+ // barras de cine en la intro
+ const bars=t<mi.t1?1-seg(t,mi.t1-.35,mi.t1):0;$('bt').style.height=$('bb').style.height=(bars*230)+'px';
+ vis('intro',ty==='mission');$('i1').style.transform=`scale(${.6+.4*pop(t,.05,.4)})`;$('i1').style.opacity=op(t,.05);$('i2').style.opacity=op(t,mi.subAt,.2);
+ const play=['objective','tabs','found','fail'].includes(ty);['radar','hud','obj'].forEach(i=>vis(i,play));
+ $('rp').setAttribute('transform',`translate(0 ${(t*30)%120})`);
+ const o=pop(t,ob.objAt-.25,.4);$('obj').style.transform=`translateX(${(1-o)*-700}px)`;$('ob').className=t>fa.t0?'x':'';
+ // reloj y nivel de bolas
+ const mins=7*60+58+Math.floor(seg(t,ob.t0,fa.t0)*150);$('clock').textContent=`SÁB ${String(Math.floor(mins/60)).padStart(2,'0')}:${String(mins%60).padStart(2,'0')}`;
+ let lv=TB.tabs.filter(x=>t>=x[0]).length;if(t>=fo.stampAt)lv=5;if(t>=fa.t0)lv=0;
+ [...$('balls').children].forEach((b,i)=>{b.className=i<lv?'on':'';const fl=(lv===5&&t<fa.t0&&Math.floor(t*8)%2)?.3:1;b.style.opacity=i<lv?fl:1});
+ // pestañas
+ vis('tabs',ty==='tabs');TB.tabs.forEach((x,j)=>{const p=pop(t,x[0],.35);const e=$('tb'+j);e.style.opacity=op(t,x[0]);e.style.transform=`translateY(${(1-p)*300}px) rotate(${(j%2?1:-1)*(1.5+j)}deg)`});
+ vis('cnt',ty==='tabs'&&t>=TB.cntAt);const c=pop(t,TB.cntAt,.3);$('cnt').style.transform=`scale(${.4+.6*c}) rotate(-6deg)`;
+ // encontrado + sello
+ vis('found',ty==='found');const f=pop(t,fo.t0+.05,.4);$('fc').style.transform=`translateY(${(1-f)*300}px)`;$('fc').style.opacity=op(t,fo.t0+.05);
+ const s=seg(t,fo.stampAt,fo.stampAt+.2);$('fs').style.opacity=op(t,fo.stampAt);$('fs').style.transform=`scale(${2.4-1.4*eo(s)}) rotate(-7deg)`;
+ const sh=(t>fo.stampAt&&t<fo.stampAt+.3)?1-seg(t,fo.stampAt,fo.stampAt+.3):0;$('found').style.transform=`translate(${Math.sin(t*90)*18*sh}px,${Math.cos(t*70)*18*sh}px)`;
+ // al agua
+ vis('fail',ty==='fail');const w=seg(t,fa.t0,fa.t0+.5);$('fw').style.transform=`scale(${1.25-.25*eo(w)})`;$('fw').style.opacity=op(t,fa.t0,.25);$('fp').style.opacity=op(t,fa.t0+.35,.2);
+ $('retry').style.opacity=op(t,fa.btnAt-.1);$('retry').style.transform=`scale(${(.7+.3*pop(t,fa.btnAt-.1))*(1+.04*Math.sin(t*12)*(t>fa.btnAt+.3))})`;
+ // truco
+ vis('cheat',ty==='cheat');const code='BANDERIN.ES';const n=Math.floor(cl((t-ch.typeAt)/.09+1,0,code.length));$('ci').textContent=(t<ch.typeAt?'':code.slice(0,n))+(Math.floor(t*3)%2?'▌':' ');
+ $('co').style.opacity=op(t,ch.okAt);$('co').style.transform=`scale(${.6+.4*pop(t,ch.okAt)})`;
+ // mapa
+ vis('map',ty==='map');const mp=seg(t,M.t0+.1,M.t0+.1+M.popDur);M.dots.forEach((d,i)=>{const e=$('m'+i);const on=mp>=d[2];e.setAttribute('opacity',on?.95:0);e.setAttribute('r',on?(7+5*(1-seg(mp,d[2],d[2]+.08))):7)});
+ $('mn').textContent=String(Math.round(eo(mp)*M.dots.length)).replace(/\B(?=(\d{3})+(?!\d))/g,'.');$('chip').style.opacity=op(t,M.chipAt);$('chip').style.transform=`translateY(${(1-pop(t,M.chipAt))*80}px)`;
+ // superada
+ vis('pass',ty==='passed');$('pw').style.transform=`scale(${.5+.5*pop(t,pa.t0+.05,.45)})`;$('pp').style.opacity=op(t,pa.t0+.4,.2);$('pr').style.opacity=op(t,pa.t0+.7,.2);
+ // cta
+ vis('cta',ty==='cta');$('c1').style.transform=`scale(${.6+.4*pop(t,ct.t0+.05,.45)})`;$('c2').style.opacity=op(t,ct.eAt);$('c2').style.transform=`scale(${.7+.3*pop(t,ct.eAt)})`;
+ vis('brand',ty!=='cta'&&ty!=='mission');
+ const fl=S.find(s=>s.flash&&t>=s.t0&&t<s.t0+.2);$('flash').style.opacity=fl?.9*(1-seg(t,fl.t0,fl.t0+.2)):0;
+ caption(t);document.body.style.opacity=1-seg(t,R.dur-.35,R.dur);return 0};
+window.prep=async()=>{await document.fonts.ready;render(0);return true};
+</script></body></html>

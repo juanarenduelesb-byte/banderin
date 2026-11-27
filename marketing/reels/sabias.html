@@ -1,0 +1,69 @@
+<!DOCTYPE html><html lang="es"><head><meta charset="utf-8"><title>banderin sabias</title>
+<style>
+@font-face{font-family:"IS";font-weight:600;src:url(/fonts/public-sans-latin-600-normal.woff2) format("woff2")}
+@font-face{font-family:"IS";font-weight:700;src:url(/fonts/public-sans-latin-700-normal.woff2) format("woff2")}
+@font-face{font-family:"ISit";font-style:italic;font-weight:400;src:url(/fonts/instrument-serif-latin-400-italic.woff2) format("woff2")}
+@font-face{font-family:"Logo";font-weight:700;src:url(/fonts/instrument-sans-latin-700-normal.woff2) format("woff2")}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:1080px;height:1920px;overflow:hidden;background:#000;font-family:"IS",sans-serif;color:#fff}
+.L{position:absolute;inset:0;overflow:hidden}
+.ph{position:absolute;inset:0;background:#111 center/cover}
+.ph:after{content:"";position:absolute;inset:0;background:linear-gradient(rgba(0,0,0,.45),transparent 25%,transparent 65%,rgba(0,0,0,.6))}
+.tag{position:absolute;left:0;right:0;top:150px;text-align:center;z-index:3}
+.tag span{display:inline-block;background:#FFE14D;color:#000;font-family:"Logo";font-size:100px;letter-spacing:-.04em;padding:10px 40px;transform:rotate(-2deg);box-shadow:10px 10px 0 #000}
+.stk{position:absolute;z-index:4;background:#fff;color:#000;font-family:"Logo";font-size:62px;letter-spacing:-.02em;padding:14px 30px;border-radius:16px;box-shadow:8px 8px 0 #000;white-space:nowrap}
+.stk.red{background:#E8202A;color:#fff}
+#pv{background:#000;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center}
+#pv .a{font-family:ISit;font-style:italic;font-size:150px}#pv .b{margin-top:30px;font-family:"Logo";font-size:104px;letter-spacing:-.04em;line-height:1;padding:0 60px}#pv .b em{font-style:normal;color:#FFE14D}
+#rv .ph{background-image:url(/_m/s3.jpg)}
+#rv .ph:after{background:linear-gradient(rgba(18,51,35,.88),rgba(18,51,35,.55) 45%,rgba(18,51,35,.92))}
+#rv .lg{position:absolute;left:0;right:0;top:260px;display:flex;flex-direction:column;align-items:center}
+#rv .lg img{width:220px;height:220px;border-radius:52px;box-shadow:0 30px 80px rgba(0,0,0,.5)}
+#rv .lg b{font-family:"Logo";font-size:140px;letter-spacing:-.05em;margin-top:30px}
+#rv .n{position:absolute;left:0;right:0;top:830px;text-align:center}#rv .n b{font-family:"Logo";font-size:200px;letter-spacing:-.05em;color:#F2D27E;line-height:1}#rv .n p{font-size:46px;font-weight:700;letter-spacing:.08em}
+#gr{position:absolute;left:0;right:0;top:1140px;text-align:center;z-index:3}#gr span{display:inline-block;border:12px solid #FFE14D;color:#FFE14D;font-family:"Logo";font-size:120px;padding:4px 40px;border-radius:20px;background:rgba(0,0,0,.35)}
+#ok{position:absolute;left:0;right:0;top:1380px;display:flex;justify-content:center;gap:20px}#ok span{background:#F4EFE3;color:#123323;font-weight:700;font-size:42px;padding:14px 28px;border-radius:999px}
+#cta{background:#FFE14D;color:#000;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:0 80px}
+#cta .h{font-family:"Logo";font-size:110px;letter-spacing:-.045em;line-height:.98}
+#cta .u{margin-top:90px;background:#123323;color:#F4EFE3;font-family:"Logo";font-size:80px;padding:24px 66px;border-radius:999px}
+#cap{position:absolute;left:60px;right:60px;top:1600px;text-align:center;font-weight:700;font-size:64px;line-height:1.1;z-index:50}
+#cap span{display:inline-block;margin:4px .05em;padding:4px 16px;border-radius:12px;background:rgba(0,0,0,.85);color:#fff}
+#cap span.k{color:#FFE14D}
+#brand{position:absolute;left:50%;bottom:60px;transform:translateX(-50%);display:flex;align-items:center;gap:12px;font-family:"Logo";font-size:34px;z-index:61}
+#brand img{width:46px;height:46px;border-radius:11px}
+#flash{position:absolute;inset:0;background:#fff;opacity:0;z-index:70}
+</style></head><body>
+<div id="scenes"></div>
+<div class="L" id="pv"><div class="a" id="pa">Pero…</div><div class="b" id="pb">¿sabes lo que <em>sí</em> funciona?</div></div>
+<div class="L" id="rv"><div class="ph" id="rph"></div><div class="lg" id="rl"><img src="/icons/icon-192.png" alt=""><b>banderin.es</b></div>
+ <div class="n" id="rn"><b id="rnn">0</b><p>TORNEOS DE GOLF · TODA ESPAÑA</p></div><div id="gr"><span>GRATIS</span></div><div id="ok"><span id="k0">✓ Sin perderte ninguno</span></div></div>
+<div class="L" id="cta"><div class="h" id="c1">Mándaselo a quien se entera de los torneos cuando ya han pasado 👇</div><div class="u" id="c2">banderin.es</div></div>
+<div id="brand"><img src="/icons/icon-192.png" alt="">banderín</div><div id="cap"></div><div id="flash"></div>
+<script>document.write('<script src="/_r/'+new URLSearchParams(location.search).get("r")+'.js?'+Date.now()+'"><\/script>')</script>
+<script>
+const $=id=>document.getElementById(id),cl=(x,a=0,b=1)=>Math.max(a,Math.min(b,x)),seg=(t,a,b)=>cl((t-a)/(b-a));
+const eo=x=>1-Math.pow(1-x,3),back=x=>{const c=1.7;return 1+(c+1)*Math.pow(x-1,3)+c*Math.pow(x-1,2)};
+const esc=s=>String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;');const op=(t,a,d=.08)=>seg(t,a,a+d);const pop=(t,a,d=.35)=>back(seg(t,a,a+d));
+const R=window.REEL;const S=R.scenes;const sc=k=>S.find(s=>s.type===k);const P=S.filter(s=>s.type==='photo');
+$('scenes').innerHTML=P.map((p,k)=>`<div class="L" id="p${k}"><div class="ph" id="ph${k}" style="background-image:url(/_m/${p.img}.jpg)"></div><div class="tag"><span id="tg${k}">${p.tag}</span></div>${p.st.map((x,j)=>`<div class="stk ${j==p.st.length-1?'red':''}" id="s${k}_${j}" style="left:${x[2]}px;top:${x[3]}px">${x[1]}</div>`).join('')}</div>`).join('');
+const W=R.words||[];const KEY=new Set((R.keys||[]).map(s=>s.toLowerCase()));
+function caption(t){const g=(R.capgroups||[]).find(g=>t>=g[0]&&t<g[1]+0.12);const cap=$('cap');if(!g||S.some(s=>s.nocap&&t>=s.t0&&t<s.t1)){cap.style.opacity=0;return}cap.style.opacity=1;const ws=W.slice(g[2],g[3]);
+ if(cap.dataset.k!==g[0]+''){cap.dataset.k=g[0]+'';cap.innerHTML=ws.map(w=>`<span class="${KEY.has(w.w.toLowerCase().replace(/[.,¿?¡!:;…«»]/g,''))?'k':''}">${esc(w.w)}</span>`).join(' ')}
+ [...cap.children].forEach((s,i)=>{const w=ws[i];const p=seg(t,w.s-0.04,w.s+0.12);s.style.opacity=t<w.s-0.04?0:1;s.style.transform=`translateY(${(1-eo(p))*20}px) scale(${0.85+0.15*back(p)})`})}
+const vis=(id,on)=>{$(id).style.display=on?'':'none'};
+window.render=function(t){
+ const cur=S.find(s=>t>=s.t0&&t<s.t1)||S[S.length-1],ty=cur.type;const V=sc('pivot'),RV=sc('reveal'),C=sc('cta');
+ P.forEach((p,k)=>{const on=cur===p;vis('p'+k,on);if(!on)return;const z=seg(t,p.t0,p.t1);$('ph'+k).style.transform=`scale(${p.small?1.25-.1*z:1.05+.12*z})`;if(p.small)$('ph'+k).style.filter='grayscale(.6) brightness(.7)';
+  $('tg'+k).style.transform=`rotate(-2deg) scale(${p.t0<.01?.5+.5*pop(t,.05,.4):.5+.5*pop(t,p.t0,.4)})`;
+  p.st.forEach((x,j)=>{const e=$(`s${k}_${j}`);e.style.opacity=op(t,x[0]);e.style.transform=`rotate(${x[4]}deg) scale(${(t<x[0]?0:.4+.6*pop(t,x[0],.35))})`})});
+ const sh=P.concat([RV]).flatMap(p=>p.hits||[]).find(h=>t>h&&t<h+.25);if(sh!==undefined){const a=1-seg(t,sh,sh+.25);document.getElementById('scenes').style.transform=`translate(${Math.sin(t*90)*14*a}px,${Math.cos(t*80)*14*a}px)`}else $('scenes').style.transform='';
+ vis('pv',ty==='pivot');$('pa').style.opacity=op(t,V.t0,.1);$('pb').style.opacity=op(t,V.qAt,.1);$('pb').style.transform=`scale(${.7+.3*pop(t,V.qAt,.4)})`;
+ vis('rv',ty==='reveal');$('rph').style.transform=`scale(${1.05+.1*seg(t,RV.t0,RV.t1)})`;$('rl').style.transform=`scale(${.4+.6*pop(t,RV.t0+.05,.5)})`;
+ $('rn').style.opacity=op(t,RV.nAt);$('rnn').textContent=String(Math.round(eo(seg(t,RV.nAt,RV.nAt+1.2))*1103)).replace(/\B(?=(\d{3})+(?!\d))/g,'.');
+ $('gr').style.opacity=op(t,RV.gAt);$('gr').style.transform=`scale(${2.2-1.2*eo(seg(t,RV.gAt,RV.gAt+.2))}) rotate(-5deg)`;$('k0').style.opacity=op(t,RV.okAt);$('k0').style.transform=`scale(${.6+.4*pop(t,RV.okAt)})`;
+ vis('cta',ty==='cta');$('c1').style.transform=`scale(${.6+.4*pop(t,C.t0+.05,.45)})`;$('c2').style.opacity=op(t,C.eAt);$('c2').style.transform=`scale(${.7+.3*pop(t,C.eAt)})`;
+ vis('brand',ty!=='cta'&&ty!=='reveal');
+ const fl=S.find(s=>s.flash&&t>=s.t0&&t<s.t0+.2);$('flash').style.opacity=fl?.85*(1-seg(t,fl.t0,fl.t0+.2)):0;
+ caption(t);document.body.style.opacity=1-seg(t,R.dur-.35,R.dur);return 0};
+window.prep=async()=>{await document.fonts.ready;await Promise.all(['s0','s1','s2','s3'].map(n=>new Promise(r=>{const i=new Image();i.onload=i.onerror=r;i.src='/_m/'+n+'.jpg'})));render(0);return true};
+</script></body></html>

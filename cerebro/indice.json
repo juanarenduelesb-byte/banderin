@@ -1,0 +1,95 @@
+{
+ "generado": "agentes/tools/generar.py",
+ "fichas": [
+  {
+   "ruta": "cerebro/00-que-es-banderin.md",
+   "titulo": "00 · Qué es Banderín",
+   "resumen": "HECHO · Banderín (banderin.es) reúne en una sola web gratuita todos los torneos de golf amateur de España:",
+   "palabras": 277
+  },
+  {
+   "ruta": "cerebro/01-fuentes-y-acuerdos.md",
+   "titulo": "01 · Fuentes y acuerdos",
+   "resumen": "Regla general (HECHO, pipeline/red.py): Banderín lee con el agente BanderinBot, respeta el robots.txt de cada",
+   "palabras": 317
+  },
+  {
+   "ruta": "cerebro/02-arquitectura.md",
+   "titulo": "02 · Arquitectura",
+   "resumen": "Todo vive en el repositorio juanarenduelesb-byte/banderin (público, licencia en LICENSE).",
+   "palabras": 327
+  },
+  {
+   "ruta": "cerebro/03-producto.md",
+   "titulo": "03 · Producto (lo que puede hacer un usuario hoy)",
+   "resumen": "- Lista de torneos con buscador y filtros: fecha (hoy, este finde, este mes), comunidad, provincia, cerca de mí, categoría.",
+   "palabras": 192
+  },
+  {
+   "ruta": "cerebro/04-audiencia-y-mercado.md",
+   "titulo": "04 · Audiencia y mercado",
+   "resumen": "Usuario principal (HIPÓTESIS, a validar con datos): golfista amateur federado en España, 30–65 años, juega",
+   "palabras": 191
+  },
+  {
+   "ruta": "cerebro/05-marca-y-voz.md",
+   "titulo": "05 · Marca y voz",
+   "resumen": "Nombre: Banderín (con tilde). Dominio banderin.es. En minúsculas en el logotipo: «banderín».",
+   "palabras": 185
+  },
+  {
+   "ruta": "cerebro/06-redes-sociales.md",
+   "titulo": "06 · Redes sociales",
+   "resumen": "Canal: Instagram (reels y carruseles). TikTok [POR CONFIRMAR]. Conexión con Claude mediante Metricool: [PENDIENTE, ver agentes/PENDIENTES.md].",
+   "palabras": 282
+  },
+  {
+   "ruta": "cerebro/07-metricas.md",
+   "titulo": "07 · Métricas",
+   "resumen": "Métrica norte: suscriptores activos a los avisos (tabla suscriptores, estado='activo', D1).",
+   "palabras": 170
+  },
+  {
+   "ruta": "cerebro/08-negocio.md",
+   "titulo": "08 · Negocio",
+   "resumen": "Hoy: gratis, sin ingresos. Juan le dijo a Golf Directo que no cobra y que solo les manda tráfico: cualquier forma de",
+   "palabras": 136
+  },
+  {
+   "ruta": "cerebro/09-riesgos.md",
+   "titulo": "09 · Riesgos",
+   "resumen": "| Riesgo | Impacto | Señal | Vigila |",
+   "palabras": 221
+  },
+  {
+   "ruta": "cerebro/10-legal-y-privacidad.md",
+   "titulo": "10 · Legal y privacidad",
+   "resumen": "- RGPD: los avisos usan doble confirmación; bajas de 1 clic; limpieza de altas sin confirmar e inactivas (avisos.py).",
+   "palabras": 154
+  },
+  {
+   "ruta": "cerebro/11-glosario.md",
+   "titulo": "11 · Glosario",
+   "resumen": "- Hándicap (hcp): nivel de juego; más bajo = mejor. Muchos torneos limitan el hándicap máximo.",
+   "palabras": 130
+  },
+  {
+   "ruta": "cerebro/12-personas.md",
+   "titulo": "12 · Personas y contactos",
+   "resumen": "- Juan Álvarez-Rendueles — fundador y única persona que decide. Contacto: juanarenduelesb@gmail.com. Prefiere respuestas cortas, en español, y un mentor exigente.",
+   "palabras": 64
+  },
+  {
+   "ruta": "cerebro/README.md",
+   "titulo": "Cerebro de Banderín",
+   "resumen": "Lo que hay que saber de Banderín para trabajar en él sin preguntar lo mismo dos veces. Lo leen los agentes",
+   "palabras": 341
+  },
+  {
+   "ruta": "cerebro/decisiones.md",
+   "titulo": "Registro de decisiones",
+   "resumen": "Formato: D-número · fecha · decisión · motivo · estado. Solo Juan aprueba una decisión; un agente puede proponerla.",
+   "palabras": 360
+  }
+ ]
+}

@@ -1,0 +1,98 @@
+<!DOCTYPE html><html lang="es"><head><meta charset="utf-8"><title>banderin tiempo</title>
+<style>
+@font-face{font-family:"IS";font-weight:600;src:url(/fonts/public-sans-latin-600-normal.woff2) format("woff2")}
+@font-face{font-family:"IS";font-weight:700;src:url(/fonts/public-sans-latin-700-normal.woff2) format("woff2")}
+@font-face{font-family:"ISit";font-style:italic;font-weight:400;src:url(/fonts/instrument-serif-latin-400-italic.woff2) format("woff2")}
+@font-face{font-family:"Logo";font-weight:700;src:url(/fonts/instrument-sans-latin-700-normal.woff2) format("woff2")}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:1080px;height:1920px;overflow:hidden;background:#071A33;font-family:"IS",sans-serif;color:#fff}
+.L{position:absolute;inset:0;overflow:hidden}
+#bg{background:radial-gradient(100% 70% at 50% 40%,#123E6B 0%,#0A2546 55%,#05132A 100%)}
+#mapw{transform-origin:540px 860px}
+#map{position:absolute;inset:0}
+#bug{position:absolute;left:50px;top:60px;display:flex;align-items:center;gap:16px;z-index:30}
+#bug img{width:64px;height:64px;border-radius:16px}#bug b{font-family:"Logo";font-size:44px;letter-spacing:-.03em}
+#bug span{background:#E23B32;font-weight:700;font-size:26px;letter-spacing:.12em;padding:8px 16px;border-radius:6px;margin-left:10px}
+#clk{position:absolute;right:50px;top:68px;font-family:"Logo";font-size:46px;z-index:30;background:rgba(0,0,0,.35);padding:6px 20px;border-radius:10px}
+#title{display:flex;flex-direction:column;align-items:center;justify-content:center;z-index:20}
+#title .band{text-align:center;background:linear-gradient(90deg,#F2C14E,#F7A23B);color:#0A2546;font-family:"Logo";font-size:118px;letter-spacing:-.04em;padding:18px 50px;line-height:1;transform:skewX(-8deg)}
+#title .sub{margin-top:34px;font-size:48px;font-weight:700;background:#0A2546;padding:14px 36px;border:3px solid #F2C14E}
+#big{position:absolute;left:0;right:0;top:230px;text-align:center;z-index:15}
+#big b{font-family:"Logo";font-size:220px;letter-spacing:-.05em;line-height:1;color:#F2C14E;text-shadow:0 10px 40px rgba(0,0,0,.5)}
+#big p{font-size:46px;font-weight:700;letter-spacing:.06em}
+.ic{position:absolute;z-index:16;text-align:center;transform:translate(-50%,-50%)}
+.ic .e{font-size:170px;line-height:1;filter:drop-shadow(0 10px 20px rgba(0,0,0,.4))}
+#bub{position:absolute;left:70px;right:70px;top:250px;z-index:17;background:rgba(5,19,42,.88);border:4px solid #F2C14E;border-radius:30px;padding:30px 40px;display:flex;align-items:center;gap:34px}
+#bub b{font-family:"Logo";font-size:170px;letter-spacing:-.05em;color:#F2C14E;line-height:.9}#bub .t{font-size:40px;font-weight:700}#bub .t small{display:block;font-size:56px;font-family:ISit;font-style:italic;font-weight:400;color:#cfe0f5;margin-top:6px}
+#rain{z-index:18;pointer-events:none}
+#alert{z-index:25;background:#F28C28;color:#1A0E00;display:flex;flex-direction:column;align-items:center;padding-top:300px}
+#alert .h{background:#1A0E00;color:#F28C28;font-family:"Logo";font-size:80px;padding:14px 40px;letter-spacing:-.02em}
+#alert .h2{font-family:"Logo";font-size:150px;letter-spacing:-.05em;margin-top:30px;line-height:.95;text-align:center}
+#alert .q{margin-top:70px;font-family:ISit;font-style:italic;font-size:92px;line-height:1.02;text-align:center;padding:0 70px}
+#alert .st{margin-top:70px;border:12px solid #C21F14;color:#C21F14;background:rgba(255,255,255,.85);font-family:"Logo";font-size:120px;padding:4px 44px;border-radius:20px}
+#cta{z-index:26;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:0 80px}
+#cta .a{font-size:52px;font-weight:700;color:#cfe0f5}
+#cta .u{margin-top:30px;background:#F2C14E;color:#0A2546;font-family:"Logo";font-size:110px;letter-spacing:-.04em;padding:20px 64px;border-radius:999px}
+#cta .s{margin-top:110px;font-family:ISit;font-style:italic;font-size:90px;line-height:1.02}
+#tick{position:absolute;left:0;right:0;top:1770px;height:96px;z-index:40;display:flex;background:#fff;color:#0A2546}
+#tick .lb{background:#E23B32;color:#fff;font-weight:700;font-size:34px;letter-spacing:.06em;display:flex;align-items:center;padding:0 28px;white-space:nowrap;z-index:2}
+#tick .tr{flex:1;overflow:hidden;position:relative}#tk{position:absolute;top:24px;white-space:nowrap;font-weight:700;font-size:40px}
+#cap{position:absolute;left:60px;right:60px;top:1560px;text-align:center;font-weight:700;font-size:62px;line-height:1.1;z-index:50}
+#cap span{display:inline-block;margin:4px .05em;padding:4px 16px;border-radius:10px;background:rgba(5,19,42,.9);color:#fff}
+#cap span.k{color:#F2C14E}
+#flash{position:absolute;inset:0;background:#fff;opacity:0;z-index:70}
+</style></head><body>
+<div class="L" id="bg"></div>
+<div class="L" id="mapw"><svg id="map" viewBox="0 0 1080 1920"></svg><div id="icons"></div></div>
+<svg class="L" id="rain" viewBox="0 0 1080 1920"></svg>
+<div id="bug"><img src="/icons/icon-192.png" alt=""><b>banderín tv</b><span>● EN DIRECTO</span></div><div id="clk">21:30</div>
+<div class="L" id="title"><div class="band" id="tb">EL TIEMPO<br>DEL GOLF</div><div class="sub" id="ts">Fin de semana · 28 y 29 nov</div></div>
+<div id="big"><b id="bn">0</b><p>TORNEOS ESTE FIN DE SEMANA</p></div>
+<div id="bub"><b id="un">0</b><div class="t" id="ut">torneos<small id="ul"></small></div></div>
+<div class="L" id="alert"><div class="h">⚠ AVISO NARANJA</div><div class="h2">POR<br>EXCUSAS</div><div class="q" id="aq">«Es que no sabía que había torneo»</div><div class="st" id="as">YA NO CUELA</div></div>
+<div class="L" id="cta"><div class="a">Previsión completa en</div><div class="u" id="cu">banderin.es</div><div class="s" id="cs">Compártelo con el que nunca se entera de nada 👇</div></div>
+<div id="tick"><div class="lb">FIN DE SEMANA</div><div class="tr"><div id="tk"></div></div></div>
+<div id="cap"></div><div id="flash"></div>
+<script>document.write('<script src="/_r/'+new URLSearchParams(location.search).get("r")+'.js?'+Date.now()+'"><\/script>')</script>
+<script>
+const $=id=>document.getElementById(id),cl=(x,a=0,b=1)=>Math.max(a,Math.min(b,x)),seg=(t,a,b)=>cl((t-a)/(b-a));
+const eo=x=>1-Math.pow(1-x,3),eio=x=>x<.5?4*x*x*x:1-Math.pow(-2*x+2,3)/2,back=x=>{const c=1.7;return 1+(c+1)*Math.pow(x-1,3)+c*Math.pow(x-1,2)};
+const esc=s=>String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;');const op=(t,a,d=.08)=>seg(t,a,a+d);const pop=(t,a,d=.35)=>back(seg(t,a,a+d));
+const R=window.REEL;const S=R.scenes;const sc=k=>S.find(s=>s.type===k);const RG=S.filter(s=>s.type==='reg');const T0=sc('title');
+const Y=170;const P=T0.poly.map(p=>[p[0],p[1]+Y]);
+$('map').innerHTML=`<defs><pattern id="g" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M36 0H0V36" fill="none" stroke="rgba(255,255,255,.05)" stroke-width="2"/></pattern></defs><rect width="1080" height="1920" fill="url(#g)"/>
+<path d="M${P.map(p=>p[0]+' '+p[1]).join(' L')} Z" fill="#3C8A55" stroke="#E9F5EC" stroke-width="5" stroke-linejoin="round"/>
+<path d="M${P.map(p=>p[0]+' '+p[1]).join(' L')} Z" fill="none" stroke="rgba(0,0,0,.25)" stroke-width="14" transform="translate(0 10)" opacity=".5"/>
+<ellipse cx="${(90+(2.95+9.6)/13*900).toFixed(0)}" cy="${(480+(44-39.6)/8.3*760+Y).toFixed(0)}" rx="45" ry="22" fill="#3C8A55" stroke="#E9F5EC" stroke-width="4"/>
+<ellipse cx="${(90+(4.1+9.6)/13*900).toFixed(0)}" cy="${(480+(44-39.95)/8.3*760+Y).toFixed(0)}" rx="20" ry="10" fill="#3C8A55" stroke="#E9F5EC" stroke-width="4"/>`;
+$('icons').innerHTML=RG.map((r,k)=>`<div class="ic" id="i${k}" style="left:${r.at[0]}px;top:${r.at[1]+Y}px"><div class="e">${r.icon}</div></div>`).join('');
+let rn='';for(let i=0;i<90;i++)rn+=`<line id="r${i}" x1="0" y1="0" x2="-14" y2="44" stroke="#9CC8F2" stroke-width="6" stroke-linecap="round"/>`;$('rain').innerHTML=rn;
+$('tk').textContent=T0.ticker.join('   ●   ')+'   ●   '+T0.ticker.join('   ●   ');
+const W=R.words||[];const KEY=new Set((R.keys||[]).map(s=>s.toLowerCase()));
+function caption(t){const g=(R.capgroups||[]).find(g=>t>=g[0]&&t<g[1]+0.12);const cap=$('cap');if(!g||S.some(s=>s.nocap&&t>=s.t0&&t<s.t1)){cap.style.opacity=0;return}cap.style.opacity=1;const ws=W.slice(g[2],g[3]);
+ if(cap.dataset.k!==g[0]+''){cap.dataset.k=g[0]+'';cap.innerHTML=ws.map(w=>`<span class="${KEY.has(w.w.toLowerCase().replace(/[.,¿?¡!:;…«»]/g,''))?'k':''}">${esc(w.w)}</span>`).join(' ')}
+ [...cap.children].forEach((s,i)=>{const w=ws[i];const p=seg(t,w.s-0.04,w.s+0.12);s.style.opacity=t<w.s-0.04?0:1;s.style.transform=`translateY(${(1-eo(p))*20}px) scale(${0.85+0.15*back(p)})`})}
+const vis=(id,on)=>{$(id).style.display=on?'':'none'};
+window.render=function(t){
+ const cur=S.find(s=>t>=s.t0&&t<s.t1)||S[S.length-1],ty=cur.type;const TT=sc('total'),A=sc('alert'),C=sc('cta');
+ vis('title',ty==='title');$('tb').style.transform=`skewX(-8deg) translateX(${(1-eo(seg(t,.05,.45)))*-1200}px)`;$('ts').style.opacity=op(t,.4,.2);
+ const mapOn=['title','total','reg'].includes(ty);vis('mapw',mapOn);
+ // cámara: zoom a la región activa
+ let sx=1,cx=540,cy=860;const ri=RG.indexOf(cur);
+ if(ri>=0){const r=cur.at;const k=eio(seg(t,cur.t0,cur.t0+.6));const prev=ri>0?[RG[ri-1].at[0],RG[ri-1].at[1]+Y]:[540,860];const ps=ri>0?1.7:1;
+  sx=ps+(1.7-ps)*k;cx=prev[0]+(r[0]-prev[0])*k;cy=prev[1]+(r[1]+Y-prev[1])*k}
+ $('mapw').style.transform=`translate(${540-cx}px,${980-cy}px) scale(${sx})`;$('mapw').style.transformOrigin=`${cx}px ${cy}px`;
+ if(ty==='title')$('mapw').style.opacity=.35;else $('mapw').style.opacity=1;
+ vis('big',ty==='total');$('bn').textContent=Math.round(eo(seg(t,TT.nAt,TT.nAt+1.2))*TT.n);$('big').style.transform=`scale(${.6+.4*pop(t,TT.t0,.4)})`;
+ RG.forEach((r,k)=>{const e=$('i'+k);const on=t>=r.t0;e.style.opacity=on?1:0;e.style.transform=`translate(-50%,-50%) scale(${(on?.3+.7*pop(t,r.t0+.2,.45):0)/ (ri>=0?sx:1)})`});
+ vis('bub',ri>=0);if(ri>=0){const b=pop(t,cur.t0+.15,.4);$('bub').style.transform=`translateY(${(1-b)*-300}px)`;$('un').textContent=t<cur.nAt?'–':Math.round(eo(seg(t,cur.nAt,cur.nAt+.5))*cur.n);$('ul').textContent=cur.label}
+ const G=RG[3];const rv=ty==='reg'&&ri===3&&t>=G.rainAt-.1;vis('rain',rv);if(rv){for(let i=0;i<90;i++){const x=(i*137)%1080,sp=900+(i%7)*90,y=((t*sp+i*211)%2100)-100;$('r'+i).setAttribute('transform',`translate(${x} ${y})`)}}
+ vis('alert',ty==='alert');const a=pop(t,A.t0+.05,.4);$('alert').style.transform=`scale(${.9+.1*a})`;$('aq').style.opacity=op(t,A.qAt-.1,.2);
+ const s=seg(t,A.stampAt,A.stampAt+.2);$('as').style.opacity=op(t,A.stampAt);$('as').style.transform=`scale(${2.4-1.4*eo(s)}) rotate(-6deg)`;
+ const sh=(t>A.stampAt&&t<A.stampAt+.3)?1-seg(t,A.stampAt,A.stampAt+.3):0;$('alert').style.transform+=` translate(${Math.sin(t*90)*16*sh}px,${Math.cos(t*70)*16*sh}px)`;
+ vis('cta',ty==='cta');$('cu').style.transform=`scale(${.6+.4*pop(t,C.t0+.1,.45)})`;$('cs').style.opacity=op(t,C.eAt+.8,.25);
+ $('tk').style.transform=`translateX(${-t*180}px)`;
+ const fl=S.find(s=>s.flash&&t>=s.t0&&t<s.t0+.2);$('flash').style.opacity=fl?.85*(1-seg(t,fl.t0,fl.t0+.2)):0;
+ caption(t);document.body.style.opacity=1-seg(t,R.dur-.35,R.dur);return 0};
+window.prep=async()=>{await document.fonts.ready;render(0);return true};
+</script></body></html>

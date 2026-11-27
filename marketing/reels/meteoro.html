@@ -1,0 +1,151 @@
+<!DOCTYPE html><html lang="es"><head><meta charset="utf-8"><title>banderin meteoro</title>
+<style>
+@font-face{font-family:"IS";font-weight:600;src:url(/fonts/public-sans-latin-600-normal.woff2) format("woff2")}
+@font-face{font-family:"IS";font-weight:700;src:url(/fonts/public-sans-latin-700-normal.woff2) format("woff2")}
+@font-face{font-family:"ISit";font-style:italic;font-weight:400;src:url(/fonts/instrument-serif-latin-400-italic.woff2) format("woff2")}
+@font-face{font-family:"Logo";font-weight:700;src:url(/fonts/instrument-sans-latin-700-normal.woff2) format("woff2")}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:1080px;height:1920px;overflow:hidden;background:#000;font-family:"IS",sans-serif;color:#fff}
+.L{position:absolute;inset:0;overflow:hidden}
+svg.L{width:1080px;height:1920px}
+.co{position:absolute;left:50px;width:560px;background:rgba(6,10,30,.78);border:3px solid rgba(255,190,90,.8);border-radius:22px;padding:18px 26px;z-index:20}
+.co small{display:block;font-weight:700;font-size:26px;letter-spacing:.16em;color:#FFC46B}
+.co b{display:block;font-family:"Logo";font-size:70px;white-space:nowrap;letter-spacing:-.04em;line-height:1;margin-top:6px}
+.co i{display:block;font-style:normal;font-size:28px;color:#C9CFEA;margin-top:4px;font-weight:600}
+#alt{position:absolute;right:40px;top:150px;z-index:20;text-align:right;font-family:"Logo";background:rgba(6,10,30,.6);padding:12px 22px;border-radius:14px}
+#alt small{display:block;font-family:IS;font-weight:700;font-size:24px;letter-spacing:.18em;color:#9FB0E8}#alt b{font-size:60px;letter-spacing:-.03em}
+.stk{position:absolute;z-index:20;background:#fff;color:#000;font-family:"Logo";font-size:64px;padding:12px 30px;border-radius:16px;box-shadow:8px 8px 0 #000;white-space:nowrap}
+.stk.red{background:#E8202A;color:#fff;font-size:54px}
+#web{background:radial-gradient(90% 60% at 50% 40%,#1F5139,#0B2418)}
+#wl{position:absolute;left:0;right:0;top:120px;display:flex;align-items:center;justify-content:center;gap:22px;z-index:3}
+#wl img{width:110px;height:110px;border-radius:26px}#wl b{font-family:"Logo";font-size:96px;letter-spacing:-.045em}
+#phone{position:absolute;left:250px;top:300px;width:580px;height:1256px;border-radius:70px;background:#0A0A0A;padding:16px;box-shadow:0 50px 120px rgba(0,0,0,.6),0 0 0 3px #333 inset}
+#scr{position:relative;width:100%;height:100%;border-radius:56px;overflow:hidden;background:#123323}
+#scr img{position:absolute;left:0;top:0;width:100%;height:auto}
+#gr{position:absolute;left:0;right:0;top:820px;text-align:center;z-index:5}#gr span{display:inline-block;border:14px solid #F2D27E;color:#F2D27E;background:rgba(11,36,24,.85);font-family:"Logo";font-size:150px;padding:4px 50px;border-radius:24px}
+#cta{background:#F2D27E;color:#123323;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center}
+#cta .h{font-family:"Logo";font-size:190px;letter-spacing:-.05em;line-height:.9}
+#cta .u{margin-top:60px;background:#123323;color:#F4EFE3;font-family:"Logo";font-size:90px;padding:24px 70px;border-radius:999px}
+#cta .s{margin-top:60px;font-family:ISit;font-style:italic;font-size:76px}
+#cap{position:absolute;left:60px;right:60px;top:1600px;text-align:center;font-weight:700;font-size:62px;line-height:1.1;z-index:50}
+#cap span{display:inline-block;margin:4px .05em;padding:4px 16px;border-radius:12px;background:rgba(0,0,0,.82);color:#fff}
+#cap span.k{color:#FFC46B}
+#flash{position:absolute;inset:0;background:#fff;opacity:0;z-index:70}
+</style></head><body>
+<!-- ESCENA PLAYA (también se usa alejada) -->
+<svg class="L" id="world" viewBox="0 0 1080 1920">
+ <defs>
+  <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#5FB3F0"/><stop offset="1" stop-color="#BFE6FF"/></linearGradient>
+  <linearGradient id="sky2" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3A0A08"/><stop offset=".5" stop-color="#C2410C"/><stop offset="1" stop-color="#FDBA74"/></linearGradient>
+  <radialGradient id="glow"><stop offset="0" stop-color="#FFF7D6"/><stop offset=".25" stop-color="#FFC24A"/><stop offset=".55" stop-color="rgba(255,90,20,.55)"/><stop offset="1" stop-color="rgba(255,60,0,0)"/></radialGradient>
+  <linearGradient id="trail" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="rgba(255,120,30,0)"/><stop offset=".7" stop-color="rgba(255,150,40,.7)"/><stop offset="1" stop-color="#FFF2C0"/></linearGradient>
+  <linearGradient id="atmo" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#05061A"/><stop offset=".45" stop-color="#1B2A6B"/><stop offset=".8" stop-color="#4F8FD8"/><stop offset="1" stop-color="#A9D8F5"/></linearGradient>
+ </defs>
+ <rect id="atmoR" width="1080" height="1920" fill="url(#atmo)" opacity="0"/>
+ <g id="stars" opacity="0"></g>
+ <g id="ruler" opacity="0"></g>
+ <g id="beach">
+  <g id="bgb"><rect width="1080" height="1920" fill="url(#sky)"/><rect id="skyRed" width="1080" height="1920" fill="url(#sky2)" opacity="0"/>
+  <circle id="sun" cx="830" cy="430" r="90" fill="#FFE27A"/>
+  <rect y="1000" width="1080" height="170" fill="#2E8BC9"/><rect y="1000" width="1080" height="18" fill="#7CC4EE"/></g>
+  <path id="sand" d="M0 1170 Q540 1130 1080 1170 V1920 H0Z" fill="#F2D49B"/>
+  <!-- sombrilla -->
+  <line x1="190" y1="1560" x2="250" y2="940" stroke="#5B4636" stroke-width="12"/>
+  <path d="M40 1010 Q250 820 470 960 Z" fill="#E8473B"/><path d="M140 980 Q250 860 360 940 Z" fill="#fff" opacity=".85"/>
+  <!-- toalla -->
+  <rect x="520" y="1700" width="420" height="120" rx="14" fill="#3DA5A0" transform="rotate(-4 730 1760)"/>
+  <!-- tumbona -->
+  <g stroke="#7A5A3A" stroke-width="12" stroke-linecap="round"><line x1="330" y1="1610" x2="300" y2="1700"/><line x1="760" y1="1560" x2="790" y2="1690"/><line x1="480" y1="1590" x2="520" y2="1690"/></g>
+  <path d="M250 1180 L330 1160 L470 1590 L395 1612Z" fill="#fff"/><path d="M268 1240 L338 1222 L362 1296 L292 1316Z M310 1370 L380 1352 L404 1426 L334 1446Z M352 1500 L422 1482 L446 1556 L376 1576Z" fill="#E8473B"/>
+  <path d="M395 1600 L770 1530 L780 1572 L405 1645Z" fill="#E8473B"/>
+  <!-- persona -->
+  <g id="person">
+   <path d="M560 1555 L700 1440 L725 1462 L600 1580Z" fill="#E9B48A"/><path d="M700 1440 L790 1590 L760 1605 L690 1470Z" fill="#E9B48A"/>
+   <path d="M610 1560 L740 1460 L760 1478 L640 1585Z" fill="#DFA67C"/><path d="M740 1460 L850 1580 L822 1598 L728 1484Z" fill="#DFA67C"/>
+   <ellipse cx="800" cy="1600" rx="40" ry="16" fill="#C98F66"/><ellipse cx="860" cy="1594" rx="40" ry="16" fill="#C98F66"/>
+   <path d="M330 1245 Q380 1200 440 1250 L540 1520 Q520 1580 450 1580 L390 1560Z" fill="#E9B48A"/>
+   <path d="M430 1470 L560 1520 L600 1590 L460 1600 Q420 1560 430 1470Z" fill="#2B5BD7"/>
+   <circle cx="360" cy="1170" r="78" fill="#E9B48A"/><path d="M290 1150 Q330 1070 420 1110 Q380 1100 350 1135Z" fill="#3B2A1E"/>
+   <rect x="368" y="1150" width="90" height="34" rx="12" fill="#111"/><rect x="330" y="1158" width="44" height="10" fill="#111"/>
+   <path d="M420 1210 Q440 1222 452 1214" stroke="#9A5B3A" stroke-width="6" fill="none" stroke-linecap="round"/>
+   <!-- brazo con la crema -->
+   <path d="M400 1300 L590 1360 L582 1396 L392 1344Z" fill="#DFA67C"/>
+   <g id="bottle" transform="translate(600 1300)"><rect x="0" y="0" width="56" height="120" rx="14" fill="#FFB020"/><rect x="12" y="-24" width="32" height="30" rx="6" fill="#E8473B"/><text x="28" y="74" text-anchor="middle" font-family="Logo" font-size="26" fill="#fff">50</text></g>
+   <!-- brazo que frota -->
+   <g id="rub"><path d="M420 1320 L520 1400 L540 1380 L440 1300Z" fill="#E9B48A"/><ellipse cx="540" cy="1375" rx="34" ry="22" fill="#E9B48A"/></g>
+   <ellipse id="cream" cx="500" cy="1350" rx="36" ry="12" fill="#fff" opacity=".9"/>
+  </g>
+ </g>
+ <rect id="ground" y="1780" width="1080" height="140" fill="#3C6B3F" opacity="0"/>
+ <g id="met">
+  <path id="tr" d="M0 -60 L900 -20 L900 20 L0 60Z" fill="url(#trail)" transform="rotate(-123)"/>
+  <circle r="220" fill="url(#glow)" id="mg"/>
+  <circle r="80" fill="#5B4A3E"/><circle cx="-22" cy="-18" r="20" fill="#3E322A"/><circle cx="30" cy="20" r="14" fill="#3E322A"/><circle cx="18" cy="-38" r="9" fill="#3E322A"/>
+  <path d="M-80 0 A80 80 0 0 1 80 0" fill="none" stroke="#FF7A1A" stroke-width="14" opacity=".9" transform="rotate(-33)"/>
+ </g>
+ <g id="rings" opacity="0"></g>
+</svg>
+<div id="alt"><small>ALTITUD</small><b id="altv">12.000 m</b></div>
+<div class="co" id="c0" style="top:380px"><small>TAMAÑO</small><b>Ø 12 m</b><i>roca y hierro</i></div>
+<div class="co" id="c1" style="top:580px"><small>MASA</small><b>3.000 t</b><i>como 2.000 coches</i></div>
+<div class="co" id="c2" style="top:780px"><small>VELOCIDAD</small><b>72.000 km/h</b><i>20 km por segundo</i></div>
+<div class="co" id="c3" style="top:980px"><small>TEMPERATURA</small><b>+1.600 °C</b><i>la roca se funde por fuera</i></div>
+<div class="co" id="c4" style="top:1180px"><small>ENERGÍA AL IMPACTAR</small><b>140.000 t</b><i>de dinamita</i></div>
+<div class="stk" id="fps" style="left:640px;top:1150px">🧴 FPS 50</div>
+<div class="stk red" id="eff" style="left:120px;top:780px">Eficacia contra meteoritos: 0 %</div>
+<div class="L" id="web"><div id="wl"><img src="/icons/icon-192.png" alt=""><b>banderin.es</b></div><div id="phone"><div id="scr"></div></div><div id="gr"><span>GRATIS</span></div></div>
+<div class="L" id="cta"><div class="h" id="c_h">Métete<br>ya.</div><div class="u" id="c_u">banderin.es</div><div class="s" id="c_s">Antes de que caiga el meteorito ☄️</div></div>
+<div id="cap"></div><div id="flash"></div>
+<script>document.write('<script src="/_r/'+new URLSearchParams(location.search).get("r")+'.js?'+Date.now()+'"><\/script>')</script>
+<script>
+const $=id=>document.getElementById(id),cl=(x,a=0,b=1)=>Math.max(a,Math.min(b,x)),seg=(t,a,b)=>cl((t-a)/(b-a));
+const eo=x=>1-Math.pow(1-x,3),ei=x=>x*x*x,eio=x=>x<.5?4*x*x*x:1-Math.pow(-2*x+2,3)/2,back=x=>{const c=1.7;return 1+(c+1)*Math.pow(x-1,3)+c*Math.pow(x-1,2)};
+const esc=s=>String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;');const op=(t,a,d=.08)=>seg(t,a,a+d);const pop=(t,a,d=.35)=>back(seg(t,a,a+d));
+const R=window.REEL;const S=R.scenes;const sc=k=>S.find(s=>s.type===k);const B=sc('beach'),SP=sc('space'),CL=sc('close'),BM=sc('boom'),WB=sc('web'),CT=sc('cta');
+let st='';let sd=5;const rnd=()=>{sd=(sd*9301+49297)%233280;return sd/233280};for(let i=0;i<140;i++)st+=`<circle cx="${(rnd()*1080)|0}" cy="${(rnd()*900)|0}" r="${(1+rnd()*2.5).toFixed(1)}" fill="#fff" opacity="${(.4+rnd()*.6).toFixed(2)}"/>`;$('stars').innerHTML=st;
+let ru='';for(let k=0;k<=12;k++){const y=1780-k*120;ru+=`<line x1="${k%3?20:10}" y1="${y}" x2="50" y2="${y}" stroke="rgba(255,255,255,.6)" stroke-width="3"/>`+(k%3?'':`<text x="58" y="${y+9}" font-family="IS" font-weight="700" font-size="26" fill="rgba(255,255,255,.75)">${k} km</text>`)}$('ruler').innerHTML=ru;
+$('rings').innerHTML=[0,1,2,3].map(i=>`<circle id="rg${i}" cx="540" cy="1600" r="10" fill="none" stroke="#FFE9B0" stroke-width="30"/>`).join('');
+$('scr').innerHTML=WB.shots.map((s,i)=>`<img id="sh${i}" src="/_m/${s[1]}.jpg">`).join('');
+const W=R.words||[];const KEY=new Set((R.keys||[]).map(s=>s.toLowerCase()));
+function caption(t){const g=(R.capgroups||[]).find(g=>t>=g[0]&&t<g[1]+0.12);const cap=$('cap');if(!g||S.some(s=>s.nocap&&t>=s.t0&&t<s.t1)){cap.style.opacity=0;return}cap.style.opacity=1;const ws=W.slice(g[2],g[3]);
+ if(cap.dataset.k!==g[0]+''){cap.dataset.k=g[0]+'';cap.innerHTML=ws.map(w=>`<span class="${KEY.has(w.w.toLowerCase().replace(/[.,¿?¡!:;…«»]/g,''))?'k':''}">${esc(w.w)}</span>`).join(' ')}
+ [...cap.children].forEach((s,i)=>{const w=ws[i];const p=seg(t,w.s-0.04,w.s+0.12);s.style.opacity=t<w.s-0.04?0:1;s.style.transform=`translateY(${(1-eo(p))*20}px) scale(${0.85+0.15*back(p)})`})}
+const vis=(id,on)=>{$(id).style.display=on?'':'none'};const set=(id,a,v)=>$(id).setAttribute(a,v);
+window.render=function(t){
+ const cur=S.find(s=>t>=s.t0&&t<s.t1)||S[S.length-1],ty=cur.type;
+ // frotar crema
+ const r=Math.sin(t*9)*14;set('rub','transform',`translate(${r} ${r*.35})`);set('cream','opacity',.6+.3*Math.sin(t*9+1));
+ const sceneW=['beach','space','close'].includes(ty);vis('world',sceneW||ty==='boom');
+ // alejamiento: escala de la playa hacia un punto
+ let s=1,ox=0,oy=0;
+ if(ty==='space'){const z=eio(seg(t,SP.t0,SP.t0+2.2));s=1-.9*z;}
+ const px=640,py=1560;set('beach','transform',`translate(${px-px*s+ (ty==='space'?(540-px)*eio(seg(t,SP.t0,SP.t0+2.2)):0)} ${py-py*s+(ty==='space'?(1760-py)*eio(seg(t,SP.t0,SP.t0+2.2)):0)}) scale(${s})`);
+ const sp=ty==='space'?eio(seg(t,SP.t0,SP.t0+2.2)):0;set('atmoR','opacity',sp);set('bgb','opacity',1-cl(sp*2.5));set('sand','opacity',1-cl(sp*2.5));set('stars','opacity',sp);set('ruler','opacity',sp);set('ground','opacity',sp);
+ // meteorito
+ let mx=-400,my=-400,ms=.3,mv=false;
+ if(ty==='space'){mv=t>=SP.mAt-.3;const k=seg(t,SP.mAt-.3,CL.t0);const k2=eo(k);mx=1000-380*k2;my=100+1250*ei(k)+ 300*k2;ms=.35+.65*k;}
+ if(ty==='close'){mv=true;const k=seg(t,CL.t0,CL.imp);mx=760-200*k;my=-150+700*ei(k);ms=1.6+3.5*ei(k)}
+ set('met','transform',`translate(${mx} ${my}) scale(${ms})`);$('met').style.display=mv?'':'none';set('mg','r',220+30*Math.sin(t*20));
+ // altitud
+ vis('alt',ty==='space'&&t>=SP.mAt);const altK=seg(t,SP.mAt,CL.imp);$('altv').textContent=String(Math.max(0,Math.round(12000*(1-ei(altK))/10)*10)).replace(/\B(?=(\d{3})+(?!\d))/g,'.')+' m';
+ SP.c.forEach((a,i)=>{const e=$('c'+i);vis('c'+i,ty==='space'&&t>=a);e.style.transform=`translateX(${(1-eo(seg(t,a,a+.35)))*-600}px)`});
+ // vuelta al primer plano, cielo rojo
+ set('skyRed','opacity',ty==='close'?.4+.6*seg(t,CL.t0,CL.imp):0);set('sun','opacity',ty==='close'?0:1);
+ vis('fps',(ty==='beach'&&t>=B.fpsAt)||ty==='close');$('fps').style.transform=`rotate(-5deg) scale(${ty==='beach'?.4+.6*pop(t,B.fpsAt):1})`;
+ vis('eff',ty==='close'&&t>=CL.badgeAt);$('eff').style.transform=`rotate(4deg) scale(${.4+.6*pop(t,CL.badgeAt)})`;
+ // temblor creciente y explosión
+ let sh=0;if(ty==='close')sh=8*seg(t,CL.t0,CL.imp);if(ty==='space'&&t>SP.c[4])sh=5;
+ if(ty==='boom'){sh=30*(1-seg(t,BM.t0,BM.t1))}
+ $('world').style.transform=`translate(${Math.sin(t*70)*sh}px,${Math.cos(t*60)*sh}px)`;
+ set('rings','opacity',ty==='boom'?1:0);[0,1,2,3].forEach(i=>{const k=seg(t,BM.t0+i*.05,BM.t1+.2);set('rg'+i,'r',10+1400*eo(k));set('rg'+i,'opacity',1-k)});
+ $('flash').style.opacity=ty==='boom'?1-.6*seg(t,BM.t0,BM.t1):(ty==='web'?1-seg(t,WB.t0,WB.t0+.35):0);
+ // web
+ vis('web',ty==='web');$('wl').style.transform=`scale(${.5+.5*pop(t,WB.logoAt+.1,.45)})`;
+ const ph_=eo(seg(t,WB.t0+.2,WB.t0+.8));$('phone').style.transform=`translateY(${(1-ph_)*900}px) rotate(${(1-ph_)*8}deg)`;
+ WB.shots.forEach((x,i)=>{const e=$('sh'+i);const nx=WB.shots[i+1];const a=i===0?WB.t0:x[0];const on=t>=a-.01;e.style.display=on?'':'none';e.style.zIndex=i;
+  const k=i===0?1:eo(seg(t,x[0],x[0]+.4));e.style.transform=`translateX(${(1-k)*600}px) translateY(${-90*seg(t,a,(nx?nx[0]:WB.t1))}px)`});
+ vis('gr',ty==='web'&&t>=WB.gAt);$('gr').style.transform=`scale(${2.2-1.2*eo(seg(t,WB.gAt,WB.gAt+.2))}) rotate(-6deg)`;
+ vis('cta',ty==='cta');$('c_h').style.transform=`scale(${.5+.5*pop(t,CT.t0+.05,.45)})`;$('c_u').style.opacity=op(t,CT.t0+.4,.2);$('c_s').style.opacity=op(t,CT.mAt,.2);
+ caption(t);document.body.style.opacity=1-seg(t,R.dur-.35,R.dur);return 0};
+window.prep=async()=>{await document.fonts.ready;await Promise.all(WB.shots.map(s=>new Promise(r=>{const i=new Image();i.onload=i.onerror=r;i.src='/_m/'+s[1]+'.jpg'})));render(0);return true};
+</script></body></html>

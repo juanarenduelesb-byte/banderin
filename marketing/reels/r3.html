@@ -1,0 +1,89 @@
+<!DOCTYPE html><html lang="es"><head><meta charset="utf-8"><title>r3</title>
+<link rel="stylesheet" href="/_r/k2.css">
+<style>
+.card{position:absolute;left:90px;right:90px;background:#F4F1E8;color:#13201A;border-radius:50px;box-shadow:0 40px 100px rgba(0,0,0,.45)}
+#prof{top:420px;padding:56px 56px 60px}
+#prof .hd{display:flex;align-items:center;gap:30px}
+#prof .av{width:130px;height:130px;border-radius:50%;background:#1F6B45;color:#F4F1E8;display:flex;align-items:center;justify-content:center;font-size:66px}
+#prof .hd b{font-family:"CAS";font-weight:400;font-size:74px}
+.chips{display:flex;flex-wrap:wrap;gap:22px;margin-top:44px}
+.chip{background:#163D2B;color:#F4F1E8;border-radius:999px;padding:20px 40px;font-weight:700;font-size:50px;opacity:0}
+#q1{top:1060px}
+#hd2{position:absolute;left:70px;right:70px;top:150px;display:flex;align-items:flex-end;justify-content:space-between}
+#hd2 .l b{display:block;font-family:"CAS";font-weight:400;font-size:74px;line-height:1}
+#hd2 .l span{display:block;font-size:36px;color:#B9C9BE;margin-top:14px;font-weight:500}
+#num{font-family:"CAS";font-size:220px;line-height:.8;color:#E9C77E;text-align:right;min-width:300px}
+#rows{position:absolute;left:60px;right:60px;top:440px}
+.r{position:absolute;left:0;right:0;height:66px;background:#F4F1E8;color:#13201A;border-radius:18px;display:flex;align-items:center;gap:20px;padding:0 24px;font-size:31px;overflow:hidden}
+.r .d{flex:none;width:122px;white-space:nowrap;font-weight:700;color:#1F6B45;font-size:27px}
+.r .n{flex:1;font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.r .c{color:#6B7A70;font-size:26px;white-space:nowrap}
+.r .tg{position:absolute;right:16px;top:11px;border-radius:999px;padding:6px 20px;font-weight:700;font-size:28px;opacity:0}
+.r .tg.x{background:#C8402F;color:#fff}.r .tg.ok{background:#2C8A58;color:#fff}
+.r .st{position:absolute;left:18px;right:18px;top:32px;height:4px;background:#C8402F;transform-origin:0 50%}
+#yati b{display:block;font-size:200px}
+#mock{top:560px;padding:50px}
+#mock h5{font-size:34px;color:#6B7A70;font-weight:600;text-transform:uppercase;letter-spacing:.06em}
+#fld{margin-top:20px;border:3px solid #1F6B45;border-radius:26px;padding:24px 30px;font-size:64px;font-weight:700;display:flex;justify-content:space-between;align-items:center}
+#fld i{display:inline-block;width:5px;height:64px;background:#1F6B45;vertical-align:middle;margin-left:6px}
+#sw{margin-top:40px;display:flex;justify-content:space-between;align-items:center;font-size:46px;font-weight:700}
+#sw .t{width:150px;height:84px;border-radius:999px;background:#C9CFC9;position:relative}
+#sw .t i{position:absolute;top:8px;left:8px;width:68px;height:68px;border-radius:50%;background:#fff;box-shadow:0 4px 10px rgba(0,0,0,.25)}
+#mini{margin-top:40px}
+#mini div{display:flex;justify-content:space-between;align-items:center;border-top:2px solid #E2DED2;padding:22px 0;font-size:36px;font-weight:600;opacity:0}
+#mini em{font-style:normal;border-radius:999px;padding:6px 22px;font-size:28px;font-weight:700;background:#2C8A58;color:#fff}
+#mini em.no{background:#D9D4C7;color:#6B6455}
+#c5{top:250px}
+</style></head><body>
+<div id="s1" class="sc"><div id="prof" class="card"><div class="hd"><div class="av">🏌️</div><b>Tu perfil</b></div>
+ <div class="chips"><div class="chip" id="ch1">Hombre</div><div class="chip" id="ch2">Hándicap 18</div><div class="chip" id="ch3">Madrid</div></div></div>
+ <div id="q1" class="cap">¿Cuántos torneos puedes<br>jugar el <span class="g">próximo finde?</span></div></div>
+<div id="s2" class="sc"><div id="hd2"><div class="l"><b>Próximo finde</b><span>Madrid · hasta 100 km</span></div><div id="num">17</div></div><div id="rows"></div></div>
+<div id="s3" class="sc"><div id="yati" class="cap" style="top:640px"><b>¿Y a ti?</b></div></div>
+<div id="s4" class="sc"><div id="c5" class="cap" style="font-size:84px">Pon tu <span class="g">hándicap</span><br>en tu perfil</div>
+ <div id="mock" class="card"><h5>Hándicap exacto</h5><div id="fld"><span id="hv"></span><small style="font-size:30px;color:#6B7A70;font-weight:600">-10 a 54</small></div>
+  <div id="sw"><span>Encaja conmigo</span><div class="t"><i></i></div></div>
+  <div id="mini"><div>Torneo Social de Otoño<em>Encaja</em></div><div>Copa del Club · Medal<em>Encaja</em></div><div>Circuito Senior<em class="no">No encaja</em></div><div>Stableford de Noviembre<em>Encaja</em></div></div></div><div id="tap" class="tap"></div></div>
+<div id="end"><img src="/icons/icon-512.png" alt=""><h2>¿Cuántos puedes<br><span>jugar tú?</span></h2><div class="u">banderin.es</div><p>Gratis · Pon tu hándicap y te marcamos los que encajan</p></div>
+<div id="flash"></div>
+<script src="/_r/k2.js"></script>
+<script>
+const DUR=22.6,E=19.95;window.DUR=DUR;
+// [día, nombre, lugar, motivo de descarte o '']
+const T=[['SÁB 22','Torneo Social de Otoño','Madrid',''],['SÁB 22','Copa Damas','Majadahonda','f'],['SÁB 22','Circuito Juvenil · 3ª prueba','Madrid','j'],
+['SÁB 22','Interclubes · Jornada 4','Torrelodones','e'],['SÁB 22','Copa del Club · Medal','Boadilla',''],['SÁB 22','Final Circuito Pitch & Putt','Madrid','c'],
+['SÁB 22','Ranking Sub-16','Alcobendas','j'],['SÁB 22','Stableford de Noviembre','Villaviciosa',''],['DOM 23','Liga de Equipos · Fase 2','Rivas','e'],
+['DOM 23','Trofeo Ladies','Pozuelo','f'],['DOM 23','Torneo Fin de Temporada','Collado Villalba',''],['DOM 23','Puntuable Infantil','Madrid','j'],
+['DOM 23','Pareja Fourball','Las Rozas',''],['DOM 23','Final Regional · Clasificados','Madrid','c'],['DOM 23','Copa Interclubes','Tres Cantos','e'],
+['DOM 23','Torneo Benéfico','Arganda',''],['DOM 23','Medal Play Mensual','Alcalá','']];
+const WH={f:[7.91,'Femenino'],j:[9.06,'Juvenil'],e:[10.96,'Equipos de club'],c:[12.32,'Clasificados']};
+const box=$('rows');T.forEach((r,i)=>{const d=document.createElement('div');d.className='r';d.id='r'+i;d.style.top=i*74+'px';
+ d.innerHTML=`<span class="d">${r[0]}</span><span class="n">${r[1]}</span><span class="c">${r[2]}</span>`+(r[3]?`<div class="st"></div><span class="tg x">${WH[r[3]][1]}</span>`:'<span class="tg ok">Encaja ✓</span>');box.appendChild(d)});
+window.render=function(t){
+  $('s1').style.opacity=vis(t,0,5.75,.01,.2);
+  const pp=back(seg(t,0,.45));$('prof').style.transform=`translateY(${(1-pp)*120}px) scale(${.9+.1*pp})`;
+  [[1,.15],[2,1.0],[3,2.45]].forEach(([k,a])=>{const c=$('ch'+k),p=back(seg(t,a,a+.35));c.style.opacity=cl(seg(t,a,a+.08));c.style.transform=`scale(${.5+.5*p})`});
+  pop($('q1'),t,3.17,5.75);
+  // lista
+  $('s2').style.opacity=vis(t,5.7,15.1,.2,.2);let n=17;
+  T.forEach((r,i)=>{const d=$('r'+i),a=5.8+i*.035,p=eo(seg(t,a,a+.3));let o=cl(seg(t,a,a+.1)),y=i*74,s=1;
+    if(r[3]){const w=WH[r[3]][0];if(t>=w)n--;const q=seg(t,w,w+.22);d.querySelector('.st').style.transform=`scaleX(${eo(q)})`;
+      const g=d.querySelector('.tg');g.style.opacity=q>0?1:0;g.style.transform=`scale(${.6+.4*back(q)})`;d.style.background=q>0?'#E7D8D2':'#F4F1E8';d.querySelector('.c').style.opacity=q>0?0:1;
+      o*=1-.75*seg(t,14.0,14.4)}
+    else{const g=d.querySelector('.tg'),q=seg(t,14.0+i*.03,14.3+i*.03);g.style.opacity=q>0?1:0;g.style.transform=`scale(${.6+.4*back(q)})`;d.style.background=q>0?'#E3F1E6':'#F4F1E8';d.querySelector('.c').style.opacity=q>0?0:1;s=1+.03*Math.sin(Math.PI*q)}
+    d.style.opacity=o;d.style.transform=`translateX(${(1-p)*-120}px) scale(${s})`});
+  const nm=$('num');nm.textContent=n;const lastHit=Math.max(0,...Object.values(WH).map(w=>t>=w[0]?w[0]:0),t>=14?14:0);
+  nm.style.transform=`scale(${1+.25*(1-seg(t,lastHit,lastHit+.25))*(lastHit>0)})`;nm.style.color=t>=14?'#7FCF9C':'#E9C77E';
+  // ¿y a ti?
+  $('s3').style.opacity=vis(t,15.1,15.95,.1,.15);pop($('yati'),t,15.15,15.95,80);
+  // perfil
+  $('s4').style.opacity=vis(t,15.85,E+.1,.2,.05);pop($('c5'),t,15.95,E+.1);
+  if(t>=17.98)$('c5').innerHTML='Y te marcamos<br>los que <span class="g">encajan</span>';else $('c5').innerHTML='Pon tu <span class="g">hándicap</span><br>en tu perfil';
+  const mp=back(seg(t,15.95,16.4));$('mock').style.transform=`translateY(${(1-mp)*140}px)`;$('mock').style.opacity=cl(seg(t,15.95,16.1));
+  const ty=t<16.3?'':t<16.55?'1':'18';$('hv').innerHTML=ty+(Math.floor(t*3)%2||t>17.4?'':'<i></i>');
+  const on=seg(t,17.6,17.85);$('sw').querySelector('i').style.left=(8+66*eio(on))+'px';$('sw').querySelector('.t').style.background=on>.5?'#2C8A58':'#C9CFC9';
+  const sb=$('sw').querySelector('.t').getBoundingClientRect();if(!tapAt($('tap'),t,17.6,sb.left+sb.width/2,sb.top+sb.height/2))$('tap').style.opacity=0;
+  [...$('mini').children].forEach((d,i)=>{const a=18.1+i*.2,p=back(seg(t,a,a+.35));d.style.opacity=cl(seg(t,a,a+.1));d.style.transform=`translateX(${(1-p)*80}px)`});
+  flash(t,[5.75,15.1,E]);endCard(t,E,DUR);return 0};
+window.prep=async()=>{await document.fonts.ready;render(0);return true};
+</script></body></html>

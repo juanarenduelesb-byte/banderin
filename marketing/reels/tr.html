@@ -1,0 +1,162 @@
+<!DOCTYPE html><html lang="es"><head><meta charset="utf-8"><title>tr</title>
+<link rel="stylesheet" href="/_r/k2.css">
+<style>
+@font-face{font-family:"IS";font-weight:700;src:url(/fonts/instrument-sans-latin-700-normal.woff2)}
+html,body{background:#000}
+.sc{overflow:hidden}
+.big{position:absolute;left:0;right:0;text-align:center;font-family:"IS";font-weight:700;text-transform:uppercase;color:#F2F2EE;letter-spacing:.02em}
+#bars:before,#bars:after{content:"";position:absolute;left:0;right:0;height:210px;background:#000;z-index:180}
+#bars:before{top:0}#bars:after{bottom:0}
+#grain{position:absolute;inset:-50px;z-index:200;opacity:.09;pointer-events:none;mix-blend-mode:overlay}
+#vig{position:absolute;inset:0;z-index:199;pointer-events:none;background:radial-gradient(110% 80% at 50% 50%,transparent 50%,rgba(0,0,0,.7))}
+#cred{position:absolute;left:0;right:0;top:900px;text-align:center;font-family:"PS";font-weight:600;font-size:30px;letter-spacing:.5em;color:#C9C9C2;opacity:0}
+/* mapa */
+#map{position:absolute;inset:0;background:radial-gradient(80% 60% at 50% 50%,#0D2B2E,#04090B 75%)}
+#cv{position:absolute;left:0;top:0}
+#hud{position:absolute;left:70px;right:70px;top:250px;display:flex;justify-content:space-between;font-family:"PS";font-weight:600;font-size:26px;letter-spacing:.2em;color:#6FD3C4}
+#cnt{position:absolute;left:0;right:0;top:1440px;text-align:center;font-family:"IS";font-weight:700;font-size:170px;color:#F2F2EE;letter-spacing:-.02em}
+#cnt small{display:block;font-family:"PS";font-weight:600;font-size:30px;letter-spacing:.4em;color:#6FD3C4;margin-top:4px}
+#lab{position:absolute;font-family:"PS";font-weight:700;font-size:28px;letter-spacing:.18em;color:#FF7A3D;opacity:0;white-space:nowrap}
+#ret{position:absolute;width:150px;height:150px;margin:-75px 0 0 -75px;border:3px solid #FF7A3D;border-radius:50%;opacity:0}
+#ret:before,#ret:after{content:"";position:absolute;background:#FF7A3D}
+#ret:before{left:-30px;right:-30px;top:73px;height:3px}#ret:after{top:-30px;bottom:-30px;left:73px;width:3px}
+/* expediente */
+#dos{position:absolute;inset:0;background:radial-gradient(90% 70% at 50% 50%,#2A2620,#0B0907)}
+#fold{position:absolute;left:110px;top:430px;width:860px;height:1060px;background:#C9A86A;border-radius:10px 10px 18px 18px;box-shadow:0 50px 120px rgba(0,0,0,.8);transform:rotate(-3deg)}
+#fold .tab{position:absolute;left:40px;top:-46px;width:300px;height:60px;background:#C9A86A;border-radius:12px 12px 0 0}
+#paper{position:absolute;left:50px;top:60px;right:50px;bottom:60px;background:#F3EEE1;padding:60px 300px 60px 56px;font-family:"Courier New",monospace;color:#1F1F1F;font-size:40px;line-height:1.6}
+#paper h4{font-family:"Courier New",monospace;font-size:46px;margin:0 0 40px;letter-spacing:.06em;white-space:nowrap}
+#sil{position:absolute;right:70px;top:150px;width:230px;height:290px;background:#D9D2BF;border:10px solid #fff;box-shadow:0 8px 20px rgba(0,0,0,.25);transform:rotate(4deg)}
+#conf{position:absolute;left:120px;bottom:120px;border:8px solid #B3261E;color:#B3261E;font-family:"IS";font-weight:700;font-size:70px;padding:8px 30px;transform:rotate(-12deg);opacity:0;letter-spacing:.08em}
+/* cuenta atrás */
+#cd{position:absolute;inset:0;background:#070000}
+#clock{position:absolute;left:0;right:0;top:760px;text-align:center;font-family:"IS";font-weight:700;font-size:190px;color:#FF3B2F;letter-spacing:.02em;text-shadow:0 0 40px rgba(255,40,30,.6)}
+#cdl{position:absolute;left:0;right:0;top:1040px;text-align:center;font-family:"PS";font-weight:600;font-size:34px;letter-spacing:.4em;color:#FF8A80}
+/* sin */
+#no{position:absolute;inset:0;background:#000}
+.nw{position:absolute;left:0;right:0;top:820px;text-align:center;opacity:0}
+.nw b{display:block;font-family:"IS";font-weight:700;font-size:130px;line-height:1;color:#F2F2EE;text-transform:uppercase}
+.nw i{display:block;font-family:"PS";font-style:normal;font-weight:600;font-size:34px;letter-spacing:.45em;color:#FF7A3D;margin-bottom:26px}
+.nw .st{position:absolute;left:120px;right:120px;top:150px;height:14px;background:#FF3B2F;transform-origin:0 50%}
+/* herramienta */
+#tool{position:absolute;inset:0;background:#000}
+#phs{position:absolute;left:300px;top:520px;width:480px;height:980px;border-radius:70px;border:3px solid rgba(255,255,255,.08)}
+#sweep{position:absolute;left:300px;top:520px;width:480px;height:980px;border-radius:70px;overflow:hidden}
+#sweep:before{content:"";position:absolute;left:-200%;top:0;width:60%;height:100%;background:linear-gradient(100deg,transparent,rgba(255,235,200,.55),transparent);transform:translateX(var(--sx,0))}
+/* logo y radar */
+#logo{position:absolute;inset:0;background:radial-gradient(80% 60% at 50% 50%,#13402C,#03100A 75%);opacity:0}
+#logo .lg{position:absolute;left:0;right:0;top:760px;text-align:center}
+#logo img{width:240px;height:240px;border-radius:56px}
+#logo .nm{font-family:"IS";font-weight:700;font-size:150px;letter-spacing:-.03em;color:#F4F1E8;margin-top:20px}
+#tcard{position:absolute;left:120px;right:120px;top:1270px;background:rgba(10,20,14,.85);border:2px solid #FF7A3D;border-radius:24px;padding:30px 36px;font-family:"PS";color:#F4F1E8;opacity:0}
+#tcard b{display:block;font-size:26px;letter-spacing:.25em;color:#FF7A3D}#tcard div{font-size:44px;font-weight:700;margin-top:10px}#tcard span{display:block;font-size:30px;color:#9FE3B8;margin-top:6px}
+/* misión: jugar */
+#play{position:absolute;inset:0;opacity:0}
+#mis{position:absolute;left:0;right:0;top:480px;text-align:center;font-family:"IS";font-weight:700;color:#F2F2EE;font-size:120px;letter-spacing:.06em}
+#mis span{display:block;color:#FFB14A;font-size:220px;letter-spacing:.02em}
+/* final */
+#endc{position:absolute;inset:0;background:#000;opacity:0;text-align:center}
+#endc .tt{position:absolute;left:0;right:0;top:720px;font-family:"IS";font-weight:700;font-size:150px;color:#F2F2EE;letter-spacing:.18em;padding-left:.18em}
+#endc .sub{position:absolute;left:0;right:0;top:920px;font-family:"PS";font-weight:600;font-size:34px;letter-spacing:.3em;color:#C9C9C2}
+#endc .u{position:absolute;left:0;right:0;top:1100px}
+#endc .u span{display:inline-block;font-family:"PS";font-weight:700;font-size:60px;background:#F4F1E8;color:#163D2B;border-radius:999px;padding:24px 60px}
+#endc .ft{position:absolute;left:0;right:0;top:1300px;font-family:"PS";font-weight:600;font-size:28px;letter-spacing:.45em;color:#8A8A84}
+</style></head><body>
+<div id="cred">BANDERÍN PRESENTA</div>
+<div id="map" class="sc"><canvas id="cv" width="1080" height="1920"></canvas>
+ <div id="hud"><span id="h1">ESPAÑA · TORNEOS</span><span id="h2">REC ●</span></div>
+ <div id="cnt">0<small>TORNEOS</small></div><div id="ret"></div><div id="lab">JUGADOR #18</div></div>
+<div id="dos" class="sc"><div id="fold"><div class="tab"></div><div id="paper"><h4>EXPEDIENTE Nº 18</h4><div id="ty"></div></div><div id="sil"><svg viewBox="0 0 100 130" width="100%" height="100%" aria-hidden="true"><circle cx="52" cy="34" r="16" fill="#3A3A36"/><path d="M22 130 C 24 80 36 58 52 56 C 70 58 80 80 82 130Z" fill="#3A3A36"/></svg></div><div id="conf">CONFIDENCIAL</div></div></div>
+<div id="cd" class="sc"><div id="clock">47:59:59</div><div id="cdl">CIERRE DE INSCRIPCIÓN</div></div>
+<div id="no" class="sc">
+ <div class="nw" id="n1"><i>SIN</i><b>Pistas</b><div class="st"></div></div>
+ <div class="nw" id="n2"><i>SIN</i><b>PDFs</b><div class="st"></div></div>
+ <div class="nw" id="n3"><i>SIN</i><b>Grupos de<br>WhatsApp</b><div class="st" style="top:260px"></div></div></div>
+<div id="tool" class="sc"><div id="phs"></div><div id="sweep"></div><div class="big" id="sol" style="top:1560px;font-size:44px;letter-spacing:.35em;color:#C9C9C2;opacity:0">Solo una herramienta</div></div>
+<div id="logo"><div class="lg"><img src="/icons/icon-512.png" alt=""><div class="nm">banderín</div></div><div id="tcard"><b>OBJETIVO LOCALIZADO</b><div>Torneo de tu club · sábado</div><span>Inscripción abierta</span></div></div>
+<div id="play" class="sc"><svg width="1080" height="1920" viewBox="0 0 1080 1920" aria-hidden="true">
+ <defs><linearGradient id="dsk" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0E2733"/><stop offset=".5" stop-color="#C8643A"/><stop offset=".72" stop-color="#FFB14A"/><stop offset="1" stop-color="#FFE2A8"/></linearGradient>
+ <radialGradient id="dsun"><stop offset="0" stop-color="#FFF3D6"/><stop offset=".4" stop-color="#FFD27A" stop-opacity=".8"/><stop offset="1" stop-color="#FF9A3D" stop-opacity="0"/></radialGradient></defs>
+ <rect width="1080" height="1920" fill="url(#dsk)"/><circle id="psun" cx="540" cy="1250" r="380" fill="url(#dsun)"/>
+ <path d="M-50 1330 C 260 1270 520 1300 760 1320 S 1040 1290 1130 1300 L1130 1920 L-50 1920Z" fill="#0A1A12"/>
+ <ellipse cx="540" cy="1600" rx="260" ry="40" fill="#07120C"/>
+ <rect x="533" y="1520" width="14" height="70" rx="4" fill="#E8E2D2"/><path d="M518 1522 L562 1522 L548 1532 L532 1532Z" fill="#E8E2D2"/>
+ <g id="clubh" opacity="0"><path d="M120 1560 L470 1500 L500 1540 L150 1610Z" fill="#0B0F0D"/></g>
+ <circle id="pball" cx="540" cy="1488" r="34" fill="#fff"/><path id="trail" d="" stroke="#fff" stroke-width="12" fill="none" stroke-linecap="round" opacity=".8"/>
+ <circle id="impact" cx="540" cy="1488" r="40" fill="none" stroke="#fff" stroke-width="6" opacity="0"/>
+</svg><div id="mis"></div></div>
+<div id="endc"><div class="tt">BANDERÍN</div><div class="sub">TODOS LOS TORNEOS DE GOLF DE ESPAÑA</div><div class="u"><span>banderin.es</span></div><div class="ft">YA DISPONIBLE · GRATIS</div></div>
+<div id="bars"></div><div id="vig"></div>
+<svg id="grain" width="1180" height="2020" aria-hidden="true"><filter id="gf"><feTurbulence id="turb" type="fractalNoise" baseFrequency=".85" numOctaves="2" seed="1"/></filter><rect width="100%" height="100%" filter="url(#gf)"/></svg>
+<div id="flash"></div>
+<script src="/_r/k2.js"></script>
+<script>
+const DUR=33,E=28.6;window.DUR=DUR;
+let DOTS=[];const MAD=[455,856];
+const cv=$('cv'),cx=cv.getContext('2d');
+const CL=(id,o)=>$(id).style.opacity=o;
+const TYPE=['OBJETIVO:','un torneo','este sábado','','HÁNDICAP: 18','ZONA: Madrid','','ESTADO:','sin encontrar'];
+function drawMap(t){cx.clearRect(0,0,1080,1920);
+  const z=1+2.2*eio(seg(t,5.6,8.4));const ox=MAD[0],oy=MAD[1];
+  cx.save();cx.translate(540,960);cx.scale(z,z);cx.translate(-ox+(ox-540)/z*0,-oy+(oy-960)/z*0);
+  cx.translate(0,0);cx.restore();
+  // proyección con zoom hacia Madrid
+  const fx=x=>540+(x-(540+(ox-540)*seg(t,5.6,8.4)))*z, fy=y=>960+(y-(960+(oy-960)*seg(t,5.6,8.4)))*z;
+  // rejilla
+  cx.strokeStyle='rgba(111,211,196,.07)';cx.lineWidth=1;
+  for(let g=0;g<=1080;g+=60){cx.beginPath();cx.moveTo(fx(g),0);cx.lineTo(fx(g),1920);cx.stroke()}
+  for(let g=300;g<=1700;g+=60){cx.beginPath();cx.moveTo(0,fy(g));cx.lineTo(1080,fy(g));cx.stroke()}
+  const shown=Math.floor(DOTS.length*eio(seg(t,1.3,4.9)));
+  for(let i=0;i<shown;i++){const d=DOTS[i];const a=seg(t,1.3+d[2]*3.6,1.6+d[2]*3.6);
+    const X=fx(d[0]),Y=fy(d[1]);if(X<-20||X>1100||Y<-20||Y>1940)continue;
+    const dim=t>5.6?1-.75*seg(t,5.8,6.6):1;
+    cx.fillStyle=`rgba(255,${150+60*d[2]|0},${80+40*d[2]|0},${.25*a*dim})`;cx.beginPath();cx.arc(X,Y,9*Math.min(z,2),0,7);cx.fill();
+    cx.fillStyle=`rgba(255,220,170,${.95*a*dim})`;cx.beginPath();cx.arc(X,Y,2.6*Math.min(z,2),0,7);cx.fill()}
+  return [fx(ox),fy(oy)]}
+window.render=function(t){
+  // créditos
+  $('cred').style.opacity=Math.min(eo(seg(t,.15,.6)),1-seg(t,1.0,1.3));
+  // mapa
+  CL('map',vis(t,1.0,8.65,.4,.15));
+  const [mx,my]=drawMap(t);
+  const n=Math.round(1089*eio(seg(t,1.3,4.9)));$('cnt').firstChild.nodeValue=n.toLocaleString('es-ES');$('cnt').style.opacity=1-seg(t,5.4,5.9);
+  $('h2').style.opacity=Math.floor(t*2)%2?1:.3;
+  const rt=seg(t,6.2,6.7);$('ret').style.left=mx+'px';$('ret').style.top=my+'px';$('ret').style.opacity=t>6.2?1:0;$('ret').style.transform=`scale(${2.4-1.4*eo(rt)}) rotate(${(1-eo(rt))*90}deg)`;
+  $('lab').style.left=(mx+100)+'px';$('lab').style.top=(my-20)+'px';$('lab').style.opacity=cl(seg(t,6.7,6.9))*(Math.floor(t*6)%2||t>7.2?1:.2);
+  // expediente
+  CL('dos',vis(t,8.6,11.35,.08,.08));
+  $('fold').style.transform=`rotate(-3deg) translateY(${(1-eo(seg(t,8.6,9.1)))*200}px) scale(${1+.05*seg(t,8.6,11.3)})`;
+  const chars=Math.floor(Math.max(0,t-8.95)*42);let s='',c=0;for(const l of TYPE){if(c>=chars)break;const take=l.slice(0,chars-c);s+=take+'<br>';c+=l.length+2}$('ty').innerHTML=s+(Math.floor(t*4)%2?'█':'');
+  $('conf').style.opacity=t>10.3?1:0;$('conf').style.transform=`rotate(-12deg) scale(${2-1*eo(seg(t,10.3,10.45))})`;
+  // cuenta atrás
+  CL('cd',vis(t,11.3,14.95,.05,.08));
+  const left=Math.max(0,172799-Math.floor(Math.pow(Math.max(0,t-11.3),2.2)*9000));const hh=Math.floor(left/3600),mm=Math.floor(left%3600/60),ss=left%60;
+  $('clock').textContent=[hh,mm,ss].map(v=>String(v).padStart(2,'0')).join(':');
+  const hb=Math.pow(Math.max(0,Math.sin((t-11.3)*Math.PI*1.6)),12);$('clock').style.transform=`scale(${1+.05*hb})`;$('cd').style.background=`rgb(${7+30*hb|0},0,0)`;
+  // sin…
+  CL('no',vis(t,14.95,20.45,.03,.08));
+  [['n1',15.13,16.45],['n2',16.45,18.45],['n3',18.45,20.4]].forEach(([id,a,b])=>{const e=$(id);const p=back(seg(t,a,a+.25));e.style.opacity=t>=a&&t<b?1:0;
+    e.style.transform=`scale(${1.25-.25*p}) translateX(${t<a+.12?Math.sin(t*120)*18:0}px)`;e.querySelector('.st').style.transform=`scaleX(${eo(seg(t,a+.45,a+.75))})`});
+  // herramienta
+  CL('tool',vis(t,20.45,23.7,.05,.05));$('sweep').style.setProperty('--sx',(eio(seg(t,20.9,22.6))*1500)+'px');$('sol').style.opacity=Math.min(eo(seg(t,21.0,21.6)),1-seg(t,23.2,23.6));
+  // logo + objetivo
+  CL('logo',vis(t,23.72,26.05,.02,.12));const lp=back(seg(t,23.72,24.1));$('logo').querySelector('.lg').style.transform=`scale(${1.3-.3*lp})`;
+  const tc=$('tcard');const tp=back(seg(t,24.9,25.3));tc.style.opacity=cl(seg(t,24.9,25.0));tc.style.transform=`translateY(${(1-tp)*60}px)`;
+  // misión: jugar
+  CL('play',vis(t,26.0,E+.05,.1,.05));
+  const ch=seg(t,27.45,27.72);$('clubh').setAttribute('opacity',t>27.4&&t<27.85?1:0);$('clubh').setAttribute('transform',`translate(${-500+560*eio(ch)+(t>27.72?600*seg(t,27.72,27.85):0)},0)`);
+  const bf=seg(t,27.72,28.6);const bx=540+180*eo(bf),by=1488-1050*eo(bf);$('pball').setAttribute('cx',bx);$('pball').setAttribute('cy',by);$('pball').setAttribute('r',34*(1-.9*eo(bf)));
+  $('trail').setAttribute('d',bf>0?`M540 1488 Q ${560+60*bf} ${1488-600*bf} ${bx} ${by}`:'');$('trail').setAttribute('stroke-width',12*(1-.7*bf));$('trail').setAttribute('opacity',.8*(1-seg(t,28.3,28.6)));
+  const ip=seg(t,27.72,28.0);$('impact').setAttribute('opacity',t>27.72?1-ip:0);$('impact').setAttribute('r',40+160*eo(ip));
+  $('play').style.transform=`translateX(${t>27.72&&t<27.95?Math.sin(t*140)*10:0}px)`;
+  $('psun').setAttribute('cy',1250-60*seg(t,26,28.6));
+  const m1=t>=26.2,m2=t>=27.7;$('mis').innerHTML=(m1?'MISIÓN:':'&nbsp;')+'<span>'+(m2?'JUGAR.':'&nbsp;')+'</span>';$('mis').style.transform=`scale(${1+.03*seg(t,26.2,28.6)})`;
+  // final
+  const ec=$('endc');CL('endc',eo(seg(t,E,E+.3)));
+  const tt=ec.querySelector('.tt');tt.style.letterSpacing=(.18+.12*(1-eo(seg(t,E,E+2.2))))+'em';tt.style.opacity=eo(seg(t,E+.1,E+.7));
+  ec.querySelector('.sub').style.opacity=eo(seg(t,E+.8,E+1.3));ec.querySelector('.u').style.opacity=eo(seg(t,E+1.4,E+1.8));ec.querySelector('.ft').style.opacity=eo(seg(t,E+2.0,E+2.5));
+  $('turb').setAttribute('seed',Math.floor(t*24)%97);
+  flash(t,[15.13,16.45,18.45,23.72,E]);document.body.style.opacity=1-seg(t,DUR-.5,DUR);
+  return 0};
+window.prep=async()=>{await document.fonts.ready;DOTS=await (await fetch('/_r/dots.json')).json();render(0);return true};
+</script></body></html>

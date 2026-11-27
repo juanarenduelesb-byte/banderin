@@ -1,0 +1,77 @@
+<!DOCTYPE html><html lang="es"><head><meta charset="utf-8"><title>r2</title>
+<link rel="stylesheet" href="/_r/k2.css">
+<style>
+#desk{background:linear-gradient(160deg,#3A3F3C,#22262A);overflow:hidden}
+#tabs{position:absolute;left:0;right:0;top:0;height:120px;background:#1A1C1F;display:flex;gap:6px;padding:30px 20px 0;overflow:hidden;z-index:30}
+.tb{flex:none;height:90px;border-radius:18px 18px 0 0;background:#2E3237;color:#C9CDD2;font-size:26px;padding:26px 20px 0;white-space:nowrap;overflow:hidden;transform-origin:0 100%}
+#cnt{position:absolute;right:36px;top:150px;z-index:40;background:#C8402F;color:#fff;font-weight:700;font-size:48px;border-radius:999px;padding:10px 34px;box-shadow:0 10px 30px rgba(0,0,0,.4)}
+.win{position:absolute;width:820px;height:1080px;background:#fff;border-radius:22px;overflow:hidden;box-shadow:0 30px 90px rgba(0,0,0,.55);color:#222}
+.win .bar{height:84px;background:#E8E9EB;display:flex;align-items:center;gap:14px;padding:0 26px;font-size:28px;color:#555}
+.win .bar i{width:20px;height:20px;border-radius:50%;background:#E0605A;display:block}.win .bar i+i{background:#E6B54A}.win .bar i+i+i{background:#5BB26A}
+.win .bar span{margin-left:16px;background:#fff;border-radius:12px;padding:8px 20px;flex:1;white-space:nowrap;overflow:hidden}
+.win h4{font-size:44px;padding:34px 40px 10px;color:#1D3557}.win .ln{height:22px;background:#E3E5E8;border-radius:6px;margin:18px 40px}
+.win .row{display:flex;gap:16px;margin:14px 40px}.win .row b{flex:1;height:54px;background:#EEF0F3;border-radius:8px}
+.win.pdf{background:#525659}.win.pdf .pg{position:absolute;left:70px;right:70px;top:130px;bottom:-40px;background:#fff;padding:30px 0}
+.win.pdf .pg h4{font-size:34px;color:#333;text-align:center}
+.win .img{height:300px;margin:0 40px;border-radius:14px;background:linear-gradient(135deg,#6E9C78,#3D6B4C)}
+#big{position:absolute;left:0;right:0;top:640px;text-align:center;z-index:50;opacity:0}
+#big b{display:block;font-family:"CAS";font-weight:400;font-size:250px;line-height:1;color:#fff;text-shadow:0 10px 60px rgba(0,0,0,.7)}
+#big span{display:block;font-family:"CAS";font-size:88px;color:#fff;text-shadow:0 8px 40px rgba(0,0,0,.8)}
+#lost{top:1130px;z-index:50}
+#web{background:#163D2B;overflow:hidden}
+#wbar{position:absolute;left:0;right:0;top:0;height:170px;background:#F2EEE2;color:#13201A;z-index:2;display:flex;align-items:flex-end;justify-content:center;padding-bottom:28px;font-weight:600;font-size:40px}
+#wf{position:absolute;left:0;top:170px;width:390px;height:632px;border:0;transform:scale(2.7692);transform-origin:0 0}
+#lt{position:absolute;left:70px;right:70px;bottom:120px;z-index:10;background:rgba(10,24,17,.92);border:2px solid rgba(233,199,126,.5);border-radius:40px;padding:36px 40px;text-align:center;font-family:"CAS";font-size:76px;line-height:1.05;opacity:0}
+#nowc{top:330px;z-index:10;left:110px;right:110px;background:rgba(10,24,17,.94);border:2px solid rgba(233,199,126,.5);border-radius:40px;padding:34px 30px}
+</style></head><body>
+<div id="s1" class="sc"><div id="c1" class="cap" style="top:700px">¿Buscar un torneo<br>de golf?</div><div id="c2" class="cap" style="top:960px">Antes era <span class="g">así:</span></div></div>
+<div id="desk" class="sc"><div id="tabs"></div><div id="cnt">1 pestaña</div><div id="wins"></div>
+</div>
+<div id="ov" class="sc" style="z-index:60;background:radial-gradient(70% 45% at 50% 50%,rgba(0,0,0,.72),rgba(0,0,0,.35))"><div id="big"><b>23</b><span>pestañas…</span></div><div id="lost" class="cap">y sigues sin saber<br><span class="g">dónde jugar.</span></div></div>
+<div id="web" class="sc"><div id="wbar">🔒 banderin.es</div><iframe id="wf" src="/#inicio" scrolling="no"></iframe>
+ <div id="nowc" class="cap">Ahora abres<br><span class="g">Banderín.</span></div>
+ <div id="lt">Todos los torneos de España,<br><span class="g">en un solo sitio.</span></div><div id="tap" class="tap"></div></div>
+<div id="end"><img src="/icons/icon-512.png" alt=""><h2>Todos los torneos.<br><span>Un solo sitio.</span></h2><div class="u">banderin.es</div><p>Gratis · Todos los torneos de golf de España</p></div>
+<div id="flash"></div>
+<script src="/_r/k2.js"></script>
+<script>
+const DUR=22.6,E=20.0,W0=12.95,TAP=15.3;window.DUR=DUR;
+const FED=(t,u)=>`<div class="bar"><i></i><i></i><i></i><span>${u}</span></div><h4>${t}</h4>`+'<div class="row"><b></b><b></b><b></b></div>'.repeat(9)+'<div class="ln"></div>'.repeat(4);
+const PDF=(n)=>`<div class="bar"><i></i><i></i><i></i><span>${n}</span></div><div class="pg"><h4>CALENDARIO DE COMPETICIONES</h4>`+'<div class="ln"></div>'.repeat(26)+'</div>';
+const CLUB=(t)=>`<div class="bar"><i></i><i></i><i></i><span>club-de-golf…/competiciones</span></div><h4>${t}</h4><div class="img"></div>`+'<div class="ln"></div>'.repeat(14);
+// [hora, html, clase, título de pestaña]
+const WS=[[3.06,FED('Federación de golf · Calendario','federacion-golf…/calendario'),'','Federación · Calendario'],
+ [4.61,FED('Competiciones oficiales 2026','otra-federacion…/competiciones'),'','Otra federación'],
+ [6.11,PDF('calendario_2026_v3_FINAL.pdf'),'pdf','calendario_2026_v3_FINAL.pdf'],
+ [7.15,CLUB('Club de golf · Próximas pruebas'),'','Club de golf'],
+ [8.45,PDF('circular_competiciones_nov.pdf'),'pdf','circular_nov.pdf']];
+for(let i=0;i<18;i++){const k=i%3;WS.push([8.95+i*.042,k==0?FED('Calendario','…/calendario-'+(i+2)):k==1?PDF('torneos_'+(i+3)+'.pdf'):CLUB('Competiciones'),k==1?'pdf':'','Pestaña '+(i+6)])}
+const wb=$('wins'),tb=$('tabs');
+WS.forEach((w,i)=>{const d=document.createElement('div');d.className='win '+w[2];d.innerHTML=w[1];d.id='w'+i;
+  const r=(n)=>{const x=Math.sin(i*12.9898+n*78.233)*43758.5453;return x-Math.floor(x)};
+  d.dataset.x=40+r(1)*180;d.dataset.y=220+r(2)*420;d.dataset.r=(r(3)-.5)*(i<5?6:16);wb.appendChild(d);
+  const t=document.createElement('div');t.className='tb';t.id='t'+i;t.textContent=w[3];t.style.width=(i<5?250:150)+'px';tb.appendChild(t)});
+window.render=function(t){let wait=0;
+  $('s1').style.opacity=vis(t,0,2.95,.01,.2);pop($('c1'),t,0,2.95);pop($('c2'),t,1.59,2.95);
+  // escritorio caótico
+  const dv=vis(t,2.85,W0,.15,.15);$('desk').style.opacity=dv;
+  let n=0;WS.forEach((w,i)=>{const d=$('w'+i),on=t>=w[0];if(on)n++;const p=back(seg(t,w[0],w[0]+.3));
+    d.style.opacity=on?cl(seg(t,w[0],w[0]+.06)):0;d.style.left=d.dataset.x+'px';d.style.top=d.dataset.y+'px';
+    d.style.transform=`rotate(${d.dataset.r}deg) scale(${(.6+.4*p)*(1-.04*Math.max(0,n-i-1)*0)})`;
+    const tt=$('t'+i);tt.style.display=on?'block':'none';tt.style.width=(n>8?Math.max(34,1040/n-6):(i<5?250:150))+'px'});
+  $('cnt').textContent=n+(n==1?' pestaña':' pestañas');$('cnt').style.transform=`scale(${1+.25*Math.max(0,1-seg(t,WS[Math.max(0,n-1)][0],WS[Math.max(0,n-1)][0]+.2))})`;
+  const sh=t>9.7&&t<10.4?Math.sin(t*90)*14*(1-seg(t,9.7,10.4)):0;$('desk').style.transform=`translateX(${sh}px)`;
+  $('desk').style.filter=`saturate(${1-.7*seg(t,9.6,10.2)}) brightness(${1-.35*seg(t,9.6,10.2)})`;
+  $('ov').style.opacity=vis(t,9.65,W0,.2,.15);pop($('big'),t,9.72,W0,60);pop($('lost'),t,10.69,W0);
+  // Banderín
+  const wv=eo(seg(t,W0,W0+.4)),w=$('web');w.style.opacity=t<W0?0:1;w.style.transform=`scale(${.6+.4*wv})`;w.style.borderRadius=(1-wv)*60+'px';
+  const nc=$('nowc');pop(nc,t,13.2,15.0);
+  try{const fw=$('wf').contentWindow,d=$('wf').contentDocument,b=d.getElementById('hLoc');
+    if(b){const r=b.getBoundingClientRect(),S=2.7692;if(!tapAt($('tap'),t,TAP,(r.left+r.width/2)*S,170+(r.top+r.height/2)*S))$('tap').style.opacity=0;
+      if(t>=TAP&&!window.tapped){window.tapped=true;b.click();wait=1800}}
+    const s1=d.getElementById('weTitle')?d.getElementById('weTitle').getBoundingClientRect().top+fw.scrollY-150:900;
+    fw.scrollTo(0,t<TAP+.4?110:110+(s1-110)*eio(seg(t,TAP+.5,TAP+1.6)))}catch(e){}
+  const lt=$('lt');const lv=vis(t,17.15,E+.1,.2,.1),lp=back(seg(t,17.15,17.55));lt.style.opacity=lv;lt.style.transform=`translateY(${(1-lp)*80}px)`;
+  flash(t,[2.9,W0,E]);endCard(t,E,DUR);return wait};
+window.prep=async()=>{await document.fonts.ready;const d=$('wf').contentDocument,st=d.createElement('style');st.textContent='*{animation:none!important;transition:none!important}::-webkit-scrollbar{display:none}#avFab,.avfab,#cbanner,nav.tabbar{display:none!important}';d.head.appendChild(st);render(0);return true};
+</script></body></html>
