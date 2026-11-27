@@ -12,6 +12,12 @@ La oficina de agentes de Banderín, montada igual que la de empresa-IA y adaptad
 ## Modo rápido (móvil)
 En pantallas de menos de 760 px la oficina abre en modo rápido: botones grandes para plan de la semana, reel, publicación, carrusel, story y pregunta libre; pestañas Pedir, Te esperan y Hecho. La vista 3D se pausa. «Abrir la oficina completa» lleva a la de siempre. En el ordenador, los mismos botones salen encima de «Nuevo encargo».
 
+## Para crear contenido
+- **Calendario «Esta semana en redes»**: los 7 días siguientes, con lo pedido para cada día y los huecos. Tocar un hueco pide reel, publicación, carrusel o story para ese día.
+- **Producir**: en cada reel, publicación, carrusel o story terminado. Copia el guion listo para pegarlo en el chat con Claude, que lo monta con el motor de reels.
+- **Pestaña Equipo** (móvil): quién trabaja y en qué, y el botón «Ver la oficina en 3D».
+- **Datos de la semana**: `cerebro/semana.md` (torneos del finde por comunidad, cambios y métricas) lo rehace cada día la acción «Semana para la oficina» (`agentes/tools/semana_oficina.py`, sin IA).
+
 ## Cómo se actualiza
 No se edita a mano el bloque de datos de `index.html` ni los JSON:
 

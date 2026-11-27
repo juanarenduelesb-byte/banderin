@@ -1,0 +1,27 @@
+name: Semana para la oficina
+# Sin IA: cada día, tras la actualización de torneos, rehace cerebro/semana.md (torneos del finde por
+# comunidad, cambios y métricas) y oficina/brain.json, para que los agentes trabajen con datos de esta semana.
+on:
+  schedule:
+    - cron: "20 7 * * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency: { group: semana, cancel-in-progress: false }
+jobs:
+  semana:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - name: Generar
+        run: |
+          python3 agentes/tools/semana_oficina.py
+          python3 agentes/tools/cerebro_build.py
+      - name: Guardar
+        run: |
+          git config user.name "banderin-bot"; git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add cerebro/semana.md oficina/brain.json cerebro/grafo cerebro/indice.json
+          git diff --cached --quiet && exit 0
+          git commit -m "Semana para la oficina $(date -u +%F)"
+          for i in 1 2 3; do git pull --rebase -q && git push -q && break; sleep 5; done

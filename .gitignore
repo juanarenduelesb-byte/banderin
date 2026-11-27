@@ -7,3 +7,4 @@ pipeline/__pycache__/
 # Estado local de wrangler (pruebas)
 .wrangler/
 node_modules/
+__pycache__/

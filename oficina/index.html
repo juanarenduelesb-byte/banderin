@@ -368,6 +368,23 @@ body.v3d #dtoday.o3only,body.v3d #dwait.o3only{display:block!important}
 .qk button{border:1px solid var(--hairline);background:var(--paper);color:var(--ink);border-radius:999px;padding:7px 12px;font:600 13px var(--font);cursor:pointer}
 .qk button:hover{border-color:var(--accent);color:var(--accent)}
 #mob{display:none}
+.cweek{margin:12px 0 0}
+.cweek .cw-h{display:flex;align-items:baseline;justify-content:space-between;margin:0 0 6px}.cweek .cw-h b{font-size:14px}.cweek .cw-h small{color:var(--ink-muted);font-size:12px}
+.cweek .cd{display:grid;grid-template-columns:64px minmax(0,1fr);gap:8px;align-items:start;padding:7px 0;border-top:1px solid var(--hairline)}
+.cweek .cd:first-of-type{border-top:0}
+.cweek .cd .d{font-size:12.5px;font-weight:600;color:var(--ink-muted);padding-top:3px}.cweek .cd .d.hoy{color:var(--accent)}
+.cweek .ci{display:flex;align-items:center;gap:6px;font-size:13.5px;line-height:1.3;margin-bottom:3px;cursor:pointer;background:none;border:0;padding:0;text-align:left;color:var(--ink);font-family:var(--font)}
+.cweek .ci .p{font-size:11px;border-radius:999px;padding:1px 7px;background:var(--track);white-space:nowrap}.cweek .ci .p.ok{background:var(--good-tint);color:var(--good)}.cweek .ci .p.w{background:var(--warn-tint);color:var(--warn)}
+.cweek .hole{border:1px dashed var(--hairline);background:none;border-radius:999px;padding:4px 10px;font:600 12.5px var(--font);color:var(--ink-muted);cursor:pointer}
+#mob .cweek{background:var(--paper);border-radius:16px;padding:12px 14px;box-shadow:var(--shadow)}
+#mob .cweek .cd{grid-template-columns:72px minmax(0,1fr);padding:9px 0}#mob .cweek .ci{font-size:15px}#mob .cweek .hole{padding:7px 12px;font-size:13.5px}
+#mob .ag{display:flex;gap:10px;align-items:center;background:var(--paper);border-radius:14px;padding:10px 12px;margin-bottom:6px;box-shadow:var(--shadow);border:0;width:100%;text-align:left;font-family:var(--font);color:var(--ink)}
+#mob .ag .av{width:36px;height:36px;border-radius:11px;color:#fff;display:grid;place-items:center;font-weight:700;font-size:13px;flex:none}
+#mob .ag .t{flex:1;min-width:0}#mob .ag .t b{display:block;font-size:15px}#mob .ag .t small{display:block;color:var(--ink-muted);font-size:12.5px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+#mob .ag .s{font-size:12px;border-radius:999px;padding:2px 8px;background:var(--track);white-space:nowrap}#mob .ag .s.work{background:var(--accent-tint);color:var(--accent)}#mob .ag .s.wait{background:var(--warn-tint);color:var(--warn)}
+#mob .big3d{display:flex;align-items:center;justify-content:center;gap:10px;width:100%;border:0;border-radius:16px;background:var(--wine);color:#fff;font:600 16px var(--font);padding:16px;margin:0 0 6px}
+.prodbox{margin-top:8px}.prodbox textarea{width:100%;min-height:120px;font-size:12px}
+
 .mobdet{margin-top:18px;border-top:1px solid var(--hairline);padding-top:10px}.mobdet summary{font-weight:600;padding:10px 0;cursor:pointer;color:var(--ink-muted)}
 @media (max-width:760px){body:not(.fullui) .toast{bottom:84px}}
 @media (max-width:760px){
@@ -406,7 +423,7 @@ body.v3d #dtoday.o3only,body.v3d #dwait.o3only{display:block!important}
 #mob .card .r button.g{background:var(--good);color:#fff}
 #mob .pill{display:inline-block;font-size:12px;border-radius:999px;padding:2px 8px;background:var(--accent-tint);color:var(--accent);font-weight:600}
 #mob .empty{color:var(--ink-muted);font-size:14px;margin:0}
-#mob .mt{position:fixed;left:0;right:0;bottom:0;display:grid;grid-template-columns:repeat(3,1fr);background:var(--paper);border-top:1px solid var(--hairline);padding:6px 6px max(8px,env(safe-area-inset-bottom))}
+#mob .mt{position:fixed;left:0;right:0;bottom:0;display:grid;grid-template-columns:repeat(4,1fr);background:var(--paper);border-top:1px solid var(--hairline);padding:6px 6px max(8px,env(safe-area-inset-bottom))}
 #mob .mt button{border:0;background:none;font:600 12.5px var(--font);color:var(--ink-muted);padding:8px 4px;display:flex;flex-direction:column;align-items:center;gap:3px;position:relative}
 #mob .mt button.on{color:var(--accent)}
 #mob .mt i{position:absolute;top:2px;left:58%;background:var(--crit);color:#fff;font-style:normal;font-size:11px;border-radius:999px;padding:0 6px}
@@ -481,6 +498,7 @@ body.v3d #dtoday.o3only,body.v3d #dwait.o3only{display:block!important}
         <button class="btn p" id="tAdd" type="button">Encargar</button>
       </div>
       <div class="row" id="repRow" hidden style="margin-top:8px"><select id="rDays" aria-label="Frecuencia" style="flex:1"></select><input type="time" id="rH" value="09:00" aria-label="Hora" style="width:auto"></div>
+      <div id="cweekD" class="cweek"></div>
       <p class="hint" id="tHint" style="margin:8px 0 0">El CEO digital lee el encargo, decide si sigue, pregunta, escala, rechaza o deriva, y elige al agente. Enter encarga; Mayús+Enter, salto de línea. ¿Algo grande, con documentos? <a href="#" id="tBig">Abre un proyecto</a>.</p>
     </div>
     <button type="button" class="bcard" id="bcard"><h3>Cerebro · Banderín</h3><p>El contexto que comparten todos los agentes: el repositorio de Banderín. Pulsa para ver el mapa.</p><div class="kn" id="kn-brain"></div></button>
@@ -507,6 +525,7 @@ body.v3d #dtoday.o3only,body.v3d #dwait.o3only{display:block!important}
   <nav class="mt" aria-label="Secciones">
     <button type="button" data-mt="pedir" class="on"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12h14" stroke-linecap="round"/></svg>Pedir</button>
     <button type="button" data-mt="esperan"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="8"/><path d="M12 8v4l3 2" stroke-linecap="round"/></svg>Te esperan<i id="mN" hidden></i></button>
+    <button type="button" data-mt="equipo"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="8" r="3"/><circle cx="17" cy="9" r="2.5"/><path d="M3 19c0-3 3-5 6-5s6 2 6 5M15 14c3 0 6 1.5 6 4.5" stroke-linecap="round"/></svg>Equipo</button>
     <button type="button" data-mt="hecho"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12l4 4 10-10" stroke-linecap="round" stroke-linejoin="round"/></svg>Hecho</button>
   </nav>
 </div>
@@ -753,7 +772,7 @@ async function qaTalk(t,out,a,ronda,prev){
 function wantsTeam(t){return /\ben equipo\b|que lo haga el equipo|todo el equipo/i.test(t)}
 async function addTask(text,opts){
   opts=opts||{};text=(text||'').trim();if(!text)return;
-  var id=uid(),pj=proj(opts.project),t={id:id,project:pj?pj.id:'',formatReq:opts.format||'auto',text:text,title:opts.title||text.slice(0,70),qt:!!opts.title,dep:opts.dep||'',tier:opts.tier||'default',team:!!opts.team||wantsTeam(text),forceOk:!!opts.ok,routine:opts.routine||'',late:!!opts.late,status:'cola',created:now(),when:opts.when||'',log:[{t:now(),m:'Encargo recibido'+(opts.routine?' de la rutina «'+opts.routine+'»':'')+(opts.late?' (con retraso)':'')}]};
+  var id=uid(),pj=proj(opts.project),t={id:id,project:pj?pj.id:'',formatReq:opts.format||'auto',text:text,title:opts.title||text.slice(0,70),qt:!!opts.title,qk:opts.qk||'',pub:opts.pub||'',dep:opts.dep||'',tier:opts.tier||'default',team:!!opts.team||wantsTeam(text),forceOk:!!opts.ok,routine:opts.routine||'',late:!!opts.late,status:'cola',created:now(),when:opts.when||'',log:[{t:now(),m:'Encargo recibido'+(opts.routine?' de la rutina «'+opts.routine+'»':'')+(opts.late?' (con retraso)':'')}]};
   if(opts.meeting){t.meeting=opts.meeting;t.agent=opts.meeting.a;t.decision='CONTINUAR';t.risk='bajo';t.title='Reunión: '+ag(opts.meeting.a).n+' y '+ag(opts.meeting.b).n;t.ceo={objetivo:'Acta de la reunión sobre: '+text,criterio:'Acta con asistentes, acuerdos, decisiones y siguientes pasos con responsable',confirmado:[],inferido:[],desconocido:[],proceso:''};lg(t,'Reunión convocada en el cerebro');await put('tasks',id,t);goBrain(opts.meeting.a);goBrain(opts.meeting.b);run(id);return id}
   var H=histFor(text+(pj?' '+pj.name+' '+(pj.objective||''):''),t.project,id);
   t.hist=H.map(function(h){return {k:h.k,id:h.id,title:h.title}});
@@ -1290,7 +1309,7 @@ function openTask(id){
   if(t.status==='rech'||(t.status==='cola'&&!S.working[t.agent]))h+='<div class="row"><button class="btn" id="bDel" type="button">Borrar</button>'+(t.status==='cola'&&t.agent?'<button class="btn p" id="bRetry" type="button">Reintentar</button>':'')+'</div>';
   h+='</div>';
   if(t.result&&!t.piece&&(t.status==='hecha'||t.status==='aprob'))h+='<div class="df"><textarea id="rev" placeholder="Pide un cambio: hazlo más corto, añade una tabla, sin tecnicismos…" style="min-height:54px"></textarea><div class="row" style="margin-top:8px"><span class="hint" style="flex:1">El CEO decide si es una corrección puntual o una regla que '+esc(a.n)+' aplicará siempre.</span><button class="btn p" id="bRev" type="button">Revisar</button></div></div>';
-  openDrawer(h);if(isMob())mobTidy(q('drawer'));
+  openDrawer(h);addProduce(q('drawer'),t);if(isMob())mobTidy(q('drawer'));
   
   var dr=q('drawer');
   dr.querySelectorAll('[data-t]').forEach(function(b){b.onclick=function(){openTask(b.dataset.t)}});
@@ -2063,37 +2082,40 @@ setInterval(function(){tick();renderFeed()},30000);
 var QUICK={
   reel:{n:'Reel',d:'Vídeo vertical corto',ic:'M8 5v14l11-7z',
     temas:['Torneos del fin de semana','Humor de golfista','Dato curioso','Cómo se usa Banderín','Una provincia concreta'],
-    pide:function(o){return 'Prepara un reel para Instagram y TikTok de Banderín'+(o.tema?' sobre: '+o.tema:'')+(o.cuando?' (se publica '+o.cuando+')':'')+'. Entrega lista para producir: gancho de los 2 primeros segundos, guion por escenas con duración, textos en pantalla, locución completa, pie de publicación con llamada a banderin.es y 5 hashtags. Usa solo datos reales del cerebro y respeta el acuerdo con Golf Directo (sin precios, jugadores ni resultados).'+(o.extra?' Indicaciones: '+o.extra:'')}},
+    pide:function(o){return 'Prepara un reel para Instagram y TikTok de Banderín'+(o.tema?' sobre: '+o.tema:'')+(o.cuando?' (se publica '+o.cuando.toLowerCase()+(o.pub?', '+o.pub:'')+')':'')+'. Entrega lista para producir: gancho de los 2 primeros segundos, guion por escenas con duración, textos en pantalla, locución completa, pie de publicación con llamada a banderin.es y 5 hashtags. Usa los torneos reales de cerebro/semana.md y respeta el acuerdo con Golf Directo (sin precios, jugadores ni resultados).'+(o.extra?' Indicaciones: '+o.extra:'')}},
   post:{n:'Publicación',d:'Imagen y texto para el feed',ic:'M4 5h16v14H4zM4 15l5-4 4 3 3-2 4 3',
     temas:['Torneos destacados','Novedad de la web','Consejo para golfistas','Pregunta a la comunidad'],
-    pide:function(o){return 'Prepara una publicación de Instagram de Banderín'+(o.tema?' sobre: '+o.tema:'')+(o.cuando?' (se publica '+o.cuando+')':'')+'. Entrega: titular de la imagen (máx. 8 palabras), descripción de la imagen para generarla, pie de publicación corto con llamada a banderin.es y 5 hashtags. Solo datos reales del cerebro.'+(o.extra?' Indicaciones: '+o.extra:'')}},
+    pide:function(o){return 'Prepara una publicación de Instagram de Banderín'+(o.tema?' sobre: '+o.tema:'')+(o.cuando?' (se publica '+o.cuando.toLowerCase()+(o.pub?', '+o.pub:'')+')':'')+'. Entrega: titular de la imagen (máx. 8 palabras), descripción de la imagen para generarla, pie de publicación corto con llamada a banderin.es y 5 hashtags. Solo datos reales del cerebro.'+(o.extra?' Indicaciones: '+o.extra:'')}},
   carrusel:{n:'Carrusel',d:'De 5 a 8 láminas',ic:'M3 6h12v12H3zM17 8h4v8h-4',
     temas:['Tipos de golfista','Cómo elegir torneo','Errores al inscribirse','Torneos por comunidad'],
-    pide:function(o){return 'Prepara un carrusel de Instagram de Banderín de 5 a 8 láminas'+(o.tema?' sobre: '+o.tema:'')+(o.cuando?' (se publica '+o.cuando+')':'')+'. Entrega el texto de cada lámina (portada con gancho, una idea por lámina, última con llamada a banderin.es), el pie de publicación y 5 hashtags.'+(o.extra?' Indicaciones: '+o.extra:'')}},
+    pide:function(o){return 'Prepara un carrusel de Instagram de Banderín de 5 a 8 láminas'+(o.tema?' sobre: '+o.tema:'')+(o.cuando?' (se publica '+o.cuando.toLowerCase()+(o.pub?', '+o.pub:'')+')':'')+'. Entrega el texto de cada lámina (portada con gancho, una idea por lámina, última con llamada a banderin.es), el pie de publicación y 5 hashtags.'+(o.extra?' Indicaciones: '+o.extra:'')}},
   story:{n:'Story',d:'Encuesta o aviso rápido',ic:'M7 3h10v18H7z',
     temas:['Encuesta','Recordatorio de inscripción','Detrás de Banderín'],
-    pide:function(o){return 'Prepara 3 stories de Instagram de Banderín'+(o.tema?' sobre: '+o.tema:'')+(o.cuando?' (para '+o.cuando+')':'')+'. Entrega el texto de cada una, la pegatina (encuesta, pregunta o enlace a banderin.es) y qué fondo poner.'+(o.extra?' Indicaciones: '+o.extra:'')}},
+    pide:function(o){return 'Prepara 3 stories de Instagram de Banderín'+(o.tema?' sobre: '+o.tema:'')+(o.cuando?' (se publica '+o.cuando.toLowerCase()+(o.pub?', '+o.pub:'')+')':'')+'. Entrega el texto de cada una, la pegatina (encuesta, pregunta o enlace a banderin.es) y qué fondo poner.'+(o.extra?' Indicaciones: '+o.extra:'')}},
   semana:{n:'Plan de la semana',d:'Qué publicar cada día',ic:'M4 6h16v14H4zM4 10h16M9 3v6M15 3v6',main:1,
     temas:[],
-    pide:function(o){return 'Haz el plan de redes de Banderín para la semana: un contenido al día (reel, publicación, carrusel o story), con tema, gancho y mejor hora, mezclando formatos y sin repetir el mensaje de inscripciones. Basado en los torneos reales del cerebro y en lo que mejor ha funcionado.'+(o.extra?' Indicaciones: '+o.extra:'')}},
+    pide:function(o){return 'Haz el plan de redes de Banderín para la semana: un contenido al día (reel, publicación, carrusel o story), con tema, gancho y mejor hora, mezclando formatos y sin repetir el mensaje de inscripciones. Basado en cerebro/semana.md (torneos reales del fin de semana) y en lo que mejor ha funcionado.'+(o.extra?' Indicaciones: '+o.extra:'')}},
   pregunta:{n:'Pregunta al equipo',d:'Lo que sea, en tus palabras',ic:'M12 18h.01M9 9a3 3 0 1 1 4 2.8c-.6.3-1 .9-1 1.6V14',
     libre:1}
 };
-var CUANDO=['Hoy','Mañana','Esta semana'];
+function isoD(d){return d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0')}
+var DSEM=['dom','lun','mar','mié','jue','vie','sáb'];
+function next7(){var o=[],d=new Date();d.setHours(12,0,0,0);for(var i=0;i<7;i++){var x=new Date(d);x.setDate(d.getDate()+i);o.push({iso:isoD(x),l:i===0?'Hoy':i===1?'Mañana':DSEM[x.getDay()]+' '+x.getDate()})}return o}
 function qsClose(){q('qs').classList.remove('on')}
 q('qs').onclick=function(e){if(e.target===q('qs'))qsClose()};
-function openQuick(k){var Q=QUICK[k];if(!Q)return;
+function openQuick(k,dia){var Q=QUICK[k];if(!Q)return;
   if(Q.libre){if(isMob()){q('mTxt')&&q('mTxt').focus()}else{q('tTxt').focus()}return}
-  var o={tema:'',cuando:'',extra:''};
+  var o={tema:'',cuando:'',pub:dia||'',extra:''},D7=next7();
   var ch=function(list,key){return '<div class="ch" data-k="'+key+'">'+list.map(function(x){return '<button type="button">'+esc(x)+'</button>'}).join('')+'</div>'};
   q('qsB').innerHTML='<h3>'+esc(Q.n)+'</h3><p class="sub">'+esc(Q.d)+'. Elige lo que quieras; si no eliges nada, decide el equipo.</p>'+
     (Q.temas.length?'<label>¿De qué?</label>'+ch(Q.temas,'tema'):'')+
-    (k!=='semana'?'<label>¿Cuándo se publica?</label>'+ch(CUANDO,'cuando'):'')+
+    (k!=='semana'?'<label>¿Cuándo se publica?</label><div class="ch" data-k="pub">'+D7.map(function(x){return '<button type="button" data-v="'+x.iso+'"'+(x.iso===dia?' class="on"':'')+'>'+esc(x.l)+'</button>'}).join('')+'</div>':'')+
     '<label for="qsX">Algo más (opcional)</label><textarea id="qsX" placeholder="Ejemplo: tono gracioso, menciona Andalucía…"></textarea>'+
     '<div class="go"><button type="button" class="c" id="qsC">Cancelar</button><button type="button" class="p" id="qsGo">Pedir '+esc(Q.n.toLowerCase())+'</button></div>';
-  q('qsB').querySelectorAll('.ch').forEach(function(box){box.querySelectorAll('button').forEach(function(b){b.onclick=function(){var was=b.classList.contains('on');box.querySelectorAll('button').forEach(function(x){x.classList.remove('on')});if(!was)b.classList.add('on');o[box.dataset.k]=was?'':b.textContent}})});
+  q('qsB').querySelectorAll('.ch').forEach(function(box){box.querySelectorAll('button').forEach(function(b){b.onclick=function(){var was=b.classList.contains('on');box.querySelectorAll('button').forEach(function(x){x.classList.remove('on')});if(!was)b.classList.add('on');if(box.dataset.k==='pub'){o.pub=was?'':b.dataset.v;o.cuando=was?'':b.textContent}else o[box.dataset.k]=was?'':b.textContent}})});
   q('qsC').onclick=qsClose;
-  q('qsGo').onclick=function(){o.extra=q('qsX').value.trim();qsClose();addTask(Q.pide(o),{dep:'com',format:'auto',title:[Q.n,o.tema,o.cuando&&o.cuando.toLowerCase()].filter(Boolean).join(' · ')});toast(Q.n+' pedido. Te aviso en «Te esperan» cuando esté.');mTab='esperan';setTimeout(renderMob,300)};
+  q('qsGo').onclick=function(){o.extra=q('qsX').value.trim();qsClose();if(o.pub&&!o.cuando){var dd=D7.find(function(x){return x.iso===o.pub});o.cuando=dd?dd.l:o.pub}
+    addTask(Q.pide(o),{dep:'com',format:'auto',qk:k,pub:o.pub,title:[Q.n,o.tema,o.cuando&&o.cuando.toLowerCase()].filter(Boolean).join(' · ')});toast(Q.n+' pedido. Te aviso en «Te esperan» cuando esté.');mTab='esperan';setTimeout(renderMob,300)};
   q('qs').classList.add('on')}
 /* Botones rápidos también en la oficina de ordenador */
 (function(){var box=q('tTxt');if(!box)return;var d=document.createElement('div');d.className='qk';
@@ -2106,14 +2128,37 @@ function mobTidy(dr){var secs=[].slice.call(dr.querySelectorAll('p.sec')),tech=/
   var host=moved[0].parentNode;
   moved.forEach(function(p){var n=p.nextSibling,grp=[p];while(n&&!(n.nodeType===1&&n.matches&&n.matches('p.sec'))&&!(n.nodeType===1&&n.classList&&n.classList.contains('row')&&n.querySelector('#bNow,#bDel'))){grp.push(n);n=n.nextSibling}grp.forEach(function(x){det.appendChild(x)})});
   host.appendChild(det)}
+/* Calendario de contenido: 7 días, lo pedido con fecha y los huecos */
+var QK_TIPOS=['reel','post','carrusel','story'];
+function calHTML(mob){var D7=next7(),T=Object.values(S.tasks).filter(function(t){return !t.piece&&t.pub&&t.status!=='rech'});
+  var llenos=0,h=D7.map(function(d,i){var it=T.filter(function(t){return t.pub===d.iso});if(it.length)llenos++;
+    return '<div class="cd"><div class="d'+(i===0?' hoy':'')+'">'+esc(d.l)+'</div><div>'+(it.length?it.map(function(t){var st=t.status==='hecha'?['Listo','ok']:t.status==='aprob'||t.status==='preg'?['Te espera','w']:['En marcha',''];
+      return '<button type="button" class="ci" data-cv="'+t.id+'"><span>'+esc(t.title||'')+'</span><span class="p '+st[1]+'">'+st[0]+'</span></button>'}).join(''):'<button type="button" class="hole" data-hole="'+d.iso+'">Hueco · añadir</button>')+'</div></div>'}).join('');
+  return '<div class="cw-h"><b>Esta semana en redes</b><small>'+llenos+' de 7 días con contenido</small></div>'+h}
+function bindCal(root){root.querySelectorAll('[data-cv]').forEach(function(b){b.onclick=function(){openTask(b.dataset.cv)}});
+  root.querySelectorAll('[data-hole]').forEach(function(b){b.onclick=function(){pickType(b.dataset.hole)}})}
+function pickType(dia){var d=next7().find(function(x){return x.iso===dia});
+  q('qsB').innerHTML='<h3>¿Qué publicamos '+esc(d?(d.l==='Hoy'||d.l==='Mañana'?d.l.toLowerCase():'el '+d.l):'')+'?</h3><p class="sub">Elige el formato.</p><div class="ch">'+QK_TIPOS.map(function(k){return '<button type="button" data-pt="'+k+'">'+esc(QUICK[k].n)+'</button>'}).join('')+'</div><div class="go"><button type="button" class="c" id="qsC">Cancelar</button></div>';
+  q('qsC').onclick=qsClose;q('qsB').querySelectorAll('[data-pt]').forEach(function(b){b.onclick=function(){openQuick(b.dataset.pt,dia)}});q('qs').classList.add('on')}
+function renderCalD(){var c=q('cweekD');if(!c)return;c.innerHTML=calHTML(false);bindCal(c)}
+/* Producir: deja el guion aprobado listo para pegar en el chat */
+function prodText(t){var Q=QUICK[t.qk]||{n:'Contenido'};return 'Produce este '+Q.n.toLowerCase()+' de Banderín con el motor de reels (marketing/reels) y déjamelo listo para publicar'+(t.pub?' el '+t.pub:'')+'. Usa los datos reales de la web del día que se produzca y revisa el acuerdo con Golf Directo.\n\n'+(t.result||t.text)}
+function isContent(t){return t&&t.result&&(QK_TIPOS.indexOf(t.qk)>=0||/\b(reel|carrusel|story|stories|publicaci[oó]n)\b/i.test(t.text||''))}
+function doProduce(id,host){var t=S.tasks[id];if(!t)return;var tx=prodText(t);
+  var fallback=function(){var b=document.createElement('div');b.className='prodbox';b.innerHTML='<p class="hint">Cópialo a mano y pégalo en el chat con Claude:</p><textarea readonly></textarea>';b.querySelector('textarea').value=tx;(host||q('drawer')).appendChild(b);var ta=b.querySelector('textarea');ta.focus();ta.select()};
+  try{navigator.clipboard.writeText(tx).then(function(){toast('Copiado. Pégalo en el chat con Claude y lo produzco.')}).catch(fallback)}catch(e){fallback()}
+  t.prod=now();lg(t,'Enviado a producción (copiado para el chat)');put('tasks',id,t)}
+function addProduce(dr,t){if(!isContent(t)||!(t.status==='hecha'||t.status==='aprob'))return;var bc=dr.querySelector('#bCopy');
+  var html='<button class="btn g" id="bProd" type="button" title="Copia el guion listo para pegarlo en el chat y producir el vídeo o las imágenes">'+(t.prod?'Producir otra vez':'Producir')+'</button>';
+  if(bc)bc.insertAdjacentHTML('beforebegin',html);else return;q('bProd').onclick=function(){doProduce(t.id,dr.querySelector('.deliv')&&dr.querySelector('.deliv').parentNode)}}
 var MQ=matchMedia('(max-width:760px)'),mTab='pedir';window.__noScene=function(){return isMob()};
 function isMob(){return MQ.matches&&!document.body.classList.contains('fullui')}
 function mIcon(p){return '<span class="ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="'+p+'"/></svg></span>'}
 function mCard(t){var a=ag(t.agent)||{n:'El equipo'},s=ST[t.status]||[t.status];
   return '<div class="card"><small><b>'+esc(a.n)+'</b> · <span class="pill">'+esc(s[0])+'</span></small><p>'+esc((t.title||t.text||'').slice(0,110))+'</p><div class="r">'+
     (t.status==='aprob'?'<button type="button" class="g" data-mok="'+t.id+'">Dar el OK</button>':'')+
-    '<button type="button" data-mv="'+t.id+'">'+(t.status==='preg'?'Responder':'Ver')+'</button></div></div>'}
-function renderMob(){if(!q('mBody'))return;
+    '<button type="button" data-mv="'+t.id+'">'+(t.status==='preg'?'Responder':'Ver')+'</button>'+(isContent(t)&&(t.status==='hecha'||t.status==='aprob')?'<button type="button" data-mp="'+t.id+'">'+(t.prod?'Producir otra vez':'Producir')+'</button>':'')+'</div></div>'}
+function renderMob(){renderCalD();if(!q('mBody'))return;
   var T=Object.values(S.tasks).filter(function(t){return !t.piece}),by=function(a,b){return String(b.done||b.created).localeCompare(String(a.done||a.created))};
   var wt=T.filter(function(t){return t.status==='aprob'||t.status==='preg'}).sort(by),
       run_=T.filter(function(t){return /prog|cola|marcha|revision|maqueta/.test(t.status)}).sort(by),
@@ -2124,18 +2169,28 @@ function renderMob(){if(!q('mBody'))return;
   var h='';
   if(mTab==='pedir'){
     h='<h1>¿Qué hacemos hoy?</h1><div class="tiles">'+['semana','reel','post','carrusel','story','pregunta'].map(function(k){var Q=QUICK[k];return '<button type="button" class="tile'+(Q.main?' main':'')+'" data-q="'+k+'">'+mIcon(Q.ic)+'<b>'+esc(Q.n)+'</b><span>'+esc(Q.d)+'</span></button>'}).join('')+'</div>'+
+      '<div class="cweek" id="cweekM" style="margin-top:14px">'+calHTML(true)+'</div>'+
       '<div class="free"><textarea id="mTxt" placeholder="O escríbelo tú: «ideas para un reel de Navidad»"></textarea><button type="button" id="mGo">Pedir</button></div>'+
       (run_.length?'<h2>En marcha</h2>'+run_.slice(0,4).map(mCard).join(''):'')+
       (wt.length?'<h2>Te esperan <span class="n">'+wt.length+'</span></h2>'+wt.slice(0,2).map(mCard).join(''):'')+
       '<p class="note">El equipo prepara guion, textos y pie. El vídeo final lo monta el motor de reels: pídemelo en el chat con lo que apruebes.</p>'+
       '<button type="button" class="full-btn" id="mFull">Abrir la oficina completa</button>'}
   else if(mTab==='esperan'){h='<h1>Te esperan</h1>'+(wt.length?wt.map(mCard).join(''):'<p class="empty">Nada pendiente. Todo al día.</p>')+(run_.length?'<h2>En marcha</h2>'+run_.map(mCard).join(''):'')}
+  else if(mTab==='equipo'){var W=A.filter(function(a){return agentState(a.id)==='work'}).length;
+    h='<h1>El equipo</h1><button type="button" class="big3d" id="m3d"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3l8 4.5v9L12 21l-8-4.5v-9z"/><path d="M12 12l8-4.5M12 12v9M12 12L4 7.5"/></svg>Ver la oficina en 3D</button>'+
+      '<p class="note" style="margin:0 2px 14px">'+(W?W+' trabajando ahora mismo.':'Nadie trabajando ahora mismo. Pide algo y verás a quién le toca.')+' Toca un agente para ver su ficha, su memoria y hablar con él.</p>'+
+      DEP.map(function(d){var as=A.filter(function(a){return a.dep===d.id});if(!as.length)return '';return '<h2>'+esc(d.n)+'</h2>'+as.map(function(a){var st=agentState(a.id),cur=Object.values(S.tasks).filter(function(t){return t.agent===a.id&&!t.piece&&/cola|marcha|revision|maqueta|aprob|preg/.test(t.status)})[0];
+        return '<button type="button" class="ag" data-ma="'+a.id+'"><span class="av" style="background:'+d.c+'">'+esc(a.n.replace(/[^A-Za-zÁÉÍÓÚÑáéíóúñ ]/g,'').split(/\s+/).filter(Boolean).map(function(w){return w[0]}).join('').slice(0,2).toUpperCase())+'</span><span class="t"><b>'+esc(a.n)+'</b><small>'+esc(cur?(cur.title||cur.text):a.does||'')+'</small></span><span class="s '+st+'">'+(st==='work'?'Trabajando':st==='wait'?'Te espera':'Libre')+'</span></button>'}).join('')}).join('')}
   else{h='<h1>Hecho</h1>'+(hec.length?hec.slice(0,30).map(mCard).join(''):'<p class="empty">Aún no hay entregas. Pide algo en «Pedir».</p>')}
   var ae=document.activeElement,keep=ae&&ae.id==='mTxt'?ae.value:null;
   if(keep!==null&&mTab==='pedir')return; /* no borrar lo que estás escribiendo */
   q('mBody').innerHTML=h;
   q('mBody').querySelectorAll('[data-q]').forEach(function(b){b.onclick=function(){openQuick(b.dataset.q)}});
   q('mBody').querySelectorAll('[data-mv]').forEach(function(b){b.onclick=function(){openTask(b.dataset.mv)}});
+  q('mBody').querySelectorAll('[data-mp]').forEach(function(b){b.onclick=function(){doProduce(b.dataset.mp,b.closest('.card'))}});
+  q('mBody').querySelectorAll('[data-ma]').forEach(function(b){b.onclick=function(){openAgent(b.dataset.ma)}});
+  if(q('cweekM'))bindCal(q('cweekM'));
+  if(q('m3d'))q('m3d').onclick=function(){document.body.classList.add('fullui');window.scrollTo(0,0);setTimeout(function(){try{fit()}catch(e){}closeAll();goAgents();buildScene();render()},60)};
   q('mBody').querySelectorAll('[data-mok]').forEach(function(b){b.onclick=function(){window.VARIOS3D.approve(b.dataset.mok);toast('Aprobado');setTimeout(renderMob,300)}});
   if(q('mGo'))q('mGo').onclick=function(){var v=q('mTxt').value.trim();if(!v)return;q('mTxt').value='';q('mTxt').blur();addTask(v,{});toast('Pedido. Lo verás en «Te esperan».');mTab='esperan';setTimeout(renderMob,300)};
   if(q('mFull'))q('mFull').onclick=function(){document.body.classList.add('fullui');setTimeout(function(){try{fit()}catch(e){}render();openHome()},60)}}
