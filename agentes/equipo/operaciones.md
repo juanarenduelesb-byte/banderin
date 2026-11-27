@@ -2,9 +2,9 @@
 
 # Operaciones (vigilante)
 
-`operaciones` · **Que Banderín funcione cada día** · Diario, 07:47 · Autonomía **A3** (ver `agentes/autonomia.json`)
+`operaciones` · **Que Banderín funcione cada día** · Lunes y jueves, 07:47 (la salud diaria la hace código) · Autonomía **A3** (ver `agentes/autonomia.json`)
 
-> Comprobar cada mañana que la web, los datos, los avisos y las fuentes funcionan; arreglar lo que se pueda arreglar sin riesgo y avisar de lo demás.
+> Arreglar lo que la salud automática (código, sin IA) detecta: cada aviso de fallo abre un issue «incidencia» en GitHub; este agente lo investiga, lo arregla si es seguro y lo cierra, y vigila lo que el código no ve (Golf Directo, cambios en fuentes).
 
 **Métrica:** Días con todo en verde. Incidencias detectadas por el agente antes que por Juan (objetivo: 100 %).
 
@@ -26,11 +26,11 @@
 
 ## Cómo trabaja
 
-1. Lee tu memoria y las incidencias abiertas.
-2. Ejecuta comprobar.py. Si todo está en verde, registra «ok» y termina.
-3. Por cada aviso o fallo: busca la causa en los logs (`gh run view <id> --log`) y en el código.
-4. Si el arreglo es pequeño, local y comprobable: rama, arreglo, bash agentes/tools/validar.sh, merge, relanza la actualización si hace falta y comprueba el resultado.
-5. Si no: abre o actualiza la incidencia (habilidad incidencia) y deja la notificación con el resumen.
+1. Lee tu memoria y los issues abiertos con la etiqueta «incidencia».
+2. Ejecuta comprobar.py. Si todo está en verde y no hay incidencias abiertas, registra ok y termina (una línea, sin gastar más).
+3. Por cada fallo: busca la causa en los logs (`gh run view <id> --log`) y en el código.
+4. Si el arreglo es pequeño, local y comprobable: arreglo, bash agentes/tools/validar.sh, push, relanza la actualización si hace falta y comprueba el resultado; comenta en el issue y ciérralo.
+5. Si no: deja en el issue la causa, lo probado y lo que necesita de Juan.
 6. Registra la ejecución y la lección si la hay.
 
 ## Puede

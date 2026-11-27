@@ -2,7 +2,7 @@
 
 # Atención a usuarios
 
-`atencion` · **Que ningún usuario se quede sin respuesta** · Diario, 09:13 · Autonomía **A1** (ver `agentes/autonomia.json`)
+`atencion` · **Que ningún usuario se quede sin respuesta** · Lunes y jueves, 09:13 · Autonomía **A1** (ver `agentes/autonomia.json`)
 
 > Leer cada día lo que llega a avisos@banderin.es (etiqueta «Banderín» en Gmail), clasificarlo y dejar la respuesta lista; detectar errores que reportan los usuarios.
 

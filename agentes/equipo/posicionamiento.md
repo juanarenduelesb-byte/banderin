@@ -2,7 +2,7 @@
 
 # Posicionamiento en Google
 
-`posicionamiento` · **Que Banderín salga cuando alguien busca torneos** · Semanal, martes 11:07 · Autonomía **A3** (ver `agentes/autonomia.json`)
+`posicionamiento` · **Que Banderín salga cuando alguien busca torneos** · Días 1 y 15 de cada mes, 11:07 · Autonomía **A3** (ver `agentes/autonomia.json`)
 
 > Crear y mejorar páginas que respondan a búsquedas reales («torneos de golf en Málaga este fin de semana», «torneos de golf de Navidad») para traer visitas sin depender de redes.
 

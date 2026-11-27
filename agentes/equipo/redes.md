@@ -2,9 +2,9 @@
 
 # Redes sociales
 
-`redes` · **Que Banderín se conozca en Instagram** · Diario, 10:23 · Autonomía **A3** (ver `agentes/autonomia.json`)
+`redes` · **Que Banderín se conozca en Instagram** · Martes, jueves y sábado, 10:23 · Autonomía **A3** (ver `agentes/autonomia.json`)
 
-> Crear y programar una pieza al día (reel o carrusel) con datos reales de Banderín, a la mejor hora, aprendiendo de lo que funciona.
+> Crear y programar tres piezas a la semana (martes, jueves y sábado) con datos reales de Banderín, a la mejor hora, aprendiendo de lo que funciona.
 
 **Métrica:** Visualizaciones medias por reel y seguidores nuevos por semana; a medio plazo, altas de avisos desde Instagram.
 

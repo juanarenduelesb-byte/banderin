@@ -1,0 +1,48 @@
+name: Salud de Banderín
+# Sin IA: comprueba cada actualización con agentes/tools/comprobar.py.
+# Si algo falla abre (o actualiza) un issue con la etiqueta «incidencia» —GitHub te avisa por correo— y lo cierra solo cuando vuelve a estar en verde.
+on:
+  workflow_run:
+    workflows: ["Actualizar torneos"]
+    types: [completed]
+  schedule:
+    - cron: "35 8 * * *"
+  workflow_dispatch:
+permissions:
+  contents: read
+  issues: write
+  actions: read
+concurrency: { group: salud, cancel-in-progress: false }
+jobs:
+  salud:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 0 }
+      - uses: actions/setup-node@v4
+        with: { node-version: 22 }
+      - name: Comprobar
+        id: c
+        env: { GH_TOKEN: "${{ github.token }}" }
+        run: |
+          set +e
+          python3 agentes/tools/comprobar.py > /tmp/salud.txt; echo "codigo=$?" >> "$GITHUB_OUTPUT"
+          cat /tmp/salud.txt
+      - name: Abrir, actualizar o cerrar la incidencia
+        env: { GH_TOKEN: "${{ github.token }}", CODIGO: "${{ steps.c.outputs.codigo }}" }
+        run: |
+          R=${{ github.repository }}
+          N=$(gh api "repos/$R/issues?labels=incidencia&state=open&per_page=1" --jq '.[0].number // empty')
+          { echo "**$(date -u +'%d/%m/%Y %H:%M') UTC**"; echo; sed 's/^/- /' /tmp/salud.txt; echo; echo "Ejecución: ${{ github.server_url }}/$R/actions/runs/${{ github.run_id }}"; } > /tmp/cuerpo.md
+          if [ "$CODIGO" = "2" ]; then
+            if [ -z "$N" ]; then
+              gh api -X POST "repos/$R/issues" -f title="🔴 Banderín: algo ha fallado ($(date -u +%d/%m))" -F body=@/tmp/cuerpo.md -f 'labels[]=incidencia' --jq .html_url
+            else
+              gh api -X POST "repos/$R/issues/$N/comments" -F body=@/tmp/cuerpo.md --jq .html_url
+            fi
+          elif [ "$CODIGO" = "0" ] && [ -n "$N" ]; then
+            echo "✅ Todo vuelve a estar en verde." | cat - /tmp/cuerpo.md > /tmp/c2.md
+            gh api -X POST "repos/$R/issues/$N/comments" -F body=@/tmp/c2.md >/dev/null
+            gh api -X PATCH "repos/$R/issues/$N" -f state=closed --jq .state
+          fi

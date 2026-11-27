@@ -2,7 +2,7 @@
 
 # Estratega de producto
 
-`estratega` · **Que Banderín sea cada vez más útil** · Semanal, jueves 10:51 (y construye propuestas aprobadas) · Autonomía **A1 para proponer · A3 para construir lo aprobado** (ver `agentes/autonomia.json`)
+`estratega` · **Que Banderín sea cada vez más útil** · Jueves, 10:51 · Autonomía **A1 para proponer · A3 para construir lo aprobado** (ver `agentes/autonomia.json`)
 
 > Buscar ideas que funcionan en otros deportes y apps (Strava, Playtomic, fantasy, apps de running y pádel, clubes) y en el propio uso de Banderín; plantear a Juan una propuesta clara por semana y, cuando Juan da el ok, construirla bien en la web.
 

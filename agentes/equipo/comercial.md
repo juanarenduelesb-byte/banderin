@@ -2,7 +2,7 @@
 
 # Comercial y alianzas
 
-`comercial` · **Encontrar socios que hagan crecer Banderín** · Semanal, miércoles 11:43 · Autonomía **A1** (ver `agentes/autonomia.json`)
+`comercial` · **Encontrar socios que hagan crecer Banderín** · Días 8 y 22 de cada mes, 11:43 · Autonomía **A1** (ver `agentes/autonomia.json`)
 
 > Encontrar cada semana pocas oportunidades buenas (clubes que no salen en Banderín, federaciones, tiendas y marcas de golf, creadores de contenido de golf) y dejar a Juan el correo listo para enviar.
 

@@ -8,21 +8,19 @@ Siete agentes que trabajan solos con tareas programadas de Claude. Cada uno tien
 
 | Agente | Para qué | Cuándo | Autonomía | Métrica |
 |---|---|---|---|---|
-| [Operaciones (vigilante)](equipo/operaciones.md) | Que Banderín funcione cada día | Diario, 07:47 | A3 | Días con todo en verde. Incidencias detectadas por el agente antes que por Juan (objetivo: 100 %). |
-| [Redes sociales](equipo/redes.md) | Que Banderín se conozca en Instagram | Diario, 10:23 | A3 | Visualizaciones medias por reel y seguidores nuevos por semana; a medio plazo, altas de avisos desde Instagram. |
-| [Posicionamiento en Google](equipo/posicionamiento.md) | Que Banderín salga cuando alguien busca torneos | Semanal, martes 11:07 | A3 | Páginas indexadas y clics desde Google (Search Console, cuando esté conectado); mientras tanto, páginas útiles publicadas y sin errores. |
-| [Analista y estratega de negocio](equipo/analista.md) | Saber si Banderín crece y por qué | Semanal, lunes 08:16 | A1 | Que cada lunes haya informe con datos fiables y tres decisiones; que Juan responda a la mayoría. |
-| [Comercial y alianzas](equipo/comercial.md) | Encontrar socios que hagan crecer Banderín | Semanal, miércoles 11:43 | A1 | Oportunidades cualificadas por semana (objetivo 3) y respuestas positivas cuando Juan las envía. |
-| [Atención a usuarios](equipo/atencion.md) | Que ningún usuario se quede sin respuesta | Diario, 09:13 | A1 | Mensajes con borrador de respuesta en menos de 24 h (objetivo 100 %). |
-| [Estratega de producto](equipo/estratega.md) | Que Banderín sea cada vez más útil | Semanal, jueves 10:51 (y construye propuestas aprobadas) | A1 para proponer · A3 para construir lo aprobado | Propuestas aprobadas y construidas; efecto medido en la métrica norte o en uso. |
+| [Operaciones (vigilante)](equipo/operaciones.md) | Que Banderín funcione cada día | Lunes y jueves, 07:47 (la salud diaria la hace código) | A3 | Días con todo en verde. Incidencias detectadas por el agente antes que por Juan (objetivo: 100 %). |
+| [Redes sociales](equipo/redes.md) | Que Banderín se conozca en Instagram | Martes, jueves y sábado, 10:23 | A3 | Visualizaciones medias por reel y seguidores nuevos por semana; a medio plazo, altas de avisos desde Instagram. |
+| [Posicionamiento en Google](equipo/posicionamiento.md) | Que Banderín salga cuando alguien busca torneos | Días 1 y 15 de cada mes, 11:07 | A3 | Páginas indexadas y clics desde Google (Search Console, cuando esté conectado); mientras tanto, páginas útiles publicadas y sin errores. |
+| [Analista y estratega de negocio](equipo/analista.md) | Saber si Banderín crece y por qué | Lunes, 08:16 (con los datos que deja el código a las 07:05) | A1 | Que cada lunes haya informe con datos fiables y tres decisiones; que Juan responda a la mayoría. |
+| [Comercial y alianzas](equipo/comercial.md) | Encontrar socios que hagan crecer Banderín | Días 8 y 22 de cada mes, 11:43 | A1 | Oportunidades cualificadas por semana (objetivo 3) y respuestas positivas cuando Juan las envía. |
+| [Atención a usuarios](equipo/atencion.md) | Que ningún usuario se quede sin respuesta | Lunes y jueves, 09:13 | A1 | Mensajes con borrador de respuesta en menos de 24 h (objetivo 100 %). |
+| [Estratega de producto](equipo/estratega.md) | Que Banderín sea cada vez más útil | Jueves, 10:51 | A1 para proponer · A3 para construir lo aprobado | Propuestas aprobadas y construidas; efecto medido en la métrica norte o en uso. |
 
-## Cómo funciona un día
+## Cómo funciona
 
-- **06:20** la actualización de torneos (GitHub Actions) y los avisos por correo.
-- **07:47** operaciones comprueba que todo salió bien y arregla o avisa.
-- **09:13** atención lee el correo de avisos@ y deja respuestas en borrador.
-- **10:23** redes crea la pieza del día y la programa a la mejor hora.
-- **Lunes** analista: informe y tres decisiones · **martes** posicionamiento · **miércoles** comercial · **jueves** estratega.
+**Sin IA, gratis (GitHub Actions):** actualización de torneos y avisos (3 veces al día), salud tras cada actualización (abre un issue «incidencia» si algo falla y GitHub te avisa por correo), métricas cada lunes, seguridad y copias. Ver [tareas/README.md](tareas/README.md).
+
+**Con IA (tareas programadas de Claude, unas 10 a la semana):** operaciones lunes y jueves (arregla incidencias), atención lunes y jueves, redes martes, jueves y sábado, analista los lunes, estratega los jueves, posicionamiento los días 1 y 15, comercial los días 8 y 22.
 
 ## Cómo apruebas cosas (Juan)
 

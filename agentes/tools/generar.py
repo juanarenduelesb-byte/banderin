@@ -58,12 +58,9 @@ L = [AV, "# Equipo de agentes de Banderín\n",
  "| Agente | Para qué | Cuándo | Autonomía | Métrica |", "|---|---|---|---|---|"]
 for k, a in O['agentes'].items():
     L.append(f"| [{a['nombre']}](equipo/{k}.md) | {a['rol']} | {a['cadencia']} | {AUT.get(k,{}).get('actual', a['nivel'])} | {a['metrica']} |")
-L += ["", "## Cómo funciona un día", "",
- "- **06:20** la actualización de torneos (GitHub Actions) y los avisos por correo.",
- "- **07:47** operaciones comprueba que todo salió bien y arregla o avisa.",
- "- **09:13** atención lee el correo de avisos@ y deja respuestas en borrador.",
- "- **10:23** redes crea la pieza del día y la programa a la mejor hora.",
- "- **Lunes** analista: informe y tres decisiones · **martes** posicionamiento · **miércoles** comercial · **jueves** estratega.", "",
+L += ["", "## Cómo funciona", "",
+ "**Sin IA, gratis (GitHub Actions):** actualización de torneos y avisos (3 veces al día), salud tras cada actualización (abre un issue «incidencia» si algo falla y GitHub te avisa por correo), métricas cada lunes, seguridad y copias. Ver [tareas/README.md](tareas/README.md).", "",
+ "**Con IA (tareas programadas de Claude, unas 10 a la semana):** operaciones lunes y jueves (arregla incidencias), atención lunes y jueves, redes martes, jueves y sábado, analista los lunes, estratega los jueves, posicionamiento los días 1 y 15, comercial los días 8 y 22.", "",
  "## Cómo apruebas cosas (Juan)", "",
  "- **Propuestas de mejora:** en GitHub → Issues, ponle la etiqueta `aprobada` (o `rechazada`) o escribe tu comentario. El estratega construye las aprobadas el jueves siguiente.",
  "- **Correos:** quedan como borradores en tu Gmail. Los envías tú.",

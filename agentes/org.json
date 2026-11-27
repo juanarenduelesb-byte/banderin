@@ -17,10 +17,10 @@
   "operaciones": {
    "nombre": "Operaciones (vigilante)",
    "rol": "Que Banderín funcione cada día",
-   "cadencia": "Diario, 07:47",
-   "cron": "CRON_TZ=Europe/Madrid 47 7 * * *",
+   "cadencia": "Lunes y jueves, 07:47 (la salud diaria la hace código)",
+   "cron": "CRON_TZ=Europe/Madrid 47 7 * * 1,4",
    "nivel": "A3",
-   "mision": "Comprobar cada mañana que la web, los datos, los avisos y las fuentes funcionan; arreglar lo que se pueda arreglar sin riesgo y avisar de lo demás.",
+   "mision": "Arreglar lo que la salud automática (código, sin IA) detecta: cada aviso de fallo abre un issue «incidencia» en GitHub; este agente lo investiga, lo arregla si es seguro y lo cierra, y vigila lo que el código no ve (Golf Directo, cambios en fuentes).",
    "metrica": "Días con todo en verde. Incidencias detectadas por el agente antes que por Juan (objetivo: 100 %).",
    "lee": [
     "cerebro/01-fuentes-y-acuerdos.md",
@@ -36,11 +36,11 @@
     "Abrir incidencia en agentes/incidencias/ cuando no se pueda arreglar, y notificar."
    ],
    "procedimiento": [
-    "Lee tu memoria y las incidencias abiertas.",
-    "Ejecuta comprobar.py. Si todo está en verde, registra «ok» y termina.",
-    "Por cada aviso o fallo: busca la causa en los logs (`gh run view <id> --log`) y en el código.",
-    "Si el arreglo es pequeño, local y comprobable: rama, arreglo, bash agentes/tools/validar.sh, merge, relanza la actualización si hace falta y comprueba el resultado.",
-    "Si no: abre o actualiza la incidencia (habilidad incidencia) y deja la notificación con el resumen.",
+    "Lee tu memoria y los issues abiertos con la etiqueta «incidencia».",
+    "Ejecuta comprobar.py. Si todo está en verde y no hay incidencias abiertas, registra ok y termina (una línea, sin gastar más).",
+    "Por cada fallo: busca la causa en los logs (`gh run view <id> --log`) y en el código.",
+    "Si el arreglo es pequeño, local y comprobable: arreglo, bash agentes/tools/validar.sh, push, relanza la actualización si hace falta y comprueba el resultado; comenta en el issue y ciérralo.",
+    "Si no: deja en el issue la causa, lo probado y lo que necesita de Juan.",
     "Registra la ejecución y la lección si la hay."
    ],
    "puede": [
@@ -76,10 +76,10 @@
   "redes": {
    "nombre": "Redes sociales",
    "rol": "Que Banderín se conozca en Instagram",
-   "cadencia": "Diario, 10:23",
-   "cron": "CRON_TZ=Europe/Madrid 23 10 * * *",
+   "cadencia": "Martes, jueves y sábado, 10:23",
+   "cron": "CRON_TZ=Europe/Madrid 23 10 * * 2,4,6",
    "nivel": "A3",
-   "mision": "Crear y programar una pieza al día (reel o carrusel) con datos reales de Banderín, a la mejor hora, aprendiendo de lo que funciona.",
+   "mision": "Crear y programar tres piezas a la semana (martes, jueves y sábado) con datos reales de Banderín, a la mejor hora, aprendiendo de lo que funciona.",
    "metrica": "Visualizaciones medias por reel y seguidores nuevos por semana; a medio plazo, altas de avisos desde Instagram.",
    "lee": [
     "cerebro/05-marca-y-voz.md",
@@ -137,8 +137,8 @@
   "posicionamiento": {
    "nombre": "Posicionamiento en Google",
    "rol": "Que Banderín salga cuando alguien busca torneos",
-   "cadencia": "Semanal, martes 11:07",
-   "cron": "CRON_TZ=Europe/Madrid 7 11 * * 2",
+   "cadencia": "Días 1 y 15 de cada mes, 11:07",
+   "cron": "CRON_TZ=Europe/Madrid 7 11 1,15 * *",
    "nivel": "A3",
    "mision": "Crear y mejorar páginas que respondan a búsquedas reales («torneos de golf en Málaga este fin de semana», «torneos de golf de Navidad») para traer visitas sin depender de redes.",
    "metrica": "Páginas indexadas y clics desde Google (Search Console, cuando esté conectado); mientras tanto, páginas útiles publicadas y sin errores.",
@@ -187,7 +187,7 @@
   "analista": {
    "nombre": "Analista y estratega de negocio",
    "rol": "Saber si Banderín crece y por qué",
-   "cadencia": "Semanal, lunes 08:16",
+   "cadencia": "Lunes, 08:16 (con los datos que deja el código a las 07:05)",
    "cron": "CRON_TZ=Europe/Madrid 16 8 * * 1",
    "nivel": "A1",
    "mision": "Medir cada semana la métrica norte y las de apoyo, explicar qué ha pasado y plantear a Juan tres decisiones concretas. Revisar también a los agentes: subir o bajar su autonomía.",
@@ -199,7 +199,7 @@
     "agentes/autonomia.json"
    ],
    "responsabilidades": [
-    "Consultar D1 (suscriptores, altas, perfiles, envíos).",
+    "Partir de agentes/historico/semanas/AAAA-Wnn-datos.md (lo genera el código cada lunes a las 07:05) y completar lo que falte con D1.",
     "Leer métricas de Instagram (Metricool), visitas (Cloudflare) y cuentas (Supabase) cuando estén conectadas; si no, [POR CONFIRMAR].",
     "Escribir el informe semanal en agentes/historico/semanas/AAAA-Wnn.md y actualizar cerebro/07.",
     "Plantear tres decisiones (habilidad tres-decisiones).",
@@ -241,8 +241,8 @@
   "comercial": {
    "nombre": "Comercial y alianzas",
    "rol": "Encontrar socios que hagan crecer Banderín",
-   "cadencia": "Semanal, miércoles 11:43",
-   "cron": "CRON_TZ=Europe/Madrid 43 11 * * 3",
+   "cadencia": "Días 8 y 22 de cada mes, 11:43",
+   "cron": "CRON_TZ=Europe/Madrid 43 11 8,22 * *",
    "nivel": "A1",
    "mision": "Encontrar cada semana pocas oportunidades buenas (clubes que no salen en Banderín, federaciones, tiendas y marcas de golf, creadores de contenido de golf) y dejar a Juan el correo listo para enviar.",
    "metrica": "Oportunidades cualificadas por semana (objetivo 3) y respuestas positivas cuando Juan las envía.",
@@ -293,8 +293,8 @@
   "atencion": {
    "nombre": "Atención a usuarios",
    "rol": "Que ningún usuario se quede sin respuesta",
-   "cadencia": "Diario, 09:13",
-   "cron": "CRON_TZ=Europe/Madrid 13 9 * * *",
+   "cadencia": "Lunes y jueves, 09:13",
+   "cron": "CRON_TZ=Europe/Madrid 13 9 * * 1,4",
    "nivel": "A1",
    "mision": "Leer cada día lo que llega a avisos@banderin.es (etiqueta «Banderín» en Gmail), clasificarlo y dejar la respuesta lista; detectar errores que reportan los usuarios.",
    "metrica": "Mensajes con borrador de respuesta en menos de 24 h (objetivo 100 %).",
@@ -346,7 +346,7 @@
   "estratega": {
    "nombre": "Estratega de producto",
    "rol": "Que Banderín sea cada vez más útil",
-   "cadencia": "Semanal, jueves 10:51 (y construye propuestas aprobadas)",
+   "cadencia": "Jueves, 10:51",
    "cron": "CRON_TZ=Europe/Madrid 51 10 * * 4",
    "nivel": "A1→A3",
    "mision": "Buscar ideas que funcionan en otros deportes y apps (Strava, Playtomic, fantasy, apps de running y pádel, clubes) y en el propio uso de Banderín; plantear a Juan una propuesta clara por semana y, cuando Juan da el ok, construirla bien en la web.",

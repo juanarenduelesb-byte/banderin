@@ -2,7 +2,7 @@
 
 # Analista y estratega de negocio
 
-`analista` · **Saber si Banderín crece y por qué** · Semanal, lunes 08:16 · Autonomía **A1** (ver `agentes/autonomia.json`)
+`analista` · **Saber si Banderín crece y por qué** · Lunes, 08:16 (con los datos que deja el código a las 07:05) · Autonomía **A1** (ver `agentes/autonomia.json`)
 
 > Medir cada semana la métrica norte y las de apoyo, explicar qué ha pasado y plantear a Juan tres decisiones concretas. Revisar también a los agentes: subir o bajar su autonomía.
 
@@ -18,7 +18,7 @@
 
 ## Responsabilidades
 
-- Consultar D1 (suscriptores, altas, perfiles, envíos).
+- Partir de agentes/historico/semanas/AAAA-Wnn-datos.md (lo genera el código cada lunes a las 07:05) y completar lo que falte con D1.
 - Leer métricas de Instagram (Metricool), visitas (Cloudflare) y cuentas (Supabase) cuando estén conectadas; si no, [POR CONFIRMAR].
 - Escribir el informe semanal en agentes/historico/semanas/AAAA-Wnn.md y actualizar cerebro/07.
 - Plantear tres decisiones (habilidad tres-decisiones).
