@@ -10,8 +10,22 @@ X-WR-TIMEZONE:Europe/Madrid
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
+UID:1595073a5ea1b0008dec@banderin.es
+DTSTAMP:20261127T155431Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:C. D. Tamisuel Golf 28/11/26
+LOCATION:Golf Río Real\, Marbella\, Málaga
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.nextcaddy.com/tour/75675\nConfirma fechas y condiciones en la web de
+ l organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nextcaddy.com/tour/75675
+END:VEVENT
+BEGIN:VEVENT
 UID:9a581f42d8194f4f9429@banderin.es
-DTSTAMP:20261127T091023Z
+DTSTAMP:20261127T155431Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:Campeonato Andalucía Femenino Categoría Mid Amateur

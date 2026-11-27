@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Banderin//Torneos de golf//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Banderín - la Envia Golf
+X-WR-CALDESC:Torneos de golf: la Envia Golf. Se actualiza cada mañana. htt
+ ps://banderin.es
+X-WR-TIMEZONE:Europe/Madrid
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:a71f1103f8fa048ae43c@banderin.es
+DTSTAMP:20261127T155431Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:The Medal Championship
+LOCATION:la Envia Golf\, Vicar\, Almería
+DESCRIPTION:Social de club - Medal Play - Individual\nFicha oficial: https:
+ //www.nextcaddy.com/tour/75683\nConfirma fechas y condiciones en la web de
+ l organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nextcaddy.com/tour/75683
+END:VEVENT
+END:VCALENDAR

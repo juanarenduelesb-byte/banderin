@@ -1,0 +1,40 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Banderin//Torneos de golf//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Banderín - La Quinta Golf & Country Club
+X-WR-CALDESC:Torneos de golf: La Quinta Golf & Country Club. Se actualiza c
+ ada mañana. https://banderin.es
+X-WR-TIMEZONE:Europe/Madrid
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:10f77915e903e82e62d3@banderin.es
+DTSTAMP:20261127T155431Z
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261201
+SUMMARY:Monday´s Group Amarillas
+LOCATION:La Quinta Golf & Country Club\, Nueva Andalucia\, Málaga
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/6b0984602e2e559e33670c2c/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6b0984602e2e559e33670c2c/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:a8fd425e4b08330c0cfa@banderin.es
+DTSTAMP:20261127T155431Z
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261201
+SUMMARY:Monday´s Group Azules - Rojas
+LOCATION:La Quinta Golf & Country Club\, Nueva Andalucia\, Málaga
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/6b09866497848ac1dad5ff3b/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6b09866497848ac1dad5ff3b/summary
+END:VEVENT
+END:VCALENDAR

@@ -10,8 +10,22 @@ X-WR-TIMEZONE:Europe/Madrid
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
+UID:cf1616c75b67b6666428@banderin.es
+DTSTAMP:20261127T155431Z
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261206
+SUMMARY:XVIII Torneo de Golf Opticalia - Casa de los Lentes
+LOCATION:Real Aero Club de Santiago\, San Mamede (piñeiro)\, A Coruña
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/6af98b1390f777ff01d83f5d/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6af98b1390f777ff01d83f5d/summary
+END:VEVENT
+BEGIN:VEVENT
 UID:c395c2e59ee46b181f56@banderin.es
-DTSTAMP:20261127T091023Z
+DTSTAMP:20261127T155431Z
 DTSTART;VALUE=DATE:20261220
 DTEND;VALUE=DATE:20261221
 SUMMARY:III Pro Am Scramble de Navidad

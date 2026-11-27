@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Banderin//Torneos de golf//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Banderín - Forus Golf las Rejas
+X-WR-CALDESC:Torneos de golf: Forus Golf las Rejas. Se actualiza cada maña
+ na. https://banderin.es
+X-WR-TIMEZONE:Europe/Madrid
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:6a822ed79dd932625c43@banderin.es
+DTSTAMP:20261127T155431Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:Torneo Footgolf
+LOCATION:Forus Golf las Rejas\, Madrid
+DESCRIPTION:Social de club - Medal Play - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/6b0962042e2e559e333f7bd4/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6b0962042e2e559e333f7bd4/summary
+END:VEVENT
+END:VCALENDAR

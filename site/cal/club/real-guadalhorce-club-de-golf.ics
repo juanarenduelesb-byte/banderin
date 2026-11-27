@@ -11,7 +11,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:c26279dce738fdc4e0e4@banderin.es
-DTSTAMP:20261127T091023Z
+DTSTAMP:20261127T155431Z
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261202
 SUMMARY:Liga Social Cab. Volvo Vypsa Heineken - Malaga Costa & Bebidas
@@ -26,7 +26,7 @@ URL:https://www.golfdirecto.com/micro/game/6aaec74bea1573c17acf36ad/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:eb87112cb5174b77ecd6@banderin.es
-DTSTAMP:20261127T091023Z
+DTSTAMP:20261127T155431Z
 DTSTART;VALUE=DATE:20261203
 DTEND;VALUE=DATE:20261204
 SUMMARY:Liga Social Damas Volvo Vypsa Heineken - Malaga Costa & Bebidas
@@ -41,7 +41,7 @@ URL:https://www.golfdirecto.com/micro/game/6aaec7e6ea1573c17af7336d/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:4bf0117708702983e985@banderin.es
-DTSTAMP:20261127T091023Z
+DTSTAMP:20261127T155431Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
 SUMMARY:Copa Guadalhorce Final
@@ -56,7 +56,7 @@ URL:https://www.golfdirecto.com/micro/game/6ad60ada46735c80a07fb5da/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:36a3dcc05902114421e2@banderin.es
-DTSTAMP:20261127T091023Z
+DTSTAMP:20261127T155431Z
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
 SUMMARY:Final Pequecircuito
@@ -71,7 +71,7 @@ URL:https://www.nextcaddy.com/tour/61252
 END:VEVENT
 BEGIN:VEVENT
 UID:0b29a1c2193398f2bb64@banderin.es
-DTSTAMP:20261127T091023Z
+DTSTAMP:20261127T155431Z
 DTSTART;VALUE=DATE:20261209
 DTEND;VALUE=DATE:20261210
 SUMMARY:Liga Social Cab. Volvo Vypsa Heineken - Malaga Costa & Bebidas
@@ -86,7 +86,7 @@ URL:https://www.golfdirecto.com/micro/game/6aaec8b2ea1573c17a593dde/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:4e25d408efcdbca7a1e9@banderin.es
-DTSTAMP:20261127T091023Z
+DTSTAMP:20261127T155431Z
 DTSTART;VALUE=DATE:20261210
 DTEND;VALUE=DATE:20261211
 SUMMARY:Liga Social Damas Volvo Vypsa Heineken - Malaga Costa & Bebidas
@@ -100,8 +100,38 @@ STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6aaec96cea1573c17a97db13/summary
 END:VEVENT
 BEGIN:VEVENT
+UID:c4df146764ba69ad3e56@banderin.es
+DTSTAMP:20261127T155431Z
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261213
+SUMMARY:Liga Inf. 9h Benjamines IX Prueba
+LOCATION:Real Guadalhorce Club de Golf\, Campanillas\, Málaga
+DESCRIPTION:Juvenil - Medal Play - Individual\nInscripción: abre el 27 de 
+ noviembre\, cierra el 11 de diciembre.\nFicha oficial: https://www.golfdir
+ ecto.com/micro/game/6b097a6797848ac1da484abd/summary\nConfirma fechas y co
+ ndiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6b097a6797848ac1da484abd/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:6525879e0596ffffe335@banderin.es
+DTSTAMP:20261127T155431Z
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261213
+SUMMARY:Liga Infantil Social 18h 2026 IX Prueba
+LOCATION:Real Guadalhorce Club de Golf\, Campanillas\, Málaga
+DESCRIPTION:Juvenil - Medal Play - Individual\nInscripción: abre el 27 de 
+ noviembre\, cierra el 11 de diciembre.\nFicha oficial: https://www.golfdir
+ ecto.com/micro/game/6b097a072e2e559e331ef67c/summary\nConfirma fechas y co
+ ndiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6b097a072e2e559e331ef67c/summary
+END:VEVENT
+BEGIN:VEVENT
 UID:2dbe807336734b2ee243@banderin.es
-DTSTAMP:20261127T091023Z
+DTSTAMP:20261127T155431Z
 DTSTART;VALUE=DATE:20261215
 DTEND;VALUE=DATE:20261216
 SUMMARY:Liga Social Cab. Volvo Vypsa Heineken - Malaga Costa & Bebidas
@@ -116,7 +146,7 @@ URL:https://www.golfdirecto.com/micro/game/6aaeca84ea1573c17aebc386/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:9397617da60dfc837d8b@banderin.es
-DTSTAMP:20261127T091023Z
+DTSTAMP:20261127T155431Z
 DTSTART;VALUE=DATE:20261217
 DTEND;VALUE=DATE:20261218
 SUMMARY:Liga Social Damas Volvo Vypsa Heineken - Malaga Costa & Bebidas
@@ -131,7 +161,7 @@ URL:https://www.golfdirecto.com/micro/game/6aaecb58ea1573c17a4709d8/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:6e48d308de7f95eb1e91@banderin.es
-DTSTAMP:20261127T091023Z
+DTSTAMP:20261127T155431Z
 DTSTART;VALUE=DATE:20261220
 DTEND;VALUE=DATE:20261221
 SUMMARY:Copa Presidente 2026
@@ -146,9 +176,9 @@ URL:https://www.golfdirecto.com/micro/game/6b01804131175f0c99ebd4d3/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:50edfbbbdd3d8b5a5538@banderin.es
-DTSTAMP:20261127T091023Z
-DTSTART;VALUE=DATE:20261230
-DTEND;VALUE=DATE:20261231
+DTSTAMP:20261127T155431Z
+DTSTART;VALUE=DATE:20261228
+DTEND;VALUE=DATE:20261229
 SUMMARY:Ryder Cup Navideña Padres Vs Hijos 2026
 LOCATION:Real Guadalhorce Club de Golf\, Campanillas\, Málaga
 DESCRIPTION:Social de club - Scramble - Parejas\nInscripción: abre el 19 d
@@ -161,9 +191,9 @@ URL:https://www.golfdirecto.com/micro/game/6afefa9ce64dbfd6f4d88f17/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:efa4b6e18842dde2cf38@banderin.es
-DTSTAMP:20261127T091023Z
-DTSTART;VALUE=DATE:20261230
-DTEND;VALUE=DATE:20261231
+DTSTAMP:20261127T155431Z
+DTSTART;VALUE=DATE:20261228
+DTEND;VALUE=DATE:20261229
 SUMMARY:Ryder Cup Navideña Padres Vs Hijos Par 3
 LOCATION:Real Guadalhorce Club de Golf\, Campanillas\, Málaga
 DESCRIPTION:Social de club - Scramble - Parejas\nInscripción: abre el 19 d
@@ -173,5 +203,35 @@ DESCRIPTION:Social de club - Scramble - Parejas\nInscripción: abre el 19 d
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6afefad5e64dbfd6f4e0563b/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:4158a7a3bb28b7720194@banderin.es
+DTSTAMP:20261127T155431Z
+DTSTART;VALUE=DATE:20261230
+DTEND;VALUE=DATE:20261231
+SUMMARY:Final Infantil Social 18h 2026 IX Prueba
+LOCATION:Real Guadalhorce Club de Golf\, Campanillas\, Málaga
+DESCRIPTION:Juvenil - Medal Play - Individual\nInscripción: abre el 27 de 
+ noviembre\, cierra el 29 de diciembre.\nFicha oficial: https://www.golfdir
+ ecto.com/micro/game/6b097a9e2e2e559e33305265/summary\nConfirma fechas y co
+ ndiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6b097a9e2e2e559e33305265/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:ebbe3d63de85410493ff@banderin.es
+DTSTAMP:20261127T155431Z
+DTSTART;VALUE=DATE:20261230
+DTEND;VALUE=DATE:20261231
+SUMMARY:Liga Inf. 9h Benjamines IX Prueba (Copia)
+LOCATION:Real Guadalhorce Club de Golf\, Campanillas\, Málaga
+DESCRIPTION:Juvenil - Medal Play - Individual\nInscripción: abre el 27 de 
+ noviembre\, cierra el 29 de diciembre.\nFicha oficial: https://www.golfdir
+ ecto.com/micro/game/6b097ac6156256dec5b274d0/summary\nConfirma fechas y co
+ ndiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6b097ac6156256dec5b274d0/summary
 END:VEVENT
 END:VCALENDAR

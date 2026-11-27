@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Banderin//Torneos de golf//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Banderín - la Estancia Golf
+X-WR-CALDESC:Torneos de golf: la Estancia Golf. Se actualiza cada mañana. 
+ https://banderin.es
+X-WR-TIMEZONE:Europe/Madrid
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:5b987c78bca51c0b4e8f@banderin.es
+DTSTAMP:20261127T155431Z
+DTSTART;VALUE=DATE:20261219
+DTEND;VALUE=DATE:20261220
+SUMMARY:Pies Blancos
+LOCATION:la Estancia Golf\, Chiclana de la Frontera\, Cádiz
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  27 de noviembre\, cierra el 17 de diciembre.\nPrecio: 45 €.\nFicha ofic
+ ial: https://www.nextcaddy.com/tour/75688\nConfirma fechas y condiciones e
+ n la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nextcaddy.com/tour/75688
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Banderin//Torneos de golf//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Banderín - La Sella Golf (Campo)
+X-WR-CALDESC:Torneos de golf: La Sella Golf (Campo). Se actualiza cada mañ
+ ana. https://banderin.es
+X-WR-TIMEZONE:Europe/Madrid
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:fb6c7e2ee7b07aaef206@banderin.es
+DTSTAMP:20261127T155431Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261130
+SUMMARY:Torneo Final Luns Golf 2026 (1º día)
+LOCATION:La Sella Golf (Campo)\, Jesus Pobre\, Alicante
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/6b096c10156256dec5f6bdfd/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6b096c10156256dec5f6bdfd/summary
+END:VEVENT
+END:VCALENDAR
