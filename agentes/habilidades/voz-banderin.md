@@ -21,6 +21,6 @@ Texto que suena a Banderín.
 
 ## Quién la usa
 
+- [Atención a usuarios](../equipo/atencion.md)
 - [Redes sociales](../equipo/redes.md)
 - [Comercial y alianzas](../equipo/comercial.md)
-- [Atención a usuarios](../equipo/atencion.md)

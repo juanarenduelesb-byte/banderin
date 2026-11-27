@@ -28,3 +28,4 @@ Arreglo probado y explicado.
 - [Operaciones (vigilante)](../equipo/operaciones.md)
 - [Posicionamiento en Google](../equipo/posicionamiento.md)
 - [Estratega de producto](../equipo/estratega.md)
+- [Desarrollo web](../equipo/dev.md)

@@ -20,10 +20,14 @@ Trabajo apoyado en lo que ya se sabe.
 
 ## Quién la usa
 
+- [Director de Banderín](../equipo/ceo.md)
+- [Analista y estratega de negocio](../equipo/analista.md)
+- [Registro de decisiones](../equipo/dec.md)
+- [Bibliotecario](../equipo/bib.md)
 - [Operaciones (vigilante)](../equipo/operaciones.md)
+- [Atención a usuarios](../equipo/atencion.md)
 - [Redes sociales](../equipo/redes.md)
 - [Posicionamiento en Google](../equipo/posicionamiento.md)
-- [Analista y estratega de negocio](../equipo/analista.md)
 - [Comercial y alianzas](../equipo/comercial.md)
-- [Atención a usuarios](../equipo/atencion.md)
 - [Estratega de producto](../equipo/estratega.md)
+- [Legal y privacidad](../equipo/leg.md)

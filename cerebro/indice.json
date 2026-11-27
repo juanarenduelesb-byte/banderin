@@ -90,6 +90,12 @@
    "titulo": "Registro de decisiones",
    "resumen": "Formato: D-número · fecha · decisión · motivo · estado. Solo Juan aprueba una decisión; un agente puede proponerla.",
    "palabras": 360
+  },
+  {
+   "ruta": "cerebro/procesos.md",
+   "titulo": "Procesos de Banderín",
+   "resumen": "Lo que funciona solo, con su código o su agente.",
+   "palabras": 145
   }
  ]
 }

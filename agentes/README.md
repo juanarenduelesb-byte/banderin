@@ -8,13 +8,19 @@ Siete agentes que trabajan solos con tareas programadas de Claude. Cada uno tien
 
 | Agente | Para qué | Cuándo | Autonomía | Métrica |
 |---|---|---|---|---|
+| [Director de Banderín](equipo/ceo.md) | Coordina la oficina | Cuando le escribes en la oficina | A1 | Encargos resueltos a la primera sin que Juan tenga que corregir. |
+| [Analista y estratega de negocio](equipo/analista.md) | Saber si Banderín crece y por qué | Lunes, 08:16 (con los datos que deja el código a las 07:05) | A1 | Que cada lunes haya informe con datos fiables y tres decisiones; que Juan responda a la mayoría. |
+| [Registro de decisiones](equipo/dec.md) | Secretaría | Cuando hay una decisión | A1 | Decisiones registradas con fecha, motivo y estado. |
+| [Bibliotecario](equipo/bib.md) | Cuida el cerebro | Cuando cambia algo | A1 | Fichas del cerebro sin datos caducados ni contradicciones. |
 | [Operaciones (vigilante)](equipo/operaciones.md) | Que Banderín funcione cada día | Lunes y jueves, 07:47 (la salud diaria la hace código) | A3 | Días con todo en verde. Incidencias detectadas por el agente antes que por Juan (objetivo: 100 %). |
+| [Atención a usuarios](equipo/atencion.md) | Que ningún usuario se quede sin respuesta | Lunes y jueves, 09:13 | A1 | Mensajes con borrador de respuesta en menos de 24 h (objetivo 100 %). |
 | [Redes sociales](equipo/redes.md) | Que Banderín se conozca en Instagram | Martes, jueves y sábado, 10:23 | A3 | Visualizaciones medias por reel y seguidores nuevos por semana; a medio plazo, altas de avisos desde Instagram. |
 | [Posicionamiento en Google](equipo/posicionamiento.md) | Que Banderín salga cuando alguien busca torneos | Días 1 y 15 de cada mes, 11:07 | A3 | Páginas indexadas y clics desde Google (Search Console, cuando esté conectado); mientras tanto, páginas útiles publicadas y sin errores. |
-| [Analista y estratega de negocio](equipo/analista.md) | Saber si Banderín crece y por qué | Lunes, 08:16 (con los datos que deja el código a las 07:05) | A1 | Que cada lunes haya informe con datos fiables y tres decisiones; que Juan responda a la mayoría. |
 | [Comercial y alianzas](equipo/comercial.md) | Encontrar socios que hagan crecer Banderín | Días 8 y 22 de cada mes, 11:43 | A1 | Oportunidades cualificadas por semana (objetivo 3) y respuestas positivas cuando Juan las envía. |
-| [Atención a usuarios](equipo/atencion.md) | Que ningún usuario se quede sin respuesta | Lunes y jueves, 09:13 | A1 | Mensajes con borrador de respuesta en menos de 24 h (objetivo 100 %). |
 | [Estratega de producto](equipo/estratega.md) | Que Banderín sea cada vez más útil | Jueves, 10:51 | A1 para proponer · A3 para construir lo aprobado | Propuestas aprobadas y construidas; efecto medido en la métrica norte o en uso. |
+| [Desarrollo web](equipo/dev.md) | Construye en la web y el pipeline | Cuando hay una propuesta aprobada o un arreglo | A3 | Cambios publicados sin tener que deshacerlos. |
+| [Calidad y revisión](equipo/calj.md) | Revisa antes de que llegue a Juan | En cada entrega de la oficina | A1 | Entregables que Juan aprueba sin cambios. |
+| [Legal y privacidad](equipo/leg.md) | RGPD, robots.txt y acuerdos | Cuando algo toca datos o terceros | A1 | Cero incumplimientos detectados por terceros. |
 
 ## Cómo funciona
 

@@ -24,3 +24,4 @@ Pieza segura para publicar sin revisión humana.
 ## Quién la usa
 
 - [Redes sociales](../equipo/redes.md)
+- [Calidad y revisión](../equipo/calj.md)

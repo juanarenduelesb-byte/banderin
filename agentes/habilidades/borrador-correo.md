@@ -22,5 +22,5 @@ Correo listo para que Juan lo envíe.
 
 ## Quién la usa
 
-- [Comercial y alianzas](../equipo/comercial.md)
 - [Atención a usuarios](../equipo/atencion.md)
+- [Comercial y alianzas](../equipo/comercial.md)

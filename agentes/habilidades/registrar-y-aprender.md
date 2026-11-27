@@ -22,10 +22,10 @@ Histórico completo y memoria útil.
 
 ## Quién la usa
 
+- [Analista y estratega de negocio](../equipo/analista.md)
 - [Operaciones (vigilante)](../equipo/operaciones.md)
+- [Atención a usuarios](../equipo/atencion.md)
 - [Redes sociales](../equipo/redes.md)
 - [Posicionamiento en Google](../equipo/posicionamiento.md)
-- [Analista y estratega de negocio](../equipo/analista.md)
 - [Comercial y alianzas](../equipo/comercial.md)
-- [Atención a usuarios](../equipo/atencion.md)
 - [Estratega de producto](../equipo/estratega.md)

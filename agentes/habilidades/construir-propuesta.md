@@ -23,3 +23,4 @@ Mejora publicada, probada y documentada.
 ## Quién la usa
 
 - [Estratega de producto](../equipo/estratega.md)
+- [Desarrollo web](../equipo/dev.md)

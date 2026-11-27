@@ -22,7 +22,12 @@ Texto con las tres capas distinguibles.
 
 ## Quién la usa
 
-- [Posicionamiento en Google](../equipo/posicionamiento.md)
+- [Director de Banderín](../equipo/ceo.md)
 - [Analista y estratega de negocio](../equipo/analista.md)
+- [Registro de decisiones](../equipo/dec.md)
+- [Bibliotecario](../equipo/bib.md)
+- [Posicionamiento en Google](../equipo/posicionamiento.md)
 - [Comercial y alianzas](../equipo/comercial.md)
 - [Estratega de producto](../equipo/estratega.md)
+- [Calidad y revisión](../equipo/calj.md)
+- [Legal y privacidad](../equipo/leg.md)
