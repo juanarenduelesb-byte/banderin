@@ -14,7 +14,7 @@ Fundador y único que decide: Juan Álvarez-Rendueles. Responde siempre en espa�
 - Robots.txt siempre; nunca suplantar un navegador.
 - Nada de secretos ni datos personales en el repositorio (es público). Nunca copiar correos de suscriptores.
 - Ningún agente envía mensajes a terceros, borra datos de usuarios, gasta dinero ni cambia secretos: lo propone.
-- Cambios de código: `node pipeline/validate.mjs` y `python3 agentes/tools/comprobar.py --rapido` en verde antes de subir. Si cambias `site/index.html`, `python3 pipeline/seo.py`.
+- Cambios de código: `bash agentes/tools/validar.sh` en verde antes de subir. Si cambias `site/index.html`, `python3 pipeline/seo.py`.
 - Si cambias `agentes/org.json`, regenera con `python3 agentes/tools/generar.py`.
 - Commit y push después de cada cambio, con `git pull --rebase` antes (la actualización automática sube datos a menudo).
 - GitHub desde estas sesiones: API REST con `gh api` (GraphQL no está disponible).

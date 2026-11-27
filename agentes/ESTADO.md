@@ -2,7 +2,7 @@
 
 # Estado del equipo
 
-Actualizado: 2026-11-27 16:45 UTC
+Actualizado: 2026-11-27 16:47 UTC
 
 | Agente | Cadencia | Autonomía | Última ejecución | Resultado | Resumen |
 |---|---|---|---|---|---|

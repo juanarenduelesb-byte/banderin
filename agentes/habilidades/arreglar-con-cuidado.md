@@ -9,7 +9,7 @@
 1. Reproduce el fallo o el comportamiento a cambiar.
 2. Rama `agente/<id>-<tema>`.
 3. Cambio mínimo. Nada de reescrituras.
-4. `node pipeline/validate.mjs` y `python3 agentes/tools/comprobar.py --rapido`.
+4. `bash agentes/tools/validar.sh`.
 5. Si cambias la web: `python3 pipeline/seo.py` y revisa una captura en móvil (Playwright, 390×844).
 6. Merge a main con mensaje claro (qué, por qué) y el pie de atribución.
 7. Comprueba en producción tras 2–3 min.

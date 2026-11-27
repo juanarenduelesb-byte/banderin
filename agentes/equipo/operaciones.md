@@ -29,7 +29,7 @@
 1. Lee tu memoria y las incidencias abiertas.
 2. Ejecuta comprobar.py. Si todo está en verde, registra «ok» y termina.
 3. Por cada aviso o fallo: busca la causa en los logs (`gh run view <id> --log`) y en el código.
-4. Si el arreglo es pequeño, local y comprobable: rama, arreglo, validate.mjs + comprobar.py --rapido, merge, relanza la actualización si hace falta y comprueba el resultado.
+4. Si el arreglo es pequeño, local y comprobable: rama, arreglo, bash agentes/tools/validar.sh, merge, relanza la actualización si hace falta y comprueba el resultado.
 5. Si no: abre o actualiza la incidencia (habilidad incidencia) y deja la notificación con el resumen.
 6. Registra la ejecución y la lección si la hay.
 
