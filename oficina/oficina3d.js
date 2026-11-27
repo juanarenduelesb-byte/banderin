@@ -564,6 +564,7 @@ export function mount(host, bridge) {
   let raf = 0, alive = true, prev = 0, cardTick = 0;
   function loop(t) {
     if (!alive) return; raf = requestAnimationFrame(loop);
+    if (window.__noScene && window.__noScene()) { prev = 0; return; }
     const dt = prev ? Math.min(0.2, (t - prev) / 1000) : 0.016; prev = t;
     if (camAnim) {
       const k = Math.min(1, (t - camAnim.t0) / camAnim.dur), e = k < 0.5 ? 2 * k * k : 1 - Math.pow(-2 * k + 2, 2) / 2;

@@ -363,6 +363,68 @@ body.v3d #iso,body.v3d #ovl{visibility:hidden}
 .lnk{border:0;background:none;color:var(--accent);font:inherit;font-size:12px;font-weight:600;cursor:pointer;padding:2px 0}
 body.v3d #dtoday.o3only,body.v3d #dwait.o3only{display:block!important}
 @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+/* Modo rápido (móvil y botón «Pedir rápido») */
+.qk{display:flex;gap:6px;flex-wrap:wrap;margin:0 0 10px}
+.qk button{border:1px solid var(--hairline);background:var(--paper);color:var(--ink);border-radius:999px;padding:7px 12px;font:600 13px var(--font);cursor:pointer}
+.qk button:hover{border-color:var(--accent);color:var(--accent)}
+#mob{display:none}
+.mobdet{margin-top:18px;border-top:1px solid var(--hairline);padding-top:10px}.mobdet summary{font-weight:600;padding:10px 0;cursor:pointer;color:var(--ink-muted)}
+@media (max-width:760px){body:not(.fullui) .toast{bottom:84px}}
+@media (max-width:760px){
+  body:not(.fullui) #mob{display:flex}
+  body:not(.fullui) .top,body:not(.fullui) .wrap{display:none}
+  .full{inset:0!important;top:0!important;border-radius:0;border:0}
+  .drawer{width:100vw}
+  .full .btn,.drawer .btn{min-height:42px}
+  body.fullui .top{flex-wrap:wrap;padding:8px 10px;gap:6px}
+  body.fullui .top .nav{order:9;width:100%;flex-wrap:nowrap;overflow-x:auto;padding-bottom:2px;scrollbar-width:none}
+  body.fullui .top .nav::-webkit-scrollbar{display:none}
+  body.fullui .top .nav>*{flex:none}
+  body.fullui .full{top:var(--toph,100px)!important}
+}
+#mob{position:fixed;inset:0;z-index:50;flex-direction:column;background:var(--surface);color:var(--ink);font-family:var(--font)}
+#mob .mh{display:flex;align-items:center;gap:10px;padding:max(12px,env(safe-area-inset-top)) 16px 10px;border-bottom:1px solid var(--hairline);background:var(--surface)}
+#mob .mh b{font-size:19px;letter-spacing:-.02em}#mob .mh .st{margin-left:auto;font-size:12px;color:var(--ink-muted)}
+#mob .mb{flex:1;overflow-y:auto;padding:16px 16px 96px;-webkit-overflow-scrolling:touch}
+#mob h1{font-size:28px;line-height:1.08;letter-spacing:-.03em;margin:4px 0 14px}
+#mob h2{font-size:15px;margin:24px 0 10px;display:flex;align-items:center;gap:8px}
+#mob h2 .n{background:var(--warn-tint);color:var(--warn);border-radius:999px;padding:1px 9px;font-size:13px}
+#mob .tiles{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+#mob .tile{border:0;border-radius:18px;padding:14px;text-align:left;font:inherit;color:var(--ink);background:var(--paper);box-shadow:var(--shadow);min-height:92px;display:flex;flex-direction:column;justify-content:flex-start;gap:3px;cursor:pointer}
+#mob .tile b{font-size:17px}#mob .tile span{font-size:13px;color:var(--ink-muted);line-height:1.3}
+#mob .tile.main{background:var(--wine);color:#fff}#mob .tile.main span{color:#cfe3d6}
+#mob .tile .ic{width:30px;height:30px;border-radius:10px;background:var(--accent-tint);display:grid;place-items:center;margin-bottom:8px}
+#mob .tile.main .ic{background:rgba(255,255,255,.14)}
+#mob .free{display:flex;gap:8px;margin-top:12px}
+#mob .free textarea{flex:1;min-height:52px;max-height:140px;font:16px/1.4 var(--font);border:1px solid var(--hairline);border-radius:14px;padding:12px;background:var(--paper);color:var(--ink);resize:none}
+#mob .free button{border:0;border-radius:14px;background:var(--accent);color:#fff;font:600 15px var(--font);padding:0 16px}
+#mob .card{background:var(--paper);border-radius:16px;padding:12px 14px;margin-bottom:8px;box-shadow:var(--shadow)}
+#mob .card p{margin:4px 0 8px;font-size:15px;line-height:1.35}
+#mob .card small{color:var(--ink-muted);font-size:12.5px}
+#mob .card .r{display:flex;gap:8px;flex-wrap:wrap}
+#mob .card .r button{border:0;border-radius:999px;padding:10px 16px;font:600 14px var(--font);background:var(--track);color:var(--ink);min-height:42px}
+#mob .card .r button.g{background:var(--good);color:#fff}
+#mob .pill{display:inline-block;font-size:12px;border-radius:999px;padding:2px 8px;background:var(--accent-tint);color:var(--accent);font-weight:600}
+#mob .empty{color:var(--ink-muted);font-size:14px;margin:0}
+#mob .mt{position:fixed;left:0;right:0;bottom:0;display:grid;grid-template-columns:repeat(3,1fr);background:var(--paper);border-top:1px solid var(--hairline);padding:6px 6px max(8px,env(safe-area-inset-bottom))}
+#mob .mt button{border:0;background:none;font:600 12.5px var(--font);color:var(--ink-muted);padding:8px 4px;display:flex;flex-direction:column;align-items:center;gap:3px;position:relative}
+#mob .mt button.on{color:var(--accent)}
+#mob .mt i{position:absolute;top:2px;left:58%;background:var(--crit);color:#fff;font-style:normal;font-size:11px;border-radius:999px;padding:0 6px}
+#mob .note{font-size:12.5px;color:var(--ink-muted);margin:14px 2px 0;line-height:1.4}
+#mob .full-btn{display:block;width:100%;margin-top:22px;border:1px solid var(--hairline);background:none;border-radius:14px;padding:13px;font:600 14px var(--font);color:var(--ink)}
+.qs{position:fixed;inset:0;z-index:90;background:rgba(10,20,14,.45);display:none;align-items:flex-end;justify-content:center}
+.qs.on{display:flex}
+.qs .sh{background:var(--surface);color:var(--ink);width:min(560px,100vw);border-radius:22px 22px 0 0;padding:18px 18px max(18px,env(safe-area-inset-bottom));max-height:88vh;overflow:auto;font-family:var(--font)}
+@media (min-width:761px){.qs{align-items:center}.qs .sh{border-radius:22px}}
+.qs h3{margin:0 0 4px;font-size:22px;letter-spacing:-.02em}.qs .sub{margin:0 0 14px;color:var(--ink-muted);font-size:14px}
+.qs label{display:block;font-weight:600;font-size:14px;margin:14px 0 8px}
+.qs .ch{display:flex;flex-wrap:wrap;gap:8px}
+.qs .ch button{border:1px solid var(--hairline);background:var(--paper);color:var(--ink);border-radius:999px;padding:9px 14px;font:500 14px var(--font);min-height:40px}
+.qs .ch button.on{background:var(--accent);border-color:var(--accent);color:#fff}
+.qs textarea{width:100%;min-height:70px;font:16px/1.4 var(--font);border:1px solid var(--hairline);border-radius:14px;padding:12px;background:var(--paper);color:var(--ink);box-sizing:border-box}
+.qs .go{display:flex;gap:10px;margin-top:18px}
+.qs .go button{flex:1;border:0;border-radius:14px;padding:14px;font:600 16px var(--font)}
+.qs .go .p{background:var(--accent);color:#fff}.qs .go .c{background:var(--track);color:var(--ink);flex:0 0 auto;padding:14px 18px}
 </style>
 </head>
 <body>
@@ -439,6 +501,17 @@ body.v3d #dtoday.o3only,body.v3d #dwait.o3only{display:block!important}
 <aside class="drawer" id="drawer" aria-label="Detalle"></aside>
 <section class="full" id="full" aria-label="Vista"></section>
 <div class="toast" id="toast" role="status"></div>
+<div id="mob" aria-label="Banderín rápido">
+  <div class="mh"><svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 21V3" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/><path d="M7 4h11l-3 4 3 4H7z" fill="#1F6B45"/></svg><b>banderín</b><span class="st" id="mSt"></span></div>
+  <div class="mb" id="mBody"></div>
+  <nav class="mt" aria-label="Secciones">
+    <button type="button" data-mt="pedir" class="on"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12h14" stroke-linecap="round"/></svg>Pedir</button>
+    <button type="button" data-mt="esperan"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="8"/><path d="M12 8v4l3 2" stroke-linecap="round"/></svg>Te esperan<i id="mN" hidden></i></button>
+    <button type="button" data-mt="hecho"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12l4 4 10-10" stroke-linecap="round" stroke-linejoin="round"/></svg>Hecho</button>
+  </nav>
+</div>
+<div class="qs" id="qs" role="dialog" aria-modal="true"><div class="sh" id="qsB"></div></div>
+
 
 <script type="importmap">{"imports":{"three":"./vendor/three/three.module.js","three/addons/":"./vendor/three/addons/"}}</script>
 <script type="module">import('./oficina3d.js').then(function(m){window.__o3dMount=m.mount;window.dispatchEvent(new Event('o3d-ready'))}).catch(function(e){window.__o3dFail=String(e);window.dispatchEvent(new Event('o3d-fail'))});</script>
@@ -680,7 +753,7 @@ async function qaTalk(t,out,a,ronda,prev){
 function wantsTeam(t){return /\ben equipo\b|que lo haga el equipo|todo el equipo/i.test(t)}
 async function addTask(text,opts){
   opts=opts||{};text=(text||'').trim();if(!text)return;
-  var id=uid(),pj=proj(opts.project),t={id:id,project:pj?pj.id:'',formatReq:opts.format||'auto',text:text,title:text.slice(0,70),dep:opts.dep||'',tier:opts.tier||'default',team:!!opts.team||wantsTeam(text),forceOk:!!opts.ok,routine:opts.routine||'',late:!!opts.late,status:'cola',created:now(),when:opts.when||'',log:[{t:now(),m:'Encargo recibido'+(opts.routine?' de la rutina «'+opts.routine+'»':'')+(opts.late?' (con retraso)':'')}]};
+  var id=uid(),pj=proj(opts.project),t={id:id,project:pj?pj.id:'',formatReq:opts.format||'auto',text:text,title:opts.title||text.slice(0,70),qt:!!opts.title,dep:opts.dep||'',tier:opts.tier||'default',team:!!opts.team||wantsTeam(text),forceOk:!!opts.ok,routine:opts.routine||'',late:!!opts.late,status:'cola',created:now(),when:opts.when||'',log:[{t:now(),m:'Encargo recibido'+(opts.routine?' de la rutina «'+opts.routine+'»':'')+(opts.late?' (con retraso)':'')}]};
   if(opts.meeting){t.meeting=opts.meeting;t.agent=opts.meeting.a;t.decision='CONTINUAR';t.risk='bajo';t.title='Reunión: '+ag(opts.meeting.a).n+' y '+ag(opts.meeting.b).n;t.ceo={objetivo:'Acta de la reunión sobre: '+text,criterio:'Acta con asistentes, acuerdos, decisiones y siguientes pasos con responsable',confirmado:[],inferido:[],desconocido:[],proceso:''};lg(t,'Reunión convocada en el cerebro');await put('tasks',id,t);goBrain(opts.meeting.a);goBrain(opts.meeting.b);run(id);return id}
   var H=histFor(text+(pj?' '+pj.name+' '+(pj.objective||''):''),t.project,id);
   t.hist=H.map(function(h){return {k:h.k,id:h.id,title:h.title}});
@@ -690,7 +763,7 @@ async function addTask(text,opts){
   try{r=S.sample?await route(text,t.dep,{project:pj,hist:t.hist}):routeDemo(text,t.dep)}
   catch(e){if(e&&e.code==='not_granted'){S.sample=null;setStatus()}r=routeDemo(text,t.dep);r.motivo='No se pudo consultar al CEO; asignado por palabras clave.'}
   if(opts.agent&&ag(opts.agent)&&r.agente!==opts.agent&&r.decision!=='RECHAZAR'){r.motivo=(r.motivo||'')+' Asignado por el plan del proyecto a '+ag(opts.agent).n+'.';r.agente=opts.agent}
-  t=Object.assign({},S.tasks[id],{agent:r.agente,decision:r.decision,risk:r.riesgo,reason:r.motivo,question:r.pregunta||'',title:r.titulo||t.title,ceo:{objetivo:r.objetivo||'',confirmado:r.confirmado||[],inferido:r.inferido||[],desconocido:r.desconocido||[],proceso:r.proceso||'',criterio:r.criterio||''},ceoRead:r.refs||[]});
+  t=Object.assign({},S.tasks[id],{agent:r.agente,decision:r.decision,risk:r.riesgo,reason:r.motivo,question:r.pregunta||'',title:(t.qt?t.title:r.titulo||t.title),ceo:{objetivo:r.objetivo||'',confirmado:r.confirmado||[],inferido:r.inferido||[],desconocido:r.desconocido||[],proceso:r.proceso||'',criterio:r.criterio||''},ceoRead:r.refs||[]});
   t.format=(opts.format&&opts.format!=='auto')?opts.format:(VE.KINDS[r.formato]?r.formato:'texto');
   t.sector=SECT[r.sector]?r.sector:(pj&&SECT[pj.sector]?pj.sector:'');t.reuse=r.reutiliza||'';
   if(opts.meeting)t.format='texto';
@@ -1217,7 +1290,7 @@ function openTask(id){
   if(t.status==='rech'||(t.status==='cola'&&!S.working[t.agent]))h+='<div class="row"><button class="btn" id="bDel" type="button">Borrar</button>'+(t.status==='cola'&&t.agent?'<button class="btn p" id="bRetry" type="button">Reintentar</button>':'')+'</div>';
   h+='</div>';
   if(t.result&&!t.piece&&(t.status==='hecha'||t.status==='aprob'))h+='<div class="df"><textarea id="rev" placeholder="Pide un cambio: hazlo más corto, añade una tabla, sin tecnicismos…" style="min-height:54px"></textarea><div class="row" style="margin-top:8px"><span class="hint" style="flex:1">El CEO decide si es una corrección puntual o una regla que '+esc(a.n)+' aplicará siempre.</span><button class="btn p" id="bRev" type="button">Revisar</button></div></div>';
-  openDrawer(h);
+  openDrawer(h);if(isMob())mobTidy(q('drawer'));
   
   var dr=q('drawer');
   dr.querySelectorAll('[data-t]').forEach(function(b){b.onclick=function(){openTask(b.dataset.t)}});
@@ -1879,7 +1952,7 @@ window.VARIOS3D={isDark:isDark,departments:function(){return DEP},agents:functio
   conversation:function(id){return S.conv[id]||null},deptColor:function(id){return dep(id)?dep(id).c:'#888'},
   setDepFilter:function(k){S.depFilter=k||null;render()},currentTask:curTask,openTask:function(id){openTask(id)},
   approve:function(id){approveTask(id,'');toast('Aprobado: '+((S.tasks[id]&&S.tasks[id].title)||''))},
-  onQuality:function(qv){toast(qv===1?'Vista 3D: sin oclusión ambiental para ir más fluida':'Vista 3D: sombras más ligeras para ir más fluida')}};
+  onQuality:function(qv){if(!isMob())toast(qv===1?'Vista 3D: sin oclusión ambiental para ir más fluida':'Vista 3D: sombras más ligeras para ir más fluida')}};
 function webgl(){try{var c=document.createElement('canvas');return !!(window.WebGL2RenderingContext&&c.getContext('webgl2'))}catch(e){return false}}
 function set3D(on){
   var host=q('o3d');
@@ -1986,6 +2059,97 @@ fetch('brain.json').then(function(r){if(!r.ok)throw 0;return r.json()}).then(fun
   setTimeout(tick,4000);
 })();
 setInterval(function(){tick();renderFeed()},30000);
+/* ===== Modo rápido: plantillas sencillas y pantalla de móvil ===== */
+var QUICK={
+  reel:{n:'Reel',d:'Vídeo vertical corto',ic:'M8 5v14l11-7z',
+    temas:['Torneos del fin de semana','Humor de golfista','Dato curioso','Cómo se usa Banderín','Una provincia concreta'],
+    pide:function(o){return 'Prepara un reel para Instagram y TikTok de Banderín'+(o.tema?' sobre: '+o.tema:'')+(o.cuando?' (se publica '+o.cuando+')':'')+'. Entrega lista para producir: gancho de los 2 primeros segundos, guion por escenas con duración, textos en pantalla, locución completa, pie de publicación con llamada a banderin.es y 5 hashtags. Usa solo datos reales del cerebro y respeta el acuerdo con Golf Directo (sin precios, jugadores ni resultados).'+(o.extra?' Indicaciones: '+o.extra:'')}},
+  post:{n:'Publicación',d:'Imagen y texto para el feed',ic:'M4 5h16v14H4zM4 15l5-4 4 3 3-2 4 3',
+    temas:['Torneos destacados','Novedad de la web','Consejo para golfistas','Pregunta a la comunidad'],
+    pide:function(o){return 'Prepara una publicación de Instagram de Banderín'+(o.tema?' sobre: '+o.tema:'')+(o.cuando?' (se publica '+o.cuando+')':'')+'. Entrega: titular de la imagen (máx. 8 palabras), descripción de la imagen para generarla, pie de publicación corto con llamada a banderin.es y 5 hashtags. Solo datos reales del cerebro.'+(o.extra?' Indicaciones: '+o.extra:'')}},
+  carrusel:{n:'Carrusel',d:'De 5 a 8 láminas',ic:'M3 6h12v12H3zM17 8h4v8h-4',
+    temas:['Tipos de golfista','Cómo elegir torneo','Errores al inscribirse','Torneos por comunidad'],
+    pide:function(o){return 'Prepara un carrusel de Instagram de Banderín de 5 a 8 láminas'+(o.tema?' sobre: '+o.tema:'')+(o.cuando?' (se publica '+o.cuando+')':'')+'. Entrega el texto de cada lámina (portada con gancho, una idea por lámina, última con llamada a banderin.es), el pie de publicación y 5 hashtags.'+(o.extra?' Indicaciones: '+o.extra:'')}},
+  story:{n:'Story',d:'Encuesta o aviso rápido',ic:'M7 3h10v18H7z',
+    temas:['Encuesta','Recordatorio de inscripción','Detrás de Banderín'],
+    pide:function(o){return 'Prepara 3 stories de Instagram de Banderín'+(o.tema?' sobre: '+o.tema:'')+(o.cuando?' (para '+o.cuando+')':'')+'. Entrega el texto de cada una, la pegatina (encuesta, pregunta o enlace a banderin.es) y qué fondo poner.'+(o.extra?' Indicaciones: '+o.extra:'')}},
+  semana:{n:'Plan de la semana',d:'Qué publicar cada día',ic:'M4 6h16v14H4zM4 10h16M9 3v6M15 3v6',main:1,
+    temas:[],
+    pide:function(o){return 'Haz el plan de redes de Banderín para la semana: un contenido al día (reel, publicación, carrusel o story), con tema, gancho y mejor hora, mezclando formatos y sin repetir el mensaje de inscripciones. Basado en los torneos reales del cerebro y en lo que mejor ha funcionado.'+(o.extra?' Indicaciones: '+o.extra:'')}},
+  pregunta:{n:'Pregunta al equipo',d:'Lo que sea, en tus palabras',ic:'M12 18h.01M9 9a3 3 0 1 1 4 2.8c-.6.3-1 .9-1 1.6V14',
+    libre:1}
+};
+var CUANDO=['Hoy','Mañana','Esta semana'];
+function qsClose(){q('qs').classList.remove('on')}
+q('qs').onclick=function(e){if(e.target===q('qs'))qsClose()};
+function openQuick(k){var Q=QUICK[k];if(!Q)return;
+  if(Q.libre){if(isMob()){q('mTxt')&&q('mTxt').focus()}else{q('tTxt').focus()}return}
+  var o={tema:'',cuando:'',extra:''};
+  var ch=function(list,key){return '<div class="ch" data-k="'+key+'">'+list.map(function(x){return '<button type="button">'+esc(x)+'</button>'}).join('')+'</div>'};
+  q('qsB').innerHTML='<h3>'+esc(Q.n)+'</h3><p class="sub">'+esc(Q.d)+'. Elige lo que quieras; si no eliges nada, decide el equipo.</p>'+
+    (Q.temas.length?'<label>¿De qué?</label>'+ch(Q.temas,'tema'):'')+
+    (k!=='semana'?'<label>¿Cuándo se publica?</label>'+ch(CUANDO,'cuando'):'')+
+    '<label for="qsX">Algo más (opcional)</label><textarea id="qsX" placeholder="Ejemplo: tono gracioso, menciona Andalucía…"></textarea>'+
+    '<div class="go"><button type="button" class="c" id="qsC">Cancelar</button><button type="button" class="p" id="qsGo">Pedir '+esc(Q.n.toLowerCase())+'</button></div>';
+  q('qsB').querySelectorAll('.ch').forEach(function(box){box.querySelectorAll('button').forEach(function(b){b.onclick=function(){var was=b.classList.contains('on');box.querySelectorAll('button').forEach(function(x){x.classList.remove('on')});if(!was)b.classList.add('on');o[box.dataset.k]=was?'':b.textContent}})});
+  q('qsC').onclick=qsClose;
+  q('qsGo').onclick=function(){o.extra=q('qsX').value.trim();qsClose();addTask(Q.pide(o),{dep:'com',format:'auto',title:[Q.n,o.tema,o.cuando&&o.cuando.toLowerCase()].filter(Boolean).join(' · ')});toast(Q.n+' pedido. Te aviso en «Te esperan» cuando esté.');mTab='esperan';setTimeout(renderMob,300)};
+  q('qs').classList.add('on')}
+/* Botones rápidos también en la oficina de ordenador */
+(function(){var box=q('tTxt');if(!box)return;var d=document.createElement('div');d.className='qk';
+  d.innerHTML=['reel','post','carrusel','story','semana'].map(function(k){return '<button type="button" data-q="'+k+'">'+esc(QUICK[k].n)+'</button>'}).join('');
+  box.parentNode.insertBefore(d,box);d.querySelectorAll('button').forEach(function(b){b.onclick=function(){openQuick(b.dataset.q)}})})();
+/* En el móvil, la entrega primero y lo técnico plegado */
+function mobTidy(dr){var secs=[].slice.call(dr.querySelectorAll('p.sec')),tech=/^(Flujo|Contrato|Calidad|Claves del sector|Histórico|Leído|Piezas|Notas entre|Historial)/;
+  var moved=secs.filter(function(p){return tech.test(p.textContent)});if(!moved.length)return;
+  var det=document.createElement('details');det.className='mobdet';det.innerHTML='<summary>Cómo lo ha hecho el equipo</summary>';
+  var host=moved[0].parentNode;
+  moved.forEach(function(p){var n=p.nextSibling,grp=[p];while(n&&!(n.nodeType===1&&n.matches&&n.matches('p.sec'))&&!(n.nodeType===1&&n.classList&&n.classList.contains('row')&&n.querySelector('#bNow,#bDel'))){grp.push(n);n=n.nextSibling}grp.forEach(function(x){det.appendChild(x)})});
+  host.appendChild(det)}
+var MQ=matchMedia('(max-width:760px)'),mTab='pedir';window.__noScene=function(){return isMob()};
+function isMob(){return MQ.matches&&!document.body.classList.contains('fullui')}
+function mIcon(p){return '<span class="ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="'+p+'"/></svg></span>'}
+function mCard(t){var a=ag(t.agent)||{n:'El equipo'},s=ST[t.status]||[t.status];
+  return '<div class="card"><small><b>'+esc(a.n)+'</b> · <span class="pill">'+esc(s[0])+'</span></small><p>'+esc((t.title||t.text||'').slice(0,110))+'</p><div class="r">'+
+    (t.status==='aprob'?'<button type="button" class="g" data-mok="'+t.id+'">Dar el OK</button>':'')+
+    '<button type="button" data-mv="'+t.id+'">'+(t.status==='preg'?'Responder':'Ver')+'</button></div></div>'}
+function renderMob(){if(!q('mBody'))return;
+  var T=Object.values(S.tasks).filter(function(t){return !t.piece}),by=function(a,b){return String(b.done||b.created).localeCompare(String(a.done||a.created))};
+  var wt=T.filter(function(t){return t.status==='aprob'||t.status==='preg'}).sort(by),
+      run_=T.filter(function(t){return /prog|cola|marcha|revision|maqueta/.test(t.status)}).sort(by),
+      hec=T.filter(function(t){return t.status==='hecha'||t.status==='rech'}).sort(by);
+  q('mN').hidden=!wt.length;q('mN').textContent=wt.length;
+  q('mSt').textContent=S.sample?(run_.length?run_.length+' en marcha':'Equipo listo'):'Sin Claude: modo demostración';
+  document.querySelectorAll('#mob [data-mt]').forEach(function(b){b.classList.toggle('on',b.dataset.mt===mTab)});
+  var h='';
+  if(mTab==='pedir'){
+    h='<h1>¿Qué hacemos hoy?</h1><div class="tiles">'+['semana','reel','post','carrusel','story','pregunta'].map(function(k){var Q=QUICK[k];return '<button type="button" class="tile'+(Q.main?' main':'')+'" data-q="'+k+'">'+mIcon(Q.ic)+'<b>'+esc(Q.n)+'</b><span>'+esc(Q.d)+'</span></button>'}).join('')+'</div>'+
+      '<div class="free"><textarea id="mTxt" placeholder="O escríbelo tú: «ideas para un reel de Navidad»"></textarea><button type="button" id="mGo">Pedir</button></div>'+
+      (run_.length?'<h2>En marcha</h2>'+run_.slice(0,4).map(mCard).join(''):'')+
+      (wt.length?'<h2>Te esperan <span class="n">'+wt.length+'</span></h2>'+wt.slice(0,2).map(mCard).join(''):'')+
+      '<p class="note">El equipo prepara guion, textos y pie. El vídeo final lo monta el motor de reels: pídemelo en el chat con lo que apruebes.</p>'+
+      '<button type="button" class="full-btn" id="mFull">Abrir la oficina completa</button>'}
+  else if(mTab==='esperan'){h='<h1>Te esperan</h1>'+(wt.length?wt.map(mCard).join(''):'<p class="empty">Nada pendiente. Todo al día.</p>')+(run_.length?'<h2>En marcha</h2>'+run_.map(mCard).join(''):'')}
+  else{h='<h1>Hecho</h1>'+(hec.length?hec.slice(0,30).map(mCard).join(''):'<p class="empty">Aún no hay entregas. Pide algo en «Pedir».</p>')}
+  var ae=document.activeElement,keep=ae&&ae.id==='mTxt'?ae.value:null;
+  if(keep!==null&&mTab==='pedir')return; /* no borrar lo que estás escribiendo */
+  q('mBody').innerHTML=h;
+  q('mBody').querySelectorAll('[data-q]').forEach(function(b){b.onclick=function(){openQuick(b.dataset.q)}});
+  q('mBody').querySelectorAll('[data-mv]').forEach(function(b){b.onclick=function(){openTask(b.dataset.mv)}});
+  q('mBody').querySelectorAll('[data-mok]').forEach(function(b){b.onclick=function(){window.VARIOS3D.approve(b.dataset.mok);toast('Aprobado');setTimeout(renderMob,300)}});
+  if(q('mGo'))q('mGo').onclick=function(){var v=q('mTxt').value.trim();if(!v)return;q('mTxt').value='';q('mTxt').blur();addTask(v,{});toast('Pedido. Lo verás en «Te esperan».');mTab='esperan';setTimeout(renderMob,300)};
+  if(q('mFull'))q('mFull').onclick=function(){document.body.classList.add('fullui');setTimeout(function(){try{fit()}catch(e){}render();openHome()},60)}}
+document.querySelectorAll('#mob [data-mt]').forEach(function(b){b.onclick=function(){mTab=b.dataset.mt;renderMob();q('mBody').scrollTop=0}});
+var _renderBase=render;render=function(){_renderBase();renderMob()};
+MQ.addEventListener&&MQ.addEventListener('change',function(){document.body.classList.remove('fullui');renderMob()});
+/* Volver al modo rápido desde la oficina completa en el móvil */
+(function(){var b=document.createElement('button');b.type='button';b.className='btn sm';b.id='bQuick';b.textContent='Modo rápido';b.style.display='none';
+  var sp=document.querySelector('.top .spacer');if(sp)sp.parentNode.insertBefore(b,sp.nextSibling);
+  b.onclick=function(){document.body.classList.remove('fullui');renderMob()};
+  var upd=function(){b.style.display=MQ.matches?'':'none'};upd();MQ.addEventListener&&MQ.addEventListener('change',upd)})();
+if(isMob()){setTimeout(function(){if(q('full').classList.contains('on')||q('drawer').classList.contains('on'))closeTop()},400)}
+setInterval(function(){if(isMob()&&!q('qs').classList.contains('on'))renderMob()},4000);
+renderMob();
 })();
 
 </script>

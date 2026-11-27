@@ -9,6 +9,9 @@ La oficina de agentes de Banderín, montada igual que la de empresa-IA y adaptad
 - `office.js`, `oficina3d.js`: la vista 3D (Three.js en `vendor/three`).
 - `entregables.js` y `vendor/`: exportar entregas a Word, PowerPoint, Excel y PDF.
 
+## Modo rápido (móvil)
+En pantallas de menos de 760 px la oficina abre en modo rápido: botones grandes para plan de la semana, reel, publicación, carrusel, story y pregunta libre; pestañas Pedir, Te esperan y Hecho. La vista 3D se pausa. «Abrir la oficina completa» lleva a la de siempre. En el ordenador, los mismos botones salen encima de «Nuevo encargo».
+
 ## Cómo se actualiza
 No se edita a mano el bloque de datos de `index.html` ni los JSON:
 
