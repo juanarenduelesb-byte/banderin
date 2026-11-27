@@ -711,7 +711,7 @@ async function route(text,depSel,cx){
   var ins='Eres el CEO digital de Banderín. Recibes un encargo de Juan y aplicas el contrato de tarea y las cinco decisiones.\n\n'+BRAIN+
   '\n\nSECCIONES RELEVANTES DEL CEREBRO:\n'+br.txt+'\nAGENTES (id | departamento | nombre | qué hace):\n'+roster()+
   (BRN?'\n\nCATÁLOGO DE PROCESOS: '+BRN.processes.map(function(p){return p[0]+' '+p[1]}).join('; '):'')+
-  (depSel?'\n\nEl Juan ha pedido que lo haga el departamento con id "'+depSel+'": elige un agente de ese departamento salvo que sea imposible.':'')+
+  (depSel?'\n\nJuan ha pedido que lo haga el departamento «'+(dep(depSel)?dep(depSel).n:depSel)+'» (id '+depSel+'): elige un agente de ese departamento salvo que sea imposible.':'')+
   (cx.project?'\n\nPROYECTO DEL ENCARGO (datos de Juan):\n'+projBrief(cx.project)+projDocs(cx.project,text,3500):'')+
   (cx.hist&&cx.hist.length?'\n\nHISTÓRICO PARECIDO (ya hecho o aprendido en Banderín):\n'+histTxt(cx.hist,700):'\n\nHISTÓRICO: no hay nada parecido todavía.')+
   '\n\nEXPERTOS DE SECTOR: '+Object.keys(SECT).map(function(k){return k+' = '+SECT[k]}).join('; ')+'.'+
@@ -858,7 +858,7 @@ async function run(id,extra){
   }catch(e){
     t=clone(S.tasks[id]);
     if(e&&e.code==='not_granted'){S.sample=null;setStatus()}
-    t.status='cola';lg(t,'No se pudo trabajar: '+((e&&e.code)==='rate_limited'?'límite de uso alcanzado, inténtalo más tarde':'error al consultar a Claude'));
+    t.status='cola';lg(t,'No se pudo trabajar: '+((e&&e.code)==='rate_limited'?'límite de uso alcanzado, inténtalo más tarde':'error al consultar a Claude'+(e&&(e.code||e.message)?' ('+String(e.code||'')+(e.message?' · '+String(e.message).slice(0,140):'')+')':'')));try{console.warn('Banderín · fallo del agente',e)}catch(_){}
     await put('tasks',id,t);
   }finally{delete S.working[a.id];delete INFLIGHT[id];render();setTimeout(pumpPlans,400)}
 }
@@ -1805,7 +1805,14 @@ function planState(pid,i){var p=proj(pid),pl=p.plan,e=pl.encargos[i],t=e.lanzado
   if(falta.length)return {k:'espera',why:'Espera a: '+falta.map(function(j){return '«'+clipT(pl.encargos[j].titulo,40)+'»'}).join(', ')};
   return {k:'listo'}}
 function agentBusy(aid){return !!S.working[aid]||Object.values(S.tasks).some(function(t){return t.agent===aid&&!t.piece&&RUNNING_ST[t.status]&&INFLIGHT[t.id]})}
+function resumeStuck(running){
+  Object.values(S.tasks).forEach(function(t){if(t.piece||!t.agent||!RUNNING_ST[t.status]||INFLIGHT[t.id]||running>=MAXPAR||agentBusy(t.agent))return;
+    var last=(t.log||[]).slice(-1)[0],age=Date.now()-new Date(last?last.t:t.created).getTime(),err=last&&/^No se pudo trabajar/.test(last.m);
+    var tries=t.autoRetry||0;if(tries>=3)return;
+    if((err&&age>45000)||age>4*60000){INFLIGHT[t.id]=Date.now();running++;var x=clone(t);x.autoRetry=tries+1;x.status='cola';lg(x,err?'Reintento automático '+(tries+1)+' de 3':'Se retoma (se había quedado a medias al cerrar la oficina)');put('tasks',t.id,x).then(function(){run(t.id)})}});
+  return running}
 function pumpPlans(){if(!S.sample)return;var running=Object.keys(INFLIGHT).filter(function(id){var t=S.tasks[id];if(!t||!RUNNING_ST[t.status]){delete INFLIGHT[id];return false}return true}).length+Object.keys(LAUNCHING).length;
+  running=resumeStuck(running);
   projList().forEach(function(p){if(!p.plan||!p.plan.auto||p.plan.pausado||p.status==='cerrado')return;var pl=p.plan;
     // reanudar encargos que se quedaron a medias al cerrar la oficina
     pl.encargos.forEach(function(e){var t=e.lanzado&&S.tasks[e.lanzado];if(t&&RUNNING_ST[t.status]&&!INFLIGHT[t.id]&&running<MAXPAR&&!agentBusy(t.agent)){var last=(t.log||[]).slice(-1)[0],age=Date.now()-new Date(last?last.t:t.created).getTime();
@@ -2114,7 +2121,10 @@ function openQuick(k,dia){var Q=QUICK[k];if(!Q)return;
     '<div class="go"><button type="button" class="c" id="qsC">Cancelar</button><button type="button" class="p" id="qsGo">Pedir '+esc(Q.n.toLowerCase())+'</button></div>';
   q('qsB').querySelectorAll('.ch').forEach(function(box){box.querySelectorAll('button').forEach(function(b){b.onclick=function(){var was=b.classList.contains('on');box.querySelectorAll('button').forEach(function(x){x.classList.remove('on')});if(!was)b.classList.add('on');if(box.dataset.k==='pub'){o.pub=was?'':b.dataset.v;o.cuando=was?'':b.textContent}else o[box.dataset.k]=was?'':b.textContent}})});
   q('qsC').onclick=qsClose;
-  q('qsGo').onclick=function(){o.extra=q('qsX').value.trim();qsClose();if(o.pub&&!o.cuando){var dd=D7.find(function(x){return x.iso===o.pub});o.cuando=dd?dd.l:o.pub}
+  q('qsGo').onclick=function(){o.extra=q('qsX').value.trim();
+    var fx=o.extra.toLowerCase(),alt=/carrusel/.test(fx)?'carrusel':/\bstor(y|ies)\b/.test(fx)?'story':/\breel\b|v[ií]deo/.test(fx)?'reel':/publicaci[oó]n|\bpost\b|foto/.test(fx)&&!/carrusel/.test(fx)?'post':'';
+    if(alt&&alt!==k&&QUICK[alt]&&!/no quiero (un |una )?(carrusel|reel|story|publicaci)/.test(fx)){toast('Lo pido como '+QUICK[alt].n.toLowerCase()+', que es lo que has escrito');k=alt;Q=QUICK[alt]}
+    qsClose();if(o.pub&&!o.cuando){var dd=D7.find(function(x){return x.iso===o.pub});o.cuando=dd?dd.l:o.pub}
     addTask(Q.pide(o),{dep:'com',format:'auto',qk:k,pub:o.pub,title:[Q.n,o.tema,o.cuando&&o.cuando.toLowerCase()].filter(Boolean).join(' · ')});toast(Q.n+' pedido. Te aviso en «Te esperan» cuando esté.');mTab='esperan';setTimeout(renderMob,300)};
   q('qs').classList.add('on')}
 /* Botones rápidos también en la oficina de ordenador */
@@ -2157,6 +2167,7 @@ function mIcon(p){return '<span class="ic"><svg width="18" height="18" viewBox="
 function mCard(t){var a=ag(t.agent)||{n:'El equipo'},s=ST[t.status]||[t.status];
   return '<div class="card"><small><b>'+esc(a.n)+'</b> · <span class="pill">'+esc(s[0])+'</span></small><p>'+esc((t.title||t.text||'').slice(0,110))+'</p><div class="r">'+
     (t.status==='aprob'?'<button type="button" class="g" data-mok="'+t.id+'">Dar el OK</button>':'')+
+    (RUNNING_ST[t.status]&&!INFLIGHT[t.id]&&!S.working[t.agent]&&/^No se pudo trabajar/.test(((t.log||[]).slice(-1)[0]||{}).m||'')?'<button type="button" class="g" data-mr="'+t.id+'">Reintentar</button>':'')+
     '<button type="button" data-mv="'+t.id+'">'+(t.status==='preg'?'Responder':'Ver')+'</button>'+(isContent(t)&&(t.status==='hecha'||t.status==='aprob')?'<button type="button" data-mp="'+t.id+'">'+(t.prod?'Producir otra vez':'Producir')+'</button>':'')+'</div></div>'}
 function renderMob(){renderCalD();if(!q('mBody'))return;
   var T=Object.values(S.tasks).filter(function(t){return !t.piece}),by=function(a,b){return String(b.done||b.created).localeCompare(String(a.done||a.created))};
@@ -2187,6 +2198,7 @@ function renderMob(){renderCalD();if(!q('mBody'))return;
   q('mBody').innerHTML=h;
   q('mBody').querySelectorAll('[data-q]').forEach(function(b){b.onclick=function(){openQuick(b.dataset.q)}});
   q('mBody').querySelectorAll('[data-mv]').forEach(function(b){b.onclick=function(){openTask(b.dataset.mv)}});
+  q('mBody').querySelectorAll('[data-mr]').forEach(function(b){b.onclick=function(){if(!S.sample){toast('Sin Claude no se puede reintentar');return}b.disabled=true;run(b.dataset.mr);toast('Reintentando…')}});
   q('mBody').querySelectorAll('[data-mp]').forEach(function(b){b.onclick=function(){doProduce(b.dataset.mp,b.closest('.card'))}});
   q('mBody').querySelectorAll('[data-ma]').forEach(function(b){b.onclick=function(){openAgent(b.dataset.ma)}});
   if(q('cweekM'))bindCal(q('cweekM'));
