@@ -7,3 +7,4 @@ Eres el agente de redes de Banderín. Sigue `agentes/tareas/COMUN.md` y tu ficha
 5. Controles antes de publicar (habilidad). Si algo falla y no se arregla, no publiques: registra «aviso».
 6. Publica (habilidad publicar-metricool). Sin Metricool: sube MP4, portada y texto a Google Drive, carpeta «Banderín · Reels» (créala si no existe), y la notificación dice «Pieza lista en Drive para publicar a mano».
 7. Registra con `--dato formato=… --dato mensaje=… --dato hora=…` y el enlace.
+8. Solo los jueves: refresca la oficina. `git pull`; el cerebro (`oficina/brain.json`, con `cerebro/semana.md`) ya lo rehace cada día la acción «Semana para la oficina». Republica en el artefacto «Banderín · Oficina de agentes» (slug `28f41315-54cc-4837-af21-2d2dc82d2329`): `get_artifact` para la versión, luego `publish_files` en modo patch con `brain.json` y, si cambió en el repositorio, `index.html`. No toques sus capacidades ni a quién está compartido.
