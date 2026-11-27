@@ -151,6 +151,15 @@ OVR = {'golf de pals':('Pals','Girona'),'golf club peralada':('Peralada','Girona
  'derio golf':('Derio','Bizkaia'),'campo de golf de meis':('Meis','Pontevedra'),'arenal golf':('Benalmádena','Málaga'),'e. g. montepríncipe':('Boadilla del Monte','Madrid'),
  'villa nueva golf resort':('Puerto Real','Cádiz'),'roda golf':('San Javier','Murcia'),'campo de golf la finca':('Algorfa','Alicante'),'higuerón marbella golf resort':('Fuengirola','Málaga'),
  'quinto coto golf':(None,None),'air golf club':('Vegas de Matute','Segovia')}
+# Ubicación ya conocida de cada club (sacada de torneos anteriores): sirve cuando el directorio de la RFEG no se puede leer,
+# porque su robots.txt no deja a BanderinBot. Se completa sola: cada club nuevo que se ubique se añade al final de la pasada.
+_DIRP = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'datos', 'club_ubicacion.json')
+CLUBDIR = json.load(open(_DIRP)) if os.path.exists(_DIRP) else {}
+_CD = {}
+def dir_match(name):
+    if not _CD:
+        for k, v in CLUBDIR.items(): _CD[strip(k).strip()] = v
+    return _CD.get(strip(name or '').strip()) or _CD.get(strip(nice(name or '')).strip())
 def locate(club_name, code=None, nc_city=None):
     key = strip(club_name).strip() if club_name else ''
     ov = next((v for k, v in OVR.items() if strip(k) == key), None)
@@ -161,10 +170,17 @@ def locate(club_name, code=None, nc_city=None):
         town, prov = r['town'], r['prov']
         cc = CODE_CCAA.get((code or '')[:2])
         if cc and PROV_CCAA.get(prov) and PROV_CCAA.get(prov) != cc: town = prov = None
+    known = None
+    if not prov:
+        d = dir_match(club_name)
+        if d and d[1]:
+            cc = CODE_CCAA.get((code or '')[:2])
+            if not (cc and PROV_CCAA.get(d[1]) and PROV_CCAA.get(d[1]) != cc):
+                town, prov, known = town or d[0], d[1], d[2]
     if nc_city and not town: town = nc_city
     ccaa = PROV_CCAA.get(prov) if prov else None
     if not ccaa and code: ccaa = CODE_CCAA.get(code[:2])
-    ll = geocode(town, prov) if town and prov else None
+    ll = (geocode(town, prov) if town and prov else None) or (known if known else None)
     return town, prov, ccaa, ll
 
 # ---------- Fuentes ----------
@@ -347,6 +363,14 @@ for t in T:
 
 json.dump(GEO, open(GEO_P, 'w'), ensure_ascii=False)
 json.dump(kept, open(SCR + 'tournaments.json', 'w'), ensure_ascii=False)
+_nuevos = 0
+for t in kept:
+    c, pv = t.get('club'), t.get('prov')
+    if c and c != 'Por confirmar' and pv and pv != 'Por confirmar' and c not in CLUBDIR:
+        CLUBDIR[c] = [t.get('city'), pv, t.get('ll')]; _nuevos += 1
+if _nuevos:
+    json.dump(dict(sorted(CLUBDIR.items())), open(_DIRP, 'w'), ensure_ascii=False, indent=0)
+print('clubes con ubicación conocida', len(CLUBDIR), '- nuevos', _nuevos)
 import collections
 print('total', len(T), 'tras duplicados', len(kept), '- no fusionados por ser distintos:', dict(SEPARADOS))
 print(collections.Counter(t['src'] for t in kept))
