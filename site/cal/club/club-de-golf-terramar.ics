@@ -1,0 +1,58 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Banderin//Torneos de golf//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Banderín - Club de Golf Terramar
+X-WR-CALDESC:Torneos de golf: Club de Golf Terramar. Se actualiza cada mañ
+ ana. https://banderin.es
+X-WR-TIMEZONE:Europe/Madrid
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:0eb0e6dbba5dca2c7e29@banderin.es
+DTSTAMP:20261127T083339Z
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261213
+SUMMARY:Trofeo Infantil Navideño
+LOCATION:Club de Golf Terramar
+DESCRIPTION:Juvenil - Individual\nFicha oficial: https://www.catgolf.com/es
+ /campeonatos/trofeo-infantil-navideno-2026-12-12\nConfirma fechas y condic
+ iones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.catgolf.com/es/campeonatos/trofeo-infantil-navideno-2026-12
+ -12
+END:VEVENT
+BEGIN:VEVENT
+UID:62e955c71ff04de1f251@banderin.es
+DTSTAMP:20261127T083339Z
+DTSTART;VALUE=DATE:20270602
+DTEND;VALUE=DATE:20270603
+SUMMARY:31è Quadrangular Femení de Catalunya 2027 (Terramar)
+LOCATION:Club de Golf Terramar
+DESCRIPTION:Absoluto - Individual\nFicha oficial: https://www.catgolf.com/e
+ s/campeonatos/31e-quadrangular-femeni-de-catalunya-2027-terramar-2027-06-0
+ 2\nConfirma fechas y condiciones en la web del organizador. Vía Banderín
+ .
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.catgolf.com/es/campeonatos/31e-quadrangular-femeni-de-catal
+ unya-2027-terramar-2027-06-02
+END:VEVENT
+BEGIN:VEVENT
+UID:ab47151330a0b20d4348@banderin.es
+DTSTAMP:20261127T083339Z
+DTSTART;VALUE=DATE:20270709
+DTEND;VALUE=DATE:20270712
+SUMMARY:Campionat de Catalunya Absolut 2027 (WAGR)
+LOCATION:Club de Golf Terramar
+DESCRIPTION:Absoluto - Individual\nFicha oficial: https://www.catgolf.com/e
+ s/campeonatos/campionat-de-catalunya-absolut-2027-wagr-2027-07-09\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.catgolf.com/es/campeonatos/campionat-de-catalunya-absolut-2
+ 027-wagr-2027-07-09
+END:VEVENT
+END:VCALENDAR

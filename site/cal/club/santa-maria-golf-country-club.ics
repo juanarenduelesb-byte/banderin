@@ -11,7 +11,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:a19c4462848814a5a2e9@banderin.es
-DTSTAMP:20261127T023834Z
+DTSTAMP:20261127T083339Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Torneo Senior Otoño Costa del Sol
@@ -23,5 +23,20 @@ DESCRIPTION:Senior - Stableford - Individual\nInscripción: abre el 27 de o
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.nextcaddy.com/tour/61235
+END:VEVENT
+BEGIN:VEVENT
+UID:2bf87257404d192cb876@banderin.es
+DTSTAMP:20261127T083339Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:secret pairs ind. stableford
+LOCATION:Santa María Golf & Country Club\, Marbella
+DESCRIPTION:Social de club - Stableford - Parejas\nInscripción: abre el 27
+  de noviembre\, cierra el 27 de noviembre.\nPrecio: Gratis.\nFicha oficial
+ : https://www.nextcaddy.com/tour/75665\nConfirma fechas y condiciones en l
+ a web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nextcaddy.com/tour/75665
 END:VEVENT
 END:VCALENDAR

@@ -11,7 +11,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:e846c6b50c49cba6afcc@banderin.es
-DTSTAMP:20261127T023834Z
+DTSTAMP:20261127T083339Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Quadrangular Peralada - Entrenament
@@ -25,21 +25,22 @@ URL:https://www.golfdirecto.com/micro/game/6b05743a61a2b765b71d2b13/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:818eb54282e16df5c0b2@banderin.es
-DTSTAMP:20261127T023834Z
+DTSTAMP:20261127T083339Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Campionat de Catalunya Interclubs Absolut 2026
 LOCATION:Golf Club Peralada\, Peralada\, Girona
-DESCRIPTION:Clubes y equipos - Foursome - Parejas\nFicha oficial: https://w
- ww.golfdirecto.com/micro/game/6ae08298e85d85ec8f63b8a6/summary\nConfirma f
- echas y condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Clubes y equipos - Foursome - Parejas\nInscripción: abre el 3 
+ de noviembre\, cierra el 24 de noviembre.\nFicha oficial: https://www.golf
+ directo.com/micro/game/6ae08298e85d85ec8f63b8a6/summary\nConfirma fechas y
+  condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6ae08298e85d85ec8f63b8a6/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:085ed099b82cc2f122a2@banderin.es
-DTSTAMP:20261127T023834Z
+DTSTAMP:20261127T083339Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
 SUMMARY:Torneig Feliços 80

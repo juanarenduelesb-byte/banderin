@@ -1,0 +1,76 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Banderin//Torneos de golf//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Banderín - Golf Montanyà
+X-WR-CALDESC:Torneos de golf: Golf Montanyà. Se actualiza cada mañana. ht
+ tps://banderin.es
+X-WR-TIMEZONE:Europe/Madrid
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:7a9da7425b423058cb79@banderin.es
+DTSTAMP:20261127T083339Z
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261213
+SUMMARY:Torneig Social Escudella&Carn D'Olla
+LOCATION:Golf Montanyà
+DESCRIPTION:Social de club - Individual\nFicha oficial: https://www.catgolf
+ .com/es/campeonatos/torneig-social-escudellacarn-dolla-2026-12-12\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.catgolf.com/es/campeonatos/torneig-social-escudellacarn-dol
+ la-2026-12-12
+END:VEVENT
+BEGIN:VEVENT
+UID:23edca9e3170547572f6@banderin.es
+DTSTAMP:20261127T083339Z
+DTSTART;VALUE=DATE:20270310
+DTEND;VALUE=DATE:20270311
+SUMMARY:31è Quadrangular Femení de Catalunya 2027 (Montanyà)
+LOCATION:Golf Montanyà
+DESCRIPTION:Absoluto - Individual\nFicha oficial: https://www.catgolf.com/e
+ s/campeonatos/31e-quadrangular-femeni-de-catalunya-2027-montanya-2027-03-1
+ 0\nConfirma fechas y condiciones en la web del organizador. Vía Banderín
+ .
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.catgolf.com/es/campeonatos/31e-quadrangular-femeni-de-catal
+ unya-2027-montanya-2027-03-10
+END:VEVENT
+BEGIN:VEVENT
+UID:23fd3ef4085808ed1a0c@banderin.es
+DTSTAMP:20261127T083339Z
+DTSTART;VALUE=DATE:20270407
+DTEND;VALUE=DATE:20270408
+SUMMARY:53è Interclubs Femeni de Catalunya - Liguilla 2027 (Montanyà)
+LOCATION:Golf Montanyà
+DESCRIPTION:Clubes y equipos - Equipos\nInscripción: abre el 19 de noviemb
+ re\, cierra el 19 de noviembre.\nFicha oficial: https://www.catgolf.com/es
+ /campeonatos/53e-interclubs-femeni-de-catalunya-liguilla-2027-montanya-202
+ 7-04-07\nConfirma fechas y condiciones en la web del organizador. Vía Ban
+ derín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.catgolf.com/es/campeonatos/53e-interclubs-femeni-de-catalun
+ ya-liguilla-2027-montanya-2027-04-07
+END:VEVENT
+BEGIN:VEVENT
+UID:85c36e4f0c05676b5dde@banderin.es
+DTSTAMP:20261127T083339Z
+DTSTART;VALUE=DATE:20270508
+DTEND;VALUE=DATE:20270509
+SUMMARY:61è Gran Premi de Catalunya "Hexagonal" 2027 (Montanya)
+LOCATION:Golf Montanyà
+DESCRIPTION:Absoluto - Individual\nFicha oficial: https://www.catgolf.com/e
+ s/campeonatos/61e-gran-premi-de-catalunya-hexagonal-2027-montanya-2027-05-
+ 08\nConfirma fechas y condiciones en la web del organizador. Vía Banderí
+ n.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.catgolf.com/es/campeonatos/61e-gran-premi-de-catalunya-hexa
+ gonal-2027-montanya-2027-05-08
+END:VEVENT
+END:VCALENDAR

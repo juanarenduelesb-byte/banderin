@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Banderin//Torneos de golf//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Banderín - El Vallès Golf
+X-WR-CALDESC:Torneos de golf: El Vallès Golf. Se actualiza cada mañana. h
+ ttps://banderin.es
+X-WR-TIMEZONE:Europe/Madrid
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:2123c21454ca742787e7@banderin.es
+DTSTAMP:20261127T083339Z
+DTSTART;VALUE=DATE:20270807
+DTEND;VALUE=DATE:20270809
+SUMMARY:Circuit Nacional 5a Categoria 2027 (El Vallès)
+LOCATION:El Vallès Golf
+DESCRIPTION:Absoluto - Individual\nFicha oficial: https://www.catgolf.com/e
+ s/campeonatos/circuit-nacional-5a-categoria-2027-el-valles-2027-08-07\nCon
+ firma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.catgolf.com/es/campeonatos/circuit-nacional-5a-categoria-20
+ 27-el-valles-2027-08-07
+END:VEVENT
+END:VCALENDAR

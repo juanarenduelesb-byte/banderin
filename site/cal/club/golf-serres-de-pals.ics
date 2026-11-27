@@ -1,0 +1,58 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Banderin//Torneos de golf//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Banderín - Golf Serres de Pals
+X-WR-CALDESC:Torneos de golf: Golf Serres de Pals. Se actualiza cada mañan
+ a. https://banderin.es
+X-WR-TIMEZONE:Europe/Madrid
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:74ca6a5ad8ead7f4b5b5@banderin.es
+DTSTAMP:20261127T083339Z
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261214
+SUMMARY:3a Final Catalunya Promeses 2026
+LOCATION:Golf Serres de Pals
+DESCRIPTION:Absoluto - Individual\nInscripción: abre el 24 de noviembre\, 
+ cierra el 9 de diciembre.\nFicha oficial: https://www.catgolf.com/es/campe
+ onatos/3a-final-catalunya-promeses-2026-2026-12-12\nConfirma fechas y cond
+ iciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.catgolf.com/es/campeonatos/3a-final-catalunya-promeses-2026
+ -2026-12-12
+END:VEVENT
+BEGIN:VEVENT
+UID:ffe49fcb3afaf6e6de44@banderin.es
+DTSTAMP:20261127T083339Z
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261214
+SUMMARY:Fase Final Catalunya Promeses 26
+LOCATION:Golf Serres de Pals
+DESCRIPTION:Social de club - Individual\nFicha oficial: https://www.catgolf
+ .com/es/campeonatos/fase-final-catalunya-promeses-26-2026-12-12\nConfirma 
+ fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.catgolf.com/es/campeonatos/fase-final-catalunya-promeses-26
+ -2026-12-12
+END:VEVENT
+BEGIN:VEVENT
+UID:462644c81e1e84e290e2@banderin.es
+DTSTAMP:20261127T083339Z
+DTSTART;VALUE=DATE:20270306
+DTEND;VALUE=DATE:20270308
+SUMMARY:Circuit Nacional 5a Categoria 2027 (Serres)
+LOCATION:Golf Serres de Pals
+DESCRIPTION:Absoluto - Individual\nFicha oficial: https://www.catgolf.com/e
+ s/campeonatos/circuit-nacional-5a-categoria-2027-serres-2027-03-06\nConfir
+ ma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.catgolf.com/es/campeonatos/circuit-nacional-5a-categoria-20
+ 27-serres-2027-03-06
+END:VEVENT
+END:VCALENDAR
