@@ -24,3 +24,6 @@ Dirección (ceo, analista, dec, bib) · Operaciones y usuarios (operaciones, ate
 
 ## Límites
 Los agentes de la oficina trabajan con el cerebro y proponen. Nada sale a terceros, nada se gasta y nada se borra sin el OK de Juan (ver `agentes/REGLAS.md`).
+
+## Artefacto
+Publicado como «Banderín · Oficina de agentes» (slug `28f41315-54cc-4837-af21-2d2dc82d2329`), privado. Capacidades: db (encargos y memoria), sample (agentes con Claude), downloads, assets, user.
