@@ -31,7 +31,7 @@ Para cada encargo con `prodEstado == "pendiente"`:
    - `carrusel`, `post` o `story`: convierte el guion en el JSON de `marketing/carrusel/hacer.py` (lee su cabecera) y ejecútalo. Una lámina por idea; carrusel 6–8 láminas, post 1, story 3. Si una foto ayuda (portada sobre todo), genérala con Picsart `flux-2-pro`, sin personas reconocibles ni logos, y ponla como `imagen`. Sube los PNG en orden.
    - Tope por ejecución: 2 voces y 6 imágenes de IA. Si se acaba, produce sin foto (las láminas quedan bien con fondo de color).
 4. **Controles** (`agentes/habilidades/controles-antes-de-publicar.md`): datos reales y con fecha, nada de precios, jugadores ni resultados, «golfdirecto.com» visible si se nombra un torneo de Golf Directo, sin marcas ni personajes de otros. Mira los PNG o 3 fotogramas del vídeo antes de subir.
-5. **Subir:** `upload_asset` con slug `28f41315-54cc-4837-af21-2d2dc82d2329` (hasta 10 archivos por llamada; nombres como `reel-<id>.mp4`, `carrusel-<id>-01.png`).
+5. **Subir:** copia los archivos a una carpeta bajo `/home/claude` (en `/tmp` no se adjuntan) y usa `upload_asset` con slug `28f41315-54cc-4837-af21-2d2dc82d2329` (hasta 10 archivos por llamada; nombres como `reel-<id>.mp4`, `carrusel-<id>-01.png`).
 6. **Guardar en el encargo:** `prodEstado: "listo"`, `prodListo: <ahora>`, `prodMsg: ""` y
    `prodMedia: [{"id": "<opaque_id>", "url": "<url>", "nombre": "carrusel-01.png", "tipo": "imagen"|"video"}]` (en orden; la portada del vídeo con `"tipo": "portada"`).
    Si `result` lo escribiste tú, guárdalo. Si el encargo estaba en `cola` o `hecha`, pásalo a `aprob` para que Juan dé el OK. Log: «Productor: <qué> listo (n archivos)».

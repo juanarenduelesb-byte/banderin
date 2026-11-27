@@ -836,21 +836,24 @@ async function run(id,extra){
     if(S.sample){
       // Calidad exigente: hasta QA_MAX rondas. Decide el código (rúbrica), no el modelo. Sin su OK no llega a Juan.
       QA_REFS[id]=brain.refs;
-      for(var ronda=1;ronda<=QA_MAX;ronda++){
-        t=clone(S.tasks[id]);t.result=out;t.status='revision';lg(t,'Calidad revisa (ronda '+ronda+' de '+QA_MAX+')');await put('tasks',id,t);
+      /* Tope de rondas: si Juan ya ha decidido tras un atasco, una sola revisión y le llega igual; contenido de redes, 2 rondas */
+      var tq=S.tasks[id]||{},qaMax=tq.qaJuan?1:(tq.qk||/\b(reel|carrusel|story|publicaci[oó]n)\b/i.test(tq.text||''))?2:QA_MAX;
+      for(var ronda=1;ronda<=qaMax;ronda++){
+        t=clone(S.tasks[id]);t.result=out;t.status='revision';lg(t,'Calidad revisa (ronda '+ronda+' de '+qaMax+')');await put('tasks',id,t);
         q=await qaTalk(t,out,a,ronda,rondas);
         if(!q){t=clone(S.tasks[id]);lg(t,'Calidad no ha podido revisar (fallo al consultar a Claude): reintenta');await put('tasks',id,t);await new Promise(function(r){setTimeout(r,5000)});q=await qaTalk(t,out,a,ronda,rondas)}
         if(!q){q={cumple:false,sinRevisar:true,nota:'Calidad no ha podido revisar',problemas:[],media:0,ronda:ronda};break}
         rondas.push(q);
         t=clone(S.tasks[id]);lg(t,'Calidad, ronda '+ronda+': '+(q.cumple?'CUMPLE':'NO CUMPLE')+' · nota '+fmtN(q.media)+'/5'+(q.cumple?'':' · '+q.problemas.map(function(p){return '['+p.gravedad+'] '+p.problema}).join('; ').slice(0,600)));await put('tasks',id,t);
         learnFromQA(a.id,q);
-        if(q.cumple||ronda===QA_MAX)break;
+        if(q.cumple||ronda===qaMax)break;
         t=clone(S.tasks[id]);t.status='marcha';lg(t,a.n+' corrige lo que pide Calidad');await put('tasks',id,t);
         S.working[a.id]=1;render();
         out=await work(t,a,'CALIDAD HA DEVUELTO TU BORRADOR (ronda '+ronda+' de '+QA_MAX+'). Corrige TODOS estos problemas, uno por uno, sin introducir otros:\n'+q.problemas.map(function(p,i){return (i+1)+'. ['+p.gravedad+' · '+p.categoria+'] '+p.problema+(p.donde?' (dónde: '+p.donde+')':'')+(p.arreglo?' → Cómo: '+p.arreglo:'')}).join('\n')+'\nEntrega la versión completa corregida, no solo los cambios.\n\nBORRADOR ANTERIOR:\n'+String(out).slice(0,14000)+(extra?'\n\n'+extra:''),brain);
         delete S.working[a.id];
       }
-      if(!q.cumple&&!q.sinRevisar){
+      var grave=(q.problemas||[]).some(function(p){return /grave/i.test(p.gravedad||'')});
+      if(!q.cumple&&!q.sinRevisar&&grave&&!(S.tasks[id]||{}).qaJuan){
         t=Object.assign(clone(S.tasks[id]),{result:out,read:brain.refs,qa:q,qaRounds:rondas.length,status:'preg',qaBlocked:1,
           question:'Calidad no lo da por bueno tras '+rondas.length+' rondas (nota '+fmtN(q.media)+'/5). Lo que sigue mal:\n'+(q.problemas||[]).map(function(p){return '- ['+p.gravedad+'] '+p.problema}).join('\n')+'\n\nDime cómo quieres que siga (o qué dato falta) y lo rehace; o descártalo.'});
         lg(t,'Atascado en Calidad: necesita tu criterio');await put('tasks',id,t);toast('Calidad no da por bueno «'+clipT(t.title,40)+'»: necesita tu criterio');return}
@@ -868,8 +871,8 @@ async function run(id,extra){
     if(dv){t.deliv=dv.id;lg(t,'Entregable listo: '+VE.KINDS[dv.kind].n+' v'+dv.version)}
     // Todo lo que pasa Calidad llega a Juan: aprueba o rechaza (y si rechaza, se rehace aprendiendo).
     t.status=S.sample?'aprob':'hecha';
-    if(q&&q.sinRevisar)t.qaSkip=1;
-    lg(t,(q&&q.sinRevisar?'Calidad no ha podido revisarlo por un fallo técnico: revísalo tú antes de dar el OK. ':q?'Calidad: CUMPLE en la ronda '+rondas.length+' (nota '+fmtN(q.media)+'/5). ':'')+(t.status==='aprob'?'Versión '+t.version+' · espera tu OK':'Entregado'));
+    if(q&&q.sinRevisar)t.qaSkip=1;else if(q&&!q.cumple){t.qaNotas=1;delete t.qaJuan}else delete t.qaJuan;
+    lg(t,(q&&q.sinRevisar?'Calidad no ha podido revisarlo por un fallo técnico: revísalo tú antes de dar el OK. ':q&&!q.cumple?'Llega con notas de Calidad (nota '+fmtN(q.media)+'/5, nada grave o ya lo decidiste tú): mira sus notas antes de dar el OK. ':q?'Calidad: CUMPLE en la ronda '+rondas.length+' (nota '+fmtN(q.media)+'/5). ':'')+(t.status==='aprob'?'Versión '+t.version+' · espera tu OK':'Entregado'));
     await put('tasks',id,t);
     chatPush(a.id,{role:'assistant',content:'**Entrega: '+t.title+'**\n\n'+out,task:id});
     toast(a.n+' ha entregado: '+t.title);
@@ -941,7 +944,7 @@ async function revise(id,txt){
 }
 async function answer(id,txt){
   var t=clone(S.tasks[id]);
-  if(t.qaBlocked){t.question='';t.qaBlocked=0;lg(t,'Instrucciones de Juan tras el atasco en Calidad: '+txt);await put('tasks',id,t);
+  if(t.qaBlocked){t.question='';t.qaBlocked=0;t.qaJuan=1;lg(t,'Instrucciones de Juan tras el atasco en Calidad: '+txt);await put('tasks',id,t);
     remember({kind:'correccion',title:'Atasco en Calidad: '+t.title,text:'Calidad no lo daba por bueno ('+qaTxt(t.qa||{})+'). El Juan indicó: '+txt,task:id,project:t.project,agent:t.agent});
     run(id,'CALIDAD NO DABA POR BUENA TU ENTREGA. Problemas pendientes: '+qaTxt(t.qa||{})+'\nINSTRUCCIONES DEL SOCIO: '+txt+'\nRehaz la entrega completa aplicándolas.\n\nBORRADOR ANTERIOR:\n'+String(t.result||'').slice(0,14000));return}
   t.text=t.text+'\n\nRespuesta de Juan a la pregunta del CEO ('+(t.question||'')+'): '+txt;t.question='';t.decision='CONTINUAR';
@@ -1307,7 +1310,7 @@ function openTask(id){
   cur.task=id;var t=S.tasks[id];if(!t)return;var a=t.agent?ag(t.agent):null,d=a?dep(a.dep):null,c=t.ceo||{};
   var h='<div class="dh"><span class="av" style="background:'+(d?d.c:'#6A5A55')+'">'+(a?ini(a.n):'CEO')+'</span><div><h2>'+esc(t.title||'Encargo')+'</h2><small>'+(a?esc(a.n)+' · '+esc(d.n):'Pendiente de asignar')+' · '+ST[t.status][0]+'</small></div><button class="btn x" type="button" id="cx">Cerrar</button></div><div class="db">';
   if(t.status==='preg')h+='<div class="callout w"><b>'+(t.qaBlocked?'Atascado en Calidad':'El CEO pregunta')+'</b><p style="white-space:pre-wrap">'+esc(t.question||'Necesita más información.')+'</p><textarea id="ans" placeholder="Tu respuesta"></textarea><div class="row" style="margin-top:8px"><button class="btn p" id="bAns" type="button">Responder y seguir</button><button class="btn" id="bDel" type="button">Descartar</button></div></div>';
-  if(t.status==='aprob')h+='<div class="callout w"><b>Tu decisión</b><p class="hint">Riesgo '+esc(t.risk||'—')+(t.qaSkip?' · Calidad no ha podido revisarlo':t.qa?(t.qa.cumple?' · Calidad: cumple':' · Calidad ve problemas'):'')+'. '+(t.qaSkip?'<b>Revísalo tú con calma: nadie lo ha comprobado.</b>':'Calidad ya lo ha dado por bueno.')+' Si apruebas, queda como válido; si rechazas, el agente lo rehace con tu motivo, vuelve a pasar Calidad y te llega otra vez. La oficina no envía nada por ti.</p><textarea id="okWhy" placeholder="Para aprobar, opcional: qué te ha gustado. Para rechazar, obligatorio: qué falla y qué esperas. El agente lo rehace con eso y lo aprende." style="width:100%;margin-bottom:8px;min-height:64px"></textarea><div class="row"><button class="btn g" id="bOk" type="button">Aprobar</button><button class="btn" id="bEd" type="button">Editar y aprobar</button><button class="btn w" id="bNo" type="button">Rechazar y rehacer</button><span class="spacer"></span><button class="btn sm" id="bPos" type="button">Posponer</button><button class="btn sm" id="bDis" type="button">Descartar</button></div><div id="edBox" hidden style="margin-top:8px"><textarea id="edTxt" style="width:100%;min-height:180px"></textarea><p class="hint" style="margin:4px 0 8px">Corrige el texto y aprueba tu versión. La original y tu corrección quedan en la memoria para que el agente aprenda.'+(t.deliv?' El archivo maquetado no cambia: si hace falta, usa «Pide un cambio».':'')+'</p><div class="row"><button class="btn g" id="bEdOk" type="button">Aprobar con mis cambios</button><button class="btn sm" id="bEdNo" type="button">Cancelar</button></div></div>'+(t.caduca?'<p class="hint" style="margin:6px 0 0">Caduca el '+esc(fmt(t.caduca))+': si nadie decide, no continúa y vuelve a Inicio.</p>':'')+(t.version>1?'<p class="hint" style="margin:6px 0 0">Versión '+t.version+'.</p>':'')+'</div>';
+  if(t.status==='aprob')h+='<div class="callout w"><b>Tu decisión</b><p class="hint">Riesgo '+esc(t.risk||'—')+(t.qaSkip?' · Calidad no ha podido revisarlo':t.qaNotas?' · Calidad deja notas (nada grave)':t.qa?(t.qa.cumple?' · Calidad: cumple':' · Calidad ve problemas'):'')+'. '+(t.qaSkip?'<b>Revísalo tú con calma: nadie lo ha comprobado.</b>':t.qaNotas?'Mira las notas de Calidad abajo antes de dar el OK.':'Calidad ya lo ha dado por bueno.')+' Si apruebas, queda como válido; si rechazas, el agente lo rehace con tu motivo, vuelve a pasar Calidad y te llega otra vez. La oficina no envía nada por ti.</p><textarea id="okWhy" placeholder="Para aprobar, opcional: qué te ha gustado. Para rechazar, obligatorio: qué falla y qué esperas. El agente lo rehace con eso y lo aprende." style="width:100%;margin-bottom:8px;min-height:64px"></textarea><div class="row"><button class="btn g" id="bOk" type="button">Aprobar</button><button class="btn" id="bEd" type="button">Editar y aprobar</button><button class="btn w" id="bNo" type="button">Rechazar y rehacer</button><span class="spacer"></span><button class="btn sm" id="bPos" type="button">Posponer</button><button class="btn sm" id="bDis" type="button">Descartar</button></div><div id="edBox" hidden style="margin-top:8px"><textarea id="edTxt" style="width:100%;min-height:180px"></textarea><p class="hint" style="margin:4px 0 8px">Corrige el texto y aprueba tu versión. La original y tu corrección quedan en la memoria para que el agente aprenda.'+(t.deliv?' El archivo maquetado no cambia: si hace falta, usa «Pide un cambio».':'')+'</p><div class="row"><button class="btn g" id="bEdOk" type="button">Aprobar con mis cambios</button><button class="btn sm" id="bEdNo" type="button">Cancelar</button></div></div>'+(t.caduca?'<p class="hint" style="margin:6px 0 0">Caduca el '+esc(fmt(t.caduca))+': si nadie decide, no continúa y vuelve a Inicio.</p>':'')+(t.version>1?'<p class="hint" style="margin:6px 0 0">Versión '+t.version+'.</p>':'')+'</div>';
   if(t.project&&proj(t.project))h+='<p class="hint">Proyecto: <a href="#" id="tPj">'+esc(proj(t.project).name)+'</a></p>';
   var dv=t.deliv&&S.deliverables[t.deliv];
   if(dv)h+='<p class="sec">Entregable</p>'+dcard(dv)+'<div class="row" style="margin:6px 0 4px">'+dlButtons(dv)+'</div>';
