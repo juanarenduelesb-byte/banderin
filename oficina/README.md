@@ -18,6 +18,12 @@ En pantallas de menos de 760 px la oficina abre en modo rápido: botones grandes
 - **Pestaña Equipo** (móvil): quién trabaja y en qué, y el botón «Ver la oficina en 3D».
 - **Datos de la semana**: `cerebro/semana.md` (torneos del finde por comunidad, cambios y métricas) lo rehace cada día la acción «Semana para la oficina» (`agentes/tools/semana_oficina.py`, sin IA).
 
+## Producción de verdad (vídeos e imágenes)
+- Los encargos de reel, publicación, carrusel y story nacen con `prodEstado: "pendiente"`. El botón **Producir** lo pide para cualquier contenido ya escrito.
+- La tarea programada **Productor** (`agentes/tareas/productor.md`, cada 2 horas de 9 a 23) los coge aunque la oficina esté cerrada: escribe el guion si falta, crea el MP4 con el motor de reels o las láminas con `marketing/carrusel/hacer.py`, los sube como archivos del artefacto y los deja en `prodMedia`.
+- La oficina los enseña arriba del encargo (vídeo con reproductor, galería de láminas) con **Descargar** y **Descargar todo**.
+- El Productor también hace los encargos de texto que se queden en cola más de 30 minutos con la oficina cerrada.
+
 ## Cómo se actualiza
 No se edita a mano el bloque de datos de `index.html` ni los JSON:
 

@@ -368,6 +368,17 @@ body.v3d #dtoday.o3only,body.v3d #dwait.o3only{display:block!important}
 .qk button{border:1px solid var(--hairline);background:var(--paper);color:var(--ink);border-radius:999px;padding:7px 12px;font:600 13px var(--font);cursor:pointer}
 .qk button:hover{border-color:var(--accent);color:var(--accent)}
 #mob{display:none}
+.prodst{background:var(--accent-tint);color:var(--accent);border-radius:12px;padding:10px 12px;font-weight:600;font-size:14px;margin:4px 0 10px}.prodst.err{background:var(--crit-tint);color:var(--crit)}
+.gal{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:10px;margin:6px 0 10px}.gal.big{grid-template-columns:repeat(auto-fill,minmax(180px,1fr))}
+.gal figure{margin:0;background:var(--paper);border:1px solid var(--hairline);border-radius:12px;overflow:hidden;display:flex;flex-direction:column}
+.gal img,.gal video{width:100%;display:block;background:#0b1a12}.gal video{max-height:70vh}
+.gal figcaption{display:flex;align-items:center;justify-content:space-between;gap:6px;padding:6px 8px;font-size:12px;color:var(--ink-muted)}.gal figcaption span{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.gal:has(video){grid-template-columns:minmax(0,360px)}
+#mob .thumb{display:block;position:relative;width:100%;border:0;padding:0;margin:-2px 0 10px;border-radius:12px;overflow:hidden;background:#0b1a12;aspect-ratio:4/3}
+#mob .thumb img{width:100%;height:100%;object-fit:cover;display:block}#mob .thumb .play{position:absolute;inset:0;display:grid;place-items:center;color:#fff;font-size:44px;text-shadow:0 2px 12px rgba(0,0,0,.5)}
+#mob .thumb .n{position:absolute;left:10px;bottom:10px;background:rgba(0,0,0,.6);color:#fff;font-size:12px;border-radius:999px;padding:3px 9px}
+#mob .pill.pr{background:var(--warn-tint);color:var(--warn)}#mob .pill.pr.err{background:var(--crit-tint);color:var(--crit)}
+
 .cweek{margin:12px 0 0}
 .cweek .cw-h{display:flex;align-items:baseline;justify-content:space-between;margin:0 0 6px}.cweek .cw-h b{font-size:14px}.cweek .cw-h small{color:var(--ink-muted);font-size:12px}
 .cweek .cd{display:grid;grid-template-columns:64px minmax(0,1fr);gap:8px;align-items:start;padding:7px 0;border-top:1px solid var(--hairline)}
@@ -777,7 +788,7 @@ async function qaTalk(t,out,a,ronda,prev){
 function wantsTeam(t){return /\ben equipo\b|que lo haga el equipo|todo el equipo/i.test(t)}
 async function addTask(text,opts){
   opts=opts||{};text=(text||'').trim();if(!text)return;
-  var id=uid(),pj=proj(opts.project),t={id:id,project:pj?pj.id:'',formatReq:opts.format||'auto',text:text,title:opts.title||text.slice(0,70),qt:!!opts.title,qk:opts.qk||'',pub:opts.pub||'',dep:opts.dep||'',tier:opts.tier||'default',team:!!opts.team||wantsTeam(text),forceOk:!!opts.ok,routine:opts.routine||'',late:!!opts.late,status:'cola',created:now(),when:opts.when||'',log:[{t:now(),m:'Encargo recibido'+(opts.routine?' de la rutina «'+opts.routine+'»':'')+(opts.late?' (con retraso)':'')}]};
+  var id=uid(),pj=proj(opts.project),t={id:id,project:pj?pj.id:'',formatReq:opts.format||'auto',text:text,title:opts.title||text.slice(0,70),qt:!!opts.title,qk:opts.qk||'',pub:opts.pub||'',prodEstado:opts.prod?'pendiente':'',prodPedido:opts.prod?now():'',dep:opts.dep||'',tier:opts.tier||'default',team:!!opts.team||wantsTeam(text),forceOk:!!opts.ok,routine:opts.routine||'',late:!!opts.late,status:'cola',created:now(),when:opts.when||'',log:[{t:now(),m:'Encargo recibido'+(opts.routine?' de la rutina «'+opts.routine+'»':'')+(opts.late?' (con retraso)':'')}]};
   if(opts.meeting){t.meeting=opts.meeting;t.agent=opts.meeting.a;t.decision='CONTINUAR';t.risk='bajo';t.title='Reunión: '+ag(opts.meeting.a).n+' y '+ag(opts.meeting.b).n;t.ceo={objetivo:'Acta de la reunión sobre: '+text,criterio:'Acta con asistentes, acuerdos, decisiones y siguientes pasos con responsable',confirmado:[],inferido:[],desconocido:[],proceso:''};lg(t,'Reunión convocada en el cerebro');await put('tasks',id,t);goBrain(opts.meeting.a);goBrain(opts.meeting.b);run(id);return id}
   var H=histFor(text+(pj?' '+pj.name+' '+(pj.objective||''):''),t.project,id);
   t.hist=H.map(function(h){return {k:h.k,id:h.id,title:h.title}});
@@ -2133,7 +2144,7 @@ function openQuick(k,dia){var Q=QUICK[k];if(!Q)return;
     var fx=o.extra.toLowerCase(),alt=/carrusel/.test(fx)?'carrusel':/\bstor(y|ies)\b/.test(fx)?'story':/\breel\b|v[ií]deo/.test(fx)?'reel':/publicaci[oó]n|\bpost\b|foto/.test(fx)&&!/carrusel/.test(fx)?'post':'';
     if(alt&&alt!==k&&QUICK[alt]&&!/no quiero (un |una )?(carrusel|reel|story|publicaci)/.test(fx)){toast('Lo pido como '+QUICK[alt].n.toLowerCase()+', que es lo que has escrito');k=alt;Q=QUICK[alt]}
     qsClose();if(o.pub&&!o.cuando){var dd=D7.find(function(x){return x.iso===o.pub});o.cuando=dd?dd.l:o.pub}
-    addTask(Q.pide(o),{dep:'com',format:'auto',qk:k,pub:o.pub,title:[Q.n,o.tema,o.cuando&&o.cuando.toLowerCase()].filter(Boolean).join(' · ')});toast(Q.n+' pedido. Te aviso en «Te esperan» cuando esté.');mTab='esperan';setTimeout(renderMob,300)};
+    addTask(Q.pide(o),{dep:'com',format:'auto',qk:k,pub:o.pub,prod:QK_TIPOS.indexOf(k)>=0,title:[Q.n,o.tema,o.cuando&&o.cuando.toLowerCase()].filter(Boolean).join(' · ')});toast(QK_TIPOS.indexOf(k)>=0?Q.n+' pedido. El equipo escribe el guion y el Productor lo crea de verdad: lo verás aquí.':Q.n+' pedido. Te aviso en «Te esperan» cuando esté.');mTab='esperan';setTimeout(renderMob,300)};
   q('qs').classList.add('on')}
 /* Botones rápidos también en la oficina de ordenador */
 (function(){var box=q('tTxt');if(!box)return;var d=document.createElement('div');d.className='qk';
@@ -2162,21 +2173,46 @@ function renderCalD(){var c=q('cweekD');if(!c)return;c.innerHTML=calHTML(false);
 /* Producir: deja el guion aprobado listo para pegar en el chat */
 function prodText(t){var Q=QUICK[t.qk]||{n:'Contenido'};return 'Produce este '+Q.n.toLowerCase()+' de Banderín con el motor de reels (marketing/reels) y déjamelo listo para publicar'+(t.pub?' el '+t.pub:'')+'. Usa los datos reales de la web del día que se produzca y revisa el acuerdo con Golf Directo.\n\n'+(t.result||t.text)}
 function isContent(t){return t&&t.result&&(QK_TIPOS.indexOf(t.qk)>=0||/\b(reel|carrusel|story|stories|publicaci[oó]n)\b/i.test(t.text||''))}
-function doProduce(id,host){var t=S.tasks[id];if(!t)return;var tx=prodText(t);
+function doProduce(id){var t=S.tasks[id];if(!t)return;if(t.prodEstado==='pendiente'||t.prodEstado==='produciendo'){toast('Ya está en producción');return}
+  var x=clone(t);x.prodEstado='pendiente';x.prodPedido=now();x.prodMsg='';lg(x,'Pedido al Productor: crear '+((QUICK[t.qk]||{n:'la pieza'}).n.toLowerCase())+' de verdad');put('tasks',id,x);
+  toast('En cola del Productor: lo crea en las próximas 2 horas, aunque cierres la oficina.');setTimeout(function(){if(q('drawer').classList.contains('on'))openTask(id)},300)}
+function copyProd(id,host){var t=S.tasks[id];if(!t)return;var tx=prodText(t);
   var fallback=function(){var b=document.createElement('div');b.className='prodbox';b.innerHTML='<p class="hint">Cópialo a mano y pégalo en el chat con Claude:</p><textarea readonly></textarea>';b.querySelector('textarea').value=tx;(host||q('drawer')).appendChild(b);var ta=b.querySelector('textarea');ta.focus();ta.select()};
   try{navigator.clipboard.writeText(tx).then(function(){toast('Copiado. Pégalo en el chat con Claude y lo produzco.')}).catch(fallback)}catch(e){fallback()}
-  t.prod=now();lg(t,'Enviado a producción (copiado para el chat)');put('tasks',id,t)}
-function addProduce(dr,t){if(!isContent(t)||!(t.status==='hecha'||t.status==='aprob'))return;var bc=dr.querySelector('#bCopy');
-  var html='<button class="btn g" id="bProd" type="button" title="Copia el guion listo para pegarlo en el chat y producir el vídeo o las imágenes">'+(t.prod?'Producir otra vez':'Producir')+'</button>';
-  if(bc)bc.insertAdjacentHTML('beforebegin',html);else return;q('bProd').onclick=function(){doProduce(t.id,dr.querySelector('.deliv')&&dr.querySelector('.deliv').parentNode)}}
+}
+function addProduce(dr,t){
+  var box=document.createElement('div');box.className='prodsec';box.innerHTML=mediaHTML(t,true);
+  var first=dr.querySelector('p.sec');if(first&&(t.prodEstado||(t.prodMedia&&t.prodMedia.length))){var host=first.parentNode;host.insertBefore(box,host.firstChild)}bindMedia(box);
+  if(!isContent(t)||!(t.status==='hecha'||t.status==='aprob'))return;var bc=dr.querySelector('#bCopy');if(!bc)return;
+  var busy=t.prodEstado==='pendiente'||t.prodEstado==='produciendo';
+  bc.insertAdjacentHTML('beforebegin','<button class="btn g" id="bProd" type="button"'+(busy?' disabled':'')+' title="El Productor crea el vídeo o las imágenes de verdad y los deja aquí">'+(busy?'En producción…':t.prodEstado==='listo'?'Producir otra vez':'Producir')+'</button><button class="btn" id="bProdC" type="button" title="Copia el guion para pegarlo en el chat con Claude">Copiar para el chat</button>');
+  q('bProd').onclick=function(){if(t.prodEstado==='listo'&&!confirmInline(q('bProd')))return;doProduce(t.id)};q('bProdC').onclick=function(){copyProd(t.id,dr.querySelector('.deliv')&&dr.querySelector('.deliv').parentNode)}}
+function confirmInline(b){if(b.dataset.sure)return true;b.dataset.sure=1;b.textContent='¿Rehacer? Toca otra vez';setTimeout(function(){delete b.dataset.sure;b.textContent='Producir otra vez'},4000);return false}
+/* Galería de lo producido: ver y descargar */
+function murl(m){var u=String(m.url||'');return /^https:\/\//.test(u)||/^\/_blob\//.test(u)?u:'/_blob/'+encodeURIComponent(m.id||'')}
+function prodLine(t){return t.prodEstado==='pendiente'?'En cola del Productor (cada 2 horas, aunque cierres la oficina)':t.prodEstado==='produciendo'?'El Productor lo está creando ahora':t.prodEstado==='error'?'No se pudo producir: '+(t.prodMsg||'error'):''}
+function mediaHTML(t,big){var M=(t.prodMedia||[]).filter(function(m){return m.tipo!=='portada'}),h='';
+  var pl=prodLine(t);if(pl)h+='<p class="prodst '+(t.prodEstado==='error'?'err':'')+'">'+esc(pl)+'</p>';
+  if(!M.length)return h;
+  var poster=(t.prodMedia||[]).find(function(m){return m.tipo==='portada'});
+  h+='<p class="sec">'+(M.some(function(m){return m.tipo==='video'})?'Vídeo':'Imágenes')+' · listo para descargar</p><div class="gal'+(big?' big':'')+'">'+M.map(function(m,i){var u=esc(murl(m));
+    return '<figure>'+(m.tipo==='video'?'<video src="'+u+'" controls playsinline preload="metadata"'+(poster?' poster="'+esc(murl(poster))+'"':'')+'></video>':'<img src="'+u+'" alt="'+esc(m.nombre||('Lámina '+(i+1)))+'" loading="lazy">')+
+      '<figcaption><span>'+esc(m.nombre||('Archivo '+(i+1)))+'</span><button type="button" class="btn sm" data-dl="'+u+'" data-fn="'+esc(m.nombre||('banderin-'+(i+1)))+'">Descargar</button></figcaption></figure>'}).join('')+'</div>'+
+    (M.length>1?'<button type="button" class="btn" data-dlall="1">Descargar todo ('+M.length+')</button>':'');
+  return h}
+async function dlOne(u,fn){try{var r=await fetch(u);var b=await r.blob();if(S.dl){await S.dl.save({filename:fn,data:b});return true}
+  var a=document.createElement('a');a.href=URL.createObjectURL(b);a.download=fn;document.body.appendChild(a);a.click();a.remove();return true}catch(e){window.open(u,'_blank');return false}}
+function bindMedia(root){root.querySelectorAll('[data-dl]').forEach(function(b){b.onclick=function(){dlOne(b.dataset.dl,b.dataset.fn)}});
+  root.querySelectorAll('[data-dlall]').forEach(function(b){b.onclick=async function(){var L=root.querySelectorAll('[data-dl]');for(var i=0;i<L.length;i++){await dlOne(L[i].dataset.dl,L[i].dataset.fn)}}})}
 var MQ=matchMedia('(max-width:760px)'),mTab='pedir';window.__noScene=function(){return isMob()};
 function isMob(){return MQ.matches&&!document.body.classList.contains('fullui')}
 function mIcon(p){return '<span class="ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="'+p+'"/></svg></span>'}
-function mCard(t){var a=ag(t.agent)||{n:'El equipo'},s=ST[t.status]||[t.status];
-  return '<div class="card"><small><b>'+esc(a.n)+'</b> · <span class="pill">'+esc(s[0])+'</span></small><p>'+esc((t.title||t.text||'').slice(0,110))+'</p><div class="r">'+
+function mCard(t){var a=ag(t.agent)||{n:'El equipo'},s=ST[t.status]||[t.status],M=(t.prodMedia||[]),th=M.find(function(m){return m.tipo==='portada'})||M.find(function(m){return m.tipo==='imagen'}),vid=M.some(function(m){return m.tipo==='video'});
+  return '<div class="card">'+(th?'<button type="button" class="thumb" data-mv="'+t.id+'"><img src="'+esc(murl(th))+'" alt="">'+(vid?'<span class="play">▶</span>':'')+'<span class="n">'+(vid?'Vídeo':M.length+' imágenes')+'</span></button>':'')+
+    '<small><b>'+esc(a.n)+'</b> · <span class="pill">'+esc(s[0])+'</span>'+(t.prodEstado&&t.prodEstado!=='listo'?' <span class="pill pr'+(t.prodEstado==='error'?' err':'')+'">'+(t.prodEstado==='error'?'Error al producir':'Produciendo')+'</span>':'')+'</small><p>'+esc((t.title||t.text||'').slice(0,110))+'</p><div class="r">'+
     (t.status==='aprob'?'<button type="button" class="g" data-mok="'+t.id+'">Dar el OK</button>':'')+
     (RUNNING_ST[t.status]&&!INFLIGHT[t.id]&&!S.working[t.agent]&&/^No se pudo trabajar/.test(((t.log||[]).slice(-1)[0]||{}).m||'')?'<button type="button" class="g" data-mr="'+t.id+'">Reintentar</button>':'')+
-    '<button type="button" data-mv="'+t.id+'">'+(t.status==='preg'?'Responder':'Ver')+'</button>'+(isContent(t)&&(t.status==='hecha'||t.status==='aprob')?'<button type="button" data-mp="'+t.id+'">'+(t.prod?'Producir otra vez':'Producir')+'</button>':'')+'</div></div>'}
+    '<button type="button" data-mv="'+t.id+'">'+(t.status==='preg'?'Responder':'Ver')+'</button>'+(isContent(t)&&(t.status==='hecha'||t.status==='aprob')&&!t.prodEstado?'<button type="button" data-mp="'+t.id+'">Producir</button>':'')+'</div></div>'}
 function renderMob(){renderCalD();if(!q('mBody'))return;
   var T=Object.values(S.tasks).filter(function(t){return !t.piece}),by=function(a,b){return String(b.done||b.created).localeCompare(String(a.done||a.created))};
   var wt=T.filter(function(t){return t.status==='aprob'||t.status==='preg'}).sort(by),
@@ -2192,7 +2228,7 @@ function renderMob(){renderCalD();if(!q('mBody'))return;
       '<div class="free"><textarea id="mTxt" placeholder="O escríbelo tú: «ideas para un reel de Navidad»"></textarea><button type="button" id="mGo">Pedir</button></div>'+
       (run_.length?'<h2>En marcha</h2>'+run_.slice(0,4).map(mCard).join(''):'')+
       (wt.length?'<h2>Te esperan <span class="n">'+wt.length+'</span></h2>'+wt.slice(0,2).map(mCard).join(''):'')+
-      '<p class="note">El equipo prepara guion, textos y pie. El vídeo final lo monta el motor de reels: pídemelo en el chat con lo que apruebes.</p>'+
+      '<p class="note">Reels, publicaciones, carruseles y stories se crean de verdad: el equipo escribe el guion y el Productor hace el vídeo o las imágenes y los deja aquí para ver y descargar. El Productor pasa cada 2 horas de 9 a 23, aunque cierres la oficina.</p>'+
       '<button type="button" class="full-btn" id="mFull">Abrir la oficina completa</button>'}
   else if(mTab==='esperan'){h='<h1>Te esperan</h1>'+(wt.length?wt.map(mCard).join(''):'<p class="empty">Nada pendiente. Todo al día.</p>')+(run_.length?'<h2>En marcha</h2>'+run_.map(mCard).join(''):'')}
   else if(mTab==='equipo'){var W=A.filter(function(a){return agentState(a.id)==='work'}).length;
@@ -2207,7 +2243,7 @@ function renderMob(){renderCalD();if(!q('mBody'))return;
   q('mBody').querySelectorAll('[data-q]').forEach(function(b){b.onclick=function(){openQuick(b.dataset.q)}});
   q('mBody').querySelectorAll('[data-mv]').forEach(function(b){b.onclick=function(){openTask(b.dataset.mv)}});
   q('mBody').querySelectorAll('[data-mr]').forEach(function(b){b.onclick=function(){if(!S.sample){toast('Sin Claude no se puede reintentar');return}b.disabled=true;run(b.dataset.mr);toast('Reintentando…')}});
-  q('mBody').querySelectorAll('[data-mp]').forEach(function(b){b.onclick=function(){doProduce(b.dataset.mp,b.closest('.card'))}});
+  q('mBody').querySelectorAll('[data-mp]').forEach(function(b){b.onclick=function(){doProduce(b.dataset.mp);setTimeout(renderMob,300)}});
   q('mBody').querySelectorAll('[data-ma]').forEach(function(b){b.onclick=function(){openAgent(b.dataset.ma)}});
   if(q('cweekM'))bindCal(q('cweekM'));
   if(q('m3d'))q('m3d').onclick=function(){document.body.classList.add('fullui');window.scrollTo(0,0);setTimeout(function(){try{fit()}catch(e){}closeAll();goAgents();buildScene();render()},60)};
