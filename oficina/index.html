@@ -659,6 +659,11 @@ function search(q,k){
   var per={},out=[];res.forEach(function(r){var d=BRN.chunks[r[1]].d;if(out.length<k&&(per[d]||0)<2){per[d]=(per[d]||0)+1;out.push(r[1])}});
   return out;
 }
+/* Calidad lee lo mismo que leyó el agente (y algo más por el encargo): si no, suspende datos reales como «no verificables» */
+var QA_REFS={};
+function qaBrain(t){var own=brainFor(t.text,3,3000),refs=(QA_REFS[t.id]||t.read||[]).slice(0,8),o='',seen={};
+  refs.forEach(function(i){var c=BRN.chunks[i];if(!c||seen[i])return;seen[i]=1;var piece='['+refLabel(i)+']\n'+c.t.slice(0,2000)+'\n\n';if(o.length+piece.length>9000)return;o+=piece});
+  return {txt:(o?'SECCIONES QUE LEYÓ EL AGENTE (cuentan como fuente válida):\n'+o:'')+own.txt,refs:refs.concat(own.refs)}}
 function brainFor(q,k,max){
   max=max||9000;var ids=search(q,k||6),o='',refs=[];
   var room=GR?Math.round(max*0.72):max;
@@ -745,7 +750,7 @@ function fmtN(x){return (Math.round((+x||0)*10)/10).toString().replace('.',',')}
 async function qa(t,out,ronda,prev){
   var q=ag('calj');S.working.calj=1;render();
   try{
-    var r=await S.sample.json(agentContext(q,BRN?brainFor(t.text,4,4000):null)+ctxExtra({project:t.project,text:t.text})+'\n\nERES EL REVISOR MÁS EXIGENTE DE BANDERÍN. Nada llega a Juan sin tu OK. Revisa esta entrega con la rúbrica, sin regalar puntos: un 5 es impecable, un 4 es bueno sin fallos relevantes, un 3 tiene fallos que Juan vería.\nEncargo: "'+t.text.slice(0,3000)+'"\nCriterio de aceptación: "'+((t.ceo&&t.ceo.criterio)||'que responda al encargo completo')+'"\nRonda '+(ronda||1)+' de '+QA_MAX+'.'+(prev&&prev.length?'\nEn rondas anteriores pediste corregir:\n'+prev.map(function(p,i){return 'Ronda '+(i+1)+': '+p.problemas.map(function(x){return x.problema}).join('; ')}).join('\n')+'\nComprueba uno por uno que están corregidos.':'')+
+    var r=await S.sample.json(agentContext(q,BRN?qaBrain(t):null)+ctxExtra({project:t.project,text:t.text})+'\n\nERES EL REVISOR MÁS EXIGENTE DE BANDERÍN. Nada llega a Juan sin tu OK. Revisa esta entrega con la rúbrica, sin regalar puntos: un 5 es impecable, un 4 es bueno sin fallos relevantes, un 3 tiene fallos que Juan vería.\nEncargo: "'+t.text.slice(0,3000)+'"\nCriterio de aceptación: "'+((t.ceo&&t.ceo.criterio)||'que responda al encargo completo')+'"\nRonda '+(ronda||1)+' de '+QA_MAX+'.'+(prev&&prev.length?'\nEn rondas anteriores pediste corregir:\n'+prev.map(function(p,i){return 'Ronda '+(i+1)+': '+p.problemas.map(function(x){return x.problema}).join('; ')}).join('\n')+'\nComprueba uno por uno que están corregidos.':'')+
       '\n\nRÚBRICA (puntúa cada criterio de 1 a 5):\n'+QA_CRIT.map(function(c){return '- '+c[0]+': '+c[1]}).join('\n')+
       '\n\nENTREGA:\n"""'+String(out).slice(0,16000)+'"""\n\nResponde SOLO JSON: {"puntos": {"criterio": n, "completo": n, "veracidad": n, "coherencia": n, "nivel": n, "forma": n}, "problemas": [{"categoria": "criterio|completo|veracidad|coherencia|nivel|forma|riesgo", "gravedad": "grave|media|leve", "problema": "qué está mal, concreto", "donde": "sección o frase", "arreglo": "cómo arreglarlo"}], "nota": "una frase"}',{modelTier:'default'});
     if(!r||typeof r!=='object')return null;
@@ -819,6 +824,7 @@ async function run(id,extra){
     var q=null,rondas=[];
     if(S.sample){
       // Calidad exigente: hasta QA_MAX rondas. Decide el código (rúbrica), no el modelo. Sin su OK no llega a Juan.
+      QA_REFS[id]=brain.refs;
       for(var ronda=1;ronda<=QA_MAX;ronda++){
         t=clone(S.tasks[id]);t.result=out;t.status='revision';lg(t,'Calidad revisa (ronda '+ronda+' de '+QA_MAX+')');await put('tasks',id,t);
         q=await qaTalk(t,out,a,ronda,rondas);
