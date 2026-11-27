@@ -10,22 +10,8 @@ X-WR-TIMEZONE:Europe/Madrid
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:c3716493cafc125c83f0@banderin.es
-DTSTAMP:20261126T221332Z
-DTSTART;VALUE=DATE:20261126
-DTEND;VALUE=DATE:20261127
-SUMMARY:Thursday Competition
-LOCATION:Campo de Golf Villamartin
-DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
- //www.golfdirecto.com/micro/game/6b006b3d5b8514d75a3a2426/summary\nConfirm
- a fechas y condiciones en la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.golfdirecto.com/micro/game/6b006b3d5b8514d75a3a2426/summary
-END:VEVENT
-BEGIN:VEVENT
 UID:d0f8b67cd25ea513206f@banderin.es
-DTSTAMP:20261126T221332Z
+DTSTAMP:20261127T023834Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Sunday Competition

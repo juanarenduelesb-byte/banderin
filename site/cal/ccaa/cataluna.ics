@@ -11,7 +11,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:e8bd01503527122f7075@banderin.es
-DTSTAMP:20261126T221332Z
+DTSTAMP:20261127T023834Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261128
 SUMMARY:ProAm 2027 Smart Sport Reisen
@@ -25,7 +25,7 @@ URL:https://www.golfdirecto.com/micro/game/6b0890ed97848ac1da591b48/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:8e4f875b574c5faa8422@banderin.es
-DTSTAMP:20261126T221332Z
+DTSTAMP:20261127T023834Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Eurofirms Golf Day
@@ -39,7 +39,7 @@ URL:https://www.golfdirecto.com/micro/game/6b06b40312c3c738834921d2/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:16f4142ad8701ce9ae9c@banderin.es
-DTSTAMP:20261126T221332Z
+DTSTAMP:20261127T023834Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Gastronòmic de Restaurants by Gastronòmic Golf
@@ -54,7 +54,7 @@ URL:https://www.golfdirecto.com/micro/game/695faece2442eb04e85bd9ea/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:543eedc435d29550876e@banderin.es
-DTSTAMP:20261126T221332Z
+DTSTAMP:20261127T023834Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Pool
@@ -69,7 +69,7 @@ URL:https://www.golfdirecto.com/micro/game/6ab7990659de60a540f4c37c/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:e846c6b50c49cba6afcc@banderin.es
-DTSTAMP:20261126T221332Z
+DTSTAMP:20261127T023834Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Quadrangular Peralada - Entrenament
@@ -83,7 +83,7 @@ URL:https://www.golfdirecto.com/micro/game/6b05743a61a2b765b71d2b13/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:906e04e817d014678e65@banderin.es
-DTSTAMP:20261126T221332Z
+DTSTAMP:20261127T023834Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:promesas
@@ -96,53 +96,22 @@ STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6b07f1b06549a3fb78435e68/summary
 END:VEVENT
 BEGIN:VEVENT
-UID:3cf45c8ddc73eab5f047@banderin.es
-DTSTAMP:20261126T221332Z
-DTSTART;VALUE=DATE:20261128
-DTEND;VALUE=DATE:20261130
-SUMMARY:2A Prova Lliga D'Hivern 9 Forats
-LOCATION:Golf Taradell
-DESCRIPTION:Social de club - Individual\nFicha oficial: https://www.catgolf
- .com/es/campeonatos/2a-prova-lliga-dhivern-9-forats-2026-11-28\nConfirma f
- echas y condiciones en la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.catgolf.com/es/campeonatos/2a-prova-lliga-dhivern-9-forats-
- 2026-11-28
-END:VEVENT
-BEGIN:VEVENT
-UID:0f99af8d33d010504199@banderin.es
-DTSTAMP:20261126T221332Z
-DTSTART;VALUE=DATE:20261128
-DTEND;VALUE=DATE:20261129
-SUMMARY:2N Torneig Black Friday
-LOCATION:Torremirona Golf Club
-DESCRIPTION:Social de club - Individual\nFicha oficial: https://www.catgolf
- .com/es/campeonatos/2n-torneig-black-friday-2026-11-28\nConfirma fechas y 
- condiciones en la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.catgolf.com/es/campeonatos/2n-torneig-black-friday-2026-11-
- 28
-END:VEVENT
-BEGIN:VEVENT
 UID:818eb54282e16df5c0b2@banderin.es
-DTSTAMP:20261126T221332Z
+DTSTAMP:20261127T023834Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Campionat de Catalunya Interclubs Absolut 2026
 LOCATION:Golf Club Peralada\, Peralada\, Girona
-DESCRIPTION:Clubes y equipos - Foursome - Parejas\nInscripción: abre el 3 
- de noviembre\, cierra el 24 de noviembre.\nFicha oficial: https://www.golf
- directo.com/micro/game/6ae08298e85d85ec8f63b8a6/summary\nConfirma fechas y
-  condiciones en la web del organizador. Vía Banderín.
+DESCRIPTION:Clubes y equipos - Foursome - Parejas\nFicha oficial: https://w
+ ww.golfdirecto.com/micro/game/6ae08298e85d85ec8f63b8a6/summary\nConfirma f
+ echas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6ae08298e85d85ec8f63b8a6/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:dfbc5eadb9abc95c6b09@banderin.es
-DTSTAMP:20261126T221332Z
+DTSTAMP:20261127T023834Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Campionat de Catalunya Interclubs Senior
@@ -156,36 +125,21 @@ URL:https://www.golfdirecto.com/micro/game/6ada058adf69af0f567d8e34/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:697bdeb965cc83e02723@banderin.es
-DTSTAMP:20261126T221332Z
+DTSTAMP:20261127T023834Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Campionat de Catalunya Interclubs Sènior 2026
 LOCATION:Camiral
-DESCRIPTION:Senior - Fourball - Parejas\nInscripción: abre el 3 de noviemb
- re\, cierra el 24 de noviembre.\nFicha oficial: https://www.golfdirecto.co
- m/micro/game/6ae08035e85d85ec8f93ecac/summary\nConfirma fechas y condicion
- es en la web del organizador. Vía Banderín.
+DESCRIPTION:Senior - Fourball - Parejas\nFicha oficial: https://www.golfdir
+ ecto.com/micro/game/6ae08035e85d85ec8f93ecac/summary\nConfirma fechas y co
+ ndiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6ae08035e85d85ec8f93ecac/summary
 END:VEVENT
 BEGIN:VEVENT
-UID:17c3b288122dc704676e@banderin.es
-DTSTAMP:20261126T221332Z
-DTSTART;VALUE=DATE:20261128
-DTEND;VALUE=DATE:20261129
-SUMMARY:Final Cica Golf
-LOCATION:Empordà Golf Resort
-DESCRIPTION:Social de club - Individual\nFicha oficial: https://www.catgolf
- .com/es/campeonatos/final-cica-golf-2026-11-28\nConfirma fechas y condicio
- nes en la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.catgolf.com/es/campeonatos/final-cica-golf-2026-11-28
-END:VEVENT
-BEGIN:VEVENT
 UID:0014fa72edce316a1833@banderin.es
-DTSTAMP:20261126T221332Z
+DTSTAMP:20261127T023834Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261130
 SUMMARY:Final Junior & Baby Cup - Baby
@@ -199,7 +153,7 @@ URL:https://www.golfdirecto.com/micro/game/6b046024d2ed4f3d1c19c589/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:c4f20e134e84094243e1@banderin.es
-DTSTAMP:20261126T221332Z
+DTSTAMP:20261127T023834Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261130
 SUMMARY:Final Junior & Baby Cup Promeses
@@ -213,7 +167,7 @@ URL:https://www.golfdirecto.com/micro/game/6b06f45f2638d2328703381a/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:a2dedb54148a893bd3ab@banderin.es
-DTSTAMP:20261126T221332Z
+DTSTAMP:20261127T023834Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261130
 SUMMARY:Final Junior & Baby Cup Stroke Play
@@ -227,7 +181,7 @@ URL:https://www.golfdirecto.com/micro/game/6b046066d2ed4f3d1c1fdf0f/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:78c4d1ce8f47fe264dad@banderin.es
-DTSTAMP:20261126T221332Z
+DTSTAMP:20261127T023834Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Final del Circuit GalaxyGolf 2026 HILLS
@@ -242,7 +196,7 @@ URL:https://www.golfdirecto.com/micro/game/6af585f4cb197af66b5c13aa/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:80a50e93f0b00968a128@banderin.es
-DTSTAMP:20261126T221332Z
+DTSTAMP:20261127T023834Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Final del Circuit GalaxyGolf 2026 HILLS&LAKES
@@ -257,7 +211,7 @@ URL:https://www.golfdirecto.com/micro/game/6af5869dcb197af66b7de06e/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:ab8ef6ad0da10c4f50d7@banderin.es
-DTSTAMP:20261126T221332Z
+DTSTAMP:20261127T023834Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Gastronòmic de Restaurants by Gastronòmic Golf
@@ -272,7 +226,7 @@ URL:https://www.golfdirecto.com/micro/game/6af1d1bf2f0e9df18bd40d03/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:3de1cec2ef00873f5bac@banderin.es
-DTSTAMP:20261126T221332Z
+DTSTAMP:20261127T023834Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261130
 SUMMARY:Paral·lel - Baby Stroke Play Rm
@@ -286,7 +240,7 @@ URL:https://www.golfdirecto.com/micro/game/6b06f5612638d232871e45a6/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:a61f4b0494ba56522fc6@banderin.es
-DTSTAMP:20261126T221332Z
+DTSTAMP:20261127T023834Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261130
 SUMMARY:Paral·lel - Stroke Play Rm
@@ -300,7 +254,7 @@ URL:https://www.golfdirecto.com/micro/game/6b06f50d9b4f2a62b8e9dd7d/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:03ccc65dd9da579cf15b@banderin.es
-DTSTAMP:20261126T221332Z
+DTSTAMP:20261127T023834Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Porrex Cup 2026/27. Jornada 9
@@ -314,64 +268,8 @@ STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6b048fb19bf25f617636614f/summary
 END:VEVENT
 BEGIN:VEVENT
-UID:9e9dc0bbcb616f4d0d38@banderin.es
-DTSTAMP:20261126T221332Z
-DTSTART;VALUE=DATE:20261128
-DTEND;VALUE=DATE:20261130
-SUMMARY:Torneig Brot d'Or
-LOCATION:Club de Golf Castellterçol
-DESCRIPTION:Social de club - Individual\nFicha oficial: https://www.catgolf
- .com/es/campeonatos/torneig-brot-dor-2026-11-28\nConfirma fechas y condici
- ones en la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.catgolf.com/es/campeonatos/torneig-brot-dor-2026-11-28
-END:VEVENT
-BEGIN:VEVENT
-UID:3243b3c06b157e941dec@banderin.es
-DTSTAMP:20261126T221332Z
-DTSTART;VALUE=DATE:20261128
-DTEND;VALUE=DATE:20261129
-SUMMARY:Torneo Galaxy Golf
-LOCATION:Infinitum Golf
-DESCRIPTION:Social de club - Individual\nFicha oficial: https://www.catgolf
- .com/es/campeonatos/torneo-galaxy-golf-2026-11-28\nConfirma fechas y condi
- ciones en la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.catgolf.com/es/campeonatos/torneo-galaxy-golf-2026-11-28
-END:VEVENT
-BEGIN:VEVENT
-UID:dd361992d2fe83bf4a1c@banderin.es
-DTSTAMP:20261126T221332Z
-DTSTART;VALUE=DATE:20261128
-DTEND;VALUE=DATE:20261129
-SUMMARY:Torneo Golf Passion
-LOCATION:Fontanals Golf Club
-DESCRIPTION:Social de club - Individual\nFicha oficial: https://www.catgolf
- .com/es/campeonatos/torneo-golf-passion\nConfirma fechas y condiciones en 
- la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.catgolf.com/es/campeonatos/torneo-golf-passion
-END:VEVENT
-BEGIN:VEVENT
-UID:88e91563565bf2dc2357@banderin.es
-DTSTAMP:20261126T221332Z
-DTSTART;VALUE=DATE:20261128
-DTEND;VALUE=DATE:20261129
-SUMMARY:Trofeu Sant Andreu
-LOCATION:Club de Golf Llavaneras
-DESCRIPTION:Social de club - Individual\nFicha oficial: https://www.catgolf
- .com/es/campeonatos/trofeu-sant-andreu-2026-11-28\nConfirma fechas y condi
- ciones en la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.catgolf.com/es/campeonatos/trofeu-sant-andreu-2026-11-28
-END:VEVENT
-BEGIN:VEVENT
 UID:c18d28fb5665b55956a6@banderin.es
-DTSTAMP:20261126T221332Z
+DTSTAMP:20261127T023834Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:V Circuito Executive 5ª Categoria Final
@@ -386,7 +284,7 @@ URL:https://www.golfdirecto.com/micro/game/69524a80801d0bfc6167505f/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:35c6507d5e637b18beaa@banderin.es
-DTSTAMP:20261126T221332Z
+DTSTAMP:20261127T023834Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Final del Circuit GalaxyGolf 2026 LAKES
@@ -401,7 +299,7 @@ URL:https://www.golfdirecto.com/micro/game/6af58637cb197af66b66a76e/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:03ba11d7168071c08f84@banderin.es
-DTSTAMP:20261126T221332Z
+DTSTAMP:20261127T023834Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Orden de Merito 2026 (Only Members)
@@ -415,22 +313,8 @@ STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/696256f5e888c47ef6b2a993/summary
 END:VEVENT
 BEGIN:VEVENT
-UID:40cac08c495e99e55907@banderin.es
-DTSTAMP:20261126T221332Z
-DTSTART;VALUE=DATE:20261129
-DTEND;VALUE=DATE:20261130
-SUMMARY:Torneo Galaxy Golf
-LOCATION:Infinitum Golf
-DESCRIPTION:Social de club - Individual\nFicha oficial: https://www.catgolf
- .com/es/campeonatos/torneo-galaxy-golf-2026-11-29\nConfirma fechas y condi
- ciones en la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.catgolf.com/es/campeonatos/torneo-galaxy-golf-2026-11-29
-END:VEVENT
-BEGIN:VEVENT
 UID:1af88273a2d11eb9ee69@banderin.es
-DTSTAMP:20261126T221332Z
+DTSTAMP:20261127T023834Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Torneo Infantil 4 Hoyos
@@ -445,7 +329,7 @@ URL:https://www.golfdirecto.com/micro/game/6ae6f88110ba0ad4753752e3/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:4a340de7285b5d5d81c1@banderin.es
-DTSTAMP:20261126T221332Z
+DTSTAMP:20261127T023834Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Torneo Infantil 9 Hoyos
@@ -459,22 +343,8 @@ STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6af334106aacb155d8f5e4c1/summary
 END:VEVENT
 BEGIN:VEVENT
-UID:b3ca01e07e85480998c3@banderin.es
-DTSTAMP:20261126T221332Z
-DTSTART;VALUE=DATE:20261130
-DTEND;VALUE=DATE:20261201
-SUMMARY:Barbacoa
-LOCATION:La Roca Golf
-DESCRIPTION:Social de club - Individual\nFicha oficial: https://www.catgolf
- .com/es/campeonatos/barbacoa-2026-11-30\nConfirma fechas y condiciones en 
- la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.catgolf.com/es/campeonatos/barbacoa-2026-11-30
-END:VEVENT
-BEGIN:VEVENT
 UID:25e7125f2c90202029b8@banderin.es
-DTSTAMP:20261126T221332Z
+DTSTAMP:20261127T023834Z
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261201
 SUMMARY:CATPROTOUR 2026 (Infinitum - Lakes)
@@ -488,23 +358,8 @@ STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6af1ed1b2f0e9df18b39c30d/summary
 END:VEVENT
 BEGIN:VEVENT
-UID:1b6a108118d3cc6b62ae@banderin.es
-DTSTAMP:20261126T221332Z
-DTSTART;VALUE=DATE:20261130
-DTEND;VALUE=DATE:20261201
-SUMMARY:Torneig Dels Dilluns 9 Forats
-LOCATION:Golf Taradell
-DESCRIPTION:Social de club - Individual\nFicha oficial: https://www.catgolf
- .com/es/campeonatos/torneig-dels-dilluns-9-forats-2026-11-30\nConfirma fec
- has y condiciones en la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.catgolf.com/es/campeonatos/torneig-dels-dilluns-9-forats-20
- 26-11-30
-END:VEVENT
-BEGIN:VEVENT
 UID:fb962ff9d15aa6657979@banderin.es
-DTSTAMP:20261126T221332Z
+DTSTAMP:20261127T023834Z
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261201
 SUMMARY:Torneig Green Monday By Grau
@@ -519,7 +374,7 @@ URL:https://www.golfdirecto.com/micro/game/6965b8d97205a3564d3e846e/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:7d60a5311d3757abe3bf@banderin.es
-DTSTAMP:20261126T221332Z
+DTSTAMP:20261127T023834Z
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261202
 SUMMARY:Penya Dimarts
@@ -532,36 +387,8 @@ STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6936b3a8fb5f0f8d9e235f20/summary
 END:VEVENT
 BEGIN:VEVENT
-UID:e6e48044cd1e53347289@banderin.es
-DTSTAMP:20261126T221332Z
-DTSTART;VALUE=DATE:20261201
-DTEND;VALUE=DATE:20261202
-SUMMARY:Tr. Mama Noel Femení
-LOCATION:Golf Lleida & Country Club
-DESCRIPTION:Social de club - Individual\nFicha oficial: https://www.catgolf
- .com/es/campeonatos/tr-mama-noel-femeni-2026-12-01\nConfirma fechas y cond
- iciones en la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.catgolf.com/es/campeonatos/tr-mama-noel-femeni-2026-12-01
-END:VEVENT
-BEGIN:VEVENT
-UID:2b5b476e8c244a9f8903@banderin.es
-DTSTAMP:20261126T221332Z
-DTSTART;VALUE=DATE:20261202
-DTEND;VALUE=DATE:20261203
-SUMMARY:9 Forats
-LOCATION:La Roca Golf
-DESCRIPTION:Social de club - Individual\nFicha oficial: https://www.catgolf
- .com/es/campeonatos/9-forats-2026-12-02\nConfirma fechas y condiciones en 
- la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.catgolf.com/es/campeonatos/9-forats-2026-12-02
-END:VEVENT
-BEGIN:VEVENT
 UID:2288f9f5f83bf523cdba@banderin.es
-DTSTAMP:20261126T221332Z
+DTSTAMP:20261127T023834Z
 DTSTART;VALUE=DATE:20261202
 DTEND;VALUE=DATE:20261203
 SUMMARY:Birdie Club -Forest
@@ -575,7 +402,7 @@ URL:https://www.golfdirecto.com/micro/game/6b0466bed2ed4f3d1cea6ba8/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:fb3f4cb557e7a71dbd65@banderin.es
-DTSTAMP:20261126T221332Z
+DTSTAMP:20261127T023834Z
 DTSTART;VALUE=DATE:20261202
 DTEND;VALUE=DATE:20261203
 SUMMARY:Penya Dimecres (18h)
@@ -588,23 +415,8 @@ STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6b0830d615c2957997fe27bb/summary
 END:VEVENT
 BEGIN:VEVENT
-UID:ea02e6b6e382dc66e050@banderin.es
-DTSTAMP:20261126T221332Z
-DTSTART;VALUE=DATE:20261202
-DTEND;VALUE=DATE:20261203
-SUMMARY:Swing & Dones
-LOCATION:La Roca Golf
-DESCRIPTION:Social de club - Individual\nInscripción: abre el 20 de enero\
- , cierra el 20 de enero.\nFicha oficial: https://www.catgolf.com/es/campeo
- natos/swing-dones\nConfirma fechas y condiciones en la web del organizador
- . Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.catgolf.com/es/campeonatos/swing-dones
-END:VEVENT
-BEGIN:VEVENT
 UID:f0b800af472a763745c7@banderin.es
-DTSTAMP:20261126T221332Z
+DTSTAMP:20261127T023834Z
 DTSTART;VALUE=DATE:20261203
 DTEND;VALUE=DATE:20261204
 SUMMARY:Torneig Torremirona Real Estate
@@ -619,7 +431,7 @@ URL:https://www.golfdirecto.com/micro/game/6a8457100d6379a1ffd1d120/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:bd5d4bff43461cdfe1ce@banderin.es
-DTSTAMP:20261126T221332Z
+DTSTAMP:20261127T023834Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
 SUMMARY:Pool
@@ -633,7 +445,7 @@ URL:https://www.golfdirecto.com/micro/game/6ab79fe059de60a540aec773/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:085ed099b82cc2f122a2@banderin.es
-DTSTAMP:20261126T221332Z
+DTSTAMP:20261127T023834Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
 SUMMARY:Torneig Feliços 80
@@ -647,7 +459,7 @@ URL:https://www.golfdirecto.com/micro/game/6b083b6ca705699f01c969a6/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:6ed3d5268d15048f1efb@banderin.es
-DTSTAMP:20261126T221332Z
+DTSTAMP:20261127T023834Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
 SUMMARY:Golf Party
@@ -662,7 +474,7 @@ URL:https://www.golfdirecto.com/micro/game/6b080baaa705699f01c4a67d/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:78dc919cef018eeef2b5@banderin.es
-DTSTAMP:20261126T221332Z
+DTSTAMP:20261127T023834Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
 SUMMARY:Lliga Mid & High at Gaudí Golf
@@ -676,7 +488,7 @@ URL:https://www.golfdirecto.com/micro/game/69480e1be2f3b99fbaf92667/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:be2015248f3a335e2d68@banderin.es
-DTSTAMP:20261126T221332Z
+DTSTAMP:20261127T023834Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
 SUMMARY:Ryder Cup Individual
@@ -690,7 +502,7 @@ URL:https://www.golfdirecto.com/micro/game/6b00508096fa82aafa86e0dc/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:623e2312cef8cac59f39@banderin.es
-DTSTAMP:20261126T221332Z
+DTSTAMP:20261127T023834Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
 SUMMARY:Ryder Parelles
@@ -704,7 +516,7 @@ URL:https://www.golfdirecto.com/micro/game/6b0053c096fa82aafa12b0f6/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:ef6eb9679b279d8b0df6@banderin.es
-DTSTAMP:20261126T221332Z
+DTSTAMP:20261127T023834Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
 SUMMARY:Social Nadal 9h
@@ -718,7 +530,7 @@ URL:https://www.golfdirecto.com/micro/game/6af4748ad161f2f1b8721615/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:5f0717db57d0e70a22fb@banderin.es
-DTSTAMP:20261126T221332Z
+DTSTAMP:20261127T023834Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
 SUMMARY:Social de Nadal
@@ -732,22 +544,8 @@ STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6af4750bd161f2f1b88326e9/summary
 END:VEVENT
 BEGIN:VEVENT
-UID:d67a989d5f85cca646cc@banderin.es
-DTSTAMP:20261126T221332Z
-DTSTART;VALUE=DATE:20261207
-DTEND;VALUE=DATE:20261208
-SUMMARY:Barbacoa
-LOCATION:La Roca Golf
-DESCRIPTION:Social de club - Individual\nFicha oficial: https://www.catgolf
- .com/es/campeonatos/barbacoa-2026-12-07\nConfirma fechas y condiciones en 
- la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.catgolf.com/es/campeonatos/barbacoa-2026-12-07
-END:VEVENT
-BEGIN:VEVENT
 UID:e1557f4d5c894a9b9c4d@banderin.es
-DTSTAMP:20261126T221332Z
+DTSTAMP:20261127T023834Z
 DTSTART;VALUE=DATE:20261207
 DTEND;VALUE=DATE:20261208
 SUMMARY:Torneig Green Monday By Alengolf
@@ -762,7 +560,7 @@ URL:https://www.golfdirecto.com/micro/game/6965b91b7205a3564d4700db/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:23d1f41e1d845506cda7@banderin.es
-DTSTAMP:20261126T221332Z
+DTSTAMP:20261127T023834Z
 DTSTART;VALUE=DATE:20261208
 DTEND;VALUE=DATE:20261209
 SUMMARY:Penya Dimarts
@@ -775,36 +573,8 @@ STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6936b338fb5f0f8d9e09775e/summary
 END:VEVENT
 BEGIN:VEVENT
-UID:0dabbe750410571e9c57@banderin.es
-DTSTAMP:20261126T221332Z
-DTSTART;VALUE=DATE:20261209
-DTEND;VALUE=DATE:20261210
-SUMMARY:9 Forats
-LOCATION:La Roca Golf
-DESCRIPTION:Social de club - Individual\nFicha oficial: https://www.catgolf
- .com/es/campeonatos/9-forats-2026-12-09\nConfirma fechas y condiciones en 
- la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.catgolf.com/es/campeonatos/9-forats-2026-12-09
-END:VEVENT
-BEGIN:VEVENT
-UID:c144cc75427eb67163fb@banderin.es
-DTSTAMP:20261126T221332Z
-DTSTART;VALUE=DATE:20261209
-DTEND;VALUE=DATE:20261210
-SUMMARY:Aesgolf
-LOCATION:La Roca Golf
-DESCRIPTION:Senior - Individual\nFicha oficial: https://www.catgolf.com/es/
- campeonatos/aesgolf-2026-12-09\nConfirma fechas y condiciones en la web de
- l organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.catgolf.com/es/campeonatos/aesgolf-2026-12-09
-END:VEVENT
-BEGIN:VEVENT
 UID:8190660ee88c9b47de98@banderin.es
-DTSTAMP:20261126T221332Z
+DTSTAMP:20261127T023834Z
 DTSTART;VALUE=DATE:20261209
 DTEND;VALUE=DATE:20261210
 SUMMARY:Birdie Club -Forest
@@ -819,7 +589,7 @@ URL:https://www.golfdirecto.com/micro/game/6a9a5d2b5898bfbfbf071cd0/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:1aa86aaf73e56d6fff7f@banderin.es
-DTSTAMP:20261126T221332Z
+DTSTAMP:20261127T023834Z
 DTSTART;VALUE=DATE:20261209
 DTEND;VALUE=DATE:20261210
 SUMMARY:Penya Dimecres
@@ -832,22 +602,8 @@ STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6acf690e5d690dd83860a8b0/summary
 END:VEVENT
 BEGIN:VEVENT
-UID:504947dacb3ee0d981c2@banderin.es
-DTSTAMP:20261126T221332Z
-DTSTART;VALUE=DATE:20261209
-DTEND;VALUE=DATE:20261210
-SUMMARY:Torneig Segolfcat
-LOCATION:Club de Golf Llavaneras
-DESCRIPTION:Social de club - Individual\nFicha oficial: https://www.catgolf
- .com/es/campeonatos/torneig-segolfcat-2026-12-09\nConfirma fechas y condic
- iones en la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.catgolf.com/es/campeonatos/torneig-segolfcat-2026-12-09
-END:VEVENT
-BEGIN:VEVENT
 UID:5587c5686b9ec8c948e0@banderin.es
-DTSTAMP:20261126T221332Z
+DTSTAMP:20261127T023834Z
 DTSTART;VALUE=DATE:20261210
 DTEND;VALUE=DATE:20261211
 SUMMARY:Torneig Torremirona Real Estate
@@ -862,7 +618,7 @@ URL:https://www.golfdirecto.com/micro/game/6a8457f80d6379a1ff3c3195/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:3d87723ea26fc32c92d2@banderin.es
-DTSTAMP:20261126T221332Z
+DTSTAMP:20261127T023834Z
 DTSTART;VALUE=DATE:20261211
 DTEND;VALUE=DATE:20261212
 SUMMARY:Pool
@@ -876,39 +632,8 @@ STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6ab7a0c459de60a5404822ea/summary
 END:VEVENT
 BEGIN:VEVENT
-UID:a0af81d71062a00a6020@banderin.es
-DTSTAMP:20261126T221332Z
-DTSTART;VALUE=DATE:20261212
-DTEND;VALUE=DATE:20261214
-SUMMARY:3A Prova Lliga D'Hivern 9 Forats
-LOCATION:Golf Taradell
-DESCRIPTION:Social de club - Individual\nFicha oficial: https://www.catgolf
- .com/es/campeonatos/3a-prova-lliga-dhivern-9-forats-2026-12-12\nConfirma f
- echas y condiciones en la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.catgolf.com/es/campeonatos/3a-prova-lliga-dhivern-9-forats-
- 2026-12-12
-END:VEVENT
-BEGIN:VEVENT
-UID:74ca6a5ad8ead7f4b5b5@banderin.es
-DTSTAMP:20261126T221332Z
-DTSTART;VALUE=DATE:20261212
-DTEND;VALUE=DATE:20261214
-SUMMARY:3a Final Catalunya Promeses 2026
-LOCATION:Golf Serres de Pals
-DESCRIPTION:Absoluto - Individual\nInscripción: abre el 24 de noviembre\, 
- cierra el 9 de diciembre.\nFicha oficial: https://www.catgolf.com/es/campe
- onatos/3a-final-catalunya-promeses-2026-2026-12-12\nConfirma fechas y cond
- iciones en la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.catgolf.com/es/campeonatos/3a-final-catalunya-promeses-2026
- -2026-12-12
-END:VEVENT
-BEGIN:VEVENT
 UID:414d6e7056968a7718ef@banderin.es
-DTSTAMP:20261126T221332Z
+DTSTAMP:20261127T023834Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:Birdie Especial Nadal
@@ -921,37 +646,8 @@ STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6af475529292980794d16b2e/summary
 END:VEVENT
 BEGIN:VEVENT
-UID:92c4b687a0ce29c6a193@banderin.es
-DTSTAMP:20261126T221332Z
-DTSTART;VALUE=DATE:20261212
-DTEND;VALUE=DATE:20261213
-SUMMARY:Christmas Party
-LOCATION:Golf Lleida & Country Club
-DESCRIPTION:Social de club - Individual\nFicha oficial: https://www.catgolf
- .com/es/campeonatos/christmas-party-2026-12-12\nConfirma fechas y condicio
- nes en la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.catgolf.com/es/campeonatos/christmas-party-2026-12-12
-END:VEVENT
-BEGIN:VEVENT
-UID:ffe49fcb3afaf6e6de44@banderin.es
-DTSTAMP:20261126T221332Z
-DTSTART;VALUE=DATE:20261212
-DTEND;VALUE=DATE:20261214
-SUMMARY:Fase Final Catalunya Promeses 26
-LOCATION:Golf Serres de Pals
-DESCRIPTION:Social de club - Individual\nFicha oficial: https://www.catgolf
- .com/es/campeonatos/fase-final-catalunya-promeses-26-2026-12-12\nConfirma 
- fechas y condiciones en la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.catgolf.com/es/campeonatos/fase-final-catalunya-promeses-26
- -2026-12-12
-END:VEVENT
-BEGIN:VEVENT
 UID:d8da6cb888f3e0f732ff@banderin.es
-DTSTAMP:20261126T221332Z
+DTSTAMP:20261127T023834Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:Luns Golf
@@ -964,94 +660,8 @@ STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/69b5559c68d3e434554fcdda/summary
 END:VEVENT
 BEGIN:VEVENT
-UID:294fd66b9fef823b9e56@banderin.es
-DTSTAMP:20261126T221332Z
-DTSTART;VALUE=DATE:20261212
-DTEND;VALUE=DATE:20261213
-SUMMARY:Torneig De Nadal Pals
-LOCATION:Golf de Pals\, Pals\, Girona
-DESCRIPTION:Social de club - Individual\nFicha oficial: https://www.catgolf
- .com/es/campeonatos/torneig-de-nadal-pals-2026-12-12\nConfirma fechas y co
- ndiciones en la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.catgolf.com/es/campeonatos/torneig-de-nadal-pals-2026-12-12
-END:VEVENT
-BEGIN:VEVENT
-UID:2a8af5223c918f8405ef@banderin.es
-DTSTAMP:20261126T221332Z
-DTSTART;VALUE=DATE:20261212
-DTEND;VALUE=DATE:20261213
-SUMMARY:Torneig Social De Nadal
-LOCATION:Empordà Golf Resort
-DESCRIPTION:Social de club - Individual\nFicha oficial: https://www.catgolf
- .com/es/campeonatos/torneig-social-de-nadal-2026-12-12\nConfirma fechas y 
- condiciones en la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.catgolf.com/es/campeonatos/torneig-social-de-nadal-2026-12-
- 12
-END:VEVENT
-BEGIN:VEVENT
-UID:7a9da7425b423058cb79@banderin.es
-DTSTAMP:20261126T221332Z
-DTSTART;VALUE=DATE:20261212
-DTEND;VALUE=DATE:20261213
-SUMMARY:Torneig Social Escudella&Carn D'Olla
-LOCATION:Golf Montanyà
-DESCRIPTION:Social de club - Individual\nFicha oficial: https://www.catgolf
- .com/es/campeonatos/torneig-social-escudellacarn-dolla-2026-12-12\nConfirm
- a fechas y condiciones en la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.catgolf.com/es/campeonatos/torneig-social-escudellacarn-dol
- la-2026-12-12
-END:VEVENT
-BEGIN:VEVENT
-UID:958fa08a397cb795c797@banderin.es
-DTSTAMP:20261126T221332Z
-DTSTART;VALUE=DATE:20261212
-DTEND;VALUE=DATE:20261213
-SUMMARY:Torneig Srixon
-LOCATION:Club Golf d'Aro
-DESCRIPTION:Social de club - Individual\nFicha oficial: https://www.catgolf
- .com/es/campeonatos/torneig-srixon-2026-08-22\nConfirma fechas y condicion
- es en la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.catgolf.com/es/campeonatos/torneig-srixon-2026-08-22
-END:VEVENT
-BEGIN:VEVENT
-UID:bfff6be0c7023417957a@banderin.es
-DTSTAMP:20261126T221332Z
-DTSTART;VALUE=DATE:20261212
-DTEND;VALUE=DATE:20261214
-SUMMARY:Torneig del Fred
-LOCATION:Club de Golf Castellterçol
-DESCRIPTION:Social de club - Individual\nFicha oficial: https://www.catgolf
- .com/es/campeonatos/torneig-del-fred-2026-12-12\nConfirma fechas y condici
- ones en la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.catgolf.com/es/campeonatos/torneig-del-fred-2026-12-12
-END:VEVENT
-BEGIN:VEVENT
-UID:971a452a3f48706ae856@banderin.es
-DTSTAMP:20261126T221332Z
-DTSTART;VALUE=DATE:20261212
-DTEND;VALUE=DATE:20261213
-SUMMARY:Torneo Navideño
-LOCATION:Fontanals Golf Club
-DESCRIPTION:Social de club - Individual\nFicha oficial: https://www.catgolf
- .com/es/campeonatos/torneo-navideno\nConfirma fechas y condiciones en la w
- eb del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.catgolf.com/es/campeonatos/torneo-navideno
-END:VEVENT
-BEGIN:VEVENT
 UID:883de375f96c3a047e35@banderin.es
-DTSTAMP:20261126T221332Z
+DTSTAMP:20261127T023834Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:Torneo de Navidad Infinitum 2026
@@ -1065,23 +675,8 @@ STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6b00138fdec726ee0cd737a5/summary
 END:VEVENT
 BEGIN:VEVENT
-UID:0eb0e6dbba5dca2c7e29@banderin.es
-DTSTAMP:20261126T221332Z
-DTSTART;VALUE=DATE:20261212
-DTEND;VALUE=DATE:20261213
-SUMMARY:Trofeo Infantil Navideño
-LOCATION:Club de Golf Terramar
-DESCRIPTION:Juvenil - Individual\nFicha oficial: https://www.catgolf.com/es
- /campeonatos/trofeo-infantil-navideno-2026-12-12\nConfirma fechas y condic
- iones en la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.catgolf.com/es/campeonatos/trofeo-infantil-navideno-2026-12
- -12
-END:VEVENT
-BEGIN:VEVENT
 UID:0fa24d516e8afd9352d4@banderin.es
-DTSTAMP:20261126T221332Z
+DTSTAMP:20261127T023834Z
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
 SUMMARY:Orden de Merito 2026 (Only Members)
@@ -1095,22 +690,8 @@ STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6962568ae888c47ef693c371/summary
 END:VEVENT
 BEGIN:VEVENT
-UID:11ad008235b564f04c7e@banderin.es
-DTSTAMP:20261126T221332Z
-DTSTART;VALUE=DATE:20261214
-DTEND;VALUE=DATE:20261215
-SUMMARY:Barbacoa
-LOCATION:La Roca Golf
-DESCRIPTION:Social de club - Individual\nFicha oficial: https://www.catgolf
- .com/es/campeonatos/barbacoa-2026-12-14\nConfirma fechas y condiciones en 
- la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.catgolf.com/es/campeonatos/barbacoa-2026-12-14
-END:VEVENT
-BEGIN:VEVENT
 UID:142992ae8a98165d8680@banderin.es
-DTSTAMP:20261126T221332Z
+DTSTAMP:20261127T023834Z
 DTSTART;VALUE=DATE:20261214
 DTEND;VALUE=DATE:20261215
 SUMMARY:Catprotour
@@ -1123,39 +704,8 @@ STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6af475999292980794ded6b7/summary
 END:VEVENT
 BEGIN:VEVENT
-UID:567d0a6a52d35c892839@banderin.es
-DTSTAMP:20261126T221332Z
-DTSTART;VALUE=DATE:20261214
-DTEND;VALUE=DATE:20261216
-SUMMARY:FINAL CATPROTOUR 2026 (Empordà 14-15 dic.)
-LOCATION:Empordà Golf Resort
-DESCRIPTION:Profesional - Individual\nInscripción: abre el 6 de marzo\, ci
- erra el 6 de marzo.\nFicha oficial: https://www.catgolf.com/es/campeonatos
- /final-catprotour-2026-emporda-14-15-dic-2026-12-14\nConfirma fechas y con
- diciones en la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.catgolf.com/es/campeonatos/final-catprotour-2026-emporda-14
- -15-dic-2026-12-14
-END:VEVENT
-BEGIN:VEVENT
-UID:3f50859cbdc88fa07728@banderin.es
-DTSTAMP:20261126T221332Z
-DTSTART;VALUE=DATE:20261214
-DTEND;VALUE=DATE:20261215
-SUMMARY:Torneig Dels Dilluns 9 Forats
-LOCATION:Golf Taradell
-DESCRIPTION:Social de club - Individual\nFicha oficial: https://www.catgolf
- .com/es/campeonatos/torneig-dels-dilluns-9-forats-2026-12-14\nConfirma fec
- has y condiciones en la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.catgolf.com/es/campeonatos/torneig-dels-dilluns-9-forats-20
- 26-12-14
-END:VEVENT
-BEGIN:VEVENT
 UID:0032c535982394cfffac@banderin.es
-DTSTAMP:20261126T221332Z
+DTSTAMP:20261127T023834Z
 DTSTART;VALUE=DATE:20261214
 DTEND;VALUE=DATE:20261215
 SUMMARY:Torneig Green Monday By la Tasca D’en Ximo
@@ -1170,7 +720,7 @@ URL:https://www.golfdirecto.com/micro/game/6965b9607205a3564d4dd3cb/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:797b582de3762d41a950@banderin.es
-DTSTAMP:20261126T221332Z
+DTSTAMP:20261127T023834Z
 DTSTART;VALUE=DATE:20261215
 DTEND;VALUE=DATE:20261216
 SUMMARY:Catprotour
@@ -1184,7 +734,7 @@ URL:https://www.golfdirecto.com/micro/game/6af475bbd161f2f1b89a9caa/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:07f876a98c95eebeec79@banderin.es
-DTSTAMP:20261126T221332Z
+DTSTAMP:20261127T023834Z
 DTSTART;VALUE=DATE:20261215
 DTEND;VALUE=DATE:20261216
 SUMMARY:Mama Noël
@@ -1197,23 +747,8 @@ STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6afd7122c9944e5be2ec621f/summary
 END:VEVENT
 BEGIN:VEVENT
-UID:19bba16304f1e5baa18e@banderin.es
-DTSTAMP:20261126T221332Z
-DTSTART;VALUE=DATE:20261215
-DTEND;VALUE=DATE:20261216
-SUMMARY:Open Vallromanes Golf & brunch
-LOCATION:Club de Golf Vallromanes
-DESCRIPTION:Social de club - Individual\nFicha oficial: https://www.catgolf
- .com/es/campeonatos/open-vallromanes-golf-brunch-2026-12-15\nConfirma fech
- as y condiciones en la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.catgolf.com/es/campeonatos/open-vallromanes-golf-brunch-202
- 6-12-15
-END:VEVENT
-BEGIN:VEVENT
 UID:71aa17c017d10b5e96b0@banderin.es
-DTSTAMP:20261126T221332Z
+DTSTAMP:20261127T023834Z
 DTSTART;VALUE=DATE:20261215
 DTEND;VALUE=DATE:20261216
 SUMMARY:Penya Dimarts
@@ -1226,22 +761,8 @@ STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6936b35bfb5f0f8d9e11d10d/summary
 END:VEVENT
 BEGIN:VEVENT
-UID:780f14aa54cd3d554ce3@banderin.es
-DTSTAMP:20261126T221332Z
-DTSTART;VALUE=DATE:20261216
-DTEND;VALUE=DATE:20261217
-SUMMARY:9 Forats
-LOCATION:La Roca Golf
-DESCRIPTION:Social de club - Individual\nFicha oficial: https://www.catgolf
- .com/es/campeonatos/9-forats-2026-12-16\nConfirma fechas y condiciones en 
- la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.catgolf.com/es/campeonatos/9-forats-2026-12-16
-END:VEVENT
-BEGIN:VEVENT
 UID:ff6efc28749f74278e7f@banderin.es
-DTSTAMP:20261126T221332Z
+DTSTAMP:20261127T023834Z
 DTSTART;VALUE=DATE:20261216
 DTEND;VALUE=DATE:20261217
 SUMMARY:Birdie Club -Dunes
@@ -1256,7 +777,7 @@ URL:https://www.golfdirecto.com/micro/game/6a9a5dad5898bfbfbf1af378/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:09df771ce71a4072b976@banderin.es
-DTSTAMP:20261126T221332Z
+DTSTAMP:20261127T023834Z
 DTSTART;VALUE=DATE:20261216
 DTEND;VALUE=DATE:20261217
 SUMMARY:Penya Dimecres
@@ -1269,22 +790,8 @@ STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6acf69215d690dd838654a82/summary
 END:VEVENT
 BEGIN:VEVENT
-UID:6bd36a86b2a14c87e016@banderin.es
-DTSTAMP:20261126T221332Z
-DTSTART;VALUE=DATE:20261216
-DTEND;VALUE=DATE:20261217
-SUMMARY:Segolfcat
-LOCATION:La Roca Golf
-DESCRIPTION:Social de club - Individual\nFicha oficial: https://www.catgolf
- .com/es/campeonatos/segolfcat-2026-12-16\nConfirma fechas y condiciones en
-  la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.catgolf.com/es/campeonatos/segolfcat-2026-12-16
-END:VEVENT
-BEGIN:VEVENT
 UID:2989cd4cdd1886f11d51@banderin.es
-DTSTAMP:20261126T221332Z
+DTSTAMP:20261127T023834Z
 DTSTART;VALUE=DATE:20261217
 DTEND;VALUE=DATE:20261218
 SUMMARY:Torneig Torremirona Real Estate
@@ -1299,7 +806,7 @@ URL:https://www.golfdirecto.com/micro/game/6a8458090d6379a1ff3fcf36/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:698603a4d59185f8a237@banderin.es
-DTSTAMP:20261126T221332Z
+DTSTAMP:20261127T023834Z
 DTSTART;VALUE=DATE:20261218
 DTEND;VALUE=DATE:20261219
 SUMMARY:Bonasport
@@ -1314,7 +821,7 @@ URL:https://www.golfdirecto.com/micro/game/6af477489292980794293b1e/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:ef1d6af3faa387017d11@banderin.es
-DTSTAMP:20261126T221332Z
+DTSTAMP:20261127T023834Z
 DTSTART;VALUE=DATE:20261218
 DTEND;VALUE=DATE:20261219
 SUMMARY:Pool
@@ -1327,23 +834,8 @@ STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6ab7a0da59de60a540544100/summary
 END:VEVENT
 BEGIN:VEVENT
-UID:79de1c81edd8e3d35837@banderin.es
-DTSTAMP:20261126T221332Z
-DTSTART;VALUE=DATE:20261218
-DTEND;VALUE=DATE:20261221
-SUMMARY:Torneig de NADAL - 9 Forats
-LOCATION:Golf de Caldes
-DESCRIPTION:Social de club - Individual\nFicha oficial: https://www.catgolf
- .com/es/campeonatos/torneig-de-nadal-9-forats-2026-12-18\nConfirma fechas 
- y condiciones en la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.catgolf.com/es/campeonatos/torneig-de-nadal-9-forats-2026-1
- 2-18
-END:VEVENT
-BEGIN:VEVENT
 UID:eae3c1b1e166b76d746b@banderin.es
-DTSTAMP:20261126T221332Z
+DTSTAMP:20261127T023834Z
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261220
 SUMMARY:"El Navideño" By Oak Restaurante
@@ -1357,7 +849,7 @@ URL:https://www.golfdirecto.com/micro/game/69f1d3845435bb536e023558/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:9df715e6dae41551bda4@banderin.es
-DTSTAMP:20261126T221332Z
+DTSTAMP:20261127T023834Z
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261220
 SUMMARY:Christmas Tournament - Only Members
@@ -1370,22 +862,8 @@ STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6ada062ddf69af0f568a78f0/summary
 END:VEVENT
 BEGIN:VEVENT
-UID:04aa33782762ce90b70d@banderin.es
-DTSTAMP:20261126T221332Z
-DTSTART;VALUE=DATE:20261219
-DTEND;VALUE=DATE:20261220
-SUMMARY:Especial Birdie Club
-LOCATION:Empordà Golf Resort
-DESCRIPTION:Social de club - Individual\nFicha oficial: https://www.catgolf
- .com/es/campeonatos/especial-birdie-club-2026-12-19\nConfirma fechas y con
- diciones en la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.catgolf.com/es/campeonatos/especial-birdie-club-2026-12-19
-END:VEVENT
-BEGIN:VEVENT
 UID:011d3fcd17cac7a8467a@banderin.es
-DTSTAMP:20261126T221332Z
+DTSTAMP:20261127T023834Z
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261220
 SUMMARY:Final Catalunya Promesa
@@ -1399,7 +877,7 @@ URL:https://www.golfdirecto.com/micro/game/693bf841be210588773d5b41/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:9a868e8db3eb23b3cfe2@banderin.es
-DTSTAMP:20261126T221332Z
+DTSTAMP:20261127T023834Z
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261220
 SUMMARY:Manresa Golf
@@ -1413,7 +891,7 @@ URL:https://www.golfdirecto.com/micro/game/6af475ecd161f2f1b8a3ee12/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:200505fa799607529630@banderin.es
-DTSTAMP:20261126T221332Z
+DTSTAMP:20261127T023834Z
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261220
 SUMMARY:Torneig Social Nadalenc
@@ -1428,7 +906,7 @@ URL:https://www.golfdirecto.com/micro/game/6a40e1f2a44d938a9300f4ad/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:69fc73d9ac636c058555@banderin.es
-DTSTAMP:20261126T221332Z
+DTSTAMP:20261127T023834Z
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261220
 SUMMARY:Torneig de Nadal
@@ -1443,7 +921,7 @@ URL:https://www.golfdirecto.com/micro/game/69a9a145bba30eff7cd47620/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:85a988a982693cd9d554@banderin.es
-DTSTAMP:20261126T221332Z
+DTSTAMP:20261127T023834Z
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261220
 SUMMARY:Torneig de Nadal Gaudí
@@ -1456,52 +934,8 @@ STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/695fb95b2442eb04e8fd9e03/summary
 END:VEVENT
 BEGIN:VEVENT
-UID:413e9b8c6c613823d368@banderin.es
-DTSTAMP:20261126T221332Z
-DTSTART;VALUE=DATE:20261219
-DTEND;VALUE=DATE:20261220
-SUMMARY:Trofeo Navideño Infantil
-LOCATION:Club de Golf Llavaneras
-DESCRIPTION:Juvenil - Individual\nFicha oficial: https://www.catgolf.com/es
- /campeonatos/trofeo-navideno-infantil-2026-12-19\nConfirma fechas y condic
- iones en la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.catgolf.com/es/campeonatos/trofeo-navideno-infantil-2026-12
- -19
-END:VEVENT
-BEGIN:VEVENT
-UID:1496438643b5d9b15d3c@banderin.es
-DTSTAMP:20261126T221332Z
-DTSTART;VALUE=DATE:20261221
-DTEND;VALUE=DATE:20261222
-SUMMARY:Barbacoa
-LOCATION:La Roca Golf
-DESCRIPTION:Social de club - Individual\nFicha oficial: https://www.catgolf
- .com/es/campeonatos/barbacoa-2026-12-21\nConfirma fechas y condiciones en 
- la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.catgolf.com/es/campeonatos/barbacoa-2026-12-21
-END:VEVENT
-BEGIN:VEVENT
-UID:e94d56334f92060ca42d@banderin.es
-DTSTAMP:20261126T221332Z
-DTSTART;VALUE=DATE:20261221
-DTEND;VALUE=DATE:20261222
-SUMMARY:Torneig Dels Dilluns 9 Forats
-LOCATION:Golf Taradell
-DESCRIPTION:Social de club - Individual\nFicha oficial: https://www.catgolf
- .com/es/campeonatos/torneig-dels-dilluns-9-forats-2026-12-21\nConfirma fec
- has y condiciones en la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.catgolf.com/es/campeonatos/torneig-dels-dilluns-9-forats-20
- 26-12-21
-END:VEVENT
-BEGIN:VEVENT
 UID:779a0499bc7bb3c46cb0@banderin.es
-DTSTAMP:20261126T221332Z
+DTSTAMP:20261127T023834Z
 DTSTART;VALUE=DATE:20261221
 DTEND;VALUE=DATE:20261222
 SUMMARY:Torneig Green Monday By Can Tintorer
@@ -1516,7 +950,7 @@ URL:https://www.golfdirecto.com/micro/game/6965b9927205a3564d523186/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:32b77ab76aac25b0bcc0@banderin.es
-DTSTAMP:20261126T221332Z
+DTSTAMP:20261127T023834Z
 DTSTART;VALUE=DATE:20261222
 DTEND;VALUE=DATE:20261223
 SUMMARY:Penya Dimarts
@@ -1529,22 +963,8 @@ STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6936b372fb5f0f8d9e141256/summary
 END:VEVENT
 BEGIN:VEVENT
-UID:4f7dcfed26f7ba42a762@banderin.es
-DTSTAMP:20261126T221332Z
-DTSTART;VALUE=DATE:20261223
-DTEND;VALUE=DATE:20261224
-SUMMARY:9 Forats
-LOCATION:La Roca Golf
-DESCRIPTION:Social de club - Individual\nFicha oficial: https://www.catgolf
- .com/es/campeonatos/9-forats-2026-12-23\nConfirma fechas y condiciones en 
- la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.catgolf.com/es/campeonatos/9-forats-2026-12-23
-END:VEVENT
-BEGIN:VEVENT
 UID:0c9499b79b097168427b@banderin.es
-DTSTAMP:20261126T221332Z
+DTSTAMP:20261127T023834Z
 DTSTART;VALUE=DATE:20261223
 DTEND;VALUE=DATE:20261224
 SUMMARY:Birdie Club -Forest
@@ -1559,7 +979,7 @@ URL:https://www.golfdirecto.com/micro/game/6a9a5e0f5898bfbfbf26fcb0/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:5cc51b3a897f52882182@banderin.es
-DTSTAMP:20261126T221332Z
+DTSTAMP:20261127T023834Z
 DTSTART;VALUE=DATE:20261223
 DTEND;VALUE=DATE:20261224
 SUMMARY:Penya Dimecres
@@ -1573,7 +993,7 @@ URL:https://www.golfdirecto.com/micro/game/6acf69345d690dd838686284/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:8269b240f892e9320594@banderin.es
-DTSTAMP:20261126T221332Z
+DTSTAMP:20261127T023834Z
 DTSTART;VALUE=DATE:20261224
 DTEND;VALUE=DATE:20261225
 SUMMARY:Torneig Torremirona Real Estate
@@ -1588,7 +1008,7 @@ URL:https://www.golfdirecto.com/micro/game/6a8458240d6379a1ff4d2ee1/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:851c36a4f74270837e75@banderin.es
-DTSTAMP:20261126T221332Z
+DTSTAMP:20261127T023834Z
 DTSTART;VALUE=DATE:20261226
 DTEND;VALUE=DATE:20261227
 SUMMARY:Torneig de Cap D'Any
@@ -1603,7 +1023,7 @@ URL:https://www.golfdirecto.com/micro/game/6a8458be4ec26de90b887833/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:0beccd50505b92558cf4@banderin.es
-DTSTAMP:20261126T221332Z
+DTSTAMP:20261127T023834Z
 DTSTART;VALUE=DATE:20261227
 DTEND;VALUE=DATE:20261228
 SUMMARY:End Of The Year - Members + Residents
@@ -1616,22 +1036,8 @@ STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6ada06addf69af0f5695f0a1/summary
 END:VEVENT
 BEGIN:VEVENT
-UID:087203a97c57d6c5f5b5@banderin.es
-DTSTAMP:20261126T221332Z
-DTSTART;VALUE=DATE:20261228
-DTEND;VALUE=DATE:20261229
-SUMMARY:Barbacoa
-LOCATION:La Roca Golf
-DESCRIPTION:Social de club - Individual\nFicha oficial: https://www.catgolf
- .com/es/campeonatos/barbacoa-2026-12-28\nConfirma fechas y condiciones en 
- la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.catgolf.com/es/campeonatos/barbacoa-2026-12-28
-END:VEVENT
-BEGIN:VEVENT
 UID:a4031ddea794eae4b15b@banderin.es
-DTSTAMP:20261126T221332Z
+DTSTAMP:20261127T023834Z
 DTSTART;VALUE=DATE:20261228
 DTEND;VALUE=DATE:20261229
 SUMMARY:Camiral Cup - Sants Innocents
@@ -1644,23 +1050,8 @@ STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6ada070edf69af0f569b03d8/summary
 END:VEVENT
 BEGIN:VEVENT
-UID:afaa7645bdf9477e1445@banderin.es
-DTSTAMP:20261126T221332Z
-DTSTART;VALUE=DATE:20261228
-DTEND;VALUE=DATE:20261229
-SUMMARY:Torneig Dels Dilluns 9 Forats
-LOCATION:Golf Taradell
-DESCRIPTION:Social de club - Individual\nFicha oficial: https://www.catgolf
- .com/es/campeonatos/torneig-dels-dilluns-9-forats-2026-12-28\nConfirma fec
- has y condiciones en la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.catgolf.com/es/campeonatos/torneig-dels-dilluns-9-forats-20
- 26-12-28
-END:VEVENT
-BEGIN:VEVENT
 UID:03d84a79b170013dc5c6@banderin.es
-DTSTAMP:20261126T221332Z
+DTSTAMP:20261127T023834Z
 DTSTART;VALUE=DATE:20261228
 DTEND;VALUE=DATE:20261229
 SUMMARY:Torneig Green Monday By Oak Restautante
@@ -1675,7 +1066,7 @@ URL:https://www.golfdirecto.com/micro/game/6965b9c57205a3564d54d8e6/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:844707488b24aa8c6382@banderin.es
-DTSTAMP:20261126T221332Z
+DTSTAMP:20261127T023834Z
 DTSTART;VALUE=DATE:20261229
 DTEND;VALUE=DATE:20261230
 SUMMARY:Penya Dimarts
@@ -1688,22 +1079,8 @@ STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6936b37ffb5f0f8d9e18a972/summary
 END:VEVENT
 BEGIN:VEVENT
-UID:d97b3321776138b6ce23@banderin.es
-DTSTAMP:20261126T221332Z
-DTSTART;VALUE=DATE:20261230
-DTEND;VALUE=DATE:20261231
-SUMMARY:9 Forats
-LOCATION:La Roca Golf
-DESCRIPTION:Social de club - Individual\nFicha oficial: https://www.catgolf
- .com/es/campeonatos/9-forats-2026-12-30\nConfirma fechas y condiciones en 
- la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.catgolf.com/es/campeonatos/9-forats-2026-12-30
-END:VEVENT
-BEGIN:VEVENT
 UID:677f9875eb8a10d85401@banderin.es
-DTSTAMP:20261126T221332Z
+DTSTAMP:20261127T023834Z
 DTSTART;VALUE=DATE:20261230
 DTEND;VALUE=DATE:20261231
 SUMMARY:Birdie Club -Dunes
@@ -1718,7 +1095,7 @@ URL:https://www.golfdirecto.com/micro/game/6a9a5e5801bb3f0088fd9410/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:b51662f252888c3d7354@banderin.es
-DTSTAMP:20261126T221332Z
+DTSTAMP:20261127T023834Z
 DTSTART;VALUE=DATE:20261230
 DTEND;VALUE=DATE:20261231
 SUMMARY:Penya Dimecres (18h)
@@ -1732,7 +1109,7 @@ URL:https://www.golfdirecto.com/micro/game/6acf69615d690dd8387747c6/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:c309b76131959ec48157@banderin.es
-DTSTAMP:20261126T221332Z
+DTSTAMP:20261127T023834Z
 DTSTART;VALUE=DATE:20261231
 DTEND;VALUE=DATE:20270101
 SUMMARY:Torneig Torremirona Real Estate
@@ -1746,22 +1123,8 @@ STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6a8458490d6379a1ff5d8a32/summary
 END:VEVENT
 BEGIN:VEVENT
-UID:7d8ccee97d92edb28602@banderin.es
-DTSTAMP:20261126T221332Z
-DTSTART;VALUE=DATE:20270103
-DTEND;VALUE=DATE:20270104
-SUMMARY:Torneo de Reyes "El Décimo"
-LOCATION:Fontanals Golf Club
-DESCRIPTION:Social de club - Individual\nFicha oficial: https://www.catgolf
- .com/es/campeonatos/torneo-de-reyes-el-decimo\nConfirma fechas y condicion
- es en la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.catgolf.com/es/campeonatos/torneo-de-reyes-el-decimo
-END:VEVENT
-BEGIN:VEVENT
 UID:cbe832c151b346e5bc9a@banderin.es
-DTSTAMP:20261126T221332Z
+DTSTAMP:20261127T023834Z
 DTSTART;VALUE=DATE:20270106
 DTEND;VALUE=DATE:20270107
 SUMMARY:Birdie Club
@@ -1776,7 +1139,7 @@ URL:https://www.golfdirecto.com/micro/game/6af06d3667a73a9c34ffec74/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:1096d5411266ba12e136@banderin.es
-DTSTAMP:20261126T221332Z
+DTSTAMP:20261127T023834Z
 DTSTART;VALUE=DATE:20270109
 DTEND;VALUE=DATE:20270110
 SUMMARY:Circuit Nacional de 5ª Categoria
@@ -1790,7 +1153,7 @@ URL:https://www.golfdirecto.com/micro/game/6af473f2d161f2f1b85d4ddc/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:958a9e634e635e2156df@banderin.es
-DTSTAMP:20261126T221332Z
+DTSTAMP:20261127T023834Z
 DTSTART;VALUE=DATE:20270110
 DTEND;VALUE=DATE:20270111
 SUMMARY:Circuit Nacional de 5ª Categoria
@@ -1804,7 +1167,7 @@ URL:https://www.golfdirecto.com/micro/game/6af4740cd161f2f1b861d8eb/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:4ce52782f4847d764310@banderin.es
-DTSTAMP:20261126T221332Z
+DTSTAMP:20261127T023834Z
 DTSTART;VALUE=DATE:20270113
 DTEND;VALUE=DATE:20270114
 SUMMARY:Birdie Club
@@ -1818,23 +1181,8 @@ STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6af06d5567a73a9c341337d5/summary
 END:VEVENT
 BEGIN:VEVENT
-UID:264827dccbf0fee3c82f@banderin.es
-DTSTAMP:20261126T221332Z
-DTSTART;VALUE=DATE:20270116
-DTEND;VALUE=DATE:20270118
-SUMMARY:Circuit Nacional 5a Categoria 2027 (Pals)
-LOCATION:Golf de Pals\, Pals\, Girona
-DESCRIPTION:Absoluto - Individual\nFicha oficial: https://www.catgolf.com/e
- s/campeonatos/circuit-nacional-5a-categoria-2027-pals-2027-01-16\nConfirma
-  fechas y condiciones en la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.catgolf.com/es/campeonatos/circuit-nacional-5a-categoria-20
- 27-pals-2027-01-16
-END:VEVENT
-BEGIN:VEVENT
 UID:fede6086bb85e71f1489@banderin.es
-DTSTAMP:20261126T221332Z
+DTSTAMP:20261127T023834Z
 DTSTART;VALUE=DATE:20270116
 DTEND;VALUE=DATE:20270117
 SUMMARY:Torneo Srixon
@@ -1848,7 +1196,7 @@ URL:https://www.golfdirecto.com/micro/game/6ad9f1f2a1531ddba4c94085/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:bf8dff1fa3fda9dae2c9@banderin.es
-DTSTAMP:20261126T221332Z
+DTSTAMP:20261127T023834Z
 DTSTART;VALUE=DATE:20270120
 DTEND;VALUE=DATE:20270121
 SUMMARY:Birdie Club
@@ -1862,38 +1210,8 @@ STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6af06d8ce0349cc290450ce7/summary
 END:VEVENT
 BEGIN:VEVENT
-UID:dac8f079f372d9d6c0fc@banderin.es
-DTSTAMP:20261126T221332Z
-DTSTART;VALUE=DATE:20270123
-DTEND;VALUE=DATE:20270125
-SUMMARY:Campionat de Catalunya Dobles Absolut 2027
-LOCATION:Camiral
-DESCRIPTION:Absoluto - Parejas\nFicha oficial: https://www.catgolf.com/es/c
- ampeonatos/campionat-de-catalunya-dobles-absolut-2027-2027-01-23\nConfirma
-  fechas y condiciones en la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.catgolf.com/es/campeonatos/campionat-de-catalunya-dobles-ab
- solut-2027-2027-01-23
-END:VEVENT
-BEGIN:VEVENT
-UID:225511745e8fb0b56bae@banderin.es
-DTSTAMP:20261126T221332Z
-DTSTART;VALUE=DATE:20270123
-DTEND;VALUE=DATE:20270125
-SUMMARY:Circuit Nacional 5a Categoria 2027 (Aro)
-LOCATION:Club Golf d'Aro
-DESCRIPTION:Absoluto - Individual\nFicha oficial: https://www.catgolf.com/e
- s/campeonatos/circuit-nacional-5a-categoria-2027-aro-2027-01-23\nConfirma 
- fechas y condiciones en la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.catgolf.com/es/campeonatos/circuit-nacional-5a-categoria-20
- 27-aro-2027-01-23
-END:VEVENT
-BEGIN:VEVENT
 UID:b04f0ef6156f80d158da@banderin.es
-DTSTAMP:20261126T221332Z
+DTSTAMP:20261127T023834Z
 DTSTART;VALUE=DATE:20270129
 DTEND;VALUE=DATE:20270130
 SUMMARY:Cica Golf
@@ -1907,7 +1225,7 @@ URL:https://www.golfdirecto.com/micro/game/6af471b092929807943b0d74/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:725029f6a75c319bc818@banderin.es
-DTSTAMP:20261126T221332Z
+DTSTAMP:20261127T023834Z
 DTSTART;VALUE=DATE:20270129
 DTEND;VALUE=DATE:20270130
 SUMMARY:Cica Golf (Fourball)
@@ -1921,7 +1239,7 @@ URL:https://www.golfdirecto.com/micro/game/6af4715292929807942e3cd9/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:88ad9d5f8e657d273daa@banderin.es
-DTSTAMP:20261126T221332Z
+DTSTAMP:20261127T023834Z
 DTSTART;VALUE=DATE:20270129
 DTEND;VALUE=DATE:20270130
 SUMMARY:Galaxy Cup 2027
@@ -1934,23 +1252,8 @@ STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6a3fbaea96466b2bce16310f/summary
 END:VEVENT
 BEGIN:VEVENT
-UID:fab614e49b6affab79c5@banderin.es
-DTSTAMP:20261126T221332Z
-DTSTART;VALUE=DATE:20270130
-DTEND;VALUE=DATE:20270201
-SUMMARY:Campionat de Catalunya Dobles Sènior 2027
-LOCATION:Infinitum Golf
-DESCRIPTION:Senior - Parejas\nFicha oficial: https://www.catgolf.com/es/cam
- peonatos/campionat-de-catalunya-dobles-senior-2027-2027-01-30\nConfirma fe
- chas y condiciones en la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.catgolf.com/es/campeonatos/campionat-de-catalunya-dobles-se
- nior-2027-2027-01-30
-END:VEVENT
-BEGIN:VEVENT
 UID:d46447ae02ff17e7f41b@banderin.es
-DTSTAMP:20261126T221332Z
+DTSTAMP:20261127T023834Z
 DTSTART;VALUE=DATE:20270130
 DTEND;VALUE=DATE:20270131
 SUMMARY:Cica Golf
@@ -1964,7 +1267,7 @@ URL:https://www.golfdirecto.com/micro/game/6af471cb929298079441fa31/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:95141cd70702347b0b05@banderin.es
-DTSTAMP:20261126T221332Z
+DTSTAMP:20261127T023834Z
 DTSTART;VALUE=DATE:20270130
 DTEND;VALUE=DATE:20270131
 SUMMARY:Cica Golf (Fourball)
@@ -1978,7 +1281,7 @@ URL:https://www.golfdirecto.com/micro/game/6af471739292980794322eff/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:be6e17a9480bd3e18ce9@banderin.es
-DTSTAMP:20261126T221332Z
+DTSTAMP:20261127T023834Z
 DTSTART;VALUE=DATE:20270130
 DTEND;VALUE=DATE:20270131
 SUMMARY:Galaxy Cup 2027
@@ -1992,7 +1295,7 @@ URL:https://www.golfdirecto.com/micro/game/6a3fbb1e112fe1fb12ee9a20/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:e70504452417dc151f50@banderin.es
-DTSTAMP:20261126T221332Z
+DTSTAMP:20261127T023834Z
 DTSTART;VALUE=DATE:20270131
 DTEND;VALUE=DATE:20270201
 SUMMARY:Cica Golf
@@ -2006,7 +1309,7 @@ URL:https://www.golfdirecto.com/micro/game/6af471e9d161f2f1b805e020/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:b62735819f7b77f948c2@banderin.es
-DTSTAMP:20261126T221332Z
+DTSTAMP:20261127T023834Z
 DTSTART;VALUE=DATE:20270131
 DTEND;VALUE=DATE:20270201
 SUMMARY:Cica Golf (Fourball)
@@ -2020,7 +1323,7 @@ URL:https://www.golfdirecto.com/micro/game/6af471919292980794364fdd/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:b5d030f38f90461a1c36@banderin.es
-DTSTAMP:20261126T221332Z
+DTSTAMP:20261127T023834Z
 DTSTART;VALUE=DATE:20270131
 DTEND;VALUE=DATE:20270201
 SUMMARY:Galaxy Cup 2027
@@ -2034,7 +1337,7 @@ URL:https://www.golfdirecto.com/micro/game/6a3fbb3b112fe1fb12004c96/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:4b763ea56c3aaab9cbda@banderin.es
-DTSTAMP:20261126T221332Z
+DTSTAMP:20261127T023834Z
 DTSTART;VALUE=DATE:20270201
 DTEND;VALUE=DATE:20270202
 SUMMARY:Cat ProTour 2027
@@ -2047,25 +1350,8 @@ STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6ae3461de9762da1ae315088/summary
 END:VEVENT
 BEGIN:VEVENT
-UID:f2b48644600013ebfa0b@banderin.es
-DTSTAMP:20261126T221332Z
-DTSTART;VALUE=DATE:20270203
-DTEND;VALUE=DATE:20270204
-SUMMARY:53è Interclubs Femeni de Catalunya - Liguilla 2027 (Costa Brava)
-LOCATION:Club de Golf Costa Brava
-DESCRIPTION:Clubes y equipos - Equipos\nInscripción: abre el 19 de noviemb
- re\, cierra el 19 de noviembre.\nFicha oficial: https://www.catgolf.com/es
- /campeonatos/53e-interclubs-femeni-de-catalunya-liguilla-2027-costa-brava-
- 2027-02-03\nConfirma fechas y condiciones en la web del organizador. Vía 
- Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.catgolf.com/es/campeonatos/53e-interclubs-femeni-de-catalun
- ya-liguilla-2027-costa-brava-2027-02-03
-END:VEVENT
-BEGIN:VEVENT
 UID:157b72c44e725d792e36@banderin.es
-DTSTAMP:20261126T221332Z
+DTSTAMP:20261127T023834Z
 DTSTART;VALUE=DATE:20270203
 DTEND;VALUE=DATE:20270204
 SUMMARY:Birdie Club
@@ -2078,23 +1364,8 @@ STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6af06e00e0349cc2908fd22a/summary
 END:VEVENT
 BEGIN:VEVENT
-UID:ab20e66da54916a1e168@banderin.es
-DTSTAMP:20261126T221332Z
-DTSTART;VALUE=DATE:20270206
-DTEND;VALUE=DATE:20270208
-SUMMARY:Circuit Nacional 5a Categoria 2027 (Costa Brava)
-LOCATION:Club de Golf Costa Brava
-DESCRIPTION:Absoluto - Individual\nFicha oficial: https://www.catgolf.com/e
- s/campeonatos/circuit-nacional-5a-categoria-2027-costa-brava-2027-02-06\nC
- onfirma fechas y condiciones en la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.catgolf.com/es/campeonatos/circuit-nacional-5a-categoria-20
- 27-costa-brava-2027-02-06
-END:VEVENT
-BEGIN:VEVENT
 UID:286baf0b6a541c5fe267@banderin.es
-DTSTAMP:20261126T221332Z
+DTSTAMP:20261127T023834Z
 DTSTART;VALUE=DATE:20270210
 DTEND;VALUE=DATE:20270219
 SUMMARY:Wintyer Series
@@ -2107,23 +1378,8 @@ STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6af5de5c8d4229260f8db217/summary
 END:VEVENT
 BEGIN:VEVENT
-UID:35a0c646a565861a7efc@banderin.es
-DTSTAMP:20261126T221332Z
-DTSTART;VALUE=DATE:20270213
-DTEND;VALUE=DATE:20270215
-SUMMARY:Circuit Nacional 5a Categoria 2027 (Perelada)
-LOCATION:Golf Club Perelada
-DESCRIPTION:Absoluto - Individual\nFicha oficial: https://www.catgolf.com/e
- s/campeonatos/circuit-nacional-5a-categoria-2027-perelada-2027-02-13\nConf
- irma fechas y condiciones en la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.catgolf.com/es/campeonatos/circuit-nacional-5a-categoria-20
- 27-perelada-2027-02-13
-END:VEVENT
-BEGIN:VEVENT
 UID:03fa631db1ac6223af63@banderin.es
-DTSTAMP:20261126T221332Z
+DTSTAMP:20261127T023834Z
 DTSTART;VALUE=DATE:20270220
 DTEND;VALUE=DATE:20270222
 SUMMARY:Grand Prix Senior
@@ -2136,41 +1392,8 @@ STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6af5d809a1e39bb384eaa76d/summary
 END:VEVENT
 BEGIN:VEVENT
-UID:5bd8e41709d6e12683a5@banderin.es
-DTSTAMP:20261126T221332Z
-DTSTART;VALUE=DATE:20270222
-DTEND;VALUE=DATE:20270224
-SUMMARY:Campionat de Catalunya de Professionals 2027 (Catprotour)
-LOCATION:Real Club de Golf El Prat
-DESCRIPTION:Profesional - Individual\nFicha oficial: https://www.catgolf.co
- m/es/campeonatos/campionat-de-catalunya-de-professionals-2027-catprotour-2
- 027-02-22\nConfirma fechas y condiciones en la web del organizador. Vía B
- anderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.catgolf.com/es/campeonatos/campionat-de-catalunya-de-profes
- sionals-2027-catprotour-2027-02-22
-END:VEVENT
-BEGIN:VEVENT
-UID:31e6e0644f3966abc4b3@banderin.es
-DTSTAMP:20261126T221332Z
-DTSTART;VALUE=DATE:20270224
-DTEND;VALUE=DATE:20270225
-SUMMARY:53è Interclubs Femeni de Catalunya - Liguilla 2027 (Camiral)
-LOCATION:Camiral
-DESCRIPTION:Clubes y equipos - Equipos\nInscripción: abre el 19 de noviemb
- re\, cierra el 19 de noviembre.\nFicha oficial: https://www.catgolf.com/es
- /campeonatos/53e-interclubs-femeni-de-catalunya-liguilla-2027-camiral-2027
- -02-24\nConfirma fechas y condiciones en la web del organizador. Vía Band
- erín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.catgolf.com/es/campeonatos/53e-interclubs-femeni-de-catalun
- ya-liguilla-2027-camiral-2027-02-24
-END:VEVENT
-BEGIN:VEVENT
 UID:5bbfc7ba778e7b8a4241@banderin.es
-DTSTAMP:20261126T221332Z
+DTSTAMP:20261127T023834Z
 DTSTART;VALUE=DATE:20270224
 DTEND;VALUE=DATE:20270225
 SUMMARY:Birdie Club
@@ -2184,7 +1407,7 @@ URL:https://www.golfdirecto.com/micro/game/6af06e1f67a73a9c34813ffc/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:28c511ec690bcda78daf@banderin.es
-DTSTAMP:20261126T221332Z
+DTSTAMP:20261127T023834Z
 DTSTART;VALUE=DATE:20270302
 DTEND;VALUE=DATE:20270305
 SUMMARY:Global Junior Golf
@@ -2197,24 +1420,8 @@ STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6af5e06b8d4229260fd8d891/summary
 END:VEVENT
 BEGIN:VEVENT
-UID:b134987a3f79214345ab@banderin.es
-DTSTAMP:20261126T221332Z
-DTSTART;VALUE=DATE:20270303
-DTEND;VALUE=DATE:20270306
-SUMMARY:51è Gran Premi Sènior de Catalunya "Pentagonal" 2027 (Llavaneras)
-LOCATION:Club de Golf Llavaneras
-DESCRIPTION:Senior - Individual\nFicha oficial: https://www.catgolf.com/es/
- campeonatos/51e-gran-premi-senior-de-catalunya-pentagonal-2027-llavaneras-
- 2027-03-03\nConfirma fechas y condiciones en la web del organizador. Vía 
- Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.catgolf.com/es/campeonatos/51e-gran-premi-senior-de-catalun
- ya-pentagonal-2027-llavaneras-2027-03-03
-END:VEVENT
-BEGIN:VEVENT
 UID:21a6b28971b5a684a924@banderin.es
-DTSTAMP:20261126T221332Z
+DTSTAMP:20261127T023834Z
 DTSTART;VALUE=DATE:20270303
 DTEND;VALUE=DATE:20270304
 SUMMARY:Birdie Club
@@ -2228,7 +1435,7 @@ URL:https://www.golfdirecto.com/micro/game/6af06e3f67a73a9c349e4955/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:972ddedd419a3e831124@banderin.es
-DTSTAMP:20261126T221332Z
+DTSTAMP:20261127T023834Z
 DTSTART;VALUE=DATE:20270305
 DTEND;VALUE=DATE:20270306
 SUMMARY:Torneo Gastronómico
@@ -2241,23 +1448,8 @@ STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6afedfbcfb9c521b04d16d80/summary
 END:VEVENT
 BEGIN:VEVENT
-UID:462644c81e1e84e290e2@banderin.es
-DTSTAMP:20261126T221332Z
-DTSTART;VALUE=DATE:20270306
-DTEND;VALUE=DATE:20270308
-SUMMARY:Circuit Nacional 5a Categoria 2027 (Serres)
-LOCATION:Golf Serres de Pals
-DESCRIPTION:Absoluto - Individual\nFicha oficial: https://www.catgolf.com/e
- s/campeonatos/circuit-nacional-5a-categoria-2027-serres-2027-03-06\nConfir
- ma fechas y condiciones en la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.catgolf.com/es/campeonatos/circuit-nacional-5a-categoria-20
- 27-serres-2027-03-06
-END:VEVENT
-BEGIN:VEVENT
 UID:787657062af49262a3b8@banderin.es
-DTSTAMP:20261126T221332Z
+DTSTAMP:20261127T023834Z
 DTSTART;VALUE=DATE:20270306
 DTEND;VALUE=DATE:20270307
 SUMMARY:Torneo Gastronómico
@@ -2270,24 +1462,8 @@ STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6afee00f53aeeeb7e5f8f8ea/summary
 END:VEVENT
 BEGIN:VEVENT
-UID:23edca9e3170547572f6@banderin.es
-DTSTAMP:20261126T221332Z
-DTSTART;VALUE=DATE:20270310
-DTEND;VALUE=DATE:20270311
-SUMMARY:31è Quadrangular Femení de Catalunya 2027 (Montanyà)
-LOCATION:Golf Montanyà
-DESCRIPTION:Absoluto - Individual\nFicha oficial: https://www.catgolf.com/e
- s/campeonatos/31e-quadrangular-femeni-de-catalunya-2027-montanya-2027-03-1
- 0\nConfirma fechas y condiciones en la web del organizador. Vía Banderín
- .
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.catgolf.com/es/campeonatos/31e-quadrangular-femeni-de-catal
- unya-2027-montanya-2027-03-10
-END:VEVENT
-BEGIN:VEVENT
 UID:d7915c4e7a613de11f19@banderin.es
-DTSTAMP:20261126T221332Z
+DTSTAMP:20261127T023834Z
 DTSTART;VALUE=DATE:20270310
 DTEND;VALUE=DATE:20270311
 SUMMARY:Birdie Club
@@ -2300,40 +1476,8 @@ STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6af06e5be0349cc290c33645/summary
 END:VEVENT
 BEGIN:VEVENT
-UID:5e1c31dc24a883be8f7d@banderin.es
-DTSTAMP:20261126T221332Z
-DTSTART;VALUE=DATE:20270315
-DTEND;VALUE=DATE:20270316
-SUMMARY:CATPROTOUR 2027 (Perelada)
-LOCATION:Golf Club Perelada
-DESCRIPTION:Profesional - Individual\nFicha oficial: https://www.catgolf.co
- m/es/campeonatos/catprotour-2027-perelada-2027-03-15\nConfirma fechas y co
- ndiciones en la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.catgolf.com/es/campeonatos/catprotour-2027-perelada-2027-03
- -15
-END:VEVENT
-BEGIN:VEVENT
-UID:5c05fdcc56031e158c76@banderin.es
-DTSTAMP:20261126T221332Z
-DTSTART;VALUE=DATE:20270317
-DTEND;VALUE=DATE:20270318
-SUMMARY:53è Interclubs Femeni de Catalunya - Liguilla 2027 (Lleida)
-LOCATION:Golf Lleida & Country Club
-DESCRIPTION:Clubes y equipos - Equipos\nInscripción: abre el 19 de noviemb
- re\, cierra el 19 de noviembre.\nFicha oficial: https://www.catgolf.com/es
- /campeonatos/53e-interclubs-femeni-de-catalunya-liguilla-2027-lleida-2027-
- 03-17\nConfirma fechas y condiciones en la web del organizador. Vía Bande
- rín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.catgolf.com/es/campeonatos/53e-interclubs-femeni-de-catalun
- ya-liguilla-2027-lleida-2027-03-17
-END:VEVENT
-BEGIN:VEVENT
 UID:d5eed2e9c37dfd266a18@banderin.es
-DTSTAMP:20261126T221332Z
+DTSTAMP:20261127T023834Z
 DTSTART;VALUE=DATE:20270317
 DTEND;VALUE=DATE:20270318
 SUMMARY:Birdie Club
@@ -2346,38 +1490,8 @@ STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6af06e74e0349cc290d4ea71/summary
 END:VEVENT
 BEGIN:VEVENT
-UID:68911b81fae7e1e53ef8@banderin.es
-DTSTAMP:20261126T221332Z
-DTSTART;VALUE=DATE:20270320
-DTEND;VALUE=DATE:20270321
-SUMMARY:25è PRO-AM Benjamí i Aleví 2027
-LOCATION:Can Cuyàs Golf
-DESCRIPTION:Profesional - Individual\nFicha oficial: https://www.catgolf.co
- m/es/campeonatos/25e-pro-am-benjami-i-alevi-2027-2027-03-20\nConfirma fech
- as y condiciones en la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.catgolf.com/es/campeonatos/25e-pro-am-benjami-i-alevi-2027-
- 2027-03-20
-END:VEVENT
-BEGIN:VEVENT
-UID:d9fcfe25213198372c51@banderin.es
-DTSTAMP:20261126T221332Z
-DTSTART;VALUE=DATE:20270323
-DTEND;VALUE=DATE:20270325
-SUMMARY:I Puntuable Zonal Juvenil RFEG 2027
-LOCATION:Real Club de Golf El Prat
-DESCRIPTION:Juvenil - Individual\nFicha oficial: https://www.catgolf.com/es
- /campeonatos/i-puntuable-zonal-juvenil-rfeg-2027-2027-03-23\nConfirma fech
- as y condiciones en la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.catgolf.com/es/campeonatos/i-puntuable-zonal-juvenil-rfeg-2
- 027-2027-03-23
-END:VEVENT
-BEGIN:VEVENT
 UID:27fa3aef8cdf3abb2b62@banderin.es
-DTSTAMP:20261126T221332Z
+DTSTAMP:20261127T023834Z
 DTSTART;VALUE=DATE:20270324
 DTEND;VALUE=DATE:20270325
 SUMMARY:Birdie Club
@@ -2391,7 +1505,7 @@ URL:https://www.golfdirecto.com/micro/game/6af06ecf67a73a9c3408cea4/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:ce4d9f7d4bf61084c4be@banderin.es
-DTSTAMP:20261126T221332Z
+DTSTAMP:20261127T023834Z
 DTSTART;VALUE=DATE:20270326
 DTEND;VALUE=DATE:20270327
 SUMMARY:Torneo J. J. Calderon
@@ -2405,7 +1519,7 @@ URL:https://www.golfdirecto.com/micro/game/6af5e2a28d4229260f51bfe2/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:1281030de6b9b5f3dec6@banderin.es
-DTSTAMP:20261126T221332Z
+DTSTAMP:20261127T023834Z
 DTSTART;VALUE=DATE:20270328
 DTEND;VALUE=DATE:20270329
 SUMMARY:Gran Torneig de Pasqua
@@ -2418,25 +1532,8 @@ STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6af5e2d9a1e39bb3843c911a/summary
 END:VEVENT
 BEGIN:VEVENT
-UID:1a8369495a8976bd6c3b@banderin.es
-DTSTAMP:20261126T221332Z
-DTSTART;VALUE=DATE:20270331
-DTEND;VALUE=DATE:20270403
-SUMMARY:51è Gran Premi Sènior de Catalunya "Pentagonal" 2027 (Costa Daura
- da)
-LOCATION:Golf Costa Daurada
-DESCRIPTION:Senior - Individual\nFicha oficial: https://www.catgolf.com/es/
- campeonatos/51e-gran-premi-senior-de-catalunya-pentagonal-2027-costa-daura
- da-2027-03-31\nConfirma fechas y condiciones en la web del organizador. V
- ía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.catgolf.com/es/campeonatos/51e-gran-premi-senior-de-catalun
- ya-pentagonal-2027-costa-daurada-2027-03-31
-END:VEVENT
-BEGIN:VEVENT
 UID:a02ad16c49686acccbcd@banderin.es
-DTSTAMP:20261126T221332Z
+DTSTAMP:20261127T023834Z
 DTSTART;VALUE=DATE:20270331
 DTEND;VALUE=DATE:20270401
 SUMMARY:Birdie Club
@@ -2449,71 +1546,8 @@ STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6af06eec67a73a9c341d68cf/summary
 END:VEVENT
 BEGIN:VEVENT
-UID:ec765753df920a56acb2@banderin.es
-DTSTAMP:20261126T221332Z
-DTSTART;VALUE=DATE:20270403
-DTEND;VALUE=DATE:20270404
-SUMMARY:61è Gran Premi de Catalunya "Hexagonal" 2027 (Torremirona)
-LOCATION:Torremirona Golf Club
-DESCRIPTION:Absoluto - Individual\nFicha oficial: https://www.catgolf.com/e
- s/campeonatos/61e-gran-premi-de-catalunya-hexagonal-2027-torremirona-2027-
- 04-03\nConfirma fechas y condiciones en la web del organizador. Vía Bande
- rín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.catgolf.com/es/campeonatos/61e-gran-premi-de-catalunya-hexa
- gonal-2027-torremirona-2027-04-03
-END:VEVENT
-BEGIN:VEVENT
-UID:3be2bc62e7fd79338582@banderin.es
-DTSTAMP:20261126T221332Z
-DTSTART;VALUE=DATE:20270403
-DTEND;VALUE=DATE:20270405
-SUMMARY:Campionat de Catalunya Mid-Amateur 2027
-LOCATION:Club de Golf Costa Brava
-DESCRIPTION:Mid-Amateur - Individual\nFicha oficial: https://www.catgolf.co
- m/es/campeonatos/campionat-de-catalunya-mid-amateur-2027-2027-04-03\nConfi
- rma fechas y condiciones en la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.catgolf.com/es/campeonatos/campionat-de-catalunya-mid-amate
- ur-2027-2027-04-03
-END:VEVENT
-BEGIN:VEVENT
-UID:e3d032ca44f66adac39e@banderin.es
-DTSTAMP:20261126T221332Z
-DTSTART;VALUE=DATE:20270403
-DTEND;VALUE=DATE:20270404
-SUMMARY:Circuit Nacional 5a Categoria 2027 (La Roqueta)
-LOCATION:Golf La Roqueta
-DESCRIPTION:Absoluto - Individual\nFicha oficial: https://www.catgolf.com/e
- s/campeonatos/circuit-nacional-5a-categoria-2027-la-roqueta-2027-04-03\nCo
- nfirma fechas y condiciones en la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.catgolf.com/es/campeonatos/circuit-nacional-5a-categoria-20
- 27-la-roqueta-2027-04-03
-END:VEVENT
-BEGIN:VEVENT
-UID:23fd3ef4085808ed1a0c@banderin.es
-DTSTAMP:20261126T221332Z
-DTSTART;VALUE=DATE:20270407
-DTEND;VALUE=DATE:20270408
-SUMMARY:53è Interclubs Femeni de Catalunya - Liguilla 2027 (Montanyà)
-LOCATION:Golf Montanyà
-DESCRIPTION:Clubes y equipos - Equipos\nInscripción: abre el 19 de noviemb
- re\, cierra el 19 de noviembre.\nFicha oficial: https://www.catgolf.com/es
- /campeonatos/53e-interclubs-femeni-de-catalunya-liguilla-2027-montanya-202
- 7-04-07\nConfirma fechas y condiciones en la web del organizador. Vía Ban
- derín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.catgolf.com/es/campeonatos/53e-interclubs-femeni-de-catalun
- ya-liguilla-2027-montanya-2027-04-07
-END:VEVENT
-BEGIN:VEVENT
 UID:f5e120e3b41d0f8c0454@banderin.es
-DTSTAMP:20261126T221332Z
+DTSTAMP:20261127T023834Z
 DTSTART;VALUE=DATE:20270409
 DTEND;VALUE=DATE:20270410
 SUMMARY:Galaxy Golf
@@ -2527,7 +1561,7 @@ URL:https://www.golfdirecto.com/micro/game/6af86539ef4584c21c4073f0/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:dc2524fbfaafb99b4177@banderin.es
-DTSTAMP:20261126T221332Z
+DTSTAMP:20261127T023834Z
 DTSTART;VALUE=DATE:20270410
 DTEND;VALUE=DATE:20270411
 SUMMARY:Galaxy Golf
@@ -2540,23 +1574,8 @@ STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6af86584535859a5fb674073/summary
 END:VEVENT
 BEGIN:VEVENT
-UID:e01b751c6d41db3360df@banderin.es
-DTSTAMP:20261126T221332Z
-DTSTART;VALUE=DATE:20270410
-DTEND;VALUE=DATE:20270412
-SUMMARY:II Puntuable Zonal Juvenil RFEG 2027
-LOCATION:Club de Golf Sant Cugat
-DESCRIPTION:Juvenil - Individual\nFicha oficial: https://www.catgolf.com/es
- /campeonatos/ii-puntuable-zonal-juvenil-rfeg-2027-2027-04-10\nConfirma fec
- has y condiciones en la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.catgolf.com/es/campeonatos/ii-puntuable-zonal-juvenil-rfeg-
- 2027-2027-04-10
-END:VEVENT
-BEGIN:VEVENT
 UID:25e4e6bf1b5271a3df25@banderin.es
-DTSTAMP:20261126T221332Z
+DTSTAMP:20261127T023834Z
 DTSTART;VALUE=DATE:20270411
 DTEND;VALUE=DATE:20270412
 SUMMARY:Galaxy Golf
@@ -2569,23 +1588,8 @@ STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6af865ba535859a5fb7936cd/summary
 END:VEVENT
 BEGIN:VEVENT
-UID:68fa0777bc4636b37bd6@banderin.es
-DTSTAMP:20261126T221332Z
-DTSTART;VALUE=DATE:20270413
-DTEND;VALUE=DATE:20270415
-SUMMARY:CATPROTOUR DOBLES 2027 (Fontanals)
-LOCATION:Fontanals Golf Club
-DESCRIPTION:Profesional - Parejas\nFicha oficial: https://www.catgolf.com/e
- s/campeonatos/catprotour-dobles-2027-fontanals-2027-04-13\nConfirma fechas
-  y condiciones en la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.catgolf.com/es/campeonatos/catprotour-dobles-2027-fontanals
- -2027-04-13
-END:VEVENT
-BEGIN:VEVENT
 UID:fbb253cbb1f5c7141d34@banderin.es
-DTSTAMP:20261126T221332Z
+DTSTAMP:20261127T023834Z
 DTSTART;VALUE=DATE:20270414
 DTEND;VALUE=DATE:20270415
 SUMMARY:31è Quadragular Femení de Catalunya 2027
@@ -2598,210 +1602,8 @@ STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6af8683f535859a5fb2a2560/summary
 END:VEVENT
 BEGIN:VEVENT
-UID:116e510d5fe843d9f46f@banderin.es
-DTSTAMP:20261126T221332Z
-DTSTART;VALUE=DATE:20270417
-DTEND;VALUE=DATE:20270419
-SUMMARY:Circuit Nacional 5a Categoria 2027 (Taradell)
-LOCATION:Golf Taradell
-DESCRIPTION:Absoluto - Individual\nFicha oficial: https://www.catgolf.com/e
- s/campeonatos/circuit-nacional-5a-categoria-2027-taradell-2027-04-17\nConf
- irma fechas y condiciones en la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.catgolf.com/es/campeonatos/circuit-nacional-5a-categoria-20
- 27-taradell-2027-04-17
-END:VEVENT
-BEGIN:VEVENT
-UID:8ef06fc3b78d8e2a1d7d@banderin.es
-DTSTAMP:20261126T221332Z
-DTSTART;VALUE=DATE:20270421
-DTEND;VALUE=DATE:20270424
-SUMMARY:51è Gran Premi Sènior de Catalunya "Pentagonal" 2027 (Cerdaña)
-LOCATION:Real Club de Golf de Cerdaña
-DESCRIPTION:Senior - Individual\nFicha oficial: https://www.catgolf.com/es/
- campeonatos/51e-gran-premi-senior-de-catalunya-pentagonal-2027-cerdana-202
- 7-04-21\nConfirma fechas y condiciones en la web del organizador. Vía Ban
- derín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.catgolf.com/es/campeonatos/51e-gran-premi-senior-de-catalun
- ya-pentagonal-2027-cerdana-2027-04-21
-END:VEVENT
-BEGIN:VEVENT
-UID:9054af64e2cc67c30d31@banderin.es
-DTSTAMP:20261126T221332Z
-DTSTART;VALUE=DATE:20270424
-DTEND;VALUE=DATE:20270425
-SUMMARY:Circuit Nacional 5a Categoria 2027 (Barcelona)
-LOCATION:Club de Golf Barcelona
-DESCRIPTION:Absoluto - Individual\nFicha oficial: https://www.catgolf.com/e
- s/campeonatos/circuit-nacional-5a-categoria-2027-barcelona-2027-04-24\nCon
- firma fechas y condiciones en la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.catgolf.com/es/campeonatos/circuit-nacional-5a-categoria-20
- 27-barcelona-2027-04-24
-END:VEVENT
-BEGIN:VEVENT
-UID:23816f1809a716ae8956@banderin.es
-DTSTAMP:20261126T221332Z
-DTSTART;VALUE=DATE:20270501
-DTEND;VALUE=DATE:20270503
-SUMMARY:CIRCUIT NACIONAL 5A CATEGORIA 2027 (Castellterçol)
-LOCATION:Club de Golf Castellterçol
-DESCRIPTION:Absoluto - Individual\nFicha oficial: https://www.catgolf.com/e
- s/campeonatos/circuit-nacional-5a-categoria-2027-castelltercol-2027-05-01\
- nConfirma fechas y condiciones en la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.catgolf.com/es/campeonatos/circuit-nacional-5a-categoria-20
- 27-castelltercol-2027-05-01
-END:VEVENT
-BEGIN:VEVENT
-UID:fe317bab4a3e649ab7b2@banderin.es
-DTSTAMP:20261126T221332Z
-DTSTART;VALUE=DATE:20270505
-DTEND;VALUE=DATE:20270506
-SUMMARY:53è Interclubs Femeni de Catalunya - Liguilla 2027 (Vallromanes)
-LOCATION:Club de Golf Vallromanes
-DESCRIPTION:Clubes y equipos - Equipos\nInscripción: abre el 19 de noviemb
- re\, cierra el 19 de noviembre.\nFicha oficial: https://www.catgolf.com/es
- /campeonatos/53e-interclubs-femeni-de-catalunya-liguilla-2027-vallromanes-
- 2027-05-05\nConfirma fechas y condiciones en la web del organizador. Vía 
- Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.catgolf.com/es/campeonatos/53e-interclubs-femeni-de-catalun
- ya-liguilla-2027-vallromanes-2027-05-05
-END:VEVENT
-BEGIN:VEVENT
-UID:85c36e4f0c05676b5dde@banderin.es
-DTSTAMP:20261126T221332Z
-DTSTART;VALUE=DATE:20270508
-DTEND;VALUE=DATE:20270509
-SUMMARY:61è Gran Premi de Catalunya "Hexagonal" 2027 (Montanya)
-LOCATION:Golf Montanyà
-DESCRIPTION:Absoluto - Individual\nFicha oficial: https://www.catgolf.com/e
- s/campeonatos/61e-gran-premi-de-catalunya-hexagonal-2027-montanya-2027-05-
- 08\nConfirma fechas y condiciones en la web del organizador. Vía Banderí
- n.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.catgolf.com/es/campeonatos/61e-gran-premi-de-catalunya-hexa
- gonal-2027-montanya-2027-05-08
-END:VEVENT
-BEGIN:VEVENT
-UID:3b29ec2cb6fc44061c6d@banderin.es
-DTSTAMP:20261126T221332Z
-DTSTART;VALUE=DATE:20270510
-DTEND;VALUE=DATE:20270511
-SUMMARY:CATPROTOUR 2027 (Lleida)
-LOCATION:Golf Lleida & Country Club
-DESCRIPTION:Profesional - Individual\nFicha oficial: https://www.catgolf.co
- m/es/campeonatos/catprotour-2027-lleida-2027-05-10\nConfirma fechas y cond
- iciones en la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.catgolf.com/es/campeonatos/catprotour-2027-lleida-2027-05-1
- 0
-END:VEVENT
-BEGIN:VEVENT
-UID:cb8c21dfaaec59929126@banderin.es
-DTSTAMP:20261126T221332Z
-DTSTART;VALUE=DATE:20270512
-DTEND;VALUE=DATE:20270513
-SUMMARY:31è Quadrangular Femení de Catalunya 2027 (Barcelona)
-LOCATION:Club de Golf Barcelona
-DESCRIPTION:Absoluto - Individual\nFicha oficial: https://www.catgolf.com/e
- s/campeonatos/31e-quadrangular-femeni-de-catalunya-2027-barcelona-2027-05-
- 12\nConfirma fechas y condiciones en la web del organizador. Vía Banderí
- n.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.catgolf.com/es/campeonatos/31e-quadrangular-femeni-de-catal
- unya-2027-barcelona-2027-05-12
-END:VEVENT
-BEGIN:VEVENT
-UID:d0faec5b9294d74fda1f@banderin.es
-DTSTAMP:20261126T221332Z
-DTSTART;VALUE=DATE:20270514
-DTEND;VALUE=DATE:20270517
-SUMMARY:Copa Catalunya Femenina 2027
-LOCATION:Golf Lleida & Country Club
-DESCRIPTION:Absoluto - Individual\nFicha oficial: https://www.catgolf.com/e
- s/campeonatos/copa-catalunya-femenina-2027-2027-05-14\nConfirma fechas y c
- ondiciones en la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.catgolf.com/es/campeonatos/copa-catalunya-femenina-2027-202
- 7-05-14
-END:VEVENT
-BEGIN:VEVENT
-UID:b98da3c9aa17ababcbfb@banderin.es
-DTSTAMP:20261126T221332Z
-DTSTART;VALUE=DATE:20270515
-DTEND;VALUE=DATE:20270517
-SUMMARY:Circuit Nacional 5a Categoria 2027 (Montbrú-Moià)
-LOCATION:Club de Golf Montbrú-Moià
-DESCRIPTION:Absoluto - Individual\nFicha oficial: https://www.catgolf.com/e
- s/campeonatos/circuit-nacional-5a-categoria-2027-montbru-moia-2027-05-15\n
- Confirma fechas y condiciones en la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.catgolf.com/es/campeonatos/circuit-nacional-5a-categoria-20
- 27-montbru-moia-2027-05-15
-END:VEVENT
-BEGIN:VEVENT
-UID:5b9550a32a98639de9b7@banderin.es
-DTSTAMP:20261126T221332Z
-DTSTART;VALUE=DATE:20270522
-DTEND;VALUE=DATE:20270524
-SUMMARY:Campionat de Catalunya Infantil\, Aleví i Benjamí 2027
-LOCATION:La Roca Golf
-DESCRIPTION:Juvenil - Individual\nFicha oficial: https://www.catgolf.com/es
- /campeonatos/campionat-de-catalunya-infantil-alevi-i-benjami-2027-2027-05-
- 22\nConfirma fechas y condiciones en la web del organizador. Vía Banderí
- n.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.catgolf.com/es/campeonatos/campionat-de-catalunya-infantil-
- alevi-i-benjami-2027-2027-05-22
-END:VEVENT
-BEGIN:VEVENT
-UID:1b6b67c006815226157d@banderin.es
-DTSTAMP:20261126T221332Z
-DTSTART;VALUE=DATE:20270522
-DTEND;VALUE=DATE:20270524
-SUMMARY:Circuit Nacional 5a Categoria 2027 (Aravell)
-LOCATION:Ugolf Aravell Andorra
-DESCRIPTION:Absoluto - Individual\nFicha oficial: https://www.catgolf.com/e
- s/campeonatos/circuit-nacional-5a-categoria-2027-aravell-2027-05-22\nConfi
- rma fechas y condiciones en la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.catgolf.com/es/campeonatos/circuit-nacional-5a-categoria-20
- 27-aravell-2027-05-22
-END:VEVENT
-BEGIN:VEVENT
-UID:b5629fbb49d2708b7199@banderin.es
-DTSTAMP:20261126T221332Z
-DTSTART;VALUE=DATE:20270526
-DTEND;VALUE=DATE:20270529
-SUMMARY:51è Gran Premi Sènior de Catalunya "Pentagonal" 2027 (Gaudí)
-LOCATION:Gaudí Reus Golf Club
-DESCRIPTION:Senior - Individual\nFicha oficial: https://www.catgolf.com/es/
- campeonatos/51e-gran-premi-senior-de-catalunya-pentagonal-2027-gaudi-2027-
- 05-26\nConfirma fechas y condiciones en la web del organizador. Vía Bande
- rín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.catgolf.com/es/campeonatos/51e-gran-premi-senior-de-catalun
- ya-pentagonal-2027-gaudi-2027-05-26
-END:VEVENT
-BEGIN:VEVENT
 UID:c4ec2c1a4d175afb474c@banderin.es
-DTSTAMP:20261126T221332Z
+DTSTAMP:20261127T023834Z
 DTSTART;VALUE=DATE:20270526
 DTEND;VALUE=DATE:20270527
 SUMMARY:Pentagonal (FCGOLF)
@@ -2815,7 +1617,7 @@ URL:https://www.golfdirecto.com/micro/game/6b003ff3dec726ee0c2f8eef/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:612b68b5a8ff458f7d73@banderin.es
-DTSTAMP:20261126T221332Z
+DTSTAMP:20261127T023834Z
 DTSTART;VALUE=DATE:20270527
 DTEND;VALUE=DATE:20270528
 SUMMARY:Pentagonal (FCGOLF)
@@ -2829,7 +1631,7 @@ URL:https://www.golfdirecto.com/micro/game/6b004003dec726ee0c31e166/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:949dcd9832a5cecf7a41@banderin.es
-DTSTAMP:20261126T221332Z
+DTSTAMP:20261127T023834Z
 DTSTART;VALUE=DATE:20270528
 DTEND;VALUE=DATE:20270529
 SUMMARY:Pentagonal (FCGOLF)
@@ -2842,102 +1644,8 @@ STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6b00401196fa82aafa807b3f/summary
 END:VEVENT
 BEGIN:VEVENT
-UID:dde1267ea781f997d98d@banderin.es
-DTSTAMP:20261126T221332Z
-DTSTART;VALUE=DATE:20270529
-DTEND;VALUE=DATE:20270531
-SUMMARY:Circuit Nacional 5a Categoria 2027 (Lleida)
-LOCATION:Golf Lleida & Country Club
-DESCRIPTION:Absoluto - Individual\nFicha oficial: https://www.catgolf.com/e
- s/campeonatos/circuit-nacional-5a-categoria-2027-lleida-2027-05-29\nConfir
- ma fechas y condiciones en la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.catgolf.com/es/campeonatos/circuit-nacional-5a-categoria-20
- 27-lleida-2027-05-29
-END:VEVENT
-BEGIN:VEVENT
-UID:62e955c71ff04de1f251@banderin.es
-DTSTAMP:20261126T221332Z
-DTSTART;VALUE=DATE:20270602
-DTEND;VALUE=DATE:20270603
-SUMMARY:31è Quadrangular Femení de Catalunya 2027 (Terramar)
-LOCATION:Club de Golf Terramar
-DESCRIPTION:Absoluto - Individual\nFicha oficial: https://www.catgolf.com/e
- s/campeonatos/31e-quadrangular-femeni-de-catalunya-2027-terramar-2027-06-0
- 2\nConfirma fechas y condiciones en la web del organizador. Vía Banderín
- .
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.catgolf.com/es/campeonatos/31e-quadrangular-femeni-de-catal
- unya-2027-terramar-2027-06-02
-END:VEVENT
-BEGIN:VEVENT
-UID:8f2a9d0edd68e461c40d@banderin.es
-DTSTAMP:20261126T221332Z
-DTSTART;VALUE=DATE:20270605
-DTEND;VALUE=DATE:20270606
-SUMMARY:61è Gran Premi de Catalunya "Hexagonal" 2027 (Aravell)
-LOCATION:Ugolf Aravell Andorra
-DESCRIPTION:Absoluto - Individual\nFicha oficial: https://www.catgolf.com/e
- s/campeonatos/61e-gran-premi-de-catalunya-hexagonal-2027-aravell-2027-06-0
- 5\nConfirma fechas y condiciones en la web del organizador. Vía Banderín
- .
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.catgolf.com/es/campeonatos/61e-gran-premi-de-catalunya-hexa
- gonal-2027-aravell-2027-06-05
-END:VEVENT
-BEGIN:VEVENT
-UID:051aaab6e2c273a837ce@banderin.es
-DTSTAMP:20261126T221332Z
-DTSTART;VALUE=DATE:20270605
-DTEND;VALUE=DATE:20270607
-SUMMARY:Circuit Nacional 5a Categoria 2027 (Costa Brava)
-LOCATION:Club de Golf Costa Brava
-DESCRIPTION:Absoluto - Individual\nFicha oficial: https://www.catgolf.com/e
- s/campeonatos/circuit-nacional-5a-categoria-2027-costa-brava-2027-06-05\nC
- onfirma fechas y condiciones en la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.catgolf.com/es/campeonatos/circuit-nacional-5a-categoria-20
- 27-costa-brava-2027-06-05
-END:VEVENT
-BEGIN:VEVENT
-UID:2a19b8ccafc61f4e3c55@banderin.es
-DTSTAMP:20261126T221332Z
-DTSTART;VALUE=DATE:20270609
-DTEND;VALUE=DATE:20270610
-SUMMARY:53è Interclubs Femeni de Catalunya - Liguilla 2027 (Fontanals)
-LOCATION:Fontanals Golf Club
-DESCRIPTION:Clubes y equipos - Equipos\nInscripción: abre el 19 de noviemb
- re\, cierra el 19 de noviembre.\nFicha oficial: https://www.catgolf.com/es
- /campeonatos/53e-interclubs-femeni-de-catalunya-liguilla-2027-fontanals-20
- 27-06-09\nConfirma fechas y condiciones en la web del organizador. Vía Ba
- nderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.catgolf.com/es/campeonatos/53e-interclubs-femeni-de-catalun
- ya-liguilla-2027-fontanals-2027-06-09
-END:VEVENT
-BEGIN:VEVENT
-UID:b371b24e6168b6f11024@banderin.es
-DTSTAMP:20261126T221332Z
-DTSTART;VALUE=DATE:20270612
-DTEND;VALUE=DATE:20270614
-SUMMARY:Circuit Nacional 5a Categoria 2027 (Camprodon)
-LOCATION:Club de Golf Camprodon
-DESCRIPTION:Absoluto - Individual\nFicha oficial: https://www.catgolf.com/e
- s/campeonatos/circuit-nacional-5a-categoria-2027-camprodon-2027-06-12\nCon
- firma fechas y condiciones en la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.catgolf.com/es/campeonatos/circuit-nacional-5a-categoria-20
- 27-camprodon-2027-06-12
-END:VEVENT
-BEGIN:VEVENT
 UID:d71869f2475de66ebc44@banderin.es
-DTSTAMP:20261126T221332Z
+DTSTAMP:20261127T023834Z
 DTSTART;VALUE=DATE:20270612
 DTEND;VALUE=DATE:20270613
 SUMMARY:Torneo Golf Party
@@ -2950,38 +1658,8 @@ STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6ad9f276a1531ddba4e8e980/summary
 END:VEVENT
 BEGIN:VEVENT
-UID:ad5ba85601a4357ecc4f@banderin.es
-DTSTAMP:20261126T221332Z
-DTSTART;VALUE=DATE:20270619
-DTEND;VALUE=DATE:20270621
-SUMMARY:Campionat de Catalunya Sènior 2027
-LOCATION:Club de Golf Llavaneras
-DESCRIPTION:Senior - Individual\nFicha oficial: https://www.catgolf.com/es/
- campeonatos/campionat-de-catalunya-senior-2027-2027-06-19\nConfirma fechas
-  y condiciones en la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.catgolf.com/es/campeonatos/campionat-de-catalunya-senior-20
- 27-2027-06-19
-END:VEVENT
-BEGIN:VEVENT
-UID:34c0605dacf8c3a04a01@banderin.es
-DTSTAMP:20261126T221332Z
-DTSTART;VALUE=DATE:20270619
-DTEND;VALUE=DATE:20270620
-SUMMARY:Circuit Nacional 5a Categoria 2027 (Cerdaña)
-LOCATION:Real Club de Golf de Cerdaña
-DESCRIPTION:Absoluto - Individual\nFicha oficial: https://www.catgolf.com/e
- s/campeonatos/circuit-nacional-5a-categoria-2027-cerdana-2027-06-19\nConfi
- rma fechas y condiciones en la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.catgolf.com/es/campeonatos/circuit-nacional-5a-categoria-20
- 27-cerdana-2027-06-19
-END:VEVENT
-BEGIN:VEVENT
 UID:180293727082da265ae9@banderin.es
-DTSTAMP:20261126T221332Z
+DTSTAMP:20261127T023834Z
 DTSTART;VALUE=DATE:20270626
 DTEND;VALUE=DATE:20270627
 SUMMARY:Torneo Gastronómico
@@ -2994,25 +1672,8 @@ STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6ad5f4c746735c80a0aaf8af/summary
 END:VEVENT
 BEGIN:VEVENT
-UID:6ba86b92d989a4a28936@banderin.es
-DTSTAMP:20261126T221332Z
-DTSTART;VALUE=DATE:20270630
-DTEND;VALUE=DATE:20270703
-SUMMARY:51è Gran Premi Sènior de Catalunya "Pentagonal" 2027 (Costa Brava
- )
-LOCATION:Club de Golf Costa Brava
-DESCRIPTION:Senior - Individual\nFicha oficial: https://www.catgolf.com/es/
- campeonatos/51e-gran-premi-senior-de-catalunya-pentagonal-2027-costa-brava
- -2027-06-30\nConfirma fechas y condiciones en la web del organizador. Vía
-  Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.catgolf.com/es/campeonatos/51e-gran-premi-senior-de-catalun
- ya-pentagonal-2027-costa-brava-2027-06-30
-END:VEVENT
-BEGIN:VEVENT
 UID:4dfe2c9bbb561b2aced1@banderin.es
-DTSTAMP:20261126T221332Z
+DTSTAMP:20261127T023834Z
 DTSTART;VALUE=DATE:20270702
 DTEND;VALUE=DATE:20270703
 SUMMARY:Galaxy Cup 2027
@@ -3025,39 +1686,8 @@ STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6a3fbbae96466b2bceb595ee/summary
 END:VEVENT
 BEGIN:VEVENT
-UID:21402100e8a6671c7eab@banderin.es
-DTSTAMP:20261126T221332Z
-DTSTART;VALUE=DATE:20270703
-DTEND;VALUE=DATE:20270704
-SUMMARY:61è Gran Premi de Catalunya "Hexagonal" 2027 (Costa Daurada)
-LOCATION:Golf Costa Daurada
-DESCRIPTION:Absoluto - Individual\nFicha oficial: https://www.catgolf.com/e
- s/campeonatos/61e-gran-premi-de-catalunya-hexagonal-2027-costa-daurada-202
- 7-07-03\nConfirma fechas y condiciones en la web del organizador. Vía Ban
- derín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.catgolf.com/es/campeonatos/61e-gran-premi-de-catalunya-hexa
- gonal-2027-costa-daurada-2027-07-03
-END:VEVENT
-BEGIN:VEVENT
-UID:b7e5f5426a6e2e886015@banderin.es
-DTSTAMP:20261126T221332Z
-DTSTART;VALUE=DATE:20270703
-DTEND;VALUE=DATE:20270705
-SUMMARY:Circuit Nacional 5a Categoria 2027 (Torremirona)
-LOCATION:Torremirona Golf Club
-DESCRIPTION:Absoluto - Individual\nFicha oficial: https://www.catgolf.com/e
- s/campeonatos/circuit-nacional-5a-categoria-2027-torremirona-2027-07-03\nC
- onfirma fechas y condiciones en la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.catgolf.com/es/campeonatos/circuit-nacional-5a-categoria-20
- 27-torremirona-2027-07-03
-END:VEVENT
-BEGIN:VEVENT
 UID:38e115b7e05c8df5ec7d@banderin.es
-DTSTAMP:20261126T221332Z
+DTSTAMP:20261127T023834Z
 DTSTART;VALUE=DATE:20270703
 DTEND;VALUE=DATE:20270704
 SUMMARY:Galaxy Cup 2027
@@ -3071,7 +1701,7 @@ URL:https://www.golfdirecto.com/micro/game/6a3fbbca96466b2bcebdea67/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:09d4267c995d9a335640@banderin.es
-DTSTAMP:20261126T221332Z
+DTSTAMP:20261127T023834Z
 DTSTART;VALUE=DATE:20270704
 DTEND;VALUE=DATE:20270705
 SUMMARY:Birdie Summer
@@ -3085,7 +1715,7 @@ URL:https://www.golfdirecto.com/micro/game/6a86dcd981e2448787dd54ac/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:29deecc010c9728e4374@banderin.es
-DTSTAMP:20261126T221332Z
+DTSTAMP:20261127T023834Z
 DTSTART;VALUE=DATE:20270704
 DTEND;VALUE=DATE:20270705
 SUMMARY:Galaxy Cup 2027
@@ -3098,38 +1728,8 @@ STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6a3fbc2f96466b2bcefe4d3b/summary
 END:VEVENT
 BEGIN:VEVENT
-UID:ab47151330a0b20d4348@banderin.es
-DTSTAMP:20261126T221332Z
-DTSTART;VALUE=DATE:20270709
-DTEND;VALUE=DATE:20270712
-SUMMARY:Campionat de Catalunya Absolut 2027 (WAGR)
-LOCATION:Club de Golf Terramar
-DESCRIPTION:Absoluto - Individual\nFicha oficial: https://www.catgolf.com/e
- s/campeonatos/campionat-de-catalunya-absolut-2027-wagr-2027-07-09\nConfirm
- a fechas y condiciones en la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.catgolf.com/es/campeonatos/campionat-de-catalunya-absolut-2
- 027-wagr-2027-07-09
-END:VEVENT
-BEGIN:VEVENT
-UID:47c8505ec70f9eb279c0@banderin.es
-DTSTAMP:20261126T221332Z
-DTSTART;VALUE=DATE:20270710
-DTEND;VALUE=DATE:20270712
-SUMMARY:Campionat de Catalunya 3a i 4a Categoria 2027
-LOCATION:Club Golf d'Aro
-DESCRIPTION:Absoluto - Individual\nFicha oficial: https://www.catgolf.com/e
- s/campeonatos/campionat-de-catalunya-3a-i-4a-categoria-2027-2027-07-10\nCo
- nfirma fechas y condiciones en la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.catgolf.com/es/campeonatos/campionat-de-catalunya-3a-i-4a-c
- ategoria-2027-2027-07-10
-END:VEVENT
-BEGIN:VEVENT
 UID:ead8832d733ddae955a8@banderin.es
-DTSTAMP:20261126T221332Z
+DTSTAMP:20261127T023834Z
 DTSTART;VALUE=DATE:20270711
 DTEND;VALUE=DATE:20270712
 SUMMARY:Birdie Summer
@@ -3143,7 +1743,7 @@ URL:https://www.golfdirecto.com/micro/game/6a86dd1881e2448787f3360d/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:7fa5a5d5d84bfc3a51ae@banderin.es
-DTSTAMP:20261126T221332Z
+DTSTAMP:20261127T023834Z
 DTSTART;VALUE=DATE:20270718
 DTEND;VALUE=DATE:20270719
 SUMMARY:Birdie Summer
@@ -3156,155 +1756,17 @@ STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6a86dd3c81e2448787fac763/summary
 END:VEVENT
 BEGIN:VEVENT
-UID:46fc682e3d8ed07a6390@banderin.es
-DTSTAMP:20261126T221332Z
-DTSTART;VALUE=DATE:20270718
-DTEND;VALUE=DATE:20270719
-SUMMARY:Circuit Nacional 5a Categoria 2027 (Costa Daurada)
-LOCATION:Golf Costa Daurada
-DESCRIPTION:Absoluto - Individual\nFicha oficial: https://www.catgolf.com/e
- s/campeonatos/circuit-nacional-5a-categoria-2027-costa-daurada-2027-07-18\
- nConfirma fechas y condiciones en la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.catgolf.com/es/campeonatos/circuit-nacional-5a-categoria-20
- 27-costa-daurada-2027-07-18
-END:VEVENT
-BEGIN:VEVENT
-UID:430c7168b809733059ee@banderin.es
-DTSTAMP:20261126T221332Z
+UID:a66fff73c7e224de72bf@banderin.es
+DTSTAMP:20261127T023834Z
 DTSTART;VALUE=DATE:20270725
 DTEND;VALUE=DATE:20270726
-SUMMARY:Circuit Nacional 5a Categoria 2027 (Infinitum)
-LOCATION:Infinitum Golf
-DESCRIPTION:Absoluto - Individual\nFicha oficial: https://www.catgolf.com/e
- s/campeonatos/circuit-nacional-5a-categoria-2027-infinitum-2027-07-25\nCon
- firma fechas y condiciones en la web del organizador. Vía Banderín.
+SUMMARY:Birdie Summer
+LOCATION:Emporda Golf Club
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/6a86dd5881e2448787070c9c/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-URL:https://www.catgolf.com/es/campeonatos/circuit-nacional-5a-categoria-20
- 27-infinitum-2027-07-25
-END:VEVENT
-BEGIN:VEVENT
-UID:b4662249b3551db29647@banderin.es
-DTSTAMP:20261126T221332Z
-DTSTART;VALUE=DATE:20270731
-DTEND;VALUE=DATE:20270702
-SUMMARY:Circuit Nacional 5a Categoria 2027 (Caldes)
-LOCATION:Golf de Caldes
-DESCRIPTION:Absoluto - Individual\nFicha oficial: https://www.catgolf.com/e
- s/campeonatos/circuit-nacional-5a-categoria-2027-caldes-2027-07-31\nConfir
- ma fechas y condiciones en la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.catgolf.com/es/campeonatos/circuit-nacional-5a-categoria-20
- 27-caldes-2027-07-31
-END:VEVENT
-BEGIN:VEVENT
-UID:2123c21454ca742787e7@banderin.es
-DTSTAMP:20261126T221332Z
-DTSTART;VALUE=DATE:20270807
-DTEND;VALUE=DATE:20270809
-SUMMARY:Circuit Nacional 5a Categoria 2027 (El Vallès)
-LOCATION:El Vallès Golf
-DESCRIPTION:Absoluto - Individual\nFicha oficial: https://www.catgolf.com/e
- s/campeonatos/circuit-nacional-5a-categoria-2027-el-valles-2027-08-07\nCon
- firma fechas y condiciones en la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.catgolf.com/es/campeonatos/circuit-nacional-5a-categoria-20
- 27-el-valles-2027-08-07
-END:VEVENT
-BEGIN:VEVENT
-UID:c94e093912b033d78857@banderin.es
-DTSTAMP:20261126T221332Z
-DTSTART;VALUE=DATE:20270822
-DTEND;VALUE=DATE:20270823
-SUMMARY:Circuit Nacional 5a Categoria 2027 (La Roca)
-LOCATION:La Roca Golf
-DESCRIPTION:Absoluto - Individual\nFicha oficial: https://www.catgolf.com/e
- s/campeonatos/circuit-nacional-5a-categoria-2027-la-roca-2027-08-22\nConfi
- rma fechas y condiciones en la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.catgolf.com/es/campeonatos/circuit-nacional-5a-categoria-20
- 27-la-roca-2027-08-22
-END:VEVENT
-BEGIN:VEVENT
-UID:128d686e0b087e2a3244@banderin.es
-DTSTAMP:20261126T221332Z
-DTSTART;VALUE=DATE:20270904
-DTEND;VALUE=DATE:20270906
-SUMMARY:15a Lliga Juvenil 2027
-LOCATION:Golf de Caldes
-DESCRIPTION:Juvenil - Individual\nFicha oficial: https://www.catgolf.com/es
- /campeonatos/15a-lliga-juvenil-2027-2027-09-04\nConfirma fechas y condicio
- nes en la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.catgolf.com/es/campeonatos/15a-lliga-juvenil-2027-2027-09-0
- 4
-END:VEVENT
-BEGIN:VEVENT
-UID:93f226602d8ffd08670e@banderin.es
-DTSTAMP:20261126T221332Z
-DTSTART;VALUE=DATE:20270918
-DTEND;VALUE=DATE:20270919
-SUMMARY:61è Gran Premi de Catalunya "Hexagonal" 2027 (Perelada)
-LOCATION:Golf Club Perelada
-DESCRIPTION:Absoluto - Individual\nFicha oficial: https://www.catgolf.com/e
- s/campeonatos/61e-gran-premi-de-catalunya-hexagonal-2027-perelada-2027-09-
- 18\nConfirma fechas y condiciones en la web del organizador. Vía Banderí
- n.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.catgolf.com/es/campeonatos/61e-gran-premi-de-catalunya-hexa
- gonal-2027-perelada-2027-09-18
-END:VEVENT
-BEGIN:VEVENT
-UID:78a985be570a186d0917@banderin.es
-DTSTAMP:20261126T221332Z
-DTSTART;VALUE=DATE:20270918
-DTEND;VALUE=DATE:20270920
-SUMMARY:Campionat de Catalunya Matchplay Juvenil 2027
-LOCATION:Golf Costa Daurada
-DESCRIPTION:Juvenil - Match Play - Individual\nFicha oficial: https://www.c
- atgolf.com/es/campeonatos/campionat-de-catalunya-matchplay-juvenil-2027-20
- 27-09-18\nConfirma fechas y condiciones en la web del organizador. Vía Ba
- nderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.catgolf.com/es/campeonatos/campionat-de-catalunya-matchplay
- -juvenil-2027-2027-09-18
-END:VEVENT
-BEGIN:VEVENT
-UID:09a26b017ab062fc62b1@banderin.es
-DTSTAMP:20261126T221332Z
-DTSTART;VALUE=DATE:20270919
-DTEND;VALUE=DATE:20270920
-SUMMARY:Copa Catalunya 5ª Categoria 2027
-LOCATION:Club Golf d'Aro
-DESCRIPTION:Absoluto - Individual\nFicha oficial: https://www.catgolf.com/e
- s/campeonatos/copa-catalunya-5-categoria-2027-2027-09-19\nConfirma fechas 
- y condiciones en la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.catgolf.com/es/campeonatos/copa-catalunya-5-categoria-2027-
- 2027-09-19
-END:VEVENT
-BEGIN:VEVENT
-UID:064afd8f19e74c252188@banderin.es
-DTSTAMP:20261126T221332Z
-DTSTART;VALUE=DATE:20271002
-DTEND;VALUE=DATE:20271004
-SUMMARY:Campionat de Catalunya Interclubs Boys & Girls 2027
-LOCATION:Empordà Golf Resort
-DESCRIPTION:Juvenil - Equipos\nFicha oficial: https://www.catgolf.com/es/ca
- mpeonatos/campionat-de-catalunya-interclubs-boys-girls-2027-2027-10-02\nCo
- nfirma fechas y condiciones en la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.catgolf.com/es/campeonatos/campionat-de-catalunya-interclub
- s-boys-girls-2027-2027-10-02
+URL:https://www.golfdirecto.com/micro/game/6a86dd5881e2448787070c9c/summary
 END:VEVENT
 END:VCALENDAR

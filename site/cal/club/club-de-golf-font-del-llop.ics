@@ -10,23 +10,22 @@ X-WR-TIMEZONE:Europe/Madrid
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:0a23fb5246ae2e9fd75e@banderin.es
-DTSTAMP:20261126T221332Z
+UID:52a317000e8bef5fdbd0@banderin.es
+DTSTAMP:20261127T023834Z
 DTSTART;VALUE=DATE:20261127
-DTEND;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261128
 SUMMARY:XXX Campeonato Absoluto de la Comunitat Valenciana
-LOCATION:Club de Golf Font del Llop\, Monforte del Cid\, Alicante
-DESCRIPTION:Absoluto - Medal Play - Individual\nInscripción: abre el 23 de
-  octubre\, cierra el 23 de noviembre.\nPrecio: 100 €.\nFicha oficial: ht
- tps://golfcv.com/torneo_seek/ver-torneo/?torneoid=2719\nConfirma fechas y 
- condiciones en la web del organizador. Vía Banderín.
+LOCATION:Club de Golf Font del Llop
+DESCRIPTION:Social de club - Medal Play - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/6b06cf692e603a2fafb97f2e/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-URL:https://golfcv.com/torneo_seek/ver-torneo/?torneoid=2719
+URL:https://www.golfdirecto.com/micro/game/6b06cf692e603a2fafb97f2e/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:32c2ac8fc8cf0754a8e3@banderin.es
-DTSTAMP:20261126T221332Z
+DTSTAMP:20261127T023834Z
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261220
 SUMMARY:XVII Torneo Navidad Font del Llop 2026
@@ -41,7 +40,7 @@ URL:https://www.golfdirecto.com/micro/game/6ae6fc4f8f4f6415e0ac88d9/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:ac46267536003536d52d@banderin.es
-DTSTAMP:20261126T221332Z
+DTSTAMP:20261127T023834Z
 DTSTART;VALUE=DATE:20261226
 DTEND;VALUE=DATE:20261227
 SUMMARY:XV Torneo Pav@ y UVA Embolsada Vinalopo
@@ -56,7 +55,7 @@ URL:https://www.golfdirecto.com/micro/game/6aea031e2267c6230f30b6ae/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:fe080615614ee54f2d12@banderin.es
-DTSTAMP:20261126T221332Z
+DTSTAMP:20261127T023834Z
 DTSTART;VALUE=DATE:20261227
 DTEND;VALUE=DATE:20261228
 SUMMARY:Golf Staff Trophy
@@ -70,7 +69,7 @@ URL:https://www.golfdirecto.com/micro/game/6b068d5b9b4f2a62b864dc0b/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:4b410f83c7ef4d34c157@banderin.es
-DTSTAMP:20261126T221332Z
+DTSTAMP:20261127T023834Z
 DTSTART;VALUE=DATE:20261229
 DTEND;VALUE=DATE:20270101
 SUMMARY:Jugadores No LV Cto Absoluto de la CV

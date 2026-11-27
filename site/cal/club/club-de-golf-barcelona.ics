@@ -11,7 +11,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:c18d28fb5665b55956a6@banderin.es
-DTSTAMP:20261126T221332Z
+DTSTAMP:20261127T023834Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:V Circuito Executive 5ª Categoria Final
@@ -26,7 +26,7 @@ URL:https://www.golfdirecto.com/micro/game/69524a80801d0bfc6167505f/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:fb962ff9d15aa6657979@banderin.es
-DTSTAMP:20261126T221332Z
+DTSTAMP:20261127T023834Z
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261201
 SUMMARY:Torneig Green Monday By Grau
@@ -41,7 +41,7 @@ URL:https://www.golfdirecto.com/micro/game/6965b8d97205a3564d3e846e/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:e1557f4d5c894a9b9c4d@banderin.es
-DTSTAMP:20261126T221332Z
+DTSTAMP:20261127T023834Z
 DTSTART;VALUE=DATE:20261207
 DTEND;VALUE=DATE:20261208
 SUMMARY:Torneig Green Monday By Alengolf
@@ -56,7 +56,7 @@ URL:https://www.golfdirecto.com/micro/game/6965b91b7205a3564d4700db/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:0032c535982394cfffac@banderin.es
-DTSTAMP:20261126T221332Z
+DTSTAMP:20261127T023834Z
 DTSTART;VALUE=DATE:20261214
 DTEND;VALUE=DATE:20261215
 SUMMARY:Torneig Green Monday By la Tasca D’en Ximo
@@ -71,7 +71,7 @@ URL:https://www.golfdirecto.com/micro/game/6965b9607205a3564d4dd3cb/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:eae3c1b1e166b76d746b@banderin.es
-DTSTAMP:20261126T221332Z
+DTSTAMP:20261127T023834Z
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261220
 SUMMARY:"El Navideño" By Oak Restaurante
@@ -85,7 +85,7 @@ URL:https://www.golfdirecto.com/micro/game/69f1d3845435bb536e023558/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:779a0499bc7bb3c46cb0@banderin.es
-DTSTAMP:20261126T221332Z
+DTSTAMP:20261127T023834Z
 DTSTART;VALUE=DATE:20261221
 DTEND;VALUE=DATE:20261222
 SUMMARY:Torneig Green Monday By Can Tintorer
@@ -100,7 +100,7 @@ URL:https://www.golfdirecto.com/micro/game/6965b9927205a3564d523186/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:03d84a79b170013dc5c6@banderin.es
-DTSTAMP:20261126T221332Z
+DTSTAMP:20261127T023834Z
 DTSTART;VALUE=DATE:20261228
 DTEND;VALUE=DATE:20261229
 SUMMARY:Torneig Green Monday By Oak Restautante
@@ -112,36 +112,5 @@ DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6965b9c57205a3564d54d8e6/summary
-END:VEVENT
-BEGIN:VEVENT
-UID:9054af64e2cc67c30d31@banderin.es
-DTSTAMP:20261126T221332Z
-DTSTART;VALUE=DATE:20270424
-DTEND;VALUE=DATE:20270425
-SUMMARY:Circuit Nacional 5a Categoria 2027 (Barcelona)
-LOCATION:Club de Golf Barcelona
-DESCRIPTION:Absoluto - Individual\nFicha oficial: https://www.catgolf.com/e
- s/campeonatos/circuit-nacional-5a-categoria-2027-barcelona-2027-04-24\nCon
- firma fechas y condiciones en la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.catgolf.com/es/campeonatos/circuit-nacional-5a-categoria-20
- 27-barcelona-2027-04-24
-END:VEVENT
-BEGIN:VEVENT
-UID:cb8c21dfaaec59929126@banderin.es
-DTSTAMP:20261126T221332Z
-DTSTART;VALUE=DATE:20270512
-DTEND;VALUE=DATE:20270513
-SUMMARY:31è Quadrangular Femení de Catalunya 2027 (Barcelona)
-LOCATION:Club de Golf Barcelona
-DESCRIPTION:Absoluto - Individual\nFicha oficial: https://www.catgolf.com/e
- s/campeonatos/31e-quadrangular-femeni-de-catalunya-2027-barcelona-2027-05-
- 12\nConfirma fechas y condiciones en la web del organizador. Vía Banderí
- n.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.catgolf.com/es/campeonatos/31e-quadrangular-femeni-de-catal
- unya-2027-barcelona-2027-05-12
 END:VEVENT
 END:VCALENDAR
