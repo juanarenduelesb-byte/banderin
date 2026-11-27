@@ -11,11 +11,11 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:96f2f6af6b02543e11ad@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Final Liga Universitaria
-LOCATION:Golf Santander S A\, Boadilla del Monte
+LOCATION:Golf Santander S A\, Boadilla del Monte\, Madrid
 DESCRIPTION:Universitario - Stableford - Individual\nInscripción: abre el 
  16 de noviembre\, cierra el 25 de noviembre.\nPrecio: 21 €.\nFicha ofici
  al: https://www.nextcaddy.com/tour/74596\nConfirma fechas y condiciones en

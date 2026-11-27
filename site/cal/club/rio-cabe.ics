@@ -11,11 +11,11 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:755904ccec0801b96294@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:III Prueba Desafío Ribeira Sacra 2026 - Adega Cabo do Mundo
-LOCATION:Rio Cabe
+LOCATION:Rio Cabe\, Monforte (casco Urbano)\, Lugo
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   23 de noviembre\, cierra el 27 de noviembre.\nFicha oficial: https://www.
  golfdirecto.com/micro/game/6b042dbdd2ed4f3d1cda8784/summary\nConfirma fech
@@ -26,11 +26,11 @@ URL:https://www.golfdirecto.com/micro/game/6b042dbdd2ed4f3d1cda8784/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:cee677f80204e59f7885@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261201
 SUMMARY:Abierto de Parejas - Casa dos Muros
-LOCATION:Rio Cabe
+LOCATION:Rio Cabe\, Monforte (casco Urbano)\, Lugo
 DESCRIPTION:Social de club - Greensome - Parejas\nInscripción: abre el 25 
  de noviembre\, cierra el 29 de noviembre.\nFicha oficial: https://www.golf
  directo.com/micro/game/6b0733dc6549a3fb78953ac2/summary\nConfirma fechas y

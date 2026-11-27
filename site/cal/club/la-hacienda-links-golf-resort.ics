@@ -11,11 +11,11 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:dc4bf81c20d542367352@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:Campeonato Andalucía Interclubs Masculino
-LOCATION:la Hacienda Links Golf Resort\, San Roque
+LOCATION:la Hacienda Links Golf Resort\, San Roque\, Cádiz
 DESCRIPTION:Clubes y equipos - Medal Play - Equipos\nFicha oficial: https:/
  /www.nextcaddy.com/tour/61253\nConfirma fechas y condiciones en la web del
   organizador. Vía Banderín.

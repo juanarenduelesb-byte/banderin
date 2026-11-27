@@ -1,0 +1,127 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Banderin//Torneos de golf//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Banderín - Córdoba
+X-WR-CALDESC:Torneos de golf: Córdoba. Se actualiza cada mañana. https://
+ banderin.es
+X-WR-TIMEZONE:Europe/Madrid
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:2ddeae81ca68d03491ec@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:2ª Prueba Liga Senior Jlr-Gysa 28/11/2026
+LOCATION:Real Club de Campo de Cordoba\, Cordoba\, Córdoba
+DESCRIPTION:Senior - Stableford - Individual\nFicha oficial: https://www.ne
+ xtcaddy.com/tour/75507\nConfirma fechas y condiciones en la web del organi
+ zador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nextcaddy.com/tour/75507
+END:VEVENT
+BEGIN:VEVENT
+UID:ffc8167006b1a593bb1b@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:II Copa Iniciación - BMW San Rafael Motor
+LOCATION:La Loma Golf\, Cordoba\, Córdoba
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  13 de octubre\, cierra el 27 de noviembre.\nFicha oficial: https://www.go
+ lfdirecto.com/micro/game/6ace11d13189133e5a976bd2/summary\nConfirma fechas
+  y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6ace11d13189133e5a976bd2/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:76deb0c3427f8e4d8650@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:Liga Iniación IV Prueba
+LOCATION:Arruzafa Golf\, Cordoba\, Córdoba
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  17 de noviembre\, cierra el 26 de noviembre.\nFicha oficial: https://www.
+ golfdirecto.com/micro/game/6aad19a9bbc718cf57dd0a1f/summary\nConfirma fech
+ as y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6aad19a9bbc718cf57dd0a1f/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:10e3d398488d7085acdc@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:Liga de Principiantes 26/27\, Jornada 1
+LOCATION:Club de Golf Pozoblanco\, Pozoblanco\, Córdoba
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  25 de noviembre\, cierra el 27 de noviembre.\nPrecio: Gratis.\nFicha ofic
+ ial: https://www.nextcaddy.com/tour/75658\nConfirma fechas y condiciones e
+ n la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nextcaddy.com/tour/75658
+END:VEVENT
+BEGIN:VEVENT
+UID:600af5852c70bc6e6e52@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
+SUMMARY:Liguilla de Damas Día 01/12/2026
+LOCATION:Real Club de Campo de Cordoba\, Cordoba\, Córdoba
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.nextcaddy.com/tour/75593\nConfirma fechas y condiciones en la web de
+ l organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nextcaddy.com/tour/75593
+END:VEVENT
+BEGIN:VEVENT
+UID:47b9ab040bffdf9181b2@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20261202
+DTEND;VALUE=DATE:20261203
+SUMMARY:6ª Prueba Liga Senior Mixta Iveco-Veimancha 25/11/2026
+LOCATION:Real Club de Campo de Cordoba\, Cordoba\, Córdoba
+DESCRIPTION:Senior - Stableford - Individual\nFicha oficial: https://www.ne
+ xtcaddy.com/tour/75638\nConfirma fechas y condiciones en la web del organi
+ zador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nextcaddy.com/tour/75638
+END:VEVENT
+BEGIN:VEVENT
+UID:8b8587a295426ebf82c9@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20261220
+DTEND;VALUE=DATE:20261221
+SUMMARY:Torneo Navideño Escuela Juvenil
+LOCATION:La Loma Golf\, Cordoba\, Córdoba
+DESCRIPTION:Juvenil - Stableford - Individual\nFicha oficial: https://www.g
+ olfdirecto.com/micro/game/6affa7365e04914dfabc9aec/summary\nConfirma fecha
+ s y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6affa7365e04914dfabc9aec/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:57ef35d06416284f5433@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20270102
+DTEND;VALUE=DATE:20270103
+SUMMARY:Torneo Reyes Magos
+LOCATION:La Loma Golf\, Cordoba\, Córdoba
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/6affadf25e04914dfad5b971/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6affadf25e04914dfad5b971/summary
+END:VEVENT
+END:VCALENDAR

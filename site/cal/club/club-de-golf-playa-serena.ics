@@ -11,11 +11,11 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:76d45dd406f613107db7@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Torneo Joyeria Melanie & Claire
-LOCATION:Club de Golf Playa Serena
+LOCATION:Club de Golf Playa Serena\, Roquetas de Mar\, Almería
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   16 de noviembre\, cierra el 28 de noviembre.\nFicha oficial: https://www.
  golfdirecto.com/micro/game/6974877005a15f8d1994d407/summary\nConfirma fech
@@ -26,11 +26,11 @@ URL:https://www.golfdirecto.com/micro/game/6974877005a15f8d1994d407/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:08bea4f4b59a73aaa823@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
 SUMMARY:Campeonato Medal Almeria
-LOCATION:Club de Golf Playa Serena
+LOCATION:Club de Golf Playa Serena\, Roquetas de Mar\, Almería
 DESCRIPTION:Social de club - Medal Play - Individual\nInscripción: abre el
   18 de noviembre\, cierra el 4 de diciembre.\nFicha oficial: https://www.g
  olfdirecto.com/micro/game/69748c3505a15f8d19b5272e/summary\nConfirma fecha
@@ -41,11 +41,11 @@ URL:https://www.golfdirecto.com/micro/game/69748c3505a15f8d19b5272e/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:2b47f004e9956756d287@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261231
 DTEND;VALUE=DATE:20270101
 SUMMARY:Torneo Última Oportunidad
-LOCATION:Club de Golf Playa Serena
+LOCATION:Club de Golf Playa Serena\, Roquetas de Mar\, Almería
 DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
  //www.golfdirecto.com/micro/game/69748d1805a15f8d19c067c4/summary\nConfirm
  a fechas y condiciones en la web del organizador. Vía Banderín.

@@ -1,0 +1,938 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Banderin//Torneos de golf//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Banderín - Barcelona
+X-WR-CALDESC:Torneos de golf: Barcelona. Se actualiza cada mañana. https:/
+ /banderin.es
+X-WR-TIMEZONE:Europe/Madrid
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:3cf45c8ddc73eab5f047@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261130
+SUMMARY:2A Prova Lliga D'Hivern 9 Forats
+LOCATION:Golf Taradell\, Taradell\, Barcelona
+DESCRIPTION:Social de club - Individual\nFicha oficial: https://www.catgolf
+ .com/es/campeonatos/2a-prova-lliga-dhivern-9-forats-2026-11-28\nConfirma f
+ echas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.catgolf.com/es/campeonatos/2a-prova-lliga-dhivern-9-forats-
+ 2026-11-28
+END:VEVENT
+BEGIN:VEVENT
+UID:9e9dc0bbcb616f4d0d38@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261130
+SUMMARY:Torneig Brot d'Or
+LOCATION:Club de Golf Castellterçol\, Castellterçol\, Barcelona
+DESCRIPTION:Social de club - Individual\nFicha oficial: https://www.catgolf
+ .com/es/campeonatos/torneig-brot-dor-2026-11-28\nConfirma fechas y condici
+ ones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.catgolf.com/es/campeonatos/torneig-brot-dor-2026-11-28
+END:VEVENT
+BEGIN:VEVENT
+UID:88e91563565bf2dc2357@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:Trofeu Sant Andreu
+LOCATION:Club de Golf Llavaneras\, Sant Andreu de Llavaneres\, Barcelona
+DESCRIPTION:Social de club - Individual\nFicha oficial: https://www.catgolf
+ .com/es/campeonatos/trofeu-sant-andreu-2026-11-28\nConfirma fechas y condi
+ ciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.catgolf.com/es/campeonatos/trofeu-sant-andreu-2026-11-28
+END:VEVENT
+BEGIN:VEVENT
+UID:c18d28fb5665b55956a6@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:V Circuito Executive 5ª Categoria Final
+LOCATION:Club de Golf Barcelona\, Sant Esteve Sesrovires\, Barcelona
+DESCRIPTION:Circuito comercial - Stableford - Individual\nInscripción: abr
+ e el 26 de octubre\, cierra el 27 de noviembre.\nFicha oficial: https://ww
+ w.golfdirecto.com/micro/game/69524a80801d0bfc6167505f/summary\nConfirma fe
+ chas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/69524a80801d0bfc6167505f/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:b3ca01e07e85480998c3@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261201
+SUMMARY:Barbacoa
+LOCATION:La Roca Golf\, La Roca del Valles\, Barcelona
+DESCRIPTION:Social de club - Individual\nFicha oficial: https://www.catgolf
+ .com/es/campeonatos/barbacoa-2026-11-30\nConfirma fechas y condiciones en 
+ la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.catgolf.com/es/campeonatos/barbacoa-2026-11-30
+END:VEVENT
+BEGIN:VEVENT
+UID:1b6a108118d3cc6b62ae@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261201
+SUMMARY:Torneig Dels Dilluns 9 Forats
+LOCATION:Golf Taradell\, Taradell\, Barcelona
+DESCRIPTION:Social de club - Individual\nFicha oficial: https://www.catgolf
+ .com/es/campeonatos/torneig-dels-dilluns-9-forats-2026-11-30\nConfirma fec
+ has y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.catgolf.com/es/campeonatos/torneig-dels-dilluns-9-forats-20
+ 26-11-30
+END:VEVENT
+BEGIN:VEVENT
+UID:fb962ff9d15aa6657979@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261201
+SUMMARY:Torneig Green Monday By Grau
+LOCATION:Club de Golf Barcelona\, Sant Esteve Sesrovires\, Barcelona
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  16 de noviembre\, cierra el 29 de noviembre.\nFicha oficial: https://www.
+ golfdirecto.com/micro/game/6965b8d97205a3564d3e846e/summary\nConfirma fech
+ as y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6965b8d97205a3564d3e846e/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:2b5b476e8c244a9f8903@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20261202
+DTEND;VALUE=DATE:20261203
+SUMMARY:9 Forats
+LOCATION:La Roca Golf\, La Roca del Valles\, Barcelona
+DESCRIPTION:Social de club - Individual\nFicha oficial: https://www.catgolf
+ .com/es/campeonatos/9-forats-2026-12-02\nConfirma fechas y condiciones en 
+ la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.catgolf.com/es/campeonatos/9-forats-2026-12-02
+END:VEVENT
+BEGIN:VEVENT
+UID:ea02e6b6e382dc66e050@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20261202
+DTEND;VALUE=DATE:20261203
+SUMMARY:Swing & Dones
+LOCATION:La Roca Golf\, La Roca del Valles\, Barcelona
+DESCRIPTION:Social de club - Individual\nInscripción: abre el 20 de enero\
+ , cierra el 20 de enero.\nFicha oficial: https://www.catgolf.com/es/campeo
+ natos/swing-dones\nConfirma fechas y condiciones en la web del organizador
+ . Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.catgolf.com/es/campeonatos/swing-dones
+END:VEVENT
+BEGIN:VEVENT
+UID:d67a989d5f85cca646cc@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20261207
+DTEND;VALUE=DATE:20261208
+SUMMARY:Barbacoa
+LOCATION:La Roca Golf\, La Roca del Valles\, Barcelona
+DESCRIPTION:Social de club - Individual\nFicha oficial: https://www.catgolf
+ .com/es/campeonatos/barbacoa-2026-12-07\nConfirma fechas y condiciones en 
+ la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.catgolf.com/es/campeonatos/barbacoa-2026-12-07
+END:VEVENT
+BEGIN:VEVENT
+UID:e1557f4d5c894a9b9c4d@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20261207
+DTEND;VALUE=DATE:20261208
+SUMMARY:Torneig Green Monday By Alengolf
+LOCATION:Club de Golf Barcelona\, Sant Esteve Sesrovires\, Barcelona
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  1 de diciembre\, cierra el 6 de diciembre.\nFicha oficial: https://www.go
+ lfdirecto.com/micro/game/6965b91b7205a3564d4700db/summary\nConfirma fechas
+  y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6965b91b7205a3564d4700db/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:0dabbe750410571e9c57@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20261209
+DTEND;VALUE=DATE:20261210
+SUMMARY:9 Forats
+LOCATION:La Roca Golf\, La Roca del Valles\, Barcelona
+DESCRIPTION:Social de club - Individual\nFicha oficial: https://www.catgolf
+ .com/es/campeonatos/9-forats-2026-12-09\nConfirma fechas y condiciones en 
+ la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.catgolf.com/es/campeonatos/9-forats-2026-12-09
+END:VEVENT
+BEGIN:VEVENT
+UID:c144cc75427eb67163fb@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20261209
+DTEND;VALUE=DATE:20261210
+SUMMARY:Aesgolf
+LOCATION:La Roca Golf\, La Roca del Valles\, Barcelona
+DESCRIPTION:Senior - Individual\nFicha oficial: https://www.catgolf.com/es/
+ campeonatos/aesgolf-2026-12-09\nConfirma fechas y condiciones en la web de
+ l organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.catgolf.com/es/campeonatos/aesgolf-2026-12-09
+END:VEVENT
+BEGIN:VEVENT
+UID:504947dacb3ee0d981c2@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20261209
+DTEND;VALUE=DATE:20261210
+SUMMARY:Torneig Segolfcat
+LOCATION:Club de Golf Llavaneras\, Sant Andreu de Llavaneres\, Barcelona
+DESCRIPTION:Social de club - Individual\nFicha oficial: https://www.catgolf
+ .com/es/campeonatos/torneig-segolfcat-2026-12-09\nConfirma fechas y condic
+ iones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.catgolf.com/es/campeonatos/torneig-segolfcat-2026-12-09
+END:VEVENT
+BEGIN:VEVENT
+UID:a0af81d71062a00a6020@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261214
+SUMMARY:3A Prova Lliga D'Hivern 9 Forats
+LOCATION:Golf Taradell\, Taradell\, Barcelona
+DESCRIPTION:Social de club - Individual\nFicha oficial: https://www.catgolf
+ .com/es/campeonatos/3a-prova-lliga-dhivern-9-forats-2026-12-12\nConfirma f
+ echas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.catgolf.com/es/campeonatos/3a-prova-lliga-dhivern-9-forats-
+ 2026-12-12
+END:VEVENT
+BEGIN:VEVENT
+UID:74ca6a5ad8ead7f4b5b5@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261214
+SUMMARY:3a Final Catalunya Promeses 2026
+LOCATION:Golf Serres de Pals\, Barcelona\, Barcelona
+DESCRIPTION:Absoluto - Individual\nInscripción: abre el 24 de noviembre\, 
+ cierra el 9 de diciembre.\nFicha oficial: https://www.catgolf.com/es/campe
+ onatos/3a-final-catalunya-promeses-2026-2026-12-12\nConfirma fechas y cond
+ iciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.catgolf.com/es/campeonatos/3a-final-catalunya-promeses-2026
+ -2026-12-12
+END:VEVENT
+BEGIN:VEVENT
+UID:ffe49fcb3afaf6e6de44@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261214
+SUMMARY:Fase Final Catalunya Promeses 26
+LOCATION:Golf Serres de Pals\, Barcelona\, Barcelona
+DESCRIPTION:Social de club - Individual\nFicha oficial: https://www.catgolf
+ .com/es/campeonatos/fase-final-catalunya-promeses-26-2026-12-12\nConfirma 
+ fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.catgolf.com/es/campeonatos/fase-final-catalunya-promeses-26
+ -2026-12-12
+END:VEVENT
+BEGIN:VEVENT
+UID:7a9da7425b423058cb79@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261213
+SUMMARY:Torneig Social Escudella&Carn D'Olla
+LOCATION:Golf Montanyà\, El Brull\, Barcelona
+DESCRIPTION:Social de club - Individual\nFicha oficial: https://www.catgolf
+ .com/es/campeonatos/torneig-social-escudellacarn-dolla-2026-12-12\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.catgolf.com/es/campeonatos/torneig-social-escudellacarn-dol
+ la-2026-12-12
+END:VEVENT
+BEGIN:VEVENT
+UID:bfff6be0c7023417957a@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261214
+SUMMARY:Torneig del Fred
+LOCATION:Club de Golf Castellterçol\, Castellterçol\, Barcelona
+DESCRIPTION:Social de club - Individual\nFicha oficial: https://www.catgolf
+ .com/es/campeonatos/torneig-del-fred-2026-12-12\nConfirma fechas y condici
+ ones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.catgolf.com/es/campeonatos/torneig-del-fred-2026-12-12
+END:VEVENT
+BEGIN:VEVENT
+UID:0eb0e6dbba5dca2c7e29@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261213
+SUMMARY:Trofeo Infantil Navideño
+LOCATION:Club de Golf Terramar\, Sitges\, Barcelona
+DESCRIPTION:Juvenil - Individual\nFicha oficial: https://www.catgolf.com/es
+ /campeonatos/trofeo-infantil-navideno-2026-12-12\nConfirma fechas y condic
+ iones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.catgolf.com/es/campeonatos/trofeo-infantil-navideno-2026-12
+ -12
+END:VEVENT
+BEGIN:VEVENT
+UID:11ad008235b564f04c7e@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20261214
+DTEND;VALUE=DATE:20261215
+SUMMARY:Barbacoa
+LOCATION:La Roca Golf\, La Roca del Valles\, Barcelona
+DESCRIPTION:Social de club - Individual\nFicha oficial: https://www.catgolf
+ .com/es/campeonatos/barbacoa-2026-12-14\nConfirma fechas y condiciones en 
+ la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.catgolf.com/es/campeonatos/barbacoa-2026-12-14
+END:VEVENT
+BEGIN:VEVENT
+UID:3f50859cbdc88fa07728@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20261214
+DTEND;VALUE=DATE:20261215
+SUMMARY:Torneig Dels Dilluns 9 Forats
+LOCATION:Golf Taradell\, Taradell\, Barcelona
+DESCRIPTION:Social de club - Individual\nFicha oficial: https://www.catgolf
+ .com/es/campeonatos/torneig-dels-dilluns-9-forats-2026-12-14\nConfirma fec
+ has y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.catgolf.com/es/campeonatos/torneig-dels-dilluns-9-forats-20
+ 26-12-14
+END:VEVENT
+BEGIN:VEVENT
+UID:0032c535982394cfffac@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20261214
+DTEND;VALUE=DATE:20261215
+SUMMARY:Torneig Green Monday By la Tasca D’en Ximo
+LOCATION:Club de Golf Barcelona\, Sant Esteve Sesrovires\, Barcelona
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  8 de diciembre\, cierra el 13 de diciembre.\nFicha oficial: https://www.g
+ olfdirecto.com/micro/game/6965b9607205a3564d4dd3cb/summary\nConfirma fecha
+ s y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6965b9607205a3564d4dd3cb/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:19bba16304f1e5baa18e@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20261215
+DTEND;VALUE=DATE:20261216
+SUMMARY:Open Vallromanes Golf & brunch
+LOCATION:Club de Golf Vallromanes\, Vallromanes\, Barcelona
+DESCRIPTION:Social de club - Individual\nFicha oficial: https://www.catgolf
+ .com/es/campeonatos/open-vallromanes-golf-brunch-2026-12-15\nConfirma fech
+ as y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.catgolf.com/es/campeonatos/open-vallromanes-golf-brunch-202
+ 6-12-15
+END:VEVENT
+BEGIN:VEVENT
+UID:780f14aa54cd3d554ce3@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20261216
+DTEND;VALUE=DATE:20261217
+SUMMARY:9 Forats
+LOCATION:La Roca Golf\, La Roca del Valles\, Barcelona
+DESCRIPTION:Social de club - Individual\nFicha oficial: https://www.catgolf
+ .com/es/campeonatos/9-forats-2026-12-16\nConfirma fechas y condiciones en 
+ la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.catgolf.com/es/campeonatos/9-forats-2026-12-16
+END:VEVENT
+BEGIN:VEVENT
+UID:6bd36a86b2a14c87e016@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20261216
+DTEND;VALUE=DATE:20261217
+SUMMARY:Segolfcat
+LOCATION:La Roca Golf\, La Roca del Valles\, Barcelona
+DESCRIPTION:Social de club - Individual\nFicha oficial: https://www.catgolf
+ .com/es/campeonatos/segolfcat-2026-12-16\nConfirma fechas y condiciones en
+  la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.catgolf.com/es/campeonatos/segolfcat-2026-12-16
+END:VEVENT
+BEGIN:VEVENT
+UID:79de1c81edd8e3d35837@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20261218
+DTEND;VALUE=DATE:20261221
+SUMMARY:Torneig de NADAL - 9 Forats
+LOCATION:Golf de Caldes\, Caldes de Montbui\, Barcelona
+DESCRIPTION:Social de club - Individual\nFicha oficial: https://www.catgolf
+ .com/es/campeonatos/torneig-de-nadal-9-forats-2026-12-18\nConfirma fechas 
+ y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.catgolf.com/es/campeonatos/torneig-de-nadal-9-forats-2026-1
+ 2-18
+END:VEVENT
+BEGIN:VEVENT
+UID:eae3c1b1e166b76d746b@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20261219
+DTEND;VALUE=DATE:20261220
+SUMMARY:"El Navideño" By Oak Restaurante
+LOCATION:Club de Golf Barcelona\, Sant Esteve Sesrovires\, Barcelona
+DESCRIPTION:Social de club - Greensome - Parejas\nFicha oficial: https://ww
+ w.golfdirecto.com/micro/game/69f1d3845435bb536e023558/summary\nConfirma fe
+ chas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/69f1d3845435bb536e023558/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:413e9b8c6c613823d368@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20261219
+DTEND;VALUE=DATE:20261220
+SUMMARY:Trofeo Navideño Infantil
+LOCATION:Club de Golf Llavaneras\, Sant Andreu de Llavaneres\, Barcelona
+DESCRIPTION:Juvenil - Individual\nFicha oficial: https://www.catgolf.com/es
+ /campeonatos/trofeo-navideno-infantil-2026-12-19\nConfirma fechas y condic
+ iones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.catgolf.com/es/campeonatos/trofeo-navideno-infantil-2026-12
+ -19
+END:VEVENT
+BEGIN:VEVENT
+UID:1496438643b5d9b15d3c@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20261221
+DTEND;VALUE=DATE:20261222
+SUMMARY:Barbacoa
+LOCATION:La Roca Golf\, La Roca del Valles\, Barcelona
+DESCRIPTION:Social de club - Individual\nFicha oficial: https://www.catgolf
+ .com/es/campeonatos/barbacoa-2026-12-21\nConfirma fechas y condiciones en 
+ la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.catgolf.com/es/campeonatos/barbacoa-2026-12-21
+END:VEVENT
+BEGIN:VEVENT
+UID:e94d56334f92060ca42d@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20261221
+DTEND;VALUE=DATE:20261222
+SUMMARY:Torneig Dels Dilluns 9 Forats
+LOCATION:Golf Taradell\, Taradell\, Barcelona
+DESCRIPTION:Social de club - Individual\nFicha oficial: https://www.catgolf
+ .com/es/campeonatos/torneig-dels-dilluns-9-forats-2026-12-21\nConfirma fec
+ has y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.catgolf.com/es/campeonatos/torneig-dels-dilluns-9-forats-20
+ 26-12-21
+END:VEVENT
+BEGIN:VEVENT
+UID:779a0499bc7bb3c46cb0@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20261221
+DTEND;VALUE=DATE:20261222
+SUMMARY:Torneig Green Monday By Can Tintorer
+LOCATION:Club de Golf Barcelona\, Sant Esteve Sesrovires\, Barcelona
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  15 de diciembre\, cierra el 20 de diciembre.\nFicha oficial: https://www.
+ golfdirecto.com/micro/game/6965b9927205a3564d523186/summary\nConfirma fech
+ as y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6965b9927205a3564d523186/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:4f7dcfed26f7ba42a762@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20261223
+DTEND;VALUE=DATE:20261224
+SUMMARY:9 Forats
+LOCATION:La Roca Golf\, La Roca del Valles\, Barcelona
+DESCRIPTION:Social de club - Individual\nFicha oficial: https://www.catgolf
+ .com/es/campeonatos/9-forats-2026-12-23\nConfirma fechas y condiciones en 
+ la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.catgolf.com/es/campeonatos/9-forats-2026-12-23
+END:VEVENT
+BEGIN:VEVENT
+UID:087203a97c57d6c5f5b5@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20261228
+DTEND;VALUE=DATE:20261229
+SUMMARY:Barbacoa
+LOCATION:La Roca Golf\, La Roca del Valles\, Barcelona
+DESCRIPTION:Social de club - Individual\nFicha oficial: https://www.catgolf
+ .com/es/campeonatos/barbacoa-2026-12-28\nConfirma fechas y condiciones en 
+ la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.catgolf.com/es/campeonatos/barbacoa-2026-12-28
+END:VEVENT
+BEGIN:VEVENT
+UID:afaa7645bdf9477e1445@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20261228
+DTEND;VALUE=DATE:20261229
+SUMMARY:Torneig Dels Dilluns 9 Forats
+LOCATION:Golf Taradell\, Taradell\, Barcelona
+DESCRIPTION:Social de club - Individual\nFicha oficial: https://www.catgolf
+ .com/es/campeonatos/torneig-dels-dilluns-9-forats-2026-12-28\nConfirma fec
+ has y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.catgolf.com/es/campeonatos/torneig-dels-dilluns-9-forats-20
+ 26-12-28
+END:VEVENT
+BEGIN:VEVENT
+UID:03d84a79b170013dc5c6@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20261228
+DTEND;VALUE=DATE:20261229
+SUMMARY:Torneig Green Monday By Oak Restautante
+LOCATION:Club de Golf Barcelona\, Sant Esteve Sesrovires\, Barcelona
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  22 de diciembre\, cierra el 27 de diciembre.\nFicha oficial: https://www.
+ golfdirecto.com/micro/game/6965b9c57205a3564d54d8e6/summary\nConfirma fech
+ as y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6965b9c57205a3564d54d8e6/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:d97b3321776138b6ce23@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20261230
+DTEND;VALUE=DATE:20261231
+SUMMARY:9 Forats
+LOCATION:La Roca Golf\, La Roca del Valles\, Barcelona
+DESCRIPTION:Social de club - Individual\nFicha oficial: https://www.catgolf
+ .com/es/campeonatos/9-forats-2026-12-30\nConfirma fechas y condiciones en 
+ la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.catgolf.com/es/campeonatos/9-forats-2026-12-30
+END:VEVENT
+BEGIN:VEVENT
+UID:5bd8e41709d6e12683a5@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20270222
+DTEND;VALUE=DATE:20270224
+SUMMARY:Campionat de Catalunya de Professionals 2027 (Catprotour)
+LOCATION:Real Club de Golf El Prat\, Terrassa\, Barcelona
+DESCRIPTION:Profesional - Individual\nFicha oficial: https://www.catgolf.co
+ m/es/campeonatos/campionat-de-catalunya-de-professionals-2027-catprotour-2
+ 027-02-22\nConfirma fechas y condiciones en la web del organizador. Vía B
+ anderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.catgolf.com/es/campeonatos/campionat-de-catalunya-de-profes
+ sionals-2027-catprotour-2027-02-22
+END:VEVENT
+BEGIN:VEVENT
+UID:b134987a3f79214345ab@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20270303
+DTEND;VALUE=DATE:20270306
+SUMMARY:51è Gran Premi Sènior de Catalunya "Pentagonal" 2027 (Llavaneras)
+LOCATION:Club de Golf Llavaneras\, Sant Andreu de Llavaneres\, Barcelona
+DESCRIPTION:Senior - Individual\nFicha oficial: https://www.catgolf.com/es/
+ campeonatos/51e-gran-premi-senior-de-catalunya-pentagonal-2027-llavaneras-
+ 2027-03-03\nConfirma fechas y condiciones en la web del organizador. Vía 
+ Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.catgolf.com/es/campeonatos/51e-gran-premi-senior-de-catalun
+ ya-pentagonal-2027-llavaneras-2027-03-03
+END:VEVENT
+BEGIN:VEVENT
+UID:462644c81e1e84e290e2@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20270306
+DTEND;VALUE=DATE:20270308
+SUMMARY:Circuit Nacional 5a Categoria 2027 (Serres)
+LOCATION:Golf Serres de Pals\, Barcelona\, Barcelona
+DESCRIPTION:Absoluto - Individual\nFicha oficial: https://www.catgolf.com/e
+ s/campeonatos/circuit-nacional-5a-categoria-2027-serres-2027-03-06\nConfir
+ ma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.catgolf.com/es/campeonatos/circuit-nacional-5a-categoria-20
+ 27-serres-2027-03-06
+END:VEVENT
+BEGIN:VEVENT
+UID:23edca9e3170547572f6@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20270310
+DTEND;VALUE=DATE:20270311
+SUMMARY:31è Quadrangular Femení de Catalunya 2027 (Montanyà)
+LOCATION:Golf Montanyà\, El Brull\, Barcelona
+DESCRIPTION:Absoluto - Individual\nFicha oficial: https://www.catgolf.com/e
+ s/campeonatos/31e-quadrangular-femeni-de-catalunya-2027-montanya-2027-03-1
+ 0\nConfirma fechas y condiciones en la web del organizador. Vía Banderín
+ .
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.catgolf.com/es/campeonatos/31e-quadrangular-femeni-de-catal
+ unya-2027-montanya-2027-03-10
+END:VEVENT
+BEGIN:VEVENT
+UID:68911b81fae7e1e53ef8@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20270320
+DTEND;VALUE=DATE:20270321
+SUMMARY:25è PRO-AM Benjamí i Aleví 2027
+LOCATION:Can Cuyàs Golf\, Sant Feliu de Llobregat\, Barcelona
+DESCRIPTION:Profesional - Individual\nFicha oficial: https://www.catgolf.co
+ m/es/campeonatos/25e-pro-am-benjami-i-alevi-2027-2027-03-20\nConfirma fech
+ as y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.catgolf.com/es/campeonatos/25e-pro-am-benjami-i-alevi-2027-
+ 2027-03-20
+END:VEVENT
+BEGIN:VEVENT
+UID:d9fcfe25213198372c51@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20270323
+DTEND;VALUE=DATE:20270325
+SUMMARY:I Puntuable Zonal Juvenil RFEG 2027
+LOCATION:Real Club de Golf El Prat\, Terrassa\, Barcelona
+DESCRIPTION:Juvenil - Individual\nFicha oficial: https://www.catgolf.com/es
+ /campeonatos/i-puntuable-zonal-juvenil-rfeg-2027-2027-03-23\nConfirma fech
+ as y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.catgolf.com/es/campeonatos/i-puntuable-zonal-juvenil-rfeg-2
+ 027-2027-03-23
+END:VEVENT
+BEGIN:VEVENT
+UID:e3d032ca44f66adac39e@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20270403
+DTEND;VALUE=DATE:20270404
+SUMMARY:Circuit Nacional 5a Categoria 2027 (La Roqueta)
+LOCATION:Golf La Roqueta\, Castellgali\, Barcelona
+DESCRIPTION:Absoluto - Individual\nFicha oficial: https://www.catgolf.com/e
+ s/campeonatos/circuit-nacional-5a-categoria-2027-la-roqueta-2027-04-03\nCo
+ nfirma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.catgolf.com/es/campeonatos/circuit-nacional-5a-categoria-20
+ 27-la-roqueta-2027-04-03
+END:VEVENT
+BEGIN:VEVENT
+UID:23fd3ef4085808ed1a0c@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20270407
+DTEND;VALUE=DATE:20270408
+SUMMARY:53è Interclubs Femeni de Catalunya - Liguilla 2027 (Montanyà)
+LOCATION:Golf Montanyà\, El Brull\, Barcelona
+DESCRIPTION:Clubes y equipos - Equipos\nInscripción: abre el 19 de noviemb
+ re\, cierra el 19 de noviembre.\nFicha oficial: https://www.catgolf.com/es
+ /campeonatos/53e-interclubs-femeni-de-catalunya-liguilla-2027-montanya-202
+ 7-04-07\nConfirma fechas y condiciones en la web del organizador. Vía Ban
+ derín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.catgolf.com/es/campeonatos/53e-interclubs-femeni-de-catalun
+ ya-liguilla-2027-montanya-2027-04-07
+END:VEVENT
+BEGIN:VEVENT
+UID:e01b751c6d41db3360df@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20270410
+DTEND;VALUE=DATE:20270412
+SUMMARY:II Puntuable Zonal Juvenil RFEG 2027
+LOCATION:Club de Golf Sant Cugat\, Sant Cugat del Valles\, Barcelona
+DESCRIPTION:Juvenil - Individual\nFicha oficial: https://www.catgolf.com/es
+ /campeonatos/ii-puntuable-zonal-juvenil-rfeg-2027-2027-04-10\nConfirma fec
+ has y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.catgolf.com/es/campeonatos/ii-puntuable-zonal-juvenil-rfeg-
+ 2027-2027-04-10
+END:VEVENT
+BEGIN:VEVENT
+UID:116e510d5fe843d9f46f@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20270417
+DTEND;VALUE=DATE:20270419
+SUMMARY:Circuit Nacional 5a Categoria 2027 (Taradell)
+LOCATION:Golf Taradell\, Taradell\, Barcelona
+DESCRIPTION:Absoluto - Individual\nFicha oficial: https://www.catgolf.com/e
+ s/campeonatos/circuit-nacional-5a-categoria-2027-taradell-2027-04-17\nConf
+ irma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.catgolf.com/es/campeonatos/circuit-nacional-5a-categoria-20
+ 27-taradell-2027-04-17
+END:VEVENT
+BEGIN:VEVENT
+UID:9054af64e2cc67c30d31@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20270424
+DTEND;VALUE=DATE:20270425
+SUMMARY:Circuit Nacional 5a Categoria 2027 (Barcelona)
+LOCATION:Club de Golf Barcelona\, Sant Esteve Sesrovires\, Barcelona
+DESCRIPTION:Absoluto - Individual\nFicha oficial: https://www.catgolf.com/e
+ s/campeonatos/circuit-nacional-5a-categoria-2027-barcelona-2027-04-24\nCon
+ firma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.catgolf.com/es/campeonatos/circuit-nacional-5a-categoria-20
+ 27-barcelona-2027-04-24
+END:VEVENT
+BEGIN:VEVENT
+UID:23816f1809a716ae8956@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20270501
+DTEND;VALUE=DATE:20270503
+SUMMARY:CIRCUIT NACIONAL 5A CATEGORIA 2027 (Castellterçol)
+LOCATION:Club de Golf Castellterçol\, Castellterçol\, Barcelona
+DESCRIPTION:Absoluto - Individual\nFicha oficial: https://www.catgolf.com/e
+ s/campeonatos/circuit-nacional-5a-categoria-2027-castelltercol-2027-05-01\
+ nConfirma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.catgolf.com/es/campeonatos/circuit-nacional-5a-categoria-20
+ 27-castelltercol-2027-05-01
+END:VEVENT
+BEGIN:VEVENT
+UID:fe317bab4a3e649ab7b2@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20270505
+DTEND;VALUE=DATE:20270506
+SUMMARY:53è Interclubs Femeni de Catalunya - Liguilla 2027 (Vallromanes)
+LOCATION:Club de Golf Vallromanes\, Vallromanes\, Barcelona
+DESCRIPTION:Clubes y equipos - Equipos\nInscripción: abre el 19 de noviemb
+ re\, cierra el 19 de noviembre.\nFicha oficial: https://www.catgolf.com/es
+ /campeonatos/53e-interclubs-femeni-de-catalunya-liguilla-2027-vallromanes-
+ 2027-05-05\nConfirma fechas y condiciones en la web del organizador. Vía 
+ Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.catgolf.com/es/campeonatos/53e-interclubs-femeni-de-catalun
+ ya-liguilla-2027-vallromanes-2027-05-05
+END:VEVENT
+BEGIN:VEVENT
+UID:85c36e4f0c05676b5dde@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20270508
+DTEND;VALUE=DATE:20270509
+SUMMARY:61è Gran Premi de Catalunya "Hexagonal" 2027 (Montanya)
+LOCATION:Golf Montanyà\, El Brull\, Barcelona
+DESCRIPTION:Absoluto - Individual\nFicha oficial: https://www.catgolf.com/e
+ s/campeonatos/61e-gran-premi-de-catalunya-hexagonal-2027-montanya-2027-05-
+ 08\nConfirma fechas y condiciones en la web del organizador. Vía Banderí
+ n.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.catgolf.com/es/campeonatos/61e-gran-premi-de-catalunya-hexa
+ gonal-2027-montanya-2027-05-08
+END:VEVENT
+BEGIN:VEVENT
+UID:cb8c21dfaaec59929126@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20270512
+DTEND;VALUE=DATE:20270513
+SUMMARY:31è Quadrangular Femení de Catalunya 2027 (Barcelona)
+LOCATION:Club de Golf Barcelona\, Sant Esteve Sesrovires\, Barcelona
+DESCRIPTION:Absoluto - Individual\nFicha oficial: https://www.catgolf.com/e
+ s/campeonatos/31e-quadrangular-femeni-de-catalunya-2027-barcelona-2027-05-
+ 12\nConfirma fechas y condiciones en la web del organizador. Vía Banderí
+ n.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.catgolf.com/es/campeonatos/31e-quadrangular-femeni-de-catal
+ unya-2027-barcelona-2027-05-12
+END:VEVENT
+BEGIN:VEVENT
+UID:b98da3c9aa17ababcbfb@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20270515
+DTEND;VALUE=DATE:20270517
+SUMMARY:Circuit Nacional 5a Categoria 2027 (Montbrú-Moià)
+LOCATION:Club de Golf Montbrú-Moià\, Moia\, Barcelona
+DESCRIPTION:Absoluto - Individual\nFicha oficial: https://www.catgolf.com/e
+ s/campeonatos/circuit-nacional-5a-categoria-2027-montbru-moia-2027-05-15\n
+ Confirma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.catgolf.com/es/campeonatos/circuit-nacional-5a-categoria-20
+ 27-montbru-moia-2027-05-15
+END:VEVENT
+BEGIN:VEVENT
+UID:5b9550a32a98639de9b7@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20270522
+DTEND;VALUE=DATE:20270524
+SUMMARY:Campionat de Catalunya Infantil\, Aleví i Benjamí 2027
+LOCATION:La Roca Golf\, La Roca del Valles\, Barcelona
+DESCRIPTION:Juvenil - Individual\nFicha oficial: https://www.catgolf.com/es
+ /campeonatos/campionat-de-catalunya-infantil-alevi-i-benjami-2027-2027-05-
+ 22\nConfirma fechas y condiciones en la web del organizador. Vía Banderí
+ n.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.catgolf.com/es/campeonatos/campionat-de-catalunya-infantil-
+ alevi-i-benjami-2027-2027-05-22
+END:VEVENT
+BEGIN:VEVENT
+UID:62e955c71ff04de1f251@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20270602
+DTEND;VALUE=DATE:20270603
+SUMMARY:31è Quadrangular Femení de Catalunya 2027 (Terramar)
+LOCATION:Club de Golf Terramar\, Sitges\, Barcelona
+DESCRIPTION:Absoluto - Individual\nFicha oficial: https://www.catgolf.com/e
+ s/campeonatos/31e-quadrangular-femeni-de-catalunya-2027-terramar-2027-06-0
+ 2\nConfirma fechas y condiciones en la web del organizador. Vía Banderín
+ .
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.catgolf.com/es/campeonatos/31e-quadrangular-femeni-de-catal
+ unya-2027-terramar-2027-06-02
+END:VEVENT
+BEGIN:VEVENT
+UID:ad5ba85601a4357ecc4f@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20270619
+DTEND;VALUE=DATE:20270621
+SUMMARY:Campionat de Catalunya Sènior 2027
+LOCATION:Club de Golf Llavaneras\, Sant Andreu de Llavaneres\, Barcelona
+DESCRIPTION:Senior - Individual\nFicha oficial: https://www.catgolf.com/es/
+ campeonatos/campionat-de-catalunya-senior-2027-2027-06-19\nConfirma fechas
+  y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.catgolf.com/es/campeonatos/campionat-de-catalunya-senior-20
+ 27-2027-06-19
+END:VEVENT
+BEGIN:VEVENT
+UID:ab47151330a0b20d4348@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20270709
+DTEND;VALUE=DATE:20270712
+SUMMARY:Campionat de Catalunya Absolut 2027 (WAGR)
+LOCATION:Club de Golf Terramar\, Sitges\, Barcelona
+DESCRIPTION:Absoluto - Individual\nFicha oficial: https://www.catgolf.com/e
+ s/campeonatos/campionat-de-catalunya-absolut-2027-wagr-2027-07-09\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.catgolf.com/es/campeonatos/campionat-de-catalunya-absolut-2
+ 027-wagr-2027-07-09
+END:VEVENT
+BEGIN:VEVENT
+UID:b4662249b3551db29647@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20270731
+DTEND;VALUE=DATE:20270702
+SUMMARY:Circuit Nacional 5a Categoria 2027 (Caldes)
+LOCATION:Golf de Caldes\, Caldes de Montbui\, Barcelona
+DESCRIPTION:Absoluto - Individual\nFicha oficial: https://www.catgolf.com/e
+ s/campeonatos/circuit-nacional-5a-categoria-2027-caldes-2027-07-31\nConfir
+ ma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.catgolf.com/es/campeonatos/circuit-nacional-5a-categoria-20
+ 27-caldes-2027-07-31
+END:VEVENT
+BEGIN:VEVENT
+UID:2123c21454ca742787e7@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20270807
+DTEND;VALUE=DATE:20270809
+SUMMARY:Circuit Nacional 5a Categoria 2027 (El Vallès)
+LOCATION:El Vallès Golf\, Terrassa\, Barcelona
+DESCRIPTION:Absoluto - Individual\nFicha oficial: https://www.catgolf.com/e
+ s/campeonatos/circuit-nacional-5a-categoria-2027-el-valles-2027-08-07\nCon
+ firma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.catgolf.com/es/campeonatos/circuit-nacional-5a-categoria-20
+ 27-el-valles-2027-08-07
+END:VEVENT
+BEGIN:VEVENT
+UID:c94e093912b033d78857@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20270822
+DTEND;VALUE=DATE:20270823
+SUMMARY:Circuit Nacional 5a Categoria 2027 (La Roca)
+LOCATION:La Roca Golf\, La Roca del Valles\, Barcelona
+DESCRIPTION:Absoluto - Individual\nFicha oficial: https://www.catgolf.com/e
+ s/campeonatos/circuit-nacional-5a-categoria-2027-la-roca-2027-08-22\nConfi
+ rma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.catgolf.com/es/campeonatos/circuit-nacional-5a-categoria-20
+ 27-la-roca-2027-08-22
+END:VEVENT
+BEGIN:VEVENT
+UID:128d686e0b087e2a3244@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20270904
+DTEND;VALUE=DATE:20270906
+SUMMARY:15a Lliga Juvenil 2027
+LOCATION:Golf de Caldes\, Caldes de Montbui\, Barcelona
+DESCRIPTION:Juvenil - Individual\nFicha oficial: https://www.catgolf.com/es
+ /campeonatos/15a-lliga-juvenil-2027-2027-09-04\nConfirma fechas y condicio
+ nes en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.catgolf.com/es/campeonatos/15a-lliga-juvenil-2027-2027-09-0
+ 4
+END:VEVENT
+BEGIN:VEVENT
+UID:669e2890b26e5523cb89@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20271023
+DTEND;VALUE=DATE:20271024
+SUMMARY:61è Gran Premi de Catalunya "Hexagonal" 2027 (La Roca)
+LOCATION:La Roca Golf\, La Roca del Valles\, Barcelona
+DESCRIPTION:Absoluto - Individual\nFicha oficial: https://www.catgolf.com/e
+ s/campeonatos/61e-gran-premi-de-catalunya-hexagonal-2027-la-roca-2027-10-2
+ 3\nConfirma fechas y condiciones en la web del organizador. Vía Banderín
+ .
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.catgolf.com/es/campeonatos/61e-gran-premi-de-catalunya-hexa
+ gonal-2027-la-roca-2027-10-23
+END:VEVENT
+END:VCALENDAR

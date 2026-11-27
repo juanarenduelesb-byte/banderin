@@ -11,11 +11,11 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:c916930c1a35a1dfffa7@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270417
 DTEND;VALUE=DATE:20270418
 SUMMARY:Ranking Absoluto FAG 2027 - 4ª Prueba
-LOCATION:Exe Las Margas Golf
+LOCATION:Exe Las Margas Golf\, Latas\, Huesca
 DESCRIPTION:Absoluto - Individual\nFicha oficial: https://www.aragongolf.co
  m/torneos-ficha/2012/\nConfirma fechas y condiciones en la web del organiz
  ador. Vía Banderín.
@@ -25,11 +25,11 @@ URL:https://www.aragongolf.com/torneos-ficha/2012/
 END:VEVENT
 BEGIN:VEVENT
 UID:5c81ae4638efe624f225@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270904
 DTEND;VALUE=DATE:20270906
 SUMMARY:Campeonato de Aragón de Parejas 2027
-LOCATION:Exe Las Margas Golf
+LOCATION:Exe Las Margas Golf\, Latas\, Huesca
 DESCRIPTION:Absoluto - Parejas\nFicha oficial: https://www.aragongolf.com/t
  orneos-ficha/2017/\nConfirma fechas y condiciones en la web del organizado
  r. Vía Banderín.

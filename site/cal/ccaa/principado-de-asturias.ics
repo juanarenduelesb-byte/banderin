@@ -11,11 +11,11 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:7a789a483093ae8b84f6@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:VI Liga Apartamentos la Necora J 1
-LOCATION:Club de Golf Luarca
+LOCATION:Club de Golf Luarca\, Luarca\, Asturias
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   23 de noviembre\, cierra el 27 de noviembre.\nFicha oficial: https://www.
  golfdirecto.com/micro/game/6b048d1dd2ed4f3d1c5d9588/summary\nConfirma fech
@@ -26,11 +26,11 @@ URL:https://www.golfdirecto.com/micro/game/6b048d1dd2ed4f3d1c5d9588/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:ce906998f4027c1ca689@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261203
 DTEND;VALUE=DATE:20261204
 SUMMARY:3ª prueba IX Liga GSA 26/27
-LOCATION:Golf Municipal de Gijon
+LOCATION:Golf Municipal de Gijon\, Lloreda (gijon)\, Asturias
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   5 de noviembre\, cierra el 1 de diciembre.\nFicha oficial: https://www.go
  lfdirecto.com/micro/game/6aecd0f79dfa541630d60777/summary\nConfirma fechas
@@ -41,11 +41,11 @@ URL:https://www.golfdirecto.com/micro/game/6aecd0f79dfa541630d60777/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:1215a4e0a9cc7727d3c7@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
 SUMMARY:III Trofeo Copa Presidente. (O.m.)
-LOCATION:Club de Golf la Rasa de Berbes
+LOCATION:Club de Golf la Rasa de Berbes\, Ribadesella\, Asturias
 DESCRIPTION:Social de club - Medal Play - Individual\nInscripción: abre el
   25 de noviembre\, cierra el 3 de diciembre.\nFicha oficial: https://www.g
  olfdirecto.com/micro/game/6b05e8c037dbfef559d6a6e6/summary\nConfirma fecha
@@ -56,7 +56,7 @@ URL:https://www.golfdirecto.com/micro/game/6b05e8c037dbfef559d6a6e6/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:efcc89b6784c1ca5532a@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261208
 SUMMARY:IX Memorial Celia Barquín Arozamena - Copa Principado de Asturias 
@@ -73,11 +73,11 @@ URL:https://www.fedegolfasturias.com/competicion/ix-memorial-celia-barquin-
 END:VEVENT
 BEGIN:VEVENT
 UID:98f9f810331f8091c8f1@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
 SUMMARY:Torneo Puente de la Constitución
-LOCATION:Club de Golf Cierro Grande
+LOCATION:Club de Golf Cierro Grande\, Rapalcuarto\, Asturias
 DESCRIPTION:Social de club - Individual\nInscripción: abre el 31 de agosto
  \, cierra el 12 de diciembre.\nFicha oficial: https://www.golfdirecto.com/
  micro/game/6a9558f211874cd8afaed579/summary\nConfirma fechas y condiciones
@@ -88,11 +88,11 @@ URL:https://www.golfdirecto.com/micro/game/6a9558f211874cd8afaed579/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:86939f350b17d3ce87cf@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261210
 DTEND;VALUE=DATE:20261211
 SUMMARY:4ª prueba IX Liga GSA 26/27
-LOCATION:Golf Municipal de Gijon
+LOCATION:Golf Municipal de Gijon\, Lloreda (gijon)\, Asturias
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   5 de noviembre\, cierra el 8 de diciembre.\nFicha oficial: https://www.go
  lfdirecto.com/micro/game/6aecd1df9dfa541630f5cd1c/summary\nConfirma fechas
@@ -103,11 +103,11 @@ URL:https://www.golfdirecto.com/micro/game/6aecd1df9dfa541630f5cd1c/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:94e8d823b24e1c161096@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261217
 DTEND;VALUE=DATE:20261218
 SUMMARY:5ª prueba IX Liga GSA 26/27
-LOCATION:Golf Municipal de Gijon
+LOCATION:Golf Municipal de Gijon\, Lloreda (gijon)\, Asturias
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   6 de noviembre\, cierra el 15 de diciembre.\nFicha oficial: https://www.g
  olfdirecto.com/micro/game/6aed900102e839445a3dc23f/summary\nConfirma fecha
@@ -118,11 +118,11 @@ URL:https://www.golfdirecto.com/micro/game/6aed900102e839445a3dc23f/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:6df1013c2c8ff5f9c6af@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261220
 DTEND;VALUE=DATE:20261221
 SUMMARY:Torneo de Navidad
-LOCATION:Club de Golf Cierro Grande
+LOCATION:Club de Golf Cierro Grande\, Rapalcuarto\, Asturias
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   31 de agosto\, cierra el 19 de diciembre.\nFicha oficial: https://www.gol
  fdirecto.com/micro/game/6a95598311874cd8afb1d164/summary\nConfirma fechas 
@@ -133,11 +133,11 @@ URL:https://www.golfdirecto.com/micro/game/6a95598311874cd8afb1d164/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:751a6197129ff0e063e8@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261223
 DTEND;VALUE=DATE:20261224
 SUMMARY:6ª prueba IX Liga GSA 26/27
-LOCATION:Golf Municipal de Gijon
+LOCATION:Golf Municipal de Gijon\, Lloreda (gijon)\, Asturias
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   6 de noviembre\, cierra el 21 de diciembre.\nFicha oficial: https://www.g
  olfdirecto.com/micro/game/6aed905a1ab4f21da62c9537/summary\nConfirma fecha
@@ -148,11 +148,11 @@ URL:https://www.golfdirecto.com/micro/game/6aed905a1ab4f21da62c9537/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:3faf9db7152da505ab74@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261227
 DTEND;VALUE=DATE:20261228
 SUMMARY:XV Liga Open 26-27 Prueba 3
-LOCATION:Club de Golf Cierro Grande
+LOCATION:Club de Golf Cierro Grande\, Rapalcuarto\, Asturias
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   31 de agosto\, cierra el 26 de diciembre.\nFicha oficial: https://www.gol
  fdirecto.com/micro/game/6a9559ed11874cd8afb3ec0e/summary\nConfirma fechas 
@@ -163,11 +163,11 @@ URL:https://www.golfdirecto.com/micro/game/6a9559ed11874cd8afb3ec0e/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:a9bcd21501de1b65676a@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261230
 DTEND;VALUE=DATE:20261231
 SUMMARY:7ª prueba IX Liga GSA 26/27
-LOCATION:Golf Municipal de Gijon
+LOCATION:Golf Municipal de Gijon\, Lloreda (gijon)\, Asturias
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   6 de noviembre\, cierra el 28 de diciembre.\nFicha oficial: https://www.g
  olfdirecto.com/micro/game/6aed90ab02e839445a509be1/summary\nConfirma fecha
@@ -178,11 +178,11 @@ URL:https://www.golfdirecto.com/micro/game/6aed90ab02e839445a509be1/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:7565e4708ac1a746bb0b@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270103
 DTEND;VALUE=DATE:20270104
 SUMMARY:Torneo de Reyes
-LOCATION:Club de Golf Cierro Grande
+LOCATION:Club de Golf Cierro Grande\, Rapalcuarto\, Asturias
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   31 de agosto\, cierra el 9 de enero.\nFicha oficial: https://www.golfdire
  cto.com/micro/game/6a955a8011874cd8afb6d618/summary\nConfirma fechas y con
@@ -193,11 +193,11 @@ URL:https://www.golfdirecto.com/micro/game/6a955a8011874cd8afb6d618/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:fd12a12508886378ab05@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270107
 DTEND;VALUE=DATE:20270108
 SUMMARY:8ª prueba IX Liga GSA 26/27
-LOCATION:Golf Municipal de Gijon
+LOCATION:Golf Municipal de Gijon\, Lloreda (gijon)\, Asturias
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   6 de noviembre\, cierra el 5 de enero.\nFicha oficial: https://www.golfdi
  recto.com/micro/game/6aed90f502e839445a56f0a7/summary\nConfirma fechas y c
@@ -208,11 +208,11 @@ URL:https://www.golfdirecto.com/micro/game/6aed90f502e839445a56f0a7/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:5bb7f9d93fdb5fcbc4d7@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270124
 DTEND;VALUE=DATE:20270125
 SUMMARY:XV Liga Open 26-27 Prueba 4
-LOCATION:Club de Golf Cierro Grande
+LOCATION:Club de Golf Cierro Grande\, Rapalcuarto\, Asturias
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   31 de agosto\, cierra el 23 de enero.\nFicha oficial: https://www.golfdir
  ecto.com/micro/game/6a955b6811874cd8afbdb3ac/summary\nConfirma fechas y co
@@ -223,11 +223,11 @@ URL:https://www.golfdirecto.com/micro/game/6a955b6811874cd8afbdb3ac/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:52cc0100fa8e56ff42dd@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270128
 DTEND;VALUE=DATE:20270129
 SUMMARY:9ª prueba IX Liga GSA 26/27
-LOCATION:Golf Municipal de Gijon
+LOCATION:Golf Municipal de Gijon\, Lloreda (gijon)\, Asturias
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   6 de noviembre\, cierra el 26 de enero.\nFicha oficial: https://www.golfd
  irecto.com/micro/game/6aed912f1ab4f21da642985b/summary\nConfirma fechas y 
@@ -238,11 +238,11 @@ URL:https://www.golfdirecto.com/micro/game/6aed912f1ab4f21da642985b/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:d7cd05787dde2e1b0f15@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270204
 DTEND;VALUE=DATE:20270205
 SUMMARY:10ª prueba IX Liga GSA 26/27
-LOCATION:Golf Municipal de Gijon
+LOCATION:Golf Municipal de Gijon\, Lloreda (gijon)\, Asturias
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   6 de noviembre\, cierra el 2 de febrero.\nFicha oficial: https://www.golf
  directo.com/micro/game/6aed91641ab4f21da648cb30/summary\nConfirma fechas y
@@ -253,11 +253,11 @@ URL:https://www.golfdirecto.com/micro/game/6aed91641ab4f21da648cb30/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:d6609ba433229ac01409@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270207
 DTEND;VALUE=DATE:20270208
 SUMMARY:II Liga Parejas 26-27. 2ª Prueba Fourball
-LOCATION:Club de Golf Cierro Grande
+LOCATION:Club de Golf Cierro Grande\, Rapalcuarto\, Asturias
 DESCRIPTION:Social de club - Fourball - Parejas\nInscripción: abre el 31 d
  e agosto\, cierra el 6 de febrero.\nFicha oficial: https://www.golfdirecto
  .com/micro/game/6a955cc311874cd8afc97723/summary\nConfirma fechas y condic
@@ -268,11 +268,11 @@ URL:https://www.golfdirecto.com/micro/game/6a955cc311874cd8afc97723/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:c81555711958b5015fde@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270218
 DTEND;VALUE=DATE:20270219
 SUMMARY:11ª prueba IX Liga GSA 26/27
-LOCATION:Golf Municipal de Gijon
+LOCATION:Golf Municipal de Gijon\, Lloreda (gijon)\, Asturias
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   6 de noviembre\, cierra el 16 de febrero.\nFicha oficial: https://www.gol
  fdirecto.com/micro/game/6aed918f1ab4f21da64d0fa8/summary\nConfirma fechas 
@@ -283,11 +283,11 @@ URL:https://www.golfdirecto.com/micro/game/6aed918f1ab4f21da64d0fa8/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:cd02b5a1cc3699bd9dcb@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270221
 DTEND;VALUE=DATE:20270222
 SUMMARY:XV Liga Open 26-27 Prueba 5
-LOCATION:Club de Golf Cierro Grande
+LOCATION:Club de Golf Cierro Grande\, Rapalcuarto\, Asturias
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   31 de agosto\, cierra el 20 de febrero.\nFicha oficial: https://www.golfd
  irecto.com/micro/game/6a955d4c11874cd8afd070c8/summary\nConfirma fechas y 
@@ -298,11 +298,11 @@ URL:https://www.golfdirecto.com/micro/game/6a955d4c11874cd8afd070c8/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:88c3b7491a8b7fb824ce@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270225
 DTEND;VALUE=DATE:20270226
 SUMMARY:12ª prueba IX Liga GSA 26/27
-LOCATION:Golf Municipal de Gijon
+LOCATION:Golf Municipal de Gijon\, Lloreda (gijon)\, Asturias
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   6 de noviembre\, cierra el 23 de febrero.\nFicha oficial: https://www.gol
  fdirecto.com/micro/game/6aed91bf1ab4f21da651fccc/summary\nConfirma fechas 
@@ -313,11 +313,11 @@ URL:https://www.golfdirecto.com/micro/game/6aed91bf1ab4f21da651fccc/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:145a3e17444d13a74e80@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270307
 DTEND;VALUE=DATE:20270308
 SUMMARY:XV Liga Open 26-27 Prueba 6
-LOCATION:Club de Golf Cierro Grande
+LOCATION:Club de Golf Cierro Grande\, Rapalcuarto\, Asturias
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   31 de agosto\, cierra el 6 de marzo.\nFicha oficial: https://www.golfdire
  cto.com/micro/game/6a955fc611874cd8afffc61c/summary\nConfirma fechas y con
@@ -328,11 +328,11 @@ URL:https://www.golfdirecto.com/micro/game/6a955fc611874cd8afffc61c/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:92cf46a24e317bddf341@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270314
 DTEND;VALUE=DATE:20270315
 SUMMARY:Carnaval
-LOCATION:Club de Golf Cierro Grande
+LOCATION:Club de Golf Cierro Grande\, Rapalcuarto\, Asturias
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   31 de agosto\, cierra el 20 de marzo.\nFicha oficial: https://www.golfdir
  ecto.com/micro/game/6a955dd811874cd8afdcda2a/summary\nConfirma fechas y co
@@ -343,11 +343,11 @@ URL:https://www.golfdirecto.com/micro/game/6a955dd811874cd8afdcda2a/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:74dcd2f6d95327e62b03@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270321
 DTEND;VALUE=DATE:20270322
 SUMMARY:II Liga Parejas 26-27. 3ª Prueba Scramble
-LOCATION:Club de Golf Cierro Grande
+LOCATION:Club de Golf Cierro Grande\, Rapalcuarto\, Asturias
 DESCRIPTION:Social de club - Scramble - Parejas\nInscripción: abre el 16 d
  e marzo\, cierra el 21 de marzo.\nFicha oficial: https://www.golfdirecto.c
  om/micro/game/68d2ea378042364057915e9a/summary\nConfirma fechas y condicio
@@ -358,11 +358,11 @@ URL:https://www.golfdirecto.com/micro/game/68d2ea378042364057915e9a/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:905b987c8f14bd6eaf1e@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270328
 DTEND;VALUE=DATE:20270329
 SUMMARY:Semana Santa
-LOCATION:Club de Golf Cierro Grande
+LOCATION:Club de Golf Cierro Grande\, Rapalcuarto\, Asturias
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   31 de agosto\, cierra el 27 de marzo.\nFicha oficial: https://www.golfdir
  ecto.com/micro/game/6a9560d711874cd8af08259a/summary\nConfirma fechas y co
@@ -373,11 +373,11 @@ URL:https://www.golfdirecto.com/micro/game/6a9560d711874cd8af08259a/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:a5a7de091b6444aab8ca@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270411
 DTEND;VALUE=DATE:20270412
 SUMMARY:XV Liga Open 26-27 Prueba 7
-LOCATION:Club de Golf Cierro Grande
+LOCATION:Club de Golf Cierro Grande\, Rapalcuarto\, Asturias
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   31 de agosto\, cierra el 10 de abril.\nFicha oficial: https://www.golfdir
  ecto.com/micro/game/6a9561c111874cd8af12a7c7/summary\nConfirma fechas y co
@@ -388,11 +388,11 @@ URL:https://www.golfdirecto.com/micro/game/6a9561c111874cd8af12a7c7/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:0182bb57973951896969@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270418
 DTEND;VALUE=DATE:20270419
 SUMMARY:Todos de Rojas
-LOCATION:Club de Golf Cierro Grande
+LOCATION:Club de Golf Cierro Grande\, Rapalcuarto\, Asturias
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   31 de agosto\, cierra el 17 de abril.\nFicha oficial: https://www.golfdir
  ecto.com/micro/game/6a95623511874cd8af1b61d4/summary\nConfirma fechas y co
@@ -403,11 +403,11 @@ URL:https://www.golfdirecto.com/micro/game/6a95623511874cd8af1b61d4/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:6ea5a8bca623d7f88e42@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270425
 DTEND;VALUE=DATE:20270426
 SUMMARY:II Liga Parejas 26-27. 4ª Prueba Greensome Chapman
-LOCATION:Club de Golf Cierro Grande
+LOCATION:Club de Golf Cierro Grande\, Rapalcuarto\, Asturias
 DESCRIPTION:Social de club - Greensome - Parejas\nInscripción: abre el 31 
  de agosto\, cierra el 24 de abril.\nFicha oficial: https://www.golfdirecto
  .com/micro/game/6a9562c811874cd8af20d653/summary\nConfirma fechas y condic
@@ -418,11 +418,11 @@ URL:https://www.golfdirecto.com/micro/game/6a9562c811874cd8af20d653/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:0643d8a07b790503ef12@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270502
 DTEND;VALUE=DATE:20270503
 SUMMARY:Torneo Puente de Mayo
-LOCATION:Club de Golf Cierro Grande
+LOCATION:Club de Golf Cierro Grande\, Rapalcuarto\, Asturias
 DESCRIPTION:Social de club - Individual\nFicha oficial: https://www.golfdir
  ecto.com/micro/game/6a9564f611874cd8af30ced6/summary\nConfirma fechas y co
  ndiciones en la web del organizador. Vía Banderín.
@@ -432,11 +432,11 @@ URL:https://www.golfdirecto.com/micro/game/6a9564f611874cd8af30ced6/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:e9a11d711842a8959dae@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270509
 DTEND;VALUE=DATE:20270510
 SUMMARY:XV Liga Open 26-27 Prueba 8
-LOCATION:Club de Golf Cierro Grande
+LOCATION:Club de Golf Cierro Grande\, Rapalcuarto\, Asturias
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   31 de agosto\, cierra el 8 de mayo.\nFicha oficial: https://www.golfdirec
  to.com/micro/game/6a95653d85b255ebfd61eac5/summary\nConfirma fechas y cond
@@ -447,11 +447,11 @@ URL:https://www.golfdirecto.com/micro/game/6a95653d85b255ebfd61eac5/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:52dcaa416f38062ee666@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270523
 DTEND;VALUE=DATE:20270524
 SUMMARY:XV Liga Open 26-27 Prueba 9
-LOCATION:Club de Golf Cierro Grande
+LOCATION:Club de Golf Cierro Grande\, Rapalcuarto\, Asturias
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   31 de agosto\, cierra el 22 de mayo.\nFicha oficial: https://www.golfdire
  cto.com/micro/game/6a95683c85b255ebfd96eec1/summary\nConfirma fechas y con
@@ -462,11 +462,11 @@ URL:https://www.golfdirecto.com/micro/game/6a95683c85b255ebfd96eec1/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:2063b6991e565dba73ed@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270530
 DTEND;VALUE=DATE:20270531
 SUMMARY:II Liga Parejas 26-27. 5ª Prueba Foursome
-LOCATION:Club de Golf Cierro Grande
+LOCATION:Club de Golf Cierro Grande\, Rapalcuarto\, Asturias
 DESCRIPTION:Social de club - Foursome - Parejas\nInscripción: abre el 31 d
  e agosto\, cierra el 29 de mayo.\nFicha oficial: https://www.golfdirecto.c
  om/micro/game/6a95678385b255ebfd85267a/summary\nConfirma fechas y condicio
@@ -477,11 +477,11 @@ URL:https://www.golfdirecto.com/micro/game/6a95678385b255ebfd85267a/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:8d64f50717edbe7a5a7e@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270606
 DTEND;VALUE=DATE:20270607
 SUMMARY:XV Liga Open 26-27 Prueba 10
-LOCATION:Club de Golf Cierro Grande
+LOCATION:Club de Golf Cierro Grande\, Rapalcuarto\, Asturias
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   31 de agosto\, cierra el 5 de junio.\nFicha oficial: https://www.golfdire
  cto.com/micro/game/6a9568ef85b255ebfd9f8e09/summary\nConfirma fechas y con
@@ -492,11 +492,11 @@ URL:https://www.golfdirecto.com/micro/game/6a9568ef85b255ebfd9f8e09/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:257f772883b271312cc1@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270613
 DTEND;VALUE=DATE:20270614
 SUMMARY:Chega el Veranin
-LOCATION:Club de Golf Cierro Grande
+LOCATION:Club de Golf Cierro Grande\, Rapalcuarto\, Asturias
 DESCRIPTION:Social de club - Individual\nFicha oficial: https://www.golfdir
  ecto.com/micro/game/6a95695d85b255ebfdaaebad/summary\nConfirma fechas y co
  ndiciones en la web del organizador. Vía Banderín.
@@ -506,11 +506,11 @@ URL:https://www.golfdirecto.com/micro/game/6a95695d85b255ebfdaaebad/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:8d5fd44aa0dcad714ba8@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270620
 DTEND;VALUE=DATE:20270621
 SUMMARY:II Liga Parejas 26-27. 6ª Prueba Copa Canadá
-LOCATION:Club de Golf Cierro Grande
+LOCATION:Club de Golf Cierro Grande\, Rapalcuarto\, Asturias
 DESCRIPTION:Social de club - Medal Play - Parejas\nInscripción: abre el 31
   de agosto\, cierra el 19 de junio.\nFicha oficial: https://www.golfdirect
  o.com/micro/game/6a9569d185b255ebfdb5f862/summary\nConfirma fechas y condi
@@ -521,11 +521,11 @@ URL:https://www.golfdirecto.com/micro/game/6a9569d185b255ebfdb5f862/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:cbc9bf9048c44f19a111@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270627
 DTEND;VALUE=DATE:20270628
 SUMMARY:XV Liga Open 26-27 1º Play Off
-LOCATION:Club de Golf Cierro Grande
+LOCATION:Club de Golf Cierro Grande\, Rapalcuarto\, Asturias
 DESCRIPTION:Social de club - Medal Play - Individual\nInscripción: abre el
   31 de agosto\, cierra el 26 de junio.\nFicha oficial: https://www.golfdir
  ecto.com/micro/game/6a956a5b85b255ebfdcb3c78/summary\nConfirma fechas y co
@@ -536,11 +536,11 @@ URL:https://www.golfdirecto.com/micro/game/6a956a5b85b255ebfdcb3c78/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:be816a56624dd18beb72@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270704
 DTEND;VALUE=DATE:20270705
 SUMMARY:Elcomercio
-LOCATION:Club de Golf Cierro Grande
+LOCATION:Club de Golf Cierro Grande\, Rapalcuarto\, Asturias
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   31 de agosto\, cierra el 3 de julio.\nFicha oficial: https://www.golfdire
  cto.com/micro/game/6a956c3c85b255ebfde28e30/summary\nConfirma fechas y con
@@ -551,11 +551,11 @@ URL:https://www.golfdirecto.com/micro/game/6a956c3c85b255ebfde28e30/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:e4945b5462c71e9fddc7@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270711
 DTEND;VALUE=DATE:20270712
 SUMMARY:Incenersa
-LOCATION:Club de Golf Cierro Grande
+LOCATION:Club de Golf Cierro Grande\, Rapalcuarto\, Asturias
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   31 de agosto\, cierra el 10 de julio.\nFicha oficial: https://www.golfdir
  ecto.com/micro/game/6a956c6785b255ebfde4839f/summary\nConfirma fechas y co
@@ -566,11 +566,11 @@ URL:https://www.golfdirecto.com/micro/game/6a956c6785b255ebfde4839f/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:1be2e7181f537242ff15@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270718
 DTEND;VALUE=DATE:20270719
 SUMMARY:El Carmen
-LOCATION:Club de Golf Cierro Grande
+LOCATION:Club de Golf Cierro Grande\, Rapalcuarto\, Asturias
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   31 de agosto\, cierra el 17 de julio.\nFicha oficial: https://www.golfdir
  ecto.com/micro/game/6a956c9985b255ebfde88da4/summary\nConfirma fechas y co
@@ -581,11 +581,11 @@ URL:https://www.golfdirecto.com/micro/game/6a956c9985b255ebfde88da4/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:dc69efd44b4906a5036d@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270725
 DTEND;VALUE=DATE:20270726
 SUMMARY:La Coquetina-El Álamo
-LOCATION:Club de Golf Cierro Grande
+LOCATION:Club de Golf Cierro Grande\, Rapalcuarto\, Asturias
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   31 de agosto\, cierra el 24 de julio.\nFicha oficial: https://www.golfdir
  ecto.com/micro/game/6a956ccb85b255ebfdeade7e/summary\nConfirma fechas y co

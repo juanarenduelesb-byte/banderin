@@ -11,11 +11,11 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:ad4fa5bfe3a24d8bc445@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:I Major por Parejas
-LOCATION:Isla Canela Old Course\, Ayamonte
+LOCATION:Isla Canela Old Course\, Ayamonte\, Huelva
 DESCRIPTION:Social de club - Stableford - Parejas\nInscripción: abre el 16
   de noviembre\, cierra el 26 de noviembre.\nPrecio: 70 €.\nFicha oficial
  : https://www.nextcaddy.com/tour/75390\nConfirma fechas y condiciones en l
@@ -26,11 +26,11 @@ URL:https://www.nextcaddy.com/tour/75390
 END:VEVENT
 BEGIN:VEVENT
 UID:02ffc9808b42c2b6a74b@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:11ª Jornada Camaleón Golf 26/27
-LOCATION:Isla Canela Old Course
+LOCATION:Isla Canela Old Course\, Ayamonte\, Huelva
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   22 de noviembre\, cierra el 27 de noviembre.\nFicha oficial: https://www.
  golfdirecto.com/micro/game/6afa0acc5445bc102935b69b/summary\nConfirma fech
@@ -41,11 +41,11 @@ URL:https://www.golfdirecto.com/micro/game/6afa0acc5445bc102935b69b/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:8486509498313b7074a4@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
 SUMMARY:12ª Jornada Camaleón Golf 26/27
-LOCATION:Isla Canela Old Course
+LOCATION:Isla Canela Old Course\, Ayamonte\, Huelva
 DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
  //www.golfdirecto.com/micro/game/6b0382edb275bf0236a418c7/summary\nConfirm
  a fechas y condiciones en la web del organizador. Vía Banderín.
@@ -55,11 +55,11 @@ URL:https://www.golfdirecto.com/micro/game/6b0382edb275bf0236a418c7/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:593ab87bb9d9be277715@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:5ª Jornada Lpgh XXVI Edición. (Old Course-Links)
-LOCATION:Isla Canela Old Course
+LOCATION:Isla Canela Old Course\, Ayamonte\, Huelva
 DESCRIPTION:Social de club - Fourball - Parejas\nFicha oficial: https://www
  .golfdirecto.com/micro/game/6afe32ab9c9e80fccff2e00e/summary\nConfirma fec
  has y condiciones en la web del organizador. Vía Banderín.

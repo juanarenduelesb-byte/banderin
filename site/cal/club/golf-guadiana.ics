@@ -11,11 +11,11 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:ff9a40051e861066d2dc@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Torneo "Joyeria Cuevas Moreno"
-LOCATION:Golf Guadiana
+LOCATION:Golf Guadiana\, Badajoz\, Badajoz
 DESCRIPTION:Social de club - Medal Play - Individual\nInscripción: abre el
   19 de noviembre\, cierra el 26 de noviembre.\nFicha oficial: https://www.
  golfdirecto.com/micro/game/6afed58cfa1568a5cdf3c127/summary\nConfirma fech

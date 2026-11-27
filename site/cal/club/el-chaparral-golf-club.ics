@@ -11,11 +11,11 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:83821345680db06e3eeb@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261227
 DTEND;VALUE=DATE:20261228
 SUMMARY:V Torneo Padres e Hijos TEM2026 GROSS DENTISTAS Costa del Sol
-LOCATION:el Chaparral Golf Club\, Mijas
+LOCATION:el Chaparral Golf Club\, Mijas Costa\, Málaga
 DESCRIPTION:Juvenil - Stableford - Individual\nInscripción: abre el 1 de d
  iciembre\, cierra el 22 de diciembre.\nPrecio: Gratis.\nFicha oficial: htt
  ps://www.nextcaddy.com/tour/71808\nConfirma fechas y condiciones en la web

@@ -11,11 +11,11 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:35a0c646a565861a7efc@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270213
 DTEND;VALUE=DATE:20270215
 SUMMARY:Circuit Nacional 5a Categoria 2027 (Perelada)
-LOCATION:Golf Club Perelada
+LOCATION:Golf Club Perelada\, Peralada\, Girona
 DESCRIPTION:Absoluto - Individual\nFicha oficial: https://www.catgolf.com/e
  s/campeonatos/circuit-nacional-5a-categoria-2027-perelada-2027-02-13\nConf
  irma fechas y condiciones en la web del organizador. Vía Banderín.
@@ -26,11 +26,11 @@ URL:https://www.catgolf.com/es/campeonatos/circuit-nacional-5a-categoria-20
 END:VEVENT
 BEGIN:VEVENT
 UID:5e1c31dc24a883be8f7d@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270315
 DTEND;VALUE=DATE:20270316
 SUMMARY:CATPROTOUR 2027 (Perelada)
-LOCATION:Golf Club Perelada
+LOCATION:Golf Club Perelada\, Peralada\, Girona
 DESCRIPTION:Profesional - Individual\nFicha oficial: https://www.catgolf.co
  m/es/campeonatos/catprotour-2027-perelada-2027-03-15\nConfirma fechas y co
  ndiciones en la web del organizador. Vía Banderín.
@@ -41,11 +41,11 @@ URL:https://www.catgolf.com/es/campeonatos/catprotour-2027-perelada-2027-03
 END:VEVENT
 BEGIN:VEVENT
 UID:93f226602d8ffd08670e@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270918
 DTEND;VALUE=DATE:20270919
 SUMMARY:61è Gran Premi de Catalunya "Hexagonal" 2027 (Perelada)
-LOCATION:Golf Club Perelada
+LOCATION:Golf Club Perelada\, Peralada\, Girona
 DESCRIPTION:Absoluto - Individual\nFicha oficial: https://www.catgolf.com/e
  s/campeonatos/61e-gran-premi-de-catalunya-hexagonal-2027-perelada-2027-09-
  18\nConfirma fechas y condiciones en la web del organizador. Vía Banderí

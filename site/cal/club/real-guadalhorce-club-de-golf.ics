@@ -11,11 +11,11 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:c26279dce738fdc4e0e4@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261202
 SUMMARY:Liga Social Cab. Volvo Vypsa Heineken - Malaga Costa & Bebidas
-LOCATION:Real Guadalhorce Club de Golf
+LOCATION:Real Guadalhorce Club de Golf\, Campanillas\, Málaga
 DESCRIPTION:Social de club - Medal Play - Individual\nInscripción: abre el
   24 de noviembre\, cierra el 29 de noviembre.\nFicha oficial: https://www.
  golfdirecto.com/micro/game/6aaec74bea1573c17acf36ad/summary\nConfirma fech
@@ -26,11 +26,11 @@ URL:https://www.golfdirecto.com/micro/game/6aaec74bea1573c17acf36ad/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:eb87112cb5174b77ecd6@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261203
 DTEND;VALUE=DATE:20261204
 SUMMARY:Liga Social Damas Volvo Vypsa Heineken - Malaga Costa & Bebidas
-LOCATION:Real Guadalhorce Club de Golf
+LOCATION:Real Guadalhorce Club de Golf\, Campanillas\, Málaga
 DESCRIPTION:Social de club - Medal Play - Individual\nInscripción: abre el
   26 de noviembre\, cierra el 1 de diciembre.\nFicha oficial: https://www.g
  olfdirecto.com/micro/game/6aaec7e6ea1573c17af7336d/summary\nConfirma fecha
@@ -41,11 +41,11 @@ URL:https://www.golfdirecto.com/micro/game/6aaec7e6ea1573c17af7336d/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:4bf0117708702983e985@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
 SUMMARY:Copa Guadalhorce Final
-LOCATION:Real Guadalhorce Club de Golf
+LOCATION:Real Guadalhorce Club de Golf\, Campanillas\, Málaga
 DESCRIPTION:Social de club - Medal Play - Individual\nInscripción: abre el
   1 de octubre\, cierra el 2 de diciembre.\nFicha oficial: https://www.golf
  directo.com/micro/game/6ad60ada46735c80a07fb5da/summary\nConfirma fechas y
@@ -56,11 +56,11 @@ URL:https://www.golfdirecto.com/micro/game/6ad60ada46735c80a07fb5da/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:36a3dcc05902114421e2@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
 SUMMARY:Final Pequecircuito
-LOCATION:Real Guadalhorce Club de Golf\, Málaga
+LOCATION:Real Guadalhorce Club de Golf\, Campanillas\, Málaga
 DESCRIPTION:Juvenil - Medal Play - Individual\nInscripción: abre el 11 de 
  noviembre\, cierra el 30 de noviembre.\nFicha oficial: https://www.nextcad
  dy.com/tour/61252\nConfirma fechas y condiciones en la web del organizador
@@ -71,11 +71,11 @@ URL:https://www.nextcaddy.com/tour/61252
 END:VEVENT
 BEGIN:VEVENT
 UID:0b29a1c2193398f2bb64@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261209
 DTEND;VALUE=DATE:20261210
 SUMMARY:Liga Social Cab. Volvo Vypsa Heineken - Malaga Costa & Bebidas
-LOCATION:Real Guadalhorce Club de Golf
+LOCATION:Real Guadalhorce Club de Golf\, Campanillas\, Málaga
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   1 de diciembre\, cierra el 7 de diciembre.\nFicha oficial: https://www.go
  lfdirecto.com/micro/game/6aaec8b2ea1573c17a593dde/summary\nConfirma fechas
@@ -86,11 +86,11 @@ URL:https://www.golfdirecto.com/micro/game/6aaec8b2ea1573c17a593dde/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:4e25d408efcdbca7a1e9@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261210
 DTEND;VALUE=DATE:20261211
 SUMMARY:Liga Social Damas Volvo Vypsa Heineken - Malaga Costa & Bebidas
-LOCATION:Real Guadalhorce Club de Golf
+LOCATION:Real Guadalhorce Club de Golf\, Campanillas\, Málaga
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   3 de diciembre\, cierra el 8 de diciembre.\nFicha oficial: https://www.go
  lfdirecto.com/micro/game/6aaec96cea1573c17a97db13/summary\nConfirma fechas
@@ -101,11 +101,11 @@ URL:https://www.golfdirecto.com/micro/game/6aaec96cea1573c17a97db13/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:2dbe807336734b2ee243@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261215
 DTEND;VALUE=DATE:20261216
 SUMMARY:Liga Social Cab. Volvo Vypsa Heineken - Malaga Costa & Bebidas
-LOCATION:Real Guadalhorce Club de Golf
+LOCATION:Real Guadalhorce Club de Golf\, Campanillas\, Málaga
 DESCRIPTION:Social de club - Scramble - Parejas\nInscripción: abre el 9 de
   diciembre\, cierra el 13 de diciembre.\nFicha oficial: https://www.golfdi
  recto.com/micro/game/6aaeca84ea1573c17aebc386/summary\nConfirma fechas y c
@@ -116,11 +116,11 @@ URL:https://www.golfdirecto.com/micro/game/6aaeca84ea1573c17aebc386/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:9397617da60dfc837d8b@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261217
 DTEND;VALUE=DATE:20261218
 SUMMARY:Liga Social Damas Volvo Vypsa Heineken - Malaga Costa & Bebidas
-LOCATION:Real Guadalhorce Club de Golf
+LOCATION:Real Guadalhorce Club de Golf\, Campanillas\, Málaga
 DESCRIPTION:Social de club - Scramble - Parejas\nInscripción: abre el 10 d
  e diciembre\, cierra el 15 de diciembre.\nFicha oficial: https://www.golfd
  irecto.com/micro/game/6aaecb58ea1573c17a4709d8/summary\nConfirma fechas y 
@@ -131,11 +131,11 @@ URL:https://www.golfdirecto.com/micro/game/6aaecb58ea1573c17a4709d8/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:6e48d308de7f95eb1e91@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261220
 DTEND;VALUE=DATE:20261221
 SUMMARY:Copa Presidente 2026
-LOCATION:Real Guadalhorce Club de Golf
+LOCATION:Real Guadalhorce Club de Golf\, Campanillas\, Málaga
 DESCRIPTION:Social de club - Scramble - Parejas\nInscripción: abre el 21 d
  e noviembre\, cierra el 16 de diciembre.\nFicha oficial: https://www.golfd
  irecto.com/micro/game/6b01804131175f0c99ebd4d3/summary\nConfirma fechas y 
@@ -146,11 +146,11 @@ URL:https://www.golfdirecto.com/micro/game/6b01804131175f0c99ebd4d3/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:50edfbbbdd3d8b5a5538@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261230
 DTEND;VALUE=DATE:20261231
 SUMMARY:Ryder Cup Navideña Padres Vs Hijos 2026
-LOCATION:Real Guadalhorce Club de Golf
+LOCATION:Real Guadalhorce Club de Golf\, Campanillas\, Málaga
 DESCRIPTION:Social de club - Scramble - Parejas\nInscripción: abre el 19 d
  e noviembre\, cierra el 29 de diciembre.\nFicha oficial: https://www.golfd
  irecto.com/micro/game/6afefa9ce64dbfd6f4d88f17/summary\nConfirma fechas y 
@@ -161,11 +161,11 @@ URL:https://www.golfdirecto.com/micro/game/6afefa9ce64dbfd6f4d88f17/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:efa4b6e18842dde2cf38@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261230
 DTEND;VALUE=DATE:20261231
 SUMMARY:Ryder Cup Navideña Padres Vs Hijos Par 3
-LOCATION:Real Guadalhorce Club de Golf
+LOCATION:Real Guadalhorce Club de Golf\, Campanillas\, Málaga
 DESCRIPTION:Social de club - Scramble - Parejas\nInscripción: abre el 19 d
  e noviembre\, cierra el 29 de diciembre.\nFicha oficial: https://www.golfd
  irecto.com/micro/game/6afefad5e64dbfd6f4e0563b/summary\nConfirma fechas y 

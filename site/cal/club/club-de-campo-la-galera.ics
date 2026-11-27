@@ -11,11 +11,11 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:c08fbcf69dd88882b00a@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:II Ryder Club de Campo la Galera
-LOCATION:Club de Campo la Galera
+LOCATION:Club de Campo la Galera\, Valladolid\, Valladolid
 DESCRIPTION:Social de club - Fourball - Parejas\nFicha oficial: https://www
  .golfdirecto.com/micro/game/695f8df626f3d60223835d84/summary\nConfirma fec
  has y condiciones en la web del organizador. Vía Banderín.
@@ -25,11 +25,11 @@ URL:https://www.golfdirecto.com/micro/game/695f8df626f3d60223835d84/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:003a613b52ec68e86d1e@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
 SUMMARY:Infantil Diciembre Cclg
-LOCATION:Club de Campo la Galera
+LOCATION:Club de Campo la Galera\, Valladolid\, Valladolid
 DESCRIPTION:Juvenil - Stableford - Individual\nInscripción: abre el 7 de d
  iciembre\, cierra el 11 de diciembre.\nFicha oficial: https://www.golfdire
  cto.com/micro/game/695f8fc226f3d60223abb422/summary\nConfirma fechas y con
@@ -40,11 +40,11 @@ URL:https://www.golfdirecto.com/micro/game/695f8fc226f3d60223abb422/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:3327879906b76cacabdd@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
 SUMMARY:Infantil Diciembre Cclg
-LOCATION:Club de Campo la Galera
+LOCATION:Club de Campo la Galera\, Valladolid\, Valladolid
 DESCRIPTION:Juvenil - Stableford - Individual\nInscripción: abre el 7 de d
  iciembre\, cierra el 12 de diciembre.\nFicha oficial: https://www.golfdire
  cto.com/micro/game/6af606d98d4229260ff32091/summary\nConfirma fechas y con
@@ -55,11 +55,11 @@ URL:https://www.golfdirecto.com/micro/game/6af606d98d4229260ff32091/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:08506df9db3f693ec471@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
 SUMMARY:Torneo Empleados 2026
-LOCATION:Club de Campo la Galera
+LOCATION:Club de Campo la Galera\, Valladolid\, Valladolid
 DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
  //www.golfdirecto.com/micro/game/695f902526f3d60223b1adad/summary\nConfirm
  a fechas y condiciones en la web del organizador. Vía Banderín.
@@ -69,11 +69,11 @@ URL:https://www.golfdirecto.com/micro/game/695f902526f3d60223b1adad/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:795991844a7175049d94@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261220
 SUMMARY:Torneo Aniversario 2026
-LOCATION:Club de Campo la Galera
+LOCATION:Club de Campo la Galera\, Valladolid\, Valladolid
 DESCRIPTION:Social de club - Scramble - Parejas\nInscripción: abre el 7 de
   diciembre\, cierra el 16 de diciembre.\nFicha oficial: https://www.golfdi
  recto.com/micro/game/695f90a726f3d60223bca43f/summary\nConfirma fechas y c
@@ -84,11 +84,11 @@ URL:https://www.golfdirecto.com/micro/game/695f90a726f3d60223bca43f/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:979b14c2acb545ea7dcf@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270117
 DTEND;VALUE=DATE:20270118
 SUMMARY:I Liga de 9 hoyos. III Prueba
-LOCATION:Club de Campo la Galera
+LOCATION:Club de Campo la Galera\, Valladolid\, Valladolid
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   11 de enero\, cierra el 15 de enero.\nFicha oficial: https://www.golfdire
  cto.com/micro/game/6af6e5233f2ad705e4f37a4b/summary\nConfirma fechas y con
@@ -99,11 +99,11 @@ URL:https://www.golfdirecto.com/micro/game/6af6e5233f2ad705e4f37a4b/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:d47ca2c5528de48d039f@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270117
 DTEND;VALUE=DATE:20270118
 SUMMARY:Infantil Enero Cclg
-LOCATION:Club de Campo la Galera
+LOCATION:Club de Campo la Galera\, Valladolid\, Valladolid
 DESCRIPTION:Juvenil - Stableford - Individual\nInscripción: abre el 11 de 
  enero\, cierra el 16 de enero.\nFicha oficial: https://www.golfdirecto.com
  /micro/game/6af6ee493f2ad705e4b27d98/summary\nConfirma fechas y condicione
@@ -114,11 +114,11 @@ URL:https://www.golfdirecto.com/micro/game/6af6ee493f2ad705e4b27d98/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:c4e9da73417c38fa8434@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270117
 DTEND;VALUE=DATE:20270118
 SUMMARY:Infantil Enero Cclg
-LOCATION:Club de Campo la Galera
+LOCATION:Club de Campo la Galera\, Valladolid\, Valladolid
 DESCRIPTION:Juvenil - Stableford - Individual\nInscripción: abre el 11 de 
  enero\, cierra el 16 de enero.\nFicha oficial: https://www.golfdirecto.com
  /micro/game/6af6ec0a3f2ad705e430f402/summary\nConfirma fechas y condicione
@@ -129,11 +129,11 @@ URL:https://www.golfdirecto.com/micro/game/6af6ec0a3f2ad705e430f402/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:8fa3ef025227aa7f978f@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270221
 DTEND;VALUE=DATE:20270222
 SUMMARY:I Liga de 9 hoyos. IV Prueba
-LOCATION:Club de Campo la Galera
+LOCATION:Club de Campo la Galera\, Valladolid\, Valladolid
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   15 de febrero\, cierra el 19 de febrero.\nFicha oficial: https://www.golf
  directo.com/micro/game/6af6e7b23f2ad705e45584cb/summary\nConfirma fechas y
@@ -144,11 +144,11 @@ URL:https://www.golfdirecto.com/micro/game/6af6e7b23f2ad705e45584cb/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:a34ed6337a042e5906e0@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270221
 DTEND;VALUE=DATE:20270222
 SUMMARY:Infantil Febrero Cclg
-LOCATION:Club de Campo la Galera
+LOCATION:Club de Campo la Galera\, Valladolid\, Valladolid
 DESCRIPTION:Juvenil - Stableford - Individual\nInscripción: abre el 15 de 
  febrero\, cierra el 20 de febrero.\nFicha oficial: https://www.golfdirecto
  .com/micro/game/6af6ec6e3f2ad705e445b2eb/summary\nConfirma fechas y condic
@@ -159,11 +159,11 @@ URL:https://www.golfdirecto.com/micro/game/6af6ec6e3f2ad705e445b2eb/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:33ca201b24ea64945ea5@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270221
 DTEND;VALUE=DATE:20270222
 SUMMARY:Infantil Febrero Cclg
-LOCATION:Club de Campo la Galera
+LOCATION:Club de Campo la Galera\, Valladolid\, Valladolid
 DESCRIPTION:Juvenil - Stableford - Individual\nInscripción: abre el 15 de 
  febrero\, cierra el 20 de febrero.\nFicha oficial: https://www.golfdirecto
  .com/micro/game/6af6ee7faef9248991b07c72/summary\nConfirma fechas y condic
@@ -174,11 +174,11 @@ URL:https://www.golfdirecto.com/micro/game/6af6ee7faef9248991b07c72/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:bc52986b89c1ddcdb40d@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270314
 DTEND;VALUE=DATE:20270315
 SUMMARY:I Liga de 9 hoyos. V Prueba
-LOCATION:Club de Campo la Galera
+LOCATION:Club de Campo la Galera\, Valladolid\, Valladolid
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   8 de marzo\, cierra el 12 de marzo.\nFicha oficial: https://www.golfdirec
  to.com/micro/game/6af6e87eaef9248991731756/summary\nConfirma fechas y cond
@@ -189,11 +189,11 @@ URL:https://www.golfdirecto.com/micro/game/6af6e87eaef9248991731756/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:b8a752d5f1274b85ccb0@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270314
 DTEND;VALUE=DATE:20270315
 SUMMARY:Infantil Marzo Cclg
-LOCATION:Club de Campo la Galera
+LOCATION:Club de Campo la Galera\, Valladolid\, Valladolid
 DESCRIPTION:Juvenil - Stableford - Individual\nInscripción: abre el 8 de m
  arzo\, cierra el 13 de marzo.\nFicha oficial: https://www.golfdirecto.com/
  micro/game/6af6eee33f2ad705e4e16b42/summary\nConfirma fechas y condiciones
@@ -204,11 +204,11 @@ URL:https://www.golfdirecto.com/micro/game/6af6eee33f2ad705e4e16b42/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:7a89dd3bd810cda42f39@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270314
 DTEND;VALUE=DATE:20270315
 SUMMARY:Infantil Marzo Cclg
-LOCATION:Club de Campo la Galera
+LOCATION:Club de Campo la Galera\, Valladolid\, Valladolid
 DESCRIPTION:Juvenil - Stableford - Individual\nInscripción: abre el 8 de m
  arzo\, cierra el 13 de marzo.\nFicha oficial: https://www.golfdirecto.com/
  micro/game/6af6ed96aef924899173ccef/summary\nConfirma fechas y condiciones
@@ -219,11 +219,11 @@ URL:https://www.golfdirecto.com/micro/game/6af6ed96aef924899173ccef/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:0c9788578df77e6a52ea@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270411
 DTEND;VALUE=DATE:20270412
 SUMMARY:I Liga de 9 hoyos. VI Prueba
-LOCATION:Club de Campo la Galera
+LOCATION:Club de Campo la Galera\, Valladolid\, Valladolid
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   5 de abril\, cierra el 9 de abril.\nFicha oficial: https://www.golfdirect
  o.com/micro/game/6af6e94a3f2ad705e4980f16/summary\nConfirma fechas y condi
@@ -234,11 +234,11 @@ URL:https://www.golfdirecto.com/micro/game/6af6e94a3f2ad705e4980f16/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:a082df89ad4b7e4e340e@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270411
 DTEND;VALUE=DATE:20270412
 SUMMARY:Infantil Abril Cclg
-LOCATION:Club de Campo la Galera
+LOCATION:Club de Campo la Galera\, Valladolid\, Valladolid
 DESCRIPTION:Juvenil - Stableford - Individual\nInscripción: abre el 5 de a
  bril\, cierra el 10 de abril.\nFicha oficial: https://www.golfdirecto.com/
  micro/game/6af6edc5aef924899186a2f0/summary\nConfirma fechas y condiciones
@@ -249,11 +249,11 @@ URL:https://www.golfdirecto.com/micro/game/6af6edc5aef924899186a2f0/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:73f7f2c52b7f9b1a7603@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270411
 DTEND;VALUE=DATE:20270412
 SUMMARY:Infantil Abril Cclg
-LOCATION:Club de Campo la Galera
+LOCATION:Club de Campo la Galera\, Valladolid\, Valladolid
 DESCRIPTION:Juvenil - Stableford - Individual\nInscripción: abre el 5 de a
  bril\, cierra el 10 de abril.\nFicha oficial: https://www.golfdirecto.com/
  micro/game/6af6f17d3f2ad705e45b4273/summary\nConfirma fechas y condiciones
@@ -264,11 +264,11 @@ URL:https://www.golfdirecto.com/micro/game/6af6f17d3f2ad705e45b4273/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:f320be91bf50898c066d@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270509
 DTEND;VALUE=DATE:20270510
 SUMMARY:I Liga de 9 hoyos. VII Prueba (Final)
-LOCATION:Club de Campo la Galera
+LOCATION:Club de Campo la Galera\, Valladolid\, Valladolid
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   3 de mayo\, cierra el 7 de mayo.\nFicha oficial: https://www.golfdirecto.
  com/micro/game/6af6eaabaef9248991d6c4b2/summary\nConfirma fechas y condici
@@ -279,11 +279,11 @@ URL:https://www.golfdirecto.com/micro/game/6af6eaabaef9248991d6c4b2/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:8787fa7a48722461dd35@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270509
 DTEND;VALUE=DATE:20270510
 SUMMARY:Infantil Mayo Cclg
-LOCATION:Club de Campo la Galera
+LOCATION:Club de Campo la Galera\, Valladolid\, Valladolid
 DESCRIPTION:Juvenil - Stableford - Individual\nInscripción: abre el 3 de m
  ayo\, cierra el 8 de mayo.\nFicha oficial: https://www.golfdirecto.com/mic
  ro/game/6af6edef3f2ad705e49bb749/summary\nConfirma fechas y condiciones en
@@ -294,11 +294,11 @@ URL:https://www.golfdirecto.com/micro/game/6af6edef3f2ad705e49bb749/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:c0dd05d0db1344b4ec6e@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270509
 DTEND;VALUE=DATE:20270510
 SUMMARY:Infantil Mayo Cclg
-LOCATION:Club de Campo la Galera
+LOCATION:Club de Campo la Galera\, Valladolid\, Valladolid
 DESCRIPTION:Juvenil - Stableford - Individual\nInscripción: abre el 3 de m
  ayo\, cierra el 8 de mayo.\nFicha oficial: https://www.golfdirecto.com/mic
  ro/game/6af6f1a63f2ad705e4633032/summary\nConfirma fechas y condiciones en

@@ -11,11 +11,11 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:ca92ddc66e8df6ba9312@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:III Torneo Academia Infantil 2026-2027 - 1ª Categoría
-LOCATION:Escuela de Golf Miguel ángel Jiménez\, Torremolinos
+LOCATION:Escuela de Golf Miguel ángel Jiménez\, Torremolinos\, Málaga
 DESCRIPTION:Juvenil - Stableford - Individual\nInscripción: abre el 1 de n
  oviembre\, cierra el 25 de noviembre.\nPrecio: 18 €.\nFicha oficial: htt
  ps://www.nextcaddy.com/tour/74915\nConfirma fechas y condiciones en la web
@@ -26,11 +26,11 @@ URL:https://www.nextcaddy.com/tour/74915
 END:VEVENT
 BEGIN:VEVENT
 UID:d228e939bbb1cb1fe924@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:III Torneo Academia Infantil 2026-2027 - 2ª y 3ª Categoría
-LOCATION:Escuela de Golf Miguel ángel Jiménez\, Torremolinos
+LOCATION:Escuela de Golf Miguel ángel Jiménez\, Torremolinos\, Málaga
 DESCRIPTION:Juvenil - Stableford - Individual\nInscripción: abre el 1 de n
  oviembre\, cierra el 25 de noviembre.\nPrecio: 13 €.\nFicha oficial: htt
  ps://www.nextcaddy.com/tour/74916\nConfirma fechas y condiciones en la web
@@ -41,11 +41,11 @@ URL:https://www.nextcaddy.com/tour/74916
 END:VEVENT
 BEGIN:VEVENT
 UID:46ccadafd788abc55785@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:III Torneo Academia Infantil 2026-2027 - 4ª Categoría
-LOCATION:Escuela de Golf Miguel ángel Jiménez\, Torremolinos
+LOCATION:Escuela de Golf Miguel ángel Jiménez\, Torremolinos\, Málaga
 DESCRIPTION:Juvenil - Stableford - Individual\nInscripción: abre el 1 de n
  oviembre\, cierra el 25 de noviembre.\nPrecio: 8 €.\nFicha oficial: http
  s://www.nextcaddy.com/tour/74917\nConfirma fechas y condiciones en la web 
@@ -56,11 +56,11 @@ URL:https://www.nextcaddy.com/tour/74917
 END:VEVENT
 BEGIN:VEVENT
 UID:1e5ec1946612e193ac93@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:LIGAS MAJ - 18 Hoyos - Diciembre
-LOCATION:Escuela de Golf Miguel ángel Jiménez\, Torremolinos
+LOCATION:Escuela de Golf Miguel ángel Jiménez\, Torremolinos\, Málaga
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   12 de noviembre\, cierra el 10 de diciembre.\nPrecio: 10 €.\nFicha ofic
  ial: https://www.nextcaddy.com/tour/75362\nConfirma fechas y condiciones e
@@ -71,11 +71,11 @@ URL:https://www.nextcaddy.com/tour/75362
 END:VEVENT
 BEGIN:VEVENT
 UID:289958263459f3992a68@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:LIGAS MAJ - 9 Hoyos - Noviembre
-LOCATION:Escuela de Golf Miguel ángel Jiménez\, Torremolinos
+LOCATION:Escuela de Golf Miguel ángel Jiménez\, Torremolinos\, Málaga
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   12 de noviembre\, cierra el 10 de diciembre.\nPrecio: 5 €.\nFicha ofici
  al: https://www.nextcaddy.com/tour/75363\nConfirma fechas y condiciones en

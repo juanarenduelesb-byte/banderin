@@ -11,11 +11,11 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:10e3d398488d7085acdc@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Liga de Principiantes 26/27\, Jornada 1
-LOCATION:Club de Golf Pozoblanco\, Pozoblanco
+LOCATION:Club de Golf Pozoblanco\, Pozoblanco\, Córdoba
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   25 de noviembre\, cierra el 27 de noviembre.\nPrecio: Gratis.\nFicha ofic
  ial: https://www.nextcaddy.com/tour/75658\nConfirma fechas y condiciones e

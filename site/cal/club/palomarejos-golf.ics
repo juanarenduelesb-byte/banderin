@@ -11,11 +11,11 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:7df0c89c3b0bb959a1e8@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270313
 DTEND;VALUE=DATE:20270314
 SUMMARY:Mulligan 26/27 - Palomarejos
-LOCATION:Palomarejos Golf
+LOCATION:Palomarejos Golf\, Talavera de la Reina\, Toledo
 DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
  //www.golfdirecto.com/micro/game/6afe8e1953aeeeb7e51dffb3/summary\nConfirm
  a fechas y condiciones en la web del organizador. Vía Banderín.
@@ -25,11 +25,11 @@ URL:https://www.golfdirecto.com/micro/game/6afe8e1953aeeeb7e51dffb3/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:affe9e6effe8ecbad9d1@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270509
 DTEND;VALUE=DATE:20270510
 SUMMARY:Lcsc Fin de Semana Match Play Jornada 2
-LOCATION:Palomarejos Golf
+LOCATION:Palomarejos Golf\, Talavera de la Reina\, Toledo
 DESCRIPTION:Clubes y equipos - Match Play - Equipos\nFicha oficial: https:/
  /www.golfdirecto.com/micro/game/6b07dd53a705699f01ea0349/summary\nConfirma
   fechas y condiciones en la web del organizador. Vía Banderín.

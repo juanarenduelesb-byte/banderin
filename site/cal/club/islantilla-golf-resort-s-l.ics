@@ -11,11 +11,11 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:858acfb3a118c03832df@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
 SUMMARY:5ª Jornada Lpgh XXVI Edición.(Islantilla-Portil)
-LOCATION:Islantilla Golf Resort\, S.l
+LOCATION:Islantilla Golf Resort\, S.l\, Lepe\, Huelva
 DESCRIPTION:Social de club - Fourball - Parejas\nFicha oficial: https://www
  .golfdirecto.com/micro/game/6afe33589c9e80fccffbf069/summary\nConfirma fec
  has y condiciones en la web del organizador. Vía Banderín.

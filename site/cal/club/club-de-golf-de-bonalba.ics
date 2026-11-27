@@ -11,11 +11,11 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:66b28c184b8b3d4b36a7@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:friendly
-LOCATION:Club de Golf de Bonalba
+LOCATION:Club de Golf de Bonalba\, Mutxamel\, Alicante
 DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
  //www.golfdirecto.com/micro/game/6b07fd3f6549a3fb78229ccb/summary\nConfirm
  a fechas y condiciones en la web del organizador. Vía Banderín.
@@ -25,11 +25,11 @@ URL:https://www.golfdirecto.com/micro/game/6b07fd3f6549a3fb78229ccb/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:b4f9b65c7f29d6acb68b@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Texas Scramble Champion Of Champions -105840
-LOCATION:Club de Golf de Bonalba
+LOCATION:Club de Golf de Bonalba\, Mutxamel\, Alicante
 DESCRIPTION:Social de club - Scramble - Parejas\nInscripción: abre el 28 d
  e octubre\, cierra el 28 de noviembre.\nFicha oficial: https://www.golfdir
  ecto.com/micro/game/69b045e4d9295ef7aae544f1/summary\nConfirma fechas y co
@@ -40,11 +40,11 @@ URL:https://www.golfdirecto.com/micro/game/69b045e4d9295ef7aae544f1/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:40d8b73d7f5ca4445ea1@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
 SUMMARY:Liga Senior de Bonalba 2026 (Diciembre)
-LOCATION:Club de Golf de Bonalba
+LOCATION:Club de Golf de Bonalba\, Mutxamel\, Alicante
 DESCRIPTION:Senior - Stableford - Individual\nInscripción: abre el 8 de ju
  nio\, cierra el 3 de diciembre.\nFicha oficial: https://www.golfdirecto.co
  m/micro/game/6a26683d64a97bd26d354c5d/summary\nConfirma fechas y condicion
@@ -55,11 +55,11 @@ URL:https://www.golfdirecto.com/micro/game/6a26683d64a97bd26d354c5d/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:20e738fb56c2f1eeac30@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261217
 DTEND;VALUE=DATE:20261218
 SUMMARY:Final Liga Damas de Bonalba 2026 (Diciembre)
-LOCATION:Club de Golf de Bonalba
+LOCATION:Club de Golf de Bonalba\, Mutxamel\, Alicante
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   12 de enero\, cierra el 16 de diciembre.\nFicha oficial: https://www.golf
  directo.com/micro/game/6964acca7205a3564dbd0e3f/summary\nConfirma fechas y

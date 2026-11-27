@@ -11,11 +11,11 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:0f99af8d33d010504199@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:2N Torneig Black Friday
-LOCATION:Torremirona Golf Club
+LOCATION:Torremirona Golf Club\, Navata\, Girona
 DESCRIPTION:Social de club - Individual\nFicha oficial: https://www.catgolf
  .com/es/campeonatos/2n-torneig-black-friday-2026-11-28\nConfirma fechas y 
  condiciones en la web del organizador. Vía Banderín.
@@ -26,11 +26,11 @@ URL:https://www.catgolf.com/es/campeonatos/2n-torneig-black-friday-2026-11-
 END:VEVENT
 BEGIN:VEVENT
 UID:03ccc65dd9da579cf15b@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Porrex Cup 2026/27. Jornada 9
-LOCATION:Torremirona Golf Club
+LOCATION:Torremirona Golf Club\, Navata\, Girona
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   23 de noviembre\, cierra el 27 de noviembre.\nFicha oficial: https://www.
  golfdirecto.com/micro/game/6b048fb19bf25f617636614f/summary\nConfirma fech
@@ -41,11 +41,11 @@ URL:https://www.golfdirecto.com/micro/game/6b048fb19bf25f617636614f/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:f0b800af472a763745c7@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261203
 DTEND;VALUE=DATE:20261204
 SUMMARY:Torneig Torremirona Real Estate
-LOCATION:Torremirona Golf Club
+LOCATION:Torremirona Golf Club\, Navata\, Girona
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   18 de agosto\, cierra el 2 de diciembre.\nFicha oficial: https://www.golf
  directo.com/micro/game/6a8457100d6379a1ffd1d120/summary\nConfirma fechas y
@@ -56,11 +56,11 @@ URL:https://www.golfdirecto.com/micro/game/6a8457100d6379a1ffd1d120/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:5587c5686b9ec8c948e0@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261210
 DTEND;VALUE=DATE:20261211
 SUMMARY:Torneig Torremirona Real Estate
-LOCATION:Torremirona Golf Club
+LOCATION:Torremirona Golf Club\, Navata\, Girona
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   18 de agosto\, cierra el 9 de diciembre.\nFicha oficial: https://www.golf
  directo.com/micro/game/6a8457f80d6379a1ff3c3195/summary\nConfirma fechas y
@@ -71,11 +71,11 @@ URL:https://www.golfdirecto.com/micro/game/6a8457f80d6379a1ff3c3195/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:2989cd4cdd1886f11d51@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261217
 DTEND;VALUE=DATE:20261218
 SUMMARY:Torneig Torremirona Real Estate
-LOCATION:Torremirona Golf Club
+LOCATION:Torremirona Golf Club\, Navata\, Girona
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   18 de agosto\, cierra el 16 de diciembre.\nFicha oficial: https://www.gol
  fdirecto.com/micro/game/6a8458090d6379a1ff3fcf36/summary\nConfirma fechas 
@@ -86,11 +86,11 @@ URL:https://www.golfdirecto.com/micro/game/6a8458090d6379a1ff3fcf36/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:200505fa799607529630@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261220
 SUMMARY:Torneig Social Nadalenc
-LOCATION:Torremirona Golf Club
+LOCATION:Torremirona Golf Club\, Navata\, Girona
 DESCRIPTION:Social de club - Scramble - Parejas\nInscripción: abre el 28 d
  e junio\, cierra el 18 de diciembre.\nFicha oficial: https://www.golfdirec
  to.com/micro/game/6a40e1f2a44d938a9300f4ad/summary\nConfirma fechas y cond
@@ -101,11 +101,11 @@ URL:https://www.golfdirecto.com/micro/game/6a40e1f2a44d938a9300f4ad/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:8269b240f892e9320594@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261224
 DTEND;VALUE=DATE:20261225
 SUMMARY:Torneig Torremirona Real Estate
-LOCATION:Torremirona Golf Club
+LOCATION:Torremirona Golf Club\, Navata\, Girona
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   18 de agosto\, cierra el 23 de diciembre.\nFicha oficial: https://www.gol
  fdirecto.com/micro/game/6a8458240d6379a1ff4d2ee1/summary\nConfirma fechas 
@@ -116,11 +116,11 @@ URL:https://www.golfdirecto.com/micro/game/6a8458240d6379a1ff4d2ee1/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:851c36a4f74270837e75@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261226
 DTEND;VALUE=DATE:20261227
 SUMMARY:Torneig de Cap D'Any
-LOCATION:Torremirona Golf Club
+LOCATION:Torremirona Golf Club\, Navata\, Girona
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   18 de agosto\, cierra el 24 de diciembre.\nFicha oficial: https://www.gol
  fdirecto.com/micro/game/6a8458be4ec26de90b887833/summary\nConfirma fechas 
@@ -131,11 +131,11 @@ URL:https://www.golfdirecto.com/micro/game/6a8458be4ec26de90b887833/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:c309b76131959ec48157@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261231
 DTEND;VALUE=DATE:20270101
 SUMMARY:Torneig Torremirona Real Estate
-LOCATION:Torremirona Golf Club
+LOCATION:Torremirona Golf Club\, Navata\, Girona
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   18 de agosto\, cierra el 30 de diciembre.\nFicha oficial: https://www.gol
  fdirecto.com/micro/game/6a8458490d6379a1ff5d8a32/summary\nConfirma fechas 
@@ -146,11 +146,11 @@ URL:https://www.golfdirecto.com/micro/game/6a8458490d6379a1ff5d8a32/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:ec765753df920a56acb2@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270403
 DTEND;VALUE=DATE:20270404
 SUMMARY:61è Gran Premi de Catalunya "Hexagonal" 2027 (Torremirona)
-LOCATION:Torremirona Golf Club
+LOCATION:Torremirona Golf Club\, Navata\, Girona
 DESCRIPTION:Absoluto - Individual\nFicha oficial: https://www.catgolf.com/e
  s/campeonatos/61e-gran-premi-de-catalunya-hexagonal-2027-torremirona-2027-
  04-03\nConfirma fechas y condiciones en la web del organizador. Vía Bande
@@ -162,11 +162,11 @@ URL:https://www.catgolf.com/es/campeonatos/61e-gran-premi-de-catalunya-hexa
 END:VEVENT
 BEGIN:VEVENT
 UID:b7e5f5426a6e2e886015@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270703
 DTEND;VALUE=DATE:20270705
 SUMMARY:Circuit Nacional 5a Categoria 2027 (Torremirona)
-LOCATION:Torremirona Golf Club
+LOCATION:Torremirona Golf Club\, Navata\, Girona
 DESCRIPTION:Absoluto - Individual\nFicha oficial: https://www.catgolf.com/e
  s/campeonatos/circuit-nacional-5a-categoria-2027-torremirona-2027-07-03\nC
  onfirma fechas y condiciones en la web del organizador. Vía Banderín.

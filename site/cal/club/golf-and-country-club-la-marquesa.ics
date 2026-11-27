@@ -11,11 +11,11 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:de07fea97c2c78d0ba80@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:V My Lawyer In Spain
-LOCATION:Golf And Country Club la Marquesa
+LOCATION:Golf And Country Club la Marquesa\, Rojales\, Alicante
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   26 de octubre\, cierra el 27 de noviembre.\nFicha oficial: https://www.go
  lfdirecto.com/micro/game/6adf0390b0e08ac0156a8cc8/summary\nConfirma fechas
@@ -26,11 +26,11 @@ URL:https://www.golfdirecto.com/micro/game/6adf0390b0e08ac0156a8cc8/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:3dc722887564b8069e46@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
 SUMMARY:17º Torneo Solidario de Navidad Rotary Club
-LOCATION:Golf And Country Club la Marquesa
+LOCATION:Golf And Country Club la Marquesa\, Rojales\, Alicante
 DESCRIPTION:Benéfico - Stableford - Individual\nInscripción: abre el 17 d
  e noviembre\, cierra el 3 de diciembre.\nFicha oficial: https://www.golfdi
  recto.com/micro/game/6afc364e698e8624fb46dcdf/summary\nConfirma fechas y c
@@ -41,11 +41,11 @@ URL:https://www.golfdirecto.com/micro/game/6afc364e698e8624fb46dcdf/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:fb93e7c9eadca6d360df@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
 SUMMARY:Torneo Infantil 9 Hoyos
-LOCATION:Golf And Country Club la Marquesa
+LOCATION:Golf And Country Club la Marquesa\, Rojales\, Alicante
 DESCRIPTION:Juvenil - Stableford - Individual\nInscripción: abre el 26 de 
  noviembre\, cierra el 4 de diciembre.\nFicha oficial: https://www.golfdire
  cto.com/micro/game/6b081c0aa705699f01be3af0/summary\nConfirma fechas y con

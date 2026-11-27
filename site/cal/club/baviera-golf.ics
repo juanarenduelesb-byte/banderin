@@ -11,11 +11,11 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:a448d7d6a41839b12946@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261202
 SUMMARY:Salida domingo
-LOCATION:Baviera Golf\, Vélez-Málaga
+LOCATION:Baviera Golf\, Caleta de Velez\, Málaga
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   25 de noviembre\, cierra el 25 de noviembre.\nPrecio: Gratis.\nFicha ofic
  ial: https://www.nextcaddy.com/tour/75622\nConfirma fechas y condiciones e

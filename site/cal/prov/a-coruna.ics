@@ -1,0 +1,288 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Banderin//Torneos de golf//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Banderín - A Coruña
+X-WR-CALDESC:Torneos de golf: A Coruña. Se actualiza cada mañana. https:/
+ /banderin.es
+X-WR-TIMEZONE:Europe/Madrid
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:423f6d882c17af569bdd@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:2ª Prueba Liga de Parejas Campomar 26/27
+LOCATION:Club Campomar\, Santa Margarita (naron)\, A Coruña
+DESCRIPTION:Social de club - Greensome - Parejas\nInscripción: abre el 23 
+ de octubre\, cierra el 27 de noviembre.\nFicha oficial: https://www.golfdi
+ recto.com/micro/game/6adb729e042bd6a99e102d30/summary\nConfirma fechas y c
+ ondiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6adb729e042bd6a99e102d30/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:24ba9cdb23cc1b8f7490@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:Benjamines-Final Liga Gallega Juvenil Sub-18
+LOCATION:Club Compostela Pitch & Putt\, A Sionlla\, A Coruña
+DESCRIPTION:Juvenil - Medal Play - Individual\nInscripción: abre el 17 de 
+ noviembre\, cierra el 24 de noviembre.\nFicha oficial: https://www.golfdir
+ ecto.com/micro/game/6a55dbcf0a8b1b9e07dbe5cb/summary\nConfirma fechas y co
+ ndiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6a55dbcf0a8b1b9e07dbe5cb/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:28d62a580c50b325a9c4@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:Final Liga Gallega Juvenil Sub-18
+LOCATION:Club Compostela Pitch & Putt\, A Sionlla\, A Coruña
+DESCRIPTION:Juvenil - Medal Play - Individual\nInscripción: abre el 17 de 
+ noviembre\, cierra el 24 de noviembre.\nFicha oficial: https://www.golfdir
+ ecto.com/micro/game/6943eb634d9bda753002bebf/summary\nConfirma fechas y co
+ ndiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6943eb634d9bda753002bebf/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:0bdd8f47f3931c272edd@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:10ª Jornada Race To Barbanza (2ª Vuelta)
+LOCATION:C.D. Barbanza Pitch And Putt\, Boiro (boiro)\, A Coruña
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  23 de noviembre\, cierra el 29 de noviembre.\nFicha oficial: https://www.
+ golfdirecto.com/micro/game/6b04357ad2ed4f3d1cbdab5b/summary\nConfirma fech
+ as y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6b04357ad2ed4f3d1cbdab5b/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:f7e47912722e6d1e5dfd@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:Circuito Barbanza Arousa. 3ª prueba. Boiro
+LOCATION:C.D. Barbanza Pitch And Putt\, Boiro (boiro)\, A Coruña
+DESCRIPTION:Circuito comercial - Stableford - Individual\nInscripción: abr
+ e el 6 de noviembre\, cierra el 26 de noviembre.\nFicha oficial: https://w
+ ww.golfdirecto.com/micro/game/6ac4cc49457edc1ace625b5e/summary\nConfirma f
+ echas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6ac4cc49457edc1ace625b5e/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:fd449713c26265cf5671@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20261203
+DTEND;VALUE=DATE:20261204
+SUMMARY:4ª Prueba LIGA SENIOR 2026-27
+LOCATION:Miño Club de Golf Artabro\, Miño (pontedeume)\, A Coruña
+DESCRIPTION:Senior - Stableford - Individual\nFicha oficial: https://www.go
+ lfdirecto.com/micro/game/6a6c473f0ac413c45d5fd29b/summary\nConfirma fechas
+  y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6a6c473f0ac413c45d5fd29b/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:9a621753a020b7454861@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261206
+SUMMARY:3ª Prueba Liga de Parejas Campomar 20/27
+LOCATION:Club Campomar\, Santa Margarita (naron)\, A Coruña
+DESCRIPTION:Social de club - Fourball - Parejas\nInscripción: abre el 23 d
+ e octubre\, cierra el 4 de diciembre.\nFicha oficial: https://www.golfdire
+ cto.com/micro/game/6adb7310042bd6a99e20dda1/summary\nConfirma fechas y con
+ diciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6adb7310042bd6a99e20dda1/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:694c8fe6252b609f4d1a@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+SUMMARY:XI Torneo de Navidad Concello de Boiro
+LOCATION:C.D. Barbanza Pitch And Putt\, Boiro (boiro)\, A Coruña
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  16 de noviembre\, cierra el 3 de diciembre.\nFicha oficial: https://www.g
+ olfdirecto.com/micro/game/6afaed4b23d5370df09d3fd3/summary\nConfirma fecha
+ s y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6afaed4b23d5370df09d3fd3/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:f6052dc48f3f80c0ae54@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261213
+SUMMARY:4ª Prueba Liga de Parejas Campomar 20/27
+LOCATION:Club Campomar\, Santa Margarita (naron)\, A Coruña
+DESCRIPTION:Social de club - Stableford - Parejas\nInscripción: abre el 19
+  de noviembre\, cierra el 4 de diciembre.\nFicha oficial: https://www.golf
+ directo.com/micro/game/6aff155f53aeeeb7e5c6fd0b/summary\nConfirma fechas y
+  condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6aff155f53aeeeb7e5c6fd0b/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:ed49e2d4ece4205502b2@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20261217
+DTEND;VALUE=DATE:20261218
+SUMMARY:5ª Prueba LIGA SENIOR 2026-27
+LOCATION:Miño Club de Golf Artabro\, Miño (pontedeume)\, A Coruña
+DESCRIPTION:Senior - Stableford - Individual\nFicha oficial: https://www.go
+ lfdirecto.com/micro/game/6a6c476e0ac413c45d6cb490/summary\nConfirma fechas
+  y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6a6c476e0ac413c45d6cb490/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:d36cf42c8abf6dc839c4@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20261218
+DTEND;VALUE=DATE:20261221
+SUMMARY:Torneo Navidad 2026
+LOCATION:Club de Golf Paderne\, Paderne (san Xoan)\, A Coruña
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  26 de noviembre\, cierra el 17 de diciembre.\nFicha oficial: https://www.
+ golfdirecto.com/micro/game/6b081bef33682f5705bd307b/summary\nConfirma fech
+ as y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6b081bef33682f5705bd307b/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:fe078ba853674c4f4b96@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20261219
+DTEND;VALUE=DATE:20261220
+SUMMARY:Cestas de Navidad 2026
+LOCATION:Club Campomar\, Santa Margarita (naron)\, A Coruña
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/6adb7342042bd6a99e2e3161/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6adb7342042bd6a99e2e3161/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:ca8454fe4b1f9e22c56f@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20261220
+DTEND;VALUE=DATE:20261221
+SUMMARY:Circuito Barbanza Arousa. Final A Pobra Do Caramiñal
+LOCATION:C.D. Barbanza Pitch And Putt\, Boiro (boiro)\, A Coruña
+DESCRIPTION:Circuito comercial - Stableford - Individual\nFicha oficial: ht
+ tps://www.golfdirecto.com/micro/game/6ac4cc8f457edc1ace68df14/summary\nCon
+ firma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6ac4cc8f457edc1ace68df14/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:c395c2e59ee46b181f56@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20261220
+DTEND;VALUE=DATE:20261221
+SUMMARY:III Pro Am Scramble de Navidad
+LOCATION:Real Aero Club de Santiago\, San Mamede (piñeiro)\, A Coruña
+DESCRIPTION:Social de club - Scramble - Parejas\nInscripción: abre el 26 d
+ e noviembre\, cierra el 16 de diciembre.\nFicha oficial: https://www.golfd
+ irecto.com/micro/game/6b0866ca15c295799703321c/summary\nConfirma fechas y 
+ condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6b0866ca15c295799703321c/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:72ad3eb14133086350c6@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20261227
+DTEND;VALUE=DATE:20261228
+SUMMARY:Campeonato Crema de Navidad
+LOCATION:Hercules Club de Golf\, Larin (san Esteban)\, A Coruña
+DESCRIPTION:Social de club - Fourball - Parejas\nFicha oficial: https://www
+ .golfdirecto.com/micro/game/6943ecab4d9bda75305f7465/summary\nConfirma fec
+ has y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6943ecab4d9bda75305f7465/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:c1189602ff217e88c07e@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20261231
+DTEND;VALUE=DATE:20270101
+SUMMARY:Torneo Fin de Año
+LOCATION:Club de Golf Paderne\, Paderne (san Xoan)\, A Coruña
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/6949740fd6b8a9e4131109ad/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6949740fd6b8a9e4131109ad/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:f7a778faf61609ecf4b8@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20270114
+DTEND;VALUE=DATE:20270115
+SUMMARY:6ª Prueba LIGA SENIOR 2026-27
+LOCATION:Miño Club de Golf Artabro\, Miño (pontedeume)\, A Coruña
+DESCRIPTION:Senior - Stableford - Individual\nFicha oficial: https://www.go
+ lfdirecto.com/micro/game/6a6c49dc09f4121c48721035/summary\nConfirma fechas
+  y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6a6c49dc09f4121c48721035/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:acc34298a02ff9912bb7@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20270128
+DTEND;VALUE=DATE:20270129
+SUMMARY:7ª Prueba Final LIGA SENIOR 2026-27
+LOCATION:Miño Club de Golf Artabro\, Miño (pontedeume)\, A Coruña
+DESCRIPTION:Senior - Stableford - Individual\nFicha oficial: https://www.go
+ lfdirecto.com/micro/game/6a6c4a1809f4121c487b22fb/summary\nConfirma fechas
+  y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6a6c4a1809f4121c487b22fb/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:eee5005462ffbfb6fbd3@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20270512
+DTEND;VALUE=DATE:20270513
+SUMMARY:Ruta do Viño - Prueba 8 Miño
+LOCATION:Miño Club de Golf Artabro\, Miño (pontedeume)\, A Coruña
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/6a912304a025e97b85706a59/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6a912304a025e97b85706a59/summary
+END:VEVENT
+END:VCALENDAR

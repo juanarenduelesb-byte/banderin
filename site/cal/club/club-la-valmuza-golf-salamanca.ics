@@ -11,12 +11,12 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:53d7335971682983371c@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:V Campeonato de Navidad Padres e Hijos de Castilla y León (9 Hoyos
  )
-LOCATION:Club la Valmuza Golf Salamanca\, Doñinos de Ledesma
+LOCATION:Club la Valmuza Golf Salamanca\, Doñinos de Salamanca\, Salamanca
 DESCRIPTION:Juvenil - Stableford - Individual\nInscripción: abre el 23 de 
  noviembre\, cierra el 8 de diciembre.\nPrecio: 12 €.\nFicha oficial: htt
  ps://www.nextcaddy.com/tour/68072\nConfirma fechas y condiciones en la web
@@ -27,12 +27,12 @@ URL:https://www.nextcaddy.com/tour/68072
 END:VEVENT
 BEGIN:VEVENT
 UID:eae6f75e29a3f4e3f4f1@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:VII Campeonato de Navidad Padres e Hijos de Castilla y León (18 Ho
  yos)
-LOCATION:Club la Valmuza Golf Salamanca\, Doñinos de Ledesma\, Salamanca
+LOCATION:Club la Valmuza Golf Salamanca\, Doñinos de Salamanca\, Salamanca
 DESCRIPTION:Juvenil - Stableford - Individual\nInscripción: abre el 23 de 
  noviembre\, cierra el 8 de diciembre.\nPrecio: 23 €.\nFicha oficial: htt
  ps://www.nextcaddy.com/tour/68071\nConfirma fechas y condiciones en la web

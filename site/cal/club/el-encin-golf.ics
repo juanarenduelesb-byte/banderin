@@ -11,11 +11,11 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:4fc89adff23789797414@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261201
 SUMMARY:Campeonato de Madrid de Profesionales Senior
-LOCATION:el Encin Golf\, Alcalá de Henares
+LOCATION:el Encin Golf\, Alcala de Henares\, Madrid
 DESCRIPTION:Profesional - Medal Play - Individual\nInscripción: abre el 18
   de noviembre\, cierra el 25 de noviembre.\nPrecio: 31\,5 €.\nFicha ofic
  ial: https://www.nextcaddy.com/tour/68018\nConfirma fechas y condiciones e
@@ -26,11 +26,11 @@ URL:https://www.nextcaddy.com/tour/68018
 END:VEVENT
 BEGIN:VEVENT
 UID:aafd4cadf144680c7f33@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261209
 DTEND;VALUE=DATE:20261210
 SUMMARY:Torneo de Navidad - Circuito Amateur
-LOCATION:el Encin Golf\, Alcalá de Henares
+LOCATION:el Encin Golf\, Alcala de Henares\, Madrid
 DESCRIPTION:Absoluto - Stableford - Individual\nInscripción: abre el 25 de
   noviembre\, cierra el 2 de diciembre.\nPrecio: 49\,5 €.\nFicha oficial:
   https://www.nextcaddy.com/tour/73612\nConfirma fechas y condiciones en la

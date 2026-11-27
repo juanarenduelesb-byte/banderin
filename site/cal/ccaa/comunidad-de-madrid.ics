@@ -11,11 +11,11 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:ec73b911f15d613b86e7@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:The Masters 2026 - Torneo de Navidad
-LOCATION:Club de Golf la Dehesa
+LOCATION:Club de Golf la Dehesa\, Villanueva de la Cañada\, Madrid
 DESCRIPTION:Social de club - Scramble - Parejas\nInscripción: abre el 10 d
  e noviembre\, cierra el 26 de noviembre.\nFicha oficial: https://www.golfd
  irecto.com/micro/game/6af2e6886aacb155d854d51c/summary\nConfirma fechas y 
@@ -26,11 +26,11 @@ URL:https://www.golfdirecto.com/micro/game/6af2e6886aacb155d854d51c/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:4b3e346a95e8d49d2be4@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Zurris
-LOCATION:Golf Santander S.a.
+LOCATION:Golf Santander S.a.\, Boadilla del Monte\, Madrid
 DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
  //www.golfdirecto.com/micro/game/6b092c6c97848ac1da1fad02/summary\nConfirm
  a fechas y condiciones en la web del organizador. Vía Banderín.
@@ -40,11 +40,11 @@ URL:https://www.golfdirecto.com/micro/game/6b092c6c97848ac1da1fad02/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:536695c0d20df3d96c31@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Campeonato Social 28/11/2026
-LOCATION:Real Club de Golf las Rozas de Madrid
+LOCATION:Real Club de Golf las Rozas de Madrid\, Monte Rozas\, Madrid
 DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
  //www.golfdirecto.com/micro/game/6ae732a68f4f6415e011a1e6/summary\nConfirm
  a fechas y condiciones en la web del organizador. Vía Banderín.
@@ -54,11 +54,11 @@ URL:https://www.golfdirecto.com/micro/game/6ae732a68f4f6415e011a1e6/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:1a22417a687ce5c63aca@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Campeonato de Madrid Dobles Masculino
-LOCATION:Centro Nacional de Golf\, Madrid
+LOCATION:Centro Nacional de Golf\, Madrid\, Madrid
 DESCRIPTION:Absoluto - Medal Play - Parejas\nInscripción: abre el 16 de no
  viembre\, cierra el 23 de noviembre.\nFicha oficial: https://www.nextcaddy
  .com/tour/68355\nConfirma fechas y condiciones en la web del organizador. 
@@ -69,11 +69,11 @@ URL:https://www.nextcaddy.com/tour/68355
 END:VEVENT
 BEGIN:VEVENT
 UID:77dfa77b605e5a0e6dff@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Campeonato de Madrid Senior Pitch & Putt 2026
-LOCATION:Club de Golf Encinas de Boadilla\, Boadilla del Monte
+LOCATION:Club de Golf Encinas de Boadilla\, Boadilla del Monte\, Madrid
 DESCRIPTION:Senior - Medal Play - Individual\nInscripción: abre el 16 de n
  oviembre\, cierra el 23 de noviembre.\nPrecio: 40 €.\nFicha oficial: htt
  ps://www.nextcaddy.com/tour/67787\nConfirma fechas y condiciones en la web
@@ -84,12 +84,12 @@ URL:https://www.nextcaddy.com/tour/67787
 END:VEVENT
 BEGIN:VEVENT
 UID:da2dc983d3ee3bfa69d0@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:FINAL RKN Alumnos 2026 - Turno de Mañana 10:00 - Turno de Tarde 13
  :00
-LOCATION:Escuela de la Real Federación de Golf de Madrid\, Madrid
+LOCATION:Escuela de la Real Federación de Golf de Madrid\, Madrid\, Madrid
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   15 de octubre\, cierra el 15 de octubre.\nPrecio: Gratis.\nFicha oficial:
   https://www.nextcaddy.com/tour/72183\nConfirma fechas y condiciones en la
@@ -100,11 +100,11 @@ URL:https://www.nextcaddy.com/tour/72183
 END:VEVENT
 BEGIN:VEVENT
 UID:c5941114f301e166b45c@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:FINALES Equipos Polo Swing Team 2026
-LOCATION:Green Paddock S.a.
+LOCATION:Green Paddock S.a.\, Torrelodones\, Madrid
 DESCRIPTION:Clubes y equipos - Fourball - Parejas\nFicha oficial: https://w
  ww.golfdirecto.com/micro/game/6ac0ce80710147c35ded47f2/summary\nConfirma f
  echas y condiciones en la web del organizador. Vía Banderín.
@@ -114,11 +114,11 @@ URL:https://www.golfdirecto.com/micro/game/6ac0ce80710147c35ded47f2/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:96f2f6af6b02543e11ad@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Final Liga Universitaria
-LOCATION:Golf Santander S A\, Boadilla del Monte
+LOCATION:Golf Santander S A\, Boadilla del Monte\, Madrid
 DESCRIPTION:Universitario - Stableford - Individual\nInscripción: abre el 
  16 de noviembre\, cierra el 25 de noviembre.\nPrecio: 21 €.\nFicha ofici
  al: https://www.nextcaddy.com/tour/74596\nConfirma fechas y condiciones en
@@ -129,11 +129,11 @@ URL:https://www.nextcaddy.com/tour/74596
 END:VEVENT
 BEGIN:VEVENT
 UID:3c6e8e865f6197486b1f@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:IX Torneo de Par en Par
-LOCATION:Golf Santander S.a.
+LOCATION:Golf Santander S.a.\, Boadilla del Monte\, Madrid
 DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
  //www.golfdirecto.com/micro/game/6b0814036549a3fb78ef0626/summary\nConfirm
  a fechas y condiciones en la web del organizador. Vía Banderín.
@@ -143,11 +143,11 @@ URL:https://www.golfdirecto.com/micro/game/6b0814036549a3fb78ef0626/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:85c4f0314bcc8c645560@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Match Escuela Infantil
-LOCATION:Real Club de Golf las Rozas de Madrid
+LOCATION:Real Club de Golf las Rozas de Madrid\, Monte Rozas\, Madrid
 DESCRIPTION:Juvenil - Foursome - Parejas\nFicha oficial: https://www.golfdi
  recto.com/micro/game/6af1adb18527252f606246a2/summary\nConfirma fechas y c
  ondiciones en la web del organizador. Vía Banderín.
@@ -157,11 +157,11 @@ URL:https://www.golfdirecto.com/micro/game/6af1adb18527252f606246a2/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:977ffb87c0381f866d34@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:No Plomex Tour 2026 (Copia)
-LOCATION:Club de Golf la Dehesa
+LOCATION:Club de Golf la Dehesa\, Villanueva de la Cañada\, Madrid
 DESCRIPTION:Circuito comercial - Stableford - Individual\nFicha oficial: ht
  tps://www.golfdirecto.com/micro/game/6b06f2352638d23287ca1336/summary\nCon
  firma fechas y condiciones en la web del organizador. Vía Banderín.
@@ -171,11 +171,11 @@ URL:https://www.golfdirecto.com/micro/game/6b06f2352638d23287ca1336/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:620cb9f153bfc8fec87c@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:SEMIFINALES Equipos Polo Swing Team 2026
-LOCATION:Green Paddock S.a.
+LOCATION:Green Paddock S.a.\, Torrelodones\, Madrid
 DESCRIPTION:Clubes y equipos - Fourball - Parejas\nFicha oficial: https://w
  ww.golfdirecto.com/micro/game/697b91acead8497ab4164146/summary\nConfirma f
  echas y condiciones en la web del organizador. Vía Banderín.
@@ -185,11 +185,11 @@ URL:https://www.golfdirecto.com/micro/game/697b91acead8497ab4164146/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:d8c888a55aa0b7b100ba@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Copa 2 Escuelas
-LOCATION:El Encin Golf
+LOCATION:El Encin Golf\, Alcala de Henares\, Madrid
 DESCRIPTION:Juvenil - Stableford - Individual\nInscripción: abre el 19 de 
  noviembre\, cierra el 26 de noviembre.\nFicha oficial: https://www.golfdir
  ecto.com/micro/game/6af06a89e0349cc290c26954/summary\nConfirma fechas y co
@@ -200,12 +200,12 @@ URL:https://www.golfdirecto.com/micro/game/6af06a89e0349cc290c26954/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:c325c2152a58665c9bf7@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:IX Torneo RKN 2026 1ª a 5ª Categoría - Turno Mañana 9:30 - Turn
  o Tarde 12:30
-LOCATION:Escuela de la Real Federación de Golf de Madrid\, Madrid
+LOCATION:Escuela de la Real Federación de Golf de Madrid\, Madrid\, Madrid
 DESCRIPTION:Social de club - Medal Play - Individual\nInscripción: abre el
   15 de noviembre\, cierra el 27 de noviembre.\nPrecio: 11 €.\nFicha ofic
  ial: https://www.nextcaddy.com/tour/72395\nConfirma fechas y condiciones e
@@ -216,11 +216,11 @@ URL:https://www.nextcaddy.com/tour/72395
 END:VEVENT
 BEGIN:VEVENT
 UID:fd8365c860f33099fe21@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Torneo Mixto de Golf Adaptado
-LOCATION:Ciudad Deportiva Juan Antonio Samaranch\, Colmenar Viejo
+LOCATION:Ciudad Deportiva Juan Antonio Samaranch\, Colmenar Viejo\, Madrid
 DESCRIPTION:Adaptado - Stableford - Individual\nInscripción: abre el 16 de
   noviembre\, cierra el 23 de noviembre.\nPrecio: 19\,5 €.\nFicha oficial
  : https://www.nextcaddy.com/tour/74636\nConfirma fechas y condiciones en l
@@ -231,11 +231,11 @@ URL:https://www.nextcaddy.com/tour/74636
 END:VEVENT
 BEGIN:VEVENT
 UID:f0f807caf35f41b2faf0@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Torneo Simpatizantes
-LOCATION:Real Club de Golf las Rozas de Madrid
+LOCATION:Real Club de Golf las Rozas de Madrid\, Monte Rozas\, Madrid
 DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
  //www.golfdirecto.com/micro/game/6ae732f40adbb9d42da4d90e/summary\nConfirm
  a fechas y condiciones en la web del organizador. Vía Banderín.
@@ -245,11 +245,11 @@ URL:https://www.golfdirecto.com/micro/game/6ae732f40adbb9d42da4d90e/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:9a3f750f66d9ca9707d7@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Torneo Social Individual
-LOCATION:Club de Golf Aranjuez
+LOCATION:Club de Golf Aranjuez\, Aranjuez\, Madrid
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   21 de noviembre\, cierra el 28 de noviembre.\nFicha oficial: https://www.
  golfdirecto.com/micro/game/6aeb1f01e86c4f3aae7927fd/summary\nConfirma fech
@@ -260,11 +260,11 @@ URL:https://www.golfdirecto.com/micro/game/6aeb1f01e86c4f3aae7927fd/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:e18fe27cd93de4b01b33@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Torneo de Abonados Encín Golf
-LOCATION:El Encin Golf
+LOCATION:El Encin Golf\, Alcala de Henares\, Madrid
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   14 de noviembre\, cierra el 27 de noviembre.\nFicha oficial: https://www.
  golfdirecto.com/micro/game/6af49792929298079420f492/summary\nConfirma fech
@@ -275,11 +275,11 @@ URL:https://www.golfdirecto.com/micro/game/6af49792929298079420f492/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:5f9cdacabdfdc1aa5f86@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Tres Cantos Vs Golfdegolfos
-LOCATION:Golf Santander S.a.
+LOCATION:Golf Santander S.a.\, Boadilla del Monte\, Madrid
 DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
  //www.golfdirecto.com/micro/game/6af1fb152f0e9df18b7a1968/summary\nConfirm
  a fechas y condiciones en la web del organizador. Vía Banderín.
@@ -289,11 +289,11 @@ URL:https://www.golfdirecto.com/micro/game/6af1fb152f0e9df18b7a1968/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:4fc89adff23789797414@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261201
 SUMMARY:Campeonato de Madrid de Profesionales Senior
-LOCATION:el Encin Golf\, Alcalá de Henares
+LOCATION:el Encin Golf\, Alcala de Henares\, Madrid
 DESCRIPTION:Profesional - Medal Play - Individual\nInscripción: abre el 18
   de noviembre\, cierra el 25 de noviembre.\nPrecio: 31\,5 €.\nFicha ofic
  ial: https://www.nextcaddy.com/tour/68018\nConfirma fechas y condiciones e
@@ -304,11 +304,11 @@ URL:https://www.nextcaddy.com/tour/68018
 END:VEVENT
 BEGIN:VEVENT
 UID:bd1ace4494c222899939@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261202
 SUMMARY:Torneo 9 Hoyos 01/1226
-LOCATION:Real Club de Golf las Rozas de Madrid
+LOCATION:Real Club de Golf las Rozas de Madrid\, Monte Rozas\, Madrid
 DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
  //www.golfdirecto.com/micro/game/6af9af37440203a820c23a76/summary\nConfirm
  a fechas y condiciones en la web del organizador. Vía Banderín.
@@ -318,11 +318,11 @@ URL:https://www.golfdirecto.com/micro/game/6af9af37440203a820c23a76/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:df33c4dc41c2adc8bc74@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261202
 SUMMARY:VII (Envio) Memorial Beatriz Valdes
-LOCATION:Golf Santander S.a.
+LOCATION:Golf Santander S.a.\, Boadilla del Monte\, Madrid
 DESCRIPTION:Social de club - Fourball - Parejas\nFicha oficial: https://www
  .golfdirecto.com/micro/game/6b0812fa33682f5705927b78/summary\nConfirma fec
  has y condiciones en la web del organizador. Vía Banderín.
@@ -332,11 +332,11 @@ URL:https://www.golfdirecto.com/micro/game/6b0812fa33682f5705927b78/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:2fbe91602e2ba990704e@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261202
 SUMMARY:VII Memorial Beatriz Valdes
-LOCATION:Golf Santander S.a.
+LOCATION:Golf Santander S.a.\, Boadilla del Monte\, Madrid
 DESCRIPTION:Social de club - Fourball - Parejas\nFicha oficial: https://www
  .golfdirecto.com/micro/game/6b08133d15c295799752eda9/summary\nConfirma fec
  has y condiciones en la web del organizador. Vía Banderín.
@@ -346,11 +346,11 @@ URL:https://www.golfdirecto.com/micro/game/6b08133d15c295799752eda9/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:ff4fc823a9de4484fe7a@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261202
 DTEND;VALUE=DATE:20261203
 SUMMARY:Final Ranking Senior - Stableford - 10:00
-LOCATION:Escuela de la Real Federación de Golf de Madrid\, Madrid
+LOCATION:Escuela de la Real Federación de Golf de Madrid\, Madrid\, Madrid
 DESCRIPTION:Senior - Stableford - Individual\nInscripción: abre el 28 de o
  ctubre\, cierra el 28 de octubre.\nPrecio: Gratis.\nFicha oficial: https:/
  /www.nextcaddy.com/tour/74946\nConfirma fechas y condiciones en la web del
@@ -361,11 +361,11 @@ URL:https://www.nextcaddy.com/tour/74946
 END:VEVENT
 BEGIN:VEVENT
 UID:9850ff17da80f74a4df7@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261202
 DTEND;VALUE=DATE:20261203
 SUMMARY:II Liga Polo Swing 2026 Prueba 20
-LOCATION:Green Paddock S.a.
+LOCATION:Green Paddock S.a.\, Torrelodones\, Madrid
 DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
  //www.golfdirecto.com/micro/game/6b07ec016549a3fb7874622c/summary\nConfirm
  a fechas y condiciones en la web del organizador. Vía Banderín.
@@ -375,11 +375,11 @@ URL:https://www.golfdirecto.com/micro/game/6b07ec016549a3fb7874622c/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:dbe7b460c638260f4f39@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261202
 DTEND;VALUE=DATE:20261203
 SUMMARY:VII Memorial Beatriz Valdes 2ª Jornada (Copia)
-LOCATION:Golf Santander S.a.
+LOCATION:Golf Santander S.a.\, Boadilla del Monte\, Madrid
 DESCRIPTION:Social de club - Fourball - Parejas\nFicha oficial: https://www
  .golfdirecto.com/micro/game/6b08136a33682f57059e3911/summary\nConfirma fec
  has y condiciones en la web del organizador. Vía Banderín.
@@ -389,11 +389,11 @@ URL:https://www.golfdirecto.com/micro/game/6b08136a33682f57059e3911/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:53982a4796d573f92be5@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261202
 DTEND;VALUE=DATE:20261203
 SUMMARY:VII Torneo Liga Senior 2026/27
-LOCATION:Club de Golf Aranjuez
+LOCATION:Club de Golf Aranjuez\, Aranjuez\, Madrid
 DESCRIPTION:Senior - Stableford - Individual\nInscripción: abre el 24 de n
  oviembre\, cierra el 1 de diciembre.\nFicha oficial: https://www.golfdirec
  to.com/micro/game/6b05467ed09541e323661325/summary\nConfirma fechas y cond
@@ -404,11 +404,11 @@ URL:https://www.golfdirecto.com/micro/game/6b05467ed09541e323661325/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:d919b2eefda71fd8494a@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261203
 DTEND;VALUE=DATE:20261204
 SUMMARY:Torneo Privado LJG - 3 de Diciembre - 9:30
-LOCATION:Escuela de la Real Federación de Golf de Madrid\, Madrid
+LOCATION:Escuela de la Real Federación de Golf de Madrid\, Madrid\, Madrid
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   26 de noviembre\, cierra el 2 de diciembre.\nPrecio: 20 €.\nFicha ofici
  al: https://www.nextcaddy.com/tour/67949\nConfirma fechas y condiciones en
@@ -419,11 +419,11 @@ URL:https://www.nextcaddy.com/tour/67949
 END:VEVENT
 BEGIN:VEVENT
 UID:fd22314fb4c304d13702@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
 SUMMARY:Torneo de Navidad Olivar
-LOCATION:Club de Golf Olivar de la Hinojosa
+LOCATION:Club de Golf Olivar de la Hinojosa\, Madrid\, Madrid
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   20 de noviembre\, cierra el 3 de diciembre.\nFicha oficial: https://www.g
  olfdirecto.com/micro/game/6af59bfe5149c55c27dd544e/summary\nConfirma fecha
@@ -434,11 +434,11 @@ URL:https://www.golfdirecto.com/micro/game/6af59bfe5149c55c27dd544e/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:6b6afa455df2ff47304f@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
 SUMMARY:Campeonato Social 06-12-26
-LOCATION:Real Club de Golf las Rozas de Madrid
+LOCATION:Real Club de Golf las Rozas de Madrid\, Monte Rozas\, Madrid
 DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
  //www.golfdirecto.com/micro/game/6af9afa4440203a820dda56c/summary\nConfirm
  a fechas y condiciones en la web del organizador. Vía Banderín.
@@ -448,11 +448,11 @@ URL:https://www.golfdirecto.com/micro/game/6af9afa4440203a820dda56c/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:32230e1b2e713fd35533@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261208
 DTEND;VALUE=DATE:20261209
 SUMMARY:Premio Social y Virgen de Loreto
-LOCATION:Barberan y Collar
+LOCATION:Barberan y Collar\, Madrid\, Madrid
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   20 de noviembre\, cierra el 3 de diciembre.\nFicha oficial: https://www.g
  olfdirecto.com/micro/game/6a7d8ccc61fd16bcfc9e8e63/summary\nConfirma fecha
@@ -463,11 +463,11 @@ URL:https://www.golfdirecto.com/micro/game/6a7d8ccc61fd16bcfc9e8e63/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:46e05ed9cdc0118adbc0@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261208
 DTEND;VALUE=DATE:20261209
 SUMMARY:Torneo "Nuestra Señora de Loreto" SOLO AQUÍ INVITADOS
-LOCATION:Barberan y Collar
+LOCATION:Barberan y Collar\, Madrid\, Madrid
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   20 de noviembre\, cierra el 3 de diciembre.\nFicha oficial: https://www.g
  olfdirecto.com/micro/game/6aee192de0349cc290f6cd36/summary\nConfirma fecha
@@ -478,11 +478,11 @@ URL:https://www.golfdirecto.com/micro/game/6aee192de0349cc290f6cd36/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:b704906c0a39c0eee713@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261209
 DTEND;VALUE=DATE:20261210
 SUMMARY:Copa 2 Escuelas
-LOCATION:Club de Golf Olivar de la Hinojosa
+LOCATION:Club de Golf Olivar de la Hinojosa\, Madrid\, Madrid
 DESCRIPTION:Juvenil - Stableford - Individual\nInscripción: abre el 29 de 
  noviembre\, cierra el 7 de diciembre.\nFicha oficial: https://www.golfdire
  cto.com/micro/game/6afec446fb9c521b04134a09/summary\nConfirma fechas y con
@@ -493,11 +493,11 @@ URL:https://www.golfdirecto.com/micro/game/6afec446fb9c521b04134a09/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:aafd4cadf144680c7f33@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261209
 DTEND;VALUE=DATE:20261210
 SUMMARY:Torneo de Navidad - Circuito Amateur
-LOCATION:el Encin Golf\, Alcalá de Henares
+LOCATION:el Encin Golf\, Alcala de Henares\, Madrid
 DESCRIPTION:Absoluto - Stableford - Individual\nInscripción: abre el 25 de
   noviembre\, cierra el 2 de diciembre.\nPrecio: 49\,5 €.\nFicha oficial:
   https://www.nextcaddy.com/tour/73612\nConfirma fechas y condiciones en la
@@ -508,11 +508,11 @@ URL:https://www.nextcaddy.com/tour/73612
 END:VEVENT
 BEGIN:VEVENT
 UID:48a6f4d6d5b1e6a31b33@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261210
 DTEND;VALUE=DATE:20261211
 SUMMARY:Privado -Torneo LJG - 10 Diciembre 2026
-LOCATION:Green Paddock S.a.
+LOCATION:Green Paddock S.a.\, Torrelodones\, Madrid
 DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
  //www.golfdirecto.com/micro/game/692ed8b30c48c911231c2a6b/summary\nConfirm
  a fechas y condiciones en la web del organizador. Vía Banderín.
@@ -522,11 +522,11 @@ URL:https://www.golfdirecto.com/micro/game/692ed8b30c48c911231c2a6b/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:eacdf34e12d9ed0d2f9c@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:Final Circuito 3ª Categoría Pitch & Putt
-LOCATION:Escuela de la Real Federación de Golf de Madrid\, Madrid
+LOCATION:Escuela de la Real Federación de Golf de Madrid\, Madrid\, Madrid
 DESCRIPTION:Absoluto - Stableford - Individual\nInscripción: abre el 12 de
   diciembre\, cierra el 12 de diciembre.\nPrecio: Gratis.\nFicha oficial: h
  ttps://www.nextcaddy.com/tour/67829\nConfirma fechas y condiciones en la w
@@ -537,11 +537,11 @@ URL:https://www.nextcaddy.com/tour/67829
 END:VEVENT
 BEGIN:VEVENT
 UID:9d4ebbfc8b5edb4afaee@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:Final Circuito Access Series "La Dehesa"
-LOCATION:Club de Golf la Dehesa\, Villanueva de la Cañada
+LOCATION:Club de Golf la Dehesa\, Villanueva de la Cañada\, Madrid
 DESCRIPTION:Absoluto - Stableford - Individual\nInscripción: abre el 16 de
   noviembre\, cierra el 7 de diciembre.\nPrecio: 21\,5 €.\nFicha oficial:
   https://www.nextcaddy.com/tour/70866\nConfirma fechas y condiciones en la
@@ -552,11 +552,11 @@ URL:https://www.nextcaddy.com/tour/70866
 END:VEVENT
 BEGIN:VEVENT
 UID:bd1b8dd0880e59aa4646@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:Liga Damas Barberán Feliz Navidad
-LOCATION:Barberan y Collar
+LOCATION:Barberan y Collar\, Madrid\, Madrid
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   30 de noviembre\, cierra el 10 de diciembre.\nFicha oficial: https://www.
  golfdirecto.com/micro/game/69755fca45d9e07d123803c2/summary\nConfirma fech
@@ -567,11 +567,11 @@ URL:https://www.golfdirecto.com/micro/game/69755fca45d9e07d123803c2/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:4cf62cbbffc6a0ac00c5@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:Torneo Loteria Navidad 12/12/2026
-LOCATION:Green Paddock S.a.
+LOCATION:Green Paddock S.a.\, Torrelodones\, Madrid
 DESCRIPTION:Social de club - Fourball - Parejas\nFicha oficial: https://www
  .golfdirecto.com/micro/game/692edc930c48c9112376214a/summary\nConfirma fec
  has y condiciones en la web del organizador. Vía Banderín.
@@ -581,11 +581,11 @@ URL:https://www.golfdirecto.com/micro/game/692edc930c48c9112376214a/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:8c939c3b75921168cbd1@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:Torneo Navidad Escuela 18 Hoyos
-LOCATION:Real Club de Golf las Rozas de Madrid
+LOCATION:Real Club de Golf las Rozas de Madrid\, Monte Rozas\, Madrid
 DESCRIPTION:Juvenil - Stableford - Individual\nFicha oficial: https://www.g
  olfdirecto.com/micro/game/6af9b3c790f777ff01b65bc6/summary\nConfirma fecha
  s y condiciones en la web del organizador. Vía Banderín.
@@ -595,11 +595,11 @@ URL:https://www.golfdirecto.com/micro/game/6af9b3c790f777ff01b65bc6/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:6dfc01c23c008efb0388@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:Torneo Navidad Escuela 9 Hoyos
-LOCATION:Real Club de Golf las Rozas de Madrid
+LOCATION:Real Club de Golf las Rozas de Madrid\, Monte Rozas\, Madrid
 DESCRIPTION:Juvenil - Stableford - Individual\nFicha oficial: https://www.g
  olfdirecto.com/micro/game/6af9b40490f777ff01c2dc3c/summary\nConfirma fecha
  s y condiciones en la web del organizador. Vía Banderín.
@@ -609,11 +609,11 @@ URL:https://www.golfdirecto.com/micro/game/6af9b40490f777ff01c2dc3c/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:aeff9fdfa3d0eaa39436@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
 SUMMARY:4ª Prueba Puntuable II Gt Tour
-LOCATION:Club de Golf Aranjuez
+LOCATION:Club de Golf Aranjuez\, Aranjuez\, Madrid
 DESCRIPTION:Absoluto - Medal Play - Individual\nInscripción: abre el 17 de
   noviembre\, cierra el 10 de diciembre.\nFicha oficial: https://www.golfdi
  recto.com/micro/game/6afc11114cfcc17e46bfae6f/summary\nConfirma fechas y c
@@ -624,11 +624,11 @@ URL:https://www.golfdirecto.com/micro/game/6afc11114cfcc17e46bfae6f/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:93ef7eb2973a14371754@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
 SUMMARY:Campeonato Navidad
-LOCATION:Real Club de Golf las Rozas de Madrid
+LOCATION:Real Club de Golf las Rozas de Madrid\, Monte Rozas\, Madrid
 DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
  //www.golfdirecto.com/micro/game/6af9b48b90f777ff01eb6a51/summary\nConfirm
  a fechas y condiciones en la web del organizador. Vía Banderín.
@@ -638,11 +638,11 @@ URL:https://www.golfdirecto.com/micro/game/6af9b48b90f777ff01eb6a51/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:4d20fa1e16044e6b69f3@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
 SUMMARY:Copa 2 Escuelas
-LOCATION:Club de Golf Olivar de la Hinojosa
+LOCATION:Club de Golf Olivar de la Hinojosa\, Madrid\, Madrid
 DESCRIPTION:Juvenil - Stableford - Individual\nFicha oficial: https://www.g
  olfdirecto.com/micro/game/6afed374e64dbfd6f44cbe9b/summary\nConfirma fecha
  s y condiciones en la web del organizador. Vía Banderín.
@@ -652,11 +652,11 @@ URL:https://www.golfdirecto.com/micro/game/6afed374e64dbfd6f44cbe9b/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:0c8a4704afda9f45956d@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
 SUMMARY:Final Liga Juvenil
-LOCATION:Centro Nacional de Golf\, Madrid
+LOCATION:Centro Nacional de Golf\, Madrid\, Madrid
 DESCRIPTION:Juvenil - Medal Play - Individual\nInscripción: abre el 13 de 
  diciembre\, cierra el 13 de diciembre.\nPrecio: Gratis.\nFicha oficial: ht
  tps://www.nextcaddy.com/tour/68338\nConfirma fechas y condiciones en la we
@@ -667,11 +667,11 @@ URL:https://www.nextcaddy.com/tour/68338
 END:VEVENT
 BEGIN:VEVENT
 UID:bf62f30683a03c6d8928@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
 SUMMARY:Torneo Loteria Navidad 13/12/2026
-LOCATION:Green Paddock S.a.
+LOCATION:Green Paddock S.a.\, Torrelodones\, Madrid
 DESCRIPTION:Social de club - Stableford - Parejas\nFicha oficial: https://w
  ww.golfdirecto.com/micro/game/692edcc70c48c911237d5de3/summary\nConfirma f
  echas y condiciones en la web del organizador. Vía Banderín.
@@ -681,11 +681,11 @@ URL:https://www.golfdirecto.com/micro/game/692edcc70c48c911237d5de3/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:1864731da96f27c2bc62@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
 SUMMARY:Yo el Pitch y Tú el Putt
-LOCATION:Escuela de la Real Federación de Golf de Madrid\, Madrid
+LOCATION:Escuela de la Real Federación de Golf de Madrid\, Madrid\, Madrid
 DESCRIPTION:Absoluto - Medal Play - Individual\nInscripción: abre el 13 de
   diciembre\, cierra el 13 de diciembre.\nPrecio: Gratis.\nFicha oficial: h
  ttps://www.nextcaddy.com/tour/68351\nConfirma fechas y condiciones en la w
@@ -696,11 +696,11 @@ URL:https://www.nextcaddy.com/tour/68351
 END:VEVENT
 BEGIN:VEVENT
 UID:9696643cb77dad12daa2@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261214
 DTEND;VALUE=DATE:20261215
 SUMMARY:Gran Torneo de Navidad LAG 2026
-LOCATION:El Encin Golf
+LOCATION:El Encin Golf\, Alcala de Henares\, Madrid
 DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
  //www.golfdirecto.com/micro/game/6af5d2b08d4229260f614821/summary\nConfirm
  a fechas y condiciones en la web del organizador. Vía Banderín.
@@ -710,11 +710,11 @@ URL:https://www.golfdirecto.com/micro/game/6af5d2b08d4229260f614821/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:45a7bab82e7f24d08315@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261214
 DTEND;VALUE=DATE:20261215
 SUMMARY:VIII Campeonato de Madrid Hickory
-LOCATION:Centro Nacional de Golf\, Madrid
+LOCATION:Centro Nacional de Golf\, Madrid\, Madrid
 DESCRIPTION:Absoluto - Medal Play - Individual\nInscripción: abre el 14 de
   diciembre\, cierra el 14 de diciembre.\nPrecio: Gratis.\nFicha oficial: h
  ttps://www.nextcaddy.com/tour/75475\nConfirma fechas y condiciones en la w
@@ -725,11 +725,11 @@ URL:https://www.nextcaddy.com/tour/75475
 END:VEVENT
 BEGIN:VEVENT
 UID:3747527a6f17127a751b@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261215
 DTEND;VALUE=DATE:20261216
 SUMMARY:Campeoanto 9 Hoyos
-LOCATION:Real Club de Golf las Rozas de Madrid
+LOCATION:Real Club de Golf las Rozas de Madrid\, Monte Rozas\, Madrid
 DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
  //www.golfdirecto.com/micro/game/6af9b50f440203a820c99c57/summary\nConfirm
  a fechas y condiciones en la web del organizador. Vía Banderín.
@@ -739,11 +739,11 @@ URL:https://www.golfdirecto.com/micro/game/6af9b50f440203a820c99c57/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:6e8ea5e86f5820b68229@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261215
 DTEND;VALUE=DATE:20261216
 SUMMARY:Torneo AESGOLF Navidad Dobles Indistintos M1
-LOCATION:Club de Golf Olivar de la Hinojosa
+LOCATION:Club de Golf Olivar de la Hinojosa\, Madrid\, Madrid
 DESCRIPTION:Senior - Fourball - Parejas\nFicha oficial: https://www.golfdir
  ecto.com/micro/game/69401724892dbc936353b8dd/summary\nConfirma fechas y co
  ndiciones en la web del organizador. Vía Banderín.
@@ -753,11 +753,11 @@ URL:https://www.golfdirecto.com/micro/game/69401724892dbc936353b8dd/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:3c421017670a42e73858@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261216
 DTEND;VALUE=DATE:20261217
 SUMMARY:Liga Seniors Diciembre
-LOCATION:Barberan y Collar
+LOCATION:Barberan y Collar\, Madrid\, Madrid
 DESCRIPTION:Senior - Stableford - Individual\nInscripción: abre el 7 de di
  ciembre\, cierra el 14 de diciembre.\nFicha oficial: https://www.golfdirec
  to.com/micro/game/697895295dc6a5fcc734eaaa/summary\nConfirma fechas y cond
@@ -768,11 +768,11 @@ URL:https://www.golfdirecto.com/micro/game/697895295dc6a5fcc734eaaa/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:4d907dbe3365c052346b@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261216
 DTEND;VALUE=DATE:20261217
 SUMMARY:Torneo de Navidad de P&P "Escuela RFGM"
-LOCATION:Escuela de la Real Federación de Golf de Madrid\, Madrid
+LOCATION:Escuela de la Real Federación de Golf de Madrid\, Madrid\, Madrid
 DESCRIPTION:Juvenil - Medal Play - Individual\nInscripción: abre el 2 de d
  iciembre\, cierra el 9 de diciembre.\nPrecio: Gratis.\nFicha oficial: http
  s://www.nextcaddy.com/tour/68353\nConfirma fechas y condiciones en la web 
@@ -783,11 +783,11 @@ URL:https://www.nextcaddy.com/tour/68353
 END:VEVENT
 BEGIN:VEVENT
 UID:f3ec76f967d7b1687540@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261220
 SUMMARY:FINAL - II Liga Polo Swing 2026 "Los Miércoles al Green"
-LOCATION:Green Paddock S.a.
+LOCATION:Green Paddock S.a.\, Torrelodones\, Madrid
 DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
  //www.golfdirecto.com/micro/game/697b9d62ead8497ab4453f1f/summary\nConfirm
  a fechas y condiciones en la web del organizador. Vía Banderín.
@@ -797,11 +797,11 @@ URL:https://www.golfdirecto.com/micro/game/697b9d62ead8497ab4453f1f/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:91b0f62c0e5daf12f9f2@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261220
 SUMMARY:Final de Ranking Benjamín
-LOCATION:Club de Golf Olivar de la Hinojosa\, Madrid
+LOCATION:Club de Golf Olivar de la Hinojosa\, Madrid\, Madrid
 DESCRIPTION:Juvenil - Medal Play - Individual\nInscripción: abre el 7 de d
  iciembre\, cierra el 14 de diciembre.\nPrecio: Gratis.\nFicha oficial: htt
  ps://www.nextcaddy.com/tour/68354\nConfirma fechas y condiciones en la web
@@ -812,12 +812,12 @@ URL:https://www.nextcaddy.com/tour/68354
 END:VEVENT
 BEGIN:VEVENT
 UID:b9f78401eaf652151c64@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261220
 SUMMARY:IX Torneo RKN 2026 - 6ª Categoría - Turno Mañana 10:00 - Turno T
  arde 12:00 (aplazado el 14 de noviembre)
-LOCATION:Escuela de la Real Federación de Golf de Madrid\, Madrid
+LOCATION:Escuela de la Real Federación de Golf de Madrid\, Madrid\, Madrid
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   5 de diciembre\, cierra el 17 de diciembre.\nPrecio: 5\,8 €.\nFicha ofi
  cial: https://www.nextcaddy.com/tour/75419\nConfirma fechas y condiciones 
@@ -828,11 +828,11 @@ URL:https://www.nextcaddy.com/tour/75419
 END:VEVENT
 BEGIN:VEVENT
 UID:9279002a1eb021efcc72@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261220
 SUMMARY:Torneo Social 19-12-26
-LOCATION:Real Club de Golf las Rozas de Madrid
+LOCATION:Real Club de Golf las Rozas de Madrid\, Monte Rozas\, Madrid
 DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
  //www.golfdirecto.com/micro/game/6af9b5ae90f777ff015382d5/summary\nConfirm
  a fechas y condiciones en la web del organizador. Vía Banderín.
@@ -842,7 +842,7 @@ URL:https://www.golfdirecto.com/micro/game/6af9b5ae90f777ff015382d5/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:c3628f20a8fe4e3b560b@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261220
 SUMMARY:Torneo de Navidad
@@ -857,11 +857,11 @@ URL:https://www.golfdirecto.com/micro/game/69677ab742551aa371d8282e/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:d799c8899ae7a8695c9b@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261220
 DTEND;VALUE=DATE:20261221
 SUMMARY:Copa 2 Escuelas
-LOCATION:El Encin Golf
+LOCATION:El Encin Golf\, Alcala de Henares\, Madrid
 DESCRIPTION:Juvenil - Stableford - Individual\nInscripción: abre el 10 de 
  diciembre\, cierra el 17 de diciembre.\nFicha oficial: https://www.golfdir
  ecto.com/micro/game/6b081d1f33682f5705ddb684/summary\nConfirma fechas y co
@@ -872,11 +872,11 @@ URL:https://www.golfdirecto.com/micro/game/6b081d1f33682f5705ddb684/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:81b511565fd6899692b3@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261220
 DTEND;VALUE=DATE:20261221
 SUMMARY:Torneo Navidad - Ggc
-LOCATION:El Robledal Golf
+LOCATION:El Robledal Golf\, Villalbilla\, Madrid
 DESCRIPTION:Social de club - Stableford - Parejas\nFicha oficial: https://w
  ww.golfdirecto.com/micro/game/6aabbf6eac3438945f492c77/summary\nConfirma f
  echas y condiciones en la web del organizador. Vía Banderín.
@@ -886,11 +886,11 @@ URL:https://www.golfdirecto.com/micro/game/6aabbf6eac3438945f492c77/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:a968d7fbc628b9ab2011@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261220
 DTEND;VALUE=DATE:20261221
 SUMMARY:Torneo Social Parejas Navidad Scramble
-LOCATION:Club de Golf Aranjuez
+LOCATION:Club de Golf Aranjuez\, Aranjuez\, Madrid
 DESCRIPTION:Social de club - Scramble - Parejas\nInscripción: abre el 11 d
  e diciembre\, cierra el 19 de diciembre.\nFicha oficial: https://www.golfd
  irecto.com/micro/game/6aedb1f702e839445a68f3a6/summary\nConfirma fechas y 
@@ -901,11 +901,11 @@ URL:https://www.golfdirecto.com/micro/game/6aedb1f702e839445a68f3a6/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:3e127dcf8bca76fab5f8@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261220
 DTEND;VALUE=DATE:20261221
 SUMMARY:Torneo de Navidad Encín Golf
-LOCATION:El Encin Golf
+LOCATION:El Encin Golf\, Alcala de Henares\, Madrid
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   5 de diciembre\, cierra el 17 de diciembre.\nFicha oficial: https://www.g
  olfdirecto.com/micro/game/6b0819b9a705699f016ce531/summary\nConfirma fecha
@@ -916,12 +916,12 @@ URL:https://www.golfdirecto.com/micro/game/6b0819b9a705699f016ce531/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:15cb6cbe4cace326d625@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261220
 DTEND;VALUE=DATE:20261221
 SUMMARY:Torneo de Navidad Escuela Juvenil de Competición y Perfeccionamien
  to Benjamín y Alevín
-LOCATION:Escuela de la Real Federación de Golf de Madrid\, Madrid
+LOCATION:Escuela de la Real Federación de Golf de Madrid\, Madrid\, Madrid
 DESCRIPTION:Juvenil - Stableford - Individual\nInscripción: abre el 24 de 
  noviembre\, cierra el 24 de noviembre.\nPrecio: Gratis.\nFicha oficial: ht
  tps://www.nextcaddy.com/tour/75572\nConfirma fechas y condiciones en la we
@@ -932,12 +932,12 @@ URL:https://www.nextcaddy.com/tour/75572
 END:VEVENT
 BEGIN:VEVENT
 UID:b1e658b1e169287cdc57@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261220
 DTEND;VALUE=DATE:20261221
 SUMMARY:Torneo de Navidad Escuela Juvenil de Competición y Perfeccionamien
  to Inf / Cadete / Sub 18
-LOCATION:Escuela de la Real Federación de Golf de Madrid\, Madrid
+LOCATION:Escuela de la Real Federación de Golf de Madrid\, Madrid\, Madrid
 DESCRIPTION:Juvenil - Stableford - Individual\nInscripción: abre el 24 de 
  noviembre\, cierra el 24 de noviembre.\nPrecio: Gratis.\nFicha oficial: ht
  tps://www.nextcaddy.com/tour/75573\nConfirma fechas y condiciones en la we
@@ -948,7 +948,7 @@ URL:https://www.nextcaddy.com/tour/75573
 END:VEVENT
 BEGIN:VEVENT
 UID:1b713279cddce7c7cca2@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261220
 DTEND;VALUE=DATE:20261221
 SUMMARY:Torneo de Navidad Grow Golf Club - El Robledal Golf
@@ -963,11 +963,11 @@ URL:https://growsportsam.com/etn/torneo-de-navidad-grow-golf-club-el-robled
 END:VEVENT
 BEGIN:VEVENT
 UID:96c0114a3618d3acfd17@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261222
 DTEND;VALUE=DATE:20261223
 SUMMARY:Final Ranking Juvenil “D. Luis Zornoza”
-LOCATION:Real Club la Moraleja\, Alcobendas
+LOCATION:Real Club la Moraleja\, Alcobendas\, Madrid
 DESCRIPTION:Juvenil - Medal Play - Individual\nInscripción: abre el 22 de 
  diciembre\, cierra el 22 de diciembre.\nPrecio: Gratis.\nFicha oficial: ht
  tps://www.nextcaddy.com/tour/74006\nConfirma fechas y condiciones en la we
@@ -978,11 +978,11 @@ URL:https://www.nextcaddy.com/tour/74006
 END:VEVENT
 BEGIN:VEVENT
 UID:1d12a4caf6ee18d865ca@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261222
 DTEND;VALUE=DATE:20261223
 SUMMARY:Torneo de 9 Hoyos 22/02/26
-LOCATION:Real Club de Golf las Rozas de Madrid
+LOCATION:Real Club de Golf las Rozas de Madrid\, Monte Rozas\, Madrid
 DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
  //www.golfdirecto.com/micro/game/6af9b8eb90f777ff014af61d/summary\nConfirm
  a fechas y condiciones en la web del organizador. Vía Banderín.
@@ -992,12 +992,12 @@ URL:https://www.golfdirecto.com/micro/game/6af9b8eb90f777ff014af61d/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:085da4c34f9afbc3c45f@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261222
 DTEND;VALUE=DATE:20261223
 SUMMARY:Torneo de Navidad Senior Stableford - Turno de Mañana 10:30 - Turn
  o de Tarde 13:30
-LOCATION:Escuela de la Real Federación de Golf de Madrid\, Madrid
+LOCATION:Escuela de la Real Federación de Golf de Madrid\, Madrid\, Madrid
 DESCRIPTION:Senior - Stableford - Individual\nInscripción: abre el 8 de di
  ciembre\, cierra el 21 de diciembre.\nPrecio: 20 €.\nFicha oficial: http
  s://www.nextcaddy.com/tour/75581\nConfirma fechas y condiciones en la web 
@@ -1008,11 +1008,11 @@ URL:https://www.nextcaddy.com/tour/75581
 END:VEVENT
 BEGIN:VEVENT
 UID:df39394b3726a7088858@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261223
 DTEND;VALUE=DATE:20261224
 SUMMARY:VIII Torneo Parejas Senior 2026/27 NAVIDAD
-LOCATION:Club de Golf Aranjuez
+LOCATION:Club de Golf Aranjuez\, Aranjuez\, Madrid
 DESCRIPTION:Senior - Scramble - Parejas\nInscripción: abre el 15 de diciem
  bre\, cierra el 22 de diciembre.\nFicha oficial: https://www.golfdirecto.c
  om/micro/game/6aeb2394e86c4f3aae838a37/summary\nConfirma fechas y condicio
@@ -1023,11 +1023,11 @@ URL:https://www.golfdirecto.com/micro/game/6aeb2394e86c4f3aae838a37/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:b5b45cfddf544d36d966@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261225
 DTEND;VALUE=DATE:20261226
 SUMMARY:No Plomex Tour 2026 (Copia)
-LOCATION:Club de Golf la Dehesa
+LOCATION:Club de Golf la Dehesa\, Villanueva de la Cañada\, Madrid
 DESCRIPTION:Circuito comercial - Stableford - Individual\nFicha oficial: ht
  tps://www.golfdirecto.com/micro/game/6afb606523d5370df007522c/summary\nCon
  firma fechas y condiciones en la web del organizador. Vía Banderín.
@@ -1037,11 +1037,11 @@ URL:https://www.golfdirecto.com/micro/game/6afb606523d5370df007522c/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:bf5e3c7f0fa45b48e83a@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261226
 DTEND;VALUE=DATE:20261227
 SUMMARY:No Plomex Tour 2026 (Copia) (Copia)
-LOCATION:Club de Golf la Dehesa
+LOCATION:Club de Golf la Dehesa\, Villanueva de la Cañada\, Madrid
 DESCRIPTION:Circuito comercial - Stableford - Individual\nFicha oficial: ht
  tps://www.golfdirecto.com/micro/game/6afcb84e698e8624fb5e06e8/summary\nCon
  firma fechas y condiciones en la web del organizador. Vía Banderín.
@@ -1051,11 +1051,11 @@ URL:https://www.golfdirecto.com/micro/game/6afcb84e698e8624fb5e06e8/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:2577c95970e01a4006f3@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261227
 DTEND;VALUE=DATE:20261228
 SUMMARY:Torneo Gourmet Polo Swing 27 diciembre 2026
-LOCATION:Green Paddock S.a.
+LOCATION:Green Paddock S.a.\, Torrelodones\, Madrid
 DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
  //www.golfdirecto.com/micro/game/6963879653e1040c777e2a11/summary\nConfirm
  a fechas y condiciones en la web del organizador. Vía Banderín.
@@ -1065,11 +1065,11 @@ URL:https://www.golfdirecto.com/micro/game/6963879653e1040c777e2a11/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:2d932e35c6dd9b903596@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261229
 DTEND;VALUE=DATE:20261230
 SUMMARY:Final de la Liga Femenina
-LOCATION:Golf Park Entertainment\, Alcobendas
+LOCATION:Golf Park Entertainment\, Alcobendas\, Madrid
 DESCRIPTION:Absoluto - Stableford - Individual\nInscripción: abre el 16 de
   diciembre\, cierra el 23 de diciembre.\nPrecio: 26 €.\nFicha oficial: h
  ttps://www.nextcaddy.com/tour/75400\nConfirma fechas y condiciones en la w
@@ -1080,11 +1080,11 @@ URL:https://www.nextcaddy.com/tour/75400
 END:VEVENT
 BEGIN:VEVENT
 UID:44a79385b7f28e499612@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270122
 DTEND;VALUE=DATE:20270123
 SUMMARY:Cena Fin de Temporada. el Goloso
-LOCATION:Centro Nacional de Golf
+LOCATION:Centro Nacional de Golf\, Madrid\, Madrid
 DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
  //www.golfdirecto.com/micro/game/6b07e0cca705699f0129b63b/summary\nConfirm
  a fechas y condiciones en la web del organizador. Vía Banderín.
@@ -1094,11 +1094,11 @@ URL:https://www.golfdirecto.com/micro/game/6b07e0cca705699f0129b63b/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:41641e987594e8f374ae@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270131
 DTEND;VALUE=DATE:20270201
 SUMMARY:No Plomex Tour 2026 (Copia)
-LOCATION:Club de Golf la Dehesa
+LOCATION:Club de Golf la Dehesa\, Villanueva de la Cañada\, Madrid
 DESCRIPTION:Circuito comercial - Stableford - Individual\nFicha oficial: ht
  tps://www.golfdirecto.com/micro/game/6af1eb3c2f0e9df18bf97ce1/summary\nCon
  firma fechas y condiciones en la web del organizador. Vía Banderín.
@@ -1108,11 +1108,11 @@ URL:https://www.golfdirecto.com/micro/game/6af1eb3c2f0e9df18bf97ce1/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:db430a58e8712dcba94f@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270408
 DTEND;VALUE=DATE:20270409
 SUMMARY:Lcsc Entre Semana Match Play Jornada 1
-LOCATION:El Robledal Golf
+LOCATION:El Robledal Golf\, Villalbilla\, Madrid
 DESCRIPTION:Clubes y equipos - Match Play - Equipos\nFicha oficial: https:/
  /www.golfdirecto.com/micro/game/6b07db866549a3fb78fcb3ab/summary\nConfirma
   fechas y condiciones en la web del organizador. Vía Banderín.
@@ -1122,7 +1122,7 @@ URL:https://www.golfdirecto.com/micro/game/6b07db866549a3fb78fcb3ab/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:4dd6442a56d6c482bbf2@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270513
 DTEND;VALUE=DATE:20270514
 SUMMARY:Lcsc Entre Semana Match Play Jornada 3
@@ -1136,11 +1136,11 @@ URL:https://www.golfdirecto.com/micro/game/6b07dbeba705699f01d43e74/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:16222b1eda4018d74189@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270530
 DTEND;VALUE=DATE:20270531
 SUMMARY:Lcsc Fin de Semana Match Play Jornada 3
-LOCATION:El Robledal Golf
+LOCATION:El Robledal Golf\, Villalbilla\, Madrid
 DESCRIPTION:Clubes y equipos - Match Play - Equipos\nFicha oficial: https:/
  /www.golfdirecto.com/micro/game/6b07dd80a705699f01ecded5/summary\nConfirma
   fechas y condiciones en la web del organizador. Vía Banderín.

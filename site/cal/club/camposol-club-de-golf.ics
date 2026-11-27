@@ -11,11 +11,11 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:3903e46f6e5c3d4cd162@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261209
 DTEND;VALUE=DATE:20261210
 SUMMARY:Camposol Golf - Order of Merit Round 11 Final - Meat Comp
-LOCATION:Camposol Club de Golf
+LOCATION:Camposol Club de Golf\, Murcia
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   18 de noviembre\, cierra el 8 de diciembre.\nFicha oficial: https://www.g
  olfdirecto.com/micro/game/6afde8b19c9e80fccf975d5d/summary\nConfirma fecha
@@ -26,11 +26,11 @@ URL:https://www.golfdirecto.com/micro/game/6afde8b19c9e80fccf975d5d/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:10ea04ba9ac01bc4e10e@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
 SUMMARY:Sunshine Golf Society v Condado Golf Society Return Match
-LOCATION:Camposol Club de Golf
+LOCATION:Camposol Club de Golf\, Murcia
 DESCRIPTION:Social de club - Fourball - Parejas\nInscripción: abre el 8 de
   noviembre\, cierra el 12 de diciembre.\nFicha oficial: https://www.golfdi
  recto.com/micro/game/6af07f1078d30dd0fcc5bb6d/summary\nConfirma fechas y c
@@ -41,11 +41,11 @@ URL:https://www.golfdirecto.com/micro/game/6af07f1078d30dd0fcc5bb6d/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:3c1c1d25cbb23c9d7d49@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261226
 DTEND;VALUE=DATE:20261227
 SUMMARY:Boxing Day Texas Scramble
-LOCATION:Camposol Club de Golf
+LOCATION:Camposol Club de Golf\, Murcia
 DESCRIPTION:Social de club - Scramble - Parejas\nInscripción: abre el 18 d
  e noviembre\, cierra el 24 de diciembre.\nFicha oficial: https://www.golfd
  irecto.com/micro/game/6afdeded9c9e80fccf1ed4a3/summary\nConfirma fechas y 

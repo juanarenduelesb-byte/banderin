@@ -11,12 +11,12 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:e186f6a7308668756eb1@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:VI Sheraton Mallorca Golf Tournament - 29th Nov. 2026 - Golf Son Vi
  da
-LOCATION:Son Vida Club de Golf
+LOCATION:Son Vida Club de Golf\, Palma de Mallorca\, Illes Balears
 DESCRIPTION:Circuito comercial - Stableford - Individual\nFicha oficial: ht
  tps://www.golfdirecto.com/micro/game/6a50b3fd6c5866fb900670f4/summary\nCon
  firma fechas y condiciones en la web del organizador. Vía Banderín.

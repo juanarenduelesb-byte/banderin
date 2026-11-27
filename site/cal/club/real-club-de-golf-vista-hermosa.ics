@@ -11,11 +11,12 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:5e8823f80a474c7cfdb8@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:2ª P. Circuito Infantil B.K. 18 HOYOS 28-11-26
-LOCATION:Real Club de Golf Vista Hermosa\, Puerto de Santa María\, El
+LOCATION:Real Club de Golf Vista Hermosa\, El Puerto de Santa Maria\, Cádi
+ z
 DESCRIPTION:Juvenil - Stableford - Individual\nPrecio: 10 €.\nFicha ofici
  al: https://www.nextcaddy.com/tour/75606\nConfirma fechas y condiciones en
   la web del organizador. Vía Banderín.
@@ -25,11 +26,12 @@ URL:https://www.nextcaddy.com/tour/75606
 END:VEVENT
 BEGIN:VEVENT
 UID:8ed049a4cdcce2cb2d30@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:2ª P. Circuito Infantil B.K. 5P3 HOYOS 28-11-26
-LOCATION:Real Club de Golf Vista Hermosa\, Puerto de Santa María\, El
+LOCATION:Real Club de Golf Vista Hermosa\, El Puerto de Santa Maria\, Cádi
+ z
 DESCRIPTION:Juvenil - Medal Play - Individual\nPrecio: 10 €.\nFicha ofici
  al: https://www.nextcaddy.com/tour/75611\nConfirma fechas y condiciones en
   la web del organizador. Vía Banderín.
@@ -39,11 +41,12 @@ URL:https://www.nextcaddy.com/tour/75611
 END:VEVENT
 BEGIN:VEVENT
 UID:81b7a4c8cd599c1e916f@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:2ª P. Circuito Infantil B.K. 9 HOYOS 28-11-26
-LOCATION:Real Club de Golf Vista Hermosa\, Puerto de Santa María\, El
+LOCATION:Real Club de Golf Vista Hermosa\, El Puerto de Santa Maria\, Cádi
+ z
 DESCRIPTION:Juvenil - Stableford - Individual\nPrecio: 10 €.\nFicha ofici
  al: https://www.nextcaddy.com/tour/75608\nConfirma fechas y condiciones en
   la web del organizador. Vía Banderín.
@@ -53,11 +56,12 @@ URL:https://www.nextcaddy.com/tour/75608
 END:VEVENT
 BEGIN:VEVENT
 UID:584f395a5bdf458c61cd@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:2ª P. Circuito Infantil B.K. 9P3 HOYOS 28-11-26
-LOCATION:Real Club de Golf Vista Hermosa\, Puerto de Santa María\, El
+LOCATION:Real Club de Golf Vista Hermosa\, El Puerto de Santa Maria\, Cádi
+ z
 DESCRIPTION:Juvenil - Stableford - Individual\nPrecio: 10 €.\nFicha ofici
  al: https://www.nextcaddy.com/tour/75610\nConfirma fechas y condiciones en
   la web del organizador. Vía Banderín.

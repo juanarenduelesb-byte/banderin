@@ -11,11 +11,11 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:7a789a483093ae8b84f6@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:VI Liga Apartamentos la Necora J 1
-LOCATION:Club de Golf Luarca
+LOCATION:Club de Golf Luarca\, Luarca\, Asturias
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   23 de noviembre\, cierra el 27 de noviembre.\nFicha oficial: https://www.
  golfdirecto.com/micro/game/6b048d1dd2ed4f3d1c5d9588/summary\nConfirma fech

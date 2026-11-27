@@ -11,11 +11,11 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:0c52044111f97dafa7e9@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Torneo Golf Divino
-LOCATION:Club Zaudín Golf\, Tomares
+LOCATION:Club Zaudín Golf\, Tomares\, Sevilla
 DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
  //www.nextcaddy.com/tour/75604\nConfirma fechas y condiciones en la web de
  l organizador. Vía Banderín.

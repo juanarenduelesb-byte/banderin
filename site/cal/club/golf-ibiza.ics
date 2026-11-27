@@ -11,11 +11,11 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:d9a361bee2386b1947a8@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Liga Otoño 2026 - Jornada 6
-LOCATION:Golf Ibiza
+LOCATION:Golf Ibiza\, Eivissa\, Illes Balears
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   28 de agosto\, cierra el 27 de noviembre.\nFicha oficial: https://www.gol
  fdirecto.com/micro/game/6a918b749ef968cc46ea2cbb/summary\nConfirma fechas 
@@ -26,11 +26,11 @@ URL:https://www.golfdirecto.com/micro/game/6a918b749ef968cc46ea2cbb/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:6d3410faa04457cf73a3@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:Liga Otoño 2026 - Jornada 7
-LOCATION:Golf Ibiza
+LOCATION:Golf Ibiza\, Eivissa\, Illes Balears
 DESCRIPTION:Social de club - Medal Play - Individual\nFicha oficial: https:
  //www.golfdirecto.com/micro/game/6a918bcf9ef968cc46eab895/summary\nConfirm
  a fechas y condiciones en la web del organizador. Vía Banderín.
@@ -40,11 +40,11 @@ URL:https://www.golfdirecto.com/micro/game/6a918bcf9ef968cc46eab895/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:d1b24f6acbfe0b168fcb@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261220
 SUMMARY:Liga Otoño 2026 - Jornada 8
-LOCATION:Golf Ibiza
+LOCATION:Golf Ibiza\, Eivissa\, Illes Balears
 DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
  //www.golfdirecto.com/micro/game/6a918bf89ef968cc46eb1b6b/summary\nConfirm
  a fechas y condiciones en la web del organizador. Vía Banderín.

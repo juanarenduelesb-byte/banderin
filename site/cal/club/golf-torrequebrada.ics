@@ -11,11 +11,11 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:56573bd9fe76788aed67@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:IV Torneo Jésica Reyes
-LOCATION:Golf Torrequebrada\, Benalmádena
+LOCATION:Golf Torrequebrada\, Benalmadena Costa\, Málaga
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   4 de noviembre\, cierra el 27 de noviembre.\nPrecio: 85 €.\nFicha ofici
  al: https://www.nextcaddy.com/tour/71874\nConfirma fechas y condiciones en
@@ -26,11 +26,11 @@ URL:https://www.nextcaddy.com/tour/71874
 END:VEVENT
 BEGIN:VEVENT
 UID:e25c81701e6a098d82f2@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261214
 DTEND;VALUE=DATE:20261215
 SUMMARY:Winter Amateur Series (3 rounds)
-LOCATION:Golf Torrequebrada\, Benalmádena
+LOCATION:Golf Torrequebrada\, Benalmadena Costa\, Málaga
 DESCRIPTION:Circuito comercial - Medal Play - Individual\nInscripción: abr
  e el 22 de junio\, cierra el 22 de junio.\nPrecio: Gratis.\nFicha oficial:
   https://www.nextcaddy.com/tour/71876\nConfirma fechas y condiciones en la
@@ -41,11 +41,11 @@ URL:https://www.nextcaddy.com/tour/71876
 END:VEVENT
 BEGIN:VEVENT
 UID:51cad761b7eda80c700d@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261220
 SUMMARY:Campeonato Internacional de Andalucía Dobles Senior
-LOCATION:Golf Torrequebrada\, Benalmádena
+LOCATION:Golf Torrequebrada\, Benalmadena Costa\, Málaga
 DESCRIPTION:Senior - Medal Play - Parejas\nInscripción: abre el 18 de novi
  embre\, cierra el 14 de diciembre.\nPrecio: 100 €.\nFicha oficial: https
  ://www.nextcaddy.com/tour/61171\nConfirma fechas y condiciones en la web d

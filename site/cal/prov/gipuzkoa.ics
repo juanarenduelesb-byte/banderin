@@ -1,0 +1,132 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Banderin//Torneos de golf//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Banderín - Gipuzkoa
+X-WR-CALDESC:Torneos de golf: Gipuzkoa. Se actualiza cada mañana. https://
+ banderin.es
+X-WR-TIMEZONE:Europe/Madrid
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:df39f0f0885937b0f755@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:Premio Infantil Escuela 18 Hoyos
+LOCATION:Real Nuevo Club S.sebastian Basozabal\, Donostia-san Sebastian\, G
+ ipuzkoa
+DESCRIPTION:Juvenil - Medal Play - Individual\nFicha oficial: https://www.g
+ olfdirecto.com/micro/game/6ae1bac0edb548bf363a980b/summary\nConfirma fecha
+ s y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6ae1bac0edb548bf363a980b/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:f6423a8aa02edc7aa1c8@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:Premio Infantil Escuela 9 Hoyos
+LOCATION:Real Nuevo Club S.sebastian Basozabal\, Donostia-san Sebastian\, G
+ ipuzkoa
+DESCRIPTION:Juvenil - Medal Play - Individual\nFicha oficial: https://www.g
+ olfdirecto.com/micro/game/6ae1baf7edb548bf3645763d/summary\nConfirma fecha
+ s y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6ae1baf7edb548bf3645763d/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:be205f341d505442a69b@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20261223
+DTEND;VALUE=DATE:20261224
+SUMMARY:Torneo Infantil Amigo Invisible 18 Hoyos
+LOCATION:Real Nuevo Club S.sebastian Basozabal\, Donostia-san Sebastian\, G
+ ipuzkoa
+DESCRIPTION:Juvenil - Medal Play - Individual\nFicha oficial: https://www.g
+ olfdirecto.com/micro/game/6b07f5a36549a3fb78d4a913/summary\nConfirma fecha
+ s y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6b07f5a36549a3fb78d4a913/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:c3fcadafb29049fa4c9a@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20261223
+DTEND;VALUE=DATE:20261224
+SUMMARY:Torneo Infantil Amigo Invisible 9 Hoyos
+LOCATION:Real Nuevo Club S.sebastian Basozabal\, Donostia-san Sebastian\, G
+ ipuzkoa
+DESCRIPTION:Juvenil - Medal Play - Individual\nFicha oficial: https://www.g
+ olfdirecto.com/micro/game/6b07f687a705699f01c79ae8/summary\nConfirma fecha
+ s y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6b07f687a705699f01c79ae8/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:8c13de870f2ae1e530e7@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20261226
+DTEND;VALUE=DATE:20261227
+SUMMARY:XV Premio Familiar 18 Hoyos
+LOCATION:Real Nuevo Club S.sebastian Basozabal\, Donostia-san Sebastian\, G
+ ipuzkoa
+DESCRIPTION:Social de club - Greensome - Parejas\nFicha oficial: https://ww
+ w.golfdirecto.com/micro/game/6b07f83ca705699f0115076d/summary\nConfirma fe
+ chas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6b07f83ca705699f0115076d/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:b4cf9439400bd8e47ec2@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20261226
+DTEND;VALUE=DATE:20261227
+SUMMARY:XV Premio Familiar 9 Hoyos
+LOCATION:Real Nuevo Club S.sebastian Basozabal\, Donostia-san Sebastian\, G
+ ipuzkoa
+DESCRIPTION:Social de club - Greensome - Parejas\nFicha oficial: https://ww
+ w.golfdirecto.com/micro/game/6b07f87ea705699f0121c87d/summary\nConfirma fe
+ chas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6b07f87ea705699f0121c87d/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:6212134fa21376b56309@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20261229
+DTEND;VALUE=DATE:20261230
+SUMMARY:Premio Infantil Escuela 18 Hoyos
+LOCATION:Real Nuevo Club S.sebastian Basozabal\, Donostia-san Sebastian\, G
+ ipuzkoa
+DESCRIPTION:Juvenil - Medal Play - Individual\nFicha oficial: https://www.g
+ olfdirecto.com/micro/game/6b07f6f1a705699f01da1ae1/summary\nConfirma fecha
+ s y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6b07f6f1a705699f01da1ae1/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:5995aec4b1d695ef504e@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20261229
+DTEND;VALUE=DATE:20261230
+SUMMARY:Premio Infantil Escuela 9 Hoyos
+LOCATION:Real Nuevo Club S.sebastian Basozabal\, Donostia-san Sebastian\, G
+ ipuzkoa
+DESCRIPTION:Juvenil - Medal Play - Individual\nFicha oficial: https://www.g
+ olfdirecto.com/micro/game/6b07f7216549a3fb781e9749/summary\nConfirma fecha
+ s y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6b07f7216549a3fb781e9749/summary
+END:VEVENT
+END:VCALENDAR

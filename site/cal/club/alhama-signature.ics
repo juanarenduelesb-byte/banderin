@@ -11,11 +11,11 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:e70f909513559642c1af@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:V Prueba (Final) Liga Challenge Alhama Signature
-LOCATION:Alhama Signature
+LOCATION:Alhama Signature\, Alhama de Murcia\, Murcia
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   24 de noviembre\, cierra el 10 de diciembre.\nFicha oficial: https://www.
  golfdirecto.com/micro/game/6ac0c44c710147c35d47bd6b/summary\nConfirma fech
@@ -26,11 +26,11 @@ URL:https://www.golfdirecto.com/micro/game/6ac0c44c710147c35d47bd6b/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:757535c3f504a35d2ad4@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270108
 DTEND;VALUE=DATE:20270109
 SUMMARY:Alamo Golf Society OoM Rd 1
-LOCATION:Alhama Signature
+LOCATION:Alhama Signature\, Alhama de Murcia\, Murcia
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   19 de octubre\, cierra el 7 de enero.\nFicha oficial: https://www.golfdir
  ecto.com/micro/game/6ad606f66a3a1de0ec9f2460/summary\nConfirma fechas y co

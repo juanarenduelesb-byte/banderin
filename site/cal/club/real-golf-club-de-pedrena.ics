@@ -11,11 +11,11 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:3bdbb5dbe2fcbe9db95c@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Torneo JB Capital 2026
-LOCATION:Real Golf Club de Pedreña
+LOCATION:Real Golf Club de Pedreña\, Pedreña\, Cantabria
 DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
  //www.golfdirecto.com/micro/game/6b0703d62638d232878dbbbc/summary\nConfirm
  a fechas y condiciones en la web del organizador. Vía Banderín.

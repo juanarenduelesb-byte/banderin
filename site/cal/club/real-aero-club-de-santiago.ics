@@ -11,11 +11,11 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:c395c2e59ee46b181f56@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261220
 DTEND;VALUE=DATE:20261221
 SUMMARY:III Pro Am Scramble de Navidad
-LOCATION:Real Aero Club de Santiago
+LOCATION:Real Aero Club de Santiago\, San Mamede (piñeiro)\, A Coruña
 DESCRIPTION:Social de club - Scramble - Parejas\nInscripción: abre el 26 d
  e noviembre\, cierra el 16 de diciembre.\nFicha oficial: https://www.golfd
  irecto.com/micro/game/6b0866ca15c295799703321c/summary\nConfirma fechas y 

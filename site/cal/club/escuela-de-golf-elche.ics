@@ -11,11 +11,11 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:afc88a1583e77925cd66@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Ryder / Solheim P&P
-LOCATION:Escuela de Golf Elche\, Elche/Elx
+LOCATION:Escuela de Golf Elche\, Elx/elche\, Alicante
 DESCRIPTION:Absoluto - Equipos\nInscripción: abre el 24 de noviembre\, cie
  rra el 24 de noviembre.\nPrecio: Gratis.\nFicha oficial: https://www.nextc
  addy.com/tour/75585\nConfirma fechas y condiciones en la web del organizad
@@ -26,11 +26,11 @@ URL:https://www.nextcaddy.com/tour/75585
 END:VEVENT
 BEGIN:VEVENT
 UID:8535edeb5011af4a9198@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:XII Torneo de Navidad Ege
-LOCATION:Escuela de Golf Elche
+LOCATION:Escuela de Golf Elche\, Elx/elche\, Alicante
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   11 de noviembre\, cierra el 10 de diciembre.\nFicha oficial: https://www.
  golfdirecto.com/micro/game/6af485dcd161f2f1b84d4fa6/summary\nConfirma fech

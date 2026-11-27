@@ -1,0 +1,69 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Banderin//Torneos de golf//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Banderín - Santa Cruz de Tenerife
+X-WR-CALDESC:Torneos de golf: Santa Cruz de Tenerife. Se actualiza cada ma
+ ñana. https://banderin.es
+X-WR-TIMEZONE:Europe/Madrid
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:ff3b3240f5997c5c4b6a@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:7ª Prueba Circuito Familiar Canarias (Copia)
+LOCATION:Real Club de Golf Tenerife\, Tacoronte\, Santa Cruz de Tenerife
+DESCRIPTION:Circuito comercial - Greensome - Parejas\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/6b043255d2ed4f3d1cfedc67/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6b043255d2ed4f3d1cfedc67/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:d88a25d38f44dde331f8@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261213
+SUMMARY:Members 2026
+LOCATION:Buenavista Golf\, Buenavista del Norte\, Santa Cruz de Tenerife
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/6afeae6bfa1568a5cd5e0222/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6afeae6bfa1568a5cd5e0222/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:bb9ec9efcc21f2679bca@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261213
+SUMMARY:XXXII Torneo Aniversario Golf Los Palos
+LOCATION:Campo de Golf los Palos\, Guaza\, Santa Cruz de Tenerife
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/6af48f259292980794dfde99/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6af48f259292980794dfde99/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:04e82d37f1b4aa7bdf91@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20261226
+DTEND;VALUE=DATE:20261227
+SUMMARY:Torneo de Navidad
+LOCATION:Buenavista Golf\, Buenavista del Norte\, Santa Cruz de Tenerife
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  7 de noviembre\, cierra el 25 de diciembre.\nFicha oficial: https://www.g
+ olfdirecto.com/micro/game/6aef3cf1e0349cc290cb21e5/summary\nConfirma fecha
+ s y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6aef3cf1e0349cc290cb21e5/summary
+END:VEVENT
+END:VCALENDAR

@@ -11,11 +11,11 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:c4e4c3cd899496012b57@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Amigosmiraflroes2811
-LOCATION:Miraflores Golf\, Mijas
+LOCATION:Miraflores Golf\, Mijas Costa\, Málaga
 DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
  //www.nextcaddy.com/tour/75663\nConfirma fechas y condiciones en la web de
  l organizador. Vía Banderín.
@@ -25,11 +25,11 @@ URL:https://www.nextcaddy.com/tour/75663
 END:VEVENT
 BEGIN:VEVENT
 UID:adfda511a00407c118b9@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Pairs Greensomes
-LOCATION:Miraflores Golf
+LOCATION:Miraflores Golf\, Mijas Costa\, Málaga
 DESCRIPTION:Social de club - Greensome - Parejas\nInscripción: abre el 19 
  de noviembre\, cierra el 26 de noviembre.\nFicha oficial: https://www.golf
  directo.com/micro/game/6afecda6fa1568a5cdf78190/summary\nConfirma fechas y
@@ -39,12 +39,26 @@ STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6afecda6fa1568a5cdf78190/summary
 END:VEVENT
 BEGIN:VEVENT
+UID:57a38df2746c0a5938d6@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:Lacala 2911
+LOCATION:Miraflores Golf\, Mijas Costa\, Málaga
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.nextcaddy.com/tour/75668\nConfirma fechas y condiciones en la web de
+ l organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nextcaddy.com/tour/75668
+END:VEVENT
+BEGIN:VEVENT
 UID:539ac21c95826c28c20e@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261202
 DTEND;VALUE=DATE:20261203
 SUMMARY:Christmas Pairs Scramble
-LOCATION:Miraflores Golf
+LOCATION:Miraflores Golf\, Mijas Costa\, Málaga
 DESCRIPTION:Social de club - Scramble - Parejas\nInscripción: abre el 19 d
  e noviembre\, cierra el 29 de noviembre.\nFicha oficial: https://www.golfd
  irecto.com/micro/game/6afec04be64dbfd6f4e5c194/summary\nConfirma fechas y 

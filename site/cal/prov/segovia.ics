@@ -11,7 +11,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:7fa356b277b704c6acae@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261220
 SUMMARY:Torneo de Navidad
@@ -24,8 +24,22 @@ STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6ac5f4c64865b8bb77afc948/summary
 END:VEVENT
 BEGIN:VEVENT
+UID:2730da2b714ccf602cff@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20270417
+DTEND;VALUE=DATE:20270418
+SUMMARY:Mulligan 26/27 - Faisanera
+LOCATION:C.D. la Faisanera Golf Segovia\, Palazuelos de Eresma\, Segovia
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/6afe8ebcfa1568a5cd20abbc/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6afe8ebcfa1568a5cd20abbc/summary
+END:VEVENT
+BEGIN:VEVENT
 UID:c8b6b0204137f92a3fbe@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270603
 DTEND;VALUE=DATE:20270604
 SUMMARY:Lcsc Entre Semana Match Play Jornada 4

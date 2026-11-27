@@ -11,11 +11,11 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:22f854cd70da91ef4548@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Interclub Olivares-Moriscos
-LOCATION:Los Moriscos Club de Golf\, Motril
+LOCATION:Los Moriscos Club de Golf\, Motril\, Granada
 DESCRIPTION:Clubes y equipos - Stableford - Equipos\nFicha oficial: https:/
  /www.nextcaddy.com/tour/75576\nConfirma fechas y condiciones en la web del
   organizador. Vía Banderín.

@@ -11,11 +11,11 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:751ea9d6ee7bc481fad2@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Torneo 31 Aniversario
-LOCATION:Club Esportiu Pula Golf
+LOCATION:Club Esportiu Pula Golf\, Son Servera\, Illes Balears
 DESCRIPTION:Social de club - Scramble - Parejas\nInscripción: abre el 29 d
  e octubre\, cierra el 28 de noviembre.\nFicha oficial: https://www.golfdir
  ecto.com/micro/game/6ae0afefe85d85ec8f1b0abb/summary\nConfirma fechas y co
@@ -26,11 +26,11 @@ URL:https://www.golfdirecto.com/micro/game/6ae0afefe85d85ec8f1b0abb/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:69b7d716fa95c6d0c37c@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
 SUMMARY:IV Torneo Bodegas J.L. Ferrer
-LOCATION:Club Esportiu Pula Golf
+LOCATION:Club Esportiu Pula Golf\, Son Servera\, Illes Balears
 DESCRIPTION:Social de club - Fourball - Parejas\nInscripción: abre el 12 d
  e noviembre\, cierra el 4 de diciembre.\nFicha oficial: https://www.golfdi
  recto.com/micro/game/6af5e619a1e39bb384bdc9d1/summary\nConfirma fechas y c
@@ -41,11 +41,11 @@ URL:https://www.golfdirecto.com/micro/game/6af5e619a1e39bb384bdc9d1/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:f593d35094b8120345de@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261210
 DTEND;VALUE=DATE:20261211
 SUMMARY:Gem Winter Slam 2026/2027
-LOCATION:Club Esportiu Pula Golf
+LOCATION:Club Esportiu Pula Golf\, Son Servera\, Illes Balears
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   27 de octubre\, cierra el 9 de diciembre.\nFicha oficial: https://www.gol
  fdirecto.com/micro/game/6ae06f2fe85d85ec8fe2d70d/summary\nConfirma fechas 
@@ -56,11 +56,11 @@ URL:https://www.golfdirecto.com/micro/game/6ae06f2fe85d85ec8fe2d70d/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:bca1477ca7fd092f6208@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270114
 DTEND;VALUE=DATE:20270115
 SUMMARY:Gem Winter Slam 2026/2027
-LOCATION:Club Esportiu Pula Golf
+LOCATION:Club Esportiu Pula Golf\, Son Servera\, Illes Balears
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   27 de octubre\, cierra el 13 de enero.\nFicha oficial: https://www.golfdi
  recto.com/micro/game/6ae09d07e85d85ec8ffd0fdc/summary\nConfirma fechas y c

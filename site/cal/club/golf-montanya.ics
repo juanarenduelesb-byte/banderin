@@ -11,11 +11,11 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:7a9da7425b423058cb79@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:Torneig Social Escudella&Carn D'Olla
-LOCATION:Golf Montanyà
+LOCATION:Golf Montanyà\, El Brull\, Barcelona
 DESCRIPTION:Social de club - Individual\nFicha oficial: https://www.catgolf
  .com/es/campeonatos/torneig-social-escudellacarn-dolla-2026-12-12\nConfirm
  a fechas y condiciones en la web del organizador. Vía Banderín.
@@ -26,11 +26,11 @@ URL:https://www.catgolf.com/es/campeonatos/torneig-social-escudellacarn-dol
 END:VEVENT
 BEGIN:VEVENT
 UID:23edca9e3170547572f6@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270310
 DTEND;VALUE=DATE:20270311
 SUMMARY:31è Quadrangular Femení de Catalunya 2027 (Montanyà)
-LOCATION:Golf Montanyà
+LOCATION:Golf Montanyà\, El Brull\, Barcelona
 DESCRIPTION:Absoluto - Individual\nFicha oficial: https://www.catgolf.com/e
  s/campeonatos/31e-quadrangular-femeni-de-catalunya-2027-montanya-2027-03-1
  0\nConfirma fechas y condiciones en la web del organizador. Vía Banderín
@@ -42,11 +42,11 @@ URL:https://www.catgolf.com/es/campeonatos/31e-quadrangular-femeni-de-catal
 END:VEVENT
 BEGIN:VEVENT
 UID:23fd3ef4085808ed1a0c@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270407
 DTEND;VALUE=DATE:20270408
 SUMMARY:53è Interclubs Femeni de Catalunya - Liguilla 2027 (Montanyà)
-LOCATION:Golf Montanyà
+LOCATION:Golf Montanyà\, El Brull\, Barcelona
 DESCRIPTION:Clubes y equipos - Equipos\nInscripción: abre el 19 de noviemb
  re\, cierra el 19 de noviembre.\nFicha oficial: https://www.catgolf.com/es
  /campeonatos/53e-interclubs-femeni-de-catalunya-liguilla-2027-montanya-202
@@ -59,11 +59,11 @@ URL:https://www.catgolf.com/es/campeonatos/53e-interclubs-femeni-de-catalun
 END:VEVENT
 BEGIN:VEVENT
 UID:85c36e4f0c05676b5dde@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270508
 DTEND;VALUE=DATE:20270509
 SUMMARY:61è Gran Premi de Catalunya "Hexagonal" 2027 (Montanya)
-LOCATION:Golf Montanyà
+LOCATION:Golf Montanyà\, El Brull\, Barcelona
 DESCRIPTION:Absoluto - Individual\nFicha oficial: https://www.catgolf.com/e
  s/campeonatos/61e-gran-premi-de-catalunya-hexagonal-2027-montanya-2027-05-
  08\nConfirma fechas y condiciones en la web del organizador. Vía Banderí

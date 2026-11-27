@@ -11,11 +11,11 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:1a22417a687ce5c63aca@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Campeonato de Madrid Dobles Masculino
-LOCATION:Centro Nacional de Golf\, Madrid
+LOCATION:Centro Nacional de Golf\, Madrid\, Madrid
 DESCRIPTION:Absoluto - Medal Play - Parejas\nInscripción: abre el 16 de no
  viembre\, cierra el 23 de noviembre.\nFicha oficial: https://www.nextcaddy
  .com/tour/68355\nConfirma fechas y condiciones en la web del organizador. 
@@ -26,11 +26,11 @@ URL:https://www.nextcaddy.com/tour/68355
 END:VEVENT
 BEGIN:VEVENT
 UID:0c8a4704afda9f45956d@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
 SUMMARY:Final Liga Juvenil
-LOCATION:Centro Nacional de Golf\, Madrid
+LOCATION:Centro Nacional de Golf\, Madrid\, Madrid
 DESCRIPTION:Juvenil - Medal Play - Individual\nInscripción: abre el 13 de 
  diciembre\, cierra el 13 de diciembre.\nPrecio: Gratis.\nFicha oficial: ht
  tps://www.nextcaddy.com/tour/68338\nConfirma fechas y condiciones en la we
@@ -41,11 +41,11 @@ URL:https://www.nextcaddy.com/tour/68338
 END:VEVENT
 BEGIN:VEVENT
 UID:45a7bab82e7f24d08315@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261214
 DTEND;VALUE=DATE:20261215
 SUMMARY:VIII Campeonato de Madrid Hickory
-LOCATION:Centro Nacional de Golf\, Madrid
+LOCATION:Centro Nacional de Golf\, Madrid\, Madrid
 DESCRIPTION:Absoluto - Medal Play - Individual\nInscripción: abre el 14 de
   diciembre\, cierra el 14 de diciembre.\nPrecio: Gratis.\nFicha oficial: h
  ttps://www.nextcaddy.com/tour/75475\nConfirma fechas y condiciones en la w
@@ -56,11 +56,11 @@ URL:https://www.nextcaddy.com/tour/75475
 END:VEVENT
 BEGIN:VEVENT
 UID:44a79385b7f28e499612@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270122
 DTEND;VALUE=DATE:20270123
 SUMMARY:Cena Fin de Temporada. el Goloso
-LOCATION:Centro Nacional de Golf
+LOCATION:Centro Nacional de Golf\, Madrid\, Madrid
 DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
  //www.golfdirecto.com/micro/game/6b07e0cca705699f0129b63b/summary\nConfirm
  a fechas y condiciones en la web del organizador. Vía Banderín.

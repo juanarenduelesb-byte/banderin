@@ -1,0 +1,141 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Banderin//Torneos de golf//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Banderín - Toledo
+X-WR-CALDESC:Torneos de golf: Toledo. Se actualiza cada mañana. https://ba
+ nderin.es
+X-WR-TIMEZONE:Europe/Madrid
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:4ced23faa17bc6cdcc87@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:X Torneo Ranking Tajo Golf 2026
+LOCATION:Campo de Golf Layos\, Layos\, Toledo
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  15 de noviembre\, cierra el 25 de noviembre.\nFicha oficial: https://www.
+ golfdirecto.com/micro/game/6af99b7b23d5370df0fbba8f/summary\nConfirma fech
+ as y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6af99b7b23d5370df0fbba8f/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:8eef5a8d83909e429b54@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:Andrews Cup 2026
+LOCATION:Campo de Golf Layos\, Layos\, Toledo
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/6b059b4865911b42dd97ab64/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6b059b4865911b42dd97ab64/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:a650c02eaa2789c634b4@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:Cuartillos Liga 2026 - Torneo 10
+LOCATION:Campo de Golf Layos\, Layos\, Toledo
+DESCRIPTION:Social de club - Medal Play - Individual\nInscripción: abre el
+  16 de noviembre\, cierra el 27 de noviembre.\nFicha oficial: https://www.
+ golfdirecto.com/micro/game/6afb2024ffca647eb1bf557b/summary\nConfirma fech
+ as y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6afb2024ffca647eb1bf557b/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:45de8e2fade3f47638bb@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:Poll 28 de Noviembre
+LOCATION:Campo de Golf Layos\, Layos\, Toledo
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/6b05a65c61f6f72e96fd1bcf/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6b05a65c61f6f72e96fd1bcf/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:9284aabdcba7c9bc8b4a@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20261211
+DTEND;VALUE=DATE:20261212
+SUMMARY:Torneo Navidad Tajogolf 2026
+LOCATION:Campo de Golf Layos\, Layos\, Toledo
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  9 de noviembre\, cierra el 9 de diciembre.\nFicha oficial: https://www.go
+ lfdirecto.com/micro/game/6af1e9c62f0e9df18bc4659e/summary\nConfirma fechas
+  y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6af1e9c62f0e9df18bc4659e/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:a5c986895e5ab12f3660@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20270130
+DTEND;VALUE=DATE:20270131
+SUMMARY:Torneo no valido
+LOCATION:Campo de Golf Layos\, Layos\, Toledo
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/6a994dec9430f16c660869b1/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6a994dec9430f16c660869b1/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:7df0c89c3b0bb959a1e8@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20270313
+DTEND;VALUE=DATE:20270314
+SUMMARY:Mulligan 26/27 - Palomarejos
+LOCATION:Palomarejos Golf\, Talavera de la Reina\, Toledo
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/6afe8e1953aeeeb7e51dffb3/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6afe8e1953aeeeb7e51dffb3/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:affe9e6effe8ecbad9d1@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20270509
+DTEND;VALUE=DATE:20270510
+SUMMARY:Lcsc Fin de Semana Match Play Jornada 2
+LOCATION:Palomarejos Golf\, Talavera de la Reina\, Toledo
+DESCRIPTION:Clubes y equipos - Match Play - Equipos\nFicha oficial: https:/
+ /www.golfdirecto.com/micro/game/6b07dd53a705699f01ea0349/summary\nConfirma
+  fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6b07dd53a705699f01ea0349/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:8617c930e1ef4b2a9117@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20270612
+DTEND;VALUE=DATE:20270613
+SUMMARY:Lcsc Fin de Semana Match Play Jornada 4
+LOCATION:Campo de Golf Layos\, Layos\, Toledo
+DESCRIPTION:Clubes y equipos - Match Play - Equipos\nFicha oficial: https:/
+ /www.golfdirecto.com/micro/game/6b07dda36549a3fb78260572/summary\nConfirma
+  fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6b07dda36549a3fb78260572/summary
+END:VEVENT
+END:VCALENDAR

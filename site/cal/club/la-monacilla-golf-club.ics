@@ -11,11 +11,11 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:8355281cafa9960bd57b@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:IV Torneo Jesus Castizo
-LOCATION:la Monacilla Golf Club\, Aljaraque
+LOCATION:la Monacilla Golf Club\, Corrales\, Huelva
 DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
  //www.nextcaddy.com/tour/74751\nConfirma fechas y condiciones en la web de
  l organizador. Vía Banderín.

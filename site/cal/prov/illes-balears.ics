@@ -10,8 +10,158 @@ X-WR-TIMEZONE:Europe/Madrid
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
+UID:d9a361bee2386b1947a8@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:Liga Otoño 2026 - Jornada 6
+LOCATION:Golf Ibiza\, Eivissa\, Illes Balears
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  28 de agosto\, cierra el 27 de noviembre.\nFicha oficial: https://www.gol
+ fdirecto.com/micro/game/6a918b749ef968cc46ea2cbb/summary\nConfirma fechas 
+ y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6a918b749ef968cc46ea2cbb/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:fa24bca626dec480c10b@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:Torneo Competidores
+LOCATION:Club Son Quint Golf\, Palma de Mallorca\, Illes Balears
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  22 de noviembre\, cierra el 25 de noviembre.\nFicha oficial: https://www.
+ golfdirecto.com/micro/game/6b02f626b275bf02365a95c6/summary\nConfirma fech
+ as y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6b02f626b275bf02365a95c6/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:6890f782437ddbdad6b0@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:Sunday Funday
+LOCATION:Club de Golf Capdepera\, Arta\, Illes Balears
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  20 de agosto\, cierra el 28 de noviembre.\nFicha oficial: https://www.gol
+ fdirecto.com/micro/game/6a87271f96dc2a94e15ec500/summary\nConfirma fechas 
+ y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6a87271f96dc2a94e15ec500/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:751ea9d6ee7bc481fad2@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:Torneo 31 Aniversario
+LOCATION:Club Esportiu Pula Golf\, Son Servera\, Illes Balears
+DESCRIPTION:Social de club - Scramble - Parejas\nInscripción: abre el 29 d
+ e octubre\, cierra el 28 de noviembre.\nFicha oficial: https://www.golfdir
+ ecto.com/micro/game/6ae0afefe85d85ec8f1b0abb/summary\nConfirma fechas y co
+ ndiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6ae0afefe85d85ec8f1b0abb/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:e186f6a7308668756eb1@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:VI Sheraton Mallorca Golf Tournament - 29th Nov. 2026 - Golf Son Vi
+ da
+LOCATION:Son Vida Club de Golf\, Palma de Mallorca\, Illes Balears
+DESCRIPTION:Circuito comercial - Stableford - Individual\nFicha oficial: ht
+ tps://www.golfdirecto.com/micro/game/6a50b3fd6c5866fb900670f4/summary\nCon
+ firma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6a50b3fd6c5866fb900670f4/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:f18a5a1d32d8c6f6d277@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:VIII Prueba Liga Social 2026
+LOCATION:Son Antem Golf Mallorca\, Llucmajor\, Illes Balears
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  15 de octubre\, cierra el 27 de noviembre.\nFicha oficial: https://www.go
+ lfdirecto.com/micro/game/692eb14b07280dd3ed35b617/summary\nConfirma fechas
+  y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/692eb14b07280dd3ed35b617/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:129a0a8d4d1a847363a9@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20261202
+DTEND;VALUE=DATE:20261203
+SUMMARY:Back Nine Tour
+LOCATION:Club de Golf Son Servera\, Costa de los Pinos\, Illes Balears
+DESCRIPTION:Circuito comercial - Stableford - Individual\nInscripción: abr
+ e el 25 de noviembre\, cierra el 1 de diciembre.\nFicha oficial: https://w
+ ww.golfdirecto.com/micro/game/6afd8a5a04837c6e593cbe95/summary\nConfirma f
+ echas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6afd8a5a04837c6e593cbe95/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:e27ee105ae1c58ab3a37@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20261202
+DTEND;VALUE=DATE:20261203
+SUMMARY:Miércoles Golf Open
+LOCATION:Vall D Or Golf Club\, S Horta/l Horta (felanitx)\, Illes Balears
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  28 de junio\, cierra el 1 de diciembre.\nFicha oficial: https://www.golfd
+ irecto.com/micro/game/6a40fc70b16b4304e9b92601/summary\nConfirma fechas y 
+ condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6a40fc70b16b4304e9b92601/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:9fffb029e8c78d94b984@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20261203
+DTEND;VALUE=DATE:20261204
+SUMMARY:Gem Winter Slam 2026
+LOCATION:Club de Golf Son Servera\, Costa de los Pinos\, Illes Balears
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  3 de noviembre\, cierra el 2 de diciembre.\nFicha oficial: https://www.go
+ lfdirecto.com/micro/game/6ad9efe4a1531ddba4571ddb/summary\nConfirma fechas
+  y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6ad9efe4a1531ddba4571ddb/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:722093ac052f90456831@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20261204
+DTEND;VALUE=DATE:20261205
+SUMMARY:2ª Prueba Circuito Otoño - 9 Hoyos - Palma Pitch & Putt 2026
+LOCATION:Club Son Quint Golf\, Palma de Mallorca\, Illes Balears
+DESCRIPTION:Circuito comercial - Stableford - Individual\nInscripción: abr
+ e el 15 de noviembre\, cierra el 2 de diciembre.\nFicha oficial: https://w
+ ww.golfdirecto.com/micro/game/6af98e3e440203a820b6ee70/summary\nConfirma f
+ echas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6af98e3e440203a820b6ee70/summary
+END:VEVENT
+BEGIN:VEVENT
 UID:25618910bd1e00df1213@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261208
 SUMMARY:Copa de Baleares Masculina 2026
@@ -23,5 +173,590 @@ DESCRIPTION:Absoluto - Medal Play - Individual\nInscripción: abre el 9 de
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://rfegolf.es/competicion/copa-baleares
+END:VEVENT
+BEGIN:VEVENT
+UID:3722dc5986cd8d262d7c@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261206
+SUMMARY:Final Golfos 2026
+LOCATION:Club de Golf Son Gual\, Palma de Mallorca\, Illes Balears
+DESCRIPTION:Social de club - Medal Play - Individual\nInscripción: abre el
+  25 de enero\, cierra el 2 de diciembre.\nFicha oficial: https://www.golfd
+ irecto.com/micro/game/69764b7a37fd5d4ab555b440/summary\nConfirma fechas y 
+ condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/69764b7a37fd5d4ab555b440/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:69b7d716fa95c6d0c37c@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261206
+SUMMARY:IV Torneo Bodegas J.L. Ferrer
+LOCATION:Club Esportiu Pula Golf\, Son Servera\, Illes Balears
+DESCRIPTION:Social de club - Fourball - Parejas\nInscripción: abre el 12 d
+ e noviembre\, cierra el 4 de diciembre.\nFicha oficial: https://www.golfdi
+ recto.com/micro/game/6af5e619a1e39bb384bdc9d1/summary\nConfirma fechas y c
+ ondiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6af5e619a1e39bb384bdc9d1/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:471ac10c58149d76eca9@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261206
+SUMMARY:Liga Social 2026 Final "El Caire Espai Cuina"
+LOCATION:Son Muntaner Golf\, Palma de Mallorca\, Illes Balears
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  2 de octubre\, cierra el 4 de diciembre.\nFicha oficial: https://www.golf
+ directo.com/micro/game/6abfbdbfea19e81b2a47618e/summary\nConfirma fechas y
+  condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6abfbdbfea19e81b2a47618e/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:f91b65f0738f006dabbe@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261206
+SUMMARY:Torneo de Navidad
+LOCATION:Golf Son Termens S.a\, Son Termes\, Illes Balears
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  14 de noviembre\, cierra el 2 de diciembre.\nFicha oficial: https://www.g
+ olfdirecto.com/micro/game/6af8597e535859a5fb515b1a/summary\nConfirma fecha
+ s y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6af8597e535859a5fb515b1a/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:8c34f9f91356de939f27@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20261209
+DTEND;VALUE=DATE:20261210
+SUMMARY:Back Nine Tour
+LOCATION:Club de Golf Son Servera\, Costa de los Pinos\, Illes Balears
+DESCRIPTION:Circuito comercial - Stableford - Individual\nFicha oficial: ht
+ tps://www.golfdirecto.com/micro/game/6afd8a8c65e3b0b0a5c24e53/summary\nCon
+ firma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6afd8a8c65e3b0b0a5c24e53/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:9d4be6497e60ecbcf19a@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20261209
+DTEND;VALUE=DATE:20261210
+SUMMARY:Miércoles Golf Open
+LOCATION:Vall D Or Golf Club\, S Horta/l Horta (felanitx)\, Illes Balears
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  28 de junio\, cierra el 8 de diciembre.\nFicha oficial: https://www.golfd
+ irecto.com/micro/game/6a40fc9b8a374cd0128ee383/summary\nConfirma fechas y 
+ condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6a40fc9b8a374cd0128ee383/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:f593d35094b8120345de@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20261210
+DTEND;VALUE=DATE:20261211
+SUMMARY:Gem Winter Slam 2026/2027
+LOCATION:Club Esportiu Pula Golf\, Son Servera\, Illes Balears
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  27 de octubre\, cierra el 9 de diciembre.\nFicha oficial: https://www.gol
+ fdirecto.com/micro/game/6ae06f2fe85d85ec8fe2d70d/summary\nConfirma fechas 
+ y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6ae06f2fe85d85ec8fe2d70d/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:c33e814e246311f7d788@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20261211
+DTEND;VALUE=DATE:20261212
+SUMMARY:3ª Prueba Circuito Otoño - 9 Hoyos - Palma Pitch & Putt 2026
+LOCATION:Club Son Quint Golf\, Palma de Mallorca\, Illes Balears
+DESCRIPTION:Circuito comercial - Stableford - Individual\nInscripción: abr
+ e el 15 de noviembre\, cierra el 9 de diciembre.\nFicha oficial: https://w
+ ww.golfdirecto.com/micro/game/6af98ec890f777ff010e7390/summary\nConfirma f
+ echas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6af98ec890f777ff010e7390/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:6d3410faa04457cf73a3@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261213
+SUMMARY:Liga Otoño 2026 - Jornada 7
+LOCATION:Golf Ibiza\, Eivissa\, Illes Balears
+DESCRIPTION:Social de club - Medal Play - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/6a918bcf9ef968cc46eab895/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6a918bcf9ef968cc46eab895/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:a84fa35b22e95d5c23db@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261213
+SUMMARY:The New Corporate Balearhouse 2026 - 2027
+LOCATION:Son Antem Golf Mallorca\, Llucmajor\, Illes Balears
+DESCRIPTION:Social de club - Fourball - Parejas\nFicha oficial: https://www
+ .golfdirecto.com/micro/game/6adf1ce6b0e08ac015fb8a37/summary\nConfirma fec
+ has y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6adf1ce6b0e08ac015fb8a37/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:c31be3a62d2d1243977f@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261213
+SUMMARY:The New Corporate Balearhouse 2026 - 2027
+LOCATION:Golf Santa Ponsa\, Santa Ponça\, Illes Balears
+DESCRIPTION:Social de club - Fourball - Parejas\nFicha oficial: https://www
+ .golfdirecto.com/micro/game/6adf1895b0e08ac015b5be45/summary\nConfirma fec
+ has y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6adf1895b0e08ac015b5be45/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:740b95197e3fa5c8bb56@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261213
+SUMMARY:Torneo Presidente 2026 (Sólo Abonados Arabella Golf Mallorca)
+LOCATION:Son Muntaner Golf\, Palma de Mallorca\, Illes Balears
+DESCRIPTION:Social de club - Medal Play - Individual\nInscripción: abre el
+  5 de noviembre\, cierra el 10 de diciembre.\nFicha oficial: https://www.g
+ olfdirecto.com/micro/game/6aec99589dfa541630f07c96/summary\nConfirma fecha
+ s y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6aec99589dfa541630f07c96/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:6f2d699ff0f0620ab2da@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261213
+SUMMARY:Trofeo Navideño
+LOCATION:Club de Golf Son Parc\, Es Mercadal\, Illes Balears
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  2 de octubre\, cierra el 10 de diciembre.\nFicha oficial: https://www.gol
+ fdirecto.com/micro/game/6abf9036860d5cb9e548d160/summary\nConfirma fechas 
+ y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6abf9036860d5cb9e548d160/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:84e42dd370dd2156e0dd@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20261216
+DTEND;VALUE=DATE:20261217
+SUMMARY:Back Nine Tour
+LOCATION:Club de Golf Son Servera\, Costa de los Pinos\, Illes Balears
+DESCRIPTION:Circuito comercial - Stableford - Individual\nInscripción: abr
+ e el 18 de noviembre\, cierra el 15 de diciembre.\nFicha oficial: https://
+ www.golfdirecto.com/micro/game/6afd8ab765e3b0b0a5c7044c/summary\nConfirma 
+ fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6afd8ab765e3b0b0a5c7044c/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:80e1849d37f17a79b02e@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20261216
+DTEND;VALUE=DATE:20261217
+SUMMARY:Miércoles Golf Open
+LOCATION:Vall D Or Golf Club\, S Horta/l Horta (felanitx)\, Illes Balears
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  28 de junio\, cierra el 15 de diciembre.\nFicha oficial: https://www.golf
+ directo.com/micro/game/6a40fcc18a374cd0129bfbe5/summary\nConfirma fechas y
+  condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6a40fcc18a374cd0129bfbe5/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:aadc2b40eae617797031@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20261217
+DTEND;VALUE=DATE:20261218
+SUMMARY:4º Prueba Gem Winter Slam
+LOCATION:Club de Golf Capdepera\, Arta\, Illes Balears
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  13 de octubre\, cierra el 15 de diciembre.\nFicha oficial: https://www.go
+ lfdirecto.com/micro/game/6ace09be3889028eef7573e0/summary\nConfirma fechas
+  y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6ace09be3889028eef7573e0/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:d1b24f6acbfe0b168fcb@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20261219
+DTEND;VALUE=DATE:20261220
+SUMMARY:Liga Otoño 2026 - Jornada 8
+LOCATION:Golf Ibiza\, Eivissa\, Illes Balears
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/6a918bf89ef968cc46eb1b6b/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6a918bf89ef968cc46eb1b6b/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:9a45594b0d2643345fde@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20261219
+DTEND;VALUE=DATE:20261220
+SUMMARY:The New Corporate Balearhouse 2026 - 2027
+LOCATION:Vall D Or Golf Club\, S Horta/l Horta (felanitx)\, Illes Balears
+DESCRIPTION:Social de club - Stableford - Parejas\nFicha oficial: https://w
+ ww.golfdirecto.com/micro/game/6adf7156b0e08ac015855402/summary\nConfirma f
+ echas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6adf7156b0e08ac015855402/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:6981784f1a5e0e162ab7@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20261219
+DTEND;VALUE=DATE:20261220
+SUMMARY:The New Corporate Balearhouse 2026 - 2027
+LOCATION:Club de Golf Son Gual\, Palma de Mallorca\, Illes Balears
+DESCRIPTION:Social de club - Stableford - Parejas\nFicha oficial: https://w
+ ww.golfdirecto.com/micro/game/6adf7222b0e08ac015b830e4/summary\nConfirma f
+ echas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6adf7222b0e08ac015b830e4/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:57fed7e5c9f8ebbd5023@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20261219
+DTEND;VALUE=DATE:20261220
+SUMMARY:Torneo Navidad 2026 - Golf Son Muntaner
+LOCATION:Son Muntaner Golf\, Palma de Mallorca\, Illes Balears
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  10 de noviembre\, cierra el 17 de diciembre.\nFicha oficial: https://www.
+ golfdirecto.com/micro/game/6af2d69c5d98b588719e40f0/summary\nConfirma fech
+ as y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6af2d69c5d98b588719e40f0/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:86d39e7a4ead38b68d2a@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20261219
+DTEND;VALUE=DATE:20261220
+SUMMARY:Torneo Social de Navidad 2026
+LOCATION:Son Antem Golf Mallorca\, Llucmajor\, Illes Balears
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  13 de noviembre\, cierra el 17 de diciembre.\nFicha oficial: https://www.
+ golfdirecto.com/micro/game/6ad093177fca7abedc79f57c/summary\nConfirma fech
+ as y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6ad093177fca7abedc79f57c/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:77c4a623b0b162c59abc@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20261219
+DTEND;VALUE=DATE:20261220
+SUMMARY:Trofeo Pavo Real - Solo Socios / Only Members 2026
+LOCATION:Club de Golf Son Parc\, Es Mercadal\, Illes Balears
+DESCRIPTION:Social de club - Medal Play - Individual\nInscripción: abre el
+  29 de octubre\, cierra el 17 de diciembre.\nFicha oficial: https://www.go
+ lfdirecto.com/micro/game/6ae334df5e6a1f02b2dda30f/summary\nConfirma fechas
+  y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6ae334df5e6a1f02b2dda30f/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:9ea2f77fc3f9f9254a81@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20261223
+DTEND;VALUE=DATE:20261224
+SUMMARY:Back Nine Tour
+LOCATION:Club de Golf Son Servera\, Costa de los Pinos\, Illes Balears
+DESCRIPTION:Circuito comercial - Stableford - Individual\nInscripción: abr
+ e el 18 de noviembre\, cierra el 22 de diciembre.\nFicha oficial: https://
+ www.golfdirecto.com/micro/game/6afd8d139c9e80fccfa8e3da/summary\nConfirma 
+ fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6afd8d139c9e80fccfa8e3da/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:880364f7711b47ba4246@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20261223
+DTEND;VALUE=DATE:20261224
+SUMMARY:Miércoles Golf Open
+LOCATION:Vall D Or Golf Club\, S Horta/l Horta (felanitx)\, Illes Balears
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  28 de junio\, cierra el 22 de diciembre.\nFicha oficial: https://www.golf
+ directo.com/micro/game/6a40fce18a374cd012a17f48/summary\nConfirma fechas y
+  condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6a40fce18a374cd012a17f48/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:74570d8132b9850d7723@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20261228
+DTEND;VALUE=DATE:20261229
+SUMMARY:Torneig Cap D`any
+LOCATION:Club de Golf Son Servera\, Costa de los Pinos\, Illes Balears
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  26 de noviembre\, cierra el 26 de diciembre.\nFicha oficial: https://www.
+ golfdirecto.com/micro/game/6b06c3c62638d23287969d12/summary\nConfirma fech
+ as y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6b06c3c62638d23287969d12/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:f992083c21d1927f61f5@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20261229
+DTEND;VALUE=DATE:20261230
+SUMMARY:Sylvester Tournament
+LOCATION:Club de Golf Capdepera\, Arta\, Illes Balears
+DESCRIPTION:Circuito comercial - Stableford - Individual\nInscripción: abr
+ e el 25 de octubre\, cierra el 27 de diciembre.\nFicha oficial: https://ww
+ w.golfdirecto.com/micro/game/6ade2a5edfba30f2b8c2f693/summary\nConfirma fe
+ chas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6ade2a5edfba30f2b8c2f693/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:70e2dcfa99fbef57d3da@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20261230
+DTEND;VALUE=DATE:20261231
+SUMMARY:Miércoles Golf Open
+LOCATION:Vall D Or Golf Club\, S Horta/l Horta (felanitx)\, Illes Balears
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  28 de junio\, cierra el 29 de diciembre.\nFicha oficial: https://www.golf
+ directo.com/micro/game/6a40fd008a374cd012b1ce0c/summary\nConfirma fechas y
+  condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6a40fd008a374cd012b1ce0c/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:4086d40c63093cca748e@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20270107
+DTEND;VALUE=DATE:20270108
+SUMMARY:Gem Winter Slam
+LOCATION:Club de Golf Alcanada\, Alcudia\, Illes Balears
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  17 de noviembre\, cierra el 6 de enero.\nFicha oficial: https://www.golfd
+ irecto.com/micro/game/6afc2f59b82c45b939c31900/summary\nConfirma fechas y 
+ condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6afc2f59b82c45b939c31900/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:51377c074679e615be7e@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20270109
+DTEND;VALUE=DATE:20270110
+SUMMARY:The New Corporate Balearhouse 2026 - 2027
+LOCATION:Vall D Or Golf Club\, S Horta/l Horta (felanitx)\, Illes Balears
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/6adf745eb0e08ac0154c8d28/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6adf745eb0e08ac0154c8d28/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:d705df384d86ff38cdfa@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20270109
+DTEND;VALUE=DATE:20270110
+SUMMARY:The New Corporate Balearhouse 2026 - 2027
+LOCATION:Son Antem Golf Mallorca\, Llucmajor\, Illes Balears
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/6adf740eb0e08ac0153a200e/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6adf740eb0e08ac0153a200e/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:bca1477ca7fd092f6208@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20270114
+DTEND;VALUE=DATE:20270115
+SUMMARY:Gem Winter Slam 2026/2027
+LOCATION:Club Esportiu Pula Golf\, Son Servera\, Illes Balears
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  27 de octubre\, cierra el 13 de enero.\nFicha oficial: https://www.golfdi
+ recto.com/micro/game/6ae09d07e85d85ec8ffd0fdc/summary\nConfirma fechas y c
+ ondiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6ae09d07e85d85ec8ffd0fdc/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:cc6dddd6583e03aef67a@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20270116
+DTEND;VALUE=DATE:20270117
+SUMMARY:The New Corporate Balearhouse 2026-2027
+LOCATION:Golf Santa Ponsa\, Santa Ponça\, Illes Balears
+DESCRIPTION:Social de club - Greensome - Parejas\nFicha oficial: https://ww
+ w.golfdirecto.com/micro/game/6adf75f7b0e08ac015a0f245/summary\nConfirma fe
+ chas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6adf75f7b0e08ac015a0f245/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:e931014c2b286a5cc1f1@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20270116
+DTEND;VALUE=DATE:20270117
+SUMMARY:The New Corporate Balearhouse 2026-2027
+LOCATION:Vall D Or Golf Club\, S Horta/l Horta (felanitx)\, Illes Balears
+DESCRIPTION:Social de club - Greensome - Parejas\nFicha oficial: https://ww
+ w.golfdirecto.com/micro/game/6adf7593b0e08ac0158ad25c/summary\nConfirma fe
+ chas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6adf7593b0e08ac0158ad25c/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:ab946c47e5b49e574c3b@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20270121
+DTEND;VALUE=DATE:20270122
+SUMMARY:7º Prueba Gem Winter Slam
+LOCATION:Club de Golf Capdepera\, Arta\, Illes Balears
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  13 de octubre\, cierra el 20 de enero.\nFicha oficial: https://www.golfdi
+ recto.com/micro/game/6ace09fc3889028eef8c8424/summary\nConfirma fechas y c
+ ondiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6ace09fc3889028eef8c8424/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:1d32a440b78cecce4707@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20270123
+DTEND;VALUE=DATE:20270124
+SUMMARY:The New Corporate Balearhouse 2026 - 2027
+LOCATION:Son Antem Golf Mallorca\, Llucmajor\, Illes Balears
+DESCRIPTION:Social de club - Fourball - Parejas\nFicha oficial: https://www
+ .golfdirecto.com/micro/game/6adf789bb0e08ac0152fec12/summary\nConfirma fec
+ has y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6adf789bb0e08ac0152fec12/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:fa22a04b41a2d58eda38@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20270128
+DTEND;VALUE=DATE:20270129
+SUMMARY:Gem Winter Slam 26/27
+LOCATION:Club de Golf Son Servera\, Costa de los Pinos\, Illes Balears
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  28 de diciembre\, cierra el 27 de enero.\nFicha oficial: https://www.golf
+ directo.com/micro/game/6ada0267b2884b135d820420/summary\nConfirma fechas y
+  condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6ada0267b2884b135d820420/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:485927fe1c9d18d06ebb@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20270130
+DTEND;VALUE=DATE:20270131
+SUMMARY:The New Corporate Balearhouse 2026-2027
+LOCATION:Golf Santa Ponsa\, Santa Ponça\, Illes Balears
+DESCRIPTION:Social de club - Fourball - Parejas\nFicha oficial: https://www
+ .golfdirecto.com/micro/game/6adf78f6b0e08ac01544359b/summary\nConfirma fec
+ has y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6adf78f6b0e08ac01544359b/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:fe5080c0dfdc782574b6@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20270211
+DTEND;VALUE=DATE:20270212
+SUMMARY:Final Gem Winter Slam 2026/2027
+LOCATION:Club de Golf Capdepera\, Arta\, Illes Balears
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  13 de octubre\, cierra el 9 de febrero.\nFicha oficial: https://www.golfd
+ irecto.com/micro/game/6ace0a2e3889028eef99ad3d/summary\nConfirma fechas y 
+ condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6ace0a2e3889028eef99ad3d/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:bfe008e96491700201ac@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20270220
+DTEND;VALUE=DATE:20270221
+SUMMARY:The New Corporate Balearhouse 2026-2027
+LOCATION:Vall D Or Golf Club\, S Horta/l Horta (felanitx)\, Illes Balears
+DESCRIPTION:Social de club - Fourball - Parejas\nFicha oficial: https://www
+ .golfdirecto.com/micro/game/6adf7a96b0e08ac01596c7b9/summary\nConfirma fec
+ has y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6adf7a96b0e08ac01596c7b9/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:d6729bdd6139fac94e74@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20270221
+DTEND;VALUE=DATE:20270222
+SUMMARY:The New Corporate Balearhouse 2026-2027
+LOCATION:Club de Golf Son Gual\, Palma de Mallorca\, Illes Balears
+DESCRIPTION:Social de club - Fourball - Parejas\nFicha oficial: https://www
+ .golfdirecto.com/micro/game/6adf7adcb0e08ac015a39b8b/summary\nConfirma fec
+ has y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6adf7adcb0e08ac015a39b8b/summary
 END:VEVENT
 END:VCALENDAR

@@ -11,11 +11,11 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:33a1c877be5efbd80ebc@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
 SUMMARY:Torneo Golf Almerimar
-LOCATION:Golf Almerimar
+LOCATION:Golf Almerimar\, Almerimar\, Almería
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   26 de noviembre\, cierra el 11 de diciembre.\nFicha oficial: https://www.
  golfdirecto.com/micro/game/6b080ab515c29579975daf94/summary\nConfirma fech
@@ -26,11 +26,11 @@ URL:https://www.golfdirecto.com/micro/game/6b080ab515c29579975daf94/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:3ea3d98b9baba77d29d0@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261220
 DTEND;VALUE=DATE:20261221
 SUMMARY:Gran Final Nova Vision Opticos
-LOCATION:Golf Almerimar
+LOCATION:Golf Almerimar\, Almerimar\, Almería
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   26 de noviembre\, cierra el 18 de diciembre.\nFicha oficial: https://www.
  golfdirecto.com/micro/game/6b080b4915c29579976a3742/summary\nConfirma fech

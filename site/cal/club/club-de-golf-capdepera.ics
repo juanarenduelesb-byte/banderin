@@ -11,11 +11,11 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:6890f782437ddbdad6b0@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Sunday Funday
-LOCATION:Club de Golf Capdepera
+LOCATION:Club de Golf Capdepera\, Arta\, Illes Balears
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   20 de agosto\, cierra el 28 de noviembre.\nFicha oficial: https://www.gol
  fdirecto.com/micro/game/6a87271f96dc2a94e15ec500/summary\nConfirma fechas 
@@ -26,11 +26,11 @@ URL:https://www.golfdirecto.com/micro/game/6a87271f96dc2a94e15ec500/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:aadc2b40eae617797031@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261217
 DTEND;VALUE=DATE:20261218
 SUMMARY:4º Prueba Gem Winter Slam
-LOCATION:Club de Golf Capdepera
+LOCATION:Club de Golf Capdepera\, Arta\, Illes Balears
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   13 de octubre\, cierra el 15 de diciembre.\nFicha oficial: https://www.go
  lfdirecto.com/micro/game/6ace09be3889028eef7573e0/summary\nConfirma fechas
@@ -41,11 +41,11 @@ URL:https://www.golfdirecto.com/micro/game/6ace09be3889028eef7573e0/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:f992083c21d1927f61f5@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261229
 DTEND;VALUE=DATE:20261230
 SUMMARY:Sylvester Tournament
-LOCATION:Club de Golf Capdepera
+LOCATION:Club de Golf Capdepera\, Arta\, Illes Balears
 DESCRIPTION:Circuito comercial - Stableford - Individual\nInscripción: abr
  e el 25 de octubre\, cierra el 27 de diciembre.\nFicha oficial: https://ww
  w.golfdirecto.com/micro/game/6ade2a5edfba30f2b8c2f693/summary\nConfirma fe
@@ -56,11 +56,11 @@ URL:https://www.golfdirecto.com/micro/game/6ade2a5edfba30f2b8c2f693/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:ab946c47e5b49e574c3b@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270121
 DTEND;VALUE=DATE:20270122
 SUMMARY:7º Prueba Gem Winter Slam
-LOCATION:Club de Golf Capdepera
+LOCATION:Club de Golf Capdepera\, Arta\, Illes Balears
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   13 de octubre\, cierra el 20 de enero.\nFicha oficial: https://www.golfdi
  recto.com/micro/game/6ace09fc3889028eef8c8424/summary\nConfirma fechas y c
@@ -71,11 +71,11 @@ URL:https://www.golfdirecto.com/micro/game/6ace09fc3889028eef8c8424/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:fe5080c0dfdc782574b6@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270211
 DTEND;VALUE=DATE:20270212
 SUMMARY:Final Gem Winter Slam 2026/2027
-LOCATION:Club de Golf Capdepera
+LOCATION:Club de Golf Capdepera\, Arta\, Illes Balears
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   13 de octubre\, cierra el 9 de febrero.\nFicha oficial: https://www.golfd
  irecto.com/micro/game/6ace0a2e3889028eef99ad3d/summary\nConfirma fechas y 

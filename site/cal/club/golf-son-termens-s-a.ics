@@ -11,11 +11,11 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:f91b65f0738f006dabbe@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
 SUMMARY:Torneo de Navidad
-LOCATION:Golf Son Termens S.a
+LOCATION:Golf Son Termens S.a\, Son Termes\, Illes Balears
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   14 de noviembre\, cierra el 2 de diciembre.\nFicha oficial: https://www.g
  olfdirecto.com/micro/game/6af8597e535859a5fb515b1a/summary\nConfirma fecha

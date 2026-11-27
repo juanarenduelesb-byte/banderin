@@ -11,11 +11,11 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:96c0114a3618d3acfd17@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261222
 DTEND;VALUE=DATE:20261223
 SUMMARY:Final Ranking Juvenil “D. Luis Zornoza”
-LOCATION:Real Club la Moraleja\, Alcobendas
+LOCATION:Real Club la Moraleja\, Alcobendas\, Madrid
 DESCRIPTION:Juvenil - Medal Play - Individual\nInscripción: abre el 22 de 
  diciembre\, cierra el 22 de diciembre.\nPrecio: Gratis.\nFicha oficial: ht
  tps://www.nextcaddy.com/tour/74006\nConfirma fechas y condiciones en la we

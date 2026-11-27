@@ -11,11 +11,11 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:90b558f5c1f029d14812@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261220
 SUMMARY:Final Ranking FVG
-LOCATION:Club de Golf Larrabea
+LOCATION:Club de Golf Larrabea\, Legutiano\, Álava
 DESCRIPTION:Absoluto - Fourball - Parejas\nFicha oficial: https://www.golfd
  irecto.com/micro/game/6af82d22d032fed27e633cfe/summary\nConfirma fechas y 
  condiciones en la web del organizador. Vía Banderín.

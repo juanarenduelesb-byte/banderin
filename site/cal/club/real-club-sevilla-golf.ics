@@ -11,11 +11,11 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:a74d82a112ec77d751ff@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:XI Copa Real Club Sevilla Golf 2026
-LOCATION:Real Club Sevilla Golf\, Alcalá de Guadaíra
+LOCATION:Real Club Sevilla Golf\, Alcala de Guadaira\, Sevilla
 DESCRIPTION:Social de club - Medal Play - Individual\nFicha oficial: https:
  //www.nextcaddy.com/tour/75521\nConfirma fechas y condiciones en la web de
  l organizador. Vía Banderín.
@@ -25,11 +25,11 @@ URL:https://www.nextcaddy.com/tour/75521
 END:VEVENT
 BEGIN:VEVENT
 UID:e400ab137293fcf16778@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261202
 SUMMARY:Final Liga Senior 2026
-LOCATION:Real Club Sevilla Golf\, Alcalá de Guadaíra
+LOCATION:Real Club Sevilla Golf\, Alcala de Guadaira\, Sevilla
 DESCRIPTION:Senior - Stableford - Individual\nFicha oficial: https://www.ne
  xtcaddy.com/tour/75639\nConfirma fechas y condiciones en la web del organi
  zador. Vía Banderín.

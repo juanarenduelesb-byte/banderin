@@ -11,11 +11,11 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:4086d40c63093cca748e@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270107
 DTEND;VALUE=DATE:20270108
 SUMMARY:Gem Winter Slam
-LOCATION:Club de Golf Alcanada
+LOCATION:Club de Golf Alcanada\, Alcudia\, Illes Balears
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   17 de noviembre\, cierra el 6 de enero.\nFicha oficial: https://www.golfd
  irecto.com/micro/game/6afc2f59b82c45b939c31900/summary\nConfirma fechas y 

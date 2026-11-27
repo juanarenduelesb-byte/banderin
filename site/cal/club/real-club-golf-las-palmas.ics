@@ -11,11 +11,12 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:ab614d05c6dafcdf10ed@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270204
 DTEND;VALUE=DATE:20270205
 SUMMARY:⚠️ Pruebas para la Web
-LOCATION:Real Club Golf las Palmas
+LOCATION:Real Club Golf las Palmas\, Santa Brigida (capital Municipal)\, La
+ s Palmas
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   28 de mayo\, cierra el 3 de febrero.\nFicha oficial: https://www.golfdire
  cto.com/micro/game/6a17900e9b0ee26a1385620a/summary\nConfirma fechas y con

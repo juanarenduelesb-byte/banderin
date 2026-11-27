@@ -1,0 +1,132 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Banderin//Torneos de golf//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Banderín - Las Palmas
+X-WR-CALDESC:Torneos de golf: Las Palmas. Se actualiza cada mañana. https:
+ //banderin.es
+X-WR-TIMEZONE:Europe/Madrid
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:2b1a0e1d0bd21eca0a1a@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261206
+SUMMARY:IX Puntuable Ranking las Palmeras Golf 2026
+LOCATION:Las Palmeras Golf Club\, Las Palmas de Gran Canaria\, Las Palmas
+DESCRIPTION:Absoluto - Stableford - Individual\nInscripción: abre el 27 de
+  noviembre\, cierra el 3 de diciembre.\nFicha oficial: https://www.golfdir
+ ecto.com/micro/game/696146558ddd5ab4db157a05/summary\nConfirma fechas y co
+ ndiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/696146558ddd5ab4db157a05/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:5917e285cb0aac998e37@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+SUMMARY:III Prueba Ranking Juvenil 18 Hoyos - Especial Invierno
+LOCATION:Las Palmeras Golf Club\, Las Palmas de Gran Canaria\, Las Palmas
+DESCRIPTION:Juvenil - Stableford - Individual\nInscripción: abre el 11 de 
+ diciembre\, cierra el 17 de diciembre.\nFicha oficial: https://www.golfdir
+ ecto.com/micro/game/6a3427d478b1adbfc014aa29/summary\nConfirma fechas y co
+ ndiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6a3427d478b1adbfc014aa29/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:d4879af29b53132d85e7@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+SUMMARY:III Prueba Ranking Juvenil 9 Hoyos - Especial Invierno
+LOCATION:Las Palmeras Golf Club\, Las Palmas de Gran Canaria\, Las Palmas
+DESCRIPTION:Juvenil - Stableford - Individual\nInscripción: abre el 11 de 
+ diciembre\, cierra el 17 de diciembre.\nFicha oficial: https://www.golfdir
+ ecto.com/micro/game/6a34281e78b1adbfc01f31c8/summary\nConfirma fechas y co
+ ndiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6a34281e78b1adbfc01f31c8/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:c03257b4823cecc2396a@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20261219
+DTEND;VALUE=DATE:20261220
+SUMMARY:Torneo Benefico Ningun Niño sin Juguete
+LOCATION:Las Palmeras Golf Club\, Las Palmas de Gran Canaria\, Las Palmas
+DESCRIPTION:Benéfico - Stableford - Individual\nFicha oficial: https://www
+ .golfdirecto.com/micro/game/6a57553665c0e41735a2e3ec/summary\nConfirma fec
+ has y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6a57553665c0e41735a2e3ec/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:c54a08994841b7c7f5e1@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20270102
+DTEND;VALUE=DATE:20270103
+SUMMARY:X Torneo Benefico Aldeas Infantiles
+LOCATION:Las Palmeras Golf Club\, Las Palmas de Gran Canaria\, Las Palmas
+DESCRIPTION:Juvenil - Stableford - Individual\nInscripción: abre el 21 de 
+ diciembre\, cierra el 30 de diciembre.\nFicha oficial: https://www.golfdir
+ ecto.com/micro/game/6ad20a6c609f0a0b27fb48ed/summary\nConfirma fechas y co
+ ndiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6ad20a6c609f0a0b27fb48ed/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:4de19fb45c2f9cfe49af@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20270124
+DTEND;VALUE=DATE:20270125
+SUMMARY:IV Prueba Ranking Juvenil 18 Hoyos
+LOCATION:Las Palmeras Golf Club\, Las Palmas de Gran Canaria\, Las Palmas
+DESCRIPTION:Juvenil - Stableford - Individual\nInscripción: abre el 15 de 
+ enero\, cierra el 21 de enero.\nFicha oficial: https://www.golfdirecto.com
+ /micro/game/6afada39d977036aba74c3bc/summary\nConfirma fechas y condicione
+ s en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6afada39d977036aba74c3bc/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:e9531b77bfd8bbd1c6cc@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20270124
+DTEND;VALUE=DATE:20270125
+SUMMARY:IV Prueba Ranking Juvenil 9 Hoyos
+LOCATION:Las Palmeras Golf Club\, Las Palmas de Gran Canaria\, Las Palmas
+DESCRIPTION:Juvenil - Stableford - Individual\nInscripción: abre el 15 de 
+ enero\, cierra el 21 de enero.\nFicha oficial: https://www.golfdirecto.com
+ /micro/game/6afada89a31918b570ef8e41/summary\nConfirma fechas y condicione
+ s en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6afada89a31918b570ef8e41/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:ab614d05c6dafcdf10ed@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20270204
+DTEND;VALUE=DATE:20270205
+SUMMARY:⚠️ Pruebas para la Web
+LOCATION:Real Club Golf las Palmas\, Santa Brigida (capital Municipal)\, La
+ s Palmas
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  28 de mayo\, cierra el 3 de febrero.\nFicha oficial: https://www.golfdire
+ cto.com/micro/game/6a17900e9b0ee26a1385620a/summary\nConfirma fechas y con
+ diciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6a17900e9b0ee26a1385620a/summary
+END:VEVENT
+END:VCALENDAR

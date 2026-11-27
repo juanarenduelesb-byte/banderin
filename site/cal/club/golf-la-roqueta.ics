@@ -11,11 +11,11 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:e3d032ca44f66adac39e@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270403
 DTEND;VALUE=DATE:20270404
 SUMMARY:Circuit Nacional 5a Categoria 2027 (La Roqueta)
-LOCATION:Golf La Roqueta
+LOCATION:Golf La Roqueta\, Castellgali\, Barcelona
 DESCRIPTION:Absoluto - Individual\nFicha oficial: https://www.catgolf.com/e
  s/campeonatos/circuit-nacional-5a-categoria-2027-la-roqueta-2027-04-03\nCo
  nfirma fechas y condiciones en la web del organizador. Vía Banderín.

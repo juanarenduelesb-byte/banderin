@@ -11,11 +11,11 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:2b0c42ed9e1ddf953465@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:18 Hoyos Niños Torneo Ega Noviembre
-LOCATION:Club de Golf Altorreal
+LOCATION:Club de Golf Altorreal\, Molina de Segura\, Murcia
 DESCRIPTION:Juvenil - Stableford - Individual\nInscripción: abre el 30 de 
  octubre\, cierra el 27 de noviembre.\nFicha oficial: https://www.golfdirec
  to.com/micro/game/6ae441a2481f75b15e872969/summary\nConfirma fechas y cond
@@ -26,11 +26,11 @@ URL:https://www.golfdirecto.com/micro/game/6ae441a2481f75b15e872969/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:7958d271a4cdae66586d@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Adultos 6 Hoyos Escuela Noviembre
-LOCATION:Club de Golf Altorreal
+LOCATION:Club de Golf Altorreal\, Molina de Segura\, Murcia
 DESCRIPTION:Juvenil - Stableford - Individual\nInscripción: abre el 30 de 
  octubre\, cierra el 27 de noviembre.\nFicha oficial: https://www.golfdirec
  to.com/micro/game/6ae44450481f75b15ece5d08/summary\nConfirma fechas y cond
@@ -41,11 +41,11 @@ URL:https://www.golfdirecto.com/micro/game/6ae44450481f75b15ece5d08/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:b6afd242a7691018ef6b@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Adultos 9 Hoyos Noviembre
-LOCATION:Club de Golf Altorreal
+LOCATION:Club de Golf Altorreal\, Molina de Segura\, Murcia
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   30 de octubre\, cierra el 27 de noviembre.\nFicha oficial: https://www.go
  lfdirecto.com/micro/game/6ae44319e9503c4e6584588a/summary\nConfirma fechas
@@ -56,11 +56,11 @@ URL:https://www.golfdirecto.com/micro/game/6ae44319e9503c4e6584588a/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:765aeb292990451971e5@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Niños 6/3/1 Hoyos Ega Noviembre
-LOCATION:Club de Golf Altorreal
+LOCATION:Club de Golf Altorreal\, Molina de Segura\, Murcia
 DESCRIPTION:Juvenil - Medal Play - Individual\nInscripción: abre el 30 de 
  octubre\, cierra el 27 de noviembre.\nFicha oficial: https://www.golfdirec
  to.com/micro/game/6ae443e9481f75b15ec39817/summary\nConfirma fechas y cond
@@ -71,11 +71,11 @@ URL:https://www.golfdirecto.com/micro/game/6ae443e9481f75b15ec39817/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:426507295186391afccd@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Niños 9 Hoyos Noviembre
-LOCATION:Club de Golf Altorreal
+LOCATION:Club de Golf Altorreal\, Molina de Segura\, Murcia
 DESCRIPTION:Juvenil - Stableford - Individual\nInscripción: abre el 30 de 
  octubre\, cierra el 27 de noviembre.\nFicha oficial: https://www.golfdirec
  to.com/micro/game/6ae44392481f75b15eb7fa1e/summary\nConfirma fechas y cond
@@ -86,11 +86,11 @@ URL:https://www.golfdirecto.com/micro/game/6ae44392481f75b15eb7fa1e/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:8019cb5e6f17547577e8@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261221
 SUMMARY:Campeonato Absoluto Juvenil - Golf Altorreal
-LOCATION:Club de Golf Altorreal\, Murcia
+LOCATION:Club de Golf Altorreal\, Molina de Segura\, Murcia
 DESCRIPTION:Juvenil - Medal Play - Individual\nFicha oficial: https://www.g
  olfdirecto.com/micro/game/6aabd386ac3438945f4d5ec3/summary\nConfirma fecha
  s y condiciones en la web del organizador. Vía Banderín.

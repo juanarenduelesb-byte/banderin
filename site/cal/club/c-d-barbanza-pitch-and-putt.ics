@@ -11,11 +11,11 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:0bdd8f47f3931c272edd@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:10ª Jornada Race To Barbanza (2ª Vuelta)
-LOCATION:C.D. Barbanza Pitch And Putt
+LOCATION:C.D. Barbanza Pitch And Putt\, Boiro (boiro)\, A Coruña
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   23 de noviembre\, cierra el 29 de noviembre.\nFicha oficial: https://www.
  golfdirecto.com/micro/game/6b04357ad2ed4f3d1cbdab5b/summary\nConfirma fech
@@ -26,11 +26,11 @@ URL:https://www.golfdirecto.com/micro/game/6b04357ad2ed4f3d1cbdab5b/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:f7e47912722e6d1e5dfd@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Circuito Barbanza Arousa. 3ª prueba. Boiro
-LOCATION:C.D. Barbanza Pitch And Putt
+LOCATION:C.D. Barbanza Pitch And Putt\, Boiro (boiro)\, A Coruña
 DESCRIPTION:Circuito comercial - Stableford - Individual\nInscripción: abr
  e el 6 de noviembre\, cierra el 26 de noviembre.\nFicha oficial: https://w
  ww.golfdirecto.com/micro/game/6ac4cc49457edc1ace625b5e/summary\nConfirma f
@@ -41,11 +41,11 @@ URL:https://www.golfdirecto.com/micro/game/6ac4cc49457edc1ace625b5e/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:694c8fe6252b609f4d1a@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
 SUMMARY:XI Torneo de Navidad Concello de Boiro
-LOCATION:C.D. Barbanza Pitch And Putt
+LOCATION:C.D. Barbanza Pitch And Putt\, Boiro (boiro)\, A Coruña
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   16 de noviembre\, cierra el 3 de diciembre.\nFicha oficial: https://www.g
  olfdirecto.com/micro/game/6afaed4b23d5370df09d3fd3/summary\nConfirma fecha
@@ -56,11 +56,11 @@ URL:https://www.golfdirecto.com/micro/game/6afaed4b23d5370df09d3fd3/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:ca8454fe4b1f9e22c56f@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261220
 DTEND;VALUE=DATE:20261221
 SUMMARY:Circuito Barbanza Arousa. Final A Pobra Do Caramiñal
-LOCATION:C.D. Barbanza Pitch And Putt
+LOCATION:C.D. Barbanza Pitch And Putt\, Boiro (boiro)\, A Coruña
 DESCRIPTION:Circuito comercial - Stableford - Individual\nFicha oficial: ht
  tps://www.golfdirecto.com/micro/game/6ac4cc8f457edc1ace68df14/summary\nCon
  firma fechas y condiciones en la web del organizador. Vía Banderín.

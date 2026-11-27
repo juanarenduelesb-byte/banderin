@@ -1,0 +1,41 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Banderin//Torneos de golf//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Banderín - La Rioja
+X-WR-CALDESC:Torneos de golf: La Rioja. Se actualiza cada mañana. https://
+ banderin.es
+X-WR-TIMEZONE:Europe/Madrid
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:5d34392a37d6068dd6f1@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:Copa Piquillo & Crianza - Jornada 1
+LOCATION:Rioja Alta Golf Club\, Cirueña\, La Rioja
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/6af5b2c65149c55c27340bee/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6af5b2c65149c55c27340bee/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:dab7eda26e9ac5f665e1@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261206
+SUMMARY:Torneo Cesta de Navidad (2026)
+LOCATION:Rioja Alta Golf Club\, Cirueña\, La Rioja
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  15 de noviembre\, cierra el 4 de diciembre.\nFicha oficial: https://www.g
+ olfdirecto.com/micro/game/6992f1008bb7d5e3956aac0c/summary\nConfirma fecha
+ s y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6992f1008bb7d5e3956aac0c/summary
+END:VEVENT
+END:VCALENDAR

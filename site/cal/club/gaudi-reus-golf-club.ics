@@ -11,11 +11,11 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:b5629fbb49d2708b7199@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270526
 DTEND;VALUE=DATE:20270529
 SUMMARY:51è Gran Premi Sènior de Catalunya "Pentagonal" 2027 (Gaudí)
-LOCATION:Gaudí Reus Golf Club
+LOCATION:Gaudí Reus Golf Club\, Reus\, Tarragona
 DESCRIPTION:Senior - Individual\nFicha oficial: https://www.catgolf.com/es/
  campeonatos/51e-gran-premi-senior-de-catalunya-pentagonal-2027-gaudi-2027-
  05-26\nConfirma fechas y condiciones en la web del organizador. Vía Bande

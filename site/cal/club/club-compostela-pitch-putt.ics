@@ -11,11 +11,11 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:24ba9cdb23cc1b8f7490@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Benjamines-Final Liga Gallega Juvenil Sub-18
-LOCATION:Club Compostela Pitch & Putt
+LOCATION:Club Compostela Pitch & Putt\, A Sionlla\, A Coruña
 DESCRIPTION:Juvenil - Medal Play - Individual\nInscripción: abre el 17 de 
  noviembre\, cierra el 24 de noviembre.\nFicha oficial: https://www.golfdir
  ecto.com/micro/game/6a55dbcf0a8b1b9e07dbe5cb/summary\nConfirma fechas y co
@@ -26,11 +26,11 @@ URL:https://www.golfdirecto.com/micro/game/6a55dbcf0a8b1b9e07dbe5cb/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:28d62a580c50b325a9c4@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Final Liga Gallega Juvenil Sub-18
-LOCATION:Club Compostela Pitch & Putt
+LOCATION:Club Compostela Pitch & Putt\, A Sionlla\, A Coruña
 DESCRIPTION:Juvenil - Medal Play - Individual\nInscripción: abre el 17 de 
  noviembre\, cierra el 24 de noviembre.\nFicha oficial: https://www.golfdir
  ecto.com/micro/game/6943eb634d9bda753002bebf/summary\nConfirma fechas y co

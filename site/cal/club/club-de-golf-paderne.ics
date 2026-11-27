@@ -11,11 +11,11 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:d36cf42c8abf6dc839c4@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261218
 DTEND;VALUE=DATE:20261221
 SUMMARY:Torneo Navidad 2026
-LOCATION:Club de Golf Paderne
+LOCATION:Club de Golf Paderne\, Paderne (san Xoan)\, A Coruña
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   26 de noviembre\, cierra el 17 de diciembre.\nFicha oficial: https://www.
  golfdirecto.com/micro/game/6b081bef33682f5705bd307b/summary\nConfirma fech
@@ -26,11 +26,11 @@ URL:https://www.golfdirecto.com/micro/game/6b081bef33682f5705bd307b/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:c1189602ff217e88c07e@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261231
 DTEND;VALUE=DATE:20270101
 SUMMARY:Torneo Fin de Año
-LOCATION:Club de Golf Paderne
+LOCATION:Club de Golf Paderne\, Paderne (san Xoan)\, A Coruña
 DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
  //www.golfdirecto.com/micro/game/6949740fd6b8a9e4131109ad/summary\nConfirm
  a fechas y condiciones en la web del organizador. Vía Banderín.

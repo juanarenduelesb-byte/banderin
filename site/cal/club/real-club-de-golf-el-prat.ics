@@ -11,11 +11,11 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:5bd8e41709d6e12683a5@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270222
 DTEND;VALUE=DATE:20270224
 SUMMARY:Campionat de Catalunya de Professionals 2027 (Catprotour)
-LOCATION:Real Club de Golf El Prat
+LOCATION:Real Club de Golf El Prat\, Terrassa\, Barcelona
 DESCRIPTION:Profesional - Individual\nFicha oficial: https://www.catgolf.co
  m/es/campeonatos/campionat-de-catalunya-de-professionals-2027-catprotour-2
  027-02-22\nConfirma fechas y condiciones en la web del organizador. Vía B
@@ -27,11 +27,11 @@ URL:https://www.catgolf.com/es/campeonatos/campionat-de-catalunya-de-profes
 END:VEVENT
 BEGIN:VEVENT
 UID:d9fcfe25213198372c51@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270323
 DTEND;VALUE=DATE:20270325
 SUMMARY:I Puntuable Zonal Juvenil RFEG 2027
-LOCATION:Real Club de Golf El Prat
+LOCATION:Real Club de Golf El Prat\, Terrassa\, Barcelona
 DESCRIPTION:Juvenil - Individual\nFicha oficial: https://www.catgolf.com/es
  /campeonatos/i-puntuable-zonal-juvenil-rfeg-2027-2027-03-23\nConfirma fech
  as y condiciones en la web del organizador. Vía Banderín.

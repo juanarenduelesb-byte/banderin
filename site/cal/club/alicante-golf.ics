@@ -11,11 +11,11 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:dd8ff36d6bc36061644a@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261211
 DTEND;VALUE=DATE:20261212
 SUMMARY:SAS Stableford Eclectic - 108028
-LOCATION:Alicante Golf
+LOCATION:Alicante Golf\, Sant Joan\, Alicante
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   26 de noviembre\, cierra el 9 de diciembre.\nFicha oficial: https://www.g
  olfdirecto.com/micro/game/6aef0ab2e0349cc290a2b6e4/summary\nConfirma fecha
@@ -26,11 +26,11 @@ URL:https://www.golfdirecto.com/micro/game/6aef0ab2e0349cc290a2b6e4/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:3735b26cc5d8d271b866@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270205
 DTEND;VALUE=DATE:20270206
 SUMMARY:Alicante Stableford
-LOCATION:Alicante Golf
+LOCATION:Alicante Golf\, Sant Joan\, Alicante
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   19 de noviembre\, cierra el 2 de febrero.\nFicha oficial: https://www.gol
  fdirecto.com/micro/game/6b05fe526f9665f02201e5f9/summary\nConfirma fechas 

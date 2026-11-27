@@ -11,11 +11,11 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:79de1c81edd8e3d35837@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261218
 DTEND;VALUE=DATE:20261221
 SUMMARY:Torneig de NADAL - 9 Forats
-LOCATION:Golf de Caldes
+LOCATION:Golf de Caldes\, Caldes de Montbui\, Barcelona
 DESCRIPTION:Social de club - Individual\nFicha oficial: https://www.catgolf
  .com/es/campeonatos/torneig-de-nadal-9-forats-2026-12-18\nConfirma fechas 
  y condiciones en la web del organizador. Vía Banderín.
@@ -26,11 +26,11 @@ URL:https://www.catgolf.com/es/campeonatos/torneig-de-nadal-9-forats-2026-1
 END:VEVENT
 BEGIN:VEVENT
 UID:b4662249b3551db29647@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270731
 DTEND;VALUE=DATE:20270702
 SUMMARY:Circuit Nacional 5a Categoria 2027 (Caldes)
-LOCATION:Golf de Caldes
+LOCATION:Golf de Caldes\, Caldes de Montbui\, Barcelona
 DESCRIPTION:Absoluto - Individual\nFicha oficial: https://www.catgolf.com/e
  s/campeonatos/circuit-nacional-5a-categoria-2027-caldes-2027-07-31\nConfir
  ma fechas y condiciones en la web del organizador. Vía Banderín.
@@ -41,11 +41,11 @@ URL:https://www.catgolf.com/es/campeonatos/circuit-nacional-5a-categoria-20
 END:VEVENT
 BEGIN:VEVENT
 UID:128d686e0b087e2a3244@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270904
 DTEND;VALUE=DATE:20270906
 SUMMARY:15a Lliga Juvenil 2027
-LOCATION:Golf de Caldes
+LOCATION:Golf de Caldes\, Caldes de Montbui\, Barcelona
 DESCRIPTION:Juvenil - Individual\nFicha oficial: https://www.catgolf.com/es
  /campeonatos/15a-lliga-juvenil-2027-2027-09-04\nConfirma fechas y condicio
  nes en la web del organizador. Vía Banderín.

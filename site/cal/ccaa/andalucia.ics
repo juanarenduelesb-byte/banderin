@@ -11,11 +11,11 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:b9926303683627648ea2@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261128
 SUMMARY:Triple A European Classic
-LOCATION:The San Roque Club
+LOCATION:The San Roque Club\, San Roque\, Cádiz
 DESCRIPTION:Social de club - Medal Play - Individual\nFicha oficial: https:
  //www.golfdirecto.com/micro/game/6b06f9c52e603a2faf02cd29/summary\nConfirm
  a fechas y condiciones en la web del organizador. Vía Banderín.
@@ -25,7 +25,7 @@ URL:https://www.golfdirecto.com/micro/game/6b06f9c52e603a2faf02cd29/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:ef0818aa96daa548e0df@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261130
 SUMMARY:Andalucía Costa del Sol Open de España 2026
@@ -41,11 +41,11 @@ URL:https://rfegolf.es/competicion/andalucia-costa-del-sol-open-de-espana-p
 END:VEVENT
 BEGIN:VEVENT
 UID:3992e8bcd79878c78ba3@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:3ª Jornada Viernes XIV Liga Junior Golf 2026-2027
-LOCATION:Escuela Pública la Cartuja\, Sevilla
+LOCATION:Escuela Pública la Cartuja\, Sevilla\, Sevilla
 DESCRIPTION:Juvenil - Stableford - Individual\nFicha oficial: https://www.n
  extcaddy.com/tour/75559\nConfirma fechas y condiciones en la web del organ
  izador. Vía Banderín.
@@ -55,11 +55,11 @@ URL:https://www.nextcaddy.com/tour/75559
 END:VEVENT
 BEGIN:VEVENT
 UID:9df850283974da97faf5@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Amigos27/11/26
-LOCATION:Aguilon Golf
+LOCATION:Aguilon Golf\, Pilar de Jaravia\, Almería
 DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
  //www.golfdirecto.com/micro/game/6b08121015c29579972e60b3/summary\nConfirm
  a fechas y condiciones en la web del organizador. Vía Banderín.
@@ -69,11 +69,11 @@ URL:https://www.golfdirecto.com/micro/game/6b08121015c29579972e60b3/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:392702c7b07edeb7c8d8@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Club del Desayuno Viernes
-LOCATION:Real Club de Golf Guadalmina\, Salares
+LOCATION:Real Club de Golf Guadalmina\, Guadalmina\, Málaga
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   26 de noviembre\, cierra el 26 de noviembre.\nPrecio: Gratis.\nFicha ofic
  ial: https://www.nextcaddy.com/tour/75657\nConfirma fechas y condiciones e
@@ -84,11 +84,11 @@ URL:https://www.nextcaddy.com/tour/75657
 END:VEVENT
 BEGIN:VEVENT
 UID:90cea8211033ca857c2c@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Dirty Dozen 27/11/2026
-LOCATION:Lauro Golf\, Alhaurín de la Torre
+LOCATION:Lauro Golf\, Alhaurin de la Torre\, Málaga
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   26 de noviembre\, cierra el 26 de noviembre.\nPrecio: Gratis.\nFicha ofic
  ial: https://www.nextcaddy.com/tour/75645\nConfirma fechas y condiciones e
@@ -99,11 +99,11 @@ URL:https://www.nextcaddy.com/tour/75645
 END:VEVENT
 BEGIN:VEVENT
 UID:4f90153eb7003d4ad688@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Friday Club Heathland
-LOCATION:La Hacienda Links Golf Resort
+LOCATION:La Hacienda Links Golf Resort\, San Roque\, Cádiz
 DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
  //www.golfdirecto.com/micro/game/6b06c6642638d23287f62e67/summary\nConfirm
  a fechas y condiciones en la web del organizador. Vía Banderín.
@@ -113,11 +113,11 @@ URL:https://www.golfdirecto.com/micro/game/6b06c6642638d23287f62e67/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:656a446e90a8af4062af@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Friday Club Links
-LOCATION:La Hacienda Links Golf Resort
+LOCATION:La Hacienda Links Golf Resort\, San Roque\, Cádiz
 DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
  //www.golfdirecto.com/micro/game/6b092f89156256dec5b65699/summary\nConfirm
  a fechas y condiciones en la web del organizador. Vía Banderín.
@@ -127,11 +127,11 @@ URL:https://www.golfdirecto.com/micro/game/6b092f89156256dec5b65699/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:f23816452490e1a2cb35@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Jornada Tirantes Verdes 27/11/26
-LOCATION:Escuela Pública la Cartuja\, Sevilla
+LOCATION:Escuela Pública la Cartuja\, Sevilla\, Sevilla
 DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
  //www.nextcaddy.com/tour/75649\nConfirma fechas y condiciones en la web de
  l organizador. Vía Banderín.
@@ -141,11 +141,11 @@ URL:https://www.nextcaddy.com/tour/75649
 END:VEVENT
 BEGIN:VEVENT
 UID:eddb30fb664e758ca513@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Preboda Miriam y Juan (Four Ball Stableford)
-LOCATION:Sherry Golf Jerez\, Jerez de la Frontera
+LOCATION:Sherry Golf Jerez\, Jerez de la Frontera\, Cádiz
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   26 de noviembre\, cierra el 26 de noviembre.\nPrecio: Gratis.\nFicha ofic
  ial: https://www.nextcaddy.com/tour/75661\nConfirma fechas y condiciones e
@@ -156,11 +156,11 @@ URL:https://www.nextcaddy.com/tour/75661
 END:VEVENT
 BEGIN:VEVENT
 UID:0da908a741d633802f2f@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Scandic Viernes
-LOCATION:Real Club de Golf Guadalmina\, Salares
+LOCATION:Real Club de Golf Guadalmina\, Guadalmina\, Málaga
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   26 de noviembre\, cierra el 26 de noviembre.\nPrecio: Gratis.\nFicha ofic
  ial: https://www.nextcaddy.com/tour/75654\nConfirma fechas y condiciones e
@@ -171,11 +171,11 @@ URL:https://www.nextcaddy.com/tour/75654
 END:VEVENT
 BEGIN:VEVENT
 UID:c64cb4e658fddf7a6d7f@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Signature Tournament - Otoño / Autumn
-LOCATION:Club de Golf la Reserva de Sotogrande
+LOCATION:Club de Golf la Reserva de Sotogrande\, Sotogrande\, Cádiz
 DESCRIPTION:Circuito comercial - Stableford - Individual\nInscripción: abr
  e el 27 de octubre\, cierra el 26 de noviembre.\nFicha oficial: https://ww
  w.golfdirecto.com/micro/game/6953caad1a52f0e9fd92bb7d/summary\nConfirma fe
@@ -186,11 +186,11 @@ URL:https://www.golfdirecto.com/micro/game/6953caad1a52f0e9fd92bb7d/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:0c52044111f97dafa7e9@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Torneo Golf Divino
-LOCATION:Club Zaudín Golf\, Tomares
+LOCATION:Club Zaudín Golf\, Tomares\, Sevilla
 DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
  //www.nextcaddy.com/tour/75604\nConfirma fechas y condiciones en la web de
  l organizador. Vía Banderín.
@@ -200,11 +200,11 @@ URL:https://www.nextcaddy.com/tour/75604
 END:VEVENT
 BEGIN:VEVENT
 UID:959e077f54cebd8696ba@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Torneo Jubilados y Simpatizantes Navidad 2026
-LOCATION:Club de Golf Bellavista\, Aljaraque
+LOCATION:Club de Golf Bellavista\, Aljaraque\, Huelva
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   25 de noviembre\, cierra el 25 de noviembre.\nPrecio: Gratis.\nFicha ofic
  ial: https://www.nextcaddy.com/tour/75599\nConfirma fechas y condiciones e
@@ -215,11 +215,11 @@ URL:https://www.nextcaddy.com/tour/75599
 END:VEVENT
 BEGIN:VEVENT
 UID:562d6c0278feb193a952@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Torneo de Navidad Jerez Club de Golf (viernes 27 - Torneo Privado)
-LOCATION:Sherry Golf Jerez\, Jerez de la Frontera
+LOCATION:Sherry Golf Jerez\, Jerez de la Frontera\, Cádiz
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   11 de noviembre\, cierra el 26 de noviembre.\nPrecio: 32 €.\nFicha ofic
  ial: https://www.nextcaddy.com/tour/74816\nConfirma fechas y condiciones e
@@ -230,11 +230,11 @@ URL:https://www.nextcaddy.com/tour/74816
 END:VEVENT
 BEGIN:VEVENT
 UID:3cff22bb3faab0082b36@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:X Torneo Hdad. de la Quinta Angustia
-LOCATION:Real Club Pineda de Sevilla\, Sevilla
+LOCATION:Real Club Pineda de Sevilla\, Sevilla\, Sevilla
 DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
  //www.nextcaddy.com/tour/75623\nConfirma fechas y condiciones en la web de
  l organizador. Vía Banderín.
@@ -244,11 +244,11 @@ URL:https://www.nextcaddy.com/tour/75623
 END:VEVENT
 BEGIN:VEVENT
 UID:ad5c3d2a193995862d72@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Ybb Parador de Málaga
-LOCATION:Parador Málaga del Golf
+LOCATION:Parador Málaga del Golf\, Malaga\, Málaga
 DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
  //www.golfdirecto.com/micro/game/6b06bab79b4f2a62b854a721/summary\nConfirm
  a fechas y condiciones en la web del organizador. Vía Banderín.
@@ -258,11 +258,11 @@ URL:https://www.golfdirecto.com/micro/game/6b06bab79b4f2a62b854a721/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:5b31254eb077c2dcfd06@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:1º torneo III Liga CMS y Ventanas Kömmerling
-LOCATION:Antequera Golf\, Antequera
+LOCATION:Antequera Golf\, Antequera\, Málaga
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   19 de noviembre\, cierra el 27 de noviembre.\nPrecio: Gratis.\nFicha ofic
  ial: https://www.nextcaddy.com/tour/75470\nConfirma fechas y condiciones e
@@ -273,11 +273,12 @@ URL:https://www.nextcaddy.com/tour/75470
 END:VEVENT
 BEGIN:VEVENT
 UID:5e8823f80a474c7cfdb8@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:2ª P. Circuito Infantil B.K. 18 HOYOS 28-11-26
-LOCATION:Real Club de Golf Vista Hermosa\, Puerto de Santa María\, El
+LOCATION:Real Club de Golf Vista Hermosa\, El Puerto de Santa Maria\, Cádi
+ z
 DESCRIPTION:Juvenil - Stableford - Individual\nPrecio: 10 €.\nFicha ofici
  al: https://www.nextcaddy.com/tour/75606\nConfirma fechas y condiciones en
   la web del organizador. Vía Banderín.
@@ -287,11 +288,12 @@ URL:https://www.nextcaddy.com/tour/75606
 END:VEVENT
 BEGIN:VEVENT
 UID:8ed049a4cdcce2cb2d30@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:2ª P. Circuito Infantil B.K. 5P3 HOYOS 28-11-26
-LOCATION:Real Club de Golf Vista Hermosa\, Puerto de Santa María\, El
+LOCATION:Real Club de Golf Vista Hermosa\, El Puerto de Santa Maria\, Cádi
+ z
 DESCRIPTION:Juvenil - Medal Play - Individual\nPrecio: 10 €.\nFicha ofici
  al: https://www.nextcaddy.com/tour/75611\nConfirma fechas y condiciones en
   la web del organizador. Vía Banderín.
@@ -301,11 +303,12 @@ URL:https://www.nextcaddy.com/tour/75611
 END:VEVENT
 BEGIN:VEVENT
 UID:81b7a4c8cd599c1e916f@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:2ª P. Circuito Infantil B.K. 9 HOYOS 28-11-26
-LOCATION:Real Club de Golf Vista Hermosa\, Puerto de Santa María\, El
+LOCATION:Real Club de Golf Vista Hermosa\, El Puerto de Santa Maria\, Cádi
+ z
 DESCRIPTION:Juvenil - Stableford - Individual\nPrecio: 10 €.\nFicha ofici
  al: https://www.nextcaddy.com/tour/75608\nConfirma fechas y condiciones en
   la web del organizador. Vía Banderín.
@@ -315,11 +318,12 @@ URL:https://www.nextcaddy.com/tour/75608
 END:VEVENT
 BEGIN:VEVENT
 UID:584f395a5bdf458c61cd@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:2ª P. Circuito Infantil B.K. 9P3 HOYOS 28-11-26
-LOCATION:Real Club de Golf Vista Hermosa\, Puerto de Santa María\, El
+LOCATION:Real Club de Golf Vista Hermosa\, El Puerto de Santa Maria\, Cádi
+ z
 DESCRIPTION:Juvenil - Stableford - Individual\nPrecio: 10 €.\nFicha ofici
  al: https://www.nextcaddy.com/tour/75610\nConfirma fechas y condiciones en
   la web del organizador. Vía Banderín.
@@ -329,11 +333,11 @@ URL:https://www.nextcaddy.com/tour/75610
 END:VEVENT
 BEGIN:VEVENT
 UID:2ddeae81ca68d03491ec@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:2ª Prueba Liga Senior Jlr-Gysa 28/11/2026
-LOCATION:Real Club de Campo de Cordoba\, Córdoba
+LOCATION:Real Club de Campo de Cordoba\, Cordoba\, Córdoba
 DESCRIPTION:Senior - Stableford - Individual\nFicha oficial: https://www.ne
  xtcaddy.com/tour/75507\nConfirma fechas y condiciones en la web del organi
  zador. Vía Banderín.
@@ -343,11 +347,11 @@ URL:https://www.nextcaddy.com/tour/75507
 END:VEVENT
 BEGIN:VEVENT
 UID:6b7b7fccbb6c70c75d44@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:3ª Jornada Sábado XIV Liga Junior Golf 2026-2027
-LOCATION:Escuela Pública la Cartuja\, Sevilla
+LOCATION:Escuela Pública la Cartuja\, Sevilla\, Sevilla
 DESCRIPTION:Juvenil - Stableford - Individual\nFicha oficial: https://www.n
  extcaddy.com/tour/75560\nConfirma fechas y condiciones en la web del organ
  izador. Vía Banderín.
@@ -357,11 +361,11 @@ URL:https://www.nextcaddy.com/tour/75560
 END:VEVENT
 BEGIN:VEVENT
 UID:532b63c6153495bdd760@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:3ª Jornada VIII Liga Junior P&P Golf Otoño 2026-2027
-LOCATION:Escuela Pública la Cartuja\, Sevilla
+LOCATION:Escuela Pública la Cartuja\, Sevilla\, Sevilla
 DESCRIPTION:Juvenil - Stableford - Individual\nFicha oficial: https://www.n
  extcaddy.com/tour/75563\nConfirma fechas y condiciones en la web del organ
  izador. Vía Banderín.
@@ -371,11 +375,11 @@ URL:https://www.nextcaddy.com/tour/75563
 END:VEVENT
 BEGIN:VEVENT
 UID:c481dc3924a0a6dc9d46@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:7ª Prueba Ranking Social 28/11/26
-LOCATION:Sancti Petri Hills Golf\, Chiclana de la Frontera
+LOCATION:Sancti Petri Hills Golf\, Chiclana de la Frontera\, Cádiz
 DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
  //www.nextcaddy.com/tour/75656\nConfirma fechas y condiciones en la web de
  l organizador. Vía Banderín.
@@ -385,11 +389,11 @@ URL:https://www.nextcaddy.com/tour/75656
 END:VEVENT
 BEGIN:VEVENT
 UID:c4e4c3cd899496012b57@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Amigosmiraflroes2811
-LOCATION:Miraflores Golf\, Mijas
+LOCATION:Miraflores Golf\, Mijas Costa\, Málaga
 DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
  //www.nextcaddy.com/tour/75663\nConfirma fechas y condiciones en la web de
  l organizador. Vía Banderín.
@@ -399,11 +403,11 @@ URL:https://www.nextcaddy.com/tour/75663
 END:VEVENT
 BEGIN:VEVENT
 UID:09edfe8756bf522e9914@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Campeonato Andalucía Interclubs Infantil y Cadete
-LOCATION:Lauro Golf\, Alhaurín de la Torre
+LOCATION:Lauro Golf\, Alhaurin de la Torre\, Málaga
 DESCRIPTION:Juvenil - Medal Play - Equipos\nFicha oficial: https://www.next
  caddy.com/tour/61215\nConfirma fechas y condiciones en la web del organiza
  dor. Vía Banderín.
@@ -413,11 +417,11 @@ URL:https://www.nextcaddy.com/tour/61215
 END:VEVENT
 BEGIN:VEVENT
 UID:a5416099b53488c464c7@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Campeonato Andalucía MASC Categoría Mid Amateur
-LOCATION:Montecastillo Barceló Golf Club\, Jerez de la Frontera
+LOCATION:Montecastillo Barceló Golf Club\, Jerez de la Frontera\, Cádiz
 DESCRIPTION:Mid-Amateur - Medal Play - Individual\nInscripción: abre el 3 
  de noviembre\, cierra el 25 de noviembre.\nPrecio: 100 €.\nFicha oficial
  : https://www.nextcaddy.com/tour/61247\nConfirma fechas y condiciones en l
@@ -428,11 +432,11 @@ URL:https://www.nextcaddy.com/tour/61247
 END:VEVENT
 BEGIN:VEVENT
 UID:100ff46b5a1c3566dee3@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Captains Cup & Dinner 4 Bbb Sur
-LOCATION:Real Club de Golf Guadalmina\, Salares
+LOCATION:Real Club de Golf Guadalmina\, Guadalmina\, Málaga
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   26 de noviembre\, cierra el 26 de noviembre.\nPrecio: Gratis.\nFicha ofic
  ial: https://www.nextcaddy.com/tour/75660\nConfirma fechas y condiciones e
@@ -443,11 +447,11 @@ URL:https://www.nextcaddy.com/tour/75660
 END:VEVENT
 BEGIN:VEVENT
 UID:abb31c71a4d68cfb8a26@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261130
 SUMMARY:Final Matchplay Parejas 2026
-LOCATION:Villa Padierna Golf Club
+LOCATION:Villa Padierna Golf Club\, Benahavis\, Málaga
 DESCRIPTION:Social de club - Fourball - Parejas\nFicha oficial: https://www
  .golfdirecto.com/micro/game/69a4caf0a5c98bfc698183f6/summary\nConfirma fec
  has y condiciones en la web del organizador. Vía Banderín.
@@ -457,11 +461,11 @@ URL:https://www.golfdirecto.com/micro/game/69a4caf0a5c98bfc698183f6/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:ad4fa5bfe3a24d8bc445@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:I Major por Parejas
-LOCATION:Isla Canela Old Course\, Ayamonte
+LOCATION:Isla Canela Old Course\, Ayamonte\, Huelva
 DESCRIPTION:Social de club - Stableford - Parejas\nInscripción: abre el 16
   de noviembre\, cierra el 26 de noviembre.\nPrecio: 70 €.\nFicha oficial
  : https://www.nextcaddy.com/tour/75390\nConfirma fechas y condiciones en l
@@ -472,11 +476,11 @@ URL:https://www.nextcaddy.com/tour/75390
 END:VEVENT
 BEGIN:VEVENT
 UID:ffc8167006b1a593bb1b@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:II Copa Iniciación - BMW San Rafael Motor
-LOCATION:La Loma Golf
+LOCATION:La Loma Golf\, Cordoba\, Córdoba
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   13 de octubre\, cierra el 27 de noviembre.\nFicha oficial: https://www.go
  lfdirecto.com/micro/game/6ace11d13189133e5a976bd2/summary\nConfirma fechas
@@ -487,11 +491,11 @@ URL:https://www.golfdirecto.com/micro/game/6ace11d13189133e5a976bd2/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:ca92ddc66e8df6ba9312@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:III Torneo Academia Infantil 2026-2027 - 1ª Categoría
-LOCATION:Escuela de Golf Miguel ángel Jiménez\, Torremolinos
+LOCATION:Escuela de Golf Miguel ángel Jiménez\, Torremolinos\, Málaga
 DESCRIPTION:Juvenil - Stableford - Individual\nInscripción: abre el 1 de n
  oviembre\, cierra el 25 de noviembre.\nPrecio: 18 €.\nFicha oficial: htt
  ps://www.nextcaddy.com/tour/74915\nConfirma fechas y condiciones en la web
@@ -502,11 +506,11 @@ URL:https://www.nextcaddy.com/tour/74915
 END:VEVENT
 BEGIN:VEVENT
 UID:d228e939bbb1cb1fe924@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:III Torneo Academia Infantil 2026-2027 - 2ª y 3ª Categoría
-LOCATION:Escuela de Golf Miguel ángel Jiménez\, Torremolinos
+LOCATION:Escuela de Golf Miguel ángel Jiménez\, Torremolinos\, Málaga
 DESCRIPTION:Juvenil - Stableford - Individual\nInscripción: abre el 1 de n
  oviembre\, cierra el 25 de noviembre.\nPrecio: 13 €.\nFicha oficial: htt
  ps://www.nextcaddy.com/tour/74916\nConfirma fechas y condiciones en la web
@@ -517,11 +521,11 @@ URL:https://www.nextcaddy.com/tour/74916
 END:VEVENT
 BEGIN:VEVENT
 UID:46ccadafd788abc55785@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:III Torneo Academia Infantil 2026-2027 - 4ª Categoría
-LOCATION:Escuela de Golf Miguel ángel Jiménez\, Torremolinos
+LOCATION:Escuela de Golf Miguel ángel Jiménez\, Torremolinos\, Málaga
 DESCRIPTION:Juvenil - Stableford - Individual\nInscripción: abre el 1 de n
  oviembre\, cierra el 25 de noviembre.\nPrecio: 8 €.\nFicha oficial: http
  s://www.nextcaddy.com/tour/74917\nConfirma fechas y condiciones en la web 
@@ -532,11 +536,11 @@ URL:https://www.nextcaddy.com/tour/74917
 END:VEVENT
 BEGIN:VEVENT
 UID:8355281cafa9960bd57b@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:IV Torneo Jesus Castizo
-LOCATION:la Monacilla Golf Club\, Aljaraque
+LOCATION:la Monacilla Golf Club\, Corrales\, Huelva
 DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
  //www.nextcaddy.com/tour/74751\nConfirma fechas y condiciones en la web de
  l organizador. Vía Banderín.
@@ -546,11 +550,11 @@ URL:https://www.nextcaddy.com/tour/74751
 END:VEVENT
 BEGIN:VEVENT
 UID:56573bd9fe76788aed67@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:IV Torneo Jésica Reyes
-LOCATION:Golf Torrequebrada\, Benalmádena
+LOCATION:Golf Torrequebrada\, Benalmadena Costa\, Málaga
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   4 de noviembre\, cierra el 27 de noviembre.\nPrecio: 85 €.\nFicha ofici
  al: https://www.nextcaddy.com/tour/71874\nConfirma fechas y condiciones en
@@ -561,11 +565,11 @@ URL:https://www.nextcaddy.com/tour/71874
 END:VEVENT
 BEGIN:VEVENT
 UID:22f854cd70da91ef4548@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Interclub Olivares-Moriscos
-LOCATION:Los Moriscos Club de Golf\, Motril
+LOCATION:Los Moriscos Club de Golf\, Motril\, Granada
 DESCRIPTION:Clubes y equipos - Stableford - Equipos\nFicha oficial: https:/
  /www.nextcaddy.com/tour/75576\nConfirma fechas y condiciones en la web del
   organizador. Vía Banderín.
@@ -575,11 +579,11 @@ URL:https://www.nextcaddy.com/tour/75576
 END:VEVENT
 BEGIN:VEVENT
 UID:56a4d308e7bf139d2e6e@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Leclub - Somabay World Cup
-LOCATION:Club Hato Verde\, Guillena
+LOCATION:Club Hato Verde\, Las Pajanosas\, Sevilla
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   17 de noviembre\, cierra el 27 de noviembre.\nPrecio: 39 €.\nFicha ofic
  ial: https://www.nextcaddy.com/tour/75424\nConfirma fechas y condiciones e
@@ -590,11 +594,11 @@ URL:https://www.nextcaddy.com/tour/75424
 END:VEVENT
 BEGIN:VEVENT
 UID:f9bf65748ae9fb2ced3a@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Liga II Banderas Par 3
-LOCATION:Alhaurín Golf Hotel & Resort\, Alhaurín el Grande
+LOCATION:Alhaurín Golf Hotel & Resort\, Alhaurín el Grande\, Málaga
 DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
  //www.nextcaddy.com/tour/75621\nConfirma fechas y condiciones en la web de
  l organizador. Vía Banderín.
@@ -604,11 +608,11 @@ URL:https://www.nextcaddy.com/tour/75621
 END:VEVENT
 BEGIN:VEVENT
 UID:76deb0c3427f8e4d8650@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Liga Iniación IV Prueba
-LOCATION:Arruzafa Golf
+LOCATION:Arruzafa Golf\, Cordoba\, Córdoba
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   17 de noviembre\, cierra el 26 de noviembre.\nFicha oficial: https://www.
  golfdirecto.com/micro/game/6aad19a9bbc718cf57dd0a1f/summary\nConfirma fech
@@ -619,11 +623,11 @@ URL:https://www.golfdirecto.com/micro/game/6aad19a9bbc718cf57dd0a1f/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:10e3d398488d7085acdc@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Liga de Principiantes 26/27\, Jornada 1
-LOCATION:Club de Golf Pozoblanco\, Pozoblanco
+LOCATION:Club de Golf Pozoblanco\, Pozoblanco\, Córdoba
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   25 de noviembre\, cierra el 27 de noviembre.\nPrecio: Gratis.\nFicha ofic
  ial: https://www.nextcaddy.com/tour/75658\nConfirma fechas y condiciones e
@@ -634,11 +638,11 @@ URL:https://www.nextcaddy.com/tour/75658
 END:VEVENT
 BEGIN:VEVENT
 UID:276efc06f99bd5df8305@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Memorial Day Tournament
-LOCATION:Desert Springs Golf Club
+LOCATION:Desert Springs Golf Club\, Las Cunas\, Almería
 DESCRIPTION:Circuito comercial - Stableford - Individual\nInscripción: abr
  e el 21 de junio\, cierra el 26 de noviembre.\nFicha oficial: https://www.
  golfdirecto.com/micro/game/6856b2cc9147670615607ef6/summary\nConfirma fech
@@ -649,11 +653,11 @@ URL:https://www.golfdirecto.com/micro/game/6856b2cc9147670615607ef6/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:adfda511a00407c118b9@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Pairs Greensomes
-LOCATION:Miraflores Golf
+LOCATION:Miraflores Golf\, Mijas Costa\, Málaga
 DESCRIPTION:Social de club - Greensome - Parejas\nInscripción: abre el 19 
  de noviembre\, cierra el 26 de noviembre.\nFicha oficial: https://www.golf
  directo.com/micro/game/6afecda6fa1568a5cdf78190/summary\nConfirma fechas y
@@ -664,11 +668,11 @@ URL:https://www.golfdirecto.com/micro/game/6afecda6fa1568a5cdf78190/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:eda4c8c9b7231b9298e8@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Pool 2019 Noviembre
-LOCATION:Granada Club de Golf
+LOCATION:Granada Club de Golf\, Las Gabias\, Granada
 DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
  //www.golfdirecto.com/micro/game/6b070db62638d23287eb9cb2/summary\nConfirm
  a fechas y condiciones en la web del organizador. Vía Banderín.
@@ -678,11 +682,11 @@ URL:https://www.golfdirecto.com/micro/game/6b070db62638d23287eb9cb2/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:c08ff14e29418710a734@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Pool Juan Pedro Montijano
-LOCATION:Granada Club de Golf
+LOCATION:Granada Club de Golf\, Las Gabias\, Granada
 DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
  //www.golfdirecto.com/micro/game/6b06d5b62638d23287088393/summary\nConfirm
  a fechas y condiciones en la web del organizador. Vía Banderín.
@@ -692,11 +696,11 @@ URL:https://www.golfdirecto.com/micro/game/6b06d5b62638d23287088393/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:0017bc620adbb312e8d9@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Pool Tpc las Gabias
-LOCATION:Granada Club de Golf
+LOCATION:Granada Club de Golf\, Las Gabias\, Granada
 DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
  //www.golfdirecto.com/micro/game/6b0823d76549a3fb78e3f5c9/summary\nConfirm
  a fechas y condiciones en la web del organizador. Vía Banderín.
@@ -706,11 +710,11 @@ URL:https://www.golfdirecto.com/micro/game/6b0823d76549a3fb78e3f5c9/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:8850521a81ccebdf22c8@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Ryder Raufer Cup Aguilon By Reale Galpe Seguros
-LOCATION:Aguilon Golf
+LOCATION:Aguilon Golf\, Pilar de Jaravia\, Almería
 DESCRIPTION:Social de club - Fourball - Parejas\nFicha oficial: https://www
  .golfdirecto.com/micro/game/6adcbc4cc98c39027759840e/summary\nConfirma fec
  has y condiciones en la web del organizador. Vía Banderín.
@@ -720,7 +724,7 @@ URL:https://www.golfdirecto.com/micro/game/6adcbc4cc98c39027759840e/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:85c5b55a7dabdd488a18@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Torneo Benéfico Contra el Cancer Aecc
@@ -735,11 +739,11 @@ URL:https://www.nextcaddy.com/tour/75319
 END:VEVENT
 BEGIN:VEVENT
 UID:9fe12405eb556a616a10@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Torneo Mensual Costa del Sol Golf Club
-LOCATION:Parador Málaga del Golf\, Málaga
+LOCATION:Parador Málaga del Golf\, Malaga\, Málaga
 DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
  //www.nextcaddy.com/tour/75422\nConfirma fechas y condiciones en la web de
  l organizador. Vía Banderín.
@@ -749,11 +753,11 @@ URL:https://www.nextcaddy.com/tour/75422
 END:VEVENT
 BEGIN:VEVENT
 UID:6c4b1cb09e391d785a11@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Torneo Ranking (Absoluto)
-LOCATION:Club de Golf la Cañada\, San Roque
+LOCATION:Club de Golf la Cañada\, Guadiaro\, Cádiz
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   28 de octubre\, cierra el 26 de noviembre.\nPrecio: 35 €.\nFicha oficia
  l: https://www.nextcaddy.com/tour/71988\nConfirma fechas y condiciones en 
@@ -764,11 +768,11 @@ URL:https://www.nextcaddy.com/tour/71988
 END:VEVENT
 BEGIN:VEVENT
 UID:a19c4462848814a5a2e9@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Torneo Senior Otoño Costa del Sol
-LOCATION:Santa María Golf & Country Club\, Marbella
+LOCATION:Santa María Golf & Country Club\, Marbella\, Málaga
 DESCRIPTION:Senior - Stableford - Individual\nInscripción: abre el 27 de o
  ctubre\, cierra el 23 de noviembre.\nPrecio: 75 €.\nFicha oficial: https
  ://www.nextcaddy.com/tour/61235\nConfirma fechas y condiciones en la web d
@@ -779,11 +783,11 @@ URL:https://www.nextcaddy.com/tour/61235
 END:VEVENT
 BEGIN:VEVENT
 UID:09e41575b0b29ba2e0be@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Torneo de Navidad 26
-LOCATION:Golf Nuevo Portil\, Cartaya
+LOCATION:Golf Nuevo Portil\, El Portil\, Huelva
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   23 de noviembre\, cierra el 23 de noviembre.\nPrecio: Gratis.\nFicha ofic
  ial: https://www.nextcaddy.com/tour/75549\nConfirma fechas y condiciones e
@@ -794,11 +798,11 @@ URL:https://www.nextcaddy.com/tour/75549
 END:VEVENT
 BEGIN:VEVENT
 UID:f59d4cae289f4388aad8@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Torneo de Navidad Jerez Club de Golf (Torneo Privado)
-LOCATION:Sherry Golf Jerez\, Jerez de la Frontera
+LOCATION:Sherry Golf Jerez\, Jerez de la Frontera\, Cádiz
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   11 de noviembre\, cierra el 25 de noviembre.\nPrecio: 32 €.\nFicha ofic
  ial: https://www.nextcaddy.com/tour/74814\nConfirma fechas y condiciones e
@@ -809,11 +813,11 @@ URL:https://www.nextcaddy.com/tour/74814
 END:VEVENT
 BEGIN:VEVENT
 UID:a74d82a112ec77d751ff@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:XI Copa Real Club Sevilla Golf 2026
-LOCATION:Real Club Sevilla Golf\, Alcalá de Guadaíra
+LOCATION:Real Club Sevilla Golf\, Alcala de Guadaira\, Sevilla
 DESCRIPTION:Social de club - Medal Play - Individual\nFicha oficial: https:
  //www.nextcaddy.com/tour/75521\nConfirma fechas y condiciones en la web de
  l organizador. Vía Banderín.
@@ -823,11 +827,11 @@ URL:https://www.nextcaddy.com/tour/75521
 END:VEVENT
 BEGIN:VEVENT
 UID:7ae898a0905dc856c755@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:XVII Torneo Open Fuengirola la Bandera
-LOCATION:El Chaparral Golf Club
+LOCATION:El Chaparral Golf Club\, Mijas Costa\, Málaga
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   30 de septiembre\, cierra el 27 de noviembre.\nFicha oficial: https://www
  .golfdirecto.com/micro/game/6abcb75fa2d0ff021a0d72d7/summary\nConfirma fec
@@ -838,11 +842,11 @@ URL:https://www.golfdirecto.com/micro/game/6abcb75fa2d0ff021a0d72d7/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:090e3f4dd31c0237ed6a@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:XVII Torneo de Golf Centro Juguete
-LOCATION:Alhaurín Golf Hotel & Resort\, Alhaurín el Grande
+LOCATION:Alhaurín Golf Hotel & Resort\, Alhaurín el Grande\, Málaga
 DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
  //www.nextcaddy.com/tour/75642\nConfirma fechas y condiciones en la web de
  l organizador. Vía Banderín.
@@ -852,11 +856,11 @@ URL:https://www.nextcaddy.com/tour/75642
 END:VEVENT
 BEGIN:VEVENT
 UID:fdb1e36efa4c17862d5c@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:XXIII Memorial Juan Ayoso
-LOCATION:Rota Club de Golf\, Rota
+LOCATION:Rota Club de Golf\, Rota Naval\, Cádiz
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   18 de noviembre\, cierra el 25 de noviembre.\nPrecio: Gratis.\nFicha ofic
  ial: https://www.nextcaddy.com/tour/75282\nConfirma fechas y condiciones e
@@ -867,11 +871,11 @@ URL:https://www.nextcaddy.com/tour/75282
 END:VEVENT
 BEGIN:VEVENT
 UID:02ffc9808b42c2b6a74b@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:11ª Jornada Camaleón Golf 26/27
-LOCATION:Isla Canela Old Course
+LOCATION:Isla Canela Old Course\, Ayamonte\, Huelva
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   22 de noviembre\, cierra el 27 de noviembre.\nFicha oficial: https://www.
  golfdirecto.com/micro/game/6afa0acc5445bc102935b69b/summary\nConfirma fech
@@ -882,11 +886,11 @@ URL:https://www.golfdirecto.com/micro/game/6afa0acc5445bc102935b69b/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:2d932bf7f9cdf2c02e10@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:11º Torneo Ranking Individual Cancelada Golf
-LOCATION:La Hacienda Links Golf Resort
+LOCATION:La Hacienda Links Golf Resort\, San Roque\, Cádiz
 DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
  //www.golfdirecto.com/micro/game/6b08259c15c29579979375ea/summary\nConfirm
  a fechas y condiciones en la web del organizador. Vía Banderín.
@@ -896,7 +900,7 @@ URL:https://www.golfdirecto.com/micro/game/6b08259c15c29579979375ea/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:91a6b62053794b847a0e@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:4 J. Circuito Vng 2026. Categoria Bronce (26\,1 - 36)
@@ -911,7 +915,7 @@ URL:https://www.nextcaddy.com/tour/75491
 END:VEVENT
 BEGIN:VEVENT
 UID:08e988f366fa736f0145@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:4 J. Circuito Vng 2026. Categoria Oro (0 - 14)
@@ -926,7 +930,7 @@ URL:https://www.nextcaddy.com/tour/75489
 END:VEVENT
 BEGIN:VEVENT
 UID:97bec0f15721a1c0e2fc@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:4 J. Circuito Vng 2026. Categoria Plata (14\,1 - 26)
@@ -941,11 +945,11 @@ URL:https://www.nextcaddy.com/tour/75490
 END:VEVENT
 BEGIN:VEVENT
 UID:29f09c728b9f4b56d622@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:6ª Jornada Domingo Liga Interna Golf Otoño 2026-2027
-LOCATION:Escuela Pública la Cartuja\, Sevilla
+LOCATION:Escuela Pública la Cartuja\, Sevilla\, Sevilla
 DESCRIPTION:Circuito comercial - Stableford - Individual\nFicha oficial: ht
  tps://www.nextcaddy.com/tour/75651\nConfirma fechas y condiciones en la we
  b del organizador. Vía Banderín.
@@ -955,11 +959,11 @@ URL:https://www.nextcaddy.com/tour/75651
 END:VEVENT
 BEGIN:VEVENT
 UID:0cecfdf70225440456e8@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Alamo Golf Society Team Championship Final Sponsored by Home Space.
-LOCATION:Desert Springs Golf Club
+LOCATION:Desert Springs Golf Club\, Las Cunas\, Almería
 DESCRIPTION:Social de club - Fourball - Parejas\nInscripción: abre el 3 de
   mayo\, cierra el 22 de noviembre.\nFicha oficial: https://www.golfdirecto
  .com/micro/game/69f6d8078c2f356495d1a3ed/summary\nConfirma fechas y condic
@@ -970,11 +974,11 @@ URL:https://www.golfdirecto.com/micro/game/69f6d8078c2f356495d1a3ed/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:c6aa3fd37faf2c28fb2e@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:II Torneo ZOF - Domingo 29 Noviembre 2026 (Grupo privado)
-LOCATION:Sherry Golf Jerez\, Jerez de la Frontera
+LOCATION:Sherry Golf Jerez\, Jerez de la Frontera\, Cádiz
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   10 de noviembre\, cierra el 26 de noviembre.\nPrecio: Gratis.\nFicha ofic
  ial: https://www.nextcaddy.com/tour/74623\nConfirma fechas y condiciones e
@@ -984,12 +988,26 @@ STATUS:CONFIRMED
 URL:https://www.nextcaddy.com/tour/74623
 END:VEVENT
 BEGIN:VEVENT
+UID:57a38df2746c0a5938d6@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:Lacala 2911
+LOCATION:Miraflores Golf\, Mijas Costa\, Málaga
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.nextcaddy.com/tour/75668\nConfirma fechas y condiciones en la web de
+ l organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nextcaddy.com/tour/75668
+END:VEVENT
+BEGIN:VEVENT
 UID:35e64dbaedd019e259fd@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Ladies Vs Men
-LOCATION:The San Roque Club
+LOCATION:The San Roque Club\, San Roque\, Cádiz
 DESCRIPTION:Social de club - Fourball - Parejas\nInscripción: abre el 19 d
  e enero\, cierra el 28 de noviembre.\nFicha oficial: https://www.golfdirec
  to.com/micro/game/696e37fd557fa34aa5eef03e/summary\nConfirma fechas y cond
@@ -1000,11 +1018,11 @@ URL:https://www.golfdirecto.com/micro/game/696e37fd557fa34aa5eef03e/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:37c6fb5afcd4bb8cef33@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Mejor Final ranking 2026
-LOCATION:El Paraíso Golf Club
+LOCATION:El Paraíso Golf Club\, Estepona\, Málaga
 DESCRIPTION:Social de club - Medal Play - Individual\nInscripción: abre el
   22 de noviembre\, cierra el 26 de noviembre.\nFicha oficial: https://www.
  golfdirecto.com/micro/game/6af56cafcb197af66b8e5366/summary\nConfirma fech
@@ -1015,11 +1033,11 @@ URL:https://www.golfdirecto.com/micro/game/6af56cafcb197af66b8e5366/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:76d45dd406f613107db7@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Torneo Joyeria Melanie & Claire
-LOCATION:Club de Golf Playa Serena
+LOCATION:Club de Golf Playa Serena\, Roquetas de Mar\, Almería
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   16 de noviembre\, cierra el 28 de noviembre.\nFicha oficial: https://www.
  golfdirecto.com/micro/game/6974877005a15f8d1994d407/summary\nConfirma fech
@@ -1030,11 +1048,11 @@ URL:https://www.golfdirecto.com/micro/game/6974877005a15f8d1994d407/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:2bf87257404d192cb876@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:secret pairs ind. stableford
-LOCATION:Santa María Golf & Country Club\, Marbella
+LOCATION:Santa María Golf & Country Club\, Marbella\, Málaga
 DESCRIPTION:Social de club - Stableford - Parejas\nInscripción: abre el 27
   de noviembre\, cierra el 27 de noviembre.\nPrecio: Gratis.\nFicha oficial
  : https://www.nextcaddy.com/tour/75665\nConfirma fechas y condiciones en l
@@ -1045,11 +1063,11 @@ URL:https://www.nextcaddy.com/tour/75665
 END:VEVENT
 BEGIN:VEVENT
 UID:ebf21e9dba90ee9aa708@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261201
 SUMMARY:6ª Jornada Lunes Liga Interna Golf Otoño 2026-2027
-LOCATION:Escuela Pública la Cartuja\, Sevilla
+LOCATION:Escuela Pública la Cartuja\, Sevilla\, Sevilla
 DESCRIPTION:Circuito comercial - Stableford - Individual\nFicha oficial: ht
  tps://www.nextcaddy.com/tour/75653\nConfirma fechas y condiciones en la we
  b del organizador. Vía Banderín.
@@ -1059,11 +1077,11 @@ URL:https://www.nextcaddy.com/tour/75653
 END:VEVENT
 BEGIN:VEVENT
 UID:efe337f0c64840c8b043@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261201
 SUMMARY:Alamo Golf Society Sponsored by Julie & Steve Crook
-LOCATION:Valle del Este Hotel Golf Spa
+LOCATION:Valle del Este Hotel Golf Spa\, Vera\, Almería
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   14 de septiembre\, cierra el 22 de noviembre.\nFicha oficial: https://www
  .golfdirecto.com/micro/game/6aa763add8e43faad755fec8/summary\nConfirma fec
@@ -1074,11 +1092,11 @@ URL:https://www.golfdirecto.com/micro/game/6aa763add8e43faad755fec8/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:7397bece75b6f4945317@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261201
 SUMMARY:Lunes al Golf Jornada 6 ( Mañana 9:30)
-LOCATION:Club Hato Verde\, Guillena
+LOCATION:Club Hato Verde\, Las Pajanosas\, Sevilla
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   24 de noviembre\, cierra el 29 de noviembre.\nPrecio: Gratis.\nFicha ofic
  ial: https://www.nextcaddy.com/tour/75586\nConfirma fechas y condiciones e
@@ -1089,11 +1107,11 @@ URL:https://www.nextcaddy.com/tour/75586
 END:VEVENT
 BEGIN:VEVENT
 UID:818c0e4736e7419fb57f@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261201
 SUMMARY:Lunes al Golf Jornada 6 ( Tarde 15:45)
-LOCATION:Club Hato Verde\, Guillena
+LOCATION:Club Hato Verde\, Las Pajanosas\, Sevilla
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   24 de noviembre\, cierra el 30 de noviembre.\nPrecio: Gratis.\nFicha ofic
  ial: https://www.nextcaddy.com/tour/75587\nConfirma fechas y condiciones e
@@ -1104,7 +1122,7 @@ URL:https://www.nextcaddy.com/tour/75587
 END:VEVENT
 BEGIN:VEVENT
 UID:3a79b22518cd5fb5fd9d@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261202
 SUMMARY:4ª Prueba Liga "Martes de P&P"
@@ -1119,11 +1137,11 @@ URL:https://www.nextcaddy.com/tour/75328
 END:VEVENT
 BEGIN:VEVENT
 UID:ffda1e7e6111c75c1474@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261202
 SUMMARY:5ª Prueba Circuito Seniors Otoño
-LOCATION:Real Club Pineda de Sevilla\, Sevilla
+LOCATION:Real Club Pineda de Sevilla\, Sevilla\, Sevilla
 DESCRIPTION:Senior - Stableford - Individual\nFicha oficial: https://www.ne
  xtcaddy.com/tour/75624\nConfirma fechas y condiciones en la web del organi
  zador. Vía Banderín.
@@ -1133,11 +1151,11 @@ URL:https://www.nextcaddy.com/tour/75624
 END:VEVENT
 BEGIN:VEVENT
 UID:504afcd772f3554f5288@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261202
 SUMMARY:FINAL Ranking Damas 2026
-LOCATION:Club de Golf la Cañada\, San Roque
+LOCATION:Club de Golf la Cañada\, Guadiaro\, Cádiz
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   1 de noviembre\, cierra el 28 de noviembre.\nPrecio: 35 €.\nFicha ofici
  al: https://www.nextcaddy.com/tour/75097\nConfirma fechas y condiciones en
@@ -1148,11 +1166,11 @@ URL:https://www.nextcaddy.com/tour/75097
 END:VEVENT
 BEGIN:VEVENT
 UID:e400ab137293fcf16778@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261202
 SUMMARY:Final Liga Senior 2026
-LOCATION:Real Club Sevilla Golf\, Alcalá de Guadaíra
+LOCATION:Real Club Sevilla Golf\, Alcala de Guadaira\, Sevilla
 DESCRIPTION:Senior - Stableford - Individual\nFicha oficial: https://www.ne
  xtcaddy.com/tour/75639\nConfirma fechas y condiciones en la web del organi
  zador. Vía Banderín.
@@ -1162,11 +1180,11 @@ URL:https://www.nextcaddy.com/tour/75639
 END:VEVENT
 BEGIN:VEVENT
 UID:44521a3a2d754d90191b@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261202
 SUMMARY:Ladies Tuesday Competition (Members)
-LOCATION:The San Roque Club
+LOCATION:The San Roque Club\, San Roque\, Cádiz
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   19 de enero\, cierra el 30 de noviembre.\nFicha oficial: https://www.golf
  directo.com/micro/game/696e38a3557fa34aa500fd8e/summary\nConfirma fechas y
@@ -1177,11 +1195,11 @@ URL:https://www.golfdirecto.com/micro/game/696e38a3557fa34aa500fd8e/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:c26279dce738fdc4e0e4@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261202
 SUMMARY:Liga Social Cab. Volvo Vypsa Heineken - Malaga Costa & Bebidas
-LOCATION:Real Guadalhorce Club de Golf
+LOCATION:Real Guadalhorce Club de Golf\, Campanillas\, Málaga
 DESCRIPTION:Social de club - Medal Play - Individual\nInscripción: abre el
   24 de noviembre\, cierra el 29 de noviembre.\nFicha oficial: https://www.
  golfdirecto.com/micro/game/6aaec74bea1573c17acf36ad/summary\nConfirma fech
@@ -1192,11 +1210,11 @@ URL:https://www.golfdirecto.com/micro/game/6aaec74bea1573c17acf36ad/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:600af5852c70bc6e6e52@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261202
 SUMMARY:Liguilla de Damas Día 01/12/2026
-LOCATION:Real Club de Campo de Cordoba\, Córdoba
+LOCATION:Real Club de Campo de Cordoba\, Cordoba\, Córdoba
 DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
  //www.nextcaddy.com/tour/75593\nConfirma fechas y condiciones en la web de
  l organizador. Vía Banderín.
@@ -1206,11 +1224,11 @@ URL:https://www.nextcaddy.com/tour/75593
 END:VEVENT
 BEGIN:VEVENT
 UID:6e56e51e6ddae7d7d1d3@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261202
 SUMMARY:Men'S Tuesday Competition (Members)
-LOCATION:The San Roque Club
+LOCATION:The San Roque Club\, San Roque\, Cádiz
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   19 de enero\, cierra el 30 de noviembre.\nFicha oficial: https://www.golf
  directo.com/micro/game/696e38d8557fa34aa5035d05/summary\nConfirma fechas y
@@ -1221,11 +1239,11 @@ URL:https://www.golfdirecto.com/micro/game/696e38d8557fa34aa5035d05/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:a448d7d6a41839b12946@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261202
 SUMMARY:Salida domingo
-LOCATION:Baviera Golf\, Vélez-Málaga
+LOCATION:Baviera Golf\, Caleta de Velez\, Málaga
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   25 de noviembre\, cierra el 25 de noviembre.\nPrecio: Gratis.\nFicha ofic
  ial: https://www.nextcaddy.com/tour/75622\nConfirma fechas y condiciones e
@@ -1236,11 +1254,11 @@ URL:https://www.nextcaddy.com/tour/75622
 END:VEVENT
 BEGIN:VEVENT
 UID:0d9725552dad218a6144@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261202
 SUMMARY:Skandinavisk Match 01/12
-LOCATION:Lauro Golf
+LOCATION:Lauro Golf\, Alhaurin de la Torre\, Málaga
 DESCRIPTION:Clubes y equipos - Stableford - Equipos\nInscripción: abre el 
  24 de noviembre\, cierra el 28 de noviembre.\nFicha oficial: https://www.g
  olfdirecto.com/micro/game/6adf575505d0e598f3a02fcf/summary\nConfirma fecha
@@ -1251,11 +1269,11 @@ URL:https://www.golfdirecto.com/micro/game/6adf575505d0e598f3a02fcf/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:47b9ab040bffdf9181b2@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261202
 DTEND;VALUE=DATE:20261203
 SUMMARY:6ª Prueba Liga Senior Mixta Iveco-Veimancha 25/11/2026
-LOCATION:Real Club de Campo de Cordoba\, Córdoba
+LOCATION:Real Club de Campo de Cordoba\, Cordoba\, Córdoba
 DESCRIPTION:Senior - Stableford - Individual\nFicha oficial: https://www.ne
  xtcaddy.com/tour/75638\nConfirma fechas y condiciones en la web del organi
  zador. Vía Banderín.
@@ -1265,11 +1283,11 @@ URL:https://www.nextcaddy.com/tour/75638
 END:VEVENT
 BEGIN:VEVENT
 UID:539ac21c95826c28c20e@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261202
 DTEND;VALUE=DATE:20261203
 SUMMARY:Christmas Pairs Scramble
-LOCATION:Miraflores Golf
+LOCATION:Miraflores Golf\, Mijas Costa\, Málaga
 DESCRIPTION:Social de club - Scramble - Parejas\nInscripción: abre el 19 d
  e noviembre\, cierra el 29 de noviembre.\nFicha oficial: https://www.golfd
  irecto.com/micro/game/6afec04be64dbfd6f4e5c194/summary\nConfirma fechas y 
@@ -1280,11 +1298,12 @@ URL:https://www.golfdirecto.com/micro/game/6afec04be64dbfd6f4e5c194/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:55a20ca45f741f4e887e@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261203
 DTEND;VALUE=DATE:20261204
 SUMMARY:Campeonato Andalucía de Profesionales Femenino
-LOCATION:Real Novo Sancti Petri Golf Club\, Chiclana de la Frontera
+LOCATION:Real Novo Sancti Petri Golf Club\, Chiclana de la Frontera\, Cádi
+ z
 DESCRIPTION:Profesional - Medal Play - Individual\nInscripción: abre el 12
   de noviembre\, cierra el 27 de noviembre.\nPrecio: 130 €.\nFicha oficia
  l: https://www.nextcaddy.com/tour/75274\nConfirma fechas y condiciones en 
@@ -1295,11 +1314,11 @@ URL:https://www.nextcaddy.com/tour/75274
 END:VEVENT
 BEGIN:VEVENT
 UID:d4a85e2580f6023ef2e0@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261203
 DTEND;VALUE=DATE:20261204
 SUMMARY:Ladies Thursday Competition (Members)
-LOCATION:The San Roque Club
+LOCATION:The San Roque Club\, San Roque\, Cádiz
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   19 de enero\, cierra el 2 de diciembre.\nFicha oficial: https://www.golfd
  irecto.com/micro/game/696e390c557fa34aa5072937/summary\nConfirma fechas y 
@@ -1310,11 +1329,11 @@ URL:https://www.golfdirecto.com/micro/game/696e390c557fa34aa5072937/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:eb87112cb5174b77ecd6@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261203
 DTEND;VALUE=DATE:20261204
 SUMMARY:Liga Social Damas Volvo Vypsa Heineken - Malaga Costa & Bebidas
-LOCATION:Real Guadalhorce Club de Golf
+LOCATION:Real Guadalhorce Club de Golf\, Campanillas\, Málaga
 DESCRIPTION:Social de club - Medal Play - Individual\nInscripción: abre el
   26 de noviembre\, cierra el 1 de diciembre.\nFicha oficial: https://www.g
  olfdirecto.com/micro/game/6aaec7e6ea1573c17af7336d/summary\nConfirma fecha
@@ -1325,11 +1344,11 @@ URL:https://www.golfdirecto.com/micro/game/6aaec7e6ea1573c17af7336d/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:b5a5ac858b7d860715ad@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261203
 DTEND;VALUE=DATE:20261204
 SUMMARY:Men'S Thursday Competition (Members)
-LOCATION:The San Roque Club
+LOCATION:The San Roque Club\, San Roque\, Cádiz
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   19 de enero\, cierra el 2 de diciembre.\nFicha oficial: https://www.golfd
  irecto.com/micro/game/696e394a557fa34aa5118f77/summary\nConfirma fechas y 
@@ -1340,11 +1359,11 @@ URL:https://www.golfdirecto.com/micro/game/696e394a557fa34aa5118f77/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:99697ad583908e1ffc16@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
 SUMMARY:Marbella Final Summum Business 2026
-LOCATION:Villa Padierna Golf Club
+LOCATION:Villa Padierna Golf Club\, Benahavis\, Málaga
 DESCRIPTION:Social de club - Fourball - Parejas\nInscripción: abre el 25 d
  e octubre\, cierra el 2 de diciembre.\nFicha oficial: https://www.golfdire
  cto.com/micro/game/69a4cdd1a5c98bfc69e4f0b6/summary\nConfirma fechas y con
@@ -1355,11 +1374,11 @@ URL:https://www.golfdirecto.com/micro/game/69a4cdd1a5c98bfc69e4f0b6/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:7c7ad065be0393c7719c@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
 SUMMARY:Regular Tournament (Annual League)
-LOCATION:Club de Golf la Reserva de Sotogrande
+LOCATION:Club de Golf la Reserva de Sotogrande\, Sotogrande\, Cádiz
 DESCRIPTION:Circuito comercial - Stableford - Individual\nInscripción: abr
  e el 4 de noviembre\, cierra el 3 de diciembre.\nFicha oficial: https://ww
  w.golfdirecto.com/micro/game/6953b19d1a52f0e9fdd15016/summary\nConfirma fe
@@ -1370,11 +1389,11 @@ URL:https://www.golfdirecto.com/micro/game/6953b19d1a52f0e9fdd15016/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:1bfdd38d1820ee87163c@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
 SUMMARY:Benefico Santa Barbara - Hermandad Amargura
-LOCATION:Club de Golf la Cañada\, San Roque
+LOCATION:Club de Golf la Cañada\, Guadiaro\, Cádiz
 DESCRIPTION:Benéfico - Stableford - Individual\nInscripción: abre el 10 d
  e noviembre\, cierra el 2 de diciembre.\nPrecio: 75 €.\nFicha oficial: h
  ttps://www.nextcaddy.com/tour/75253\nConfirma fechas y condiciones en la w
@@ -1385,11 +1404,11 @@ URL:https://www.nextcaddy.com/tour/75253
 END:VEVENT
 BEGIN:VEVENT
 UID:08bea4f4b59a73aaa823@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
 SUMMARY:Campeonato Medal Almeria
-LOCATION:Club de Golf Playa Serena
+LOCATION:Club de Golf Playa Serena\, Roquetas de Mar\, Almería
 DESCRIPTION:Social de club - Medal Play - Individual\nInscripción: abre el
   18 de noviembre\, cierra el 4 de diciembre.\nFicha oficial: https://www.g
  olfdirecto.com/micro/game/69748c3505a15f8d19b5272e/summary\nConfirma fecha
@@ -1399,12 +1418,27 @@ STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/69748c3505a15f8d19b5272e/summary
 END:VEVENT
 BEGIN:VEVENT
+UID:204ecd4575a3d13c891c@banderin.es
+DTSTAMP:20261127T091023Z
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261206
+SUMMARY:Competicion Semanal 05/12
+LOCATION:Lauro Golf\, Alhaurin de la Torre\, Málaga
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  27 de noviembre\, cierra el 27 de noviembre.\nPrecio: Gratis.\nFicha ofic
+ ial: https://www.nextcaddy.com/tour/75666\nConfirma fechas y condiciones e
+ n la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nextcaddy.com/tour/75666
+END:VEVENT
+BEGIN:VEVENT
 UID:4bf0117708702983e985@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
 SUMMARY:Copa Guadalhorce Final
-LOCATION:Real Guadalhorce Club de Golf
+LOCATION:Real Guadalhorce Club de Golf\, Campanillas\, Málaga
 DESCRIPTION:Social de club - Medal Play - Individual\nInscripción: abre el
   1 de octubre\, cierra el 2 de diciembre.\nFicha oficial: https://www.golf
  directo.com/micro/game/6ad60ada46735c80a07fb5da/summary\nConfirma fechas y
@@ -1415,11 +1449,11 @@ URL:https://www.golfdirecto.com/micro/game/6ad60ada46735c80a07fb5da/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:96724433c220eb962e08@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
 SUMMARY:Final Circuito Benjamín
-LOCATION:Alborán Golf\, Retamar\, El
+LOCATION:Alborán Golf\, Retamar\, Almería
 DESCRIPTION:Juvenil - Medal Play - Individual\nInscripción: abre el 11 de 
  noviembre\, cierra el 30 de noviembre.\nFicha oficial: https://www.nextcad
  dy.com/tour/61250\nConfirma fechas y condiciones en la web del organizador
@@ -1430,11 +1464,11 @@ URL:https://www.nextcaddy.com/tour/61250
 END:VEVENT
 BEGIN:VEVENT
 UID:532f5c80826cbcb5d813@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
 SUMMARY:Final Circuito Juvenil
-LOCATION:Alborán Golf\, Retamar\, El
+LOCATION:Alborán Golf\, Retamar\, Almería
 DESCRIPTION:Juvenil - Medal Play - Individual\nInscripción: abre el 11 de 
  noviembre\, cierra el 30 de noviembre.\nFicha oficial: https://www.nextcad
  dy.com/tour/61251\nConfirma fechas y condiciones en la web del organizador
@@ -1445,11 +1479,11 @@ URL:https://www.nextcaddy.com/tour/61251
 END:VEVENT
 BEGIN:VEVENT
 UID:6cff6b2c0221ac68e875@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
 SUMMARY:Final Circuito Senior
-LOCATION:Club de Golf Bellavista\, Aljaraque
+LOCATION:Club de Golf Bellavista\, Aljaraque\, Huelva
 DESCRIPTION:Senior - Stableford - Individual\nFicha oficial: https://www.ne
  xtcaddy.com/tour/61254\nConfirma fechas y condiciones en la web del organi
  zador. Vía Banderín.
@@ -1459,11 +1493,11 @@ URL:https://www.nextcaddy.com/tour/61254
 END:VEVENT
 BEGIN:VEVENT
 UID:d2eb7c82ceb7ffb1bbfe@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
 SUMMARY:III Torneo Sabores Almanzora 2026
-LOCATION:Desert Springs Golf Club
+LOCATION:Desert Springs Golf Club\, Las Cunas\, Almería
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   26 de agosto\, cierra el 1 de diciembre.\nFicha oficial: https://www.golf
  directo.com/micro/game/6a8ea6aa54be9938498981d7/summary\nConfirma fechas y
@@ -1474,11 +1508,11 @@ URL:https://www.golfdirecto.com/micro/game/6a8ea6aa54be9938498981d7/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:b812ecc2856e6da52744@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
 SUMMARY:Ladies Ranking December Sponsored By Abbeygate (Members)
-LOCATION:The San Roque Club
+LOCATION:The San Roque Club\, San Roque\, Cádiz
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   19 de enero\, cierra el 4 de diciembre.\nFicha oficial: https://www.golfd
  irecto.com/micro/game/696e3a91557fa34aa549e500/summary\nConfirma fechas y 
@@ -1489,11 +1523,11 @@ URL:https://www.golfdirecto.com/micro/game/696e3a91557fa34aa549e500/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:a0d6d21dfda1036a7b2c@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
 SUMMARY:Men Ranking December Sponsored By Abbeygate (Members)
-LOCATION:The San Roque Club
+LOCATION:The San Roque Club\, San Roque\, Cádiz
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   19 de enero\, cierra el 4 de diciembre.\nFicha oficial: https://www.golfd
  irecto.com/micro/game/696e3aaf557fa34aa54f152c/summary\nConfirma fechas y 
@@ -1504,11 +1538,11 @@ URL:https://www.golfdirecto.com/micro/game/696e3aaf557fa34aa54f152c/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:809d7a1a70264abc490f@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
 SUMMARY:Torneo Benefico Anoreta Golf
-LOCATION:Club Deportivo Añoreta Golf\, Rincón de la Victoria
+LOCATION:Club Deportivo Añoreta Golf\, Rincon de la Victoria\, Málaga
 DESCRIPTION:Benéfico - Stableford - Individual\nInscripción: abre el 13 d
  e marzo\, cierra el 3 de diciembre.\nPrecio: 45 €.\nFicha oficial: https
  ://www.nextcaddy.com/tour/69149\nConfirma fechas y condiciones en la web d
@@ -1519,11 +1553,11 @@ URL:https://www.nextcaddy.com/tour/69149
 END:VEVENT
 BEGIN:VEVENT
 UID:93cef649a945b85f7b37@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
 SUMMARY:Torneo Fin de Escuela Golf Otoño 26-27
-LOCATION:Escuela Pública la Cartuja\, Sevilla
+LOCATION:Escuela Pública la Cartuja\, Sevilla\, Sevilla
 DESCRIPTION:Juvenil - Stableford - Individual\nFicha oficial: https://www.n
  extcaddy.com/tour/75446\nConfirma fechas y condiciones en la web del organ
  izador. Vía Banderín.
@@ -1533,11 +1567,11 @@ URL:https://www.nextcaddy.com/tour/75446
 END:VEVENT
 BEGIN:VEVENT
 UID:91fb20b0c0a00dd36a76@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
 SUMMARY:Torneo Invitados Club Series
-LOCATION:Mijas Golf Internacional
+LOCATION:Mijas Golf Internacional\, Mijas\, Málaga
 DESCRIPTION:Circuito comercial - Stableford - Individual\nFicha oficial: ht
  tps://www.golfdirecto.com/micro/game/6b05639bd09541e3235c5d83/summary\nCon
  firma fechas y condiciones en la web del organizador. Vía Banderín.
@@ -1547,11 +1581,11 @@ URL:https://www.golfdirecto.com/micro/game/6b05639bd09541e3235c5d83/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:58e89229caa085acd6a2@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
 SUMMARY:XV Memorial Vicente Jimenez & XXV Aniversario Antequera Golf
-LOCATION:Antequera Golf\, Antequera
+LOCATION:Antequera Golf\, Antequera\, Málaga
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   22 de noviembre\, cierra el 4 de diciembre.\nPrecio: 40 €.\nFicha ofici
  al: https://www.nextcaddy.com/tour/75530\nConfirma fechas y condiciones en
@@ -1562,11 +1596,11 @@ URL:https://www.nextcaddy.com/tour/75530
 END:VEVENT
 BEGIN:VEVENT
 UID:8486509498313b7074a4@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
 SUMMARY:12ª Jornada Camaleón Golf 26/27
-LOCATION:Isla Canela Old Course
+LOCATION:Isla Canela Old Course\, Ayamonte\, Huelva
 DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
  //www.golfdirecto.com/micro/game/6b0382edb275bf0236a418c7/summary\nConfirm
  a fechas y condiciones en la web del organizador. Vía Banderín.
@@ -1576,11 +1610,11 @@ URL:https://www.golfdirecto.com/micro/game/6b0382edb275bf0236a418c7/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:71d23565919554b786ec@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
 SUMMARY:1ª Prueba Circuito Academia
-LOCATION:Club Hato Verde
+LOCATION:Club Hato Verde\, Las Pajanosas\, Sevilla
 DESCRIPTION:Circuito comercial - Stableford - Individual\nInscripción: abr
  e el 17 de noviembre\, cierra el 5 de diciembre.\nFicha oficial: https://w
  ww.golfdirecto.com/micro/game/6afc19cd698e8624fb02a08c/summary\nConfirma f
@@ -1591,11 +1625,11 @@ URL:https://www.golfdirecto.com/micro/game/6afc19cd698e8624fb02a08c/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:d6ad661e243e72b565fc@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
 SUMMARY:1ª Prueba Metas Amigos de Hato Verde
-LOCATION:Club Hato Verde
+LOCATION:Club Hato Verde\, Las Pajanosas\, Sevilla
 DESCRIPTION:Social de club - Medal Play - Individual\nInscripción: abre el
   2 de septiembre\, cierra el 26 de diciembre.\nFicha oficial: https://www.
  golfdirecto.com/micro/game/6a980c839678d915e8fbbc15/summary\nConfirma fech
@@ -1606,11 +1640,11 @@ URL:https://www.golfdirecto.com/micro/game/6a980c839678d915e8fbbc15/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:f6497865e784c903f4cd@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261208
 SUMMARY:Final Nacional Summum 2026
-LOCATION:Villa Padierna Golf Club
+LOCATION:Villa Padierna Golf Club\, Benahavis\, Málaga
 DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
  //www.golfdirecto.com/micro/game/69a4cbe2a5c98bfc69ab6465/summary\nConfirm
  a fechas y condiciones en la web del organizador. Vía Banderín.
@@ -1620,11 +1654,11 @@ URL:https://www.golfdirecto.com/micro/game/69a4cbe2a5c98bfc69ab6465/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:36a3dcc05902114421e2@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
 SUMMARY:Final Pequecircuito
-LOCATION:Real Guadalhorce Club de Golf\, Málaga
+LOCATION:Real Guadalhorce Club de Golf\, Campanillas\, Málaga
 DESCRIPTION:Juvenil - Medal Play - Individual\nInscripción: abre el 11 de 
  noviembre\, cierra el 30 de noviembre.\nFicha oficial: https://www.nextcad
  dy.com/tour/61252\nConfirma fechas y condiciones en la web del organizador
@@ -1635,11 +1669,11 @@ URL:https://www.nextcaddy.com/tour/61252
 END:VEVENT
 BEGIN:VEVENT
 UID:b3c1be96cee7ccfdbc7c@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
 SUMMARY:The Constitution Cup
-LOCATION:Desert Springs Golf Club
+LOCATION:Desert Springs Golf Club\, Las Cunas\, Almería
 DESCRIPTION:Social de club - Medal Play - Individual\nInscripción: abre el
   21 de junio\, cierra el 4 de diciembre.\nFicha oficial: https://www.golfd
  irecto.com/micro/game/6856b3bc914767061593f6e5/summary\nConfirma fechas y 
@@ -1650,11 +1684,11 @@ URL:https://www.golfdirecto.com/micro/game/6856b3bc914767061593f6e5/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:fe4cea3616c263323dda@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
 SUMMARY:Torneo Pro Shop
-LOCATION:Alborán Golf\, Retamar\, El
+LOCATION:Alborán Golf\, Retamar\, Almería
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   29 de noviembre\, cierra el 3 de diciembre.\nFicha oficial: https://www.n
  extcaddy.com/tour/75569\nConfirma fechas y condiciones en la web del organ
@@ -1665,11 +1699,11 @@ URL:https://www.nextcaddy.com/tour/75569
 END:VEVENT
 BEGIN:VEVENT
 UID:77576e17c0d3b0d1262c@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261207
 DTEND;VALUE=DATE:20261208
 SUMMARY:9ª Prueba Ranking Escuela 18H 2026
-LOCATION:Club de Golf la Cañada\, San Roque
+LOCATION:Club de Golf la Cañada\, Guadiaro\, Cádiz
 DESCRIPTION:Juvenil - Medal Play - Individual\nInscripción: abre el 22 de 
  noviembre\, cierra el 4 de diciembre.\nPrecio: 15 €.\nFicha oficial: htt
  ps://www.nextcaddy.com/tour/74220\nConfirma fechas y condiciones en la web
@@ -1680,11 +1714,11 @@ URL:https://www.nextcaddy.com/tour/74220
 END:VEVENT
 BEGIN:VEVENT
 UID:e266678f1ca8468c98d9@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261207
 DTEND;VALUE=DATE:20261208
 SUMMARY:9ª Prueba Ranking Escuela Benjamín 2026
-LOCATION:Club de Golf la Cañada\, San Roque
+LOCATION:Club de Golf la Cañada\, Guadiaro\, Cádiz
 DESCRIPTION:Juvenil - Medal Play - Individual\nInscripción: abre el 22 de 
  noviembre\, cierra el 4 de diciembre.\nPrecio: 15 €.\nFicha oficial: htt
  ps://www.nextcaddy.com/tour/74217\nConfirma fechas y condiciones en la web
@@ -1695,11 +1729,11 @@ URL:https://www.nextcaddy.com/tour/74217
 END:VEVENT
 BEGIN:VEVENT
 UID:4f4a5bb7eef8a9162a74@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261207
 DTEND;VALUE=DATE:20261208
 SUMMARY:9ª Prueba Ranking Escuela Cat. Especial 2026
-LOCATION:Club de Golf la Cañada\, San Roque
+LOCATION:Club de Golf la Cañada\, Guadiaro\, Cádiz
 DESCRIPTION:Juvenil - Medal Play - Individual\nInscripción: abre el 23 de 
  octubre\, cierra el 4 de diciembre.\nPrecio: 15 €.\nFicha oficial: https
  ://www.nextcaddy.com/tour/74216\nConfirma fechas y condiciones en la web d
@@ -1710,11 +1744,11 @@ URL:https://www.nextcaddy.com/tour/74216
 END:VEVENT
 BEGIN:VEVENT
 UID:3f03509931a503eff642@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261207
 DTEND;VALUE=DATE:20261208
 SUMMARY:9ª Prueba Ranking Escuela P3 2026
-LOCATION:Club de Golf la Cañada\, San Roque
+LOCATION:Club de Golf la Cañada\, Guadiaro\, Cádiz
 DESCRIPTION:Juvenil - Medal Play - Individual\nInscripción: abre el 22 de 
  noviembre\, cierra el 4 de diciembre.\nPrecio: 15 €.\nFicha oficial: htt
  ps://www.nextcaddy.com/tour/74218\nConfirma fechas y condiciones en la web
@@ -1725,11 +1759,11 @@ URL:https://www.nextcaddy.com/tour/74218
 END:VEVENT
 BEGIN:VEVENT
 UID:6621de1d84a8a72acaf7@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261208
 DTEND;VALUE=DATE:20261209
 SUMMARY:(56) Ladies Tuesday Competition (Members)
-LOCATION:The San Roque Club
+LOCATION:The San Roque Club\, San Roque\, Cádiz
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   19 de enero\, cierra el 7 de diciembre.\nFicha oficial: https://www.golfd
  irecto.com/micro/game/696e3b23557fa34aa561510e/summary\nConfirma fechas y 
@@ -1740,11 +1774,11 @@ URL:https://www.golfdirecto.com/micro/game/696e3b23557fa34aa561510e/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:4d1205916d755a3b406c@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261208
 DTEND;VALUE=DATE:20261209
 SUMMARY:Men'S Tuesday Competition (Members)
-LOCATION:The San Roque Club
+LOCATION:The San Roque Club\, San Roque\, Cádiz
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   19 de enero\, cierra el 7 de diciembre.\nFicha oficial: https://www.golfd
  irecto.com/micro/game/696e3b8b557fa34aa5716080/summary\nConfirma fechas y 
@@ -1755,11 +1789,11 @@ URL:https://www.golfdirecto.com/micro/game/696e3b8b557fa34aa5716080/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:2329316c1f9822692adc@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261208
 DTEND;VALUE=DATE:20261209
 SUMMARY:Skandinavisk Match 08/12
-LOCATION:Lauro Golf
+LOCATION:Lauro Golf\, Alhaurin de la Torre\, Málaga
 DESCRIPTION:Clubes y equipos - Stableford - Equipos\nInscripción: abre el 
  1 de diciembre\, cierra el 5 de diciembre.\nFicha oficial: https://www.gol
  fdirecto.com/micro/game/6adf578f05d0e598f3afc378/summary\nConfirma fechas 
@@ -1770,11 +1804,11 @@ URL:https://www.golfdirecto.com/micro/game/6adf578f05d0e598f3afc378/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:0b29a1c2193398f2bb64@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261209
 DTEND;VALUE=DATE:20261210
 SUMMARY:Liga Social Cab. Volvo Vypsa Heineken - Malaga Costa & Bebidas
-LOCATION:Real Guadalhorce Club de Golf
+LOCATION:Real Guadalhorce Club de Golf\, Campanillas\, Málaga
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   1 de diciembre\, cierra el 7 de diciembre.\nFicha oficial: https://www.go
  lfdirecto.com/micro/game/6aaec8b2ea1573c17a593dde/summary\nConfirma fechas
@@ -1785,11 +1819,11 @@ URL:https://www.golfdirecto.com/micro/game/6aaec8b2ea1573c17a593dde/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:5efea014519b60449928@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261210
 DTEND;VALUE=DATE:20261211
 SUMMARY:I Torneo de Golf de la FLOAN
-LOCATION:Rota Club de Golf\, Rota
+LOCATION:Rota Club de Golf\, Rota Naval\, Cádiz
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   24 de noviembre\, cierra el 3 de diciembre.\nPrecio: Gratis.\nFicha ofici
  al: https://www.nextcaddy.com/tour/75594\nConfirma fechas y condiciones en
@@ -1800,11 +1834,11 @@ URL:https://www.nextcaddy.com/tour/75594
 END:VEVENT
 BEGIN:VEVENT
 UID:1d9bdad103cec26c4ad4@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261210
 DTEND;VALUE=DATE:20261211
 SUMMARY:Ladies Thursday Competition (Members) (
-LOCATION:The San Roque Club
+LOCATION:The San Roque Club\, San Roque\, Cádiz
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   19 de enero\, cierra el 9 de diciembre.\nFicha oficial: https://www.golfd
  irecto.com/micro/game/696e3bac557fa34aa577c1b0/summary\nConfirma fechas y 
@@ -1815,11 +1849,11 @@ URL:https://www.golfdirecto.com/micro/game/696e3bac557fa34aa577c1b0/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:4e25d408efcdbca7a1e9@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261210
 DTEND;VALUE=DATE:20261211
 SUMMARY:Liga Social Damas Volvo Vypsa Heineken - Malaga Costa & Bebidas
-LOCATION:Real Guadalhorce Club de Golf
+LOCATION:Real Guadalhorce Club de Golf\, Campanillas\, Málaga
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   3 de diciembre\, cierra el 8 de diciembre.\nFicha oficial: https://www.go
  lfdirecto.com/micro/game/6aaec96cea1573c17a97db13/summary\nConfirma fechas
@@ -1830,11 +1864,11 @@ URL:https://www.golfdirecto.com/micro/game/6aaec96cea1573c17a97db13/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:84d603e552db88f0bb35@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261210
 DTEND;VALUE=DATE:20261211
 SUMMARY:Men'S Thursday Competition (Members)
-LOCATION:The San Roque Club
+LOCATION:The San Roque Club\, San Roque\, Cádiz
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   19 de enero\, cierra el 9 de diciembre.\nFicha oficial: https://www.golfd
  irecto.com/micro/game/696e3965557fa34aa51565b1/summary\nConfirma fechas y 
@@ -1845,11 +1879,11 @@ URL:https://www.golfdirecto.com/micro/game/696e3965557fa34aa51565b1/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:627ed8d54a3598c3d83c@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261211
 DTEND;VALUE=DATE:20261212
 SUMMARY:Global Junior Golf
-LOCATION:Desert Springs Golf Club
+LOCATION:Desert Springs Golf Club\, Las Cunas\, Almería
 DESCRIPTION:Juvenil - Medal Play - Individual\nFicha oficial: https://www.g
  olfdirecto.com/micro/game/6aff4a1ffa1568a5cd2d0bf4/summary\nConfirma fecha
  s y condiciones en la web del organizador. Vía Banderín.
@@ -1859,11 +1893,11 @@ URL:https://www.golfdirecto.com/micro/game/6aff4a1ffa1568a5cd2d0bf4/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:ce33fb6deaf6842c07b1@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261211
 DTEND;VALUE=DATE:20261212
 SUMMARY:League Final / Final de la Liga
-LOCATION:Club de Golf la Reserva de Sotogrande
+LOCATION:Club de Golf la Reserva de Sotogrande\, Sotogrande\, Cádiz
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   10 de noviembre\, cierra el 11 de diciembre.\nFicha oficial: https://www.
  golfdirecto.com/micro/game/6953cbbf1a52f0e9fdbfb336/summary\nConfirma fech
@@ -1874,12 +1908,12 @@ URL:https://www.golfdirecto.com/micro/game/6953cbbf1a52f0e9fdbfb336/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:0d491011a76a9b17a000@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261211
 DTEND;VALUE=DATE:20261212
 SUMMARY:Torneo de Navidad Sherry Golf Jerez (Salidas Viernes)1ª\,2ª y 3ª
   Categoría Campo 18 Hoyos
-LOCATION:Sherry Golf Jerez\, Jerez de la Frontera
+LOCATION:Sherry Golf Jerez\, Jerez de la Frontera\, Cádiz
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   15 de noviembre\, cierra el 10 de diciembre.\nPrecio: 48 €.\nFicha ofic
  ial: https://www.nextcaddy.com/tour/75367\nConfirma fechas y condiciones e
@@ -1890,11 +1924,11 @@ URL:https://www.nextcaddy.com/tour/75367
 END:VEVENT
 BEGIN:VEVENT
 UID:5013360f272bd922873d@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:2ª Prueba Circuito Academia
-LOCATION:Club Hato Verde
+LOCATION:Club Hato Verde\, Las Pajanosas\, Sevilla
 DESCRIPTION:Circuito comercial - Stableford - Individual\nInscripción: abr
  e el 17 de noviembre\, cierra el 9 de enero.\nFicha oficial: https://www.g
  olfdirecto.com/micro/game/6afc1af34cfcc17e462a2657/summary\nConfirma fecha
@@ -1905,11 +1939,11 @@ URL:https://www.golfdirecto.com/micro/game/6afc1af34cfcc17e462a2657/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:593ab87bb9d9be277715@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:5ª Jornada Lpgh XXVI Edición. (Old Course-Links)
-LOCATION:Isla Canela Old Course
+LOCATION:Isla Canela Old Course\, Ayamonte\, Huelva
 DESCRIPTION:Social de club - Fourball - Parejas\nFicha oficial: https://www
  .golfdirecto.com/micro/game/6afe32ab9c9e80fccff2e00e/summary\nConfirma fec
  has y condiciones en la web del organizador. Vía Banderín.
@@ -1919,11 +1953,11 @@ URL:https://www.golfdirecto.com/micro/game/6afe32ab9c9e80fccff2e00e/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:5372f4bc366ff43e4ac9@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:Aecc Cadiz
-LOCATION:Fairplay Golf & Spa Resort\, Benalup-Casas Viejas
+LOCATION:Fairplay Golf & Spa Resort\, Benalup-casas Viejas\, Cádiz
 DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
  //www.nextcaddy.com/tour/75643\nConfirma fechas y condiciones en la web de
  l organizador. Vía Banderín.
@@ -1933,11 +1967,11 @@ URL:https://www.nextcaddy.com/tour/75643
 END:VEVENT
 BEGIN:VEVENT
 UID:9a581f42d8194f4f9429@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:Campeonato Andalucía Femenino Categoría Mid Amateur
-LOCATION:Golf Río Real\, Marbella
+LOCATION:Golf Río Real\, Marbella\, Málaga
 DESCRIPTION:Mid-Amateur - Medal Play - Individual\nInscripción: abre el 13
   de noviembre\, cierra el 7 de diciembre.\nPrecio: 100 €.\nFicha oficial
  : https://www.nextcaddy.com/tour/61249\nConfirma fechas y condiciones en l
@@ -1948,11 +1982,11 @@ URL:https://www.nextcaddy.com/tour/61249
 END:VEVENT
 BEGIN:VEVENT
 UID:dc4bf81c20d542367352@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:Campeonato Andalucía Interclubs Masculino
-LOCATION:la Hacienda Links Golf Resort\, San Roque
+LOCATION:la Hacienda Links Golf Resort\, San Roque\, Cádiz
 DESCRIPTION:Clubes y equipos - Medal Play - Equipos\nFicha oficial: https:/
  /www.nextcaddy.com/tour/61253\nConfirma fechas y condiciones en la web del
   organizador. Vía Banderín.
@@ -1962,11 +1996,11 @@ URL:https://www.nextcaddy.com/tour/61253
 END:VEVENT
 BEGIN:VEVENT
 UID:1e5ec1946612e193ac93@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:LIGAS MAJ - 18 Hoyos - Diciembre
-LOCATION:Escuela de Golf Miguel ángel Jiménez\, Torremolinos
+LOCATION:Escuela de Golf Miguel ángel Jiménez\, Torremolinos\, Málaga
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   12 de noviembre\, cierra el 10 de diciembre.\nPrecio: 10 €.\nFicha ofic
  ial: https://www.nextcaddy.com/tour/75362\nConfirma fechas y condiciones e
@@ -1977,11 +2011,11 @@ URL:https://www.nextcaddy.com/tour/75362
 END:VEVENT
 BEGIN:VEVENT
 UID:289958263459f3992a68@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:LIGAS MAJ - 9 Hoyos - Noviembre
-LOCATION:Escuela de Golf Miguel ángel Jiménez\, Torremolinos
+LOCATION:Escuela de Golf Miguel ángel Jiménez\, Torremolinos\, Málaga
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   12 de noviembre\, cierra el 10 de diciembre.\nPrecio: 5 €.\nFicha ofici
  al: https://www.nextcaddy.com/tour/75363\nConfirma fechas y condiciones en
@@ -1992,11 +2026,11 @@ URL:https://www.nextcaddy.com/tour/75363
 END:VEVENT
 BEGIN:VEVENT
 UID:ea8ad65727a6ed686ff4@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:Proshop Christmas Tournament
-LOCATION:Valle del Este Hotel Golf Spa
+LOCATION:Valle del Este Hotel Golf Spa\, Vera\, Almería
 DESCRIPTION:Circuito comercial - Stableford - Individual\nInscripción: abr
  e el 16 de noviembre\, cierra el 11 de diciembre.\nFicha oficial: https://
  www.golfdirecto.com/micro/game/6afb6f6a5445bc1029f8a626/summary\nConfirma 
@@ -2007,11 +2041,11 @@ URL:https://www.golfdirecto.com/micro/game/6afb6f6a5445bc1029f8a626/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:45328a135e2fc1044202@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:Torneo Colegio Abogados Málaga
-LOCATION:Club Deportivo Añoreta Golf\, Rincón de la Victoria
+LOCATION:Club Deportivo Añoreta Golf\, Rincon de la Victoria\, Málaga
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   6 de noviembre\, cierra el 5 de diciembre.\nPrecio: 75 €.\nFicha oficia
  l: https://www.nextcaddy.com/tour/75205\nConfirma fechas y condiciones en 
@@ -2022,11 +2056,11 @@ URL:https://www.nextcaddy.com/tour/75205
 END:VEVENT
 BEGIN:VEVENT
 UID:ebceea8db87a25be78d2@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:Torneo de Navidad 2026
-LOCATION:Sancti Petri Hills Golf\, Chiclana de la Frontera
+LOCATION:Sancti Petri Hills Golf\, Chiclana de la Frontera\, Cádiz
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   19 de noviembre\, cierra el 11 de diciembre.\nPrecio: 40 €.\nFicha ofic
  ial: https://www.nextcaddy.com/tour/75465\nConfirma fechas y condiciones e
@@ -2037,11 +2071,11 @@ URL:https://www.nextcaddy.com/tour/75465
 END:VEVENT
 BEGIN:VEVENT
 UID:46c9fa81a23a5fb3ecd3@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:Torneo de Navidad IDEAterrazas
-LOCATION:El Chaparral Golf Club
+LOCATION:El Chaparral Golf Club\, Mijas Costa\, Málaga
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   9 de noviembre\, cierra el 11 de diciembre.\nFicha oficial: https://www.g
  olfdirecto.com/micro/game/6af1924b48b95e9e1a76ee4a/summary\nConfirma fecha
@@ -2052,12 +2086,12 @@ URL:https://www.golfdirecto.com/micro/game/6af1924b48b95e9e1a76ee4a/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:6e61df1ef48afd9474b1@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:Torneo de Navidad Sherry Golf Jerez (Salidas Sábado)1ª\,2ª y 3ª
   Categoría Campo 18 hoyos
-LOCATION:Sherry Golf Jerez\, Jerez de la Frontera
+LOCATION:Sherry Golf Jerez\, Jerez de la Frontera\, Cádiz
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   15 de noviembre\, cierra el 10 de diciembre.\nPrecio: 48 €.\nFicha ofic
  ial: https://www.nextcaddy.com/tour/74970\nConfirma fechas y condiciones e
@@ -2068,11 +2102,11 @@ URL:https://www.nextcaddy.com/tour/74970
 END:VEVENT
 BEGIN:VEVENT
 UID:372f8c98ffdd3b3f3718@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:Torneo de Navidad Sherry Golf Jerez Categoría Campo Pitch & Putt
-LOCATION:Sherry Golf Jerez\, Jerez de la Frontera
+LOCATION:Sherry Golf Jerez\, Jerez de la Frontera\, Cádiz
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   21 de noviembre\, cierra el 10 de diciembre.\nPrecio: 40 €.\nFicha ofic
  ial: https://www.nextcaddy.com/tour/75504\nConfirma fechas y condiciones e
@@ -2083,11 +2117,11 @@ URL:https://www.nextcaddy.com/tour/75504
 END:VEVENT
 BEGIN:VEVENT
 UID:40e1199420af2cdc26dc@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:Torneo de Navidad de Señoras
-LOCATION:Real Club Pineda de Sevilla\, Sevilla
+LOCATION:Real Club Pineda de Sevilla\, Sevilla\, Sevilla
 DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
  //www.nextcaddy.com/tour/75625\nConfirma fechas y condiciones en la web de
  l organizador. Vía Banderín.
@@ -2097,11 +2131,11 @@ URL:https://www.nextcaddy.com/tour/75625
 END:VEVENT
 BEGIN:VEVENT
 UID:de1e28076a0771e49f71@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:V Open de Huelva
-LOCATION:Club de Golf Bellavista\, Aljaraque
+LOCATION:Club de Golf Bellavista\, Aljaraque\, Huelva
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   26 de noviembre\, cierra el 26 de noviembre.\nPrecio: Gratis.\nFicha ofic
  ial: https://www.nextcaddy.com/tour/75652\nConfirma fechas y condiciones e
@@ -2112,11 +2146,11 @@ URL:https://www.nextcaddy.com/tour/75652
 END:VEVENT
 BEGIN:VEVENT
 UID:830445cf7b3d44ce461c@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
 SUMMARY:5ª Jornada Lpgh XXVI Edición. (Dunas-Bellavista)
-LOCATION:Club de Golf Bellavista
+LOCATION:Club de Golf Bellavista\, Aljaraque\, Huelva
 DESCRIPTION:Social de club - Fourball - Parejas\nFicha oficial: https://www
  .golfdirecto.com/micro/game/6afe33f59c9e80fccf03246d/summary\nConfirma fec
  has y condiciones en la web del organizador. Vía Banderín.
@@ -2126,11 +2160,11 @@ URL:https://www.golfdirecto.com/micro/game/6afe33f59c9e80fccf03246d/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:858acfb3a118c03832df@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
 SUMMARY:5ª Jornada Lpgh XXVI Edición.(Islantilla-Portil)
-LOCATION:Islantilla Golf Resort\, S.l
+LOCATION:Islantilla Golf Resort\, S.l\, Lepe\, Huelva
 DESCRIPTION:Social de club - Fourball - Parejas\nFicha oficial: https://www
  .golfdirecto.com/micro/game/6afe33589c9e80fccffbf069/summary\nConfirma fec
  has y condiciones en la web del organizador. Vía Banderín.
@@ -2140,11 +2174,11 @@ URL:https://www.golfdirecto.com/micro/game/6afe33589c9e80fccffbf069/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:e383ba78cff1ec726b9b@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
 SUMMARY:Ladies Medal Sponsored By Vinomarket (Members)
-LOCATION:The San Roque Club
+LOCATION:The San Roque Club\, San Roque\, Cádiz
 DESCRIPTION:Social de club - Medal Play - Individual\nInscripción: abre el
   19 de enero\, cierra el 12 de diciembre.\nFicha oficial: https://www.golf
  directo.com/micro/game/696e3c09557fa34aa584e5cd/summary\nConfirma fechas y
@@ -2155,11 +2189,11 @@ URL:https://www.golfdirecto.com/micro/game/696e3c09557fa34aa584e5cd/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:52fac6b1d942afd02da2@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
 SUMMARY:Men´s Medal Sponsored By Vinomarket (Members)
-LOCATION:The San Roque Club
+LOCATION:The San Roque Club\, San Roque\, Cádiz
 DESCRIPTION:Social de club - Medal Play - Individual\nInscripción: abre el
   19 de enero\, cierra el 12 de diciembre.\nFicha oficial: https://www.golf
  directo.com/micro/game/696e3c2a557fa34aa58e5572/summary\nConfirma fechas y
@@ -2170,11 +2204,11 @@ URL:https://www.golfdirecto.com/micro/game/696e3c2a557fa34aa58e5572/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:20d43a2e771e7c4dfa7b@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
 SUMMARY:Pg Junior Golf Circuit - Dec.
-LOCATION:Magna Marbella Golf\, Marbella
+LOCATION:Magna Marbella Golf\, Nueva Andalucia\, Málaga
 DESCRIPTION:Juvenil - Stableford - Individual\nFicha oficial: https://www.n
  extcaddy.com/tour/68965\nConfirma fechas y condiciones en la web del organ
  izador. Vía Banderín.
@@ -2184,11 +2218,11 @@ URL:https://www.nextcaddy.com/tour/68965
 END:VEVENT
 BEGIN:VEVENT
 UID:33a1c877be5efbd80ebc@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
 SUMMARY:Torneo Golf Almerimar
-LOCATION:Golf Almerimar
+LOCATION:Golf Almerimar\, Almerimar\, Almería
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   26 de noviembre\, cierra el 11 de diciembre.\nFicha oficial: https://www.
  golfdirecto.com/micro/game/6b080ab515c29579975daf94/summary\nConfirma fech
@@ -2199,7 +2233,7 @@ URL:https://www.golfdirecto.com/micro/game/6b080ab515c29579975daf94/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:034d074143e4efe8d213@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
 SUMMARY:Torneo de Navidad
@@ -2214,11 +2248,11 @@ URL:https://www.nextcaddy.com/tour/75595
 END:VEVENT
 BEGIN:VEVENT
 UID:64f572900caaafc9ff80@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
 SUMMARY:Torneo de Navidad de Seniors
-LOCATION:Real Club Pineda de Sevilla\, Sevilla
+LOCATION:Real Club Pineda de Sevilla\, Sevilla\, Sevilla
 DESCRIPTION:Senior - Stableford - Individual\nFicha oficial: https://www.ne
  xtcaddy.com/tour/75626\nConfirma fechas y condiciones en la web del organi
  zador. Vía Banderín.
@@ -2228,11 +2262,11 @@ URL:https://www.nextcaddy.com/tour/75626
 END:VEVENT
 BEGIN:VEVENT
 UID:8221c05ae5dcb472231c@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
 SUMMARY:XXXII Torneo de Golf Miramar
-LOCATION:Parador Málaga del Golf\, Málaga
+LOCATION:Parador Málaga del Golf\, Malaga\, Málaga
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   1 de octubre\, cierra el 9 de diciembre.\nPrecio: 50 €.\nFicha oficial:
   https://www.nextcaddy.com/tour/74188\nConfirma fechas y condiciones en la
@@ -2243,11 +2277,11 @@ URL:https://www.nextcaddy.com/tour/74188
 END:VEVENT
 BEGIN:VEVENT
 UID:e25c81701e6a098d82f2@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261214
 DTEND;VALUE=DATE:20261215
 SUMMARY:Winter Amateur Series (3 rounds)
-LOCATION:Golf Torrequebrada\, Benalmádena
+LOCATION:Golf Torrequebrada\, Benalmadena Costa\, Málaga
 DESCRIPTION:Circuito comercial - Medal Play - Individual\nInscripción: abr
  e el 22 de junio\, cierra el 22 de junio.\nPrecio: Gratis.\nFicha oficial:
   https://www.nextcaddy.com/tour/71876\nConfirma fechas y condiciones en la
@@ -2258,11 +2292,11 @@ URL:https://www.nextcaddy.com/tour/71876
 END:VEVENT
 BEGIN:VEVENT
 UID:2dbe807336734b2ee243@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261215
 DTEND;VALUE=DATE:20261216
 SUMMARY:Liga Social Cab. Volvo Vypsa Heineken - Malaga Costa & Bebidas
-LOCATION:Real Guadalhorce Club de Golf
+LOCATION:Real Guadalhorce Club de Golf\, Campanillas\, Málaga
 DESCRIPTION:Social de club - Scramble - Parejas\nInscripción: abre el 9 de
   diciembre\, cierra el 13 de diciembre.\nFicha oficial: https://www.golfdi
  recto.com/micro/game/6aaeca84ea1573c17aebc386/summary\nConfirma fechas y c
@@ -2273,11 +2307,11 @@ URL:https://www.golfdirecto.com/micro/game/6aaeca84ea1573c17aebc386/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:fdf57402e3aa252dfb8a@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261215
 DTEND;VALUE=DATE:20261216
 SUMMARY:Members & Staff Day
-LOCATION:The San Roque Club
+LOCATION:The San Roque Club\, San Roque\, Cádiz
 DESCRIPTION:Social de club - Scramble - Parejas\nInscripción: abre el 19 d
  e enero\, cierra el 14 de diciembre.\nFicha oficial: https://www.golfdirec
  to.com/micro/game/696e3c78557fa34aa5a0274b/summary\nConfirma fechas y cond
@@ -2288,11 +2322,11 @@ URL:https://www.golfdirecto.com/micro/game/696e3c78557fa34aa5a0274b/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:4a57ab55476d067d2be4@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261215
 DTEND;VALUE=DATE:20261216
 SUMMARY:Skandinavisk Match 15/12
-LOCATION:Lauro Golf
+LOCATION:Lauro Golf\, Alhaurin de la Torre\, Málaga
 DESCRIPTION:Clubes y equipos - Stableford - Equipos\nFicha oficial: https:/
  /www.golfdirecto.com/micro/game/6adf583305d0e598f3de5fd6/summary\nConfirma
   fechas y condiciones en la web del organizador. Vía Banderín.
@@ -2302,11 +2336,12 @@ URL:https://www.golfdirecto.com/micro/game/6adf583305d0e598f3de5fd6/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:7bbc6a135926e4dd3f37@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261216
 DTEND;VALUE=DATE:20261217
 SUMMARY:Campeonato Andalucía de Profesionales Masculino
-LOCATION:Real Novo Sancti Petri Golf Club\, Chiclana de la Frontera
+LOCATION:Real Novo Sancti Petri Golf Club\, Chiclana de la Frontera\, Cádi
+ z
 DESCRIPTION:Profesional - Medal Play - Individual\nInscripción: abre el 12
   de noviembre\, cierra el 8 de diciembre.\nPrecio: 130 €.\nFicha oficial
  : https://www.nextcaddy.com/tour/66035\nConfirma fechas y condiciones en l
@@ -2317,11 +2352,11 @@ URL:https://www.nextcaddy.com/tour/66035
 END:VEVENT
 BEGIN:VEVENT
 UID:e430054cede06c01d39c@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261216
 DTEND;VALUE=DATE:20261217
 SUMMARY:Torneo Staff vs. Members
-LOCATION:Club de Golf la Reserva de Sotogrande
+LOCATION:Club de Golf la Reserva de Sotogrande\, Sotogrande\, Cádiz
 DESCRIPTION:Social de club - Scramble - Parejas\nInscripción: abre el 12 d
  e enero\, cierra el 15 de diciembre.\nFicha oficial: https://www.golfdirec
  to.com/micro/game/6964e53c42551aa3719ec91f/summary\nConfirma fechas y cond
@@ -2332,11 +2367,11 @@ URL:https://www.golfdirecto.com/micro/game/6964e53c42551aa3719ec91f/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:0d2f5db8798f2a0d9f0b@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261217
 DTEND;VALUE=DATE:20261218
 SUMMARY:Ladies Thursday Competition (Members)
-LOCATION:The San Roque Club
+LOCATION:The San Roque Club\, San Roque\, Cádiz
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   19 de enero\, cierra el 16 de diciembre.\nFicha oficial: https://www.golf
  directo.com/micro/game/696e3bdf557fa34aa5804c80/summary\nConfirma fechas y
@@ -2347,11 +2382,11 @@ URL:https://www.golfdirecto.com/micro/game/696e3bdf557fa34aa5804c80/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:9397617da60dfc837d8b@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261217
 DTEND;VALUE=DATE:20261218
 SUMMARY:Liga Social Damas Volvo Vypsa Heineken - Malaga Costa & Bebidas
-LOCATION:Real Guadalhorce Club de Golf
+LOCATION:Real Guadalhorce Club de Golf\, Campanillas\, Málaga
 DESCRIPTION:Social de club - Scramble - Parejas\nInscripción: abre el 10 d
  e diciembre\, cierra el 15 de diciembre.\nFicha oficial: https://www.golfd
  irecto.com/micro/game/6aaecb58ea1573c17a4709d8/summary\nConfirma fechas y 
@@ -2362,11 +2397,11 @@ URL:https://www.golfdirecto.com/micro/game/6aaecb58ea1573c17a4709d8/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:2d0ec6e6ce017106e798@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261217
 DTEND;VALUE=DATE:20261218
 SUMMARY:Men'S Thursday Competition (Members)
-LOCATION:The San Roque Club
+LOCATION:The San Roque Club\, San Roque\, Cádiz
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   19 de enero\, cierra el 16 de diciembre.\nFicha oficial: https://www.golf
  directo.com/micro/game/696e397b557fa34aa51b0a67/summary\nConfirma fechas y
@@ -2377,11 +2412,11 @@ URL:https://www.golfdirecto.com/micro/game/696e397b557fa34aa51b0a67/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:51cad761b7eda80c700d@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261220
 SUMMARY:Campeonato Internacional de Andalucía Dobles Senior
-LOCATION:Golf Torrequebrada\, Benalmádena
+LOCATION:Golf Torrequebrada\, Benalmadena Costa\, Málaga
 DESCRIPTION:Senior - Medal Play - Parejas\nInscripción: abre el 18 de novi
  embre\, cierra el 14 de diciembre.\nPrecio: 100 €.\nFicha oficial: https
  ://www.nextcaddy.com/tour/61171\nConfirma fechas y condiciones en la web d
@@ -2392,11 +2427,11 @@ URL:https://www.nextcaddy.com/tour/61171
 END:VEVENT
 BEGIN:VEVENT
 UID:9eba01fc512b853a2270@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261220
 SUMMARY:Christmas Texas Scramble
-LOCATION:The San Roque Club
+LOCATION:The San Roque Club\, San Roque\, Cádiz
 DESCRIPTION:Social de club - Scramble - Parejas\nInscripción: abre el 19 d
  e enero\, cierra el 18 de diciembre.\nFicha oficial: https://www.golfdirec
  to.com/micro/game/696e3caf557fa34aa5a5e33c/summary\nConfirma fechas y cond
@@ -2407,11 +2442,11 @@ URL:https://www.golfdirecto.com/micro/game/696e3caf557fa34aa5a5e33c/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:3b1e5976d9b2c806dd12@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261220
 SUMMARY:December Stableford
-LOCATION:Desert Springs Golf Club
+LOCATION:Desert Springs Golf Club\, Las Cunas\, Almería
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   21 de junio\, cierra el 10 de diciembre.\nFicha oficial: https://www.golf
  directo.com/micro/game/6856b3e59147670615abdb73/summary\nConfirma fechas y
@@ -2422,11 +2457,11 @@ URL:https://www.golfdirecto.com/micro/game/6856b3e59147670615abdb73/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:68c9c291453ef4dc6bd7@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261220
 SUMMARY:PRO-AM de Navidad
-LOCATION:Real Club Pineda de Sevilla\, Sevilla
+LOCATION:Real Club Pineda de Sevilla\, Sevilla\, Sevilla
 DESCRIPTION:Profesional - Stableford - Individual\nFicha oficial: https://w
  ww.nextcaddy.com/tour/75627\nConfirma fechas y condiciones en la web del o
  rganizador. Vía Banderín.
@@ -2436,11 +2471,11 @@ URL:https://www.nextcaddy.com/tour/75627
 END:VEVENT
 BEGIN:VEVENT
 UID:97b6bddf7fdedd0273e0@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261220
 SUMMARY:Torneo Cudeca 2026
-LOCATION:Antequera Golf\, Antequera
+LOCATION:Antequera Golf\, Antequera\, Málaga
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   24 de noviembre\, cierra el 18 de diciembre.\nPrecio: 30 €.\nFicha ofic
  ial: https://www.nextcaddy.com/tour/75582\nConfirma fechas y condiciones e
@@ -2451,11 +2486,11 @@ URL:https://www.nextcaddy.com/tour/75582
 END:VEVENT
 BEGIN:VEVENT
 UID:f501efe9f7a8f74b8a47@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261220
 SUMMARY:Torneo de Navidad | Christmas Tournament
-LOCATION:Club de Golf la Reserva de Sotogrande
+LOCATION:Club de Golf la Reserva de Sotogrande\, Sotogrande\, Cádiz
 DESCRIPTION:Circuito comercial - Fourball - Parejas\nInscripción: abre el 
  18 de noviembre\, cierra el 18 de diciembre.\nFicha oficial: https://www.g
  olfdirecto.com/micro/game/6964d8e042551aa371d973c7/summary\nConfirma fecha
@@ -2466,11 +2501,11 @@ URL:https://www.golfdirecto.com/micro/game/6964d8e042551aa371d973c7/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:08b67ec4eb1fa6ff84bf@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261220
 SUMMARY:Trofeo de Navidad "Banco de Alimentos de Granada"
-LOCATION:Granada Club de Golf
+LOCATION:Granada Club de Golf\, Las Gabias\, Granada
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   25 de noviembre\, cierra el 17 de diciembre.\nFicha oficial: https://www.
  golfdirecto.com/micro/game/6b040e27d2ed4f3d1c07e966/summary\nConfirma fech
@@ -2481,11 +2516,11 @@ URL:https://www.golfdirecto.com/micro/game/6b040e27d2ed4f3d1c07e966/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:48f8148a40dcc8d921c4@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261220
 DTEND;VALUE=DATE:20261221
 SUMMARY:3º Torneo Infantil (18 Hoyos)
-LOCATION:Real Club Pineda de Sevilla\, Sevilla
+LOCATION:Real Club Pineda de Sevilla\, Sevilla\, Sevilla
 DESCRIPTION:Juvenil - Stableford - Individual\nFicha oficial: https://www.n
  extcaddy.com/tour/75628\nConfirma fechas y condiciones en la web del organ
  izador. Vía Banderín.
@@ -2495,11 +2530,11 @@ URL:https://www.nextcaddy.com/tour/75628
 END:VEVENT
 BEGIN:VEVENT
 UID:b40b99de0988b2405801@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261220
 DTEND;VALUE=DATE:20261221
 SUMMARY:3º Torneo Infantil (5 Hoyos)
-LOCATION:Real Club Pineda de Sevilla\, Sevilla
+LOCATION:Real Club Pineda de Sevilla\, Sevilla\, Sevilla
 DESCRIPTION:Juvenil - Stableford - Individual\nFicha oficial: https://www.n
  extcaddy.com/tour/75631\nConfirma fechas y condiciones en la web del organ
  izador. Vía Banderín.
@@ -2509,11 +2544,11 @@ URL:https://www.nextcaddy.com/tour/75631
 END:VEVENT
 BEGIN:VEVENT
 UID:ffde0fa9b8159c3683e4@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261220
 DTEND;VALUE=DATE:20261221
 SUMMARY:3º Torneo Infantil (9 Hoyos P&P)
-LOCATION:Real Club Pineda de Sevilla\, Sevilla
+LOCATION:Real Club Pineda de Sevilla\, Sevilla\, Sevilla
 DESCRIPTION:Juvenil - Stableford - Individual\nFicha oficial: https://www.n
  extcaddy.com/tour/75630\nConfirma fechas y condiciones en la web del organ
  izador. Vía Banderín.
@@ -2523,11 +2558,11 @@ URL:https://www.nextcaddy.com/tour/75630
 END:VEVENT
 BEGIN:VEVENT
 UID:913b481ed570361d0325@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261220
 DTEND;VALUE=DATE:20261221
 SUMMARY:3º Torneo Infantil (9 Hoyos)
-LOCATION:Real Club Pineda de Sevilla\, Sevilla
+LOCATION:Real Club Pineda de Sevilla\, Sevilla\, Sevilla
 DESCRIPTION:Juvenil - Stableford - Individual\nFicha oficial: https://www.n
  extcaddy.com/tour/75629\nConfirma fechas y condiciones en la web del organ
  izador. Vía Banderín.
@@ -2537,11 +2572,11 @@ URL:https://www.nextcaddy.com/tour/75629
 END:VEVENT
 BEGIN:VEVENT
 UID:6e48d308de7f95eb1e91@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261220
 DTEND;VALUE=DATE:20261221
 SUMMARY:Copa Presidente 2026
-LOCATION:Real Guadalhorce Club de Golf
+LOCATION:Real Guadalhorce Club de Golf\, Campanillas\, Málaga
 DESCRIPTION:Social de club - Scramble - Parejas\nInscripción: abre el 21 d
  e noviembre\, cierra el 16 de diciembre.\nFicha oficial: https://www.golfd
  irecto.com/micro/game/6b01804131175f0c99ebd4d3/summary\nConfirma fechas y 
@@ -2552,11 +2587,11 @@ URL:https://www.golfdirecto.com/micro/game/6b01804131175f0c99ebd4d3/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:3ea3d98b9baba77d29d0@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261220
 DTEND;VALUE=DATE:20261221
 SUMMARY:Gran Final Nova Vision Opticos
-LOCATION:Golf Almerimar
+LOCATION:Golf Almerimar\, Almerimar\, Almería
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   26 de noviembre\, cierra el 18 de diciembre.\nFicha oficial: https://www.
  golfdirecto.com/micro/game/6b080b4915c29579976a3742/summary\nConfirma fech
@@ -2567,11 +2602,11 @@ URL:https://www.golfdirecto.com/micro/game/6b080b4915c29579976a3742/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:5cf4329c042d20c36231@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261220
 DTEND;VALUE=DATE:20261221
 SUMMARY:III Torneo ZOF - Domingo 20 Diciembre 2026 (Grupo privado)
-LOCATION:Sherry Golf Jerez\, Jerez de la Frontera
+LOCATION:Sherry Golf Jerez\, Jerez de la Frontera\, Cádiz
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   5 de noviembre\, cierra el 17 de diciembre.\nPrecio: Gratis.\nFicha ofici
  al: https://www.nextcaddy.com/tour/75175\nConfirma fechas y condiciones en
@@ -2582,11 +2617,11 @@ URL:https://www.nextcaddy.com/tour/75175
 END:VEVENT
 BEGIN:VEVENT
 UID:8b8587a295426ebf82c9@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261220
 DTEND;VALUE=DATE:20261221
 SUMMARY:Torneo Navideño Escuela Juvenil
-LOCATION:La Loma Golf
+LOCATION:La Loma Golf\, Cordoba\, Córdoba
 DESCRIPTION:Juvenil - Stableford - Individual\nFicha oficial: https://www.g
  olfdirecto.com/micro/game/6affa7365e04914dfabc9aec/summary\nConfirma fecha
  s y condiciones en la web del organizador. Vía Banderín.
@@ -2596,7 +2631,7 @@ URL:https://www.golfdirecto.com/micro/game/6affa7365e04914dfabc9aec/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:5dcd9abf106ab50db192@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261221
 DTEND;VALUE=DATE:20261222
 SUMMARY:Campeonato Andalucía Match Play
@@ -2610,11 +2645,11 @@ URL:https://www.nextcaddy.com/tour/61256
 END:VEVENT
 BEGIN:VEVENT
 UID:664f42a11f82c5042794@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261222
 DTEND;VALUE=DATE:20261223
 SUMMARY:Ladies Tuesday Competition (Members)
-LOCATION:The San Roque Club
+LOCATION:The San Roque Club\, San Roque\, Cádiz
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   19 de enero\, cierra el 21 de diciembre.\nFicha oficial: https://www.golf
  directo.com/micro/game/696e3b6a557fa34aa56caad1/summary\nConfirma fechas y
@@ -2625,11 +2660,11 @@ URL:https://www.golfdirecto.com/micro/game/696e3b6a557fa34aa56caad1/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:4697013834410aca54d4@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261222
 DTEND;VALUE=DATE:20261223
 SUMMARY:Men'S Tuesday Competition (Members)
-LOCATION:The San Roque Club
+LOCATION:The San Roque Club\, San Roque\, Cádiz
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   19 de enero\, cierra el 21 de diciembre.\nFicha oficial: https://www.golf
  directo.com/micro/game/696e3d04557fa34aa5adb2fe/summary\nConfirma fechas y
@@ -2640,11 +2675,11 @@ URL:https://www.golfdirecto.com/micro/game/696e3d04557fa34aa5adb2fe/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:884aa9dd4c8fdac5cab3@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261224
 DTEND;VALUE=DATE:20261225
 SUMMARY:Ladies & Men Christmas Eve Competition
-LOCATION:The San Roque Club
+LOCATION:The San Roque Club\, San Roque\, Cádiz
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   19 de enero\, cierra el 23 de diciembre.\nFicha oficial: https://www.golf
  directo.com/micro/game/696e3d4f557fa34aa5b8f1e6/summary\nConfirma fechas y
@@ -2655,11 +2690,11 @@ URL:https://www.golfdirecto.com/micro/game/696e3d4f557fa34aa5b8f1e6/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:eab07eb8bf112bef1ddf@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261226
 DTEND;VALUE=DATE:20261227
 SUMMARY:Christmas Individual Stableford
-LOCATION:Desert Springs Golf Club
+LOCATION:Desert Springs Golf Club\, Las Cunas\, Almería
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   21 de junio\, cierra el 24 de diciembre.\nFicha oficial: https://www.golf
  directo.com/micro/game/6856b4359147670615bcda12/summary\nConfirma fechas y
@@ -2670,11 +2705,11 @@ URL:https://www.golfdirecto.com/micro/game/6856b4359147670615bcda12/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:954d8ff6309a6d3208fb@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261227
 DTEND;VALUE=DATE:20261228
 SUMMARY:2ª Prueba Metas Amigos de Hato Verde
-LOCATION:Club Hato Verde
+LOCATION:Club Hato Verde\, Las Pajanosas\, Sevilla
 DESCRIPTION:Social de club - Medal Play - Individual\nInscripción: abre el
   2 de septiembre\, cierra el 26 de diciembre.\nFicha oficial: https://www.
  golfdirecto.com/micro/game/6a980f789678d915e8f0d9d4/summary\nConfirma fech
@@ -2685,11 +2720,11 @@ URL:https://www.golfdirecto.com/micro/game/6a980f789678d915e8f0d9d4/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:097d77d14ed707a61c5b@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261227
 DTEND;VALUE=DATE:20261228
 SUMMARY:Fin de año Club de Golf Marbella
-LOCATION:El Paraíso Golf Club
+LOCATION:El Paraíso Golf Club\, Estepona\, Málaga
 DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
  //www.golfdirecto.com/micro/game/6af56fefcb197af66bf87ff7/summary\nConfirm
  a fechas y condiciones en la web del organizador. Vía Banderín.
@@ -2699,11 +2734,11 @@ URL:https://www.golfdirecto.com/micro/game/6af56fefcb197af66bf87ff7/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:eb8827c0ec2c7090e9f4@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261227
 DTEND;VALUE=DATE:20261228
 SUMMARY:Final Nacional - Parador Málaga Golf - 3ª Categoría
-LOCATION:Parador Málaga del Golf\, Málaga
+LOCATION:Parador Málaga del Golf\, Malaga\, Málaga
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   1 de septiembre\, cierra el 1 de diciembre.\nPrecio: Gratis.\nFicha ofici
  al: https://www.nextcaddy.com/tour/72627\nConfirma fechas y condiciones en
@@ -2714,11 +2749,11 @@ URL:https://www.nextcaddy.com/tour/72627
 END:VEVENT
 BEGIN:VEVENT
 UID:f1fbe1518b25918ff316@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261227
 DTEND;VALUE=DATE:20261228
 SUMMARY:Final Nacional - Parador de Malaga Golf - 1ª y 2ª Categoría
-LOCATION:Parador Málaga del Golf\, Málaga
+LOCATION:Parador Málaga del Golf\, Malaga\, Málaga
 DESCRIPTION:Social de club - Medal Play - Individual\nInscripción: abre el
   1 de septiembre\, cierra el 1 de diciembre.\nPrecio: Gratis.\nFicha ofici
  al: https://www.nextcaddy.com/tour/72626\nConfirma fechas y condiciones en
@@ -2729,11 +2764,11 @@ URL:https://www.nextcaddy.com/tour/72626
 END:VEVENT
 BEGIN:VEVENT
 UID:dcdbd8af5104ae996a74@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261227
 DTEND;VALUE=DATE:20261228
 SUMMARY:Mixed Red\, White\, Blue Texas Scramble
-LOCATION:The San Roque Club
+LOCATION:The San Roque Club\, San Roque\, Cádiz
 DESCRIPTION:Social de club - Scramble - Parejas\nInscripción: abre el 19 d
  e enero\, cierra el 26 de diciembre.\nFicha oficial: https://www.golfdirec
  to.com/micro/game/696e3da9557fa34aa5cdc3a8/summary\nConfirma fechas y cond
@@ -2744,11 +2779,11 @@ URL:https://www.golfdirecto.com/micro/game/696e3da9557fa34aa5cdc3a8/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:83821345680db06e3eeb@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261227
 DTEND;VALUE=DATE:20261228
 SUMMARY:V Torneo Padres e Hijos TEM2026 GROSS DENTISTAS Costa del Sol
-LOCATION:el Chaparral Golf Club\, Mijas
+LOCATION:el Chaparral Golf Club\, Mijas Costa\, Málaga
 DESCRIPTION:Juvenil - Stableford - Individual\nInscripción: abre el 1 de d
  iciembre\, cierra el 22 de diciembre.\nPrecio: Gratis.\nFicha oficial: htt
  ps://www.nextcaddy.com/tour/71808\nConfirma fechas y condiciones en la web
@@ -2759,11 +2794,11 @@ URL:https://www.nextcaddy.com/tour/71808
 END:VEVENT
 BEGIN:VEVENT
 UID:baa718a19edfc4e25e5d@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261229
 DTEND;VALUE=DATE:20261230
 SUMMARY:Empleados & Abonados
-LOCATION:Club Deportivo Añoreta Golf\, Rincón de la Victoria
+LOCATION:Club Deportivo Añoreta Golf\, Rincon de la Victoria\, Málaga
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   13 de marzo\, cierra el 13 de marzo.\nPrecio: Gratis.\nFicha oficial: htt
  ps://www.nextcaddy.com/tour/69151\nConfirma fechas y condiciones en la web
@@ -2774,11 +2809,11 @@ URL:https://www.nextcaddy.com/tour/69151
 END:VEVENT
 BEGIN:VEVENT
 UID:2c5bb97e7a504b06e916@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261229
 DTEND;VALUE=DATE:20261230
 SUMMARY:Ladies Tuesday Competition (Members)
-LOCATION:The San Roque Club
+LOCATION:The San Roque Club\, San Roque\, Cádiz
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   19 de enero\, cierra el 28 de diciembre.\nFicha oficial: https://www.golf
  directo.com/micro/game/696e3dc8557fa34aa5d4ef9b/summary\nConfirma fechas y
@@ -2789,11 +2824,11 @@ URL:https://www.golfdirecto.com/micro/game/696e3dc8557fa34aa5d4ef9b/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:755434b4d514eb716ee8@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261229
 DTEND;VALUE=DATE:20261230
 SUMMARY:Men'S Tuesday Competition (Members)
-LOCATION:The San Roque Club
+LOCATION:The San Roque Club\, San Roque\, Cádiz
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   19 de enero\, cierra el 28 de diciembre.\nFicha oficial: https://www.golf
  directo.com/micro/game/696e3dfc557fa34aa5dae7d3/summary\nConfirma fechas y
@@ -2804,11 +2839,11 @@ URL:https://www.golfdirecto.com/micro/game/696e3dfc557fa34aa5dae7d3/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:50edfbbbdd3d8b5a5538@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261230
 DTEND;VALUE=DATE:20261231
 SUMMARY:Ryder Cup Navideña Padres Vs Hijos 2026
-LOCATION:Real Guadalhorce Club de Golf
+LOCATION:Real Guadalhorce Club de Golf\, Campanillas\, Málaga
 DESCRIPTION:Social de club - Scramble - Parejas\nInscripción: abre el 19 d
  e noviembre\, cierra el 29 de diciembre.\nFicha oficial: https://www.golfd
  irecto.com/micro/game/6afefa9ce64dbfd6f4d88f17/summary\nConfirma fechas y 
@@ -2819,11 +2854,11 @@ URL:https://www.golfdirecto.com/micro/game/6afefa9ce64dbfd6f4d88f17/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:efa4b6e18842dde2cf38@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261230
 DTEND;VALUE=DATE:20261231
 SUMMARY:Ryder Cup Navideña Padres Vs Hijos Par 3
-LOCATION:Real Guadalhorce Club de Golf
+LOCATION:Real Guadalhorce Club de Golf\, Campanillas\, Málaga
 DESCRIPTION:Social de club - Scramble - Parejas\nInscripción: abre el 19 d
  e noviembre\, cierra el 29 de diciembre.\nFicha oficial: https://www.golfd
  irecto.com/micro/game/6afefad5e64dbfd6f4e0563b/summary\nConfirma fechas y 
@@ -2834,11 +2869,11 @@ URL:https://www.golfdirecto.com/micro/game/6afefad5e64dbfd6f4e0563b/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:977960babbca0a0b65fb@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261230
 DTEND;VALUE=DATE:20261231
 SUMMARY:Torneo Similar Memorial Aper (Grupo Privado)
-LOCATION:Sherry Golf Jerez\, Jerez de la Frontera
+LOCATION:Sherry Golf Jerez\, Jerez de la Frontera\, Cádiz
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   9 de noviembre\, cierra el 29 de diciembre.\nPrecio: 48 €.\nFicha ofici
  al: https://www.nextcaddy.com/tour/75275\nConfirma fechas y condiciones en
@@ -2849,11 +2884,11 @@ URL:https://www.nextcaddy.com/tour/75275
 END:VEVENT
 BEGIN:VEVENT
 UID:7881a3b05362e62e643f@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261231
 DTEND;VALUE=DATE:20270101
 SUMMARY:La Cala Resort - End of Year Tournament
-LOCATION:La Cala Resort
+LOCATION:La Cala Resort\, Mijas\, Málaga
 DESCRIPTION:Circuito comercial - Fourball - Parejas\nInscripción: abre el 
  1 de septiembre\, cierra el 29 de diciembre.\nFicha oficial: https://www.g
  olfdirecto.com/micro/game/6a8817db96dc2a94e1eec253/summary\nConfirma fecha
@@ -2864,11 +2899,11 @@ URL:https://www.golfdirecto.com/micro/game/6a8817db96dc2a94e1eec253/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:bf44e192dd397df41f17@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261231
 DTEND;VALUE=DATE:20270101
 SUMMARY:New Year'S Eve Competition
-LOCATION:The San Roque Club
+LOCATION:The San Roque Club\, San Roque\, Cádiz
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   19 de enero\, cierra el 30 de diciembre.\nFicha oficial: https://www.golf
  directo.com/micro/game/696e3e38557fa34aa5e53aef/summary\nConfirma fechas y
@@ -2879,11 +2914,11 @@ URL:https://www.golfdirecto.com/micro/game/696e3e38557fa34aa5e53aef/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:3d5bb46c0f80b113c6bc@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261231
 DTEND;VALUE=DATE:20270101
 SUMMARY:New Year'S Eve Mixed Pairs Stableford
-LOCATION:Desert Springs Golf Club
+LOCATION:Desert Springs Golf Club\, Las Cunas\, Almería
 DESCRIPTION:Social de club - Fourball - Parejas\nInscripción: abre el 21 d
  e junio\, cierra el 29 de diciembre.\nFicha oficial: https://www.golfdirec
  to.com/micro/game/6856b4cb9147670615e63a94/summary\nConfirma fechas y cond
@@ -2894,11 +2929,11 @@ URL:https://www.golfdirecto.com/micro/game/6856b4cb9147670615e63a94/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:ba864d429521bd6c79b7@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261231
 DTEND;VALUE=DATE:20270101
 SUMMARY:Ranking Escuela 2026
-LOCATION:Real Club de Golf Guadalmina\, Salares
+LOCATION:Real Club de Golf Guadalmina\, Guadalmina\, Málaga
 DESCRIPTION:Juvenil - Stableford - Individual\nInscripción: abre el 31 de 
  diciembre\, cierra el 30 de diciembre.\nPrecio: Gratis.\nFicha oficial: ht
  tps://www.nextcaddy.com/tour/68574\nConfirma fechas y condiciones en la we
@@ -2909,11 +2944,11 @@ URL:https://www.nextcaddy.com/tour/68574
 END:VEVENT
 BEGIN:VEVENT
 UID:2b47f004e9956756d287@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20261231
 DTEND;VALUE=DATE:20270101
 SUMMARY:Torneo Última Oportunidad
-LOCATION:Club de Golf Playa Serena
+LOCATION:Club de Golf Playa Serena\, Roquetas de Mar\, Almería
 DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
  //www.golfdirecto.com/micro/game/69748d1805a15f8d19c067c4/summary\nConfirm
  a fechas y condiciones en la web del organizador. Vía Banderín.
@@ -2923,11 +2958,11 @@ URL:https://www.golfdirecto.com/micro/game/69748d1805a15f8d19c067c4/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:d26cba8e2c443d33071b@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270101
 DTEND;VALUE=DATE:20270102
 SUMMARY:Torneo de Año Nuevo | New Year's Tournament
-LOCATION:Club de Golf la Reserva de Sotogrande
+LOCATION:Club de Golf la Reserva de Sotogrande\, Sotogrande\, Cádiz
 DESCRIPTION:Circuito comercial - Scramble - Parejas\nInscripción: abre el 
  12 de noviembre\, cierra el 30 de diciembre.\nFicha oficial: https://www.g
  olfdirecto.com/micro/game/6ae48b3a524439f9a107fbd8/summary\nConfirma fecha
@@ -2938,11 +2973,11 @@ URL:https://www.golfdirecto.com/micro/game/6ae48b3a524439f9a107fbd8/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:57ef35d06416284f5433@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270102
 DTEND;VALUE=DATE:20270103
 SUMMARY:Torneo Reyes Magos
-LOCATION:La Loma Golf
+LOCATION:La Loma Golf\, Cordoba\, Córdoba
 DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
  //www.golfdirecto.com/micro/game/6affadf25e04914dfad5b971/summary\nConfirm
  a fechas y condiciones en la web del organizador. Vía Banderín.
@@ -2952,11 +2987,11 @@ URL:https://www.golfdirecto.com/micro/game/6affadf25e04914dfad5b971/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:5d7f8b29845f6da4de95@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270103
 DTEND;VALUE=DATE:20270104
 SUMMARY:New Year Stableford
-LOCATION:Desert Springs Golf Club
+LOCATION:Desert Springs Golf Club\, Las Cunas\, Almería
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   31 de octubre\, cierra el 30 de diciembre.\nFicha oficial: https://www.go
  lfdirecto.com/micro/game/6ae638724e69f3adf9365a8e/summary\nConfirma fechas
@@ -2967,11 +3002,11 @@ URL:https://www.golfdirecto.com/micro/game/6ae638724e69f3adf9365a8e/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:b5f1970949437edc1389@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270103
 DTEND;VALUE=DATE:20270104
 SUMMARY:Three Kings Tournament
-LOCATION:The San Roque Club
+LOCATION:The San Roque Club\, San Roque\, Cádiz
 DESCRIPTION:Circuito comercial - Stableford - Individual\nInscripción: abr
  e el 4 de marzo\, cierra el 2 de enero.\nFicha oficial: https://www.golfdi
  recto.com/micro/game/69a8571bbba30eff7cfbf5bc/summary\nConfirma fechas y c
@@ -2982,11 +3017,11 @@ URL:https://www.golfdirecto.com/micro/game/69a8571bbba30eff7cfbf5bc/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:1a4571eafb9446e9ba23@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270105
 DTEND;VALUE=DATE:20270106
 SUMMARY:Ladies Tuesday Competition (Members)
-LOCATION:The San Roque Club
+LOCATION:The San Roque Club\, San Roque\, Cádiz
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   4 de marzo\, cierra el 4 de enero.\nFicha oficial: https://www.golfdirect
  o.com/micro/game/69a8579cbba30eff7c15370f/summary\nConfirma fechas y condi
@@ -2997,11 +3032,11 @@ URL:https://www.golfdirecto.com/micro/game/69a8579cbba30eff7c15370f/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:6c8c4eb134fc0ca4ed29@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270105
 DTEND;VALUE=DATE:20270106
 SUMMARY:Men'S Tuesday Competition (Members)
-LOCATION:The San Roque Club
+LOCATION:The San Roque Club\, San Roque\, Cádiz
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   4 de marzo\, cierra el 4 de enero.\nFicha oficial: https://www.golfdirect
  o.com/micro/game/69a85850bba30eff7c2b1aaa/summary\nConfirma fechas y condi
@@ -3012,11 +3047,11 @@ URL:https://www.golfdirecto.com/micro/game/69a85850bba30eff7c2b1aaa/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:d6a67e7953b106e09037@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270106
 DTEND;VALUE=DATE:20270107
 SUMMARY:Epiphany Stableford / Día de Reyes
-LOCATION:Desert Springs Golf Club
+LOCATION:Desert Springs Golf Club\, Las Cunas\, Almería
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   31 de octubre\, cierra el 1 de enero.\nFicha oficial: https://www.golfdir
  ecto.com/micro/game/6ae638e38f4f6415e0ba2627/summary\nConfirma fechas y co
@@ -3027,11 +3062,11 @@ URL:https://www.golfdirecto.com/micro/game/6ae638e38f4f6415e0ba2627/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:4f450961a00abc4fb7f1@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270107
 DTEND;VALUE=DATE:20270108
 SUMMARY:Ladies Thursday Competition (Members)
-LOCATION:The San Roque Club
+LOCATION:The San Roque Club\, San Roque\, Cádiz
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   11 de septiembre\, cierra el 6 de enero.\nFicha oficial: https://www.golf
  directo.com/micro/game/6aa3ac244304e83a563d2296/summary\nConfirma fechas y
@@ -3042,11 +3077,11 @@ URL:https://www.golfdirecto.com/micro/game/6aa3ac244304e83a563d2296/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:e85c84d9f724105858b7@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270107
 DTEND;VALUE=DATE:20270108
 SUMMARY:Men'S Thursday Competition (Members)
-LOCATION:The San Roque Club
+LOCATION:The San Roque Club\, San Roque\, Cádiz
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   4 de marzo\, cierra el 6 de enero.\nFicha oficial: https://www.golfdirect
  o.com/micro/game/69a864edbba30eff7ceee83c/summary\nConfirma fechas y condi
@@ -3057,11 +3092,11 @@ URL:https://www.golfdirecto.com/micro/game/69a864edbba30eff7ceee83c/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:996df3eaf2b94320cd97@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270110
 DTEND;VALUE=DATE:20270111
 SUMMARY:3ª Prueba Circuito Academia
-LOCATION:Club Hato Verde
+LOCATION:Club Hato Verde\, Las Pajanosas\, Sevilla
 DESCRIPTION:Circuito comercial - Stableford - Individual\nInscripción: abr
  e el 17 de noviembre\, cierra el 9 de enero.\nFicha oficial: https://www.g
  olfdirecto.com/micro/game/6afc7809669bd90e3951f9b2/summary\nConfirma fecha
@@ -3072,11 +3107,11 @@ URL:https://www.golfdirecto.com/micro/game/6afc7809669bd90e3951f9b2/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:48af65c245f6ce7fd3ff@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270110
 DTEND;VALUE=DATE:20270111
 SUMMARY:3ª Prueba Metas Amigos de Hato Verde
-LOCATION:Club Hato Verde
+LOCATION:Club Hato Verde\, Las Pajanosas\, Sevilla
 DESCRIPTION:Social de club - Medal Play - Individual\nInscripción: abre el
   2 de septiembre\, cierra el 30 de enero.\nFicha oficial: https://www.golf
  directo.com/micro/game/6a980fa19678d915e8f50806/summary\nConfirma fechas y
@@ -3087,11 +3122,11 @@ URL:https://www.golfdirecto.com/micro/game/6a980fa19678d915e8f50806/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:87686722a8a386104d5c@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270110
 DTEND;VALUE=DATE:20270111
 SUMMARY:Ladies Ranking January Sponsored By Abbeygate (Members)
-LOCATION:The San Roque Club
+LOCATION:The San Roque Club\, San Roque\, Cádiz
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   4 de marzo\, cierra el 9 de enero.\nFicha oficial: https://www.golfdirect
  o.com/micro/game/69a84c2d3d89fa2b64a83842/summary\nConfirma fechas y condi
@@ -3102,11 +3137,11 @@ URL:https://www.golfdirecto.com/micro/game/69a84c2d3d89fa2b64a83842/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:75a33d5c9ee347fcfd4b@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270110
 DTEND;VALUE=DATE:20270111
 SUMMARY:Men Ranking January Sponsored By Abbeygate (Members)
-LOCATION:The San Roque Club
+LOCATION:The San Roque Club\, San Roque\, Cádiz
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   4 de marzo\, cierra el 9 de enero.\nFicha oficial: https://www.golfdirect
  o.com/micro/game/69a84bb93d89fa2b648fc7a1/summary\nConfirma fechas y condi
@@ -3117,11 +3152,11 @@ URL:https://www.golfdirecto.com/micro/game/69a84bb93d89fa2b648fc7a1/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:0a301edca7e1c1ec167f@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270112
 DTEND;VALUE=DATE:20270113
 SUMMARY:Ladies Tuesday Competition (Members)
-LOCATION:The San Roque Club
+LOCATION:The San Roque Club\, San Roque\, Cádiz
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   4 de marzo\, cierra el 11 de enero.\nFicha oficial: https://www.golfdirec
  to.com/micro/game/69a8613ebba30eff7c6eb964/summary\nConfirma fechas y cond
@@ -3132,11 +3167,11 @@ URL:https://www.golfdirecto.com/micro/game/69a8613ebba30eff7c6eb964/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:98caad49c2965abb1e3f@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270112
 DTEND;VALUE=DATE:20270113
 SUMMARY:Men'S Tuesday Competition (Members)
-LOCATION:The San Roque Club
+LOCATION:The San Roque Club\, San Roque\, Cádiz
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   4 de marzo\, cierra el 11 de enero.\nFicha oficial: https://www.golfdirec
  to.com/micro/game/69a860d8bba30eff7c636664/summary\nConfirma fechas y cond
@@ -3147,11 +3182,11 @@ URL:https://www.golfdirecto.com/micro/game/69a860d8bba30eff7c636664/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:a0571239e6b25287ef49@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270114
 DTEND;VALUE=DATE:20270115
 SUMMARY:Ladies Thursday Competition (Members)
-LOCATION:The San Roque Club
+LOCATION:The San Roque Club\, San Roque\, Cádiz
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   11 de septiembre\, cierra el 13 de enero.\nFicha oficial: https://www.gol
  fdirecto.com/micro/game/6aa3ac564304e83a564be004/summary\nConfirma fechas 
@@ -3162,11 +3197,11 @@ URL:https://www.golfdirecto.com/micro/game/6aa3ac564304e83a564be004/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:338e49cab7627fed53bb@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270114
 DTEND;VALUE=DATE:20270115
 SUMMARY:Men'S Thursday Competition (Members)
-LOCATION:The San Roque Club
+LOCATION:The San Roque Club\, San Roque\, Cádiz
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   4 de marzo\, cierra el 13 de enero.\nFicha oficial: https://www.golfdirec
  to.com/micro/game/69a86511bba30eff7cf407d7/summary\nConfirma fechas y cond
@@ -3177,11 +3212,11 @@ URL:https://www.golfdirecto.com/micro/game/69a86511bba30eff7cf407d7/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:d46c284059a2a4fafcd3@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270116
 DTEND;VALUE=DATE:20270117
 SUMMARY:Captain And Past Captains Challenge
-LOCATION:Desert Springs Golf Club
+LOCATION:Desert Springs Golf Club\, Las Cunas\, Almería
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   31 de octubre\, cierra el 11 de enero.\nFicha oficial: https://www.golfdi
  recto.com/micro/game/6ae6396a4e69f3adf95822ac/summary\nConfirma fechas y c
@@ -3192,11 +3227,11 @@ URL:https://www.golfdirecto.com/micro/game/6ae6396a4e69f3adf95822ac/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:21cb9e5748bc5bc795be@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270119
 DTEND;VALUE=DATE:20270120
 SUMMARY:Ladies Tuesday Competition (Members)
-LOCATION:The San Roque Club
+LOCATION:The San Roque Club\, San Roque\, Cádiz
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   4 de marzo\, cierra el 18 de enero.\nFicha oficial: https://www.golfdirec
  to.com/micro/game/69a862f3bba30eff7ca861ab/summary\nConfirma fechas y cond
@@ -3207,11 +3242,11 @@ URL:https://www.golfdirecto.com/micro/game/69a862f3bba30eff7ca861ab/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:18a659c3915c41a60128@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270119
 DTEND;VALUE=DATE:20270120
 SUMMARY:Men'S Tuesday Competition (Members)
-LOCATION:The San Roque Club
+LOCATION:The San Roque Club\, San Roque\, Cádiz
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   4 de marzo\, cierra el 18 de enero.\nFicha oficial: https://www.golfdirec
  to.com/micro/game/69a861dbbba30eff7c8def01/summary\nConfirma fechas y cond
@@ -3222,11 +3257,11 @@ URL:https://www.golfdirecto.com/micro/game/69a861dbbba30eff7c8def01/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:e00f4a26736115802637@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270121
 DTEND;VALUE=DATE:20270122
 SUMMARY:Ladies Thursday Competition (Members)
-LOCATION:The San Roque Club
+LOCATION:The San Roque Club\, San Roque\, Cádiz
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   11 de septiembre\, cierra el 20 de enero.\nFicha oficial: https://www.gol
  fdirecto.com/micro/game/6aa3ac884304e83a56571f6d/summary\nConfirma fechas 
@@ -3237,11 +3272,11 @@ URL:https://www.golfdirecto.com/micro/game/6aa3ac884304e83a56571f6d/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:cc717815f0b56669dbb3@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270121
 DTEND;VALUE=DATE:20270122
 SUMMARY:Men'S Thursday Competition (Members)
-LOCATION:The San Roque Club
+LOCATION:The San Roque Club\, San Roque\, Cádiz
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   4 de marzo\, cierra el 20 de enero.\nFicha oficial: https://www.golfdirec
  to.com/micro/game/69a86530bba30eff7cf6375f/summary\nConfirma fechas y cond
@@ -3252,11 +3287,11 @@ URL:https://www.golfdirecto.com/micro/game/69a86530bba30eff7cf6375f/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:ee5b60c9b4c5b183e573@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270126
 DTEND;VALUE=DATE:20270127
 SUMMARY:(56) Ladies Tuesday Competition (Members)
-LOCATION:The San Roque Club
+LOCATION:The San Roque Club\, San Roque\, Cádiz
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   4 de marzo\, cierra el 25 de enero.\nFicha oficial: https://www.golfdirec
  to.com/micro/game/69a863f3bba30eff7cce37fd/summary\nConfirma fechas y cond
@@ -3267,11 +3302,11 @@ URL:https://www.golfdirecto.com/micro/game/69a863f3bba30eff7cce37fd/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:1f32198241c41f658b0f@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270126
 DTEND;VALUE=DATE:20270127
 SUMMARY:Men'S Tuesday Competition (Members)
-LOCATION:The San Roque Club
+LOCATION:The San Roque Club\, San Roque\, Cádiz
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   4 de marzo\, cierra el 25 de enero.\nFicha oficial: https://www.golfdirec
  to.com/micro/game/69a86343bba30eff7cb0dbf2/summary\nConfirma fechas y cond
@@ -3282,11 +3317,11 @@ URL:https://www.golfdirecto.com/micro/game/69a86343bba30eff7cb0dbf2/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:b96659d6116ebbb01e0f@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270128
 DTEND;VALUE=DATE:20270129
 SUMMARY:Ladies Thursday Competition (Members)
-LOCATION:The San Roque Club
+LOCATION:The San Roque Club\, San Roque\, Cádiz
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   11 de septiembre\, cierra el 27 de enero.\nFicha oficial: https://www.gol
  fdirecto.com/micro/game/6aa3ad004304e83a567cdeb4/summary\nConfirma fechas 
@@ -3297,11 +3332,11 @@ URL:https://www.golfdirecto.com/micro/game/6aa3ad004304e83a567cdeb4/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:c67168f7cd3144acda20@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270128
 DTEND;VALUE=DATE:20270129
 SUMMARY:Men'S Thursday Competition (Members)
-LOCATION:The San Roque Club
+LOCATION:The San Roque Club\, San Roque\, Cádiz
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   4 de marzo\, cierra el 27 de enero.\nFicha oficial: https://www.golfdirec
  to.com/micro/game/69a86557bba30eff7cf95ee9/summary\nConfirma fechas y cond
@@ -3312,11 +3347,11 @@ URL:https://www.golfdirecto.com/micro/game/69a86557bba30eff7cf95ee9/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:57ecf94b789631fa5a4b@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270129
 DTEND;VALUE=DATE:20270130
 SUMMARY:Away - Santa Maria - Ladies Western League
-LOCATION:La Cala Resort
+LOCATION:La Cala Resort\, Mijas\, Málaga
 DESCRIPTION:Social de club - Fourball - Parejas\nInscripción: abre el 15 d
  e noviembre\, cierra el 27 de enero.\nFicha oficial: https://www.golfdirec
  to.com/micro/game/6ab6f97a8cfbb19c03fca11e/summary\nConfirma fechas y cond
@@ -3327,11 +3362,11 @@ URL:https://www.golfdirecto.com/micro/game/6ab6f97a8cfbb19c03fca11e/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:9d84d9b770c2b937648c@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270130
 DTEND;VALUE=DATE:20270131
 SUMMARY:Ladies Medal Sponsored By Vinomarket (Members)
-LOCATION:The San Roque Club
+LOCATION:The San Roque Club\, San Roque\, Cádiz
 DESCRIPTION:Social de club - Medal Play - Individual\nInscripción: abre el
   11 de septiembre\, cierra el 29 de enero.\nFicha oficial: https://www.gol
  fdirecto.com/micro/game/6aa3b0bd4304e83a56766b22/summary\nConfirma fechas 
@@ -3342,11 +3377,11 @@ URL:https://www.golfdirecto.com/micro/game/6aa3b0bd4304e83a56766b22/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:76e19c588476e43d4470@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270130
 DTEND;VALUE=DATE:20270131
 SUMMARY:Men´s Medal Sponsored By Vinomarket (Members)
-LOCATION:The San Roque Club
+LOCATION:The San Roque Club\, San Roque\, Cádiz
 DESCRIPTION:Social de club - Medal Play - Individual\nInscripción: abre el
   11 de septiembre\, cierra el 29 de enero.\nFicha oficial: https://www.gol
  fdirecto.com/micro/game/6aa3b09b4304e83a566c1a31/summary\nConfirma fechas 
@@ -3357,11 +3392,11 @@ URL:https://www.golfdirecto.com/micro/game/6aa3b09b4304e83a566c1a31/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:fa5ca8b80b8413363b2d@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270130
 DTEND;VALUE=DATE:20270201
 SUMMARY:The Club Handicap Salver
-LOCATION:Desert Springs Golf Club
+LOCATION:Desert Springs Golf Club\, Las Cunas\, Almería
 DESCRIPTION:Social de club - Medal Play - Individual\nInscripción: abre el
   31 de octubre\, cierra el 25 de enero.\nFicha oficial: https://www.golfdi
  recto.com/micro/game/6ae639f34e69f3adf969b287/summary\nConfirma fechas y c
@@ -3372,11 +3407,11 @@ URL:https://www.golfdirecto.com/micro/game/6ae639f34e69f3adf969b287/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:cdef426c5210979b581f@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270131
 DTEND;VALUE=DATE:20270201
 SUMMARY:T3 La Cala Junior Golf League 26-27
-LOCATION:La Cala Resort
+LOCATION:La Cala Resort\, Mijas\, Málaga
 DESCRIPTION:Juvenil - Stableford - Individual\nInscripción: abre el 26 de 
  octubre\, cierra el 30 de enero.\nFicha oficial: https://www.golfdirecto.c
  om/micro/game/6adf7657b0e08ac015af1696/summary\nConfirma fechas y condicio
@@ -3387,11 +3422,11 @@ URL:https://www.golfdirecto.com/micro/game/6adf7657b0e08ac015af1696/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:d7c5549122d8959003aa@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270202
 DTEND;VALUE=DATE:20270203
 SUMMARY:Ladies Tuesday Competition (Members)
-LOCATION:The San Roque Club
+LOCATION:The San Roque Club\, San Roque\, Cádiz
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   11 de septiembre\, cierra el 1 de febrero.\nFicha oficial: https://www.go
  lfdirecto.com/micro/game/6aa3b94c8b9e3b6bed696ae5/summary\nConfirma fechas
@@ -3402,11 +3437,11 @@ URL:https://www.golfdirecto.com/micro/game/6aa3b94c8b9e3b6bed696ae5/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:ec30877c75d1fa7cf9f0@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270202
 DTEND;VALUE=DATE:20270203
 SUMMARY:Men'S Tuesday Competition (Members)
-LOCATION:The San Roque Club
+LOCATION:The San Roque Club\, San Roque\, Cádiz
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   11 de septiembre\, cierra el 1 de febrero.\nFicha oficial: https://www.go
  lfdirecto.com/micro/game/6aa3bd788b9e3b6bed3605fa/summary\nConfirma fechas
@@ -3417,11 +3452,11 @@ URL:https://www.golfdirecto.com/micro/game/6aa3bd788b9e3b6bed3605fa/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:52bf823fda20810312a4@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270204
 DTEND;VALUE=DATE:20270205
 SUMMARY:Ladies Thursday Competition (Members)
-LOCATION:The San Roque Club
+LOCATION:The San Roque Club\, San Roque\, Cádiz
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   11 de septiembre\, cierra el 3 de febrero.\nFicha oficial: https://www.go
  lfdirecto.com/micro/game/6aa3b6ca8b9e3b6bed6049da/summary\nConfirma fechas
@@ -3432,11 +3467,11 @@ URL:https://www.golfdirecto.com/micro/game/6aa3b6ca8b9e3b6bed6049da/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:58a5951c47bc1ad4aa60@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270204
 DTEND;VALUE=DATE:20270205
 SUMMARY:Men'S Thursday Competition (Members)
-LOCATION:The San Roque Club
+LOCATION:The San Roque Club\, San Roque\, Cádiz
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   11 de septiembre\, cierra el 3 de febrero.\nFicha oficial: https://www.go
  lfdirecto.com/micro/game/6aa3b7e98b9e3b6bedd92aa4/summary\nConfirma fechas
@@ -3447,11 +3482,11 @@ URL:https://www.golfdirecto.com/micro/game/6aa3b7e98b9e3b6bedd92aa4/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:bfb257520063749b392c@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270207
 DTEND;VALUE=DATE:20270208
 SUMMARY:Ladies Ranking February Sponsored By Abbeygate (Members)
-LOCATION:The San Roque Club
+LOCATION:The San Roque Club\, San Roque\, Cádiz
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   4 de marzo\, cierra el 6 de febrero.\nFicha oficial: https://www.golfdire
  cto.com/micro/game/69a8555bbba30eff7cbc161b/summary\nConfirma fechas y con
@@ -3462,11 +3497,11 @@ URL:https://www.golfdirecto.com/micro/game/69a8555bbba30eff7cbc161b/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:0110f30124304d358192@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270207
 DTEND;VALUE=DATE:20270208
 SUMMARY:Men Ranking February Sponsored By Abbeygate (Members)
-LOCATION:The San Roque Club
+LOCATION:The San Roque Club\, San Roque\, Cádiz
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   4 de marzo\, cierra el 6 de febrero.\nFicha oficial: https://www.golfdire
  cto.com/micro/game/69a85532bba30eff7cb70756/summary\nConfirma fechas y con
@@ -3477,11 +3512,11 @@ URL:https://www.golfdirecto.com/micro/game/69a85532bba30eff7cb70756/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:49496f70f7bf800f8381@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270209
 DTEND;VALUE=DATE:20270210
 SUMMARY:Ladies Tuesday Competition (Members)
-LOCATION:The San Roque Club
+LOCATION:The San Roque Club\, San Roque\, Cádiz
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   11 de septiembre\, cierra el 8 de febrero.\nFicha oficial: https://www.go
  lfdirecto.com/micro/game/6aa3b9748b9e3b6bed7bc7b6/summary\nConfirma fechas
@@ -3492,11 +3527,11 @@ URL:https://www.golfdirecto.com/micro/game/6aa3b9748b9e3b6bed7bc7b6/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:65edc38c96cfdd369a01@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270209
 DTEND;VALUE=DATE:20270210
 SUMMARY:Men'S Tuesday Competition (Members)
-LOCATION:The San Roque Club
+LOCATION:The San Roque Club\, San Roque\, Cádiz
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   11 de septiembre\, cierra el 8 de febrero.\nFicha oficial: https://www.go
  lfdirecto.com/micro/game/6aa3c3228b9e3b6bedb0e84c/summary\nConfirma fechas
@@ -3507,11 +3542,11 @@ URL:https://www.golfdirecto.com/micro/game/6aa3c3228b9e3b6bedb0e84c/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:9c0e1480e2d58adacd33@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270211
 DTEND;VALUE=DATE:20270212
 SUMMARY:Ladies Thursday Competition (Members)
-LOCATION:The San Roque Club
+LOCATION:The San Roque Club\, San Roque\, Cádiz
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   11 de septiembre\, cierra el 10 de febrero.\nFicha oficial: https://www.g
  olfdirecto.com/micro/game/6aa3b70b8b9e3b6bed82f136/summary\nConfirma fecha
@@ -3522,11 +3557,11 @@ URL:https://www.golfdirecto.com/micro/game/6aa3b70b8b9e3b6bed82f136/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:0d873607c75f28703f08@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270211
 DTEND;VALUE=DATE:20270212
 SUMMARY:Men'S Thursday Competition (Members)
-LOCATION:The San Roque Club
+LOCATION:The San Roque Club\, San Roque\, Cádiz
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   11 de septiembre\, cierra el 10 de febrero.\nFicha oficial: https://www.g
  olfdirecto.com/micro/game/6aa3b8118b9e3b6bedef0d0a/summary\nConfirma fecha
@@ -3537,11 +3572,11 @@ URL:https://www.golfdirecto.com/micro/game/6aa3b8118b9e3b6bedef0d0a/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:9fe4f99a25fa98d4975a@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270213
 DTEND;VALUE=DATE:20270214
 SUMMARY:Valetine'S Day
-LOCATION:Desert Springs Golf Club
+LOCATION:Desert Springs Golf Club\, Las Cunas\, Almería
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   31 de octubre\, cierra el 8 de febrero.\nFicha oficial: https://www.golfd
  irecto.com/micro/game/6ae63a8a8f4f6415e0ec3703/summary\nConfirma fechas y 
@@ -3552,11 +3587,11 @@ URL:https://www.golfdirecto.com/micro/game/6ae63a8a8f4f6415e0ec3703/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:f2d5fc1dcc2e5085cf76@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270214
 DTEND;VALUE=DATE:20270215
 SUMMARY:4ª Prueba Circuito Academia
-LOCATION:Club Hato Verde
+LOCATION:Club Hato Verde\, Las Pajanosas\, Sevilla
 DESCRIPTION:Circuito comercial - Stableford - Individual\nInscripción: abr
  e el 17 de noviembre\, cierra el 13 de febrero.\nFicha oficial: https://ww
  w.golfdirecto.com/micro/game/6afc7849669bd90e395da7f7/summary\nConfirma fe
@@ -3567,11 +3602,11 @@ URL:https://www.golfdirecto.com/micro/game/6afc7849669bd90e395da7f7/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:f887680d09179cc2eec5@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270214
 DTEND;VALUE=DATE:20270215
 SUMMARY:4ª Prueba Metas Amigos de Hato Verde
-LOCATION:Club Hato Verde
+LOCATION:Club Hato Verde\, Las Pajanosas\, Sevilla
 DESCRIPTION:Social de club - Medal Play - Individual\nInscripción: abre el
   2 de septiembre\, cierra el 20 de febrero.\nFicha oficial: https://www.go
  lfdirecto.com/micro/game/6a9810d09678d915e85dee85/summary\nConfirma fechas
@@ -3582,11 +3617,11 @@ URL:https://www.golfdirecto.com/micro/game/6a9810d09678d915e85dee85/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:dd67b1da065cb196fa16@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270214
 DTEND;VALUE=DATE:20270215
 SUMMARY:St Valentine´s Day Competition
-LOCATION:The San Roque Club
+LOCATION:The San Roque Club\, San Roque\, Cádiz
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   11 de septiembre\, cierra el 13 de febrero.\nFicha oficial: https://www.g
  olfdirecto.com/micro/game/6aa3c70e4304e83a56a5766b/summary\nConfirma fecha
@@ -3597,11 +3632,11 @@ URL:https://www.golfdirecto.com/micro/game/6aa3c70e4304e83a56a5766b/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:169b53187e25cc668ee6@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270216
 DTEND;VALUE=DATE:20270217
 SUMMARY:(56) Ladies Tuesday Competition (Members)
-LOCATION:The San Roque Club
+LOCATION:The San Roque Club\, San Roque\, Cádiz
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   11 de septiembre\, cierra el 15 de febrero.\nFicha oficial: https://www.g
  olfdirecto.com/micro/game/6aa3bc848b9e3b6bedbe97ec/summary\nConfirma fecha
@@ -3612,11 +3647,11 @@ URL:https://www.golfdirecto.com/micro/game/6aa3bc848b9e3b6bedbe97ec/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:eb0c7b17c403e33343f5@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270216
 DTEND;VALUE=DATE:20270217
 SUMMARY:Men'S Tuesday Competition (Members)
-LOCATION:The San Roque Club
+LOCATION:The San Roque Club\, San Roque\, Cádiz
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   11 de septiembre\, cierra el 15 de febrero.\nFicha oficial: https://www.g
  olfdirecto.com/micro/game/6aa3c3428b9e3b6bedbf4b0e/summary\nConfirma fecha
@@ -3627,11 +3662,11 @@ URL:https://www.golfdirecto.com/micro/game/6aa3c3428b9e3b6bedbf4b0e/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:2bcd8813d7971f65cd34@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270218
 DTEND;VALUE=DATE:20270219
 SUMMARY:Ladies Thursday Competition (Members) (Copia)
-LOCATION:The San Roque Club
+LOCATION:The San Roque Club\, San Roque\, Cádiz
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   11 de septiembre\, cierra el 17 de febrero.\nFicha oficial: https://www.g
  olfdirecto.com/micro/game/6aa3b7958b9e3b6bedb58238/summary\nConfirma fecha
@@ -3642,11 +3677,11 @@ URL:https://www.golfdirecto.com/micro/game/6aa3b7958b9e3b6bedb58238/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:8bdc7b0ca3e7d420a3e2@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270218
 DTEND;VALUE=DATE:20270219
 SUMMARY:Men'S Thursday Competition (Members)
-LOCATION:The San Roque Club
+LOCATION:The San Roque Club\, San Roque\, Cádiz
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   11 de septiembre\, cierra el 17 de febrero.\nFicha oficial: https://www.g
  olfdirecto.com/micro/game/6aa3b82f8b9e3b6bedf867cf/summary\nConfirma fecha
@@ -3657,11 +3692,11 @@ URL:https://www.golfdirecto.com/micro/game/6aa3b82f8b9e3b6bedf867cf/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:e5ece758b57c18954c90@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270220
 DTEND;VALUE=DATE:20270221
 SUMMARY:Carnival Scramble
-LOCATION:Desert Springs Golf Club
+LOCATION:Desert Springs Golf Club\, Las Cunas\, Almería
 DESCRIPTION:Social de club - Scramble - Parejas\nInscripción: abre el 31 d
  e octubre\, cierra el 15 de febrero.\nFicha oficial: https://www.golfdirec
  to.com/micro/game/6ae63b158f4f6415e0049e96/summary\nConfirma fechas y cond
@@ -3672,11 +3707,11 @@ URL:https://www.golfdirecto.com/micro/game/6ae63b158f4f6415e0049e96/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:72bd70a256cb1ff5484b@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270220
 DTEND;VALUE=DATE:20270221
 SUMMARY:Ladies Medal Sponsored By Vinomarket (Members)
-LOCATION:The San Roque Club
+LOCATION:The San Roque Club\, San Roque\, Cádiz
 DESCRIPTION:Social de club - Medal Play - Individual\nInscripción: abre el
   11 de septiembre\, cierra el 19 de febrero.\nFicha oficial: https://www.g
  olfdirecto.com/micro/game/6aa3c5724304e83a5650ffd4/summary\nConfirma fecha
@@ -3687,11 +3722,11 @@ URL:https://www.golfdirecto.com/micro/game/6aa3c5724304e83a5650ffd4/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:9e2d1ecf7917bfac9d6f@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270220
 DTEND;VALUE=DATE:20270221
 SUMMARY:Men´s Medal Sponsored By Vinomarket (Members)
-LOCATION:The San Roque Club
+LOCATION:The San Roque Club\, San Roque\, Cádiz
 DESCRIPTION:Social de club - Medal Play - Individual\nInscripción: abre el
   11 de septiembre\, cierra el 19 de febrero.\nFicha oficial: https://www.g
  olfdirecto.com/micro/game/6aa3c59c4304e83a566396bc/summary\nConfirma fecha
@@ -3702,11 +3737,11 @@ URL:https://www.golfdirecto.com/micro/game/6aa3c59c4304e83a566396bc/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:12bb432b77609c68140c@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270221
 DTEND;VALUE=DATE:20270222
 SUMMARY:Quadrangular At RCG las Brisas
-LOCATION:The San Roque Club
+LOCATION:The San Roque Club\, San Roque\, Cádiz
 DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
  //www.golfdirecto.com/micro/game/6aa3c9404304e83a5641f46e/summary\nConfirm
  a fechas y condiciones en la web del organizador. Vía Banderín.
@@ -3716,11 +3751,11 @@ URL:https://www.golfdirecto.com/micro/game/6aa3c9404304e83a5641f46e/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:065ded78153bf9906208@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270221
 DTEND;VALUE=DATE:20270222
 SUMMARY:T4 La Cala Junior Golf League 26-27
-LOCATION:La Cala Resort
+LOCATION:La Cala Resort\, Mijas\, Málaga
 DESCRIPTION:Juvenil - Stableford - Individual\nInscripción: abre el 26 de 
  octubre\, cierra el 20 de febrero.\nFicha oficial: https://www.golfdirecto
  .com/micro/game/6adf76e3b0e08ac015d6817e/summary\nConfirma fechas y condic
@@ -3731,11 +3766,11 @@ URL:https://www.golfdirecto.com/micro/game/6adf76e3b0e08ac015d6817e/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:7a76448f47be27a78766@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270223
 DTEND;VALUE=DATE:20270224
 SUMMARY:Ladies Tuesday Competition (Members)
-LOCATION:The San Roque Club
+LOCATION:The San Roque Club\, San Roque\, Cádiz
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   11 de septiembre\, cierra el 22 de febrero.\nFicha oficial: https://www.g
  olfdirecto.com/micro/game/6aa3bcc18b9e3b6bedda4404/summary\nConfirma fecha
@@ -3746,11 +3781,11 @@ URL:https://www.golfdirecto.com/micro/game/6aa3bcc18b9e3b6bedda4404/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:ca12ed2ef7a43bf45ec9@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270223
 DTEND;VALUE=DATE:20270224
 SUMMARY:Men'S Tuesday Competition (Members)
-LOCATION:The San Roque Club
+LOCATION:The San Roque Club\, San Roque\, Cádiz
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   11 de septiembre\, cierra el 22 de febrero.\nFicha oficial: https://www.g
  olfdirecto.com/micro/game/6aa3c3664304e83a56b728d0/summary\nConfirma fecha
@@ -3761,11 +3796,11 @@ URL:https://www.golfdirecto.com/micro/game/6aa3c3664304e83a56b728d0/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:6fc7bd5b6b937cb6fce3@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270225
 DTEND;VALUE=DATE:20270226
 SUMMARY:Ladies Thursday Competition (Members)
-LOCATION:The San Roque Club
+LOCATION:The San Roque Club\, San Roque\, Cádiz
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   11 de septiembre\, cierra el 24 de febrero.\nFicha oficial: https://www.g
  olfdirecto.com/micro/game/6aa3b7bc8b9e3b6bedc723ab/summary\nConfirma fecha
@@ -3776,11 +3811,11 @@ URL:https://www.golfdirecto.com/micro/game/6aa3b7bc8b9e3b6bedc723ab/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:df9ab639384b4440cb23@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270225
 DTEND;VALUE=DATE:20270226
 SUMMARY:Men'S Thursday Competition (Members)
-LOCATION:The San Roque Club
+LOCATION:The San Roque Club\, San Roque\, Cádiz
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   11 de septiembre\, cierra el 24 de febrero.\nFicha oficial: https://www.g
  olfdirecto.com/micro/game/6aa3b8518b9e3b6bed06ac34/summary\nConfirma fecha
@@ -3791,11 +3826,11 @@ URL:https://www.golfdirecto.com/micro/game/6aa3b8518b9e3b6bed06ac34/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:6883d06e9426e62efabd@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270227
 DTEND;VALUE=DATE:20270228
 SUMMARY:Seve Trophy 18 Holes
-LOCATION:The San Roque Club
+LOCATION:The San Roque Club\, San Roque\, Cádiz
 DESCRIPTION:Social de club - Fourball - Parejas\nInscripción: abre el 11 d
  e septiembre\, cierra el 26 de febrero.\nFicha oficial: https://www.golfdi
  recto.com/micro/game/6aa3c42d8b9e3b6bed3ca998/summary\nConfirma fechas y c
@@ -3806,11 +3841,11 @@ URL:https://www.golfdirecto.com/micro/game/6aa3c42d8b9e3b6bed3ca998/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:b504f90bee9788fbc5bb@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270227
 DTEND;VALUE=DATE:20270228
 SUMMARY:Seve Trophy 9 Holes
-LOCATION:The San Roque Club
+LOCATION:The San Roque Club\, San Roque\, Cádiz
 DESCRIPTION:Social de club - Fourball - Parejas\nInscripción: abre el 11 d
  e septiembre\, cierra el 26 de febrero.\nFicha oficial: https://www.golfdi
  recto.com/micro/game/6aa3c3df8b9e3b6bed1a8880/summary\nConfirma fechas y c
@@ -3821,11 +3856,11 @@ URL:https://www.golfdirecto.com/micro/game/6aa3c3df8b9e3b6bed1a8880/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:40861fec96ab130577a1@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270228
 DTEND;VALUE=DATE:20270301
 SUMMARY:5ª Prueba Circuito Academia
-LOCATION:Club Hato Verde
+LOCATION:Club Hato Verde\, Las Pajanosas\, Sevilla
 DESCRIPTION:Circuito comercial - Stableford - Individual\nInscripción: abr
  e el 17 de noviembre\, cierra el 27 de febrero.\nFicha oficial: https://ww
  w.golfdirecto.com/micro/game/6afc78a7669bd90e396b0353/summary\nConfirma fe
@@ -3836,11 +3871,11 @@ URL:https://www.golfdirecto.com/micro/game/6afc78a7669bd90e396b0353/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:469d0f2386f238b7655b@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270228
 DTEND;VALUE=DATE:20270301
 SUMMARY:5ª Prueba Metas Amigos de Hato Verde
-LOCATION:Club Hato Verde
+LOCATION:Club Hato Verde\, Las Pajanosas\, Sevilla
 DESCRIPTION:Social de club - Medal Play - Individual\nInscripción: abre el
   2 de septiembre\, cierra el 27 de marzo.\nFicha oficial: https://www.golf
  directo.com/micro/game/6a98114b9678d915e882194e/summary\nConfirma fechas y
@@ -3851,11 +3886,11 @@ URL:https://www.golfdirecto.com/micro/game/6a98114b9678d915e882194e/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:8b5398b2fdfa0683faab@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270228
 DTEND;VALUE=DATE:20270301
 SUMMARY:Andalucia Day
-LOCATION:Desert Springs Golf Club
+LOCATION:Desert Springs Golf Club\, Las Cunas\, Almería
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   31 de octubre\, cierra el 23 de febrero.\nFicha oficial: https://www.golf
  directo.com/micro/game/6ae63b3f4e69f3adf990df25/summary\nConfirma fechas y
@@ -3866,11 +3901,11 @@ URL:https://www.golfdirecto.com/micro/game/6ae63b3f4e69f3adf990df25/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:0b4a2d911388fbb268e9@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270228
 DTEND;VALUE=DATE:20270301
 SUMMARY:Andalucia Day Flag Competition (Members)
-LOCATION:The San Roque Club
+LOCATION:The San Roque Club\, San Roque\, Cádiz
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   11 de septiembre\, cierra el 27 de febrero.\nFicha oficial: https://www.g
  olfdirecto.com/micro/game/6aa3c4c08b9e3b6bed77fbbd/summary\nConfirma fecha
@@ -3881,11 +3916,11 @@ URL:https://www.golfdirecto.com/micro/game/6aa3c4c08b9e3b6bed77fbbd/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:dba198754703b19faace@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270306
 DTEND;VALUE=DATE:20270307
 SUMMARY:Fourball Medal
-LOCATION:Desert Springs Golf Club
+LOCATION:Desert Springs Golf Club\, Las Cunas\, Almería
 DESCRIPTION:Social de club - Fourball - Parejas\nInscripción: abre el 23 d
  e noviembre\, cierra el 1 de marzo.\nFicha oficial: https://www.golfdirect
  o.com/micro/game/6b044834d2ed4f3d1c09e5f8/summary\nConfirma fechas y condi
@@ -3896,11 +3931,11 @@ URL:https://www.golfdirecto.com/micro/game/6b044834d2ed4f3d1c09e5f8/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:b287eb93d4c790f36340@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270313
 DTEND;VALUE=DATE:20270314
 SUMMARY:Desert Springs Waltz
-LOCATION:Desert Springs Golf Club
+LOCATION:Desert Springs Golf Club\, Las Cunas\, Almería
 DESCRIPTION:Social de club - Fourball - Parejas\nInscripción: abre el 24 d
  e noviembre\, cierra el 8 de marzo.\nFicha oficial: https://www.golfdirect
  o.com/micro/game/6b056459bbee5ec91a0bf8bc/summary\nConfirma fechas y condi
@@ -3911,11 +3946,11 @@ URL:https://www.golfdirecto.com/micro/game/6b056459bbee5ec91a0bf8bc/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:b31958d2a158f8c3ff3a@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270314
 DTEND;VALUE=DATE:20270315
 SUMMARY:Alamo Golf Society
-LOCATION:Aguilon Golf
+LOCATION:Aguilon Golf\, Pilar de Jaravia\, Almería
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   19 de octubre\, cierra el 13 de marzo.\nFicha oficial: https://www.golfdi
  recto.com/micro/game/6ad6075d6a3a1de0ecaa19d7/summary\nConfirma fechas y c
@@ -3926,11 +3961,11 @@ URL:https://www.golfdirecto.com/micro/game/6ad6075d6a3a1de0ecaa19d7/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:d059a80d381c5747647f@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270317
 DTEND;VALUE=DATE:20270318
 SUMMARY:St. Patrick'S Day Bowl
-LOCATION:Desert Springs Golf Club
+LOCATION:Desert Springs Golf Club\, Las Cunas\, Almería
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   24 de noviembre\, cierra el 12 de marzo.\nFicha oficial: https://www.golf
  directo.com/micro/game/6b05ae85cfb57efc147095c9/summary\nConfirma fechas y
@@ -3941,11 +3976,11 @@ URL:https://www.golfdirecto.com/micro/game/6b05ae85cfb57efc147095c9/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:426c93edd42887456e87@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270320
 DTEND;VALUE=DATE:20270321
 SUMMARY:Dc Memorial Trophy
-LOCATION:The San Roque Club
+LOCATION:The San Roque Club\, San Roque\, Cádiz
 DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
  //www.golfdirecto.com/micro/game/6aa433c706a21397eced9773/summary\nConfirm
  a fechas y condiciones en la web del organizador. Vía Banderín.
@@ -3955,11 +3990,11 @@ URL:https://www.golfdirecto.com/micro/game/6aa433c706a21397eced9773/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:57ce90c935e7f39affbf@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270325
 DTEND;VALUE=DATE:20270326
 SUMMARY:Captains Farewell (Members)
-LOCATION:The San Roque Club
+LOCATION:The San Roque Club\, San Roque\, Cádiz
 DESCRIPTION:Social de club - Fourball - Parejas\nFicha oficial: https://www
  .golfdirecto.com/micro/game/6aa4308e06a21397ec7ab4d2/summary\nConfirma fec
  has y condiciones en la web del organizador. Vía Banderín.
@@ -3969,11 +4004,11 @@ URL:https://www.golfdirecto.com/micro/game/6aa4308e06a21397ec7ab4d2/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:d21c18ad9371bd6b1e9a@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270327
 DTEND;VALUE=DATE:20270328
 SUMMARY:Captains Drive In
-LOCATION:The San Roque Club
+LOCATION:The San Roque Club\, San Roque\, Cádiz
 DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
  //www.golfdirecto.com/micro/game/6aa4314006a21397ec90e0c5/summary\nConfirm
  a fechas y condiciones en la web del organizador. Vía Banderín.
@@ -3983,11 +4018,11 @@ URL:https://www.golfdirecto.com/micro/game/6aa4314006a21397ec90e0c5/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:c4a1f9584ccfa8fed2f4@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270328
 DTEND;VALUE=DATE:20270329
 SUMMARY:The Easter Cup
-LOCATION:Desert Springs Golf Club
+LOCATION:Desert Springs Golf Club\, Las Cunas\, Almería
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   25 de noviembre\, cierra el 23 de marzo.\nFicha oficial: https://www.golf
  directo.com/micro/game/6b06b70c2638d23287fd39ba/summary\nConfirma fechas y
@@ -3998,11 +4033,11 @@ URL:https://www.golfdirecto.com/micro/game/6b06b70c2638d23287fd39ba/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:49bfb5071e71e63e246b@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270329
 DTEND;VALUE=DATE:20270330
 SUMMARY:Easter Monday Texas Captains Pick
-LOCATION:The San Roque Club
+LOCATION:The San Roque Club\, San Roque\, Cádiz
 DESCRIPTION:Social de club - Scramble - Parejas\nFicha oficial: https://www
  .golfdirecto.com/micro/game/6aa4321d06a21397ecae30b8/summary\nConfirma fec
  has y condiciones en la web del organizador. Vía Banderín.
@@ -4012,11 +4047,11 @@ URL:https://www.golfdirecto.com/micro/game/6aa4321d06a21397ecae30b8/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:d6a8f56a89427fe796fc@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270403
 DTEND;VALUE=DATE:20270405
 SUMMARY:The Club Championship
-LOCATION:Desert Springs Golf Club
+LOCATION:Desert Springs Golf Club\, Las Cunas\, Almería
 DESCRIPTION:Social de club - Medal Play - Individual\nInscripción: abre el
   25 de noviembre\, cierra el 29 de marzo.\nFicha oficial: https://www.golf
  directo.com/micro/game/6b06bc502638d23287a7967f/summary\nConfirma fechas y
@@ -4027,11 +4062,11 @@ URL:https://www.golfdirecto.com/micro/game/6b06bc502638d23287a7967f/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:1247fe5eda87ff339adb@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270404
 DTEND;VALUE=DATE:20270405
 SUMMARY:The Club Championship Stableford
-LOCATION:Desert Springs Golf Club
+LOCATION:Desert Springs Golf Club\, Las Cunas\, Almería
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   25 de noviembre\, cierra el 26 de noviembre.\nFicha oficial: https://www.
  golfdirecto.com/micro/game/6b06ef249b4f2a62b8510aaf/summary\nConfirma fech
@@ -4042,11 +4077,11 @@ URL:https://www.golfdirecto.com/micro/game/6b06ef249b4f2a62b8510aaf/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:f37633bd8be3d6935c20@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270408
 DTEND;VALUE=DATE:20270409
 SUMMARY:Captain´s Drive In/Dave´s Day
-LOCATION:Desert Springs Golf Club
+LOCATION:Desert Springs Golf Club\, Las Cunas\, Almería
 DESCRIPTION:Social de club - Scramble - Parejas\nInscripción: abre el 26 d
  e noviembre\, cierra el 3 de abril.\nFicha oficial: https://www.golfdirect
  o.com/micro/game/6b0819f533682f5705817e44/summary\nConfirma fechas y condi
@@ -4057,11 +4092,11 @@ URL:https://www.golfdirecto.com/micro/game/6b0819f533682f5705817e44/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:92a453ee6d502612f85c@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270409
 DTEND;VALUE=DATE:20270410
 SUMMARY:III The San Roque Club Masters 2027( Abierto / Open)
-LOCATION:The San Roque Club
+LOCATION:The San Roque Club\, San Roque\, Cádiz
 DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
  //www.golfdirecto.com/micro/game/69da0d13c25629fe68858bde/summary\nConfirm
  a fechas y condiciones en la web del organizador. Vía Banderín.
@@ -4071,11 +4106,11 @@ URL:https://www.golfdirecto.com/micro/game/69da0d13c25629fe68858bde/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:05c1546ec120ff6d87bc@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270410
 DTEND;VALUE=DATE:20270412
 SUMMARY:Indiana Masters
-LOCATION:Desert Springs Golf Club
+LOCATION:Desert Springs Golf Club\, Las Cunas\, Almería
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   26 de noviembre\, cierra el 5 de abril.\nFicha oficial: https://www.golfd
  irecto.com/micro/game/6b081b3ba705699f01a34be5/summary\nConfirma fechas y 
@@ -4086,11 +4121,11 @@ URL:https://www.golfdirecto.com/micro/game/6b081b3ba705699f01a34be5/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:901ae791b9a66022aad0@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270425
 DTEND;VALUE=DATE:20270426
 SUMMARY:6ª Prueba Circuito Academia
-LOCATION:Club Hato Verde
+LOCATION:Club Hato Verde\, Las Pajanosas\, Sevilla
 DESCRIPTION:Circuito comercial - Stableford - Individual\nInscripción: abr
  e el 17 de noviembre\, cierra el 24 de abril.\nFicha oficial: https://www.
  golfdirecto.com/micro/game/6afc78db669bd90e397667b1/summary\nConfirma fech
@@ -4101,11 +4136,11 @@ URL:https://www.golfdirecto.com/micro/game/6afc78db669bd90e397667b1/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:d77afd7242e49da24bf4@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270425
 DTEND;VALUE=DATE:20270426
 SUMMARY:6ª Prueba Metas Amigos de Hato Verde
-LOCATION:Club Hato Verde
+LOCATION:Club Hato Verde\, Las Pajanosas\, Sevilla
 DESCRIPTION:Social de club - Medal Play - Individual\nInscripción: abre el
   2 de septiembre\, cierra el 24 de abril.\nFicha oficial: https://www.golf
  directo.com/micro/game/6a98117b9678d915e8925d5b/summary\nConfirma fechas y
@@ -4116,11 +4151,11 @@ URL:https://www.golfdirecto.com/micro/game/6a98117b9678d915e8925d5b/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:12b9eb5d1807b9aeaabb@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270425
 DTEND;VALUE=DATE:20270426
 SUMMARY:April Stableford
-LOCATION:Desert Springs Golf Club
+LOCATION:Desert Springs Golf Club\, Las Cunas\, Almería
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   26 de noviembre\, cierra el 20 de abril.\nFicha oficial: https://www.golf
  directo.com/micro/game/6b0821dfa705699f017149e8/summary\nConfirma fechas y
@@ -4131,11 +4166,11 @@ URL:https://www.golfdirecto.com/micro/game/6b0821dfa705699f017149e8/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:0d0118c2fc0058139be9@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270508
 DTEND;VALUE=DATE:20270509
 SUMMARY:Member - Guest Tournament
-LOCATION:Desert Springs Golf Club
+LOCATION:Desert Springs Golf Club\, Las Cunas\, Almería
 DESCRIPTION:Circuito comercial - Scramble - Parejas\nInscripción: abre el 
  26 de noviembre\, cierra el 3 de mayo.\nFicha oficial: https://www.golfdir
  ecto.com/micro/game/6b08241c33682f5705c11d76/summary\nConfirma fechas y co
@@ -4146,11 +4181,11 @@ URL:https://www.golfdirecto.com/micro/game/6b08241c33682f5705c11d76/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:870af969e579d44d904c@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270515
 DTEND;VALUE=DATE:20270516
 SUMMARY:May Stableford
-LOCATION:Desert Springs Golf Club
+LOCATION:Desert Springs Golf Club\, Las Cunas\, Almería
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   26 de noviembre\, cierra el 10 de mayo.\nFicha oficial: https://www.golfd
  irecto.com/micro/game/6b083e8615c29579979c4102/summary\nConfirma fechas y 
@@ -4161,11 +4196,11 @@ URL:https://www.golfdirecto.com/micro/game/6b083e8615c29579979c4102/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:c5e07ff28456b1d0ad07@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270516
 DTEND;VALUE=DATE:20270517
 SUMMARY:7ª Prueba Circuito Academia
-LOCATION:Club Hato Verde
+LOCATION:Club Hato Verde\, Las Pajanosas\, Sevilla
 DESCRIPTION:Circuito comercial - Stableford - Individual\nInscripción: abr
  e el 17 de noviembre\, cierra el 15 de mayo.\nFicha oficial: https://www.g
  olfdirecto.com/micro/game/6afc79a5669bd90e399d8f4c/summary\nConfirma fecha
@@ -4176,11 +4211,11 @@ URL:https://www.golfdirecto.com/micro/game/6afc79a5669bd90e399d8f4c/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:029d9c7bab7fb4b7b5d1@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270516
 DTEND;VALUE=DATE:20270517
 SUMMARY:7ª Prueba Metas Amigos de Hato Verde
-LOCATION:Club Hato Verde
+LOCATION:Club Hato Verde\, Las Pajanosas\, Sevilla
 DESCRIPTION:Social de club - Medal Play - Individual\nInscripción: abre el
   8 de noviembre\, cierra el 15 de mayo.\nFicha oficial: https://www.golfdi
  recto.com/micro/game/6af0cce918fc8072fbc1942c/summary\nConfirma fechas y c
@@ -4191,11 +4226,11 @@ URL:https://www.golfdirecto.com/micro/game/6af0cce918fc8072fbc1942c/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:80951c04651c4ff1bfbb@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270523
 DTEND;VALUE=DATE:20270524
 SUMMARY:May Medal
-LOCATION:Desert Springs Golf Club
+LOCATION:Desert Springs Golf Club\, Las Cunas\, Almería
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   26 de noviembre\, cierra el 18 de mayo.\nFicha oficial: https://www.golfd
  irecto.com/micro/game/6b083f8115c2957997c4e057/summary\nConfirma fechas y 
@@ -4206,11 +4241,11 @@ URL:https://www.golfdirecto.com/micro/game/6b083f8115c2957997c4e057/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:ccc693afdf707ba8557e@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270606
 DTEND;VALUE=DATE:20270607
 SUMMARY:Gran Final Prueba Circuito Academia
-LOCATION:Club Hato Verde
+LOCATION:Club Hato Verde\, Las Pajanosas\, Sevilla
 DESCRIPTION:Circuito comercial - Stableford - Individual\nInscripción: abr
  e el 17 de noviembre\, cierra el 5 de junio.\nFicha oficial: https://www.g
  olfdirecto.com/micro/game/6afc79d8669bd90e39a42c86/summary\nConfirma fecha
@@ -4221,11 +4256,11 @@ URL:https://www.golfdirecto.com/micro/game/6afc79d8669bd90e39a42c86/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:81f8dabbfa2ffc93b042@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270606
 DTEND;VALUE=DATE:20270607
 SUMMARY:June Medal
-LOCATION:Desert Springs Golf Club
+LOCATION:Desert Springs Golf Club\, Las Cunas\, Almería
 DESCRIPTION:Social de club - Medal Play - Individual\nInscripción: abre el
   26 de noviembre\, cierra el 1 de junio.\nFicha oficial: https://www.golfd
  irecto.com/micro/game/6b0840b015c2957997f5deba/summary\nConfirma fechas y 
@@ -4236,11 +4271,11 @@ URL:https://www.golfdirecto.com/micro/game/6b0840b015c2957997f5deba/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:ad365ba3a23fa53c27d1@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270606
 DTEND;VALUE=DATE:20270607
 SUMMARY:Prueba Final Metas Amigos de Hato Verde
-LOCATION:Club Hato Verde
+LOCATION:Club Hato Verde\, Las Pajanosas\, Sevilla
 DESCRIPTION:Social de club - Medal Play - Individual\nInscripción: abre el
   2 de septiembre\, cierra el 29 de mayo.\nFicha oficial: https://www.golfd
  irecto.com/micro/game/6a9811be9678d915e8a88c62/summary\nConfirma fechas y 
@@ -4251,11 +4286,11 @@ URL:https://www.golfdirecto.com/micro/game/6a9811be9678d915e8a88c62/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:017c5bedf10d56a63275@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270612
 DTEND;VALUE=DATE:20270613
 SUMMARY:Director'S Trophy
-LOCATION:Desert Springs Golf Club
+LOCATION:Desert Springs Golf Club\, Las Cunas\, Almería
 DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
   26 de noviembre\, cierra el 7 de junio.\nFicha oficial: https://www.golfd
  irecto.com/micro/game/6b08428633682f5705a0d408/summary\nConfirma fechas y 

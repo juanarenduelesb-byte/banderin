@@ -11,11 +11,11 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:a78d122d8cdaba212c9e@banderin.es
-DTSTAMP:20261127T083339Z
+DTSTAMP:20261127T091023Z
 DTSTART;VALUE=DATE:20270509
 DTEND;VALUE=DATE:20270510
 SUMMARY:Campeonato de Aragón de Pitch & Putt 2027
-LOCATION:Las Ranillas Urban Club
+LOCATION:Las Ranillas Urban Club\, Zaragoza\, Zaragoza
 DESCRIPTION:Absoluto - Individual\nFicha oficial: https://www.aragongolf.co
  m/torneos-ficha/2019/\nConfirma fechas y condiciones en la web del organiz
  ador. Vía Banderín.
