@@ -55,6 +55,10 @@ def main():
 
     L = ['# Semana en Banderín',
          '',
+         f'**Resumen: el fin de semana del {f(sab)} y {f(dom)} hay {len(finde)} torneos en juego; en los próximos 14 días, {len(quince)}; '
+         f'en total en la web, {len(T)}. Comunidad con más torneos este finde: '
+         f'{por_cc.most_common(1)[0][0] if por_cc else "—"} ({por_cc.most_common(1)[0][1] if por_cc else 0}).**',
+         '',
          f'Generado el {f(hoy)} de {hoy.year} con los datos de la web (actualizados el {act}). '
          'Se regenera cada semana; úsalo para el contenido de redes y los avisos. '
          'Solo lista y fechas: nunca precios, jugadores ni resultados (acuerdo con Golf Directo).',

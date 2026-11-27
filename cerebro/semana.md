@@ -1,5 +1,7 @@
 # Semana en Banderín
 
+**Resumen: el fin de semana del sábado 28 nov y domingo 29 nov hay 184 torneos en juego; en los próximos 14 días, 403; en total en la web, 1151. Comunidad con más torneos este finde: Andalucía (60).**
+
 Generado el viernes 27 nov de 2026 con los datos de la web (actualizados el 2026-11-27). Se regenera cada semana; úsalo para el contenido de redes y los avisos. Solo lista y fechas: nunca precios, jugadores ni resultados (acuerdo con Golf Directo).
 
 ## Fin de semana del sábado 28 nov y domingo 29 nov
