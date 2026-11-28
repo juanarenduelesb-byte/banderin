@@ -18,3 +18,4 @@ Formato: D-número · fecha · decisión · motivo · estado. Solo Juan aprueba 
 - **D-014 · 27/11/2026 · Ningún agente escribe a terceros ni borra datos de usuarios.** Borradores y propuestas; Juan envía y aprueba. Aprobada.
 - **D-015 · 27/11/2026 · Las mejoras de la web las propone el estratega y solo se construyen con el «ok» de Juan** (etiqueta `aprobada` en la propuesta). Juan. Aprobada.
 - **D-016 · 27/11/2026 · Meta: 300 suscriptores activos antes del 1/03/2027.** Propuesta; [POR CONFIRMAR por Juan].
+- **D-017 · 28/11/2026 · La oficina trabaja con autonomía alta.** Los agentes deciden tono, formato, enfoque, datos y fechas sin preguntar y lo dicen en «He decidido». Las entregas de riesgo bajo o medio que pasa Calidad quedan aprobadas por el equipo; Juan solo da el OK en lo de riesgo alto, en lo que Calidad ve grave y en lo que solo él puede saber. Sigue en pie D-014: nada sale a terceros sin Juan. Juan. Aprobada.
