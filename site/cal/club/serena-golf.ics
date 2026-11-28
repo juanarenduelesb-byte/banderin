@@ -11,7 +11,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:9138a6246b584c1e2060@banderin.es
-DTSTAMP:20261128T022741Z
+DTSTAMP:20261128T144923Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Torneo Aniversario Escuela Torné
@@ -26,7 +26,7 @@ URL:https://www.golfdirecto.com/micro/game/6ae9d3872267c6230f916de9/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:86e0d43ba05c16dc7d14@banderin.es
-DTSTAMP:20261128T022741Z
+DTSTAMP:20261128T144923Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Celts' Club Championship 29/11/26
@@ -37,5 +37,33 @@ DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6b07e73fa705699f01accaba/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:74dc78e2a4ee7d91e900@banderin.es
+DTSTAMP:20261128T144923Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:Torneo Emboscaos 29/11
+LOCATION:Serena Golf\, Los Alcazares\, Murcia
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/6b0a95dc8c7ce25ee6704be6/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6b0a95dc8c7ce25ee6704be6/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:b9e1e4e53d1fc75f29fa@banderin.es
+DTSTAMP:20261128T144923Z
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261201
+SUMMARY:Sjgs Monday
+LOCATION:Serena Golf\, Los Alcazares\, Murcia
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/6b0a824c0a7cb5ba753cbde4/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6b0a824c0a7cb5ba753cbde4/summary
 END:VEVENT
 END:VCALENDAR

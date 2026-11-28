@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Banderin//Torneos de golf//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Banderín - Serres de Pals Golf & Sport Club
+X-WR-CALDESC:Torneos de golf: Serres de Pals Golf & Sport Club. Se actualiz
+ a cada mañana. https://banderin.es
+X-WR-TIMEZONE:Europe/Madrid
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:b7f029f2f30364da458c@banderin.es
+DTSTAMP:20261128T144923Z
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261206
+SUMMARY:Torneig de Nadal
+LOCATION:Serres de Pals Golf & Sport Club\, Pals\, Girona
+DESCRIPTION:Social de club - Fourball - Parejas\nFicha oficial: https://www
+ .golfdirecto.com/micro/game/6b0a9d0242942910b5fa21ca/summary\nConfirma fec
+ has y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6b0a9d0242942910b5fa21ca/summary
+END:VEVENT
+END:VCALENDAR

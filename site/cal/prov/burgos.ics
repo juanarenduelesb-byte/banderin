@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Banderin//Torneos de golf//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Banderín - Burgos
+X-WR-CALDESC:Torneos de golf: Burgos. Se actualiza cada mañana. https://ba
+ nderin.es
+X-WR-TIMEZONE:Europe/Madrid
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:cb9afb708ebdd4095ce6@banderin.es
+DTSTAMP:20261128T144923Z
+DTSTART;VALUE=DATE:20270313
+DTEND;VALUE=DATE:20270314
+SUMMARY:Jornada 3 - Liga Grow Golf Club
+LOCATION:Club de Golf de Lerma\, Lerma\, Burgos
+DESCRIPTION:Circuito comercial - Stableford - Individual\nFicha oficial: ht
+ tps://www.golfdirecto.com/micro/game/6b0a9b6ce06ca66a32f1bae1/summary\nCon
+ firma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6b0a9b6ce06ca66a32f1bae1/summary
+END:VEVENT
+END:VCALENDAR

@@ -11,7 +11,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:a19c4462848814a5a2e9@banderin.es
-DTSTAMP:20261128T022741Z
+DTSTAMP:20261128T144923Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Torneo Senior Otoño Costa del Sol
@@ -26,7 +26,7 @@ URL:https://www.nextcaddy.com/tour/61235
 END:VEVENT
 BEGIN:VEVENT
 UID:2bf87257404d192cb876@banderin.es
-DTSTAMP:20261128T022741Z
+DTSTAMP:20261128T144923Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:secret pairs ind. stableford
@@ -38,5 +38,35 @@ DESCRIPTION:Social de club - Stableford - Parejas\nInscripción: abre el 27
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 URL:https://www.nextcaddy.com/tour/75665
+END:VEVENT
+BEGIN:VEVENT
+UID:464043f6b78c305c92f8@banderin.es
+DTSTAMP:20261128T144923Z
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261201
+SUMMARY:Monday Club
+LOCATION:Santa María Golf & Country Club\, Marbella\, Málaga
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  28 de noviembre\, cierra el 28 de noviembre.\nPrecio: Gratis.\nFicha ofic
+ ial: https://www.nextcaddy.com/tour/75711\nConfirma fechas y condiciones e
+ n la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nextcaddy.com/tour/75711
+END:VEVENT
+BEGIN:VEVENT
+UID:606f90fb5b1aec8f479e@banderin.es
+DTSTAMP:20261128T144923Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
+SUMMARY:Tuesday Ladies
+LOCATION:Santa María Golf & Country Club\, Marbella\, Málaga
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  28 de noviembre\, cierra el 28 de noviembre.\nPrecio: Gratis.\nFicha ofic
+ ial: https://www.nextcaddy.com/tour/75715\nConfirma fechas y condiciones e
+ n la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nextcaddy.com/tour/75715
 END:VEVENT
 END:VCALENDAR

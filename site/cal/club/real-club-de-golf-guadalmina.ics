@@ -11,7 +11,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:100ff46b5a1c3566dee3@banderin.es
-DTSTAMP:20261128T022741Z
+DTSTAMP:20261128T144923Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Captains Cup & Dinner 4 Bbb Sur
@@ -25,8 +25,23 @@ STATUS:CONFIRMED
 URL:https://www.nextcaddy.com/tour/75660
 END:VEVENT
 BEGIN:VEVENT
+UID:c79bc8523106592b98ce@banderin.es
+DTSTAMP:20261128T144923Z
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261201
+SUMMARY:Hombres Ind Stb Sur 30.11.26
+LOCATION:Real Club de Golf Guadalmina\, Guadalmina\, Málaga
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  28 de noviembre\, cierra el 28 de noviembre.\nPrecio: Gratis.\nFicha ofic
+ ial: https://www.nextcaddy.com/tour/75708\nConfirma fechas y condiciones e
+ n la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nextcaddy.com/tour/75708
+END:VEVENT
+BEGIN:VEVENT
 UID:ba864d429521bd6c79b7@banderin.es
-DTSTAMP:20261128T022741Z
+DTSTAMP:20261128T144923Z
 DTSTART;VALUE=DATE:20261231
 DTEND;VALUE=DATE:20270101
 SUMMARY:Ranking Escuela 2026

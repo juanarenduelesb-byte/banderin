@@ -11,7 +11,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:7fa356b277b704c6acae@banderin.es
-DTSTAMP:20261128T022741Z
+DTSTAMP:20261128T144923Z
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261220
 SUMMARY:Torneo de Navidad
@@ -24,8 +24,22 @@ STATUS:CONFIRMED
 URL:https://www.golfdirecto.com/micro/game/6ac5f4c64865b8bb77afc948/summary
 END:VEVENT
 BEGIN:VEVENT
+UID:e4a91b47cdf2d25ca8fd@banderin.es
+DTSTAMP:20261128T144923Z
+DTSTART;VALUE=DATE:20270425
+DTEND;VALUE=DATE:20270426
+SUMMARY:Jornada 4 - Liga Grow Golf Club
+LOCATION:Air Golf Club\, Vegas de Matute\, Segovia
+DESCRIPTION:Circuito comercial - Stableford - Individual\nFicha oficial: ht
+ tps://www.golfdirecto.com/micro/game/6b0a9f9b007c19588d000fcf/summary\nCon
+ firma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6b0a9f9b007c19588d000fcf/summary
+END:VEVENT
+BEGIN:VEVENT
 UID:c8b6b0204137f92a3fbe@banderin.es
-DTSTAMP:20261128T022741Z
+DTSTAMP:20261128T144923Z
 DTSTART;VALUE=DATE:20270603
 DTEND;VALUE=DATE:20270604
 SUMMARY:Lcsc Entre Semana Match Play Jornada 4

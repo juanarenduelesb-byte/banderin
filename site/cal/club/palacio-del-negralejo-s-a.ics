@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Banderin//Torneos de golf//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Banderín - Palacio del Negralejo S.a.
+X-WR-CALDESC:Torneos de golf: Palacio del Negralejo S.a.. Se actualiza cada
+  mañana. https://banderin.es
+X-WR-TIMEZONE:Europe/Madrid
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:0430c19c9b3259f698b9@banderin.es
+DTSTAMP:20261128T144923Z
+DTSTART;VALUE=DATE:20270508
+DTEND;VALUE=DATE:20270509
+SUMMARY:Vivo Golf Tour - Jornada 3
+LOCATION:Palacio del Negralejo S.a.\, Madrid
+DESCRIPTION:Circuito comercial - Stableford - Individual\nFicha oficial: ht
+ tps://www.golfdirecto.com/micro/game/6b0aa39d0a7cb5ba75de19cb/summary\nCon
+ firma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6b0aa39d0a7cb5ba75de19cb/summary
+END:VEVENT
+END:VCALENDAR

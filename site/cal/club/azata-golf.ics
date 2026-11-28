@@ -1,0 +1,40 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Banderin//Torneos de golf//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Banderín - Azata Golf
+X-WR-CALDESC:Torneos de golf: Azata Golf. Se actualiza cada mañana. https:
+ //banderin.es
+X-WR-TIMEZONE:Europe/Madrid
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:7c00dc947dbc884dbad4@banderin.es
+DTSTAMP:20261128T144923Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:Ranking VIII Azata 1ª Categoría
+LOCATION:Azata Golf\, Estepona\, Málaga
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.nextcaddy.com/tour/75712\nConfirma fechas y condiciones en la web de
+ l organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nextcaddy.com/tour/75712
+END:VEVENT
+BEGIN:VEVENT
+UID:eb6feb076f4d104a3bbc@banderin.es
+DTSTAMP:20261128T144923Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:Ranking VIII Azata 2ª Categoría
+LOCATION:Azata Golf\, Estepona\, Málaga
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.nextcaddy.com/tour/75713\nConfirma fechas y condiciones en la web de
+ l organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.nextcaddy.com/tour/75713
+END:VEVENT
+END:VCALENDAR

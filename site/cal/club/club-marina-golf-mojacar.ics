@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Banderin//Torneos de golf//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Banderín - Club Marina Golf-Mojacar
+X-WR-CALDESC:Torneos de golf: Club Marina Golf-Mojacar. Se actualiza cada m
+ añana. https://banderin.es
+X-WR-TIMEZONE:Europe/Madrid
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:be873d3d2cedd79e870e@banderin.es
+DTSTAMP:20261128T144923Z
+DTSTART;VALUE=DATE:20261220
+DTEND;VALUE=DATE:20261221
+SUMMARY:Torneo de Navidad 2026
+LOCATION:Club Marina Golf-Mojacar\, Mojacar\, Almería
+DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
+  28 de noviembre\, cierra el 19 de diciembre.\nFicha oficial: https://www.
+ golfdirecto.com/micro/game/6b0ac71c007c19588d63b122/summary\nConfirma fech
+ as y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6b0ac71c007c19588d63b122/summary
+END:VEVENT
+END:VCALENDAR
