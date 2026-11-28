@@ -3,25 +3,94 @@ VERSION:2.0
 PRODID:-//Banderin//Torneos de golf//ES
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:Banderín - Golf Santander S A
-X-WR-CALDESC:Torneos de golf: Golf Santander S A. Se actualiza cada mañana
- . https://banderin.es
+X-WR-CALNAME:Banderín - Golf Santander S.a.
+X-WR-CALDESC:Torneos de golf: Golf Santander S.a.. Se actualiza cada mañan
+ a. https://banderin.es
 X-WR-TIMEZONE:Europe/Madrid
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:96f2f6af6b02543e11ad@banderin.es
-DTSTAMP:20261127T215553Z
+UID:3c6e8e865f6197486b1f@banderin.es
+DTSTAMP:20261128T022741Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
-SUMMARY:Final Liga Universitaria
-LOCATION:Golf Santander S A\, Boadilla del Monte\, Madrid
-DESCRIPTION:Universitario - Stableford - Individual\nInscripción: abre el 
- 16 de noviembre\, cierra el 25 de noviembre.\nPrecio: 21 €.\nFicha ofici
- al: https://www.nextcaddy.com/tour/74596\nConfirma fechas y condiciones en
-  la web del organizador. Vía Banderín.
+SUMMARY:IX Torneo de Par en Par
+LOCATION:Golf Santander S.a.\, Boadilla del Monte\, Madrid
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/6b0814036549a3fb78ef0626/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-URL:https://www.nextcaddy.com/tour/74596
+URL:https://www.golfdirecto.com/micro/game/6b0814036549a3fb78ef0626/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:5f9cdacabdfdc1aa5f86@banderin.es
+DTSTAMP:20261128T022741Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:Tres Cantos Vs Golfdegolfos
+LOCATION:Golf Santander S.a.\, Boadilla del Monte\, Madrid
+DESCRIPTION:Social de club - Stableford - Individual\nFicha oficial: https:
+ //www.golfdirecto.com/micro/game/6af1fb152f0e9df18b7a1968/summary\nConfirm
+ a fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6af1fb152f0e9df18b7a1968/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:df33c4dc41c2adc8bc74@banderin.es
+DTSTAMP:20261128T022741Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
+SUMMARY:VII (Envio) Memorial Beatriz Valdes
+LOCATION:Golf Santander S.a.\, Boadilla del Monte\, Madrid
+DESCRIPTION:Social de club - Fourball - Parejas\nFicha oficial: https://www
+ .golfdirecto.com/micro/game/6b0812fa33682f5705927b78/summary\nConfirma fec
+ has y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6b0812fa33682f5705927b78/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:2fbe91602e2ba990704e@banderin.es
+DTSTAMP:20261128T022741Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
+SUMMARY:VII Memorial Beatriz Valdes
+LOCATION:Golf Santander S.a.\, Boadilla del Monte\, Madrid
+DESCRIPTION:Social de club - Fourball - Parejas\nFicha oficial: https://www
+ .golfdirecto.com/micro/game/6b08133d15c295799752eda9/summary\nConfirma fec
+ has y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6b08133d15c295799752eda9/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:dbe7b460c638260f4f39@banderin.es
+DTSTAMP:20261128T022741Z
+DTSTART;VALUE=DATE:20261202
+DTEND;VALUE=DATE:20261203
+SUMMARY:VII Memorial Beatriz Valdes 2ª Jornada (Copia)
+LOCATION:Golf Santander S.a.\, Boadilla del Monte\, Madrid
+DESCRIPTION:Social de club - Fourball - Parejas\nFicha oficial: https://www
+ .golfdirecto.com/micro/game/6b08136a33682f57059e3911/summary\nConfirma fec
+ has y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6b08136a33682f57059e3911/summary
+END:VEVENT
+BEGIN:VEVENT
+UID:f76e23a14c681abc1503@banderin.es
+DTSTAMP:20261128T022741Z
+DTSTART;VALUE=DATE:20270123
+DTEND;VALUE=DATE:20270124
+SUMMARY:Circuito Grow Sports (Final 2026)
+LOCATION:Golf Santander S.a.\, Boadilla del Monte\, Madrid
+DESCRIPTION:Circuito comercial - Stableford - Individual\nFicha oficial: ht
+ tps://www.golfdirecto.com/micro/game/6b09675d97848ac1daf19364/summary\nCon
+ firma fechas y condiciones en la web del organizador. Vía Banderín.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+URL:https://www.golfdirecto.com/micro/game/6b09675d97848ac1daf19364/summary
 END:VEVENT
 END:VCALENDAR

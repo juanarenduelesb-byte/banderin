@@ -10,23 +10,8 @@ X-WR-TIMEZONE:Europe/Madrid
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:436b655e9aadbe8db27d@banderin.es
-DTSTAMP:20261127T215553Z
-DTSTART;VALUE=DATE:20261127
-DTEND;VALUE=DATE:20261128
-SUMMARY:Liga Abonados Viernes 27/11/26
-LOCATION:Montecastillo Barceló Golf Club\, Jerez de la Frontera\, Cádiz
-DESCRIPTION:Social de club - Medal Play - Individual\nInscripción: abre el
-  27 de noviembre\, cierra el 27 de noviembre.\nPrecio: Gratis.\nFicha ofic
- ial: https://www.nextcaddy.com/tour/75670\nConfirma fechas y condiciones e
- n la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.nextcaddy.com/tour/75670
-END:VEVENT
-BEGIN:VEVENT
 UID:a5416099b53488c464c7@banderin.es
-DTSTAMP:20261127T215553Z
+DTSTAMP:20261128T022741Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Campeonato Andalucía MASC Categoría Mid Amateur

@@ -10,23 +10,8 @@ X-WR-TIMEZONE:Europe/Madrid
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:371b0a9454dda6ab6c7d@banderin.es
-DTSTAMP:20261127T215553Z
-DTSTART;VALUE=DATE:20261127
-DTEND;VALUE=DATE:20261128
-SUMMARY:SAS Stableford Eclectic - 106060
-LOCATION:Club de Golf el Plantio\, Bacarot\, Alicante
-DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
-  12 de noviembre\, cierra el 25 de noviembre.\nFicha oficial: https://www.
- golfdirecto.com/micro/game/6aef08a6ec94b7c14e4d55ca/summary\nConfirma fech
- as y condiciones en la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.golfdirecto.com/micro/game/6aef08a6ec94b7c14e4d55ca/summary
-END:VEVENT
-BEGIN:VEVENT
 UID:d5c2b8bf7211397507e8@banderin.es
-DTSTAMP:20261127T215553Z
+DTSTAMP:20261128T022741Z
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261220
 SUMMARY:Torneo el Pavo - Navidad en Parejas
@@ -41,7 +26,7 @@ URL:https://www.golfdirecto.com/micro/game/6afefe06fa1568a5cd9d153a/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:80f00682b5f0355eb72f@banderin.es
-DTSTAMP:20261127T215553Z
+DTSTAMP:20261128T022741Z
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261220
 SUMMARY:Torneo la Gallina - Navidad en Parejas
@@ -56,7 +41,7 @@ URL:https://www.golfdirecto.com/micro/game/6b0448019bf25f6176804d0f/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:c9c49fd0ab2d950a25a5@banderin.es
-DTSTAMP:20261127T215553Z
+DTSTAMP:20261128T022741Z
 DTSTART;VALUE=DATE:20270122
 DTEND;VALUE=DATE:20270123
 SUMMARY:El Plantio Stableford

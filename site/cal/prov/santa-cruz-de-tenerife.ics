@@ -11,10 +11,10 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:ff3b3240f5997c5c4b6a@banderin.es
-DTSTAMP:20261127T215553Z
+DTSTAMP:20261128T022741Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
-SUMMARY:7ª Prueba Circuito Familiar Canarias (Copia)
+SUMMARY:7ª Prueba Circuito Familiar Canarias
 LOCATION:Real Club de Golf Tenerife\, Tacoronte\, Santa Cruz de Tenerife
 DESCRIPTION:Circuito comercial - Greensome - Parejas\nFicha oficial: https:
  //www.golfdirecto.com/micro/game/6b043255d2ed4f3d1cfedc67/summary\nConfirm
@@ -25,7 +25,7 @@ URL:https://www.golfdirecto.com/micro/game/6b043255d2ed4f3d1cfedc67/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:d88a25d38f44dde331f8@banderin.es
-DTSTAMP:20261127T215553Z
+DTSTAMP:20261128T022741Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:Members 2026
@@ -39,7 +39,7 @@ URL:https://www.golfdirecto.com/micro/game/6afeae6bfa1568a5cd5e0222/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:bb9ec9efcc21f2679bca@banderin.es
-DTSTAMP:20261127T215553Z
+DTSTAMP:20261128T022741Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:XXXII Torneo Aniversario Golf Los Palos
@@ -53,7 +53,7 @@ URL:https://www.golfdirecto.com/micro/game/6af48f259292980794dfde99/summary
 END:VEVENT
 BEGIN:VEVENT
 UID:04e82d37f1b4aa7bdf91@banderin.es
-DTSTAMP:20261127T215553Z
+DTSTAMP:20261128T022741Z
 DTSTART;VALUE=DATE:20261226
 DTEND;VALUE=DATE:20261227
 SUMMARY:Torneo de Navidad

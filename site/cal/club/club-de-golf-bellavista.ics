@@ -10,23 +10,8 @@ X-WR-TIMEZONE:Europe/Madrid
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:959e077f54cebd8696ba@banderin.es
-DTSTAMP:20261127T215553Z
-DTSTART;VALUE=DATE:20261127
-DTEND;VALUE=DATE:20261128
-SUMMARY:Torneo Jubilados y Simpatizantes Navidad 2026
-LOCATION:Club de Golf Bellavista\, Aljaraque\, Huelva
-DESCRIPTION:Social de club - Stableford - Individual\nInscripción: abre el
-  25 de noviembre\, cierra el 25 de noviembre.\nPrecio: Gratis.\nFicha ofic
- ial: https://www.nextcaddy.com/tour/75599\nConfirma fechas y condiciones e
- n la web del organizador. Vía Banderín.
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-URL:https://www.nextcaddy.com/tour/75599
-END:VEVENT
-BEGIN:VEVENT
 UID:6cff6b2c0221ac68e875@banderin.es
-DTSTAMP:20261127T215553Z
+DTSTAMP:20261128T022741Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
 SUMMARY:Final Circuito Senior
@@ -40,7 +25,7 @@ URL:https://www.nextcaddy.com/tour/61254
 END:VEVENT
 BEGIN:VEVENT
 UID:de1e28076a0771e49f71@banderin.es
-DTSTAMP:20261127T215553Z
+DTSTAMP:20261128T022741Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:V Open de Huelva
@@ -55,7 +40,7 @@ URL:https://www.nextcaddy.com/tour/75652
 END:VEVENT
 BEGIN:VEVENT
 UID:830445cf7b3d44ce461c@banderin.es
-DTSTAMP:20261127T215553Z
+DTSTAMP:20261128T022741Z
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
 SUMMARY:5ª Jornada Lpgh XXVI Edición. (Dunas-Bellavista)

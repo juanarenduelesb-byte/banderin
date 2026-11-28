@@ -11,10 +11,10 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:ff3b3240f5997c5c4b6a@banderin.es
-DTSTAMP:20261127T215553Z
+DTSTAMP:20261128T022741Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
-SUMMARY:7ª Prueba Circuito Familiar Canarias (Copia)
+SUMMARY:7ª Prueba Circuito Familiar Canarias
 LOCATION:Real Club de Golf Tenerife\, Tacoronte\, Santa Cruz de Tenerife
 DESCRIPTION:Circuito comercial - Greensome - Parejas\nFicha oficial: https:
  //www.golfdirecto.com/micro/game/6b043255d2ed4f3d1cfedc67/summary\nConfirm
