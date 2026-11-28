@@ -765,7 +765,7 @@ async function work(task,a,extra,brain){
   var r=await S.sample(prompt,{modelTier:task.tier||'default'});
   return r.text;
 }
-var QA_MAX=4;
+var QA_MAX=4,QA_LOOP=8; /* QA_LOOP: rondas máximas sin preguntar a Juan (tope de seguridad) */
 var QA_CRIT=[['criterio','Cumple el criterio de aceptación y el encargo, punto por punto'],['completo','Está completo: no faltan partes pedidas ni quedan secciones vacías'],['veracidad','No inventa datos, cifras, empresas, personas ni fuentes; lo que falta va como [POR CONFIRMAR]; hecho, hipótesis y propuesta separados'],['coherencia','Es coherente con cerebro/decisiones.md, el plan y lo ya entregado en el proyecto'],['nivel','Nivel de un senior: concreto, accionable, sin relleno ni obviedades'],['forma','Formato y voz de Banderín: conclusión primero, estructura clara, español de España, cifras en formato español']];
 var QA_CAT={criterio:'Antes de entregar, repasa el encargo y el criterio de aceptación punto por punto y asegúrate de cubrir cada uno.',completo:'No entregues secciones vacías ni a medias: si algo no se puede completar, di por qué y márcalo [POR CONFIRMAR].',veracidad:'Cada cifra, norma o fuente lleva su origen (ruta del cerebro o documento del proyecto) o se marca [POR CONFIRMAR]; nunca inventes.',coherencia:'Antes de entregar, comprueba que no contradices cerebro/decisiones.md, el plan ni lo ya entregado en el proyecto; si discrepas, dilo explícitamente.',nivel:'Escribe a nivel senior: concreto, con ejemplos y pasos accionables; quita relleno y obviedades.',forma:'Conclusión primero, estructura clara con títulos, frases cortas, español de España y cifras en formato español.',riesgo:'Nunca prometas ni prepares acciones externas (envíos, pagos, firmas) sin marcarlas como pendientes de aprobación humana.'};
 function qaTxt(q){return (q.problemas||[]).map(function(p){return typeof p==='string'?p:p.problema}).join('; ')}
@@ -773,14 +773,15 @@ function fmtN(x){return (Math.round((+x||0)*10)/10).toString().replace('.',',')}
 async function qa(t,out,ronda,prev){
   var q=ag('calj');S.working.calj=1;render();
   try{
-    var r=await S.sample.json(agentContext(q,BRN?qaBrain(t):null)+ctxExtra({project:t.project,text:t.text})+'\n\nERES EL REVISOR MÁS EXIGENTE DE BANDERÍN. Nada llega a Juan sin tu OK. Revisa esta entrega con la rúbrica, sin regalar puntos: un 5 es impecable, un 4 es bueno sin fallos relevantes, un 3 tiene fallos que Juan vería.\nEncargo: "'+t.text.slice(0,3000)+'"\nCriterio de aceptación: "'+((t.ceo&&t.ceo.criterio)||'que responda al encargo completo')+'"\nRonda '+(ronda||1)+' de '+QA_MAX+'.'+(prev&&prev.length?'\nEn rondas anteriores pediste corregir:\n'+prev.map(function(p,i){return 'Ronda '+(i+1)+': '+p.problemas.map(function(x){return x.problema}).join('; ')}).join('\n')+'\nComprueba uno por uno que están corregidos.':'')+
+    var r=await S.sample.json(agentContext(q,BRN?qaBrain(t):null)+ctxExtra({project:t.project,text:t.text})+'\n\nERES EL REVISOR MÁS EXIGENTE DE BANDERÍN. Nada llega a Juan sin tu OK. Revisa esta entrega con la rúbrica, sin regalar puntos: un 5 es impecable, un 4 es bueno sin fallos relevantes, un 3 tiene fallos que Juan vería.\nEncargo: "'+t.text.slice(0,3000)+'"\nCriterio de aceptación: "'+((t.ceo&&t.ceo.criterio)||'que responda al encargo completo')+'"\nRonda '+(ronda||1)+'.'+(prev&&prev.length?'\nEn rondas anteriores pediste corregir:\n'+prev.map(function(p,i){return 'Ronda '+(i+1)+': '+p.problemas.map(function(x){return x.problema}).join('; ')}).join('\n')+'\nComprueba uno por uno que están corregidos.':'')+
+      '\n\nCÓMO REVISAS (para que el equipo pueda terminar): sé coherente entre rondas. No reabras lo que ya no señalaste ni pidas lo contrario de lo que pediste antes; no cambies de criterio. Señala solo problemas reales que Juan notaría, no preferencias de estilo; nunca inventes un problema para justificar una nota. Las decisiones anotadas en «He decidido» son válidas salvo que choquen con el cerebro o el encargo. Si lo que pediste está corregido y no queda nada grave, dalo por bueno.'+
       '\n\nRÚBRICA (puntúa cada criterio de 1 a 5):\n'+QA_CRIT.map(function(c){return '- '+c[0]+': '+c[1]}).join('\n')+
       '\n\nENTREGA:\n"""'+String(out).slice(0,16000)+'"""\n\nResponde SOLO JSON: {"puntos": {"criterio": n, "completo": n, "veracidad": n, "coherencia": n, "nivel": n, "forma": n}, "problemas": [{"categoria": "criterio|completo|veracidad|coherencia|nivel|forma|riesgo", "gravedad": "grave|media|leve", "problema": "qué está mal, concreto", "donde": "sección o frase", "arreglo": "cómo arreglarlo"}], "nota": "una frase"}',{modelTier:'default'});
     if(!r||typeof r!=='object')return null;
     var P=r.puntos||{},vals=QA_CRIT.map(function(c){var v=+P[c[0]];return isFinite(v)?Math.max(1,Math.min(5,v)):1}),media=vals.reduce(function(a,b){return a+b},0)/vals.length;
     var probs=(Array.isArray(r.problemas)?r.problemas:[]).filter(function(x){return x&&(x.problema||typeof x==='string')}).map(function(x){return typeof x==='string'?{categoria:'criterio',gravedad:'media',problema:x}:{categoria:QA_CAT[x.categoria]?x.categoria:'criterio',gravedad:/grave|media|leve/.test(x.gravedad)?x.gravedad:'media',problema:String(x.problema).slice(0,400),donde:String(x.donde||'').slice(0,160),arreglo:String(x.arreglo||'').slice(0,300)}});
-    // Regla fija (código): todos los criterios ≥ 4, media ≥ 4,5 y ningún problema grave ni medio.
-    var cumple=vals.every(function(v){return v>=4})&&media>=4.5&&!probs.some(function(x){return x.gravedad!=='leve'});
+    // Regla fija (código): nada grave, como mucho un problema medio, ningún criterio por debajo de 3 y media ≥ 4.
+    var cumple=vals.every(function(v){return v>=3})&&media>=4&&!probs.some(function(x){return x.gravedad==='grave'})&&probs.filter(function(x){return x.gravedad==='media'}).length<=1;
     if(!cumple&&!probs.length)probs=QA_CRIT.filter(function(c,i){return vals[i]<4}).map(function(c,i){return {categoria:c[0],gravedad:'media',problema:'Puntuación baja en '+c[0]+': '+c[1]}});
     return {cumple:cumple,media:media,puntos:QA_CRIT.reduce(function(o,c,i){o[c[0]]=vals[i];return o},{}),problemas:probs,nota:String(r.nota||'').slice(0,300),ronda:ronda||1};
   }catch(e){try{console.warn('Banderín · fallo de Calidad',e)}catch(_){}return null}finally{delete S.working.calj;render()}
@@ -853,7 +854,7 @@ async function run(id,extra){
       // Calidad exigente: hasta QA_MAX rondas. Decide el código (rúbrica), no el modelo. Sin su OK no llega a Juan.
       QA_REFS[id]=brain.refs;
       /* Tope de rondas: si Juan ya ha decidido tras un atasco, una sola revisión y le llega igual; contenido de redes, 2 rondas */
-      var tq=S.tasks[id]||{},qaMax=tq.qaJuan?1:(tq.qk||/\b(reel|carrusel|story|publicaci[oó]n)\b/i.test(tq.text||''))?2:QA_MAX;
+      var tq=S.tasks[id]||{},qaMax=tq.qaJuan?1:AUTONOMIA==='alta'?QA_LOOP:QA_MAX;
       for(var ronda=1;ronda<=qaMax;ronda++){
         t=clone(S.tasks[id]);t.result=out;t.status='revision';lg(t,'Calidad revisa (ronda '+ronda+' de '+qaMax+')');await put('tasks',id,t);
         q=await qaTalk(t,out,a,ronda,rondas);
@@ -887,9 +888,9 @@ async function run(id,extra){
     t=Object.assign(clone(S.tasks[id]),{result:out,read:brain.refs,qa:q,qaRounds:rondas.length,qaBlocked:0,done:now(),version:(S.tasks[id].version||0)+1});
     if(dv){t.deliv=dv.id;lg(t,'Entregable listo: '+VE.KINDS[dv.kind].n+' v'+dv.version)}
     // Todo lo que pasa Calidad llega a Juan: aprueba o rechaza (y si rechaza, se rehace aprendiendo).
-    var autoOk=AUTONOMIA==='alta'&&!t.forceOk&&t.decision!=='ESCALAR'&&(!t.risk||t.risk==='bajo'||t.risk==='medio')&&!(q&&q.sinRevisar)&&!(typeof qaGrave!=='undefined'&&qaGrave);
+    var autoOk=AUTONOMIA==='alta'&&!t.forceOk&&t.decision!=='ESCALAR'&&(!t.risk||t.risk==='bajo'||t.risk==='medio')&&!(q&&q.sinRevisar)&&!(q&&!q.cumple);
     t.status=S.sample&&!autoOk?'aprob':'hecha';if(autoOk&&S.sample){t.autoOk=1}
-    if(typeof qaGrave!=='undefined'&&qaGrave){t.qaNotas=1;lg(t,'Calidad sigue viendo algo grave tras '+rondas.length+' rondas: te lo paso para que decidas tú')}
+    if(q&&!q.cumple&&!q.sinRevisar){t.qaNotas=1;lg(t,'Calidad no lo ha aprobado tras '+rondas.length+' rondas (tope de seguridad): te lo paso para que decidas tú')}
     if(q&&q.sinRevisar)t.qaSkip=1;else if(q&&!q.cumple){t.qaNotas=1;delete t.qaJuan}else delete t.qaJuan;
     lg(t,(q&&q.sinRevisar?'Calidad no ha podido revisarlo por un fallo técnico: revísalo tú antes de dar el OK. ':q&&!q.cumple?'Llega con notas de Calidad (nota '+fmtN(q.media)+'/5, nada grave o ya lo decidiste tú): mira sus notas antes de dar el OK. ':q?'Calidad: CUMPLE en la ronda '+rondas.length+' (nota '+fmtN(q.media)+'/5). ':'')+(t.status==='aprob'?'Versión '+t.version+' · espera tu OK':t.autoOk?'Aprobado por el equipo (riesgo '+(t.risk||'bajo')+'): listo para usar. Si no te convence, pide un cambio':'Entregado'));
     await put('tasks',id,t);
