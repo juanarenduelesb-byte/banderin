@@ -1,15 +1,15 @@
 # Semana en Banderín
 
-**Resumen: el fin de semana del sábado 28 nov y domingo 29 nov hay 184 torneos en juego; en los próximos 14 días, 403; en total en la web, 1151. Comunidad con más torneos este finde: Andalucía (60).**
+**Resumen: el fin de semana del sábado 28 nov y domingo 29 nov hay 192 torneos en juego; en los próximos 14 días, 454; en total en la web, 1140. Comunidad con más torneos este finde: Andalucía (65).**
 
-Generado el viernes 27 nov de 2026 con los datos de la web (actualizados el 2026-11-27). Se regenera cada semana; úsalo para el contenido de redes y los avisos. Solo lista y fechas: nunca precios, jugadores ni resultados (acuerdo con Golf Directo).
+Generado el sábado 28 nov de 2026 con los datos de la web (actualizados el 2026-11-28). Se regenera cada semana; úsalo para el contenido de redes y los avisos. Solo lista y fechas: nunca precios, jugadores ni resultados (acuerdo con Golf Directo).
 
 ## Fin de semana del sábado 28 nov y domingo 29 nov
 
-- 184 torneos en juego. En los próximos 14 días: 403. En total en la web: 1151.
-- Por comunidad: Andalucía 60, Cataluña 25, Región de Murcia 22, Comunidad de Madrid 17, Galicia 17, Comunitat Valenciana 14, Castilla y León 8, Illes Balears 7, Castilla-La Mancha 6, País Vasco 2, Principado de Asturias 1, Canarias 1, Aragón 1, Cantabria 1, Extremadura 1, La Rioja 1.
-- Provincias con más torneos: Murcia 22, Málaga 21, Cádiz 17, Madrid 17, Girona 13, Alicante 12, Tarragona 8, Illes Balears 7.
-- Por tipo: Social de club 112, Juvenil 39, Circuito comercial 13, Senior 5, Clubes y equipos 5, Profesional 4.
+- 192 torneos en juego. En los próximos 14 días: 454. En total en la web: 1140.
+- Por comunidad: Andalucía 65, Cataluña 26, Región de Murcia 23, Comunidad de Madrid 17, Galicia 17, Comunitat Valenciana 13, Castilla y León 9, Illes Balears 8, Castilla-La Mancha 6, País Vasco 2, Principado de Asturias 1, Canarias 1, Aragón 1, Cantabria 1, Extremadura 1, La Rioja 1.
+- Provincias con más torneos: Málaga 24, Murcia 23, Cádiz 18, Madrid 17, Girona 13, Alicante 11, Tarragona 9, Illes Balears 8.
+- Por tipo: Social de club 120, Juvenil 39, Circuito comercial 13, Profesional 5, Senior 5, Clubes y equipos 4.
 
 ## Torneos del fin de semana por comunidad
 
@@ -26,9 +26,10 @@ Generado el viernes 27 nov de 2026 con los datos de la web (actualizados el 2026
 - sábado 28 nov: 3ª Jornada VIII Liga Junior P&P Golf Otoño 2026-2027 (Escuela Pública la Cartuja, Sevilla) · Juvenil · Stableford
 - sábado 28 nov: 7ª Prueba Ranking Social 28/11/26 (Sancti Petri Hills Golf, Cádiz) · Social de club · Stableford
 - sábado 28 nov: Amigosmiraflroes2811 (Miraflores Golf, Málaga) · Social de club · Stableford
-- … y 48 más.
+- … y 53 más.
 
 ### Cataluña
+- jueves 26 nov: ProAm 2027 Smart Sport Reisen (Infinitum Golf, Tarragona) · Profesional · Stableford
 - sábado 28 nov: 2A Prova Lliga D'Hivern 9 Forats (Golf Taradell, Barcelona) · Social de club · Sin indicar
 - sábado 28 nov: 2N Torneig Black Friday (Torremirona Golf Club, Girona) · Social de club · Sin indicar
 - sábado 28 nov: Campionat de Catalunya Interclubs Absolut 2026 (Golf Club Peralada, Girona) · Clubes y equipos · Foursome
@@ -40,23 +41,22 @@ Generado el viernes 27 nov de 2026 con los datos de la web (actualizados el 2026
 - sábado 28 nov: Final Junior & Baby Cup Stroke Play (Emporda Golf Club, Girona) · Juvenil · Medal Play
 - sábado 28 nov: Final del Circuit GalaxyGolf 2026 HILLS (Infinitum Golf, Tarragona) · Social de club · Stableford
 - sábado 28 nov: Final del Circuit GalaxyGolf 2026 HILLS&LAKES (Infinitum Golf, Tarragona) · Social de club · Stableford
-- sábado 28 nov: Gastronòmic de Restaurants by Gastronòmic Golf (Gaudí Golf Club, Tarragona) · Social de club · Stableford
-- … y 13 más.
+- … y 14 más.
 
 ### Región de Murcia
 - viernes 27 nov: Gran Final Santa Elena Golf PGA de España (Santa Elena Golf Club, Murcia) · Profesional · Medal Play
 - sábado 28 nov: Adultos 6 Hoyos Escuela Noviembre (Club de Golf Altorreal, Murcia) · Juvenil · Stableford
 - sábado 28 nov: Adultos 9 Hoyos Noviembre (Club de Golf Altorreal, Murcia) · Social de club · Stableford
 - sábado 28 nov: Final 13 Gt 2026 (Mar Menor Golf, Murcia) · Social de club · Stableford
-- sábado 28 nov: Final 13 Gt 2026 (Solo Comida y Entrega de Premios) (Mar Menor Golf, Murcia) · Social de club · Stableford
 - sábado 28 nov: Niños 6/3/1 Hoyos Ega Noviembre (Club de Golf Altorreal, Murcia) · Juvenil · Medal Play
 - sábado 28 nov: Niños 9 Hoyos Noviembre (Club de Golf Altorreal, Murcia) · Juvenil · Stableford
+- sábado 28 nov: Onda Cero 28.11.2026 (Real la Manga Club, Murcia) · Social de club · Stableford
 - sábado 28 nov: Santa Elena - PGA tournament (Santa Elena Golf Club, Murcia) · Profesional · Stableford
 - sábado 28 nov: Stableford (El Valle Golf, Murcia) · Social de club · Stableford
 - sábado 28 nov: Torneo Agua Salá (Real la Manga Club, Murcia) · Social de club · Stableford
 - sábado 28 nov: Torneo Aniversario Escuela Torné (Serena Golf, Murcia) · Juvenil · Stableford
 - sábado 28 nov: Torneo Navidad Alhama Signature (Alhama Signature, Murcia) · Social de club · Stableford
-- … y 10 más.
+- … y 11 más.
 
 ### Comunidad de Madrid
 - sábado 28 nov: Campeonato Social 28/11/2026 (Real Club de Golf las Rozas de Madrid, Madrid) · Social de club · Stableford
@@ -90,7 +90,6 @@ Generado el viernes 27 nov de 2026 con los datos de la web (actualizados el 2026
 
 ### Comunitat Valenciana
 - viernes 27 nov: XXX Campeonato Absoluto de la Comunitat Valenciana (Club de Golf Font del Llop, Alicante) · Social de club · Medal Play
-- sábado 28 nov: Campeonato Clubes sin Campo CV (Meliá Villaitana Golf, Alicante) · Clubes y equipos · Sin indicar
 - sábado 28 nov: Copa de Otoño 2026 (Altea Club de Golf, Alicante) · Social de club · Stableford
 - sábado 28 nov: Fuera de Limites Vistabella (Vistabella Golf Club, Alicante) · Social de club · Stableford
 - sábado 28 nov: Ryder / Solheim P&P (Escuela de Golf Elche, Alicante) · Absoluto · Sin indicar
@@ -101,13 +100,15 @@ Generado el viernes 27 nov de 2026 con los datos de la web (actualizados el 2026
 - domingo 29 nov: Golf Holanda 9 Hoyos (Vistabella Golf Club, Alicante) · Social de club · Stableford
 - domingo 29 nov: Sunday Competition (Campo de Golf Villamartin, Alicante) · Social de club · Stableford
 - domingo 29 nov: Texas Scramble Champion Of Champions -105840 (Club de Golf de Bonalba, Alicante) · Social de club · Scramble
-- … y 2 más.
+- domingo 29 nov: Torneo Iniciación - 5ªcategoría (Panoramica Golf, Sports & Resort, Castellón) · Social de club · Stableford
+- … y 1 más.
 
 ### Castilla y León
 - sábado 28 nov: 4ª Prueba IX Liguilla Benjamín y Alevín de Castilla y León (Club Deportivo Golf Sotoverde, Valladolid) · Juvenil · Medal Play
 - sábado 28 nov: Golf Getafe Series_4° Prueba (Club de Golf Entrepinos, Valladolid) · Circuito comercial · Medal Play
 - sábado 28 nov: II Ryder Club de Campo la Galera (Club de Campo la Galera, Valladolid) · Social de club · Fourball
-- sábado 28 nov: Ryder Aldeamayor 2026 (Aldeamayor Club de Golf, Valladolid) · Social de club · Greensome
+- sábado 28 nov: Match'S Octavos Arturo Vs Jar (Desempate 2) (Club de Golf Entrepinos, Valladolid) · Social de club · Match Play
+- sábado 28 nov: Ryder Aldeamayor 2026 (Aldeamayor Club de Golf, Valladolid) · Social de club · Foursome
 - sábado 28 nov: V Torneo Copa Presidente (La Valmuza Golf, Salamanca) · Social de club · Medal Play
 - domingo 29 nov: LIGA INFANTIL 18 hoyos -1ª jornada (Club de Golf Entrepinos, Valladolid) · Juvenil · Stableford
 - domingo 29 nov: LIGA INFANTIL 9 hoyos 1ª jornada (Club de Golf Entrepinos, Valladolid) · Juvenil · Stableford
@@ -115,6 +116,7 @@ Generado el viernes 27 nov de 2026 con los datos de la web (actualizados el 2026
 
 ### Illes Balears
 - sábado 28 nov: Liga Otoño 2026 - Jornada 6 (Golf Ibiza, Illes Balears) · Social de club · Stableford
+- sábado 28 nov: Mens Day (Club de Golf Son Servera, Illes Balears) · Social de club · Stableford
 - sábado 28 nov: Torneo Competidores (Club Son Quint Golf, Illes Balears) · Social de club · Stableford
 - sábado 28 nov: VI Prueba Circuito Hexagonal - Qromia 2026 (Son Muntaner Golf, Illes Balears) · Circuito comercial · Stableford
 - domingo 29 nov: Sunday Funday (Club de Golf Capdepera, Illes Balears) · Social de club · Stableford
@@ -138,7 +140,7 @@ Generado el viernes 27 nov de 2026 con los datos de la web (actualizados el 2026
 - sábado 28 nov: VI Liga Apartamentos la Necora J 1 (Club de Golf Luarca, Asturias) · Social de club · Stableford
 
 ### Canarias
-- sábado 28 nov: 7ª Prueba Circuito Familiar Canarias (Copia) (Real Club de Golf Tenerife, Santa Cruz de Tenerife) · Circuito comercial · Greensome
+- sábado 28 nov: 7ª Prueba Circuito Familiar Canarias (Real Club de Golf Tenerife, Santa Cruz de Tenerife) · Circuito comercial · Greensome
 
 ### Aragón
 - sábado 28 nov: Torneo PXG (Arcosur Golf, Zaragoza) · Social de club · Stableford
@@ -154,12 +156,12 @@ Generado el viernes 27 nov de 2026 con los datos de la web (actualizados el 2026
 
 ## Cambios recientes
 
-- Retirado: Signature Tournament - Otoño / Autumn (Club de Golf la Reserva de Sotogrande)
-- Retirado: XXX Campeonato Absoluto de la Comunitat Valenciana (Club de Golf Font del Llop)
-- Retirado: Gran Final Santa Elena Golf PGA de España (Santa Elena Golf Club)
-- Retirado: 18 Hoyos Niños Torneo Ega Noviembre (Club de Golf Altorreal)
-- Retirado: Torneig Feliços 80 (Golf Club Peralada)
-- Retirado: XXXII Torneo de Golf Miramar (Parador Málaga del Golf)
+- Retirado: Ryder Aldeamayor 2026 (Aldeamayor Club de Golf)
+- Retirado: Forumgs271126 (Aguilon Golf)
+- Retirado: friendly (Club de Golf de Bonalba)
+- Retirado: Final 13 Gt 2026 (Solo Comida y Entrega de Premios) (Mar Menor Golf)
+- Retirado: Nadal 2026 (Club de Golf Ria de Vigo)
+- Retirado: Christmas Party (Golf Lleida & Country Club)
 - Retirado: ProAm 2027 Smart Sport Reisen (Infinitum Golf)
 - Retirado: Jóvenes Golfistas de Navidad: Torneo Juvenil Papá Noel (Sherry Golf Jerez)
 - Retirado: Pequeños Golfistas de Navidad: Torneo Infantil Papá Noel (P&P) (Sherry Golf Jerez)
