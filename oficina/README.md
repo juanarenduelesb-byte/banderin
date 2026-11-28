@@ -20,7 +20,7 @@ En pantallas de menos de 760 px la oficina abre en modo rápido: botones grandes
 
 ## Producción de verdad (vídeos e imágenes)
 - Los encargos de reel, publicación, carrusel y story nacen con `prodEstado: "pendiente"`. El botón **Producir** lo pide para cualquier contenido ya escrito.
-- La tarea programada **Productor** (`agentes/tareas/productor.md`, cada 2 horas de 9 a 23) los coge aunque la oficina esté cerrada: escribe el guion si falta, crea el MP4 con el motor de reels o las láminas con `marketing/carrusel/hacer.py`, los sube como archivos del artefacto y los deja en `prodMedia`.
+- La tarea programada **Productor** (`agentes/tareas/productor.md`, a las 9, 15 y 21) los coge aunque la oficina esté cerrada: escribe el guion si falta, crea el MP4 con el motor de reels o las láminas con `marketing/carrusel/hacer.py`, los sube como archivos del artefacto y los deja en `prodMedia`.
 - La oficina los enseña arriba del encargo (vídeo con reproductor, galería de láminas) con **Descargar** y **Descargar todo**.
 - El Productor también hace los encargos de texto que se queden en cola más de 30 minutos con la oficina cerrada.
 

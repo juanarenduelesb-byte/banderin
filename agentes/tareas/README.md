@@ -10,6 +10,7 @@ Cada agente es una tarea programada de Claude (claude.ai → Tareas programadas)
 | Analista | Lunes 08:16 | trig_018uLTXM33xWgtKG7YGzDzkB |
 | Posicionamiento | Días 1 y 15, 11:07 | trig_01Wa6bLfhTTwQheoXdUhAcgz |
 | Comercial | Días 8 y 22, 11:43 | trig_01DLDUzXzRFMEThciYKwhatN |
+| Productor de la oficina (vídeos, imágenes, Instagram) | Todos los días 09:07, 15:07 y 21:07 | trig_01XctiLVWnRqKRrYnYLXNHRi |
 | Estratega | Jueves 10:51 | trig_019bprbDWpKC5qpQ3GQazeBz |
 
 Para cambiar lo que hace un agente, cambia su archivo aquí o su ficha en `org.json` (y regenera): la tarea programada solo apunta a estos archivos.

@@ -2198,7 +2198,7 @@ function prodText(t){var Q=QUICK[t.qk]||{n:'Contenido'};return 'Produce este '+Q
 function isContent(t){return t&&t.result&&(QK_TIPOS.indexOf(t.qk)>=0||/\b(reel|carrusel|story|stories|publicaci[oó]n)\b/i.test(t.text||''))}
 function doProduce(id){var t=S.tasks[id];if(!t)return;if(t.prodEstado==='pendiente'||t.prodEstado==='produciendo'){toast('Ya está en producción');return}
   var x=clone(t);x.prodEstado='pendiente';x.prodPedido=now();x.prodMsg='';lg(x,'Pedido al Productor: crear '+((QUICK[t.qk]||{n:'la pieza'}).n.toLowerCase())+' de verdad');put('tasks',id,x);
-  toast('En cola del Productor: lo crea en las próximas 2 horas, aunque cierres la oficina.');setTimeout(function(){if(q('drawer').classList.contains('on'))openTask(id)},300)}
+  toast('En cola del Productor: lo crea en su próxima pasada (9, 15 o 21 h), aunque cierres la oficina.');setTimeout(function(){if(q('drawer').classList.contains('on'))openTask(id)},300)}
 function copyProd(id,host){var t=S.tasks[id];if(!t)return;var tx=prodText(t);
   var fallback=function(){var b=document.createElement('div');b.className='prodbox';b.innerHTML='<p class="hint">Cópialo a mano y pégalo en el chat con Claude:</p><textarea readonly></textarea>';b.querySelector('textarea').value=tx;(host||q('drawer')).appendChild(b);var ta=b.querySelector('textarea');ta.focus();ta.select()};
   try{navigator.clipboard.writeText(tx).then(function(){toast('Copiado. Pégalo en el chat con Claude y lo produzco.')}).catch(fallback)}catch(e){fallback()}
@@ -2215,7 +2215,7 @@ function confirmInline(b){if(b.dataset.sure)return true;b.dataset.sure=1;b.textC
 function murl(m){var u=String(m.url||'');return /^https:\/\//.test(u)||/^\/_blob\//.test(u)?u:'/_blob/'+encodeURIComponent(m.id||'')}
 function igLine(t){if(!t.igEstado)return '';if(t.igEstado==='programado'){var d=t.igFecha?new Date(t.igFecha):null;return 'Programado en Instagram'+(d&&!isNaN(d)?' para el '+DSEM[d.getDay()]+' '+d.getDate()+' a las '+String(d.getHours()).padStart(2,'0')+':'+String(d.getMinutes()).padStart(2,'0'):'')+'. Si no lo quieres, quítalo en Metricool antes.'}
   return t.igEstado==='sin-conexion'?'Listo, pero no se ha programado: falta conectar Instagram en Metricool':t.igEstado==='caducada'?'No se ha programado: sus datos ya han caducado':t.igEstado==='error'?'No se pudo programar en Instagram: '+(t.igMsg||'error'):''}
-function prodLine(t){var ig=igLine(t);return ig?ig:t.prodEstado==='pendiente'?'En cola del Productor (cada 2 horas, aunque cierres la oficina)':t.prodEstado==='produciendo'?'El Productor lo está creando ahora':t.prodEstado==='error'?'No se pudo producir: '+(t.prodMsg||'error'):''}
+function prodLine(t){var ig=igLine(t);return ig?ig:t.prodEstado==='pendiente'?'En cola del Productor (pasa a las 9, 15 y 21, aunque cierres la oficina)':t.prodEstado==='produciendo'?'El Productor lo está creando ahora':t.prodEstado==='error'?'No se pudo producir: '+(t.prodMsg||'error'):''}
 function mediaHTML(t,big){var M=(t.prodMedia||[]).filter(function(m){return m.tipo!=='portada'}),h='';
   var pl=prodLine(t);if(pl)h+='<p class="prodst '+(t.prodEstado==='error'||t.igEstado==='error'?'err':'')+'">'+esc(pl)+(t.igUrl&&/^https:\/\//.test(t.igUrl)?' <a href="'+esc(t.igUrl)+'" target="_blank" rel="noopener">Ver en Metricool</a>':'')+'</p>';
   if(!M.length)return h;
@@ -2253,7 +2253,7 @@ function renderMob(){renderCalD();if(!q('mBody'))return;
       '<div class="free"><textarea id="mTxt" placeholder="O escríbelo tú: «ideas para un reel de Navidad»"></textarea><button type="button" id="mGo">Pedir</button></div>'+
       (run_.length?'<h2>En marcha</h2>'+run_.slice(0,4).map(mCard).join(''):'')+
       (wt.length?'<h2>Te esperan <span class="n">'+wt.length+'</span></h2>'+wt.slice(0,2).map(mCard).join(''):'')+
-      '<p class="note">Reels, publicaciones, carruseles y stories se crean de verdad: el equipo escribe el guion y el Productor hace el vídeo o las imágenes y los deja aquí para ver y descargar. El Productor pasa cada 2 horas de 9 a 23, aunque cierres la oficina.</p>'+
+      '<p class="note">Reels, publicaciones, carruseles y stories se crean de verdad: el equipo escribe el guion y el Productor hace el vídeo o las imágenes y los deja aquí para ver y descargar. El Productor pasa a las 9, 15 y 21, aunque cierres la oficina.</p>'+
       '<button type="button" class="full-btn" id="mFull">Abrir la oficina completa</button>'}
   else if(mTab==='esperan'){h='<h1>Te esperan</h1>'+(wt.length?wt.map(mCard).join(''):'<p class="empty">Nada pendiente. Todo al día.</p>')+(run_.length?'<h2>En marcha</h2>'+run_.map(mCard).join(''):'')}
   else if(mTab==='equipo'){var W=A.filter(function(a){return agentState(a.id)==='work'}).length;
