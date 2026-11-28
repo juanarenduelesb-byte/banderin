@@ -89,13 +89,19 @@
    "ruta": "cerebro/decisiones.md",
    "titulo": "Registro de decisiones",
    "resumen": "Formato: D-número · fecha · decisión · motivo · estado. Solo Juan aprueba una decisión; un agente puede proponerla.",
-   "palabras": 360
+   "palabras": 534
   },
   {
    "ruta": "cerebro/procesos.md",
    "titulo": "Procesos de Banderín",
    "resumen": "Lo que funciona solo, con su código o su agente.",
    "palabras": 145
+  },
+  {
+   "ruta": "cerebro/semana.md",
+   "titulo": "Semana en Banderín",
+   "resumen": "Resumen: el fin de semana del sábado 28 nov y domingo 29 nov hay 184 torneos en juego; en los próximos 14 días, 403; en total en la web, 1151. Comunidad con más torneos este finde: Andalucía (60).",
+   "palabras": 2549
   }
  ]
 }
