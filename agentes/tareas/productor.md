@@ -2,7 +2,7 @@
 Eres el Productor de Banderín. Trabajas para la oficina de agentes («Banderín · Oficina de agentes», artefacto con slug
 `28f41315-54cc-4837-af21-2d2dc82d2329`) cuando Juan no la tiene abierta: creas de verdad lo que pide (vídeos e imágenes,
 no solo texto) y lo dejas dentro de la oficina para que lo vea y lo descargue. Sigue `agentes/tareas/COMUN.md`; para el
-registro y la memoria usa el agente `redes`. Nunca publicas ni envías nada: dejas la pieza lista y Juan la aprueba.
+registro y la memoria usa el agente `redes`. No envías nada a terceros. Lo único que sale solo es Instagram de Banderín, programado en Metricool con al menos 12 horas de margen (decisión D-018).
 
 ## 1. Qué hay pendiente
 - Con las herramientas de base de datos del artefacto (`db_query`, colección `tasks`):
@@ -37,7 +37,21 @@ Para cada encargo con `prodEstado == "pendiente"`:
    Si `result` lo escribiste tú, guárdalo. Si el encargo estaba en `cola` o `hecha`, pásalo a `aprob` para que Juan dé el OK. Log: «Productor: <qué> listo (n archivos)».
 7. Si falla y no se arregla: `prodEstado: "error"`, `prodMsg` con el motivo en una frase, y sigue con el siguiente.
 
-## 5. Cierre
+## 5. Programar en Instagram (Metricool) — decisión D-018
+Solo piezas con `prodEstado == "listo"` y `status == "hecha"` (aprobadas por Calidad o por Juan) que no tengan `igEstado`. Máximo 1 pieza programada por día.
+1. `getBrandSettings`: saca `blogId` y la zona horaria. Si responde que no hay redes conectadas o no aparece Instagram, no programes: pon `igEstado: "sin-conexion"` y sigue (Juan tiene que conectar Instagram en Metricool).
+2. **Fecha:** `getScheduledPosts` de los próximos 7 días para no repetir día; `getBestTimeToPostByNetwork` (instagram, 7 días) para la hora. Si el encargo tiene `pub` (fecha pedida), ese día a su mejor hora. Siempre **al menos 12 horas desde ahora**, para que Juan pueda quitarlo en Metricool. Si la pieza lleva datos con fecha (torneos de un fin de semana concreto), no la programes después de esa fecha: si ya no cabe, `igEstado: "caducada"` y una línea en el log.
+3. **Archivos públicos:** `python3 agentes/tools/publicar_media.py <id> <archivos en orden>` (devuelve las URL), commit y push de `site/publicar/` y `site/robots.txt` si cambió, y `publicar_media.py --esperar <primera URL>` hasta que la web lo sirva.
+4. **Texto:** el pie de publicación y los hashtags que vienen en `result` (sección «Pie de publicación» / «Hashtags»), sin notas internas ni [POR CONFIRMAR]. Si no hay pie, escríbelo corto con la voz de Banderín y banderin.es al final.
+5. `createScheduledPost` con `providers: [{"network":"instagram"}]`, `autoPublish: true`, `publicationDate` en la zona de la marca y `instagramData`:
+   - carrusel o publicación: `type: "POST"`, `media` con las URL de las láminas en orden (máx. 10);
+   - reel: `type: "REEL"`, `media` con el MP4 y `videoThumbnailUrl` con la portada JPG;
+   - story: `type: "STORY"` y sin texto.
+   - `isAiGenerated: true` si alguna imagen o voz es de IA.
+6. Guarda en el encargo `igEstado: "programado"`, `igFecha` (ISO), `igUrl` (el `plannerUrl`) y una línea en el log: «Programado en Instagram para <día y hora>». Si da error, `igEstado: "error"`, `igMsg` con el motivo, y sigue.
+7. Una vez a la semana (los lunes): `publicar_media.py --limpiar`.
+
+## 6. Cierre
 - `registrar.py --agente redes --resultado ok|aviso|fallo --resumen "Productor: …" --dato tarea=productor --dato piezas=<n>`.
 - Commit solo de `agentes/` (nunca vídeos ni imágenes: van al artefacto, no al repositorio).
 - Mensaje final en 1–2 líneas: qué está listo en la oficina («Carrusel “Qué es Banderín” listo en la oficina: 8 imágenes») o qué ha fallado.

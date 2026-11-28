@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
+Disallow: /publicar/
 
 Sitemap: https://banderin.es/sitemap.xml

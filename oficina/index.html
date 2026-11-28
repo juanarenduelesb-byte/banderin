@@ -2213,9 +2213,11 @@ function addProduce(dr,t){
 function confirmInline(b){if(b.dataset.sure)return true;b.dataset.sure=1;b.textContent='¿Rehacer? Toca otra vez';setTimeout(function(){delete b.dataset.sure;b.textContent='Producir otra vez'},4000);return false}
 /* Galería de lo producido: ver y descargar */
 function murl(m){var u=String(m.url||'');return /^https:\/\//.test(u)||/^\/_blob\//.test(u)?u:'/_blob/'+encodeURIComponent(m.id||'')}
-function prodLine(t){return t.prodEstado==='pendiente'?'En cola del Productor (cada 2 horas, aunque cierres la oficina)':t.prodEstado==='produciendo'?'El Productor lo está creando ahora':t.prodEstado==='error'?'No se pudo producir: '+(t.prodMsg||'error'):''}
+function igLine(t){if(!t.igEstado)return '';if(t.igEstado==='programado'){var d=t.igFecha?new Date(t.igFecha):null;return 'Programado en Instagram'+(d&&!isNaN(d)?' para el '+DSEM[d.getDay()]+' '+d.getDate()+' a las '+String(d.getHours()).padStart(2,'0')+':'+String(d.getMinutes()).padStart(2,'0'):'')+'. Si no lo quieres, quítalo en Metricool antes.'}
+  return t.igEstado==='sin-conexion'?'Listo, pero no se ha programado: falta conectar Instagram en Metricool':t.igEstado==='caducada'?'No se ha programado: sus datos ya han caducado':t.igEstado==='error'?'No se pudo programar en Instagram: '+(t.igMsg||'error'):''}
+function prodLine(t){var ig=igLine(t);return ig?ig:t.prodEstado==='pendiente'?'En cola del Productor (cada 2 horas, aunque cierres la oficina)':t.prodEstado==='produciendo'?'El Productor lo está creando ahora':t.prodEstado==='error'?'No se pudo producir: '+(t.prodMsg||'error'):''}
 function mediaHTML(t,big){var M=(t.prodMedia||[]).filter(function(m){return m.tipo!=='portada'}),h='';
-  var pl=prodLine(t);if(pl)h+='<p class="prodst '+(t.prodEstado==='error'?'err':'')+'">'+esc(pl)+'</p>';
+  var pl=prodLine(t);if(pl)h+='<p class="prodst '+(t.prodEstado==='error'||t.igEstado==='error'?'err':'')+'">'+esc(pl)+(t.igUrl&&/^https:\/\//.test(t.igUrl)?' <a href="'+esc(t.igUrl)+'" target="_blank" rel="noopener">Ver en Metricool</a>':'')+'</p>';
   if(!M.length)return h;
   var poster=(t.prodMedia||[]).find(function(m){return m.tipo==='portada'});
   h+='<p class="sec">'+(M.some(function(m){return m.tipo==='video'})?'Vídeo':'Imágenes')+' · listo para descargar</p><div class="gal'+(big?' big':'')+'">'+M.map(function(m,i){var u=esc(murl(m));
@@ -2232,7 +2234,7 @@ function isMob(){return MQ.matches&&!document.body.classList.contains('fullui')}
 function mIcon(p){return '<span class="ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="'+p+'"/></svg></span>'}
 function mCard(t){var a=ag(t.agent)||{n:'El equipo'},s=ST[t.status]||[t.status],M=(t.prodMedia||[]),th=M.find(function(m){return m.tipo==='portada'})||M.find(function(m){return m.tipo==='imagen'}),vid=M.some(function(m){return m.tipo==='video'});
   return '<div class="card">'+(th?'<button type="button" class="thumb" data-mv="'+t.id+'"><img src="'+esc(murl(th))+'" alt="">'+(vid?'<span class="play">▶</span>':'')+'<span class="n">'+(vid?'Vídeo':M.length+' imágenes')+'</span></button>':'')+
-    '<small><b>'+esc(a.n)+'</b> · <span class="pill">'+esc(s[0])+'</span>'+(t.prodEstado&&t.prodEstado!=='listo'?' <span class="pill pr'+(t.prodEstado==='error'?' err':'')+'">'+(t.prodEstado==='error'?'Error al producir':'Produciendo')+'</span>':'')+'</small><p>'+esc((t.title||t.text||'').slice(0,110))+'</p><div class="r">'+
+    '<small><b>'+esc(a.n)+'</b> · <span class="pill">'+esc(s[0])+'</span>'+(t.igEstado==='programado'?' <span class="pill">Programado en Instagram</span>':'')+(t.prodEstado&&t.prodEstado!=='listo'?' <span class="pill pr'+(t.prodEstado==='error'?' err':'')+'">'+(t.prodEstado==='error'?'Error al producir':'Produciendo')+'</span>':'')+'</small><p>'+esc((t.title||t.text||'').slice(0,110))+'</p><div class="r">'+
     (t.status==='aprob'?'<button type="button" class="g" data-mok="'+t.id+'">Dar el OK</button>':'')+
     (RUNNING_ST[t.status]&&!INFLIGHT[t.id]&&!S.working[t.agent]&&/^No se pudo trabajar/.test(((t.log||[]).slice(-1)[0]||{}).m||'')?'<button type="button" class="g" data-mr="'+t.id+'">Reintentar</button>':'')+
     '<button type="button" data-mv="'+t.id+'">'+(t.status==='preg'?'Responder':'Ver')+'</button>'+(isContent(t)&&(t.status==='hecha'||t.status==='aprob')&&!t.prodEstado?'<button type="button" data-mp="'+t.id+'">Producir</button>':'')+'</div></div>'}
